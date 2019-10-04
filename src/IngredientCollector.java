@@ -1,10 +1,20 @@
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.ProtocolException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.commons.io.FilenameUtils;
 import org.eclipse.jdt.core.dom.ASTNode;
 import org.eclipse.jdt.core.dom.ASTVisitor;
 import org.eclipse.jdt.core.dom.CompilationUnit;
 import org.eclipse.jdt.core.dom.Expression;
+import org.eclipse.jdt.core.dom.TypeDeclaration;
 
 public class IngredientCollector extends ASTVisitor {
 	private static IngredientCollector ingredientCollector;
@@ -62,6 +72,5 @@ public class IngredientCollector extends ASTVisitor {
 		fixingIngredient.endLine = patchGenerator.compilationUnit.getLineNumber(node.getStartPosition()+node.getLength());
 		fixingIngredient.type = modelExtractor.getNodeType(node);
 		this.fixingIngredients.add(fixingIngredient);
-		
-	} 
+	} 	
 }

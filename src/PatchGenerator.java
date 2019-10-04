@@ -2,6 +2,9 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -75,11 +78,12 @@ public class PatchGenerator {
 		parser.setStatementsRecovery(true);
 		parser.setKind(ASTParser.K_COMPILATION_UNIT);
 		parser.setResolveBindings(true);
-		parser.setEnvironment(new String[] {}, new String[] {}, null, true);
+//		parser.setBindingsRecovery(true);
+//		parser.setEnvironment(new String[0], new String[] {"ACS"}, null, true);
 		parser.setUnitName("file.java");
 		this.compilationUnit = (CompilationUnit) parser.createAST(null);
 
-		this.compilationUnit.accept(new VariableCollector());
+//		this.compilationUnit.accept(new VariableCollector());
 		this.compilationUnit.accept(ingredientCollector);
 //		System.out.println("INGREDIENT");
 //		System.out.println(this.ingredientCollector.fixingIngredients.size());
@@ -98,16 +102,17 @@ public class PatchGenerator {
 //			System.out.println(faultyNode);
 //			this.generatePatchTemplate(faultyNode);
 		}
-////		candidatePatchesList = new ArrayList<CandidatePatch>(candidatePatchesSet);
-//	    Collections.sort(this.candidatePatchesList);
-//
-		this.writeCandidatePatches();
-////		System.out.println((long)15*60*1000000000);
+//////		candidatePatchesList = new ArrayList<CandidatePatch>(candidatePatchesSet);
+////	    Collections.sort(this.candidatePatchesList);
+////
+//		this.writeCandidatePatches();
+//////		System.out.println((long)15*60*1000000000);
 		this.correctPatchFound = false;
-//		System.out.println(this.candidatePatchesList.size() +" Patches Generated");
+		System.out.println(this.candidatePatchesList.size() +" Patches Generated");
 		for(int i=0; i<this.candidatePatchesList.size(); i++) { //candidatePatches.size()
 //			long currentTime = System.nanoTime();
 //			System.out.println("Patch no: "+(i+1)+ " ");
+//			System.out.println(this.candidatePatchesList.get(i).toString()+"\n");
 //			
 //			if((currentTime - startingTime) >= (long)30*60*1000000000) {
 //				System.out.println("time-up!!!!!!!!!!!!!!!!");
@@ -125,19 +130,18 @@ public class PatchGenerator {
 				break;
 //				correctPatchFound = false;
 			}
-//			//				if(count==574) {
-//			//					break;
-//			//				}
-//			//				break;
-//			//				System.out.println(document.get());
 		}
-		
+//		if(correctPatchFound==false) {
+//			file.delete();
+//		}
 //		System.out.println(this.correctPatches + " Correct Patches Found");
 	}
 	
+	
+	
 	void writeCandidatePatches() {
 		String fileNameWithOutExtension = FilenameUtils.removeExtension(this.file.getName());
-		File newfile = new File("codrep/patch/Dataset1/"+fileNameWithOutExtension+".csv");
+		File newfile = new File("dataset/patch/"+fileNameWithOutExtension+".csv");
 		try {
 			FileWriter fileWrite = new FileWriter(newfile.getAbsolutePath());
 			for(int i=0; i<this.candidatePatchesList.size(); i++) {

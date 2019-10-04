@@ -14,7 +14,7 @@ public class FaultLocalizer {
 	}
 	
 	void localizeFault(String filename) {
-		try (BufferedReader br = new BufferedReader(new FileReader("codrep/fault location/Dataset1/"+filename+".txt"))) {
+		try (BufferedReader br = new BufferedReader(new FileReader("dataset/fault location/"+filename))) {
 			String line;
 		    while ((line = br.readLine()) != null) {
 		    	faultyLine = Integer.parseInt(line);

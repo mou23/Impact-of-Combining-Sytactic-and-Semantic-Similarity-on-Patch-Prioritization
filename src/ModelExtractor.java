@@ -360,9 +360,9 @@ public class ModelExtractor {
 		if(node.getNodeType()==ASTNode.ANNOTATION_TYPE_MEMBER_DECLARATION) {
 			return "ANNOTATION_TYPE_MEMBER_DECLARATION";
 		}
-		//		if(node.getNodeType()==ASTNode.ANONYMOUS_CLASS_DECLARATION) {
-		//			return "ANONYMOUS_CLASS_DECLARATION";
-		//		}
+		if(node.getNodeType()==ASTNode.ANONYMOUS_CLASS_DECLARATION) {
+			return "ANONYMOUS_CLASS_DECLARATION";
+		}
 		if(node.getNodeType()==ASTNode.ARRAY_ACCESS) {
 			return "ARRAY_ACCESS";
 		}
@@ -381,12 +381,13 @@ public class ModelExtractor {
 		if(node.getNodeType()==ASTNode.ASSIGNMENT) {
 			return "ASSIGNMENT";
 		}
+		
 		if(node.getNodeType()==ASTNode.BLOCK) {
 			return "BLOCK";
 		}
-		//		if(node.getNodeType()==ASTNode.BLOCK_COMMENT) {
-		//			return "ANNOTATION_TYPE_DECLARATION";
-		//		}
+		if(node.getNodeType()==ASTNode.BLOCK_COMMENT) {
+			return "ANNOTATION_TYPE_DECLARATION";
+		}
 		if(node.getNodeType()==ASTNode.BOOLEAN_LITERAL) {
 			return "BOOLEAN_LITERAL";
 		}
@@ -405,9 +406,9 @@ public class ModelExtractor {
 		if(node.getNodeType()==ASTNode.CLASS_INSTANCE_CREATION) {
 			return "CLASS_INSTANCE_CREATION";
 		}
-		//		if(node.getNodeType()==ASTNode.COMPILATION_UNIT) {
-		//			return "COMPILATION_UNIT";
-		//		}
+		if(node.getNodeType()==ASTNode.COMPILATION_UNIT) {
+			return "COMPILATION_UNIT";
+		}
 		if(node.getNodeType()==ASTNode.CONDITIONAL_EXPRESSION) {
 			return "CONDITIONAL_EXPRESSION";
 		}
@@ -420,11 +421,14 @@ public class ModelExtractor {
 		if(node.getNodeType()==ASTNode.CREATION_REFERENCE) {
 			return "CREATION_REFERENCE";
 		}
-		//		if(node.getNodeType()==ASTNode.DIMENSION) {
-		//			return "DIMENSION";
-		//		}
+		if(node.getNodeType()==ASTNode.DIMENSION) {
+			return "DIMENSION";
+		}
 		if(node.getNodeType()==ASTNode.DO_STATEMENT) {
 			return "DO_STATEMENT";
+		}
+		if(node.getNodeType()==ASTNode.EMPTY_STATEMENT) {
+			return "EMPTY_STATEMENT";
 		}
 		if(node.getNodeType()==ASTNode.ENHANCED_FOR_STATEMENT) {
 			return "ENHANCED_FOR_STATEMENT";
@@ -456,6 +460,9 @@ public class ModelExtractor {
 		if(node.getNodeType()==ASTNode.IF_STATEMENT) {
 			return "IF_STATEMENT";
 		}
+		if(node.getNodeType()==ASTNode.IMPORT_DECLARATION) {
+			return "IMPORT_DECLARATION";
+		}
 		if(node.getNodeType()==ASTNode.INFIX_EXPRESSION) {
 			return "INFIX_EXPRESSION";
 		}
@@ -474,6 +481,18 @@ public class ModelExtractor {
 		if(node.getNodeType()==ASTNode.LAMBDA_EXPRESSION) {
 			return "LAMBDA_EXPRESSION";
 		}
+		if(node.getNodeType()==ASTNode.MARKER_ANNOTATION) {
+			return "MARKER_ANNOTATION";
+		}
+		if(node.getNodeType()==ASTNode.MODIFIER) {
+			return "MODIFIER";
+		}
+		if(node.getNodeType()==ASTNode.MODULE_MODIFIER) {
+			return "MODULE_MODIFIER";
+		}
+		if(node.getNodeType()==ASTNode.MEMBER_VALUE_PAIR) {
+			return "MEMBER_VALUE_PAIR";
+		}
 		if(node.getNodeType()==ASTNode.METHOD_DECLARATION) {
 			return "METHOD_DECLARATION";
 		}
@@ -489,6 +508,9 @@ public class ModelExtractor {
 		if(node.getNodeType()==ASTNode.MODULE_DECLARATION) {
 			return "MODULE_DECLARATION";
 		}
+		if(node.getNodeType()==ASTNode.NORMAL_ANNOTATION) {
+			return "NORMAL_ANNOTATION";
+		}
 		if(node.getNodeType()==ASTNode.NAME_QUALIFIED_TYPE) {
 			return "NAME_QUALIFIED_TYPE";
 		}
@@ -497,6 +519,9 @@ public class ModelExtractor {
 		}
 		if(node.getNodeType()==ASTNode.NUMBER_LITERAL) {
 			return "NUMBER_LITERAL";
+		}
+		if(node.getNodeType()==ASTNode.PACKAGE_DECLARATION) {
+			return "PACKAGE_DECLARATION";
 		}
 		if(node.getNodeType()==ASTNode.PARAMETERIZED_TYPE) {
 			return "PARAMETERIZED_TYPE";
@@ -570,9 +595,9 @@ public class ModelExtractor {
 		if(node.getNodeType()==ASTNode.TRY_STATEMENT) {
 			return "TRY_STATEMENT";
 		}
-		//		if(node.getNodeType()==ASTNode.TYPE_DECLARATION) {
-		//			return "TYPE_DECLARATION";
-		//		}
+		if(node.getNodeType()==ASTNode.TYPE_DECLARATION) {
+			return "TYPE_DECLARATION";
+		}
 		if(node.getNodeType()==ASTNode.TYPE_DECLARATION_STATEMENT) {
 			System.out.println("TYPE_DECLARATION_STATEMENT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"+node.toString());
 			return "TYPE_DECLARATION_STATEMENT";

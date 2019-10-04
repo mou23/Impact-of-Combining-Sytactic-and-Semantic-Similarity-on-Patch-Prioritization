@@ -31,7 +31,7 @@ public class PatchEvaluator {
 	}
 	
 	public void prepareSolutionAST(String filename) {
-		File file = new File("codrep/fixed/Dataset1/"+filename+".java");
+		File file = new File("dataset/fixed/"+filename);
 		PatchGenerator patchGenerator = PatchGenerator.createPatchGenerator(); 
 		ASTParser parser = ASTParser.newParser(AST.JLS10);
 		String fileContent = patchGenerator.readFileToString(file.getAbsolutePath());
