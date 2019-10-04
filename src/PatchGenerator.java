@@ -131,9 +131,9 @@ public class PatchGenerator {
 //				correctPatchFound = false;
 			}
 		}
-//		if(correctPatchFound==false) {
-//			file.delete();
-//		}
+		if(correctPatchFound==false) {
+			file.delete();
+		}
 //		System.out.println(this.correctPatches + " Correct Patches Found");
 	}
 	
