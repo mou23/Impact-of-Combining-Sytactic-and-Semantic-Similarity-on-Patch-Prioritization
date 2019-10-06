@@ -29,6 +29,36 @@ public class DataProcessor {
 				//				System.out.println(listOfFolders[i]);
 				File currentFolder = new File(listOfFolders[i]+"/modifiedFiles");
 				if(currentFolder.exists()) {
+					String project = ""; 
+					ArrayList<String> commits = new ArrayList<>();
+					
+					File[] allFile = listOfFolders[i].listFiles();
+					for(int j = 0; j<allFile.length; j++) {
+						if(allFile[j].getName().endsWith("projecturl")) {
+							BufferedReader fileReader = new BufferedReader(new FileReader(allFile[j]));
+							
+							String line;
+							while ((line = fileReader.readLine()) != null) {
+								project = line;
+							}
+							fileReader.close();
+						}
+						if(allFile[j].getName().endsWith("withUnitTest.txt")) {
+							BufferedReader fileReader = new BufferedReader(new FileReader(allFile[j]));
+							commits.add("");
+							String line;
+							while ((line = fileReader.readLine()) != null) {
+								String[] str = line.split(" ");
+								commits.add(str[0]);
+//								System.out.println(str[0]);
+							}
+							fileReader.close();
+						}
+					}
+					if(commits.size()==0) {
+						System.out.println(listOfFolders[i] + "problem!!!!");
+						continue;
+					}
 					File[] listOfFilesInCurrentFolder = currentFolder.listFiles();
 					for (int j = 0; j < listOfFilesInCurrentFolder.length; j++) {
 						counter++;
@@ -65,33 +95,35 @@ public class DataProcessor {
 								index = k+1;
 							}
 						}
+//						System.out.println(commits);
 						if(mismatch==1) {
-							String file = listOfFilesInCurrentFolder[j]+"/"+faultyFile.getName();
-							file = file.substring(file.indexOf(sourceFolder.getName())+sourceFolder.getName().length());
-							System.out.println(destinationFaultLocation+file);
-							File f = (new File(destinationFaultLocation+file));
-							f.getParentFile().mkdirs();
-							try{    
-								FileWriter  fw=new FileWriter(destinationFaultLocation+file);    
-								fw.write(index+"\n");    
-								fw.close();    
-							} catch(Exception e){
-								System.out.println(e.getMessage());
-							}  						
-							f = (new File(destinationBuggy+file));
-							f.getParentFile().mkdirs();
-							
-							FileUtils.copyFile(faultyFile, f);
-							
-							f = (new File(destinationFixed+file));
-							f.getParentFile().mkdirs();
-							
-							FileUtils.copyFile(fixedFile, f);
-							
-							System.out.println("file " + listOfFilesInCurrentFolder[j]);
-							System.out.println("faulty line "+faultyFileLines.get(index-1));
-							System.out.println("fixing line "+fixedFileLines.get(index-1));
-							System.out.println();
+							System.out.println(listOfFilesInCurrentFolder[j]+ ","+project+"/archive/"+commits.get(Integer.parseInt(listOfFilesInCurrentFolder[j].getName())-1));
+//							String file = listOfFilesInCurrentFolder[j]+"/"+faultyFile.getName();
+//							file = file.substring(file.indexOf(sourceFolder.getName())+sourceFolder.getName().length());
+//							System.out.println(destinationFaultLocation+file);
+//							File f = (new File(destinationFaultLocation+file));
+//							f.getParentFile().mkdirs();
+//							try{    
+//								FileWriter  fw=new FileWriter(destinationFaultLocation+file);    
+//								fw.write(index+"\n");    
+//								fw.close();    
+//							} catch(Exception e){
+//								System.out.println(e.getMessage());
+//							}  						
+//							f = (new File(destinationBuggy+file));
+//							f.getParentFile().mkdirs();
+//							
+//							FileUtils.copyFile(faultyFile, f);
+//							
+//							f = (new File(destinationFixed+file));
+//							f.getParentFile().mkdirs();
+//							
+//							FileUtils.copyFile(fixedFile, f);
+//							
+//							System.out.println("file " + listOfFilesInCurrentFolder[j]);
+//							System.out.println("faulty line "+faultyFileLines.get(index-1));
+//							System.out.println("fixing line "+fixedFileLines.get(index-1));
+//							System.out.println();
 							total++;
 						}
 					}
