@@ -29,41 +29,43 @@ public class DataProcessor {
 				//				System.out.println(listOfFolders[i]);
 				File currentFolder = new File(listOfFolders[i]+"/modifiedFiles");
 				if(currentFolder.exists()) {
-					String project = ""; 
-					ArrayList<String> commits = new ArrayList<>();
+//					String project = ""; 
+//					ArrayList<String> commits = new ArrayList<>();
 					
-					File[] allFile = listOfFolders[i].listFiles();
-					for(int j = 0; j<allFile.length; j++) {
-						if(allFile[j].getName().endsWith("projecturl")) {
-							BufferedReader fileReader = new BufferedReader(new FileReader(allFile[j]));
-							
-							String line;
-							while ((line = fileReader.readLine()) != null) {
-								project = line;
-							}
-							fileReader.close();
-						}
-						if(allFile[j].getName().endsWith("withUnitTest.txt")) {
-							BufferedReader fileReader = new BufferedReader(new FileReader(allFile[j]));
-							commits.add("");
-							String line;
-							while ((line = fileReader.readLine()) != null) {
-								String[] str = line.split(" ");
-								commits.add(str[0]);
-//								System.out.println(str[0]);
-							}
-							fileReader.close();
-						}
-					}
-					if(commits.size()==0) {
-						System.out.println(listOfFolders[i] + "problem!!!!");
-						continue;
-					}
+//					File[] allFile = listOfFolders[i].listFiles();
+//					for(int j = 0; j<allFile.length; j++) {
+//						if(allFile[j].getName().endsWith("projecturl")) {
+//							BufferedReader fileReader = new BufferedReader(new FileReader(allFile[j]));
+//							
+//							String line;
+//							while ((line = fileReader.readLine()) != null) {
+//								project = line;
+//							}
+//							fileReader.close();
+//						}
+//						if(allFile[j].getName().endsWith("withUnitTest.txt")) {
+//							BufferedReader fileReader = new BufferedReader(new FileReader(allFile[j]));
+//							commits.add("");
+//							String line;
+//							while ((line = fileReader.readLine()) != null) {
+//								String[] str = line.split(" ");
+//								commits.add(str[0]);
+////								System.out.println(str[0]);
+//							}
+//							fileReader.close();
+//						}
+//					}
+//					if(commits.size()==0) {
+//						System.out.println(listOfFolders[i] + "problem!!!!");
+//						continue;
+//					}
+					ArrayList<String> filenames = new ArrayList<String>();
 					File[] listOfFilesInCurrentFolder = currentFolder.listFiles();
 					for (int j = 0; j < listOfFilesInCurrentFolder.length; j++) {
 						counter++;
 						File faultyFileFolder = new File(listOfFilesInCurrentFolder[j]+"/old");
 						File faultyFile = faultyFileFolder.listFiles()[0];
+						filenames.add(faultyFile.getName());
 						File fixedFileFolder = new File(listOfFilesInCurrentFolder[j]+"/fix");
 						File fixedFile = fixedFileFolder.listFiles()[0];
 
@@ -97,7 +99,58 @@ public class DataProcessor {
 						}
 //						System.out.println(commits);
 						if(mismatch==1) {
-							System.out.println(listOfFilesInCurrentFolder[j]+ ","+project+"/archive/"+commits.get(Integer.parseInt(listOfFilesInCurrentFolder[j].getName())-1));
+							for(int k=0; k<filenames.size()-1; k++) {
+								if(filenames.get(k).equals(faultyFile.getName())) {
+									File tempFault = new File(listOfFilesInCurrentFolder[k]+"/old").listFiles()[0];
+//									System.out.println("Check: " +faultyFile.getAbsolutePath() + ","+tempFault.getAbsolutePath());
+									BufferedReader tempFileReader = new BufferedReader(new FileReader(tempFault));
+									ArrayList<String> tempFileLines = new ArrayList<>();
+									while ((line = tempFileReader.readLine()) != null) {
+										tempFileLines.add(line);
+									}
+									tempFileReader.close();
+									
+									if(tempFileLines.size()!=faultyFileLines.size()) {
+										continue;
+									}
+									boolean duplicate = true;
+									for(int l = 0; l<tempFileLines.size(); l++) {
+										if(!tempFileLines.get(l).equals(faultyFileLines.get(l))) {
+											duplicate = false;
+											break;
+										}
+									}
+									
+									if(duplicate==false) {
+										continue;
+									}
+									
+									File tempFix = new File(listOfFilesInCurrentFolder[k]+"/fix").listFiles()[0];
+									tempFileReader = new BufferedReader(new FileReader(tempFix));
+									tempFileLines.clear();
+									while ((line = tempFileReader.readLine()) != null) {
+										tempFileLines.add(line);
+									}
+									tempFileReader.close();
+									
+									if(tempFileLines.size()!=fixedFileLines.size()) {
+										continue;
+									}
+									for(int l = 0; l<tempFileLines.size(); l++) {
+										if(!tempFileLines.get(l).equals(fixedFileLines.get(l))) {
+											duplicate = false;
+											break;
+										}
+									}
+									
+									if(duplicate == true) {
+										System.out.println(faultyFile.getParentFile().getParent());
+										break;
+									}
+								}
+							}
+							
+//							System.out.println(listOfFilesInCurrentFolder[j]+ ","+project+"/archive/"+commits.get(Integer.parseInt(listOfFilesInCurrentFolder[j].getName())-1));
 //							String file = listOfFilesInCurrentFolder[j]+"/"+faultyFile.getName();
 //							file = file.substring(file.indexOf(sourceFolder.getName())+sourceFolder.getName().length());
 //							System.out.println(destinationFaultLocation+file);
@@ -130,12 +183,12 @@ public class DataProcessor {
 
 				}
 				else {
-					System.out.println(currentFolder.getName() + "doesn't exist");
+//					System.out.println(currentFolder.getName() + "doesn't exist");
 				}
 //				break;
 			}
-			System.out.println("total one-line patch "+total);
-			System.out.println("total patches "+counter);
+//			System.out.println("total one-line patch "+total);
+//			System.out.println("total patches "+counter);
 		} catch(Exception e) {
 			System.out.println(e.getMessage());
 		}

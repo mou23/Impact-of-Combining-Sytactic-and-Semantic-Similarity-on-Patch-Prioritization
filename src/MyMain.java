@@ -7,6 +7,7 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.HashMap;
 
 import org.apache.commons.io.FilenameUtils;
@@ -14,16 +15,16 @@ import org.apache.commons.io.FilenameUtils;
 import net.lingala.zip4j.core.ZipFile;
 
 public class MyMain {
-	static String dirLocation = "dataset/buggy4/";
+	static String dirLocation = "dataset/buggy/";
 	static File rootFolder = new File(dirLocation);
-	static HashMap<String,String> urls=new HashMap<String,String>();  
+	static ArrayList<String> duplicates=new ArrayList<String>();  
 	static File destinationProject = new File("/home/mou/code/");
+	static int counter = 0;
 
 	public static void main(String[] args) {
 		File[] listOfFiles = rootFolder.listFiles();
-
-		retrieveURL();
 		
+		retrieveDuplicates();
 		try {
 //			System.out.println(listOfFiles.length);
 			for (int i = 0; i < listOfFiles.length; i++) {
@@ -32,6 +33,7 @@ public class MyMain {
 				scanDirectory(listOfFiles[i]);
 //				break;
 			}
+			System.out.println("Total files "+counter);
 		} catch(Exception e) {
 			System.out.println(e.getMessage());
 		}
@@ -43,41 +45,13 @@ public class MyMain {
 		for (int i = 0; i < listOfFiles.length; i++) {
 //			System.out.println(listOfFiles[i]);
 			if (listOfFiles[i].isFile() && listOfFiles[i].getName().contains(".java")) {
-				String file = listOfFiles[i].getParent();
-				file = file.substring(file.indexOf(rootFolder.getName())+rootFolder.getName().length()+1);
-				System.out.print("Processing " +file + ",");
-				System.out.println(urls.get("D:\\thesis\\all\\"+file.replace('/', '\\')));
-
-				try {
-					File f = (new File(destinationProject+"/"+file+"/project.zip"));
-					
-//					if(f.getParentFile().exists()) {
-//						System.out.println(file +" already exists");
-//						continue;
-//					}
-					f.getParentFile().mkdirs();
-//					System.out.println("ZIP "+f.getName());
-					URL url = new URL(urls.get("D:\\thesis\\all\\"+file.replace('/', '\\'))+".zip");
-					InputStream input = url.openStream();
-					FileOutputStream output = new FileOutputStream(f);
-
-					byte[] buffer = new byte[4096];
-					int n = 0;
-					while (-1 != (n = input.read(buffer))) {
-						output.write(buffer, 0, n);
-					}
-
-					input.close();
-					output.close();
-
-					ZipFile zipFile = new ZipFile(f.getAbsolutePath());
-					zipFile.extractAll(f.getParentFile().getAbsolutePath());
-					
-					f.delete();
-				} catch (Exception e) {
-					System.out.println("error in "+file);
-					System.out.println(e.getMessage());
-				}
+				counter++;
+//				String file = listOfFiles[i].getParent();
+//				file = file.substring(file.indexOf(rootFolder.getName())+rootFolder.getName().length()+1);
+//				System.out.println("Processing " +file);
+//				if(duplicates.contains("D:\\thesis\\all\\"+file)) {
+//					listOfFiles[i].delete();
+//				}
 
 
 				//				long startingTime = System.nanoTime();
@@ -97,14 +71,12 @@ public class MyMain {
 		}
 	}
 
-	private static void retrieveURL() {
+	private static void retrieveDuplicates() {
 		try {
-			BufferedReader fileReader = new BufferedReader(new FileReader("projectURLs.txt"));
+			BufferedReader fileReader = new BufferedReader(new FileReader("duplicateFiles.txt"));
 			String line;
 			while ((line = fileReader.readLine()) != null) {
-				String[] str = line.split(",");
-				urls.put(str[0],str[1]);  
-				//			System.out.println(str[0]);
+				duplicates.add(line);
 			}
 			fileReader.close();
 		} catch (Exception e) {
