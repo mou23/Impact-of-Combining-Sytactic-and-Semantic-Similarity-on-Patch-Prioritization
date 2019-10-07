@@ -10,6 +10,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 
 import net.lingala.zip4j.core.ZipFile;
@@ -18,7 +19,7 @@ public class MyMain {
 	static String dirLocation = "dataset/buggy/";
 	static File rootFolder = new File(dirLocation);
 	static ArrayList<String> duplicates=new ArrayList<String>();  
-	static File destinationProject = new File("/home/mou/code/");
+	static File destinationProject = new File("D:/project/");
 	static int counter = 0;
 
 	public static void main(String[] args) {
@@ -26,14 +27,21 @@ public class MyMain {
 		
 		retrieveDuplicates();
 		try {
-//			System.out.println(listOfFiles.length);
-			for (int i = 0; i < listOfFiles.length; i++) {
-				//				String fileNameWithOutExtension = FilenameUtils.removeExtension(listOfFiles[i].getName());
-				//				System.out.println("Processing " +fileNameWithOutExtension);
-				scanDirectory(listOfFiles[i]);
-//				break;
+			String base = "D:\\thesis\\all\\";
+			for(int i=0; i<duplicates.size(); i++) {
+				String file = duplicates.get(i);
+				file = file.substring(file.indexOf(base)+base.length());
+				System.out.println(destinationProject+"/"+file);
+				FileUtils.deleteDirectory(new File(destinationProject+"/"+file));
 			}
-			System.out.println("Total files "+counter);
+////			System.out.println(listOfFiles.length);
+//			for (int i = 0; i < listOfFiles.length; i++) {
+//				//				String fileNameWithOutExtension = FilenameUtils.removeExtension(listOfFiles[i].getName());
+//				//				System.out.println("Processing " +fileNameWithOutExtension);
+//				scanDirectory(listOfFiles[i]);
+////				break;
+//			}
+//			System.out.println("Total files "+counter);
 		} catch(Exception e) {
 			System.out.println(e.getMessage());
 		}
