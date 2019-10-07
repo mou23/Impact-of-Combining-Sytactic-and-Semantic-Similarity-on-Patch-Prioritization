@@ -12,25 +12,25 @@ import java.util.HashMap;
 import org.apache.commons.io.FilenameUtils;
 
 import net.lingala.zip4j.core.ZipFile;
-import net.lingala.zip4j.model.ZipParameters;
 
 public class MyMain {
-	static String dirLocation = "dataset/buggy/";
+	static String dirLocation = "dataset/buggy4/";
 	static File rootFolder = new File(dirLocation);
 	static HashMap<String,String> urls=new HashMap<String,String>();  
-	static File destinationProject = new File("D:/project/");
+	static File destinationProject = new File("/home/mou/code/");
 
 	public static void main(String[] args) {
 		File[] listOfFiles = rootFolder.listFiles();
 
 		retrieveURL();
-
+		
 		try {
+//			System.out.println(listOfFiles.length);
 			for (int i = 0; i < listOfFiles.length; i++) {
 				//				String fileNameWithOutExtension = FilenameUtils.removeExtension(listOfFiles[i].getName());
 				//				System.out.println("Processing " +fileNameWithOutExtension);
 				scanDirectory(listOfFiles[i]);
-				break;
+//				break;
 			}
 		} catch(Exception e) {
 			System.out.println(e.getMessage());
@@ -41,18 +41,24 @@ public class MyMain {
 		File[] listOfFiles = folder.listFiles();
 
 		for (int i = 0; i < listOfFiles.length; i++) {
+//			System.out.println(listOfFiles[i]);
 			if (listOfFiles[i].isFile() && listOfFiles[i].getName().contains(".java")) {
 				String file = listOfFiles[i].getParent();
 				file = file.substring(file.indexOf(rootFolder.getName())+rootFolder.getName().length()+1);
 				System.out.print("Processing " +file + ",");
-				System.out.println(urls.get("D:\\thesis\\all\\"+file));
+				System.out.println(urls.get("D:\\thesis\\all\\"+file.replace('/', '\\')));
 
 				try {
-					URL url = new URL(urls.get("D:\\thesis\\all\\"+file)+".zip");
-					InputStream input = url.openStream();
-
 					File f = (new File(destinationProject+"/"+file+"/project.zip"));
+					
+//					if(f.getParentFile().exists()) {
+//						System.out.println(file +" already exists");
+//						continue;
+//					}
 					f.getParentFile().mkdirs();
+//					System.out.println("ZIP "+f.getName());
+					URL url = new URL(urls.get("D:\\thesis\\all\\"+file.replace('/', '\\'))+".zip");
+					InputStream input = url.openStream();
 					FileOutputStream output = new FileOutputStream(f);
 
 					byte[] buffer = new byte[4096];
@@ -69,6 +75,7 @@ public class MyMain {
 					
 					f.delete();
 				} catch (Exception e) {
+					System.out.println("error in "+file);
 					System.out.println(e.getMessage());
 				}
 
