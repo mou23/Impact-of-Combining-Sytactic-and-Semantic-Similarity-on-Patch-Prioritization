@@ -19,7 +19,7 @@ public class MyMain {
 	static String dirLocation = "dataset/buggy/";
 	static File rootFolder = new File(dirLocation);
 	static ArrayList<String> duplicates=new ArrayList<String>();  
-	static File destinationProject = new File("D:/project/");
+	static File destinationProject = new File("/home/mou/code/");
 	static int counter = 0;
 
 	public static void main(String[] args) {
@@ -28,20 +28,22 @@ public class MyMain {
 		retrieveDuplicates();
 		try {
 			String base = "D:\\thesis\\all\\";
-			for(int i=0; i<duplicates.size(); i++) {
-				String file = duplicates.get(i);
-				file = file.substring(file.indexOf(base)+base.length());
-				System.out.println(destinationProject+"/"+file);
-				FileUtils.deleteDirectory(new File(destinationProject+"/"+file));
-			}
-////			System.out.println(listOfFiles.length);
-//			for (int i = 0; i < listOfFiles.length; i++) {
-//				//				String fileNameWithOutExtension = FilenameUtils.removeExtension(listOfFiles[i].getName());
-//				//				System.out.println("Processing " +fileNameWithOutExtension);
-//				scanDirectory(listOfFiles[i]);
-////				break;
+//			for(int i=0; i<duplicates.size(); i++) {
+//				String file = duplicates.get(i);
+//				file = file.substring(file.indexOf(base)+base.length());
+//				System.out.println(destinationProject+"/"+file);
+//				File f = new File(destinationProject+"/"+file.replace('\\', '/'));
+////				System.out.println(f.exists());
+//				FileUtils.deleteDirectory(f);
 //			}
-//			System.out.println("Total files "+counter);
+////			System.out.println(listOfFiles.length);
+			for (int i = 0; i < listOfFiles.length; i++) {
+				//				String fileNameWithOutExtension = FilenameUtils.removeExtension(listOfFiles[i].getName());
+				//				System.out.println("Processing " +fileNameWithOutExtension);
+				scanDirectory(listOfFiles[i]);
+//				break;
+			}
+			System.out.println("Total files "+counter);
 		} catch(Exception e) {
 			System.out.println(e.getMessage());
 		}
@@ -49,7 +51,7 @@ public class MyMain {
 
 	private static void scanDirectory(File folder) {
 		File[] listOfFiles = folder.listFiles();
-
+		
 		for (int i = 0; i < listOfFiles.length; i++) {
 //			System.out.println(listOfFiles[i]);
 			if (listOfFiles[i].isFile() && listOfFiles[i].getName().contains(".java")) {
