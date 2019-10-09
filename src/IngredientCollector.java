@@ -42,7 +42,7 @@ public class IngredientCollector extends ASTVisitor {
 //			System.out.println("NODE " +node);
 //			System.out.println(patchGenerator.compilationUnit.getLineNumber(node.getStartPosition()) + " "+patchGenerator.compilationUnit.getLineNumber(node.getStartPosition()+node.getLength()));
 			this.collectFaultyNode(node);
-			this.findFixingIngredients(node);
+			this.collectFixingIngredients(node);
 		}		
 	}
 
@@ -58,19 +58,24 @@ public class IngredientCollector extends ASTVisitor {
 		if(faultLocalizer.faultyLine==faultyNode.startLine && faultLocalizer.faultyLine==faultyNode.endLine) {
 			ModelExtractor modelExtractor = ModelExtractor.createModelExtractor();
 			faultyNode.type = modelExtractor.getNodeType(node);
+			faultyNode.genealogy = modelExtractor.getGenealogyContext(node);
+			faultyNode.variableAccessed = modelExtractor.getVariableContext(node);
 			this.faultyNodes.add(faultyNode);
 		}
 	}
 
-	private void findFixingIngredients(ASTNode node) {
+	private void collectFixingIngredients(ASTNode node) {
 		PatchGenerator patchGenerator = PatchGenerator.createPatchGenerator();
 		ModelExtractor modelExtractor = ModelExtractor.createModelExtractor();
 		
+//		System.out.println("Node " +node);
 		Node fixingIngredient = new Node();
 		fixingIngredient.node = node;
 		fixingIngredient.startLine = patchGenerator.compilationUnit.getLineNumber(node.getStartPosition());
 		fixingIngredient.endLine = patchGenerator.compilationUnit.getLineNumber(node.getStartPosition()+node.getLength());
 		fixingIngredient.type = modelExtractor.getNodeType(node);
+		fixingIngredient.genealogy = modelExtractor.getGenealogyContext(node);
+		fixingIngredient.variableAccessed = modelExtractor.getVariableContext(node);
 		this.fixingIngredients.add(fixingIngredient);
 	} 	
 }

@@ -1,0 +1,8 @@
+destinationStatistics.getMessages().setCount(messageCount),METHOD_INVOCATION, line no: 399,messageCount,SIMPLE_NAME, line no: 390, 1.0, , 1.0, 1.0
+destinationStatistics.getMessages().setCount(messageCount),METHOD_INVOCATION, line no: 399,messageCount > 0,INFIX_EXPRESSION, line no: 391, 1.0, , 1.0, 1.0
+destinationStatistics.getMessages().setCount(messageCount),METHOD_INVOCATION, line no: 399,new BatchMessageRecoveryListener(messageCount),CLASS_INSTANCE_CREATION, line no: 392, 1.0, , 1.0, 1.0
+messageCount,SIMPLE_NAME, line no: 399,messageCount > 0,INFIX_EXPRESSION, line no: 391, 1.0, , 1.0, 1.0
+messageCount,SIMPLE_NAME, line no: 399,new BatchMessageRecoveryListener(messageCount),CLASS_INSTANCE_CREATION, line no: 392, 1.0, , 1.0, 1.0
+messageCount,SIMPLE_NAME, line no: 399,destinationStatistics.getMessages().setCount(messageCount),METHOD_INVOCATION, line no: 399, 0.9090909090909091, , 0.9090909090909091, 1.0
+destinationStatistics.getMessages().setCount(messageCount),METHOD_INVOCATION, line no: 399,messageCount > 0 && messages.isRecoveryRequired(),INFIX_EXPRESSION, line no: 391, 0.5, , 1.0, 0.5
+messageCount,SIMPLE_NAME, line no: 399,messageCount > 0 && messages.isRecoveryRequired(),INFIX_EXPRESSION, line no: 391, 0.5, , 1.0, 0.5

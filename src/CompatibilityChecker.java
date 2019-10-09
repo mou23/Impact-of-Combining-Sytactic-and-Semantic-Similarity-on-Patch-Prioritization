@@ -38,9 +38,10 @@ public class CompatibilityChecker {
 					//					CompatibilityChecker.compatible = true;
 					QualifiedName qualifiedName = (QualifiedName) node;
 					IBinding binding = qualifiedName.getName().resolveBinding();
+//					System.out.println(qualifiedName+ " "+qualifiedName.getName());
 					if(binding!=null) {
 						for(Variable variable : VariableCollector.variables) {
-							if(variable.binding.toString().equals(binding.toString())) {
+							if(variable.binding.equals(binding)) {
 								variablesToBeIgnored.add(variable);
 								break;
 							}
@@ -58,7 +59,7 @@ public class CompatibilityChecker {
 			Variable variableAccessed = iterator.next();  
 			if(!variablesToBeIgnored.contains(variableAccessed)) {
 				for(Variable variable : VariableCollector.variables) {
-					if(variable.binding.toString().equals(variableAccessed.binding.toString())) {
+					if(variable.binding.equals(variableAccessed.binding)) {
 						if(operation.equals("insert")) {
 							if(variable.startLine>currentLine || variable.endLine<currentLine) {
 //								System.out.println("FAULT "+faultyNode + " "+currentLine);

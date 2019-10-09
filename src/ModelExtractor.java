@@ -267,14 +267,14 @@ public class ModelExtractor {
 					while(iterator.hasNext())  
 					{ 
 						Variable var = iterator.next(); 
-						if(var.binding.toString().equals(binding.toString())) {
+						if(var.binding.equals(binding)) {
 							match = true;
 							break;
 						}
 					}
 					if(match == false) {
 						for(Variable variable : VariableCollector.variables) {
-							if(variable.binding.toString().equals(binding.toString())) {
+							if(variable.binding.equals(binding)) {
 								variableAccessed.add(variable);
 //								System.out.println("VARIABLE "+variable);
 								
@@ -314,7 +314,7 @@ public class ModelExtractor {
 		
 //		System.out.println("SIZE " +variableAccessedSource.size()+ " " +variableAccessedTarget.size()+ " "+match);
 		
-		return ((double)((double)match/(double)(variableAccessedSource.size()+variableAccessedTarget.size()-match))*variableAccessedSource.size());
+		return ((double)((double)match/(double)(variableAccessedSource.size()+variableAccessedTarget.size()-match)));//*variableAccessedSource.size());
 	}
 	
 	public double getNormalizedLongestCommonSubsequence(String faultyNodeContext, String fixingIngredientContext) {

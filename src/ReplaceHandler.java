@@ -24,15 +24,23 @@ public class ReplaceHandler {
 			Node fixingIngredient = ingredientCollector.fixingIngredients.get(i);
 			
 			if(!faultyNode.node.toString().equals(fixingIngredient.node.toString())) {
-//				System.out.println("FAULT "+ faultyNode.node.toString() + " line:"+faultyNode.startLine);
-//				System.out.println("FIX " + fixingIngredient.node.toString()+ " line:"+fixingIngredient.startLine);
-				CandidatePatch candidatePatch = new CandidatePatch();
-				candidatePatch.faultyNode = faultyNode.node;
-				candidatePatch.fixingIngredient = fixingIngredient.node;
-		
-				candidatePatch.mutationOperation = "replace";
-				
-				this.patchListUpdater.updatePatchList(candidatePatch);
+				if(this.compatibilityChecker.checkCompatibility(faultyNode.node, fixingIngredient, "replace")==true) {
+	//				System.out.println("FAULT "+ faultyNode.node.toString() + " line:"+faultyNode.startLine);
+	//				System.out.println("FIX " + fixingIngredient.node.toString()+ " line:"+fixingIngredient.startLine);
+					CandidatePatch candidatePatch = new CandidatePatch();
+					candidatePatch.faultyNode = faultyNode.node;
+					candidatePatch.fixingIngredient = fixingIngredient.node;
+					candidatePatch.mutationOperation = "replace";
+					
+					ModelExtractor modelExtractor = ModelExtractor.createModelExtractor();
+					candidatePatch.genealogyScore = modelExtractor.getGenealogySimilarityScore(faultyNode.genealogy, fixingIngredient.genealogy);
+					candidatePatch.variableScore = modelExtractor.getVariableSimilarityScore(faultyNode.variableAccessed, fixingIngredient.variableAccessed);
+					candidatePatch.score = candidatePatch.genealogyScore*candidatePatch.variableScore;
+					
+					if(candidatePatch.score>0) {
+						this.patchListUpdater.updatePatchList(candidatePatch);
+					}
+				}
 			}
 		}
 	}

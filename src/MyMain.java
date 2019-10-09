@@ -16,34 +16,19 @@ import org.apache.commons.io.FilenameUtils;
 import net.lingala.zip4j.core.ZipFile;
 
 public class MyMain {
-	static String dirLocation = "dataset/buggy/";
+	static String dirLocation = "dataset/buggy0/";
 	static File rootFolder = new File(dirLocation);
-	static ArrayList<String> duplicates=new ArrayList<String>();  
-	static File destinationProject = new File("/home/mou/code/");
-	static int counter = 0;
 
 	public static void main(String[] args) {
-		File[] listOfFiles = rootFolder.listFiles();
 		
-		retrieveDuplicates();
+		File[] listOfFiles = rootFolder.listFiles();
+
 		try {
-			String base = "D:\\thesis\\all\\";
-//			for(int i=0; i<duplicates.size(); i++) {
-//				String file = duplicates.get(i);
-//				file = file.substring(file.indexOf(base)+base.length());
-//				System.out.println(destinationProject+"/"+file);
-//				File f = new File(destinationProject+"/"+file.replace('\\', '/'));
-////				System.out.println(f.exists());
-//				FileUtils.deleteDirectory(f);
-//			}
-////			System.out.println(listOfFiles.length);
 			for (int i = 0; i < listOfFiles.length; i++) {
-				//				String fileNameWithOutExtension = FilenameUtils.removeExtension(listOfFiles[i].getName());
-				//				System.out.println("Processing " +fileNameWithOutExtension);
 				scanDirectory(listOfFiles[i]);
-//				break;
+				break;
 			}
-			System.out.println("Total files "+counter);
+
 		} catch(Exception e) {
 			System.out.println(e.getMessage());
 		}
@@ -51,47 +36,29 @@ public class MyMain {
 
 	private static void scanDirectory(File folder) {
 		File[] listOfFiles = folder.listFiles();
-		
+
 		for (int i = 0; i < listOfFiles.length; i++) {
-//			System.out.println(listOfFiles[i]);
 			if (listOfFiles[i].isFile() && listOfFiles[i].getName().contains(".java")) {
-				counter++;
-//				String file = listOfFiles[i].getParent();
-//				file = file.substring(file.indexOf(rootFolder.getName())+rootFolder.getName().length()+1);
-//				System.out.println("Processing " +file);
-//				if(duplicates.contains("D:\\thesis\\all\\"+file)) {
-//					listOfFiles[i].delete();
-//				}
-
-
-				//				long startingTime = System.nanoTime();
-				//				FaultLocalizer faultLocalizer = FaultLocalizer.createFaultLocalizer();
-				//				faultLocalizer.localizeFault(file);
-				//				PatchEvaluator patchEvaluator = PatchEvaluator.createPatchEvaluator();
-				//				patchEvaluator.prepareSolutionAST(file);
-				//				PatchGenerator patchGenerator = PatchGenerator.createPatchGenerator(); 
-				//				patchGenerator.generatePatch(listOfFiles[i], startingTime);
-				//				System.out.println();
-				//				System.out.println();
+				String file = listOfFiles[i].getAbsolutePath();
+				file = file.substring(file.indexOf(rootFolder.getName())+rootFolder.getName().length()+1);
+				System.out.println("Processing " +file);
+				long startingTime = System.nanoTime();
+				FaultLocalizer faultLocalizer = FaultLocalizer.createFaultLocalizer();
+				faultLocalizer.localizeFault(file);
+				PatchEvaluator patchEvaluator = PatchEvaluator.createPatchEvaluator();
+				patchEvaluator.prepareSolutionAST(file);
+				PatchGenerator patchGenerator = PatchGenerator.createPatchGenerator(); 
+				String identifier = listOfFiles[i].getParent();
+				identifier = identifier.substring(identifier.indexOf(rootFolder.getName())+rootFolder.getName().length()+1);
+//				System.out.println(identifier);
+				patchGenerator.generatePatch(listOfFiles[i], identifier, startingTime);
+				System.out.println();
+				System.out.println();
 				break;
 			}
 			else if (listOfFiles[i].isDirectory()) {
 				scanDirectory(new File(folder+"/"+listOfFiles[i].getName()));
 			}
-		}
-	}
-
-	private static void retrieveDuplicates() {
-		try {
-			BufferedReader fileReader = new BufferedReader(new FileReader("duplicateFiles.txt"));
-			String line;
-			while ((line = fileReader.readLine()) != null) {
-				duplicates.add(line);
-			}
-			fileReader.close();
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
 		}
 	}
 }

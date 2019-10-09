@@ -21,6 +21,7 @@ public class VariableCollector extends ASTVisitor {
 		variable.binding = ((VariableDeclarationFragment)node).resolveBinding();
 		ASTNode currentNode = node.getParent().getParent();
 //		System.out.println(variable.name + " " +variable.type + " "+variable.binding);
+//		System.out.println(currentNode);
 		PatchGenerator patchGenerator = PatchGenerator.createPatchGenerator();
 		variable.startLine = patchGenerator.compilationUnit.getLineNumber(currentNode.getStartPosition());
 		variable.endLine = patchGenerator.compilationUnit.getLineNumber(currentNode.getStartPosition()+currentNode.getLength());

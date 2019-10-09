@@ -1,0 +1,34 @@
+new LockFile(lockFileName true),CLASS_INSTANCE_CREATION, line no: 47,lockFileName,SIMPLE_NAME, line no: 46, 1.0, , 0.9791666666666666, 1.0
+lockFileName,SIMPLE_NAME, line no: 47,new LockFile(lockFileName true),CLASS_INSTANCE_CREATION, line no: 47, 0.9896907216494846, , 0.9896907216494846, 1.0
+lockFile,SIMPLE_NAME, line no: 47,lockFile == null,INFIX_EXPRESSION, line no: 45, 0.9791666666666666, , 0.9791666666666666, 1.0
+lockFile=new LockFile(lockFileName true),ASSIGNMENT, line no: 47,lockFile,SIMPLE_NAME, line no: 45, 0.5, , 0.9894736842105263, 0.5
+lockFile=new LockFile(lockFileName true),ASSIGNMENT, line no: 47,lockFileName,SIMPLE_NAME, line no: 46, 0.5, , 0.9894736842105263, 0.5
+lockFile=new LockFile(lockFileName true),ASSIGNMENT, line no: 47,new LockFile(lockFileName true),CLASS_INSTANCE_CREATION, line no: 47, 0.5, , 1.0, 0.5
+lockFile,SIMPLE_NAME, line no: 47,lockFile=new LockFile(lockFileName true),ASSIGNMENT, line no: 47, 0.4947916666666667, , 0.9895833333333334, 0.5
+new LockFile(lockFileName true),CLASS_INSTANCE_CREATION, line no: 47,lockFile=new LockFile(lockFileName true),ASSIGNMENT, line no: 47, 0.4947916666666667, , 0.9895833333333334, 0.5
+lockFile=new LockFile(lockFileName true),ASSIGNMENT, line no: 47,lockFile == null,INFIX_EXPRESSION, line no: 45, 0.49473684210526314, , 0.9894736842105263, 0.5
+lockFileName,SIMPLE_NAME, line no: 47,lockFile=new LockFile(lockFileName true),ASSIGNMENT, line no: 47, 0.4896907216494845, , 0.979381443298969, 0.5
+new LockFile(lockFileName true),CLASS_INSTANCE_CREATION, line no: 47,"Database " + lockFileName + " is locked... waiting "+ (lockAcquireSleepInterval / 1000)+ " seconds for the database to be unlocked. Reason: "+ e,INFIX_EXPRESSION, line no: 68, 0.4479166666666667, , 0.4479166666666667, 1.0
+lockFileName,SIMPLE_NAME, line no: 47,"Database " + lockFileName + " is locked... waiting "+ (lockAcquireSleepInterval / 1000)+ " seconds for the database to be unlocked. Reason: "+ e,INFIX_EXPRESSION, line no: 68, 0.44329896907216493, , 0.44329896907216493, 1.0
+lockFile=new LockFile(lockFileName true),ASSIGNMENT, line no: 47,"Database " + lockFileName + " is locked... waiting "+ (lockAcquireSleepInterval / 1000)+ " seconds for the database to be unlocked. Reason: "+ e,INFIX_EXPRESSION, line no: 68, 0.22631578947368422, , 0.45263157894736844, 0.5
+new LockFile(lockFileName true),CLASS_INSTANCE_CREATION, line no: 47,LOG.debug("Database " + lockFileName + " is locked... waiting "+ (lockAcquireSleepInterval / 1000)+ " seconds for the database to be unlocked. Reason: "+ e),METHOD_INVOCATION, line no: 68, 0.21875, , 0.4375, 0.5
+lockFileName,SIMPLE_NAME, line no: 47,LOG.debug("Database " + lockFileName + " is locked... waiting "+ (lockAcquireSleepInterval / 1000)+ " seconds for the database to be unlocked. Reason: "+ e),METHOD_INVOCATION, line no: 68, 0.21649484536082475, , 0.4329896907216495, 0.5
+new LockFile(lockFileName true),CLASS_INSTANCE_CREATION, line no: 47,"Database " + lockFileName + " is locked by another server. This broker is now in slave mode waiting a lock to be acquired",INFIX_EXPRESSION, line no: 62, 0.19791666666666666, , 0.19791666666666666, 1.0
+lockFileName,SIMPLE_NAME, line no: 47,"Database " + lockFileName + " is locked by another server. This broker is now in slave mode waiting a lock to be acquired",INFIX_EXPRESSION, line no: 62, 0.1958762886597938, , 0.1958762886597938, 1.0
+lockFile,SIMPLE_NAME, line no: 47,lockFile.lock(),METHOD_INVOCATION, line no: 49, 0.15625, , 0.07291666666666667, 1.0
+lockFile=new LockFile(lockFileName true),ASSIGNMENT, line no: 47,LOG.debug("Database " + lockFileName + " is locked... waiting "+ (lockAcquireSleepInterval / 1000)+ " seconds for the database to be unlocked. Reason: "+ e),METHOD_INVOCATION, line no: 68, 0.14736842105263157, , 0.4421052631578947, 0.3333333333333333
+lockFile=new LockFile(lockFileName true),ASSIGNMENT, line no: 47,"Database " + lockFileName + " is locked by another server. This broker is now in slave mode waiting a lock to be acquired",INFIX_EXPRESSION, line no: 62, 0.1, , 0.2, 0.5
+new LockFile(lockFileName true),CLASS_INSTANCE_CREATION, line no: 47,LOG.info("Database " + lockFileName + " is locked by another server. This broker is now in slave mode waiting a lock to be acquired"),METHOD_INVOCATION, line no: 62, 0.09375, , 0.1875, 0.5
+lockFileName,SIMPLE_NAME, line no: 47,LOG.info("Database " + lockFileName + " is locked by another server. This broker is now in slave mode waiting a lock to be acquired"),METHOD_INVOCATION, line no: 62, 0.09278350515463918, , 0.18556701030927836, 0.5
+lockFile,SIMPLE_NAME, line no: 47,lockFile.unlock(),METHOD_INVOCATION, line no: 94, 0.08333333333333333, , 0.08333333333333333, 1.0
+lockFile,SIMPLE_NAME, line no: 47,lockFile=null,ASSIGNMENT, line no: 95, 0.08333333333333333, , 0.08333333333333333, 1.0
+lockFile=new LockFile(lockFileName true),ASSIGNMENT, line no: 47,lockFile.lock(),METHOD_INVOCATION, line no: 49, 0.07894736842105263, , 0.07368421052631578, 0.5
+lockFile,SIMPLE_NAME, line no: 47,lockFile != null,INFIX_EXPRESSION, line no: 89, 0.07291666666666667, , 0.07291666666666667, 1.0
+lockFile,SIMPLE_NAME, line no: 47,lockFile.keepAlive(),METHOD_INVOCATION, line no: 89, 0.07291666666666667, , 0.07291666666666667, 1.0
+lockFile=new LockFile(lockFileName true),ASSIGNMENT, line no: 47,LOG.info("Database " + lockFileName + " is locked by another server. This broker is now in slave mode waiting a lock to be acquired"),METHOD_INVOCATION, line no: 62, 0.06315789473684211, , 0.18947368421052632, 0.3333333333333333
+lockFile,SIMPLE_NAME, line no: 47,lockFile != null && lockFile.keepAlive(),INFIX_EXPRESSION, line no: 89, 0.0625, , 0.0625, 1.0
+lockFile=new LockFile(lockFileName true),ASSIGNMENT, line no: 47,lockFile.unlock(),METHOD_INVOCATION, line no: 94, 0.042105263157894736, , 0.08421052631578947, 0.5
+lockFile=new LockFile(lockFileName true),ASSIGNMENT, line no: 47,lockFile=null,ASSIGNMENT, line no: 95, 0.042105263157894736, , 0.08421052631578947, 0.5
+lockFile=new LockFile(lockFileName true),ASSIGNMENT, line no: 47,lockFile != null,INFIX_EXPRESSION, line no: 89, 0.03684210526315789, , 0.07368421052631578, 0.5
+lockFile=new LockFile(lockFileName true),ASSIGNMENT, line no: 47,lockFile.keepAlive(),METHOD_INVOCATION, line no: 89, 0.03684210526315789, , 0.07368421052631578, 0.5
+lockFile=new LockFile(lockFileName true),ASSIGNMENT, line no: 47,lockFile != null && lockFile.keepAlive(),INFIX_EXPRESSION, line no: 89, 0.031578947368421054, , 0.06315789473684211, 0.5
