@@ -18,7 +18,7 @@ public class FaultLocalizer {
 			String line;
 		    while ((line = br.readLine()) != null) {
 		    	faultyLine = Integer.parseInt(line);
-//		    	System.out.println("Fault in line no "+faultyLine);
+		    	System.out.println("Fault in line no "+faultyLine);
 		    }
 		    br.close();
 		} catch(Exception e) {

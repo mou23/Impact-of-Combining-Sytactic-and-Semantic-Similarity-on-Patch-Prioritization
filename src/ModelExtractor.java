@@ -262,26 +262,29 @@ public class ModelExtractor {
 			public void preVisit(ASTNode child) {
 				if(child.getNodeType()==ASTNode.SIMPLE_NAME) {
 					IBinding binding = (IBinding) ((Name) child).resolveBinding();
-					Iterator<Variable> iterator = variableAccessed.iterator(); 
-					boolean match = false;
-					while(iterator.hasNext())  
-					{ 
-						Variable var = iterator.next(); 
-						if(var.binding.equals(binding)) {
-							match = true;
-							break;
-						}
-					}
-					if(match == false) {
-						for(Variable variable : VariableCollector.variables) {
-							if(variable.binding.equals(binding)) {
-								variableAccessed.add(variable);
-//								System.out.println("VARIABLE "+variable);
-								
+					if(binding!=null) {
+						Iterator<Variable> iterator = variableAccessed.iterator(); 
+						boolean match = false;
+						while(iterator.hasNext())  
+						{ 
+							Variable var = iterator.next(); 
+							if(var.binding.equals(binding)) {
+								match = true;
 								break;
 							}
 						}
+						if(match == false) {
+							for(Variable variable : VariableCollector.variables) {
+								if(variable.binding.equals(binding)) {
+									variableAccessed.add(variable);
+//									System.out.println("VARIABLE "+variable);
+									
+									break;
+								}
+							}
+						}
 					}
+					
 				}
 			}
 		});

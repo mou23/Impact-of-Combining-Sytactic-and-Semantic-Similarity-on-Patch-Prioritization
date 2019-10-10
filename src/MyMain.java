@@ -30,7 +30,8 @@ public class MyMain {
 			}
 
 		} catch(Exception e) {
-			System.out.println(e.getMessage());
+			e.printStackTrace();
+			System.out.println(e.getLocalizedMessage());
 		}
 	}
 
@@ -43,10 +44,10 @@ public class MyMain {
 				file = file.substring(file.indexOf(rootFolder.getName())+rootFolder.getName().length()+1);
 				System.out.println("Processing " +file);
 				long startingTime = System.nanoTime();
-				FaultLocalizer faultLocalizer = FaultLocalizer.createFaultLocalizer();
-				faultLocalizer.localizeFault(file);
-				PatchEvaluator patchEvaluator = PatchEvaluator.createPatchEvaluator();
-				patchEvaluator.prepareSolutionAST(file);
+//				FaultLocalizer faultLocalizer = FaultLocalizer.createFaultLocalizer();
+//				faultLocalizer.localizeFault(file);
+//				PatchEvaluator patchEvaluator = PatchEvaluator.createPatchEvaluator();
+//				patchEvaluator.prepareSolutionAST(file);
 				PatchGenerator patchGenerator = PatchGenerator.createPatchGenerator(); 
 				String identifier = listOfFiles[i].getParent();
 				identifier = identifier.substring(identifier.indexOf(rootFolder.getName())+rootFolder.getName().length()+1);
