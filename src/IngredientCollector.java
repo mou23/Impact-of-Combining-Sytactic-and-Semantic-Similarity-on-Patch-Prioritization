@@ -40,8 +40,8 @@ public class IngredientCollector extends ASTVisitor {
 		PatchGenerator patchGenerator = PatchGenerator.createPatchGenerator();
 		
 		if(node instanceof Expression) {
-			System.out.println("NODE " +node);
-			System.out.println(patchGenerator.compilationUnit.getLineNumber(node.getStartPosition()) + " "+patchGenerator.compilationUnit.getLineNumber(node.getStartPosition()+node.getLength()));
+//			System.out.println("NODE " +node);
+//			System.out.println(patchGenerator.compilationUnit.getLineNumber(node.getStartPosition()) + " "+patchGenerator.compilationUnit.getLineNumber(node.getStartPosition()+node.getLength()));
 			this.collectFaultyNode(node);
 			this.collectFixingIngredients(node);
 		}		

@@ -16,10 +16,9 @@ import org.apache.commons.io.FilenameUtils;
 import net.lingala.zip4j.core.ZipFile;
 
 public class MyMain {
-	static String dirLocation = "dataset/buggy/";
+	static String dirLocation = "dataset/buggy0/";
 	static File rootFolder = new File(dirLocation);
 	public static void main(String[] args) {
-		
 		File[] listOfFiles = rootFolder.listFiles();
 
 		try {
@@ -40,19 +39,18 @@ public class MyMain {
 			if (listOfFiles[i].isFile() && listOfFiles[i].getName().contains(".java")) {
 				String file = listOfFiles[i].getAbsolutePath();
 				file = file.substring(file.indexOf(rootFolder.getName())+rootFolder.getName().length()+1);
-//				System.out.println("Processing " +file);
+				System.out.println("Processing " +file);
 				long startingTime = System.nanoTime();
-//				FaultLocalizer faultLocalizer = FaultLocalizer.createFaultLocalizer();
-//				faultLocalizer.localizeFault(file);
-//				PatchEvaluator patchEvaluator = PatchEvaluator.createPatchEvaluator();
-//				patchEvaluator.prepareSolutionAST(file);
-//				PatchGenerator patchGenerator = PatchGenerator.createPatchGenerator(); 
-//				String identifier = listOfFiles[i].getParent();
-//				identifier = identifier.substring(identifier.indexOf(rootFolder.getName())+rootFolder.getName().length()+1);
-//				System.out.println(identifier);
-//				patchGenerator.generatePatch(listOfFiles[i], identifier, startingTime);
-//				System.out.println();
-//				System.out.println();
+				FaultLocalizer faultLocalizer = FaultLocalizer.createFaultLocalizer();
+				faultLocalizer.localizeFault(file);
+				PatchEvaluator patchEvaluator = PatchEvaluator.createPatchEvaluator();
+				patchEvaluator.prepareSolutionAST(file);
+				PatchGenerator patchGenerator = PatchGenerator.createPatchGenerator(); 
+				String identifier = listOfFiles[i].getParent();
+				identifier = identifier.substring(identifier.indexOf(rootFolder.getName())+rootFolder.getName().length()+1);
+				patchGenerator.generatePatch(listOfFiles[i], identifier, startingTime);
+				System.out.println();
+				System.out.println();
 				break;
 			}
 			else if (listOfFiles[i].isDirectory()) {

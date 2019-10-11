@@ -268,18 +268,45 @@ public class ModelExtractor {
 						while(iterator.hasNext())  
 						{ 
 							Variable var = iterator.next(); 
-							if(var.binding.equals(binding)) {
+							if(var.binding!=null && var.binding.equals(binding)) {
 								match = true;
 								break;
 							}
 						}
 						if(match == false) {
 							for(Variable variable : VariableCollector.variables) {
-								if(variable.binding.equals(binding)) {
+								if(variable.binding!=null && variable.binding.equals(binding)) {
 									variableAccessed.add(variable);
 //									System.out.println("VARIABLE "+variable);
-									
 									break;
+								}
+							}
+						}
+					}
+					
+					else {
+						Iterator<Variable> iterator = variableAccessed.iterator(); 
+						boolean match = false;
+						while(iterator.hasNext())  
+						{ 
+							Variable var = iterator.next(); 
+							if(var.binding==null && var.name.equals(child.toString())) {
+								System.out.println("MATCHING!!!!!!!! " + var.name);
+								match = true;
+								break;
+							}
+						}
+						if(match == false) {
+							for(Variable variable : VariableCollector.variables) {
+								if(variable.binding==null && variable.name.equals(child.toString())) {
+//									System.out.println("VARIABLE "+variable);
+									PatchGenerator patchGenerator = PatchGenerator.createPatchGenerator();
+									int lineNo = patchGenerator.compilationUnit.getLineNumber(child.getStartPosition());
+									if(lineNo>=variable.startLine && lineNo<=variable.endLine) {
+										System.out.println("NOT MATCHING!!!!!!!! " + variable.name);
+										variableAccessed.add(variable);
+										break;
+									}
 								}
 							}
 						}

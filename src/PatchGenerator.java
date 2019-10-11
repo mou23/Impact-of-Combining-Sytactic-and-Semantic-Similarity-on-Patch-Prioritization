@@ -68,7 +68,7 @@ public class PatchGenerator {
 		//	file = new File("digit003/src/main/java/introclassJava/digits_6e464f2b_003_old.java"); // //D:/thesis/software repair/resources/20/capgen/CapGen/IntroClassJava/dataset/syllables/fcf701e8bed9c75a4cc52a990a577eb0204d7aadf138a4cad08726a847d66e77126f95f06f839ec9224b7e8a887b873fe0d4b6f4311b4e8bd2a36e5028d1feca/002/src/main/java/introclassJava/syllables_fcf701e8_002.java
 		this.file = file;
 
-		ASTParser parser = ASTParser.newParser(AST.JLS10);
+		ASTParser parser = ASTParser.newParser(AST.JLS12);
 		String fileContent = readFileToString(file.getAbsolutePath());
 		this.document = new Document(fileContent);
 		Map<String, String> options = JavaCore.getOptions();
@@ -84,7 +84,7 @@ public class PatchGenerator {
 		this.compilationUnit = (CompilationUnit) parser.createAST(null);
 
 		this.compilationUnit.accept(new VariableCollector());
-//		this.compilationUnit.accept(ingredientCollector);
+		this.compilationUnit.accept(ingredientCollector);
 		//		System.out.println("INGREDIENT");
 		//		System.out.println(this.ingredientCollector.fixingIngredients.size());
 		//		for(int i=0; i<this.ingredientCollector.fixingIngredients.size(); i++) {
@@ -92,12 +92,9 @@ public class PatchGenerator {
 		//		}
 
 //		System.out.println("VARIABLES");
-		for(int i=0; i<VariableCollector.variables.size(); i++) {
-			Variable v = VariableCollector.variables.get(i);
-			if(v.binding==null) {
-				System.out.println(v);
-			}
-		}
+//		for(int i=0; i<VariableCollector.variables.size(); i++) {
+//			Variable v = VariableCollector.variables.get(i);
+//		}
 //		ReplaceHandler replaceHandler = ReplaceHandler.createReplaceHandler();
 //		for(int i=0; i<this.ingredientCollector.faultyNodes.size(); i++) {
 //			Node faultyNode = this.ingredientCollector.faultyNodes.get(i);
@@ -341,7 +338,7 @@ public class PatchGenerator {
 
 			TextEdit edits = rewriter.rewriteAST(document,null);
 			edits.apply(document);
-			ASTParser parser = ASTParser.newParser(AST.JLS10);
+			ASTParser parser = ASTParser.newParser(AST.JLS12);
 
 			Map<String, String> options = JavaCore.getOptions();
 			options.put("org.eclipse.jdt.core.compiler.source", "1.8");

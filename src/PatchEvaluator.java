@@ -33,7 +33,7 @@ public class PatchEvaluator {
 	public void prepareSolutionAST(String filename) {
 		File file = new File("dataset/fixed/"+filename);
 		PatchGenerator patchGenerator = PatchGenerator.createPatchGenerator(); 
-		ASTParser parser = ASTParser.newParser(AST.JLS10);
+		ASTParser parser = ASTParser.newParser(AST.JLS12);
 		String fileContent = patchGenerator.readFileToString(file.getAbsolutePath());
 		Document document = new Document(fileContent);
 		Map<String, String> options = JavaCore.getOptions();

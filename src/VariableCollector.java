@@ -23,7 +23,7 @@ public class VariableCollector extends ASTVisitor {
 //		System.out.println(variable.name + " " +variable.type + " "+variable.binding);
 //		System.out.println(currentNode);
 		PatchGenerator patchGenerator = PatchGenerator.createPatchGenerator();
-		variable.startLine = patchGenerator.compilationUnit.getLineNumber(currentNode.getStartPosition());
+		variable.startLine = patchGenerator.compilationUnit.getLineNumber(node.getStartPosition());
 		variable.endLine = patchGenerator.compilationUnit.getLineNumber(currentNode.getStartPosition()+currentNode.getLength());
 		variables.add(variable);
 
@@ -48,7 +48,7 @@ public class VariableCollector extends ASTVisitor {
         			currentNode = currentNode.getParent();
         		}
         		PatchGenerator patchGenerator = PatchGenerator.createPatchGenerator();
-        		variable.startLine = patchGenerator.compilationUnit.getLineNumber(currentNode.getStartPosition());
+        		variable.startLine = patchGenerator.compilationUnit.getLineNumber(var.getStartPosition());
         		variable.endLine = patchGenerator.compilationUnit.getLineNumber(currentNode.getStartPosition()+currentNode.getLength());
         		variables.add(variable);
         		
