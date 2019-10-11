@@ -41,7 +41,7 @@ public class CompatibilityChecker {
 //					System.out.println(qualifiedName+ " "+qualifiedName.getName());
 					if(binding!=null) {
 						for(Variable variable : VariableCollector.variables) {
-							if(variable.binding.equals(binding)) {
+							if(variable.binding!=null && variable.binding.equals(binding)) {
 								variablesToBeIgnored.add(variable);
 								break;
 							}
@@ -59,7 +59,7 @@ public class CompatibilityChecker {
 			Variable variableAccessed = iterator.next();  
 			if(!variablesToBeIgnored.contains(variableAccessed)) {
 				for(Variable variable : VariableCollector.variables) {
-					if(variable.binding.equals(variableAccessed.binding)) {
+					if(variableAccessed.binding!=null && variable.binding!=null && variable.binding.equals(variableAccessed.binding)) {
 						if(operation.equals("insert")) {
 							if(variable.startLine>currentLine || variable.endLine<currentLine) {
 //								System.out.println("FAULT "+faultyNode + " "+currentLine);
@@ -73,6 +73,7 @@ public class CompatibilityChecker {
 //								System.out.println("FAULT "+faultyNode + " "+currentLine);
 //								System.out.println("FIX "+fixingIngredient.node + " " +fixingIngredient.startLine);
 //								System.out.println( operation + " INCOMPATIBLE!!!!!!!!!!!!!!!!");
+//								System.out.println("variable "+variable.name);
 								return false;
 							}
 						}

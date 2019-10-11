@@ -291,7 +291,6 @@ public class ModelExtractor {
 						{ 
 							Variable var = iterator.next(); 
 							if(var.binding==null && var.name.equals(child.toString())) {
-								System.out.println("MATCHING!!!!!!!! " + var.name);
 								match = true;
 								break;
 							}
@@ -303,7 +302,6 @@ public class ModelExtractor {
 									PatchGenerator patchGenerator = PatchGenerator.createPatchGenerator();
 									int lineNo = patchGenerator.compilationUnit.getLineNumber(child.getStartPosition());
 									if(lineNo>=variable.startLine && lineNo<=variable.endLine) {
-										System.out.println("NOT MATCHING!!!!!!!! " + variable.name);
 										variableAccessed.add(variable);
 										break;
 									}
