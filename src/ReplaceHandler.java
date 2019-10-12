@@ -1,5 +1,6 @@
 import org.eclipse.jdt.core.dom.Expression;
 import org.eclipse.jdt.core.dom.IBinding;
+import org.eclipse.jdt.core.dom.SimpleName;
 
 public class ReplaceHandler {
 	private static ReplaceHandler replaceHandler;
@@ -34,7 +35,18 @@ public class ReplaceHandler {
 					
 					ModelExtractor modelExtractor = ModelExtractor.createModelExtractor();
 					candidatePatch.genealogyScore = modelExtractor.getGenealogySimilarityScore(faultyNode.genealogy, fixingIngredient.genealogy);
-					candidatePatch.variableScore = modelExtractor.getVariableSimilarityScore(faultyNode.variableAccessed, fixingIngredient.variableAccessed);
+					if(faultyNode.type.equals("SIMPLE_NAME") && fixingIngredient.type.equals("SIMPLE_NAME")) {
+						IBinding faultyBinding = ((Expression)faultyNode.node).resolveTypeBinding();
+						IBinding fixingBinding = ((Expression)fixingIngredient.node).resolveTypeBinding();
+						if(faultyBinding!=null && fixingBinding!=null && faultyBinding.equals(fixingBinding)) {
+//							System.out.println(faultyNode.node + " line : " + faultyNode.startLine);
+//							System.out.println(fixingIngredient.node + " line : " + fixingIngredient.startLine);
+							candidatePatch.variableScore = 1.0;
+						}
+					}
+					else {
+						candidatePatch.variableScore = modelExtractor.getVariableSimilarityScore(faultyNode.variableAccessed, fixingIngredient.variableAccessed);
+					}
 					candidatePatch.score = candidatePatch.genealogyScore*candidatePatch.variableScore;
 					
 					if(candidatePatch.score>0) {

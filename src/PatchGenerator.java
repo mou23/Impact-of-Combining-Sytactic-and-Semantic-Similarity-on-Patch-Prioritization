@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashSet;
@@ -42,6 +43,8 @@ public class PatchGenerator {
 	int correctPatches;
 	//	static HashSet<CandidatePatch> candidatePatchesSet = new HashSet<CandidatePatch>();
 	ArrayList<CandidatePatch> candidatePatchesList = new ArrayList<CandidatePatch>();
+	ArrayList<String>sourceFiles = new ArrayList<String>();
+//	ArrayList<String>classFiles = new ArrayList<String>();
 	Document document;
 	File file;
 	boolean correctPatchFound;
@@ -79,12 +82,33 @@ public class PatchGenerator {
 		parser.setKind(ASTParser.K_COMPILATION_UNIT);
 		parser.setResolveBindings(true);
 		parser.setBindingsRecovery(true);
-		parser.setEnvironment(new String[0], new String[] {"D:/code/"+fileIdentifier}, null, true);
+		
+		File sourcePath = new File("D:/code/"+fileIdentifier);
+		File[] folders = sourcePath.listFiles();
+		
+		for(int i=0; i<folders.length; i++) {
+			try {
+				if(folders[i].isDirectory()==true) {
+					scanDirectory(folders[i]);
+				}
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+
+		String[] sourceFilesArray = this.sourceFiles.toArray(new String[0]);
+//		String[] classFilesArray = this.classFiles.toArray(new String[0]);
+//		for(int i=0; i<this.sourceFiles.size(); i++) {
+//			System.out.println(sourceFilesArray[i]);
+//		}
+		
+		parser.setEnvironment(new String[0], sourceFilesArray , null, true);
 		parser.setUnitName("file.java");
 		this.compilationUnit = (CompilationUnit) parser.createAST(null);
 
 		this.compilationUnit.accept(new VariableCollector());
 		this.compilationUnit.accept(ingredientCollector);
+		
 		//		System.out.println("INGREDIENT");
 		//		System.out.println(this.ingredientCollector.fixingIngredients.size());
 		//		for(int i=0; i<this.ingredientCollector.fixingIngredients.size(); i++) {
@@ -94,6 +118,7 @@ public class PatchGenerator {
 //		System.out.println("VARIABLES");
 //		for(int i=0; i<VariableCollector.variables.size(); i++) {
 //			Variable v = VariableCollector.variables.get(i);
+//			System.out.println(v);
 //		}
 		ReplaceHandler replaceHandler = ReplaceHandler.createReplaceHandler();
 		for(int i=0; i<this.ingredientCollector.faultyNodes.size(); i++) {
@@ -102,12 +127,12 @@ public class PatchGenerator {
 			//			System.out.println(faultyNode);
 			//			this.generatePatchTemplate(faultyNode);
 		}
-//		////		candidatePatchesList = new ArrayList<CandidatePatch>(candidatePatchesSet);
+////		////		candidatePatchesList = new ArrayList<CandidatePatch>(candidatePatchesSet);
 		Collections.sort(this.candidatePatchesList);
-////		//
+//////		//
 		this.writeCandidatePatches(fileIdentifier);
-////		////		System.out.println((long)15*60*1000000000);
-////		this.correctPatchFound = false;
+//////		////		System.out.println((long)15*60*1000000000);
+//////		this.correctPatchFound = false;
 		System.out.println(this.candidatePatchesList.size() +" Patches Generated");
 		for(int i=0; i<this.candidatePatchesList.size(); i++) { //candidatePatches.size()
 			//			long currentTime = System.nanoTime();
@@ -137,6 +162,22 @@ public class PatchGenerator {
 //		System.out.println(this.correctPatches + " Correct Patches Found");
 	}
 
+	private void scanDirectory(File folder) throws Exception {
+		File[] listOfFiles = folder.listFiles();
+
+		for (int i = 0; i < listOfFiles.length; i++) {
+			if (listOfFiles[i].isDirectory()) {
+				String str = listOfFiles[i].getAbsolutePath();
+				if(this.sourceFiles.contains(str)==false) {
+					this.sourceFiles.add(str);
+				}
+				scanDirectory(new File(folder+"/"+listOfFiles[i].getName()));
+			}
+//			else if (listOfFiles[i].getName().endsWith(".jar")) {
+//				this.classFiles.add(listOfFiles[i].getAbsolutePath());
+//			}
+		}
+	}
 
 
 	void writeCandidatePatches(String fileIdentifier) {
@@ -157,6 +198,8 @@ public class PatchGenerator {
 	private void init() {
 		this.correctPatches = 0;
 		this.candidatePatchesList.clear();
+		this.sourceFiles.clear();
+//		this.classFiles.clear();
 		VariableCollector.variables.clear();
 		this.ingredientCollector.faultyNodes.clear();
 		this.ingredientCollector.fixingIngredients.clear();
