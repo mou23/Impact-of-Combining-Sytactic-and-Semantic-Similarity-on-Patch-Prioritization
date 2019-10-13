@@ -15,6 +15,7 @@ import java.util.Map;
 
 import org.apache.commons.io.FilenameUtils;
 import org.eclipse.jdt.core.JavaCore;
+import org.eclipse.jdt.core.compiler.IProblem;
 import org.eclipse.jdt.core.dom.AST;
 import org.eclipse.jdt.core.dom.ASTNode;
 import org.eclipse.jdt.core.dom.ASTParser;
@@ -394,9 +395,21 @@ public class PatchGenerator {
 			//			System.out.println(compilationUnit.toString());
 			correctPatchFound = this.patchEvaluator.evaluatePatch(compilationUnit.toString());
 			if(correctPatchFound == true) {
-				System.out.println("Correct Patch Generated!");//+ " Elapsed Time: " +(System.nanoTime()-startingTime));
-				System.out.println(candidatePatch.faultyNode);
-				System.out.println(candidatePatch.fixingIngredient);
+				IProblem[] problems = compilationUnit.getProblems();
+			    for(IProblem problem : problems) {
+			    	if(problem.getMessage().contains("Syntax error")) {
+			    		System.out.println("problem: " + problem.getMessage() + problem.getSourceStart());
+			    		correctPatchFound = false;
+			    		System.out.println(candidatePatch.faultyNode);
+				    	System.out.println(candidatePatch.fixingIngredient);
+				    	break;
+			    	}	
+			    }
+			    if(correctPatchFound == true) {
+			    	System.out.println("Correct Patch Generated!");//+ " Elapsed Time: " +(System.nanoTime()-startingTime));
+			    	System.out.println(candidatePatch.faultyNode);
+			    	System.out.println(candidatePatch.fixingIngredient);
+			    }
 			}
 
 

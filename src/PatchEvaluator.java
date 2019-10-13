@@ -44,6 +44,7 @@ public class PatchEvaluator {
 		parser.setResolveBindings(true);
 		parser.setEnvironment(new String[] {}, new String[] {}, null, true);
 		parser.setUnitName("fixed.java");
+		parser.setStatementsRecovery(true);
 		solutionCompilationUnit = (CompilationUnit) parser.createAST(null);
 //		System.out.println(solutionCompilationUnit.toString());
 //		System.out.println();
@@ -56,6 +57,9 @@ public class PatchEvaluator {
 	}
 
 	public boolean evaluatePatch(String patch) {
+//		if(solutionCompilationUnit.toString().equals(patch)) {
+//			System.out.println(solutionCompilationUnit.toString());
+//		}
 		return solutionCompilationUnit.toString().equals(patch);
 	}
 }
