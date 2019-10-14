@@ -19,9 +19,9 @@ public class PatchListUpdater {
 		for(int i=0; i<length; i++) {
 			CandidatePatch currentPatch = this.patchGenerator.candidatePatchesList.get(i);
 			if(currentPatch.faultyNode==candidatePatch.faultyNode && currentPatch.fixingIngredient.toString().equals(candidatePatch.fixingIngredient.toString())) {
-//				if(currentPatch.score<candidatePatch.score) {
-//					currentPatch.score = candidatePatch.score;
-//				}
+				if(currentPatch.score<candidatePatch.score) {
+					currentPatch.score = candidatePatch.score;
+				}
 				return;
 			}
 		}

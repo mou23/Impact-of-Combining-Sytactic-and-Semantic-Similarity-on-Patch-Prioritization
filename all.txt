@@ -1,0 +1,5911 @@
+Processing xtreemfs_xtreemfs/modifiedFiles/2/StripeTranslatorRaid0.java
+Fault in line no 46
+624 Patches Generated
+Correct Patch Generated!
+(int)(start + offset) % stripeSize
+(int)((start + offset) % stripeSize)
+Total Candidate Patches: 624
+Correct Patch Rank: 134
+
+
+Processing eclipse_eclipse.platform.runtime/modifiedFiles/4/DeltaDebugListener.java
+Fault in line no 44
+320 Patches Generated
+problem: Syntax error, insert ">" to complete ReferenceType11370
+CoreException
+i < children.length
+
+
+Processing NFLabs_zeppelin/modifiedFiles/2/Util.java
+Fault in line no 72
+2552 Patches Generated
+Correct Patch Generated!
+str.length() - 1
+str.length()
+Total Candidate Patches: 2552
+Correct Patch Rank: 1910
+
+
+Processing druid-io_druid/modifiedFiles/4/DruidMetrics.java
+Fault in line no 79
+1727 Patches Generated
+Correct Patch Generated!
+query.getDuration().toPeriod().toStandardMinutes()
+query.getDuration()
+Total Candidate Patches: 1727
+Correct Patch Rank: 605
+
+
+Processing druid-io_druid/modifiedFiles/8/JsonConfigTesterBase.java
+Fault in line no 139
+1195 Patches Generated
+Correct Patch Generated!
+Object
+Module
+Total Candidate Patches: 1195
+Correct Patch Rank: 508
+
+
+Processing druid-io_druid/modifiedFiles/34/StringInputRowParser.java
+Fault in line no 70
+660 Patches Generated
+Correct Patch Generated!
+limit
+remaining
+Total Candidate Patches: 660
+Correct Patch Rank: 608
+
+
+Processing druid-io_druid/modifiedFiles/26/TopNQueryQueryToolChest.java
+Fault in line no 213
+7504 Patches Generated
+Correct Patch Generated!
+fn.manipulate(agg,input.getMetric(agg.getName()))
+input.getMetric(agg.getName())
+Total Candidate Patches: 7504
+Correct Patch Rank: 3085
+
+
+Processing yegor256_rexsl/modifiedFiles/4/Facebook.java
+Fault in line no 145
+1603 Patches Generated
+Status ERROR: org.eclipse.jdt.core code=4 Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+/**
+ * Copyright (c) 2011-2013, ReXSL.com
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met: 1) Redistributions of source code must retain the above
+ * copyright notice, this list of conditions and the following
+ * disclaimer. 2) Redistributions in binary form must reproduce the above
+ * copyright notice, this list of conditions and the following
+ * disclaimer in the documentation and/or other materials provided
+ * with the distribution. 3) Neither the name of the ReXSL.com nor
+ * the names of its contributors may be used to endorse or promote
+ * products derived from this software without specific prior written
+ * permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT
+ * NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+ * FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
+ * THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+ * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+ * OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+package com.rexsl.page.auth;
+
+import com.jcabi.aspects.Loggable;
+import com.jcabi.urn.URN;
+import com.restfb.DefaultFacebookClient;
+import com.restfb.types.User;
+import com.rexsl.page.Link;
+import com.rexsl.page.Resource;
+import com.rexsl.test.RestTester;
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URI;
+import java.util.List;
+import javax.validation.constraints.NotNull;
+import javax.ws.rs.core.UriBuilder;
+import lombok.EqualsAndHashCode;
+import lombok.ToString;
+
+/**
+ * Facebook authentication provider.
+ *
+ * @author Yegor Bugayenko (yegor@tpc2.com)
+ * @version $Id$
+ * @since 0.4.7
+ */
+@ToString
+@EqualsAndHashCode(of = { "appId", "appKey" })
+public final class Facebook implements Provider {
+
+    /**
+     * Query param.
+     */
+    private static final String FLAG = "rexsl-facebook";
+
+    /**
+     * Resource.
+     */
+    private final transient Resource resource;
+
+    /**
+     * Facebook ID.
+     */
+    private final transient String appId;
+
+    /**
+     * Facebook secret key.
+     */
+    private final transient String appKey;
+
+    /**
+     * Public ctor.
+     * @param res Resource
+     * @param aid Application id
+     * @param key Application secret key
+     */
+    public Facebook(@NotNull final Resource res,
+        @NotNull final String aid, @NotNull final String key) {
+        this.resource = res;
+        this.appId = aid;
+        this.appKey = key;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    @Loggable(Loggable.DEBUG)
+    public Identity identity() throws IOException {
+        Identity identity = Identity.ANONYMOUS;
+        if (this.resource.uriInfo().getQueryParameters()
+            .containsKey(Facebook.FLAG)) {
+            final List<String> code = this.resource.uriInfo()
+                // @checkstyle MultipleStringLiterals (1 line)
+                .getQueryParameters().get("code");
+            if (code.isEmpty()) {
+                throw new IllegalStateException(
+                    "HTTP query parameter 'code' is mandatory"
+                );
+            }
+            final User fbuser = this.fetch(this.token(code.get(0)));
+            identity = new Identity() {
+                @Override
+                public URN urn() {
+                    return URN.create(
+                        String.format("urn:facebook:%s", fbuser.getId())
+                    );
+                }
+                @Override
+                public String name() {
+                    return fbuser.getName();
+                }
+                @Override
+                public URI photo() {
+                    return UriBuilder.fromUri("https://graph.facebook.com/")
+                        .path("/{id}/picture")
+                        .build(fbuser.getId());
+                }
+            };
+        }
+        return identity;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    @Loggable(Loggable.DEBUG)
+    public Link link() {
+        return new Link(
+            "auth-facebook",
+            UriBuilder
+                .fromUri("https://www.facebook.com/dialog/oauth")
+                // @checkstyle MultipleStringLiterals (2 lines)
+                .queryParam("client_id", "{client_id}")
+                .queryParam("redirect_uri", "{redirect_uri}")
+                .build(@EqualsAndHashCode(of = { "appId", "appKey" }), this.redirectUri())
+        );
+    }
+
+    /**
+     * Redirect URI.
+     * @return The URI
+     */
+    private URI redirectUri() {
+        return this.resource.uriInfo().getRequestUriBuilder()
+            .clone()
+            .queryParam(Facebook.FLAG)
+            .build();
+    }
+
+    /**
+     * Retrieve facebook access token.
+     * @param code Facebook "authorization code"
+     * @return The token
+     * @throws IOException If failed
+     */
+    private String token(final String code) throws IOException {
+        final URI uri = UriBuilder
+            .fromUri("https://graph.facebook.com/oauth/access_token")
+            .queryParam("client_id", "{id}")
+            .queryParam("redirect_uri", "{uri}")
+            .queryParam("client_secret", "{secret}")
+            .queryParam("code", "{code}")
+            .build(
+                this.appId,
+                this.redirectUri(),
+                this.appKey,
+                code
+            );
+        final String response = RestTester.start(uri)
+            .get("fetch Facebook access token")
+            .assertStatus(HttpURLConnection.HTTP_OK)
+            .getBody();
+        final String[] sectors = response.split("&");
+        String token = null;
+        for (String sector : sectors) {
+            final String[] pair = sector.split("=");
+            if (pair.length != 2) {
+                throw new IllegalArgumentException(
+                    String.format(
+                        "Invalid response: '%s'",
+                        response
+                    )
+                );
+            }
+            if ("access_token".equals(pair[0])) {
+                token = pair[1];
+                break;
+            }
+        }
+        if (token == null) {
+            throw new IllegalArgumentException(
+                String.format(
+                    "Access token not found in response: '%s'",
+                    response
+                )
+            );
+        }
+        return token;
+    }
+
+    /**
+     * Get user name from Facebook, but the code provided.
+     * @param token Facebook access token
+     * @return The user found in FB
+     */
+    private User fetch(final String token) {
+        try {
+            return new DefaultFacebookClient(token)
+                .fetchObject("me", User.class);
+        } catch (com.restfb.exception.FacebookException ex) {
+            throw new IllegalArgumentException(ex);
+        }
+    }
+
+}
+
+----------------------------------- SOURCE END ------------------------------------- java.lang.IllegalArgumentException
+Correct Patch Generated!
+this.appKey
+this.appId
+Total Candidate Patches: 1603
+Correct Patch Rank: 320
+
+
+Processing fasseg_exp4j/modifiedFiles/4/Tokenizer.java
+Fault in line no 68
+828 Patches Generated
+Correct Patch Generated!
+Character.isDigit(next)
+Character.isDigit(next) || next == '.'
+Total Candidate Patches: 828
+Correct Patch Rank: 65
+
+
+Processing fasseg_exp4j/modifiedFiles/6/ExpressionBuilder.java
+Fault in line no 78
+1953 Patches Generated
+Correct Patch Generated!
+7
+5
+Total Candidate Patches: 1953
+Correct Patch Rank: 1496
+
+
+Processing zeromq_jeromq/modifiedFiles/2/TcpAddress.java
+Fault in line no 75
+1177 Patches Generated
+Correct Patch Generated!
+addr_str.length() - 2
+addr_str.length() - 1
+Total Candidate Patches: 1177
+Correct Patch Rank: 718
+
+
+Processing crate_crate/modifiedFiles/10/IndexWriterProjector.java
+Fault in line no 84
+932 Patches Generated
+Correct Patch Generated!
+delegate
+this
+Total Candidate Patches: 932
+Correct Patch Rank: 828
+
+
+Processing crate_crate/modifiedFiles/2/Planner.java
+Fault in line no 498
+6822 Patches Generated
+Correct Patch Generated!
+whereClauses.get(0)
+whereClause
+Total Candidate Patches: 6822
+Correct Patch Rank: 4117
+
+
+Processing crate_crate/modifiedFiles/26/UnassignedShardsReferenceResolver.java
+Fault in line no 45
+127 Patches Generated
+Correct Patch Generated!
+false
+null
+Total Candidate Patches: 127
+Correct Patch Rank: 104
+
+
+Processing geomajas_geomajas-project-client-gwt2/modifiedFiles/6/MapView.java
+Fault in line no 750
+2665 Patches Generated
+Correct Patch Generated!
+maxCoordinate.getX()
+maxCoordinate.getY()
+Total Candidate Patches: 2665
+Correct Patch Rank: 1566
+
+
+Processing joestelmach_natty/modifiedFiles/2/WalkerState.java
+Fault in line no 146
+4048 Patches Generated
+Correct Patch Generated!
+yearInt > 0
+yearInt >= 0
+Total Candidate Patches: 4048
+Correct Patch Rank: 1467
+
+
+Processing BaderLab_EnrichmentMapApp/modifiedFiles/2/PostAnalysisParameters.java
+Fault in line no 118
+606 Patches Generated
+Correct Patch Generated!
+0.25
+0.05
+Total Candidate Patches: 606
+Correct Patch Rank: 384
+
+
+Processing eclipse_xtext/modifiedFiles/68/XtextDamagerRepairer.java
+Fault in line no 96
+2585 Patches Generated
+Correct Patch Generated!
+actual.getCurrent().getStopIndex()
+actual.getCurrent().getStopIndex() + 1
+Total Candidate Patches: 2585
+Correct Patch Rank: 1595
+
+
+Processing eclipse_xtext/modifiedFiles/38/XtendJvmModelInferrer.java
+Fault in line no 260
+3540 Patches Generated
+Correct Patch Generated!
+associatePrimary
+associate
+Total Candidate Patches: 3540
+Correct Patch Rank: 1751
+
+
+Processing eclipse_xtext/modifiedFiles/2/JavaASTFlattener.java
+Fault in line no 1887
+15393 Patches Generated
+Correct Patch Generated!
+this._aSTFlattenerUtils.needsReturnValue(assigment)
+this._aSTFlattenerUtils.needsReturnValue(node)
+Total Candidate Patches: 15393
+Correct Patch Rank: 2731
+
+
+Processing eclipse_xtext/modifiedFiles/36/XbaseResourceDescriptionStrategy.java
+Fault in line no 78
+1206 Patches Generated
+Correct Patch Generated!
+SIGNATURE_HASH_KEY
+IS_INTERFACE
+Total Candidate Patches: 1206
+Correct Patch Rank: 476
+
+
+Processing eclipse_xtext/modifiedFiles/24/WorkspaceProjectsStateHelper.java
+Fault in line no 96
+2236 Patches Generated
+Correct Patch Generated!
+p != null && XtextProjectHelper.hasNature(p) && XtextProjectHelper.hasNature(p)
+p != null && XtextProjectHelper.hasNature(p)
+Total Candidate Patches: 2236
+Correct Patch Rank: 163
+
+
+Processing eclipse_xtext/modifiedFiles/46/TypeArgumentContextProvider.java
+Fault in line no 889
+12864 Patches Generated
+Correct Patch Generated!
+ResolveInfoKind.UPPER
+allowWildcardResolutions ? ResolveInfoKind.WC_UPPER : ResolveInfoKind.UPPER
+Total Candidate Patches: 12864
+Correct Patch Rank: 8813
+
+
+Processing droolsjbpm_jbpm/modifiedFiles/2/DomainManagerServiceImpl.java
+Fault in line no 264
+2556 Patches Generated
+Correct Patch Generated!
+dirName + " Domain"
+dirName
+Total Candidate Patches: 2556
+Correct Patch Rank: 1666
+
+
+Processing adangel_pmd/modifiedFiles/12/MockRule.java
+Fault in line no 71
+107 Patches Generated
+Correct Patch Generated!
+isInclude
+include
+Total Candidate Patches: 107
+Correct Patch Rank: 75
+
+
+Processing petitparser_java-petitparser/modifiedFiles/4/RepeatingParser.java
+Fault in line no 39
+204 Patches Generated
+Correct Patch Generated!
+result.success(elements)
+current.success(elements)
+Total Candidate Patches: 204
+Correct Patch Rank: 51
+
+
+Processing petitparser_java-petitparser/modifiedFiles/2/XmlGrammar.java
+Fault in line no 122
+1626 Patches Generated
+Correct Patch Generated!
+"nameStartChar"
+"nameChar"
+Total Candidate Patches: 1626
+Correct Patch Rank: 1354
+
+
+Processing graphhopper_graphhopper/modifiedFiles/2/NameIndex.java
+Fault in line no 59
+2355 Patches Generated
+Correct Patch Generated!
+1
+4
+Total Candidate Patches: 2355
+Correct Patch Rank: 2306
+
+
+Processing jcabi_jcabi/modifiedFiles/2/MethodLogger.java
+Fault in line no 68
+1620 Patches Generated
+Correct Patch Generated!
+point.getTarget().getClass()
+method.getDeclaringClass()
+Total Candidate Patches: 1620
+Correct Patch Rank: 261
+
+
+Processing citiususc_hipster/modifiedFiles/2/StringMaze.java
+Fault in line no 217
+1028 Patches Generated
+Correct Patch Generated!
+this
+to
+Total Candidate Patches: 1028
+Correct Patch Rank: 750
+
+
+Processing hibernate_hibernate-search/modifiedFiles/8/MultipleSessionsSearchTestCase.java
+Fault in line no 30
+917 Patches Generated
+Correct Patch Generated!
+org.hibernate.classic
+org.hibernate
+Total Candidate Patches: 917
+Correct Patch Rank: 136
+
+
+Processing hibernate_hibernate-search/modifiedFiles/2/LeakingLuceneBackend.java
+Fault in line no 45
+129 Patches Generated
+Correct Patch Generated!
+lastProcessedQueue=null
+lastProcessedQueue=new ArrayList<LuceneWork>()
+Total Candidate Patches: 129
+Correct Patch Rank: 39
+
+
+Processing tdunning_t-digest/modifiedFiles/6/ArrayDigest.java
+Fault in line no 795
+5778 Patches Generated
+Correct Patch Generated!
+pageSize / 2
+newPage.active
+Total Candidate Patches: 5778
+Correct Patch Rank: 2554
+
+
+Processing apache_maven/modifiedFiles/6/RegexBasedModelInterpolator.java
+Fault in line no 167
+1710 Patches Generated
+Correct Patch Generated!
+realExpr
+wholeExpr
+Total Candidate Patches: 1710
+Correct Patch Rank: 1316
+
+
+Processing twall_jna/modifiedFiles/16/FileMonitor.java
+Fault in line no 222
+2210 Patches Generated
+Correct Patch Generated!
+result|=Kernel32.FILE_NOTIFY_CHANGE_CREATION
+result|=Kernel32.FILE_NOTIFY_CHANGE_NAME
+Total Candidate Patches: 2210
+Correct Patch Rank: 299
+
+
+Processing twall_jna/modifiedFiles/6/Structure.java
+Fault in line no 1290
+7180 Patches Generated
+Correct Patch Generated!
+true
+debug
+Total Candidate Patches: 7180
+Correct Patch Rank: 6692
+
+
+Processing twall_jna/modifiedFiles/12/Native.java
+Fault in line no 1192
+11925 Patches Generated
+Correct Patch Generated!
+FFIType.get(Pointer.class).peer
+FFIType.get(rclass).peer
+Total Candidate Patches: 11925
+Correct Patch Rank: 3804
+
+
+Processing apache_jackrabbit/modifiedFiles/4/NodeImpl.java
+Fault in line no 1077
+9325 Patches Generated
+Correct Patch Generated!
+prop.getDefinition().isProtected()
+oldDef.isProtected()
+Total Candidate Patches: 9325
+Correct Patch Rank: 900
+
+
+Processing Geomatys_geotoolkit/modifiedFiles/2/JAXBFeatureTypeReader.java
+Fault in line no 217
+2810 Patches Generated
+Correct Patch Generated!
+true
+false
+Total Candidate Patches: 2810
+Correct Patch Rank: 2203
+
+
+Processing apache_commons-lang/modifiedFiles/16/StrBuilder.java
+Fault in line no 884
+4837 Patches Generated
+Correct Patch Generated!
+strLen
+width
+Total Candidate Patches: 4837
+Correct Patch Rank: 3050
+
+
+Processing apache_commons-lang/modifiedFiles/14/LocaleUtils.java
+Fault in line no 223
+792 Patches Generated
+Correct Patch Generated!
+cAvailableLocaleSet
+availableLocaleList()
+Total Candidate Patches: 792
+Correct Patch Rank: 342
+
+
+Processing apache_commons-lang/modifiedFiles/2/TypeUtils.java
+Fault in line no 1629
+860 Patches Generated
+Correct Patch Generated!
+true
+false
+Total Candidate Patches: 860
+Correct Patch Rank: 196
+
+
+Processing carrot2_carrot2/modifiedFiles/10/PrintDependencies.java
+Fault in line no 152
+2352 Patches Generated
+Correct Patch Generated!
+dependencies.length - 1
+dependencies.length
+Total Candidate Patches: 2352
+Correct Patch Rank: 1138
+
+
+Processing pentaho_pentaho-platform/modifiedFiles/6/UserSettingService.java
+Fault in line no 146
+1320 Patches Generated
+Correct Patch Generated!
+setting.getSettingValue().equals(settingName)
+setting.getSettingName().equals(settingName)
+Total Candidate Patches: 1320
+Correct Patch Rank: 167
+
+
+Processing pentaho_pentaho-platform/modifiedFiles/8/PentahoSystemDriver.java
+Fault in line no 122
+262 Patches Generated
+problem: Syntax error on token "public", . expected3924
+@Override
+org.pentaho.platform.plugin.services.connections
+problem: Syntax error on token "public", . expected3912
+@Override
+org.pentaho.platform.plugin.services
+problem: Syntax error on token "public", . expected3903
+@Override
+org.pentaho.platform.plugin
+problem: Syntax error on token "public", . expected3896
+@Override
+org.pentaho.platform
+problem: Syntax error on token "public", . expected3887
+@Override
+org.pentaho
+problem: Syntax error on token "public", . expected3879
+@Override
+org
+problem: Syntax error on token "public", . expected3883
+@Override
+pentaho
+problem: Syntax error on token "public", . expected3884
+@Override
+platform
+problem: Syntax error on token "plugin", invalid Modifiers3873
+@Override
+plugin
+problem: Syntax error on token "public", . expected3884
+@Override
+services
+problem: Syntax error on token "public", . expected3887
+@Override
+connections
+problem: Syntax error on token "public", . expected3936
+@Override
+org.pentaho.platform.engine.core.system.PentahoSessionHolder
+problem: Syntax error on token "public", . expected3915
+@Override
+org.pentaho.platform.engine.core.system
+problem: Syntax error on token "public", . expected3908
+@Override
+org.pentaho.platform.engine.core
+problem: Syntax error on token "public", . expected3903
+@Override
+org.pentaho.platform.engine
+problem: Syntax error on token "public", . expected3882
+@Override
+engine
+problem: Syntax error on token "public", . expected3880
+@Override
+core
+problem: Syntax error on token "system", invalid Modifiers3873
+@Override
+system
+problem: Syntax error on token "public", . expected3896
+@Override
+PentahoSessionHolder
+problem: Syntax error on token "public", . expected3929
+@Override
+org.pentaho.platform.engine.core.system.PentahoSystem
+problem: Syntax error on token "public", . expected3889
+@Override
+PentahoSystem
+problem: Syntax error on token "public", . expected3930
+@Override
+org.pentaho.platform.engine.services.messages.Messages
+problem: Syntax error on token "public", . expected3921
+@Override
+org.pentaho.platform.engine.services.messages
+problem: Syntax error on token "public", . expected3912
+@Override
+org.pentaho.platform.engine.services
+problem: Syntax error on token "public", . expected3884
+@Override
+messages
+problem: Syntax error on token "public", . expected3884
+@Override
+Messages
+problem: Syntax error on token "public", . expected3895
+@Override
+java.sql.Connection
+problem: Syntax error on token "public", . expected3884
+@Override
+java.sql
+problem: Syntax error on token "public", . expected3880
+@Override
+java
+problem: Syntax error on token "public", . expected3879
+@Override
+sql
+problem: Syntax error on token "public", . expected3886
+@Override
+Connection
+problem: Syntax error on token "public", . expected3891
+@Override
+java.sql.Driver
+problem: Syntax error on token "public", . expected3882
+@Override
+Driver
+problem: Syntax error on token "public", . expected3898
+@Override
+java.sql.DriverManager
+problem: Syntax error on token "public", . expected3889
+@Override
+DriverManager
+problem: Syntax error on token "public", . expected3903
+@Override
+java.sql.DriverPropertyInfo
+problem: Syntax error on token "public", . expected3894
+@Override
+DriverPropertyInfo
+problem: Syntax error on token "public", . expected3897
+@Override
+java.sql.SQLException
+problem: Syntax error on token "public", . expected3888
+@Override
+SQLException
+problem: Syntax error on token "public", . expected3916
+@Override
+java.sql.SQLFeatureNotSupportedException
+problem: Syntax error on token "public", . expected3907
+@Override
+SQLFeatureNotSupportedException
+problem: Syntax error on token "public", . expected3890
+@Override
+java.util.List
+problem: Syntax error on token "public", . expected3885
+@Override
+java.util
+problem: Syntax error on token "public", . expected3880
+@Override
+util
+problem: Syntax error on token "public", . expected3880
+@Override
+List
+problem: Syntax error on token "public", . expected3889
+@Override
+java.util.Map
+problem: Syntax error on token "public", . expected3879
+@Override
+Map
+problem: Syntax error on token "public", . expected3896
+@Override
+java.util.Properties
+problem: Syntax error on token "Properties", invalid Modifiers3873
+@Override
+Properties
+problem: Syntax error on token "public", . expected3900
+@Override
+java.util.logging.Logger
+problem: Syntax error on token "public", . expected3893
+@Override
+java.util.logging
+problem: Syntax error on token "public", . expected3883
+@Override
+logging
+problem: Syntax error on token "public", . expected3882
+@Override
+Logger
+problem: Syntax error on token "public", . expected3895
+@Override
+PentahoSystemDriver
+problem: Syntax error on token ".", @ expected after this token3886
+@Override
+DriverManager.registerDriver(new PentahoSystemDriver())
+problem: Syntax error on token "public", . expected3890
+@Override
+registerDriver
+problem: Syntax error on token "new", @ expected3873
+@Override
+new PentahoSystemDriver()
+problem: Syntax error on token "public", . expected3877
+@Override
+e
+problem: Syntax error on token ".", @ expected after this token3913
+@Override
+org.pentaho.platform.util.logging.Logger.warn(PentahoSystemDriver.class.getName(),Messages.getInstance().getErrorString("PentahoSystemDriver.ERROR_0001_COULD_NOT_REGISTER_DRIVER"),e)
+problem: Syntax error on token "public", . expected3916
+@Override
+org.pentaho.platform.util.logging.Logger
+problem: Syntax error on token "public", . expected3909
+@Override
+org.pentaho.platform.util.logging
+problem: Syntax error on token "public", . expected3901
+@Override
+org.pentaho.platform.util
+problem: Syntax error on token "public", . expected3880
+@Override
+warn
+problem: Syntax error on token "}", { expected after this token3868
+@Override
+PentahoSystemDriver.class.getName()
+problem: Syntax error on tokens, delete these tokens3893
+@Override
+PentahoSystemDriver.class
+problem: Syntax error on token "public", . expected3883
+@Override
+getName
+problem: Syntax error on token(s), misplaced construct(s)3873
+@Override
+Messages.getInstance().getErrorString("PentahoSystemDriver.ERROR_0001_COULD_NOT_REGISTER_DRIVER")
+problem: Syntax error on token "getInstance", Identifier expected after this token3882
+@Override
+Messages.getInstance()
+problem: Syntax error on token "public", . expected3887
+@Override
+getInstance
+problem: Syntax error on token "public", . expected3890
+@Override
+getErrorString
+problem: Syntax error on token ""PentahoSystemDriver.ERROR_0001_COULD_NOT_REGISTER_DRIVER"", delete this token3873
+@Override
+"PentahoSystemDriver.ERROR_0001_COULD_NOT_REGISTER_DRIVER"
+problem: Syntax error on token "String", invalid Modifiers3873
+@Override
+String
+problem: Syntax error on token "public", . expected3880
+@Override
+JDBC
+problem: Syntax error on token ""jdbc:"", delete this token3873
+@Override
+"jdbc:"
+problem: Syntax error on token "public", . expected3889
+@Override
+getAllDrivers
+problem: Syntax error on token ".", @ expected after this token3886
+@Override
+PentahoSystem.getAll(Driver.class)
+problem: Syntax error on token "public", . expected3882
+@Override
+getAll
+problem: Syntax error on tokens, delete these tokens3880
+@Override
+Driver.class
+problem: Syntax error on token "public", . expected3893
+@Override
+getTranslationMap
+problem: Syntax error on token ".", @ expected after this token3886
+@Override
+PentahoSystem.get(Map.class,"jdbcDriverTranslationMap",PentahoSessionHolder.getSession())
+problem: Syntax error on token "public", . expected3879
+@Override
+get
+problem: Syntax error on tokens, delete these tokens3877
+@Override
+Map.class
+problem: Syntax error on token ""jdbcDriverTranslationMap"", delete this token3873
+@Override
+"jdbcDriverTranslationMap"
+problem: Syntax error on token "getSession", Identifier expected after this token3894
+@Override
+PentahoSessionHolder.getSession()
+problem: Syntax error on token "public", . expected3886
+@Override
+getSession
+problem: Syntax error on token "translate", invalid Modifiers3873
+@Override
+translate
+problem: Syntax error on token "public", . expected3879
+@Override
+url
+problem: Syntax error on token "translationMap", invalid Modifiers3873
+@Override
+translationMap
+problem: Syntax error on token "}", throw expected3868
+@Override
+translationMap != null && url.startsWith(JDBC)
+problem: Syntax error on token "}", throw expected3868
+@Override
+translationMap != null
+problem: Syntax error on token "null", delete this token3873
+@Override
+null
+problem: Syntax error on token ".", @ expected after this token3876
+@Override
+url.startsWith(JDBC)
+problem: Syntax error on token "startsWith", invalid Modifiers3873
+@Override
+startsWith
+problem: Syntax error on token "public", . expected3883
+@Override
+initial
+problem: Syntax error on token ".", @ expected after this token3876
+@Override
+url.substring(5,url.indexOf(":",5))
+problem: Syntax error on token "public", . expected3885
+@Override
+substring
+problem: Syntax error on token "5", delete this token3873
+@Override
+5
+problem: Syntax error on token ".", @ expected after this token3876
+@Override
+url.indexOf(":",5)
+problem: Syntax error on token "public", . expected3883
+@Override
+indexOf
+problem: Syntax error on token "":"", delete this token3873
+@Override
+":"
+problem: Syntax error on token ".", @ expected after this token3887
+@Override
+translationMap.containsKey(initial)
+problem: Syntax error on token "public", . expected3887
+@Override
+containsKey
+problem: Syntax error on token ".", @ expected after this token3876
+@Override
+url.replace(JDBC + initial,JDBC + translationMap.get(initial))
+problem: Syntax error on token "public", . expected3883
+@Override
+replace
+problem: Syntax error on tokens, delete these tokens3873
+@Override
+JDBC + initial
+problem: Syntax error on token(s), misplaced construct(s)3873
+@Override
+JDBC + translationMap.get(initial)
+problem: Syntax error on token ".", @ expected after this token3887
+@Override
+translationMap.get(initial)
+problem: Syntax error on token "public", . expected3884
+@Override
+Override
+problem: Syntax error on token "public", . expected3883
+@Override
+connect
+problem: Syntax error on token "public", . expected3880
+@Override
+info
+problem: Syntax error on token "translatedUrl", invalid Modifiers3873
+@Override
+translatedUrl
+problem: Syntax error on token "public", . expected3882
+@Override
+driver
+problem: Syntax error on token ".", @ expected after this token3879
+@Override
+driver.acceptsURL(translatedUrl)
+problem: Syntax error on token "public", . expected3886
+@Override
+acceptsURL
+problem: Syntax error on token "public", . expected3880
+@Override
+conn
+problem: Syntax error on token "(", delete this token3887
+@Override
+driver.connect(translatedUrl,info)
+problem: Syntax error on token "}", throw expected3868
+@Override
+conn != null
+problem: Syntax error on token "true", invalid Modifiers3873
+@Override
+true
+problem: Syntax error on token "false", invalid Modifiers3873
+@Override
+false
+problem: Syntax error on token "public", . expected3891
+@Override
+getPropertyInfo
+problem: Syntax error on token "(", delete this token3895
+@Override
+driver.getPropertyInfo(translatedUrl,info)
+problem: Syntax error on token "public", . expected3891
+@Override
+getMajorVersion
+problem: Syntax error on token "0", delete this token3873
+@Override
+0
+problem: Syntax error on token "public", . expected3891
+@Override
+getMinorVersion
+problem: Syntax error on token "public", . expected3889
+@Override
+jdbcCompliant
+problem: Syntax error on token "public", . expected3891
+@Override
+getParentLogger
+problem: Syntax error on token "new", @ expected3873
+@Override
+new SQLFeatureNotSupportedException("Impossible to know which Driver to fetch the logger from")
+problem: Syntax error on token ""Impossible to know which Driver to fetch the logger from"", delete this token3873
+@Override
+"Impossible to know which Driver to fetch the logger from"
+problem: Syntax error on token "new", delete this token3874
+Override
+new PentahoSystemDriver()
+problem: Syntax error on token "class", Identifier expected3894
+Override
+PentahoSystemDriver.class.getName()
+problem: Syntax error on token "class", Identifier expected3894
+Override
+PentahoSystemDriver.class
+problem: Syntax error on token ""PentahoSystemDriver.ERROR_0001_COULD_NOT_REGISTER_DRIVER"", Identifier expected3874
+Override
+"PentahoSystemDriver.ERROR_0001_COULD_NOT_REGISTER_DRIVER"
+problem: Syntax error on token ""jdbc:"", Identifier expected3874
+Override
+"jdbc:"
+problem: Syntax error on token "class", Identifier expected3881
+Override
+Driver.class
+problem: Syntax error on token "class", Identifier expected3878
+Override
+Map.class
+problem: Syntax error on token ""jdbcDriverTranslationMap"", Identifier expected3874
+Override
+"jdbcDriverTranslationMap"
+problem: Syntax error on token "null", Identifier expected3874
+Override
+null
+problem: Syntax error on token "5", Identifier expected3874
+Override
+5
+problem: Syntax error on token "":"", Identifier expected3874
+Override
+":"
+problem: Syntax error on token "true", Identifier expected3874
+Override
+true
+problem: Syntax error on token "false", Identifier expected3874
+Override
+false
+problem: Syntax error on token "0", Identifier expected3874
+Override
+0
+problem: Syntax error on token "new", delete this token3874
+Override
+new SQLFeatureNotSupportedException("Impossible to know which Driver to fetch the logger from")
+problem: Syntax error on token ""Impossible to know which Driver to fetch the logger from"", Identifier expected3874
+Override
+"Impossible to know which Driver to fetch the logger from"
+
+
+Processing davidmoten_rtree/modifiedFiles/2/Geometries.java
+Fault in line no 29
+414 Patches Generated
+Correct Patch Generated!
+lon2
+lat2
+Total Candidate Patches: 414
+Correct Patch Rank: 384
+
+
+Processing Cervator_Terasology/modifiedFiles/2/StoragePathProvider.java
+Fault in line no 127
+858 Patches Generated
+Correct Patch Generated!
+worldsPath
+worldPath
+Total Candidate Patches: 858
+Correct Patch Rank: 188
+
+
+Processing chocoteam_choco3/modifiedFiles/2/SatFactory.java
+Fault in line no 129
+1743 Patches Generated
+Correct Patch Generated!
+sat.addClause(SatSolver.negated(lit))
+sat.addClause(lit)
+Total Candidate Patches: 1743
+Correct Patch Rank: 147
+
+
+Processing chocoteam_choco3/modifiedFiles/12/OneWordS32BitSet.java
+Fault in line no 411
+813 Patches Generated
+Correct Patch Generated!
+fromIndex >= 64
+fromIndex >= 32
+Total Candidate Patches: 813
+Correct Patch Rank: 179
+
+
+Processing wikimedia_kraken/modifiedFiles/4/Funnel.java
+Fault in line no 255
+1435 Patches Generated
+Correct Patch Generated!
+path.size()
+path.size() - 1
+Total Candidate Patches: 1435
+Correct Patch Rank: 807
+
+
+Processing OpenHFT_Chronicle-Map/modifiedFiles/2/NodeDiscovery.java
+Fault in line no 744
+5502 Patches Generated
+Correct Patch Generated!
+this.ourAddressAndPort
+ourAddressAndPort
+Total Candidate Patches: 5502
+Correct Patch Rank: 1009
+
+
+Processing sonatype_nexus-oss/modifiedFiles/16/HttpClientProxyUtil.java
+Fault in line no 236
+2730 Patches Generated
+Correct Patch Generated!
+!isNtlmUsedOldValue.booleanValue()
+isNtlmUsedOldValue.booleanValue()
+Total Candidate Patches: 2730
+Correct Patch Rank: 1629
+
+
+Processing sonatype_nexus-oss/modifiedFiles/4/HttpClientManagerImpl.java
+Fault in line no 130
+996 Patches Generated
+Correct Patch Generated!
+response.getHeaders("location")
+response.getFirstHeader("location")
+Total Candidate Patches: 996
+Correct Patch Rank: 311
+
+
+Processing sonatype_nexus-oss/modifiedFiles/8/DefaultRepositoryRouter.java
+Fault in line no 732
+3006 Patches Generated
+Correct Patch Generated!
+request.pushRequestPath(route.getOriginalRequestPath())
+request.pushRequestPath(route.getRepositoryPath())
+Total Candidate Patches: 3006
+Correct Patch Rank: 222
+
+
+Processing nkzawa_engine.io-client.java/modifiedFiles/2/ParseQS.java
+Fault in line no 29
+923 Patches Generated
+Correct Patch Generated!
+0
+1
+Total Candidate Patches: 923
+Correct Patch Rank: 425
+
+
+Processing opennars_opennars/modifiedFiles/4/Term.java
+Fault in line no 161
+2156 Patches Generated
+Correct Patch Generated!
+this.getClass()
+that.getClass()
+Total Candidate Patches: 2156
+Correct Patch Rank: 1106
+
+
+Processing ceylon_ceylon-compiler/modifiedFiles/4/AbstractTransformer.java
+Fault in line no 1025
+16176 Patches Generated
+Correct Patch Generated!
+satRefinedTP
+refinedSatisfiedType
+Total Candidate Patches: 16176
+Correct Patch Rank: 13103
+
+
+Processing ceylon_ceylon-compiler/modifiedFiles/6/CeylonDoc.java
+Fault in line no 462
+8801 Patches Generated
+Correct Patch Generated!
+module
+getFromObject()
+Total Candidate Patches: 8801
+Correct Patch Rank: 4809
+
+
+Processing jclouds_jclouds/modifiedFiles/16/SecurityGroupAsyncClient.java
+Fault in line no 107
+348 Patches Generated
+Correct Patch Generated!
+@Consumes
+@Consumes(MediaType.APPLICATION_JSON)
+Total Candidate Patches: 348
+Correct Patch Rank: 116
+
+
+Processing jclouds_jclouds/modifiedFiles/6/LocalBlobStore.java
+Fault in line no 264
+2133 Patches Generated
+Correct Patch Generated!
+prefix != null
+prefix != null && !prefix.isEmpty()
+Total Candidate Patches: 2133
+Correct Patch Rank: 305
+
+
+Processing jclouds_jclouds/modifiedFiles/30/TemplateBuilderImpl.java
+Fault in line no 323
+3610 Patches Generated
+Correct Patch Generated!
+input.getName() == null
+input.getDescription() == null
+Total Candidate Patches: 3610
+Correct Patch Rank: 236
+
+
+Processing deegree_deegree3/modifiedFiles/6/MappingUtils.java
+Fault in line no 224
+1834 Patches Generated
+Correct Patch Generated!
+getSourceCRS
+getTargetCRS
+Total Candidate Patches: 1834
+Correct Patch Rank: 1714
+
+
+Processing bonitasoft_bonita-studio/modifiedFiles/8/PageDesignerMappingComposite.java
+Fault in line no 101
+3612 Patches Generated
+Correct Patch Generated!
+targetForm.getContent() + ".json"
+targetForm.getContent()
+Total Candidate Patches: 3612
+Correct Patch Rank: 2319
+
+
+Processing calipho-sib_nextprot-api/modifiedFiles/2/SolrServiceImpl.java
+Fault in line no 370
+4347 Patches Generated
+Correct Patch Generated!
+"simple_ids"
+"simple"
+Total Candidate Patches: 4347
+Correct Patch Rank: 3581
+
+
+Processing ModeShape_modeshape/modifiedFiles/16/AbstractJcrNode.java
+Fault in line no 915
+10795 Patches Generated
+Correct Patch Generated!
+"nt:unstructured"
+null
+Total Candidate Patches: 10795
+Correct Patch Rank: 6770
+
+
+Processing ModeShape_modeshape/modifiedFiles/8/JcrWorkspace.java
+Fault in line no 461
+3304 Patches Generated
+Correct Patch Generated!
+!parentNode.isRoot()
+!destPath.isRoot()
+Total Candidate Patches: 3304
+Correct Patch Rank: 259
+
+
+Processing usus_usus-plugins/modifiedFiles/2/CodeProportionsRatio.java
+Fault in line no 25
+384 Patches Generated
+Correct Patch Generated!
+result == 0 ? 0 : 100 - result
+100 - result
+Total Candidate Patches: 384
+Correct Patch Rank: 36
+
+
+Processing magro_memcached-session-manager/modifiedFiles/2/SessionTrackerValve.java
+Fault in line no 150
+2508 Patches Generated
+problem: Syntax error on token "-", -- expected6524
+_logger.fine("Response is committed: " + response.isCommitted() + ", closed: "+ response.isClosed())
+-1
+
+
+Processing fge_json-schema-validator/modifiedFiles/4/IdFragment.java
+Fault in line no 66
+891 Patches Generated
+Correct Patch Generated!
+idNode.textValue().replaceFirst("^#","")
+idNode.textValue()
+Total Candidate Patches: 891
+Correct Patch Rank: 254
+
+
+Processing uwescience_myria/modifiedFiles/6/LeapFrogJoin.java
+Fault in line no 340
+5425 Patches Generated
+Correct Patch Generated!
+getChildren().length
+tables[tableIndex].numColumns()
+Total Candidate Patches: 5425
+Correct Patch Rank: 2453
+
+
+Processing DICE-UNC_jargon/modifiedFiles/2/DataObjCloseInp.java
+Fault in line no 59
+285 Patches Generated
+Correct Patch Generated!
+"authPlugReqInp_PI"
+PI_TAG
+Total Candidate Patches: 285
+Correct Patch Rank: 188
+
+
+Processing orientechnologies_orientdb/modifiedFiles/2/OWALChangesTree.java
+Fault in line no 120
+3836 Patches Generated
+Correct Patch Generated!
+offset
+0
+Total Candidate Patches: 3836
+Correct Patch Rank: 3341
+
+
+Processing candlepin_candlepin/modifiedFiles/8/ComplianceStatus.java
+Fault in line no 142
+848 Patches Generated
+Correct Patch Generated!
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty()
+nonCompliantProducts.isEmpty()
+Total Candidate Patches: 848
+Correct Patch Rank: 103
+
+
+Processing TEAMMATES_repo/modifiedFiles/4/AppPage.java
+Fault in line no 685
+4685 Patches Generated
+Correct Patch Generated!
+1
+0
+Total Candidate Patches: 4685
+Correct Patch Rank: 2177
+
+
+Processing TEAMMATES_repo/modifiedFiles/6/AppPage.java
+Fault in line no 685
+4685 Patches Generated
+Correct Patch Generated!
+0
+1
+Total Candidate Patches: 4685
+Correct Patch Rank: 2438
+
+
+Processing TEAMMATES_repo/modifiedFiles/20/StudentHomePage.java
+Fault in line no 44
+744 Patches Generated
+Correct Patch Generated!
+1
+0
+Total Candidate Patches: 744
+Correct Patch Rank: 603
+
+
+Processing TEAMMATES_repo/modifiedFiles/24/HtmlHelper.java
+Fault in line no 78
+1830 Patches Generated
+Correct Patch Generated!
+replaceInRawHtmlString(rawHtml)
+preProcessHtml(rawHtml)
+Total Candidate Patches: 1830
+Correct Patch Rank: 824
+
+
+Processing dCache_dcache/modifiedFiles/2/Args.java
+Fault in line no 88
+1412 Patches Generated
+Correct Patch Generated!
+Double.parseDouble(name)
+Double.parseDouble(option)
+Total Candidate Patches: 1412
+Correct Patch Rank: 102
+
+
+Processing internetarchive_heritrix3/modifiedFiles/2/CrawlURI.java
+Fault in line no 1981
+8561 Patches Generated
+Correct Patch Generated!
+b != null
+b == null
+Total Candidate Patches: 8561
+Correct Patch Rank: 6096
+
+
+Processing MassiveCraft_MassiveCore/modifiedFiles/2/Mson.java
+Fault in line no 210
+5299 Patches Generated
+Correct Patch Generated!
+color
+style
+Total Candidate Patches: 5299
+Correct Patch Rank: 4816
+
+
+Processing greenlaw110_Rythm/modifiedFiles/4/TemplateBase.java
+Fault in line no 710
+4796 Patches Generated
+Correct Patch Generated!
+-1
+0
+Total Candidate Patches: 4796
+Correct Patch Rank: 2875
+
+
+Processing greenlaw110_Rythm/modifiedFiles/8/CodeBuilder.java
+Fault in line no 916
+5772 Patches Generated
+problem: Syntax error on token "-", -- expected33185
+Collections.sort(renderArgList)
+-1
+
+
+Processing resteasy_Resteasy/modifiedFiles/4/AcceptableVariant.java
+Fault in line no 71
+157 Patches Generated
+Correct Patch Generated!
+0
+compare
+Total Candidate Patches: 157
+Correct Patch Rank: 79
+
+
+Processing resteasy_Resteasy/modifiedFiles/12/UriBuilderImpl.java
+Fault in line no 427
+4131 Patches Generated
+Correct Patch Generated!
+name
+theName
+Total Candidate Patches: 4131
+Correct Patch Rank: 2242
+
+
+Processing querydsl_querydsl/modifiedFiles/16/QBean.java
+Fault in line no 152
+1458 Patches Generated
+Correct Patch Generated!
+type
+beanType
+Total Candidate Patches: 1458
+Correct Patch Rank: 894
+
+
+Processing querydsl_querydsl/modifiedFiles/8/ColQueryImpl.java
+Fault in line no 40
+252 Patches Generated
+Correct Patch Generated!
+ColQueryTemplates.DEFAULT
+templates
+Total Candidate Patches: 252
+Correct Patch Rank: 165
+
+
+Processing c4fcm_CLIFF/modifiedFiles/2/AllTestsSuite.java
+Fault in line no 18
+714 Patches Generated
+Correct Patch Generated!
+edu.mit.mediacloud.test
+edu.mit.civic.mediacloud.test
+Total Candidate Patches: 714
+Correct Patch Rank: 205
+
+
+Processing alibaba_dubbo/modifiedFiles/2/JavaBeanSerializeUtil.java
+Fault in line no 104
+3240 Patches Generated
+Correct Patch Generated!
+i++
+i
+Total Candidate Patches: 3240
+Correct Patch Rank: 1769
+
+
+Processing gradle_gradle/modifiedFiles/4/Test1.java
+Fault in line no 1
+1610 Patches Generated
+Correct Patch Generated!
+org.gradle.api.plugins.sonar.runner.SonarRunnerSmokeIntegrationTest.shared.nested.nested2.nestedProject.src.test.java.org.gradle
+org.gradle
+Total Candidate Patches: 1610
+Correct Patch Rank: 108
+
+
+Processing gradle_gradle/modifiedFiles/6/UriScriptSource.java
+Fault in line no 48
+1469 Patches Generated
+Correct Patch Generated!
+sourceUri.getPath()
+sourceUri.toString()
+Total Candidate Patches: 1469
+Correct Patch Rank: 1000
+
+
+Processing btrplace_scheduler/modifiedFiles/2/Spread.java
+Fault in line no 88
+553 Patches Generated
+Correct Patch Generated!
+getInvolvedNodes()
+getInvolvedVMs()
+Total Candidate Patches: 553
+Correct Patch Rank: 279
+
+
+Processing puniverse_capsule/modifiedFiles/2/Capsule.java
+Fault in line no 799
+36784 Patches Generated
+Correct Patch Generated!
+cls.getClass().getName()
+cls.getName()
+Total Candidate Patches: 36784
+Correct Patch Rank: 18353
+
+
+Processing oVirt_ovirt-engine/modifiedFiles/16/RemoveQuotaCommand.java
+Fault in line no 40
+805 Patches Generated
+Correct Patch Generated!
+getDbFacade().getQuotaDAO()
+getQuotaDAO()
+Total Candidate Patches: 805
+Correct Patch Rank: 198
+
+
+Processing oVirt_ovirt-engine/modifiedFiles/8/OsValueAutoCompleter.java
+Fault in line no 41
+553 Patches Generated
+Correct Patch Generated!
+text.trim().toLowerCase()
+text.trim()
+Total Candidate Patches: 553
+Correct Patch Rank: 228
+
+
+Processing oVirt_ovirt-engine/modifiedFiles/2/SyntaxChecker.java
+Fault in line no 714
+4592 Patches Generated
+Correct Patch Generated!
+useTags
+true
+Total Candidate Patches: 4592
+Correct Patch Rank: 3719
+
+
+Processing oVirt_ovirt-engine/modifiedFiles/24/UpdateVmDiskCommand.java
+Fault in line no 66
+4059 Patches Generated
+Correct Patch Generated!
+_oldDisk
+_oldDisk.getDisk()
+Total Candidate Patches: 4059
+Correct Patch Rank: 2895
+
+
+Processing CIRDLES_topsoil/modifiedFiles/6/TickGenerator.java
+Fault in line no 121
+2928 Patches Generated
+Correct Patch Generated!
+floorToZero
+ceil
+Total Candidate Patches: 2928
+Correct Patch Rank: 1369
+
+
+Processing CIRDLES_topsoil/modifiedFiles/2/TSVDatasetWriter.java
+Fault in line no 71
+1512 Patches Generated
+Correct Patch Generated!
+i < dataset.getFields().size() + 1
+i < dataset.getFields().size()
+Total Candidate Patches: 1512
+Correct Patch Rank: 402
+
+
+Processing ocpsoft_prettytime/modifiedFiles/6/Resources_ja.java
+Fault in line no 76
+1446 Patches Generated
+Correct Patch Generated!
+"月"
+"ヶ月"
+Total Candidate Patches: 1446
+Correct Patch Rank: 1144
+
+
+Processing ReactiveX_RxJava/modifiedFiles/14/CompositeSubscription.java
+Fault in line no 75
+670 Patches Generated
+Correct Patch Generated!
+subscriptions.length
+newSubscriptions.length
+Total Candidate Patches: 670
+Correct Patch Rank: 349
+
+
+Processing kuali_kc/modifiedFiles/8/S2SBaseFormGenerator.java
+Fault in line no 613
+12660 Patches Generated
+Correct Patch Generated!
+getPath
+toString
+Total Candidate Patches: 12660
+Correct Patch Rank: 10558
+
+
+Processing kuali_kc/modifiedFiles/2/ProposalDevelopmentPermissionsRule.java
+Fault in line no 142
+2763 Patches Generated
+Correct Patch Generated!
+!hasAggregator(editRoles)
+hasAggregator(editRoles)
+Total Candidate Patches: 2763
+Correct Patch Rank: 487
+
+
+Processing arnaudroger_SimpleFlatMapper/modifiedFiles/4/SingletonPropertyFinder.java
+Fault in line no 31
+832 Patches Generated
+Correct Patch Generated!
+!selectedParameters.isEmpty()
+selectedParameters.isEmpty()
+Total Candidate Patches: 832
+Correct Patch Rank: 477
+
+
+Processing apache_incubator-usergrid/modifiedFiles/2/RelationManagerImpl.java
+Fault in line no 2393
+26138 Patches Generated
+Correct Patch Generated!
+collection.getName()
+collection.getType()
+Total Candidate Patches: 26138
+Correct Patch Rank: 16414
+
+
+Processing apache_incubator-brooklyn/modifiedFiles/4/ArchiveUtils.java
+Fault in line no 276
+3096 Patches Generated
+Correct Patch Generated!
+optionalTmpDir
+tmpDir
+Total Candidate Patches: 3096
+Correct Patch Rank: 1808
+
+
+Processing apache_incubator-brooklyn/modifiedFiles/22/SingleMachineLocationResolver.java
+Fault in line no 50
+1760 Patches Generated
+Correct Patch Generated!
+"byon"
+null
+Total Candidate Patches: 1760
+Correct Patch Rank: 1357
+
+
+Processing apache_incubator-brooklyn/modifiedFiles/18/UsageApi.java
+Fault in line no 112
+250 Patches Generated
+Correct Patch Generated!
+"brooklyn.rest.domain.usagestatistics"
+"brooklyn.rest.domain.UsageStatistics"
+Total Candidate Patches: 250
+Correct Patch Rank: 190
+
+
+Processing xwiki_xwiki-platform/modifiedFiles/6/AbstractSolrMetadataExtractor.java
+Fault in line no 276
+2520 Patches Generated
+Correct Patch Generated!
+documentLocales
+locales
+Total Candidate Patches: 2520
+Correct Patch Rank: 554
+
+
+Processing xwiki_xwiki-platform/modifiedFiles/2/TemplateManager.java
+Fault in line no 353
+3805 Patches Generated
+Correct Patch Generated!
+content
+this
+Total Candidate Patches: 3805
+Correct Patch Rank: 2547
+
+
+Processing JacORB_JacORB/modifiedFiles/6/lexer.java
+Fault in line no 815
+3070 Patches Generated
+Correct Patch Generated!
+advance()
+swallow_whitespace()
+Total Candidate Patches: 3070
+Correct Patch Rank: 827
+
+
+Processing JacORB_JacORB/modifiedFiles/2/UnionType.java
+Fault in line no 725
+6486 Patches Generated
+Correct Patch Generated!
+" && discriminator != "
+" && _discriminator != "
+Total Candidate Patches: 6486
+Correct Patch Rank: 4933
+
+
+Processing jhpoelen_eol-globi-data/modifiedFiles/8/CypherQueryBuilder.java
+Fault in line no 148
+8672 Patches Generated
+Correct Patch Generated!
+InteractType.HOST_OF.toString()
+InteractType.HAS_HOST.toString()
+Total Candidate Patches: 8672
+Correct Patch Rank: 3499
+
+
+Processing jhpoelen_eol-globi-data/modifiedFiles/14/ExporterTaxa.java
+Fault in line no 93
+836 Patches Generated
+Correct Patch Generated!
+"taxonRank"
+"rank"
+Total Candidate Patches: 836
+Correct Patch Rank: 798
+
+
+Processing jhpoelen_eol-globi-data/modifiedFiles/10/StudyImporterForHurlbert.java
+Fault in line no 51
+2520 Patches Generated
+Correct Patch Generated!
+StringUtils.isNotBlank(preyTaxonName) && !"NA".equals(preyTaxonName)
+StringUtils.isNotBlank(preyTaxonName)
+Total Candidate Patches: 2520
+Correct Patch Rank: 119
+
+
+Processing jhpoelen_eol-globi-data/modifiedFiles/18/Config.java
+Fault in line no 30
+999 Patches Generated
+Correct Patch Generated!
+baseDir + storeDir
+storeDir
+Total Candidate Patches: 999
+Correct Patch Rank: 748
+
+
+Processing eclipse_tycho/modifiedFiles/2/ProbeArtifactSink.java
+Fault in line no 125
+1460 Patches Generated
+Correct Patch Generated!
+writeIsStarted()
+writeIsCommitted()
+Total Candidate Patches: 1460
+Correct Patch Rank: 838
+
+
+Processing nutzam_nutz/modifiedFiles/2/JsonRendering.java
+Fault in line no 117
+1974 Patches Generated
+Correct Patch Generated!
+name
+key
+Total Candidate Patches: 1974
+Correct Patch Rank: 1786
+
+
+Processing apache_tika/modifiedFiles/8/DateUtils.java
+Fault in line no 86
+380 Patches Generated
+Correct Patch Generated!
+date
+calendar
+Total Candidate Patches: 380
+Correct Patch Rank: 335
+
+
+Processing apache_qpid/modifiedFiles/2/AMQConnectionFactory.java
+Fault in line no 143
+1624 Patches Generated
+Correct Patch Generated!
+_connectionDetails.toString()
+_connectionDetails.getURL()
+Total Candidate Patches: 1624
+Correct Patch Rank: 1143
+
+
+Processing Graylog2_graylog2-server/modifiedFiles/4/OutputRegistry.java
+Fault in line no 96
+1064 Patches Generated
+Correct Patch Generated!
+this.runningMessageOutputs.values()
+runningOutputs
+Total Candidate Patches: 1064
+Correct Patch Rank: 527
+
+
+Processing Graylog2_graylog2-server/modifiedFiles/8/TestHelper.java
+Fault in line no 50
+854 Patches Generated
+Correct Patch Generated!
+what.getBytes()
+what.getBytes("UTF-8")
+Total Candidate Patches: 854
+Correct Patch Rank: 526
+
+
+Processing caelum_mamute/modifiedFiles/2/Question.java
+Fault in line no 436
+3248 Patches Generated
+Correct Patch Generated!
+index - 1
+index
+Total Candidate Patches: 3248
+Correct Patch Rank: 2286
+
+
+Processing ORCID_ORCID-Source/modifiedFiles/4/Jaxb2JpaAdapterImpl.java
+Fault in line no 497
+6730 Patches Generated
+Correct Patch Generated!
+HashSet
+TreeSet
+Total Candidate Patches: 6730
+Correct Patch Rank: 4119
+
+
+Processing pentaho_pentaho-metadata/modifiedFiles/4/XmiParser.java
+Fault in line no 1100
+15732 Patches Generated
+Correct Patch Generated!
+nvp.get(nvp.get("RELATIONSHIP_COMPLEX_JOIN"))
+nvp.get("RELATIONSHIP_COMPLEX_JOIN")
+Total Candidate Patches: 15732
+Correct Patch Rank: 4968
+
+
+Processing pentaho_pentaho-metadata/modifiedFiles/8/PMSFormula.java
+Fault in line no 584
+4080 Patches Generated
+Correct Patch Generated!
+businessTable.getId()
+businessTable
+Total Candidate Patches: 4080
+Correct Patch Rank: 2784
+
+
+Processing INRIA_spoon/modifiedFiles/8/SignaturePrinter.java
+Fault in line no 362
+4998 Patches Generated
+Correct Patch Generated!
+literal.getValue()
+literal
+Total Candidate Patches: 4998
+Correct Patch Rank: 2642
+
+
+Processing INRIA_spoon/modifiedFiles/2/Launcher.java
+Fault in line no 121
+1588 Patches Generated
+Correct Patch Generated!
+run()
+processArguments()
+Total Candidate Patches: 1588
+Correct Patch Rank: 174
+
+
+Processing apache_cxf/modifiedFiles/4/SymmetricBindingHandler.java
+Fault in line no 255
+9900 Patches Generated
+Correct Patch Generated!
+encrParts
+secondEncrParts
+Total Candidate Patches: 9900
+Correct Patch Rank: 9266
+
+
+Processing neophob_PixelController/modifiedFiles/4/PixelInvadersDevice.java
+Fault in line no 127
+1494 Patches Generated
+Correct Patch Generated!
+panelNr
+ofs
+Total Candidate Patches: 1494
+Correct Patch Rank: 781
+
+
+Processing apache_derby/modifiedFiles/16/Price.java
+Fault in line no 85
+444 Patches Generated
+Correct Patch Generated!
+FIRST_VERSION
+TIMESTAMPED_VERSION
+Total Candidate Patches: 444
+Correct Patch Rank: 366
+
+
+Processing jgrapht_jgrapht/modifiedFiles/8/MinSourceSinkCut.java
+Fault in line no 128
+426 Patches Generated
+Correct Patch Generated!
+outEdges
+inEdges
+Total Candidate Patches: 426
+Correct Patch Rank: 398
+
+
+Processing jgrapht_jgrapht/modifiedFiles/14/StrongConnectivityInspector.java
+Fault in line no 276
+1377 Patches Generated
+Correct Patch Generated!
+this.graph
+graph
+Total Candidate Patches: 1377
+Correct Patch Rank: 622
+
+
+Processing FasterXML_jackson-jr/modifiedFiles/2/TypeDetector.java
+Fault in line no 716
+5144 Patches Generated
+Correct Patch Generated!
+Collection.class
+Map.class
+Total Candidate Patches: 5144
+Correct Patch Rank: 4339
+
+
+Processing Unidata_thredds/modifiedFiles/4/TestDODScompareWithFiles.java
+Fault in line no 119
+418 Patches Generated
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+thredds.server.opendap
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+thredds.server
+problem: Syntax error on token "thredds", delete this token4632
+@Test
+thredds
+problem: Syntax error on token "server", delete this token4632
+@Test
+server
+problem: Syntax error on token "opendap", delete this token4632
+@Test
+opendap
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+java.io
+problem: Syntax error on token "java", delete this token4632
+@Test
+java
+problem: Syntax error on token "io", delete this token4632
+@Test
+io
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+java.util
+problem: Syntax error on token "util", delete this token4632
+@Test
+util
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+org.junit
+problem: Syntax error on token "org", delete this token4632
+@Test
+org
+problem: Syntax error on token "junit", delete this token4632
+@Test
+junit
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+org.junit.runner.RunWith
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+org.junit.runner
+problem: Syntax error on token "runner", delete this token4632
+@Test
+runner
+problem: Syntax error on token "RunWith", delete this token4632
+@Test
+RunWith
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+org.junit.runners.Parameterized
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+org.junit.runners
+problem: Syntax error on token "runners", delete this token4632
+@Test
+runners
+problem: Syntax error on token "Parameterized", delete this token4632
+@Test
+Parameterized
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+thredds.TestWithLocalServer
+problem: Syntax error on token "TestWithLocalServer", delete this token4632
+@Test
+TestWithLocalServer
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+ucar.nc2
+problem: Syntax error on token "ucar", delete this token4632
+@Test
+ucar
+problem: Syntax error on token "nc2", delete this token4632
+@Test
+nc2
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+ucar.nc2.constants.CDM
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+ucar.nc2.constants
+problem: Syntax error on token "constants", delete this token4632
+@Test
+constants
+problem: Syntax error on token "CDM", delete this token4632
+@Test
+CDM
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+ucar.nc2.dataset.NetcdfDataset
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+ucar.nc2.dataset
+problem: Syntax error on token "dataset", delete this token4632
+@Test
+dataset
+problem: Syntax error on token "NetcdfDataset", delete this token4632
+@Test
+NetcdfDataset
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+ucar.nc2.constants._Coordinate
+problem: Syntax error on token "_Coordinate", delete this token4632
+@Test
+_Coordinate
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+ucar.nc2.util.CompareNetcdf2
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+ucar.nc2.util
+problem: Syntax error on token "CompareNetcdf2", delete this token4632
+@Test
+CompareNetcdf2
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+ucar.unidata.test.util.TestDir
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+ucar.unidata.test.util
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+ucar.unidata.test
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+ucar.unidata
+problem: Syntax error on token "unidata", delete this token4632
+@Test
+unidata
+problem: Syntax error on token "test", delete this token4632
+@Test
+test
+problem: Syntax error on token "TestDir", delete this token4632
+@Test
+TestDir
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+ucar.unidata.util.StringUtil2
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+ucar.unidata.util
+problem: Syntax error on token "StringUtil2", invalid Modifiers4632
+@Test
+StringUtil2
+problem: Syntax error on tokens, delete these tokens4632
+@Test
+Parameterized.class
+problem: Syntax error on token "TestDODScompareWithFiles", delete this token4632
+@Test
+TestDODScompareWithFiles
+problem: Syntax error on token "showCompare", delete this token4632
+@Test
+showCompare
+problem: Syntax error on token "false", invalid Modifiers4632
+@Test
+false
+problem: Syntax error on token "showEach", delete this token4632
+@Test
+showEach
+problem: Syntax error on token "compareData", delete this token4632
+@Test
+compareData
+problem: Syntax error on token "String", invalid Modifiers4632
+@Test
+String
+problem: Syntax error on token "contentRoot", delete this token4632
+@Test
+contentRoot
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+TestDir.cdmUnitTestDir
+problem: Syntax error on token "cdmUnitTestDir", delete this token4632
+@Test
+cdmUnitTestDir
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+Parameterized.Parameters
+problem: Syntax error on token "Parameters", delete this token4632
+@Test
+Parameters
+problem: Syntax error on token "List", delete this token4632
+@Test
+List
+problem: Syntax error on token "Object", delete this token4632
+@Test
+Object
+problem: Syntax error on token "getTestParameters", delete this token4632
+@Test
+getTestParameters
+problem: Syntax error on token "result", delete this token4632
+@Test
+result
+problem: Syntax error on token ";", { expected after this token3962
+@Test
+new ArrayList<Object[]>(20)
+problem: Syntax error on token "ArrayList", delete this token4632
+@Test
+ArrayList
+problem: Syntax error on token "20", delete this token4632
+@Test
+20
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+result.add(new Object[]{"conventions/zebra/SPOL_3Volumes.nc"})
+problem: Syntax error on token "add", delete this token4632
+@Test
+add
+problem: Syntax error on token ";", { expected after this token3962
+@Test
+new Object[]{"conventions/zebra/SPOL_3Volumes.nc"}
+problem: Syntax error on token ""conventions/zebra/SPOL_3Volumes.nc"", delete this token4632
+@Test
+"conventions/zebra/SPOL_3Volumes.nc"
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+result.add(new Object[]{"conventions/coards/inittest24.QRIDV07200.ncml"})
+problem: Syntax error on token ";", { expected after this token3962
+@Test
+new Object[]{"conventions/coards/inittest24.QRIDV07200.ncml"}
+problem: Syntax error on token ""conventions/coards/inittest24.QRIDV07200.ncml"", delete this token4632
+@Test
+"conventions/coards/inittest24.QRIDV07200.ncml"
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+result.add(new Object[]{"conventions/atd/rgg.20020411.000000.lel.ll.nc"})
+problem: Syntax error on token ";", { expected after this token3962
+@Test
+new Object[]{"conventions/atd/rgg.20020411.000000.lel.ll.nc"}
+problem: Syntax error on token ""conventions/atd/rgg.20020411.000000.lel.ll.nc"", delete this token4632
+@Test
+"conventions/atd/rgg.20020411.000000.lel.ll.nc"
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+result.add(new Object[]{"conventions/awips/awips.nc"})
+problem: Syntax error on token ";", { expected after this token3962
+@Test
+new Object[]{"conventions/awips/awips.nc"}
+problem: Syntax error on token ""conventions/awips/awips.nc"", delete this token4632
+@Test
+"conventions/awips/awips.nc"
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+result.add(new Object[]{"conventions/cf/ipcc/cl_A1.nc"})
+problem: Syntax error on token ";", { expected after this token3962
+@Test
+new Object[]{"conventions/cf/ipcc/cl_A1.nc"}
+problem: Syntax error on token ""conventions/cf/ipcc/cl_A1.nc"", delete this token4632
+@Test
+"conventions/cf/ipcc/cl_A1.nc"
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+result.add(new Object[]{"conventions/csm/o3monthly.nc"})
+problem: Syntax error on token ";", { expected after this token3962
+@Test
+new Object[]{"conventions/csm/o3monthly.nc"}
+problem: Syntax error on token ""conventions/csm/o3monthly.nc"", delete this token4632
+@Test
+"conventions/csm/o3monthly.nc"
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+result.add(new Object[]{"conventions/gdv/OceanDJF.nc"})
+problem: Syntax error on token ";", { expected after this token3962
+@Test
+new Object[]{"conventions/gdv/OceanDJF.nc"}
+problem: Syntax error on token ""conventions/gdv/OceanDJF.nc"", delete this token4632
+@Test
+"conventions/gdv/OceanDJF.nc"
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+result.add(new Object[]{"conventions/gief/coamps.wind_uv.nc"})
+problem: Syntax error on token ";", { expected after this token3962
+@Test
+new Object[]{"conventions/gief/coamps.wind_uv.nc"}
+problem: Syntax error on token ""conventions/gief/coamps.wind_uv.nc"", delete this token4632
+@Test
+"conventions/gief/coamps.wind_uv.nc"
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+result.add(new Object[]{"conventions/mars/temp_air_01082000.nc"})
+problem: Syntax error on token ";", { expected after this token3962
+@Test
+new Object[]{"conventions/mars/temp_air_01082000.nc"}
+problem: Syntax error on token ""conventions/mars/temp_air_01082000.nc"", delete this token4632
+@Test
+"conventions/mars/temp_air_01082000.nc"
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+result.add(new Object[]{"conventions/mm5/n040.nc"})
+problem: Syntax error on token ";", { expected after this token3962
+@Test
+new Object[]{"conventions/mm5/n040.nc"}
+problem: Syntax error on token ""conventions/mm5/n040.nc"", delete this token4632
+@Test
+"conventions/mm5/n040.nc"
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+result.add(new Object[]{"conventions/nuwg/eta.nc"})
+problem: Syntax error on token ";", { expected after this token3962
+@Test
+new Object[]{"conventions/nuwg/eta.nc"}
+problem: Syntax error on token ""conventions/nuwg/eta.nc"", delete this token4632
+@Test
+"conventions/nuwg/eta.nc"
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+result.add(new Object[]{"conventions/nuwg/ruc.nc"})
+problem: Syntax error on token ";", { expected after this token3962
+@Test
+new Object[]{"conventions/nuwg/ruc.nc"}
+problem: Syntax error on token ""conventions/nuwg/ruc.nc"", delete this token4632
+@Test
+"conventions/nuwg/ruc.nc"
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+result.add(new Object[]{"conventions/wrf/wrfout_v2_Lambert.nc"})
+problem: Syntax error on token ";", { expected after this token3962
+@Test
+new Object[]{"conventions/wrf/wrfout_v2_Lambert.nc"}
+problem: Syntax error on token ""conventions/wrf/wrfout_v2_Lambert.nc"", delete this token4632
+@Test
+"conventions/wrf/wrfout_v2_Lambert.nc"
+problem: Syntax error on token "filename", invalid Modifiers4632
+@Test
+filename
+problem: Syntax error on token ";", { expected after this token3962
+@Test
+this.filename=filename
+problem: Syntax error on token ";", { expected after this token3962
+@Test
+this.filename
+problem: Syntax error on token "this", delete this token4632
+@Test
+this
+problem: Syntax error on token "fail", invalid Modifiers4632
+@Test
+fail
+problem: Syntax error on token "0", delete this token4632
+@Test
+0
+problem: Syntax error on token "success", delete this token4632
+@Test
+success
+problem: Syntax error on token "path", delete this token4632
+@Test
+path
+problem: Syntax error on token ""dodsC/scanCdmUnitTests/"", delete this token4632
+@Test
+"dodsC/scanCdmUnitTests/"
+problem: Syntax error on token "Test", delete this token4632
+@Test
+Test
+problem: Syntax error on token "problem", invalid Modifiers4632
+@Test
+problem
+problem: Syntax error on token "IOException", delete this token4632
+@Test
+IOException
+problem: Syntax error on token "dodsUrl", delete this token4632
+@Test
+dodsUrl
+problem: Syntax error on tokens, delete these tokens4632
+@Test
+TestWithLocalServer.server + path + filename
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+TestWithLocalServer.server
+problem: Syntax error on token "localPath", delete this token4632
+@Test
+localPath
+problem: Syntax error on tokens, delete these tokens4632
+@Test
+contentRoot + filename
+problem: Syntax error on token "compareDatasets", delete this token4632
+@Test
+compareDatasets
+problem: Syntax error on token "compare", delete this token4632
+@Test
+compare
+problem: Syntax error on token ";", , expected3962
+@Test
+filename=StringUtil2.replace(filename,'\\',"/")
+problem: Syntax error on tokens, delete these tokens4632
+@Test
+StringUtil2.replace(filename,'\\',"/")
+problem: Syntax error on token "replace", delete this token4632
+@Test
+replace
+problem: Syntax error on token "'\\'", delete this token4632
+@Test
+'\\'
+problem: Syntax error on token ""/"", delete this token4632
+@Test
+"/"
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+System.out.printf("--Compare %s to %s%n",localPath,dodsUrl)
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+System.out
+problem: Syntax error on token "System", invalid Modifiers4632
+@Test
+System
+problem: Syntax error on token "out", delete this token4632
+@Test
+out
+problem: Syntax error on token "printf", invalid Modifiers4632
+@Test
+printf
+problem: Syntax error on token ""--Compare %s to %s%n"", delete this token4632
+@Test
+"--Compare %s to %s%n"
+problem: Syntax error on token "ncfile", invalid Modifiers4632
+@Test
+ncfile
+problem: Syntax error on token "null", delete this token4632
+@Test
+null
+problem: Syntax error on token "ncremote", delete this token4632
+@Test
+ncremote
+problem: Syntax error on token ";", , expected3962
+@Test
+ncfile=NetcdfDataset.openDataset(localPath)
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+NetcdfDataset.openDataset(localPath)
+problem: Syntax error on token "openDataset", delete this token4632
+@Test
+openDataset
+problem: Syntax error on token ";", , expected3962
+@Test
+ncremote=NetcdfDataset.openDataset(dodsUrl)
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+NetcdfDataset.openDataset(dodsUrl)
+problem: Syntax error on token "Formatter", delete this token4632
+@Test
+Formatter
+problem: Syntax error on token "f", invalid Modifiers4632
+@Test
+f
+problem: Syntax error on token "new", @ expected4632
+@Test
+new Formatter()
+problem: Syntax error on token "mind", delete this token4632
+@Test
+mind
+problem: Syntax error on token ";", { expected after this token3962
+@Test
+new CompareNetcdf2(f,false,false,false)
+problem: Syntax error on token "ok", delete this token4632
+@Test
+ok
+problem: Syntax error on token "(", delete this token4644
+@Test
+mind.compare(ncfile,ncremote,new DodsObjFilter(),showCompare,showEach,compareData)
+problem: Syntax error on token "new", @ expected4632
+@Test
+new DodsObjFilter()
+problem: Syntax error on token "DodsObjFilter", delete this token4632
+@Test
+DodsObjFilter
+problem: Syntax error on token "!", @ expected4632
+@Test
+!ok
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+System.out.printf("--Compare %s%n",filename)
+problem: Syntax error on token ""--Compare %s%n"", delete this token4632
+@Test
+"--Compare %s%n"
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+System.out.printf("  %s%n",f)
+problem: Syntax error on token ""  %s%n"", delete this token4632
+@Test
+"  %s%n"
+problem: Syntax error on tokens, delete these tokens4632
+@Test
+fail++
+problem: Syntax error on tokens, delete these tokens4632
+@Test
+success++
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+Assert.assertTrue(localPath + " != " + dodsUrl,ok)
+problem: Syntax error on token "Assert", delete this token4632
+@Test
+Assert
+problem: Syntax error on token "assertTrue", delete this token4632
+@Test
+assertTrue
+problem: Syntax error on token ";", [ expected3962
+@Test
+localPath + " != " + dodsUrl
+problem: Syntax error on token "" != "", delete this token4632
+@Test
+" != "
+problem: Syntax error on token ";", [ expected3962
+@Test
+ncfile != null
+problem: Syntax error on token "close", Identifier expected after this token4639
+@Test
+ncfile.close()
+problem: Syntax error on token "close", delete this token4632
+@Test
+close
+problem: Syntax error on token ";", [ expected3962
+@Test
+ncremote != null
+problem: Syntax error on token "close", Identifier expected after this token4641
+@Test
+ncremote.close()
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+CompareNetcdf2.ObjFilter
+problem: Syntax error on token "ObjFilter", delete this token4632
+@Test
+ObjFilter
+problem: Syntax error on token "Override", delete this token4632
+@Test
+Override
+problem: Syntax error on token "attCheckOk", delete this token4632
+@Test
+attCheckOk
+problem: Syntax error on token "Variable", delete this token4632
+@Test
+Variable
+problem: Syntax error on token "v", invalid Modifiers4632
+@Test
+v
+problem: Syntax error on token "Attribute", delete this token4632
+@Test
+Attribute
+problem: Syntax error on token "att", delete this token4632
+@Test
+att
+problem: Syntax error on token "name", invalid Modifiers4632
+@Test
+name
+problem: Syntax error on token "getShortName", Identifier expected after this token4636
+@Test
+att.getShortName()
+problem: Syntax error on token "getShortName", delete this token4632
+@Test
+getShortName
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+name.equals(_Coordinate.Axes)
+problem: Syntax error on token "equals", delete this token4632
+@Test
+equals
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+_Coordinate.Axes
+problem: Syntax error on token "Axes", delete this token4632
+@Test
+Axes
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+name.equals(CDM.UNSIGNED)
+problem: Syntax error on token(s), misplaced construct(s)4632
+@Test
+CDM.UNSIGNED
+problem: Syntax error on token "UNSIGNED", delete this token4632
+@Test
+UNSIGNED
+problem: Syntax error on token "true", invalid Modifiers4632
+@Test
+true
+problem: Syntax error on token "varDataTypeCheckOk", delete this token4632
+@Test
+varDataTypeCheckOk
+problem: Syntax error on token "class", Identifier expected4647
+Test
+Parameterized.class
+problem: Syntax error on token "false", Identifier expected4633
+Test
+false
+problem: Syntax error on token "@", { expected4632
+Test
+new ArrayList<Object[]>(20)
+problem: Syntax error on token "20", Identifier expected4633
+Test
+20
+problem: Syntax error on token "@", { expected4632
+Test
+new Object[]{"conventions/zebra/SPOL_3Volumes.nc"}
+problem: Syntax error on token ""conventions/zebra/SPOL_3Volumes.nc"", Identifier expected4633
+Test
+"conventions/zebra/SPOL_3Volumes.nc"
+problem: Syntax error on token "@", { expected4632
+Test
+new Object[]{"conventions/coards/inittest24.QRIDV07200.ncml"}
+problem: Syntax error on token ""conventions/coards/inittest24.QRIDV07200.ncml"", Identifier expected4633
+Test
+"conventions/coards/inittest24.QRIDV07200.ncml"
+problem: Syntax error on token "@", { expected4632
+Test
+new Object[]{"conventions/atd/rgg.20020411.000000.lel.ll.nc"}
+problem: Syntax error on token ""conventions/atd/rgg.20020411.000000.lel.ll.nc"", Identifier expected4633
+Test
+"conventions/atd/rgg.20020411.000000.lel.ll.nc"
+problem: Syntax error on token "@", { expected4632
+Test
+new Object[]{"conventions/awips/awips.nc"}
+problem: Syntax error on token ""conventions/awips/awips.nc"", Identifier expected4633
+Test
+"conventions/awips/awips.nc"
+problem: Syntax error on token "@", { expected4632
+Test
+new Object[]{"conventions/cf/ipcc/cl_A1.nc"}
+problem: Syntax error on token ""conventions/cf/ipcc/cl_A1.nc"", Identifier expected4633
+Test
+"conventions/cf/ipcc/cl_A1.nc"
+problem: Syntax error on token "@", { expected4632
+Test
+new Object[]{"conventions/csm/o3monthly.nc"}
+problem: Syntax error on token ""conventions/csm/o3monthly.nc"", Identifier expected4633
+Test
+"conventions/csm/o3monthly.nc"
+problem: Syntax error on token "@", { expected4632
+Test
+new Object[]{"conventions/gdv/OceanDJF.nc"}
+problem: Syntax error on token ""conventions/gdv/OceanDJF.nc"", Identifier expected4633
+Test
+"conventions/gdv/OceanDJF.nc"
+problem: Syntax error on token "@", { expected4632
+Test
+new Object[]{"conventions/gief/coamps.wind_uv.nc"}
+problem: Syntax error on token ""conventions/gief/coamps.wind_uv.nc"", Identifier expected4633
+Test
+"conventions/gief/coamps.wind_uv.nc"
+problem: Syntax error on token "@", { expected4632
+Test
+new Object[]{"conventions/mars/temp_air_01082000.nc"}
+problem: Syntax error on token ""conventions/mars/temp_air_01082000.nc"", Identifier expected4633
+Test
+"conventions/mars/temp_air_01082000.nc"
+problem: Syntax error on token "@", { expected4632
+Test
+new Object[]{"conventions/mm5/n040.nc"}
+problem: Syntax error on token ""conventions/mm5/n040.nc"", Identifier expected4633
+Test
+"conventions/mm5/n040.nc"
+problem: Syntax error on token "@", { expected4632
+Test
+new Object[]{"conventions/nuwg/eta.nc"}
+problem: Syntax error on token ""conventions/nuwg/eta.nc"", Identifier expected4633
+Test
+"conventions/nuwg/eta.nc"
+problem: Syntax error on token "@", { expected4632
+Test
+new Object[]{"conventions/nuwg/ruc.nc"}
+problem: Syntax error on token ""conventions/nuwg/ruc.nc"", Identifier expected4633
+Test
+"conventions/nuwg/ruc.nc"
+problem: Syntax error on token "@", { expected4632
+Test
+new Object[]{"conventions/wrf/wrfout_v2_Lambert.nc"}
+problem: Syntax error on token ""conventions/wrf/wrfout_v2_Lambert.nc"", Identifier expected4633
+Test
+"conventions/wrf/wrfout_v2_Lambert.nc"
+problem: Syntax error on token "@", { expected4632
+Test
+this.filename=filename
+problem: Syntax error on token "this", Identifier expected4633
+Test
+this.filename
+problem: Syntax error on token "this", Identifier expected4633
+Test
+this
+problem: Syntax error on token "0", Identifier expected4633
+Test
+0
+problem: Syntax error on token ""dodsC/scanCdmUnitTests/"", Identifier expected4633
+Test
+"dodsC/scanCdmUnitTests/"
+problem: Syntax error on token "'\\'", Identifier expected4633
+Test
+'\\'
+problem: Syntax error on token ""/"", Identifier expected4633
+Test
+"/"
+problem: Syntax error on token ""--Compare %s to %s%n"", Identifier expected4633
+Test
+"--Compare %s to %s%n"
+problem: Syntax error on token "null", Identifier expected4633
+Test
+null
+problem: Syntax error on token "new", delete this token4633
+Test
+new Formatter()
+problem: Syntax error on token "@", { expected4632
+Test
+new CompareNetcdf2(f,false,false,false)
+problem: Syntax error on token "new", delete this token4633
+Test
+new DodsObjFilter()
+problem: Syntax error on token "!", delete this token4633
+Test
+!ok
+problem: Syntax error on token ""--Compare %s%n"", Identifier expected4633
+Test
+"--Compare %s%n"
+problem: Syntax error on token ""  %s%n"", Identifier expected4633
+Test
+"  %s%n"
+problem: Syntax error on token "" != "", Identifier expected4633
+Test
+" != "
+problem: Syntax error on token "true", Identifier expected4633
+Test
+true
+
+
+Processing bonitasoft_bonita-engine/modifiedFiles/4/FormMappingServiceImpl.java
+Fault in line no 113
+3546 Patches Generated
+Correct Patch Generated!
+authorizationRules
+null
+Total Candidate Patches: 3546
+Correct Patch Rank: 3334
+
+
+Processing bonitasoft_bonita-engine/modifiedFiles/6/PageMappingServiceImpl.java
+Fault in line no 124
+1799 Patches Generated
+Correct Patch Generated!
+url != null && urlAdapter != null
+urlAdapter != null
+Total Candidate Patches: 1799
+Correct Patch Rank: 187
+
+
+Processing languagetool-org_languagetool/modifiedFiles/58/JLanguageTool.java
+Fault in line no 520
+4557 Patches Generated
+Correct Patch Generated!
+sentence.length() - 1
+sentence.length()
+Total Candidate Patches: 4557
+Correct Patch Rank: 1693
+
+
+Processing languagetool-org_languagetool/modifiedFiles/40/DifferentLengthRule.java
+Fault in line no 61
+800 Patches Generated
+Correct Patch Generated!
+1
+0
+Total Candidate Patches: 800
+Correct Patch Rank: 541
+
+
+Processing languagetool-org_languagetool/modifiedFiles/48/DoublePunctuationRule.java
+Fault in line no 80
+726 Patches Generated
+Correct Patch Generated!
+Math.max(0,startPos)
+Math.max(0,startPos - 1)
+Total Candidate Patches: 726
+Correct Patch Rank: 207
+
+
+Processing languagetool-org_languagetool/modifiedFiles/38/RuleApplication.java
+Fault in line no 96
+82 Patches Generated
+Correct Patch Generated!
+isHasRealReplacement
+hasRealReplacement
+Total Candidate Patches: 82
+Correct Patch Rank: 21
+
+
+Processing languagetool-org_languagetool/modifiedFiles/76/SimpleReplaceRule.java
+Fault in line no 52
+728 Patches Generated
+problem: Syntax error on token ".", = expected2037
+wrongWords
+wrongWords.containsKey(token)
+problem: Syntax error on token ".", = expected2037
+wrongWords
+wrongWords.get(token)
+
+
+Processing droolsjbpm_droolsjbpm-integration/modifiedFiles/6/KieServerImpl.java
+Fault in line no 524
+3815 Patches Generated
+Correct Patch Generated!
+"containerId"
+containerId
+Total Candidate Patches: 3815
+Correct Patch Rank: 2571
+
+
+Processing dcm4che_dcm4che/modifiedFiles/2/Attributes.java
+Fault in line no 3166
+19116 Patches Generated
+Correct Patch Generated!
+vrs[i]
+vrs[j]
+Total Candidate Patches: 19116
+Correct Patch Rank: 11971
+
+
+Processing eXist-db_exist/modifiedFiles/4/SimpleACLPermission.java
+Fault in line no 272
+2471 Patches Generated
+Correct Patch Generated!
+acl[0]
+acl[i]
+Total Candidate Patches: 2471
+Correct Patch Rank: 629
+
+
+Processing eXist-db_exist/modifiedFiles/10/PathExpr.java
+Fault in line no 255
+4760 Patches Generated
+Correct Patch Generated!
+!Type.subTypeOf(result.getItemType(),Type.NODE)
+Type.subTypeOf(result.getItemType(),Type.ATOMIC)
+Total Candidate Patches: 4760
+Correct Patch Rank: 368
+
+
+Processing HSLdevcom_parkandrideAPI/modifiedFiles/4/FacilityInfo.java
+Fault in line no 37
+255 Patches Generated
+problem: Syntax error on token "@", delete this token919
+IN_OPERATION
+@ApiModelProperty(required=true)
+problem: Syntax error on token "@", delete this token919
+IN_OPERATION
+@MinElement(1)
+
+
+Processing HSLdevcom_parkandrideAPI/modifiedFiles/2/Application.java
+Fault in line no 197
+3303 Patches Generated
+Correct Patch Generated!
+"/*"
+"/**"
+Total Candidate Patches: 3303
+Correct Patch Rank: 2880
+
+
+Processing pentaho_mondrian/modifiedFiles/2/SegmentCacheIndexImpl.java
+Fault in line no 350
+1440 Patches Generated
+Correct Patch Generated!
+regionColumn
+headerColumn
+Total Candidate Patches: 1440
+Correct Patch Rank: 751
+
+
+Processing jboss-reddeer_reddeer/modifiedFiles/2/View.java
+Fault in line no 92
+3330 Patches Generated
+Correct Patch Generated!
+button.isEnabled() && button.getToolTipText().equals(toolbarToolTip)
+button.getToolTipText().equals(toolbarToolTip)
+Total Candidate Patches: 3330
+Correct Patch Rank: 207
+
+
+Processing thomasjungblut_thomasjungblut-common/modifiedFiles/4/MathUtils.java
+Fault in line no 167
+3440 Patches Generated
+Correct Patch Generated!
+log
+input
+Total Candidate Patches: 3440
+Correct Patch Rank: 2615
+
+
+Processing jankotek_MapDB/modifiedFiles/4/DB.java
+Fault in line no 1463
+6216 Patches Generated
+Correct Patch Generated!
+name
+name + ".type"
+Total Candidate Patches: 6216
+Correct Patch Rank: 4314
+
+
+Processing openrocket_openrocket/modifiedFiles/4/FinSet.java
+Fault in line no 443
+4352 Patches Generated
+Correct Patch Generated!
+y0 - y1
+y0 + y1
+Total Candidate Patches: 4352
+Correct Patch Rank: 2489
+
+
+Processing dotCMS_core/modifiedFiles/6/SiteSearchAjaxAction.java
+Fault in line no 135
+4836 Patches Generated
+problem: Syntax error on token "-", -- expected4414
+config.setJobName(config.getJobName() + "_" + config.get("indexAlias"))
+-1
+
+
+Processing dotCMS_core/modifiedFiles/12/FieldsCache.java
+Fault in line no 199
+1176 Patches Generated
+Correct Patch Generated!
+getPrimaryGroup() + field.getInode()
+getFieldsVarGroup() + field.getInode()
+Total Candidate Patches: 1176
+Correct Patch Rank: 434
+
+
+Processing voldemort_voldemort/modifiedFiles/6/DefaultStoreClient.java
+Fault in line no 97
+216 Patches Generated
+Correct Patch Generated!
+null
+defaultValue
+Total Candidate Patches: 216
+Correct Patch Rank: 118
+
+
+Processing cdk_cdk/modifiedFiles/10/Electronegativity.java
+Fault in line no 48
+232 Patches Generated
+Correct Patch Generated!
+IMolecule
+IAtomContainer
+Total Candidate Patches: 232
+Correct Patch Rank: 19
+
+
+Processing cdk_cdk/modifiedFiles/28/UniversalIsomorphismTester.java
+Fault in line no 754
+2001 Patches Generated
+Correct Patch Generated!
+a1
+a2
+Total Candidate Patches: 2001
+Correct Patch Rank: 888
+
+
+Processing quickfix-j_quickfixj/modifiedFiles/2/DataDictionary.java
+Fault in line no 262
+10960 Patches Generated
+Correct Patch Generated!
+fields != null & fields.contains(new Integer(field))
+fields != null && fields.contains(new Integer(field))
+Total Candidate Patches: 10960
+Correct Patch Rank: 221
+
+
+Processing araqne_logdb/modifiedFiles/4/OutputJson.java
+Fault in line no 284
+1560 Patches Generated
+Correct Patch Generated!
+encoding
+encodingOption
+Total Candidate Patches: 1560
+Correct Patch Rank: 593
+
+
+Processing araqne_logdb/modifiedFiles/6/OutputJson.java
+Fault in line no 274
+936 Patches Generated
+Correct Patch Generated!
+" "
+""
+Total Candidate Patches: 936
+Correct Patch Rank: 903
+
+
+Processing araqne_logdb/modifiedFiles/12/Eq.java
+Fault in line no 32
+735 Patches Generated
+Correct Patch Generated!
+tryBuildPattern
+tryBuildPattern2
+Total Candidate Patches: 735
+Correct Patch Rank: 480
+
+
+Processing mongodb_morphia/modifiedFiles/16/EmbeddedMapper.java
+Fault in line no 111
+1800 Patches Generated
+Correct Patch Generated!
+null
+retrieved
+Total Candidate Patches: 1800
+Correct Patch Rank: 1725
+
+
+Processing mongodb_morphia/modifiedFiles/14/DoubleConverter.java
+Fault in line no 40
+483 Patches Generated
+Correct Patch Generated!
+double.class
+Double.class
+Total Candidate Patches: 483
+Correct Patch Rank: 246
+
+
+Processing mongodb_morphia/modifiedFiles/12/Mapper.java
+Fault in line no 394
+2886 Patches Generated
+Correct Patch Generated!
+mappedValue=value
+mappedValue=toMongoObject(value,false)
+Total Candidate Patches: 2886
+Correct Patch Rank: 459
+
+
+Processing helun_Ektorp/modifiedFiles/2/ViewResult.java
+Fault in line no 187
+1314 Patches Generated
+Correct Patch Generated!
+findValue
+get
+Total Candidate Patches: 1314
+Correct Patch Rank: 945
+
+
+Processing inbloom_secure-data-service/modifiedFiles/2/GenericToEdOrgValidator.java
+Fault in line no 53
+960 Patches Generated
+Correct Patch Generated!
+ids.toString()
+ids
+Total Candidate Patches: 960
+Correct Patch Rank: 671
+
+
+Processing inbloom_secure-data-service/modifiedFiles/18/WriteValidator.java
+Fault in line no 66
+2548 Patches Generated
+Correct Patch Generated!
+uriInfo.getPathSegments().get(VERSION_INDEX).getPath()
+uriInfo.getPathSegments().get(VERSION_INDEX)
+Total Candidate Patches: 2548
+Correct Patch Rank: 340
+
+
+Processing jenkinsci_jenkins/modifiedFiles/22/MarkupText.java
+Fault in line no 101
+3210 Patches Generated
+Correct Patch Generated!
+this.end
+this.start
+Total Candidate Patches: 3210
+Correct Patch Rank: 2427
+
+
+Processing jenkinsci_jenkins/modifiedFiles/26/MavenBuild.java
+Fault in line no 481
+6929 Patches Generated
+Correct Patch Generated!
+getParentBuild()
+getModuleSetBuild()
+Total Candidate Patches: 6929
+Correct Patch Rank: 2880
+
+
+Processing jphp-compiler_jphp/modifiedFiles/10/FileFunctions.java
+Fault in line no 106
+2525 Patches Generated
+Correct Patch Generated!
+getPath
+getParent
+Total Candidate Patches: 2525
+Correct Patch Rank: 2344
+
+
+Processing imagej_imagej/modifiedFiles/10/UnsignedShortArrayAccessor.java
+Fault in line no 37
+175 Patches Generated
+Correct Patch Generated!
+value+=65536 + value
+value=65536 + value
+Total Candidate Patches: 175
+Correct Patch Rank: 21
+
+
+Processing apache_archiva/modifiedFiles/4/ArchivaDavResourceFactory.java
+Fault in line no 449
+9531 Patches Generated
+Correct Patch Generated!
+"/" + repoGroupConfig.getMergedIndexPath()
+repoGroupConfig.getMergedIndexPath()
+Total Candidate Patches: 9531
+Correct Patch Rank: 4814
+
+
+Processing apache_archiva/modifiedFiles/6/Maven2RepositoryMerger.java
+Fault in line no 264
+1648 Patches Generated
+Correct Patch Generated!
+projectMetadataFileInSourceRepo
+projectMetadataFileInTargetRepo
+Total Candidate Patches: 1648
+Correct Patch Rank: 1534
+
+
+Processing jenkinsci_credentials-plugin/modifiedFiles/2/URIRequirementBuilder.java
+Fault in line no 199
+254 Patches Generated
+Correct Patch Generated!
+withoutScheme
+withoutPath
+Total Candidate Patches: 254
+Correct Patch Rank: 224
+
+
+Processing fge_json-patch/modifiedFiles/2/LCS.java
+Fault in line no 130
+1328 Patches Generated
+Correct Patch Generated!
+0
+i
+Total Candidate Patches: 1328
+Correct Patch Rank: 579
+
+
+Processing JetBrains_ideavim/modifiedFiles/2/CommandParser.java
+Fault in line no 304
+2392 Patches Generated
+Correct Patch Generated!
+'0'
+'.'
+Total Candidate Patches: 2392
+Correct Patch Rank: 2175
+
+
+Processing puniverse_quasar/modifiedFiles/4/RemoteActor.java
+Fault in line no 32
+111 Patches Generated
+Correct Patch Generated!
+Object
+LifecycleListener
+Total Candidate Patches: 111
+Correct Patch Rank: 46
+
+
+Processing lenskit_lenskit/modifiedFiles/2/BinarySearch.java
+Fault in line no 68
+869 Patches Generated
+Correct Patch Generated!
+0
+start
+Total Candidate Patches: 869
+Correct Patch Rank: 265
+
+
+Processing Internet2_grouper/modifiedFiles/2/AddMissingGroupSets.java
+Fault in line no 453
+2904 Patches Generated
+Correct Patch Generated!
+setOwnerStemId
+setOwnerAttrDefId
+Total Candidate Patches: 2904
+Correct Patch Rank: 1317
+
+
+Processing apache_lucene-solr/modifiedFiles/10/SpellCheckCollator.java
+Fault in line no 205
+7296 Patches Generated
+Correct Patch Generated!
+collation
+origQuery
+Total Candidate Patches: 7296
+Correct Patch Rank: 3996
+
+
+Processing apache_lucene-solr/modifiedFiles/2/GeoPoint.java
+Fault in line no 94
+380 Patches Generated
+Correct Patch Generated!
+z
+x
+Total Candidate Patches: 380
+Correct Patch Rank: 341
+
+
+Processing apache_lucene-solr/modifiedFiles/18/ValueSourceParser.java
+Fault in line no 107
+4960 Patches Generated
+Correct Patch Generated!
+fp.getString()
+fp.parseArg()
+Total Candidate Patches: 4960
+Correct Patch Rank: 2248
+
+
+Processing TeamCohen_ProPPR/modifiedFiles/2/SparseMatrixIndex.java
+Fault in line no 155
+669 Patches Generated
+Correct Patch Generated!
+r != null
+r == null
+Total Candidate Patches: 669
+Correct Patch Rank: 207
+
+
+Processing apache_mahout/modifiedFiles/6/WeightedRunningAverage.java
+Fault in line no 43
+395 Patches Generated
+Correct Patch Generated!
+datum * weight
+datum
+Total Candidate Patches: 395
+Correct Patch Rank: 198
+
+
+Processing apache_mahout/modifiedFiles/14/AdaptiveWordValueEncoder.java
+Fault in line no 47
+536 Patches Generated
+Correct Patch Generated!
+getWeight(originalForm,weight)
+weight
+Total Candidate Patches: 536
+Correct Patch Rank: 236
+
+
+Processing CubeEngine_core/modifiedFiles/8/TestInstanceFactory.java
+Fault in line no 40
+466 Patches Generated
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+de.cubeisland.cubeengine.core.test.factory
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+de.cubeisland.cubeengine.core.test
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+de.cubeisland.cubeengine.core
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+de.cubeisland.cubeengine
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+de.cubeisland
+problem: Syntax error on token "de", default expected1415
+@Test
+de
+problem: Syntax error on token "cubeisland", delete this token1415
+@Test
+cubeisland
+problem: Syntax error on token "cubeengine", delete this token1415
+@Test
+cubeengine
+problem: Syntax error on token "core", delete this token1415
+@Test
+core
+problem: Syntax error on token "test", delete this token1415
+@Test
+test
+problem: Syntax error on token "factory", delete this token1415
+@Test
+factory
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+de.cubeisland.cubeengine.core.permission.Perm
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+de.cubeisland.cubeengine.core.permission
+problem: Syntax error on token "permission", delete this token1415
+@Test
+permission
+problem: Syntax error on token "Perm", delete this token1415
+@Test
+Perm
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+de.cubeisland.cubeengine.core.persistence.filesystem.CubeConfiguration
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+de.cubeisland.cubeengine.core.persistence.filesystem
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+de.cubeisland.cubeengine.core.persistence
+problem: Syntax error on token "persistence", delete this token1415
+@Test
+persistence
+problem: Syntax error on token "filesystem", invalid Modifiers1415
+@Test
+filesystem
+problem: Syntax error on token "CubeConfiguration", delete this token1415
+@Test
+CubeConfiguration
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+de.cubeisland.cubeengine.core.persistence.filesystem.FileManager
+problem: Syntax error on token "FileManager", invalid Modifiers1415
+@Test
+FileManager
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+de.cubeisland.cubeengine.core.test.util.Util
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+de.cubeisland.cubeengine.core.test.util
+problem: Syntax error on token "util", delete this token1415
+@Test
+util
+problem: Syntax error on token "Util", delete this token1415
+@Test
+Util
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+java.io.File
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+java.io
+problem: Syntax error on token "java", delete this token1415
+@Test
+java
+problem: Syntax error on token "io", delete this token1415
+@Test
+io
+problem: Syntax error on token "File", invalid Modifiers1415
+@Test
+File
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+java.util.logging.Logger
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+java.util.logging
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+java.util
+problem: Syntax error on token "logging", delete this token1415
+@Test
+logging
+problem: Syntax error on token "Logger", delete this token1415
+@Test
+Logger
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.bukkit.ChatColor
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.bukkit
+problem: Syntax error on token "org", delete this token1415
+@Test
+org
+problem: Syntax error on token "bukkit", delete this token1415
+@Test
+bukkit
+problem: Syntax error on token "ChatColor", delete this token1415
+@Test
+ChatColor
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.bukkit.Server
+problem: Syntax error on token "Server", delete this token1415
+@Test
+Server
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.bukkit.command.CommandSender
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.bukkit.command
+problem: Syntax error on token "command", delete this token1415
+@Test
+command
+problem: Syntax error on token "CommandSender", delete this token1415
+@Test
+CommandSender
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.bukkit.configuration.file.FileConfiguration
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.bukkit.configuration.file
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.bukkit.configuration
+problem: Syntax error on token "configuration", delete this token1415
+@Test
+configuration
+problem: Syntax error on token "file", invalid Modifiers1415
+@Test
+file
+problem: Syntax error on token "FileConfiguration", delete this token1415
+@Test
+FileConfiguration
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.bukkit.permissions.Permission
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.bukkit.permissions
+problem: Syntax error on token "permissions", delete this token1415
+@Test
+permissions
+problem: Syntax error on token "Permission", delete this token1415
+@Test
+Permission
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.bukkit.plugin.PluginManager
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.bukkit.plugin
+problem: Syntax error on token "plugin", invalid Modifiers1415
+@Test
+plugin
+problem: Syntax error on token "PluginManager", delete this token1415
+@Test
+PluginManager
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.hamcrest.Matcher
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.hamcrest
+problem: Syntax error on token "hamcrest", delete this token1415
+@Test
+hamcrest
+problem: Syntax error on token "Matcher", delete this token1415
+@Test
+Matcher
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.junit.Test
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.junit
+problem: Syntax error on token "junit", delete this token1415
+@Test
+junit
+problem: Syntax error on token "Test", delete this token1415
+@Test
+Test
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.mockito.Matchers
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.mockito
+problem: Syntax error on token "mockito", delete this token1415
+@Test
+mockito
+problem: Syntax error on token "Matchers", delete this token1415
+@Test
+Matchers
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.mockito.Matchers.anyString
+problem: Syntax error on token "anyString", delete this token1415
+@Test
+anyString
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.mockito.Mockito
+problem: Syntax error on token "Mockito", delete this token1415
+@Test
+Mockito
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.mockito.invocation.InvocationOnMock
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.mockito.invocation
+problem: Syntax error on token "invocation", delete this token1415
+@Test
+invocation
+problem: Syntax error on token "InvocationOnMock", delete this token1415
+@Test
+InvocationOnMock
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.mockito.stubbing.Answer
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.mockito.stubbing
+problem: Syntax error on token "stubbing", invalid Modifiers1415
+@Test
+stubbing
+problem: Syntax error on token "Answer", delete this token1415
+@Test
+Answer
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.powermock.api.mockito.PowerMockito
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.powermock.api.mockito
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.powermock.api
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+org.powermock
+problem: Syntax error on token "powermock", delete this token1415
+@Test
+powermock
+problem: Syntax error on token "api", delete this token1415
+@Test
+api
+problem: Syntax error on token "PowerMockito", delete this token1415
+@Test
+PowerMockito
+problem: Syntax error on token "TestInstanceFactory", delete this token1415
+@Test
+TestInstanceFactory
+problem: Syntax error on token "CubeCore", delete this token1415
+@Test
+CubeCore
+problem: Syntax error on token "mockServer", delete this token1415
+@Test
+mockServer
+problem: Syntax error on token "commandSender", delete this token1415
+@Test
+commandSender
+problem: Syntax error on token "pluginDirectory", delete this token1415
+@Test
+pluginDirectory
+problem: Syntax error on token "new", @ expected1415
+@Test
+new File("bin/test/server/plugins/coretest")
+problem: Syntax error on token ""bin/test/server/plugins/coretest"", delete this token1415
+@Test
+"bin/test/server/plugins/coretest"
+problem: Syntax error on token "configDirectory", delete this token1415
+@Test
+configDirectory
+problem: Syntax error on token "new", @ expected1415
+@Test
+new File("bin/test/server/plugins/coretest/CubeCore")
+problem: Syntax error on token ""bin/test/server/plugins/coretest/CubeCore"", delete this token1415
+@Test
+"bin/test/server/plugins/coretest/CubeCore"
+problem: Syntax error on token "worldsDirectory", delete this token1415
+@Test
+worldsDirectory
+problem: Syntax error on token "new", @ expected1415
+@Test
+new File("bin/test/server")
+problem: Syntax error on token ""bin/test/server"", delete this token1415
+@Test
+"bin/test/server"
+problem: Syntax error on token "setUp", invalid Modifiers1415
+@Test
+setUp
+problem: Syntax error on token ";", , expected1404
+@Test
+core=PowerMockito.spy(new CubeCore())
+problem: Syntax error on token ".", @ expected after this token1427
+@Test
+PowerMockito.spy(new CubeCore())
+problem: Syntax error on token "spy", delete this token1415
+@Test
+spy
+problem: Syntax error on token "new", @ expected1415
+@Test
+new CubeCore()
+problem: Syntax error on token "when", delete this token1415
+@Test
+when
+problem: Syntax error on token "getDataFolder", Identifier expected after this token1420
+@Test
+core.getDataFolder()
+problem: Syntax error on token "getDataFolder", delete this token1415
+@Test
+getDataFolder
+problem: Syntax error on token "thenReturn", delete this token1415
+@Test
+thenReturn
+problem: Syntax error on token "fileManager", invalid Modifiers1415
+@Test
+fileManager
+problem: Syntax error on token ".", @ expected after this token1427
+@Test
+PowerMockito.spy(new FileManager(core))
+problem: Syntax error on token "new", @ expected1415
+@Test
+new FileManager(core)
+problem: Syntax error on token "config", delete this token1415
+@Test
+config
+problem: Syntax error on token "mock", delete this token1415
+@Test
+mock
+problem: Syntax error on tokens, delete these tokens1415
+@Test
+CubeConfiguration.class
+problem: Syntax error on token "fileconfig", invalid Modifiers1415
+@Test
+fileconfig
+problem: Syntax error on tokens, delete these tokens1415
+@Test
+FileConfiguration.class
+problem: Syntax error on token "doReturn", delete this token1415
+@Test
+doReturn
+problem: Syntax error on token "getConfig", delete this token1415
+@Test
+getConfig
+problem: Syntax error on token "getCoreConfig", delete this token1415
+@Test
+getCoreConfig
+problem: Syntax error on token "getDatabaseConfig", delete this token1415
+@Test
+getDatabaseConfig
+problem: Syntax error on tokens, delete these tokens1415
+@Test
+Server.class
+problem: Syntax error on token "manager", delete this token1415
+@Test
+manager
+problem: Syntax error on tokens, delete these tokens1415
+@Test
+PluginManager.class
+problem: Syntax error on token "getPluginManager", delete this token1415
+@Test
+getPluginManager
+problem: Syntax error on token "doNothing", delete this token1415
+@Test
+doNothing
+problem: Syntax error on token "registerPermissions", delete this token1415
+@Test
+registerPermissions
+problem: Syntax error on token "values", Identifier expected after this token1420
+@Test
+Perm.values()
+problem: Syntax error on token "values", delete this token1415
+@Test
+values
+problem: Syntax error on token "commandSenderLogger", delete this token1415
+@Test
+commandSenderLogger
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+Logger.getLogger("CommandSender")
+problem: Syntax error on token "getLogger", delete this token1415
+@Test
+getLogger
+problem: Syntax error on token ""CommandSender"", delete this token1415
+@Test
+"CommandSender"
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+commandSenderLogger.setParent(Util.logger)
+problem: Syntax error on token "setParent", delete this token1415
+@Test
+setParent
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+Util.logger
+problem: Syntax error on token "logger", delete this token1415
+@Test
+logger
+problem: Syntax error on tokens, delete these tokens1415
+@Test
+CommandSender.class
+problem: Syntax error on token "doAnswer", delete this token1415
+@Test
+doAnswer
+problem: Syntax error on token "Void", invalid Modifiers1415
+@Test
+Void
+problem: Syntax error on token "Override", delete this token1415
+@Test
+Override
+problem: Syntax error on token "answer", delete this token1415
+@Test
+answer
+problem: Syntax error on token "Throwable", delete this token1415
+@Test
+Throwable
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+commandSenderLogger.info(ChatColor.stripColor((String)invocation.getArguments()[0]))
+problem: Syntax error on token "info", delete this token1415
+@Test
+info
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+ChatColor.stripColor((String)invocation.getArguments()[0])
+problem: Syntax error on token "stripColor", invalid Modifiers1415
+@Test
+stripColor
+problem: Syntax error on token ";", [ expected1404
+@Test
+(String)invocation.getArguments()[0]
+problem: Syntax error on token "String", invalid Modifiers1415
+@Test
+String
+problem: Syntax error on token "getArguments", Identifier expected after this token1426
+@Test
+invocation.getArguments()[0]
+problem: Syntax error on token "getArguments", Identifier expected after this token1426
+@Test
+invocation.getArguments()
+problem: Syntax error on token "getArguments", delete this token1415
+@Test
+getArguments
+problem: Syntax error on token "0", delete this token1415
+@Test
+0
+problem: Syntax error on token "null", delete this token1415
+@Test
+null
+problem: Syntax error on token "sendMessage", delete this token1415
+@Test
+sendMessage
+problem: Syntax error on token "getServer", Identifier expected after this token1429
+@Test
+commandSender.getServer()
+problem: Syntax error on token "getServer", delete this token1415
+@Test
+getServer
+problem: Syntax error on token "getName", Identifier expected after this token1429
+@Test
+commandSender.getName()
+problem: Syntax error on token "getName", delete this token1415
+@Test
+getName
+problem: Syntax error on token ""MockCommandSender"", delete this token1415
+@Test
+"MockCommandSender"
+problem: Syntax error on token "isPermissionSet", delete this token1415
+@Test
+isPermissionSet
+problem: Syntax error on token "true", invalid Modifiers1415
+@Test
+true
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+commandSender.isPermissionSet(Matchers.isA(Permission.class))
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+Matchers.isA(Permission.class)
+problem: Syntax error on token "isA", delete this token1415
+@Test
+isA
+problem: Syntax error on tokens, delete these tokens1415
+@Test
+Permission.class
+problem: Syntax error on token "hasPermission", delete this token1415
+@Test
+hasPermission
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+commandSender.hasPermission(Matchers.isA(Permission.class))
+problem: Syntax error on token(s), misplaced construct(s)1415
+@Test
+commandSender.addAttachment(core)
+problem: Syntax error on token "addAttachment", delete this token1415
+@Test
+addAttachment
+problem: Syntax error on token "isOp", Identifier expected after this token1429
+@Test
+commandSender.isOp()
+problem: Syntax error on token "isOp", delete this token1415
+@Test
+isOp
+problem: Syntax error on token "onLoad", Identifier expected after this token1420
+@Test
+core.onLoad()
+problem: Syntax error on token "onLoad", delete this token1415
+@Test
+onLoad
+problem: Syntax error on token "onEnable", Identifier expected after this token1420
+@Test
+core.onEnable()
+problem: Syntax error on token "onEnable", delete this token1415
+@Test
+onEnable
+problem: Syntax error on token "getCore", delete this token1415
+@Test
+getCore
+problem: Syntax error on token ";", { expected after this token1404
+@Test
+this.core
+problem: Syntax error on token "this", delete this token1415
+@Test
+this
+problem: Syntax error on token ";", { expected after this token1404
+@Test
+this.mockServer
+problem: Syntax error on token "getCommandSender", delete this token1415
+@Test
+getCommandSender
+problem: Syntax error on token "new", delete this token1416
+Test
+new File("bin/test/server/plugins/coretest")
+problem: Syntax error on token ""bin/test/server/plugins/coretest"", Identifier expected1416
+Test
+"bin/test/server/plugins/coretest"
+problem: Syntax error on token "new", delete this token1416
+Test
+new File("bin/test/server/plugins/coretest/CubeCore")
+problem: Syntax error on token ""bin/test/server/plugins/coretest/CubeCore"", Identifier expected1416
+Test
+"bin/test/server/plugins/coretest/CubeCore"
+problem: Syntax error on token "new", delete this token1416
+Test
+new File("bin/test/server")
+problem: Syntax error on token ""bin/test/server"", Identifier expected1416
+Test
+"bin/test/server"
+problem: Syntax error on token "new", delete this token1416
+Test
+new CubeCore()
+problem: Syntax error on token "new", delete this token1416
+Test
+new FileManager(core)
+problem: Syntax error on token "class", Identifier expected1434
+Test
+CubeConfiguration.class
+problem: Syntax error on token "class", Identifier expected1434
+Test
+FileConfiguration.class
+problem: Syntax error on token "class", Identifier expected1423
+Test
+Server.class
+problem: Syntax error on token "class", Identifier expected1430
+Test
+PluginManager.class
+problem: Syntax error on token ""CommandSender"", Identifier expected1416
+Test
+"CommandSender"
+problem: Syntax error on token "class", Identifier expected1430
+Test
+CommandSender.class
+problem: Syntax error on token "@", Identifier expected after this token1415
+Test
+(String)invocation.getArguments()[0]
+problem: Syntax error on token "0", Identifier expected1416
+Test
+0
+problem: Syntax error on token "null", Identifier expected1416
+Test
+null
+problem: Syntax error on token ""MockCommandSender"", Identifier expected1416
+Test
+"MockCommandSender"
+problem: Syntax error on token "true", Identifier expected1416
+Test
+true
+problem: Syntax error on token "class", Identifier expected1427
+Test
+Permission.class
+problem: Syntax error on token "this", Identifier expected1416
+Test
+this.core
+problem: Syntax error on token "this", Identifier expected1416
+Test
+this
+problem: Syntax error on token "this", Identifier expected1416
+Test
+this.mockServer
+
+
+Processing allure-framework_allure-core/modifiedFiles/2/AllureTestListener.java
+Fault in line no 76
+2368 Patches Generated
+Correct Patch Generated!
+iTestContext.getSuite().getName()
+getCurrentSuiteTitle(iTestContext)
+Total Candidate Patches: 2368
+Correct Patch Rank: 1021
+
+
+Processing cmusphinx_sphinx4/modifiedFiles/4/ConfigurationManager.java
+Fault in line no 121
+2534 Patches Generated
+Correct Patch Generated!
+ps.getClass()
+ps.getConfigurableClass()
+Total Candidate Patches: 2534
+Correct Patch Rank: 1248
+
+
+Processing atlasapi_atlas/modifiedFiles/20/BbcModule.java
+Fault in line no 59
+1206 Patches Generated
+Correct Patch Generated!
+HOURLY
+FIFTEEN_MINUTES
+Total Candidate Patches: 1206
+Correct Patch Rank: 1137
+
+
+Processing atlasapi_atlas/modifiedFiles/18/C4EpgEntryProcessor.java
+Fault in line no 240
+2550 Patches Generated
+Correct Patch Generated!
+"c4:" + id
+id
+Total Candidate Patches: 2550
+Correct Patch Rank: 1431
+
+
+Processing geotools_geotools/modifiedFiles/16/WMSComplexTypes.java
+Fault in line no 4173
+13950 Patches Generated
+Correct Patch Generated!
+(String)value[2].getValue()
+(String)value[i].getValue()
+Total Candidate Patches: 13950
+Correct Patch Rank: 4522
+
+
+Processing geotools_geotools/modifiedFiles/4/CSVFeatureSource.java
+Fault in line no 69
+609 Patches Generated
+Correct Patch Generated!
+getReader
+getReaderInternal
+Total Candidate Patches: 609
+Correct Patch Rank: 514
+
+
+Processing geotools_geotools/modifiedFiles/20/JTS.java
+Fault in line no 264
+3580 Patches Generated
+Correct Patch Generated!
+transform.getSourceDimensions()
+transform.getTargetDimensions()
+Total Candidate Patches: 3580
+Correct Patch Rank: 1596
+
+
+Processing geotools_geotools/modifiedFiles/22/StreamingRenderer.java
+Fault in line no 2449
+15519 Patches Generated
+Correct Patch Generated!
+drawMe.content
+grid
+Total Candidate Patches: 15519
+Correct Patch Rank: 8966
+
+
+Processing geotools_geotools/modifiedFiles/12/SLDParser.java
+Fault in line no 1879
+10260 Patches Generated
+Correct Patch Generated!
+false
+true
+Total Candidate Patches: 10260
+Correct Patch Rank: 8838
+
+
+Processing geotools_geotools/modifiedFiles/18/Benchmark.java
+Fault in line no 82
+456 Patches Generated
+Correct Patch Generated!
+features.close(it)
+it.close()
+Total Candidate Patches: 456
+Correct Patch Rank: 90
+
+
+Processing Pardot_Rhombus/modifiedFiles/4/CObjectCQLGenerator.java
+Fault in line no 417
+3856 Patches Generated
+Correct Patch Generated!
+index.getShardingStrategy().getShardKey(uuid) + ""
+index.getShardingStrategy().getShardKey(uuid)
+Total Candidate Patches: 3856
+Correct Patch Rank: 389
+
+
+Processing apache_chemistry-opencmis/modifiedFiles/2/ObjectFactoryImpl.java
+Fault in line no 352
+2577 Patches Generated
+Correct Patch Generated!
+secondaryType.getId()
+secondaryTypeId
+Total Candidate Patches: 2577
+Correct Patch Rank: 469
+
+
+Processing droolsjbpm_drools/modifiedFiles/32/ClassObjectType.java
+Fault in line no 43
+948 Patches Generated
+Correct Patch Generated!
+InitialFactImpl
+InitialFact
+Total Candidate Patches: 948
+Correct Patch Rank: 812
+
+
+Processing droolsjbpm_drools/modifiedFiles/14/SlidingTimeWindow.java
+Fault in line no 195
+1508 Patches Generated
+Correct Patch Generated!
+pctx
+expiresPctx
+Total Candidate Patches: 1508
+Correct Patch Rank: 545
+
+
+Processing droolsjbpm_drools/modifiedFiles/38/DescrFactory.java
+Fault in line no 401
+9750 Patches Generated
+Correct Patch Generated!
+((DroolsTree)activeEntry.getValue()).getText()
+((DroolsTree)activeEntry.getValue() != null) ? ((DroolsTree)activeEntry.getValue()).getText() : "()"
+Total Candidate Patches: 9750
+Correct Patch Rank: 2221
+
+
+Processing droolsjbpm_drools/modifiedFiles/2/KnowledgeBuilderImpl.java
+Fault in line no 1523
+18126 Patches Generated
+Correct Patch Generated!
+!current.getName().equals(packageDescr.getName())
+current.getName().equals(packageDescr.getName())
+Total Candidate Patches: 18126
+Correct Patch Rank: 1434
+
+
+Processing droolsjbpm_drools/modifiedFiles/24/PackageBuilder.java
+Fault in line no 1508
+10432 Patches Generated
+Correct Patch Generated!
+endsWith
+equals
+Total Candidate Patches: 10432
+Correct Patch Rank: 5929
+
+
+Processing caskdata_cdap/modifiedFiles/82/SerializingMetaDataStore.java
+Fault in line no 198
+2748 Patches Generated
+Correct Patch Generated!
+new OperationException(StatusCode.ENTRY_EXISTS,message)
+new OperationException(StatusCode.WRITE_CONFLICT,message)
+Total Candidate Patches: 2748
+Correct Patch Rank: 251
+
+
+Processing caskdata_cdap/modifiedFiles/30/KeyValueTable.java
+Fault in line no 146
+770 Patches Generated
+Correct Patch Generated!
+swap
+compareAndSwap
+Total Candidate Patches: 770
+Correct Patch Rank: 106
+
+
+Processing caskdata_cdap/modifiedFiles/58/KafkaTestBase.java
+Fault in line no 70
+805 Patches Generated
+Correct Patch Generated!
+"10"
+"2"
+Total Candidate Patches: 805
+Correct Patch Rank: 769
+
+
+Processing caskdata_cdap/modifiedFiles/80/SerializingMetaDataStore.java
+Fault in line no 206
+2892 Patches Generated
+Correct Patch Generated!
+new OperationException(StatusCode.ENTRY_EXISTS,message)
+new OperationException(StatusCode.WRITE_CONFLICT,message)
+Total Candidate Patches: 2892
+Correct Patch Rank: 264
+
+
+Processing caskdata_cdap/modifiedFiles/12/AltStyleTableRenderer.java
+Fault in line no 208
+1967 Patches Generated
+Correct Patch Generated!
+splitFieldLine.length() - 1
+splitFieldLine.length()
+Total Candidate Patches: 1967
+Correct Patch Rank: 754
+
+
+Processing caskdata_cdap/modifiedFiles/84/InMemoryDiscoveryService.java
+Fault in line no 44
+777 Patches Generated
+Correct Patch Generated!
+discoverable
+wrapper
+Total Candidate Patches: 777
+Correct Patch Rank: 746
+
+
+Processing caskdata_cdap/modifiedFiles/18/ProgramLifecycleHttpHandler.java
+Fault in line no 693
+10108 Patches Generated
+Correct Patch Generated!
+HttpResponseStatus.BAD_REQUEST
+HttpResponseStatus.NOT_FOUND
+Total Candidate Patches: 10108
+Correct Patch Rank: 4799
+
+
+Processing caskdata_cdap/modifiedFiles/86/SmartTransactionAgent.java
+Fault in line no 172
+2352 Patches Generated
+Correct Patch Generated!
+null
+this.xaction
+Total Candidate Patches: 2352
+Correct Patch Rank: 1853
+
+
+Processing caskdata_cdap/modifiedFiles/26/MetricsRequestParser.java
+Fault in line no 365
+2470 Patches Generated
+Correct Patch Generated!
+queryParams
+queryParams.get(RUN_ID)
+Total Candidate Patches: 2470
+Correct Patch Rank: 1385
+
+
+Processing cowtowncoder_StoreMate/modifiedFiles/2/StorableKey.java
+Fault in line no 162
+1358 Patches Generated
+Correct Patch Generated!
+from + _length
+length
+Total Candidate Patches: 1358
+Correct Patch Rank: 806
+
+
+Processing enioka_jqm/modifiedFiles/4/HibernateClient.java
+Fault in line no 1167
+17919 Patches Generated
+Correct Patch Generated!
+wh
+wh2
+Total Candidate Patches: 17919
+Correct Patch Rank: 14149
+
+
+Processing druid-io_druid-api/modifiedFiles/6/TimestampSpec.java
+Fault in line no 28
+1080 Patches Generated
+Correct Patch Generated!
+format.toLowerCase()
+format
+Total Candidate Patches: 1080
+Correct Patch Rank: 870
+
+
+Processing druid-io_druid-api/modifiedFiles/2/DelimitedParseSpec.java
+Fault in line no 36
+1690 Patches Generated
+Correct Patch Generated!
+Lists.<String>newArrayList()
+dimensionsSpec.getDimensions()
+Total Candidate Patches: 1690
+Correct Patch Rank: 1133
+
+
+Processing Hive2Hive_Hive2Hive/modifiedFiles/4/FolderIndex.java
+Fault in line no 260
+549 Patches Generated
+Correct Patch Generated!
+isShared
+isShared()
+Total Candidate Patches: 549
+Correct Patch Rank: 490
+
+
+Processing lightblue-platform_lightblue-core/modifiedFiles/6/FieldProjector.java
+Fault in line no 50
+248 Patches Generated
+Correct Patch Generated!
+equals
+matches
+Total Candidate Patches: 248
+Correct Patch Rank: 185
+
+
+Processing hazelcast_hazelcast/modifiedFiles/116/ClientEngineImpl.java
+Fault in line no 309
+1860 Patches Generated
+Correct Patch Generated!
+endpoint.isFirstConnection()
+!endpoint.isFirstConnection()
+Total Candidate Patches: 1860
+Correct Patch Rank: 443
+
+
+Processing hazelcast_hazelcast/modifiedFiles/52/MapService.java
+Fault in line no 721
+9552 Patches Generated
+problem: Syntax error on token "!=", invalid AssignmentOperator31493
+dataValue=dataValue != null ? dataValue : dataOldValue
+dataValue != null
+Correct Patch Generated!
+dataValue != null ? dataValue : dataOldValue
+null
+Total Candidate Patches: 9552
+Correct Patch Rank: 2647
+
+
+Processing hazelcast_hazelcast/modifiedFiles/172/TxnDeleteOperation.java
+Fault in line no 91
+111 Patches Generated
+Correct Patch Generated!
+successful
+true
+Total Candidate Patches: 111
+Correct Patch Rank: 94
+
+
+Processing hazelcast_hazelcast/modifiedFiles/66/ObjectRecordFactory.java
+Fault in line no 45
+720 Patches Generated
+Correct Patch Generated!
+value
+v
+Total Candidate Patches: 720
+Correct Patch Rank: 402
+
+
+Processing hazelcast_hazelcast/modifiedFiles/168/TxnCommitBackupOperation.java
+Fault in line no 57
+904 Patches Generated
+Correct Patch Generated!
+getCallerUuid()
+caller
+Total Candidate Patches: 904
+Correct Patch Rank: 609
+
+
+Processing hazelcast_hazelcast/modifiedFiles/156/ReplicatedRecord.java
+Fault in line no 70
+579 Patches Generated
+Correct Patch Generated!
+value
+this.value
+Total Candidate Patches: 579
+Correct Patch Rank: 442
+
+
+Processing hazelcast_hazelcast/modifiedFiles/10/BasicInvocationFuture.java
+Fault in line no 77
+1473 Patches Generated
+Correct Patch Generated!
+response != null
+response != null && !(response instanceof BasicInvocation.InternalResponse)
+Total Candidate Patches: 1473
+Correct Patch Rank: 178
+
+
+Processing hazelcast_hazelcast/modifiedFiles/78/TransactionalMapProxy.java
+Fault in line no 316
+1746 Patches Generated
+Correct Patch Generated!
+entry.getValue()
+entry.getValue().value
+Total Candidate Patches: 1746
+Correct Patch Rank: 1119
+
+
+Processing hazelcast_hazelcast/modifiedFiles/12/BasicInvocationFuture.java
+Fault in line no 73
+1464 Patches Generated
+Correct Patch Generated!
+response != null
+response != null && !(response instanceof BasicInvocation.InternalResponse)
+Total Candidate Patches: 1464
+Correct Patch Rank: 176
+
+
+Processing hazelcast_hazelcast/modifiedFiles/136/TransactionManagerServiceImpl.java
+Fault in line no 232
+5448 Patches Generated
+Correct Patch Generated!
+State.NO_TXN
+State.COMMITTING
+Total Candidate Patches: 5448
+Correct Patch Rank: 2996
+
+
+Processing hazelcast_hazelcast/modifiedFiles/46/GroupProperties.java
+Fault in line no 324
+3052 Patches Generated
+Correct Patch Generated!
+"60"
+"300"
+Total Candidate Patches: 3052
+Correct Patch Rank: 2881
+
+
+Processing hazelcast_hazelcast/modifiedFiles/138/HttpPostCommandProcessor.java
+Fault in line no 40
+1824 Patches Generated
+Correct Patch Generated!
+0
+-1
+Total Candidate Patches: 1824
+Correct Patch Rank: 1794
+
+
+Processing hazelcast_hazelcast/modifiedFiles/140/HttpPostCommandProcessor.java
+Fault in line no 113
+2028 Patches Generated
+Correct Patch Generated!
+0
+-1
+Total Candidate Patches: 2028
+Correct Patch Rank: 1949
+
+
+Processing Activiti_Activiti/modifiedFiles/4/ExtensionElementsParser.java
+Fault in line no 47
+630 Patches Generated
+Correct Patch Generated!
+activeProcess
+parentElement
+Total Candidate Patches: 630
+Correct Patch Rank: 500
+
+
+Processing CruiseControl_cruisecontrol/modifiedFiles/18/AntBuilder.java
+Fault in line no 290
+3346 Patches Generated
+Correct Patch Generated!
+"\"" + antScript + "\""
+antScript
+Total Candidate Patches: 3346
+Correct Patch Rank: 1515
+
+
+Processing broadgsa_gatk-protected/modifiedFiles/14/SlidingWindow.java
+Fault in line no 881
+12883 Patches Generated
+Correct Patch Generated!
+markedSites.getVariantSiteBitSet().length
+markedSites.getVariantSiteBitSet().length - 1
+Total Candidate Patches: 12883
+Correct Patch Rank: 8319
+
+
+Processing broadgsa_gatk-protected/modifiedFiles/10/VariantOverlapAnnotator.java
+Fault in line no 139
+2550 Patches Generated
+Correct Patch Generated!
+vcToAnnotate
+annotated
+Total Candidate Patches: 2550
+Correct Patch Rank: 2487
+
+
+Processing bcdev_beam/modifiedFiles/10/EnvisatConstants.java
+Fault in line no 129
+720 Patches Generated
+Correct Patch Generated!
+1.0F
+0.0F
+Total Candidate Patches: 720
+Correct Patch Rank: 682
+
+
+Processing Mashape_unirest-java/modifiedFiles/2/GetRequest.java
+Fault in line no 41
+360 Patches Generated
+Correct Patch Generated!
+"\\?"
+"?"
+Total Candidate Patches: 360
+Correct Patch Rank: 341
+
+
+Processing eclipse_eclipse.jdt.ui/modifiedFiles/2/LocalCorrectionsSubProcessor.java
+Fault in line no 1630
+19179 Patches Generated
+Correct Patch Generated!
+selectedNode instanceof Name && selectedNode.getParent() instanceof SwitchStatement
+selectedNode instanceof Expression && selectedNode.getLocationInParent() == SwitchStatement.EXPRESSION_PROPERTY
+Total Candidate Patches: 19179
+Correct Patch Rank: 1869
+
+
+Processing openengsb_openengsb/modifiedFiles/2/EDBConverter.java
+Fault in line no 377
+5368 Patches Generated
+Correct Patch Generated!
+toString
+getName
+Total Candidate Patches: 5368
+Correct Patch Rank: 4048
+
+
+Processing qcadoo_mes/modifiedFiles/4/ProductionPerShiftDetailsHooks.java
+Fault in line no 202
+1749 Patches Generated
+Correct Patch Generated!
+orderPlannedStartDate
+orderEffectiveStartDate
+Total Candidate Patches: 1749
+Correct Patch Rank: 892
+
+
+Processing sboesebeck_morphium/modifiedFiles/12/Messaging.java
+Fault in line no 111
+884 Patches Generated
+Correct Patch Generated!
+messagesList
+toStore
+Total Candidate Patches: 884
+Correct Patch Rank: 805
+
+
+Processing baasbox_baasbox/modifiedFiles/6/QueryParams.java
+Fault in line no 265
+3510 Patches Generated
+Correct Patch Generated!
+toString
+asText
+Total Candidate Patches: 3510
+Correct Patch Rank: 3382
+
+
+Processing baasbox_baasbox/modifiedFiles/10/UsersResource.java
+Fault in line no 86
+1104 Patches Generated
+Correct Patch Generated!
+true
+false
+Total Candidate Patches: 1104
+Correct Patch Rank: 1074
+
+
+Processing baasbox_baasbox/modifiedFiles/2/UsersResource.java
+Fault in line no 290
+4104 Patches Generated
+Correct Patch Generated!
+params.get(UserDao.ATTRIBUTES_VISIBLE_BY_ANONYMOUS_USER)
+params.get(UserDao.ATTRIBUTES_VISIBLE_ONLY_BY_THE_USER)
+Total Candidate Patches: 4104
+Correct Patch Rank: 1411
+
+
+Processing Sage-Bionetworks_Synapse-Repository-Services/modifiedFiles/2/SearchQueueWorker.java
+Fault in line no 89
+681 Patches Generated
+Correct Patch Generated!
+change
+newMessage
+Total Candidate Patches: 681
+Correct Patch Rank: 631
+
+
+Processing realm_realm-java/modifiedFiles/20/Table.java
+Fault in line no 58
+1118 Patches Generated
+Correct Patch Generated!
+true
+false
+Total Candidate Patches: 1118
+Correct Patch Rank: 587
+
+
+Processing realm_realm-java/modifiedFiles/12/Realm.java
+Fault in line no 368
+3342 Patches Generated
+Correct Patch Generated!
+absolutePath
+absolutePath.hashCode()
+Total Candidate Patches: 3342
+Correct Patch Rank: 2932
+
+
+Processing realm_realm-java/modifiedFiles/18/Realm.java
+Fault in line no 456
+2064 Patches Generated
+Correct Patch Generated!
+simpleClassName
+TABLE_PREFIX + simpleClassName
+Total Candidate Patches: 2064
+Correct Patch Rank: 1726
+
+
+Processing Acstylos_wpi-suite/modifiedFiles/4/Project.java
+Fault in line no 270
+775 Patches Generated
+Correct Patch Generated!
+!team.contains(u)
+team.contains(u)
+Total Candidate Patches: 775
+Correct Patch Rank: 146
+
+
+Processing ControlSystemStudio_cs-studio/modifiedFiles/6/StateParser.java
+Fault in line no 22
+695 Patches Generated
+Correct Patch Generated!
+start
+end
+Total Candidate Patches: 695
+Correct Patch Rank: 620
+
+
+Processing ControlSystemStudio_cs-studio/modifiedFiles/2/UpgradeUtil.java
+Fault in line no 61
+525 Patches Generated
+Correct Patch Generated!
+indexOf
+lastIndexOf
+Total Candidate Patches: 525
+Correct Patch Rank: 358
+
+
+Processing neo4j_neo4j/modifiedFiles/10/DefaultGraphDatabaseDependencies.java
+Fault in line no 54
+396 Patches Generated
+Correct Patch Generated!
+GraphDatabaseSettings.class
+settingsClasses
+Total Candidate Patches: 396
+Correct Patch Rank: 316
+
+
+Processing CubeEngine_ReflecT/modifiedFiles/2/YamlCodec.java
+Fault in line no 280
+2401 Patches Generated
+Correct Patch Generated!
+offset
+offset + 1
+Total Candidate Patches: 2401
+Correct Patch Rank: 2301
+
+
+Processing impetus-opensource_Kundera/modifiedFiles/6/CassandraDataHandlerBase.java
+Fault in line no 601
+3455 Patches Generated
+Correct Patch Generated!
+initialize(tr,m,entity)
+entity=initialize(tr,m,entity)
+Total Candidate Patches: 3455
+Correct Patch Rank: 400
+
+
+Processing mockito_mockito/modifiedFiles/2/InvocationMatcher.java
+Fault in line no 55
+1668 Patches Generated
+Correct Patch Generated!
+argumentsMatch(actual.getArguments()) || argumentsMatch(actual.getRawArguments())
+argumentsMatch(actual.getArguments())
+Total Candidate Patches: 1668
+Correct Patch Rank: 215
+
+
+Processing JetBrains_kotlin/modifiedFiles/34/TestAll.java
+Fault in line no 17
+135 Patches Generated
+Correct Patch Generated!
+kotlinlib
+stdlib
+Total Candidate Patches: 135
+Correct Patch Rank: 67
+
+
+Processing mapzen_open/modifiedFiles/10/RouteFragment.java
+Fault in line no 155
+3114 Patches Generated
+Correct Patch Generated!
+getActivity().getSupportFragmentManager().beginTransaction()
+act.getSupportFragmentManager().beginTransaction()
+Total Candidate Patches: 3114
+Correct Patch Rank: 399
+
+
+Processing boundlessgeo_GeoGig/modifiedFiles/4/MongoGraphDatabase.java
+Fault in line no 8
+728 Patches Generated
+Correct Patch Generated!
+com.boundlessgeo
+org.geogit
+Total Candidate Patches: 728
+Correct Patch Rank: 211
+
+
+Processing gocd_gocd/modifiedFiles/18/StageSqlMapDao.java
+Fault in line no 404
+10860 Patches Generated
+Correct Patch Generated!
+pagination.getCurrentPage()
+pagination.getOffset()
+Total Candidate Patches: 10860
+Correct Patch Rank: 6137
+
+
+Processing collectionspace_services/modifiedFiles/2/IDGeneratorSerializer.java
+Fault in line no 106
+440 Patches Generated
+Correct Patch Generated!
+serializedPattern
+serializedGenerator
+Total Candidate Patches: 440
+Correct Patch Rank: 420
+
+
+Processing amplab_tachyon/modifiedFiles/10/InodeFile.java
+Fault in line no 256
+3438 Patches Generated
+Correct Patch Generated!
+blockIndex < 0 || blockIndex > mBlocks.size()
+blockIndex < 0 || blockIndex >= mBlocks.size()
+Total Candidate Patches: 3438
+Correct Patch Rank: 179
+
+
+Processing opendaylight_controller/modifiedFiles/6/DijkstraImplementation.java
+Fault in line no 400
+2670 Patches Generated
+Correct Patch Generated!
+{"unchecked","rawtypes"}
+"unchecked"
+Total Candidate Patches: 2670
+Correct Patch Rank: 1368
+
+
+Processing yusuke_twitter4j/modifiedFiles/6/StatusStreamImpl.java
+Fault in line no 98
+1260 Patches Generated
+Correct Patch Generated!
+userStreamListener
+listener
+Total Candidate Patches: 1260
+Correct Patch Rank: 270
+
+
+Processing yusuke_twitter4j/modifiedFiles/2/HTMLEntity.java
+Fault in line no 74
+11957 Patches Generated
+Correct Patch Generated!
+-1 != semicolonIndex && 10 > (semicolonIndex - index)
+-1 != semicolonIndex
+Total Candidate Patches: 11957
+Correct Patch Rank: 60
+
+
+Processing hornetq_hornetq/modifiedFiles/70/ConsumerFlowTokenMessageCodec.java
+Fault in line no 40
+264 Patches Generated
+Correct Patch Generated!
+putFloat
+putInt
+Total Candidate Patches: 264
+Correct Patch Rank: 118
+
+
+Processing hornetq_hornetq/modifiedFiles/4/ClientSessionImpl.java
+Fault in line no 1998
+6010 Patches Generated
+Correct Patch Generated!
+consumerMaxRate
+maxRate
+Total Candidate Patches: 6010
+Correct Patch Rank: 1624
+
+
+Processing hornetq_hornetq/modifiedFiles/22/HornetQServerImpl.java
+Fault in line no 1680
+8268 Patches Generated
+Correct Patch Generated!
+commit
+commitBindings
+Total Candidate Patches: 8268
+Correct Patch Rank: 5625
+
+
+Processing hornetq_hornetq/modifiedFiles/60/ConcurrentHashSet.java
+Fault in line no 81
+427 Patches Generated
+Correct Patch Generated!
+dummy
+null
+Total Candidate Patches: 427
+Correct Patch Rank: 427
+
+
+Processing apache_directory-server/modifiedFiles/4/AvlTree.java
+Fault in line no 571
+1875 Patches Generated
+Correct Patch Generated!
+null
+node.left
+Total Candidate Patches: 1875
+Correct Patch Rank: 1706
+
+
+Processing apache_directory-server/modifiedFiles/8/JdbmTable.java
+Fault in line no 159
+3798 Patches Generated
+Correct Patch Generated!
+valueSerializer
+null
+Total Candidate Patches: 3798
+Correct Patch Rank: 3467
+
+
+Processing apache_directory-server/modifiedFiles/18/SubentryService.java
+Fault in line no 345
+4851 Patches Generated
+Correct Patch Generated!
+subentryDn
+normName
+Total Candidate Patches: 4851
+Correct Patch Rank: 3767
+
+
+Processing SmartBear_soapui/modifiedFiles/2/RestMockService.java
+Fault in line no 121
+1160 Patches Generated
+Correct Patch Generated!
+contains
+startsWith
+Total Candidate Patches: 1160
+Correct Patch Rank: 920
+
+
+Processing pentaho_big-data-plugin/modifiedFiles/2/HadoopConfigurationBootstrap.java
+Fault in line no 249
+687 Patches Generated
+Correct Patch Generated!
+true
+false
+Total Candidate Patches: 687
+Correct Patch Rank: 647
+
+
+Processing RIPE-NCC_whois/modifiedFiles/4/JdbcRpslObjectDao.java
+Fault in line no 196
+2796 Patches Generated
+Correct Patch Generated!
+getByKey
+getByKeyOrNull
+Total Candidate Patches: 2796
+Correct Patch Rank: 807
+
+
+Processing spacewalkproject_spacewalk/modifiedFiles/10/AddressTag.java
+Fault in line no 215
+488 Patches Generated
+Correct Patch Generated!
+"href=\""
+" href=\""
+Total Candidate Patches: 488
+Correct Patch Rank: 469
+
+
+Processing Evolveum_midpoint/modifiedFiles/16/ModelControllerImpl.java
+Fault in line no 153
+7077 Patches Generated
+Correct Patch Generated!
+silentMarshal
+silentMarshalWrap
+Total Candidate Patches: 7077
+Correct Patch Rank: 5299
+
+
+Processing Evolveum_midpoint/modifiedFiles/4/QueryEngine.java
+Fault in line no 27
+545 Patches Generated
+problem: Syntax error on token "this", invalid ClassType821
+OrgFilterQuery
+this
+problem: Syntax error on token "null", invalid ClassType821
+OrgFilterQuery
+null
+
+
+Processing Evolveum_midpoint/modifiedFiles/10/RAnyConverter.java
+Fault in line no 365
+1884 Patches Generated
+Correct Patch Generated!
+printDom
+serializeDOMToString
+Total Candidate Patches: 1884
+Correct Patch Rank: 1231
+
+
+Processing arturmkrtchyan_iban4j/modifiedFiles/2/BbanStructure.java
+Fault in line no 106
+1870 Patches Generated
+Correct Patch Generated!
+BbanStructureEntry.accountNumber(10,'c')
+BbanStructureEntry.accountNumber(10,'n')
+Total Candidate Patches: 1870
+Correct Patch Rank: 94
+
+
+Processing geosolutions-it_geobatch/modifiedFiles/2/Ds2dsAction.java
+Fault in line no 80
+1410 Patches Generated
+Correct Patch Generated!
+ActionConfiguration
+Ds2dsConfiguration
+Total Candidate Patches: 1410
+Correct Patch Rank: 602
+
+
+Processing marschall_memoryfilesystem/modifiedFiles/4/BlockChannel.java
+Fault in line no 106
+3933 Patches Generated
+Correct Patch Generated!
+1
+i
+Total Candidate Patches: 3933
+Correct Patch Rank: 2182
+
+
+Processing BriteSnow_snow/modifiedFiles/4/DefaultFramePathsResolver.java
+Fault in line no 29
+1287 Patches Generated
+Correct Patch Generated!
+-1
+0
+Total Candidate Patches: 1287
+Correct Patch Rank: 969
+
+
+Processing BroadleafCommerce_BroadleafCommerce/modifiedFiles/2/FixedPriceFulfillmentPricingProvider.java
+Fault in line no 65
+880 Patches Generated
+Correct Patch Generated!
+fulfillmentGroup.getFulfillmentOption()
+option
+Total Candidate Patches: 880
+Correct Patch Rank: 580
+
+
+Processing myui_hivemall/modifiedFiles/4/OnlineVariance.java
+Fault in line no 68
+118 Patches Generated
+Correct Patch Generated!
+mean()
+mean
+Total Candidate Patches: 118
+Correct Patch Rank: 6
+
+
+Processing myui_hivemall/modifiedFiles/2/NetUtils.java
+Fault in line no 71
+204 Patches Generated
+Correct Patch Generated!
+getAvialablePort
+getAvailablePort
+Total Candidate Patches: 204
+Correct Patch Rank: 66
+
+
+Processing tinkerpop_tinkerpop3/modifiedFiles/2/UnionStep.java
+Fault in line no 82
+576 Patches Generated
+Correct Patch Generated!
+this
+clone
+Total Candidate Patches: 576
+Correct Patch Rank: 274
+
+
+Processing eclipse_rt.equinox.p2/modifiedFiles/6/RemovingABundle.java
+Fault in line no 30
+1890 Patches Generated
+Correct Patch Generated!
+Activator.getContext().getDataFile(RemovingABundle.class.getName()).getAbsolutePath()
+RemovingABundle.class.getName()
+Total Candidate Patches: 1890
+Correct Patch Rank: 557
+
+
+Processing openmicroscopy_openmicroscopy/modifiedFiles/6/FsFile.java
+Fault in line no 54
+1660 Patches Generated
+Correct Patch Generated!
+File.separatorChar
+separator
+Total Candidate Patches: 1660
+Correct Patch Rank: 1195
+
+
+Processing eclipse_nebula.widgets.nattable/modifiedFiles/2/ColorPersistor.java
+Fault in line no 45
+79 Patches Generated
+Correct Patch Generated!
+DEFAULT_COLOR
+null
+Total Candidate Patches: 79
+Correct Patch Rank: 60
+
+
+Processing molgenis_molgenis/modifiedFiles/18/RestController.java
+Fault in line no 560
+3460 Patches Generated
+Correct Patch Generated!
+meta.getAttributes()
+meta.getAtomicAttributes()
+Total Candidate Patches: 3460
+Correct Patch Rank: 1969
+
+
+Processing taskadapter_redmine-java-api/modifiedFiles/4/CustomField.java
+Fault in line no 94
+1872 Patches Generated
+Correct Patch Generated!
+that.value
+that.values
+Total Candidate Patches: 1872
+Correct Patch Rank: 1024
+
+
+Processing evanchooly_javabot/modifiedFiles/6/GetFactoidOperation.java
+Fault in line no 120
+3090 Patches Generated
+Correct Patch Generated!
+sender
+nick
+Total Candidate Patches: 3090
+Correct Patch Rank: 813
+
+
+Processing evanchooly_javabot/modifiedFiles/10/SeenDaoHibernate.java
+Fault in line no 36
+656 Patches Generated
+Correct Patch Generated!
+getSeen(nick,channel).getNick()
+getSeen(nick,channel)
+Total Candidate Patches: 656
+Correct Patch Rank: 129
+
+
+Processing jbosstools_jbosstools-integration-tests/modifiedFiles/4/DriverDefinitionFactory.java
+Fault in line no 41
+300 Patches Generated
+Correct Patch Generated!
+preferencePage
+preferenceDialog
+Total Candidate Patches: 300
+Correct Patch Rank: 152
+
+
+Processing AndrewRosenberg_AuToBI/modifiedFiles/2/TextGridReader.java
+Fault in line no 154
+564 Patches Generated
+Correct Patch Generated!
+tones_tier=tier
+breaks_tier=tier
+Total Candidate Patches: 564
+Correct Patch Rank: 101
+
+
+Processing tananaev_traccar/modifiedFiles/4/GlobalSatProtocolDecoder.java
+Fault in line no 173
+2920 Patches Generated
+Correct Patch Generated!
+Double.valueOf(value)
+value
+Total Candidate Patches: 2920
+Correct Patch Rank: 1606
+
+
+Processing tananaev_traccar/modifiedFiles/18/GlobalSatProtocolDecoder.java
+Fault in line no 190
+360 Patches Generated
+Correct Patch Generated!
+"(\\d+),"
+"(\\d+\\.?\\d*),"
+Total Candidate Patches: 360
+Correct Patch Rank: 296
+
+
+Processing cromwellian_gwt-sandbox/modifiedFiles/6/NumberFormat.java
+Fault in line no 1501
+12698 Patches Generated
+Correct Patch Generated!
+3
+2
+Total Candidate Patches: 12698
+Correct Patch Rank: 5207
+
+
+Processing cromwellian_gwt-sandbox/modifiedFiles/24/AbstractCollection.java
+Fault in line no 124
+880 Patches Generated
+Correct Patch Generated!
+i++
+i
+Total Candidate Patches: 880
+Correct Patch Rank: 405
+
+
+Processing astamuse_asta4d/modifiedFiles/2/InjectUtil.java
+Fault in line no 502
+7672 Patches Generated
+Correct Patch Generated!
+TypeUnMacthPolicy.DEFAULT_VALUE
+TypeUnMacthPolicy.EXCEPTION
+Total Candidate Patches: 7672
+Correct Patch Rank: 4567
+
+
+Processing e-ucm_ead/modifiedFiles/4/RandomSublist.java
+Fault in line no 74
+364 Patches Generated
+Correct Patch Generated!
+i
+index
+Total Candidate Patches: 364
+Correct Patch Rank: 350
+
+
+Processing e-ucm_ead/modifiedFiles/2/BackgroundTaskDemo.java
+Fault in line no 63
+704 Patches Generated
+Correct Patch Generated!
+mockController
+controller
+Total Candidate Patches: 704
+Correct Patch Rank: 304
+
+
+Processing spring-projects_spring-roo/modifiedFiles/10/SimpleParser.java
+Fault in line no 593
+9000 Patches Generated
+Correct Patch Generated!
+null
+paramType
+Total Candidate Patches: 9000
+Correct Patch Rank: 5125
+
+
+Processing apache_activemq/modifiedFiles/4/SharedFileLocker.java
+Fault in line no 47
+672 Patches Generated
+Correct Patch Generated!
+true
+false
+Total Candidate Patches: 672
+Correct Patch Rank: 616
+
+
+Processing apache_activemq/modifiedFiles/8/Queue.java
+Fault in line no 399
+10806 Patches Generated
+Correct Patch Generated!
+setCount
+add
+Total Candidate Patches: 10806
+Correct Patch Rank: 7644
+
+
+Processing apache_activemq/modifiedFiles/30/NetworkBridgeFactory.java
+Fault in line no 78
+375 Patches Generated
+Correct Patch Generated!
+"false"
+"true"
+Total Candidate Patches: 375
+Correct Patch Rank: 366
+
+
+Processing apache_activemq/modifiedFiles/48/TopicRegion.java
+Fault in line no 198
+3456 Patches Generated
+Correct Patch Generated!
+sub.getConsumerInfo()
+sub.getConsumerInfo().getConsumerId()
+Total Candidate Patches: 3456
+Correct Patch Rank: 1967
+
+
+Processing apache_activemq/modifiedFiles/10/BrokerService.java
+Fault in line no 2128
+20160 Patches Generated
+Correct Patch Generated!
+e.getMessage()
+e
+Total Candidate Patches: 20160
+Correct Patch Rank: 11660
+
+
+Processing apache_activemq/modifiedFiles/38/TopicSubscription.java
+Fault in line no 80
+8580 Patches Generated
+Correct Patch Generated!
+info.getDestination().isTemporary() || broker == null
+info.getDestination().isTemporary()
+Total Candidate Patches: 8580
+Correct Patch Rank: 720
+
+
+Processing apache_activemq/modifiedFiles/12/LeaseDatabaseLocker.java
+Fault in line no 108
+3168 Patches Generated
+Correct Patch Generated!
+now
+now + lockAcquireSleepInterval
+Total Candidate Patches: 3168
+Correct Patch Rank: 2492
+
+
+Processing apache_activemq/modifiedFiles/50/ActiveMQMessageConsumer.java
+Fault in line no 863
+4168 Patches Generated
+Correct Patch Generated!
+sendAck
+syncSendPacket
+Total Candidate Patches: 4168
+Correct Patch Rank: 2449
+
+
+Processing apache_activemq/modifiedFiles/76/PrefetchSubscription.java
+Fault in line no 471
+5988 Patches Generated
+Correct Patch Generated!
+isSlave() || dispatched.size() - prefetchExtension >= info.getPrefetchSize()
+dispatched.size() - prefetchExtension >= info.getPrefetchSize()
+Total Candidate Patches: 5988
+Correct Patch Rank: 361
+
+
+Processing apache_activemq/modifiedFiles/26/DurableTopicSubscription.java
+Fault in line no 308
+820 Patches Generated
+Correct Patch Generated!
+isActive()
+true
+Total Candidate Patches: 820
+Correct Patch Rank: 267
+
+
+Processing jersey_jersey/modifiedFiles/14/FormParamValueFactoryProvider.java
+Fault in line no 194
+2104 Patches Generated
+Correct Patch Generated!
+requestContext.getMediaType().equals(MediaType.APPLICATION_FORM_URLENCODED_TYPE)
+MediaTypes.typeEqual(MediaType.APPLICATION_FORM_URLENCODED_TYPE,requestContext.getMediaType())
+Total Candidate Patches: 2104
+Correct Patch Rank: 207
+
+
+Processing mybatis_mybatis-3/modifiedFiles/2/GenericTokenParser.java
+Fault in line no 42
+825 Patches Generated
+Correct Patch Generated!
+start
+start - offset
+Total Candidate Patches: 825
+Correct Patch Rank: 587
+
+
+Processing ImpressiveCode_ic-depress/modifiedFiles/2/JiraOnlineAdapterUriBuilder.java
+Fault in line no 122
+1660 Patches Generated
+Correct Patch Generated!
+"https"
+protocol
+Total Candidate Patches: 1660
+Correct Patch Rank: 1545
+
+
+Processing android_platform_frameworks_support/modifiedFiles/2/LinearLayoutManager.java
+Fault in line no 680
+4496 Patches Generated
+Correct Patch Generated!
+mShouldReverseLayout
+anchorInfo.mLayoutFromEnd
+Total Candidate Patches: 4496
+Correct Patch Rank: 3832
+
+
+Processing gxa_atlas/modifiedFiles/16/SolrClient.java
+Fault in line no 75
+2024 Patches Generated
+Correct Patch Generated!
+searchText
+geneQuery
+Total Candidate Patches: 2024
+Correct Patch Rank: 1632
+
+
+Processing gxa_atlas/modifiedFiles/8/NumberUtils.java
+Fault in line no 54
+532 Patches Generated
+Correct Patch Generated!
+numberOfFractionalDigits
+value
+Total Candidate Patches: 532
+Correct Patch Rank: 341
+
+
+Processing jtalks-org_jcommune/modifiedFiles/18/SamplePageController.java
+Fault in line no 80
+1184 Patches Generated
+Correct Patch Generated!
+"/pages/{pagetId}/edit"
+"/pages/{pageId}/edit"
+Total Candidate Patches: 1184
+Correct Patch Rank: 563
+
+
+Processing AsyncHttpClient_async-http-client/modifiedFiles/16/NettyAsyncHttpProvider.java
+Fault in line no 714
+7518 Patches Generated
+Correct Patch Generated!
+e.getCause()
+cause
+Total Candidate Patches: 7518
+Correct Patch Rank: 5296
+
+
+Processing apache_cassandra/modifiedFiles/16/ColumnFamily.java
+Fault in line no 275
+1244 Patches Generated
+Correct Patch Generated!
+Long.MIN_VALUE
+getMarkedForDeleteAt()
+Total Candidate Patches: 1244
+Correct Patch Rank: 518
+
+
+Processing apache_cassandra/modifiedFiles/14/ColumnFamily.java
+Fault in line no 370
+1436 Patches Generated
+Correct Patch Generated!
+Long.MIN_VALUE
+getMarkedForDeleteAt()
+Total Candidate Patches: 1436
+Correct Patch Rank: 572
+
+
+Processing apache_cassandra/modifiedFiles/22/CliClient.java
+Fault in line no 379
+10430 Patches Generated
+Correct Patch Generated!
+cfDef.comparator_type.equals("Super")
+cfDef.column_type.equals("Super")
+Total Candidate Patches: 10430
+Correct Patch Rank: 1873
+
+
+Processing apache_cassandra/modifiedFiles/24/CliClient.java
+Fault in line no 471
+11736 Patches Generated
+Correct Patch Generated!
+statement.getChild(0).getText()
+CliCompiler.getColumnFamily(statement,keyspacesMap.get(keySpace).cf_defs)
+Total Candidate Patches: 11736
+Correct Patch Rank: 3638
+
+
+Processing develar_settings-repository/modifiedFiles/2/IcsManager.java
+Fault in line no 344
+456 Patches Generated
+Correct Patch Generated!
+true
+repositoryManager != null
+Total Candidate Patches: 456
+Correct Patch Rank: 239
+
+
+Processing apache_cloudstack/modifiedFiles/6/ProcessUtil.java
+Fault in line no 53
+564 Patches Generated
+Correct Patch Generated!
+"/var/run"
+pidDir == null ? "/var/run" : pidDir
+Total Candidate Patches: 564
+Correct Patch Rank: 434
+
+
+Processing caelum_vraptor/modifiedFiles/12/DefaultParametersControl.java
+Fault in line no 53
+1125 Patches Generated
+Correct Patch Generated!
+"\\{(.+?)\\}"
+"\\{([^\\}]+?)\\}"
+Total Candidate Patches: 1125
+Correct Patch Rank: 797
+
+
+Processing ninjaframework_ninja/modifiedFiles/6/MetricsServiceImpl.java
+Fault in line no 48
+572 Patches Generated
+Correct Patch Generated!
+Map
+ConcurrentHashMap
+Total Candidate Patches: 572
+Correct Patch Rank: 15
+
+
+Processing eclipse_cdt/modifiedFiles/6/BaseTestCase.java
+Fault in line no 200
+3591 Patches Generated
+Correct Patch Generated!
+(TestFailure)r.failures().nextElement()
+r.failures().nextElement()
+Total Candidate Patches: 3591
+Correct Patch Rank: 1129
+
+
+Processing jenkinsci_junit-plugin/modifiedFiles/2/AbstractTestResultAction.java
+Fault in line no 162
+10320 Patches Generated
+Correct Patch Generated!
+0.0
+1.0
+Total Candidate Patches: 10320
+Correct Patch Rank: 5863
+
+
+Processing apache_camel/modifiedFiles/4/JmsMessageHelper.java
+Fault in line no 388
+2035 Patches Generated
+Correct Patch Generated!
+answer=JmsMessageType.Bytes
+answer=JmsMessageType.Stream
+Total Candidate Patches: 2035
+Correct Patch Rank: 404
+
+
+Processing apache_camel/modifiedFiles/40/DefaultCamelContext.java
+Fault in line no 515
+4758 Patches Generated
+Correct Patch Generated!
+routes
+getRoutes()
+Total Candidate Patches: 4758
+Correct Patch Rank: 4196
+
+
+Processing apache_camel/modifiedFiles/48/ProcessorDefinition.java
+Fault in line no 1344
+3088 Patches Generated
+Correct Patch Generated!
+resequencer
+resequence
+Total Candidate Patches: 3088
+Correct Patch Rank: 1287
+
+
+Processing apache_camel/modifiedFiles/2/EndpointAnnotationProcessor.java
+Fault in line no 194
+3196 Patches Generated
+Correct Patch Generated!
+buffer.append("\n  }")
+buffer.append("\n  },")
+Total Candidate Patches: 3196
+Correct Patch Rank: 309
+
+
+Processing apache_camel/modifiedFiles/62/MailConsumer.java
+Fault in line no 116
+486 Patches Generated
+Correct Patch Generated!
+MessagingException
+Exception
+Total Candidate Patches: 486
+Correct Patch Rank: 71
+
+
+Processing ddf-project_DDF/modifiedFiles/2/AStatisticsSupporter.java
+Fault in line no 164
+6552 Patches Generated
+Correct Patch Generated!
+setX
+setY
+Total Candidate Patches: 6552
+Correct Patch Rank: 1317
+
+
+Processing t1_logging-interceptor/modifiedFiles/2/Parameter.java
+Fault in line no 14
+1020 Patches Generated
+problem: Syntax error on token "0", delete this token541
+Parameter
+0
+problem: Syntax error on token "this", delete this token541
+Parameter
+this
+problem: Syntax error on token "null", delete this token541
+Parameter
+null
+problem: Syntax error on token ""unsupported primitive type: "", delete this token541
+Parameter
+"unsupported primitive type: "
+problem: Syntax error on token ""#"", delete this token541
+Parameter
+"#"
+problem: Syntax error on token "" of "", delete this token541
+Parameter
+" of "
+problem: Syntax error on token "31", delete this token541
+Parameter
+31
+problem: Syntax error on token "1", delete this token541
+Parameter
+1
+problem: Syntax error on token "true", delete this token541
+Parameter
+true
+problem: Syntax error on token "false", delete this token541
+Parameter
+false
+
+
+Processing takawitter_trie4j/modifiedFiles/2/BytesRank1OnlySuccinctBitVector.java
+Fault in line no 49
+1530 Patches Generated
+Correct Patch Generated!
+0
+n / 8
+Total Candidate Patches: 1530
+Correct Patch Rank: 1313
+
+
+Processing korpling_ANNIS/modifiedFiles/2/QueryNodeListener.java
+Fault in line no 165
+2790 Patches Generated
+Correct Patch Generated!
+textMatchingFromSpec(ctx.txt,false)
+textMatchingFromSpec(ctx.txt,ctx.NEQ() != null)
+Total Candidate Patches: 2790
+Correct Patch Rank: 1287
+
+
+Processing consulo_consulo/modifiedFiles/52/SMTestRunnerResultsForm.java
+Fault in line no 276
+1704 Patches Generated
+Correct Patch Generated!
+myTreeBuilder.performUpdate()
+myTreeBuilder.updateFromRoot()
+Total Candidate Patches: 1704
+Correct Patch Rank: 431
+
+
+Processing consulo_consulo/modifiedFiles/54/GroovyEnterHandler.java
+Fault in line no 104
+4257 Patches Generated
+Correct Patch Generated!
+text.length() - 2
+text.length() - 1
+Total Candidate Patches: 4257
+Correct Patch Rank: 2593
+
+
+Processing consulo_consulo/modifiedFiles/6/MinusculeMatcher.java
+Fault in line no 214
+5680 Patches Generated
+Correct Patch Generated!
+i >= minFragment ? FList.<TextRange>emptyList().prepend(TextRange.from(nameIndex,i)) : null
+FList.<TextRange>emptyList().prepend(TextRange.from(nameIndex,i))
+Total Candidate Patches: 5680
+Correct Patch Rank: 293
+
+
+Processing consulo_consulo/modifiedFiles/58/MavenImportingTestCase.java
+Fault in line no 314
+1940 Patches Generated
+Correct Patch Generated!
+true
+false
+Total Candidate Patches: 1940
+Correct Patch Rank: 1655
+
+
+Processing consulo_consulo/modifiedFiles/22/LookupImpl.java
+Fault in line no 448
+28254 Patches Generated
+Correct Patch Generated!
+(isExactPrefixItem(first,true) || isExactPrefixItem(first,false))
+isExactPrefixItem(first,true)
+Total Candidate Patches: 28254
+Correct Patch Rank: 10635
+
+
+Processing mikosik_smooth-build/modifiedFiles/6/UserConsole.java
+Fault in line no 36
+1572 Patches Generated
+Correct Patch Generated!
+messageGroup.name()
+groupHeader
+Total Candidate Patches: 1572
+Correct Patch Rank: 850
+
+
+Processing hibernate_hibernate-validator/modifiedFiles/2/ReflectionHelper.java
+Fault in line no 255
+4272 Patches Generated
+Correct Patch Generated!
+((Constructor<?>)member)
+member
+Total Candidate Patches: 4272
+Correct Patch Rank: 1815
+
+
+Processing jsonld-java_jsonld-java/modifiedFiles/2/RDFDataset.java
+Fault in line no 413
+4088 Patches Generated
+Correct Patch Generated!
+false
+true
+Total Candidate Patches: 4088
+Correct Patch Rank: 3839
+
+
+Processing OpenNMS_opennms/modifiedFiles/40/ThresholdingSet.java
+Fault in line no 258
+4077 Patches Generated
+Correct Patch Generated!
+attr
+f.getField()
+Total Candidate Patches: 4077
+Correct Patch Rank: 3009
+
+
+Processing OpenNMS_opennms/modifiedFiles/44/TableTracker.java
+Fault in line no 103
+1350 Patches Generated
+Correct Patch Generated!
+m_ids
+m_lastOid
+Total Candidate Patches: 1350
+Correct Patch Rank: 926
+
+
+Processing rackerlabs_blueflood/modifiedFiles/4/HistogramRollup.java
+Fault in line no 92
+153 Patches Generated
+Correct Patch Generated!
+getNumberOfBins
+getMaxBins
+Total Candidate Patches: 153
+Correct Patch Rank: 101
+
+
+Processing droolsjbpm_guvnor/modifiedFiles/2/ScenarioTestEditorServiceImpl.java
+Fault in line no 17
+2695 Patches Generated
+Correct Patch Generated!
+org.kie.guvnor.testscenario.backend.server
+org.drools.guvnor.models.testscenarios.backend
+Total Candidate Patches: 2695
+Correct Patch Rank: 115
+
+
+Processing eclipse_jetty.project/modifiedFiles/26/ChannelEndPoint.java
+Fault in line no 152
+666 Patches Generated
+Correct Patch Generated!
+close()
+_channel.close()
+Total Candidate Patches: 666
+Correct Patch Rank: 121
+
+
+Processing rackerlabs_repose/modifiedFiles/10/CyclicByteBuffer.java
+Fault in line no 48
+860 Patches Generated
+Correct Patch Generated!
+0
+readableLength
+Total Candidate Patches: 860
+Correct Patch Rank: 733
+
+
+Processing intermine_intermine/modifiedFiles/32/Constant.java
+Fault in line no 74
+1066 Patches Generated
+Correct Patch Generated!
+(objC.value.charAt(value.length() - 1) == '\'')
+(objC.value.charAt(objC.value.length() - 1) == '\'')
+Total Candidate Patches: 1066
+Correct Patch Rank: 77
+
+
+Processing intermine_intermine/modifiedFiles/22/KeggPathwayConverter.java
+Fault in line no 130
+1015 Patches Generated
+Correct Patch Generated!
+"secondaryIdentifier"
+"identifier"
+Total Candidate Patches: 1015
+Correct Patch Rank: 745
+
+
+Processing intermine_intermine/modifiedFiles/34/Query.java
+Fault in line no 839
+2436 Patches Generated
+Correct Patch Generated!
+new Query()
+new Query(aliasToTable)
+Total Candidate Patches: 2436
+Correct Patch Rank: 1601
+
+
+Processing apache_wicket/modifiedFiles/4/XmlPullParser.java
+Fault in line no 360
+2215 Patches Generated
+Correct Patch Generated!
+lastType=HttpTagType.CONDITIONAL_COMMENT
+lastType=HttpTagType.CONDITIONAL_COMMENT_ENDIF
+Total Candidate Patches: 2215
+Correct Patch Rank: 265
+
+
+Processing apache_wicket/modifiedFiles/22/Bytes.java
+Fault in line no 388
+876 Patches Generated
+Correct Patch Generated!
+gigabytes()
+terabytes()
+Total Candidate Patches: 876
+Correct Patch Rank: 423
+
+
+Processing broadgsa_gatk/modifiedFiles/52/DiploidGenotypePriors.java
+Fault in line no 210
+872 Patches Generated
+Correct Patch Generated!
+PROB_OF_REFERENCE_ERROR
+pRefError
+Total Candidate Patches: 872
+Correct Patch Rank: 803
+
+
+Processing broadgsa_gatk/modifiedFiles/2/IntervalUtils.java
+Fault in line no 374
+7470 Patches Generated
+Correct Patch Generated!
+loc.getStop() - loc.getStart()
+loc.size()
+Total Candidate Patches: 7470
+Correct Patch Rank: 2024
+
+
+Processing broadgsa_gatk/modifiedFiles/50/MannWhitneyU.java
+Fault in line no 301
+2934 Patches Generated
+problem: Syntax error on token "-", -- expected14130
+p*=twoSided ? 2.0 : 1.0
+-1
+problem: Syntax error on token "-", -- expected14130
+p*=twoSided ? 2.0 : 1.0
+-2.0
+
+
+Processing broadgsa_gatk/modifiedFiles/44/RealignerTargetCreator.java
+Fault in line no 67
+740 Patches Generated
+Correct Patch Generated!
+0.15
+0.0
+Total Candidate Patches: 740
+Correct Patch Rank: 597
+
+
+Processing eclipse_jgit/modifiedFiles/12/Repository.java
+Fault in line no 512
+5988 Patches Generated
+Correct Patch Generated!
+rev=rw.parseAny(rev)
+rev=rw.peel(rev)
+Total Candidate Patches: 5988
+Correct Patch Rank: 340
+
+
+Processing apache_sling/modifiedFiles/4/ValidationServiceImpl.java
+Fault in line no 231
+6360 Patches Generated
+Correct Patch Generated!
+true
+enforceValidation
+Total Candidate Patches: 6360
+Correct Patch Rank: 5416
+
+
+Processing boundlessgeo_geoserver/modifiedFiles/14/CurveTypeWrapper.java
+Fault in line no 11
+1323 Patches Generated
+Correct Patch Generated!
+org.geotools.gml3
+org.geotools.geometry.jts
+Total Candidate Patches: 1323
+Correct Patch Rank: 219
+
+
+Processing boundlessgeo_geoserver/modifiedFiles/2/PreviewLayer.java
+Fault in line no 61
+768 Patches Generated
+Correct Patch Generated!
+getName
+prefixedName
+Total Candidate Patches: 768
+Correct Patch Rank: 628
+
+
+Processing yegor256_rultor/modifiedFiles/6/QnReferredTo.java
+Fault in line no 89
+928 Patches Generated
+Correct Patch Generated!
+comment.body().trim()
+comment.body()
+Total Candidate Patches: 928
+Correct Patch Rank: 197
+
+
+Processing yegor256_rultor/modifiedFiles/14/StandsRs.java
+Fault in line no 95
+510 Patches Generated
+Correct Patch Generated!
+StandRs.class
+AclRs.class
+Total Candidate Patches: 510
+Correct Patch Rank: 336
+
+
+Processing fcrepo4_fcrepo4/modifiedFiles/2/NamespaceRdfContext.java
+Fault in line no 93
+462 Patches Generated
+Correct Patch Generated!
+nsURI
+rdfNsUri
+Total Candidate Patches: 462
+Correct Patch Rank: 435
+
+
+Processing camunda_camunda-bpm-platform/modifiedFiles/8/HistoryParseListener.java
+Fault in line no 88
+1708 Patches Generated
+Correct Patch Generated!
+addExecutionListener
+addBuiltInListener
+Total Candidate Patches: 1708
+Correct Patch Rank: 725
+
+
+Processing camunda_camunda-bpm-platform/modifiedFiles/42/CallActivityBehavior.java
+Fault in line no 162
+1435 Patches Generated
+Correct Patch Generated!
+execution.getVariables()
+subProcessInstance.getVariables()
+Total Candidate Patches: 1435
+Correct Patch Rank: 1012
+
+
+Processing camunda_camunda-bpm-platform/modifiedFiles/32/BusinessProcess.java
+Fault in line no 381
+1116 Patches Generated
+Correct Patch Generated!
+associationManager.setTask(null)
+associationManager.disAssociate()
+Total Candidate Patches: 1116
+Correct Patch Rank: 147
+
+
+Processing camunda_camunda-bpm-platform/modifiedFiles/50/DbSqlSession.java
+Fault in line no 1091
+2012 Patches Generated
+problem: Syntax error, insert "enum Identifier" to complete EnumHeader42913
+checkHistoryLevel()
+@SuppressWarnings("unchecked")
+problem: Syntax error on token "-", -- expected42884
+checkHistoryLevel()
+-1
+problem: Syntax error on token "+", invalid AssignmentOperator42900
+checkHistoryLevel
+"upgradestep.5" + minorDbVersionNumber + ".to.5"+ (minorDbVersionNumber + 1)
+
+
+Processing camunda_camunda-bpm-platform/modifiedFiles/18/InclusiveGatewayActivityBehavior.java
+Fault in line no 109
+1962 Patches Generated
+Correct Patch Generated!
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity
+concurrentExecution.isActive()
+Total Candidate Patches: 1962
+Correct Patch Rank: 164
+
+
+Processing apache_axis2-java/modifiedFiles/2/SchemaCompiler.java
+Fault in line no 1139
+12800 Patches Generated
+Correct Patch Generated!
+null
+extension.getBaseTypeName()
+Total Candidate Patches: 12800
+Correct Patch Rank: 3923
+
+
+Processing datacleaner_AnalyzerBeans/modifiedFiles/2/JaxbConfigurationReader.java
+Fault in line no 761
+12232 Patches Generated
+Correct Patch Generated!
+clusterName
+name
+Total Candidate Patches: 12232
+Correct Patch Rank: 3716
+
+
+Processing oblac_jodd/modifiedFiles/2/MailAddress.java
+Fault in line no 57
+1521 Patches Generated
+Correct Patch Generated!
+ndx - 1
+ndx
+Total Candidate Patches: 1521
+Correct Patch Rank: 1104
+
+
+Processing floodlight_floodlight/modifiedFiles/4/Hub.java
+Fault in line no 69
+1005 Patches Generated
+Correct Patch Generated!
+USE_FLOW_MOD
+USE_PACKET_OUT
+Total Candidate Patches: 1005
+Correct Patch Rank: 878
+
+
+Processing sdbg_sdbg/modifiedFiles/16/FunctionTypeImpl.java
+Fault in line no 56
+4728 Patches Generated
+Correct Patch Generated!
+firstTypes
+secondTypes
+Total Candidate Patches: 4728
+Correct Patch Rank: 3611
+
+
+Processing sdbg_sdbg/modifiedFiles/32/DartParser.java
+Fault in line no 4017
+46200 Patches Generated
+Correct Patch Generated!
+peek(1) == Token.IDENTIFIER || peek(1) == Token.LT
+peek(1) == Token.IDENTIFIER || peek(1) == Token.LT || peek(1) == Token.PERIOD
+Total Candidate Patches: 46200
+Correct Patch Rank: 2744
+
+
+Processing sdbg_sdbg/modifiedFiles/26/PackageUriResolver.java
+Fault in line no 81
+756 Patches Generated
+Correct Patch Generated!
+File.separatorChar
+'/'
+Total Candidate Patches: 756
+Correct Patch Rank: 540
+
+
+Processing AICP_frameworks_base/modifiedFiles/18/FragmentManager.java
+Fault in line no 1893
+16044 Patches Generated
+Correct Patch Generated!
+f != null && !f.mHidden && f.mUserVisibleHint
+f != null && !f.mHidden
+Total Candidate Patches: 16044
+Correct Patch Rank: 1276
+
+
+Processing eclipse_eclipse.jdt.core/modifiedFiles/12/AssertStatement.java
+Fault in line no 89
+1842 Patches Generated
+Correct Patch Generated!
+flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy())
+flowInfo.mergedWith(assertInfo.nullInfoLessUnconditionalCopy())
+Total Candidate Patches: 1842
+Correct Patch Rank: 144
+
+
+Processing eclipse_eclipse.jdt.core/modifiedFiles/18/ASTRewriteAnalyzer.java
+Fault in line no 1140
+15372 Patches Generated
+Correct Patch Generated!
+true
+false
+Total Candidate Patches: 15372
+Correct Patch Rank: 13320
+
+
+Processing apache_olingo-odata2/modifiedFiles/2/XmlMetadataConsumer.java
+Fault in line no 309
+10640 Patches Generated
+Correct Patch Generated!
+XmlMetadataConstants.EDM_FUNCTION_IMPORT
+XmlMetadataConstants.EDM_FUNCTION_PARAMETER
+Total Candidate Patches: 10640
+Correct Patch Rank: 1779
+
+
+Processing takari_io.takari.incrementalbuild/modifiedFiles/4/DefaultBuildContext.java
+Fault in line no 571
+2656 Patches Generated
+Correct Patch Generated!
+registeredInputs.containsKey(inputFile)
+registeredInputs.containsKey(inputFile) && !processedInputs.containsKey(inputFile)
+Total Candidate Patches: 2656
+Correct Patch Rank: 369
+
+
+Processing takari_io.takari.incrementalbuild/modifiedFiles/6/DefaultBuildContext.java
+Fault in line no 752
+4536 Patches Generated
+Correct Patch Generated!
+inputFile
+includedInput
+Total Candidate Patches: 4536
+Correct Patch Rank: 4493
+
+
+Processing takari_io.takari.incrementalbuild/modifiedFiles/2/DefaultBuildContext.java
+Fault in line no 348
+3600 Patches Generated
+Correct Patch Generated!
+state.outputs.containsKey(outputFile)
+processedOutputs.containsKey(outputFile)
+Total Candidate Patches: 3600
+Correct Patch Rank: 256
+
+
