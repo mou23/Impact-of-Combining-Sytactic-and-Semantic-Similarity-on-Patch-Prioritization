@@ -1,0 +1,1187 @@
+Ds2dsAction,SIMPLE_NAME, line no: 80,listenerForwarder.started(),METHOD_INVOCATION, line no: 107, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,started,SIMPLE_NAME, line no: 107, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,updateTask("Working on incoming event: " + ev.getSource()),METHOD_INVOCATION, line no: 109, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,updateTask,SIMPLE_NAME, line no: 109, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,failAction("No file to process"),METHOD_INVOCATION, line no: 113, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,failAction,SIMPLE_NAME, line no: 113, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,failAction("Unable to produce the output  " + ioe.getLocalizedMessage()),METHOD_INVOCATION, line no: 135, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,failAction("Unable to produce the output: " + ioe.getLocalizedMessage()),METHOD_INVOCATION, line no: 138, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,purgeData,SIMPLE_NAME, line no: 178, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,updateTask("Reading data"),METHOD_INVOCATION, line no: 180, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,updateImportProgress(count total "Importing data"),METHOD_INVOCATION, line no: 193, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,updateImportProgress,SIMPLE_NAME, line no: 193, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,listenerForwarder.progressing(100F "Data imported"),METHOD_INVOCATION, line no: 196, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,progressing,SIMPLE_NAME, line no: 196, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,updateTask("Data imported"),METHOD_INVOCATION, line no: 201, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,listenerForwarder.completed(),METHOD_INVOCATION, line no: 203, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,completed,SIMPLE_NAME, line no: 203, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,updateTask("Closing connections"),METHOD_INVOCATION, line no: 220, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,closeResource,SIMPLE_NAME, line no: 221, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,updateTask("Looking for compressed file"),METHOD_INVOCATION, line no: 259, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,updateTask("Compressed file extracted to " + uncompressedFolder),METHOD_INVOCATION, line no: 264, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,updateTask("File is not compressed"),METHOD_INVOCATION, line no: 277, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,configuration.getOutputFeature().setTypeName(typeName),METHOD_INVOCATION, line no: 299, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,setTypeName,SIMPLE_NAME, line no: 299, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,setCoordinateReferenceSystem,SIMPLE_NAME, line no: 305, 2.0, 1.0, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,updateTask("Recognize file type"),METHOD_INVOCATION, line no: 408, 2.0, 1.0, 1.0
+actionConfiguration,SIMPLE_NAME, line no: 80,ActionConfiguration,SIMPLE_NAME, line no: 28, 2.0, 0.5, 1.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,actionConfiguration,SIMPLE_NAME, line no: 80, 1.6666666666666665, 0.6666666666666666, 1.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,it,SIMPLE_NAME, line no: 23, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,geosolutions,SIMPLE_NAME, line no: 23, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,geobatch,SIMPLE_NAME, line no: 23, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,actions,SIMPLE_NAME, line no: 23, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,ds2ds,SIMPLE_NAME, line no: 23, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,filesystemmonitor,SIMPLE_NAME, line no: 25, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,monitor,SIMPLE_NAME, line no: 25, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,FileSystemEvent,SIMPLE_NAME, line no: 25, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,annotations,SIMPLE_NAME, line no: 26, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,Action,SIMPLE_NAME, line no: 26, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,CheckConfiguration,SIMPLE_NAME, line no: 27, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,configuration,SIMPLE_NAME, line no: 28, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,event,SIMPLE_NAME, line no: 28, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,action,SIMPLE_NAME, line no: 28, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,ActionConfiguration,SIMPLE_NAME, line no: 28, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,flow,SIMPLE_NAME, line no: 29, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,ActionException,SIMPLE_NAME, line no: 29, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,tools,SIMPLE_NAME, line no: 30, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,compress,SIMPLE_NAME, line no: 30, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,file,SIMPLE_NAME, line no: 30, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,Extract,SIMPLE_NAME, line no: 30, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,io,SIMPLE_NAME, line no: 31, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,Collector,SIMPLE_NAME, line no: 31, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,java,SIMPLE_NAME, line no: 33, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,File,SIMPLE_NAME, line no: 33, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,IOException,SIMPLE_NAME, line no: 34, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,util,SIMPLE_NAME, line no: 35, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,ArrayList,SIMPLE_NAME, line no: 35, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,Arrays,SIMPLE_NAME, line no: 36, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,Collection,SIMPLE_NAME, line no: 37, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,EventObject,SIMPLE_NAME, line no: 38, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,LinkedList,SIMPLE_NAME, line no: 39, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,List,SIMPLE_NAME, line no: 40, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,Map,SIMPLE_NAME, line no: 41, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,Queue,SIMPLE_NAME, line no: 42, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,org,SIMPLE_NAME, line no: 44, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,geotools,SIMPLE_NAME, line no: 44, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,data,SIMPLE_NAME, line no: 44, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,DataStore,SIMPLE_NAME, line no: 44, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,DataUtilities,SIMPLE_NAME, line no: 45, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,DefaultTransaction,SIMPLE_NAME, line no: 46, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,FeatureStore,SIMPLE_NAME, line no: 47, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,Query,SIMPLE_NAME, line no: 48, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,Transaction,SIMPLE_NAME, line no: 49, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,feature,SIMPLE_NAME, line no: 50, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,AttributeTypeBuilder,SIMPLE_NAME, line no: 50, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,FeatureCollection,SIMPLE_NAME, line no: 51, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,FeatureIterator,SIMPLE_NAME, line no: 52, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,simple,SIMPLE_NAME, line no: 53, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,SimpleFeatureBuilder,SIMPLE_NAME, line no: 53, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,SimpleFeatureTypeBuilder,SIMPLE_NAME, line no: 54, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,opengis,SIMPLE_NAME, line no: 55, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,SimpleFeature,SIMPLE_NAME, line no: 55, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,SimpleFeatureType,SIMPLE_NAME, line no: 56, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,type,SIMPLE_NAME, line no: 57, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,AttributeDescriptor,SIMPLE_NAME, line no: 57, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,GeometryDescriptor,SIMPLE_NAME, line no: 58, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,referencing,SIMPLE_NAME, line no: 59, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,crs,SIMPLE_NAME, line no: 59, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,CoordinateReferenceSystem,SIMPLE_NAME, line no: 59, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,slf4j,SIMPLE_NAME, line no: 60, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,Logger,SIMPLE_NAME, line no: 60, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,LoggerFactory,SIMPLE_NAME, line no: 61, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,configurationClass,SIMPLE_NAME, line no: 71, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,Ds2dsConfiguration,SIMPLE_NAME, line no: 71, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,DsBaseAction,SIMPLE_NAME, line no: 72, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,LOGGER,SIMPLE_NAME, line no: 74, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getLogger,SIMPLE_NAME, line no: 74, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,String,SIMPLE_NAME, line no: 76, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,acceptedFileTypes,SIMPLE_NAME, line no: 76, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,asList,SIMPLE_NAME, line no: 76, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,actionConfiguration,SIMPLE_NAME, line no: 80, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,configuration=super.configuration,ASSIGNMENT, line no: 82, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,super.configuration,SUPER_FIELD_ACCESS, line no: 82, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,Override,SIMPLE_NAME, line no: 85, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,checkConfiguration,SIMPLE_NAME, line no: 87, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,LOGGER.info("Calculating if this action could be Created..."),METHOD_INVOCATION, line no: 88, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,info,SIMPLE_NAME, line no: 88, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"Calculating if this action could be Created...",STRING_LITERAL, line no: 88, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,true,BOOLEAN_LITERAL, line no: 89, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,execute,SIMPLE_NAME, line no: 97, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,events,SIMPLE_NAME, line no: 97, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,outputEvents,SIMPLE_NAME, line no: 101, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,new LinkedList<EventObject>(),CLASS_INSTANCE_CREATION, line no: 101, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,events.size() > 0,INFIX_EXPRESSION, line no: 103, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,events.size(),METHOD_INVOCATION, line no: 103, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,size,SIMPLE_NAME, line no: 103, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,0,NUMBER_LITERAL, line no: 103, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,ev,SIMPLE_NAME, line no: 104, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,(ev=events.remove()) != null,INFIX_EXPRESSION, line no: 106, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,(ev=events.remove()),PARENTHESIZED_EXPRESSION, line no: 106, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,ev=events.remove(),ASSIGNMENT, line no: 106, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,events.remove(),METHOD_INVOCATION, line no: 106, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,remove,SIMPLE_NAME, line no: 106, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,null,NULL_LITERAL, line no: 106, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,listenerForwarder,SIMPLE_NAME, line no: 107, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"Working on incoming event: " + ev.getSource(),INFIX_EXPRESSION, line no: 109, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"Working on incoming event: ",STRING_LITERAL, line no: 109, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,ev.getSource(),METHOD_INVOCATION, line no: 109, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getSource,SIMPLE_NAME, line no: 109, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,acceptableFiles,SIMPLE_NAME, line no: 111, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,acceptableFiles(unpackCompressedFiles(ev)),METHOD_INVOCATION, line no: 111, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,unpackCompressedFiles(ev),METHOD_INVOCATION, line no: 111, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,unpackCompressedFiles,SIMPLE_NAME, line no: 111, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,acceptableFiles.size() == 0,INFIX_EXPRESSION, line no: 112, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,acceptableFiles.size(),METHOD_INVOCATION, line no: 112, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"No file to process",STRING_LITERAL, line no: 113, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,fileEvent,SIMPLE_NAME, line no: 115, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,output,SIMPLE_NAME, line no: 116, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,importFile(fileEvent),METHOD_INVOCATION, line no: 116, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,importFile,SIMPLE_NAME, line no: 116, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,output != null,INFIX_EXPRESSION, line no: 117, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,outputEvents.add(output),METHOD_INVOCATION, line no: 119, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,add,SIMPLE_NAME, line no: 119, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,LOGGER.isWarnEnabled(),METHOD_INVOCATION, line no: 121, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,isWarnEnabled,SIMPLE_NAME, line no: 121, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,LOGGER.warn("No output produced"),METHOD_INVOCATION, line no: 122, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,warn,SIMPLE_NAME, line no: 122, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"No output produced",STRING_LITERAL, line no: 122, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,LOGGER.isErrorEnabled(),METHOD_INVOCATION, line no: 129, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,isErrorEnabled,SIMPLE_NAME, line no: 129, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,LOGGER.error("Encountered a NULL event: SKIPPING..."),METHOD_INVOCATION, line no: 130, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,error,SIMPLE_NAME, line no: 130, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"Encountered a NULL event: SKIPPING...",STRING_LITERAL, line no: 130, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,ioe,SIMPLE_NAME, line no: 134, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"Unable to produce the output  " + ioe.getLocalizedMessage(),INFIX_EXPRESSION, line no: 135, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"Unable to produce the output  ",STRING_LITERAL, line no: 135, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,ioe.getLocalizedMessage(),METHOD_INVOCATION, line no: 136, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getLocalizedMessage,SIMPLE_NAME, line no: 136, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,Exception,SIMPLE_NAME, line no: 137, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"Unable to produce the output: " + ioe.getLocalizedMessage(),INFIX_EXPRESSION, line no: 138, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"Unable to produce the output: ",STRING_LITERAL, line no: 138, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,sourceDataStore,SIMPLE_NAME, line no: 154, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,destDataStore,SIMPLE_NAME, line no: 155, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,transaction,SIMPLE_NAME, line no: 157, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,new DefaultTransaction("create"),CLASS_INSTANCE_CREATION, line no: 157, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"create",STRING_LITERAL, line no: 157, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,sourceDataStore=createSourceDataStore(fileEvent),ASSIGNMENT, line no: 160, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,createSourceDataStore(fileEvent),METHOD_INVOCATION, line no: 160, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,createSourceDataStore,SIMPLE_NAME, line no: 160, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,query,SIMPLE_NAME, line no: 161, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,buildSourceQuery(sourceDataStore),METHOD_INVOCATION, line no: 161, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,buildSourceQuery,SIMPLE_NAME, line no: 161, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,featureReader,SIMPLE_NAME, line no: 162, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,createSourceReader(sourceDataStore transaction query),METHOD_INVOCATION, line no: 162, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,createSourceReader,SIMPLE_NAME, line no: 162, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,destDataStore=createOutputDataStore(),ASSIGNMENT, line no: 166, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,createOutputDataStore(),METHOD_INVOCATION, line no: 166, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,createOutputDataStore,SIMPLE_NAME, line no: 166, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,schema,SIMPLE_NAME, line no: 167, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,buildDestinationSchema(featureReader.getSchema()),METHOD_INVOCATION, line no: 167, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,buildDestinationSchema,SIMPLE_NAME, line no: 167, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,featureReader.getSchema(),METHOD_INVOCATION, line no: 167, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getSchema,SIMPLE_NAME, line no: 168, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,featureWriter,SIMPLE_NAME, line no: 170, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,createOutputWriter(destDataStore schema transaction),METHOD_INVOCATION, line no: 170, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,createOutputWriter,SIMPLE_NAME, line no: 170, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,destSchema,SIMPLE_NAME, line no: 172, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,featureWriter.getSchema(),METHOD_INVOCATION, line no: 172, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,schemaDiffs,SIMPLE_NAME, line no: 175, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,compareSchemas(destSchema schema),METHOD_INVOCATION, line no: 175, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,compareSchemas,SIMPLE_NAME, line no: 175, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,builder,SIMPLE_NAME, line no: 176, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,new SimpleFeatureBuilder(destSchema),CLASS_INSTANCE_CREATION, line no: 176, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,purgeData(featureWriter),METHOD_INVOCATION, line no: 178, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"Reading data",STRING_LITERAL, line no: 180, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,total,SIMPLE_NAME, line no: 181, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,featureReader.getCount(query),METHOD_INVOCATION, line no: 181, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getCount,SIMPLE_NAME, line no: 181, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,iterator,SIMPLE_NAME, line no: 182, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,createSourceIterator(query featureReader),METHOD_INVOCATION, line no: 182, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,createSourceIterator,SIMPLE_NAME, line no: 182, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,count,SIMPLE_NAME, line no: 185, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,iterator.hasNext(),METHOD_INVOCATION, line no: 186, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,hasNext,SIMPLE_NAME, line no: 186, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,buildFeature(builder iterator.next() schemaDiffs sourceDataStore),METHOD_INVOCATION, line no: 187, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,buildFeature,SIMPLE_NAME, line no: 187, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,iterator.next(),METHOD_INVOCATION, line no: 188, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,next,SIMPLE_NAME, line no: 188, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,featureWriter.addFeatures(DataUtilities.collection(feature)),METHOD_INVOCATION, line no: 189, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,addFeatures,SIMPLE_NAME, line no: 189, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,DataUtilities.collection(feature),METHOD_INVOCATION, line no: 189, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,collection,SIMPLE_NAME, line no: 190, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,count++,POSTFIX_EXPRESSION, line no: 191, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,count % 100 == 0,INFIX_EXPRESSION, line no: 192, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,count % 100,INFIX_EXPRESSION, line no: 192, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,100,NUMBER_LITERAL, line no: 192, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"Importing data",STRING_LITERAL, line no: 193, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,100F,NUMBER_LITERAL, line no: 196, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"Data imported",STRING_LITERAL, line no: 196, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,iterator.close(),METHOD_INVOCATION, line no: 199, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,close,SIMPLE_NAME, line no: 199, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,transaction.commit(),METHOD_INVOCATION, line no: 202, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,commit,SIMPLE_NAME, line no: 202, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,buildOutputEvent(),METHOD_INVOCATION, line no: 204, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,buildOutputEvent,SIMPLE_NAME, line no: 204, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,transaction.rollback(),METHOD_INVOCATION, line no: 207, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,rollback,SIMPLE_NAME, line no: 207, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,e1,SIMPLE_NAME, line no: 208, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,message,SIMPLE_NAME, line no: 209, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"Transaction rollback unsuccessful: " + e1.getLocalizedMessage(),INFIX_EXPRESSION, line no: 209, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"Transaction rollback unsuccessful: ",STRING_LITERAL, line no: 209, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,e1.getLocalizedMessage(),METHOD_INVOCATION, line no: 210, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,LOGGER.error(message),METHOD_INVOCATION, line no: 212, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,new ActionException(this message),CLASS_INSTANCE_CREATION, line no: 213, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,this,THIS_EXPRESSION, line no: 213, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,cause,SIMPLE_NAME, line no: 215, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,ioe.getCause() == null ? null : ioe.getCause().getMessage(),CONDITIONAL_EXPRESSION, line no: 215, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,ioe.getCause() == null,INFIX_EXPRESSION, line no: 215, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,ioe.getCause(),METHOD_INVOCATION, line no: 215, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getCause,SIMPLE_NAME, line no: 215, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,ioe.getCause().getMessage(),METHOD_INVOCATION, line no: 215, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getMessage,SIMPLE_NAME, line no: 215, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,msg,SIMPLE_NAME, line no: 216, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"MESSAGE: " + ioe.getMessage() + " - CAUSE: "+ cause,INFIX_EXPRESSION, line no: 216, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"MESSAGE: ",STRING_LITERAL, line no: 216, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,ioe.getMessage(),METHOD_INVOCATION, line no: 216, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80," - CAUSE: ",STRING_LITERAL, line no: 216, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,new ActionException(this msg),CLASS_INSTANCE_CREATION, line no: 217, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"Closing connections",STRING_LITERAL, line no: 220, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,closeResource(sourceDataStore),METHOD_INVOCATION, line no: 221, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,closeResource(destDataStore),METHOD_INVOCATION, line no: 222, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,closeResource(transaction),METHOD_INVOCATION, line no: 223, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,features,SIMPLE_NAME, line no: 241, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,featureReader.getFeatures(query),METHOD_INVOCATION, line no: 241, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getFeatures,SIMPLE_NAME, line no: 242, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,features.features(),METHOD_INVOCATION, line no: 243, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,result,SIMPLE_NAME, line no: 256, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,new LinkedList<FileSystemEvent>(),CLASS_INSTANCE_CREATION, line no: 256, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,(FileSystemEvent)event,CAST_EXPRESSION, line no: 258, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"Looking for compressed file",STRING_LITERAL, line no: 259, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,filePath,SIMPLE_NAME, line no: 261, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,fileEvent.getSource().getAbsolutePath(),METHOD_INVOCATION, line no: 261, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,fileEvent.getSource(),METHOD_INVOCATION, line no: 261, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getAbsolutePath,SIMPLE_NAME, line no: 261, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,uncompressedFolder,SIMPLE_NAME, line no: 262, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,Extract.extract(filePath),METHOD_INVOCATION, line no: 262, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,extract,SIMPLE_NAME, line no: 262, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,!uncompressedFolder.equals(filePath),PREFIX_EXPRESSION, line no: 263, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,uncompressedFolder.equals(filePath),METHOD_INVOCATION, line no: 263, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,equals,SIMPLE_NAME, line no: 263, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"Compressed file extracted to " + uncompressedFolder,INFIX_EXPRESSION, line no: 264, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"Compressed file extracted to ",STRING_LITERAL, line no: 264, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,c,SIMPLE_NAME, line no: 265, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,new Collector(null),CLASS_INSTANCE_CREATION, line no: 265, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,fileList,SIMPLE_NAME, line no: 266, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,c.collect(new File(uncompressedFolder)),METHOD_INVOCATION, line no: 266, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,collect,SIMPLE_NAME, line no: 266, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,new File(uncompressedFolder),CLASS_INSTANCE_CREATION, line no: 266, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,fileList != null,INFIX_EXPRESSION, line no: 268, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,!file.isDirectory(),PREFIX_EXPRESSION, line no: 270, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,file.isDirectory(),METHOD_INVOCATION, line no: 270, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,isDirectory,SIMPLE_NAME, line no: 270, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,result.add(new FileSystemEvent(file fileEvent.getEventType())),METHOD_INVOCATION, line no: 271, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,new FileSystemEvent(file fileEvent.getEventType()),CLASS_INSTANCE_CREATION, line no: 271, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,fileEvent.getEventType(),METHOD_INVOCATION, line no: 271, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getEventType,SIMPLE_NAME, line no: 271, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"File is not compressed",STRING_LITERAL, line no: 277, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,result.add(fileEvent),METHOD_INVOCATION, line no: 278, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,e,SIMPLE_NAME, line no: 280, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,new ActionException(this e.getMessage()),CLASS_INSTANCE_CREATION, line no: 281, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,e.getMessage(),METHOD_INVOCATION, line no: 281, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,sourceSchema,SIMPLE_NAME, line no: 295, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,typeName,SIMPLE_NAME, line no: 296, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,configuration.getOutputFeature().getTypeName(),METHOD_INVOCATION, line no: 296, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,configuration.getOutputFeature(),METHOD_INVOCATION, line no: 296, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getOutputFeature,SIMPLE_NAME, line no: 296, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getTypeName,SIMPLE_NAME, line no: 296, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,typeName == null,INFIX_EXPRESSION, line no: 297, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,typeName=sourceSchema.getTypeName(),ASSIGNMENT, line no: 298, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,sourceSchema.getTypeName(),METHOD_INVOCATION, line no: 298, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,configuration.getOutputFeature().getCoordinateReferenceSystem(),METHOD_INVOCATION, line no: 301, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getCoordinateReferenceSystem,SIMPLE_NAME, line no: 302, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,crs == null,INFIX_EXPRESSION, line no: 303, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,crs=sourceSchema.getCoordinateReferenceSystem(),ASSIGNMENT, line no: 304, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,sourceSchema.getCoordinateReferenceSystem(),METHOD_INVOCATION, line no: 304, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,configuration.getOutputFeature().setCoordinateReferenceSystem(crs),METHOD_INVOCATION, line no: 305, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,new SimpleFeatureTypeBuilder(),CLASS_INSTANCE_CREATION, line no: 307, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,builder.setCRS(crs),METHOD_INVOCATION, line no: 308, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,setCRS,SIMPLE_NAME, line no: 308, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,builder.setName(typeName),METHOD_INVOCATION, line no: 309, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,setName,SIMPLE_NAME, line no: 309, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,attributeName,SIMPLE_NAME, line no: 311, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,buildOutputAttributes(sourceSchema),METHOD_INVOCATION, line no: 311, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,buildOutputAttributes,SIMPLE_NAME, line no: 311, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,builder.add(buildSchemaAttribute(attributeName sourceSchema crs)),METHOD_INVOCATION, line no: 312, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,buildSchemaAttribute(attributeName sourceSchema crs),METHOD_INVOCATION, line no: 312, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,buildSchemaAttribute,SIMPLE_NAME, line no: 312, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,builder.buildFeatureType(),METHOD_INVOCATION, line no: 314, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,buildFeatureType,SIMPLE_NAME, line no: 314, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,configuration.isProjectOnMappings(),METHOD_INVOCATION, line no: 326, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,isProjectOnMappings,SIMPLE_NAME, line no: 326, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings().keySet(),METHOD_INVOCATION, line no: 327, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings(),METHOD_INVOCATION, line no: 327, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getAttributeMappings,SIMPLE_NAME, line no: 327, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,keySet,SIMPLE_NAME, line no: 327, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,attributes,SIMPLE_NAME, line no: 329, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,new ArrayList<String>(),CLASS_INSTANCE_CREATION, line no: 329, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,attr,SIMPLE_NAME, line no: 330, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,sourceSchema.getAttributeDescriptors(),METHOD_INVOCATION, line no: 330, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getAttributeDescriptors,SIMPLE_NAME, line no: 330, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,attributes.add(getAttributeMapping(attr.getLocalName())),METHOD_INVOCATION, line no: 331, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getAttributeMapping(attr.getLocalName()),METHOD_INVOCATION, line no: 331, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getAttributeMapping,SIMPLE_NAME, line no: 331, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,attr.getLocalName(),METHOD_INVOCATION, line no: 331, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getLocalName,SIMPLE_NAME, line no: 331, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,localName,SIMPLE_NAME, line no: 343, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,outputName,SIMPLE_NAME, line no: 344, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings().get(outputName).toString().equals(localName),METHOD_INVOCATION, line no: 345, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings().get(outputName).toString(),METHOD_INVOCATION, line no: 345, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings().get(outputName),METHOD_INVOCATION, line no: 345, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,get,SIMPLE_NAME, line no: 345, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,toString,SIMPLE_NAME, line no: 345, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings().containsKey(attributeName),METHOD_INVOCATION, line no: 363, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,containsKey,SIMPLE_NAME, line no: 363, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,attr=schema.getDescriptor(configuration.getAttributeMappings().get(attributeName).toString()),ASSIGNMENT, line no: 364, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,schema.getDescriptor(configuration.getAttributeMappings().get(attributeName).toString()),METHOD_INVOCATION, line no: 364, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getDescriptor,SIMPLE_NAME, line no: 364, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings().get(attributeName).toString(),METHOD_INVOCATION, line no: 364, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings().get(attributeName),METHOD_INVOCATION, line no: 364, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,attr=schema.getDescriptor(attributeName),ASSIGNMENT, line no: 367, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,schema.getDescriptor(attributeName),METHOD_INVOCATION, line no: 367, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,new AttributeTypeBuilder(),CLASS_INSTANCE_CREATION, line no: 369, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,builder.setName(attr.getLocalName()),METHOD_INVOCATION, line no: 370, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,builder.setBinding(attr.getType().getBinding()),METHOD_INVOCATION, line no: 371, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,setBinding,SIMPLE_NAME, line no: 371, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,attr.getType().getBinding(),METHOD_INVOCATION, line no: 371, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,attr.getType(),METHOD_INVOCATION, line no: 371, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getType,SIMPLE_NAME, line no: 371, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getBinding,SIMPLE_NAME, line no: 371, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,attr instanceof GeometryDescriptor,INSTANCEOF_EXPRESSION, line no: 372, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,crs=((GeometryDescriptor)attr).getCoordinateReferenceSystem(),ASSIGNMENT, line no: 374, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,((GeometryDescriptor)attr).getCoordinateReferenceSystem(),METHOD_INVOCATION, line no: 374, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,((GeometryDescriptor)attr),PARENTHESIZED_EXPRESSION, line no: 374, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,(GeometryDescriptor)attr,CAST_EXPRESSION, line no: 374, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,builder.setMinOccurs(attr.getMinOccurs()),METHOD_INVOCATION, line no: 380, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,setMinOccurs,SIMPLE_NAME, line no: 380, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,attr.getMinOccurs(),METHOD_INVOCATION, line no: 380, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getMinOccurs,SIMPLE_NAME, line no: 380, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,builder.setMaxOccurs(attr.getMaxOccurs()),METHOD_INVOCATION, line no: 381, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,setMaxOccurs,SIMPLE_NAME, line no: 381, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,attr.getMaxOccurs(),METHOD_INVOCATION, line no: 381, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getMaxOccurs,SIMPLE_NAME, line no: 381, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,builder.setNillable(attr.isNillable()),METHOD_INVOCATION, line no: 382, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,setNillable,SIMPLE_NAME, line no: 382, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,attr.isNillable(),METHOD_INVOCATION, line no: 382, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,isNillable,SIMPLE_NAME, line no: 382, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,builder.buildDescriptor(attributeName),METHOD_INVOCATION, line no: 384, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,buildDescriptor,SIMPLE_NAME, line no: 384, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"Recognize file type",STRING_LITERAL, line no: 408, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,accepted,SIMPLE_NAME, line no: 409, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,fileType,SIMPLE_NAME, line no: 411, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getFileType(event),METHOD_INVOCATION, line no: 411, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getFileType,SIMPLE_NAME, line no: 411, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,acceptedFileTypes.contains(fileType),METHOD_INVOCATION, line no: 412, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,contains,SIMPLE_NAME, line no: 412, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,LOGGER.isTraceEnabled(),METHOD_INVOCATION, line no: 413, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,isTraceEnabled,SIMPLE_NAME, line no: 413, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,LOGGER.trace("Accepted file: " + event.getSource().getName()),METHOD_INVOCATION, line no: 414, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,trace,SIMPLE_NAME, line no: 414, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"Accepted file: " + event.getSource().getName(),INFIX_EXPRESSION, line no: 414, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"Accepted file: ",STRING_LITERAL, line no: 414, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,event.getSource().getName(),METHOD_INVOCATION, line no: 414, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,event.getSource(),METHOD_INVOCATION, line no: 414, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,getName,SIMPLE_NAME, line no: 414, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,accepted.add(event),METHOD_INVOCATION, line no: 416, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,LOGGER.trace("Skipped file: " + event.getSource().getName()),METHOD_INVOCATION, line no: 419, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"Skipped file: " + event.getSource().getName(),INFIX_EXPRESSION, line no: 419, 1.0, 1.0, 0.0
+Ds2dsAction,SIMPLE_NAME, line no: 80,"Skipped file: ",STRING_LITERAL, line no: 419, 1.0, 1.0, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,FileSystemEvent,SIMPLE_NAME, line no: 25, 1.0, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,it.geosolutions.geobatch.configuration.event.action.ActionConfiguration,QUALIFIED_NAME, line no: 28, 1.0, 0.0, 1.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,ActionException,SIMPLE_NAME, line no: 29, 1.0, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,File,SIMPLE_NAME, line no: 33, 1.0, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,IOException,SIMPLE_NAME, line no: 34, 1.0, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,EventObject,SIMPLE_NAME, line no: 38, 1.0, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,Queue,SIMPLE_NAME, line no: 42, 1.0, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,FeatureStore,SIMPLE_NAME, line no: 47, 1.0, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,Query,SIMPLE_NAME, line no: 48, 1.0, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,SimpleFeature,SIMPLE_NAME, line no: 55, 1.0, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,SimpleFeatureType,SIMPLE_NAME, line no: 56, 1.0, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,AttributeDescriptor,SIMPLE_NAME, line no: 57, 1.0, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,CoordinateReferenceSystem,SIMPLE_NAME, line no: 59, 1.0, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,String,SIMPLE_NAME, line no: 76, 1.0, 0.6666666666666666, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,Exception,SIMPLE_NAME, line no: 137, 1.0, 1.0, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,FileSystemEvent,SIMPLE_NAME, line no: 25, 1.0, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,it.geosolutions.geobatch.configuration.event.action.ActionConfiguration,QUALIFIED_NAME, line no: 28, 1.0, 0.0, 1.0
+actionConfiguration,SIMPLE_NAME, line no: 80,event,SIMPLE_NAME, line no: 28, 1.0, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,ActionException,SIMPLE_NAME, line no: 29, 1.0, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,file,SIMPLE_NAME, line no: 30, 1.0, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,File,SIMPLE_NAME, line no: 33, 1.0, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,IOException,SIMPLE_NAME, line no: 34, 1.0, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,EventObject,SIMPLE_NAME, line no: 38, 1.0, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,Queue,SIMPLE_NAME, line no: 42, 1.0, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,FeatureStore,SIMPLE_NAME, line no: 47, 1.0, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,Query,SIMPLE_NAME, line no: 48, 1.0, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,SimpleFeature,SIMPLE_NAME, line no: 55, 1.0, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,SimpleFeatureType,SIMPLE_NAME, line no: 56, 1.0, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,AttributeDescriptor,SIMPLE_NAME, line no: 57, 1.0, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,crs,SIMPLE_NAME, line no: 59, 1.0, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,CoordinateReferenceSystem,SIMPLE_NAME, line no: 59, 1.0, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,String,SIMPLE_NAME, line no: 76, 1.0, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,events,SIMPLE_NAME, line no: 97, 1.0, 1.0, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,fileEvent,SIMPLE_NAME, line no: 115, 1.0, 1.0, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,ioe,SIMPLE_NAME, line no: 134, 1.0, 1.0, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,Exception,SIMPLE_NAME, line no: 137, 1.0, 1.0, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,query,SIMPLE_NAME, line no: 161, 1.0, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,featureReader,SIMPLE_NAME, line no: 162, 1.0, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,schema,SIMPLE_NAME, line no: 167, 1.0, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,e1,SIMPLE_NAME, line no: 208, 1.0, 1.0, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,e,SIMPLE_NAME, line no: 280, 1.0, 1.0, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,sourceSchema,SIMPLE_NAME, line no: 295, 1.0, 1.0, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,attributeName,SIMPLE_NAME, line no: 311, 1.0, 1.0, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,attr,SIMPLE_NAME, line no: 330, 1.0, 1.0, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,localName,SIMPLE_NAME, line no: 343, 1.0, 1.0, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,outputName,SIMPLE_NAME, line no: 344, 1.0, 1.0, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,event,SIMPLE_NAME, line no: 28, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,file,SIMPLE_NAME, line no: 30, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,Collector,SIMPLE_NAME, line no: 31, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,ArrayList,SIMPLE_NAME, line no: 35, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,Collection,SIMPLE_NAME, line no: 37, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,LinkedList,SIMPLE_NAME, line no: 39, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,List,SIMPLE_NAME, line no: 40, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,Map,SIMPLE_NAME, line no: 41, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,DataStore,SIMPLE_NAME, line no: 44, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,DefaultTransaction,SIMPLE_NAME, line no: 46, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,Transaction,SIMPLE_NAME, line no: 49, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,AttributeTypeBuilder,SIMPLE_NAME, line no: 50, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,FeatureCollection,SIMPLE_NAME, line no: 51, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,FeatureIterator,SIMPLE_NAME, line no: 52, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,SimpleFeatureBuilder,SIMPLE_NAME, line no: 53, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,SimpleFeatureTypeBuilder,SIMPLE_NAME, line no: 54, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,GeometryDescriptor,SIMPLE_NAME, line no: 58, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,crs,SIMPLE_NAME, line no: 59, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,Logger,SIMPLE_NAME, line no: 60, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,Ds2dsConfiguration,SIMPLE_NAME, line no: 71, 0.6666666666666666, 0.6666666666666666, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,Ds2dsAction,SIMPLE_NAME, line no: 72, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,DsBaseAction,SIMPLE_NAME, line no: 72, 0.6666666666666666, 0.6666666666666666, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,events,SIMPLE_NAME, line no: 97, 0.6666666666666666, 0.6666666666666666, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,fileEvent,SIMPLE_NAME, line no: 115, 0.6666666666666666, 0.6666666666666666, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,ioe,SIMPLE_NAME, line no: 134, 0.6666666666666666, 0.6666666666666666, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,query,SIMPLE_NAME, line no: 161, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,featureReader,SIMPLE_NAME, line no: 162, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,schema,SIMPLE_NAME, line no: 167, 0.6666666666666666, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,e1,SIMPLE_NAME, line no: 208, 0.6666666666666666, 0.6666666666666666, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,e,SIMPLE_NAME, line no: 280, 0.6666666666666666, 0.6666666666666666, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,sourceSchema,SIMPLE_NAME, line no: 295, 0.6666666666666666, 0.6666666666666666, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,attributeName,SIMPLE_NAME, line no: 311, 0.6666666666666666, 0.6666666666666666, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,attr,SIMPLE_NAME, line no: 330, 0.6666666666666666, 0.6666666666666666, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,localName,SIMPLE_NAME, line no: 343, 0.6666666666666666, 0.6666666666666666, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,outputName,SIMPLE_NAME, line no: 344, 0.6666666666666666, 0.6666666666666666, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,it,SIMPLE_NAME, line no: 23, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,geosolutions,SIMPLE_NAME, line no: 23, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,geobatch,SIMPLE_NAME, line no: 23, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,actions,SIMPLE_NAME, line no: 23, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,ds2ds,SIMPLE_NAME, line no: 23, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,filesystemmonitor,SIMPLE_NAME, line no: 25, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,monitor,SIMPLE_NAME, line no: 25, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,annotations,SIMPLE_NAME, line no: 26, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,Action,SIMPLE_NAME, line no: 26, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,CheckConfiguration,SIMPLE_NAME, line no: 27, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,configuration,SIMPLE_NAME, line no: 28, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,action,SIMPLE_NAME, line no: 28, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,flow,SIMPLE_NAME, line no: 29, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,tools,SIMPLE_NAME, line no: 30, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,compress,SIMPLE_NAME, line no: 30, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,Extract,SIMPLE_NAME, line no: 30, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,io,SIMPLE_NAME, line no: 31, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,Collector,SIMPLE_NAME, line no: 31, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,java,SIMPLE_NAME, line no: 33, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,util,SIMPLE_NAME, line no: 35, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,ArrayList,SIMPLE_NAME, line no: 35, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,Arrays,SIMPLE_NAME, line no: 36, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,Collection,SIMPLE_NAME, line no: 37, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,LinkedList,SIMPLE_NAME, line no: 39, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,List,SIMPLE_NAME, line no: 40, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,Map,SIMPLE_NAME, line no: 41, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,org,SIMPLE_NAME, line no: 44, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,geotools,SIMPLE_NAME, line no: 44, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,data,SIMPLE_NAME, line no: 44, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,DataStore,SIMPLE_NAME, line no: 44, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,DataUtilities,SIMPLE_NAME, line no: 45, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,DefaultTransaction,SIMPLE_NAME, line no: 46, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,Transaction,SIMPLE_NAME, line no: 49, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,feature,SIMPLE_NAME, line no: 50, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,AttributeTypeBuilder,SIMPLE_NAME, line no: 50, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,FeatureCollection,SIMPLE_NAME, line no: 51, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,FeatureIterator,SIMPLE_NAME, line no: 52, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,simple,SIMPLE_NAME, line no: 53, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,SimpleFeatureBuilder,SIMPLE_NAME, line no: 53, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,SimpleFeatureTypeBuilder,SIMPLE_NAME, line no: 54, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,opengis,SIMPLE_NAME, line no: 55, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,type,SIMPLE_NAME, line no: 57, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,GeometryDescriptor,SIMPLE_NAME, line no: 58, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,referencing,SIMPLE_NAME, line no: 59, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,slf4j,SIMPLE_NAME, line no: 60, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,Logger,SIMPLE_NAME, line no: 60, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,LoggerFactory,SIMPLE_NAME, line no: 61, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,configurationClass,SIMPLE_NAME, line no: 71, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,Ds2dsConfiguration,SIMPLE_NAME, line no: 71, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,Ds2dsAction,SIMPLE_NAME, line no: 72, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,DsBaseAction,SIMPLE_NAME, line no: 72, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,LOGGER,SIMPLE_NAME, line no: 74, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getLogger,SIMPLE_NAME, line no: 74, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,acceptedFileTypes,SIMPLE_NAME, line no: 76, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,asList,SIMPLE_NAME, line no: 76, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,configuration=super.configuration,ASSIGNMENT, line no: 82, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,super.configuration,SUPER_FIELD_ACCESS, line no: 82, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,Override,SIMPLE_NAME, line no: 85, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,checkConfiguration,SIMPLE_NAME, line no: 87, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,LOGGER.info("Calculating if this action could be Created..."),METHOD_INVOCATION, line no: 88, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,info,SIMPLE_NAME, line no: 88, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"Calculating if this action could be Created...",STRING_LITERAL, line no: 88, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,true,BOOLEAN_LITERAL, line no: 89, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,execute,SIMPLE_NAME, line no: 97, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,outputEvents,SIMPLE_NAME, line no: 101, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,new LinkedList<EventObject>(),CLASS_INSTANCE_CREATION, line no: 101, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,events.size() > 0,INFIX_EXPRESSION, line no: 103, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,events.size(),METHOD_INVOCATION, line no: 103, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,size,SIMPLE_NAME, line no: 103, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,0,NUMBER_LITERAL, line no: 103, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,ev,SIMPLE_NAME, line no: 104, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,(ev=events.remove()) != null,INFIX_EXPRESSION, line no: 106, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,(ev=events.remove()),PARENTHESIZED_EXPRESSION, line no: 106, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,ev=events.remove(),ASSIGNMENT, line no: 106, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,events.remove(),METHOD_INVOCATION, line no: 106, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,remove,SIMPLE_NAME, line no: 106, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,null,NULL_LITERAL, line no: 106, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,listenerForwarder.started(),METHOD_INVOCATION, line no: 107, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,listenerForwarder,SIMPLE_NAME, line no: 107, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,started,SIMPLE_NAME, line no: 107, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,updateTask("Working on incoming event: " + ev.getSource()),METHOD_INVOCATION, line no: 109, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,updateTask,SIMPLE_NAME, line no: 109, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"Working on incoming event: " + ev.getSource(),INFIX_EXPRESSION, line no: 109, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"Working on incoming event: ",STRING_LITERAL, line no: 109, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,ev.getSource(),METHOD_INVOCATION, line no: 109, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getSource,SIMPLE_NAME, line no: 109, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,acceptableFiles,SIMPLE_NAME, line no: 111, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,acceptableFiles(unpackCompressedFiles(ev)),METHOD_INVOCATION, line no: 111, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,unpackCompressedFiles(ev),METHOD_INVOCATION, line no: 111, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,unpackCompressedFiles,SIMPLE_NAME, line no: 111, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,acceptableFiles.size() == 0,INFIX_EXPRESSION, line no: 112, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,acceptableFiles.size(),METHOD_INVOCATION, line no: 112, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,failAction("No file to process"),METHOD_INVOCATION, line no: 113, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,failAction,SIMPLE_NAME, line no: 113, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"No file to process",STRING_LITERAL, line no: 113, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,output,SIMPLE_NAME, line no: 116, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,importFile(fileEvent),METHOD_INVOCATION, line no: 116, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,importFile,SIMPLE_NAME, line no: 116, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,output != null,INFIX_EXPRESSION, line no: 117, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,outputEvents.add(output),METHOD_INVOCATION, line no: 119, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,add,SIMPLE_NAME, line no: 119, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,LOGGER.isWarnEnabled(),METHOD_INVOCATION, line no: 121, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,isWarnEnabled,SIMPLE_NAME, line no: 121, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,LOGGER.warn("No output produced"),METHOD_INVOCATION, line no: 122, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,warn,SIMPLE_NAME, line no: 122, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"No output produced",STRING_LITERAL, line no: 122, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,LOGGER.isErrorEnabled(),METHOD_INVOCATION, line no: 129, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,isErrorEnabled,SIMPLE_NAME, line no: 129, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,LOGGER.error("Encountered a NULL event: SKIPPING..."),METHOD_INVOCATION, line no: 130, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,error,SIMPLE_NAME, line no: 130, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"Encountered a NULL event: SKIPPING...",STRING_LITERAL, line no: 130, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,failAction("Unable to produce the output  " + ioe.getLocalizedMessage()),METHOD_INVOCATION, line no: 135, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"Unable to produce the output  " + ioe.getLocalizedMessage(),INFIX_EXPRESSION, line no: 135, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"Unable to produce the output  ",STRING_LITERAL, line no: 135, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,ioe.getLocalizedMessage(),METHOD_INVOCATION, line no: 136, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getLocalizedMessage,SIMPLE_NAME, line no: 136, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,failAction("Unable to produce the output: " + ioe.getLocalizedMessage()),METHOD_INVOCATION, line no: 138, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"Unable to produce the output: " + ioe.getLocalizedMessage(),INFIX_EXPRESSION, line no: 138, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"Unable to produce the output: ",STRING_LITERAL, line no: 138, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,sourceDataStore,SIMPLE_NAME, line no: 154, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,destDataStore,SIMPLE_NAME, line no: 155, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,transaction,SIMPLE_NAME, line no: 157, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,new DefaultTransaction("create"),CLASS_INSTANCE_CREATION, line no: 157, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"create",STRING_LITERAL, line no: 157, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,sourceDataStore=createSourceDataStore(fileEvent),ASSIGNMENT, line no: 160, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,createSourceDataStore(fileEvent),METHOD_INVOCATION, line no: 160, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,createSourceDataStore,SIMPLE_NAME, line no: 160, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,buildSourceQuery(sourceDataStore),METHOD_INVOCATION, line no: 161, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,buildSourceQuery,SIMPLE_NAME, line no: 161, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,createSourceReader(sourceDataStore transaction query),METHOD_INVOCATION, line no: 162, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,createSourceReader,SIMPLE_NAME, line no: 162, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,destDataStore=createOutputDataStore(),ASSIGNMENT, line no: 166, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,createOutputDataStore(),METHOD_INVOCATION, line no: 166, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,createOutputDataStore,SIMPLE_NAME, line no: 166, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,buildDestinationSchema(featureReader.getSchema()),METHOD_INVOCATION, line no: 167, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,buildDestinationSchema,SIMPLE_NAME, line no: 167, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,featureReader.getSchema(),METHOD_INVOCATION, line no: 167, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getSchema,SIMPLE_NAME, line no: 168, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,featureWriter,SIMPLE_NAME, line no: 170, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,createOutputWriter(destDataStore schema transaction),METHOD_INVOCATION, line no: 170, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,createOutputWriter,SIMPLE_NAME, line no: 170, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,destSchema,SIMPLE_NAME, line no: 172, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,featureWriter.getSchema(),METHOD_INVOCATION, line no: 172, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,schemaDiffs,SIMPLE_NAME, line no: 175, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,compareSchemas(destSchema schema),METHOD_INVOCATION, line no: 175, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,compareSchemas,SIMPLE_NAME, line no: 175, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,builder,SIMPLE_NAME, line no: 176, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,new SimpleFeatureBuilder(destSchema),CLASS_INSTANCE_CREATION, line no: 176, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,purgeData(featureWriter),METHOD_INVOCATION, line no: 178, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,purgeData,SIMPLE_NAME, line no: 178, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,updateTask("Reading data"),METHOD_INVOCATION, line no: 180, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"Reading data",STRING_LITERAL, line no: 180, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,total,SIMPLE_NAME, line no: 181, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,featureReader.getCount(query),METHOD_INVOCATION, line no: 181, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getCount,SIMPLE_NAME, line no: 181, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,iterator,SIMPLE_NAME, line no: 182, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,createSourceIterator(query featureReader),METHOD_INVOCATION, line no: 182, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,createSourceIterator,SIMPLE_NAME, line no: 182, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,count,SIMPLE_NAME, line no: 185, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,iterator.hasNext(),METHOD_INVOCATION, line no: 186, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,hasNext,SIMPLE_NAME, line no: 186, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,buildFeature(builder iterator.next() schemaDiffs sourceDataStore),METHOD_INVOCATION, line no: 187, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,buildFeature,SIMPLE_NAME, line no: 187, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,iterator.next(),METHOD_INVOCATION, line no: 188, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,next,SIMPLE_NAME, line no: 188, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,featureWriter.addFeatures(DataUtilities.collection(feature)),METHOD_INVOCATION, line no: 189, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,addFeatures,SIMPLE_NAME, line no: 189, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,DataUtilities.collection(feature),METHOD_INVOCATION, line no: 189, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,collection,SIMPLE_NAME, line no: 190, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,count++,POSTFIX_EXPRESSION, line no: 191, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,count % 100 == 0,INFIX_EXPRESSION, line no: 192, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,count % 100,INFIX_EXPRESSION, line no: 192, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,100,NUMBER_LITERAL, line no: 192, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,updateImportProgress(count total "Importing data"),METHOD_INVOCATION, line no: 193, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,updateImportProgress,SIMPLE_NAME, line no: 193, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"Importing data",STRING_LITERAL, line no: 193, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,listenerForwarder.progressing(100F "Data imported"),METHOD_INVOCATION, line no: 196, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,progressing,SIMPLE_NAME, line no: 196, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,100F,NUMBER_LITERAL, line no: 196, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"Data imported",STRING_LITERAL, line no: 196, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,iterator.close(),METHOD_INVOCATION, line no: 199, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,close,SIMPLE_NAME, line no: 199, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,updateTask("Data imported"),METHOD_INVOCATION, line no: 201, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,transaction.commit(),METHOD_INVOCATION, line no: 202, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,commit,SIMPLE_NAME, line no: 202, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,listenerForwarder.completed(),METHOD_INVOCATION, line no: 203, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,completed,SIMPLE_NAME, line no: 203, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,buildOutputEvent(),METHOD_INVOCATION, line no: 204, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,buildOutputEvent,SIMPLE_NAME, line no: 204, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,transaction.rollback(),METHOD_INVOCATION, line no: 207, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,rollback,SIMPLE_NAME, line no: 207, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,message,SIMPLE_NAME, line no: 209, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"Transaction rollback unsuccessful: " + e1.getLocalizedMessage(),INFIX_EXPRESSION, line no: 209, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"Transaction rollback unsuccessful: ",STRING_LITERAL, line no: 209, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,e1.getLocalizedMessage(),METHOD_INVOCATION, line no: 210, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,LOGGER.error(message),METHOD_INVOCATION, line no: 212, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,new ActionException(this message),CLASS_INSTANCE_CREATION, line no: 213, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,this,THIS_EXPRESSION, line no: 213, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,cause,SIMPLE_NAME, line no: 215, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,ioe.getCause() == null ? null : ioe.getCause().getMessage(),CONDITIONAL_EXPRESSION, line no: 215, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,ioe.getCause() == null,INFIX_EXPRESSION, line no: 215, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,ioe.getCause(),METHOD_INVOCATION, line no: 215, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getCause,SIMPLE_NAME, line no: 215, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,ioe.getCause().getMessage(),METHOD_INVOCATION, line no: 215, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getMessage,SIMPLE_NAME, line no: 215, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,msg,SIMPLE_NAME, line no: 216, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"MESSAGE: " + ioe.getMessage() + " - CAUSE: "+ cause,INFIX_EXPRESSION, line no: 216, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"MESSAGE: ",STRING_LITERAL, line no: 216, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,ioe.getMessage(),METHOD_INVOCATION, line no: 216, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80," - CAUSE: ",STRING_LITERAL, line no: 216, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,new ActionException(this msg),CLASS_INSTANCE_CREATION, line no: 217, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,updateTask("Closing connections"),METHOD_INVOCATION, line no: 220, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"Closing connections",STRING_LITERAL, line no: 220, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,closeResource(sourceDataStore),METHOD_INVOCATION, line no: 221, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,closeResource,SIMPLE_NAME, line no: 221, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,closeResource(destDataStore),METHOD_INVOCATION, line no: 222, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,closeResource(transaction),METHOD_INVOCATION, line no: 223, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,features,SIMPLE_NAME, line no: 241, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,featureReader.getFeatures(query),METHOD_INVOCATION, line no: 241, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getFeatures,SIMPLE_NAME, line no: 242, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,features.features(),METHOD_INVOCATION, line no: 243, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,result,SIMPLE_NAME, line no: 256, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,new LinkedList<FileSystemEvent>(),CLASS_INSTANCE_CREATION, line no: 256, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,(FileSystemEvent)event,CAST_EXPRESSION, line no: 258, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,updateTask("Looking for compressed file"),METHOD_INVOCATION, line no: 259, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"Looking for compressed file",STRING_LITERAL, line no: 259, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,filePath,SIMPLE_NAME, line no: 261, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,fileEvent.getSource().getAbsolutePath(),METHOD_INVOCATION, line no: 261, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,fileEvent.getSource(),METHOD_INVOCATION, line no: 261, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getAbsolutePath,SIMPLE_NAME, line no: 261, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,uncompressedFolder,SIMPLE_NAME, line no: 262, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,Extract.extract(filePath),METHOD_INVOCATION, line no: 262, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,extract,SIMPLE_NAME, line no: 262, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,!uncompressedFolder.equals(filePath),PREFIX_EXPRESSION, line no: 263, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,uncompressedFolder.equals(filePath),METHOD_INVOCATION, line no: 263, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,equals,SIMPLE_NAME, line no: 263, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,updateTask("Compressed file extracted to " + uncompressedFolder),METHOD_INVOCATION, line no: 264, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"Compressed file extracted to " + uncompressedFolder,INFIX_EXPRESSION, line no: 264, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"Compressed file extracted to ",STRING_LITERAL, line no: 264, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,c,SIMPLE_NAME, line no: 265, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,new Collector(null),CLASS_INSTANCE_CREATION, line no: 265, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,fileList,SIMPLE_NAME, line no: 266, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,c.collect(new File(uncompressedFolder)),METHOD_INVOCATION, line no: 266, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,collect,SIMPLE_NAME, line no: 266, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,new File(uncompressedFolder),CLASS_INSTANCE_CREATION, line no: 266, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,fileList != null,INFIX_EXPRESSION, line no: 268, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,!file.isDirectory(),PREFIX_EXPRESSION, line no: 270, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,file.isDirectory(),METHOD_INVOCATION, line no: 270, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,isDirectory,SIMPLE_NAME, line no: 270, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,result.add(new FileSystemEvent(file fileEvent.getEventType())),METHOD_INVOCATION, line no: 271, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,new FileSystemEvent(file fileEvent.getEventType()),CLASS_INSTANCE_CREATION, line no: 271, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,fileEvent.getEventType(),METHOD_INVOCATION, line no: 271, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getEventType,SIMPLE_NAME, line no: 271, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,updateTask("File is not compressed"),METHOD_INVOCATION, line no: 277, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"File is not compressed",STRING_LITERAL, line no: 277, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,result.add(fileEvent),METHOD_INVOCATION, line no: 278, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,new ActionException(this e.getMessage()),CLASS_INSTANCE_CREATION, line no: 281, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,e.getMessage(),METHOD_INVOCATION, line no: 281, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,typeName,SIMPLE_NAME, line no: 296, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,configuration.getOutputFeature().getTypeName(),METHOD_INVOCATION, line no: 296, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,configuration.getOutputFeature(),METHOD_INVOCATION, line no: 296, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getOutputFeature,SIMPLE_NAME, line no: 296, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getTypeName,SIMPLE_NAME, line no: 296, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,typeName == null,INFIX_EXPRESSION, line no: 297, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,typeName=sourceSchema.getTypeName(),ASSIGNMENT, line no: 298, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,sourceSchema.getTypeName(),METHOD_INVOCATION, line no: 298, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,configuration.getOutputFeature().setTypeName(typeName),METHOD_INVOCATION, line no: 299, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,setTypeName,SIMPLE_NAME, line no: 299, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,configuration.getOutputFeature().getCoordinateReferenceSystem(),METHOD_INVOCATION, line no: 301, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getCoordinateReferenceSystem,SIMPLE_NAME, line no: 302, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,crs == null,INFIX_EXPRESSION, line no: 303, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,crs=sourceSchema.getCoordinateReferenceSystem(),ASSIGNMENT, line no: 304, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,sourceSchema.getCoordinateReferenceSystem(),METHOD_INVOCATION, line no: 304, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,configuration.getOutputFeature().setCoordinateReferenceSystem(crs),METHOD_INVOCATION, line no: 305, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,setCoordinateReferenceSystem,SIMPLE_NAME, line no: 305, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,new SimpleFeatureTypeBuilder(),CLASS_INSTANCE_CREATION, line no: 307, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,builder.setCRS(crs),METHOD_INVOCATION, line no: 308, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,setCRS,SIMPLE_NAME, line no: 308, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,builder.setName(typeName),METHOD_INVOCATION, line no: 309, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,setName,SIMPLE_NAME, line no: 309, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,buildOutputAttributes(sourceSchema),METHOD_INVOCATION, line no: 311, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,buildOutputAttributes,SIMPLE_NAME, line no: 311, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,builder.add(buildSchemaAttribute(attributeName sourceSchema crs)),METHOD_INVOCATION, line no: 312, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,buildSchemaAttribute(attributeName sourceSchema crs),METHOD_INVOCATION, line no: 312, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,buildSchemaAttribute,SIMPLE_NAME, line no: 312, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,builder.buildFeatureType(),METHOD_INVOCATION, line no: 314, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,buildFeatureType,SIMPLE_NAME, line no: 314, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,configuration.isProjectOnMappings(),METHOD_INVOCATION, line no: 326, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,isProjectOnMappings,SIMPLE_NAME, line no: 326, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings().keySet(),METHOD_INVOCATION, line no: 327, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings(),METHOD_INVOCATION, line no: 327, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getAttributeMappings,SIMPLE_NAME, line no: 327, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,keySet,SIMPLE_NAME, line no: 327, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,attributes,SIMPLE_NAME, line no: 329, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,new ArrayList<String>(),CLASS_INSTANCE_CREATION, line no: 329, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,sourceSchema.getAttributeDescriptors(),METHOD_INVOCATION, line no: 330, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getAttributeDescriptors,SIMPLE_NAME, line no: 330, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,attributes.add(getAttributeMapping(attr.getLocalName())),METHOD_INVOCATION, line no: 331, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getAttributeMapping(attr.getLocalName()),METHOD_INVOCATION, line no: 331, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getAttributeMapping,SIMPLE_NAME, line no: 331, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,attr.getLocalName(),METHOD_INVOCATION, line no: 331, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getLocalName,SIMPLE_NAME, line no: 331, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings().get(outputName).toString().equals(localName),METHOD_INVOCATION, line no: 345, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings().get(outputName).toString(),METHOD_INVOCATION, line no: 345, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings().get(outputName),METHOD_INVOCATION, line no: 345, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,get,SIMPLE_NAME, line no: 345, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,toString,SIMPLE_NAME, line no: 345, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings().containsKey(attributeName),METHOD_INVOCATION, line no: 363, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,containsKey,SIMPLE_NAME, line no: 363, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,attr=schema.getDescriptor(configuration.getAttributeMappings().get(attributeName).toString()),ASSIGNMENT, line no: 364, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,schema.getDescriptor(configuration.getAttributeMappings().get(attributeName).toString()),METHOD_INVOCATION, line no: 364, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getDescriptor,SIMPLE_NAME, line no: 364, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings().get(attributeName).toString(),METHOD_INVOCATION, line no: 364, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings().get(attributeName),METHOD_INVOCATION, line no: 364, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,attr=schema.getDescriptor(attributeName),ASSIGNMENT, line no: 367, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,schema.getDescriptor(attributeName),METHOD_INVOCATION, line no: 367, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,new AttributeTypeBuilder(),CLASS_INSTANCE_CREATION, line no: 369, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,builder.setName(attr.getLocalName()),METHOD_INVOCATION, line no: 370, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,builder.setBinding(attr.getType().getBinding()),METHOD_INVOCATION, line no: 371, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,setBinding,SIMPLE_NAME, line no: 371, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,attr.getType().getBinding(),METHOD_INVOCATION, line no: 371, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,attr.getType(),METHOD_INVOCATION, line no: 371, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getType,SIMPLE_NAME, line no: 371, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getBinding,SIMPLE_NAME, line no: 371, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,attr instanceof GeometryDescriptor,INSTANCEOF_EXPRESSION, line no: 372, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,crs=((GeometryDescriptor)attr).getCoordinateReferenceSystem(),ASSIGNMENT, line no: 374, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,((GeometryDescriptor)attr).getCoordinateReferenceSystem(),METHOD_INVOCATION, line no: 374, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,((GeometryDescriptor)attr),PARENTHESIZED_EXPRESSION, line no: 374, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,(GeometryDescriptor)attr,CAST_EXPRESSION, line no: 374, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,builder.setMinOccurs(attr.getMinOccurs()),METHOD_INVOCATION, line no: 380, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,setMinOccurs,SIMPLE_NAME, line no: 380, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,attr.getMinOccurs(),METHOD_INVOCATION, line no: 380, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getMinOccurs,SIMPLE_NAME, line no: 380, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,builder.setMaxOccurs(attr.getMaxOccurs()),METHOD_INVOCATION, line no: 381, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,setMaxOccurs,SIMPLE_NAME, line no: 381, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,attr.getMaxOccurs(),METHOD_INVOCATION, line no: 381, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getMaxOccurs,SIMPLE_NAME, line no: 381, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,builder.setNillable(attr.isNillable()),METHOD_INVOCATION, line no: 382, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,setNillable,SIMPLE_NAME, line no: 382, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,attr.isNillable(),METHOD_INVOCATION, line no: 382, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,isNillable,SIMPLE_NAME, line no: 382, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,builder.buildDescriptor(attributeName),METHOD_INVOCATION, line no: 384, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,buildDescriptor,SIMPLE_NAME, line no: 384, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,updateTask("Recognize file type"),METHOD_INVOCATION, line no: 408, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"Recognize file type",STRING_LITERAL, line no: 408, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,accepted,SIMPLE_NAME, line no: 409, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,fileType,SIMPLE_NAME, line no: 411, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getFileType(event),METHOD_INVOCATION, line no: 411, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getFileType,SIMPLE_NAME, line no: 411, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,acceptedFileTypes.contains(fileType),METHOD_INVOCATION, line no: 412, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,contains,SIMPLE_NAME, line no: 412, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,LOGGER.isTraceEnabled(),METHOD_INVOCATION, line no: 413, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,isTraceEnabled,SIMPLE_NAME, line no: 413, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,LOGGER.trace("Accepted file: " + event.getSource().getName()),METHOD_INVOCATION, line no: 414, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,trace,SIMPLE_NAME, line no: 414, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"Accepted file: " + event.getSource().getName(),INFIX_EXPRESSION, line no: 414, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"Accepted file: ",STRING_LITERAL, line no: 414, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,event.getSource().getName(),METHOD_INVOCATION, line no: 414, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,event.getSource(),METHOD_INVOCATION, line no: 414, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,getName,SIMPLE_NAME, line no: 414, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,accepted.add(event),METHOD_INVOCATION, line no: 416, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,LOGGER.trace("Skipped file: " + event.getSource().getName()),METHOD_INVOCATION, line no: 419, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"Skipped file: " + event.getSource().getName(),INFIX_EXPRESSION, line no: 419, 0.5, 0.5, 0.0
+actionConfiguration,SIMPLE_NAME, line no: 80,"Skipped file: ",STRING_LITERAL, line no: 419, 0.5, 0.5, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,it,SIMPLE_NAME, line no: 23, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,geosolutions,SIMPLE_NAME, line no: 23, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,geobatch,SIMPLE_NAME, line no: 23, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,actions,SIMPLE_NAME, line no: 23, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,ds2ds,SIMPLE_NAME, line no: 23, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,filesystemmonitor,SIMPLE_NAME, line no: 25, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,monitor,SIMPLE_NAME, line no: 25, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,annotations,SIMPLE_NAME, line no: 26, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,Action,SIMPLE_NAME, line no: 26, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,CheckConfiguration,SIMPLE_NAME, line no: 27, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,configuration,SIMPLE_NAME, line no: 28, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,action,SIMPLE_NAME, line no: 28, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,flow,SIMPLE_NAME, line no: 29, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,tools,SIMPLE_NAME, line no: 30, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,compress,SIMPLE_NAME, line no: 30, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,Extract,SIMPLE_NAME, line no: 30, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,io,SIMPLE_NAME, line no: 31, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,java,SIMPLE_NAME, line no: 33, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,util,SIMPLE_NAME, line no: 35, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,Arrays,SIMPLE_NAME, line no: 36, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,org,SIMPLE_NAME, line no: 44, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,geotools,SIMPLE_NAME, line no: 44, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,data,SIMPLE_NAME, line no: 44, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,DataUtilities,SIMPLE_NAME, line no: 45, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,feature,SIMPLE_NAME, line no: 50, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,simple,SIMPLE_NAME, line no: 53, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,opengis,SIMPLE_NAME, line no: 55, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,type,SIMPLE_NAME, line no: 57, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,referencing,SIMPLE_NAME, line no: 59, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,slf4j,SIMPLE_NAME, line no: 60, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,LoggerFactory,SIMPLE_NAME, line no: 61, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,configurationClass,SIMPLE_NAME, line no: 71, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,LOGGER,SIMPLE_NAME, line no: 74, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getLogger,SIMPLE_NAME, line no: 74, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,acceptedFileTypes,SIMPLE_NAME, line no: 76, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,asList,SIMPLE_NAME, line no: 76, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,configuration=super.configuration,ASSIGNMENT, line no: 82, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,super.configuration,SUPER_FIELD_ACCESS, line no: 82, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,Override,SIMPLE_NAME, line no: 85, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,checkConfiguration,SIMPLE_NAME, line no: 87, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,LOGGER.info("Calculating if this action could be Created..."),METHOD_INVOCATION, line no: 88, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,info,SIMPLE_NAME, line no: 88, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"Calculating if this action could be Created...",STRING_LITERAL, line no: 88, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,true,BOOLEAN_LITERAL, line no: 89, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,execute,SIMPLE_NAME, line no: 97, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,outputEvents,SIMPLE_NAME, line no: 101, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,new LinkedList<EventObject>(),CLASS_INSTANCE_CREATION, line no: 101, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,events.size() > 0,INFIX_EXPRESSION, line no: 103, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,events.size(),METHOD_INVOCATION, line no: 103, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,size,SIMPLE_NAME, line no: 103, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,0,NUMBER_LITERAL, line no: 103, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,ev,SIMPLE_NAME, line no: 104, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,(ev=events.remove()) != null,INFIX_EXPRESSION, line no: 106, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,(ev=events.remove()),PARENTHESIZED_EXPRESSION, line no: 106, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,ev=events.remove(),ASSIGNMENT, line no: 106, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,events.remove(),METHOD_INVOCATION, line no: 106, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,remove,SIMPLE_NAME, line no: 106, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,null,NULL_LITERAL, line no: 106, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,listenerForwarder.started(),METHOD_INVOCATION, line no: 107, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,listenerForwarder,SIMPLE_NAME, line no: 107, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,started,SIMPLE_NAME, line no: 107, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,updateTask("Working on incoming event: " + ev.getSource()),METHOD_INVOCATION, line no: 109, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,updateTask,SIMPLE_NAME, line no: 109, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"Working on incoming event: " + ev.getSource(),INFIX_EXPRESSION, line no: 109, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"Working on incoming event: ",STRING_LITERAL, line no: 109, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,ev.getSource(),METHOD_INVOCATION, line no: 109, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getSource,SIMPLE_NAME, line no: 109, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,acceptableFiles,SIMPLE_NAME, line no: 111, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,acceptableFiles(unpackCompressedFiles(ev)),METHOD_INVOCATION, line no: 111, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,unpackCompressedFiles(ev),METHOD_INVOCATION, line no: 111, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,unpackCompressedFiles,SIMPLE_NAME, line no: 111, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,acceptableFiles.size() == 0,INFIX_EXPRESSION, line no: 112, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,acceptableFiles.size(),METHOD_INVOCATION, line no: 112, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,failAction("No file to process"),METHOD_INVOCATION, line no: 113, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,failAction,SIMPLE_NAME, line no: 113, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"No file to process",STRING_LITERAL, line no: 113, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,output,SIMPLE_NAME, line no: 116, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,importFile(fileEvent),METHOD_INVOCATION, line no: 116, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,importFile,SIMPLE_NAME, line no: 116, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,output != null,INFIX_EXPRESSION, line no: 117, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,outputEvents.add(output),METHOD_INVOCATION, line no: 119, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,add,SIMPLE_NAME, line no: 119, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,LOGGER.isWarnEnabled(),METHOD_INVOCATION, line no: 121, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,isWarnEnabled,SIMPLE_NAME, line no: 121, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,LOGGER.warn("No output produced"),METHOD_INVOCATION, line no: 122, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,warn,SIMPLE_NAME, line no: 122, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"No output produced",STRING_LITERAL, line no: 122, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,LOGGER.isErrorEnabled(),METHOD_INVOCATION, line no: 129, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,isErrorEnabled,SIMPLE_NAME, line no: 129, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,LOGGER.error("Encountered a NULL event: SKIPPING..."),METHOD_INVOCATION, line no: 130, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,error,SIMPLE_NAME, line no: 130, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"Encountered a NULL event: SKIPPING...",STRING_LITERAL, line no: 130, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,failAction("Unable to produce the output  " + ioe.getLocalizedMessage()),METHOD_INVOCATION, line no: 135, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"Unable to produce the output  " + ioe.getLocalizedMessage(),INFIX_EXPRESSION, line no: 135, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"Unable to produce the output  ",STRING_LITERAL, line no: 135, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,ioe.getLocalizedMessage(),METHOD_INVOCATION, line no: 136, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getLocalizedMessage,SIMPLE_NAME, line no: 136, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,failAction("Unable to produce the output: " + ioe.getLocalizedMessage()),METHOD_INVOCATION, line no: 138, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"Unable to produce the output: " + ioe.getLocalizedMessage(),INFIX_EXPRESSION, line no: 138, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"Unable to produce the output: ",STRING_LITERAL, line no: 138, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,sourceDataStore,SIMPLE_NAME, line no: 154, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,destDataStore,SIMPLE_NAME, line no: 155, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,transaction,SIMPLE_NAME, line no: 157, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,new DefaultTransaction("create"),CLASS_INSTANCE_CREATION, line no: 157, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"create",STRING_LITERAL, line no: 157, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,sourceDataStore=createSourceDataStore(fileEvent),ASSIGNMENT, line no: 160, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,createSourceDataStore(fileEvent),METHOD_INVOCATION, line no: 160, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,createSourceDataStore,SIMPLE_NAME, line no: 160, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,buildSourceQuery(sourceDataStore),METHOD_INVOCATION, line no: 161, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,buildSourceQuery,SIMPLE_NAME, line no: 161, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,createSourceReader(sourceDataStore transaction query),METHOD_INVOCATION, line no: 162, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,createSourceReader,SIMPLE_NAME, line no: 162, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,destDataStore=createOutputDataStore(),ASSIGNMENT, line no: 166, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,createOutputDataStore(),METHOD_INVOCATION, line no: 166, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,createOutputDataStore,SIMPLE_NAME, line no: 166, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,buildDestinationSchema(featureReader.getSchema()),METHOD_INVOCATION, line no: 167, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,buildDestinationSchema,SIMPLE_NAME, line no: 167, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,featureReader.getSchema(),METHOD_INVOCATION, line no: 167, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getSchema,SIMPLE_NAME, line no: 168, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,featureWriter,SIMPLE_NAME, line no: 170, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,createOutputWriter(destDataStore schema transaction),METHOD_INVOCATION, line no: 170, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,createOutputWriter,SIMPLE_NAME, line no: 170, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,destSchema,SIMPLE_NAME, line no: 172, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,featureWriter.getSchema(),METHOD_INVOCATION, line no: 172, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,schemaDiffs,SIMPLE_NAME, line no: 175, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,compareSchemas(destSchema schema),METHOD_INVOCATION, line no: 175, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,compareSchemas,SIMPLE_NAME, line no: 175, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,builder,SIMPLE_NAME, line no: 176, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,new SimpleFeatureBuilder(destSchema),CLASS_INSTANCE_CREATION, line no: 176, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,purgeData(featureWriter),METHOD_INVOCATION, line no: 178, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,purgeData,SIMPLE_NAME, line no: 178, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,updateTask("Reading data"),METHOD_INVOCATION, line no: 180, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"Reading data",STRING_LITERAL, line no: 180, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,total,SIMPLE_NAME, line no: 181, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,featureReader.getCount(query),METHOD_INVOCATION, line no: 181, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getCount,SIMPLE_NAME, line no: 181, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,iterator,SIMPLE_NAME, line no: 182, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,createSourceIterator(query featureReader),METHOD_INVOCATION, line no: 182, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,createSourceIterator,SIMPLE_NAME, line no: 182, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,count,SIMPLE_NAME, line no: 185, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,iterator.hasNext(),METHOD_INVOCATION, line no: 186, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,hasNext,SIMPLE_NAME, line no: 186, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,buildFeature(builder iterator.next() schemaDiffs sourceDataStore),METHOD_INVOCATION, line no: 187, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,buildFeature,SIMPLE_NAME, line no: 187, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,iterator.next(),METHOD_INVOCATION, line no: 188, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,next,SIMPLE_NAME, line no: 188, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,featureWriter.addFeatures(DataUtilities.collection(feature)),METHOD_INVOCATION, line no: 189, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,addFeatures,SIMPLE_NAME, line no: 189, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,DataUtilities.collection(feature),METHOD_INVOCATION, line no: 189, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,collection,SIMPLE_NAME, line no: 190, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,count++,POSTFIX_EXPRESSION, line no: 191, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,count % 100 == 0,INFIX_EXPRESSION, line no: 192, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,count % 100,INFIX_EXPRESSION, line no: 192, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,100,NUMBER_LITERAL, line no: 192, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,updateImportProgress(count total "Importing data"),METHOD_INVOCATION, line no: 193, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,updateImportProgress,SIMPLE_NAME, line no: 193, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"Importing data",STRING_LITERAL, line no: 193, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,listenerForwarder.progressing(100F "Data imported"),METHOD_INVOCATION, line no: 196, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,progressing,SIMPLE_NAME, line no: 196, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,100F,NUMBER_LITERAL, line no: 196, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"Data imported",STRING_LITERAL, line no: 196, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,iterator.close(),METHOD_INVOCATION, line no: 199, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,close,SIMPLE_NAME, line no: 199, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,updateTask("Data imported"),METHOD_INVOCATION, line no: 201, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,transaction.commit(),METHOD_INVOCATION, line no: 202, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,commit,SIMPLE_NAME, line no: 202, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,listenerForwarder.completed(),METHOD_INVOCATION, line no: 203, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,completed,SIMPLE_NAME, line no: 203, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,buildOutputEvent(),METHOD_INVOCATION, line no: 204, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,buildOutputEvent,SIMPLE_NAME, line no: 204, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,transaction.rollback(),METHOD_INVOCATION, line no: 207, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,rollback,SIMPLE_NAME, line no: 207, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,message,SIMPLE_NAME, line no: 209, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"Transaction rollback unsuccessful: " + e1.getLocalizedMessage(),INFIX_EXPRESSION, line no: 209, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"Transaction rollback unsuccessful: ",STRING_LITERAL, line no: 209, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,e1.getLocalizedMessage(),METHOD_INVOCATION, line no: 210, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,LOGGER.error(message),METHOD_INVOCATION, line no: 212, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,new ActionException(this message),CLASS_INSTANCE_CREATION, line no: 213, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,this,THIS_EXPRESSION, line no: 213, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,cause,SIMPLE_NAME, line no: 215, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,ioe.getCause() == null ? null : ioe.getCause().getMessage(),CONDITIONAL_EXPRESSION, line no: 215, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,ioe.getCause() == null,INFIX_EXPRESSION, line no: 215, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,ioe.getCause(),METHOD_INVOCATION, line no: 215, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getCause,SIMPLE_NAME, line no: 215, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,ioe.getCause().getMessage(),METHOD_INVOCATION, line no: 215, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getMessage,SIMPLE_NAME, line no: 215, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,msg,SIMPLE_NAME, line no: 216, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"MESSAGE: " + ioe.getMessage() + " - CAUSE: "+ cause,INFIX_EXPRESSION, line no: 216, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"MESSAGE: ",STRING_LITERAL, line no: 216, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,ioe.getMessage(),METHOD_INVOCATION, line no: 216, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80," - CAUSE: ",STRING_LITERAL, line no: 216, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,new ActionException(this msg),CLASS_INSTANCE_CREATION, line no: 217, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,updateTask("Closing connections"),METHOD_INVOCATION, line no: 220, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"Closing connections",STRING_LITERAL, line no: 220, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,closeResource(sourceDataStore),METHOD_INVOCATION, line no: 221, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,closeResource,SIMPLE_NAME, line no: 221, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,closeResource(destDataStore),METHOD_INVOCATION, line no: 222, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,closeResource(transaction),METHOD_INVOCATION, line no: 223, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,features,SIMPLE_NAME, line no: 241, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,featureReader.getFeatures(query),METHOD_INVOCATION, line no: 241, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getFeatures,SIMPLE_NAME, line no: 242, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,features.features(),METHOD_INVOCATION, line no: 243, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,result,SIMPLE_NAME, line no: 256, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,new LinkedList<FileSystemEvent>(),CLASS_INSTANCE_CREATION, line no: 256, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,(FileSystemEvent)event,CAST_EXPRESSION, line no: 258, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,updateTask("Looking for compressed file"),METHOD_INVOCATION, line no: 259, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"Looking for compressed file",STRING_LITERAL, line no: 259, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,filePath,SIMPLE_NAME, line no: 261, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,fileEvent.getSource().getAbsolutePath(),METHOD_INVOCATION, line no: 261, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,fileEvent.getSource(),METHOD_INVOCATION, line no: 261, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getAbsolutePath,SIMPLE_NAME, line no: 261, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,uncompressedFolder,SIMPLE_NAME, line no: 262, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,Extract.extract(filePath),METHOD_INVOCATION, line no: 262, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,extract,SIMPLE_NAME, line no: 262, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,!uncompressedFolder.equals(filePath),PREFIX_EXPRESSION, line no: 263, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,uncompressedFolder.equals(filePath),METHOD_INVOCATION, line no: 263, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,equals,SIMPLE_NAME, line no: 263, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,updateTask("Compressed file extracted to " + uncompressedFolder),METHOD_INVOCATION, line no: 264, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"Compressed file extracted to " + uncompressedFolder,INFIX_EXPRESSION, line no: 264, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"Compressed file extracted to ",STRING_LITERAL, line no: 264, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,c,SIMPLE_NAME, line no: 265, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,new Collector(null),CLASS_INSTANCE_CREATION, line no: 265, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,fileList,SIMPLE_NAME, line no: 266, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,c.collect(new File(uncompressedFolder)),METHOD_INVOCATION, line no: 266, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,collect,SIMPLE_NAME, line no: 266, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,new File(uncompressedFolder),CLASS_INSTANCE_CREATION, line no: 266, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,fileList != null,INFIX_EXPRESSION, line no: 268, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,!file.isDirectory(),PREFIX_EXPRESSION, line no: 270, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,file.isDirectory(),METHOD_INVOCATION, line no: 270, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,isDirectory,SIMPLE_NAME, line no: 270, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,result.add(new FileSystemEvent(file fileEvent.getEventType())),METHOD_INVOCATION, line no: 271, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,new FileSystemEvent(file fileEvent.getEventType()),CLASS_INSTANCE_CREATION, line no: 271, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,fileEvent.getEventType(),METHOD_INVOCATION, line no: 271, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getEventType,SIMPLE_NAME, line no: 271, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,updateTask("File is not compressed"),METHOD_INVOCATION, line no: 277, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"File is not compressed",STRING_LITERAL, line no: 277, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,result.add(fileEvent),METHOD_INVOCATION, line no: 278, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,new ActionException(this e.getMessage()),CLASS_INSTANCE_CREATION, line no: 281, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,e.getMessage(),METHOD_INVOCATION, line no: 281, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,typeName,SIMPLE_NAME, line no: 296, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,configuration.getOutputFeature().getTypeName(),METHOD_INVOCATION, line no: 296, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,configuration.getOutputFeature(),METHOD_INVOCATION, line no: 296, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getOutputFeature,SIMPLE_NAME, line no: 296, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getTypeName,SIMPLE_NAME, line no: 296, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,typeName == null,INFIX_EXPRESSION, line no: 297, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,typeName=sourceSchema.getTypeName(),ASSIGNMENT, line no: 298, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,sourceSchema.getTypeName(),METHOD_INVOCATION, line no: 298, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,configuration.getOutputFeature().setTypeName(typeName),METHOD_INVOCATION, line no: 299, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,setTypeName,SIMPLE_NAME, line no: 299, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,configuration.getOutputFeature().getCoordinateReferenceSystem(),METHOD_INVOCATION, line no: 301, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getCoordinateReferenceSystem,SIMPLE_NAME, line no: 302, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,crs == null,INFIX_EXPRESSION, line no: 303, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,crs=sourceSchema.getCoordinateReferenceSystem(),ASSIGNMENT, line no: 304, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,sourceSchema.getCoordinateReferenceSystem(),METHOD_INVOCATION, line no: 304, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,configuration.getOutputFeature().setCoordinateReferenceSystem(crs),METHOD_INVOCATION, line no: 305, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,setCoordinateReferenceSystem,SIMPLE_NAME, line no: 305, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,new SimpleFeatureTypeBuilder(),CLASS_INSTANCE_CREATION, line no: 307, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,builder.setCRS(crs),METHOD_INVOCATION, line no: 308, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,setCRS,SIMPLE_NAME, line no: 308, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,builder.setName(typeName),METHOD_INVOCATION, line no: 309, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,setName,SIMPLE_NAME, line no: 309, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,buildOutputAttributes(sourceSchema),METHOD_INVOCATION, line no: 311, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,buildOutputAttributes,SIMPLE_NAME, line no: 311, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,builder.add(buildSchemaAttribute(attributeName sourceSchema crs)),METHOD_INVOCATION, line no: 312, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,buildSchemaAttribute(attributeName sourceSchema crs),METHOD_INVOCATION, line no: 312, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,buildSchemaAttribute,SIMPLE_NAME, line no: 312, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,builder.buildFeatureType(),METHOD_INVOCATION, line no: 314, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,buildFeatureType,SIMPLE_NAME, line no: 314, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,configuration.isProjectOnMappings(),METHOD_INVOCATION, line no: 326, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,isProjectOnMappings,SIMPLE_NAME, line no: 326, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings().keySet(),METHOD_INVOCATION, line no: 327, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings(),METHOD_INVOCATION, line no: 327, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getAttributeMappings,SIMPLE_NAME, line no: 327, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,keySet,SIMPLE_NAME, line no: 327, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,attributes,SIMPLE_NAME, line no: 329, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,new ArrayList<String>(),CLASS_INSTANCE_CREATION, line no: 329, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,sourceSchema.getAttributeDescriptors(),METHOD_INVOCATION, line no: 330, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getAttributeDescriptors,SIMPLE_NAME, line no: 330, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,attributes.add(getAttributeMapping(attr.getLocalName())),METHOD_INVOCATION, line no: 331, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getAttributeMapping(attr.getLocalName()),METHOD_INVOCATION, line no: 331, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getAttributeMapping,SIMPLE_NAME, line no: 331, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,attr.getLocalName(),METHOD_INVOCATION, line no: 331, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getLocalName,SIMPLE_NAME, line no: 331, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings().get(outputName).toString().equals(localName),METHOD_INVOCATION, line no: 345, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings().get(outputName).toString(),METHOD_INVOCATION, line no: 345, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings().get(outputName),METHOD_INVOCATION, line no: 345, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,get,SIMPLE_NAME, line no: 345, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,toString,SIMPLE_NAME, line no: 345, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings().containsKey(attributeName),METHOD_INVOCATION, line no: 363, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,containsKey,SIMPLE_NAME, line no: 363, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,attr=schema.getDescriptor(configuration.getAttributeMappings().get(attributeName).toString()),ASSIGNMENT, line no: 364, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,schema.getDescriptor(configuration.getAttributeMappings().get(attributeName).toString()),METHOD_INVOCATION, line no: 364, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getDescriptor,SIMPLE_NAME, line no: 364, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings().get(attributeName).toString(),METHOD_INVOCATION, line no: 364, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,configuration.getAttributeMappings().get(attributeName),METHOD_INVOCATION, line no: 364, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,attr=schema.getDescriptor(attributeName),ASSIGNMENT, line no: 367, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,schema.getDescriptor(attributeName),METHOD_INVOCATION, line no: 367, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,new AttributeTypeBuilder(),CLASS_INSTANCE_CREATION, line no: 369, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,builder.setName(attr.getLocalName()),METHOD_INVOCATION, line no: 370, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,builder.setBinding(attr.getType().getBinding()),METHOD_INVOCATION, line no: 371, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,setBinding,SIMPLE_NAME, line no: 371, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,attr.getType().getBinding(),METHOD_INVOCATION, line no: 371, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,attr.getType(),METHOD_INVOCATION, line no: 371, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getType,SIMPLE_NAME, line no: 371, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getBinding,SIMPLE_NAME, line no: 371, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,attr instanceof GeometryDescriptor,INSTANCEOF_EXPRESSION, line no: 372, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,crs=((GeometryDescriptor)attr).getCoordinateReferenceSystem(),ASSIGNMENT, line no: 374, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,((GeometryDescriptor)attr).getCoordinateReferenceSystem(),METHOD_INVOCATION, line no: 374, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,((GeometryDescriptor)attr),PARENTHESIZED_EXPRESSION, line no: 374, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,(GeometryDescriptor)attr,CAST_EXPRESSION, line no: 374, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,builder.setMinOccurs(attr.getMinOccurs()),METHOD_INVOCATION, line no: 380, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,setMinOccurs,SIMPLE_NAME, line no: 380, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,attr.getMinOccurs(),METHOD_INVOCATION, line no: 380, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getMinOccurs,SIMPLE_NAME, line no: 380, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,builder.setMaxOccurs(attr.getMaxOccurs()),METHOD_INVOCATION, line no: 381, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,setMaxOccurs,SIMPLE_NAME, line no: 381, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,attr.getMaxOccurs(),METHOD_INVOCATION, line no: 381, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getMaxOccurs,SIMPLE_NAME, line no: 381, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,builder.setNillable(attr.isNillable()),METHOD_INVOCATION, line no: 382, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,setNillable,SIMPLE_NAME, line no: 382, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,attr.isNillable(),METHOD_INVOCATION, line no: 382, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,isNillable,SIMPLE_NAME, line no: 382, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,builder.buildDescriptor(attributeName),METHOD_INVOCATION, line no: 384, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,buildDescriptor,SIMPLE_NAME, line no: 384, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,updateTask("Recognize file type"),METHOD_INVOCATION, line no: 408, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"Recognize file type",STRING_LITERAL, line no: 408, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,accepted,SIMPLE_NAME, line no: 409, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,fileType,SIMPLE_NAME, line no: 411, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getFileType(event),METHOD_INVOCATION, line no: 411, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getFileType,SIMPLE_NAME, line no: 411, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,acceptedFileTypes.contains(fileType),METHOD_INVOCATION, line no: 412, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,contains,SIMPLE_NAME, line no: 412, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,LOGGER.isTraceEnabled(),METHOD_INVOCATION, line no: 413, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,isTraceEnabled,SIMPLE_NAME, line no: 413, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,LOGGER.trace("Accepted file: " + event.getSource().getName()),METHOD_INVOCATION, line no: 414, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,trace,SIMPLE_NAME, line no: 414, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"Accepted file: " + event.getSource().getName(),INFIX_EXPRESSION, line no: 414, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"Accepted file: ",STRING_LITERAL, line no: 414, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,event.getSource().getName(),METHOD_INVOCATION, line no: 414, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,event.getSource(),METHOD_INVOCATION, line no: 414, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,getName,SIMPLE_NAME, line no: 414, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,accepted.add(event),METHOD_INVOCATION, line no: 416, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,LOGGER.trace("Skipped file: " + event.getSource().getName()),METHOD_INVOCATION, line no: 419, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"Skipped file: " + event.getSource().getName(),INFIX_EXPRESSION, line no: 419, 0.3333333333333333, 0.3333333333333333, 0.0
+ActionConfiguration,SIMPLE_NAME, line no: 80,"Skipped file: ",STRING_LITERAL, line no: 419, 0.3333333333333333, 0.3333333333333333, 0.0

@@ -35,7 +35,17 @@ public class ReplaceHandler {
 
 				ModelExtractor modelExtractor = ModelExtractor.createModelExtractor();
 				candidatePatch.genealogyScore = modelExtractor.getGenealogySimilarityScore(faultyNode.genealogy, fixingIngredient.genealogy);
-				if(faultyNode.type.equals("SIMPLE_NAME") && fixingIngredient.type.equals("SIMPLE_NAME")) {
+				if(faultyNode.type.equals("SIMPLE_NAME") || fixingIngredient.type.equals("SIMPLE_NAME")) {
+					IBinding faultyBinding = ((Expression)faultyNode.node).resolveTypeBinding();
+					IBinding fixingBinding = ((Expression)fixingIngredient.node).resolveTypeBinding();
+					if(faultyBinding!=null && fixingBinding!=null && faultyBinding.equals(fixingBinding)) {
+						//							System.out.println(faultyNode.node + " line : " + faultyNode.startLine);
+						//							System.out.println(fixingIngredient.node + " line : " + fixingIngredient.startLine);
+						candidatePatch.variableScore = 1.0;
+					}
+				}
+				
+				else if(faultyNode.type.equals("BOOLEAN_LITERAL") || fixingIngredient.type.equals("BOOLEAN_LITERAL")) {
 					IBinding faultyBinding = ((Expression)faultyNode.node).resolveTypeBinding();
 					IBinding fixingBinding = ((Expression)fixingIngredient.node).resolveTypeBinding();
 					if(faultyBinding!=null && fixingBinding!=null && faultyBinding.equals(fixingBinding)) {
@@ -47,7 +57,7 @@ public class ReplaceHandler {
 				else {
 					candidatePatch.variableScore = modelExtractor.getVariableSimilarityScore(faultyNode.variableAccessed, fixingIngredient.variableAccessed);
 				}
-				candidatePatch.score = candidatePatch.genealogyScore*candidatePatch.variableScore;
+				candidatePatch.score = candidatePatch.genealogyScore+candidatePatch.variableScore;
 //
 				if(candidatePatch.score>0) {
 					this.patchListUpdater.updatePatchList(candidatePatch);

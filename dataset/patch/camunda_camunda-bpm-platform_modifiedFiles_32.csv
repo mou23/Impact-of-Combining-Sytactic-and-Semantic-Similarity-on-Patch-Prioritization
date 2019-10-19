@@ -1,0 +1,957 @@
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,assertCommandContextNotActive,SIMPLE_NAME, line no: 91, 2.0, 0.8461538461538461, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,setTask,SIMPLE_NAME, line no: 296, 2.0, 0.9230769230769231, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,assertTaskAssociated,SIMPLE_NAME, line no: 329, 2.0, 0.9230769230769231, 1.0
+setTask,SIMPLE_NAME, line no: 381,assertCommandContextNotActive,SIMPLE_NAME, line no: 91, 2.0, 0.8571428571428571, 1.0
+setTask,SIMPLE_NAME, line no: 381,assertTaskAssociated,SIMPLE_NAME, line no: 329, 2.0, 0.9285714285714286, 1.0
+setTask,SIMPLE_NAME, line no: 381,assertCommandContextNotActive(),METHOD_INVOCATION, line no: 91, 1.9285714285714286, 0.8571428571428571, 1.0
+setTask,SIMPLE_NAME, line no: 381,cachedVariables.putAll(variables),METHOD_INVOCATION, line no: 114, 1.9285714285714286, 0.9285714285714286, 1.0
+setTask,SIMPLE_NAME, line no: 381,putAll,SIMPLE_NAME, line no: 114, 1.9285714285714286, 0.9285714285714286, 1.0
+setTask,SIMPLE_NAME, line no: 381,cachedVariables.putAll(processVariables),METHOD_INVOCATION, line no: 193, 1.9285714285714286, 0.9285714285714286, 1.0
+setTask,SIMPLE_NAME, line no: 381,associateExecutionById,SIMPLE_NAME, line no: 222, 1.9285714285714286, 0.07142857142857142, 1.0
+setTask,SIMPLE_NAME, line no: 381,assertExecutionAssociated(),METHOD_INVOCATION, line no: 255, 1.9285714285714286, 0.9285714285714286, 1.0
+setTask,SIMPLE_NAME, line no: 381,assertExecutionAssociated,SIMPLE_NAME, line no: 255, 1.9285714285714286, 0.9285714285714286, 1.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().setVariablesLocal(associationManager.getExecutionId() getAndClearVariableLocalCache()),METHOD_INVOCATION, line no: 256, 1.9285714285714286, 0.9285714285714286, 1.0
+setTask,SIMPLE_NAME, line no: 381,setVariablesLocal,SIMPLE_NAME, line no: 256, 1.9285714285714286, 0.9285714285714286, 1.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().signal(associationManager.getExecutionId() getAndClearVariableCache()),METHOD_INVOCATION, line no: 257, 1.9285714285714286, 0.9285714285714286, 1.0
+setTask,SIMPLE_NAME, line no: 381,signal,SIMPLE_NAME, line no: 257, 1.9285714285714286, 0.9285714285714286, 1.0
+setTask,SIMPLE_NAME, line no: 381,associationManager.disAssociate(),METHOD_INVOCATION, line no: 258, 1.9285714285714286, 0.9285714285714286, 1.0
+setTask,SIMPLE_NAME, line no: 381,disAssociate,SIMPLE_NAME, line no: 258, 1.9285714285714286, 0.9285714285714286, 1.0
+setTask,SIMPLE_NAME, line no: 381,associationManager.setTask(task),METHOD_INVOCATION, line no: 296, 1.9285714285714286, 0.9285714285714286, 1.0
+setTask,SIMPLE_NAME, line no: 381,associateExecutionById(task.getExecutionId()),METHOD_INVOCATION, line no: 297, 1.9285714285714286, 0.9285714285714286, 1.0
+setTask,SIMPLE_NAME, line no: 381,assertTaskAssociated(),METHOD_INVOCATION, line no: 329, 1.9285714285714286, 0.9285714285714286, 1.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getTaskService().setVariablesLocal(getTask().getId() getAndClearVariableLocalCache()),METHOD_INVOCATION, line no: 330, 1.9285714285714286, 0.9285714285714286, 1.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getTaskService().complete(getTask().getId() getAndClearVariableCache()),METHOD_INVOCATION, line no: 331, 1.9285714285714286, 0.9285714285714286, 1.0
+setTask,SIMPLE_NAME, line no: 381,complete,SIMPLE_NAME, line no: 331, 1.9285714285714286, 0.9285714285714286, 1.0
+setTask,SIMPLE_NAME, line no: 381,saveTask,SIMPLE_NAME, line no: 358, 1.9285714285714286, 0.07142857142857142, 1.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getTaskService().saveTask(task),METHOD_INVOCATION, line no: 364, 1.9285714285714286, 0.9285714285714286, 1.0
+setTask,SIMPLE_NAME, line no: 381,associationManager.setTask(null),METHOD_INVOCATION, line no: 381, 1.9285714285714286, 0.9285714285714286, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,putAll,SIMPLE_NAME, line no: 114, 1.9230769230769231, 0.9230769230769231, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,associateExecutionById,SIMPLE_NAME, line no: 222, 1.9230769230769231, 0.07692307692307693, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,associationManager.getExecutionId(),METHOD_INVOCATION, line no: 239, 1.9230769230769231, 0.38461538461538464, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,assertExecutionAssociated,SIMPLE_NAME, line no: 255, 1.9230769230769231, 0.9230769230769231, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,setVariablesLocal,SIMPLE_NAME, line no: 256, 1.9230769230769231, 0.9230769230769231, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,signal,SIMPLE_NAME, line no: 257, 1.9230769230769231, 0.9230769230769231, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,associationManager.disAssociate(),METHOD_INVOCATION, line no: 258, 1.9230769230769231, 0.9230769230769231, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,disAssociate,SIMPLE_NAME, line no: 258, 1.9230769230769231, 0.9230769230769231, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,complete,SIMPLE_NAME, line no: 331, 1.9230769230769231, 0.9230769230769231, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,saveTask,SIMPLE_NAME, line no: 358, 1.9230769230769231, 0.07692307692307693, 1.0
+setTask,SIMPLE_NAME, line no: 381,setExecution,SIMPLE_NAME, line no: 95, 1.8571428571428572, 0.5, 1.0
+setTask,SIMPLE_NAME, line no: 381,associationManager.setExecution(execution),METHOD_INVOCATION, line no: 230, 1.8571428571428572, 0.8571428571428571, 1.0
+setTask,SIMPLE_NAME, line no: 381,signalExecution,SIMPLE_NAME, line no: 254, 1.8571428571428572, 0.07142857142857142, 1.0
+setTask,SIMPLE_NAME, line no: 381,signalExecution(),METHOD_INVOCATION, line no: 267, 1.8571428571428572, 0.8571428571428571, 1.0
+setTask,SIMPLE_NAME, line no: 381,completeTask,SIMPLE_NAME, line no: 328, 1.8571428571428572, 0.07142857142857142, 1.0
+setTask,SIMPLE_NAME, line no: 381,completeTask(),METHOD_INVOCATION, line no: 342, 1.8571428571428572, 0.8571428571428571, 1.0
+setTask,SIMPLE_NAME, line no: 381,stopTask,SIMPLE_NAME, line no: 378, 1.8571428571428572, 0.07142857142857142, 1.0
+setTask,SIMPLE_NAME, line no: 381,stopTask(),METHOD_INVOCATION, line no: 399, 1.8571428571428572, 0.8571428571428571, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,setExecution,SIMPLE_NAME, line no: 95, 1.8461538461538463, 0.5384615384615384, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,signalExecution,SIMPLE_NAME, line no: 254, 1.8461538461538463, 0.07692307692307693, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,associationManager.getTask(),METHOD_INVOCATION, line no: 288, 1.8461538461538463, 0.8461538461538461, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,completeTask,SIMPLE_NAME, line no: 328, 1.8461538461538463, 0.07692307692307693, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,stopTask,SIMPLE_NAME, line no: 378, 1.8461538461538463, 0.07692307692307693, 1.0
+setTask,SIMPLE_NAME, line no: 381,cachedVariables.clear(),METHOD_INVOCATION, line no: 451, 1.7142857142857144, 0.7142857142857143, 1.0
+setTask,SIMPLE_NAME, line no: 381,clear,SIMPLE_NAME, line no: 451, 1.7142857142857144, 0.7142857142857143, 1.0
+setTask,SIMPLE_NAME, line no: 381,cachedVariablesLocal.clear(),METHOD_INVOCATION, line no: 508, 1.7142857142857144, 0.7142857142857143, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,clear,SIMPLE_NAME, line no: 451, 1.6923076923076923, 0.6923076923076923, 1.0
+setTask,SIMPLE_NAME, line no: 381,setVariable,SIMPLE_NAME, line no: 439, 1.6428571428571428, 0.07142857142857142, 1.0
+setTask,SIMPLE_NAME, line no: 381,setVariableLocal,SIMPLE_NAME, line no: 496, 1.6428571428571428, 0.07142857142857142, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,setVariable,SIMPLE_NAME, line no: 439, 1.6153846153846154, 0.07692307692307693, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,associationManager.setVariable(variableName value),METHOD_INVOCATION, line no: 440, 1.6153846153846154, 0.6153846153846154, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,associationManager.getCachedVariables(),METHOD_INVOCATION, line no: 449, 1.6153846153846154, 0.6153846153846154, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,setVariableLocal,SIMPLE_NAME, line no: 496, 1.6153846153846154, 0.07692307692307693, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,associationManager.setVariableLocal(variableName value),METHOD_INVOCATION, line no: 497, 1.6153846153846154, 0.6153846153846154, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,associationManager.getCachedVariablesLocal(),METHOD_INVOCATION, line no: 506, 1.6153846153846154, 0.6153846153846154, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,associationManager.getExecution(),METHOD_INVOCATION, line no: 583, 1.6153846153846154, 0.6153846153846154, 1.0
+setTask,SIMPLE_NAME, line no: 381,associationManager.setVariable(variableName value),METHOD_INVOCATION, line no: 440, 1.5714285714285714, 0.5714285714285714, 1.0
+setTask,SIMPLE_NAME, line no: 381,associationManager.setVariableLocal(variableName value),METHOD_INVOCATION, line no: 497, 1.5714285714285714, 0.5714285714285714, 1.0
+setTask,SIMPLE_NAME, line no: 381,associateExecutionById(execution.getId()),METHOD_INVOCATION, line no: 569, 1.5714285714285714, 0.5714285714285714, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,associationManager.getVariable(variableName),METHOD_INVOCATION, line no: 416, 1.5384615384615383, 0.5384615384615384, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,associationManager.getVariableLocal(variableName),METHOD_INVOCATION, line no: 473, 1.5384615384615383, 0.5384615384615384, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,flushVariableCache,SIMPLE_NAME, line no: 540, 1.5384615384615383, 0.07692307692307693, 1.0
+setTask,SIMPLE_NAME, line no: 381,flushVariableCache,SIMPLE_NAME, line no: 540, 1.5, 0.07142857142857142, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,associationManager.flushVariableCache(),METHOD_INVOCATION, line no: 541, 1.4615384615384617, 0.46153846153846156, 1.0
+setTask,SIMPLE_NAME, line no: 381,setExecution(instance),METHOD_INVOCATION, line no: 95, 1.4285714285714286, 0.42857142857142855, 1.0
+setTask,SIMPLE_NAME, line no: 381,associationManager.flushVariableCache(),METHOD_INVOCATION, line no: 541, 1.4285714285714286, 0.42857142857142855, 1.0
+setTask,SIMPLE_NAME, line no: 381,associateExecutionById(executionId),METHOD_INVOCATION, line no: 576, 1.4285714285714286, 0.42857142857142855, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getRuntimeService().setVariablesLocal(associationManager.getExecutionId() getAndClearVariableLocalCache()),METHOD_INVOCATION, line no: 256, 1.4230769230769231, 0.9230769230769231, 0.5
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getRuntimeService().signal(associationManager.getExecutionId() getAndClearVariableCache()),METHOD_INVOCATION, line no: 257, 1.4230769230769231, 0.9230769230769231, 0.5
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,associationManager.setTask(task),METHOD_INVOCATION, line no: 296, 1.4230769230769231, 0.9230769230769231, 0.5
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,new HashMap<String Object>(associationManager.getCachedVariables()),CLASS_INSTANCE_CREATION, line no: 461, 1.3846153846153846, 0.38461538461538464, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,new HashMap<String Object>(associationManager.getCachedVariablesLocal()),CLASS_INSTANCE_CREATION, line no: 518, 1.3846153846153846, 0.38461538461538464, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,associationManager.getExecution() == null,INFIX_EXPRESSION, line no: 644, 1.3846153846153846, 0.38461538461538464, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,associationManager.getTask() == null,INFIX_EXPRESSION, line no: 650, 1.3846153846153846, 0.38461538461538464, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,associationManager.setExecution(execution),METHOD_INVOCATION, line no: 230, 1.3461538461538463, 0.8461538461538461, 0.5
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,associationManager.getExecutionId() != null,INFIX_EXPRESSION, line no: 239, 1.3076923076923077, 0.3076923076923077, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,associationManager.getTask() != null,INFIX_EXPRESSION, line no: 349, 1.3076923076923077, 0.3076923076923077, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,setTaskId,SIMPLE_NAME, line no: 561, 1.0769230769230769, 0.07692307692307693, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,setExecutionId,SIMPLE_NAME, line no: 575, 1.0769230769230769, 0.07692307692307693, 1.0
+associationManager,SIMPLE_NAME, line no: 381,ContextAssociationManager,SIMPLE_NAME, line no: 30, 1.0714285714285714, 0.07142857142857142, 1.0
+setTask,SIMPLE_NAME, line no: 381,setTaskId,SIMPLE_NAME, line no: 561, 1.0714285714285714, 0.07142857142857142, 1.0
+setTask,SIMPLE_NAME, line no: 381,setExecutionId,SIMPLE_NAME, line no: 575, 1.0714285714285714, 0.07142857142857142, 1.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,associationManager,SIMPLE_NAME, line no: 86, 1.0, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,assertCommandContextNotActive(),METHOD_INVOCATION, line no: 91, 1.0, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,null,NULL_LITERAL, line no: 227, 1.0, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,assertTaskAssociated(),METHOD_INVOCATION, line no: 329, 1.0, 0.9230769230769231, 0.0
+associationManager,SIMPLE_NAME, line no: 381,org.camunda.bpm.engine.cdi.impl.context.ContextAssociationManager,QUALIFIED_NAME, line no: 30, 1.0, 0.0, 1.0
+associationManager,SIMPLE_NAME, line no: 381,assertCommandContextNotActive,SIMPLE_NAME, line no: 91, 1.0, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,setTask,SIMPLE_NAME, line no: 296, 1.0, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,assertTaskAssociated,SIMPLE_NAME, line no: 329, 1.0, 0.9285714285714286, 0.0
+setTask,SIMPLE_NAME, line no: 381,associationManager,SIMPLE_NAME, line no: 86, 1.0, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,task,SIMPLE_NAME, line no: 34, 0.9285714285714286, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine,SIMPLE_NAME, line no: 84, 0.9285714285714286, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,assertCommandContextNotActive(),METHOD_INVOCATION, line no: 91, 0.9285714285714286, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService(),METHOD_INVOCATION, line no: 93, 0.9285714285714286, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getRuntimeService,SIMPLE_NAME, line no: 93, 0.9285714285714286, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getAndClearVariableCache(),METHOD_INVOCATION, line no: 93, 0.9285714285714286, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getAndClearVariableCache,SIMPLE_NAME, line no: 93, 0.9285714285714286, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,variables,SIMPLE_NAME, line no: 110, 0.9285714285714286, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,cachedVariables,SIMPLE_NAME, line no: 113, 0.9285714285714286, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,cachedVariables.putAll(variables),METHOD_INVOCATION, line no: 114, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,putAll,SIMPLE_NAME, line no: 114, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processVariables,SIMPLE_NAME, line no: 189, 0.9285714285714286, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,cachedVariables.putAll(processVariables),METHOD_INVOCATION, line no: 193, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,associateExecutionById,SIMPLE_NAME, line no: 222, 0.9285714285714286, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,null,NULL_LITERAL, line no: 227, 0.9285714285714286, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,associationManager.getExecutionId(),METHOD_INVOCATION, line no: 239, 0.9285714285714286, 0.35714285714285715, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getExecutionId,SIMPLE_NAME, line no: 239, 0.9285714285714286, 0.42857142857142855, 0.0
+associationManager,SIMPLE_NAME, line no: 381,assertExecutionAssociated(),METHOD_INVOCATION, line no: 255, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,assertExecutionAssociated,SIMPLE_NAME, line no: 255, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().setVariablesLocal(associationManager.getExecutionId() getAndClearVariableLocalCache()),METHOD_INVOCATION, line no: 256, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,setVariablesLocal,SIMPLE_NAME, line no: 256, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getAndClearVariableLocalCache(),METHOD_INVOCATION, line no: 256, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getAndClearVariableLocalCache,SIMPLE_NAME, line no: 256, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().signal(associationManager.getExecutionId() getAndClearVariableCache()),METHOD_INVOCATION, line no: 257, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,signal,SIMPLE_NAME, line no: 257, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,associationManager.disAssociate(),METHOD_INVOCATION, line no: 258, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,disAssociate,SIMPLE_NAME, line no: 258, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getTask,SIMPLE_NAME, line no: 288, 0.9285714285714286, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getId,SIMPLE_NAME, line no: 289, 0.9285714285714286, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getTaskService(),METHOD_INVOCATION, line no: 292, 0.9285714285714286, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getTaskService,SIMPLE_NAME, line no: 292, 0.9285714285714286, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,associationManager.setTask(task),METHOD_INVOCATION, line no: 296, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,associateExecutionById(task.getExecutionId()),METHOD_INVOCATION, line no: 297, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,task.getExecutionId(),METHOD_INVOCATION, line no: 297, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,assertTaskAssociated(),METHOD_INVOCATION, line no: 329, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getTaskService().setVariablesLocal(getTask().getId() getAndClearVariableLocalCache()),METHOD_INVOCATION, line no: 330, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getTask().getId(),METHOD_INVOCATION, line no: 330, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getTask(),METHOD_INVOCATION, line no: 330, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getTaskService().complete(getTask().getId() getAndClearVariableCache()),METHOD_INVOCATION, line no: 331, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,complete,SIMPLE_NAME, line no: 331, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,saveTask,SIMPLE_NAME, line no: 358, 0.9285714285714286, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getTaskService().saveTask(task),METHOD_INVOCATION, line no: 364, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager,SIMPLE_NAME, line no: 381,associationManager.setTask(null),METHOD_INVOCATION, line no: 381, 0.9285714285714286, 0.9285714285714286, 0.0
+setTask,SIMPLE_NAME, line no: 381,task,SIMPLE_NAME, line no: 34, 0.9285714285714286, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,processEngine,SIMPLE_NAME, line no: 84, 0.9285714285714286, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService(),METHOD_INVOCATION, line no: 93, 0.9285714285714286, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,getRuntimeService,SIMPLE_NAME, line no: 93, 0.9285714285714286, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,getAndClearVariableCache(),METHOD_INVOCATION, line no: 93, 0.9285714285714286, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,getAndClearVariableCache,SIMPLE_NAME, line no: 93, 0.9285714285714286, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,variables,SIMPLE_NAME, line no: 110, 0.9285714285714286, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,cachedVariables,SIMPLE_NAME, line no: 113, 0.9285714285714286, 0.8571428571428571, 0.0
+setTask,SIMPLE_NAME, line no: 381,processVariables,SIMPLE_NAME, line no: 189, 0.9285714285714286, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,null,NULL_LITERAL, line no: 227, 0.9285714285714286, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,associationManager.getExecutionId(),METHOD_INVOCATION, line no: 239, 0.9285714285714286, 0.35714285714285715, 0.0
+setTask,SIMPLE_NAME, line no: 381,getExecutionId,SIMPLE_NAME, line no: 239, 0.9285714285714286, 0.42857142857142855, 0.0
+setTask,SIMPLE_NAME, line no: 381,getAndClearVariableLocalCache(),METHOD_INVOCATION, line no: 256, 0.9285714285714286, 0.9285714285714286, 0.0
+setTask,SIMPLE_NAME, line no: 381,getAndClearVariableLocalCache,SIMPLE_NAME, line no: 256, 0.9285714285714286, 0.9285714285714286, 0.0
+setTask,SIMPLE_NAME, line no: 381,getTask,SIMPLE_NAME, line no: 288, 0.9285714285714286, 0.8571428571428571, 0.0
+setTask,SIMPLE_NAME, line no: 381,getId,SIMPLE_NAME, line no: 289, 0.9285714285714286, 0.8571428571428571, 0.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getTaskService(),METHOD_INVOCATION, line no: 292, 0.9285714285714286, 0.8571428571428571, 0.0
+setTask,SIMPLE_NAME, line no: 381,getTaskService,SIMPLE_NAME, line no: 292, 0.9285714285714286, 0.8571428571428571, 0.0
+setTask,SIMPLE_NAME, line no: 381,task.getExecutionId(),METHOD_INVOCATION, line no: 297, 0.9285714285714286, 0.9285714285714286, 0.0
+setTask,SIMPLE_NAME, line no: 381,getTask().getId(),METHOD_INVOCATION, line no: 330, 0.9285714285714286, 0.9285714285714286, 0.0
+setTask,SIMPLE_NAME, line no: 381,getTask(),METHOD_INVOCATION, line no: 330, 0.9285714285714286, 0.9285714285714286, 0.0
+null,NULL_LITERAL, line no: 381,task,SIMPLE_NAME, line no: 34, 0.9285714285714286, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,associationManager,SIMPLE_NAME, line no: 86, 0.9285714285714286, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,assertCommandContextNotActive(),METHOD_INVOCATION, line no: 91, 0.9285714285714286, 0.7857142857142857, 0.0
+null,NULL_LITERAL, line no: 381,assertCommandContextNotActive,SIMPLE_NAME, line no: 91, 0.9285714285714286, 0.7857142857142857, 0.0
+null,NULL_LITERAL, line no: 381,associateExecutionById,SIMPLE_NAME, line no: 222, 0.9285714285714286, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,getExecutionId,SIMPLE_NAME, line no: 239, 0.9285714285714286, 0.42857142857142855, 0.0
+null,NULL_LITERAL, line no: 381,associationManager.setTask(task),METHOD_INVOCATION, line no: 296, 0.9285714285714286, 0.9285714285714286, 0.0
+null,NULL_LITERAL, line no: 381,setTask,SIMPLE_NAME, line no: 296, 0.9285714285714286, 0.9285714285714286, 0.0
+null,NULL_LITERAL, line no: 381,associateExecutionById(task.getExecutionId()),METHOD_INVOCATION, line no: 297, 0.9285714285714286, 0.9285714285714286, 0.0
+null,NULL_LITERAL, line no: 381,task.getExecutionId(),METHOD_INVOCATION, line no: 297, 0.9285714285714286, 0.9285714285714286, 0.0
+null,NULL_LITERAL, line no: 381,assertTaskAssociated(),METHOD_INVOCATION, line no: 329, 0.9285714285714286, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,assertTaskAssociated,SIMPLE_NAME, line no: 329, 0.9285714285714286, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,associationManager.setTask(null),METHOD_INVOCATION, line no: 381, 0.9285714285714286, 0.9285714285714286, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,task,SIMPLE_NAME, line no: 34, 0.9230769230769231, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine,SIMPLE_NAME, line no: 84, 0.9230769230769231, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getRuntimeService(),METHOD_INVOCATION, line no: 93, 0.9230769230769231, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getRuntimeService,SIMPLE_NAME, line no: 93, 0.9230769230769231, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getAndClearVariableCache(),METHOD_INVOCATION, line no: 93, 0.9230769230769231, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getAndClearVariableCache,SIMPLE_NAME, line no: 93, 0.9230769230769231, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,variables,SIMPLE_NAME, line no: 110, 0.9230769230769231, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,cachedVariables,SIMPLE_NAME, line no: 113, 0.9230769230769231, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,cachedVariables.putAll(variables),METHOD_INVOCATION, line no: 114, 0.9230769230769231, 0.9230769230769231, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processVariables,SIMPLE_NAME, line no: 189, 0.9230769230769231, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,cachedVariables.putAll(processVariables),METHOD_INVOCATION, line no: 193, 0.9230769230769231, 0.9230769230769231, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getExecutionId,SIMPLE_NAME, line no: 239, 0.9230769230769231, 0.46153846153846156, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,assertExecutionAssociated(),METHOD_INVOCATION, line no: 255, 0.9230769230769231, 0.9230769230769231, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getAndClearVariableLocalCache(),METHOD_INVOCATION, line no: 256, 0.9230769230769231, 0.9230769230769231, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getAndClearVariableLocalCache,SIMPLE_NAME, line no: 256, 0.9230769230769231, 0.9230769230769231, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getTask,SIMPLE_NAME, line no: 288, 0.9230769230769231, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getId,SIMPLE_NAME, line no: 289, 0.9230769230769231, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getTaskService(),METHOD_INVOCATION, line no: 292, 0.9230769230769231, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getTaskService,SIMPLE_NAME, line no: 292, 0.9230769230769231, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,associateExecutionById(task.getExecutionId()),METHOD_INVOCATION, line no: 297, 0.9230769230769231, 0.9230769230769231, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,task.getExecutionId(),METHOD_INVOCATION, line no: 297, 0.9230769230769231, 0.9230769230769231, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getTaskService().setVariablesLocal(getTask().getId() getAndClearVariableLocalCache()),METHOD_INVOCATION, line no: 330, 0.9230769230769231, 0.9230769230769231, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getTask().getId(),METHOD_INVOCATION, line no: 330, 0.9230769230769231, 0.9230769230769231, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getTask(),METHOD_INVOCATION, line no: 330, 0.9230769230769231, 0.9230769230769231, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getTaskService().complete(getTask().getId() getAndClearVariableCache()),METHOD_INVOCATION, line no: 331, 0.9230769230769231, 0.9230769230769231, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getTaskService().saveTask(task),METHOD_INVOCATION, line no: 364, 0.9230769230769231, 0.9230769230769231, 0.0
+associationManager,SIMPLE_NAME, line no: 381,Map,SIMPLE_NAME, line no: 17, 0.8571428571428571, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,ProcessInstance,SIMPLE_NAME, line no: 33, 0.8571428571428571, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,Task,SIMPLE_NAME, line no: 34, 0.8571428571428571, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,String,SIMPLE_NAME, line no: 90, 0.8571428571428571, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processDefinitionId,SIMPLE_NAME, line no: 90, 0.8571428571428571, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,instance,SIMPLE_NAME, line no: 93, 0.8571428571428571, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,startProcessInstanceById,SIMPLE_NAME, line no: 93, 0.8571428571428571, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,!instance.isEnded(),PREFIX_EXPRESSION, line no: 94, 0.8571428571428571, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,instance.isEnded(),METHOD_INVOCATION, line no: 94, 0.8571428571428571, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,isEnded,SIMPLE_NAME, line no: 94, 0.8571428571428571, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,setExecution,SIMPLE_NAME, line no: 95, 0.8571428571428571, 0.5, 0.0
+associationManager,SIMPLE_NAME, line no: 381,businessKey,SIMPLE_NAME, line no: 100, 0.8571428571428571, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,Object,SIMPLE_NAME, line no: 110, 0.8571428571428571, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().startProcessInstanceById(processDefinitionId cachedVariables),METHOD_INVOCATION, line no: 115, 0.8571428571428571, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().startProcessInstanceById(processDefinitionId businessKey cachedVariables),METHOD_INVOCATION, line no: 127, 0.8571428571428571, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,key,SIMPLE_NAME, line no: 134, 0.8571428571428571, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,startProcessInstanceByKey,SIMPLE_NAME, line no: 137, 0.8571428571428571, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().startProcessInstanceByKey(key cachedVariables),METHOD_INVOCATION, line no: 159, 0.8571428571428571, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().startProcessInstanceByKey(key businessKey cachedVariables),METHOD_INVOCATION, line no: 171, 0.8571428571428571, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,messageName,SIMPLE_NAME, line no: 178, 0.8571428571428571, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().startProcessInstanceByMessage(messageName cachedVariables),METHOD_INVOCATION, line no: 182, 0.8571428571428571, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,startProcessInstanceByMessage,SIMPLE_NAME, line no: 182, 0.8571428571428571, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().startProcessInstanceByMessage(messageName businessKey cachedVariables),METHOD_INVOCATION, line no: 206, 0.8571428571428571, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,execution,SIMPLE_NAME, line no: 223, 0.8571428571428571, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,singleResult,SIMPLE_NAME, line no: 226, 0.8571428571428571, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,associationManager.setExecution(execution),METHOD_INVOCATION, line no: 230, 0.8571428571428571, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,signalExecution,SIMPLE_NAME, line no: 254, 0.8571428571428571, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,signalExecution(),METHOD_INVOCATION, line no: 267, 0.8571428571428571, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,taskId,SIMPLE_NAME, line no: 287, 0.8571428571428571, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,currentTask,SIMPLE_NAME, line no: 288, 0.8571428571428571, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,associationManager.getTask(),METHOD_INVOCATION, line no: 288, 0.8571428571428571, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,currentTask != null && currentTask.getId().equals(taskId),INFIX_EXPRESSION, line no: 289, 0.8571428571428571, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,currentTask != null,INFIX_EXPRESSION, line no: 289, 0.8571428571428571, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,currentTask.getId().equals(taskId),METHOD_INVOCATION, line no: 289, 0.8571428571428571, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,currentTask.getId(),METHOD_INVOCATION, line no: 289, 0.8571428571428571, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,equals,SIMPLE_NAME, line no: 289, 0.8571428571428571, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getTaskService().createTaskQuery().taskId(taskId).singleResult(),METHOD_INVOCATION, line no: 292, 0.8571428571428571, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getTaskService().createTaskQuery().taskId(taskId),METHOD_INVOCATION, line no: 292, 0.8571428571428571, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getTaskService().createTaskQuery(),METHOD_INVOCATION, line no: 292, 0.8571428571428571, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,createTaskQuery,SIMPLE_NAME, line no: 292, 0.8571428571428571, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,task == null,INFIX_EXPRESSION, line no: 293, 0.8571428571428571, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,completeTask,SIMPLE_NAME, line no: 328, 0.8571428571428571, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,completeTask(),METHOD_INVOCATION, line no: 342, 0.8571428571428571, 0.8571428571428571, 0.0
+associationManager,SIMPLE_NAME, line no: 381,stopTask,SIMPLE_NAME, line no: 378, 0.8571428571428571, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,stopTask(),METHOD_INVOCATION, line no: 399, 0.8571428571428571, 0.8571428571428571, 0.0
+setTask,SIMPLE_NAME, line no: 381,Map,SIMPLE_NAME, line no: 17, 0.8571428571428571, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,ProcessInstance,SIMPLE_NAME, line no: 33, 0.8571428571428571, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,Task,SIMPLE_NAME, line no: 34, 0.8571428571428571, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,String,SIMPLE_NAME, line no: 90, 0.8571428571428571, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,processDefinitionId,SIMPLE_NAME, line no: 90, 0.8571428571428571, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,instance,SIMPLE_NAME, line no: 93, 0.8571428571428571, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,startProcessInstanceById,SIMPLE_NAME, line no: 93, 0.8571428571428571, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,!instance.isEnded(),PREFIX_EXPRESSION, line no: 94, 0.8571428571428571, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,instance.isEnded(),METHOD_INVOCATION, line no: 94, 0.8571428571428571, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,isEnded,SIMPLE_NAME, line no: 94, 0.8571428571428571, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,businessKey,SIMPLE_NAME, line no: 100, 0.8571428571428571, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,Object,SIMPLE_NAME, line no: 110, 0.8571428571428571, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().startProcessInstanceById(processDefinitionId cachedVariables),METHOD_INVOCATION, line no: 115, 0.8571428571428571, 0.8571428571428571, 0.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().startProcessInstanceById(processDefinitionId businessKey cachedVariables),METHOD_INVOCATION, line no: 127, 0.8571428571428571, 0.8571428571428571, 0.0
+setTask,SIMPLE_NAME, line no: 381,key,SIMPLE_NAME, line no: 134, 0.8571428571428571, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,startProcessInstanceByKey,SIMPLE_NAME, line no: 137, 0.8571428571428571, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().startProcessInstanceByKey(key cachedVariables),METHOD_INVOCATION, line no: 159, 0.8571428571428571, 0.8571428571428571, 0.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().startProcessInstanceByKey(key businessKey cachedVariables),METHOD_INVOCATION, line no: 171, 0.8571428571428571, 0.8571428571428571, 0.0
+setTask,SIMPLE_NAME, line no: 381,messageName,SIMPLE_NAME, line no: 178, 0.8571428571428571, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().startProcessInstanceByMessage(messageName cachedVariables),METHOD_INVOCATION, line no: 182, 0.8571428571428571, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,startProcessInstanceByMessage,SIMPLE_NAME, line no: 182, 0.8571428571428571, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().startProcessInstanceByMessage(messageName businessKey cachedVariables),METHOD_INVOCATION, line no: 206, 0.8571428571428571, 0.8571428571428571, 0.0
+setTask,SIMPLE_NAME, line no: 381,execution,SIMPLE_NAME, line no: 223, 0.8571428571428571, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,singleResult,SIMPLE_NAME, line no: 226, 0.8571428571428571, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,taskId,SIMPLE_NAME, line no: 287, 0.8571428571428571, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,currentTask,SIMPLE_NAME, line no: 288, 0.8571428571428571, 0.8571428571428571, 0.0
+setTask,SIMPLE_NAME, line no: 381,associationManager.getTask(),METHOD_INVOCATION, line no: 288, 0.8571428571428571, 0.8571428571428571, 0.0
+setTask,SIMPLE_NAME, line no: 381,currentTask != null && currentTask.getId().equals(taskId),INFIX_EXPRESSION, line no: 289, 0.8571428571428571, 0.8571428571428571, 0.0
+setTask,SIMPLE_NAME, line no: 381,currentTask != null,INFIX_EXPRESSION, line no: 289, 0.8571428571428571, 0.8571428571428571, 0.0
+setTask,SIMPLE_NAME, line no: 381,currentTask.getId().equals(taskId),METHOD_INVOCATION, line no: 289, 0.8571428571428571, 0.8571428571428571, 0.0
+setTask,SIMPLE_NAME, line no: 381,currentTask.getId(),METHOD_INVOCATION, line no: 289, 0.8571428571428571, 0.8571428571428571, 0.0
+setTask,SIMPLE_NAME, line no: 381,equals,SIMPLE_NAME, line no: 289, 0.8571428571428571, 0.8571428571428571, 0.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getTaskService().createTaskQuery().taskId(taskId).singleResult(),METHOD_INVOCATION, line no: 292, 0.8571428571428571, 0.8571428571428571, 0.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getTaskService().createTaskQuery().taskId(taskId),METHOD_INVOCATION, line no: 292, 0.8571428571428571, 0.8571428571428571, 0.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getTaskService().createTaskQuery(),METHOD_INVOCATION, line no: 292, 0.8571428571428571, 0.8571428571428571, 0.0
+setTask,SIMPLE_NAME, line no: 381,createTaskQuery,SIMPLE_NAME, line no: 292, 0.8571428571428571, 0.8571428571428571, 0.0
+setTask,SIMPLE_NAME, line no: 381,task == null,INFIX_EXPRESSION, line no: 293, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,Task,SIMPLE_NAME, line no: 34, 0.8571428571428571, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,processEngine,SIMPLE_NAME, line no: 84, 0.8571428571428571, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getRuntimeService(),METHOD_INVOCATION, line no: 93, 0.8571428571428571, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,getRuntimeService,SIMPLE_NAME, line no: 93, 0.8571428571428571, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,getAndClearVariableCache(),METHOD_INVOCATION, line no: 93, 0.8571428571428571, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,getAndClearVariableCache,SIMPLE_NAME, line no: 93, 0.8571428571428571, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,variables,SIMPLE_NAME, line no: 110, 0.8571428571428571, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,cachedVariables,SIMPLE_NAME, line no: 113, 0.8571428571428571, 0.7857142857142857, 0.0
+null,NULL_LITERAL, line no: 381,cachedVariables.putAll(variables),METHOD_INVOCATION, line no: 114, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,putAll,SIMPLE_NAME, line no: 114, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,processVariables,SIMPLE_NAME, line no: 189, 0.8571428571428571, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,cachedVariables.putAll(processVariables),METHOD_INVOCATION, line no: 193, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,singleResult,SIMPLE_NAME, line no: 226, 0.8571428571428571, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,associationManager.getExecutionId(),METHOD_INVOCATION, line no: 239, 0.8571428571428571, 0.35714285714285715, 0.0
+null,NULL_LITERAL, line no: 381,assertExecutionAssociated(),METHOD_INVOCATION, line no: 255, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,assertExecutionAssociated,SIMPLE_NAME, line no: 255, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getRuntimeService().setVariablesLocal(associationManager.getExecutionId() getAndClearVariableLocalCache()),METHOD_INVOCATION, line no: 256, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,setVariablesLocal,SIMPLE_NAME, line no: 256, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,getAndClearVariableLocalCache(),METHOD_INVOCATION, line no: 256, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,getAndClearVariableLocalCache,SIMPLE_NAME, line no: 256, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getRuntimeService().signal(associationManager.getExecutionId() getAndClearVariableCache()),METHOD_INVOCATION, line no: 257, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,signal,SIMPLE_NAME, line no: 257, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,associationManager.disAssociate(),METHOD_INVOCATION, line no: 258, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,disAssociate,SIMPLE_NAME, line no: 258, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,taskId,SIMPLE_NAME, line no: 287, 0.8571428571428571, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,currentTask,SIMPLE_NAME, line no: 288, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,associationManager.getTask(),METHOD_INVOCATION, line no: 288, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,getTask,SIMPLE_NAME, line no: 288, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,currentTask != null && currentTask.getId().equals(taskId),INFIX_EXPRESSION, line no: 289, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,currentTask != null,INFIX_EXPRESSION, line no: 289, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,currentTask.getId().equals(taskId),METHOD_INVOCATION, line no: 289, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,currentTask.getId(),METHOD_INVOCATION, line no: 289, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,getId,SIMPLE_NAME, line no: 289, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,equals,SIMPLE_NAME, line no: 289, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getTaskService().createTaskQuery().taskId(taskId).singleResult(),METHOD_INVOCATION, line no: 292, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getTaskService().createTaskQuery().taskId(taskId),METHOD_INVOCATION, line no: 292, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getTaskService().createTaskQuery(),METHOD_INVOCATION, line no: 292, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getTaskService(),METHOD_INVOCATION, line no: 292, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,getTaskService,SIMPLE_NAME, line no: 292, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,createTaskQuery,SIMPLE_NAME, line no: 292, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,task == null,INFIX_EXPRESSION, line no: 293, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getTaskService().setVariablesLocal(getTask().getId() getAndClearVariableLocalCache()),METHOD_INVOCATION, line no: 330, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,getTask().getId(),METHOD_INVOCATION, line no: 330, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,getTask(),METHOD_INVOCATION, line no: 330, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getTaskService().complete(getTask().getId() getAndClearVariableCache()),METHOD_INVOCATION, line no: 331, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,complete,SIMPLE_NAME, line no: 331, 0.8571428571428571, 0.8571428571428571, 0.0
+null,NULL_LITERAL, line no: 381,saveTask,SIMPLE_NAME, line no: 358, 0.8571428571428571, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getTaskService().saveTask(task),METHOD_INVOCATION, line no: 364, 0.8571428571428571, 0.8571428571428571, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,Map,SIMPLE_NAME, line no: 17, 0.8461538461538461, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,ProcessInstance,SIMPLE_NAME, line no: 33, 0.8461538461538461, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,Task,SIMPLE_NAME, line no: 34, 0.8461538461538461, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,String,SIMPLE_NAME, line no: 90, 0.8461538461538461, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processDefinitionId,SIMPLE_NAME, line no: 90, 0.8461538461538461, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,instance,SIMPLE_NAME, line no: 93, 0.8461538461538461, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,startProcessInstanceById,SIMPLE_NAME, line no: 93, 0.8461538461538461, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,!instance.isEnded(),PREFIX_EXPRESSION, line no: 94, 0.8461538461538461, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,instance.isEnded(),METHOD_INVOCATION, line no: 94, 0.8461538461538461, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,isEnded,SIMPLE_NAME, line no: 94, 0.8461538461538461, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,businessKey,SIMPLE_NAME, line no: 100, 0.8461538461538461, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,Object,SIMPLE_NAME, line no: 110, 0.8461538461538461, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getRuntimeService().startProcessInstanceById(processDefinitionId cachedVariables),METHOD_INVOCATION, line no: 115, 0.8461538461538461, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getRuntimeService().startProcessInstanceById(processDefinitionId businessKey cachedVariables),METHOD_INVOCATION, line no: 127, 0.8461538461538461, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,key,SIMPLE_NAME, line no: 134, 0.8461538461538461, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,startProcessInstanceByKey,SIMPLE_NAME, line no: 137, 0.8461538461538461, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getRuntimeService().startProcessInstanceByKey(key cachedVariables),METHOD_INVOCATION, line no: 159, 0.8461538461538461, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getRuntimeService().startProcessInstanceByKey(key businessKey cachedVariables),METHOD_INVOCATION, line no: 171, 0.8461538461538461, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,messageName,SIMPLE_NAME, line no: 178, 0.8461538461538461, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getRuntimeService().startProcessInstanceByMessage(messageName cachedVariables),METHOD_INVOCATION, line no: 182, 0.8461538461538461, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,startProcessInstanceByMessage,SIMPLE_NAME, line no: 182, 0.8461538461538461, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getRuntimeService().startProcessInstanceByMessage(messageName businessKey cachedVariables),METHOD_INVOCATION, line no: 206, 0.8461538461538461, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,execution,SIMPLE_NAME, line no: 223, 0.8461538461538461, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,singleResult,SIMPLE_NAME, line no: 226, 0.8461538461538461, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,signalExecution(),METHOD_INVOCATION, line no: 267, 0.8461538461538461, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,taskId,SIMPLE_NAME, line no: 287, 0.8461538461538461, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,currentTask,SIMPLE_NAME, line no: 288, 0.8461538461538461, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,currentTask != null && currentTask.getId().equals(taskId),INFIX_EXPRESSION, line no: 289, 0.8461538461538461, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,currentTask != null,INFIX_EXPRESSION, line no: 289, 0.8461538461538461, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,currentTask.getId().equals(taskId),METHOD_INVOCATION, line no: 289, 0.8461538461538461, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,currentTask.getId(),METHOD_INVOCATION, line no: 289, 0.8461538461538461, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,equals,SIMPLE_NAME, line no: 289, 0.8461538461538461, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getTaskService().createTaskQuery().taskId(taskId).singleResult(),METHOD_INVOCATION, line no: 292, 0.8461538461538461, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getTaskService().createTaskQuery().taskId(taskId),METHOD_INVOCATION, line no: 292, 0.8461538461538461, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getTaskService().createTaskQuery(),METHOD_INVOCATION, line no: 292, 0.8461538461538461, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,createTaskQuery,SIMPLE_NAME, line no: 292, 0.8461538461538461, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,task == null,INFIX_EXPRESSION, line no: 293, 0.8461538461538461, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,completeTask(),METHOD_INVOCATION, line no: 342, 0.8461538461538461, 0.8461538461538461, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,stopTask(),METHOD_INVOCATION, line no: 399, 0.8461538461538461, 0.8461538461538461, 0.0
+associationManager,SIMPLE_NAME, line no: 381,Execution,SIMPLE_NAME, line no: 32, 0.7857142857142857, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().startProcessInstanceById(processDefinitionId getAndClearVariableCache()),METHOD_INVOCATION, line no: 93, 0.7857142857142857, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().startProcessInstanceById(processDefinitionId businessKey getAndClearVariableCache()),METHOD_INVOCATION, line no: 103, 0.7857142857142857, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().startProcessInstanceByKey(key getAndClearVariableCache()),METHOD_INVOCATION, line no: 137, 0.7857142857142857, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().startProcessInstanceByKey(key businessKey getAndClearVariableCache()),METHOD_INVOCATION, line no: 147, 0.7857142857142857, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,executionId,SIMPLE_NAME, line no: 222, 0.7857142857142857, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().createExecutionQuery().executionId(executionId).singleResult(),METHOD_INVOCATION, line no: 223, 0.7857142857142857, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().createExecutionQuery().executionId(executionId),METHOD_INVOCATION, line no: 223, 0.7857142857142857, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().createExecutionQuery(),METHOD_INVOCATION, line no: 223, 0.7857142857142857, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,createExecutionQuery,SIMPLE_NAME, line no: 224, 0.7857142857142857, 0.7857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,execution == null,INFIX_EXPRESSION, line no: 227, 0.7857142857142857, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,Execution,SIMPLE_NAME, line no: 32, 0.7857142857142857, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().startProcessInstanceById(processDefinitionId getAndClearVariableCache()),METHOD_INVOCATION, line no: 93, 0.7857142857142857, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().startProcessInstanceById(processDefinitionId businessKey getAndClearVariableCache()),METHOD_INVOCATION, line no: 103, 0.7857142857142857, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().startProcessInstanceByKey(key getAndClearVariableCache()),METHOD_INVOCATION, line no: 137, 0.7857142857142857, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().startProcessInstanceByKey(key businessKey getAndClearVariableCache()),METHOD_INVOCATION, line no: 147, 0.7857142857142857, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,executionId,SIMPLE_NAME, line no: 222, 0.7857142857142857, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().createExecutionQuery().executionId(executionId).singleResult(),METHOD_INVOCATION, line no: 223, 0.7857142857142857, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().createExecutionQuery().executionId(executionId),METHOD_INVOCATION, line no: 223, 0.7857142857142857, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().createExecutionQuery(),METHOD_INVOCATION, line no: 223, 0.7857142857142857, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,createExecutionQuery,SIMPLE_NAME, line no: 224, 0.7857142857142857, 0.7857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,execution == null,INFIX_EXPRESSION, line no: 227, 0.7857142857142857, 0.7857142857142857, 0.0
+null,NULL_LITERAL, line no: 381,Map,SIMPLE_NAME, line no: 17, 0.7857142857142857, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,ProcessInstance,SIMPLE_NAME, line no: 33, 0.7857142857142857, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,String,SIMPLE_NAME, line no: 90, 0.7857142857142857, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,processDefinitionId,SIMPLE_NAME, line no: 90, 0.7857142857142857, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,instance,SIMPLE_NAME, line no: 93, 0.7857142857142857, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,startProcessInstanceById,SIMPLE_NAME, line no: 93, 0.7857142857142857, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,!instance.isEnded(),PREFIX_EXPRESSION, line no: 94, 0.7857142857142857, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,instance.isEnded(),METHOD_INVOCATION, line no: 94, 0.7857142857142857, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,isEnded,SIMPLE_NAME, line no: 94, 0.7857142857142857, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,setExecution,SIMPLE_NAME, line no: 95, 0.7857142857142857, 0.5, 0.0
+null,NULL_LITERAL, line no: 381,businessKey,SIMPLE_NAME, line no: 100, 0.7857142857142857, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,Object,SIMPLE_NAME, line no: 110, 0.7857142857142857, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getRuntimeService().startProcessInstanceById(processDefinitionId cachedVariables),METHOD_INVOCATION, line no: 115, 0.7857142857142857, 0.7857142857142857, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getRuntimeService().startProcessInstanceById(processDefinitionId businessKey cachedVariables),METHOD_INVOCATION, line no: 127, 0.7857142857142857, 0.7857142857142857, 0.0
+null,NULL_LITERAL, line no: 381,key,SIMPLE_NAME, line no: 134, 0.7857142857142857, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,startProcessInstanceByKey,SIMPLE_NAME, line no: 137, 0.7857142857142857, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getRuntimeService().startProcessInstanceByKey(key cachedVariables),METHOD_INVOCATION, line no: 159, 0.7857142857142857, 0.7857142857142857, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getRuntimeService().startProcessInstanceByKey(key businessKey cachedVariables),METHOD_INVOCATION, line no: 171, 0.7857142857142857, 0.7857142857142857, 0.0
+null,NULL_LITERAL, line no: 381,messageName,SIMPLE_NAME, line no: 178, 0.7857142857142857, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getRuntimeService().startProcessInstanceByMessage(messageName cachedVariables),METHOD_INVOCATION, line no: 182, 0.7857142857142857, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,startProcessInstanceByMessage,SIMPLE_NAME, line no: 182, 0.7857142857142857, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getRuntimeService().startProcessInstanceByMessage(messageName businessKey cachedVariables),METHOD_INVOCATION, line no: 206, 0.7857142857142857, 0.7857142857142857, 0.0
+null,NULL_LITERAL, line no: 381,execution,SIMPLE_NAME, line no: 223, 0.7857142857142857, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,associationManager.setExecution(execution),METHOD_INVOCATION, line no: 230, 0.7857142857142857, 0.7857142857142857, 0.0
+null,NULL_LITERAL, line no: 381,signalExecution,SIMPLE_NAME, line no: 254, 0.7857142857142857, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,signalExecution(),METHOD_INVOCATION, line no: 267, 0.7857142857142857, 0.7857142857142857, 0.0
+null,NULL_LITERAL, line no: 381,completeTask,SIMPLE_NAME, line no: 328, 0.7857142857142857, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,completeTask(),METHOD_INVOCATION, line no: 342, 0.7857142857142857, 0.7857142857142857, 0.0
+null,NULL_LITERAL, line no: 381,stopTask,SIMPLE_NAME, line no: 378, 0.7857142857142857, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,stopTask(),METHOD_INVOCATION, line no: 399, 0.7857142857142857, 0.7857142857142857, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,Execution,SIMPLE_NAME, line no: 32, 0.7692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,conversationInstance,SIMPLE_NAME, line no: 88, 0.7692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getRuntimeService().startProcessInstanceById(processDefinitionId getAndClearVariableCache()),METHOD_INVOCATION, line no: 93, 0.7692307692307693, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getRuntimeService().startProcessInstanceById(processDefinitionId businessKey getAndClearVariableCache()),METHOD_INVOCATION, line no: 103, 0.7692307692307693, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getRuntimeService().startProcessInstanceByKey(key getAndClearVariableCache()),METHOD_INVOCATION, line no: 137, 0.7692307692307693, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getRuntimeService().startProcessInstanceByKey(key businessKey getAndClearVariableCache()),METHOD_INVOCATION, line no: 147, 0.7692307692307693, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,executionId,SIMPLE_NAME, line no: 222, 0.7692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getRuntimeService().createExecutionQuery().executionId(executionId).singleResult(),METHOD_INVOCATION, line no: 223, 0.7692307692307693, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getRuntimeService().createExecutionQuery().executionId(executionId),METHOD_INVOCATION, line no: 223, 0.7692307692307693, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getRuntimeService().createExecutionQuery(),METHOD_INVOCATION, line no: 223, 0.7692307692307693, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,createExecutionQuery,SIMPLE_NAME, line no: 224, 0.7692307692307693, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,execution == null,INFIX_EXPRESSION, line no: 227, 0.7692307692307693, 0.7692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,get,SIMPLE_NAME, line no: 269, 0.7692307692307693, 0.7692307692307693, 0.0
+associationManager,SIMPLE_NAME, line no: 381,conversationInstance,SIMPLE_NAME, line no: 88, 0.7142857142857143, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,endConversation,SIMPLE_NAME, line no: 266, 0.7142857142857143, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,conversationInstance.get(),METHOD_INVOCATION, line no: 269, 0.7142857142857143, 0.6428571428571429, 0.0
+associationManager,SIMPLE_NAME, line no: 381,get,SIMPLE_NAME, line no: 269, 0.7142857142857143, 0.7142857142857143, 0.0
+associationManager,SIMPLE_NAME, line no: 381,startTask,SIMPLE_NAME, line no: 287, 0.7142857142857143, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,beginConversation,SIMPLE_NAME, line no: 306, 0.7142857142857143, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,conversation,SIMPLE_NAME, line no: 308, 0.7142857142857143, 0.6428571428571429, 0.0
+associationManager,SIMPLE_NAME, line no: 381,conversation.isTransient(),METHOD_INVOCATION, line no: 309, 0.7142857142857143, 0.7142857142857143, 0.0
+associationManager,SIMPLE_NAME, line no: 381,isTransient,SIMPLE_NAME, line no: 309, 0.7142857142857143, 0.7142857142857143, 0.0
+associationManager,SIMPLE_NAME, line no: 381,startTask(taskId),METHOD_INVOCATION, line no: 313, 0.7142857142857143, 0.7142857142857143, 0.0
+associationManager,SIMPLE_NAME, line no: 381,cachedVariables.clear(),METHOD_INVOCATION, line no: 451, 0.7142857142857143, 0.7142857142857143, 0.0
+associationManager,SIMPLE_NAME, line no: 381,clear,SIMPLE_NAME, line no: 451, 0.7142857142857143, 0.7142857142857143, 0.0
+associationManager,SIMPLE_NAME, line no: 381,cachedVariablesLocal,SIMPLE_NAME, line no: 506, 0.7142857142857143, 0.5714285714285714, 0.0
+associationManager,SIMPLE_NAME, line no: 381,cachedVariablesLocal.clear(),METHOD_INVOCATION, line no: 508, 0.7142857142857143, 0.7142857142857143, 0.0
+associationManager,SIMPLE_NAME, line no: 381,execution.getId(),METHOD_INVOCATION, line no: 569, 0.7142857142857143, 0.6428571428571429, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getProcessInstanceId,SIMPLE_NAME, line no: 582, 0.7142857142857143, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getExecution,SIMPLE_NAME, line no: 583, 0.7142857142857143, 0.6428571428571429, 0.0
+associationManager,SIMPLE_NAME, line no: 381,execution != null,INFIX_EXPRESSION, line no: 584, 0.7142857142857143, 0.5714285714285714, 0.0
+associationManager,SIMPLE_NAME, line no: 381,execution.getProcessInstanceId(),METHOD_INVOCATION, line no: 584, 0.7142857142857143, 0.6428571428571429, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getExecution(),METHOD_INVOCATION, line no: 618, 0.7142857142857143, 0.6428571428571429, 0.0
+associationManager,SIMPLE_NAME, line no: 381,execution != null && !(execution.getProcessInstanceId().equals(execution.getId())),INFIX_EXPRESSION, line no: 631, 0.7142857142857143, 0.7142857142857143, 0.0
+associationManager,SIMPLE_NAME, line no: 381,!(execution.getProcessInstanceId().equals(execution.getId())),PREFIX_EXPRESSION, line no: 631, 0.7142857142857143, 0.7142857142857143, 0.0
+associationManager,SIMPLE_NAME, line no: 381,(execution.getProcessInstanceId().equals(execution.getId())),PARENTHESIZED_EXPRESSION, line no: 631, 0.7142857142857143, 0.7142857142857143, 0.0
+associationManager,SIMPLE_NAME, line no: 381,execution.getProcessInstanceId().equals(execution.getId()),METHOD_INVOCATION, line no: 631, 0.7142857142857143, 0.7142857142857143, 0.0
+associationManager,SIMPLE_NAME, line no: 381,(ProcessInstance)execution,CAST_EXPRESSION, line no: 638, 0.7142857142857143, 0.7142857142857143, 0.0
+setTask,SIMPLE_NAME, line no: 381,conversationInstance,SIMPLE_NAME, line no: 88, 0.7142857142857143, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,endConversation,SIMPLE_NAME, line no: 266, 0.7142857142857143, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,conversationInstance.get(),METHOD_INVOCATION, line no: 269, 0.7142857142857143, 0.6428571428571429, 0.0
+setTask,SIMPLE_NAME, line no: 381,get,SIMPLE_NAME, line no: 269, 0.7142857142857143, 0.7142857142857143, 0.0
+setTask,SIMPLE_NAME, line no: 381,startTask,SIMPLE_NAME, line no: 287, 0.7142857142857143, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,beginConversation,SIMPLE_NAME, line no: 306, 0.7142857142857143, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,conversation,SIMPLE_NAME, line no: 308, 0.7142857142857143, 0.6428571428571429, 0.0
+setTask,SIMPLE_NAME, line no: 381,conversation.isTransient(),METHOD_INVOCATION, line no: 309, 0.7142857142857143, 0.7142857142857143, 0.0
+setTask,SIMPLE_NAME, line no: 381,isTransient,SIMPLE_NAME, line no: 309, 0.7142857142857143, 0.7142857142857143, 0.0
+setTask,SIMPLE_NAME, line no: 381,startTask(taskId),METHOD_INVOCATION, line no: 313, 0.7142857142857143, 0.7142857142857143, 0.0
+setTask,SIMPLE_NAME, line no: 381,cachedVariablesLocal,SIMPLE_NAME, line no: 506, 0.7142857142857143, 0.5714285714285714, 0.0
+setTask,SIMPLE_NAME, line no: 381,execution.getId(),METHOD_INVOCATION, line no: 569, 0.7142857142857143, 0.6428571428571429, 0.0
+setTask,SIMPLE_NAME, line no: 381,getProcessInstanceId,SIMPLE_NAME, line no: 582, 0.7142857142857143, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,getExecution,SIMPLE_NAME, line no: 583, 0.7142857142857143, 0.6428571428571429, 0.0
+setTask,SIMPLE_NAME, line no: 381,execution != null,INFIX_EXPRESSION, line no: 584, 0.7142857142857143, 0.5714285714285714, 0.0
+setTask,SIMPLE_NAME, line no: 381,execution.getProcessInstanceId(),METHOD_INVOCATION, line no: 584, 0.7142857142857143, 0.6428571428571429, 0.0
+setTask,SIMPLE_NAME, line no: 381,getExecution(),METHOD_INVOCATION, line no: 618, 0.7142857142857143, 0.6428571428571429, 0.0
+setTask,SIMPLE_NAME, line no: 381,execution != null && !(execution.getProcessInstanceId().equals(execution.getId())),INFIX_EXPRESSION, line no: 631, 0.7142857142857143, 0.7142857142857143, 0.0
+setTask,SIMPLE_NAME, line no: 381,!(execution.getProcessInstanceId().equals(execution.getId())),PREFIX_EXPRESSION, line no: 631, 0.7142857142857143, 0.7142857142857143, 0.0
+setTask,SIMPLE_NAME, line no: 381,(execution.getProcessInstanceId().equals(execution.getId())),PARENTHESIZED_EXPRESSION, line no: 631, 0.7142857142857143, 0.7142857142857143, 0.0
+setTask,SIMPLE_NAME, line no: 381,execution.getProcessInstanceId().equals(execution.getId()),METHOD_INVOCATION, line no: 631, 0.7142857142857143, 0.7142857142857143, 0.0
+setTask,SIMPLE_NAME, line no: 381,(ProcessInstance)execution,CAST_EXPRESSION, line no: 638, 0.7142857142857143, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,Execution,SIMPLE_NAME, line no: 32, 0.7142857142857143, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,conversationInstance,SIMPLE_NAME, line no: 88, 0.7142857142857143, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getRuntimeService().startProcessInstanceById(processDefinitionId getAndClearVariableCache()),METHOD_INVOCATION, line no: 93, 0.7142857142857143, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getRuntimeService().startProcessInstanceById(processDefinitionId businessKey getAndClearVariableCache()),METHOD_INVOCATION, line no: 103, 0.7142857142857143, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getRuntimeService().startProcessInstanceByKey(key getAndClearVariableCache()),METHOD_INVOCATION, line no: 137, 0.7142857142857143, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getRuntimeService().startProcessInstanceByKey(key businessKey getAndClearVariableCache()),METHOD_INVOCATION, line no: 147, 0.7142857142857143, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,executionId,SIMPLE_NAME, line no: 222, 0.7142857142857143, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getRuntimeService().createExecutionQuery().executionId(executionId).singleResult(),METHOD_INVOCATION, line no: 223, 0.7142857142857143, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getRuntimeService().createExecutionQuery().executionId(executionId),METHOD_INVOCATION, line no: 223, 0.7142857142857143, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getRuntimeService().createExecutionQuery(),METHOD_INVOCATION, line no: 223, 0.7142857142857143, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,createExecutionQuery,SIMPLE_NAME, line no: 224, 0.7142857142857143, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,execution == null,INFIX_EXPRESSION, line no: 227, 0.7142857142857143, 0.7142857142857143, 0.0
+null,NULL_LITERAL, line no: 381,get,SIMPLE_NAME, line no: 269, 0.7142857142857143, 0.7142857142857143, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,endConversation,SIMPLE_NAME, line no: 266, 0.6923076923076923, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,conversationInstance.get(),METHOD_INVOCATION, line no: 269, 0.6923076923076923, 0.6923076923076923, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,end,SIMPLE_NAME, line no: 269, 0.6923076923076923, 0.6923076923076923, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,startTask,SIMPLE_NAME, line no: 287, 0.6923076923076923, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,beginConversation,SIMPLE_NAME, line no: 306, 0.6923076923076923, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,conversation,SIMPLE_NAME, line no: 308, 0.6923076923076923, 0.6153846153846154, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,conversation.isTransient(),METHOD_INVOCATION, line no: 309, 0.6923076923076923, 0.6923076923076923, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,isTransient,SIMPLE_NAME, line no: 309, 0.6923076923076923, 0.6923076923076923, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,startTask(taskId),METHOD_INVOCATION, line no: 313, 0.6923076923076923, 0.6923076923076923, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,cachedVariables.clear(),METHOD_INVOCATION, line no: 451, 0.6923076923076923, 0.6923076923076923, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,cachedVariablesLocal,SIMPLE_NAME, line no: 506, 0.6923076923076923, 0.5384615384615384, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,cachedVariablesLocal.clear(),METHOD_INVOCATION, line no: 508, 0.6923076923076923, 0.6923076923076923, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,task.getId(),METHOD_INVOCATION, line no: 555, 0.6923076923076923, 0.6923076923076923, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,execution.getId(),METHOD_INVOCATION, line no: 569, 0.6923076923076923, 0.6923076923076923, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getProcessInstanceId,SIMPLE_NAME, line no: 582, 0.6923076923076923, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getExecution,SIMPLE_NAME, line no: 583, 0.6923076923076923, 0.6153846153846154, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,execution != null,INFIX_EXPRESSION, line no: 584, 0.6923076923076923, 0.5384615384615384, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,execution.getProcessInstanceId(),METHOD_INVOCATION, line no: 584, 0.6923076923076923, 0.6153846153846154, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getExecution(),METHOD_INVOCATION, line no: 618, 0.6923076923076923, 0.6153846153846154, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,execution != null && !(execution.getProcessInstanceId().equals(execution.getId())),INFIX_EXPRESSION, line no: 631, 0.6923076923076923, 0.6923076923076923, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,!(execution.getProcessInstanceId().equals(execution.getId())),PREFIX_EXPRESSION, line no: 631, 0.6923076923076923, 0.6923076923076923, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,(execution.getProcessInstanceId().equals(execution.getId())),PARENTHESIZED_EXPRESSION, line no: 631, 0.6923076923076923, 0.6923076923076923, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,execution.getProcessInstanceId().equals(execution.getId()),METHOD_INVOCATION, line no: 631, 0.6923076923076923, 0.6923076923076923, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,(ProcessInstance)execution,CAST_EXPRESSION, line no: 638, 0.6923076923076923, 0.6923076923076923, 0.0
+associationManager,SIMPLE_NAME, line no: 381,Conversation,SIMPLE_NAME, line no: 19, 0.6428571428571429, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,end,SIMPLE_NAME, line no: 269, 0.6428571428571429, 0.6428571428571429, 0.0
+associationManager,SIMPLE_NAME, line no: 381,variableName,SIMPLE_NAME, line no: 415, 0.6428571428571429, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,setVariable,SIMPLE_NAME, line no: 439, 0.6428571428571429, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,value,SIMPLE_NAME, line no: 439, 0.6428571428571429, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,associationManager.getCachedVariables(),METHOD_INVOCATION, line no: 449, 0.6428571428571429, 0.6428571428571429, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getCachedVariables,SIMPLE_NAME, line no: 449, 0.6428571428571429, 0.6428571428571429, 0.0
+associationManager,SIMPLE_NAME, line no: 381,setVariableLocal,SIMPLE_NAME, line no: 496, 0.6428571428571429, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,associationManager.getCachedVariablesLocal(),METHOD_INVOCATION, line no: 506, 0.6428571428571429, 0.6428571428571429, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getCachedVariablesLocal,SIMPLE_NAME, line no: 506, 0.6428571428571429, 0.6428571428571429, 0.0
+associationManager,SIMPLE_NAME, line no: 381,task.getId(),METHOD_INVOCATION, line no: 555, 0.6428571428571429, 0.6428571428571429, 0.0
+associationManager,SIMPLE_NAME, line no: 381,associationManager.getExecution(),METHOD_INVOCATION, line no: 583, 0.6428571428571429, 0.6428571428571429, 0.0
+associationManager,SIMPLE_NAME, line no: 381,e,SIMPLE_NAME, line no: 618, 0.6428571428571429, 0.5714285714285714, 0.0
+associationManager,SIMPLE_NAME, line no: 381,e.getId(),METHOD_INVOCATION, line no: 619, 0.6428571428571429, 0.6428571428571429, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().createProcessInstanceQuery().processInstanceId(execution.getProcessInstanceId()).singleResult(),METHOD_INVOCATION, line no: 632, 0.6428571428571429, 0.6428571428571429, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().createProcessInstanceQuery().processInstanceId(execution.getProcessInstanceId()),METHOD_INVOCATION, line no: 632, 0.6428571428571429, 0.6428571428571429, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().createProcessInstanceQuery(),METHOD_INVOCATION, line no: 632, 0.6428571428571429, 0.6428571428571429, 0.0
+associationManager,SIMPLE_NAME, line no: 381,createProcessInstanceQuery,SIMPLE_NAME, line no: 634, 0.6428571428571429, 0.6428571428571429, 0.0
+associationManager,SIMPLE_NAME, line no: 381,processInstanceId,SIMPLE_NAME, line no: 635, 0.6428571428571429, 0.6428571428571429, 0.0
+setTask,SIMPLE_NAME, line no: 381,Conversation,SIMPLE_NAME, line no: 19, 0.6428571428571429, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,end,SIMPLE_NAME, line no: 269, 0.6428571428571429, 0.6428571428571429, 0.0
+setTask,SIMPLE_NAME, line no: 381,variableName,SIMPLE_NAME, line no: 415, 0.6428571428571429, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,value,SIMPLE_NAME, line no: 439, 0.6428571428571429, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,associationManager.getCachedVariables(),METHOD_INVOCATION, line no: 449, 0.6428571428571429, 0.6428571428571429, 0.0
+setTask,SIMPLE_NAME, line no: 381,getCachedVariables,SIMPLE_NAME, line no: 449, 0.6428571428571429, 0.6428571428571429, 0.0
+setTask,SIMPLE_NAME, line no: 381,associationManager.getCachedVariablesLocal(),METHOD_INVOCATION, line no: 506, 0.6428571428571429, 0.6428571428571429, 0.0
+setTask,SIMPLE_NAME, line no: 381,getCachedVariablesLocal,SIMPLE_NAME, line no: 506, 0.6428571428571429, 0.6428571428571429, 0.0
+setTask,SIMPLE_NAME, line no: 381,task.getId(),METHOD_INVOCATION, line no: 555, 0.6428571428571429, 0.6428571428571429, 0.0
+setTask,SIMPLE_NAME, line no: 381,associationManager.getExecution(),METHOD_INVOCATION, line no: 583, 0.6428571428571429, 0.6428571428571429, 0.0
+setTask,SIMPLE_NAME, line no: 381,e,SIMPLE_NAME, line no: 618, 0.6428571428571429, 0.5714285714285714, 0.0
+setTask,SIMPLE_NAME, line no: 381,e.getId(),METHOD_INVOCATION, line no: 619, 0.6428571428571429, 0.6428571428571429, 0.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().createProcessInstanceQuery().processInstanceId(execution.getProcessInstanceId()).singleResult(),METHOD_INVOCATION, line no: 632, 0.6428571428571429, 0.6428571428571429, 0.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().createProcessInstanceQuery().processInstanceId(execution.getProcessInstanceId()),METHOD_INVOCATION, line no: 632, 0.6428571428571429, 0.6428571428571429, 0.0
+setTask,SIMPLE_NAME, line no: 381,processEngine.getRuntimeService().createProcessInstanceQuery(),METHOD_INVOCATION, line no: 632, 0.6428571428571429, 0.6428571428571429, 0.0
+setTask,SIMPLE_NAME, line no: 381,createProcessInstanceQuery,SIMPLE_NAME, line no: 634, 0.6428571428571429, 0.6428571428571429, 0.0
+setTask,SIMPLE_NAME, line no: 381,processInstanceId,SIMPLE_NAME, line no: 635, 0.6428571428571429, 0.6428571428571429, 0.0
+null,NULL_LITERAL, line no: 381,endConversation,SIMPLE_NAME, line no: 266, 0.6428571428571429, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,conversationInstance.get(),METHOD_INVOCATION, line no: 269, 0.6428571428571429, 0.6428571428571429, 0.0
+null,NULL_LITERAL, line no: 381,end,SIMPLE_NAME, line no: 269, 0.6428571428571429, 0.6428571428571429, 0.0
+null,NULL_LITERAL, line no: 381,startTask,SIMPLE_NAME, line no: 287, 0.6428571428571429, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,beginConversation,SIMPLE_NAME, line no: 306, 0.6428571428571429, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,conversation,SIMPLE_NAME, line no: 308, 0.6428571428571429, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,conversation.isTransient(),METHOD_INVOCATION, line no: 309, 0.6428571428571429, 0.6428571428571429, 0.0
+null,NULL_LITERAL, line no: 381,isTransient,SIMPLE_NAME, line no: 309, 0.6428571428571429, 0.6428571428571429, 0.0
+null,NULL_LITERAL, line no: 381,startTask(taskId),METHOD_INVOCATION, line no: 313, 0.6428571428571429, 0.6428571428571429, 0.0
+null,NULL_LITERAL, line no: 381,cachedVariables.clear(),METHOD_INVOCATION, line no: 451, 0.6428571428571429, 0.6428571428571429, 0.0
+null,NULL_LITERAL, line no: 381,clear,SIMPLE_NAME, line no: 451, 0.6428571428571429, 0.6428571428571429, 0.0
+null,NULL_LITERAL, line no: 381,cachedVariablesLocal,SIMPLE_NAME, line no: 506, 0.6428571428571429, 0.5, 0.0
+null,NULL_LITERAL, line no: 381,cachedVariablesLocal.clear(),METHOD_INVOCATION, line no: 508, 0.6428571428571429, 0.6428571428571429, 0.0
+null,NULL_LITERAL, line no: 381,task.getId(),METHOD_INVOCATION, line no: 555, 0.6428571428571429, 0.6428571428571429, 0.0
+null,NULL_LITERAL, line no: 381,execution.getId(),METHOD_INVOCATION, line no: 569, 0.6428571428571429, 0.6428571428571429, 0.0
+null,NULL_LITERAL, line no: 381,getProcessInstanceId,SIMPLE_NAME, line no: 582, 0.6428571428571429, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,associationManager.getExecution(),METHOD_INVOCATION, line no: 583, 0.6428571428571429, 0.6428571428571429, 0.0
+null,NULL_LITERAL, line no: 381,getExecution,SIMPLE_NAME, line no: 583, 0.6428571428571429, 0.6428571428571429, 0.0
+null,NULL_LITERAL, line no: 381,execution != null,INFIX_EXPRESSION, line no: 584, 0.6428571428571429, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,execution.getProcessInstanceId(),METHOD_INVOCATION, line no: 584, 0.6428571428571429, 0.6428571428571429, 0.0
+null,NULL_LITERAL, line no: 381,e,SIMPLE_NAME, line no: 618, 0.6428571428571429, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,getExecution(),METHOD_INVOCATION, line no: 618, 0.6428571428571429, 0.6428571428571429, 0.0
+null,NULL_LITERAL, line no: 381,e.getId(),METHOD_INVOCATION, line no: 619, 0.6428571428571429, 0.6428571428571429, 0.0
+null,NULL_LITERAL, line no: 381,execution != null && !(execution.getProcessInstanceId().equals(execution.getId())),INFIX_EXPRESSION, line no: 631, 0.6428571428571429, 0.6428571428571429, 0.0
+null,NULL_LITERAL, line no: 381,!(execution.getProcessInstanceId().equals(execution.getId())),PREFIX_EXPRESSION, line no: 631, 0.6428571428571429, 0.6428571428571429, 0.0
+null,NULL_LITERAL, line no: 381,(execution.getProcessInstanceId().equals(execution.getId())),PARENTHESIZED_EXPRESSION, line no: 631, 0.6428571428571429, 0.6428571428571429, 0.0
+null,NULL_LITERAL, line no: 381,execution.getProcessInstanceId().equals(execution.getId()),METHOD_INVOCATION, line no: 631, 0.6428571428571429, 0.6428571428571429, 0.0
+null,NULL_LITERAL, line no: 381,(ProcessInstance)execution,CAST_EXPRESSION, line no: 638, 0.6428571428571429, 0.6428571428571429, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,Conversation,SIMPLE_NAME, line no: 19, 0.6153846153846154, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,conversationInstance.get().end(),METHOD_INVOCATION, line no: 269, 0.6153846153846154, 0.6153846153846154, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,variableName,SIMPLE_NAME, line no: 415, 0.6153846153846154, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,value,SIMPLE_NAME, line no: 439, 0.6153846153846154, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getCachedVariables,SIMPLE_NAME, line no: 449, 0.6153846153846154, 0.6153846153846154, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getCachedVariablesLocal,SIMPLE_NAME, line no: 506, 0.6153846153846154, 0.6153846153846154, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,startTask(task.getId()),METHOD_INVOCATION, line no: 555, 0.6153846153846154, 0.6153846153846154, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,associateExecutionById(execution.getId()),METHOD_INVOCATION, line no: 569, 0.6153846153846154, 0.6153846153846154, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,e,SIMPLE_NAME, line no: 618, 0.6153846153846154, 0.5384615384615384, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,e.getId(),METHOD_INVOCATION, line no: 619, 0.6153846153846154, 0.6153846153846154, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getRuntimeService().createProcessInstanceQuery().processInstanceId(execution.getProcessInstanceId()).singleResult(),METHOD_INVOCATION, line no: 632, 0.6153846153846154, 0.6153846153846154, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getRuntimeService().createProcessInstanceQuery().processInstanceId(execution.getProcessInstanceId()),METHOD_INVOCATION, line no: 632, 0.6153846153846154, 0.6153846153846154, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processEngine.getRuntimeService().createProcessInstanceQuery(),METHOD_INVOCATION, line no: 632, 0.6153846153846154, 0.6153846153846154, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,createProcessInstanceQuery,SIMPLE_NAME, line no: 634, 0.6153846153846154, 0.6153846153846154, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,processInstanceId,SIMPLE_NAME, line no: 635, 0.6153846153846154, 0.6153846153846154, 0.0
+associationManager,SIMPLE_NAME, line no: 381,HashMap,SIMPLE_NAME, line no: 16, 0.5714285714285714, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,conversationInstance.get().end(),METHOD_INVOCATION, line no: 269, 0.5714285714285714, 0.5714285714285714, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getVariable,SIMPLE_NAME, line no: 415, 0.5714285714285714, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,associationManager.getVariable(variableName),METHOD_INVOCATION, line no: 416, 0.5714285714285714, 0.5714285714285714, 0.0
+associationManager,SIMPLE_NAME, line no: 381,associationManager.setVariable(variableName value),METHOD_INVOCATION, line no: 440, 0.5714285714285714, 0.5714285714285714, 0.0
+associationManager,SIMPLE_NAME, line no: 381,copy,SIMPLE_NAME, line no: 450, 0.5714285714285714, 0.5714285714285714, 0.0
+associationManager,SIMPLE_NAME, line no: 381,new HashMap<String Object>(cachedVariables),CLASS_INSTANCE_CREATION, line no: 450, 0.5714285714285714, 0.5714285714285714, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getVariableLocal,SIMPLE_NAME, line no: 472, 0.5714285714285714, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,associationManager.getVariableLocal(variableName),METHOD_INVOCATION, line no: 473, 0.5714285714285714, 0.5714285714285714, 0.0
+associationManager,SIMPLE_NAME, line no: 381,associationManager.setVariableLocal(variableName value),METHOD_INVOCATION, line no: 497, 0.5714285714285714, 0.5714285714285714, 0.0
+associationManager,SIMPLE_NAME, line no: 381,new HashMap<String Object>(cachedVariablesLocal),CLASS_INSTANCE_CREATION, line no: 507, 0.5714285714285714, 0.5714285714285714, 0.0
+associationManager,SIMPLE_NAME, line no: 381,startTask(task.getId()),METHOD_INVOCATION, line no: 555, 0.5714285714285714, 0.5714285714285714, 0.0
+associationManager,SIMPLE_NAME, line no: 381,associateExecutionById(execution.getId()),METHOD_INVOCATION, line no: 569, 0.5714285714285714, 0.5714285714285714, 0.0
+associationManager,SIMPLE_NAME, line no: 381,execution != null ? execution.getProcessInstanceId() : null,CONDITIONAL_EXPRESSION, line no: 584, 0.5714285714285714, 0.5714285714285714, 0.0
+associationManager,SIMPLE_NAME, line no: 381,task != null ? task.getId() : null,CONDITIONAL_EXPRESSION, line no: 592, 0.5714285714285714, 0.5714285714285714, 0.0
+associationManager,SIMPLE_NAME, line no: 381,task != null,INFIX_EXPRESSION, line no: 592, 0.5714285714285714, 0.5714285714285714, 0.0
+associationManager,SIMPLE_NAME, line no: 381,e != null ? e.getId() : null,CONDITIONAL_EXPRESSION, line no: 619, 0.5714285714285714, 0.5714285714285714, 0.0
+associationManager,SIMPLE_NAME, line no: 381,e != null,INFIX_EXPRESSION, line no: 619, 0.5714285714285714, 0.5714285714285714, 0.0
+setTask,SIMPLE_NAME, line no: 381,HashMap,SIMPLE_NAME, line no: 16, 0.5714285714285714, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,conversationInstance.get().end(),METHOD_INVOCATION, line no: 269, 0.5714285714285714, 0.5714285714285714, 0.0
+setTask,SIMPLE_NAME, line no: 381,getVariable,SIMPLE_NAME, line no: 415, 0.5714285714285714, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,associationManager.getVariable(variableName),METHOD_INVOCATION, line no: 416, 0.5714285714285714, 0.5714285714285714, 0.0
+setTask,SIMPLE_NAME, line no: 381,copy,SIMPLE_NAME, line no: 450, 0.5714285714285714, 0.5714285714285714, 0.0
+setTask,SIMPLE_NAME, line no: 381,new HashMap<String Object>(cachedVariables),CLASS_INSTANCE_CREATION, line no: 450, 0.5714285714285714, 0.5714285714285714, 0.0
+setTask,SIMPLE_NAME, line no: 381,getVariableLocal,SIMPLE_NAME, line no: 472, 0.5714285714285714, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,associationManager.getVariableLocal(variableName),METHOD_INVOCATION, line no: 473, 0.5714285714285714, 0.5714285714285714, 0.0
+setTask,SIMPLE_NAME, line no: 381,new HashMap<String Object>(cachedVariablesLocal),CLASS_INSTANCE_CREATION, line no: 507, 0.5714285714285714, 0.5714285714285714, 0.0
+setTask,SIMPLE_NAME, line no: 381,startTask(task.getId()),METHOD_INVOCATION, line no: 555, 0.5714285714285714, 0.5714285714285714, 0.0
+setTask,SIMPLE_NAME, line no: 381,execution != null ? execution.getProcessInstanceId() : null,CONDITIONAL_EXPRESSION, line no: 584, 0.5714285714285714, 0.5714285714285714, 0.0
+setTask,SIMPLE_NAME, line no: 381,task != null ? task.getId() : null,CONDITIONAL_EXPRESSION, line no: 592, 0.5714285714285714, 0.5714285714285714, 0.0
+setTask,SIMPLE_NAME, line no: 381,task != null,INFIX_EXPRESSION, line no: 592, 0.5714285714285714, 0.5714285714285714, 0.0
+setTask,SIMPLE_NAME, line no: 381,e != null ? e.getId() : null,CONDITIONAL_EXPRESSION, line no: 619, 0.5714285714285714, 0.5714285714285714, 0.0
+setTask,SIMPLE_NAME, line no: 381,e != null,INFIX_EXPRESSION, line no: 619, 0.5714285714285714, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,Conversation,SIMPLE_NAME, line no: 19, 0.5714285714285714, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,conversationInstance.get().end(),METHOD_INVOCATION, line no: 269, 0.5714285714285714, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,getVariable,SIMPLE_NAME, line no: 415, 0.5714285714285714, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,variableName,SIMPLE_NAME, line no: 415, 0.5714285714285714, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,associationManager.getVariable(variableName),METHOD_INVOCATION, line no: 416, 0.5714285714285714, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,setVariable,SIMPLE_NAME, line no: 439, 0.5714285714285714, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,value,SIMPLE_NAME, line no: 439, 0.5714285714285714, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,associationManager.setVariable(variableName value),METHOD_INVOCATION, line no: 440, 0.5714285714285714, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,associationManager.getCachedVariables(),METHOD_INVOCATION, line no: 449, 0.5714285714285714, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,getCachedVariables,SIMPLE_NAME, line no: 449, 0.5714285714285714, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,getVariableLocal,SIMPLE_NAME, line no: 472, 0.5714285714285714, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,associationManager.getVariableLocal(variableName),METHOD_INVOCATION, line no: 473, 0.5714285714285714, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,setVariableLocal,SIMPLE_NAME, line no: 496, 0.5714285714285714, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,associationManager.setVariableLocal(variableName value),METHOD_INVOCATION, line no: 497, 0.5714285714285714, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,associationManager.getCachedVariablesLocal(),METHOD_INVOCATION, line no: 506, 0.5714285714285714, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,getCachedVariablesLocal,SIMPLE_NAME, line no: 506, 0.5714285714285714, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,startTask(task.getId()),METHOD_INVOCATION, line no: 555, 0.5714285714285714, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,associateExecutionById(execution.getId()),METHOD_INVOCATION, line no: 569, 0.5714285714285714, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,execution != null ? execution.getProcessInstanceId() : null,CONDITIONAL_EXPRESSION, line no: 584, 0.5714285714285714, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,task != null ? task.getId() : null,CONDITIONAL_EXPRESSION, line no: 592, 0.5714285714285714, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,task != null,INFIX_EXPRESSION, line no: 592, 0.5714285714285714, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,e != null ? e.getId() : null,CONDITIONAL_EXPRESSION, line no: 619, 0.5714285714285714, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,e != null,INFIX_EXPRESSION, line no: 619, 0.5714285714285714, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getRuntimeService().createProcessInstanceQuery().processInstanceId(execution.getProcessInstanceId()).singleResult(),METHOD_INVOCATION, line no: 632, 0.5714285714285714, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getRuntimeService().createProcessInstanceQuery().processInstanceId(execution.getProcessInstanceId()),METHOD_INVOCATION, line no: 632, 0.5714285714285714, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,processEngine.getRuntimeService().createProcessInstanceQuery(),METHOD_INVOCATION, line no: 632, 0.5714285714285714, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,createProcessInstanceQuery,SIMPLE_NAME, line no: 634, 0.5714285714285714, 0.5714285714285714, 0.0
+null,NULL_LITERAL, line no: 381,processInstanceId,SIMPLE_NAME, line no: 635, 0.5714285714285714, 0.5714285714285714, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,HashMap,SIMPLE_NAME, line no: 16, 0.5384615384615384, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,Context,SIMPLE_NAME, line no: 31, 0.5384615384615384, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,begin,SIMPLE_NAME, line no: 310, 0.5384615384615384, 0.5384615384615384, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getVariable,SIMPLE_NAME, line no: 415, 0.5384615384615384, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,copy,SIMPLE_NAME, line no: 450, 0.5384615384615384, 0.5384615384615384, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,new HashMap<String Object>(cachedVariables),CLASS_INSTANCE_CREATION, line no: 450, 0.5384615384615384, 0.5384615384615384, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getVariableLocal,SIMPLE_NAME, line no: 472, 0.5384615384615384, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,new HashMap<String Object>(cachedVariablesLocal),CLASS_INSTANCE_CREATION, line no: 507, 0.5384615384615384, 0.5384615384615384, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,execution != null ? execution.getProcessInstanceId() : null,CONDITIONAL_EXPRESSION, line no: 584, 0.5384615384615384, 0.5384615384615384, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,task != null ? task.getId() : null,CONDITIONAL_EXPRESSION, line no: 592, 0.5384615384615384, 0.5384615384615384, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,task != null,INFIX_EXPRESSION, line no: 592, 0.5384615384615384, 0.5384615384615384, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,e != null ? e.getId() : null,CONDITIONAL_EXPRESSION, line no: 619, 0.5384615384615384, 0.5384615384615384, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,e != null,INFIX_EXPRESSION, line no: 619, 0.5384615384615384, 0.5384615384615384, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getCommandContext,SIMPLE_NAME, line no: 656, 0.5384615384615384, 0.5384615384615384, 0.0
+associationManager,SIMPLE_NAME, line no: 381,Context,SIMPLE_NAME, line no: 31, 0.5, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,begin,SIMPLE_NAME, line no: 310, 0.5, 0.5, 0.0
+associationManager,SIMPLE_NAME, line no: 381,variable,SIMPLE_NAME, line no: 416, 0.5, 0.5, 0.0
+associationManager,SIMPLE_NAME, line no: 381,variable == null,INFIX_EXPRESSION, line no: 417, 0.5, 0.5, 0.0
+associationManager,SIMPLE_NAME, line no: 381,flushVariableCache,SIMPLE_NAME, line no: 540, 0.5, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getCommandContext,SIMPLE_NAME, line no: 656, 0.5, 0.5, 0.0
+setTask,SIMPLE_NAME, line no: 381,Context,SIMPLE_NAME, line no: 31, 0.5, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,begin,SIMPLE_NAME, line no: 310, 0.5, 0.5, 0.0
+setTask,SIMPLE_NAME, line no: 381,variable,SIMPLE_NAME, line no: 416, 0.5, 0.5, 0.0
+setTask,SIMPLE_NAME, line no: 381,variable == null,INFIX_EXPRESSION, line no: 417, 0.5, 0.5, 0.0
+setTask,SIMPLE_NAME, line no: 381,getCommandContext,SIMPLE_NAME, line no: 656, 0.5, 0.5, 0.0
+null,NULL_LITERAL, line no: 381,HashMap,SIMPLE_NAME, line no: 16, 0.5, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,Context,SIMPLE_NAME, line no: 31, 0.5, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,begin,SIMPLE_NAME, line no: 310, 0.5, 0.5, 0.0
+null,NULL_LITERAL, line no: 381,variable,SIMPLE_NAME, line no: 416, 0.5, 0.5, 0.0
+null,NULL_LITERAL, line no: 381,variable == null,INFIX_EXPRESSION, line no: 417, 0.5, 0.5, 0.0
+null,NULL_LITERAL, line no: 381,copy,SIMPLE_NAME, line no: 450, 0.5, 0.5, 0.0
+null,NULL_LITERAL, line no: 381,new HashMap<String Object>(cachedVariables),CLASS_INSTANCE_CREATION, line no: 450, 0.5, 0.5, 0.0
+null,NULL_LITERAL, line no: 381,new HashMap<String Object>(cachedVariablesLocal),CLASS_INSTANCE_CREATION, line no: 507, 0.5, 0.5, 0.0
+null,NULL_LITERAL, line no: 381,flushVariableCache,SIMPLE_NAME, line no: 540, 0.5, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,getCommandContext,SIMPLE_NAME, line no: 656, 0.5, 0.5, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,setExecution(instance),METHOD_INVOCATION, line no: 95, 0.46153846153846156, 0.46153846153846156, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,conversation.begin(),METHOD_INVOCATION, line no: 310, 0.46153846153846156, 0.46153846153846156, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,variable,SIMPLE_NAME, line no: 416, 0.46153846153846156, 0.46153846153846156, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,variable == null,INFIX_EXPRESSION, line no: 417, 0.46153846153846156, 0.46153846153846156, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,associateExecutionById(executionId),METHOD_INVOCATION, line no: 576, 0.46153846153846156, 0.46153846153846156, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,Context.getCommandContext(),METHOD_INVOCATION, line no: 656, 0.46153846153846156, 0.46153846153846156, 0.0
+associationManager,SIMPLE_NAME, line no: 381,setExecution(instance),METHOD_INVOCATION, line no: 95, 0.42857142857142855, 0.42857142857142855, 0.0
+associationManager,SIMPLE_NAME, line no: 381,conversation.begin(),METHOD_INVOCATION, line no: 310, 0.42857142857142855, 0.42857142857142855, 0.0
+associationManager,SIMPLE_NAME, line no: 381,new HashMap<String Object>(associationManager.getCachedVariables()),CLASS_INSTANCE_CREATION, line no: 461, 0.42857142857142855, 0.42857142857142855, 0.0
+associationManager,SIMPLE_NAME, line no: 381,new HashMap<String Object>(associationManager.getCachedVariablesLocal()),CLASS_INSTANCE_CREATION, line no: 518, 0.42857142857142855, 0.42857142857142855, 0.0
+associationManager,SIMPLE_NAME, line no: 381,associationManager.flushVariableCache(),METHOD_INVOCATION, line no: 541, 0.42857142857142855, 0.42857142857142855, 0.0
+associationManager,SIMPLE_NAME, line no: 381,associateExecutionById(executionId),METHOD_INVOCATION, line no: 576, 0.42857142857142855, 0.42857142857142855, 0.0
+associationManager,SIMPLE_NAME, line no: 381,Context.getCommandContext(),METHOD_INVOCATION, line no: 656, 0.42857142857142855, 0.42857142857142855, 0.0
+setTask,SIMPLE_NAME, line no: 381,conversation.begin(),METHOD_INVOCATION, line no: 310, 0.42857142857142855, 0.42857142857142855, 0.0
+setTask,SIMPLE_NAME, line no: 381,new HashMap<String Object>(associationManager.getCachedVariables()),CLASS_INSTANCE_CREATION, line no: 461, 0.42857142857142855, 0.42857142857142855, 0.0
+setTask,SIMPLE_NAME, line no: 381,new HashMap<String Object>(associationManager.getCachedVariablesLocal()),CLASS_INSTANCE_CREATION, line no: 518, 0.42857142857142855, 0.42857142857142855, 0.0
+setTask,SIMPLE_NAME, line no: 381,Context.getCommandContext(),METHOD_INVOCATION, line no: 656, 0.42857142857142855, 0.42857142857142855, 0.0
+null,NULL_LITERAL, line no: 381,setExecution(instance),METHOD_INVOCATION, line no: 95, 0.42857142857142855, 0.42857142857142855, 0.0
+null,NULL_LITERAL, line no: 381,conversation.begin(),METHOD_INVOCATION, line no: 310, 0.42857142857142855, 0.42857142857142855, 0.0
+null,NULL_LITERAL, line no: 381,associationManager.flushVariableCache(),METHOD_INVOCATION, line no: 541, 0.42857142857142855, 0.42857142857142855, 0.0
+null,NULL_LITERAL, line no: 381,associateExecutionById(executionId),METHOD_INVOCATION, line no: 576, 0.42857142857142855, 0.42857142857142855, 0.0
+null,NULL_LITERAL, line no: 381,Context.getCommandContext(),METHOD_INVOCATION, line no: 656, 0.42857142857142855, 0.42857142857142855, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,Context.getCommandContext() != null,INFIX_EXPRESSION, line no: 656, 0.38461538461538464, 0.38461538461538464, 0.0
+associationManager,SIMPLE_NAME, line no: 381,associationManager.getExecution() == null,INFIX_EXPRESSION, line no: 644, 0.35714285714285715, 0.35714285714285715, 0.0
+associationManager,SIMPLE_NAME, line no: 381,associationManager.getTask() == null,INFIX_EXPRESSION, line no: 650, 0.35714285714285715, 0.35714285714285715, 0.0
+associationManager,SIMPLE_NAME, line no: 381,Context.getCommandContext() != null,INFIX_EXPRESSION, line no: 656, 0.35714285714285715, 0.35714285714285715, 0.0
+setTask,SIMPLE_NAME, line no: 381,associationManager.getExecution() == null,INFIX_EXPRESSION, line no: 644, 0.35714285714285715, 0.35714285714285715, 0.0
+setTask,SIMPLE_NAME, line no: 381,associationManager.getTask() == null,INFIX_EXPRESSION, line no: 650, 0.35714285714285715, 0.35714285714285715, 0.0
+setTask,SIMPLE_NAME, line no: 381,Context.getCommandContext() != null,INFIX_EXPRESSION, line no: 656, 0.35714285714285715, 0.35714285714285715, 0.0
+null,NULL_LITERAL, line no: 381,new HashMap<String Object>(associationManager.getCachedVariables()),CLASS_INSTANCE_CREATION, line no: 461, 0.35714285714285715, 0.35714285714285715, 0.0
+null,NULL_LITERAL, line no: 381,new HashMap<String Object>(associationManager.getCachedVariablesLocal()),CLASS_INSTANCE_CREATION, line no: 518, 0.35714285714285715, 0.35714285714285715, 0.0
+null,NULL_LITERAL, line no: 381,associationManager.getExecution() == null,INFIX_EXPRESSION, line no: 644, 0.35714285714285715, 0.35714285714285715, 0.0
+null,NULL_LITERAL, line no: 381,associationManager.getTask() == null,INFIX_EXPRESSION, line no: 650, 0.35714285714285715, 0.35714285714285715, 0.0
+null,NULL_LITERAL, line no: 381,Context.getCommandContext() != null,INFIX_EXPRESSION, line no: 656, 0.35714285714285715, 0.35714285714285715, 0.0
+associationManager,SIMPLE_NAME, line no: 381,associationManager.getExecutionId() != null,INFIX_EXPRESSION, line no: 239, 0.2857142857142857, 0.2857142857142857, 0.0
+associationManager,SIMPLE_NAME, line no: 381,associationManager.getTask() != null,INFIX_EXPRESSION, line no: 349, 0.2857142857142857, 0.2857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,associationManager.getExecutionId() != null,INFIX_EXPRESSION, line no: 239, 0.2857142857142857, 0.2857142857142857, 0.0
+setTask,SIMPLE_NAME, line no: 381,associationManager.getTask() != null,INFIX_EXPRESSION, line no: 349, 0.2857142857142857, 0.2857142857142857, 0.0
+null,NULL_LITERAL, line no: 381,associationManager.getExecutionId() != null,INFIX_EXPRESSION, line no: 239, 0.2857142857142857, 0.2857142857142857, 0.0
+null,NULL_LITERAL, line no: 381,associationManager.getTask() != null,INFIX_EXPRESSION, line no: 349, 0.2857142857142857, 0.2857142857142857, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,ProcessEngineCdiException,SIMPLE_NAME, line no: 228, 0.23076923076923078, 0.23076923076923078, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,T,SIMPLE_NAME, line no: 415, 0.23076923076923078, 0.07692307692307693, 0.0
+associationManager,SIMPLE_NAME, line no: 381,ProcessEngineCdiException,SIMPLE_NAME, line no: 228, 0.21428571428571427, 0.21428571428571427, 0.0
+associationManager,SIMPLE_NAME, line no: 381,T,SIMPLE_NAME, line no: 415, 0.21428571428571427, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,ProcessEngineCdiException,SIMPLE_NAME, line no: 228, 0.21428571428571427, 0.21428571428571427, 0.0
+setTask,SIMPLE_NAME, line no: 381,T,SIMPLE_NAME, line no: 415, 0.21428571428571427, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,ProcessEngineCdiException,SIMPLE_NAME, line no: 228, 0.21428571428571427, 0.21428571428571427, 0.0
+null,NULL_LITERAL, line no: 381,T,SIMPLE_NAME, line no: 415, 0.21428571428571427, 0.07142857142857142, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,new ProcessEngineCdiException("Cannot associate execution by id: no execution with id '" + executionId + "' found."),CLASS_INSTANCE_CREATION, line no: 228, 0.15384615384615385, 0.15384615384615385, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,"Cannot associate execution by id: no execution with id '" + executionId + "' found.",INFIX_EXPRESSION, line no: 228, 0.15384615384615385, 0.15384615384615385, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,"Cannot associate execution by id: no execution with id '",STRING_LITERAL, line no: 228, 0.15384615384615385, 0.15384615384615385, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,"' found.",STRING_LITERAL, line no: 228, 0.15384615384615385, 0.15384615384615385, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,new ProcessEngineCdiException("Cannot resume task with id '" + taskId + "'  no such task."),CLASS_INSTANCE_CREATION, line no: 294, 0.15384615384615385, 0.15384615384615385, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,"Cannot resume task with id '" + taskId + "'  no such task.",INFIX_EXPRESSION, line no: 294, 0.15384615384615385, 0.15384615384615385, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,"Cannot resume task with id '",STRING_LITERAL, line no: 294, 0.15384615384615385, 0.15384615384615385, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,"'  no such task.",STRING_LITERAL, line no: 294, 0.15384615384615385, 0.15384615384615385, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,(T)variable,CAST_EXPRESSION, line no: 420, 0.15384615384615385, 0.15384615384615385, 0.0
+associationManager,SIMPLE_NAME, line no: 381,new ProcessEngineCdiException("Cannot associate execution by id: no execution with id '" + executionId + "' found."),CLASS_INSTANCE_CREATION, line no: 228, 0.14285714285714285, 0.14285714285714285, 0.0
+associationManager,SIMPLE_NAME, line no: 381,"Cannot associate execution by id: no execution with id '" + executionId + "' found.",INFIX_EXPRESSION, line no: 228, 0.14285714285714285, 0.14285714285714285, 0.0
+associationManager,SIMPLE_NAME, line no: 381,"Cannot associate execution by id: no execution with id '",STRING_LITERAL, line no: 228, 0.14285714285714285, 0.14285714285714285, 0.0
+associationManager,SIMPLE_NAME, line no: 381,"' found.",STRING_LITERAL, line no: 228, 0.14285714285714285, 0.14285714285714285, 0.0
+associationManager,SIMPLE_NAME, line no: 381,new ProcessEngineCdiException("Cannot resume task with id '" + taskId + "'  no such task."),CLASS_INSTANCE_CREATION, line no: 294, 0.14285714285714285, 0.14285714285714285, 0.0
+associationManager,SIMPLE_NAME, line no: 381,"Cannot resume task with id '" + taskId + "'  no such task.",INFIX_EXPRESSION, line no: 294, 0.14285714285714285, 0.14285714285714285, 0.0
+associationManager,SIMPLE_NAME, line no: 381,"Cannot resume task with id '",STRING_LITERAL, line no: 294, 0.14285714285714285, 0.14285714285714285, 0.0
+associationManager,SIMPLE_NAME, line no: 381,"'  no such task.",STRING_LITERAL, line no: 294, 0.14285714285714285, 0.14285714285714285, 0.0
+associationManager,SIMPLE_NAME, line no: 381,(T)variable,CAST_EXPRESSION, line no: 420, 0.14285714285714285, 0.14285714285714285, 0.0
+setTask,SIMPLE_NAME, line no: 381,new ProcessEngineCdiException("Cannot associate execution by id: no execution with id '" + executionId + "' found."),CLASS_INSTANCE_CREATION, line no: 228, 0.14285714285714285, 0.14285714285714285, 0.0
+setTask,SIMPLE_NAME, line no: 381,"Cannot associate execution by id: no execution with id '" + executionId + "' found.",INFIX_EXPRESSION, line no: 228, 0.14285714285714285, 0.14285714285714285, 0.0
+setTask,SIMPLE_NAME, line no: 381,"Cannot associate execution by id: no execution with id '",STRING_LITERAL, line no: 228, 0.14285714285714285, 0.14285714285714285, 0.0
+setTask,SIMPLE_NAME, line no: 381,"' found.",STRING_LITERAL, line no: 228, 0.14285714285714285, 0.14285714285714285, 0.0
+setTask,SIMPLE_NAME, line no: 381,new ProcessEngineCdiException("Cannot resume task with id '" + taskId + "'  no such task."),CLASS_INSTANCE_CREATION, line no: 294, 0.14285714285714285, 0.14285714285714285, 0.0
+setTask,SIMPLE_NAME, line no: 381,"Cannot resume task with id '" + taskId + "'  no such task.",INFIX_EXPRESSION, line no: 294, 0.14285714285714285, 0.14285714285714285, 0.0
+setTask,SIMPLE_NAME, line no: 381,"Cannot resume task with id '",STRING_LITERAL, line no: 294, 0.14285714285714285, 0.14285714285714285, 0.0
+setTask,SIMPLE_NAME, line no: 381,"'  no such task.",STRING_LITERAL, line no: 294, 0.14285714285714285, 0.14285714285714285, 0.0
+setTask,SIMPLE_NAME, line no: 381,(T)variable,CAST_EXPRESSION, line no: 420, 0.14285714285714285, 0.14285714285714285, 0.0
+null,NULL_LITERAL, line no: 381,new ProcessEngineCdiException("Cannot associate execution by id: no execution with id '" + executionId + "' found."),CLASS_INSTANCE_CREATION, line no: 228, 0.14285714285714285, 0.14285714285714285, 0.0
+null,NULL_LITERAL, line no: 381,"Cannot associate execution by id: no execution with id '" + executionId + "' found.",INFIX_EXPRESSION, line no: 228, 0.14285714285714285, 0.14285714285714285, 0.0
+null,NULL_LITERAL, line no: 381,"Cannot associate execution by id: no execution with id '",STRING_LITERAL, line no: 228, 0.14285714285714285, 0.14285714285714285, 0.0
+null,NULL_LITERAL, line no: 381,"' found.",STRING_LITERAL, line no: 228, 0.14285714285714285, 0.14285714285714285, 0.0
+null,NULL_LITERAL, line no: 381,new ProcessEngineCdiException("Cannot resume task with id '" + taskId + "'  no such task."),CLASS_INSTANCE_CREATION, line no: 294, 0.14285714285714285, 0.14285714285714285, 0.0
+null,NULL_LITERAL, line no: 381,"Cannot resume task with id '" + taskId + "'  no such task.",INFIX_EXPRESSION, line no: 294, 0.14285714285714285, 0.14285714285714285, 0.0
+null,NULL_LITERAL, line no: 381,"Cannot resume task with id '",STRING_LITERAL, line no: 294, 0.14285714285714285, 0.14285714285714285, 0.0
+null,NULL_LITERAL, line no: 381,"'  no such task.",STRING_LITERAL, line no: 294, 0.14285714285714285, 0.14285714285714285, 0.0
+null,NULL_LITERAL, line no: 381,(T)variable,CAST_EXPRESSION, line no: 420, 0.14285714285714285, 0.14285714285714285, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,org,SIMPLE_NAME, line no: 13, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,camunda,SIMPLE_NAME, line no: 13, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,bpm,SIMPLE_NAME, line no: 13, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,engine,SIMPLE_NAME, line no: 13, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,cdi,SIMPLE_NAME, line no: 13, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,java,SIMPLE_NAME, line no: 15, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,io,SIMPLE_NAME, line no: 15, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,Serializable,SIMPLE_NAME, line no: 15, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,util,SIMPLE_NAME, line no: 16, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,javax,SIMPLE_NAME, line no: 19, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,enterprise,SIMPLE_NAME, line no: 19, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,context,SIMPLE_NAME, line no: 19, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,RequestScoped,SIMPLE_NAME, line no: 20, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,inject,SIMPLE_NAME, line no: 21, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,Instance,SIMPLE_NAME, line no: 21, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,Inject,SIMPLE_NAME, line no: 22, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,Named,SIMPLE_NAME, line no: 23, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,ProcessEngine,SIMPLE_NAME, line no: 25, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,ProcessEngineException,SIMPLE_NAME, line no: 26, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,RuntimeService,SIMPLE_NAME, line no: 27, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,TaskService,SIMPLE_NAME, line no: 28, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,annotation,SIMPLE_NAME, line no: 29, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,BusinessProcessScoped,SIMPLE_NAME, line no: 29, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,impl,SIMPLE_NAME, line no: 30, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,ContextAssociationManager,SIMPLE_NAME, line no: 30, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,runtime,SIMPLE_NAME, line no: 32, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,BusinessProcess,SIMPLE_NAME, line no: 80, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,serialVersionUID,SIMPLE_NAME, line no: 82, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,startProcessById,SIMPLE_NAME, line no: 90, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,startProcessByKey,SIMPLE_NAME, line no: 134, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,startProcessByMessage,SIMPLE_NAME, line no: 178, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,isAssociated,SIMPLE_NAME, line no: 238, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,isTaskAssociated,SIMPLE_NAME, line no: 348, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,SuppressWarnings,SIMPLE_NAME, line no: 414, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getVariableCache,SIMPLE_NAME, line no: 460, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getVariableLocalCache,SIMPLE_NAME, line no: 517, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getTaskId,SIMPLE_NAME, line no: 590, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,getProcessInstance,SIMPLE_NAME, line no: 629, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,new ProcessEngineCdiException("No execution associated. Call busniessProcess.associateExecutionById() or businessProcess.startTask() first."),CLASS_INSTANCE_CREATION, line no: 645, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,"No execution associated. Call busniessProcess.associateExecutionById() or businessProcess.startTask() first.",STRING_LITERAL, line no: 645, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,new ProcessEngineCdiException("No task associated. Call businessProcess.startTask() first."),CLASS_INSTANCE_CREATION, line no: 651, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,"No task associated. Call businessProcess.startTask() first.",STRING_LITERAL, line no: 651, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,new ProcessEngineCdiException("Cannot use this method of the BusinessProcess bean from an active command context."),CLASS_INSTANCE_CREATION, line no: 657, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager.setTask(null),METHOD_INVOCATION, line no: 381,"Cannot use this method of the BusinessProcess bean from an active command context.",STRING_LITERAL, line no: 657, 0.07692307692307693, 0.07692307692307693, 0.0
+associationManager,SIMPLE_NAME, line no: 381,org,SIMPLE_NAME, line no: 13, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,camunda,SIMPLE_NAME, line no: 13, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,bpm,SIMPLE_NAME, line no: 13, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,engine,SIMPLE_NAME, line no: 13, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,cdi,SIMPLE_NAME, line no: 13, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,java,SIMPLE_NAME, line no: 15, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,io,SIMPLE_NAME, line no: 15, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,Serializable,SIMPLE_NAME, line no: 15, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,util,SIMPLE_NAME, line no: 16, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,javax,SIMPLE_NAME, line no: 19, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,enterprise,SIMPLE_NAME, line no: 19, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,context,SIMPLE_NAME, line no: 19, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,RequestScoped,SIMPLE_NAME, line no: 20, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,inject,SIMPLE_NAME, line no: 21, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,Instance,SIMPLE_NAME, line no: 21, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,Inject,SIMPLE_NAME, line no: 22, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,Named,SIMPLE_NAME, line no: 23, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,ProcessEngine,SIMPLE_NAME, line no: 25, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,ProcessEngineException,SIMPLE_NAME, line no: 26, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,RuntimeService,SIMPLE_NAME, line no: 27, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,TaskService,SIMPLE_NAME, line no: 28, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,annotation,SIMPLE_NAME, line no: 29, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,BusinessProcessScoped,SIMPLE_NAME, line no: 29, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,impl,SIMPLE_NAME, line no: 30, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,runtime,SIMPLE_NAME, line no: 32, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,BusinessProcess,SIMPLE_NAME, line no: 80, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,serialVersionUID,SIMPLE_NAME, line no: 82, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,startProcessById,SIMPLE_NAME, line no: 90, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,startProcessByKey,SIMPLE_NAME, line no: 134, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,startProcessByMessage,SIMPLE_NAME, line no: 178, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,isAssociated,SIMPLE_NAME, line no: 238, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,isTaskAssociated,SIMPLE_NAME, line no: 348, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,SuppressWarnings,SIMPLE_NAME, line no: 414, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getVariableCache,SIMPLE_NAME, line no: 460, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getVariableLocalCache,SIMPLE_NAME, line no: 517, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,setTaskId,SIMPLE_NAME, line no: 561, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,setExecutionId,SIMPLE_NAME, line no: 575, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getTaskId,SIMPLE_NAME, line no: 590, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,getProcessInstance,SIMPLE_NAME, line no: 629, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,new ProcessEngineCdiException("No execution associated. Call busniessProcess.associateExecutionById() or businessProcess.startTask() first."),CLASS_INSTANCE_CREATION, line no: 645, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,"No execution associated. Call busniessProcess.associateExecutionById() or businessProcess.startTask() first.",STRING_LITERAL, line no: 645, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,new ProcessEngineCdiException("No task associated. Call businessProcess.startTask() first."),CLASS_INSTANCE_CREATION, line no: 651, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,"No task associated. Call businessProcess.startTask() first.",STRING_LITERAL, line no: 651, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,new ProcessEngineCdiException("Cannot use this method of the BusinessProcess bean from an active command context."),CLASS_INSTANCE_CREATION, line no: 657, 0.07142857142857142, 0.07142857142857142, 0.0
+associationManager,SIMPLE_NAME, line no: 381,"Cannot use this method of the BusinessProcess bean from an active command context.",STRING_LITERAL, line no: 657, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,org,SIMPLE_NAME, line no: 13, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,camunda,SIMPLE_NAME, line no: 13, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,bpm,SIMPLE_NAME, line no: 13, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,engine,SIMPLE_NAME, line no: 13, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,cdi,SIMPLE_NAME, line no: 13, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,java,SIMPLE_NAME, line no: 15, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,io,SIMPLE_NAME, line no: 15, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,Serializable,SIMPLE_NAME, line no: 15, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,util,SIMPLE_NAME, line no: 16, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,javax,SIMPLE_NAME, line no: 19, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,enterprise,SIMPLE_NAME, line no: 19, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,context,SIMPLE_NAME, line no: 19, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,RequestScoped,SIMPLE_NAME, line no: 20, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,inject,SIMPLE_NAME, line no: 21, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,Instance,SIMPLE_NAME, line no: 21, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,Inject,SIMPLE_NAME, line no: 22, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,Named,SIMPLE_NAME, line no: 23, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,ProcessEngine,SIMPLE_NAME, line no: 25, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,ProcessEngineException,SIMPLE_NAME, line no: 26, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,RuntimeService,SIMPLE_NAME, line no: 27, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,TaskService,SIMPLE_NAME, line no: 28, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,annotation,SIMPLE_NAME, line no: 29, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,BusinessProcessScoped,SIMPLE_NAME, line no: 29, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,impl,SIMPLE_NAME, line no: 30, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,ContextAssociationManager,SIMPLE_NAME, line no: 30, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,runtime,SIMPLE_NAME, line no: 32, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,BusinessProcess,SIMPLE_NAME, line no: 80, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,serialVersionUID,SIMPLE_NAME, line no: 82, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,startProcessById,SIMPLE_NAME, line no: 90, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,startProcessByKey,SIMPLE_NAME, line no: 134, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,startProcessByMessage,SIMPLE_NAME, line no: 178, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,isAssociated,SIMPLE_NAME, line no: 238, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,isTaskAssociated,SIMPLE_NAME, line no: 348, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,SuppressWarnings,SIMPLE_NAME, line no: 414, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,getVariableCache,SIMPLE_NAME, line no: 460, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,getVariableLocalCache,SIMPLE_NAME, line no: 517, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,getTaskId,SIMPLE_NAME, line no: 590, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,getProcessInstance,SIMPLE_NAME, line no: 629, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,new ProcessEngineCdiException("No execution associated. Call busniessProcess.associateExecutionById() or businessProcess.startTask() first."),CLASS_INSTANCE_CREATION, line no: 645, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,"No execution associated. Call busniessProcess.associateExecutionById() or businessProcess.startTask() first.",STRING_LITERAL, line no: 645, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,new ProcessEngineCdiException("No task associated. Call businessProcess.startTask() first."),CLASS_INSTANCE_CREATION, line no: 651, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,"No task associated. Call businessProcess.startTask() first.",STRING_LITERAL, line no: 651, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,new ProcessEngineCdiException("Cannot use this method of the BusinessProcess bean from an active command context."),CLASS_INSTANCE_CREATION, line no: 657, 0.07142857142857142, 0.07142857142857142, 0.0
+setTask,SIMPLE_NAME, line no: 381,"Cannot use this method of the BusinessProcess bean from an active command context.",STRING_LITERAL, line no: 657, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,org,SIMPLE_NAME, line no: 13, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,camunda,SIMPLE_NAME, line no: 13, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,bpm,SIMPLE_NAME, line no: 13, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,engine,SIMPLE_NAME, line no: 13, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,cdi,SIMPLE_NAME, line no: 13, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,java,SIMPLE_NAME, line no: 15, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,io,SIMPLE_NAME, line no: 15, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,Serializable,SIMPLE_NAME, line no: 15, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,util,SIMPLE_NAME, line no: 16, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,javax,SIMPLE_NAME, line no: 19, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,enterprise,SIMPLE_NAME, line no: 19, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,context,SIMPLE_NAME, line no: 19, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,RequestScoped,SIMPLE_NAME, line no: 20, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,inject,SIMPLE_NAME, line no: 21, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,Instance,SIMPLE_NAME, line no: 21, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,Inject,SIMPLE_NAME, line no: 22, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,Named,SIMPLE_NAME, line no: 23, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,ProcessEngine,SIMPLE_NAME, line no: 25, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,ProcessEngineException,SIMPLE_NAME, line no: 26, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,RuntimeService,SIMPLE_NAME, line no: 27, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,TaskService,SIMPLE_NAME, line no: 28, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,annotation,SIMPLE_NAME, line no: 29, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,BusinessProcessScoped,SIMPLE_NAME, line no: 29, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,impl,SIMPLE_NAME, line no: 30, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,ContextAssociationManager,SIMPLE_NAME, line no: 30, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,runtime,SIMPLE_NAME, line no: 32, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,BusinessProcess,SIMPLE_NAME, line no: 80, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,serialVersionUID,SIMPLE_NAME, line no: 82, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,startProcessById,SIMPLE_NAME, line no: 90, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,startProcessByKey,SIMPLE_NAME, line no: 134, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,startProcessByMessage,SIMPLE_NAME, line no: 178, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,isAssociated,SIMPLE_NAME, line no: 238, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,isTaskAssociated,SIMPLE_NAME, line no: 348, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,SuppressWarnings,SIMPLE_NAME, line no: 414, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,getVariableCache,SIMPLE_NAME, line no: 460, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,getVariableLocalCache,SIMPLE_NAME, line no: 517, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,setTaskId,SIMPLE_NAME, line no: 561, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,setExecutionId,SIMPLE_NAME, line no: 575, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,getTaskId,SIMPLE_NAME, line no: 590, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,getProcessInstance,SIMPLE_NAME, line no: 629, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,new ProcessEngineCdiException("No execution associated. Call busniessProcess.associateExecutionById() or businessProcess.startTask() first."),CLASS_INSTANCE_CREATION, line no: 645, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,"No execution associated. Call busniessProcess.associateExecutionById() or businessProcess.startTask() first.",STRING_LITERAL, line no: 645, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,new ProcessEngineCdiException("No task associated. Call businessProcess.startTask() first."),CLASS_INSTANCE_CREATION, line no: 651, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,"No task associated. Call businessProcess.startTask() first.",STRING_LITERAL, line no: 651, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,new ProcessEngineCdiException("Cannot use this method of the BusinessProcess bean from an active command context."),CLASS_INSTANCE_CREATION, line no: 657, 0.07142857142857142, 0.07142857142857142, 0.0
+null,NULL_LITERAL, line no: 381,"Cannot use this method of the BusinessProcess bean from an active command context.",STRING_LITERAL, line no: 657, 0.07142857142857142, 0.07142857142857142, 0.0

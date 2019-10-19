@@ -1,0 +1,1352 @@
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,email,SIMPLE_NAME, line no: 21, 2.0, 0.012048192771084338, 1.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,personalName,SIMPLE_NAME, line no: 22, 2.0, 0.012048192771084338, 1.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,address,SIMPLE_NAME, line no: 40, 2.0, 0.012048192771084338, 1.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,trim,SIMPLE_NAME, line no: 41, 2.0, 1.0, 1.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,substring,SIMPLE_NAME, line no: 56, 2.0, 1.0, 1.0
+this.personalName,FIELD_ACCESS, line no: 57,email,SIMPLE_NAME, line no: 21, 2.0, 0.011904761904761904, 1.0
+this.personalName,FIELD_ACCESS, line no: 57,personalName,SIMPLE_NAME, line no: 22, 2.0, 0.011904761904761904, 1.0
+personalName,SIMPLE_NAME, line no: 57,email,SIMPLE_NAME, line no: 21, 2.0, 0.011764705882352941, 1.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,address,SIMPLE_NAME, line no: 40, 2.0, 0.011904761904761904, 1.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,trim,SIMPLE_NAME, line no: 41, 2.0, 1.0, 1.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,address.substring(ndx + 1 address.length() - 1),METHOD_INVOCATION, line no: 56, 2.0, 1.0, 1.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,substring,SIMPLE_NAME, line no: 56, 2.0, 1.0, 1.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,ndx + 1,INFIX_EXPRESSION, line no: 56, 2.0, 1.0, 1.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57, 2.0, 1.0, 1.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,ndx - 1,INFIX_EXPRESSION, line no: 57, 2.0, 1.0, 1.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,address,SIMPLE_NAME, line no: 40, 2.0, 0.011764705882352941, 1.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,substring,SIMPLE_NAME, line no: 56, 2.0, 0.9882352941176471, 1.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,ndx - 1,INFIX_EXPRESSION, line no: 57, 2.0, 1.0, 1.0
+address,SIMPLE_NAME, line no: 57,substring,SIMPLE_NAME, line no: 56, 2.0, 0.9883720930232558, 1.0
+substring,SIMPLE_NAME, line no: 57,address,SIMPLE_NAME, line no: 40, 2.0, 0.011627906976744186, 1.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,ndx,SIMPLE_NAME, line no: 49, 2.0, 0.9418604651162791, 1.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,length,SIMPLE_NAME, line no: 56, 2.0, 1.0, 1.0
+ndx,SIMPLE_NAME, line no: 57,length,SIMPLE_NAME, line no: 56, 2.0, 1.0, 1.0
+trim,SIMPLE_NAME, line no: 57,address,SIMPLE_NAME, line no: 40, 2.0, 0.011764705882352941, 1.0
+trim,SIMPLE_NAME, line no: 57,substring,SIMPLE_NAME, line no: 56, 2.0, 1.0, 1.0
+ndx,SIMPLE_NAME, line no: 57,1,NUMBER_LITERAL, line no: 50, 1.9885057471264367, 0.9425287356321839, 1.0
+ndx,SIMPLE_NAME, line no: 57,address.length(),METHOD_INVOCATION, line no: 56, 1.9885057471264367, 0.9885057471264368, 1.0
+ndx,SIMPLE_NAME, line no: 57,ndx - 1,INFIX_EXPRESSION, line no: 57, 1.9885057471264367, 0.9885057471264368, 1.0
+1,NUMBER_LITERAL, line no: 57,ndx,SIMPLE_NAME, line no: 49, 1.9885057471264367, 0.9310344827586207, 1.0
+1,NUMBER_LITERAL, line no: 57,length,SIMPLE_NAME, line no: 56, 1.9885057471264367, 0.9885057471264368, 1.0
+address,SIMPLE_NAME, line no: 57,trim,SIMPLE_NAME, line no: 41, 1.9883720930232558, 0.9883720930232558, 1.0
+address,SIMPLE_NAME, line no: 57,address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57, 1.9883720930232558, 0.9883720930232558, 1.0
+substring,SIMPLE_NAME, line no: 57,trim,SIMPLE_NAME, line no: 41, 1.9883720930232558, 0.9883720930232558, 1.0
+substring,SIMPLE_NAME, line no: 57,address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57, 1.9883720930232558, 0.9883720930232558, 1.0
+0,NUMBER_LITERAL, line no: 57,ndx,SIMPLE_NAME, line no: 49, 1.9883720930232558, 0.9418604651162791, 1.0
+0,NUMBER_LITERAL, line no: 57,length,SIMPLE_NAME, line no: 56, 1.9883720930232558, 0.9883720930232558, 1.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,ndx + 1,INFIX_EXPRESSION, line no: 56, 1.9883720930232558, 0.9883720930232558, 1.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57, 1.9883720930232558, 0.9883720930232558, 1.0
+personalName,SIMPLE_NAME, line no: 57,this.email,FIELD_ACCESS, line no: 28, 1.988235294117647, 0.17647058823529413, 1.0
+personalName,SIMPLE_NAME, line no: 57,this.personalName,FIELD_ACCESS, line no: 29, 1.988235294117647, 0.17647058823529413, 1.0
+personalName,SIMPLE_NAME, line no: 57,address,SIMPLE_NAME, line no: 40, 1.988235294117647, 0.011764705882352941, 1.0
+personalName,SIMPLE_NAME, line no: 57,trim,SIMPLE_NAME, line no: 41, 1.988235294117647, 0.9882352941176471, 1.0
+personalName,SIMPLE_NAME, line no: 57,substring,SIMPLE_NAME, line no: 56, 1.988235294117647, 0.9882352941176471, 1.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,trim,SIMPLE_NAME, line no: 41, 1.988235294117647, 0.9882352941176471, 1.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,address.substring(ndx + 1 address.length() - 1),METHOD_INVOCATION, line no: 56, 1.988235294117647, 0.9882352941176471, 1.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,ndx + 1,INFIX_EXPRESSION, line no: 56, 1.988235294117647, 0.9882352941176471, 1.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57, 1.988235294117647, 0.9882352941176471, 1.0
+trim,SIMPLE_NAME, line no: 57,email,SIMPLE_NAME, line no: 21, 1.988235294117647, 0.011764705882352941, 1.0
+trim,SIMPLE_NAME, line no: 57,personalName,SIMPLE_NAME, line no: 22, 1.988235294117647, 0.011764705882352941, 1.0
+trim,SIMPLE_NAME, line no: 57,address.trim(),METHOD_INVOCATION, line no: 41, 1.988235294117647, 0.9882352941176471, 1.0
+trim,SIMPLE_NAME, line no: 57,address.substring(ndx + 1 address.length() - 1),METHOD_INVOCATION, line no: 56, 1.988235294117647, 0.9882352941176471, 1.0
+trim,SIMPLE_NAME, line no: 57,address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57, 1.988235294117647, 0.9882352941176471, 1.0
+trim,SIMPLE_NAME, line no: 57,address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57, 1.988235294117647, 0.9882352941176471, 1.0
+this.personalName,FIELD_ACCESS, line no: 57,address,SIMPLE_NAME, line no: 40, 1.9880952380952381, 0.011904761904761904, 1.0
+this.personalName,FIELD_ACCESS, line no: 57,trim,SIMPLE_NAME, line no: 41, 1.9880952380952381, 0.9880952380952381, 1.0
+this.personalName,FIELD_ACCESS, line no: 57,substring,SIMPLE_NAME, line no: 56, 1.9880952380952381, 0.9880952380952381, 1.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,email,SIMPLE_NAME, line no: 21, 1.9880952380952381, 0.011904761904761904, 1.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,personalName,SIMPLE_NAME, line no: 22, 1.9880952380952381, 0.011904761904761904, 1.0
+ndx,SIMPLE_NAME, line no: 57,0,NUMBER_LITERAL, line no: 19, 1.9770114942528736, 0.011494252873563218, 1.0
+ndx,SIMPLE_NAME, line no: 57,ndx + 1,INFIX_EXPRESSION, line no: 56, 1.9770114942528736, 0.9770114942528736, 1.0
+ndx,SIMPLE_NAME, line no: 57,address.length() - 1,INFIX_EXPRESSION, line no: 56, 1.9770114942528736, 0.9770114942528736, 1.0
+address,SIMPLE_NAME, line no: 57,email,SIMPLE_NAME, line no: 21, 1.9767441860465116, 0.011627906976744186, 1.0
+address,SIMPLE_NAME, line no: 57,personalName,SIMPLE_NAME, line no: 22, 1.9767441860465116, 0.011627906976744186, 1.0
+address,SIMPLE_NAME, line no: 57,address.trim(),METHOD_INVOCATION, line no: 41, 1.9767441860465116, 0.9767441860465116, 1.0
+address,SIMPLE_NAME, line no: 57,address.substring(ndx + 1 address.length() - 1),METHOD_INVOCATION, line no: 56, 1.9767441860465116, 0.9767441860465116, 1.0
+address,SIMPLE_NAME, line no: 57,address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57, 1.9767441860465116, 0.9767441860465116, 1.0
+substring,SIMPLE_NAME, line no: 57,email,SIMPLE_NAME, line no: 21, 1.9767441860465116, 0.011627906976744186, 1.0
+substring,SIMPLE_NAME, line no: 57,personalName,SIMPLE_NAME, line no: 22, 1.9767441860465116, 0.011627906976744186, 1.0
+substring,SIMPLE_NAME, line no: 57,address.trim(),METHOD_INVOCATION, line no: 41, 1.9767441860465116, 0.9767441860465116, 1.0
+substring,SIMPLE_NAME, line no: 57,address.substring(ndx + 1 address.length() - 1),METHOD_INVOCATION, line no: 56, 1.9767441860465116, 0.9767441860465116, 1.0
+substring,SIMPLE_NAME, line no: 57,address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57, 1.9767441860465116, 0.9767441860465116, 1.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,address.substring(ndx + 1 address.length() - 1),METHOD_INVOCATION, line no: 56, 1.9767441860465116, 0.9767441860465116, 1.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57, 1.9767441860465116, 0.9767441860465116, 1.0
+personalName,SIMPLE_NAME, line no: 57,address=address.trim(),ASSIGNMENT, line no: 41, 1.9764705882352942, 0.9764705882352941, 1.0
+personalName,SIMPLE_NAME, line no: 57,address.trim(),METHOD_INVOCATION, line no: 41, 1.9764705882352942, 0.9764705882352941, 1.0
+personalName,SIMPLE_NAME, line no: 57,this.email=address.substring(ndx + 1 address.length() - 1),ASSIGNMENT, line no: 56, 1.9764705882352942, 0.9764705882352941, 1.0
+personalName,SIMPLE_NAME, line no: 57,address.substring(ndx + 1 address.length() - 1),METHOD_INVOCATION, line no: 56, 1.9764705882352942, 0.9764705882352941, 1.0
+personalName,SIMPLE_NAME, line no: 57,this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57, 1.9764705882352942, 0.9764705882352941, 1.0
+personalName,SIMPLE_NAME, line no: 57,address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57, 1.9764705882352942, 0.9764705882352941, 1.0
+personalName,SIMPLE_NAME, line no: 57,address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57, 1.9764705882352942, 0.9764705882352941, 1.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,email,SIMPLE_NAME, line no: 21, 1.9764705882352942, 0.011764705882352941, 1.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,personalName,SIMPLE_NAME, line no: 22, 1.9764705882352942, 0.011764705882352941, 1.0
+trim,SIMPLE_NAME, line no: 57,this.email,FIELD_ACCESS, line no: 28, 1.9764705882352942, 0.17647058823529413, 1.0
+trim,SIMPLE_NAME, line no: 57,this.personalName,FIELD_ACCESS, line no: 29, 1.9764705882352942, 0.17647058823529413, 1.0
+trim,SIMPLE_NAME, line no: 57,address=address.trim(),ASSIGNMENT, line no: 41, 1.9764705882352942, 0.9764705882352941, 1.0
+trim,SIMPLE_NAME, line no: 57,this.email=address.substring(ndx + 1 address.length() - 1),ASSIGNMENT, line no: 56, 1.9764705882352942, 0.9764705882352941, 1.0
+trim,SIMPLE_NAME, line no: 57,this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57, 1.9764705882352942, 0.9764705882352941, 1.0
+address,SIMPLE_NAME, line no: 57,this.email,FIELD_ACCESS, line no: 28, 1.9651162790697674, 0.1744186046511628, 1.0
+address,SIMPLE_NAME, line no: 57,this.personalName,FIELD_ACCESS, line no: 29, 1.9651162790697674, 0.1744186046511628, 1.0
+address,SIMPLE_NAME, line no: 57,address=address.trim(),ASSIGNMENT, line no: 41, 1.9651162790697674, 0.9651162790697675, 1.0
+address,SIMPLE_NAME, line no: 57,this.email=address.substring(ndx + 1 address.length() - 1),ASSIGNMENT, line no: 56, 1.9651162790697674, 0.9651162790697675, 1.0
+address,SIMPLE_NAME, line no: 57,this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57, 1.9651162790697674, 0.9651162790697675, 1.0
+substring,SIMPLE_NAME, line no: 57,this.email,FIELD_ACCESS, line no: 28, 1.9651162790697674, 0.1744186046511628, 1.0
+substring,SIMPLE_NAME, line no: 57,this.personalName,FIELD_ACCESS, line no: 29, 1.9651162790697674, 0.1744186046511628, 1.0
+substring,SIMPLE_NAME, line no: 57,address=address.trim(),ASSIGNMENT, line no: 41, 1.9651162790697674, 0.9651162790697675, 1.0
+substring,SIMPLE_NAME, line no: 57,this.email=address.substring(ndx + 1 address.length() - 1),ASSIGNMENT, line no: 56, 1.9651162790697674, 0.9651162790697675, 1.0
+substring,SIMPLE_NAME, line no: 57,this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57, 1.9651162790697674, 0.9651162790697675, 1.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,ndx == -1,INFIX_EXPRESSION, line no: 50, 1.9642857142857144, 0.9642857142857143, 1.0
+ndx,SIMPLE_NAME, line no: 57,lastIndexOf,SIMPLE_NAME, line no: 49, 1.9540229885057472, 0.9540229885057471, 1.0
+0,NUMBER_LITERAL, line no: 57,lastIndexOf,SIMPLE_NAME, line no: 49, 1.9534883720930232, 0.9534883720930233, 1.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,lastIndexOf,SIMPLE_NAME, line no: 49, 1.9534883720930232, 0.9534883720930233, 1.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,ndx == -1,INFIX_EXPRESSION, line no: 50, 1.9534883720930232, 0.9534883720930233, 1.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,ndx == -1,INFIX_EXPRESSION, line no: 50, 1.9529411764705882, 0.9529411764705882, 1.0
+ndx,SIMPLE_NAME, line no: 57,address.lastIndexOf('<'),METHOD_INVOCATION, line no: 49, 1.9425287356321839, 0.9425287356321839, 1.0
+ndx,SIMPLE_NAME, line no: 57,-1,PREFIX_EXPRESSION, line no: 50, 1.9425287356321839, 0.9425287356321839, 1.0
+1,NUMBER_LITERAL, line no: 57,lastIndexOf,SIMPLE_NAME, line no: 49, 1.9425287356321839, 0.9425287356321839, 1.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,this.personalName,FIELD_ACCESS, line no: 29, 1.5, 0.18072289156626506, 0.5
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,address.substring(ndx + 1 address.length() - 1),METHOD_INVOCATION, line no: 56, 1.5, 1.0, 0.5
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,ndx + 1,INFIX_EXPRESSION, line no: 56, 1.5, 1.0, 0.5
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57, 1.5, 1.0, 0.5
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57, 1.5, 1.0, 0.5
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,ndx - 1,INFIX_EXPRESSION, line no: 57, 1.5, 1.0, 0.5
+this.personalName,FIELD_ACCESS, line no: 57,this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57, 1.4880952380952381, 0.9880952380952381, 0.5
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,this.email=address.substring(ndx + 1 address.length() - 1),ASSIGNMENT, line no: 56, 1.4880952380952381, 0.9880952380952381, 0.5
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57, 1.4880952380952381, 0.9880952380952381, 0.5
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,this.email=address.substring(ndx + 1 address.length() - 1),ASSIGNMENT, line no: 56, 1.4764705882352942, 0.9764705882352941, 0.5
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57, 1.4764705882352942, 0.9764705882352941, 0.5
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,ndx == -1,INFIX_EXPRESSION, line no: 50, 1.4759036144578315, 0.9759036144578314, 0.5
+ndx - 1,INFIX_EXPRESSION, line no: 57,this.email=address.substring(ndx + 1 address.length() - 1),ASSIGNMENT, line no: 56, 1.4651162790697674, 0.9651162790697675, 0.5
+ndx - 1,INFIX_EXPRESSION, line no: 57,this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57, 1.4651162790697674, 0.9651162790697675, 0.5
+0,NUMBER_LITERAL, line no: 57,i,SIMPLE_NAME, line no: 145, 1.4069767441860466, 0.3953488372093023, 1.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,i,SIMPLE_NAME, line no: 145, 1.4069767441860466, 0.3953488372093023, 1.0
+ndx,SIMPLE_NAME, line no: 57,i,SIMPLE_NAME, line no: 145, 1.4022988505747127, 0.39080459770114945, 1.0
+1,NUMBER_LITERAL, line no: 57,i,SIMPLE_NAME, line no: 145, 1.4022988505747127, 0.39080459770114945, 1.0
+this,THIS_EXPRESSION, line no: 57,MailAddress,SIMPLE_NAME, line no: 17, 1.4, 0.011764705882352941, 1.0
+ndx,SIMPLE_NAME, line no: 57,addresses.length,QUALIFIED_NAME, line no: 139, 1.3908045977011494, 0.39080459770114945, 0.0
+ndx,SIMPLE_NAME, line no: 57,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 145, 1.3793103448275863, 0.3793103448275862, 1.0
+ndx,SIMPLE_NAME, line no: 57,i++,POSTFIX_EXPRESSION, line no: 145, 1.3793103448275863, 0.3793103448275862, 1.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,this.email=address.substring(ndx + 1 address.length() - 1),ASSIGNMENT, line no: 56, 1.3333333333333333, 1.0, 0.3333333333333333
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,getLocalPart,SIMPLE_NAME, line no: 65, 1.3132530120481927, 0.3132530120481928, 1.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,getDomain,SIMPLE_NAME, line no: 65, 1.3132530120481927, 0.3132530120481928, 1.0
+this.personalName,FIELD_ACCESS, line no: 57,getLocalPart,SIMPLE_NAME, line no: 65, 1.3095238095238095, 0.30952380952380953, 1.0
+this.personalName,FIELD_ACCESS, line no: 57,getDomain,SIMPLE_NAME, line no: 65, 1.3095238095238095, 0.30952380952380953, 1.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,getLocalPart,SIMPLE_NAME, line no: 65, 1.3095238095238095, 0.30952380952380953, 1.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,getDomain,SIMPLE_NAME, line no: 65, 1.3095238095238095, 0.30952380952380953, 1.0
+personalName,SIMPLE_NAME, line no: 57,getLocalPart,SIMPLE_NAME, line no: 65, 1.3058823529411765, 0.3058823529411765, 1.0
+personalName,SIMPLE_NAME, line no: 57,getDomain,SIMPLE_NAME, line no: 65, 1.3058823529411765, 0.3058823529411765, 1.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,getLocalPart,SIMPLE_NAME, line no: 65, 1.3058823529411765, 0.3058823529411765, 1.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,getDomain,SIMPLE_NAME, line no: 65, 1.3058823529411765, 0.3058823529411765, 1.0
+trim,SIMPLE_NAME, line no: 57,getLocalPart,SIMPLE_NAME, line no: 65, 1.3058823529411765, 0.3058823529411765, 1.0
+trim,SIMPLE_NAME, line no: 57,getDomain,SIMPLE_NAME, line no: 65, 1.3058823529411765, 0.3058823529411765, 1.0
+address,SIMPLE_NAME, line no: 57,getLocalPart,SIMPLE_NAME, line no: 65, 1.302325581395349, 0.3023255813953488, 1.0
+address,SIMPLE_NAME, line no: 57,getDomain,SIMPLE_NAME, line no: 65, 1.302325581395349, 0.3023255813953488, 1.0
+substring,SIMPLE_NAME, line no: 57,getLocalPart,SIMPLE_NAME, line no: 65, 1.302325581395349, 0.3023255813953488, 1.0
+substring,SIMPLE_NAME, line no: 57,getDomain,SIMPLE_NAME, line no: 65, 1.302325581395349, 0.3023255813953488, 1.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,getPersonalName,SIMPLE_NAME, line no: 64, 1.3012048192771084, 0.30120481927710846, 1.0
+this.personalName,FIELD_ACCESS, line no: 57,getPersonalName,SIMPLE_NAME, line no: 64, 1.2976190476190477, 0.2976190476190476, 1.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,getPersonalName,SIMPLE_NAME, line no: 64, 1.2976190476190477, 0.2976190476190476, 1.0
+personalName,SIMPLE_NAME, line no: 57,getPersonalName,SIMPLE_NAME, line no: 64, 1.2941176470588236, 0.29411764705882354, 1.0
+personalName,SIMPLE_NAME, line no: 57,emailAddress.getLocalPart(),METHOD_INVOCATION, line no: 65, 1.2941176470588236, 0.29411764705882354, 1.0
+personalName,SIMPLE_NAME, line no: 57,emailAddress.getDomain(),METHOD_INVOCATION, line no: 65, 1.2941176470588236, 0.29411764705882354, 1.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,getPersonalName,SIMPLE_NAME, line no: 64, 1.2941176470588236, 0.29411764705882354, 1.0
+trim,SIMPLE_NAME, line no: 57,getPersonalName,SIMPLE_NAME, line no: 64, 1.2941176470588236, 0.29411764705882354, 1.0
+trim,SIMPLE_NAME, line no: 57,emailAddress.getLocalPart(),METHOD_INVOCATION, line no: 65, 1.2941176470588236, 0.29411764705882354, 1.0
+trim,SIMPLE_NAME, line no: 57,emailAddress.getDomain(),METHOD_INVOCATION, line no: 65, 1.2941176470588236, 0.29411764705882354, 1.0
+address,SIMPLE_NAME, line no: 57,getPersonalName,SIMPLE_NAME, line no: 64, 1.2906976744186047, 0.29069767441860467, 1.0
+address,SIMPLE_NAME, line no: 57,emailAddress.getLocalPart(),METHOD_INVOCATION, line no: 65, 1.2906976744186047, 0.29069767441860467, 1.0
+address,SIMPLE_NAME, line no: 57,emailAddress.getDomain(),METHOD_INVOCATION, line no: 65, 1.2906976744186047, 0.29069767441860467, 1.0
+substring,SIMPLE_NAME, line no: 57,getPersonalName,SIMPLE_NAME, line no: 64, 1.2906976744186047, 0.29069767441860467, 1.0
+substring,SIMPLE_NAME, line no: 57,emailAddress.getLocalPart(),METHOD_INVOCATION, line no: 65, 1.2906976744186047, 0.29069767441860467, 1.0
+substring,SIMPLE_NAME, line no: 57,emailAddress.getDomain(),METHOD_INVOCATION, line no: 65, 1.2906976744186047, 0.29069767441860467, 1.0
+personalName,SIMPLE_NAME, line no: 57,emailAddress.getPersonalName(),METHOD_INVOCATION, line no: 64, 1.2823529411764705, 0.2823529411764706, 1.0
+personalName,SIMPLE_NAME, line no: 57,emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),INFIX_EXPRESSION, line no: 65, 1.2823529411764705, 0.2823529411764706, 1.0
+trim,SIMPLE_NAME, line no: 57,emailAddress.getPersonalName(),METHOD_INVOCATION, line no: 64, 1.2823529411764705, 0.2823529411764706, 1.0
+trim,SIMPLE_NAME, line no: 57,emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),INFIX_EXPRESSION, line no: 65, 1.2823529411764705, 0.2823529411764706, 1.0
+address,SIMPLE_NAME, line no: 57,emailAddress.getPersonalName(),METHOD_INVOCATION, line no: 64, 1.2790697674418605, 0.27906976744186046, 1.0
+address,SIMPLE_NAME, line no: 57,emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),INFIX_EXPRESSION, line no: 65, 1.2790697674418605, 0.27906976744186046, 1.0
+substring,SIMPLE_NAME, line no: 57,emailAddress.getPersonalName(),METHOD_INVOCATION, line no: 64, 1.2790697674418605, 0.27906976744186046, 1.0
+substring,SIMPLE_NAME, line no: 57,emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),INFIX_EXPRESSION, line no: 65, 1.2790697674418605, 0.27906976744186046, 1.0
+this.personalName,FIELD_ACCESS, line no: 57,this.personalName=emailAddress.getPersonalName(),ASSIGNMENT, line no: 64, 1.2738095238095237, 0.27380952380952384, 1.0
+personalName,SIMPLE_NAME, line no: 57,this.personalName=emailAddress.getPersonalName(),ASSIGNMENT, line no: 64, 1.2705882352941176, 0.27058823529411763, 1.0
+personalName,SIMPLE_NAME, line no: 57,this.email=emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),ASSIGNMENT, line no: 65, 1.2705882352941176, 0.27058823529411763, 1.0
+trim,SIMPLE_NAME, line no: 57,this.personalName=emailAddress.getPersonalName(),ASSIGNMENT, line no: 64, 1.2705882352941176, 0.27058823529411763, 1.0
+trim,SIMPLE_NAME, line no: 57,this.email=emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),ASSIGNMENT, line no: 65, 1.2705882352941176, 0.27058823529411763, 1.0
+address,SIMPLE_NAME, line no: 57,this.personalName=emailAddress.getPersonalName(),ASSIGNMENT, line no: 64, 1.2674418604651163, 0.26744186046511625, 1.0
+address,SIMPLE_NAME, line no: 57,this.email=emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),ASSIGNMENT, line no: 65, 1.2674418604651163, 0.26744186046511625, 1.0
+substring,SIMPLE_NAME, line no: 57,this.personalName=emailAddress.getPersonalName(),ASSIGNMENT, line no: 64, 1.2674418604651163, 0.26744186046511625, 1.0
+substring,SIMPLE_NAME, line no: 57,this.email=emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),ASSIGNMENT, line no: 65, 1.2674418604651163, 0.26744186046511625, 1.0
+this.personalName,FIELD_ACCESS, line no: 57,this.personalName == null,INFIX_EXPRESSION, line no: 124, 1.25, 0.25, 1.0
+personalName,SIMPLE_NAME, line no: 57,this.personalName + " <" + this.email+ '>',INFIX_EXPRESSION, line no: 127, 1.2352941176470589, 0.23529411764705882, 1.0
+personalName,SIMPLE_NAME, line no: 57," <",STRING_LITERAL, line no: 127, 1.2352941176470589, 0.23529411764705882, 1.0
+trim,SIMPLE_NAME, line no: 57,this.personalName + " <" + this.email+ '>',INFIX_EXPRESSION, line no: 127, 1.2352941176470589, 0.23529411764705882, 1.0
+trim,SIMPLE_NAME, line no: 57," <",STRING_LITERAL, line no: 127, 1.2352941176470589, 0.23529411764705882, 1.0
+address,SIMPLE_NAME, line no: 57,this.personalName + " <" + this.email+ '>',INFIX_EXPRESSION, line no: 127, 1.2325581395348837, 0.23255813953488372, 1.0
+address,SIMPLE_NAME, line no: 57," <",STRING_LITERAL, line no: 127, 1.2325581395348837, 0.23255813953488372, 1.0
+substring,SIMPLE_NAME, line no: 57,this.personalName + " <" + this.email+ '>',INFIX_EXPRESSION, line no: 127, 1.2325581395348837, 0.23255813953488372, 1.0
+substring,SIMPLE_NAME, line no: 57," <",STRING_LITERAL, line no: 127, 1.2325581395348837, 0.23255813953488372, 1.0
+this.personalName,FIELD_ACCESS, line no: 57,this.personalName=internetAddress.getPersonal(),ASSIGNMENT, line no: 72, 1.2142857142857142, 0.21428571428571427, 1.0
+personalName,SIMPLE_NAME, line no: 57,this.personalName=internetAddress.getPersonal(),ASSIGNMENT, line no: 72, 1.2117647058823529, 0.21176470588235294, 1.0
+personalName,SIMPLE_NAME, line no: 57,this.email=internetAddress.getAddress(),ASSIGNMENT, line no: 73, 1.2117647058823529, 0.21176470588235294, 1.0
+trim,SIMPLE_NAME, line no: 57,this.personalName=internetAddress.getPersonal(),ASSIGNMENT, line no: 72, 1.2117647058823529, 0.21176470588235294, 1.0
+trim,SIMPLE_NAME, line no: 57,this.email=internetAddress.getAddress(),ASSIGNMENT, line no: 73, 1.2117647058823529, 0.21176470588235294, 1.0
+address,SIMPLE_NAME, line no: 57,this.personalName=internetAddress.getPersonal(),ASSIGNMENT, line no: 72, 1.2093023255813953, 0.20930232558139536, 1.0
+address,SIMPLE_NAME, line no: 57,this.email=internetAddress.getAddress(),ASSIGNMENT, line no: 73, 1.2093023255813953, 0.20930232558139536, 1.0
+substring,SIMPLE_NAME, line no: 57,this.personalName=internetAddress.getPersonal(),ASSIGNMENT, line no: 72, 1.2093023255813953, 0.20930232558139536, 1.0
+substring,SIMPLE_NAME, line no: 57,this.email=internetAddress.getAddress(),ASSIGNMENT, line no: 73, 1.2093023255813953, 0.20930232558139536, 1.0
+this.personalName,FIELD_ACCESS, line no: 57,this.personalName=null,ASSIGNMENT, line no: 45, 1.1904761904761905, 0.19047619047619047, 1.0
+personalName,SIMPLE_NAME, line no: 57,this.email=address,ASSIGNMENT, line no: 44, 1.188235294117647, 0.18823529411764706, 1.0
+personalName,SIMPLE_NAME, line no: 57,this.personalName=null,ASSIGNMENT, line no: 45, 1.188235294117647, 0.18823529411764706, 1.0
+trim,SIMPLE_NAME, line no: 57,this.email=address,ASSIGNMENT, line no: 44, 1.188235294117647, 0.18823529411764706, 1.0
+trim,SIMPLE_NAME, line no: 57,this.personalName=null,ASSIGNMENT, line no: 45, 1.188235294117647, 0.18823529411764706, 1.0
+address,SIMPLE_NAME, line no: 57,this.email=address,ASSIGNMENT, line no: 44, 1.1860465116279069, 0.18604651162790697, 1.0
+address,SIMPLE_NAME, line no: 57,this.personalName=null,ASSIGNMENT, line no: 45, 1.1860465116279069, 0.18604651162790697, 1.0
+substring,SIMPLE_NAME, line no: 57,this.email=address,ASSIGNMENT, line no: 44, 1.1860465116279069, 0.18604651162790697, 1.0
+substring,SIMPLE_NAME, line no: 57,this.personalName=null,ASSIGNMENT, line no: 45, 1.1860465116279069, 0.18604651162790697, 1.0
+this.personalName,FIELD_ACCESS, line no: 57,this.personalName=personalName,ASSIGNMENT, line no: 29, 1.1666666666666667, 0.16666666666666666, 1.0
+personalName,SIMPLE_NAME, line no: 57,this.email=email,ASSIGNMENT, line no: 28, 1.1647058823529413, 0.16470588235294117, 1.0
+personalName,SIMPLE_NAME, line no: 57,this.personalName=personalName,ASSIGNMENT, line no: 29, 1.1647058823529413, 0.16470588235294117, 1.0
+trim,SIMPLE_NAME, line no: 57,this.email=email,ASSIGNMENT, line no: 28, 1.1647058823529413, 0.16470588235294117, 1.0
+trim,SIMPLE_NAME, line no: 57,this.personalName=personalName,ASSIGNMENT, line no: 29, 1.1647058823529413, 0.16470588235294117, 1.0
+address,SIMPLE_NAME, line no: 57,this.email=email,ASSIGNMENT, line no: 28, 1.1627906976744187, 0.16279069767441862, 1.0
+address,SIMPLE_NAME, line no: 57,this.personalName=personalName,ASSIGNMENT, line no: 29, 1.1627906976744187, 0.16279069767441862, 1.0
+substring,SIMPLE_NAME, line no: 57,this.email=email,ASSIGNMENT, line no: 28, 1.1627906976744187, 0.16279069767441862, 1.0
+substring,SIMPLE_NAME, line no: 57,this.personalName=personalName,ASSIGNMENT, line no: 29, 1.1627906976744187, 0.16279069767441862, 1.0
+personalName,SIMPLE_NAME, line no: 57,addresses[i],ARRAY_ACCESS, line no: 146, 1.1058823529411765, 0.10588235294117647, 0.0
+trim,SIMPLE_NAME, line no: 57,addresses[i],ARRAY_ACCESS, line no: 146, 1.1058823529411765, 0.10588235294117647, 0.0
+address,SIMPLE_NAME, line no: 57,addresses[i],ARRAY_ACCESS, line no: 146, 1.1046511627906976, 0.10465116279069768, 0.0
+substring,SIMPLE_NAME, line no: 57,addresses[i],ARRAY_ACCESS, line no: 146, 1.1046511627906976, 0.10465116279069768, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,encoding,SIMPLE_NAME, line no: 114, 1.0963855421686748, 0.0963855421686747, 1.0
+this.personalName,FIELD_ACCESS, line no: 57,encoding,SIMPLE_NAME, line no: 114, 1.0952380952380953, 0.09523809523809523, 1.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,encoding,SIMPLE_NAME, line no: 114, 1.0952380952380953, 0.09523809523809523, 1.0
+personalName,SIMPLE_NAME, line no: 57,encoding,SIMPLE_NAME, line no: 114, 1.0941176470588236, 0.09411764705882353, 1.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,encoding,SIMPLE_NAME, line no: 114, 1.0941176470588236, 0.09411764705882353, 1.0
+trim,SIMPLE_NAME, line no: 57,encoding,SIMPLE_NAME, line no: 114, 1.0941176470588236, 0.09411764705882353, 1.0
+address,SIMPLE_NAME, line no: 57,encoding,SIMPLE_NAME, line no: 114, 1.0930232558139534, 0.09302325581395349, 1.0
+substring,SIMPLE_NAME, line no: 57,encoding,SIMPLE_NAME, line no: 114, 1.0930232558139534, 0.09302325581395349, 1.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,toString,SIMPLE_NAME, line no: 80, 1.0843373493975903, 0.060240963855421686, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,toString,SIMPLE_NAME, line no: 80, 1.0833333333333333, 0.05952380952380952, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,toString,SIMPLE_NAME, line no: 80, 1.0833333333333333, 0.05952380952380952, 0.0
+personalName,SIMPLE_NAME, line no: 57,toString,SIMPLE_NAME, line no: 80, 1.0823529411764705, 0.058823529411764705, 0.0
+personalName,SIMPLE_NAME, line no: 57,JoddCore.encoding,QUALIFIED_NAME, line no: 114, 1.0823529411764705, 0.08235294117647059, 1.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,toString,SIMPLE_NAME, line no: 80, 1.0823529411764705, 0.058823529411764705, 0.0
+trim,SIMPLE_NAME, line no: 57,toString,SIMPLE_NAME, line no: 80, 1.0823529411764705, 0.058823529411764705, 0.0
+trim,SIMPLE_NAME, line no: 57,JoddCore.encoding,QUALIFIED_NAME, line no: 114, 1.0823529411764705, 0.08235294117647059, 1.0
+address,SIMPLE_NAME, line no: 57,toString,SIMPLE_NAME, line no: 80, 1.0813953488372092, 0.05813953488372093, 0.0
+address,SIMPLE_NAME, line no: 57,JoddCore.encoding,QUALIFIED_NAME, line no: 114, 1.0813953488372092, 0.08139534883720931, 1.0
+substring,SIMPLE_NAME, line no: 57,toString,SIMPLE_NAME, line no: 80, 1.0813953488372092, 0.05813953488372093, 0.0
+substring,SIMPLE_NAME, line no: 57,JoddCore.encoding,QUALIFIED_NAME, line no: 114, 1.0813953488372092, 0.08139534883720931, 1.0
+personalName,SIMPLE_NAME, line no: 57,toString(),METHOD_INVOCATION, line no: 106, 1.0705882352941176, 0.07058823529411765, 1.0
+trim,SIMPLE_NAME, line no: 57,toString(),METHOD_INVOCATION, line no: 106, 1.0705882352941176, 0.07058823529411765, 1.0
+address,SIMPLE_NAME, line no: 57,toString(),METHOD_INVOCATION, line no: 106, 1.069767441860465, 0.06976744186046512, 1.0
+substring,SIMPLE_NAME, line no: 57,toString(),METHOD_INVOCATION, line no: 106, 1.069767441860465, 0.06976744186046512, 1.0
+personalName,SIMPLE_NAME, line no: 57,ueex.toString(),METHOD_INVOCATION, line no: 116, 1.0588235294117647, 0.058823529411764705, 1.0
+trim,SIMPLE_NAME, line no: 57,ueex.toString(),METHOD_INVOCATION, line no: 116, 1.0588235294117647, 0.058823529411764705, 1.0
+address,SIMPLE_NAME, line no: 57,ueex.toString(),METHOD_INVOCATION, line no: 116, 1.058139534883721, 0.05813953488372093, 1.0
+substring,SIMPLE_NAME, line no: 57,ueex.toString(),METHOD_INVOCATION, line no: 116, 1.058139534883721, 0.05813953488372093, 1.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,String,SIMPLE_NAME, line no: 21, 1.0120481927710843, 0.012048192771084338, 1.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,getEmail,SIMPLE_NAME, line no: 88, 1.0120481927710843, 0.012048192771084338, 1.0
+this.personalName,FIELD_ACCESS, line no: 57,String,SIMPLE_NAME, line no: 21, 1.0119047619047619, 0.011904761904761904, 1.0
+this.personalName,FIELD_ACCESS, line no: 57,getEmail,SIMPLE_NAME, line no: 88, 1.0119047619047619, 0.011904761904761904, 1.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,String,SIMPLE_NAME, line no: 21, 1.0119047619047619, 0.011904761904761904, 1.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,getEmail,SIMPLE_NAME, line no: 88, 1.0119047619047619, 0.011904761904761904, 1.0
+personalName,SIMPLE_NAME, line no: 57,String,SIMPLE_NAME, line no: 21, 1.011764705882353, 0.011764705882352941, 1.0
+personalName,SIMPLE_NAME, line no: 57,getEmail,SIMPLE_NAME, line no: 88, 1.011764705882353, 0.011764705882352941, 1.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,String,SIMPLE_NAME, line no: 21, 1.011764705882353, 0.011764705882352941, 1.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,getEmail,SIMPLE_NAME, line no: 88, 1.011764705882353, 0.011764705882352941, 1.0
+trim,SIMPLE_NAME, line no: 57,String,SIMPLE_NAME, line no: 21, 1.011764705882353, 0.011764705882352941, 1.0
+trim,SIMPLE_NAME, line no: 57,getEmail,SIMPLE_NAME, line no: 88, 1.011764705882353, 0.011764705882352941, 1.0
+address,SIMPLE_NAME, line no: 57,String,SIMPLE_NAME, line no: 21, 1.0116279069767442, 0.011627906976744186, 1.0
+address,SIMPLE_NAME, line no: 57,getEmail,SIMPLE_NAME, line no: 88, 1.0116279069767442, 0.011627906976744186, 1.0
+substring,SIMPLE_NAME, line no: 57,String,SIMPLE_NAME, line no: 21, 1.0116279069767442, 0.011627906976744186, 1.0
+substring,SIMPLE_NAME, line no: 57,getEmail,SIMPLE_NAME, line no: 88, 1.0116279069767442, 0.011627906976744186, 1.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,0,NUMBER_LITERAL, line no: 19, 1.0, 0.012048192771084338, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,this.email,FIELD_ACCESS, line no: 28, 1.0, 0.18072289156626506, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,this,THIS_EXPRESSION, line no: 28, 1.0, 0.1927710843373494, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,address=address.trim(),ASSIGNMENT, line no: 41, 1.0, 1.0, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,address.trim(),METHOD_INVOCATION, line no: 41, 1.0, 1.0, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,ndx,SIMPLE_NAME, line no: 49, 1.0, 0.9759036144578314, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,1,NUMBER_LITERAL, line no: 50, 1.0, 0.9759036144578314, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,address.length() - 1,INFIX_EXPRESSION, line no: 56, 1.0, 1.0, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,address.length(),METHOD_INVOCATION, line no: 56, 1.0, 1.0, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,length,SIMPLE_NAME, line no: 56, 1.0, 1.0, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,this.email,FIELD_ACCESS, line no: 28, 1.0, 0.17857142857142858, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,this,THIS_EXPRESSION, line no: 28, 1.0, 0.19047619047619047, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,0,NUMBER_LITERAL, line no: 19, 1.0, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,address.trim(),METHOD_INVOCATION, line no: 41, 1.0, 1.0, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,ndx,SIMPLE_NAME, line no: 49, 1.0, 0.9642857142857143, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,1,NUMBER_LITERAL, line no: 50, 1.0, 0.9642857142857143, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,address.length() - 1,INFIX_EXPRESSION, line no: 56, 1.0, 1.0, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,address.length(),METHOD_INVOCATION, line no: 56, 1.0, 1.0, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,length,SIMPLE_NAME, line no: 56, 1.0, 1.0, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,0,NUMBER_LITERAL, line no: 19, 1.0, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,ndx,SIMPLE_NAME, line no: 49, 1.0, 0.9529411764705882, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,1,NUMBER_LITERAL, line no: 50, 1.0, 0.9529411764705882, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,address.length(),METHOD_INVOCATION, line no: 56, 1.0, 1.0, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,length,SIMPLE_NAME, line no: 56, 1.0, 1.0, 0.0
+address,SIMPLE_NAME, line no: 57,ndx,SIMPLE_NAME, line no: 49, 1.0, 0.9534883720930233, 0.0
+address,SIMPLE_NAME, line no: 57,length,SIMPLE_NAME, line no: 56, 1.0, 1.0, 0.0
+substring,SIMPLE_NAME, line no: 57,ndx,SIMPLE_NAME, line no: 49, 1.0, 0.9534883720930233, 0.0
+substring,SIMPLE_NAME, line no: 57,length,SIMPLE_NAME, line no: 56, 1.0, 1.0, 0.0
+0,NUMBER_LITERAL, line no: 57,1,NUMBER_LITERAL, line no: 50, 1.0, 0.9534883720930233, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,address,SIMPLE_NAME, line no: 40, 1.0, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,1,NUMBER_LITERAL, line no: 50, 1.0, 0.9534883720930233, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,address.length(),METHOD_INVOCATION, line no: 56, 1.0, 1.0, 0.0
+ndx,SIMPLE_NAME, line no: 57,address,SIMPLE_NAME, line no: 40, 1.0, 0.011494252873563218, 0.0
+trim,SIMPLE_NAME, line no: 57,ndx,SIMPLE_NAME, line no: 49, 1.0, 0.9647058823529412, 0.0
+trim,SIMPLE_NAME, line no: 57,length,SIMPLE_NAME, line no: 56, 1.0, 1.0, 0.0
+ndx,SIMPLE_NAME, line no: 57,substring,SIMPLE_NAME, line no: 56, 0.9885057471264368, 0.9770114942528736, 0.0
+1,NUMBER_LITERAL, line no: 57,0,NUMBER_LITERAL, line no: 19, 0.9885057471264368, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,address,SIMPLE_NAME, line no: 40, 0.9885057471264368, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,address.length(),METHOD_INVOCATION, line no: 56, 0.9885057471264368, 0.9885057471264368, 0.0
+1,NUMBER_LITERAL, line no: 57,ndx - 1,INFIX_EXPRESSION, line no: 57, 0.9885057471264368, 0.9885057471264368, 0.0
+address,SIMPLE_NAME, line no: 57,0,NUMBER_LITERAL, line no: 19, 0.9883720930232558, 0.011627906976744186, 0.0
+address,SIMPLE_NAME, line no: 57,1,NUMBER_LITERAL, line no: 50, 0.9883720930232558, 0.9418604651162791, 0.0
+address,SIMPLE_NAME, line no: 57,address.length(),METHOD_INVOCATION, line no: 56, 0.9883720930232558, 0.9883720930232558, 0.0
+address,SIMPLE_NAME, line no: 57,ndx - 1,INFIX_EXPRESSION, line no: 57, 0.9883720930232558, 0.9883720930232558, 0.0
+substring,SIMPLE_NAME, line no: 57,0,NUMBER_LITERAL, line no: 19, 0.9883720930232558, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,1,NUMBER_LITERAL, line no: 50, 0.9883720930232558, 0.9418604651162791, 0.0
+substring,SIMPLE_NAME, line no: 57,address.length(),METHOD_INVOCATION, line no: 56, 0.9883720930232558, 0.9883720930232558, 0.0
+substring,SIMPLE_NAME, line no: 57,ndx - 1,INFIX_EXPRESSION, line no: 57, 0.9883720930232558, 0.9883720930232558, 0.0
+0,NUMBER_LITERAL, line no: 57,address,SIMPLE_NAME, line no: 40, 0.9883720930232558, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,substring,SIMPLE_NAME, line no: 56, 0.9883720930232558, 0.9767441860465116, 0.0
+0,NUMBER_LITERAL, line no: 57,address.length(),METHOD_INVOCATION, line no: 56, 0.9883720930232558, 0.9883720930232558, 0.0
+0,NUMBER_LITERAL, line no: 57,address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57, 0.9883720930232558, 0.9883720930232558, 0.0
+0,NUMBER_LITERAL, line no: 57,ndx - 1,INFIX_EXPRESSION, line no: 57, 0.9883720930232558, 0.9883720930232558, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,0,NUMBER_LITERAL, line no: 19, 0.9883720930232558, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,substring,SIMPLE_NAME, line no: 56, 0.9883720930232558, 0.9767441860465116, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,address.length() - 1,INFIX_EXPRESSION, line no: 56, 0.9883720930232558, 0.9883720930232558, 0.0
+this,THIS_EXPRESSION, line no: 57,email,SIMPLE_NAME, line no: 21, 0.9882352941176471, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,personalName,SIMPLE_NAME, line no: 22, 0.9882352941176471, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,this.email,FIELD_ACCESS, line no: 28, 0.9882352941176471, 0.17647058823529413, 0.0
+this,THIS_EXPRESSION, line no: 57,this.personalName,FIELD_ACCESS, line no: 29, 0.9882352941176471, 0.17647058823529413, 0.0
+personalName,SIMPLE_NAME, line no: 57,this,THIS_EXPRESSION, line no: 28, 0.9882352941176471, 0.18823529411764706, 0.0
+personalName,SIMPLE_NAME, line no: 57,ndx,SIMPLE_NAME, line no: 49, 0.9882352941176471, 0.9647058823529412, 0.0
+personalName,SIMPLE_NAME, line no: 57,length,SIMPLE_NAME, line no: 56, 0.9882352941176471, 0.9882352941176471, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,address.trim(),METHOD_INVOCATION, line no: 41, 0.9882352941176471, 0.9882352941176471, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,address.length() - 1,INFIX_EXPRESSION, line no: 56, 0.9882352941176471, 0.9882352941176471, 0.0
+trim,SIMPLE_NAME, line no: 57,0,NUMBER_LITERAL, line no: 19, 0.9882352941176471, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,1,NUMBER_LITERAL, line no: 50, 0.9882352941176471, 0.9529411764705882, 0.0
+trim,SIMPLE_NAME, line no: 57,ndx + 1,INFIX_EXPRESSION, line no: 56, 0.9882352941176471, 0.9882352941176471, 0.0
+trim,SIMPLE_NAME, line no: 57,address.length() - 1,INFIX_EXPRESSION, line no: 56, 0.9882352941176471, 0.9882352941176471, 0.0
+trim,SIMPLE_NAME, line no: 57,address.length(),METHOD_INVOCATION, line no: 56, 0.9882352941176471, 0.9882352941176471, 0.0
+trim,SIMPLE_NAME, line no: 57,ndx - 1,INFIX_EXPRESSION, line no: 57, 0.9882352941176471, 0.9882352941176471, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,0,NUMBER_LITERAL, line no: 19, 0.9880952380952381, 0.011904761904761904, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,address=address.trim(),ASSIGNMENT, line no: 41, 0.9880952380952381, 0.9880952380952381, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,address.trim(),METHOD_INVOCATION, line no: 41, 0.9880952380952381, 0.9880952380952381, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,ndx,SIMPLE_NAME, line no: 49, 0.9880952380952381, 0.9642857142857143, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,1,NUMBER_LITERAL, line no: 50, 0.9880952380952381, 0.9642857142857143, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,this.email=address.substring(ndx + 1 address.length() - 1),ASSIGNMENT, line no: 56, 0.9880952380952381, 0.9880952380952381, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,address.substring(ndx + 1 address.length() - 1),METHOD_INVOCATION, line no: 56, 0.9880952380952381, 0.9880952380952381, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,ndx + 1,INFIX_EXPRESSION, line no: 56, 0.9880952380952381, 0.9880952380952381, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,address.length() - 1,INFIX_EXPRESSION, line no: 56, 0.9880952380952381, 0.9880952380952381, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,address.length(),METHOD_INVOCATION, line no: 56, 0.9880952380952381, 0.9880952380952381, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,length,SIMPLE_NAME, line no: 56, 0.9880952380952381, 0.9880952380952381, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57, 0.9880952380952381, 0.9880952380952381, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57, 0.9880952380952381, 0.9880952380952381, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,ndx - 1,INFIX_EXPRESSION, line no: 57, 0.9880952380952381, 0.9880952380952381, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,this.email,FIELD_ACCESS, line no: 28, 0.9880952380952381, 0.17857142857142858, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,this,THIS_EXPRESSION, line no: 28, 0.9880952380952381, 0.19047619047619047, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,this.personalName,FIELD_ACCESS, line no: 29, 0.9880952380952381, 0.17857142857142858, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,address=address.trim(),ASSIGNMENT, line no: 41, 0.9880952380952381, 0.9880952380952381, 0.0
+ndx,SIMPLE_NAME, line no: 57,trim,SIMPLE_NAME, line no: 41, 0.9770114942528736, 0.9770114942528736, 0.0
+ndx,SIMPLE_NAME, line no: 57,address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57, 0.9770114942528736, 0.9770114942528736, 0.0
+1,NUMBER_LITERAL, line no: 57,substring,SIMPLE_NAME, line no: 56, 0.9770114942528736, 0.9655172413793104, 0.0
+1,NUMBER_LITERAL, line no: 57,ndx + 1,INFIX_EXPRESSION, line no: 56, 0.9770114942528736, 0.9770114942528736, 0.0
+1,NUMBER_LITERAL, line no: 57,address.length() - 1,INFIX_EXPRESSION, line no: 56, 0.9770114942528736, 0.9770114942528736, 0.0
+1,NUMBER_LITERAL, line no: 57,address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57, 0.9770114942528736, 0.9770114942528736, 0.0
+address,SIMPLE_NAME, line no: 57,ndx + 1,INFIX_EXPRESSION, line no: 56, 0.9767441860465116, 0.9767441860465116, 0.0
+address,SIMPLE_NAME, line no: 57,address.length() - 1,INFIX_EXPRESSION, line no: 56, 0.9767441860465116, 0.9767441860465116, 0.0
+substring,SIMPLE_NAME, line no: 57,ndx + 1,INFIX_EXPRESSION, line no: 56, 0.9767441860465116, 0.9767441860465116, 0.0
+substring,SIMPLE_NAME, line no: 57,address.length() - 1,INFIX_EXPRESSION, line no: 56, 0.9767441860465116, 0.9767441860465116, 0.0
+0,NUMBER_LITERAL, line no: 57,address.trim(),METHOD_INVOCATION, line no: 41, 0.9767441860465116, 0.9767441860465116, 0.0
+0,NUMBER_LITERAL, line no: 57,trim,SIMPLE_NAME, line no: 41, 0.9767441860465116, 0.9767441860465116, 0.0
+0,NUMBER_LITERAL, line no: 57,address.substring(ndx + 1 address.length() - 1),METHOD_INVOCATION, line no: 56, 0.9767441860465116, 0.9767441860465116, 0.0
+0,NUMBER_LITERAL, line no: 57,ndx + 1,INFIX_EXPRESSION, line no: 56, 0.9767441860465116, 0.9767441860465116, 0.0
+0,NUMBER_LITERAL, line no: 57,address.length() - 1,INFIX_EXPRESSION, line no: 56, 0.9767441860465116, 0.9767441860465116, 0.0
+0,NUMBER_LITERAL, line no: 57,address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57, 0.9767441860465116, 0.9767441860465116, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,address.trim(),METHOD_INVOCATION, line no: 41, 0.9767441860465116, 0.9767441860465116, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,trim,SIMPLE_NAME, line no: 41, 0.9767441860465116, 0.9767441860465116, 0.0
+this,THIS_EXPRESSION, line no: 57,0,NUMBER_LITERAL, line no: 19, 0.9764705882352941, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,address,SIMPLE_NAME, line no: 40, 0.9764705882352941, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,address=address.trim(),ASSIGNMENT, line no: 41, 0.9764705882352941, 0.9764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,address.trim(),METHOD_INVOCATION, line no: 41, 0.9764705882352941, 0.9764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,trim,SIMPLE_NAME, line no: 41, 0.9764705882352941, 0.9764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,ndx,SIMPLE_NAME, line no: 49, 0.9764705882352941, 0.9529411764705882, 0.0
+this,THIS_EXPRESSION, line no: 57,1,NUMBER_LITERAL, line no: 50, 0.9764705882352941, 0.9529411764705882, 0.0
+this,THIS_EXPRESSION, line no: 57,this.email=address.substring(ndx + 1 address.length() - 1),ASSIGNMENT, line no: 56, 0.9764705882352941, 0.9764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,address.substring(ndx + 1 address.length() - 1),METHOD_INVOCATION, line no: 56, 0.9764705882352941, 0.9764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,substring,SIMPLE_NAME, line no: 56, 0.9764705882352941, 0.9764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,ndx + 1,INFIX_EXPRESSION, line no: 56, 0.9764705882352941, 0.9764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,address.length() - 1,INFIX_EXPRESSION, line no: 56, 0.9764705882352941, 0.9764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,address.length(),METHOD_INVOCATION, line no: 56, 0.9764705882352941, 0.9764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,length,SIMPLE_NAME, line no: 56, 0.9764705882352941, 0.9764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57, 0.9764705882352941, 0.9764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57, 0.9764705882352941, 0.9764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57, 0.9764705882352941, 0.9764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,ndx - 1,INFIX_EXPRESSION, line no: 57, 0.9764705882352941, 0.9764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,0,NUMBER_LITERAL, line no: 19, 0.9764705882352941, 0.011764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,1,NUMBER_LITERAL, line no: 50, 0.9764705882352941, 0.9529411764705882, 0.0
+personalName,SIMPLE_NAME, line no: 57,ndx + 1,INFIX_EXPRESSION, line no: 56, 0.9764705882352941, 0.9764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,address.length() - 1,INFIX_EXPRESSION, line no: 56, 0.9764705882352941, 0.9764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,address.length(),METHOD_INVOCATION, line no: 56, 0.9764705882352941, 0.9764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,ndx - 1,INFIX_EXPRESSION, line no: 57, 0.9764705882352941, 0.9764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,this.email,FIELD_ACCESS, line no: 28, 0.9764705882352941, 0.17647058823529413, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,this,THIS_EXPRESSION, line no: 28, 0.9764705882352941, 0.18823529411764706, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,this.personalName,FIELD_ACCESS, line no: 29, 0.9764705882352941, 0.17647058823529413, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,address=address.trim(),ASSIGNMENT, line no: 41, 0.9764705882352941, 0.9764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,StringUtil,SIMPLE_NAME, line no: 6, 0.9764705882352941, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,this,THIS_EXPRESSION, line no: 28, 0.9764705882352941, 0.18823529411764706, 0.0
+trim,SIMPLE_NAME, line no: 57,endsWithChar,SIMPLE_NAME, line no: 43, 0.9764705882352941, 0.9764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,lastIndexOf,SIMPLE_NAME, line no: 49, 0.9764705882352941, 0.9764705882352941, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,StringUtil,SIMPLE_NAME, line no: 6, 0.9761904761904762, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,StringUtil.endsWithChar(address '>'),METHOD_INVOCATION, line no: 43, 0.9761904761904762, 0.9761904761904762, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,endsWithChar,SIMPLE_NAME, line no: 43, 0.9761904761904762, 0.9761904761904762, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,'>',CHARACTER_LITERAL, line no: 43, 0.9761904761904762, 0.9761904761904762, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,address.lastIndexOf('<'),METHOD_INVOCATION, line no: 49, 0.9761904761904762, 0.9761904761904762, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,lastIndexOf,SIMPLE_NAME, line no: 49, 0.9761904761904762, 0.9761904761904762, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,'<',CHARACTER_LITERAL, line no: 49, 0.9761904761904762, 0.9761904761904762, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,StringUtil,SIMPLE_NAME, line no: 6, 0.9759036144578314, 0.012048192771084338, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,StringUtil.endsWithChar(address '>') == false,INFIX_EXPRESSION, line no: 43, 0.9759036144578314, 0.9759036144578314, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,StringUtil.endsWithChar(address '>'),METHOD_INVOCATION, line no: 43, 0.9759036144578314, 0.9759036144578314, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,endsWithChar,SIMPLE_NAME, line no: 43, 0.9759036144578314, 0.9759036144578314, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,'>',CHARACTER_LITERAL, line no: 43, 0.9759036144578314, 0.9759036144578314, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,false,BOOLEAN_LITERAL, line no: 43, 0.9759036144578314, 0.9759036144578314, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,address.lastIndexOf('<'),METHOD_INVOCATION, line no: 49, 0.9759036144578314, 0.9759036144578314, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,lastIndexOf,SIMPLE_NAME, line no: 49, 0.9759036144578314, 0.9759036144578314, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,'<',CHARACTER_LITERAL, line no: 49, 0.9759036144578314, 0.9759036144578314, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,-1,PREFIX_EXPRESSION, line no: 50, 0.9759036144578314, 0.9759036144578314, 0.0
+ndx,SIMPLE_NAME, line no: 57,StringUtil,SIMPLE_NAME, line no: 6, 0.9655172413793104, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,email,SIMPLE_NAME, line no: 21, 0.9655172413793104, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,personalName,SIMPLE_NAME, line no: 22, 0.9655172413793104, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,address.trim(),METHOD_INVOCATION, line no: 41, 0.9655172413793104, 0.9655172413793104, 0.0
+ndx,SIMPLE_NAME, line no: 57,endsWithChar,SIMPLE_NAME, line no: 43, 0.9655172413793104, 0.9655172413793104, 0.0
+ndx,SIMPLE_NAME, line no: 57,address.substring(ndx + 1 address.length() - 1),METHOD_INVOCATION, line no: 56, 0.9655172413793104, 0.9655172413793104, 0.0
+ndx,SIMPLE_NAME, line no: 57,address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57, 0.9655172413793104, 0.9655172413793104, 0.0
+1,NUMBER_LITERAL, line no: 57,address.trim(),METHOD_INVOCATION, line no: 41, 0.9655172413793104, 0.9655172413793104, 0.0
+1,NUMBER_LITERAL, line no: 57,trim,SIMPLE_NAME, line no: 41, 0.9655172413793104, 0.9655172413793104, 0.0
+1,NUMBER_LITERAL, line no: 57,address.substring(ndx + 1 address.length() - 1),METHOD_INVOCATION, line no: 56, 0.9655172413793104, 0.9655172413793104, 0.0
+1,NUMBER_LITERAL, line no: 57,address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57, 0.9655172413793104, 0.9655172413793104, 0.0
+address,SIMPLE_NAME, line no: 57,StringUtil,SIMPLE_NAME, line no: 6, 0.9651162790697675, 0.011627906976744186, 0.0
+address,SIMPLE_NAME, line no: 57,this,THIS_EXPRESSION, line no: 28, 0.9651162790697675, 0.18604651162790697, 0.0
+address,SIMPLE_NAME, line no: 57,endsWithChar,SIMPLE_NAME, line no: 43, 0.9651162790697675, 0.9651162790697675, 0.0
+address,SIMPLE_NAME, line no: 57,lastIndexOf,SIMPLE_NAME, line no: 49, 0.9651162790697675, 0.9651162790697675, 0.0
+substring,SIMPLE_NAME, line no: 57,StringUtil,SIMPLE_NAME, line no: 6, 0.9651162790697675, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,this,THIS_EXPRESSION, line no: 28, 0.9651162790697675, 0.18604651162790697, 0.0
+substring,SIMPLE_NAME, line no: 57,endsWithChar,SIMPLE_NAME, line no: 43, 0.9651162790697675, 0.9651162790697675, 0.0
+substring,SIMPLE_NAME, line no: 57,lastIndexOf,SIMPLE_NAME, line no: 49, 0.9651162790697675, 0.9651162790697675, 0.0
+0,NUMBER_LITERAL, line no: 57,email,SIMPLE_NAME, line no: 21, 0.9651162790697675, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,personalName,SIMPLE_NAME, line no: 22, 0.9651162790697675, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,this.email,FIELD_ACCESS, line no: 28, 0.9651162790697675, 0.1744186046511628, 0.0
+0,NUMBER_LITERAL, line no: 57,this,THIS_EXPRESSION, line no: 28, 0.9651162790697675, 0.18604651162790697, 0.0
+0,NUMBER_LITERAL, line no: 57,this.personalName,FIELD_ACCESS, line no: 29, 0.9651162790697675, 0.1744186046511628, 0.0
+0,NUMBER_LITERAL, line no: 57,address=address.trim(),ASSIGNMENT, line no: 41, 0.9651162790697675, 0.9651162790697675, 0.0
+0,NUMBER_LITERAL, line no: 57,this.email=address.substring(ndx + 1 address.length() - 1),ASSIGNMENT, line no: 56, 0.9651162790697675, 0.9651162790697675, 0.0
+0,NUMBER_LITERAL, line no: 57,this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57, 0.9651162790697675, 0.9651162790697675, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,StringUtil,SIMPLE_NAME, line no: 6, 0.9651162790697675, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,email,SIMPLE_NAME, line no: 21, 0.9651162790697675, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,personalName,SIMPLE_NAME, line no: 22, 0.9651162790697675, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,this.email,FIELD_ACCESS, line no: 28, 0.9651162790697675, 0.1744186046511628, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,this,THIS_EXPRESSION, line no: 28, 0.9651162790697675, 0.18604651162790697, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,this.personalName,FIELD_ACCESS, line no: 29, 0.9651162790697675, 0.1744186046511628, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,address=address.trim(),ASSIGNMENT, line no: 41, 0.9651162790697675, 0.9651162790697675, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,StringUtil.endsWithChar(address '>'),METHOD_INVOCATION, line no: 43, 0.9651162790697675, 0.9651162790697675, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,endsWithChar,SIMPLE_NAME, line no: 43, 0.9651162790697675, 0.9651162790697675, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,'>',CHARACTER_LITERAL, line no: 43, 0.9651162790697675, 0.9651162790697675, 0.0
+personalName,SIMPLE_NAME, line no: 57,StringUtil,SIMPLE_NAME, line no: 6, 0.9647058823529412, 0.011764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,endsWithChar,SIMPLE_NAME, line no: 43, 0.9647058823529412, 0.9647058823529412, 0.0
+personalName,SIMPLE_NAME, line no: 57,lastIndexOf,SIMPLE_NAME, line no: 49, 0.9647058823529412, 0.9647058823529412, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,StringUtil,SIMPLE_NAME, line no: 6, 0.9647058823529412, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,StringUtil.endsWithChar(address '>'),METHOD_INVOCATION, line no: 43, 0.9647058823529412, 0.9647058823529412, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,endsWithChar,SIMPLE_NAME, line no: 43, 0.9647058823529412, 0.9647058823529412, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,'>',CHARACTER_LITERAL, line no: 43, 0.9647058823529412, 0.9647058823529412, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,address.lastIndexOf('<'),METHOD_INVOCATION, line no: 49, 0.9647058823529412, 0.9647058823529412, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,lastIndexOf,SIMPLE_NAME, line no: 49, 0.9647058823529412, 0.9647058823529412, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,'<',CHARACTER_LITERAL, line no: 49, 0.9647058823529412, 0.9647058823529412, 0.0
+trim,SIMPLE_NAME, line no: 57,StringUtil.endsWithChar(address '>'),METHOD_INVOCATION, line no: 43, 0.9647058823529412, 0.9647058823529412, 0.0
+trim,SIMPLE_NAME, line no: 57,'>',CHARACTER_LITERAL, line no: 43, 0.9647058823529412, 0.9647058823529412, 0.0
+trim,SIMPLE_NAME, line no: 57,address.lastIndexOf('<'),METHOD_INVOCATION, line no: 49, 0.9647058823529412, 0.9647058823529412, 0.0
+trim,SIMPLE_NAME, line no: 57,'<',CHARACTER_LITERAL, line no: 49, 0.9647058823529412, 0.9647058823529412, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,StringUtil,SIMPLE_NAME, line no: 6, 0.9642857142857143, 0.011904761904761904, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,StringUtil.endsWithChar(address '>') == false,INFIX_EXPRESSION, line no: 43, 0.9642857142857143, 0.9642857142857143, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,StringUtil.endsWithChar(address '>'),METHOD_INVOCATION, line no: 43, 0.9642857142857143, 0.9642857142857143, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,endsWithChar,SIMPLE_NAME, line no: 43, 0.9642857142857143, 0.9642857142857143, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,'>',CHARACTER_LITERAL, line no: 43, 0.9642857142857143, 0.9642857142857143, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,false,BOOLEAN_LITERAL, line no: 43, 0.9642857142857143, 0.9642857142857143, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,address.lastIndexOf('<'),METHOD_INVOCATION, line no: 49, 0.9642857142857143, 0.9642857142857143, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,lastIndexOf,SIMPLE_NAME, line no: 49, 0.9642857142857143, 0.9642857142857143, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,'<',CHARACTER_LITERAL, line no: 49, 0.9642857142857143, 0.9642857142857143, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,ndx == -1,INFIX_EXPRESSION, line no: 50, 0.9642857142857143, 0.9642857142857143, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,-1,PREFIX_EXPRESSION, line no: 50, 0.9642857142857143, 0.9642857142857143, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,StringUtil.endsWithChar(address '>') == false,INFIX_EXPRESSION, line no: 43, 0.9642857142857143, 0.9642857142857143, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,false,BOOLEAN_LITERAL, line no: 43, 0.9642857142857143, 0.9642857142857143, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,-1,PREFIX_EXPRESSION, line no: 50, 0.9642857142857143, 0.9642857142857143, 0.0
+ndx,SIMPLE_NAME, line no: 57,this.email,FIELD_ACCESS, line no: 28, 0.9540229885057471, 0.1724137931034483, 0.0
+ndx,SIMPLE_NAME, line no: 57,this,THIS_EXPRESSION, line no: 28, 0.9540229885057471, 0.1839080459770115, 0.0
+ndx,SIMPLE_NAME, line no: 57,this.personalName,FIELD_ACCESS, line no: 29, 0.9540229885057471, 0.1724137931034483, 0.0
+ndx,SIMPLE_NAME, line no: 57,address=address.trim(),ASSIGNMENT, line no: 41, 0.9540229885057471, 0.9540229885057471, 0.0
+ndx,SIMPLE_NAME, line no: 57,StringUtil.endsWithChar(address '>'),METHOD_INVOCATION, line no: 43, 0.9540229885057471, 0.9540229885057471, 0.0
+ndx,SIMPLE_NAME, line no: 57,'>',CHARACTER_LITERAL, line no: 43, 0.9540229885057471, 0.9540229885057471, 0.0
+ndx,SIMPLE_NAME, line no: 57,this.email=address.substring(ndx + 1 address.length() - 1),ASSIGNMENT, line no: 56, 0.9540229885057471, 0.9540229885057471, 0.0
+ndx,SIMPLE_NAME, line no: 57,this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57, 0.9540229885057471, 0.9540229885057471, 0.0
+1,NUMBER_LITERAL, line no: 57,StringUtil,SIMPLE_NAME, line no: 6, 0.9540229885057471, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,email,SIMPLE_NAME, line no: 21, 0.9540229885057471, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,personalName,SIMPLE_NAME, line no: 22, 0.9540229885057471, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,this.email,FIELD_ACCESS, line no: 28, 0.9540229885057471, 0.1724137931034483, 0.0
+1,NUMBER_LITERAL, line no: 57,this,THIS_EXPRESSION, line no: 28, 0.9540229885057471, 0.1839080459770115, 0.0
+1,NUMBER_LITERAL, line no: 57,this.personalName,FIELD_ACCESS, line no: 29, 0.9540229885057471, 0.1724137931034483, 0.0
+1,NUMBER_LITERAL, line no: 57,address=address.trim(),ASSIGNMENT, line no: 41, 0.9540229885057471, 0.9540229885057471, 0.0
+1,NUMBER_LITERAL, line no: 57,StringUtil.endsWithChar(address '>'),METHOD_INVOCATION, line no: 43, 0.9540229885057471, 0.9540229885057471, 0.0
+1,NUMBER_LITERAL, line no: 57,endsWithChar,SIMPLE_NAME, line no: 43, 0.9540229885057471, 0.9540229885057471, 0.0
+1,NUMBER_LITERAL, line no: 57,'>',CHARACTER_LITERAL, line no: 43, 0.9540229885057471, 0.9540229885057471, 0.0
+1,NUMBER_LITERAL, line no: 57,this.email=address.substring(ndx + 1 address.length() - 1),ASSIGNMENT, line no: 56, 0.9540229885057471, 0.9540229885057471, 0.0
+1,NUMBER_LITERAL, line no: 57,this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57, 0.9540229885057471, 0.9540229885057471, 0.0
+address,SIMPLE_NAME, line no: 57,StringUtil.endsWithChar(address '>'),METHOD_INVOCATION, line no: 43, 0.9534883720930233, 0.9534883720930233, 0.0
+address,SIMPLE_NAME, line no: 57,'>',CHARACTER_LITERAL, line no: 43, 0.9534883720930233, 0.9534883720930233, 0.0
+address,SIMPLE_NAME, line no: 57,address.lastIndexOf('<'),METHOD_INVOCATION, line no: 49, 0.9534883720930233, 0.9534883720930233, 0.0
+address,SIMPLE_NAME, line no: 57,'<',CHARACTER_LITERAL, line no: 49, 0.9534883720930233, 0.9534883720930233, 0.0
+substring,SIMPLE_NAME, line no: 57,StringUtil.endsWithChar(address '>'),METHOD_INVOCATION, line no: 43, 0.9534883720930233, 0.9534883720930233, 0.0
+substring,SIMPLE_NAME, line no: 57,'>',CHARACTER_LITERAL, line no: 43, 0.9534883720930233, 0.9534883720930233, 0.0
+substring,SIMPLE_NAME, line no: 57,address.lastIndexOf('<'),METHOD_INVOCATION, line no: 49, 0.9534883720930233, 0.9534883720930233, 0.0
+substring,SIMPLE_NAME, line no: 57,'<',CHARACTER_LITERAL, line no: 49, 0.9534883720930233, 0.9534883720930233, 0.0
+0,NUMBER_LITERAL, line no: 57,StringUtil,SIMPLE_NAME, line no: 6, 0.9534883720930233, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,StringUtil.endsWithChar(address '>'),METHOD_INVOCATION, line no: 43, 0.9534883720930233, 0.9534883720930233, 0.0
+0,NUMBER_LITERAL, line no: 57,endsWithChar,SIMPLE_NAME, line no: 43, 0.9534883720930233, 0.9534883720930233, 0.0
+0,NUMBER_LITERAL, line no: 57,'>',CHARACTER_LITERAL, line no: 43, 0.9534883720930233, 0.9534883720930233, 0.0
+0,NUMBER_LITERAL, line no: 57,address.lastIndexOf('<'),METHOD_INVOCATION, line no: 49, 0.9534883720930233, 0.9534883720930233, 0.0
+0,NUMBER_LITERAL, line no: 57,'<',CHARACTER_LITERAL, line no: 49, 0.9534883720930233, 0.9534883720930233, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,StringUtil.endsWithChar(address '>') == false,INFIX_EXPRESSION, line no: 43, 0.9534883720930233, 0.9534883720930233, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,false,BOOLEAN_LITERAL, line no: 43, 0.9534883720930233, 0.9534883720930233, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,address.lastIndexOf('<'),METHOD_INVOCATION, line no: 49, 0.9534883720930233, 0.9534883720930233, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,'<',CHARACTER_LITERAL, line no: 49, 0.9534883720930233, 0.9534883720930233, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,-1,PREFIX_EXPRESSION, line no: 50, 0.9534883720930233, 0.9534883720930233, 0.0
+this,THIS_EXPRESSION, line no: 57,StringUtil,SIMPLE_NAME, line no: 6, 0.9529411764705882, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,StringUtil.endsWithChar(address '>') == false,INFIX_EXPRESSION, line no: 43, 0.9529411764705882, 0.9529411764705882, 0.0
+this,THIS_EXPRESSION, line no: 57,StringUtil.endsWithChar(address '>'),METHOD_INVOCATION, line no: 43, 0.9529411764705882, 0.9529411764705882, 0.0
+this,THIS_EXPRESSION, line no: 57,endsWithChar,SIMPLE_NAME, line no: 43, 0.9529411764705882, 0.9529411764705882, 0.0
+this,THIS_EXPRESSION, line no: 57,'>',CHARACTER_LITERAL, line no: 43, 0.9529411764705882, 0.9529411764705882, 0.0
+this,THIS_EXPRESSION, line no: 57,false,BOOLEAN_LITERAL, line no: 43, 0.9529411764705882, 0.9529411764705882, 0.0
+this,THIS_EXPRESSION, line no: 57,address.lastIndexOf('<'),METHOD_INVOCATION, line no: 49, 0.9529411764705882, 0.9529411764705882, 0.0
+this,THIS_EXPRESSION, line no: 57,lastIndexOf,SIMPLE_NAME, line no: 49, 0.9529411764705882, 0.9529411764705882, 0.0
+this,THIS_EXPRESSION, line no: 57,'<',CHARACTER_LITERAL, line no: 49, 0.9529411764705882, 0.9529411764705882, 0.0
+this,THIS_EXPRESSION, line no: 57,ndx == -1,INFIX_EXPRESSION, line no: 50, 0.9529411764705882, 0.9529411764705882, 0.0
+this,THIS_EXPRESSION, line no: 57,-1,PREFIX_EXPRESSION, line no: 50, 0.9529411764705882, 0.9529411764705882, 0.0
+personalName,SIMPLE_NAME, line no: 57,StringUtil.endsWithChar(address '>') == false,INFIX_EXPRESSION, line no: 43, 0.9529411764705882, 0.9529411764705882, 0.0
+personalName,SIMPLE_NAME, line no: 57,StringUtil.endsWithChar(address '>'),METHOD_INVOCATION, line no: 43, 0.9529411764705882, 0.9529411764705882, 0.0
+personalName,SIMPLE_NAME, line no: 57,'>',CHARACTER_LITERAL, line no: 43, 0.9529411764705882, 0.9529411764705882, 0.0
+personalName,SIMPLE_NAME, line no: 57,false,BOOLEAN_LITERAL, line no: 43, 0.9529411764705882, 0.9529411764705882, 0.0
+personalName,SIMPLE_NAME, line no: 57,address.lastIndexOf('<'),METHOD_INVOCATION, line no: 49, 0.9529411764705882, 0.9529411764705882, 0.0
+personalName,SIMPLE_NAME, line no: 57,'<',CHARACTER_LITERAL, line no: 49, 0.9529411764705882, 0.9529411764705882, 0.0
+personalName,SIMPLE_NAME, line no: 57,ndx == -1,INFIX_EXPRESSION, line no: 50, 0.9529411764705882, 0.9529411764705882, 0.0
+personalName,SIMPLE_NAME, line no: 57,-1,PREFIX_EXPRESSION, line no: 50, 0.9529411764705882, 0.9529411764705882, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,StringUtil.endsWithChar(address '>') == false,INFIX_EXPRESSION, line no: 43, 0.9529411764705882, 0.9529411764705882, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,false,BOOLEAN_LITERAL, line no: 43, 0.9529411764705882, 0.9529411764705882, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,-1,PREFIX_EXPRESSION, line no: 50, 0.9529411764705882, 0.9529411764705882, 0.0
+trim,SIMPLE_NAME, line no: 57,StringUtil.endsWithChar(address '>') == false,INFIX_EXPRESSION, line no: 43, 0.9529411764705882, 0.9529411764705882, 0.0
+trim,SIMPLE_NAME, line no: 57,false,BOOLEAN_LITERAL, line no: 43, 0.9529411764705882, 0.9529411764705882, 0.0
+trim,SIMPLE_NAME, line no: 57,ndx == -1,INFIX_EXPRESSION, line no: 50, 0.9529411764705882, 0.9529411764705882, 0.0
+trim,SIMPLE_NAME, line no: 57,-1,PREFIX_EXPRESSION, line no: 50, 0.9529411764705882, 0.9529411764705882, 0.0
+ndx,SIMPLE_NAME, line no: 57,StringUtil.endsWithChar(address '>') == false,INFIX_EXPRESSION, line no: 43, 0.9425287356321839, 0.9425287356321839, 0.0
+ndx,SIMPLE_NAME, line no: 57,false,BOOLEAN_LITERAL, line no: 43, 0.9425287356321839, 0.9425287356321839, 0.0
+ndx,SIMPLE_NAME, line no: 57,'<',CHARACTER_LITERAL, line no: 49, 0.9425287356321839, 0.9425287356321839, 0.0
+ndx,SIMPLE_NAME, line no: 57,ndx == -1,INFIX_EXPRESSION, line no: 50, 0.9425287356321839, 0.9425287356321839, 0.0
+1,NUMBER_LITERAL, line no: 57,StringUtil.endsWithChar(address '>') == false,INFIX_EXPRESSION, line no: 43, 0.9425287356321839, 0.9425287356321839, 0.0
+1,NUMBER_LITERAL, line no: 57,false,BOOLEAN_LITERAL, line no: 43, 0.9425287356321839, 0.9425287356321839, 0.0
+1,NUMBER_LITERAL, line no: 57,address.lastIndexOf('<'),METHOD_INVOCATION, line no: 49, 0.9425287356321839, 0.9425287356321839, 0.0
+1,NUMBER_LITERAL, line no: 57,'<',CHARACTER_LITERAL, line no: 49, 0.9425287356321839, 0.9425287356321839, 0.0
+1,NUMBER_LITERAL, line no: 57,ndx == -1,INFIX_EXPRESSION, line no: 50, 0.9425287356321839, 0.9425287356321839, 0.0
+1,NUMBER_LITERAL, line no: 57,-1,PREFIX_EXPRESSION, line no: 50, 0.9425287356321839, 0.9425287356321839, 0.0
+address,SIMPLE_NAME, line no: 57,StringUtil.endsWithChar(address '>') == false,INFIX_EXPRESSION, line no: 43, 0.9418604651162791, 0.9418604651162791, 0.0
+address,SIMPLE_NAME, line no: 57,false,BOOLEAN_LITERAL, line no: 43, 0.9418604651162791, 0.9418604651162791, 0.0
+address,SIMPLE_NAME, line no: 57,ndx == -1,INFIX_EXPRESSION, line no: 50, 0.9418604651162791, 0.9418604651162791, 0.0
+address,SIMPLE_NAME, line no: 57,-1,PREFIX_EXPRESSION, line no: 50, 0.9418604651162791, 0.9418604651162791, 0.0
+substring,SIMPLE_NAME, line no: 57,StringUtil.endsWithChar(address '>') == false,INFIX_EXPRESSION, line no: 43, 0.9418604651162791, 0.9418604651162791, 0.0
+substring,SIMPLE_NAME, line no: 57,false,BOOLEAN_LITERAL, line no: 43, 0.9418604651162791, 0.9418604651162791, 0.0
+substring,SIMPLE_NAME, line no: 57,ndx == -1,INFIX_EXPRESSION, line no: 50, 0.9418604651162791, 0.9418604651162791, 0.0
+substring,SIMPLE_NAME, line no: 57,-1,PREFIX_EXPRESSION, line no: 50, 0.9418604651162791, 0.9418604651162791, 0.0
+0,NUMBER_LITERAL, line no: 57,StringUtil.endsWithChar(address '>') == false,INFIX_EXPRESSION, line no: 43, 0.9418604651162791, 0.9418604651162791, 0.0
+0,NUMBER_LITERAL, line no: 57,false,BOOLEAN_LITERAL, line no: 43, 0.9418604651162791, 0.9418604651162791, 0.0
+0,NUMBER_LITERAL, line no: 57,ndx == -1,INFIX_EXPRESSION, line no: 50, 0.9418604651162791, 0.9418604651162791, 0.0
+0,NUMBER_LITERAL, line no: 57,-1,PREFIX_EXPRESSION, line no: 50, 0.9418604651162791, 0.9418604651162791, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,this.personalName=emailAddress.getPersonalName(),ASSIGNMENT, line no: 64, 0.7771084337349398, 0.27710843373493976, 0.5
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,this.personalName == null,INFIX_EXPRESSION, line no: 124, 0.7530120481927711, 0.25301204819277107, 0.5
+this.personalName,FIELD_ACCESS, line no: 57,this.personalName + " <" + this.email+ '>',INFIX_EXPRESSION, line no: 127, 0.7380952380952381, 0.23809523809523808, 0.5
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,this.personalName=internetAddress.getPersonal(),ASSIGNMENT, line no: 72, 0.7168674698795181, 0.21686746987951808, 0.5
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,this.personalName=null,ASSIGNMENT, line no: 45, 0.6927710843373494, 0.1927710843373494, 0.5
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,this.personalName=personalName,ASSIGNMENT, line no: 29, 0.6686746987951807, 0.1686746987951807, 0.5
+this.personalName,FIELD_ACCESS, line no: 57,new InternetAddress(email personalName JoddCore.encoding),CLASS_INSTANCE_CREATION, line no: 114, 0.5833333333333334, 0.08333333333333333, 0.5
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,this.personalName + " <" + this.email+ '>',INFIX_EXPRESSION, line no: 127, 0.5742971887550201, 0.24096385542168675, 0.3333333333333333
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,addresses,SIMPLE_NAME, line no: 135, 0.42168674698795183, 0.012048192771084338, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,i,SIMPLE_NAME, line no: 145, 0.42168674698795183, 0.40963855421686746, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,new InternetAddress(email personalName JoddCore.encoding),CLASS_INSTANCE_CREATION, line no: 114, 0.41767068273092367, 0.08433734939759036, 0.3333333333333333
+this.personalName,FIELD_ACCESS, line no: 57,addresses,SIMPLE_NAME, line no: 135, 0.4166666666666667, 0.011904761904761904, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,i,SIMPLE_NAME, line no: 145, 0.4166666666666667, 0.40476190476190477, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,addresses,SIMPLE_NAME, line no: 135, 0.4166666666666667, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,i,SIMPLE_NAME, line no: 145, 0.4166666666666667, 0.40476190476190477, 0.0
+this,THIS_EXPRESSION, line no: 57,addresses,SIMPLE_NAME, line no: 135, 0.4117647058823529, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,i,SIMPLE_NAME, line no: 145, 0.4117647058823529, 0.4, 0.0
+personalName,SIMPLE_NAME, line no: 57,addresses,SIMPLE_NAME, line no: 135, 0.4117647058823529, 0.011764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,i,SIMPLE_NAME, line no: 145, 0.4117647058823529, 0.4, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,addresses,SIMPLE_NAME, line no: 135, 0.4117647058823529, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,i,SIMPLE_NAME, line no: 145, 0.4117647058823529, 0.4, 0.0
+trim,SIMPLE_NAME, line no: 57,addresses,SIMPLE_NAME, line no: 135, 0.4117647058823529, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,i,SIMPLE_NAME, line no: 145, 0.4117647058823529, 0.4, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,MailAddress,SIMPLE_NAME, line no: 17, 0.40963855421686746, 0.012048192771084338, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,null,NULL_LITERAL, line no: 45, 0.40963855421686746, 0.20481927710843373, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,addresses == null,INFIX_EXPRESSION, line no: 136, 0.40963855421686746, 0.40963855421686746, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,addresses.length == 0,INFIX_EXPRESSION, line no: 139, 0.40963855421686746, 0.40963855421686746, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,addresses.length,QUALIFIED_NAME, line no: 139, 0.40963855421686746, 0.40963855421686746, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,res,SIMPLE_NAME, line no: 143, 0.40963855421686746, 0.40963855421686746, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,i < addresses.length,INFIX_EXPRESSION, line no: 145, 0.40963855421686746, 0.40963855421686746, 0.0
+address,SIMPLE_NAME, line no: 57,addresses,SIMPLE_NAME, line no: 135, 0.4069767441860465, 0.011627906976744186, 0.0
+address,SIMPLE_NAME, line no: 57,i,SIMPLE_NAME, line no: 145, 0.4069767441860465, 0.3953488372093023, 0.0
+substring,SIMPLE_NAME, line no: 57,addresses,SIMPLE_NAME, line no: 135, 0.4069767441860465, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,i,SIMPLE_NAME, line no: 145, 0.4069767441860465, 0.3953488372093023, 0.0
+0,NUMBER_LITERAL, line no: 57,addresses,SIMPLE_NAME, line no: 135, 0.4069767441860465, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,addresses,SIMPLE_NAME, line no: 135, 0.4069767441860465, 0.011627906976744186, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,MailAddress,SIMPLE_NAME, line no: 17, 0.40476190476190477, 0.011904761904761904, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,null,NULL_LITERAL, line no: 45, 0.40476190476190477, 0.20238095238095238, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,addresses == null,INFIX_EXPRESSION, line no: 136, 0.40476190476190477, 0.40476190476190477, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,addresses.length == 0,INFIX_EXPRESSION, line no: 139, 0.40476190476190477, 0.40476190476190477, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,addresses.length,QUALIFIED_NAME, line no: 139, 0.40476190476190477, 0.40476190476190477, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,res,SIMPLE_NAME, line no: 143, 0.40476190476190477, 0.40476190476190477, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,i < addresses.length,INFIX_EXPRESSION, line no: 145, 0.40476190476190477, 0.40476190476190477, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,MailAddress,SIMPLE_NAME, line no: 17, 0.40476190476190477, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,null,NULL_LITERAL, line no: 45, 0.40476190476190477, 0.20238095238095238, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,addresses == null,INFIX_EXPRESSION, line no: 136, 0.40476190476190477, 0.40476190476190477, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,addresses.length == 0,INFIX_EXPRESSION, line no: 139, 0.40476190476190477, 0.40476190476190477, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,addresses.length,QUALIFIED_NAME, line no: 139, 0.40476190476190477, 0.40476190476190477, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,res,SIMPLE_NAME, line no: 143, 0.40476190476190477, 0.40476190476190477, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,i < addresses.length,INFIX_EXPRESSION, line no: 145, 0.40476190476190477, 0.40476190476190477, 0.0
+ndx,SIMPLE_NAME, line no: 57,addresses,SIMPLE_NAME, line no: 135, 0.40229885057471265, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,addresses,SIMPLE_NAME, line no: 135, 0.40229885057471265, 0.011494252873563218, 0.0
+this,THIS_EXPRESSION, line no: 57,null,NULL_LITERAL, line no: 45, 0.4, 0.2, 0.0
+this,THIS_EXPRESSION, line no: 57,addresses == null,INFIX_EXPRESSION, line no: 136, 0.4, 0.4, 0.0
+this,THIS_EXPRESSION, line no: 57,addresses.length == 0,INFIX_EXPRESSION, line no: 139, 0.4, 0.4, 0.0
+this,THIS_EXPRESSION, line no: 57,addresses.length,QUALIFIED_NAME, line no: 139, 0.4, 0.4, 0.0
+this,THIS_EXPRESSION, line no: 57,res,SIMPLE_NAME, line no: 143, 0.4, 0.4, 0.0
+this,THIS_EXPRESSION, line no: 57,i < addresses.length,INFIX_EXPRESSION, line no: 145, 0.4, 0.4, 0.0
+personalName,SIMPLE_NAME, line no: 57,MailAddress,SIMPLE_NAME, line no: 17, 0.4, 0.011764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,null,NULL_LITERAL, line no: 45, 0.4, 0.2, 0.0
+personalName,SIMPLE_NAME, line no: 57,addresses == null,INFIX_EXPRESSION, line no: 136, 0.4, 0.4, 0.0
+personalName,SIMPLE_NAME, line no: 57,addresses.length == 0,INFIX_EXPRESSION, line no: 139, 0.4, 0.4, 0.0
+personalName,SIMPLE_NAME, line no: 57,addresses.length,QUALIFIED_NAME, line no: 139, 0.4, 0.4, 0.0
+personalName,SIMPLE_NAME, line no: 57,res,SIMPLE_NAME, line no: 143, 0.4, 0.4, 0.0
+personalName,SIMPLE_NAME, line no: 57,i < addresses.length,INFIX_EXPRESSION, line no: 145, 0.4, 0.4, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,MailAddress,SIMPLE_NAME, line no: 17, 0.4, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,null,NULL_LITERAL, line no: 45, 0.4, 0.2, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,addresses == null,INFIX_EXPRESSION, line no: 136, 0.4, 0.4, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,addresses.length == 0,INFIX_EXPRESSION, line no: 139, 0.4, 0.4, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,addresses.length,QUALIFIED_NAME, line no: 139, 0.4, 0.4, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,res,SIMPLE_NAME, line no: 143, 0.4, 0.4, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,i < addresses.length,INFIX_EXPRESSION, line no: 145, 0.4, 0.4, 0.0
+trim,SIMPLE_NAME, line no: 57,MailAddress,SIMPLE_NAME, line no: 17, 0.4, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,null,NULL_LITERAL, line no: 45, 0.4, 0.2, 0.0
+trim,SIMPLE_NAME, line no: 57,addresses == null,INFIX_EXPRESSION, line no: 136, 0.4, 0.4, 0.0
+trim,SIMPLE_NAME, line no: 57,addresses.length == 0,INFIX_EXPRESSION, line no: 139, 0.4, 0.4, 0.0
+trim,SIMPLE_NAME, line no: 57,addresses.length,QUALIFIED_NAME, line no: 139, 0.4, 0.4, 0.0
+trim,SIMPLE_NAME, line no: 57,res,SIMPLE_NAME, line no: 143, 0.4, 0.4, 0.0
+trim,SIMPLE_NAME, line no: 57,i < addresses.length,INFIX_EXPRESSION, line no: 145, 0.4, 0.4, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,new MailAddress[addresses.length],ARRAY_CREATION, line no: 143, 0.39759036144578314, 0.39759036144578314, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 145, 0.39759036144578314, 0.39759036144578314, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,i++,POSTFIX_EXPRESSION, line no: 145, 0.39759036144578314, 0.39759036144578314, 0.0
+address,SIMPLE_NAME, line no: 57,MailAddress,SIMPLE_NAME, line no: 17, 0.3953488372093023, 0.011627906976744186, 0.0
+address,SIMPLE_NAME, line no: 57,null,NULL_LITERAL, line no: 45, 0.3953488372093023, 0.19767441860465115, 0.0
+address,SIMPLE_NAME, line no: 57,addresses == null,INFIX_EXPRESSION, line no: 136, 0.3953488372093023, 0.3953488372093023, 0.0
+address,SIMPLE_NAME, line no: 57,addresses.length == 0,INFIX_EXPRESSION, line no: 139, 0.3953488372093023, 0.3953488372093023, 0.0
+address,SIMPLE_NAME, line no: 57,addresses.length,QUALIFIED_NAME, line no: 139, 0.3953488372093023, 0.3953488372093023, 0.0
+address,SIMPLE_NAME, line no: 57,res,SIMPLE_NAME, line no: 143, 0.3953488372093023, 0.3953488372093023, 0.0
+address,SIMPLE_NAME, line no: 57,i < addresses.length,INFIX_EXPRESSION, line no: 145, 0.3953488372093023, 0.3953488372093023, 0.0
+substring,SIMPLE_NAME, line no: 57,MailAddress,SIMPLE_NAME, line no: 17, 0.3953488372093023, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,null,NULL_LITERAL, line no: 45, 0.3953488372093023, 0.19767441860465115, 0.0
+substring,SIMPLE_NAME, line no: 57,addresses == null,INFIX_EXPRESSION, line no: 136, 0.3953488372093023, 0.3953488372093023, 0.0
+substring,SIMPLE_NAME, line no: 57,addresses.length == 0,INFIX_EXPRESSION, line no: 139, 0.3953488372093023, 0.3953488372093023, 0.0
+substring,SIMPLE_NAME, line no: 57,addresses.length,QUALIFIED_NAME, line no: 139, 0.3953488372093023, 0.3953488372093023, 0.0
+substring,SIMPLE_NAME, line no: 57,res,SIMPLE_NAME, line no: 143, 0.3953488372093023, 0.3953488372093023, 0.0
+substring,SIMPLE_NAME, line no: 57,i < addresses.length,INFIX_EXPRESSION, line no: 145, 0.3953488372093023, 0.3953488372093023, 0.0
+0,NUMBER_LITERAL, line no: 57,MailAddress,SIMPLE_NAME, line no: 17, 0.3953488372093023, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,null,NULL_LITERAL, line no: 45, 0.3953488372093023, 0.19767441860465115, 0.0
+0,NUMBER_LITERAL, line no: 57,addresses == null,INFIX_EXPRESSION, line no: 136, 0.3953488372093023, 0.3953488372093023, 0.0
+0,NUMBER_LITERAL, line no: 57,addresses.length == 0,INFIX_EXPRESSION, line no: 139, 0.3953488372093023, 0.3953488372093023, 0.0
+0,NUMBER_LITERAL, line no: 57,addresses.length,QUALIFIED_NAME, line no: 139, 0.3953488372093023, 0.3953488372093023, 0.0
+0,NUMBER_LITERAL, line no: 57,res,SIMPLE_NAME, line no: 143, 0.3953488372093023, 0.3953488372093023, 0.0
+0,NUMBER_LITERAL, line no: 57,i < addresses.length,INFIX_EXPRESSION, line no: 145, 0.3953488372093023, 0.3953488372093023, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,MailAddress,SIMPLE_NAME, line no: 17, 0.3953488372093023, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,null,NULL_LITERAL, line no: 45, 0.3953488372093023, 0.19767441860465115, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,addresses == null,INFIX_EXPRESSION, line no: 136, 0.3953488372093023, 0.3953488372093023, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,addresses.length == 0,INFIX_EXPRESSION, line no: 139, 0.3953488372093023, 0.3953488372093023, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,addresses.length,QUALIFIED_NAME, line no: 139, 0.3953488372093023, 0.3953488372093023, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,res,SIMPLE_NAME, line no: 143, 0.3953488372093023, 0.3953488372093023, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,i < addresses.length,INFIX_EXPRESSION, line no: 145, 0.3953488372093023, 0.3953488372093023, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,new MailAddress[addresses.length],ARRAY_CREATION, line no: 143, 0.39285714285714285, 0.39285714285714285, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 145, 0.39285714285714285, 0.39285714285714285, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,i++,POSTFIX_EXPRESSION, line no: 145, 0.39285714285714285, 0.39285714285714285, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,new MailAddress[addresses.length],ARRAY_CREATION, line no: 143, 0.39285714285714285, 0.39285714285714285, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 145, 0.39285714285714285, 0.39285714285714285, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,i++,POSTFIX_EXPRESSION, line no: 145, 0.39285714285714285, 0.39285714285714285, 0.0
+ndx,SIMPLE_NAME, line no: 57,MailAddress,SIMPLE_NAME, line no: 17, 0.39080459770114945, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,null,NULL_LITERAL, line no: 45, 0.39080459770114945, 0.19540229885057472, 0.0
+ndx,SIMPLE_NAME, line no: 57,addresses == null,INFIX_EXPRESSION, line no: 136, 0.39080459770114945, 0.39080459770114945, 0.0
+ndx,SIMPLE_NAME, line no: 57,addresses.length == 0,INFIX_EXPRESSION, line no: 139, 0.39080459770114945, 0.39080459770114945, 0.0
+ndx,SIMPLE_NAME, line no: 57,res,SIMPLE_NAME, line no: 143, 0.39080459770114945, 0.39080459770114945, 0.0
+ndx,SIMPLE_NAME, line no: 57,i < addresses.length,INFIX_EXPRESSION, line no: 145, 0.39080459770114945, 0.39080459770114945, 0.0
+1,NUMBER_LITERAL, line no: 57,MailAddress,SIMPLE_NAME, line no: 17, 0.39080459770114945, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,null,NULL_LITERAL, line no: 45, 0.39080459770114945, 0.19540229885057472, 0.0
+1,NUMBER_LITERAL, line no: 57,addresses == null,INFIX_EXPRESSION, line no: 136, 0.39080459770114945, 0.39080459770114945, 0.0
+1,NUMBER_LITERAL, line no: 57,addresses.length == 0,INFIX_EXPRESSION, line no: 139, 0.39080459770114945, 0.39080459770114945, 0.0
+1,NUMBER_LITERAL, line no: 57,addresses.length,QUALIFIED_NAME, line no: 139, 0.39080459770114945, 0.39080459770114945, 0.0
+1,NUMBER_LITERAL, line no: 57,res,SIMPLE_NAME, line no: 143, 0.39080459770114945, 0.39080459770114945, 0.0
+1,NUMBER_LITERAL, line no: 57,i < addresses.length,INFIX_EXPRESSION, line no: 145, 0.39080459770114945, 0.39080459770114945, 0.0
+this,THIS_EXPRESSION, line no: 57,new MailAddress[addresses.length],ARRAY_CREATION, line no: 143, 0.38823529411764707, 0.38823529411764707, 0.0
+this,THIS_EXPRESSION, line no: 57,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 145, 0.38823529411764707, 0.38823529411764707, 0.0
+this,THIS_EXPRESSION, line no: 57,i++,POSTFIX_EXPRESSION, line no: 145, 0.38823529411764707, 0.38823529411764707, 0.0
+personalName,SIMPLE_NAME, line no: 57,new MailAddress[addresses.length],ARRAY_CREATION, line no: 143, 0.38823529411764707, 0.38823529411764707, 0.0
+personalName,SIMPLE_NAME, line no: 57,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 145, 0.38823529411764707, 0.38823529411764707, 0.0
+personalName,SIMPLE_NAME, line no: 57,i++,POSTFIX_EXPRESSION, line no: 145, 0.38823529411764707, 0.38823529411764707, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,new MailAddress[addresses.length],ARRAY_CREATION, line no: 143, 0.38823529411764707, 0.38823529411764707, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 145, 0.38823529411764707, 0.38823529411764707, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,i++,POSTFIX_EXPRESSION, line no: 145, 0.38823529411764707, 0.38823529411764707, 0.0
+trim,SIMPLE_NAME, line no: 57,new MailAddress[addresses.length],ARRAY_CREATION, line no: 143, 0.38823529411764707, 0.38823529411764707, 0.0
+trim,SIMPLE_NAME, line no: 57,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 145, 0.38823529411764707, 0.38823529411764707, 0.0
+trim,SIMPLE_NAME, line no: 57,i++,POSTFIX_EXPRESSION, line no: 145, 0.38823529411764707, 0.38823529411764707, 0.0
+address,SIMPLE_NAME, line no: 57,new MailAddress[addresses.length],ARRAY_CREATION, line no: 143, 0.38372093023255816, 0.38372093023255816, 0.0
+address,SIMPLE_NAME, line no: 57,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 145, 0.38372093023255816, 0.38372093023255816, 0.0
+address,SIMPLE_NAME, line no: 57,i++,POSTFIX_EXPRESSION, line no: 145, 0.38372093023255816, 0.38372093023255816, 0.0
+substring,SIMPLE_NAME, line no: 57,new MailAddress[addresses.length],ARRAY_CREATION, line no: 143, 0.38372093023255816, 0.38372093023255816, 0.0
+substring,SIMPLE_NAME, line no: 57,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 145, 0.38372093023255816, 0.38372093023255816, 0.0
+substring,SIMPLE_NAME, line no: 57,i++,POSTFIX_EXPRESSION, line no: 145, 0.38372093023255816, 0.38372093023255816, 0.0
+0,NUMBER_LITERAL, line no: 57,new MailAddress[addresses.length],ARRAY_CREATION, line no: 143, 0.38372093023255816, 0.38372093023255816, 0.0
+0,NUMBER_LITERAL, line no: 57,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 145, 0.38372093023255816, 0.38372093023255816, 0.0
+0,NUMBER_LITERAL, line no: 57,i++,POSTFIX_EXPRESSION, line no: 145, 0.38372093023255816, 0.38372093023255816, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,new MailAddress[addresses.length],ARRAY_CREATION, line no: 143, 0.38372093023255816, 0.38372093023255816, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 145, 0.38372093023255816, 0.38372093023255816, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,i++,POSTFIX_EXPRESSION, line no: 145, 0.38372093023255816, 0.38372093023255816, 0.0
+ndx,SIMPLE_NAME, line no: 57,new MailAddress[addresses.length],ARRAY_CREATION, line no: 143, 0.3793103448275862, 0.3793103448275862, 0.0
+1,NUMBER_LITERAL, line no: 57,new MailAddress[addresses.length],ARRAY_CREATION, line no: 143, 0.3793103448275862, 0.3793103448275862, 0.0
+1,NUMBER_LITERAL, line no: 57,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 145, 0.3793103448275862, 0.3793103448275862, 0.0
+1,NUMBER_LITERAL, line no: 57,i++,POSTFIX_EXPRESSION, line no: 145, 0.3793103448275862, 0.3793103448275862, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,emailAddress,SIMPLE_NAME, line no: 63, 0.3132530120481928, 0.012048192771084338, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,emailAddress,SIMPLE_NAME, line no: 63, 0.30952380952380953, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,emailAddress,SIMPLE_NAME, line no: 63, 0.30952380952380953, 0.011904761904761904, 0.0
+this,THIS_EXPRESSION, line no: 57,emailAddress,SIMPLE_NAME, line no: 63, 0.3058823529411765, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,getLocalPart,SIMPLE_NAME, line no: 65, 0.3058823529411765, 0.3058823529411765, 0.0
+this,THIS_EXPRESSION, line no: 57,getDomain,SIMPLE_NAME, line no: 65, 0.3058823529411765, 0.3058823529411765, 0.0
+personalName,SIMPLE_NAME, line no: 57,emailAddress,SIMPLE_NAME, line no: 63, 0.3058823529411765, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,emailAddress,SIMPLE_NAME, line no: 63, 0.3058823529411765, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,emailAddress,SIMPLE_NAME, line no: 63, 0.3058823529411765, 0.011764705882352941, 0.0
+address,SIMPLE_NAME, line no: 57,emailAddress,SIMPLE_NAME, line no: 63, 0.3023255813953488, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,emailAddress,SIMPLE_NAME, line no: 63, 0.3023255813953488, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,emailAddress,SIMPLE_NAME, line no: 63, 0.3023255813953488, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,getLocalPart,SIMPLE_NAME, line no: 65, 0.3023255813953488, 0.3023255813953488, 0.0
+0,NUMBER_LITERAL, line no: 57,getDomain,SIMPLE_NAME, line no: 65, 0.3023255813953488, 0.3023255813953488, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,emailAddress,SIMPLE_NAME, line no: 63, 0.3023255813953488, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,getLocalPart,SIMPLE_NAME, line no: 65, 0.3023255813953488, 0.3023255813953488, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,getDomain,SIMPLE_NAME, line no: 65, 0.3023255813953488, 0.3023255813953488, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,emailAddress.getLocalPart(),METHOD_INVOCATION, line no: 65, 0.30120481927710846, 0.30120481927710846, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,'@',CHARACTER_LITERAL, line no: 65, 0.30120481927710846, 0.30120481927710846, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,emailAddress.getDomain(),METHOD_INVOCATION, line no: 65, 0.30120481927710846, 0.30120481927710846, 0.0
+ndx,SIMPLE_NAME, line no: 57,emailAddress,SIMPLE_NAME, line no: 63, 0.2988505747126437, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,getLocalPart,SIMPLE_NAME, line no: 65, 0.2988505747126437, 0.2988505747126437, 0.0
+ndx,SIMPLE_NAME, line no: 57,getDomain,SIMPLE_NAME, line no: 65, 0.2988505747126437, 0.2988505747126437, 0.0
+1,NUMBER_LITERAL, line no: 57,emailAddress,SIMPLE_NAME, line no: 63, 0.2988505747126437, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,getLocalPart,SIMPLE_NAME, line no: 65, 0.2988505747126437, 0.2988505747126437, 0.0
+1,NUMBER_LITERAL, line no: 57,getDomain,SIMPLE_NAME, line no: 65, 0.2988505747126437, 0.2988505747126437, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,emailAddress.getLocalPart(),METHOD_INVOCATION, line no: 65, 0.2976190476190476, 0.2976190476190476, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,'@',CHARACTER_LITERAL, line no: 65, 0.2976190476190476, 0.2976190476190476, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,emailAddress.getDomain(),METHOD_INVOCATION, line no: 65, 0.2976190476190476, 0.2976190476190476, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,emailAddress.getLocalPart(),METHOD_INVOCATION, line no: 65, 0.2976190476190476, 0.2976190476190476, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,'@',CHARACTER_LITERAL, line no: 65, 0.2976190476190476, 0.2976190476190476, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,emailAddress.getDomain(),METHOD_INVOCATION, line no: 65, 0.2976190476190476, 0.2976190476190476, 0.0
+this,THIS_EXPRESSION, line no: 57,getPersonalName,SIMPLE_NAME, line no: 64, 0.29411764705882354, 0.29411764705882354, 0.0
+this,THIS_EXPRESSION, line no: 57,emailAddress.getLocalPart(),METHOD_INVOCATION, line no: 65, 0.29411764705882354, 0.29411764705882354, 0.0
+this,THIS_EXPRESSION, line no: 57,'@',CHARACTER_LITERAL, line no: 65, 0.29411764705882354, 0.29411764705882354, 0.0
+this,THIS_EXPRESSION, line no: 57,emailAddress.getDomain(),METHOD_INVOCATION, line no: 65, 0.29411764705882354, 0.29411764705882354, 0.0
+personalName,SIMPLE_NAME, line no: 57,'@',CHARACTER_LITERAL, line no: 65, 0.29411764705882354, 0.29411764705882354, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,emailAddress.getLocalPart(),METHOD_INVOCATION, line no: 65, 0.29411764705882354, 0.29411764705882354, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,'@',CHARACTER_LITERAL, line no: 65, 0.29411764705882354, 0.29411764705882354, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,emailAddress.getDomain(),METHOD_INVOCATION, line no: 65, 0.29411764705882354, 0.29411764705882354, 0.0
+trim,SIMPLE_NAME, line no: 57,'@',CHARACTER_LITERAL, line no: 65, 0.29411764705882354, 0.29411764705882354, 0.0
+address,SIMPLE_NAME, line no: 57,'@',CHARACTER_LITERAL, line no: 65, 0.29069767441860467, 0.29069767441860467, 0.0
+substring,SIMPLE_NAME, line no: 57,'@',CHARACTER_LITERAL, line no: 65, 0.29069767441860467, 0.29069767441860467, 0.0
+0,NUMBER_LITERAL, line no: 57,getPersonalName,SIMPLE_NAME, line no: 64, 0.29069767441860467, 0.29069767441860467, 0.0
+0,NUMBER_LITERAL, line no: 57,emailAddress.getLocalPart(),METHOD_INVOCATION, line no: 65, 0.29069767441860467, 0.29069767441860467, 0.0
+0,NUMBER_LITERAL, line no: 57,'@',CHARACTER_LITERAL, line no: 65, 0.29069767441860467, 0.29069767441860467, 0.0
+0,NUMBER_LITERAL, line no: 57,emailAddress.getDomain(),METHOD_INVOCATION, line no: 65, 0.29069767441860467, 0.29069767441860467, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,getPersonalName,SIMPLE_NAME, line no: 64, 0.29069767441860467, 0.29069767441860467, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,emailAddress.getLocalPart(),METHOD_INVOCATION, line no: 65, 0.29069767441860467, 0.29069767441860467, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,'@',CHARACTER_LITERAL, line no: 65, 0.29069767441860467, 0.29069767441860467, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,emailAddress.getDomain(),METHOD_INVOCATION, line no: 65, 0.29069767441860467, 0.29069767441860467, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,emailAddress.getPersonalName(),METHOD_INVOCATION, line no: 64, 0.2891566265060241, 0.2891566265060241, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),INFIX_EXPRESSION, line no: 65, 0.2891566265060241, 0.2891566265060241, 0.0
+ndx,SIMPLE_NAME, line no: 57,getPersonalName,SIMPLE_NAME, line no: 64, 0.28735632183908044, 0.28735632183908044, 0.0
+ndx,SIMPLE_NAME, line no: 57,emailAddress.getLocalPart(),METHOD_INVOCATION, line no: 65, 0.28735632183908044, 0.28735632183908044, 0.0
+ndx,SIMPLE_NAME, line no: 57,'@',CHARACTER_LITERAL, line no: 65, 0.28735632183908044, 0.28735632183908044, 0.0
+ndx,SIMPLE_NAME, line no: 57,emailAddress.getDomain(),METHOD_INVOCATION, line no: 65, 0.28735632183908044, 0.28735632183908044, 0.0
+1,NUMBER_LITERAL, line no: 57,getPersonalName,SIMPLE_NAME, line no: 64, 0.28735632183908044, 0.28735632183908044, 0.0
+1,NUMBER_LITERAL, line no: 57,emailAddress.getLocalPart(),METHOD_INVOCATION, line no: 65, 0.28735632183908044, 0.28735632183908044, 0.0
+1,NUMBER_LITERAL, line no: 57,'@',CHARACTER_LITERAL, line no: 65, 0.28735632183908044, 0.28735632183908044, 0.0
+1,NUMBER_LITERAL, line no: 57,emailAddress.getDomain(),METHOD_INVOCATION, line no: 65, 0.28735632183908044, 0.28735632183908044, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,emailAddress.getPersonalName(),METHOD_INVOCATION, line no: 64, 0.2857142857142857, 0.2857142857142857, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),INFIX_EXPRESSION, line no: 65, 0.2857142857142857, 0.2857142857142857, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,emailAddress.getPersonalName(),METHOD_INVOCATION, line no: 64, 0.2857142857142857, 0.2857142857142857, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),INFIX_EXPRESSION, line no: 65, 0.2857142857142857, 0.2857142857142857, 0.0
+this,THIS_EXPRESSION, line no: 57,emailAddress.getPersonalName(),METHOD_INVOCATION, line no: 64, 0.2823529411764706, 0.2823529411764706, 0.0
+this,THIS_EXPRESSION, line no: 57,emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),INFIX_EXPRESSION, line no: 65, 0.2823529411764706, 0.2823529411764706, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,emailAddress.getPersonalName(),METHOD_INVOCATION, line no: 64, 0.2823529411764706, 0.2823529411764706, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),INFIX_EXPRESSION, line no: 65, 0.2823529411764706, 0.2823529411764706, 0.0
+0,NUMBER_LITERAL, line no: 57,emailAddress.getPersonalName(),METHOD_INVOCATION, line no: 64, 0.27906976744186046, 0.27906976744186046, 0.0
+0,NUMBER_LITERAL, line no: 57,emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),INFIX_EXPRESSION, line no: 65, 0.27906976744186046, 0.27906976744186046, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,emailAddress.getPersonalName(),METHOD_INVOCATION, line no: 64, 0.27906976744186046, 0.27906976744186046, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),INFIX_EXPRESSION, line no: 65, 0.27906976744186046, 0.27906976744186046, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,this.email=emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),ASSIGNMENT, line no: 65, 0.27710843373493976, 0.27710843373493976, 0.0
+ndx,SIMPLE_NAME, line no: 57,emailAddress.getPersonalName(),METHOD_INVOCATION, line no: 64, 0.27586206896551724, 0.27586206896551724, 0.0
+ndx,SIMPLE_NAME, line no: 57,emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),INFIX_EXPRESSION, line no: 65, 0.27586206896551724, 0.27586206896551724, 0.0
+1,NUMBER_LITERAL, line no: 57,emailAddress.getPersonalName(),METHOD_INVOCATION, line no: 64, 0.27586206896551724, 0.27586206896551724, 0.0
+1,NUMBER_LITERAL, line no: 57,emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),INFIX_EXPRESSION, line no: 65, 0.27586206896551724, 0.27586206896551724, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,this.email=emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),ASSIGNMENT, line no: 65, 0.27380952380952384, 0.27380952380952384, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,this.personalName=emailAddress.getPersonalName(),ASSIGNMENT, line no: 64, 0.27380952380952384, 0.27380952380952384, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,this.email=emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),ASSIGNMENT, line no: 65, 0.27380952380952384, 0.27380952380952384, 0.0
+this,THIS_EXPRESSION, line no: 57,this.personalName=emailAddress.getPersonalName(),ASSIGNMENT, line no: 64, 0.27058823529411763, 0.27058823529411763, 0.0
+this,THIS_EXPRESSION, line no: 57,this.email=emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),ASSIGNMENT, line no: 65, 0.27058823529411763, 0.27058823529411763, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,this.personalName=emailAddress.getPersonalName(),ASSIGNMENT, line no: 64, 0.27058823529411763, 0.27058823529411763, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,this.email=emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),ASSIGNMENT, line no: 65, 0.27058823529411763, 0.27058823529411763, 0.0
+0,NUMBER_LITERAL, line no: 57,this.personalName=emailAddress.getPersonalName(),ASSIGNMENT, line no: 64, 0.26744186046511625, 0.26744186046511625, 0.0
+0,NUMBER_LITERAL, line no: 57,this.email=emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),ASSIGNMENT, line no: 65, 0.26744186046511625, 0.26744186046511625, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,this.personalName=emailAddress.getPersonalName(),ASSIGNMENT, line no: 64, 0.26744186046511625, 0.26744186046511625, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,this.email=emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),ASSIGNMENT, line no: 65, 0.26744186046511625, 0.26744186046511625, 0.0
+ndx,SIMPLE_NAME, line no: 57,this.personalName=emailAddress.getPersonalName(),ASSIGNMENT, line no: 64, 0.26436781609195403, 0.26436781609195403, 0.0
+ndx,SIMPLE_NAME, line no: 57,this.email=emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),ASSIGNMENT, line no: 65, 0.26436781609195403, 0.26436781609195403, 0.0
+1,NUMBER_LITERAL, line no: 57,this.personalName=emailAddress.getPersonalName(),ASSIGNMENT, line no: 64, 0.26436781609195403, 0.26436781609195403, 0.0
+1,NUMBER_LITERAL, line no: 57,this.email=emailAddress.getLocalPart() + '@' + emailAddress.getDomain(),ASSIGNMENT, line no: 65, 0.26436781609195403, 0.26436781609195403, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,this.personalName == null,INFIX_EXPRESSION, line no: 124, 0.25, 0.25, 0.0
+this,THIS_EXPRESSION, line no: 57,this.personalName == null,INFIX_EXPRESSION, line no: 124, 0.24705882352941178, 0.24705882352941178, 0.0
+personalName,SIMPLE_NAME, line no: 57,this.personalName == null,INFIX_EXPRESSION, line no: 124, 0.24705882352941178, 0.24705882352941178, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,this.personalName == null,INFIX_EXPRESSION, line no: 124, 0.24705882352941178, 0.24705882352941178, 0.0
+trim,SIMPLE_NAME, line no: 57,this.personalName == null,INFIX_EXPRESSION, line no: 124, 0.24705882352941178, 0.24705882352941178, 0.0
+address,SIMPLE_NAME, line no: 57,this.personalName == null,INFIX_EXPRESSION, line no: 124, 0.2441860465116279, 0.2441860465116279, 0.0
+substring,SIMPLE_NAME, line no: 57,this.personalName == null,INFIX_EXPRESSION, line no: 124, 0.2441860465116279, 0.2441860465116279, 0.0
+0,NUMBER_LITERAL, line no: 57,this.personalName == null,INFIX_EXPRESSION, line no: 124, 0.2441860465116279, 0.2441860465116279, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,this.personalName == null,INFIX_EXPRESSION, line no: 124, 0.2441860465116279, 0.2441860465116279, 0.0
+ndx,SIMPLE_NAME, line no: 57,this.personalName == null,INFIX_EXPRESSION, line no: 124, 0.2413793103448276, 0.2413793103448276, 0.0
+1,NUMBER_LITERAL, line no: 57,this.personalName == null,INFIX_EXPRESSION, line no: 124, 0.2413793103448276, 0.2413793103448276, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,internetAddress,SIMPLE_NAME, line no: 71, 0.24096385542168675, 0.012048192771084338, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,getPersonal,SIMPLE_NAME, line no: 72, 0.24096385542168675, 0.24096385542168675, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,getAddress,SIMPLE_NAME, line no: 73, 0.24096385542168675, 0.24096385542168675, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57," <",STRING_LITERAL, line no: 127, 0.24096385542168675, 0.24096385542168675, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,internetAddress,SIMPLE_NAME, line no: 71, 0.23809523809523808, 0.011904761904761904, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,getPersonal,SIMPLE_NAME, line no: 72, 0.23809523809523808, 0.23809523809523808, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,getAddress,SIMPLE_NAME, line no: 73, 0.23809523809523808, 0.23809523809523808, 0.0
+this.personalName,FIELD_ACCESS, line no: 57," <",STRING_LITERAL, line no: 127, 0.23809523809523808, 0.23809523809523808, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,internetAddress,SIMPLE_NAME, line no: 71, 0.23809523809523808, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,getPersonal,SIMPLE_NAME, line no: 72, 0.23809523809523808, 0.23809523809523808, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,getAddress,SIMPLE_NAME, line no: 73, 0.23809523809523808, 0.23809523809523808, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,this.personalName + " <" + this.email+ '>',INFIX_EXPRESSION, line no: 127, 0.23809523809523808, 0.23809523809523808, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57," <",STRING_LITERAL, line no: 127, 0.23809523809523808, 0.23809523809523808, 0.0
+this,THIS_EXPRESSION, line no: 57,internetAddress,SIMPLE_NAME, line no: 71, 0.23529411764705882, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,getPersonal,SIMPLE_NAME, line no: 72, 0.23529411764705882, 0.23529411764705882, 0.0
+this,THIS_EXPRESSION, line no: 57,getAddress,SIMPLE_NAME, line no: 73, 0.23529411764705882, 0.23529411764705882, 0.0
+this,THIS_EXPRESSION, line no: 57,this.personalName + " <" + this.email+ '>',INFIX_EXPRESSION, line no: 127, 0.23529411764705882, 0.23529411764705882, 0.0
+this,THIS_EXPRESSION, line no: 57," <",STRING_LITERAL, line no: 127, 0.23529411764705882, 0.23529411764705882, 0.0
+personalName,SIMPLE_NAME, line no: 57,internetAddress,SIMPLE_NAME, line no: 71, 0.23529411764705882, 0.011764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,getPersonal,SIMPLE_NAME, line no: 72, 0.23529411764705882, 0.23529411764705882, 0.0
+personalName,SIMPLE_NAME, line no: 57,getAddress,SIMPLE_NAME, line no: 73, 0.23529411764705882, 0.23529411764705882, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,internetAddress,SIMPLE_NAME, line no: 71, 0.23529411764705882, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,getPersonal,SIMPLE_NAME, line no: 72, 0.23529411764705882, 0.23529411764705882, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,getAddress,SIMPLE_NAME, line no: 73, 0.23529411764705882, 0.23529411764705882, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,this.personalName + " <" + this.email+ '>',INFIX_EXPRESSION, line no: 127, 0.23529411764705882, 0.23529411764705882, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57," <",STRING_LITERAL, line no: 127, 0.23529411764705882, 0.23529411764705882, 0.0
+trim,SIMPLE_NAME, line no: 57,internetAddress,SIMPLE_NAME, line no: 71, 0.23529411764705882, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,getPersonal,SIMPLE_NAME, line no: 72, 0.23529411764705882, 0.23529411764705882, 0.0
+trim,SIMPLE_NAME, line no: 57,getAddress,SIMPLE_NAME, line no: 73, 0.23529411764705882, 0.23529411764705882, 0.0
+address,SIMPLE_NAME, line no: 57,internetAddress,SIMPLE_NAME, line no: 71, 0.23255813953488372, 0.011627906976744186, 0.0
+address,SIMPLE_NAME, line no: 57,getPersonal,SIMPLE_NAME, line no: 72, 0.23255813953488372, 0.23255813953488372, 0.0
+address,SIMPLE_NAME, line no: 57,getAddress,SIMPLE_NAME, line no: 73, 0.23255813953488372, 0.23255813953488372, 0.0
+substring,SIMPLE_NAME, line no: 57,internetAddress,SIMPLE_NAME, line no: 71, 0.23255813953488372, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,getPersonal,SIMPLE_NAME, line no: 72, 0.23255813953488372, 0.23255813953488372, 0.0
+substring,SIMPLE_NAME, line no: 57,getAddress,SIMPLE_NAME, line no: 73, 0.23255813953488372, 0.23255813953488372, 0.0
+0,NUMBER_LITERAL, line no: 57,internetAddress,SIMPLE_NAME, line no: 71, 0.23255813953488372, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,getPersonal,SIMPLE_NAME, line no: 72, 0.23255813953488372, 0.23255813953488372, 0.0
+0,NUMBER_LITERAL, line no: 57,getAddress,SIMPLE_NAME, line no: 73, 0.23255813953488372, 0.23255813953488372, 0.0
+0,NUMBER_LITERAL, line no: 57,this.personalName + " <" + this.email+ '>',INFIX_EXPRESSION, line no: 127, 0.23255813953488372, 0.23255813953488372, 0.0
+0,NUMBER_LITERAL, line no: 57," <",STRING_LITERAL, line no: 127, 0.23255813953488372, 0.23255813953488372, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,internetAddress,SIMPLE_NAME, line no: 71, 0.23255813953488372, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,getPersonal,SIMPLE_NAME, line no: 72, 0.23255813953488372, 0.23255813953488372, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,getAddress,SIMPLE_NAME, line no: 73, 0.23255813953488372, 0.23255813953488372, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,this.personalName + " <" + this.email+ '>',INFIX_EXPRESSION, line no: 127, 0.23255813953488372, 0.23255813953488372, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57," <",STRING_LITERAL, line no: 127, 0.23255813953488372, 0.23255813953488372, 0.0
+ndx,SIMPLE_NAME, line no: 57,internetAddress,SIMPLE_NAME, line no: 71, 0.22988505747126436, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,getPersonal,SIMPLE_NAME, line no: 72, 0.22988505747126436, 0.22988505747126436, 0.0
+ndx,SIMPLE_NAME, line no: 57,getAddress,SIMPLE_NAME, line no: 73, 0.22988505747126436, 0.22988505747126436, 0.0
+ndx,SIMPLE_NAME, line no: 57,this.personalName + " <" + this.email+ '>',INFIX_EXPRESSION, line no: 127, 0.22988505747126436, 0.22988505747126436, 0.0
+ndx,SIMPLE_NAME, line no: 57," <",STRING_LITERAL, line no: 127, 0.22988505747126436, 0.22988505747126436, 0.0
+1,NUMBER_LITERAL, line no: 57,internetAddress,SIMPLE_NAME, line no: 71, 0.22988505747126436, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,getPersonal,SIMPLE_NAME, line no: 72, 0.22988505747126436, 0.22988505747126436, 0.0
+1,NUMBER_LITERAL, line no: 57,getAddress,SIMPLE_NAME, line no: 73, 0.22988505747126436, 0.22988505747126436, 0.0
+1,NUMBER_LITERAL, line no: 57,this.personalName + " <" + this.email+ '>',INFIX_EXPRESSION, line no: 127, 0.22988505747126436, 0.22988505747126436, 0.0
+1,NUMBER_LITERAL, line no: 57," <",STRING_LITERAL, line no: 127, 0.22988505747126436, 0.22988505747126436, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,internetAddress.getPersonal(),METHOD_INVOCATION, line no: 72, 0.2289156626506024, 0.2289156626506024, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,internetAddress.getAddress(),METHOD_INVOCATION, line no: 73, 0.2289156626506024, 0.2289156626506024, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,internetAddress.getPersonal(),METHOD_INVOCATION, line no: 72, 0.2261904761904762, 0.2261904761904762, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,internetAddress.getAddress(),METHOD_INVOCATION, line no: 73, 0.2261904761904762, 0.2261904761904762, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,internetAddress.getPersonal(),METHOD_INVOCATION, line no: 72, 0.2261904761904762, 0.2261904761904762, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,internetAddress.getAddress(),METHOD_INVOCATION, line no: 73, 0.2261904761904762, 0.2261904761904762, 0.0
+this,THIS_EXPRESSION, line no: 57,internetAddress.getPersonal(),METHOD_INVOCATION, line no: 72, 0.2235294117647059, 0.2235294117647059, 0.0
+this,THIS_EXPRESSION, line no: 57,internetAddress.getAddress(),METHOD_INVOCATION, line no: 73, 0.2235294117647059, 0.2235294117647059, 0.0
+personalName,SIMPLE_NAME, line no: 57,internetAddress.getPersonal(),METHOD_INVOCATION, line no: 72, 0.2235294117647059, 0.2235294117647059, 0.0
+personalName,SIMPLE_NAME, line no: 57,internetAddress.getAddress(),METHOD_INVOCATION, line no: 73, 0.2235294117647059, 0.2235294117647059, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,internetAddress.getPersonal(),METHOD_INVOCATION, line no: 72, 0.2235294117647059, 0.2235294117647059, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,internetAddress.getAddress(),METHOD_INVOCATION, line no: 73, 0.2235294117647059, 0.2235294117647059, 0.0
+trim,SIMPLE_NAME, line no: 57,internetAddress.getPersonal(),METHOD_INVOCATION, line no: 72, 0.2235294117647059, 0.2235294117647059, 0.0
+trim,SIMPLE_NAME, line no: 57,internetAddress.getAddress(),METHOD_INVOCATION, line no: 73, 0.2235294117647059, 0.2235294117647059, 0.0
+address,SIMPLE_NAME, line no: 57,internetAddress.getPersonal(),METHOD_INVOCATION, line no: 72, 0.22093023255813954, 0.22093023255813954, 0.0
+address,SIMPLE_NAME, line no: 57,internetAddress.getAddress(),METHOD_INVOCATION, line no: 73, 0.22093023255813954, 0.22093023255813954, 0.0
+substring,SIMPLE_NAME, line no: 57,internetAddress.getPersonal(),METHOD_INVOCATION, line no: 72, 0.22093023255813954, 0.22093023255813954, 0.0
+substring,SIMPLE_NAME, line no: 57,internetAddress.getAddress(),METHOD_INVOCATION, line no: 73, 0.22093023255813954, 0.22093023255813954, 0.0
+0,NUMBER_LITERAL, line no: 57,internetAddress.getPersonal(),METHOD_INVOCATION, line no: 72, 0.22093023255813954, 0.22093023255813954, 0.0
+0,NUMBER_LITERAL, line no: 57,internetAddress.getAddress(),METHOD_INVOCATION, line no: 73, 0.22093023255813954, 0.22093023255813954, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,internetAddress.getPersonal(),METHOD_INVOCATION, line no: 72, 0.22093023255813954, 0.22093023255813954, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,internetAddress.getAddress(),METHOD_INVOCATION, line no: 73, 0.22093023255813954, 0.22093023255813954, 0.0
+ndx,SIMPLE_NAME, line no: 57,internetAddress.getPersonal(),METHOD_INVOCATION, line no: 72, 0.21839080459770116, 0.21839080459770116, 0.0
+ndx,SIMPLE_NAME, line no: 57,internetAddress.getAddress(),METHOD_INVOCATION, line no: 73, 0.21839080459770116, 0.21839080459770116, 0.0
+1,NUMBER_LITERAL, line no: 57,internetAddress.getPersonal(),METHOD_INVOCATION, line no: 72, 0.21839080459770116, 0.21839080459770116, 0.0
+1,NUMBER_LITERAL, line no: 57,internetAddress.getAddress(),METHOD_INVOCATION, line no: 73, 0.21839080459770116, 0.21839080459770116, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,this.email=internetAddress.getAddress(),ASSIGNMENT, line no: 73, 0.21686746987951808, 0.21686746987951808, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,this.email=internetAddress.getAddress(),ASSIGNMENT, line no: 73, 0.21428571428571427, 0.21428571428571427, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,this.personalName=internetAddress.getPersonal(),ASSIGNMENT, line no: 72, 0.21428571428571427, 0.21428571428571427, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,this.email=internetAddress.getAddress(),ASSIGNMENT, line no: 73, 0.21428571428571427, 0.21428571428571427, 0.0
+this,THIS_EXPRESSION, line no: 57,this.personalName=internetAddress.getPersonal(),ASSIGNMENT, line no: 72, 0.21176470588235294, 0.21176470588235294, 0.0
+this,THIS_EXPRESSION, line no: 57,this.email=internetAddress.getAddress(),ASSIGNMENT, line no: 73, 0.21176470588235294, 0.21176470588235294, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,this.personalName=internetAddress.getPersonal(),ASSIGNMENT, line no: 72, 0.21176470588235294, 0.21176470588235294, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,this.email=internetAddress.getAddress(),ASSIGNMENT, line no: 73, 0.21176470588235294, 0.21176470588235294, 0.0
+0,NUMBER_LITERAL, line no: 57,this.personalName=internetAddress.getPersonal(),ASSIGNMENT, line no: 72, 0.20930232558139536, 0.20930232558139536, 0.0
+0,NUMBER_LITERAL, line no: 57,this.email=internetAddress.getAddress(),ASSIGNMENT, line no: 73, 0.20930232558139536, 0.20930232558139536, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,this.personalName=internetAddress.getPersonal(),ASSIGNMENT, line no: 72, 0.20930232558139536, 0.20930232558139536, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,this.email=internetAddress.getAddress(),ASSIGNMENT, line no: 73, 0.20930232558139536, 0.20930232558139536, 0.0
+ndx,SIMPLE_NAME, line no: 57,this.personalName=internetAddress.getPersonal(),ASSIGNMENT, line no: 72, 0.20689655172413793, 0.20689655172413793, 0.0
+ndx,SIMPLE_NAME, line no: 57,this.email=internetAddress.getAddress(),ASSIGNMENT, line no: 73, 0.20689655172413793, 0.20689655172413793, 0.0
+1,NUMBER_LITERAL, line no: 57,this.personalName=internetAddress.getPersonal(),ASSIGNMENT, line no: 72, 0.20689655172413793, 0.20689655172413793, 0.0
+1,NUMBER_LITERAL, line no: 57,this.email=internetAddress.getAddress(),ASSIGNMENT, line no: 73, 0.20689655172413793, 0.20689655172413793, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,this.email=address,ASSIGNMENT, line no: 44, 0.1927710843373494, 0.1927710843373494, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,this.email=address,ASSIGNMENT, line no: 44, 0.19047619047619047, 0.19047619047619047, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,this.email=address,ASSIGNMENT, line no: 44, 0.19047619047619047, 0.19047619047619047, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,this.personalName=null,ASSIGNMENT, line no: 45, 0.19047619047619047, 0.19047619047619047, 0.0
+this,THIS_EXPRESSION, line no: 57,this.email=address,ASSIGNMENT, line no: 44, 0.18823529411764706, 0.18823529411764706, 0.0
+this,THIS_EXPRESSION, line no: 57,this.personalName=null,ASSIGNMENT, line no: 45, 0.18823529411764706, 0.18823529411764706, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,this.email=address,ASSIGNMENT, line no: 44, 0.18823529411764706, 0.18823529411764706, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,this.personalName=null,ASSIGNMENT, line no: 45, 0.18823529411764706, 0.18823529411764706, 0.0
+0,NUMBER_LITERAL, line no: 57,this.email=address,ASSIGNMENT, line no: 44, 0.18604651162790697, 0.18604651162790697, 0.0
+0,NUMBER_LITERAL, line no: 57,this.personalName=null,ASSIGNMENT, line no: 45, 0.18604651162790697, 0.18604651162790697, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,this.email=address,ASSIGNMENT, line no: 44, 0.18604651162790697, 0.18604651162790697, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,this.personalName=null,ASSIGNMENT, line no: 45, 0.18604651162790697, 0.18604651162790697, 0.0
+ndx,SIMPLE_NAME, line no: 57,this.email=address,ASSIGNMENT, line no: 44, 0.1839080459770115, 0.1839080459770115, 0.0
+ndx,SIMPLE_NAME, line no: 57,this.personalName=null,ASSIGNMENT, line no: 45, 0.1839080459770115, 0.1839080459770115, 0.0
+1,NUMBER_LITERAL, line no: 57,this.email=address,ASSIGNMENT, line no: 44, 0.1839080459770115, 0.1839080459770115, 0.0
+1,NUMBER_LITERAL, line no: 57,this.personalName=null,ASSIGNMENT, line no: 45, 0.1839080459770115, 0.1839080459770115, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,this.email=email,ASSIGNMENT, line no: 28, 0.1686746987951807, 0.1686746987951807, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,this.email=email,ASSIGNMENT, line no: 28, 0.16666666666666666, 0.16666666666666666, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,this.email=email,ASSIGNMENT, line no: 28, 0.16666666666666666, 0.16666666666666666, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,this.personalName=personalName,ASSIGNMENT, line no: 29, 0.16666666666666666, 0.16666666666666666, 0.0
+this,THIS_EXPRESSION, line no: 57,this.email=email,ASSIGNMENT, line no: 28, 0.16470588235294117, 0.16470588235294117, 0.0
+this,THIS_EXPRESSION, line no: 57,this.personalName=personalName,ASSIGNMENT, line no: 29, 0.16470588235294117, 0.16470588235294117, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,this.email=email,ASSIGNMENT, line no: 28, 0.16470588235294117, 0.16470588235294117, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,this.personalName=personalName,ASSIGNMENT, line no: 29, 0.16470588235294117, 0.16470588235294117, 0.0
+0,NUMBER_LITERAL, line no: 57,this.email=email,ASSIGNMENT, line no: 28, 0.16279069767441862, 0.16279069767441862, 0.0
+0,NUMBER_LITERAL, line no: 57,this.personalName=personalName,ASSIGNMENT, line no: 29, 0.16279069767441862, 0.16279069767441862, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,this.email=email,ASSIGNMENT, line no: 28, 0.16279069767441862, 0.16279069767441862, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,this.personalName=personalName,ASSIGNMENT, line no: 29, 0.16279069767441862, 0.16279069767441862, 0.0
+ndx,SIMPLE_NAME, line no: 57,this.email=email,ASSIGNMENT, line no: 28, 0.16091954022988506, 0.16091954022988506, 0.0
+ndx,SIMPLE_NAME, line no: 57,this.personalName=personalName,ASSIGNMENT, line no: 29, 0.16091954022988506, 0.16091954022988506, 0.0
+1,NUMBER_LITERAL, line no: 57,this.email=email,ASSIGNMENT, line no: 28, 0.16091954022988506, 0.16091954022988506, 0.0
+1,NUMBER_LITERAL, line no: 57,this.personalName=personalName,ASSIGNMENT, line no: 29, 0.16091954022988506, 0.16091954022988506, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,UnsupportedEncodingException,SIMPLE_NAME, line no: 11, 0.1566265060240964, 0.012048192771084338, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,ueex,SIMPLE_NAME, line no: 115, 0.1566265060240964, 0.1566265060240964, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,UnsupportedEncodingException,SIMPLE_NAME, line no: 11, 0.15476190476190477, 0.011904761904761904, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,ueex,SIMPLE_NAME, line no: 115, 0.15476190476190477, 0.15476190476190477, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,UnsupportedEncodingException,SIMPLE_NAME, line no: 11, 0.15476190476190477, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,ueex,SIMPLE_NAME, line no: 115, 0.15476190476190477, 0.15476190476190477, 0.0
+this,THIS_EXPRESSION, line no: 57,UnsupportedEncodingException,SIMPLE_NAME, line no: 11, 0.15294117647058825, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,ueex,SIMPLE_NAME, line no: 115, 0.15294117647058825, 0.15294117647058825, 0.0
+personalName,SIMPLE_NAME, line no: 57,UnsupportedEncodingException,SIMPLE_NAME, line no: 11, 0.15294117647058825, 0.011764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,ueex,SIMPLE_NAME, line no: 115, 0.15294117647058825, 0.15294117647058825, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,UnsupportedEncodingException,SIMPLE_NAME, line no: 11, 0.15294117647058825, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,ueex,SIMPLE_NAME, line no: 115, 0.15294117647058825, 0.15294117647058825, 0.0
+trim,SIMPLE_NAME, line no: 57,UnsupportedEncodingException,SIMPLE_NAME, line no: 11, 0.15294117647058825, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,ueex,SIMPLE_NAME, line no: 115, 0.15294117647058825, 0.15294117647058825, 0.0
+address,SIMPLE_NAME, line no: 57,UnsupportedEncodingException,SIMPLE_NAME, line no: 11, 0.1511627906976744, 0.011627906976744186, 0.0
+address,SIMPLE_NAME, line no: 57,ueex,SIMPLE_NAME, line no: 115, 0.1511627906976744, 0.1511627906976744, 0.0
+substring,SIMPLE_NAME, line no: 57,UnsupportedEncodingException,SIMPLE_NAME, line no: 11, 0.1511627906976744, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,ueex,SIMPLE_NAME, line no: 115, 0.1511627906976744, 0.1511627906976744, 0.0
+0,NUMBER_LITERAL, line no: 57,UnsupportedEncodingException,SIMPLE_NAME, line no: 11, 0.1511627906976744, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,ueex,SIMPLE_NAME, line no: 115, 0.1511627906976744, 0.1511627906976744, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,UnsupportedEncodingException,SIMPLE_NAME, line no: 11, 0.1511627906976744, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,ueex,SIMPLE_NAME, line no: 115, 0.1511627906976744, 0.1511627906976744, 0.0
+ndx,SIMPLE_NAME, line no: 57,UnsupportedEncodingException,SIMPLE_NAME, line no: 11, 0.14942528735632185, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,ueex,SIMPLE_NAME, line no: 115, 0.14942528735632185, 0.14942528735632185, 0.0
+1,NUMBER_LITERAL, line no: 57,UnsupportedEncodingException,SIMPLE_NAME, line no: 11, 0.14942528735632185, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,ueex,SIMPLE_NAME, line no: 115, 0.14942528735632185, 0.14942528735632185, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,res[i]=new MailAddress(addresses[i]),ASSIGNMENT, line no: 146, 0.10843373493975904, 0.10843373493975904, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,res[i],ARRAY_ACCESS, line no: 146, 0.10843373493975904, 0.10843373493975904, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,new MailAddress(addresses[i]),CLASS_INSTANCE_CREATION, line no: 146, 0.10843373493975904, 0.10843373493975904, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,addresses[i],ARRAY_ACCESS, line no: 146, 0.10843373493975904, 0.10843373493975904, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,res[i]=new MailAddress(addresses[i]),ASSIGNMENT, line no: 146, 0.10714285714285714, 0.10714285714285714, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,res[i],ARRAY_ACCESS, line no: 146, 0.10714285714285714, 0.10714285714285714, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,new MailAddress(addresses[i]),CLASS_INSTANCE_CREATION, line no: 146, 0.10714285714285714, 0.10714285714285714, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,addresses[i],ARRAY_ACCESS, line no: 146, 0.10714285714285714, 0.10714285714285714, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,res[i]=new MailAddress(addresses[i]),ASSIGNMENT, line no: 146, 0.10714285714285714, 0.10714285714285714, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,res[i],ARRAY_ACCESS, line no: 146, 0.10714285714285714, 0.10714285714285714, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,new MailAddress(addresses[i]),CLASS_INSTANCE_CREATION, line no: 146, 0.10714285714285714, 0.10714285714285714, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,addresses[i],ARRAY_ACCESS, line no: 146, 0.10714285714285714, 0.10714285714285714, 0.0
+this,THIS_EXPRESSION, line no: 57,res[i]=new MailAddress(addresses[i]),ASSIGNMENT, line no: 146, 0.10588235294117647, 0.10588235294117647, 0.0
+this,THIS_EXPRESSION, line no: 57,res[i],ARRAY_ACCESS, line no: 146, 0.10588235294117647, 0.10588235294117647, 0.0
+this,THIS_EXPRESSION, line no: 57,new MailAddress(addresses[i]),CLASS_INSTANCE_CREATION, line no: 146, 0.10588235294117647, 0.10588235294117647, 0.0
+this,THIS_EXPRESSION, line no: 57,addresses[i],ARRAY_ACCESS, line no: 146, 0.10588235294117647, 0.10588235294117647, 0.0
+personalName,SIMPLE_NAME, line no: 57,res[i]=new MailAddress(addresses[i]),ASSIGNMENT, line no: 146, 0.10588235294117647, 0.10588235294117647, 0.0
+personalName,SIMPLE_NAME, line no: 57,res[i],ARRAY_ACCESS, line no: 146, 0.10588235294117647, 0.10588235294117647, 0.0
+personalName,SIMPLE_NAME, line no: 57,new MailAddress(addresses[i]),CLASS_INSTANCE_CREATION, line no: 146, 0.10588235294117647, 0.10588235294117647, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,res[i]=new MailAddress(addresses[i]),ASSIGNMENT, line no: 146, 0.10588235294117647, 0.10588235294117647, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,res[i],ARRAY_ACCESS, line no: 146, 0.10588235294117647, 0.10588235294117647, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,new MailAddress(addresses[i]),CLASS_INSTANCE_CREATION, line no: 146, 0.10588235294117647, 0.10588235294117647, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,addresses[i],ARRAY_ACCESS, line no: 146, 0.10588235294117647, 0.10588235294117647, 0.0
+trim,SIMPLE_NAME, line no: 57,res[i]=new MailAddress(addresses[i]),ASSIGNMENT, line no: 146, 0.10588235294117647, 0.10588235294117647, 0.0
+trim,SIMPLE_NAME, line no: 57,res[i],ARRAY_ACCESS, line no: 146, 0.10588235294117647, 0.10588235294117647, 0.0
+trim,SIMPLE_NAME, line no: 57,new MailAddress(addresses[i]),CLASS_INSTANCE_CREATION, line no: 146, 0.10588235294117647, 0.10588235294117647, 0.0
+address,SIMPLE_NAME, line no: 57,res[i]=new MailAddress(addresses[i]),ASSIGNMENT, line no: 146, 0.10465116279069768, 0.10465116279069768, 0.0
+address,SIMPLE_NAME, line no: 57,res[i],ARRAY_ACCESS, line no: 146, 0.10465116279069768, 0.10465116279069768, 0.0
+address,SIMPLE_NAME, line no: 57,new MailAddress(addresses[i]),CLASS_INSTANCE_CREATION, line no: 146, 0.10465116279069768, 0.10465116279069768, 0.0
+substring,SIMPLE_NAME, line no: 57,res[i]=new MailAddress(addresses[i]),ASSIGNMENT, line no: 146, 0.10465116279069768, 0.10465116279069768, 0.0
+substring,SIMPLE_NAME, line no: 57,res[i],ARRAY_ACCESS, line no: 146, 0.10465116279069768, 0.10465116279069768, 0.0
+substring,SIMPLE_NAME, line no: 57,new MailAddress(addresses[i]),CLASS_INSTANCE_CREATION, line no: 146, 0.10465116279069768, 0.10465116279069768, 0.0
+0,NUMBER_LITERAL, line no: 57,res[i]=new MailAddress(addresses[i]),ASSIGNMENT, line no: 146, 0.10465116279069768, 0.10465116279069768, 0.0
+0,NUMBER_LITERAL, line no: 57,res[i],ARRAY_ACCESS, line no: 146, 0.10465116279069768, 0.10465116279069768, 0.0
+0,NUMBER_LITERAL, line no: 57,new MailAddress(addresses[i]),CLASS_INSTANCE_CREATION, line no: 146, 0.10465116279069768, 0.10465116279069768, 0.0
+0,NUMBER_LITERAL, line no: 57,addresses[i],ARRAY_ACCESS, line no: 146, 0.10465116279069768, 0.10465116279069768, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,res[i]=new MailAddress(addresses[i]),ASSIGNMENT, line no: 146, 0.10465116279069768, 0.10465116279069768, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,res[i],ARRAY_ACCESS, line no: 146, 0.10465116279069768, 0.10465116279069768, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,new MailAddress(addresses[i]),CLASS_INSTANCE_CREATION, line no: 146, 0.10465116279069768, 0.10465116279069768, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,addresses[i],ARRAY_ACCESS, line no: 146, 0.10465116279069768, 0.10465116279069768, 0.0
+ndx,SIMPLE_NAME, line no: 57,res[i]=new MailAddress(addresses[i]),ASSIGNMENT, line no: 146, 0.10344827586206896, 0.10344827586206896, 0.0
+ndx,SIMPLE_NAME, line no: 57,res[i],ARRAY_ACCESS, line no: 146, 0.10344827586206896, 0.10344827586206896, 0.0
+ndx,SIMPLE_NAME, line no: 57,new MailAddress(addresses[i]),CLASS_INSTANCE_CREATION, line no: 146, 0.10344827586206896, 0.10344827586206896, 0.0
+ndx,SIMPLE_NAME, line no: 57,addresses[i],ARRAY_ACCESS, line no: 146, 0.10344827586206896, 0.10344827586206896, 0.0
+1,NUMBER_LITERAL, line no: 57,res[i]=new MailAddress(addresses[i]),ASSIGNMENT, line no: 146, 0.10344827586206896, 0.10344827586206896, 0.0
+1,NUMBER_LITERAL, line no: 57,res[i],ARRAY_ACCESS, line no: 146, 0.10344827586206896, 0.10344827586206896, 0.0
+1,NUMBER_LITERAL, line no: 57,new MailAddress(addresses[i]),CLASS_INSTANCE_CREATION, line no: 146, 0.10344827586206896, 0.10344827586206896, 0.0
+1,NUMBER_LITERAL, line no: 57,addresses[i],ARRAY_ACCESS, line no: 146, 0.10344827586206896, 0.10344827586206896, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,JoddCore,SIMPLE_NAME, line no: 5, 0.0963855421686747, 0.012048192771084338, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,InternetAddress,SIMPLE_NAME, line no: 10, 0.0963855421686747, 0.012048192771084338, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,JoddCore,SIMPLE_NAME, line no: 5, 0.09523809523809523, 0.011904761904761904, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,InternetAddress,SIMPLE_NAME, line no: 10, 0.09523809523809523, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,JoddCore,SIMPLE_NAME, line no: 5, 0.09523809523809523, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,InternetAddress,SIMPLE_NAME, line no: 10, 0.09523809523809523, 0.011904761904761904, 0.0
+this,THIS_EXPRESSION, line no: 57,JoddCore,SIMPLE_NAME, line no: 5, 0.09411764705882353, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,InternetAddress,SIMPLE_NAME, line no: 10, 0.09411764705882353, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,encoding,SIMPLE_NAME, line no: 114, 0.09411764705882353, 0.09411764705882353, 0.0
+personalName,SIMPLE_NAME, line no: 57,JoddCore,SIMPLE_NAME, line no: 5, 0.09411764705882353, 0.011764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,InternetAddress,SIMPLE_NAME, line no: 10, 0.09411764705882353, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,JoddCore,SIMPLE_NAME, line no: 5, 0.09411764705882353, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,InternetAddress,SIMPLE_NAME, line no: 10, 0.09411764705882353, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,JoddCore,SIMPLE_NAME, line no: 5, 0.09411764705882353, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,InternetAddress,SIMPLE_NAME, line no: 10, 0.09411764705882353, 0.011764705882352941, 0.0
+address,SIMPLE_NAME, line no: 57,JoddCore,SIMPLE_NAME, line no: 5, 0.09302325581395349, 0.011627906976744186, 0.0
+address,SIMPLE_NAME, line no: 57,InternetAddress,SIMPLE_NAME, line no: 10, 0.09302325581395349, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,JoddCore,SIMPLE_NAME, line no: 5, 0.09302325581395349, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,InternetAddress,SIMPLE_NAME, line no: 10, 0.09302325581395349, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,JoddCore,SIMPLE_NAME, line no: 5, 0.09302325581395349, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,InternetAddress,SIMPLE_NAME, line no: 10, 0.09302325581395349, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,encoding,SIMPLE_NAME, line no: 114, 0.09302325581395349, 0.09302325581395349, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,JoddCore,SIMPLE_NAME, line no: 5, 0.09302325581395349, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,InternetAddress,SIMPLE_NAME, line no: 10, 0.09302325581395349, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,encoding,SIMPLE_NAME, line no: 114, 0.09302325581395349, 0.09302325581395349, 0.0
+ndx,SIMPLE_NAME, line no: 57,JoddCore,SIMPLE_NAME, line no: 5, 0.09195402298850575, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,InternetAddress,SIMPLE_NAME, line no: 10, 0.09195402298850575, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,encoding,SIMPLE_NAME, line no: 114, 0.09195402298850575, 0.09195402298850575, 0.0
+1,NUMBER_LITERAL, line no: 57,JoddCore,SIMPLE_NAME, line no: 5, 0.09195402298850575, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,InternetAddress,SIMPLE_NAME, line no: 10, 0.09195402298850575, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,encoding,SIMPLE_NAME, line no: 114, 0.09195402298850575, 0.09195402298850575, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,JoddCore.encoding,QUALIFIED_NAME, line no: 114, 0.08433734939759036, 0.08433734939759036, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,JoddCore.encoding,QUALIFIED_NAME, line no: 114, 0.08333333333333333, 0.08333333333333333, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,new InternetAddress(email personalName JoddCore.encoding),CLASS_INSTANCE_CREATION, line no: 114, 0.08333333333333333, 0.08333333333333333, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,JoddCore.encoding,QUALIFIED_NAME, line no: 114, 0.08333333333333333, 0.08333333333333333, 0.0
+this,THIS_EXPRESSION, line no: 57,toString,SIMPLE_NAME, line no: 80, 0.08235294117647059, 0.058823529411764705, 0.0
+this,THIS_EXPRESSION, line no: 57,new InternetAddress(email personalName JoddCore.encoding),CLASS_INSTANCE_CREATION, line no: 114, 0.08235294117647059, 0.08235294117647059, 0.0
+this,THIS_EXPRESSION, line no: 57,JoddCore.encoding,QUALIFIED_NAME, line no: 114, 0.08235294117647059, 0.08235294117647059, 0.0
+personalName,SIMPLE_NAME, line no: 57,new InternetAddress(email personalName JoddCore.encoding),CLASS_INSTANCE_CREATION, line no: 114, 0.08235294117647059, 0.08235294117647059, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,new InternetAddress(email personalName JoddCore.encoding),CLASS_INSTANCE_CREATION, line no: 114, 0.08235294117647059, 0.08235294117647059, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,JoddCore.encoding,QUALIFIED_NAME, line no: 114, 0.08235294117647059, 0.08235294117647059, 0.0
+trim,SIMPLE_NAME, line no: 57,new InternetAddress(email personalName JoddCore.encoding),CLASS_INSTANCE_CREATION, line no: 114, 0.08235294117647059, 0.08235294117647059, 0.0
+address,SIMPLE_NAME, line no: 57,new InternetAddress(email personalName JoddCore.encoding),CLASS_INSTANCE_CREATION, line no: 114, 0.08139534883720931, 0.08139534883720931, 0.0
+substring,SIMPLE_NAME, line no: 57,new InternetAddress(email personalName JoddCore.encoding),CLASS_INSTANCE_CREATION, line no: 114, 0.08139534883720931, 0.08139534883720931, 0.0
+0,NUMBER_LITERAL, line no: 57,toString,SIMPLE_NAME, line no: 80, 0.08139534883720931, 0.05813953488372093, 0.0
+0,NUMBER_LITERAL, line no: 57,new InternetAddress(email personalName JoddCore.encoding),CLASS_INSTANCE_CREATION, line no: 114, 0.08139534883720931, 0.08139534883720931, 0.0
+0,NUMBER_LITERAL, line no: 57,JoddCore.encoding,QUALIFIED_NAME, line no: 114, 0.08139534883720931, 0.08139534883720931, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,toString,SIMPLE_NAME, line no: 80, 0.08139534883720931, 0.05813953488372093, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,new InternetAddress(email personalName JoddCore.encoding),CLASS_INSTANCE_CREATION, line no: 114, 0.08139534883720931, 0.08139534883720931, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,JoddCore.encoding,QUALIFIED_NAME, line no: 114, 0.08139534883720931, 0.08139534883720931, 0.0
+ndx,SIMPLE_NAME, line no: 57,toString,SIMPLE_NAME, line no: 80, 0.08045977011494253, 0.05747126436781609, 0.0
+ndx,SIMPLE_NAME, line no: 57,new InternetAddress(email personalName JoddCore.encoding),CLASS_INSTANCE_CREATION, line no: 114, 0.08045977011494253, 0.08045977011494253, 0.0
+ndx,SIMPLE_NAME, line no: 57,JoddCore.encoding,QUALIFIED_NAME, line no: 114, 0.08045977011494253, 0.08045977011494253, 0.0
+1,NUMBER_LITERAL, line no: 57,toString,SIMPLE_NAME, line no: 80, 0.08045977011494253, 0.05747126436781609, 0.0
+1,NUMBER_LITERAL, line no: 57,new InternetAddress(email personalName JoddCore.encoding),CLASS_INSTANCE_CREATION, line no: 114, 0.08045977011494253, 0.08045977011494253, 0.0
+1,NUMBER_LITERAL, line no: 57,JoddCore.encoding,QUALIFIED_NAME, line no: 114, 0.08045977011494253, 0.08045977011494253, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,EmailAddress,SIMPLE_NAME, line no: 63, 0.07228915662650602, 0.012048192771084338, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,toString(),METHOD_INVOCATION, line no: 106, 0.07228915662650602, 0.07228915662650602, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,EmailAddress,SIMPLE_NAME, line no: 63, 0.07142857142857142, 0.011904761904761904, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,toString(),METHOD_INVOCATION, line no: 106, 0.07142857142857142, 0.07142857142857142, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,EmailAddress,SIMPLE_NAME, line no: 63, 0.07142857142857142, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,toString(),METHOD_INVOCATION, line no: 106, 0.07142857142857142, 0.07142857142857142, 0.0
+this,THIS_EXPRESSION, line no: 57,EmailAddress,SIMPLE_NAME, line no: 63, 0.07058823529411765, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,toString(),METHOD_INVOCATION, line no: 106, 0.07058823529411765, 0.07058823529411765, 0.0
+personalName,SIMPLE_NAME, line no: 57,EmailAddress,SIMPLE_NAME, line no: 63, 0.07058823529411765, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,EmailAddress,SIMPLE_NAME, line no: 63, 0.07058823529411765, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,toString(),METHOD_INVOCATION, line no: 106, 0.07058823529411765, 0.07058823529411765, 0.0
+trim,SIMPLE_NAME, line no: 57,EmailAddress,SIMPLE_NAME, line no: 63, 0.07058823529411765, 0.011764705882352941, 0.0
+address,SIMPLE_NAME, line no: 57,EmailAddress,SIMPLE_NAME, line no: 63, 0.06976744186046512, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,EmailAddress,SIMPLE_NAME, line no: 63, 0.06976744186046512, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,EmailAddress,SIMPLE_NAME, line no: 63, 0.06976744186046512, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,toString(),METHOD_INVOCATION, line no: 106, 0.06976744186046512, 0.06976744186046512, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,EmailAddress,SIMPLE_NAME, line no: 63, 0.06976744186046512, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,toString(),METHOD_INVOCATION, line no: 106, 0.06976744186046512, 0.06976744186046512, 0.0
+ndx,SIMPLE_NAME, line no: 57,EmailAddress,SIMPLE_NAME, line no: 63, 0.06896551724137931, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,toString(),METHOD_INVOCATION, line no: 106, 0.06896551724137931, 0.06896551724137931, 0.0
+1,NUMBER_LITERAL, line no: 57,EmailAddress,SIMPLE_NAME, line no: 63, 0.06896551724137931, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,toString(),METHOD_INVOCATION, line no: 106, 0.06896551724137931, 0.06896551724137931, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,AddressException,SIMPLE_NAME, line no: 9, 0.060240963855421686, 0.012048192771084338, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,new EmailAddress(toString()),CLASS_INSTANCE_CREATION, line no: 106, 0.060240963855421686, 0.060240963855421686, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,ueex.toString(),METHOD_INVOCATION, line no: 116, 0.060240963855421686, 0.060240963855421686, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,AddressException,SIMPLE_NAME, line no: 9, 0.05952380952380952, 0.011904761904761904, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,new EmailAddress(toString()),CLASS_INSTANCE_CREATION, line no: 106, 0.05952380952380952, 0.05952380952380952, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,ueex.toString(),METHOD_INVOCATION, line no: 116, 0.05952380952380952, 0.05952380952380952, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,AddressException,SIMPLE_NAME, line no: 9, 0.05952380952380952, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,new EmailAddress(toString()),CLASS_INSTANCE_CREATION, line no: 106, 0.05952380952380952, 0.05952380952380952, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,ueex.toString(),METHOD_INVOCATION, line no: 116, 0.05952380952380952, 0.05952380952380952, 0.0
+this,THIS_EXPRESSION, line no: 57,AddressException,SIMPLE_NAME, line no: 9, 0.058823529411764705, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,new EmailAddress(toString()),CLASS_INSTANCE_CREATION, line no: 106, 0.058823529411764705, 0.058823529411764705, 0.0
+this,THIS_EXPRESSION, line no: 57,ueex.toString(),METHOD_INVOCATION, line no: 116, 0.058823529411764705, 0.058823529411764705, 0.0
+personalName,SIMPLE_NAME, line no: 57,AddressException,SIMPLE_NAME, line no: 9, 0.058823529411764705, 0.011764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,new EmailAddress(toString()),CLASS_INSTANCE_CREATION, line no: 106, 0.058823529411764705, 0.058823529411764705, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,AddressException,SIMPLE_NAME, line no: 9, 0.058823529411764705, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,new EmailAddress(toString()),CLASS_INSTANCE_CREATION, line no: 106, 0.058823529411764705, 0.058823529411764705, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,ueex.toString(),METHOD_INVOCATION, line no: 116, 0.058823529411764705, 0.058823529411764705, 0.0
+trim,SIMPLE_NAME, line no: 57,AddressException,SIMPLE_NAME, line no: 9, 0.058823529411764705, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,new EmailAddress(toString()),CLASS_INSTANCE_CREATION, line no: 106, 0.058823529411764705, 0.058823529411764705, 0.0
+address,SIMPLE_NAME, line no: 57,AddressException,SIMPLE_NAME, line no: 9, 0.05813953488372093, 0.011627906976744186, 0.0
+address,SIMPLE_NAME, line no: 57,new EmailAddress(toString()),CLASS_INSTANCE_CREATION, line no: 106, 0.05813953488372093, 0.05813953488372093, 0.0
+substring,SIMPLE_NAME, line no: 57,AddressException,SIMPLE_NAME, line no: 9, 0.05813953488372093, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,new EmailAddress(toString()),CLASS_INSTANCE_CREATION, line no: 106, 0.05813953488372093, 0.05813953488372093, 0.0
+0,NUMBER_LITERAL, line no: 57,AddressException,SIMPLE_NAME, line no: 9, 0.05813953488372093, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,new EmailAddress(toString()),CLASS_INSTANCE_CREATION, line no: 106, 0.05813953488372093, 0.05813953488372093, 0.0
+0,NUMBER_LITERAL, line no: 57,ueex.toString(),METHOD_INVOCATION, line no: 116, 0.05813953488372093, 0.05813953488372093, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,AddressException,SIMPLE_NAME, line no: 9, 0.05813953488372093, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,new EmailAddress(toString()),CLASS_INSTANCE_CREATION, line no: 106, 0.05813953488372093, 0.05813953488372093, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,ueex.toString(),METHOD_INVOCATION, line no: 116, 0.05813953488372093, 0.05813953488372093, 0.0
+ndx,SIMPLE_NAME, line no: 57,AddressException,SIMPLE_NAME, line no: 9, 0.05747126436781609, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,new EmailAddress(toString()),CLASS_INSTANCE_CREATION, line no: 106, 0.05747126436781609, 0.05747126436781609, 0.0
+ndx,SIMPLE_NAME, line no: 57,ueex.toString(),METHOD_INVOCATION, line no: 116, 0.05747126436781609, 0.05747126436781609, 0.0
+1,NUMBER_LITERAL, line no: 57,AddressException,SIMPLE_NAME, line no: 9, 0.05747126436781609, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,new EmailAddress(toString()),CLASS_INSTANCE_CREATION, line no: 106, 0.05747126436781609, 0.05747126436781609, 0.0
+1,NUMBER_LITERAL, line no: 57,ueex.toString(),METHOD_INVOCATION, line no: 116, 0.05747126436781609, 0.05747126436781609, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,address.toString(),METHOD_INVOCATION, line no: 80, 0.04819277108433735, 0.04819277108433735, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,new AddressException(ueex.toString()),CLASS_INSTANCE_CREATION, line no: 116, 0.04819277108433735, 0.04819277108433735, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,address.toString(),METHOD_INVOCATION, line no: 80, 0.047619047619047616, 0.047619047619047616, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,new AddressException(ueex.toString()),CLASS_INSTANCE_CREATION, line no: 116, 0.047619047619047616, 0.047619047619047616, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,address.toString(),METHOD_INVOCATION, line no: 80, 0.047619047619047616, 0.047619047619047616, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,new AddressException(ueex.toString()),CLASS_INSTANCE_CREATION, line no: 116, 0.047619047619047616, 0.047619047619047616, 0.0
+this,THIS_EXPRESSION, line no: 57,address.toString(),METHOD_INVOCATION, line no: 80, 0.047058823529411764, 0.047058823529411764, 0.0
+this,THIS_EXPRESSION, line no: 57,new AddressException(ueex.toString()),CLASS_INSTANCE_CREATION, line no: 116, 0.047058823529411764, 0.047058823529411764, 0.0
+personalName,SIMPLE_NAME, line no: 57,address.toString(),METHOD_INVOCATION, line no: 80, 0.047058823529411764, 0.047058823529411764, 0.0
+personalName,SIMPLE_NAME, line no: 57,new AddressException(ueex.toString()),CLASS_INSTANCE_CREATION, line no: 116, 0.047058823529411764, 0.047058823529411764, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,address.toString(),METHOD_INVOCATION, line no: 80, 0.047058823529411764, 0.047058823529411764, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,new AddressException(ueex.toString()),CLASS_INSTANCE_CREATION, line no: 116, 0.047058823529411764, 0.047058823529411764, 0.0
+trim,SIMPLE_NAME, line no: 57,address.toString(),METHOD_INVOCATION, line no: 80, 0.047058823529411764, 0.047058823529411764, 0.0
+trim,SIMPLE_NAME, line no: 57,new AddressException(ueex.toString()),CLASS_INSTANCE_CREATION, line no: 116, 0.047058823529411764, 0.047058823529411764, 0.0
+address,SIMPLE_NAME, line no: 57,address.toString(),METHOD_INVOCATION, line no: 80, 0.046511627906976744, 0.046511627906976744, 0.0
+address,SIMPLE_NAME, line no: 57,new AddressException(ueex.toString()),CLASS_INSTANCE_CREATION, line no: 116, 0.046511627906976744, 0.046511627906976744, 0.0
+substring,SIMPLE_NAME, line no: 57,address.toString(),METHOD_INVOCATION, line no: 80, 0.046511627906976744, 0.046511627906976744, 0.0
+substring,SIMPLE_NAME, line no: 57,new AddressException(ueex.toString()),CLASS_INSTANCE_CREATION, line no: 116, 0.046511627906976744, 0.046511627906976744, 0.0
+0,NUMBER_LITERAL, line no: 57,address.toString(),METHOD_INVOCATION, line no: 80, 0.046511627906976744, 0.046511627906976744, 0.0
+0,NUMBER_LITERAL, line no: 57,new AddressException(ueex.toString()),CLASS_INSTANCE_CREATION, line no: 116, 0.046511627906976744, 0.046511627906976744, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,address.toString(),METHOD_INVOCATION, line no: 80, 0.046511627906976744, 0.046511627906976744, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,new AddressException(ueex.toString()),CLASS_INSTANCE_CREATION, line no: 116, 0.046511627906976744, 0.046511627906976744, 0.0
+ndx,SIMPLE_NAME, line no: 57,address.toString(),METHOD_INVOCATION, line no: 80, 0.04597701149425287, 0.04597701149425287, 0.0
+ndx,SIMPLE_NAME, line no: 57,new AddressException(ueex.toString()),CLASS_INSTANCE_CREATION, line no: 116, 0.04597701149425287, 0.04597701149425287, 0.0
+1,NUMBER_LITERAL, line no: 57,address.toString(),METHOD_INVOCATION, line no: 80, 0.04597701149425287, 0.04597701149425287, 0.0
+1,NUMBER_LITERAL, line no: 57,new AddressException(ueex.toString()),CLASS_INSTANCE_CREATION, line no: 116, 0.04597701149425287, 0.04597701149425287, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,jodd,SIMPLE_NAME, line no: 3, 0.012048192771084338, 0.012048192771084338, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,mail,SIMPLE_NAME, line no: 3, 0.012048192771084338, 0.012048192771084338, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,core,SIMPLE_NAME, line no: 5, 0.012048192771084338, 0.012048192771084338, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,util,SIMPLE_NAME, line no: 6, 0.012048192771084338, 0.012048192771084338, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,javax,SIMPLE_NAME, line no: 8, 0.012048192771084338, 0.012048192771084338, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,Address,SIMPLE_NAME, line no: 8, 0.012048192771084338, 0.012048192771084338, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,internet,SIMPLE_NAME, line no: 9, 0.012048192771084338, 0.012048192771084338, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,java,SIMPLE_NAME, line no: 11, 0.012048192771084338, 0.012048192771084338, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,io,SIMPLE_NAME, line no: 11, 0.012048192771084338, 0.012048192771084338, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,EMPTY_ARRAY,SIMPLE_NAME, line no: 19, 0.012048192771084338, 0.012048192771084338, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,toEmailAddress,SIMPLE_NAME, line no: 105, 0.012048192771084338, 0.012048192771084338, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,toInternetAddress,SIMPLE_NAME, line no: 112, 0.012048192771084338, 0.012048192771084338, 0.0
+this.personalName=address.substring(0 ndx - 1).trim(),ASSIGNMENT, line no: 57,createFrom,SIMPLE_NAME, line no: 135, 0.012048192771084338, 0.012048192771084338, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,jodd,SIMPLE_NAME, line no: 3, 0.011904761904761904, 0.011904761904761904, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,mail,SIMPLE_NAME, line no: 3, 0.011904761904761904, 0.011904761904761904, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,core,SIMPLE_NAME, line no: 5, 0.011904761904761904, 0.011904761904761904, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,util,SIMPLE_NAME, line no: 6, 0.011904761904761904, 0.011904761904761904, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,javax,SIMPLE_NAME, line no: 8, 0.011904761904761904, 0.011904761904761904, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,Address,SIMPLE_NAME, line no: 8, 0.011904761904761904, 0.011904761904761904, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,internet,SIMPLE_NAME, line no: 9, 0.011904761904761904, 0.011904761904761904, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,java,SIMPLE_NAME, line no: 11, 0.011904761904761904, 0.011904761904761904, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,io,SIMPLE_NAME, line no: 11, 0.011904761904761904, 0.011904761904761904, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,EMPTY_ARRAY,SIMPLE_NAME, line no: 19, 0.011904761904761904, 0.011904761904761904, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,toEmailAddress,SIMPLE_NAME, line no: 105, 0.011904761904761904, 0.011904761904761904, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,toInternetAddress,SIMPLE_NAME, line no: 112, 0.011904761904761904, 0.011904761904761904, 0.0
+this.personalName,FIELD_ACCESS, line no: 57,createFrom,SIMPLE_NAME, line no: 135, 0.011904761904761904, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,jodd,SIMPLE_NAME, line no: 3, 0.011904761904761904, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,mail,SIMPLE_NAME, line no: 3, 0.011904761904761904, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,core,SIMPLE_NAME, line no: 5, 0.011904761904761904, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,util,SIMPLE_NAME, line no: 6, 0.011904761904761904, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,javax,SIMPLE_NAME, line no: 8, 0.011904761904761904, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,Address,SIMPLE_NAME, line no: 8, 0.011904761904761904, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,internet,SIMPLE_NAME, line no: 9, 0.011904761904761904, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,java,SIMPLE_NAME, line no: 11, 0.011904761904761904, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,io,SIMPLE_NAME, line no: 11, 0.011904761904761904, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,EMPTY_ARRAY,SIMPLE_NAME, line no: 19, 0.011904761904761904, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,toEmailAddress,SIMPLE_NAME, line no: 105, 0.011904761904761904, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,toInternetAddress,SIMPLE_NAME, line no: 112, 0.011904761904761904, 0.011904761904761904, 0.0
+address.substring(0 ndx - 1).trim(),METHOD_INVOCATION, line no: 57,createFrom,SIMPLE_NAME, line no: 135, 0.011904761904761904, 0.011904761904761904, 0.0
+this,THIS_EXPRESSION, line no: 57,jodd,SIMPLE_NAME, line no: 3, 0.011764705882352941, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,mail,SIMPLE_NAME, line no: 3, 0.011764705882352941, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,core,SIMPLE_NAME, line no: 5, 0.011764705882352941, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,util,SIMPLE_NAME, line no: 6, 0.011764705882352941, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,javax,SIMPLE_NAME, line no: 8, 0.011764705882352941, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,Address,SIMPLE_NAME, line no: 8, 0.011764705882352941, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,internet,SIMPLE_NAME, line no: 9, 0.011764705882352941, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,java,SIMPLE_NAME, line no: 11, 0.011764705882352941, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,io,SIMPLE_NAME, line no: 11, 0.011764705882352941, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,EMPTY_ARRAY,SIMPLE_NAME, line no: 19, 0.011764705882352941, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,String,SIMPLE_NAME, line no: 21, 0.011764705882352941, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,getEmail,SIMPLE_NAME, line no: 88, 0.011764705882352941, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,toEmailAddress,SIMPLE_NAME, line no: 105, 0.011764705882352941, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,toInternetAddress,SIMPLE_NAME, line no: 112, 0.011764705882352941, 0.011764705882352941, 0.0
+this,THIS_EXPRESSION, line no: 57,createFrom,SIMPLE_NAME, line no: 135, 0.011764705882352941, 0.011764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,jodd,SIMPLE_NAME, line no: 3, 0.011764705882352941, 0.011764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,mail,SIMPLE_NAME, line no: 3, 0.011764705882352941, 0.011764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,core,SIMPLE_NAME, line no: 5, 0.011764705882352941, 0.011764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,util,SIMPLE_NAME, line no: 6, 0.011764705882352941, 0.011764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,javax,SIMPLE_NAME, line no: 8, 0.011764705882352941, 0.011764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,Address,SIMPLE_NAME, line no: 8, 0.011764705882352941, 0.011764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,internet,SIMPLE_NAME, line no: 9, 0.011764705882352941, 0.011764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,java,SIMPLE_NAME, line no: 11, 0.011764705882352941, 0.011764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,io,SIMPLE_NAME, line no: 11, 0.011764705882352941, 0.011764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,EMPTY_ARRAY,SIMPLE_NAME, line no: 19, 0.011764705882352941, 0.011764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,toEmailAddress,SIMPLE_NAME, line no: 105, 0.011764705882352941, 0.011764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,toInternetAddress,SIMPLE_NAME, line no: 112, 0.011764705882352941, 0.011764705882352941, 0.0
+personalName,SIMPLE_NAME, line no: 57,createFrom,SIMPLE_NAME, line no: 135, 0.011764705882352941, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,jodd,SIMPLE_NAME, line no: 3, 0.011764705882352941, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,mail,SIMPLE_NAME, line no: 3, 0.011764705882352941, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,core,SIMPLE_NAME, line no: 5, 0.011764705882352941, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,util,SIMPLE_NAME, line no: 6, 0.011764705882352941, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,javax,SIMPLE_NAME, line no: 8, 0.011764705882352941, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,Address,SIMPLE_NAME, line no: 8, 0.011764705882352941, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,internet,SIMPLE_NAME, line no: 9, 0.011764705882352941, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,java,SIMPLE_NAME, line no: 11, 0.011764705882352941, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,io,SIMPLE_NAME, line no: 11, 0.011764705882352941, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,EMPTY_ARRAY,SIMPLE_NAME, line no: 19, 0.011764705882352941, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,toEmailAddress,SIMPLE_NAME, line no: 105, 0.011764705882352941, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,toInternetAddress,SIMPLE_NAME, line no: 112, 0.011764705882352941, 0.011764705882352941, 0.0
+address.substring(0 ndx - 1),METHOD_INVOCATION, line no: 57,createFrom,SIMPLE_NAME, line no: 135, 0.011764705882352941, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,jodd,SIMPLE_NAME, line no: 3, 0.011764705882352941, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,mail,SIMPLE_NAME, line no: 3, 0.011764705882352941, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,core,SIMPLE_NAME, line no: 5, 0.011764705882352941, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,util,SIMPLE_NAME, line no: 6, 0.011764705882352941, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,javax,SIMPLE_NAME, line no: 8, 0.011764705882352941, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,Address,SIMPLE_NAME, line no: 8, 0.011764705882352941, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,internet,SIMPLE_NAME, line no: 9, 0.011764705882352941, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,java,SIMPLE_NAME, line no: 11, 0.011764705882352941, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,io,SIMPLE_NAME, line no: 11, 0.011764705882352941, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,EMPTY_ARRAY,SIMPLE_NAME, line no: 19, 0.011764705882352941, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,toEmailAddress,SIMPLE_NAME, line no: 105, 0.011764705882352941, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,toInternetAddress,SIMPLE_NAME, line no: 112, 0.011764705882352941, 0.011764705882352941, 0.0
+trim,SIMPLE_NAME, line no: 57,createFrom,SIMPLE_NAME, line no: 135, 0.011764705882352941, 0.011764705882352941, 0.0
+address,SIMPLE_NAME, line no: 57,jodd,SIMPLE_NAME, line no: 3, 0.011627906976744186, 0.011627906976744186, 0.0
+address,SIMPLE_NAME, line no: 57,mail,SIMPLE_NAME, line no: 3, 0.011627906976744186, 0.011627906976744186, 0.0
+address,SIMPLE_NAME, line no: 57,core,SIMPLE_NAME, line no: 5, 0.011627906976744186, 0.011627906976744186, 0.0
+address,SIMPLE_NAME, line no: 57,util,SIMPLE_NAME, line no: 6, 0.011627906976744186, 0.011627906976744186, 0.0
+address,SIMPLE_NAME, line no: 57,javax,SIMPLE_NAME, line no: 8, 0.011627906976744186, 0.011627906976744186, 0.0
+address,SIMPLE_NAME, line no: 57,Address,SIMPLE_NAME, line no: 8, 0.011627906976744186, 0.011627906976744186, 0.0
+address,SIMPLE_NAME, line no: 57,internet,SIMPLE_NAME, line no: 9, 0.011627906976744186, 0.011627906976744186, 0.0
+address,SIMPLE_NAME, line no: 57,java,SIMPLE_NAME, line no: 11, 0.011627906976744186, 0.011627906976744186, 0.0
+address,SIMPLE_NAME, line no: 57,io,SIMPLE_NAME, line no: 11, 0.011627906976744186, 0.011627906976744186, 0.0
+address,SIMPLE_NAME, line no: 57,EMPTY_ARRAY,SIMPLE_NAME, line no: 19, 0.011627906976744186, 0.011627906976744186, 0.0
+address,SIMPLE_NAME, line no: 57,toEmailAddress,SIMPLE_NAME, line no: 105, 0.011627906976744186, 0.011627906976744186, 0.0
+address,SIMPLE_NAME, line no: 57,toInternetAddress,SIMPLE_NAME, line no: 112, 0.011627906976744186, 0.011627906976744186, 0.0
+address,SIMPLE_NAME, line no: 57,createFrom,SIMPLE_NAME, line no: 135, 0.011627906976744186, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,jodd,SIMPLE_NAME, line no: 3, 0.011627906976744186, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,mail,SIMPLE_NAME, line no: 3, 0.011627906976744186, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,core,SIMPLE_NAME, line no: 5, 0.011627906976744186, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,util,SIMPLE_NAME, line no: 6, 0.011627906976744186, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,javax,SIMPLE_NAME, line no: 8, 0.011627906976744186, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,Address,SIMPLE_NAME, line no: 8, 0.011627906976744186, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,internet,SIMPLE_NAME, line no: 9, 0.011627906976744186, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,java,SIMPLE_NAME, line no: 11, 0.011627906976744186, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,io,SIMPLE_NAME, line no: 11, 0.011627906976744186, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,EMPTY_ARRAY,SIMPLE_NAME, line no: 19, 0.011627906976744186, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,toEmailAddress,SIMPLE_NAME, line no: 105, 0.011627906976744186, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,toInternetAddress,SIMPLE_NAME, line no: 112, 0.011627906976744186, 0.011627906976744186, 0.0
+substring,SIMPLE_NAME, line no: 57,createFrom,SIMPLE_NAME, line no: 135, 0.011627906976744186, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,jodd,SIMPLE_NAME, line no: 3, 0.011627906976744186, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,mail,SIMPLE_NAME, line no: 3, 0.011627906976744186, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,core,SIMPLE_NAME, line no: 5, 0.011627906976744186, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,util,SIMPLE_NAME, line no: 6, 0.011627906976744186, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,javax,SIMPLE_NAME, line no: 8, 0.011627906976744186, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,Address,SIMPLE_NAME, line no: 8, 0.011627906976744186, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,internet,SIMPLE_NAME, line no: 9, 0.011627906976744186, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,java,SIMPLE_NAME, line no: 11, 0.011627906976744186, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,io,SIMPLE_NAME, line no: 11, 0.011627906976744186, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,EMPTY_ARRAY,SIMPLE_NAME, line no: 19, 0.011627906976744186, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,String,SIMPLE_NAME, line no: 21, 0.011627906976744186, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,getEmail,SIMPLE_NAME, line no: 88, 0.011627906976744186, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,toEmailAddress,SIMPLE_NAME, line no: 105, 0.011627906976744186, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,toInternetAddress,SIMPLE_NAME, line no: 112, 0.011627906976744186, 0.011627906976744186, 0.0
+0,NUMBER_LITERAL, line no: 57,createFrom,SIMPLE_NAME, line no: 135, 0.011627906976744186, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,jodd,SIMPLE_NAME, line no: 3, 0.011627906976744186, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,mail,SIMPLE_NAME, line no: 3, 0.011627906976744186, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,core,SIMPLE_NAME, line no: 5, 0.011627906976744186, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,util,SIMPLE_NAME, line no: 6, 0.011627906976744186, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,javax,SIMPLE_NAME, line no: 8, 0.011627906976744186, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,Address,SIMPLE_NAME, line no: 8, 0.011627906976744186, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,internet,SIMPLE_NAME, line no: 9, 0.011627906976744186, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,java,SIMPLE_NAME, line no: 11, 0.011627906976744186, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,io,SIMPLE_NAME, line no: 11, 0.011627906976744186, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,EMPTY_ARRAY,SIMPLE_NAME, line no: 19, 0.011627906976744186, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,String,SIMPLE_NAME, line no: 21, 0.011627906976744186, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,getEmail,SIMPLE_NAME, line no: 88, 0.011627906976744186, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,toEmailAddress,SIMPLE_NAME, line no: 105, 0.011627906976744186, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,toInternetAddress,SIMPLE_NAME, line no: 112, 0.011627906976744186, 0.011627906976744186, 0.0
+ndx - 1,INFIX_EXPRESSION, line no: 57,createFrom,SIMPLE_NAME, line no: 135, 0.011627906976744186, 0.011627906976744186, 0.0
+ndx,SIMPLE_NAME, line no: 57,jodd,SIMPLE_NAME, line no: 3, 0.011494252873563218, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,mail,SIMPLE_NAME, line no: 3, 0.011494252873563218, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,core,SIMPLE_NAME, line no: 5, 0.011494252873563218, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,util,SIMPLE_NAME, line no: 6, 0.011494252873563218, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,javax,SIMPLE_NAME, line no: 8, 0.011494252873563218, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,Address,SIMPLE_NAME, line no: 8, 0.011494252873563218, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,internet,SIMPLE_NAME, line no: 9, 0.011494252873563218, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,java,SIMPLE_NAME, line no: 11, 0.011494252873563218, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,io,SIMPLE_NAME, line no: 11, 0.011494252873563218, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,EMPTY_ARRAY,SIMPLE_NAME, line no: 19, 0.011494252873563218, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,String,SIMPLE_NAME, line no: 21, 0.011494252873563218, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,getEmail,SIMPLE_NAME, line no: 88, 0.011494252873563218, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,toEmailAddress,SIMPLE_NAME, line no: 105, 0.011494252873563218, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,toInternetAddress,SIMPLE_NAME, line no: 112, 0.011494252873563218, 0.011494252873563218, 0.0
+ndx,SIMPLE_NAME, line no: 57,createFrom,SIMPLE_NAME, line no: 135, 0.011494252873563218, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,jodd,SIMPLE_NAME, line no: 3, 0.011494252873563218, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,mail,SIMPLE_NAME, line no: 3, 0.011494252873563218, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,core,SIMPLE_NAME, line no: 5, 0.011494252873563218, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,util,SIMPLE_NAME, line no: 6, 0.011494252873563218, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,javax,SIMPLE_NAME, line no: 8, 0.011494252873563218, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,Address,SIMPLE_NAME, line no: 8, 0.011494252873563218, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,internet,SIMPLE_NAME, line no: 9, 0.011494252873563218, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,java,SIMPLE_NAME, line no: 11, 0.011494252873563218, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,io,SIMPLE_NAME, line no: 11, 0.011494252873563218, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,EMPTY_ARRAY,SIMPLE_NAME, line no: 19, 0.011494252873563218, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,String,SIMPLE_NAME, line no: 21, 0.011494252873563218, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,getEmail,SIMPLE_NAME, line no: 88, 0.011494252873563218, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,toEmailAddress,SIMPLE_NAME, line no: 105, 0.011494252873563218, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,toInternetAddress,SIMPLE_NAME, line no: 112, 0.011494252873563218, 0.011494252873563218, 0.0
+1,NUMBER_LITERAL, line no: 57,createFrom,SIMPLE_NAME, line no: 135, 0.011494252873563218, 0.011494252873563218, 0.0

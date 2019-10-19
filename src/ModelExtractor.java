@@ -31,7 +31,7 @@ public class ModelExtractor {
 //		System.out.println("NODE!!!!!!!!!!!!!!!!!!!!!");
 //		System.out.println(node.toString().replaceAll("[\\t\\n\\r,]+"," ") + " " +node.getNodeType());
 
-		ASTNode currentNode = node.getParent();
+		ASTNode currentNode = node;
 		while(currentNode!= null && currentNode.getNodeType()!=ASTNode.METHOD_DECLARATION) {
 			if(currentNode.getNodeType()!=ASTNode.BLOCK) {
 //				System.out.println("anchestor");

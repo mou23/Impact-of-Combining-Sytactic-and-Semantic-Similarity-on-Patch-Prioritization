@@ -1,0 +1,995 @@
+matchesPathPartially,SIMPLE_NAME, line no: 121,matchesPath,SIMPLE_NAME, line no: 119, 2.0, 1.0, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,equals,SIMPLE_NAME, line no: 119, 2.0, 1.0, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,matchesVerb,SIMPLE_NAME, line no: 120, 2.0, 1.0, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,contains,SIMPLE_NAME, line no: 121, 2.0, 1.0, 1.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,operationPath.equals(pathToFind),METHOD_INVOCATION, line no: 119, 2.0, 1.0, 1.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,equals,SIMPLE_NAME, line no: 119, 2.0, 1.0, 1.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,contains,SIMPLE_NAME, line no: 121, 2.0, 1.0, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,operationPath,SIMPLE_NAME, line no: 116, 2.0, 0.9830508474576272, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,getResourcePath,SIMPLE_NAME, line no: 116, 2.0, 1.0, 1.0
+contains,SIMPLE_NAME, line no: 121,equals,SIMPLE_NAME, line no: 119, 2.0, 1.0, 1.0
+operationPath,SIMPLE_NAME, line no: 121,pathToFind,SIMPLE_NAME, line no: 98, 2.0, 0.01694915254237288, 1.0
+operationPath,SIMPLE_NAME, line no: 121,getResourcePath,SIMPLE_NAME, line no: 116, 2.0, 1.0, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,((RestMockAction)operation).getResourcePath(),METHOD_INVOCATION, line no: 116, 1.9830508474576272, 0.9830508474576272, 1.0
+contains,SIMPLE_NAME, line no: 121,matchesPath,SIMPLE_NAME, line no: 119, 1.9830508474576272, 0.9830508474576272, 1.0
+contains,SIMPLE_NAME, line no: 121,operationPath.equals(pathToFind),METHOD_INVOCATION, line no: 119, 1.9830508474576272, 0.9830508474576272, 1.0
+contains,SIMPLE_NAME, line no: 121,matchesVerb,SIMPLE_NAME, line no: 120, 1.9830508474576272, 0.9830508474576272, 1.0
+contains,SIMPLE_NAME, line no: 121,matchesPathPartially,SIMPLE_NAME, line no: 121, 1.9830508474576272, 0.9830508474576272, 1.0
+contains,SIMPLE_NAME, line no: 121,pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121, 1.9830508474576272, 0.9830508474576272, 1.0
+operationPath,SIMPLE_NAME, line no: 121,((RestMockAction)operation).getResourcePath(),METHOD_INVOCATION, line no: 116, 1.9830508474576272, 0.9830508474576272, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,operationPath.equals(pathToFind),METHOD_INVOCATION, line no: 119, 1.9827586206896552, 0.9827586206896551, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,verbToFind == operationVerb,INFIX_EXPRESSION, line no: 120, 1.9827586206896552, 0.9827586206896551, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121, 1.9827586206896552, 0.9827586206896551, 1.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,matchesPath,SIMPLE_NAME, line no: 119, 1.9827586206896552, 0.9827586206896551, 1.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,matchesVerb,SIMPLE_NAME, line no: 120, 1.9827586206896552, 0.9827586206896551, 1.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,matchesPathPartially,SIMPLE_NAME, line no: 121, 1.9827586206896552, 0.9827586206896551, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,String,SIMPLE_NAME, line no: 24, 1.9661016949152543, 0.01694915254237288, 1.0
+contains,SIMPLE_NAME, line no: 121,verbToFind == operationVerb,INFIX_EXPRESSION, line no: 120, 1.9661016949152543, 0.9661016949152542, 1.0
+operationPath,SIMPLE_NAME, line no: 121,String,SIMPLE_NAME, line no: 24, 1.9661016949152543, 0.01694915254237288, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,includePartialMatch,SIMPLE_NAME, line no: 100, 1.9655172413793105, 0.1896551724137931, 1.0
+contains,SIMPLE_NAME, line no: 121,includePartialMatch,SIMPLE_NAME, line no: 100, 1.9491525423728815, 0.1864406779661017, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,matchesPath && matchesVerb,INFIX_EXPRESSION, line no: 123, 1.9482758620689655, 0.9482758620689655, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,includePartialMatch && matchesPathPartially && matchesVerb,INFIX_EXPRESSION, line no: 127, 1.9482758620689655, 0.9482758620689655, 1.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,includePartialMatch,SIMPLE_NAME, line no: 100, 1.9482758620689655, 0.1896551724137931, 1.0
+contains,SIMPLE_NAME, line no: 121,matchesPath && matchesVerb,INFIX_EXPRESSION, line no: 123, 1.9322033898305084, 0.9322033898305084, 1.0
+contains,SIMPLE_NAME, line no: 121,includePartialMatch && matchesPathPartially && matchesVerb,INFIX_EXPRESSION, line no: 127, 1.9322033898305084, 0.9322033898305084, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,getExpandedPath,SIMPLE_NAME, line no: 59, 1.8135593220338984, 0.4915254237288136, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,path,SIMPLE_NAME, line no: 66, 1.8135593220338984, 0.01694915254237288, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,RestUtils.getExpandedPath(restResource.getFullPath() restResource.getParams() restResource),METHOD_INVOCATION, line no: 166, 1.8135593220338984, 0.8135593220338984, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,restResource.getFullPath(),METHOD_INVOCATION, line no: 166, 1.8135593220338984, 0.8135593220338984, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,getFullPath,SIMPLE_NAME, line no: 166, 1.8135593220338984, 0.8135593220338984, 1.0
+contains,SIMPLE_NAME, line no: 121,restResource.getRestMethodCount() < 1,INFIX_EXPRESSION, line no: 168, 1.8135593220338984, 0.8135593220338984, 1.0
+operationPath,SIMPLE_NAME, line no: 121,getExpandedPath,SIMPLE_NAME, line no: 59, 1.8135593220338984, 0.4915254237288136, 1.0
+operationPath,SIMPLE_NAME, line no: 121,path,SIMPLE_NAME, line no: 66, 1.8135593220338984, 0.01694915254237288, 1.0
+operationPath,SIMPLE_NAME, line no: 121,RestUtils.getExpandedPath(restResource.getFullPath() restResource.getParams() restResource),METHOD_INVOCATION, line no: 166, 1.8135593220338984, 0.8135593220338984, 1.0
+operationPath,SIMPLE_NAME, line no: 121,restResource.getFullPath(),METHOD_INVOCATION, line no: 166, 1.8135593220338984, 0.8135593220338984, 1.0
+operationPath,SIMPLE_NAME, line no: 121,getFullPath,SIMPLE_NAME, line no: 166, 1.8135593220338984, 0.8135593220338984, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,restResource.getRestMethodCount() < 1,INFIX_EXPRESSION, line no: 168, 1.8103448275862069, 0.8103448275862069, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,slashifiedPath,SIMPLE_NAME, line no: 70, 1.7627118644067796, 0.7627118644067796, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,slashify,SIMPLE_NAME, line no: 70, 1.7627118644067796, 0.7627118644067796, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,name,SIMPLE_NAME, line no: 71, 1.7627118644067796, 0.7627118644067796, 1.0
+operationPath,SIMPLE_NAME, line no: 121,slashifiedPath,SIMPLE_NAME, line no: 70, 1.7627118644067796, 0.7627118644067796, 1.0
+operationPath,SIMPLE_NAME, line no: 121,slashify,SIMPLE_NAME, line no: 70, 1.7627118644067796, 0.7627118644067796, 1.0
+operationPath,SIMPLE_NAME, line no: 121,name,SIMPLE_NAME, line no: 71, 1.7627118644067796, 0.7627118644067796, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,slashify(path),METHOD_INVOCATION, line no: 70, 1.7457627118644068, 0.7457627118644068, 1.0
+operationPath,SIMPLE_NAME, line no: 121,slashify(path),METHOD_INVOCATION, line no: 70, 1.7457627118644068, 0.7457627118644068, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,method.name(),METHOD_INVOCATION, line no: 74, 1.711864406779661, 0.711864406779661, 1.0
+operationPath,SIMPLE_NAME, line no: 121,method.name(),METHOD_INVOCATION, line no: 74, 1.711864406779661, 0.711864406779661, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,ICON_NAME,SIMPLE_NAME, line no: 24, 1.6101694915254239, 0.03389830508474576, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,getPath,SIMPLE_NAME, line no: 59, 1.6101694915254239, 0.4915254237288136, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,expandedPath,SIMPLE_NAME, line no: 87, 1.6101694915254239, 0.6101694915254238, 1.0
+operationPath,SIMPLE_NAME, line no: 121,ICON_NAME,SIMPLE_NAME, line no: 24, 1.6101694915254239, 0.03389830508474576, 1.0
+operationPath,SIMPLE_NAME, line no: 121,getPath,SIMPLE_NAME, line no: 59, 1.6101694915254239, 0.4915254237288136, 1.0
+operationPath,SIMPLE_NAME, line no: 121,expandedPath,SIMPLE_NAME, line no: 87, 1.6101694915254239, 0.6101694915254238, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,RestUtils.getExpandedPath(restRequest.getPath() restRequest.getParams() restRequest),METHOD_INVOCATION, line no: 59, 1.5932203389830508, 0.4745762711864407, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,restRequest.getPath(),METHOD_INVOCATION, line no: 59, 1.5932203389830508, 0.4745762711864407, 1.0
+contains,SIMPLE_NAME, line no: 121,matchedOperation == null,INFIX_EXPRESSION, line no: 91, 1.5932203389830508, 0.5932203389830508, 1.0
+operationPath,SIMPLE_NAME, line no: 121,RestUtils.getExpandedPath(restRequest.getPath() restRequest.getParams() restRequest),METHOD_INVOCATION, line no: 59, 1.5932203389830508, 0.4745762711864407, 1.0
+operationPath,SIMPLE_NAME, line no: 121,restRequest.getPath(),METHOD_INVOCATION, line no: 59, 1.5932203389830508, 0.4745762711864407, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,matchedOperation == null,INFIX_EXPRESSION, line no: 91, 1.5862068965517242, 0.5862068965517241, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,foundBetterMatch,SIMPLE_NAME, line no: 140, 1.4137931034482758, 0.41379310344827586, 1.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,foundBetterMatch,SIMPLE_NAME, line no: 140, 1.4137931034482758, 0.41379310344827586, 1.0
+contains,SIMPLE_NAME, line no: 121,foundBetterMatch,SIMPLE_NAME, line no: 140, 1.4067796610169492, 0.4067796610169492, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,foundBetterMatch((RestMockAction)bestMatchedOperation operationPath),METHOD_INVOCATION, line no: 140, 1.396551724137931, 0.39655172413793105, 1.0
+contains,SIMPLE_NAME, line no: 121,foundBetterMatch((RestMockAction)bestMatchedOperation operationPath),METHOD_INVOCATION, line no: 140, 1.3898305084745763, 0.3898305084745763, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,bestMatchedOperation == null || foundBetterMatch((RestMockAction)bestMatchedOperation operationPath),INFIX_EXPRESSION, line no: 140, 1.3793103448275863, 0.3793103448275862, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,bestMatchedOperation == null,INFIX_EXPRESSION, line no: 140, 1.3793103448275863, 0.3793103448275862, 1.0
+contains,SIMPLE_NAME, line no: 121,bestMatchedOperation == null || foundBetterMatch((RestMockAction)bestMatchedOperation operationPath),INFIX_EXPRESSION, line no: 140, 1.3728813559322033, 0.3728813559322034, 1.0
+contains,SIMPLE_NAME, line no: 121,bestMatchedOperation == null,INFIX_EXPRESSION, line no: 140, 1.3728813559322033, 0.3728813559322034, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,startsWith,SIMPLE_NAME, line no: 183, 1.2758620689655173, 0.27586206896551724, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,isEmpty,SIMPLE_NAME, line no: 183, 1.2758620689655173, 0.27586206896551724, 1.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,startsWith,SIMPLE_NAME, line no: 183, 1.2758620689655173, 0.27586206896551724, 1.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,isEmpty,SIMPLE_NAME, line no: 183, 1.2758620689655173, 0.27586206896551724, 1.0
+contains,SIMPLE_NAME, line no: 121,startsWith,SIMPLE_NAME, line no: 183, 1.271186440677966, 0.2711864406779661, 1.0
+contains,SIMPLE_NAME, line no: 121,isEmpty,SIMPLE_NAME, line no: 183, 1.271186440677966, 0.2711864406779661, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,path.startsWith("/"),METHOD_INVOCATION, line no: 183, 1.2586206896551724, 0.25862068965517243, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,path.isEmpty(),METHOD_INVOCATION, line no: 183, 1.2586206896551724, 0.25862068965517243, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,"/",STRING_LITERAL, line no: 183, 1.2542372881355932, 0.2542372881355932, 1.0
+contains,SIMPLE_NAME, line no: 121,path.startsWith("/"),METHOD_INVOCATION, line no: 183, 1.2542372881355932, 0.2542372881355932, 1.0
+contains,SIMPLE_NAME, line no: 121,path.isEmpty(),METHOD_INVOCATION, line no: 183, 1.2542372881355932, 0.2542372881355932, 1.0
+operationPath,SIMPLE_NAME, line no: 121,"/",STRING_LITERAL, line no: 183, 1.2542372881355932, 0.2542372881355932, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,!path.startsWith("/") && !path.isEmpty(),INFIX_EXPRESSION, line no: 183, 1.2413793103448276, 0.2413793103448276, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,!path.startsWith("/"),PREFIX_EXPRESSION, line no: 183, 1.2413793103448276, 0.2413793103448276, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,!path.isEmpty(),PREFIX_EXPRESSION, line no: 183, 1.2413793103448276, 0.2413793103448276, 1.0
+contains,SIMPLE_NAME, line no: 121,!path.startsWith("/") && !path.isEmpty(),INFIX_EXPRESSION, line no: 183, 1.2372881355932204, 0.23728813559322035, 1.0
+contains,SIMPLE_NAME, line no: 121,!path.startsWith("/"),PREFIX_EXPRESSION, line no: 183, 1.2372881355932204, 0.23728813559322035, 1.0
+contains,SIMPLE_NAME, line no: 121,!path.isEmpty(),PREFIX_EXPRESSION, line no: 183, 1.2372881355932204, 0.23728813559322035, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,add,SIMPLE_NAME, line no: 170, 1.2241379310344827, 0.20689655172413793, 1.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,add,SIMPLE_NAME, line no: 170, 1.2241379310344827, 0.20689655172413793, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,bestMatchedOperation.getResourcePath(),METHOD_INVOCATION, line no: 149, 1.2203389830508475, 0.22033898305084745, 1.0
+contains,SIMPLE_NAME, line no: 121,add,SIMPLE_NAME, line no: 170, 1.2203389830508475, 0.2033898305084746, 1.0
+operationPath,SIMPLE_NAME, line no: 121,bestMatchedOperation.getResourcePath(),METHOD_INVOCATION, line no: 149, 1.2203389830508475, 0.22033898305084745, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,actions.add(addEmptyMockAction(restMethod.getMethod() path)),METHOD_INVOCATION, line no: 175, 1.206896551724138, 0.20689655172413793, 1.0
+contains,SIMPLE_NAME, line no: 121,actions.add(addEmptyMockAction(restMethod.getMethod() path)),METHOD_INVOCATION, line no: 175, 1.2033898305084745, 0.2033898305084746, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,dontIncludePartialMatch,SIMPLE_NAME, line no: 106, 1.1896551724137931, 0.1896551724137931, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,bestMatchedOperation.getResourcePath().length() < operationPath.length(),INFIX_EXPRESSION, line no: 149, 1.1896551724137931, 0.1896551724137931, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,actions.add(addEmptyMockAction(HttpMethod.GET path)),METHOD_INVOCATION, line no: 170, 1.1896551724137931, 0.1896551724137931, 1.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,dontIncludePartialMatch,SIMPLE_NAME, line no: 106, 1.1896551724137931, 0.1896551724137931, 1.0
+contains,SIMPLE_NAME, line no: 121,dontIncludePartialMatch,SIMPLE_NAME, line no: 106, 1.1864406779661016, 0.1864406779661017, 1.0
+contains,SIMPLE_NAME, line no: 121,bestMatchedOperation.getResourcePath().length() < operationPath.length(),INFIX_EXPRESSION, line no: 149, 1.1864406779661016, 0.1864406779661017, 1.0
+contains,SIMPLE_NAME, line no: 121,actions.add(addEmptyMockAction(HttpMethod.GET path)),METHOD_INVOCATION, line no: 170, 1.1864406779661016, 0.1864406779661017, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,true,BOOLEAN_LITERAL, line no: 100, 1.1724137931034484, 0.1724137931034483, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,false,BOOLEAN_LITERAL, line no: 106, 1.1724137931034484, 0.1724137931034483, 1.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,true,BOOLEAN_LITERAL, line no: 100, 1.1724137931034484, 0.1724137931034483, 1.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,false,BOOLEAN_LITERAL, line no: 106, 1.1724137931034484, 0.1724137931034483, 1.0
+contains,SIMPLE_NAME, line no: 121,true,BOOLEAN_LITERAL, line no: 100, 1.1694915254237288, 0.1694915254237288, 1.0
+contains,SIMPLE_NAME, line no: 121,false,BOOLEAN_LITERAL, line no: 106, 1.1694915254237288, 0.1694915254237288, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,"/" + path,INFIX_EXPRESSION, line no: 185, 1.0847457627118644, 0.0847457627118644, 1.0
+operationPath,SIMPLE_NAME, line no: 121,"/" + path,INFIX_EXPRESSION, line no: 185, 1.0847457627118644, 0.0847457627118644, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,REST_MOCKSERVICE_HELP_URL,SIMPLE_NAME, line no: 194, 1.0677966101694916, 0.06779661016949153, 1.0
+operationPath,SIMPLE_NAME, line no: 121,REST_MOCKSERVICE_HELP_URL,SIMPLE_NAME, line no: 194, 1.0677966101694916, 0.06779661016949153, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,HelpUrls.REST_MOCKSERVICE_HELP_URL,QUALIFIED_NAME, line no: 194, 1.0508474576271187, 0.05084745762711865, 1.0
+operationPath,SIMPLE_NAME, line no: 121,HelpUrls.REST_MOCKSERVICE_HELP_URL,QUALIFIED_NAME, line no: 194, 1.0508474576271187, 0.05084745762711865, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,canIAddAMockOperation,SIMPLE_NAME, line no: 152, 1.0172413793103448, 0.017241379310344827, 1.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,canIAddAMockOperation,SIMPLE_NAME, line no: 152, 1.0172413793103448, 0.017241379310344827, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,"/restMockService.gif",STRING_LITERAL, line no: 24, 1.0169491525423728, 0.01694915254237288, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,getIconName,SIMPLE_NAME, line no: 45, 1.0169491525423728, 0.01694915254237288, 1.0
+pathToFind,SIMPLE_NAME, line no: 121,getHelpUrl,SIMPLE_NAME, line no: 192, 1.0169491525423728, 0.01694915254237288, 1.0
+contains,SIMPLE_NAME, line no: 121,canIAddAMockOperation,SIMPLE_NAME, line no: 152, 1.0169491525423728, 0.01694915254237288, 1.0
+operationPath,SIMPLE_NAME, line no: 121,"/restMockService.gif",STRING_LITERAL, line no: 24, 1.0169491525423728, 0.01694915254237288, 1.0
+operationPath,SIMPLE_NAME, line no: 121,getIconName,SIMPLE_NAME, line no: 45, 1.0169491525423728, 0.01694915254237288, 1.0
+operationPath,SIMPLE_NAME, line no: 121,getHelpUrl,SIMPLE_NAME, line no: 192, 1.0169491525423728, 0.01694915254237288, 1.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,RestMockAction,SIMPLE_NAME, line no: 21, 1.0, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,getMethod,SIMPLE_NAME, line no: 58, 1.0, 0.4827586206896552, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,null,NULL_LITERAL, line no: 91, 1.0, 0.5862068965517241, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,pathToFind,SIMPLE_NAME, line no: 98, 1.0, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,verbToFind,SIMPLE_NAME, line no: 98, 1.0, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,bestMatchedOperation,SIMPLE_NAME, line no: 112, 1.0, 1.0, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,operation,SIMPLE_NAME, line no: 114, 1.0, 0.9827586206896551, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,operationPath,SIMPLE_NAME, line no: 116, 1.0, 1.0, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,getResourcePath,SIMPLE_NAME, line no: 116, 1.0, 1.0, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,operationVerb,SIMPLE_NAME, line no: 117, 1.0, 1.0, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,RestMockAction,SIMPLE_NAME, line no: 21, 1.0, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,getMethod,SIMPLE_NAME, line no: 58, 1.0, 0.5, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,null,NULL_LITERAL, line no: 91, 1.0, 0.603448275862069, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,pathToFind,SIMPLE_NAME, line no: 98, 1.0, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,bestMatchedOperation,SIMPLE_NAME, line no: 112, 1.0, 1.0, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,operation,SIMPLE_NAME, line no: 114, 1.0, 0.9827586206896551, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,operationPath,SIMPLE_NAME, line no: 116, 1.0, 0.9827586206896551, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,((RestMockAction)operation).getResourcePath(),METHOD_INVOCATION, line no: 116, 1.0, 1.0, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,((RestMockAction)operation),PARENTHESIZED_EXPRESSION, line no: 116, 1.0, 1.0, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,(RestMockAction)operation,CAST_EXPRESSION, line no: 116, 1.0, 1.0, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,getResourcePath,SIMPLE_NAME, line no: 116, 1.0, 1.0, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,((RestMockAction)operation).getMethod(),METHOD_INVOCATION, line no: 117, 1.0, 1.0, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,RestMockAction,SIMPLE_NAME, line no: 21, 1.0, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,getMethod,SIMPLE_NAME, line no: 58, 1.0, 0.4915254237288136, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,null,NULL_LITERAL, line no: 91, 1.0, 0.5932203389830508, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,bestMatchedOperation,SIMPLE_NAME, line no: 112, 1.0, 1.0, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,operation,SIMPLE_NAME, line no: 114, 1.0, 0.9830508474576272, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,equals,SIMPLE_NAME, line no: 119, 1.0, 1.0, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,contains,SIMPLE_NAME, line no: 121, 1.0, 1.0, 0.0
+contains,SIMPLE_NAME, line no: 121,RestMockAction,SIMPLE_NAME, line no: 21, 1.0, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,getMethod,SIMPLE_NAME, line no: 58, 1.0, 0.4915254237288136, 0.0
+contains,SIMPLE_NAME, line no: 121,null,NULL_LITERAL, line no: 91, 1.0, 0.5932203389830508, 0.0
+contains,SIMPLE_NAME, line no: 121,pathToFind,SIMPLE_NAME, line no: 98, 1.0, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,bestMatchedOperation,SIMPLE_NAME, line no: 112, 1.0, 1.0, 0.0
+contains,SIMPLE_NAME, line no: 121,operation,SIMPLE_NAME, line no: 114, 1.0, 0.9830508474576272, 0.0
+contains,SIMPLE_NAME, line no: 121,operationPath,SIMPLE_NAME, line no: 116, 1.0, 0.9830508474576272, 0.0
+contains,SIMPLE_NAME, line no: 121,getResourcePath,SIMPLE_NAME, line no: 116, 1.0, 1.0, 0.0
+operationPath,SIMPLE_NAME, line no: 121,RestMockAction,SIMPLE_NAME, line no: 21, 1.0, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,getMethod,SIMPLE_NAME, line no: 58, 1.0, 0.4915254237288136, 0.0
+operationPath,SIMPLE_NAME, line no: 121,null,NULL_LITERAL, line no: 91, 1.0, 0.5932203389830508, 0.0
+operationPath,SIMPLE_NAME, line no: 121,bestMatchedOperation,SIMPLE_NAME, line no: 112, 1.0, 1.0, 0.0
+operationPath,SIMPLE_NAME, line no: 121,operation,SIMPLE_NAME, line no: 114, 1.0, 0.9830508474576272, 0.0
+operationPath,SIMPLE_NAME, line no: 121,equals,SIMPLE_NAME, line no: 119, 1.0, 1.0, 0.0
+operationPath,SIMPLE_NAME, line no: 121,contains,SIMPLE_NAME, line no: 121, 1.0, 1.0, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,MockOperation,SIMPLE_NAME, line no: 14, 0.9830508474576272, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,verbToFind,SIMPLE_NAME, line no: 98, 0.9830508474576272, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,getMockOperationList(),METHOD_INVOCATION, line no: 114, 0.9830508474576272, 0.9830508474576272, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,getMockOperationList,SIMPLE_NAME, line no: 114, 0.9830508474576272, 0.9830508474576272, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,((RestMockAction)operation),PARENTHESIZED_EXPRESSION, line no: 116, 0.9830508474576272, 0.9830508474576272, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,(RestMockAction)operation,CAST_EXPRESSION, line no: 116, 0.9830508474576272, 0.9830508474576272, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,operationVerb,SIMPLE_NAME, line no: 117, 0.9830508474576272, 0.9830508474576272, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,((RestMockAction)operation).getMethod(),METHOD_INVOCATION, line no: 117, 0.9830508474576272, 0.9830508474576272, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,matchesPath,SIMPLE_NAME, line no: 119, 0.9830508474576272, 0.9830508474576272, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,operationPath.equals(pathToFind),METHOD_INVOCATION, line no: 119, 0.9830508474576272, 0.9830508474576272, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,matchesVerb,SIMPLE_NAME, line no: 120, 0.9830508474576272, 0.9830508474576272, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,matchesPathPartially,SIMPLE_NAME, line no: 121, 0.9830508474576272, 0.9830508474576272, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121, 0.9830508474576272, 0.9830508474576272, 0.0
+contains,SIMPLE_NAME, line no: 121,MockOperation,SIMPLE_NAME, line no: 14, 0.9830508474576272, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,verbToFind,SIMPLE_NAME, line no: 98, 0.9830508474576272, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,getMockOperationList(),METHOD_INVOCATION, line no: 114, 0.9830508474576272, 0.9830508474576272, 0.0
+contains,SIMPLE_NAME, line no: 121,getMockOperationList,SIMPLE_NAME, line no: 114, 0.9830508474576272, 0.9830508474576272, 0.0
+contains,SIMPLE_NAME, line no: 121,((RestMockAction)operation).getResourcePath(),METHOD_INVOCATION, line no: 116, 0.9830508474576272, 0.9830508474576272, 0.0
+contains,SIMPLE_NAME, line no: 121,((RestMockAction)operation),PARENTHESIZED_EXPRESSION, line no: 116, 0.9830508474576272, 0.9830508474576272, 0.0
+contains,SIMPLE_NAME, line no: 121,(RestMockAction)operation,CAST_EXPRESSION, line no: 116, 0.9830508474576272, 0.9830508474576272, 0.0
+contains,SIMPLE_NAME, line no: 121,operationVerb,SIMPLE_NAME, line no: 117, 0.9830508474576272, 0.9830508474576272, 0.0
+contains,SIMPLE_NAME, line no: 121,((RestMockAction)operation).getMethod(),METHOD_INVOCATION, line no: 117, 0.9830508474576272, 0.9830508474576272, 0.0
+operationPath,SIMPLE_NAME, line no: 121,MockOperation,SIMPLE_NAME, line no: 14, 0.9830508474576272, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,verbToFind,SIMPLE_NAME, line no: 98, 0.9830508474576272, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,getMockOperationList(),METHOD_INVOCATION, line no: 114, 0.9830508474576272, 0.9830508474576272, 0.0
+operationPath,SIMPLE_NAME, line no: 121,getMockOperationList,SIMPLE_NAME, line no: 114, 0.9830508474576272, 0.9830508474576272, 0.0
+operationPath,SIMPLE_NAME, line no: 121,((RestMockAction)operation),PARENTHESIZED_EXPRESSION, line no: 116, 0.9830508474576272, 0.9830508474576272, 0.0
+operationPath,SIMPLE_NAME, line no: 121,(RestMockAction)operation,CAST_EXPRESSION, line no: 116, 0.9830508474576272, 0.9830508474576272, 0.0
+operationPath,SIMPLE_NAME, line no: 121,operationVerb,SIMPLE_NAME, line no: 117, 0.9830508474576272, 0.9830508474576272, 0.0
+operationPath,SIMPLE_NAME, line no: 121,((RestMockAction)operation).getMethod(),METHOD_INVOCATION, line no: 117, 0.9830508474576272, 0.9830508474576272, 0.0
+operationPath,SIMPLE_NAME, line no: 121,matchesPath,SIMPLE_NAME, line no: 119, 0.9830508474576272, 0.9830508474576272, 0.0
+operationPath,SIMPLE_NAME, line no: 121,operationPath.equals(pathToFind),METHOD_INVOCATION, line no: 119, 0.9830508474576272, 0.9830508474576272, 0.0
+operationPath,SIMPLE_NAME, line no: 121,matchesVerb,SIMPLE_NAME, line no: 120, 0.9830508474576272, 0.9830508474576272, 0.0
+operationPath,SIMPLE_NAME, line no: 121,matchesPathPartially,SIMPLE_NAME, line no: 121, 0.9830508474576272, 0.9830508474576272, 0.0
+operationPath,SIMPLE_NAME, line no: 121,pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121, 0.9830508474576272, 0.9830508474576272, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,MockOperation,SIMPLE_NAME, line no: 14, 0.9827586206896551, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,String,SIMPLE_NAME, line no: 24, 0.9827586206896551, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,HttpMethod,SIMPLE_NAME, line no: 66, 0.9827586206896551, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,getMockOperationList(),METHOD_INVOCATION, line no: 114, 0.9827586206896551, 0.9827586206896551, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,getMockOperationList,SIMPLE_NAME, line no: 114, 0.9827586206896551, 0.9827586206896551, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,((RestMockAction)operation).getResourcePath(),METHOD_INVOCATION, line no: 116, 0.9827586206896551, 0.9827586206896551, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,((RestMockAction)operation),PARENTHESIZED_EXPRESSION, line no: 116, 0.9827586206896551, 0.9827586206896551, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,(RestMockAction)operation,CAST_EXPRESSION, line no: 116, 0.9827586206896551, 0.9827586206896551, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,((RestMockAction)operation).getMethod(),METHOD_INVOCATION, line no: 117, 0.9827586206896551, 0.9827586206896551, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,MockOperation,SIMPLE_NAME, line no: 14, 0.9827586206896551, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,verbToFind,SIMPLE_NAME, line no: 98, 0.9827586206896551, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,getMockOperationList(),METHOD_INVOCATION, line no: 114, 0.9827586206896551, 0.9827586206896551, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,getMockOperationList,SIMPLE_NAME, line no: 114, 0.9827586206896551, 0.9827586206896551, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,operationVerb,SIMPLE_NAME, line no: 117, 0.9827586206896551, 0.9827586206896551, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,verbToFind == operationVerb,INFIX_EXPRESSION, line no: 120, 0.9827586206896551, 0.9827586206896551, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,HttpMethod,SIMPLE_NAME, line no: 66, 0.9661016949152542, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,verbToFind == operationVerb,INFIX_EXPRESSION, line no: 120, 0.9661016949152542, 0.9661016949152542, 0.0
+contains,SIMPLE_NAME, line no: 121,String,SIMPLE_NAME, line no: 24, 0.9661016949152542, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,HttpMethod,SIMPLE_NAME, line no: 66, 0.9661016949152542, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,HttpMethod,SIMPLE_NAME, line no: 66, 0.9661016949152542, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,verbToFind == operationVerb,INFIX_EXPRESSION, line no: 120, 0.9661016949152542, 0.9661016949152542, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,String,SIMPLE_NAME, line no: 24, 0.9655172413793104, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,HttpMethod,SIMPLE_NAME, line no: 66, 0.9655172413793104, 0.017241379310344827, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,includePartialMatch,SIMPLE_NAME, line no: 100, 0.9491525423728814, 0.1864406779661017, 0.0
+operationPath,SIMPLE_NAME, line no: 121,includePartialMatch,SIMPLE_NAME, line no: 100, 0.9491525423728814, 0.1864406779661017, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,matchesPath && matchesVerb,INFIX_EXPRESSION, line no: 123, 0.9482758620689655, 0.9482758620689655, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,includePartialMatch && matchesPathPartially && matchesVerb,INFIX_EXPRESSION, line no: 127, 0.9482758620689655, 0.9482758620689655, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,matchesPath && matchesVerb,INFIX_EXPRESSION, line no: 123, 0.9322033898305084, 0.9322033898305084, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,includePartialMatch && matchesPathPartially && matchesVerb,INFIX_EXPRESSION, line no: 127, 0.9322033898305084, 0.9322033898305084, 0.0
+operationPath,SIMPLE_NAME, line no: 121,matchesPath && matchesVerb,INFIX_EXPRESSION, line no: 123, 0.9322033898305084, 0.9322033898305084, 0.0
+operationPath,SIMPLE_NAME, line no: 121,includePartialMatch && matchesPathPartially && matchesVerb,INFIX_EXPRESSION, line no: 127, 0.9322033898305084, 0.9322033898305084, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,RestUtils,SIMPLE_NAME, line no: 8, 0.8135593220338984, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,ArrayList,SIMPLE_NAME, line no: 18, 0.8135593220338984, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,getParams,SIMPLE_NAME, line no: 59, 0.8135593220338984, 0.4915254237288136, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,restResource,SIMPLE_NAME, line no: 163, 0.8135593220338984, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,actions,SIMPLE_NAME, line no: 165, 0.8135593220338984, 0.8135593220338984, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,new ArrayList<MockOperation>(),CLASS_INSTANCE_CREATION, line no: 165, 0.8135593220338984, 0.8135593220338984, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,restResource.getParams(),METHOD_INVOCATION, line no: 166, 0.8135593220338984, 0.8135593220338984, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,restResource.getRestMethodCount() < 1,INFIX_EXPRESSION, line no: 168, 0.8135593220338984, 0.8135593220338984, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,restResource.getRestMethodCount(),METHOD_INVOCATION, line no: 168, 0.8135593220338984, 0.8135593220338984, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,getRestMethodCount,SIMPLE_NAME, line no: 168, 0.8135593220338984, 0.8135593220338984, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,1,NUMBER_LITERAL, line no: 168, 0.8135593220338984, 0.8135593220338984, 0.0
+contains,SIMPLE_NAME, line no: 121,RestUtils,SIMPLE_NAME, line no: 8, 0.8135593220338984, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,ArrayList,SIMPLE_NAME, line no: 18, 0.8135593220338984, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,getExpandedPath,SIMPLE_NAME, line no: 59, 0.8135593220338984, 0.4915254237288136, 0.0
+contains,SIMPLE_NAME, line no: 121,getParams,SIMPLE_NAME, line no: 59, 0.8135593220338984, 0.4915254237288136, 0.0
+contains,SIMPLE_NAME, line no: 121,path,SIMPLE_NAME, line no: 66, 0.8135593220338984, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,restResource,SIMPLE_NAME, line no: 163, 0.8135593220338984, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,actions,SIMPLE_NAME, line no: 165, 0.8135593220338984, 0.8135593220338984, 0.0
+contains,SIMPLE_NAME, line no: 121,new ArrayList<MockOperation>(),CLASS_INSTANCE_CREATION, line no: 165, 0.8135593220338984, 0.8135593220338984, 0.0
+contains,SIMPLE_NAME, line no: 121,RestUtils.getExpandedPath(restResource.getFullPath() restResource.getParams() restResource),METHOD_INVOCATION, line no: 166, 0.8135593220338984, 0.8135593220338984, 0.0
+contains,SIMPLE_NAME, line no: 121,restResource.getFullPath(),METHOD_INVOCATION, line no: 166, 0.8135593220338984, 0.8135593220338984, 0.0
+contains,SIMPLE_NAME, line no: 121,getFullPath,SIMPLE_NAME, line no: 166, 0.8135593220338984, 0.8135593220338984, 0.0
+contains,SIMPLE_NAME, line no: 121,restResource.getParams(),METHOD_INVOCATION, line no: 166, 0.8135593220338984, 0.8135593220338984, 0.0
+contains,SIMPLE_NAME, line no: 121,restResource.getRestMethodCount(),METHOD_INVOCATION, line no: 168, 0.8135593220338984, 0.8135593220338984, 0.0
+contains,SIMPLE_NAME, line no: 121,getRestMethodCount,SIMPLE_NAME, line no: 168, 0.8135593220338984, 0.8135593220338984, 0.0
+contains,SIMPLE_NAME, line no: 121,1,NUMBER_LITERAL, line no: 168, 0.8135593220338984, 0.8135593220338984, 0.0
+operationPath,SIMPLE_NAME, line no: 121,RestUtils,SIMPLE_NAME, line no: 8, 0.8135593220338984, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,ArrayList,SIMPLE_NAME, line no: 18, 0.8135593220338984, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,getParams,SIMPLE_NAME, line no: 59, 0.8135593220338984, 0.4915254237288136, 0.0
+operationPath,SIMPLE_NAME, line no: 121,restResource,SIMPLE_NAME, line no: 163, 0.8135593220338984, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,actions,SIMPLE_NAME, line no: 165, 0.8135593220338984, 0.8135593220338984, 0.0
+operationPath,SIMPLE_NAME, line no: 121,new ArrayList<MockOperation>(),CLASS_INSTANCE_CREATION, line no: 165, 0.8135593220338984, 0.8135593220338984, 0.0
+operationPath,SIMPLE_NAME, line no: 121,restResource.getParams(),METHOD_INVOCATION, line no: 166, 0.8135593220338984, 0.8135593220338984, 0.0
+operationPath,SIMPLE_NAME, line no: 121,restResource.getRestMethodCount() < 1,INFIX_EXPRESSION, line no: 168, 0.8135593220338984, 0.8135593220338984, 0.0
+operationPath,SIMPLE_NAME, line no: 121,restResource.getRestMethodCount(),METHOD_INVOCATION, line no: 168, 0.8135593220338984, 0.8135593220338984, 0.0
+operationPath,SIMPLE_NAME, line no: 121,getRestMethodCount,SIMPLE_NAME, line no: 168, 0.8135593220338984, 0.8135593220338984, 0.0
+operationPath,SIMPLE_NAME, line no: 121,1,NUMBER_LITERAL, line no: 168, 0.8135593220338984, 0.8135593220338984, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,RestUtils,SIMPLE_NAME, line no: 8, 0.8103448275862069, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,ArrayList,SIMPLE_NAME, line no: 18, 0.8103448275862069, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,getExpandedPath,SIMPLE_NAME, line no: 59, 0.8103448275862069, 0.4827586206896552, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,getParams,SIMPLE_NAME, line no: 59, 0.8103448275862069, 0.4827586206896552, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,path,SIMPLE_NAME, line no: 66, 0.8103448275862069, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,restResource,SIMPLE_NAME, line no: 163, 0.8103448275862069, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,actions,SIMPLE_NAME, line no: 165, 0.8103448275862069, 0.8103448275862069, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,new ArrayList<MockOperation>(),CLASS_INSTANCE_CREATION, line no: 165, 0.8103448275862069, 0.8103448275862069, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,RestUtils.getExpandedPath(restResource.getFullPath() restResource.getParams() restResource),METHOD_INVOCATION, line no: 166, 0.8103448275862069, 0.8103448275862069, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,restResource.getFullPath(),METHOD_INVOCATION, line no: 166, 0.8103448275862069, 0.8103448275862069, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,getFullPath,SIMPLE_NAME, line no: 166, 0.8103448275862069, 0.8103448275862069, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,restResource.getParams(),METHOD_INVOCATION, line no: 166, 0.8103448275862069, 0.8103448275862069, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,restResource.getRestMethodCount(),METHOD_INVOCATION, line no: 168, 0.8103448275862069, 0.8103448275862069, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,getRestMethodCount,SIMPLE_NAME, line no: 168, 0.8103448275862069, 0.8103448275862069, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,1,NUMBER_LITERAL, line no: 168, 0.8103448275862069, 0.8103448275862069, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,RestUtils,SIMPLE_NAME, line no: 8, 0.8103448275862069, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,ArrayList,SIMPLE_NAME, line no: 18, 0.8103448275862069, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,getExpandedPath,SIMPLE_NAME, line no: 59, 0.8103448275862069, 0.5, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,getParams,SIMPLE_NAME, line no: 59, 0.8103448275862069, 0.5, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,path,SIMPLE_NAME, line no: 66, 0.8103448275862069, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,restResource,SIMPLE_NAME, line no: 163, 0.8103448275862069, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,actions,SIMPLE_NAME, line no: 165, 0.8103448275862069, 0.8103448275862069, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,new ArrayList<MockOperation>(),CLASS_INSTANCE_CREATION, line no: 165, 0.8103448275862069, 0.8103448275862069, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,RestUtils.getExpandedPath(restResource.getFullPath() restResource.getParams() restResource),METHOD_INVOCATION, line no: 166, 0.8103448275862069, 0.8103448275862069, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,restResource.getFullPath(),METHOD_INVOCATION, line no: 166, 0.8103448275862069, 0.8103448275862069, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,getFullPath,SIMPLE_NAME, line no: 166, 0.8103448275862069, 0.8103448275862069, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,restResource.getParams(),METHOD_INVOCATION, line no: 166, 0.8103448275862069, 0.8103448275862069, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,restResource.getRestMethodCount() < 1,INFIX_EXPRESSION, line no: 168, 0.8103448275862069, 0.8103448275862069, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,restResource.getRestMethodCount(),METHOD_INVOCATION, line no: 168, 0.8103448275862069, 0.8103448275862069, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,getRestMethodCount,SIMPLE_NAME, line no: 168, 0.8103448275862069, 0.8103448275862069, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,1,NUMBER_LITERAL, line no: 168, 0.8103448275862069, 0.8103448275862069, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,List,SIMPLE_NAME, line no: 19, 0.7966101694915254, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,List,SIMPLE_NAME, line no: 19, 0.7966101694915254, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,List,SIMPLE_NAME, line no: 19, 0.7966101694915254, 0.01694915254237288, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,List,SIMPLE_NAME, line no: 19, 0.7931034482758621, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,List,SIMPLE_NAME, line no: 19, 0.7931034482758621, 0.017241379310344827, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,RestMethod,SIMPLE_NAME, line no: 5, 0.7796610169491526, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,restMethod,SIMPLE_NAME, line no: 173, 0.7796610169491526, 0.7796610169491526, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,restResource.getRestMethodList(),METHOD_INVOCATION, line no: 173, 0.7796610169491526, 0.7796610169491526, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,getRestMethodList,SIMPLE_NAME, line no: 173, 0.7796610169491526, 0.7796610169491526, 0.0
+contains,SIMPLE_NAME, line no: 121,RestMethod,SIMPLE_NAME, line no: 5, 0.7796610169491526, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,restMethod,SIMPLE_NAME, line no: 173, 0.7796610169491526, 0.7796610169491526, 0.0
+contains,SIMPLE_NAME, line no: 121,restResource.getRestMethodList(),METHOD_INVOCATION, line no: 173, 0.7796610169491526, 0.7796610169491526, 0.0
+contains,SIMPLE_NAME, line no: 121,getRestMethodList,SIMPLE_NAME, line no: 173, 0.7796610169491526, 0.7796610169491526, 0.0
+operationPath,SIMPLE_NAME, line no: 121,RestMethod,SIMPLE_NAME, line no: 5, 0.7796610169491526, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,restMethod,SIMPLE_NAME, line no: 173, 0.7796610169491526, 0.7796610169491526, 0.0
+operationPath,SIMPLE_NAME, line no: 121,restResource.getRestMethodList(),METHOD_INVOCATION, line no: 173, 0.7796610169491526, 0.7796610169491526, 0.0
+operationPath,SIMPLE_NAME, line no: 121,getRestMethodList,SIMPLE_NAME, line no: 173, 0.7796610169491526, 0.7796610169491526, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,RestMethod,SIMPLE_NAME, line no: 5, 0.7758620689655172, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,restMethod,SIMPLE_NAME, line no: 173, 0.7758620689655172, 0.7758620689655172, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,restResource.getRestMethodList(),METHOD_INVOCATION, line no: 173, 0.7758620689655172, 0.7758620689655172, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,getRestMethodList,SIMPLE_NAME, line no: 173, 0.7758620689655172, 0.7758620689655172, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,config,SIMPLE_NAME, line no: 3, 0.7758620689655172, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,RestMethod,SIMPLE_NAME, line no: 5, 0.7758620689655172, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,restMockAction,SIMPLE_NAME, line no: 33, 0.7758620689655172, 0.22413793103448276, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,getConfig,SIMPLE_NAME, line no: 37, 0.7758620689655172, 0.6379310344827587, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,addNewRestMockAction,SIMPLE_NAME, line no: 68, 0.7758620689655172, 0.7758620689655172, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,slashifiedPath,SIMPLE_NAME, line no: 70, 0.7758620689655172, 0.7758620689655172, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,slashify,SIMPLE_NAME, line no: 70, 0.7758620689655172, 0.7758620689655172, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,name,SIMPLE_NAME, line no: 71, 0.7758620689655172, 0.7758620689655172, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,restMethod,SIMPLE_NAME, line no: 173, 0.7758620689655172, 0.7758620689655172, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,restResource.getRestMethodList(),METHOD_INVOCATION, line no: 173, 0.7758620689655172, 0.7758620689655172, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,getRestMethodList,SIMPLE_NAME, line no: 173, 0.7758620689655172, 0.7758620689655172, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,config,SIMPLE_NAME, line no: 3, 0.7627118644067796, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,restMockAction,SIMPLE_NAME, line no: 33, 0.7627118644067796, 0.22033898305084745, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,getConfig,SIMPLE_NAME, line no: 37, 0.7627118644067796, 0.6271186440677966, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,addNewRestMockAction,SIMPLE_NAME, line no: 68, 0.7627118644067796, 0.7627118644067796, 0.0
+contains,SIMPLE_NAME, line no: 121,config,SIMPLE_NAME, line no: 3, 0.7627118644067796, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,restMockAction,SIMPLE_NAME, line no: 33, 0.7627118644067796, 0.22033898305084745, 0.0
+contains,SIMPLE_NAME, line no: 121,getConfig,SIMPLE_NAME, line no: 37, 0.7627118644067796, 0.6271186440677966, 0.0
+contains,SIMPLE_NAME, line no: 121,addNewRestMockAction,SIMPLE_NAME, line no: 68, 0.7627118644067796, 0.7627118644067796, 0.0
+contains,SIMPLE_NAME, line no: 121,slashifiedPath,SIMPLE_NAME, line no: 70, 0.7627118644067796, 0.7627118644067796, 0.0
+contains,SIMPLE_NAME, line no: 121,slashify,SIMPLE_NAME, line no: 70, 0.7627118644067796, 0.7627118644067796, 0.0
+contains,SIMPLE_NAME, line no: 121,name,SIMPLE_NAME, line no: 71, 0.7627118644067796, 0.7627118644067796, 0.0
+operationPath,SIMPLE_NAME, line no: 121,config,SIMPLE_NAME, line no: 3, 0.7627118644067796, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,restMockAction,SIMPLE_NAME, line no: 33, 0.7627118644067796, 0.22033898305084745, 0.0
+operationPath,SIMPLE_NAME, line no: 121,getConfig,SIMPLE_NAME, line no: 37, 0.7627118644067796, 0.6271186440677966, 0.0
+operationPath,SIMPLE_NAME, line no: 121,addNewRestMockAction,SIMPLE_NAME, line no: 68, 0.7627118644067796, 0.7627118644067796, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,config,SIMPLE_NAME, line no: 3, 0.7586206896551724, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,restMockAction,SIMPLE_NAME, line no: 33, 0.7586206896551724, 0.22413793103448276, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,getConfig,SIMPLE_NAME, line no: 37, 0.7586206896551724, 0.6206896551724138, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,addNewRestMockAction,SIMPLE_NAME, line no: 68, 0.7586206896551724, 0.7586206896551724, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,slashifiedPath,SIMPLE_NAME, line no: 70, 0.7586206896551724, 0.7586206896551724, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,slashify,SIMPLE_NAME, line no: 70, 0.7586206896551724, 0.7586206896551724, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,name,SIMPLE_NAME, line no: 71, 0.7586206896551724, 0.7586206896551724, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,RESTMockActionConfig,SIMPLE_NAME, line no: 3, 0.7586206896551724, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,this,THIS_EXPRESSION, line no: 33, 0.7586206896551724, 0.20689655172413793, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,getConfig(),METHOD_INVOCATION, line no: 37, 0.7586206896551724, 0.6206896551724138, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,getConfig().addNewRestMockAction(),METHOD_INVOCATION, line no: 68, 0.7586206896551724, 0.7586206896551724, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,slashify(path),METHOD_INVOCATION, line no: 70, 0.7586206896551724, 0.7586206896551724, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,new RestMockAction(this config),CLASS_INSTANCE_CREATION, line no: 76, 0.7586206896551724, 0.7586206896551724, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,RESTMockActionConfig,SIMPLE_NAME, line no: 3, 0.7457627118644068, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,this,THIS_EXPRESSION, line no: 33, 0.7457627118644068, 0.2033898305084746, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,getConfig(),METHOD_INVOCATION, line no: 37, 0.7457627118644068, 0.6101694915254238, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,getConfig().addNewRestMockAction(),METHOD_INVOCATION, line no: 68, 0.7457627118644068, 0.7457627118644068, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,new RestMockAction(this config),CLASS_INSTANCE_CREATION, line no: 76, 0.7457627118644068, 0.7457627118644068, 0.0
+contains,SIMPLE_NAME, line no: 121,RESTMockActionConfig,SIMPLE_NAME, line no: 3, 0.7457627118644068, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,this,THIS_EXPRESSION, line no: 33, 0.7457627118644068, 0.2033898305084746, 0.0
+contains,SIMPLE_NAME, line no: 121,getConfig(),METHOD_INVOCATION, line no: 37, 0.7457627118644068, 0.6101694915254238, 0.0
+contains,SIMPLE_NAME, line no: 121,getConfig().addNewRestMockAction(),METHOD_INVOCATION, line no: 68, 0.7457627118644068, 0.7457627118644068, 0.0
+contains,SIMPLE_NAME, line no: 121,slashify(path),METHOD_INVOCATION, line no: 70, 0.7457627118644068, 0.7457627118644068, 0.0
+contains,SIMPLE_NAME, line no: 121,new RestMockAction(this config),CLASS_INSTANCE_CREATION, line no: 76, 0.7457627118644068, 0.7457627118644068, 0.0
+operationPath,SIMPLE_NAME, line no: 121,RESTMockActionConfig,SIMPLE_NAME, line no: 3, 0.7457627118644068, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,this,THIS_EXPRESSION, line no: 33, 0.7457627118644068, 0.2033898305084746, 0.0
+operationPath,SIMPLE_NAME, line no: 121,getConfig(),METHOD_INVOCATION, line no: 37, 0.7457627118644068, 0.6101694915254238, 0.0
+operationPath,SIMPLE_NAME, line no: 121,getConfig().addNewRestMockAction(),METHOD_INVOCATION, line no: 68, 0.7457627118644068, 0.7457627118644068, 0.0
+operationPath,SIMPLE_NAME, line no: 121,new RestMockAction(this config),CLASS_INSTANCE_CREATION, line no: 76, 0.7457627118644068, 0.7457627118644068, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,RESTMockActionConfig,SIMPLE_NAME, line no: 3, 0.7413793103448276, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,this,THIS_EXPRESSION, line no: 33, 0.7413793103448276, 0.20689655172413793, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,getConfig(),METHOD_INVOCATION, line no: 37, 0.7413793103448276, 0.603448275862069, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,getConfig().addNewRestMockAction(),METHOD_INVOCATION, line no: 68, 0.7413793103448276, 0.7413793103448276, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,slashify(path),METHOD_INVOCATION, line no: 70, 0.7413793103448276, 0.7413793103448276, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,new RestMockAction(this config),CLASS_INSTANCE_CREATION, line no: 76, 0.7413793103448276, 0.7413793103448276, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,addMockOperation,SIMPLE_NAME, line no: 34, 0.7413793103448276, 0.20689655172413793, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,method,SIMPLE_NAME, line no: 66, 0.7413793103448276, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,setName,SIMPLE_NAME, line no: 73, 0.7413793103448276, 0.7413793103448276, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,setMethod,SIMPLE_NAME, line no: 74, 0.7413793103448276, 0.7413793103448276, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,setResourcePath,SIMPLE_NAME, line no: 75, 0.7413793103448276, 0.7413793103448276, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,fireMockOperationAdded,SIMPLE_NAME, line no: 79, 0.7413793103448276, 0.7413793103448276, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,addMockOperation,SIMPLE_NAME, line no: 34, 0.7288135593220338, 0.2033898305084746, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,method,SIMPLE_NAME, line no: 66, 0.7288135593220338, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,setName,SIMPLE_NAME, line no: 73, 0.7288135593220338, 0.7288135593220338, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,setMethod,SIMPLE_NAME, line no: 74, 0.7288135593220338, 0.7288135593220338, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,setResourcePath,SIMPLE_NAME, line no: 75, 0.7288135593220338, 0.7288135593220338, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,fireMockOperationAdded,SIMPLE_NAME, line no: 79, 0.7288135593220338, 0.7288135593220338, 0.0
+contains,SIMPLE_NAME, line no: 121,addMockOperation,SIMPLE_NAME, line no: 34, 0.7288135593220338, 0.2033898305084746, 0.0
+contains,SIMPLE_NAME, line no: 121,method,SIMPLE_NAME, line no: 66, 0.7288135593220338, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,setName,SIMPLE_NAME, line no: 73, 0.7288135593220338, 0.7288135593220338, 0.0
+contains,SIMPLE_NAME, line no: 121,setMethod,SIMPLE_NAME, line no: 74, 0.7288135593220338, 0.7288135593220338, 0.0
+contains,SIMPLE_NAME, line no: 121,setResourcePath,SIMPLE_NAME, line no: 75, 0.7288135593220338, 0.7288135593220338, 0.0
+contains,SIMPLE_NAME, line no: 121,fireMockOperationAdded,SIMPLE_NAME, line no: 79, 0.7288135593220338, 0.7288135593220338, 0.0
+operationPath,SIMPLE_NAME, line no: 121,addMockOperation,SIMPLE_NAME, line no: 34, 0.7288135593220338, 0.2033898305084746, 0.0
+operationPath,SIMPLE_NAME, line no: 121,method,SIMPLE_NAME, line no: 66, 0.7288135593220338, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,setName,SIMPLE_NAME, line no: 73, 0.7288135593220338, 0.7288135593220338, 0.0
+operationPath,SIMPLE_NAME, line no: 121,setMethod,SIMPLE_NAME, line no: 74, 0.7288135593220338, 0.7288135593220338, 0.0
+operationPath,SIMPLE_NAME, line no: 121,setResourcePath,SIMPLE_NAME, line no: 75, 0.7288135593220338, 0.7288135593220338, 0.0
+operationPath,SIMPLE_NAME, line no: 121,fireMockOperationAdded,SIMPLE_NAME, line no: 79, 0.7288135593220338, 0.7288135593220338, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,addMockOperation,SIMPLE_NAME, line no: 34, 0.7241379310344828, 0.20689655172413793, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,method,SIMPLE_NAME, line no: 66, 0.7241379310344828, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,setName,SIMPLE_NAME, line no: 73, 0.7241379310344828, 0.7241379310344828, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,setMethod,SIMPLE_NAME, line no: 74, 0.7241379310344828, 0.7241379310344828, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,setResourcePath,SIMPLE_NAME, line no: 75, 0.7241379310344828, 0.7241379310344828, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,fireMockOperationAdded,SIMPLE_NAME, line no: 79, 0.7241379310344828, 0.7241379310344828, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,addMockOperation(restMockAction),METHOD_INVOCATION, line no: 34, 0.7241379310344828, 0.1896551724137931, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,config.setName(name),METHOD_INVOCATION, line no: 73, 0.7241379310344828, 0.7241379310344828, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,config.setMethod(method.name()),METHOD_INVOCATION, line no: 74, 0.7241379310344828, 0.7241379310344828, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,method.name(),METHOD_INVOCATION, line no: 74, 0.7241379310344828, 0.7241379310344828, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,config.setResourcePath(slashifiedPath),METHOD_INVOCATION, line no: 75, 0.7241379310344828, 0.7241379310344828, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,fireMockOperationAdded(restMockAction),METHOD_INVOCATION, line no: 79, 0.7241379310344828, 0.7241379310344828, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,addMockOperation(restMockAction),METHOD_INVOCATION, line no: 34, 0.711864406779661, 0.1864406779661017, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,config.setName(name),METHOD_INVOCATION, line no: 73, 0.711864406779661, 0.711864406779661, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,config.setMethod(method.name()),METHOD_INVOCATION, line no: 74, 0.711864406779661, 0.711864406779661, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,config.setResourcePath(slashifiedPath),METHOD_INVOCATION, line no: 75, 0.711864406779661, 0.711864406779661, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,fireMockOperationAdded(restMockAction),METHOD_INVOCATION, line no: 79, 0.711864406779661, 0.711864406779661, 0.0
+contains,SIMPLE_NAME, line no: 121,addMockOperation(restMockAction),METHOD_INVOCATION, line no: 34, 0.711864406779661, 0.1864406779661017, 0.0
+contains,SIMPLE_NAME, line no: 121,config.setName(name),METHOD_INVOCATION, line no: 73, 0.711864406779661, 0.711864406779661, 0.0
+contains,SIMPLE_NAME, line no: 121,config.setMethod(method.name()),METHOD_INVOCATION, line no: 74, 0.711864406779661, 0.711864406779661, 0.0
+contains,SIMPLE_NAME, line no: 121,method.name(),METHOD_INVOCATION, line no: 74, 0.711864406779661, 0.711864406779661, 0.0
+contains,SIMPLE_NAME, line no: 121,config.setResourcePath(slashifiedPath),METHOD_INVOCATION, line no: 75, 0.711864406779661, 0.711864406779661, 0.0
+contains,SIMPLE_NAME, line no: 121,fireMockOperationAdded(restMockAction),METHOD_INVOCATION, line no: 79, 0.711864406779661, 0.711864406779661, 0.0
+operationPath,SIMPLE_NAME, line no: 121,addMockOperation(restMockAction),METHOD_INVOCATION, line no: 34, 0.711864406779661, 0.1864406779661017, 0.0
+operationPath,SIMPLE_NAME, line no: 121,config.setName(name),METHOD_INVOCATION, line no: 73, 0.711864406779661, 0.711864406779661, 0.0
+operationPath,SIMPLE_NAME, line no: 121,config.setMethod(method.name()),METHOD_INVOCATION, line no: 74, 0.711864406779661, 0.711864406779661, 0.0
+operationPath,SIMPLE_NAME, line no: 121,config.setResourcePath(slashifiedPath),METHOD_INVOCATION, line no: 75, 0.711864406779661, 0.711864406779661, 0.0
+operationPath,SIMPLE_NAME, line no: 121,fireMockOperationAdded(restMockAction),METHOD_INVOCATION, line no: 79, 0.711864406779661, 0.711864406779661, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,addMockOperation(restMockAction),METHOD_INVOCATION, line no: 34, 0.7068965517241379, 0.1896551724137931, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,config.setName(name),METHOD_INVOCATION, line no: 73, 0.7068965517241379, 0.7068965517241379, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,config.setMethod(method.name()),METHOD_INVOCATION, line no: 74, 0.7068965517241379, 0.7068965517241379, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,method.name(),METHOD_INVOCATION, line no: 74, 0.7068965517241379, 0.7068965517241379, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,config.setResourcePath(slashifiedPath),METHOD_INVOCATION, line no: 75, 0.7068965517241379, 0.7068965517241379, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,fireMockOperationAdded(restMockAction),METHOD_INVOCATION, line no: 79, 0.7068965517241379, 0.7068965517241379, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,getBestMatchedOperation(bestMatchedOperation operation operationPath),METHOD_INVOCATION, line no: 129, 0.7068965517241379, 0.20689655172413793, 0.5
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,bestMatchedOperation=getBestMatchedOperation(bestMatchedOperation operation operationPath),ASSIGNMENT, line no: 129, 0.6896551724137931, 0.1896551724137931, 0.5
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,restActionConfigList,SIMPLE_NAME, line no: 30, 0.6551724137931034, 0.6551724137931034, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,getRestMockActionList,SIMPLE_NAME, line no: 30, 0.6551724137931034, 0.6551724137931034, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,restActionConfigList,SIMPLE_NAME, line no: 30, 0.6440677966101694, 0.6440677966101694, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,getRestMockActionList,SIMPLE_NAME, line no: 30, 0.6440677966101694, 0.6440677966101694, 0.0
+contains,SIMPLE_NAME, line no: 121,restActionConfigList,SIMPLE_NAME, line no: 30, 0.6440677966101694, 0.6440677966101694, 0.0
+contains,SIMPLE_NAME, line no: 121,getRestMockActionList,SIMPLE_NAME, line no: 30, 0.6440677966101694, 0.6440677966101694, 0.0
+operationPath,SIMPLE_NAME, line no: 121,restActionConfigList,SIMPLE_NAME, line no: 30, 0.6440677966101694, 0.6440677966101694, 0.0
+operationPath,SIMPLE_NAME, line no: 121,getRestMockActionList,SIMPLE_NAME, line no: 30, 0.6440677966101694, 0.6440677966101694, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,restActionConfigList,SIMPLE_NAME, line no: 30, 0.6379310344827587, 0.6379310344827587, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,getRestMockActionList,SIMPLE_NAME, line no: 30, 0.6379310344827587, 0.6379310344827587, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,config.getRestMockActionList(),METHOD_INVOCATION, line no: 30, 0.6379310344827587, 0.6379310344827587, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,isSetProperties,SIMPLE_NAME, line no: 37, 0.6379310344827587, 0.6379310344827587, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,addNewProperties,SIMPLE_NAME, line no: 38, 0.6379310344827587, 0.6379310344827587, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,config.getRestMockActionList(),METHOD_INVOCATION, line no: 30, 0.6271186440677966, 0.6271186440677966, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,isSetProperties,SIMPLE_NAME, line no: 37, 0.6271186440677966, 0.6271186440677966, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,addNewProperties,SIMPLE_NAME, line no: 38, 0.6271186440677966, 0.6271186440677966, 0.0
+contains,SIMPLE_NAME, line no: 121,config.getRestMockActionList(),METHOD_INVOCATION, line no: 30, 0.6271186440677966, 0.6271186440677966, 0.0
+contains,SIMPLE_NAME, line no: 121,isSetProperties,SIMPLE_NAME, line no: 37, 0.6271186440677966, 0.6271186440677966, 0.0
+contains,SIMPLE_NAME, line no: 121,addNewProperties,SIMPLE_NAME, line no: 38, 0.6271186440677966, 0.6271186440677966, 0.0
+operationPath,SIMPLE_NAME, line no: 121,config.getRestMockActionList(),METHOD_INVOCATION, line no: 30, 0.6271186440677966, 0.6271186440677966, 0.0
+operationPath,SIMPLE_NAME, line no: 121,isSetProperties,SIMPLE_NAME, line no: 37, 0.6271186440677966, 0.6271186440677966, 0.0
+operationPath,SIMPLE_NAME, line no: 121,addNewProperties,SIMPLE_NAME, line no: 38, 0.6271186440677966, 0.6271186440677966, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,config.getRestMockActionList(),METHOD_INVOCATION, line no: 30, 0.6206896551724138, 0.6206896551724138, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,isSetProperties,SIMPLE_NAME, line no: 37, 0.6206896551724138, 0.6206896551724138, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,addNewProperties,SIMPLE_NAME, line no: 38, 0.6206896551724138, 0.6206896551724138, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,project,SIMPLE_NAME, line no: 15, 0.6206896551724138, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,ICON_NAME,SIMPLE_NAME, line no: 24, 0.6206896551724138, 0.034482758620689655, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,restActionConfig,SIMPLE_NAME, line no: 31, 0.6206896551724138, 0.6206896551724138, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,!getConfig().isSetProperties(),PREFIX_EXPRESSION, line no: 37, 0.6206896551724138, 0.6206896551724138, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,getConfig().isSetProperties(),METHOD_INVOCATION, line no: 37, 0.6206896551724138, 0.6206896551724138, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,getConfig().addNewProperties(),METHOD_INVOCATION, line no: 38, 0.6206896551724138, 0.6206896551724138, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,setPropertiesConfig,SIMPLE_NAME, line no: 40, 0.6206896551724138, 0.6206896551724138, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,getProperties,SIMPLE_NAME, line no: 40, 0.6206896551724138, 0.6206896551724138, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,restRequest,SIMPLE_NAME, line no: 56, 0.6206896551724138, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,getPath,SIMPLE_NAME, line no: 59, 0.6206896551724138, 0.5, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,expandedPath,SIMPLE_NAME, line no: 87, 0.6206896551724138, 0.6206896551724138, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,matchedOperation,SIMPLE_NAME, line no: 89, 0.6206896551724138, 0.6206896551724138, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,findMatchingOperationWithExactPath,SIMPLE_NAME, line no: 89, 0.6206896551724138, 0.6206896551724138, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,project,SIMPLE_NAME, line no: 15, 0.6101694915254238, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,restActionConfig,SIMPLE_NAME, line no: 31, 0.6101694915254238, 0.6101694915254238, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,!getConfig().isSetProperties(),PREFIX_EXPRESSION, line no: 37, 0.6101694915254238, 0.6101694915254238, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,getConfig().isSetProperties(),METHOD_INVOCATION, line no: 37, 0.6101694915254238, 0.6101694915254238, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,getConfig().addNewProperties(),METHOD_INVOCATION, line no: 38, 0.6101694915254238, 0.6101694915254238, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,setPropertiesConfig,SIMPLE_NAME, line no: 40, 0.6101694915254238, 0.6101694915254238, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,getProperties,SIMPLE_NAME, line no: 40, 0.6101694915254238, 0.6101694915254238, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,restRequest,SIMPLE_NAME, line no: 56, 0.6101694915254238, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,matchedOperation,SIMPLE_NAME, line no: 89, 0.6101694915254238, 0.6101694915254238, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,findMatchingOperationWithExactPath,SIMPLE_NAME, line no: 89, 0.6101694915254238, 0.6101694915254238, 0.0
+contains,SIMPLE_NAME, line no: 121,project,SIMPLE_NAME, line no: 15, 0.6101694915254238, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,ICON_NAME,SIMPLE_NAME, line no: 24, 0.6101694915254238, 0.03389830508474576, 0.0
+contains,SIMPLE_NAME, line no: 121,restActionConfig,SIMPLE_NAME, line no: 31, 0.6101694915254238, 0.6101694915254238, 0.0
+contains,SIMPLE_NAME, line no: 121,!getConfig().isSetProperties(),PREFIX_EXPRESSION, line no: 37, 0.6101694915254238, 0.6101694915254238, 0.0
+contains,SIMPLE_NAME, line no: 121,getConfig().isSetProperties(),METHOD_INVOCATION, line no: 37, 0.6101694915254238, 0.6101694915254238, 0.0
+contains,SIMPLE_NAME, line no: 121,getConfig().addNewProperties(),METHOD_INVOCATION, line no: 38, 0.6101694915254238, 0.6101694915254238, 0.0
+contains,SIMPLE_NAME, line no: 121,setPropertiesConfig,SIMPLE_NAME, line no: 40, 0.6101694915254238, 0.6101694915254238, 0.0
+contains,SIMPLE_NAME, line no: 121,getProperties,SIMPLE_NAME, line no: 40, 0.6101694915254238, 0.6101694915254238, 0.0
+contains,SIMPLE_NAME, line no: 121,restRequest,SIMPLE_NAME, line no: 56, 0.6101694915254238, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,getPath,SIMPLE_NAME, line no: 59, 0.6101694915254238, 0.4915254237288136, 0.0
+contains,SIMPLE_NAME, line no: 121,expandedPath,SIMPLE_NAME, line no: 87, 0.6101694915254238, 0.6101694915254238, 0.0
+contains,SIMPLE_NAME, line no: 121,matchedOperation,SIMPLE_NAME, line no: 89, 0.6101694915254238, 0.6101694915254238, 0.0
+contains,SIMPLE_NAME, line no: 121,findMatchingOperationWithExactPath,SIMPLE_NAME, line no: 89, 0.6101694915254238, 0.6101694915254238, 0.0
+operationPath,SIMPLE_NAME, line no: 121,project,SIMPLE_NAME, line no: 15, 0.6101694915254238, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,restActionConfig,SIMPLE_NAME, line no: 31, 0.6101694915254238, 0.6101694915254238, 0.0
+operationPath,SIMPLE_NAME, line no: 121,!getConfig().isSetProperties(),PREFIX_EXPRESSION, line no: 37, 0.6101694915254238, 0.6101694915254238, 0.0
+operationPath,SIMPLE_NAME, line no: 121,getConfig().isSetProperties(),METHOD_INVOCATION, line no: 37, 0.6101694915254238, 0.6101694915254238, 0.0
+operationPath,SIMPLE_NAME, line no: 121,getConfig().addNewProperties(),METHOD_INVOCATION, line no: 38, 0.6101694915254238, 0.6101694915254238, 0.0
+operationPath,SIMPLE_NAME, line no: 121,setPropertiesConfig,SIMPLE_NAME, line no: 40, 0.6101694915254238, 0.6101694915254238, 0.0
+operationPath,SIMPLE_NAME, line no: 121,getProperties,SIMPLE_NAME, line no: 40, 0.6101694915254238, 0.6101694915254238, 0.0
+operationPath,SIMPLE_NAME, line no: 121,restRequest,SIMPLE_NAME, line no: 56, 0.6101694915254238, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,matchedOperation,SIMPLE_NAME, line no: 89, 0.6101694915254238, 0.6101694915254238, 0.0
+operationPath,SIMPLE_NAME, line no: 121,findMatchingOperationWithExactPath,SIMPLE_NAME, line no: 89, 0.6101694915254238, 0.6101694915254238, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,project,SIMPLE_NAME, line no: 15, 0.603448275862069, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,ICON_NAME,SIMPLE_NAME, line no: 24, 0.603448275862069, 0.034482758620689655, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,restActionConfig,SIMPLE_NAME, line no: 31, 0.603448275862069, 0.603448275862069, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,!getConfig().isSetProperties(),PREFIX_EXPRESSION, line no: 37, 0.603448275862069, 0.603448275862069, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,getConfig().isSetProperties(),METHOD_INVOCATION, line no: 37, 0.603448275862069, 0.603448275862069, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,getConfig().addNewProperties(),METHOD_INVOCATION, line no: 38, 0.603448275862069, 0.603448275862069, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,setPropertiesConfig,SIMPLE_NAME, line no: 40, 0.603448275862069, 0.603448275862069, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,getProperties,SIMPLE_NAME, line no: 40, 0.603448275862069, 0.603448275862069, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,restRequest,SIMPLE_NAME, line no: 56, 0.603448275862069, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,getPath,SIMPLE_NAME, line no: 59, 0.603448275862069, 0.4827586206896552, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,expandedPath,SIMPLE_NAME, line no: 87, 0.603448275862069, 0.603448275862069, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,matchedOperation,SIMPLE_NAME, line no: 89, 0.603448275862069, 0.603448275862069, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,findMatchingOperationWithExactPath,SIMPLE_NAME, line no: 89, 0.603448275862069, 0.603448275862069, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,setPropertiesConfig(config.getProperties()),METHOD_INVOCATION, line no: 40, 0.603448275862069, 0.603448275862069, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,config.getProperties(),METHOD_INVOCATION, line no: 40, 0.603448275862069, 0.603448275862069, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,restRequest.getMethod(),METHOD_INVOCATION, line no: 58, 0.603448275862069, 0.4827586206896552, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,RestUtils.getExpandedPath(restRequest.getPath() restRequest.getParams() restRequest),METHOD_INVOCATION, line no: 59, 0.603448275862069, 0.4827586206896552, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,restRequest.getPath(),METHOD_INVOCATION, line no: 59, 0.603448275862069, 0.4827586206896552, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,restRequest.getParams(),METHOD_INVOCATION, line no: 59, 0.603448275862069, 0.4827586206896552, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,findMatchingOperationWithExactPath(expandedPath restRequest.getMethod()),METHOD_INVOCATION, line no: 89, 0.603448275862069, 0.603448275862069, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,matchedOperation == null,INFIX_EXPRESSION, line no: 91, 0.603448275862069, 0.603448275862069, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,setPropertiesConfig(config.getProperties()),METHOD_INVOCATION, line no: 40, 0.5932203389830508, 0.5932203389830508, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,config.getProperties(),METHOD_INVOCATION, line no: 40, 0.5932203389830508, 0.5932203389830508, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,restRequest.getMethod(),METHOD_INVOCATION, line no: 58, 0.5932203389830508, 0.4745762711864407, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,restRequest.getParams(),METHOD_INVOCATION, line no: 59, 0.5932203389830508, 0.4745762711864407, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,findMatchingOperationWithExactPath(expandedPath restRequest.getMethod()),METHOD_INVOCATION, line no: 89, 0.5932203389830508, 0.5932203389830508, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,matchedOperation == null,INFIX_EXPRESSION, line no: 91, 0.5932203389830508, 0.5932203389830508, 0.0
+contains,SIMPLE_NAME, line no: 121,setPropertiesConfig(config.getProperties()),METHOD_INVOCATION, line no: 40, 0.5932203389830508, 0.5932203389830508, 0.0
+contains,SIMPLE_NAME, line no: 121,config.getProperties(),METHOD_INVOCATION, line no: 40, 0.5932203389830508, 0.5932203389830508, 0.0
+contains,SIMPLE_NAME, line no: 121,restRequest.getMethod(),METHOD_INVOCATION, line no: 58, 0.5932203389830508, 0.4745762711864407, 0.0
+contains,SIMPLE_NAME, line no: 121,RestUtils.getExpandedPath(restRequest.getPath() restRequest.getParams() restRequest),METHOD_INVOCATION, line no: 59, 0.5932203389830508, 0.4745762711864407, 0.0
+contains,SIMPLE_NAME, line no: 121,restRequest.getPath(),METHOD_INVOCATION, line no: 59, 0.5932203389830508, 0.4745762711864407, 0.0
+contains,SIMPLE_NAME, line no: 121,restRequest.getParams(),METHOD_INVOCATION, line no: 59, 0.5932203389830508, 0.4745762711864407, 0.0
+contains,SIMPLE_NAME, line no: 121,findMatchingOperationWithExactPath(expandedPath restRequest.getMethod()),METHOD_INVOCATION, line no: 89, 0.5932203389830508, 0.5932203389830508, 0.0
+operationPath,SIMPLE_NAME, line no: 121,setPropertiesConfig(config.getProperties()),METHOD_INVOCATION, line no: 40, 0.5932203389830508, 0.5932203389830508, 0.0
+operationPath,SIMPLE_NAME, line no: 121,config.getProperties(),METHOD_INVOCATION, line no: 40, 0.5932203389830508, 0.5932203389830508, 0.0
+operationPath,SIMPLE_NAME, line no: 121,restRequest.getMethod(),METHOD_INVOCATION, line no: 58, 0.5932203389830508, 0.4745762711864407, 0.0
+operationPath,SIMPLE_NAME, line no: 121,restRequest.getParams(),METHOD_INVOCATION, line no: 59, 0.5932203389830508, 0.4745762711864407, 0.0
+operationPath,SIMPLE_NAME, line no: 121,findMatchingOperationWithExactPath(expandedPath restRequest.getMethod()),METHOD_INVOCATION, line no: 89, 0.5932203389830508, 0.5932203389830508, 0.0
+operationPath,SIMPLE_NAME, line no: 121,matchedOperation == null,INFIX_EXPRESSION, line no: 91, 0.5932203389830508, 0.5932203389830508, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,setPropertiesConfig(config.getProperties()),METHOD_INVOCATION, line no: 40, 0.5862068965517241, 0.5862068965517241, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,config.getProperties(),METHOD_INVOCATION, line no: 40, 0.5862068965517241, 0.5862068965517241, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,restRequest.getMethod(),METHOD_INVOCATION, line no: 58, 0.5862068965517241, 0.46551724137931033, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,RestUtils.getExpandedPath(restRequest.getPath() restRequest.getParams() restRequest),METHOD_INVOCATION, line no: 59, 0.5862068965517241, 0.46551724137931033, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,restRequest.getPath(),METHOD_INVOCATION, line no: 59, 0.5862068965517241, 0.46551724137931033, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,restRequest.getParams(),METHOD_INVOCATION, line no: 59, 0.5862068965517241, 0.46551724137931033, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,findMatchingOperationWithExactPath(expandedPath restRequest.getMethod()),METHOD_INVOCATION, line no: 89, 0.5862068965517241, 0.5862068965517241, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,mockAction,SIMPLE_NAME, line no: 58, 0.5, 0.5, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,addEmptyMockAction,SIMPLE_NAME, line no: 58, 0.5, 0.5, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,mockAction,SIMPLE_NAME, line no: 58, 0.4915254237288136, 0.4915254237288136, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,addEmptyMockAction,SIMPLE_NAME, line no: 58, 0.4915254237288136, 0.4915254237288136, 0.0
+contains,SIMPLE_NAME, line no: 121,mockAction,SIMPLE_NAME, line no: 58, 0.4915254237288136, 0.4915254237288136, 0.0
+contains,SIMPLE_NAME, line no: 121,addEmptyMockAction,SIMPLE_NAME, line no: 58, 0.4915254237288136, 0.4915254237288136, 0.0
+operationPath,SIMPLE_NAME, line no: 121,mockAction,SIMPLE_NAME, line no: 58, 0.4915254237288136, 0.4915254237288136, 0.0
+operationPath,SIMPLE_NAME, line no: 121,addEmptyMockAction,SIMPLE_NAME, line no: 58, 0.4915254237288136, 0.4915254237288136, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,mockAction,SIMPLE_NAME, line no: 58, 0.4827586206896552, 0.4827586206896552, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,addEmptyMockAction,SIMPLE_NAME, line no: 58, 0.4827586206896552, 0.4827586206896552, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,addEmptyMockAction(restRequest.getMethod() RestUtils.getExpandedPath(restRequest.getPath() restRequest.getParams() restRequest)),METHOD_INVOCATION, line no: 58, 0.4827586206896552, 0.4827586206896552, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,addEmptyMockAction(restRequest.getMethod() RestUtils.getExpandedPath(restRequest.getPath() restRequest.getParams() restRequest)),METHOD_INVOCATION, line no: 58, 0.4745762711864407, 0.4745762711864407, 0.0
+contains,SIMPLE_NAME, line no: 121,addEmptyMockAction(restRequest.getMethod() RestUtils.getExpandedPath(restRequest.getPath() restRequest.getParams() restRequest)),METHOD_INVOCATION, line no: 58, 0.4745762711864407, 0.4745762711864407, 0.0
+operationPath,SIMPLE_NAME, line no: 121,addEmptyMockAction(restRequest.getMethod() RestUtils.getExpandedPath(restRequest.getPath() restRequest.getParams() restRequest)),METHOD_INVOCATION, line no: 58, 0.4745762711864407, 0.4745762711864407, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,addEmptyMockAction(restRequest.getMethod() RestUtils.getExpandedPath(restRequest.getPath() restRequest.getParams() restRequest)),METHOD_INVOCATION, line no: 58, 0.46551724137931033, 0.46551724137931033, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,setResource,SIMPLE_NAME, line no: 60, 0.46551724137931033, 0.46551724137931033, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,getResource,SIMPLE_NAME, line no: 60, 0.46551724137931033, 0.46551724137931033, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,setResource,SIMPLE_NAME, line no: 60, 0.4576271186440678, 0.4576271186440678, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,getResource,SIMPLE_NAME, line no: 60, 0.4576271186440678, 0.4576271186440678, 0.0
+contains,SIMPLE_NAME, line no: 121,setResource,SIMPLE_NAME, line no: 60, 0.4576271186440678, 0.4576271186440678, 0.0
+contains,SIMPLE_NAME, line no: 121,getResource,SIMPLE_NAME, line no: 60, 0.4576271186440678, 0.4576271186440678, 0.0
+operationPath,SIMPLE_NAME, line no: 121,setResource,SIMPLE_NAME, line no: 60, 0.4576271186440678, 0.4576271186440678, 0.0
+operationPath,SIMPLE_NAME, line no: 121,getResource,SIMPLE_NAME, line no: 60, 0.4576271186440678, 0.4576271186440678, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,setResource,SIMPLE_NAME, line no: 60, 0.4482758620689655, 0.4482758620689655, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,getResource,SIMPLE_NAME, line no: 60, 0.4482758620689655, 0.4482758620689655, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,mockAction.setResource(restRequest.getResource()),METHOD_INVOCATION, line no: 60, 0.4482758620689655, 0.4482758620689655, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,restRequest.getResource(),METHOD_INVOCATION, line no: 60, 0.4482758620689655, 0.4482758620689655, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,mockAction.setResource(restRequest.getResource()),METHOD_INVOCATION, line no: 60, 0.4406779661016949, 0.4406779661016949, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,restRequest.getResource(),METHOD_INVOCATION, line no: 60, 0.4406779661016949, 0.4406779661016949, 0.0
+contains,SIMPLE_NAME, line no: 121,mockAction.setResource(restRequest.getResource()),METHOD_INVOCATION, line no: 60, 0.4406779661016949, 0.4406779661016949, 0.0
+contains,SIMPLE_NAME, line no: 121,restRequest.getResource(),METHOD_INVOCATION, line no: 60, 0.4406779661016949, 0.4406779661016949, 0.0
+operationPath,SIMPLE_NAME, line no: 121,mockAction.setResource(restRequest.getResource()),METHOD_INVOCATION, line no: 60, 0.4406779661016949, 0.4406779661016949, 0.0
+operationPath,SIMPLE_NAME, line no: 121,restRequest.getResource(),METHOD_INVOCATION, line no: 60, 0.4406779661016949, 0.4406779661016949, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,mockAction.setResource(restRequest.getResource()),METHOD_INVOCATION, line no: 60, 0.43103448275862066, 0.43103448275862066, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,restRequest.getResource(),METHOD_INVOCATION, line no: 60, 0.43103448275862066, 0.43103448275862066, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,(RestMockAction)bestMatchedOperation,CAST_EXPRESSION, line no: 140, 0.41379310344827586, 0.41379310344827586, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,(RestMockAction)bestMatchedOperation,CAST_EXPRESSION, line no: 140, 0.41379310344827586, 0.41379310344827586, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,foundBetterMatch,SIMPLE_NAME, line no: 140, 0.4067796610169492, 0.4067796610169492, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,(RestMockAction)bestMatchedOperation,CAST_EXPRESSION, line no: 140, 0.4067796610169492, 0.4067796610169492, 0.0
+contains,SIMPLE_NAME, line no: 121,(RestMockAction)bestMatchedOperation,CAST_EXPRESSION, line no: 140, 0.4067796610169492, 0.4067796610169492, 0.0
+operationPath,SIMPLE_NAME, line no: 121,foundBetterMatch,SIMPLE_NAME, line no: 140, 0.4067796610169492, 0.4067796610169492, 0.0
+operationPath,SIMPLE_NAME, line no: 121,(RestMockAction)bestMatchedOperation,CAST_EXPRESSION, line no: 140, 0.4067796610169492, 0.4067796610169492, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,currentBestMatchedOperation,SIMPLE_NAME, line no: 136, 0.39655172413793105, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,currentBestMatchedOperation,SIMPLE_NAME, line no: 136, 0.39655172413793105, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,foundBetterMatch((RestMockAction)bestMatchedOperation operationPath),METHOD_INVOCATION, line no: 140, 0.39655172413793105, 0.39655172413793105, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,currentBestMatchedOperation,SIMPLE_NAME, line no: 136, 0.3898305084745763, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,foundBetterMatch((RestMockAction)bestMatchedOperation operationPath),METHOD_INVOCATION, line no: 140, 0.3898305084745763, 0.3898305084745763, 0.0
+contains,SIMPLE_NAME, line no: 121,currentBestMatchedOperation,SIMPLE_NAME, line no: 136, 0.3898305084745763, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,currentBestMatchedOperation,SIMPLE_NAME, line no: 136, 0.3898305084745763, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,foundBetterMatch((RestMockAction)bestMatchedOperation operationPath),METHOD_INVOCATION, line no: 140, 0.3898305084745763, 0.3898305084745763, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,bestMatchedOperation == null || foundBetterMatch((RestMockAction)bestMatchedOperation operationPath),INFIX_EXPRESSION, line no: 140, 0.3793103448275862, 0.3793103448275862, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,bestMatchedOperation == null,INFIX_EXPRESSION, line no: 140, 0.3793103448275862, 0.3793103448275862, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,bestMatchedOperation == null || foundBetterMatch((RestMockAction)bestMatchedOperation operationPath),INFIX_EXPRESSION, line no: 140, 0.3728813559322034, 0.3728813559322034, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,bestMatchedOperation == null,INFIX_EXPRESSION, line no: 140, 0.3728813559322034, 0.3728813559322034, 0.0
+operationPath,SIMPLE_NAME, line no: 121,bestMatchedOperation == null || foundBetterMatch((RestMockAction)bestMatchedOperation operationPath),INFIX_EXPRESSION, line no: 140, 0.3728813559322034, 0.3728813559322034, 0.0
+operationPath,SIMPLE_NAME, line no: 121,bestMatchedOperation == null,INFIX_EXPRESSION, line no: 140, 0.3728813559322034, 0.3728813559322034, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,startsWith,SIMPLE_NAME, line no: 183, 0.2711864406779661, 0.2711864406779661, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,isEmpty,SIMPLE_NAME, line no: 183, 0.2711864406779661, 0.2711864406779661, 0.0
+operationPath,SIMPLE_NAME, line no: 121,startsWith,SIMPLE_NAME, line no: 183, 0.2711864406779661, 0.2711864406779661, 0.0
+operationPath,SIMPLE_NAME, line no: 121,isEmpty,SIMPLE_NAME, line no: 183, 0.2711864406779661, 0.2711864406779661, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,"/",STRING_LITERAL, line no: 183, 0.25862068965517243, 0.25862068965517243, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,path.startsWith("/"),METHOD_INVOCATION, line no: 183, 0.25862068965517243, 0.25862068965517243, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,"/",STRING_LITERAL, line no: 183, 0.25862068965517243, 0.25862068965517243, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,path.isEmpty(),METHOD_INVOCATION, line no: 183, 0.25862068965517243, 0.25862068965517243, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,path.startsWith("/"),METHOD_INVOCATION, line no: 183, 0.2542372881355932, 0.2542372881355932, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,path.isEmpty(),METHOD_INVOCATION, line no: 183, 0.2542372881355932, 0.2542372881355932, 0.0
+contains,SIMPLE_NAME, line no: 121,"/",STRING_LITERAL, line no: 183, 0.2542372881355932, 0.2542372881355932, 0.0
+operationPath,SIMPLE_NAME, line no: 121,path.startsWith("/"),METHOD_INVOCATION, line no: 183, 0.2542372881355932, 0.2542372881355932, 0.0
+operationPath,SIMPLE_NAME, line no: 121,path.isEmpty(),METHOD_INVOCATION, line no: 183, 0.2542372881355932, 0.2542372881355932, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,restMethod.getMethod(),METHOD_INVOCATION, line no: 175, 0.2413793103448276, 0.2413793103448276, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,!path.startsWith("/") && !path.isEmpty(),INFIX_EXPRESSION, line no: 183, 0.2413793103448276, 0.2413793103448276, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,!path.startsWith("/"),PREFIX_EXPRESSION, line no: 183, 0.2413793103448276, 0.2413793103448276, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,!path.isEmpty(),PREFIX_EXPRESSION, line no: 183, 0.2413793103448276, 0.2413793103448276, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,restMethod.getMethod(),METHOD_INVOCATION, line no: 175, 0.23728813559322035, 0.23728813559322035, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,!path.startsWith("/") && !path.isEmpty(),INFIX_EXPRESSION, line no: 183, 0.23728813559322035, 0.23728813559322035, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,!path.startsWith("/"),PREFIX_EXPRESSION, line no: 183, 0.23728813559322035, 0.23728813559322035, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,!path.isEmpty(),PREFIX_EXPRESSION, line no: 183, 0.23728813559322035, 0.23728813559322035, 0.0
+contains,SIMPLE_NAME, line no: 121,restMethod.getMethod(),METHOD_INVOCATION, line no: 175, 0.23728813559322035, 0.23728813559322035, 0.0
+operationPath,SIMPLE_NAME, line no: 121,restMethod.getMethod(),METHOD_INVOCATION, line no: 175, 0.23728813559322035, 0.23728813559322035, 0.0
+operationPath,SIMPLE_NAME, line no: 121,!path.startsWith("/") && !path.isEmpty(),INFIX_EXPRESSION, line no: 183, 0.23728813559322035, 0.23728813559322035, 0.0
+operationPath,SIMPLE_NAME, line no: 121,!path.startsWith("/"),PREFIX_EXPRESSION, line no: 183, 0.23728813559322035, 0.23728813559322035, 0.0
+operationPath,SIMPLE_NAME, line no: 121,!path.isEmpty(),PREFIX_EXPRESSION, line no: 183, 0.23728813559322035, 0.23728813559322035, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,getBestMatchedOperation,SIMPLE_NAME, line no: 129, 0.22413793103448276, 0.22413793103448276, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,bestMatchedOperation.getResourcePath(),METHOD_INVOCATION, line no: 149, 0.22413793103448276, 0.22413793103448276, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,length,SIMPLE_NAME, line no: 149, 0.22413793103448276, 0.22413793103448276, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,GET,SIMPLE_NAME, line no: 170, 0.22413793103448276, 0.22413793103448276, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,addEmptyMockAction(restMethod.getMethod() path),METHOD_INVOCATION, line no: 175, 0.22413793103448276, 0.22413793103448276, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,restMethod.getMethod(),METHOD_INVOCATION, line no: 175, 0.22413793103448276, 0.22413793103448276, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,getBestMatchedOperation,SIMPLE_NAME, line no: 129, 0.22413793103448276, 0.22413793103448276, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,bestMatchedOperation.getResourcePath(),METHOD_INVOCATION, line no: 149, 0.22413793103448276, 0.22413793103448276, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,length,SIMPLE_NAME, line no: 149, 0.22413793103448276, 0.22413793103448276, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,mockOperation,SIMPLE_NAME, line no: 152, 0.22413793103448276, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,GET,SIMPLE_NAME, line no: 170, 0.22413793103448276, 0.22413793103448276, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,addEmptyMockAction(restMethod.getMethod() path),METHOD_INVOCATION, line no: 175, 0.22413793103448276, 0.22413793103448276, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,getBestMatchedOperation,SIMPLE_NAME, line no: 129, 0.22033898305084745, 0.22033898305084745, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,length,SIMPLE_NAME, line no: 149, 0.22033898305084745, 0.22033898305084745, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,mockOperation,SIMPLE_NAME, line no: 152, 0.22033898305084745, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,add,SIMPLE_NAME, line no: 170, 0.22033898305084745, 0.2033898305084746, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,GET,SIMPLE_NAME, line no: 170, 0.22033898305084745, 0.22033898305084745, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,addEmptyMockAction(restMethod.getMethod() path),METHOD_INVOCATION, line no: 175, 0.22033898305084745, 0.22033898305084745, 0.0
+contains,SIMPLE_NAME, line no: 121,getBestMatchedOperation,SIMPLE_NAME, line no: 129, 0.22033898305084745, 0.22033898305084745, 0.0
+contains,SIMPLE_NAME, line no: 121,bestMatchedOperation.getResourcePath(),METHOD_INVOCATION, line no: 149, 0.22033898305084745, 0.22033898305084745, 0.0
+contains,SIMPLE_NAME, line no: 121,length,SIMPLE_NAME, line no: 149, 0.22033898305084745, 0.22033898305084745, 0.0
+contains,SIMPLE_NAME, line no: 121,mockOperation,SIMPLE_NAME, line no: 152, 0.22033898305084745, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,GET,SIMPLE_NAME, line no: 170, 0.22033898305084745, 0.22033898305084745, 0.0
+contains,SIMPLE_NAME, line no: 121,addEmptyMockAction(restMethod.getMethod() path),METHOD_INVOCATION, line no: 175, 0.22033898305084745, 0.22033898305084745, 0.0
+operationPath,SIMPLE_NAME, line no: 121,getBestMatchedOperation,SIMPLE_NAME, line no: 129, 0.22033898305084745, 0.22033898305084745, 0.0
+operationPath,SIMPLE_NAME, line no: 121,length,SIMPLE_NAME, line no: 149, 0.22033898305084745, 0.22033898305084745, 0.0
+operationPath,SIMPLE_NAME, line no: 121,mockOperation,SIMPLE_NAME, line no: 152, 0.22033898305084745, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,add,SIMPLE_NAME, line no: 170, 0.22033898305084745, 0.2033898305084746, 0.0
+operationPath,SIMPLE_NAME, line no: 121,GET,SIMPLE_NAME, line no: 170, 0.22033898305084745, 0.22033898305084745, 0.0
+operationPath,SIMPLE_NAME, line no: 121,addEmptyMockAction(restMethod.getMethod() path),METHOD_INVOCATION, line no: 175, 0.22033898305084745, 0.22033898305084745, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,RestResource,SIMPLE_NAME, line no: 7, 0.20689655172413793, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,new RestMockAction(this restActionConfig),CLASS_INSTANCE_CREATION, line no: 33, 0.20689655172413793, 0.20689655172413793, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,getBestMatchedOperation(bestMatchedOperation operation operationPath),METHOD_INVOCATION, line no: 129, 0.20689655172413793, 0.20689655172413793, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,bestMatchedOperation.getResourcePath().length(),METHOD_INVOCATION, line no: 149, 0.20689655172413793, 0.20689655172413793, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,operationPath.length(),METHOD_INVOCATION, line no: 149, 0.20689655172413793, 0.20689655172413793, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,mockOperation,SIMPLE_NAME, line no: 152, 0.20689655172413793, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,addEmptyMockAction(HttpMethod.GET path),METHOD_INVOCATION, line no: 170, 0.20689655172413793, 0.20689655172413793, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,HttpMethod.GET,QUALIFIED_NAME, line no: 170, 0.20689655172413793, 0.20689655172413793, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,RestResource,SIMPLE_NAME, line no: 7, 0.20689655172413793, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,new RestMockAction(this restActionConfig),CLASS_INSTANCE_CREATION, line no: 33, 0.20689655172413793, 0.20689655172413793, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,bestMatchedOperation.getResourcePath().length(),METHOD_INVOCATION, line no: 149, 0.20689655172413793, 0.20689655172413793, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,operationPath.length(),METHOD_INVOCATION, line no: 149, 0.20689655172413793, 0.20689655172413793, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,this.getConfig().getRestMockActionList(),METHOD_INVOCATION, line no: 154, 0.20689655172413793, 0.20689655172413793, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,this.getConfig(),METHOD_INVOCATION, line no: 154, 0.20689655172413793, 0.20689655172413793, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,mockOperation.getConfig(),METHOD_INVOCATION, line no: 154, 0.20689655172413793, 0.20689655172413793, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,addEmptyMockAction(HttpMethod.GET path),METHOD_INVOCATION, line no: 170, 0.20689655172413793, 0.20689655172413793, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,HttpMethod.GET,QUALIFIED_NAME, line no: 170, 0.20689655172413793, 0.20689655172413793, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,actions.add(addEmptyMockAction(restMethod.getMethod() path)),METHOD_INVOCATION, line no: 175, 0.20689655172413793, 0.20689655172413793, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,RestResource,SIMPLE_NAME, line no: 7, 0.2033898305084746, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,new RestMockAction(this restActionConfig),CLASS_INSTANCE_CREATION, line no: 33, 0.2033898305084746, 0.2033898305084746, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,getBestMatchedOperation(bestMatchedOperation operation operationPath),METHOD_INVOCATION, line no: 129, 0.2033898305084746, 0.2033898305084746, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,bestMatchedOperation.getResourcePath().length(),METHOD_INVOCATION, line no: 149, 0.2033898305084746, 0.2033898305084746, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,operationPath.length(),METHOD_INVOCATION, line no: 149, 0.2033898305084746, 0.2033898305084746, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,this.getConfig().getRestMockActionList(),METHOD_INVOCATION, line no: 154, 0.2033898305084746, 0.2033898305084746, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,this.getConfig(),METHOD_INVOCATION, line no: 154, 0.2033898305084746, 0.2033898305084746, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,mockOperation.getConfig(),METHOD_INVOCATION, line no: 154, 0.2033898305084746, 0.2033898305084746, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,addEmptyMockAction(HttpMethod.GET path),METHOD_INVOCATION, line no: 170, 0.2033898305084746, 0.2033898305084746, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,HttpMethod.GET,QUALIFIED_NAME, line no: 170, 0.2033898305084746, 0.2033898305084746, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,actions.add(addEmptyMockAction(restMethod.getMethod() path)),METHOD_INVOCATION, line no: 175, 0.2033898305084746, 0.2033898305084746, 0.0
+contains,SIMPLE_NAME, line no: 121,RestResource,SIMPLE_NAME, line no: 7, 0.2033898305084746, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,new RestMockAction(this restActionConfig),CLASS_INSTANCE_CREATION, line no: 33, 0.2033898305084746, 0.2033898305084746, 0.0
+contains,SIMPLE_NAME, line no: 121,getBestMatchedOperation(bestMatchedOperation operation operationPath),METHOD_INVOCATION, line no: 129, 0.2033898305084746, 0.2033898305084746, 0.0
+contains,SIMPLE_NAME, line no: 121,bestMatchedOperation.getResourcePath().length(),METHOD_INVOCATION, line no: 149, 0.2033898305084746, 0.2033898305084746, 0.0
+contains,SIMPLE_NAME, line no: 121,operationPath.length(),METHOD_INVOCATION, line no: 149, 0.2033898305084746, 0.2033898305084746, 0.0
+contains,SIMPLE_NAME, line no: 121,this.getConfig().getRestMockActionList(),METHOD_INVOCATION, line no: 154, 0.2033898305084746, 0.2033898305084746, 0.0
+contains,SIMPLE_NAME, line no: 121,this.getConfig(),METHOD_INVOCATION, line no: 154, 0.2033898305084746, 0.2033898305084746, 0.0
+contains,SIMPLE_NAME, line no: 121,mockOperation.getConfig(),METHOD_INVOCATION, line no: 154, 0.2033898305084746, 0.2033898305084746, 0.0
+contains,SIMPLE_NAME, line no: 121,addEmptyMockAction(HttpMethod.GET path),METHOD_INVOCATION, line no: 170, 0.2033898305084746, 0.2033898305084746, 0.0
+contains,SIMPLE_NAME, line no: 121,HttpMethod.GET,QUALIFIED_NAME, line no: 170, 0.2033898305084746, 0.2033898305084746, 0.0
+operationPath,SIMPLE_NAME, line no: 121,RestResource,SIMPLE_NAME, line no: 7, 0.2033898305084746, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,new RestMockAction(this restActionConfig),CLASS_INSTANCE_CREATION, line no: 33, 0.2033898305084746, 0.2033898305084746, 0.0
+operationPath,SIMPLE_NAME, line no: 121,getBestMatchedOperation(bestMatchedOperation operation operationPath),METHOD_INVOCATION, line no: 129, 0.2033898305084746, 0.2033898305084746, 0.0
+operationPath,SIMPLE_NAME, line no: 121,bestMatchedOperation.getResourcePath().length(),METHOD_INVOCATION, line no: 149, 0.2033898305084746, 0.2033898305084746, 0.0
+operationPath,SIMPLE_NAME, line no: 121,operationPath.length(),METHOD_INVOCATION, line no: 149, 0.2033898305084746, 0.2033898305084746, 0.0
+operationPath,SIMPLE_NAME, line no: 121,this.getConfig().getRestMockActionList(),METHOD_INVOCATION, line no: 154, 0.2033898305084746, 0.2033898305084746, 0.0
+operationPath,SIMPLE_NAME, line no: 121,this.getConfig(),METHOD_INVOCATION, line no: 154, 0.2033898305084746, 0.2033898305084746, 0.0
+operationPath,SIMPLE_NAME, line no: 121,mockOperation.getConfig(),METHOD_INVOCATION, line no: 154, 0.2033898305084746, 0.2033898305084746, 0.0
+operationPath,SIMPLE_NAME, line no: 121,addEmptyMockAction(HttpMethod.GET path),METHOD_INVOCATION, line no: 170, 0.2033898305084746, 0.2033898305084746, 0.0
+operationPath,SIMPLE_NAME, line no: 121,HttpMethod.GET,QUALIFIED_NAME, line no: 170, 0.2033898305084746, 0.2033898305084746, 0.0
+operationPath,SIMPLE_NAME, line no: 121,actions.add(addEmptyMockAction(restMethod.getMethod() path)),METHOD_INVOCATION, line no: 175, 0.2033898305084746, 0.2033898305084746, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,bestMatchedOperation=getBestMatchedOperation(bestMatchedOperation operation operationPath),ASSIGNMENT, line no: 129, 0.1896551724137931, 0.1896551724137931, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,this.getConfig().getRestMockActionList().contains(mockOperation.getConfig()),METHOD_INVOCATION, line no: 154, 0.1896551724137931, 0.1896551724137931, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,this.getConfig().getRestMockActionList(),METHOD_INVOCATION, line no: 154, 0.1896551724137931, 0.1896551724137931, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,this.getConfig(),METHOD_INVOCATION, line no: 154, 0.1896551724137931, 0.1896551724137931, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,mockOperation.getConfig(),METHOD_INVOCATION, line no: 154, 0.1896551724137931, 0.1896551724137931, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,addNewMockOperationsFromResource,SIMPLE_NAME, line no: 160, 0.1896551724137931, 0.1896551724137931, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,(RestResource)operation,CAST_EXPRESSION, line no: 160, 0.1896551724137931, 0.1896551724137931, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,bestMatchedOperation.getResourcePath().length() < operationPath.length(),INFIX_EXPRESSION, line no: 149, 0.1896551724137931, 0.1896551724137931, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,this.getConfig().getRestMockActionList().contains(mockOperation.getConfig()),METHOD_INVOCATION, line no: 154, 0.1896551724137931, 0.1896551724137931, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,addNewMockOperationsFromResource,SIMPLE_NAME, line no: 160, 0.1896551724137931, 0.1896551724137931, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,(RestResource)operation,CAST_EXPRESSION, line no: 160, 0.1896551724137931, 0.1896551724137931, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,actions.add(addEmptyMockAction(HttpMethod.GET path)),METHOD_INVOCATION, line no: 170, 0.1896551724137931, 0.1896551724137931, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,dontIncludePartialMatch,SIMPLE_NAME, line no: 106, 0.1864406779661017, 0.1864406779661017, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,bestMatchedOperation=getBestMatchedOperation(bestMatchedOperation operation operationPath),ASSIGNMENT, line no: 129, 0.1864406779661017, 0.1864406779661017, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,bestMatchedOperation.getResourcePath().length() < operationPath.length(),INFIX_EXPRESSION, line no: 149, 0.1864406779661017, 0.1864406779661017, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,this.getConfig().getRestMockActionList().contains(mockOperation.getConfig()),METHOD_INVOCATION, line no: 154, 0.1864406779661017, 0.1864406779661017, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,addNewMockOperationsFromResource,SIMPLE_NAME, line no: 160, 0.1864406779661017, 0.1864406779661017, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,(RestResource)operation,CAST_EXPRESSION, line no: 160, 0.1864406779661017, 0.1864406779661017, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,actions.add(addEmptyMockAction(HttpMethod.GET path)),METHOD_INVOCATION, line no: 170, 0.1864406779661017, 0.1864406779661017, 0.0
+contains,SIMPLE_NAME, line no: 121,bestMatchedOperation=getBestMatchedOperation(bestMatchedOperation operation operationPath),ASSIGNMENT, line no: 129, 0.1864406779661017, 0.1864406779661017, 0.0
+contains,SIMPLE_NAME, line no: 121,this.getConfig().getRestMockActionList().contains(mockOperation.getConfig()),METHOD_INVOCATION, line no: 154, 0.1864406779661017, 0.1864406779661017, 0.0
+contains,SIMPLE_NAME, line no: 121,addNewMockOperationsFromResource,SIMPLE_NAME, line no: 160, 0.1864406779661017, 0.1864406779661017, 0.0
+contains,SIMPLE_NAME, line no: 121,(RestResource)operation,CAST_EXPRESSION, line no: 160, 0.1864406779661017, 0.1864406779661017, 0.0
+operationPath,SIMPLE_NAME, line no: 121,dontIncludePartialMatch,SIMPLE_NAME, line no: 106, 0.1864406779661017, 0.1864406779661017, 0.0
+operationPath,SIMPLE_NAME, line no: 121,bestMatchedOperation=getBestMatchedOperation(bestMatchedOperation operation operationPath),ASSIGNMENT, line no: 129, 0.1864406779661017, 0.1864406779661017, 0.0
+operationPath,SIMPLE_NAME, line no: 121,bestMatchedOperation.getResourcePath().length() < operationPath.length(),INFIX_EXPRESSION, line no: 149, 0.1864406779661017, 0.1864406779661017, 0.0
+operationPath,SIMPLE_NAME, line no: 121,this.getConfig().getRestMockActionList().contains(mockOperation.getConfig()),METHOD_INVOCATION, line no: 154, 0.1864406779661017, 0.1864406779661017, 0.0
+operationPath,SIMPLE_NAME, line no: 121,addNewMockOperationsFromResource,SIMPLE_NAME, line no: 160, 0.1864406779661017, 0.1864406779661017, 0.0
+operationPath,SIMPLE_NAME, line no: 121,(RestResource)operation,CAST_EXPRESSION, line no: 160, 0.1864406779661017, 0.1864406779661017, 0.0
+operationPath,SIMPLE_NAME, line no: 121,actions.add(addEmptyMockAction(HttpMethod.GET path)),METHOD_INVOCATION, line no: 170, 0.1864406779661017, 0.1864406779661017, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,findMatchedOperation,SIMPLE_NAME, line no: 101, 0.1724137931034483, 0.1724137931034483, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,addNewMockOperationsFromResource((RestResource)operation),METHOD_INVOCATION, line no: 160, 0.1724137931034483, 0.1724137931034483, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,get,SIMPLE_NAME, line no: 160, 0.1724137931034483, 0.1724137931034483, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,findMatchedOperation,SIMPLE_NAME, line no: 101, 0.1724137931034483, 0.1724137931034483, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,addNewMockOperationsFromResource((RestResource)operation),METHOD_INVOCATION, line no: 160, 0.1724137931034483, 0.1724137931034483, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,get,SIMPLE_NAME, line no: 160, 0.1724137931034483, 0.1724137931034483, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,true,BOOLEAN_LITERAL, line no: 100, 0.1694915254237288, 0.1694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,findMatchedOperation,SIMPLE_NAME, line no: 101, 0.1694915254237288, 0.1694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,false,BOOLEAN_LITERAL, line no: 106, 0.1694915254237288, 0.1694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,addNewMockOperationsFromResource((RestResource)operation),METHOD_INVOCATION, line no: 160, 0.1694915254237288, 0.1694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,get,SIMPLE_NAME, line no: 160, 0.1694915254237288, 0.1694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,findMatchedOperation,SIMPLE_NAME, line no: 101, 0.1694915254237288, 0.1694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,addNewMockOperationsFromResource((RestResource)operation),METHOD_INVOCATION, line no: 160, 0.1694915254237288, 0.1694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,get,SIMPLE_NAME, line no: 160, 0.1694915254237288, 0.1694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,true,BOOLEAN_LITERAL, line no: 100, 0.1694915254237288, 0.1694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,findMatchedOperation,SIMPLE_NAME, line no: 101, 0.1694915254237288, 0.1694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,false,BOOLEAN_LITERAL, line no: 106, 0.1694915254237288, 0.1694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,addNewMockOperationsFromResource((RestResource)operation),METHOD_INVOCATION, line no: 160, 0.1694915254237288, 0.1694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,get,SIMPLE_NAME, line no: 160, 0.1694915254237288, 0.1694915254237288, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,addNewMockAction,SIMPLE_NAME, line no: 56, 0.15517241379310345, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,findMatchedOperation(pathToFind verbToFind includePartialMatch),METHOD_INVOCATION, line no: 101, 0.15517241379310345, 0.15517241379310345, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,findMatchedOperation(pathToFind verbToFind dontIncludePartialMatch),METHOD_INVOCATION, line no: 107, 0.15517241379310345, 0.15517241379310345, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,addNewMockOperationsFromResource((RestResource)operation).get(0),METHOD_INVOCATION, line no: 160, 0.15517241379310345, 0.15517241379310345, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,0,NUMBER_LITERAL, line no: 160, 0.15517241379310345, 0.15517241379310345, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,addNewMockAction,SIMPLE_NAME, line no: 56, 0.15517241379310345, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,findMatchedOperation(pathToFind verbToFind includePartialMatch),METHOD_INVOCATION, line no: 101, 0.15517241379310345, 0.15517241379310345, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,findMatchedOperation(pathToFind verbToFind dontIncludePartialMatch),METHOD_INVOCATION, line no: 107, 0.15517241379310345, 0.15517241379310345, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,addNewMockOperationsFromResource((RestResource)operation).get(0),METHOD_INVOCATION, line no: 160, 0.15517241379310345, 0.15517241379310345, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,0,NUMBER_LITERAL, line no: 160, 0.15517241379310345, 0.15517241379310345, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,addNewMockAction,SIMPLE_NAME, line no: 56, 0.15254237288135594, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,findMatchedOperation(pathToFind verbToFind includePartialMatch),METHOD_INVOCATION, line no: 101, 0.15254237288135594, 0.15254237288135594, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,findMatchedOperation(pathToFind verbToFind dontIncludePartialMatch),METHOD_INVOCATION, line no: 107, 0.15254237288135594, 0.15254237288135594, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,addNewMockOperationsFromResource((RestResource)operation).get(0),METHOD_INVOCATION, line no: 160, 0.15254237288135594, 0.15254237288135594, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,0,NUMBER_LITERAL, line no: 160, 0.15254237288135594, 0.15254237288135594, 0.0
+contains,SIMPLE_NAME, line no: 121,addNewMockAction,SIMPLE_NAME, line no: 56, 0.15254237288135594, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,findMatchedOperation(pathToFind verbToFind includePartialMatch),METHOD_INVOCATION, line no: 101, 0.15254237288135594, 0.15254237288135594, 0.0
+contains,SIMPLE_NAME, line no: 121,findMatchedOperation(pathToFind verbToFind dontIncludePartialMatch),METHOD_INVOCATION, line no: 107, 0.15254237288135594, 0.15254237288135594, 0.0
+contains,SIMPLE_NAME, line no: 121,addNewMockOperationsFromResource((RestResource)operation).get(0),METHOD_INVOCATION, line no: 160, 0.15254237288135594, 0.15254237288135594, 0.0
+contains,SIMPLE_NAME, line no: 121,0,NUMBER_LITERAL, line no: 160, 0.15254237288135594, 0.15254237288135594, 0.0
+operationPath,SIMPLE_NAME, line no: 121,addNewMockAction,SIMPLE_NAME, line no: 56, 0.15254237288135594, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,findMatchedOperation(pathToFind verbToFind includePartialMatch),METHOD_INVOCATION, line no: 101, 0.15254237288135594, 0.15254237288135594, 0.0
+operationPath,SIMPLE_NAME, line no: 121,findMatchedOperation(pathToFind verbToFind dontIncludePartialMatch),METHOD_INVOCATION, line no: 107, 0.15254237288135594, 0.15254237288135594, 0.0
+operationPath,SIMPLE_NAME, line no: 121,addNewMockOperationsFromResource((RestResource)operation).get(0),METHOD_INVOCATION, line no: 160, 0.15254237288135594, 0.15254237288135594, 0.0
+operationPath,SIMPLE_NAME, line no: 121,0,NUMBER_LITERAL, line no: 160, 0.15254237288135594, 0.15254237288135594, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,addNewMockAction(restRequest),METHOD_INVOCATION, line no: 93, 0.13793103448275862, 0.13793103448275862, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,addNewMockAction(restRequest),METHOD_INVOCATION, line no: 93, 0.13793103448275862, 0.13793103448275862, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,addNewMockAction(restRequest),METHOD_INVOCATION, line no: 93, 0.13559322033898305, 0.13559322033898305, 0.0
+contains,SIMPLE_NAME, line no: 121,addNewMockAction(restRequest),METHOD_INVOCATION, line no: 93, 0.13559322033898305, 0.13559322033898305, 0.0
+operationPath,SIMPLE_NAME, line no: 121,addNewMockAction(restRequest),METHOD_INVOCATION, line no: 93, 0.13559322033898305, 0.13559322033898305, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,matchedOperation=addNewMockAction(restRequest),ASSIGNMENT, line no: 93, 0.1206896551724138, 0.1206896551724138, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,matchedOperation=addNewMockAction(restRequest),ASSIGNMENT, line no: 93, 0.1206896551724138, 0.1206896551724138, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,matchedOperation=addNewMockAction(restRequest),ASSIGNMENT, line no: 93, 0.11864406779661017, 0.11864406779661017, 0.0
+contains,SIMPLE_NAME, line no: 121,matchedOperation=addNewMockAction(restRequest),ASSIGNMENT, line no: 93, 0.11864406779661017, 0.11864406779661017, 0.0
+operationPath,SIMPLE_NAME, line no: 121,matchedOperation=addNewMockAction(restRequest),ASSIGNMENT, line no: 93, 0.11864406779661017, 0.11864406779661017, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,bestMatchedOperation=operation,ASSIGNMENT, line no: 142, 0.08620689655172414, 0.08620689655172414, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,"/" + path,INFIX_EXPRESSION, line no: 185, 0.08620689655172414, 0.08620689655172414, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,bestMatchedOperation=operation,ASSIGNMENT, line no: 142, 0.08620689655172414, 0.08620689655172414, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,"/" + path,INFIX_EXPRESSION, line no: 185, 0.08620689655172414, 0.08620689655172414, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,bestMatchedOperation=operation,ASSIGNMENT, line no: 142, 0.0847457627118644, 0.0847457627118644, 0.0
+contains,SIMPLE_NAME, line no: 121,bestMatchedOperation=operation,ASSIGNMENT, line no: 142, 0.0847457627118644, 0.0847457627118644, 0.0
+contains,SIMPLE_NAME, line no: 121,"/" + path,INFIX_EXPRESSION, line no: 185, 0.0847457627118644, 0.0847457627118644, 0.0
+operationPath,SIMPLE_NAME, line no: 121,bestMatchedOperation=operation,ASSIGNMENT, line no: 142, 0.0847457627118644, 0.0847457627118644, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,HelpUrls,SIMPLE_NAME, line no: 11, 0.06896551724137931, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,mockContext,SIMPLE_NAME, line no: 51, 0.06896551724137931, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,RestMockDispatcher,SIMPLE_NAME, line no: 53, 0.06896551724137931, 0.06896551724137931, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,REST_MOCKSERVICE_HELP_URL,SIMPLE_NAME, line no: 194, 0.06896551724137931, 0.06896551724137931, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,HelpUrls,SIMPLE_NAME, line no: 11, 0.06896551724137931, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,mockContext,SIMPLE_NAME, line no: 51, 0.06896551724137931, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,RestMockDispatcher,SIMPLE_NAME, line no: 53, 0.06896551724137931, 0.06896551724137931, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,REST_MOCKSERVICE_HELP_URL,SIMPLE_NAME, line no: 194, 0.06896551724137931, 0.06896551724137931, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,HelpUrls,SIMPLE_NAME, line no: 11, 0.06779661016949153, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,mockContext,SIMPLE_NAME, line no: 51, 0.06779661016949153, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,RestMockDispatcher,SIMPLE_NAME, line no: 53, 0.06779661016949153, 0.06779661016949153, 0.0
+contains,SIMPLE_NAME, line no: 121,HelpUrls,SIMPLE_NAME, line no: 11, 0.06779661016949153, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,mockContext,SIMPLE_NAME, line no: 51, 0.06779661016949153, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,RestMockDispatcher,SIMPLE_NAME, line no: 53, 0.06779661016949153, 0.06779661016949153, 0.0
+contains,SIMPLE_NAME, line no: 121,REST_MOCKSERVICE_HELP_URL,SIMPLE_NAME, line no: 194, 0.06779661016949153, 0.06779661016949153, 0.0
+operationPath,SIMPLE_NAME, line no: 121,HelpUrls,SIMPLE_NAME, line no: 11, 0.06779661016949153, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,mockContext,SIMPLE_NAME, line no: 51, 0.06779661016949153, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,RestMockDispatcher,SIMPLE_NAME, line no: 53, 0.06779661016949153, 0.06779661016949153, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,new RestMockDispatcher(this mockContext),CLASS_INSTANCE_CREATION, line no: 53, 0.05172413793103448, 0.05172413793103448, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,HelpUrls.REST_MOCKSERVICE_HELP_URL,QUALIFIED_NAME, line no: 194, 0.05172413793103448, 0.05172413793103448, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,new RestMockDispatcher(this mockContext),CLASS_INSTANCE_CREATION, line no: 53, 0.05172413793103448, 0.05172413793103448, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,HelpUrls.REST_MOCKSERVICE_HELP_URL,QUALIFIED_NAME, line no: 194, 0.05172413793103448, 0.05172413793103448, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,new RestMockDispatcher(this mockContext),CLASS_INSTANCE_CREATION, line no: 53, 0.05084745762711865, 0.05084745762711865, 0.0
+contains,SIMPLE_NAME, line no: 121,new RestMockDispatcher(this mockContext),CLASS_INSTANCE_CREATION, line no: 53, 0.05084745762711865, 0.05084745762711865, 0.0
+contains,SIMPLE_NAME, line no: 121,HelpUrls.REST_MOCKSERVICE_HELP_URL,QUALIFIED_NAME, line no: 194, 0.05084745762711865, 0.05084745762711865, 0.0
+operationPath,SIMPLE_NAME, line no: 121,new RestMockDispatcher(this mockContext),CLASS_INSTANCE_CREATION, line no: 53, 0.05084745762711865, 0.05084745762711865, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,com,SIMPLE_NAME, line no: 1, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,eviware,SIMPLE_NAME, line no: 1, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,soapui,SIMPLE_NAME, line no: 1, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,impl,SIMPLE_NAME, line no: 1, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,rest,SIMPLE_NAME, line no: 1, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,mock,SIMPLE_NAME, line no: 1, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,RESTMockServiceConfig,SIMPLE_NAME, line no: 4, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,RestRequest,SIMPLE_NAME, line no: 6, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,support,SIMPLE_NAME, line no: 8, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,AbstractMockService,SIMPLE_NAME, line no: 9, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,wsdl,SIMPLE_NAME, line no: 10, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,WsdlMockRunContext,SIMPLE_NAME, line no: 10, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,model,SIMPLE_NAME, line no: 12, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,iface,SIMPLE_NAME, line no: 12, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,Operation,SIMPLE_NAME, line no: 12, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,MockDispatcher,SIMPLE_NAME, line no: 13, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,Project,SIMPLE_NAME, line no: 15, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,RestRequestInterface,SIMPLE_NAME, line no: 16, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,java,SIMPLE_NAME, line no: 18, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,util,SIMPLE_NAME, line no: 18, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,RestMockService,SIMPLE_NAME, line no: 21, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,RestMockResponse,SIMPLE_NAME, line no: 21, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,"/restMockService.gif",STRING_LITERAL, line no: 24, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,Override,SIMPLE_NAME, line no: 44, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,getIconName,SIMPLE_NAME, line no: 45, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,createDispatcher,SIMPLE_NAME, line no: 51, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,findOrCreateNewOperation,SIMPLE_NAME, line no: 85, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,findBestMatchedOperation,SIMPLE_NAME, line no: 98, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,addNewMockOperation,SIMPLE_NAME, line no: 158, 0.017241379310344827, 0.017241379310344827, 0.0
+matchesPathPartially,SIMPLE_NAME, line no: 121,getHelpUrl,SIMPLE_NAME, line no: 192, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,com,SIMPLE_NAME, line no: 1, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,eviware,SIMPLE_NAME, line no: 1, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,soapui,SIMPLE_NAME, line no: 1, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,impl,SIMPLE_NAME, line no: 1, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,rest,SIMPLE_NAME, line no: 1, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,mock,SIMPLE_NAME, line no: 1, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,RESTMockServiceConfig,SIMPLE_NAME, line no: 4, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,RestRequest,SIMPLE_NAME, line no: 6, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,support,SIMPLE_NAME, line no: 8, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,AbstractMockService,SIMPLE_NAME, line no: 9, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,wsdl,SIMPLE_NAME, line no: 10, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,WsdlMockRunContext,SIMPLE_NAME, line no: 10, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,model,SIMPLE_NAME, line no: 12, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,iface,SIMPLE_NAME, line no: 12, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,Operation,SIMPLE_NAME, line no: 12, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,MockDispatcher,SIMPLE_NAME, line no: 13, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,Project,SIMPLE_NAME, line no: 15, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,RestRequestInterface,SIMPLE_NAME, line no: 16, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,java,SIMPLE_NAME, line no: 18, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,util,SIMPLE_NAME, line no: 18, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,RestMockService,SIMPLE_NAME, line no: 21, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,RestMockResponse,SIMPLE_NAME, line no: 21, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,"/restMockService.gif",STRING_LITERAL, line no: 24, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,Override,SIMPLE_NAME, line no: 44, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,getIconName,SIMPLE_NAME, line no: 45, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,createDispatcher,SIMPLE_NAME, line no: 51, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,findOrCreateNewOperation,SIMPLE_NAME, line no: 85, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,findBestMatchedOperation,SIMPLE_NAME, line no: 98, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,addNewMockOperation,SIMPLE_NAME, line no: 158, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind.contains(operationPath),METHOD_INVOCATION, line no: 121,getHelpUrl,SIMPLE_NAME, line no: 192, 0.017241379310344827, 0.017241379310344827, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,com,SIMPLE_NAME, line no: 1, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,eviware,SIMPLE_NAME, line no: 1, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,soapui,SIMPLE_NAME, line no: 1, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,impl,SIMPLE_NAME, line no: 1, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,rest,SIMPLE_NAME, line no: 1, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,mock,SIMPLE_NAME, line no: 1, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,RESTMockServiceConfig,SIMPLE_NAME, line no: 4, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,RestRequest,SIMPLE_NAME, line no: 6, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,support,SIMPLE_NAME, line no: 8, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,AbstractMockService,SIMPLE_NAME, line no: 9, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,wsdl,SIMPLE_NAME, line no: 10, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,WsdlMockRunContext,SIMPLE_NAME, line no: 10, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,model,SIMPLE_NAME, line no: 12, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,iface,SIMPLE_NAME, line no: 12, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,Operation,SIMPLE_NAME, line no: 12, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,MockDispatcher,SIMPLE_NAME, line no: 13, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,Project,SIMPLE_NAME, line no: 15, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,RestRequestInterface,SIMPLE_NAME, line no: 16, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,java,SIMPLE_NAME, line no: 18, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,util,SIMPLE_NAME, line no: 18, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,RestMockService,SIMPLE_NAME, line no: 21, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,RestMockResponse,SIMPLE_NAME, line no: 21, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,Override,SIMPLE_NAME, line no: 44, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,createDispatcher,SIMPLE_NAME, line no: 51, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,findOrCreateNewOperation,SIMPLE_NAME, line no: 85, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,findBestMatchedOperation,SIMPLE_NAME, line no: 98, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,canIAddAMockOperation,SIMPLE_NAME, line no: 152, 0.01694915254237288, 0.01694915254237288, 0.0
+pathToFind,SIMPLE_NAME, line no: 121,addNewMockOperation,SIMPLE_NAME, line no: 158, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,com,SIMPLE_NAME, line no: 1, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,eviware,SIMPLE_NAME, line no: 1, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,soapui,SIMPLE_NAME, line no: 1, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,impl,SIMPLE_NAME, line no: 1, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,rest,SIMPLE_NAME, line no: 1, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,mock,SIMPLE_NAME, line no: 1, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,RESTMockServiceConfig,SIMPLE_NAME, line no: 4, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,RestRequest,SIMPLE_NAME, line no: 6, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,support,SIMPLE_NAME, line no: 8, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,AbstractMockService,SIMPLE_NAME, line no: 9, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,wsdl,SIMPLE_NAME, line no: 10, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,WsdlMockRunContext,SIMPLE_NAME, line no: 10, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,model,SIMPLE_NAME, line no: 12, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,iface,SIMPLE_NAME, line no: 12, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,Operation,SIMPLE_NAME, line no: 12, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,MockDispatcher,SIMPLE_NAME, line no: 13, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,Project,SIMPLE_NAME, line no: 15, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,RestRequestInterface,SIMPLE_NAME, line no: 16, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,java,SIMPLE_NAME, line no: 18, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,util,SIMPLE_NAME, line no: 18, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,RestMockService,SIMPLE_NAME, line no: 21, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,RestMockResponse,SIMPLE_NAME, line no: 21, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,"/restMockService.gif",STRING_LITERAL, line no: 24, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,Override,SIMPLE_NAME, line no: 44, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,getIconName,SIMPLE_NAME, line no: 45, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,createDispatcher,SIMPLE_NAME, line no: 51, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,findOrCreateNewOperation,SIMPLE_NAME, line no: 85, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,findBestMatchedOperation,SIMPLE_NAME, line no: 98, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,addNewMockOperation,SIMPLE_NAME, line no: 158, 0.01694915254237288, 0.01694915254237288, 0.0
+contains,SIMPLE_NAME, line no: 121,getHelpUrl,SIMPLE_NAME, line no: 192, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,com,SIMPLE_NAME, line no: 1, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,eviware,SIMPLE_NAME, line no: 1, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,soapui,SIMPLE_NAME, line no: 1, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,impl,SIMPLE_NAME, line no: 1, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,rest,SIMPLE_NAME, line no: 1, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,mock,SIMPLE_NAME, line no: 1, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,RESTMockServiceConfig,SIMPLE_NAME, line no: 4, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,RestRequest,SIMPLE_NAME, line no: 6, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,support,SIMPLE_NAME, line no: 8, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,AbstractMockService,SIMPLE_NAME, line no: 9, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,wsdl,SIMPLE_NAME, line no: 10, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,WsdlMockRunContext,SIMPLE_NAME, line no: 10, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,model,SIMPLE_NAME, line no: 12, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,iface,SIMPLE_NAME, line no: 12, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,Operation,SIMPLE_NAME, line no: 12, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,MockDispatcher,SIMPLE_NAME, line no: 13, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,Project,SIMPLE_NAME, line no: 15, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,RestRequestInterface,SIMPLE_NAME, line no: 16, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,java,SIMPLE_NAME, line no: 18, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,util,SIMPLE_NAME, line no: 18, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,RestMockService,SIMPLE_NAME, line no: 21, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,RestMockResponse,SIMPLE_NAME, line no: 21, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,Override,SIMPLE_NAME, line no: 44, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,createDispatcher,SIMPLE_NAME, line no: 51, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,findOrCreateNewOperation,SIMPLE_NAME, line no: 85, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,findBestMatchedOperation,SIMPLE_NAME, line no: 98, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,canIAddAMockOperation,SIMPLE_NAME, line no: 152, 0.01694915254237288, 0.01694915254237288, 0.0
+operationPath,SIMPLE_NAME, line no: 121,addNewMockOperation,SIMPLE_NAME, line no: 158, 0.01694915254237288, 0.01694915254237288, 0.0

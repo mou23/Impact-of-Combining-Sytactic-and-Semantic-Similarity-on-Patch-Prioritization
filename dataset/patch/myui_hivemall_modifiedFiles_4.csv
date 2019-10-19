@@ -1,0 +1,116 @@
+mean(),METHOD_INVOCATION, line no: 68,mean,SIMPLE_NAME, line no: 29, 2.0, 0.2, 1.0
+mean(),METHOD_INVOCATION, line no: 68,variance,SIMPLE_NAME, line no: 71, 2.0, 0.2, 1.0
+mean(),METHOD_INVOCATION, line no: 68,sqrt,SIMPLE_NAME, line no: 76, 2.0, 1.0, 1.0
+mean,SIMPLE_NAME, line no: 68,variance,SIMPLE_NAME, line no: 71, 2.0, 0.16666666666666666, 1.0
+mean,SIMPLE_NAME, line no: 68,Math.sqrt(variance()),METHOD_INVOCATION, line no: 76, 2.0, 1.0, 1.0
+mean,SIMPLE_NAME, line no: 68,sqrt,SIMPLE_NAME, line no: 76, 2.0, 1.0, 1.0
+mean,SIMPLE_NAME, line no: 68,variance(),METHOD_INVOCATION, line no: 76, 2.0, 1.0, 1.0
+mean,SIMPLE_NAME, line no: 68,m2,SIMPLE_NAME, line no: 30, 1.8333333333333335, 0.16666666666666666, 1.0
+mean,SIMPLE_NAME, line no: 68,x,SIMPLE_NAME, line no: 42, 1.8333333333333335, 0.16666666666666666, 1.0
+mean,SIMPLE_NAME, line no: 68,x - mean,INFIX_EXPRESSION, line no: 44, 1.8333333333333335, 0.3333333333333333, 1.0
+mean,SIMPLE_NAME, line no: 68,(x - mean),PARENTHESIZED_EXPRESSION, line no: 46, 1.8333333333333335, 0.3333333333333333, 1.0
+mean,SIMPLE_NAME, line no: 68,old_mean,SIMPLE_NAME, line no: 57, 1.8333333333333335, 0.8333333333333334, 1.0
+mean,SIMPLE_NAME, line no: 68,(n * mean - x) / (n - 1L),INFIX_EXPRESSION, line no: 57, 1.8333333333333335, 0.8333333333333334, 1.0
+mean,SIMPLE_NAME, line no: 68,(n * mean - x),PARENTHESIZED_EXPRESSION, line no: 57, 1.8333333333333335, 0.8333333333333334, 1.0
+mean,SIMPLE_NAME, line no: 68,n * mean - x,INFIX_EXPRESSION, line no: 57, 1.8333333333333335, 0.8333333333333334, 1.0
+mean,SIMPLE_NAME, line no: 68,n * mean,INFIX_EXPRESSION, line no: 57, 1.8333333333333335, 0.8333333333333334, 1.0
+mean,SIMPLE_NAME, line no: 68,m2-=(x - mean) * (x - old_mean),ASSIGNMENT, line no: 58, 1.8333333333333335, 0.8333333333333334, 1.0
+mean,SIMPLE_NAME, line no: 68,(x - mean) * (x - old_mean),INFIX_EXPRESSION, line no: 58, 1.8333333333333335, 0.8333333333333334, 1.0
+mean,SIMPLE_NAME, line no: 68,(x - old_mean),PARENTHESIZED_EXPRESSION, line no: 58, 1.8333333333333335, 0.8333333333333334, 1.0
+mean,SIMPLE_NAME, line no: 68,x - old_mean,INFIX_EXPRESSION, line no: 58, 1.8333333333333335, 0.8333333333333334, 1.0
+mean,SIMPLE_NAME, line no: 68,mean=old_mean,ASSIGNMENT, line no: 59, 1.8333333333333335, 0.8333333333333334, 1.0
+mean,SIMPLE_NAME, line no: 68,mean(),METHOD_INVOCATION, line no: 68, 1.8333333333333335, 0.8333333333333334, 1.0
+mean(),METHOD_INVOCATION, line no: 68,m2,SIMPLE_NAME, line no: 30, 1.8, 0.2, 1.0
+mean(),METHOD_INVOCATION, line no: 68,x,SIMPLE_NAME, line no: 42, 1.8, 0.2, 1.0
+mean(),METHOD_INVOCATION, line no: 68,old_mean,SIMPLE_NAME, line no: 57, 1.8, 0.8, 1.0
+mean,SIMPLE_NAME, line no: 68,0.d,NUMBER_LITERAL, line no: 38, 1.6666666666666665, 0.3333333333333333, 1.0
+mean,SIMPLE_NAME, line no: 68,n > 1 ? (m2 / (n - 1)) : 0.d,CONDITIONAL_EXPRESSION, line no: 72, 1.6666666666666665, 0.6666666666666666, 1.0
+mean,SIMPLE_NAME, line no: 68,(m2 / (n - 1)),PARENTHESIZED_EXPRESSION, line no: 72, 1.6666666666666665, 0.6666666666666666, 1.0
+mean,SIMPLE_NAME, line no: 68,m2 / (n - 1),INFIX_EXPRESSION, line no: 72, 1.6666666666666665, 0.6666666666666666, 1.0
+mean,SIMPLE_NAME, line no: 68,this.mean=0.d,ASSIGNMENT, line no: 38, 1.3333333333333333, 0.3333333333333333, 1.0
+mean,SIMPLE_NAME, line no: 68,this.mean,FIELD_ACCESS, line no: 38, 1.3333333333333333, 0.3333333333333333, 1.0
+mean,SIMPLE_NAME, line no: 68,this.m2=0.d,ASSIGNMENT, line no: 39, 1.3333333333333333, 0.3333333333333333, 1.0
+mean,SIMPLE_NAME, line no: 68,this.m2,FIELD_ACCESS, line no: 39, 1.3333333333333333, 0.3333333333333333, 1.0
+mean,SIMPLE_NAME, line no: 68,delta,SIMPLE_NAME, line no: 44, 1.3333333333333333, 0.3333333333333333, 1.0
+mean,SIMPLE_NAME, line no: 68,mean+=delta / n,ASSIGNMENT, line no: 45, 1.3333333333333333, 0.3333333333333333, 1.0
+mean,SIMPLE_NAME, line no: 68,delta / n,INFIX_EXPRESSION, line no: 45, 1.3333333333333333, 0.3333333333333333, 1.0
+mean,SIMPLE_NAME, line no: 68,m2+=delta * (x - mean),ASSIGNMENT, line no: 46, 1.3333333333333333, 0.3333333333333333, 1.0
+mean,SIMPLE_NAME, line no: 68,delta * (x - mean),INFIX_EXPRESSION, line no: 46, 1.3333333333333333, 0.3333333333333333, 1.0
+mean(),METHOD_INVOCATION, line no: 68,delta,SIMPLE_NAME, line no: 44, 1.2, 0.2, 1.0
+mean(),METHOD_INVOCATION, line no: 68,stddev,SIMPLE_NAME, line no: 75, 1.2, 0.2, 1.0
+mean,SIMPLE_NAME, line no: 68,stddev,SIMPLE_NAME, line no: 75, 1.1666666666666667, 0.16666666666666666, 1.0
+mean(),METHOD_INVOCATION, line no: 68,Math.sqrt(variance()),METHOD_INVOCATION, line no: 76, 1.0, 1.0, 0.0
+mean(),METHOD_INVOCATION, line no: 68,Math,SIMPLE_NAME, line no: 76, 1.0, 1.0, 0.0
+mean(),METHOD_INVOCATION, line no: 68,variance(),METHOD_INVOCATION, line no: 76, 1.0, 1.0, 0.0
+mean,SIMPLE_NAME, line no: 68,Math,SIMPLE_NAME, line no: 76, 1.0, 1.0, 0.0
+mean,SIMPLE_NAME, line no: 68,n,SIMPLE_NAME, line no: 28, 0.8333333333333334, 0.16666666666666666, 0.0
+mean,SIMPLE_NAME, line no: 68,reset,SIMPLE_NAME, line no: 33, 0.8333333333333334, 0.6666666666666666, 0.0
+mean,SIMPLE_NAME, line no: 68,0L,NUMBER_LITERAL, line no: 37, 0.8333333333333334, 0.3333333333333333, 0.0
+mean,SIMPLE_NAME, line no: 68,n == 0L,INFIX_EXPRESSION, line no: 50, 0.8333333333333334, 0.8333333333333334, 0.0
+mean,SIMPLE_NAME, line no: 68,n == 1L,INFIX_EXPRESSION, line no: 53, 0.8333333333333334, 0.8333333333333334, 0.0
+mean,SIMPLE_NAME, line no: 68,1L,NUMBER_LITERAL, line no: 53, 0.8333333333333334, 0.8333333333333334, 0.0
+mean,SIMPLE_NAME, line no: 68,(n - 1L),PARENTHESIZED_EXPRESSION, line no: 57, 0.8333333333333334, 0.8333333333333334, 0.0
+mean,SIMPLE_NAME, line no: 68,n - 1L,INFIX_EXPRESSION, line no: 57, 0.8333333333333334, 0.8333333333333334, 0.0
+mean,SIMPLE_NAME, line no: 68,--n,PREFIX_EXPRESSION, line no: 60, 0.8333333333333334, 0.8333333333333334, 0.0
+mean(),METHOD_INVOCATION, line no: 68,n,SIMPLE_NAME, line no: 28, 0.8, 0.2, 0.0
+mean(),METHOD_INVOCATION, line no: 68,reset(),METHOD_INVOCATION, line no: 33, 0.8, 0.6, 0.0
+mean(),METHOD_INVOCATION, line no: 68,reset,SIMPLE_NAME, line no: 33, 0.8, 0.6, 0.0
+mean(),METHOD_INVOCATION, line no: 68,0L,NUMBER_LITERAL, line no: 37, 0.8, 0.2, 0.0
+mean(),METHOD_INVOCATION, line no: 68,x - mean,INFIX_EXPRESSION, line no: 44, 0.8, 0.2, 0.0
+mean(),METHOD_INVOCATION, line no: 68,(x - mean),PARENTHESIZED_EXPRESSION, line no: 46, 0.8, 0.2, 0.0
+mean(),METHOD_INVOCATION, line no: 68,n == 0L,INFIX_EXPRESSION, line no: 50, 0.8, 0.8, 0.0
+mean(),METHOD_INVOCATION, line no: 68,n == 1L,INFIX_EXPRESSION, line no: 53, 0.8, 0.8, 0.0
+mean(),METHOD_INVOCATION, line no: 68,1L,NUMBER_LITERAL, line no: 53, 0.8, 0.8, 0.0
+mean(),METHOD_INVOCATION, line no: 68,(n * mean - x) / (n - 1L),INFIX_EXPRESSION, line no: 57, 0.8, 0.8, 0.0
+mean(),METHOD_INVOCATION, line no: 68,(n * mean - x),PARENTHESIZED_EXPRESSION, line no: 57, 0.8, 0.8, 0.0
+mean(),METHOD_INVOCATION, line no: 68,n * mean - x,INFIX_EXPRESSION, line no: 57, 0.8, 0.8, 0.0
+mean(),METHOD_INVOCATION, line no: 68,n * mean,INFIX_EXPRESSION, line no: 57, 0.8, 0.8, 0.0
+mean(),METHOD_INVOCATION, line no: 68,(n - 1L),PARENTHESIZED_EXPRESSION, line no: 57, 0.8, 0.8, 0.0
+mean(),METHOD_INVOCATION, line no: 68,n - 1L,INFIX_EXPRESSION, line no: 57, 0.8, 0.8, 0.0
+mean(),METHOD_INVOCATION, line no: 68,m2-=(x - mean) * (x - old_mean),ASSIGNMENT, line no: 58, 0.8, 0.8, 0.0
+mean(),METHOD_INVOCATION, line no: 68,(x - mean) * (x - old_mean),INFIX_EXPRESSION, line no: 58, 0.8, 0.8, 0.0
+mean(),METHOD_INVOCATION, line no: 68,(x - old_mean),PARENTHESIZED_EXPRESSION, line no: 58, 0.8, 0.8, 0.0
+mean(),METHOD_INVOCATION, line no: 68,x - old_mean,INFIX_EXPRESSION, line no: 58, 0.8, 0.8, 0.0
+mean(),METHOD_INVOCATION, line no: 68,mean=old_mean,ASSIGNMENT, line no: 59, 0.8, 0.8, 0.0
+mean(),METHOD_INVOCATION, line no: 68,--n,PREFIX_EXPRESSION, line no: 60, 0.8, 0.8, 0.0
+mean,SIMPLE_NAME, line no: 68,reset(),METHOD_INVOCATION, line no: 33, 0.6666666666666666, 0.5, 0.0
+mean,SIMPLE_NAME, line no: 68,n > 1,INFIX_EXPRESSION, line no: 72, 0.6666666666666666, 0.6666666666666666, 0.0
+mean,SIMPLE_NAME, line no: 68,1,NUMBER_LITERAL, line no: 72, 0.6666666666666666, 0.6666666666666666, 0.0
+mean,SIMPLE_NAME, line no: 68,(n - 1),PARENTHESIZED_EXPRESSION, line no: 72, 0.6666666666666666, 0.6666666666666666, 0.0
+mean,SIMPLE_NAME, line no: 68,n - 1,INFIX_EXPRESSION, line no: 72, 0.6666666666666666, 0.6666666666666666, 0.0
+mean(),METHOD_INVOCATION, line no: 68,0.d,NUMBER_LITERAL, line no: 38, 0.6, 0.2, 0.0
+mean(),METHOD_INVOCATION, line no: 68,n > 1 ? (m2 / (n - 1)) : 0.d,CONDITIONAL_EXPRESSION, line no: 72, 0.6, 0.6, 0.0
+mean(),METHOD_INVOCATION, line no: 68,n > 1,INFIX_EXPRESSION, line no: 72, 0.6, 0.6, 0.0
+mean(),METHOD_INVOCATION, line no: 68,1,NUMBER_LITERAL, line no: 72, 0.6, 0.6, 0.0
+mean(),METHOD_INVOCATION, line no: 68,(m2 / (n - 1)),PARENTHESIZED_EXPRESSION, line no: 72, 0.6, 0.6, 0.0
+mean(),METHOD_INVOCATION, line no: 68,m2 / (n - 1),INFIX_EXPRESSION, line no: 72, 0.6, 0.6, 0.0
+mean(),METHOD_INVOCATION, line no: 68,(n - 1),PARENTHESIZED_EXPRESSION, line no: 72, 0.6, 0.6, 0.0
+mean(),METHOD_INVOCATION, line no: 68,n - 1,INFIX_EXPRESSION, line no: 72, 0.6, 0.6, 0.0
+mean,SIMPLE_NAME, line no: 68,this.n=0L,ASSIGNMENT, line no: 37, 0.3333333333333333, 0.3333333333333333, 0.0
+mean,SIMPLE_NAME, line no: 68,this.n,FIELD_ACCESS, line no: 37, 0.3333333333333333, 0.3333333333333333, 0.0
+mean,SIMPLE_NAME, line no: 68,this,THIS_EXPRESSION, line no: 37, 0.3333333333333333, 0.3333333333333333, 0.0
+mean,SIMPLE_NAME, line no: 68,++n,PREFIX_EXPRESSION, line no: 43, 0.3333333333333333, 0.3333333333333333, 0.0
+mean(),METHOD_INVOCATION, line no: 68,hivemall,SIMPLE_NAME, line no: 21, 0.2, 0.2, 0.0
+mean(),METHOD_INVOCATION, line no: 68,common,SIMPLE_NAME, line no: 21, 0.2, 0.2, 0.0
+mean(),METHOD_INVOCATION, line no: 68,OnlineVariance,SIMPLE_NAME, line no: 26, 0.2, 0.2, 0.0
+mean(),METHOD_INVOCATION, line no: 68,this.n=0L,ASSIGNMENT, line no: 37, 0.2, 0.2, 0.0
+mean(),METHOD_INVOCATION, line no: 68,this.n,FIELD_ACCESS, line no: 37, 0.2, 0.2, 0.0
+mean(),METHOD_INVOCATION, line no: 68,this,THIS_EXPRESSION, line no: 37, 0.2, 0.2, 0.0
+mean(),METHOD_INVOCATION, line no: 68,this.mean=0.d,ASSIGNMENT, line no: 38, 0.2, 0.2, 0.0
+mean(),METHOD_INVOCATION, line no: 68,this.mean,FIELD_ACCESS, line no: 38, 0.2, 0.2, 0.0
+mean(),METHOD_INVOCATION, line no: 68,this.m2=0.d,ASSIGNMENT, line no: 39, 0.2, 0.2, 0.0
+mean(),METHOD_INVOCATION, line no: 68,this.m2,FIELD_ACCESS, line no: 39, 0.2, 0.2, 0.0
+mean(),METHOD_INVOCATION, line no: 68,handle,SIMPLE_NAME, line no: 42, 0.2, 0.2, 0.0
+mean(),METHOD_INVOCATION, line no: 68,++n,PREFIX_EXPRESSION, line no: 43, 0.2, 0.2, 0.0
+mean(),METHOD_INVOCATION, line no: 68,mean+=delta / n,ASSIGNMENT, line no: 45, 0.2, 0.2, 0.0
+mean(),METHOD_INVOCATION, line no: 68,delta / n,INFIX_EXPRESSION, line no: 45, 0.2, 0.2, 0.0
+mean(),METHOD_INVOCATION, line no: 68,m2+=delta * (x - mean),ASSIGNMENT, line no: 46, 0.2, 0.2, 0.0
+mean(),METHOD_INVOCATION, line no: 68,delta * (x - mean),INFIX_EXPRESSION, line no: 46, 0.2, 0.2, 0.0
+mean(),METHOD_INVOCATION, line no: 68,unhandle,SIMPLE_NAME, line no: 49, 0.2, 0.2, 0.0
+mean(),METHOD_INVOCATION, line no: 68,numSamples,SIMPLE_NAME, line no: 63, 0.2, 0.2, 0.0
+mean,SIMPLE_NAME, line no: 68,hivemall,SIMPLE_NAME, line no: 21, 0.16666666666666666, 0.16666666666666666, 0.0
+mean,SIMPLE_NAME, line no: 68,common,SIMPLE_NAME, line no: 21, 0.16666666666666666, 0.16666666666666666, 0.0
+mean,SIMPLE_NAME, line no: 68,OnlineVariance,SIMPLE_NAME, line no: 26, 0.16666666666666666, 0.16666666666666666, 0.0
+mean,SIMPLE_NAME, line no: 68,handle,SIMPLE_NAME, line no: 42, 0.16666666666666666, 0.16666666666666666, 0.0
+mean,SIMPLE_NAME, line no: 68,unhandle,SIMPLE_NAME, line no: 49, 0.16666666666666666, 0.16666666666666666, 0.0
+mean,SIMPLE_NAME, line no: 68,numSamples,SIMPLE_NAME, line no: 63, 0.16666666666666666, 0.16666666666666666, 0.0

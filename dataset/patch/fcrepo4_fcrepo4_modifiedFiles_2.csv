@@ -1,0 +1,333 @@
+nsURI,SIMPLE_NAME, line no: 93,"Couldn't find namespace registry in repository!",STRING_LITERAL, line no: 66, 2.0, 1.0, 1.0
+nsURI,SIMPLE_NAME, line no: 93,String,SIMPLE_NAME, line no: 68, 2.0, 1.0, 1.0
+nsURI,SIMPLE_NAME, line no: 93,prefix,SIMPLE_NAME, line no: 72, 2.0, 1.0, 1.0
+nsURI,SIMPLE_NAME, line no: 93,rdfNsUri,SIMPLE_NAME, line no: 81, 1.978723404255319, 0.9574468085106383, 1.0
+nsURI,SIMPLE_NAME, line no: 93,getRDFNamespaceForJcrNamespace,SIMPLE_NAME, line no: 27, 1.9680851063829787, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,"Discovered namespace prefix \"{}\" with URI \"{}\"",STRING_LITERAL, line no: 79, 1.9680851063829787, 0.9680851063829787, 1.0
+nsURI,SIMPLE_NAME, line no: 93,"Added namespace prefix \"{}\" with URI \"{}\"",STRING_LITERAL, line no: 84, 1.9680851063829787, 0.9680851063829787, 1.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,getRDFNamespaceForJcrNamespace(nsURI),METHOD_INVOCATION, line no: 81, 1.967741935483871, 0.967741935483871, 1.0
+nsURI,SIMPLE_NAME, line no: 93,"jcr",STRING_LITERAL, line no: 75, 1.9574468085106385, 0.9574468085106383, 1.0
+nsURI,SIMPLE_NAME, line no: 93,getRDFNamespaceForJcrNamespace(nsURI),METHOD_INVOCATION, line no: 81, 1.9574468085106385, 0.9574468085106383, 1.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,create(nsSubject HAS_NAMESPACE_URI.asNode() createLiteral(nsURI)),METHOD_INVOCATION, line no: 92, 1.489247311827957, 0.989247311827957, 0.5
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,LOGGER.trace("Discovered namespace prefix \"{}\" with URI \"{}\"" prefix nsURI),METHOD_INVOCATION, line no: 78, 1.478494623655914, 0.978494623655914, 0.5
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,nsTriples.add(create(nsSubject HAS_NAMESPACE_URI.asNode() createLiteral(nsURI))),METHOD_INVOCATION, line no: 92, 1.478494623655914, 0.978494623655914, 0.5
+nsURI,SIMPLE_NAME, line no: 93,"fcrepo",STRING_LITERAL, line no: 76, 1.0957446808510638, 0.09574468085106383, 1.0
+nsURI,SIMPLE_NAME, line no: 93,prefix="fcrepo",ASSIGNMENT, line no: 76, 1.0851063829787233, 0.0851063829787234, 1.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,checkNotNull,SIMPLE_NAME, line no: 19, 1.0, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,createLiteral,SIMPLE_NAME, line no: 20, 1.0, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,Triple,SIMPLE_NAME, line no: 22, 1.0, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,type,SIMPLE_NAME, line no: 23, 1.0, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,HAS_NAMESPACE_PREFIX,SIMPLE_NAME, line no: 24, 1.0, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,HAS_NAMESPACE_URI,SIMPLE_NAME, line no: 25, 1.0, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,VOAF_VOCABULARY,SIMPLE_NAME, line no: 26, 1.0, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,NamespaceRegistry,SIMPLE_NAME, line no: 30, 1.0, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,ImmutableCollection,SIMPLE_NAME, line no: 37, 1.0, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,ImmutableMap,SIMPLE_NAME, line no: 38, 1.0, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,ImmutableSet,SIMPLE_NAME, line no: 39, 1.0, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,session,SIMPLE_NAME, line no: 61, 1.0, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,namespaceRegistry,SIMPLE_NAME, line no: 63, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,session.getWorkspace().getNamespaceRegistry(),METHOD_INVOCATION, line no: 64, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,session.getWorkspace(),METHOD_INVOCATION, line no: 64, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,getWorkspace,SIMPLE_NAME, line no: 64, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,getNamespaceRegistry,SIMPLE_NAME, line no: 64, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,checkNotNull(namespaceRegistry "Couldn't find namespace registry in repository!"),METHOD_INVOCATION, line no: 65, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,"Couldn't find namespace registry in repository!",STRING_LITERAL, line no: 66, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,ImmutableMap.Builder,QUALIFIED_NAME, line no: 68, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,Builder,SIMPLE_NAME, line no: 68, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,String,SIMPLE_NAME, line no: 68, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,namespaces,SIMPLE_NAME, line no: 68, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,ImmutableMap.builder(),METHOD_INVOCATION, line no: 69, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,builder,SIMPLE_NAME, line no: 69, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,ImmutableCollection.Builder,QUALIFIED_NAME, line no: 70, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,nsTriples,SIMPLE_NAME, line no: 70, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,ImmutableSet.builder(),METHOD_INVOCATION, line no: 71, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,prefix,SIMPLE_NAME, line no: 72, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,namespaceRegistry.getPrefixes(),METHOD_INVOCATION, line no: 72, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,getPrefixes,SIMPLE_NAME, line no: 72, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,nsURI,SIMPLE_NAME, line no: 74, 1.0, 0.956989247311828, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,type.asNode(),METHOD_INVOCATION, line no: 88, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,asNode,SIMPLE_NAME, line no: 88, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,VOAF_VOCABULARY.asNode(),METHOD_INVOCATION, line no: 88, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,HAS_NAMESPACE_PREFIX.asNode(),METHOD_INVOCATION, line no: 90, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,createLiteral(prefix),METHOD_INVOCATION, line no: 91, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,HAS_NAMESPACE_URI.asNode(),METHOD_INVOCATION, line no: 92, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,concat(nsTriples.build()).namespaces(namespaces.build()),METHOD_INVOCATION, line no: 96, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,concat(nsTriples.build()),METHOD_INVOCATION, line no: 96, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,concat,SIMPLE_NAME, line no: 96, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,nsTriples.build(),METHOD_INVOCATION, line no: 96, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,build,SIMPLE_NAME, line no: 96, 1.0, 1.0, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,namespaces.build(),METHOD_INVOCATION, line no: 96, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,checkNotNull,SIMPLE_NAME, line no: 19, 1.0, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,Triple,SIMPLE_NAME, line no: 22, 1.0, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,type,SIMPLE_NAME, line no: 23, 1.0, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,HAS_NAMESPACE_PREFIX,SIMPLE_NAME, line no: 24, 1.0, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,HAS_NAMESPACE_URI,SIMPLE_NAME, line no: 25, 1.0, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,VOAF_VOCABULARY,SIMPLE_NAME, line no: 26, 1.0, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,NamespaceRegistry,SIMPLE_NAME, line no: 30, 1.0, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,ImmutableCollection,SIMPLE_NAME, line no: 37, 1.0, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,ImmutableMap,SIMPLE_NAME, line no: 38, 1.0, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,ImmutableSet,SIMPLE_NAME, line no: 39, 1.0, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,session,SIMPLE_NAME, line no: 61, 1.0, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,namespaceRegistry,SIMPLE_NAME, line no: 63, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,session.getWorkspace().getNamespaceRegistry(),METHOD_INVOCATION, line no: 64, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,session.getWorkspace(),METHOD_INVOCATION, line no: 64, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,getWorkspace,SIMPLE_NAME, line no: 64, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,getNamespaceRegistry,SIMPLE_NAME, line no: 64, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,checkNotNull(namespaceRegistry "Couldn't find namespace registry in repository!"),METHOD_INVOCATION, line no: 65, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,"Couldn't find namespace registry in repository!",STRING_LITERAL, line no: 66, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,ImmutableMap.Builder,QUALIFIED_NAME, line no: 68, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,Builder,SIMPLE_NAME, line no: 68, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,String,SIMPLE_NAME, line no: 68, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,namespaces,SIMPLE_NAME, line no: 68, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,ImmutableMap.builder(),METHOD_INVOCATION, line no: 69, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,builder,SIMPLE_NAME, line no: 69, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,ImmutableCollection.Builder,QUALIFIED_NAME, line no: 70, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,nsTriples,SIMPLE_NAME, line no: 70, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,ImmutableSet.builder(),METHOD_INVOCATION, line no: 71, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,prefix,SIMPLE_NAME, line no: 72, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,namespaceRegistry.getPrefixes(),METHOD_INVOCATION, line no: 72, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,getPrefixes,SIMPLE_NAME, line no: 72, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,nsURI,SIMPLE_NAME, line no: 74, 1.0, 0.9574468085106383, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,asNode,SIMPLE_NAME, line no: 88, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,concat(nsTriples.build()).namespaces(namespaces.build()),METHOD_INVOCATION, line no: 96, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,concat(nsTriples.build()),METHOD_INVOCATION, line no: 96, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,concat,SIMPLE_NAME, line no: 96, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,nsTriples.build(),METHOD_INVOCATION, line no: 96, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,build,SIMPLE_NAME, line no: 96, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,namespaces.build(),METHOD_INVOCATION, line no: 96, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,checkNotNull,SIMPLE_NAME, line no: 19, 1.0, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,createLiteral,SIMPLE_NAME, line no: 20, 1.0, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,Triple,SIMPLE_NAME, line no: 22, 1.0, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,type,SIMPLE_NAME, line no: 23, 1.0, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,HAS_NAMESPACE_PREFIX,SIMPLE_NAME, line no: 24, 1.0, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,HAS_NAMESPACE_URI,SIMPLE_NAME, line no: 25, 1.0, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,VOAF_VOCABULARY,SIMPLE_NAME, line no: 26, 1.0, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,NamespaceRegistry,SIMPLE_NAME, line no: 30, 1.0, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,ImmutableCollection,SIMPLE_NAME, line no: 37, 1.0, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,ImmutableMap,SIMPLE_NAME, line no: 38, 1.0, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,ImmutableSet,SIMPLE_NAME, line no: 39, 1.0, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,session,SIMPLE_NAME, line no: 61, 1.0, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,namespaceRegistry,SIMPLE_NAME, line no: 63, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,session.getWorkspace().getNamespaceRegistry(),METHOD_INVOCATION, line no: 64, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,session.getWorkspace(),METHOD_INVOCATION, line no: 64, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,getWorkspace,SIMPLE_NAME, line no: 64, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,getNamespaceRegistry,SIMPLE_NAME, line no: 64, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,checkNotNull(namespaceRegistry "Couldn't find namespace registry in repository!"),METHOD_INVOCATION, line no: 65, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,ImmutableMap.Builder,QUALIFIED_NAME, line no: 68, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,Builder,SIMPLE_NAME, line no: 68, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,namespaces,SIMPLE_NAME, line no: 68, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,ImmutableMap.builder(),METHOD_INVOCATION, line no: 69, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,builder,SIMPLE_NAME, line no: 69, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,ImmutableCollection.Builder,QUALIFIED_NAME, line no: 70, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,nsTriples,SIMPLE_NAME, line no: 70, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,ImmutableSet.builder(),METHOD_INVOCATION, line no: 71, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,namespaceRegistry.getPrefixes(),METHOD_INVOCATION, line no: 72, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,getPrefixes,SIMPLE_NAME, line no: 72, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,asNode,SIMPLE_NAME, line no: 88, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,concat(nsTriples.build()).namespaces(namespaces.build()),METHOD_INVOCATION, line no: 96, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,concat(nsTriples.build()),METHOD_INVOCATION, line no: 96, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,concat,SIMPLE_NAME, line no: 96, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,nsTriples.build(),METHOD_INVOCATION, line no: 96, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,build,SIMPLE_NAME, line no: 96, 1.0, 1.0, 0.0
+nsURI,SIMPLE_NAME, line no: 93,namespaces.build(),METHOD_INVOCATION, line no: 96, 1.0, 1.0, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,create,SIMPLE_NAME, line no: 22, 0.9893617021276596, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,nsSubject,SIMPLE_NAME, line no: 86, 0.9893617021276596, 0.9574468085106383, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,type.asNode(),METHOD_INVOCATION, line no: 88, 0.9893617021276596, 0.9893617021276596, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,VOAF_VOCABULARY.asNode(),METHOD_INVOCATION, line no: 88, 0.9893617021276596, 0.9893617021276596, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,HAS_NAMESPACE_PREFIX.asNode(),METHOD_INVOCATION, line no: 90, 0.9893617021276596, 0.9893617021276596, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,createLiteral(prefix),METHOD_INVOCATION, line no: 91, 0.9893617021276596, 0.9893617021276596, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,HAS_NAMESPACE_URI.asNode(),METHOD_INVOCATION, line no: 92, 0.9893617021276596, 0.9893617021276596, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,createLiteral(nsURI),METHOD_INVOCATION, line no: 93, 0.9893617021276596, 0.9893617021276596, 0.0
+nsURI,SIMPLE_NAME, line no: 93,create,SIMPLE_NAME, line no: 22, 0.9893617021276596, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,nsSubject,SIMPLE_NAME, line no: 86, 0.9893617021276596, 0.9574468085106383, 0.0
+nsURI,SIMPLE_NAME, line no: 93,type.asNode(),METHOD_INVOCATION, line no: 88, 0.9893617021276596, 0.9893617021276596, 0.0
+nsURI,SIMPLE_NAME, line no: 93,VOAF_VOCABULARY.asNode(),METHOD_INVOCATION, line no: 88, 0.9893617021276596, 0.9893617021276596, 0.0
+nsURI,SIMPLE_NAME, line no: 93,HAS_NAMESPACE_PREFIX.asNode(),METHOD_INVOCATION, line no: 90, 0.9893617021276596, 0.9893617021276596, 0.0
+nsURI,SIMPLE_NAME, line no: 93,createLiteral(prefix),METHOD_INVOCATION, line no: 91, 0.9893617021276596, 0.9893617021276596, 0.0
+nsURI,SIMPLE_NAME, line no: 93,HAS_NAMESPACE_URI.asNode(),METHOD_INVOCATION, line no: 92, 0.9893617021276596, 0.9893617021276596, 0.0
+nsURI,SIMPLE_NAME, line no: 93,createLiteral(nsURI),METHOD_INVOCATION, line no: 93, 0.9893617021276596, 0.9893617021276596, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,create,SIMPLE_NAME, line no: 22, 0.989247311827957, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,nsSubject,SIMPLE_NAME, line no: 86, 0.989247311827957, 0.956989247311828, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,create(nsSubject type.asNode() VOAF_VOCABULARY.asNode()),METHOD_INVOCATION, line no: 88, 0.989247311827957, 0.989247311827957, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,create(nsSubject HAS_NAMESPACE_PREFIX.asNode() createLiteral(prefix)),METHOD_INVOCATION, line no: 90, 0.989247311827957, 0.989247311827957, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,LOGGER,SIMPLE_NAME, line no: 52, 0.9787234042553191, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,prefix.isEmpty(),METHOD_INVOCATION, line no: 73, 0.9787234042553191, 0.9787234042553191, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,isEmpty,SIMPLE_NAME, line no: 73, 0.9787234042553191, 0.9787234042553191, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,trace,SIMPLE_NAME, line no: 78, 0.9787234042553191, 0.9787234042553191, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,rdfNsUri,SIMPLE_NAME, line no: 81, 0.9787234042553191, 0.9574468085106383, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,put,SIMPLE_NAME, line no: 83, 0.9787234042553191, 0.9787234042553191, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,add,SIMPLE_NAME, line no: 88, 0.9787234042553191, 0.9787234042553191, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,create(nsSubject type.asNode() VOAF_VOCABULARY.asNode()),METHOD_INVOCATION, line no: 88, 0.9787234042553191, 0.9787234042553191, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,create(nsSubject HAS_NAMESPACE_PREFIX.asNode() createLiteral(prefix)),METHOD_INVOCATION, line no: 90, 0.9787234042553191, 0.9787234042553191, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,create(nsSubject HAS_NAMESPACE_URI.asNode() createLiteral(nsURI)),METHOD_INVOCATION, line no: 92, 0.9787234042553191, 0.9787234042553191, 0.0
+nsURI,SIMPLE_NAME, line no: 93,LOGGER,SIMPLE_NAME, line no: 52, 0.9787234042553191, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,prefix.isEmpty(),METHOD_INVOCATION, line no: 73, 0.9787234042553191, 0.9787234042553191, 0.0
+nsURI,SIMPLE_NAME, line no: 93,isEmpty,SIMPLE_NAME, line no: 73, 0.9787234042553191, 0.9787234042553191, 0.0
+nsURI,SIMPLE_NAME, line no: 93,trace,SIMPLE_NAME, line no: 78, 0.9787234042553191, 0.9787234042553191, 0.0
+nsURI,SIMPLE_NAME, line no: 93,put,SIMPLE_NAME, line no: 83, 0.9787234042553191, 0.9787234042553191, 0.0
+nsURI,SIMPLE_NAME, line no: 93,add,SIMPLE_NAME, line no: 88, 0.9787234042553191, 0.9787234042553191, 0.0
+nsURI,SIMPLE_NAME, line no: 93,create(nsSubject type.asNode() VOAF_VOCABULARY.asNode()),METHOD_INVOCATION, line no: 88, 0.9787234042553191, 0.9787234042553191, 0.0
+nsURI,SIMPLE_NAME, line no: 93,create(nsSubject HAS_NAMESPACE_PREFIX.asNode() createLiteral(prefix)),METHOD_INVOCATION, line no: 90, 0.9787234042553191, 0.9787234042553191, 0.0
+nsURI,SIMPLE_NAME, line no: 93,create(nsSubject HAS_NAMESPACE_URI.asNode() createLiteral(nsURI)),METHOD_INVOCATION, line no: 92, 0.9787234042553191, 0.9787234042553191, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,LOGGER,SIMPLE_NAME, line no: 52, 0.978494623655914, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,prefix.isEmpty(),METHOD_INVOCATION, line no: 73, 0.978494623655914, 0.978494623655914, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,isEmpty,SIMPLE_NAME, line no: 73, 0.978494623655914, 0.978494623655914, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,trace,SIMPLE_NAME, line no: 78, 0.978494623655914, 0.978494623655914, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,"Discovered namespace prefix \"{}\" with URI \"{}\"",STRING_LITERAL, line no: 79, 0.978494623655914, 0.978494623655914, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,rdfNsUri,SIMPLE_NAME, line no: 81, 0.978494623655914, 0.956989247311828, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,namespaces.put(prefix rdfNsUri),METHOD_INVOCATION, line no: 83, 0.978494623655914, 0.978494623655914, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,put,SIMPLE_NAME, line no: 83, 0.978494623655914, 0.978494623655914, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,LOGGER.trace("Added namespace prefix \"{}\" with URI \"{}\"" prefix rdfNsUri),METHOD_INVOCATION, line no: 84, 0.978494623655914, 0.978494623655914, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,"Added namespace prefix \"{}\" with URI \"{}\"",STRING_LITERAL, line no: 84, 0.978494623655914, 0.978494623655914, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,nsTriples.add(create(nsSubject type.asNode() VOAF_VOCABULARY.asNode())),METHOD_INVOCATION, line no: 88, 0.978494623655914, 0.978494623655914, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,add,SIMPLE_NAME, line no: 88, 0.978494623655914, 0.978494623655914, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,nsTriples.add(create(nsSubject HAS_NAMESPACE_PREFIX.asNode() createLiteral(prefix))),METHOD_INVOCATION, line no: 90, 0.978494623655914, 0.978494623655914, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,createURI,SIMPLE_NAME, line no: 21, 0.9680851063829787, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,getRDFNamespaceForJcrNamespace,SIMPLE_NAME, line no: 27, 0.9680851063829787, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,!prefix.isEmpty(),PREFIX_EXPRESSION, line no: 73, 0.9680851063829787, 0.9680851063829787, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,getURI,SIMPLE_NAME, line no: 74, 0.9680851063829787, 0.9680851063829787, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,equals,SIMPLE_NAME, line no: 75, 0.9680851063829787, 0.9680851063829787, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,LOGGER.trace("Discovered namespace prefix \"{}\" with URI \"{}\"" prefix nsURI),METHOD_INVOCATION, line no: 78, 0.9680851063829787, 0.9680851063829787, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,"Discovered namespace prefix \"{}\" with URI \"{}\"",STRING_LITERAL, line no: 79, 0.9680851063829787, 0.9680851063829787, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,namespaces.put(prefix rdfNsUri),METHOD_INVOCATION, line no: 83, 0.9680851063829787, 0.9680851063829787, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,LOGGER.trace("Added namespace prefix \"{}\" with URI \"{}\"" prefix rdfNsUri),METHOD_INVOCATION, line no: 84, 0.9680851063829787, 0.9680851063829787, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,"Added namespace prefix \"{}\" with URI \"{}\"",STRING_LITERAL, line no: 84, 0.9680851063829787, 0.9680851063829787, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,nsTriples.add(create(nsSubject type.asNode() VOAF_VOCABULARY.asNode())),METHOD_INVOCATION, line no: 88, 0.9680851063829787, 0.9680851063829787, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,nsTriples.add(create(nsSubject HAS_NAMESPACE_PREFIX.asNode() createLiteral(prefix))),METHOD_INVOCATION, line no: 90, 0.9680851063829787, 0.9680851063829787, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,nsTriples.add(create(nsSubject HAS_NAMESPACE_URI.asNode() createLiteral(nsURI))),METHOD_INVOCATION, line no: 92, 0.9680851063829787, 0.9680851063829787, 0.0
+nsURI,SIMPLE_NAME, line no: 93,createURI,SIMPLE_NAME, line no: 21, 0.9680851063829787, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,!prefix.isEmpty(),PREFIX_EXPRESSION, line no: 73, 0.9680851063829787, 0.9680851063829787, 0.0
+nsURI,SIMPLE_NAME, line no: 93,getURI,SIMPLE_NAME, line no: 74, 0.9680851063829787, 0.9680851063829787, 0.0
+nsURI,SIMPLE_NAME, line no: 93,equals,SIMPLE_NAME, line no: 75, 0.9680851063829787, 0.9680851063829787, 0.0
+nsURI,SIMPLE_NAME, line no: 93,LOGGER.trace("Discovered namespace prefix \"{}\" with URI \"{}\"" prefix nsURI),METHOD_INVOCATION, line no: 78, 0.9680851063829787, 0.9680851063829787, 0.0
+nsURI,SIMPLE_NAME, line no: 93,namespaces.put(prefix rdfNsUri),METHOD_INVOCATION, line no: 83, 0.9680851063829787, 0.9680851063829787, 0.0
+nsURI,SIMPLE_NAME, line no: 93,LOGGER.trace("Added namespace prefix \"{}\" with URI \"{}\"" prefix rdfNsUri),METHOD_INVOCATION, line no: 84, 0.9680851063829787, 0.9680851063829787, 0.0
+nsURI,SIMPLE_NAME, line no: 93,nsTriples.add(create(nsSubject type.asNode() VOAF_VOCABULARY.asNode())),METHOD_INVOCATION, line no: 88, 0.9680851063829787, 0.9680851063829787, 0.0
+nsURI,SIMPLE_NAME, line no: 93,nsTriples.add(create(nsSubject HAS_NAMESPACE_PREFIX.asNode() createLiteral(prefix))),METHOD_INVOCATION, line no: 90, 0.9680851063829787, 0.9680851063829787, 0.0
+nsURI,SIMPLE_NAME, line no: 93,nsTriples.add(create(nsSubject HAS_NAMESPACE_URI.asNode() createLiteral(nsURI))),METHOD_INVOCATION, line no: 92, 0.9680851063829787, 0.9680851063829787, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,createURI,SIMPLE_NAME, line no: 21, 0.967741935483871, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,getRDFNamespaceForJcrNamespace,SIMPLE_NAME, line no: 27, 0.967741935483871, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,!prefix.isEmpty(),PREFIX_EXPRESSION, line no: 73, 0.967741935483871, 0.967741935483871, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,namespaceRegistry.getURI(prefix),METHOD_INVOCATION, line no: 74, 0.967741935483871, 0.967741935483871, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,getURI,SIMPLE_NAME, line no: 74, 0.967741935483871, 0.967741935483871, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,prefix.equals("jcr"),METHOD_INVOCATION, line no: 75, 0.967741935483871, 0.967741935483871, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,equals,SIMPLE_NAME, line no: 75, 0.967741935483871, 0.967741935483871, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,"jcr",STRING_LITERAL, line no: 75, 0.967741935483871, 0.967741935483871, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,createURI(rdfNsUri),METHOD_INVOCATION, line no: 86, 0.967741935483871, 0.967741935483871, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,Node,SIMPLE_NAME, line no: 40, 0.9574468085106383, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,namespaceRegistry.getURI(prefix),METHOD_INVOCATION, line no: 74, 0.9574468085106383, 0.9574468085106383, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,prefix.equals("jcr"),METHOD_INVOCATION, line no: 75, 0.9574468085106383, 0.9574468085106383, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,"jcr",STRING_LITERAL, line no: 75, 0.9574468085106383, 0.9574468085106383, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,getRDFNamespaceForJcrNamespace(nsURI),METHOD_INVOCATION, line no: 81, 0.9574468085106383, 0.9574468085106383, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,createURI(rdfNsUri),METHOD_INVOCATION, line no: 86, 0.9574468085106383, 0.9574468085106383, 0.0
+nsURI,SIMPLE_NAME, line no: 93,Node,SIMPLE_NAME, line no: 40, 0.9574468085106383, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,namespaceRegistry.getURI(prefix),METHOD_INVOCATION, line no: 74, 0.9574468085106383, 0.9574468085106383, 0.0
+nsURI,SIMPLE_NAME, line no: 93,prefix.equals("jcr"),METHOD_INVOCATION, line no: 75, 0.9574468085106383, 0.9574468085106383, 0.0
+nsURI,SIMPLE_NAME, line no: 93,createURI(rdfNsUri),METHOD_INVOCATION, line no: 86, 0.9574468085106383, 0.9574468085106383, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,Node,SIMPLE_NAME, line no: 40, 0.956989247311828, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,"fcrepo",STRING_LITERAL, line no: 76, 0.0967741935483871, 0.0967741935483871, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,"fcrepo",STRING_LITERAL, line no: 76, 0.09574468085106383, 0.09574468085106383, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,prefix="fcrepo",ASSIGNMENT, line no: 76, 0.08602150537634409, 0.08602150537634409, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,prefix="fcrepo",ASSIGNMENT, line no: 76, 0.0851063829787234, 0.0851063829787234, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,getLogger,SIMPLE_NAME, line no: 28, 0.021505376344086023, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,NamespaceRdfContext,SIMPLE_NAME, line no: 50, 0.021505376344086023, 0.010752688172043012, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,getLogger,SIMPLE_NAME, line no: 28, 0.02127659574468085, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,NamespaceRdfContext,SIMPLE_NAME, line no: 50, 0.02127659574468085, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,getLogger,SIMPLE_NAME, line no: 28, 0.02127659574468085, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,NamespaceRdfContext,SIMPLE_NAME, line no: 50, 0.02127659574468085, 0.010638297872340425, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,org,SIMPLE_NAME, line no: 17, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,fcrepo,SIMPLE_NAME, line no: 17, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,kernel,SIMPLE_NAME, line no: 17, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,rdf,SIMPLE_NAME, line no: 17, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,impl,SIMPLE_NAME, line no: 17, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,com,SIMPLE_NAME, line no: 19, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,google,SIMPLE_NAME, line no: 19, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,common,SIMPLE_NAME, line no: 19, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,base,SIMPLE_NAME, line no: 19, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,Preconditions,SIMPLE_NAME, line no: 19, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,hp,SIMPLE_NAME, line no: 20, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,hpl,SIMPLE_NAME, line no: 20, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,jena,SIMPLE_NAME, line no: 20, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,graph,SIMPLE_NAME, line no: 20, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,NodeFactory,SIMPLE_NAME, line no: 20, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,vocabulary,SIMPLE_NAME, line no: 23, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,RDF,SIMPLE_NAME, line no: 23, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,RdfLexicon,SIMPLE_NAME, line no: 24, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,JcrRdfTools,SIMPLE_NAME, line no: 27, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,slf4j,SIMPLE_NAME, line no: 28, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,LoggerFactory,SIMPLE_NAME, line no: 28, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,javax,SIMPLE_NAME, line no: 30, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,jcr,SIMPLE_NAME, line no: 30, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,RepositoryException,SIMPLE_NAME, line no: 31, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,Session,SIMPLE_NAME, line no: 32, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,utils,SIMPLE_NAME, line no: 34, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,iterators,SIMPLE_NAME, line no: 34, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,RdfStream,SIMPLE_NAME, line no: 34, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,Logger,SIMPLE_NAME, line no: 35, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,collect,SIMPLE_NAME, line no: 37, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,getLogger(NamespaceRdfContext.class),METHOD_INVOCATION, line no: 52, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral(nsURI),METHOD_INVOCATION, line no: 93,NamespaceRdfContext.class,TYPE_LITERAL, line no: 52, 0.010752688172043012, 0.010752688172043012, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,org,SIMPLE_NAME, line no: 17, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,fcrepo,SIMPLE_NAME, line no: 17, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,kernel,SIMPLE_NAME, line no: 17, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,rdf,SIMPLE_NAME, line no: 17, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,impl,SIMPLE_NAME, line no: 17, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,com,SIMPLE_NAME, line no: 19, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,google,SIMPLE_NAME, line no: 19, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,common,SIMPLE_NAME, line no: 19, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,base,SIMPLE_NAME, line no: 19, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,Preconditions,SIMPLE_NAME, line no: 19, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,hp,SIMPLE_NAME, line no: 20, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,hpl,SIMPLE_NAME, line no: 20, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,jena,SIMPLE_NAME, line no: 20, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,graph,SIMPLE_NAME, line no: 20, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,NodeFactory,SIMPLE_NAME, line no: 20, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,vocabulary,SIMPLE_NAME, line no: 23, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,RDF,SIMPLE_NAME, line no: 23, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,RdfLexicon,SIMPLE_NAME, line no: 24, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,JcrRdfTools,SIMPLE_NAME, line no: 27, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,slf4j,SIMPLE_NAME, line no: 28, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,LoggerFactory,SIMPLE_NAME, line no: 28, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,javax,SIMPLE_NAME, line no: 30, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,jcr,SIMPLE_NAME, line no: 30, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,RepositoryException,SIMPLE_NAME, line no: 31, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,Session,SIMPLE_NAME, line no: 32, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,utils,SIMPLE_NAME, line no: 34, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,iterators,SIMPLE_NAME, line no: 34, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,RdfStream,SIMPLE_NAME, line no: 34, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,Logger,SIMPLE_NAME, line no: 35, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,collect,SIMPLE_NAME, line no: 37, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,getLogger(NamespaceRdfContext.class),METHOD_INVOCATION, line no: 52, 0.010638297872340425, 0.010638297872340425, 0.0
+createLiteral,SIMPLE_NAME, line no: 93,NamespaceRdfContext.class,TYPE_LITERAL, line no: 52, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,org,SIMPLE_NAME, line no: 17, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,fcrepo,SIMPLE_NAME, line no: 17, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,kernel,SIMPLE_NAME, line no: 17, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,rdf,SIMPLE_NAME, line no: 17, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,impl,SIMPLE_NAME, line no: 17, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,com,SIMPLE_NAME, line no: 19, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,google,SIMPLE_NAME, line no: 19, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,common,SIMPLE_NAME, line no: 19, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,base,SIMPLE_NAME, line no: 19, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,Preconditions,SIMPLE_NAME, line no: 19, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,hp,SIMPLE_NAME, line no: 20, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,hpl,SIMPLE_NAME, line no: 20, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,jena,SIMPLE_NAME, line no: 20, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,graph,SIMPLE_NAME, line no: 20, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,NodeFactory,SIMPLE_NAME, line no: 20, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,vocabulary,SIMPLE_NAME, line no: 23, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,RDF,SIMPLE_NAME, line no: 23, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,RdfLexicon,SIMPLE_NAME, line no: 24, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,JcrRdfTools,SIMPLE_NAME, line no: 27, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,slf4j,SIMPLE_NAME, line no: 28, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,LoggerFactory,SIMPLE_NAME, line no: 28, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,javax,SIMPLE_NAME, line no: 30, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,jcr,SIMPLE_NAME, line no: 30, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,RepositoryException,SIMPLE_NAME, line no: 31, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,Session,SIMPLE_NAME, line no: 32, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,utils,SIMPLE_NAME, line no: 34, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,iterators,SIMPLE_NAME, line no: 34, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,RdfStream,SIMPLE_NAME, line no: 34, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,Logger,SIMPLE_NAME, line no: 35, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,collect,SIMPLE_NAME, line no: 37, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,getLogger(NamespaceRdfContext.class),METHOD_INVOCATION, line no: 52, 0.010638297872340425, 0.010638297872340425, 0.0
+nsURI,SIMPLE_NAME, line no: 93,NamespaceRdfContext.class,TYPE_LITERAL, line no: 52, 0.010638297872340425, 0.010638297872340425, 0.0

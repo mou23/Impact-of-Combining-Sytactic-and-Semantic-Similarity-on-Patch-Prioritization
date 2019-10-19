@@ -1,0 +1,180 @@
+getAvialablePort,SIMPLE_NAME, line no: 71,defaultPort,SIMPLE_NAME, line no: 34, 2.0, 1.0, 1.0
+getAvialablePort,SIMPLE_NAME, line no: 71,pos,SIMPLE_NAME, line no: 35, 2.0, 1.0, 1.0
+getAvialablePort,SIMPLE_NAME, line no: 71,endpointURI.indexOf(':'),METHOD_INVOCATION, line no: 35, 2.0, 1.0, 1.0
+getAvialablePort,SIMPLE_NAME, line no: 71,indexOf,SIMPLE_NAME, line no: 35, 2.0, 1.0, 1.0
+getAvialablePort,SIMPLE_NAME, line no: 71,-1,PREFIX_EXPRESSION, line no: 36, 2.0, 1.0, 1.0
+getAvialablePort,SIMPLE_NAME, line no: 71,1,NUMBER_LITERAL, line no: 36, 2.0, 1.0, 1.0
+getAvialablePort,SIMPLE_NAME, line no: 71,0,NUMBER_LITERAL, line no: 40, 2.0, 1.0, 1.0
+getAvialablePort,SIMPLE_NAME, line no: 71,pos + 1,INFIX_EXPRESSION, line no: 42, 2.0, 1.0, 1.0
+getAvialablePort,SIMPLE_NAME, line no: 71,port,SIMPLE_NAME, line no: 43, 2.0, 1.0, 1.0
+getAvialablePort,SIMPLE_NAME, line no: 71,Integer.parseInt(portStr),METHOD_INVOCATION, line no: 43, 2.0, 1.0, 1.0
+getAvialablePort,SIMPLE_NAME, line no: 71,parseInt,SIMPLE_NAME, line no: 43, 2.0, 1.0, 1.0
+getAvialablePort,SIMPLE_NAME, line no: 71,getAvailablePort,SIMPLE_NAME, line no: 60, 2.0, 1.0, 1.0
+getAvialablePort,SIMPLE_NAME, line no: 71,s.getLocalPort(),METHOD_INVOCATION, line no: 65, 2.0, 1.0, 1.0
+getAvialablePort,SIMPLE_NAME, line no: 71,getLocalPort,SIMPLE_NAME, line no: 65, 2.0, 1.0, 1.0
+getAvialablePort,SIMPLE_NAME, line no: 71,basePort,SIMPLE_NAME, line no: 71, 2.0, 1.0, 1.0
+getAvialablePort,SIMPLE_NAME, line no: 71,getAvailablePort(),METHOD_INVOCATION, line no: 73, 2.0, 1.0, 1.0
+getAvialablePort,SIMPLE_NAME, line no: 71,65535,NUMBER_LITERAL, line no: 75, 2.0, 1.0, 1.0
+getAvialablePort,SIMPLE_NAME, line no: 71,int i=basePort,VARIABLE_DECLARATION_EXPRESSION, line no: 78, 2.0, 1.0, 1.0
+getAvialablePort,SIMPLE_NAME, line no: 71,i,SIMPLE_NAME, line no: 78, 2.0, 1.0, 1.0
+getAvialablePort,SIMPLE_NAME, line no: 71,i++,POSTFIX_EXPRESSION, line no: 78, 2.0, 1.0, 1.0
+basePort,SIMPLE_NAME, line no: 71,defaultPort,SIMPLE_NAME, line no: 34, 2.0, 1.0, 1.0
+basePort,SIMPLE_NAME, line no: 71,port,SIMPLE_NAME, line no: 43, 2.0, 0.5, 1.0
+basePort,SIMPLE_NAME, line no: 71,pos,SIMPLE_NAME, line no: 35, 1.5, 0.5, 1.0
+basePort,SIMPLE_NAME, line no: 71,endpointURI.indexOf(':'),METHOD_INVOCATION, line no: 35, 1.5, 0.5, 1.0
+basePort,SIMPLE_NAME, line no: 71,indexOf,SIMPLE_NAME, line no: 35, 1.5, 0.5, 1.0
+basePort,SIMPLE_NAME, line no: 71,-1,PREFIX_EXPRESSION, line no: 36, 1.5, 0.5, 1.0
+basePort,SIMPLE_NAME, line no: 71,1,NUMBER_LITERAL, line no: 36, 1.5, 0.5, 1.0
+basePort,SIMPLE_NAME, line no: 71,0,NUMBER_LITERAL, line no: 40, 1.5, 0.5, 1.0
+basePort,SIMPLE_NAME, line no: 71,pos + 1,INFIX_EXPRESSION, line no: 42, 1.5, 0.5, 1.0
+basePort,SIMPLE_NAME, line no: 71,Integer.parseInt(portStr),METHOD_INVOCATION, line no: 43, 1.5, 0.5, 1.0
+basePort,SIMPLE_NAME, line no: 71,parseInt,SIMPLE_NAME, line no: 43, 1.5, 0.5, 1.0
+basePort,SIMPLE_NAME, line no: 71,getAvailablePort,SIMPLE_NAME, line no: 60, 1.5, 0.5, 1.0
+basePort,SIMPLE_NAME, line no: 71,s.getLocalPort(),METHOD_INVOCATION, line no: 65, 1.5, 0.5, 1.0
+basePort,SIMPLE_NAME, line no: 71,getLocalPort,SIMPLE_NAME, line no: 65, 1.5, 0.5, 1.0
+basePort,SIMPLE_NAME, line no: 71,getAvialablePort,SIMPLE_NAME, line no: 71, 1.5, 0.5, 1.0
+basePort,SIMPLE_NAME, line no: 71,getAvailablePort(),METHOD_INVOCATION, line no: 73, 1.5, 0.5, 1.0
+basePort,SIMPLE_NAME, line no: 71,65535,NUMBER_LITERAL, line no: 75, 1.5, 0.5, 1.0
+basePort,SIMPLE_NAME, line no: 71,int i=basePort,VARIABLE_DECLARATION_EXPRESSION, line no: 78, 1.5, 0.5, 1.0
+basePort,SIMPLE_NAME, line no: 71,i,SIMPLE_NAME, line no: 78, 1.5, 0.5, 1.0
+basePort,SIMPLE_NAME, line no: 71,i++,POSTFIX_EXPRESSION, line no: 78, 1.5, 0.5, 1.0
+getAvialablePort,SIMPLE_NAME, line no: 71,hivemall,SIMPLE_NAME, line no: 21, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,utils,SIMPLE_NAME, line no: 21, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,net,SIMPLE_NAME, line no: 21, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,java,SIMPLE_NAME, line no: 23, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,io,SIMPLE_NAME, line no: 23, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,IOException,SIMPLE_NAME, line no: 23, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,InetAddress,SIMPLE_NAME, line no: 24, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,InetSocketAddress,SIMPLE_NAME, line no: 25, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,ServerSocket,SIMPLE_NAME, line no: 26, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,UnknownHostException,SIMPLE_NAME, line no: 27, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,util,SIMPLE_NAME, line no: 28, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,NoSuchElementException,SIMPLE_NAME, line no: 28, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,NetUtils,SIMPLE_NAME, line no: 30, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,getInetSocketAddress,SIMPLE_NAME, line no: 34, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,String,SIMPLE_NAME, line no: 34, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,endpointURI,SIMPLE_NAME, line no: 34, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,':',CHARACTER_LITERAL, line no: 35, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,pos == -1,INFIX_EXPRESSION, line no: 36, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,addr,SIMPLE_NAME, line no: 37, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,getInetAddress(endpointURI),METHOD_INVOCATION, line no: 37, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,getInetAddress,SIMPLE_NAME, line no: 37, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,new InetSocketAddress(addr defaultPort),CLASS_INSTANCE_CREATION, line no: 38, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,host,SIMPLE_NAME, line no: 40, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,endpointURI.substring(0 pos),METHOD_INVOCATION, line no: 40, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,substring,SIMPLE_NAME, line no: 40, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,getInetAddress(host),METHOD_INVOCATION, line no: 41, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,portStr,SIMPLE_NAME, line no: 42, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,endpointURI.substring(pos + 1),METHOD_INVOCATION, line no: 42, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,Integer,SIMPLE_NAME, line no: 43, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,new InetSocketAddress(addr port),CLASS_INSTANCE_CREATION, line no: 44, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,addressOrName,SIMPLE_NAME, line no: 48, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,InetAddress.getByName(addressOrName),METHOD_INVOCATION, line no: 50, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,getByName,SIMPLE_NAME, line no: 50, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,e,SIMPLE_NAME, line no: 51, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,new IllegalArgumentException("Cannot find InetAddress: " + addressOrName),CLASS_INSTANCE_CREATION, line no: 52, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,IllegalArgumentException,SIMPLE_NAME, line no: 52, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,"Cannot find InetAddress: " + addressOrName,INFIX_EXPRESSION, line no: 52, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,"Cannot find InetAddress: ",STRING_LITERAL, line no: 52, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,isIPAddress,SIMPLE_NAME, line no: 56, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,ip,SIMPLE_NAME, line no: 56, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,ip.matches("^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$"),METHOD_INVOCATION, line no: 57, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,matches,SIMPLE_NAME, line no: 57, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,"^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$",STRING_LITERAL, line no: 57, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,s,SIMPLE_NAME, line no: 62, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,new ServerSocket(0),CLASS_INSTANCE_CREATION, line no: 62, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,s.setReuseAddress(true),METHOD_INVOCATION, line no: 63, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,setReuseAddress,SIMPLE_NAME, line no: 63, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,true,BOOLEAN_LITERAL, line no: 63, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,s.close(),METHOD_INVOCATION, line no: 64, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,close,SIMPLE_NAME, line no: 64, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,new IllegalStateException("Failed to find an available port" e),CLASS_INSTANCE_CREATION, line no: 67, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,IllegalStateException,SIMPLE_NAME, line no: 67, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,"Failed to find an available port",STRING_LITERAL, line no: 67, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,basePort == 0,INFIX_EXPRESSION, line no: 72, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,basePort < 0 || basePort > 65535,INFIX_EXPRESSION, line no: 75, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,basePort < 0,INFIX_EXPRESSION, line no: 75, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,basePort > 65535,INFIX_EXPRESSION, line no: 75, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,new IllegalArgumentException("Illegal port number: " + basePort),CLASS_INSTANCE_CREATION, line no: 76, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,"Illegal port number: " + basePort,INFIX_EXPRESSION, line no: 76, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,"Illegal port number: ",STRING_LITERAL, line no: 76, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,i <= 65535,INFIX_EXPRESSION, line no: 78, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,isPortAvailable(i),METHOD_INVOCATION, line no: 79, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,isPortAvailable,SIMPLE_NAME, line no: 79, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,new NoSuchElementException("Could not find available port greater than or equals to " + basePort),CLASS_INSTANCE_CREATION, line no: 83, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,"Could not find available port greater than or equals to " + basePort,INFIX_EXPRESSION, line no: 83, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,"Could not find available port greater than or equals to ",STRING_LITERAL, line no: 83, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,null,NULL_LITERAL, line no: 88, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,s=new ServerSocket(port),ASSIGNMENT, line no: 90, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,new ServerSocket(port),CLASS_INSTANCE_CREATION, line no: 90, 1.0, 1.0, 0.0
+getAvialablePort,SIMPLE_NAME, line no: 71,s != null,INFIX_EXPRESSION, line no: 96, 1.0, 1.0, 0.0
+basePort,SIMPLE_NAME, line no: 71,IOException,SIMPLE_NAME, line no: 23, 1.0, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,UnknownHostException,SIMPLE_NAME, line no: 27, 1.0, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,String,SIMPLE_NAME, line no: 34, 1.0, 1.0, 0.0
+basePort,SIMPLE_NAME, line no: 71,endpointURI,SIMPLE_NAME, line no: 34, 1.0, 1.0, 0.0
+basePort,SIMPLE_NAME, line no: 71,addressOrName,SIMPLE_NAME, line no: 48, 1.0, 1.0, 0.0
+basePort,SIMPLE_NAME, line no: 71,e,SIMPLE_NAME, line no: 51, 1.0, 1.0, 0.0
+basePort,SIMPLE_NAME, line no: 71,ip,SIMPLE_NAME, line no: 56, 1.0, 1.0, 0.0
+basePort,SIMPLE_NAME, line no: 71,hivemall,SIMPLE_NAME, line no: 21, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,utils,SIMPLE_NAME, line no: 21, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,net,SIMPLE_NAME, line no: 21, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,java,SIMPLE_NAME, line no: 23, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,io,SIMPLE_NAME, line no: 23, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,InetAddress,SIMPLE_NAME, line no: 24, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,InetSocketAddress,SIMPLE_NAME, line no: 25, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,ServerSocket,SIMPLE_NAME, line no: 26, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,util,SIMPLE_NAME, line no: 28, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,NoSuchElementException,SIMPLE_NAME, line no: 28, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,NetUtils,SIMPLE_NAME, line no: 30, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,getInetSocketAddress,SIMPLE_NAME, line no: 34, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,':',CHARACTER_LITERAL, line no: 35, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,pos == -1,INFIX_EXPRESSION, line no: 36, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,addr,SIMPLE_NAME, line no: 37, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,getInetAddress(endpointURI),METHOD_INVOCATION, line no: 37, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,getInetAddress,SIMPLE_NAME, line no: 37, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,new InetSocketAddress(addr defaultPort),CLASS_INSTANCE_CREATION, line no: 38, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,host,SIMPLE_NAME, line no: 40, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,endpointURI.substring(0 pos),METHOD_INVOCATION, line no: 40, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,substring,SIMPLE_NAME, line no: 40, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,getInetAddress(host),METHOD_INVOCATION, line no: 41, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,portStr,SIMPLE_NAME, line no: 42, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,endpointURI.substring(pos + 1),METHOD_INVOCATION, line no: 42, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,Integer,SIMPLE_NAME, line no: 43, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,new InetSocketAddress(addr port),CLASS_INSTANCE_CREATION, line no: 44, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,InetAddress.getByName(addressOrName),METHOD_INVOCATION, line no: 50, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,getByName,SIMPLE_NAME, line no: 50, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,new IllegalArgumentException("Cannot find InetAddress: " + addressOrName),CLASS_INSTANCE_CREATION, line no: 52, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,IllegalArgumentException,SIMPLE_NAME, line no: 52, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,"Cannot find InetAddress: " + addressOrName,INFIX_EXPRESSION, line no: 52, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,"Cannot find InetAddress: ",STRING_LITERAL, line no: 52, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,isIPAddress,SIMPLE_NAME, line no: 56, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,ip.matches("^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$"),METHOD_INVOCATION, line no: 57, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,matches,SIMPLE_NAME, line no: 57, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,"^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$",STRING_LITERAL, line no: 57, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,s,SIMPLE_NAME, line no: 62, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,new ServerSocket(0),CLASS_INSTANCE_CREATION, line no: 62, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,s.setReuseAddress(true),METHOD_INVOCATION, line no: 63, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,setReuseAddress,SIMPLE_NAME, line no: 63, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,true,BOOLEAN_LITERAL, line no: 63, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,s.close(),METHOD_INVOCATION, line no: 64, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,close,SIMPLE_NAME, line no: 64, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,new IllegalStateException("Failed to find an available port" e),CLASS_INSTANCE_CREATION, line no: 67, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,IllegalStateException,SIMPLE_NAME, line no: 67, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,"Failed to find an available port",STRING_LITERAL, line no: 67, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,basePort == 0,INFIX_EXPRESSION, line no: 72, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,basePort < 0 || basePort > 65535,INFIX_EXPRESSION, line no: 75, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,basePort < 0,INFIX_EXPRESSION, line no: 75, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,basePort > 65535,INFIX_EXPRESSION, line no: 75, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,new IllegalArgumentException("Illegal port number: " + basePort),CLASS_INSTANCE_CREATION, line no: 76, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,"Illegal port number: " + basePort,INFIX_EXPRESSION, line no: 76, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,"Illegal port number: ",STRING_LITERAL, line no: 76, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,i <= 65535,INFIX_EXPRESSION, line no: 78, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,isPortAvailable(i),METHOD_INVOCATION, line no: 79, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,isPortAvailable,SIMPLE_NAME, line no: 79, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,new NoSuchElementException("Could not find available port greater than or equals to " + basePort),CLASS_INSTANCE_CREATION, line no: 83, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,"Could not find available port greater than or equals to " + basePort,INFIX_EXPRESSION, line no: 83, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,"Could not find available port greater than or equals to ",STRING_LITERAL, line no: 83, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,null,NULL_LITERAL, line no: 88, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,s=new ServerSocket(port),ASSIGNMENT, line no: 90, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,new ServerSocket(port),CLASS_INSTANCE_CREATION, line no: 90, 0.5, 0.5, 0.0
+basePort,SIMPLE_NAME, line no: 71,s != null,INFIX_EXPRESSION, line no: 96, 0.5, 0.5, 0.0

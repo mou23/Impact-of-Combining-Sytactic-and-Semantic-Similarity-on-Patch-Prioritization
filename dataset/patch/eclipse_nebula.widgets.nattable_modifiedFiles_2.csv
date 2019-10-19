@@ -1,0 +1,54 @@
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,Color,SIMPLE_NAME, line no: 22, 1.2, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,DOT,SIMPLE_NAME, line no: 13, 1.0, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,String,SIMPLE_NAME, line no: 27, 1.0, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,STYLE_PERSISTENCE_PREFIX,SIMPLE_NAME, line no: 27, 1.0, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,prefix,SIMPLE_NAME, line no: 30, 1.0, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,properties,SIMPLE_NAME, line no: 30, 1.0, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,prefix=prefix + DOT + STYLE_PERSISTENCE_PREFIX,ASSIGNMENT, line no: 31, 1.0, 0.8, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,prefix + DOT + STYLE_PERSISTENCE_PREFIX,INFIX_EXPRESSION, line no: 31, 1.0, 0.8, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,null,NULL_LITERAL, line no: 33, 1.0, 0.8, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,colorAsString,SIMPLE_NAME, line no: 43, 1.0, 1.0, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,properties.getProperty(prefix),METHOD_INVOCATION, line no: 43, 1.0, 1.0, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,getProperty,SIMPLE_NAME, line no: 43, 1.0, 1.0, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,colorAsString == null,INFIX_EXPRESSION, line no: 44, 1.0, 1.0, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,asColor(colorAsString),METHOD_INVOCATION, line no: 47, 1.0, 1.0, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,asColor,SIMPLE_NAME, line no: 47, 1.0, 1.0, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,DataFormatException,SIMPLE_NAME, line no: 18, 0.8, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,StringConverter,SIMPLE_NAME, line no: 19, 0.8, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,GUIHelper,SIMPLE_NAME, line no: 20, 0.8, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,color,SIMPLE_NAME, line no: 30, 0.8, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,color == null,INFIX_EXPRESSION, line no: 33, 0.8, 0.8, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,properties.setProperty(prefix asString(color)),METHOD_INVOCATION, line no: 36, 0.8, 0.8, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,setProperty,SIMPLE_NAME, line no: 36, 0.8, 0.8, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,asString(color),METHOD_INVOCATION, line no: 36, 0.8, 0.8, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,asString,SIMPLE_NAME, line no: 36, 0.8, 0.8, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,StringConverter.asString(color.getRGB()),METHOD_INVOCATION, line no: 55, 0.8, 0.8, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,color.getRGB(),METHOD_INVOCATION, line no: 55, 0.8, 0.8, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,getRGB,SIMPLE_NAME, line no: 55, 0.8, 0.8, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,GUIHelper.getColor(StringConverter.asRGB(colorAsString)),METHOD_INVOCATION, line no: 63, 0.8, 0.8, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,getColor,SIMPLE_NAME, line no: 63, 0.8, 0.8, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,StringConverter.asRGB(colorAsString),METHOD_INVOCATION, line no: 63, 0.8, 0.8, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,asRGB,SIMPLE_NAME, line no: 63, 0.8, 0.8, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,e,SIMPLE_NAME, line no: 64, 0.8, 0.8, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,org,SIMPLE_NAME, line no: 11, 0.2, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,eclipse,SIMPLE_NAME, line no: 11, 0.2, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,nebula,SIMPLE_NAME, line no: 11, 0.2, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,widgets,SIMPLE_NAME, line no: 11, 0.2, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,nattable,SIMPLE_NAME, line no: 11, 0.2, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,persistence,SIMPLE_NAME, line no: 11, 0.2, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,IPersistable,SIMPLE_NAME, line no: 13, 0.2, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,java,SIMPLE_NAME, line no: 15, 0.2, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,util,SIMPLE_NAME, line no: 15, 0.2, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,Properties,SIMPLE_NAME, line no: 15, 0.2, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,jface,SIMPLE_NAME, line no: 18, 0.2, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,resource,SIMPLE_NAME, line no: 18, 0.2, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,swt,SIMPLE_NAME, line no: 21, 0.2, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,SWT,SIMPLE_NAME, line no: 21, 0.2, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,graphics,SIMPLE_NAME, line no: 22, 0.2, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,Display,SIMPLE_NAME, line no: 23, 0.2, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,ColorPersistor,SIMPLE_NAME, line no: 25, 0.2, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,getDefault,SIMPLE_NAME, line no: 28, 0.2, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,getSystemColor,SIMPLE_NAME, line no: 28, 0.2, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,COLOR_WHITE,SIMPLE_NAME, line no: 28, 0.2, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,saveColor,SIMPLE_NAME, line no: 30, 0.2, 0.2, 0.0
+DEFAULT_COLOR,SIMPLE_NAME, line no: 45,loadColor,SIMPLE_NAME, line no: 40, 0.2, 0.2, 0.0

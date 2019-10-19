@@ -1,5 +1,3758 @@
-Processing eclipse_eclipse.platform.runtime\modifiedFiles\4\DeltaDebugListener.java
+Processing xtreemfs_xtreemfs/modifiedFiles/2/StripeTranslatorRaid0.java
+Fault in line no 46
+528 Patches Generated
+Correct Patch Generated!
+(int)(start + offset) % stripeSize
+(int)((start + offset) % stripeSize)
+Total Candidate Patches: 528
+Correct Patch Rank: 86
+
+
+Processing NFLabs_zeppelin/modifiedFiles/2/Util.java
+Fault in line no 72
+2420 Patches Generated
+Correct Patch Generated!
+str.length() - 1
+str.length()
+Total Candidate Patches: 2420
+Correct Patch Rank: 1040
+
+
+Processing druid-io_druid/modifiedFiles/4/DruidMetrics.java
+Fault in line no 79
+1727 Patches Generated
+Correct Patch Generated!
+query.getDuration().toPeriod().toStandardMinutes()
+query.getDuration()
+Total Candidate Patches: 1727
+Correct Patch Rank: 129
+
+
+Processing druid-io_druid/modifiedFiles/8/JsonConfigTesterBase.java
+Fault in line no 139
+975 Patches Generated
+Correct Patch Generated!
+Object
+Module
+Total Candidate Patches: 975
+Correct Patch Rank: 782
+
+
+Processing druid-io_druid/modifiedFiles/34/StringInputRowParser.java
+Fault in line no 70
+636 Patches Generated
+Correct Patch Generated!
+limit
+remaining
+Total Candidate Patches: 636
+Correct Patch Rank: 7
+
+
+Processing druid-io_druid/modifiedFiles/26/TopNQueryQueryToolChest.java
+Fault in line no 213
+6372 Patches Generated
+Correct Patch Generated!
+fn.manipulate(agg,input.getMetric(agg.getName()))
+input.getMetric(agg.getName())
+Total Candidate Patches: 6372
+Correct Patch Rank: 1099
+
+
+Processing yegor256_rexsl/modifiedFiles/4/Facebook.java
+Fault in line no 145
+1345 Patches Generated
+Correct Patch Generated!
+appKey
+appId
+Total Candidate Patches: 1345
+Correct Patch Rank: 8
+
+
+Processing fasseg_exp4j/modifiedFiles/4/Tokenizer.java
+Fault in line no 68
+784 Patches Generated
+Correct Patch Generated!
+Character.isDigit(next)
+Character.isDigit(next) || next == '.'
+Total Candidate Patches: 784
+Correct Patch Rank: 71
+
+
+Processing fasseg_exp4j/modifiedFiles/6/ExpressionBuilder.java
+Fault in line no 78
+1883 Patches Generated
+Correct Patch Generated!
+7
+5
+Total Candidate Patches: 1883
+Correct Patch Rank: 90
+
+
+Processing zeromq_jeromq/modifiedFiles/2/TcpAddress.java
+Fault in line no 75
+1089 Patches Generated
+Correct Patch Generated!
+addr_str.length() - 2
+addr_str.length() - 1
+Total Candidate Patches: 1089
+Correct Patch Rank: 37
+
+
+Processing crate_crate/modifiedFiles/10/IndexWriterProjector.java
+Fault in line no 84
+690 Patches Generated
+Correct Patch Generated!
+delegate
+this
+Total Candidate Patches: 690
+Correct Patch Rank: 285
+
+
+Processing crate_crate/modifiedFiles/2/Planner.java
+Fault in line no 498
+6795 Patches Generated
+Correct Patch Generated!
+whereClauses.get(0)
+whereClause
+Total Candidate Patches: 6795
+Correct Patch Rank: 28
+
+
+Processing crate_crate/modifiedFiles/26/UnassignedShardsReferenceResolver.java
+Fault in line no 45
+20 Patches Generated
+Correct Patch Generated!
+false
+null
+Total Candidate Patches: 20
+Correct Patch Rank: 14
+
+
+Processing geomajas_geomajas-project-client-gwt2/modifiedFiles/6/MapView.java
+Fault in line no 750
+2496 Patches Generated
+Correct Patch Generated!
+getX
+getY
+Total Candidate Patches: 2496
+Correct Patch Rank: 32
+
+
+Processing joestelmach_natty/modifiedFiles/2/WalkerState.java
+Fault in line no 146
+3880 Patches Generated
+Correct Patch Generated!
+yearInt > 0
+yearInt >= 0
+Total Candidate Patches: 3880
+Correct Patch Rank: 276
+
+
+Processing BaderLab_EnrichmentMapApp/modifiedFiles/2/PostAnalysisParameters.java
+Fault in line no 118
+470 Patches Generated
+Correct Patch Generated!
+0.25
+0.05
+Total Candidate Patches: 470
+Correct Patch Rank: 109
+
+
+Processing eclipse_xtext/modifiedFiles/68/XtextDamagerRepairer.java
+Fault in line no 96
+2156 Patches Generated
+Correct Patch Generated!
+actual.getCurrent().getStopIndex()
+actual.getCurrent().getStopIndex() + 1
+Total Candidate Patches: 2156
+Correct Patch Rank: 757
+
+
+Processing eclipse_xtext/modifiedFiles/38/XtendJvmModelInferrer.java
+Fault in line no 260
+3520 Patches Generated
+Correct Patch Generated!
+associatePrimary
+associate
+Total Candidate Patches: 3520
+Correct Patch Rank: 554
+
+
+Processing eclipse_xtext/modifiedFiles/2/JavaASTFlattener.java
+Fault in line no 1887
+15372 Patches Generated
+Correct Patch Generated!
+this._aSTFlattenerUtils.needsReturnValue(assigment)
+this._aSTFlattenerUtils.needsReturnValue(node)
+Total Candidate Patches: 15372
+Correct Patch Rank: 170
+
+
+Processing eclipse_xtext/modifiedFiles/36/XbaseResourceDescriptionStrategy.java
+Fault in line no 78
+1183 Patches Generated
+Correct Patch Generated!
+SIGNATURE_HASH_KEY
+IS_INTERFACE
+Total Candidate Patches: 1183
+Correct Patch Rank: 27
+
+
+Processing eclipse_xtext/modifiedFiles/24/WorkspaceProjectsStateHelper.java
+Fault in line no 96
+1757 Patches Generated
+Correct Patch Generated!
+p != null && XtextProjectHelper.hasNature(p) && XtextProjectHelper.hasNature(p)
+p != null && XtextProjectHelper.hasNature(p)
+Total Candidate Patches: 1757
+Correct Patch Rank: 27
+
+
+Processing eclipse_xtext/modifiedFiles/46/TypeArgumentContextProvider.java
+Fault in line no 889
+12848 Patches Generated
+Correct Patch Generated!
+ResolveInfoKind.UPPER
+allowWildcardResolutions ? ResolveInfoKind.WC_UPPER : ResolveInfoKind.UPPER
+Total Candidate Patches: 12848
+Correct Patch Rank: 4228
+
+
+Processing droolsjbpm_jbpm/modifiedFiles/2/DomainManagerServiceImpl.java
+Fault in line no 264
+2041 Patches Generated
+Correct Patch Generated!
+dirName + " Domain"
+dirName
+Total Candidate Patches: 2041
+Correct Patch Rank: 13
+
+
+Processing adangel_pmd/modifiedFiles/12/MockRule.java
+Fault in line no 71
+93 Patches Generated
+Correct Patch Generated!
+isInclude
+include
+Total Candidate Patches: 93
+Correct Patch Rank: 8
+
+
+Processing petitparser_java-petitparser/modifiedFiles/4/RepeatingParser.java
+Fault in line no 39
+169 Patches Generated
+Correct Patch Generated!
+result.success(elements)
+current.success(elements)
+Total Candidate Patches: 169
+Correct Patch Rank: 14
+
+
+Processing petitparser_java-petitparser/modifiedFiles/2/XmlGrammar.java
+Fault in line no 122
+1500 Patches Generated
+Correct Patch Generated!
+"nameStartChar"
+"nameChar"
+Total Candidate Patches: 1500
+Correct Patch Rank: 1116
+
+
+Processing graphhopper_graphhopper/modifiedFiles/2/NameIndex.java
+Fault in line no 59
+2340 Patches Generated
+Correct Patch Generated!
+1
+4
+Total Candidate Patches: 2340
+Correct Patch Rank: 1205
+
+
+Processing jcabi_jcabi/modifiedFiles/2/MethodLogger.java
+Fault in line no 68
+1387 Patches Generated
+Correct Patch Generated!
+point.getTarget().getClass()
+method.getDeclaringClass()
+Total Candidate Patches: 1387
+Correct Patch Rank: 329
+
+
+Processing citiususc_hipster/modifiedFiles/2/StringMaze.java
+Fault in line no 217
+960 Patches Generated
+Correct Patch Generated!
+this
+to
+Total Candidate Patches: 960
+Correct Patch Rank: 19
+
+
+Processing hibernate_hibernate-search/modifiedFiles/8/MultipleSessionsSearchTestCase.java
+Fault in line no 30
+730 Patches Generated
+Correct Patch Generated!
+org.hibernate.classic
+org.hibernate
+Total Candidate Patches: 730
+Correct Patch Rank: 26
+
+
+Processing hibernate_hibernate-search/modifiedFiles/2/LeakingLuceneBackend.java
+Fault in line no 45
+87 Patches Generated
+Correct Patch Generated!
+lastProcessedQueue=null
+lastProcessedQueue=new ArrayList<LuceneWork>()
+Total Candidate Patches: 87
+Correct Patch Rank: 8
+
+
+Processing tdunning_t-digest/modifiedFiles/6/ArrayDigest.java
+Fault in line no 795
+5670 Patches Generated
+Correct Patch Generated!
+pageSize / 2
+newPage.active
+Total Candidate Patches: 5670
+Correct Patch Rank: 1295
+
+
+Processing apache_maven/modifiedFiles/6/RegexBasedModelInterpolator.java
+Fault in line no 167
+1370 Patches Generated
+Correct Patch Generated!
+realExpr
+wholeExpr
+Total Candidate Patches: 1370
+Correct Patch Rank: 39
+
+
+Processing twall_jna/modifiedFiles/16/FileMonitor.java
+Fault in line no 222
+2154 Patches Generated
+Correct Patch Generated!
+result|=Kernel32.FILE_NOTIFY_CHANGE_CREATION
+result|=Kernel32.FILE_NOTIFY_CHANGE_NAME
+Total Candidate Patches: 2154
+Correct Patch Rank: 25
+
+
+Processing twall_jna/modifiedFiles/6/Structure.java
+Fault in line no 1290
+6994 Patches Generated
+Correct Patch Generated!
+true
+debug
+Total Candidate Patches: 6994
+Correct Patch Rank: 939
+
+
+Processing twall_jna/modifiedFiles/12/Native.java
+Fault in line no 1192
+11925 Patches Generated
+Correct Patch Generated!
+FFIType.get(Pointer.class).peer
+FFIType.get(rclass).peer
+Total Candidate Patches: 11925
+Correct Patch Rank: 231
+
+
+Processing apache_jackrabbit/modifiedFiles/4/NodeImpl.java
+Fault in line no 1077
+9320 Patches Generated
+Correct Patch Generated!
+prop.getDefinition()
+oldDef
+Total Candidate Patches: 9320
+Correct Patch Rank: 1375
+
+
+Processing Geomatys_geotoolkit/modifiedFiles/2/JAXBFeatureTypeReader.java
+Fault in line no 217
+2478 Patches Generated
+Correct Patch Generated!
+true
+false
+Total Candidate Patches: 2478
+Correct Patch Rank: 16
+
+
+Processing apache_commons-lang/modifiedFiles/16/StrBuilder.java
+Fault in line no 884
+4746 Patches Generated
+Correct Patch Generated!
+strLen
+width
+Total Candidate Patches: 4746
+Correct Patch Rank: 69
+
+
+Processing apache_commons-lang/modifiedFiles/14/LocaleUtils.java
+Fault in line no 223
+741 Patches Generated
+Correct Patch Generated!
+cAvailableLocaleSet
+availableLocaleList()
+Total Candidate Patches: 741
+Correct Patch Rank: 430
+
+
+Processing apache_commons-lang/modifiedFiles/2/TypeUtils.java
+Fault in line no 1629
+830 Patches Generated
+Correct Patch Generated!
+true
+false
+Total Candidate Patches: 830
+Correct Patch Rank: 3
+
+
+Processing carrot2_carrot2/modifiedFiles/10/PrintDependencies.java
+Fault in line no 152
+2352 Patches Generated
+Correct Patch Generated!
+dependencies.length - 1
+dependencies.length
+Total Candidate Patches: 2352
+Correct Patch Rank: 3
+
+
+Processing pentaho_pentaho-platform/modifiedFiles/6/UserSettingService.java
+Fault in line no 146
+1089 Patches Generated
+Correct Patch Generated!
+setting.getSettingValue().equals(settingName)
+setting.getSettingName().equals(settingName)
+Total Candidate Patches: 1089
+Correct Patch Rank: 3
+
+
+Processing davidmoten_rtree/modifiedFiles/2/Geometries.java
+Fault in line no 29
+360 Patches Generated
+Correct Patch Generated!
+lon2
+lat2
+Total Candidate Patches: 360
+Correct Patch Rank: 137
+
+
+Processing Cervator_Terasology/modifiedFiles/2/StoragePathProvider.java
+Fault in line no 127
+753 Patches Generated
+Correct Patch Generated!
+worldsPath
+worldPath
+Total Candidate Patches: 753
+Correct Patch Rank: 7
+
+
+Processing chocoteam_choco3/modifiedFiles/2/SatFactory.java
+Fault in line no 129
+1645 Patches Generated
+Correct Patch Generated!
+sat.addClause(SatSolver.negated(lit))
+sat.addClause(lit)
+Total Candidate Patches: 1645
+Correct Patch Rank: 7
+
+
+Processing chocoteam_choco3/modifiedFiles/12/OneWordS32BitSet.java
+Fault in line no 411
+762 Patches Generated
+Correct Patch Generated!
+64
+32
+Total Candidate Patches: 762
+Correct Patch Rank: 201
+
+
+Processing wikimedia_kraken/modifiedFiles/4/Funnel.java
+Fault in line no 255
+1300 Patches Generated
+Correct Patch Generated!
+path.size()
+path.size() - 1
+Total Candidate Patches: 1300
+Correct Patch Rank: 109
+
+
+Processing OpenHFT_Chronicle-Map/modifiedFiles/2/NodeDiscovery.java
+Fault in line no 744
+5160 Patches Generated
+Correct Patch Generated!
+this.ourAddressAndPort
+ourAddressAndPort
+Total Candidate Patches: 5160
+Correct Patch Rank: 2
+
+
+Processing sonatype_nexus-oss/modifiedFiles/16/HttpClientProxyUtil.java
+Fault in line no 236
+2730 Patches Generated
+Correct Patch Generated!
+!isNtlmUsedOldValue.booleanValue()
+isNtlmUsedOldValue.booleanValue()
+Total Candidate Patches: 2730
+Correct Patch Rank: 12
+
+
+Processing sonatype_nexus-oss/modifiedFiles/4/HttpClientManagerImpl.java
+Fault in line no 130
+726 Patches Generated
+Correct Patch Generated!
+getHeaders
+getFirstHeader
+Total Candidate Patches: 726
+Correct Patch Rank: 162
+
+
+Processing sonatype_nexus-oss/modifiedFiles/8/DefaultRepositoryRouter.java
+Fault in line no 732
+2588 Patches Generated
+Correct Patch Generated!
+getOriginalRequestPath
+getRepositoryPath
+Total Candidate Patches: 2588
+Correct Patch Rank: 22
+
+
+Processing nkzawa_engine.io-client.java/modifiedFiles/2/ParseQS.java
+Fault in line no 29
+923 Patches Generated
+Correct Patch Generated!
+0
+1
+Total Candidate Patches: 923
+Correct Patch Rank: 148
+
+
+Processing opennars_opennars/modifiedFiles/4/Term.java
+Fault in line no 161
+1974 Patches Generated
+Correct Patch Generated!
+this
+that
+Total Candidate Patches: 1974
+Correct Patch Rank: 141
+
+
+Processing ceylon_ceylon-compiler/modifiedFiles/4/AbstractTransformer.java
+Fault in line no 1025
+15608 Patches Generated
+Correct Patch Generated!
+satRefinedTP
+refinedSatisfiedType
+Total Candidate Patches: 15608
+Correct Patch Rank: 276
+
+
+Processing ceylon_ceylon-compiler/modifiedFiles/6/CeylonDoc.java
+Fault in line no 462
+8463 Patches Generated
+Correct Patch Generated!
+module
+getFromObject()
+Total Candidate Patches: 8463
+Correct Patch Rank: 2177
+
+
+Processing jclouds_jclouds/modifiedFiles/16/SecurityGroupAsyncClient.java
+Fault in line no 107
+84 Patches Generated
+
+
+Processing jclouds_jclouds/modifiedFiles/6/LocalBlobStore.java
+Fault in line no 264
+2116 Patches Generated
+Correct Patch Generated!
+prefix != null
+prefix != null && !prefix.isEmpty()
+Total Candidate Patches: 2116
+Correct Patch Rank: 4
+
+
+Processing jclouds_jclouds/modifiedFiles/30/TemplateBuilderImpl.java
+Fault in line no 323
+3184 Patches Generated
+Correct Patch Generated!
+getName
+getDescription
+Total Candidate Patches: 3184
+Correct Patch Rank: 8
+
+
+Processing deegree_deegree3/modifiedFiles/6/MappingUtils.java
+Fault in line no 224
+1633 Patches Generated
+Correct Patch Generated!
+getSourceCRS
+getTargetCRS
+Total Candidate Patches: 1633
+Correct Patch Rank: 42
+
+
+Processing bonitasoft_bonita-studio/modifiedFiles/8/PageDesignerMappingComposite.java
+Fault in line no 101
+2663 Patches Generated
+Correct Patch Generated!
+targetForm.getContent() + ".json"
+targetForm.getContent()
+Total Candidate Patches: 2663
+Correct Patch Rank: 5
+
+
+Processing calipho-sib_nextprot-api/modifiedFiles/2/SolrServiceImpl.java
+Fault in line no 370
+4319 Patches Generated
+Correct Patch Generated!
+"simple_ids"
+"simple"
+Total Candidate Patches: 4319
+Correct Patch Rank: 478
+
+
+Processing ModeShape_modeshape/modifiedFiles/16/AbstractJcrNode.java
+Fault in line no 915
+10325 Patches Generated
+Correct Patch Generated!
+"nt:unstructured"
+null
+Total Candidate Patches: 10325
+Correct Patch Rank: 1205
+
+
+Processing ModeShape_modeshape/modifiedFiles/8/JcrWorkspace.java
+Fault in line no 461
+3296 Patches Generated
+Correct Patch Generated!
+parentNode.isRoot()
+destPath.isRoot()
+Total Candidate Patches: 3296
+Correct Patch Rank: 324
+
+
+Processing usus_usus-plugins/modifiedFiles/2/CodeProportionsRatio.java
+Fault in line no 25
+304 Patches Generated
+Correct Patch Generated!
+result == 0 ? 0 : 100 - result
+100 - result
+Total Candidate Patches: 304
+Correct Patch Rank: 3
+
+
+Processing fge_json-schema-validator/modifiedFiles/4/IdFragment.java
+Fault in line no 66
+747 Patches Generated
+Correct Patch Generated!
+idNode.textValue().replaceFirst("^#","")
+idNode.textValue()
+Total Candidate Patches: 747
+Correct Patch Rank: 3
+
+
+Processing uwescience_myria/modifiedFiles/6/LeapFrogJoin.java
+Fault in line no 340
+5166 Patches Generated
+Correct Patch Generated!
+getChildren().length
+tables[tableIndex].numColumns()
+Total Candidate Patches: 5166
+Correct Patch Rank: 694
+
+
+Processing DICE-UNC_jargon/modifiedFiles/2/DataObjCloseInp.java
+Fault in line no 59
+249 Patches Generated
+Correct Patch Generated!
+"authPlugReqInp_PI"
+PI_TAG
+Total Candidate Patches: 249
+Correct Patch Rank: 19
+
+
+Processing orientechnologies_orientdb/modifiedFiles/2/OWALChangesTree.java
+Fault in line no 120
+3836 Patches Generated
+Correct Patch Generated!
+offset
+0
+Total Candidate Patches: 3836
+Correct Patch Rank: 21
+
+
+Processing candlepin_candlepin/modifiedFiles/8/ComplianceStatus.java
+Fault in line no 142
+728 Patches Generated
+Correct Patch Generated!
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty()
+nonCompliantProducts.isEmpty()
+Total Candidate Patches: 728
+Correct Patch Rank: 65
+
+
+Processing TEAMMATES_repo/modifiedFiles/4/AppPage.java
+Fault in line no 685
+4133 Patches Generated
+Correct Patch Generated!
+1
+0
+Total Candidate Patches: 4133
+Correct Patch Rank: 791
+
+
+Processing TEAMMATES_repo/modifiedFiles/6/AppPage.java
+Fault in line no 685
+4133 Patches Generated
+Correct Patch Generated!
+0
+1
+Total Candidate Patches: 4133
+Correct Patch Rank: 814
+
+
+Processing TEAMMATES_repo/modifiedFiles/20/StudentHomePage.java
 Fault in line no 44
-0 Patches Generated
+732 Patches Generated
+Correct Patch Generated!
+1
+0
+Total Candidate Patches: 732
+Correct Patch Rank: 50
+
+
+Processing TEAMMATES_repo/modifiedFiles/24/HtmlHelper.java
+Fault in line no 78
+1700 Patches Generated
+Correct Patch Generated!
+replaceInRawHtmlString
+preProcessHtml
+Total Candidate Patches: 1700
+Correct Patch Rank: 64
+
+
+Processing dCache_dcache/modifiedFiles/2/Args.java
+Fault in line no 88
+1352 Patches Generated
+Correct Patch Generated!
+name
+option
+Total Candidate Patches: 1352
+Correct Patch Rank: 5
+
+
+Processing internetarchive_heritrix3/modifiedFiles/2/CrawlURI.java
+Fault in line no 1981
+7919 Patches Generated
+Correct Patch Generated!
+b != null
+b == null
+Total Candidate Patches: 7919
+Correct Patch Rank: 643
+
+
+Processing MassiveCraft_MassiveCore/modifiedFiles/2/Mson.java
+Fault in line no 210
+5285 Patches Generated
+Correct Patch Generated!
+color
+style
+Total Candidate Patches: 5285
+Correct Patch Rank: 273
+
+
+Processing greenlaw110_Rythm/modifiedFiles/4/TemplateBase.java
+Fault in line no 710
+4796 Patches Generated
+Correct Patch Generated!
+-1
+0
+Total Candidate Patches: 4796
+Correct Patch Rank: 190
+
+
+Processing resteasy_Resteasy/modifiedFiles/4/AcceptableVariant.java
+Fault in line no 71
+157 Patches Generated
+Correct Patch Generated!
+0
+compare
+Total Candidate Patches: 157
+Correct Patch Rank: 1
+
+
+Processing resteasy_Resteasy/modifiedFiles/12/UriBuilderImpl.java
+Fault in line no 427
+3888 Patches Generated
+Correct Patch Generated!
+name
+theName
+Total Candidate Patches: 3888
+Correct Patch Rank: 55
+
+
+Processing querydsl_querydsl/modifiedFiles/16/QBean.java
+Fault in line no 152
+1321 Patches Generated
+Correct Patch Generated!
+type
+beanType
+Total Candidate Patches: 1321
+Correct Patch Rank: 61
+
+
+Processing querydsl_querydsl/modifiedFiles/8/ColQueryImpl.java
+Fault in line no 40
+245 Patches Generated
+Correct Patch Generated!
+ColQueryTemplates.DEFAULT
+templates
+Total Candidate Patches: 245
+Correct Patch Rank: 11
+
+
+Processing c4fcm_CLIFF/modifiedFiles/2/AllTestsSuite.java
+Fault in line no 18
+714 Patches Generated
+Correct Patch Generated!
+edu.mit.mediacloud.test
+edu.mit.civic.mediacloud.test
+Total Candidate Patches: 714
+Correct Patch Rank: 95
+
+
+Processing alibaba_dubbo/modifiedFiles/2/JavaBeanSerializeUtil.java
+Fault in line no 104
+3084 Patches Generated
+Correct Patch Generated!
+i++
+i
+Total Candidate Patches: 3084
+Correct Patch Rank: 17
+
+
+Processing gradle_gradle/modifiedFiles/4/Test1.java
+Fault in line no 1
+1507 Patches Generated
+Correct Patch Generated!
+org.gradle.api.plugins.sonar.runner.SonarRunnerSmokeIntegrationTest.shared.nested.nested2.nestedProject.src.test.java.org.gradle
+org.gradle
+Total Candidate Patches: 1507
+Correct Patch Rank: 73
+
+
+Processing gradle_gradle/modifiedFiles/6/UriScriptSource.java
+Fault in line no 48
+1236 Patches Generated
+Correct Patch Generated!
+getPath
+toString
+Total Candidate Patches: 1236
+Correct Patch Rank: 29
+
+
+Processing btrplace_scheduler/modifiedFiles/2/Spread.java
+Fault in line no 88
+470 Patches Generated
+Correct Patch Generated!
+getInvolvedNodes()
+getInvolvedVMs()
+Total Candidate Patches: 470
+Correct Patch Rank: 125
+
+
+Processing puniverse_capsule/modifiedFiles/2/Capsule.java
+Fault in line no 799
+35688 Patches Generated
+Correct Patch Generated!
+cls.getClass()
+cls
+Total Candidate Patches: 35688
+Correct Patch Rank: 3988
+
+
+Processing oVirt_ovirt-engine/modifiedFiles/16/RemoveQuotaCommand.java
+Fault in line no 40
+791 Patches Generated
+Correct Patch Generated!
+getDbFacade().getQuotaDAO()
+getQuotaDAO()
+Total Candidate Patches: 791
+Correct Patch Rank: 215
+
+
+Processing oVirt_ovirt-engine/modifiedFiles/8/OsValueAutoCompleter.java
+Fault in line no 41
+490 Patches Generated
+Correct Patch Generated!
+text.trim().toLowerCase()
+text.trim()
+Total Candidate Patches: 490
+Correct Patch Rank: 107
+
+
+Processing oVirt_ovirt-engine/modifiedFiles/2/SyntaxChecker.java
+Fault in line no 714
+4565 Patches Generated
+Correct Patch Generated!
+useTags
+true
+Total Candidate Patches: 4565
+Correct Patch Rank: 132
+
+
+Processing oVirt_ovirt-engine/modifiedFiles/24/UpdateVmDiskCommand.java
+Fault in line no 66
+4037 Patches Generated
+Correct Patch Generated!
+_oldDisk
+_oldDisk.getDisk()
+Total Candidate Patches: 4037
+Correct Patch Rank: 1411
+
+
+Processing CIRDLES_topsoil/modifiedFiles/6/TickGenerator.java
+Fault in line no 121
+2576 Patches Generated
+Correct Patch Generated!
+floorToZero
+ceil
+Total Candidate Patches: 2576
+Correct Patch Rank: 540
+
+
+Processing CIRDLES_topsoil/modifiedFiles/2/TSVDatasetWriter.java
+Fault in line no 71
+1219 Patches Generated
+Correct Patch Generated!
+i < dataset.getFields().size() + 1
+i < dataset.getFields().size()
+Total Candidate Patches: 1219
+Correct Patch Rank: 22
+
+
+Processing ocpsoft_prettytime/modifiedFiles/6/Resources_ja.java
+Fault in line no 76
+1050 Patches Generated
+Correct Patch Generated!
+"月"
+"ヶ月"
+Total Candidate Patches: 1050
+Correct Patch Rank: 467
+
+
+Processing ReactiveX_RxJava/modifiedFiles/14/CompositeSubscription.java
+Fault in line no 75
+660 Patches Generated
+Correct Patch Generated!
+subscriptions
+newSubscriptions
+Total Candidate Patches: 660
+Correct Patch Rank: 20
+
+
+Processing kuali_kc/modifiedFiles/8/S2SBaseFormGenerator.java
+Fault in line no 613
+10498 Patches Generated
+Correct Patch Generated!
+getPath
+toString
+Total Candidate Patches: 10498
+Correct Patch Rank: 1366
+
+
+Processing kuali_kc/modifiedFiles/2/ProposalDevelopmentPermissionsRule.java
+Fault in line no 142
+2754 Patches Generated
+Correct Patch Generated!
+!hasAggregator(editRoles)
+hasAggregator(editRoles)
+Total Candidate Patches: 2754
+Correct Patch Rank: 291
+
+
+Processing arnaudroger_SimpleFlatMapper/modifiedFiles/4/SingletonPropertyFinder.java
+Fault in line no 31
+688 Patches Generated
+Correct Patch Generated!
+!selectedParameters.isEmpty()
+selectedParameters.isEmpty()
+Total Candidate Patches: 688
+Correct Patch Rank: 37
+
+
+Processing apache_incubator-usergrid/modifiedFiles/2/RelationManagerImpl.java
+Fault in line no 2393
+22549 Patches Generated
+Correct Patch Generated!
+getName
+getType
+Total Candidate Patches: 22549
+Correct Patch Rank: 62
+
+
+Processing apache_incubator-brooklyn/modifiedFiles/4/ArchiveUtils.java
+Fault in line no 276
+3088 Patches Generated
+Correct Patch Generated!
+optionalTmpDir
+tmpDir
+Total Candidate Patches: 3088
+Correct Patch Rank: 17
+
+
+Processing apache_incubator-brooklyn/modifiedFiles/22/SingleMachineLocationResolver.java
+Fault in line no 50
+1504 Patches Generated
+Correct Patch Generated!
+"byon"
+null
+Total Candidate Patches: 1504
+Correct Patch Rank: 809
+
+
+Processing apache_incubator-brooklyn/modifiedFiles/18/UsageApi.java
+Fault in line no 112
+140 Patches Generated
+Correct Patch Generated!
+"brooklyn.rest.domain.usagestatistics"
+"brooklyn.rest.domain.UsageStatistics"
+Total Candidate Patches: 140
+Correct Patch Rank: 8
+
+
+Processing xwiki_xwiki-platform/modifiedFiles/6/AbstractSolrMetadataExtractor.java
+Fault in line no 276
+2083 Patches Generated
+Correct Patch Generated!
+documentLocales
+locales
+Total Candidate Patches: 2083
+Correct Patch Rank: 209
+
+
+Processing xwiki_xwiki-platform/modifiedFiles/2/TemplateManager.java
+Fault in line no 353
+3144 Patches Generated
+Correct Patch Generated!
+content
+this
+Total Candidate Patches: 3144
+Correct Patch Rank: 628
+
+
+Processing JacORB_JacORB/modifiedFiles/6/lexer.java
+Fault in line no 815
+3036 Patches Generated
+Correct Patch Generated!
+advance
+swallow_whitespace
+Total Candidate Patches: 3036
+Correct Patch Rank: 7
+
+
+Processing JacORB_JacORB/modifiedFiles/2/UnionType.java
+Fault in line no 725
+6457 Patches Generated
+Correct Patch Generated!
+" && discriminator != "
+" && _discriminator != "
+Total Candidate Patches: 6457
+Correct Patch Rank: 4954
+
+
+Processing jhpoelen_eol-globi-data/modifiedFiles/8/CypherQueryBuilder.java
+Fault in line no 148
+8672 Patches Generated
+Correct Patch Generated!
+HOST_OF
+HAS_HOST
+Total Candidate Patches: 8672
+Correct Patch Rank: 192
+
+
+Processing jhpoelen_eol-globi-data/modifiedFiles/14/ExporterTaxa.java
+Fault in line no 93
+832 Patches Generated
+Correct Patch Generated!
+"taxonRank"
+"rank"
+Total Candidate Patches: 832
+Correct Patch Rank: 543
+
+
+Processing jhpoelen_eol-globi-data/modifiedFiles/10/StudyImporterForHurlbert.java
+Fault in line no 51
+2240 Patches Generated
+Correct Patch Generated!
+StringUtils.isNotBlank(preyTaxonName) && !"NA".equals(preyTaxonName)
+StringUtils.isNotBlank(preyTaxonName)
+Total Candidate Patches: 2240
+Correct Patch Rank: 1
+
+
+Processing jhpoelen_eol-globi-data/modifiedFiles/18/Config.java
+Fault in line no 30
+666 Patches Generated
+Correct Patch Generated!
+baseDir + storeDir
+storeDir
+Total Candidate Patches: 666
+Correct Patch Rank: 22
+
+
+Processing eclipse_tycho/modifiedFiles/2/ProbeArtifactSink.java
+Fault in line no 125
+1080 Patches Generated
+Correct Patch Generated!
+writeIsStarted
+writeIsCommitted
+Total Candidate Patches: 1080
+Correct Patch Rank: 15
+
+
+Processing nutzam_nutz/modifiedFiles/2/JsonRendering.java
+Fault in line no 117
+1836 Patches Generated
+Correct Patch Generated!
+name
+key
+Total Candidate Patches: 1836
+Correct Patch Rank: 300
+
+
+Processing apache_tika/modifiedFiles/8/DateUtils.java
+Fault in line no 86
+380 Patches Generated
+Correct Patch Generated!
+date
+calendar
+Total Candidate Patches: 380
+Correct Patch Rank: 79
+
+
+Processing apache_qpid/modifiedFiles/2/AMQConnectionFactory.java
+Fault in line no 143
+1361 Patches Generated
+Correct Patch Generated!
+toString
+getURL
+Total Candidate Patches: 1361
+Correct Patch Rank: 57
+
+
+Processing Graylog2_graylog2-server/modifiedFiles/4/OutputRegistry.java
+Fault in line no 96
+800 Patches Generated
+Correct Patch Generated!
+this.runningMessageOutputs.values()
+runningOutputs
+Total Candidate Patches: 800
+Correct Patch Rank: 94
+
+
+Processing Graylog2_graylog2-server/modifiedFiles/8/TestHelper.java
+Fault in line no 50
+752 Patches Generated
+Correct Patch Generated!
+what.getBytes()
+what.getBytes("UTF-8")
+Total Candidate Patches: 752
+Correct Patch Rank: 479
+
+
+Processing caelum_mamute/modifiedFiles/2/Question.java
+Fault in line no 436
+2698 Patches Generated
+Correct Patch Generated!
+index - 1
+index
+Total Candidate Patches: 2698
+Correct Patch Rank: 5
+
+
+Processing ORCID_ORCID-Source/modifiedFiles/4/Jaxb2JpaAdapterImpl.java
+Fault in line no 497
+6515 Patches Generated
+Correct Patch Generated!
+HashSet
+TreeSet
+Total Candidate Patches: 6515
+Correct Patch Rank: 164
+
+
+Processing pentaho_pentaho-metadata/modifiedFiles/4/XmiParser.java
+Fault in line no 1100
+14679 Patches Generated
+Correct Patch Generated!
+nvp.get(nvp.get("RELATIONSHIP_COMPLEX_JOIN"))
+nvp.get("RELATIONSHIP_COMPLEX_JOIN")
+Total Candidate Patches: 14679
+Correct Patch Rank: 22
+
+
+Processing pentaho_pentaho-metadata/modifiedFiles/8/PMSFormula.java
+Fault in line no 584
+3665 Patches Generated
+Correct Patch Generated!
+businessTable.getId()
+businessTable
+Total Candidate Patches: 3665
+Correct Patch Rank: 966
+
+
+Processing INRIA_spoon/modifiedFiles/8/SignaturePrinter.java
+Fault in line no 362
+4417 Patches Generated
+Correct Patch Generated!
+literal.getValue()
+literal
+Total Candidate Patches: 4417
+Correct Patch Rank: 390
+
+
+Processing INRIA_spoon/modifiedFiles/2/Launcher.java
+Fault in line no 121
+1452 Patches Generated
+Correct Patch Generated!
+run
+processArguments
+Total Candidate Patches: 1452
+Correct Patch Rank: 6
+
+
+Processing apache_cxf/modifiedFiles/4/SymmetricBindingHandler.java
+Fault in line no 255
+8991 Patches Generated
+Correct Patch Generated!
+encrParts
+secondEncrParts
+Total Candidate Patches: 8991
+Correct Patch Rank: 918
+
+
+Processing neophob_PixelController/modifiedFiles/4/PixelInvadersDevice.java
+Fault in line no 127
+1485 Patches Generated
+Correct Patch Generated!
+panelNr
+ofs
+Total Candidate Patches: 1485
+Correct Patch Rank: 8
+
+
+Processing apache_derby/modifiedFiles/16/Price.java
+Fault in line no 85
+369 Patches Generated
+Correct Patch Generated!
+FIRST_VERSION
+TIMESTAMPED_VERSION
+Total Candidate Patches: 369
+Correct Patch Rank: 10
+
+
+Processing jgrapht_jgrapht/modifiedFiles/8/MinSourceSinkCut.java
+Fault in line no 128
+372 Patches Generated
+Correct Patch Generated!
+outEdges
+inEdges
+Total Candidate Patches: 372
+Correct Patch Rank: 5
+
+
+Processing jgrapht_jgrapht/modifiedFiles/14/StrongConnectivityInspector.java
+Fault in line no 276
+1377 Patches Generated
+Correct Patch Generated!
+this.graph
+graph
+Total Candidate Patches: 1377
+Correct Patch Rank: 13
+
+
+Processing FasterXML_jackson-jr/modifiedFiles/2/TypeDetector.java
+Fault in line no 716
+4902 Patches Generated
+Correct Patch Generated!
+Collection
+Map
+Total Candidate Patches: 4902
+Correct Patch Rank: 258
+
+
+Processing bonitasoft_bonita-engine/modifiedFiles/4/FormMappingServiceImpl.java
+Fault in line no 113
+3537 Patches Generated
+Correct Patch Generated!
+authorizationRules
+null
+Total Candidate Patches: 3537
+Correct Patch Rank: 284
+
+
+Processing bonitasoft_bonita-engine/modifiedFiles/6/PageMappingServiceImpl.java
+Fault in line no 124
+1444 Patches Generated
+Correct Patch Generated!
+url != null && urlAdapter != null
+urlAdapter != null
+Total Candidate Patches: 1444
+Correct Patch Rank: 31
+
+
+Processing languagetool-org_languagetool/modifiedFiles/58/JLanguageTool.java
+Fault in line no 520
+4228 Patches Generated
+Correct Patch Generated!
+sentence.length() - 1
+sentence.length()
+Total Candidate Patches: 4228
+Correct Patch Rank: 677
+
+
+Processing languagetool-org_languagetool/modifiedFiles/40/DifferentLengthRule.java
+Fault in line no 61
+790 Patches Generated
+Correct Patch Generated!
+1
+0
+Total Candidate Patches: 790
+Correct Patch Rank: 148
+
+
+Processing languagetool-org_languagetool/modifiedFiles/48/DoublePunctuationRule.java
+Fault in line no 80
+672 Patches Generated
+Correct Patch Generated!
+Math.max(0,startPos)
+Math.max(0,startPos - 1)
+Total Candidate Patches: 672
+Correct Patch Rank: 57
+
+
+Processing languagetool-org_languagetool/modifiedFiles/38/RuleApplication.java
+Fault in line no 96
+76 Patches Generated
+Correct Patch Generated!
+isHasRealReplacement
+hasRealReplacement
+Total Candidate Patches: 76
+Correct Patch Rank: 1
+
+
+Processing droolsjbpm_droolsjbpm-integration/modifiedFiles/6/KieServerImpl.java
+Fault in line no 524
+3370 Patches Generated
+Correct Patch Generated!
+"containerId"
+containerId
+Total Candidate Patches: 3370
+Correct Patch Rank: 19
+
+
+Processing dcm4che_dcm4che/modifiedFiles/2/Attributes.java
+Fault in line no 3166
+18834 Patches Generated
+Correct Patch Generated!
+i
+j
+Total Candidate Patches: 18834
+Correct Patch Rank: 247
+
+
+Processing eXist-db_exist/modifiedFiles/4/SimpleACLPermission.java
+Fault in line no 272
+2361 Patches Generated
+Correct Patch Generated!
+0
+i
+Total Candidate Patches: 2361
+Correct Patch Rank: 27
+
+
+Processing eXist-db_exist/modifiedFiles/10/PathExpr.java
+Fault in line no 255
+4760 Patches Generated
+Correct Patch Generated!
+!Type.subTypeOf(result.getItemType(),Type.NODE)
+Type.subTypeOf(result.getItemType(),Type.ATOMIC)
+Total Candidate Patches: 4760
+Correct Patch Rank: 17
+
+
+Processing HSLdevcom_parkandrideAPI/modifiedFiles/2/Application.java
+Fault in line no 197
+3168 Patches Generated
+Correct Patch Generated!
+"/*"
+"/**"
+Total Candidate Patches: 3168
+Correct Patch Rank: 791
+
+
+Processing pentaho_mondrian/modifiedFiles/2/SegmentCacheIndexImpl.java
+Fault in line no 350
+1395 Patches Generated
+Correct Patch Generated!
+regionColumn
+headerColumn
+Total Candidate Patches: 1395
+Correct Patch Rank: 8
+
+
+Processing jboss-reddeer_reddeer/modifiedFiles/2/View.java
+Fault in line no 92
+2631 Patches Generated
+Correct Patch Generated!
+button.isEnabled() && button.getToolTipText().equals(toolbarToolTip)
+button.getToolTipText().equals(toolbarToolTip)
+Total Candidate Patches: 2631
+Correct Patch Rank: 38
+
+
+Processing thomasjungblut_thomasjungblut-common/modifiedFiles/4/MathUtils.java
+Fault in line no 167
+3192 Patches Generated
+Correct Patch Generated!
+log
+input
+Total Candidate Patches: 3192
+Correct Patch Rank: 1894
+
+
+Processing jankotek_MapDB/modifiedFiles/4/DB.java
+Fault in line no 1463
+6144 Patches Generated
+Correct Patch Generated!
+name
+name + ".type"
+Total Candidate Patches: 6144
+Correct Patch Rank: 19
+
+
+Processing openrocket_openrocket/modifiedFiles/4/FinSet.java
+Fault in line no 443
+4185 Patches Generated
+Correct Patch Generated!
+y0 - y1
+y0 + y1
+Total Candidate Patches: 4185
+Correct Patch Rank: 94
+
+
+Processing dotCMS_core/modifiedFiles/12/FieldsCache.java
+Fault in line no 199
+1005 Patches Generated
+Correct Patch Generated!
+getPrimaryGroup
+getFieldsVarGroup
+Total Candidate Patches: 1005
+Correct Patch Rank: 22
+
+
+Processing voldemort_voldemort/modifiedFiles/6/DefaultStoreClient.java
+Fault in line no 97
+184 Patches Generated
+Correct Patch Generated!
+null
+defaultValue
+Total Candidate Patches: 184
+Correct Patch Rank: 45
+
+
+Processing cdk_cdk/modifiedFiles/10/Electronegativity.java
+Fault in line no 48
+208 Patches Generated
+Correct Patch Generated!
+IMolecule
+IAtomContainer
+Total Candidate Patches: 208
+Correct Patch Rank: 11
+
+
+Processing cdk_cdk/modifiedFiles/28/UniversalIsomorphismTester.java
+Fault in line no 754
+1931 Patches Generated
+Correct Patch Generated!
+a1
+a2
+Total Candidate Patches: 1931
+Correct Patch Rank: 2
+
+
+Processing quickfix-j_quickfixj/modifiedFiles/2/DataDictionary.java
+Fault in line no 262
+10551 Patches Generated
+Correct Patch Generated!
+fields != null & fields.contains(new Integer(field))
+fields != null && fields.contains(new Integer(field))
+Total Candidate Patches: 10551
+Correct Patch Rank: 5
+
+
+Processing araqne_logdb/modifiedFiles/4/OutputJson.java
+Fault in line no 284
+1375 Patches Generated
+Correct Patch Generated!
+encoding
+encodingOption
+Total Candidate Patches: 1375
+Correct Patch Rank: 81
+
+
+Processing araqne_logdb/modifiedFiles/6/OutputJson.java
+Fault in line no 274
+827 Patches Generated
+Correct Patch Generated!
+" "
+""
+Total Candidate Patches: 827
+Correct Patch Rank: 133
+
+
+Processing araqne_logdb/modifiedFiles/12/Eq.java
+Fault in line no 32
+682 Patches Generated
+Correct Patch Generated!
+tryBuildPattern
+tryBuildPattern2
+Total Candidate Patches: 682
+Correct Patch Rank: 51
+
+
+Processing mongodb_morphia/modifiedFiles/16/EmbeddedMapper.java
+Fault in line no 111
+1616 Patches Generated
+Correct Patch Generated!
+null
+retrieved
+Total Candidate Patches: 1616
+Correct Patch Rank: 870
+
+
+Processing mongodb_morphia/modifiedFiles/14/DoubleConverter.java
+Fault in line no 40
+358 Patches Generated
+Correct Patch Generated!
+double.class
+Double.class
+Total Candidate Patches: 358
+Correct Patch Rank: 197
+
+
+Processing mongodb_morphia/modifiedFiles/12/Mapper.java
+Fault in line no 394
+2622 Patches Generated
+Correct Patch Generated!
+mappedValue=value
+mappedValue=toMongoObject(value,false)
+Total Candidate Patches: 2622
+Correct Patch Rank: 7
+
+
+Processing helun_Ektorp/modifiedFiles/2/ViewResult.java
+Fault in line no 187
+1138 Patches Generated
+Correct Patch Generated!
+findValue
+get
+Total Candidate Patches: 1138
+Correct Patch Rank: 190
+
+
+Processing inbloom_secure-data-service/modifiedFiles/2/GenericToEdOrgValidator.java
+Fault in line no 53
+944 Patches Generated
+Correct Patch Generated!
+ids.toString()
+ids
+Total Candidate Patches: 944
+Correct Patch Rank: 124
+
+
+Processing inbloom_secure-data-service/modifiedFiles/18/WriteValidator.java
+Fault in line no 66
+2509 Patches Generated
+Correct Patch Generated!
+uriInfo.getPathSegments().get(VERSION_INDEX).getPath()
+uriInfo.getPathSegments().get(VERSION_INDEX)
+Total Candidate Patches: 2509
+Correct Patch Rank: 3
+
+
+Processing jenkinsci_jenkins/modifiedFiles/22/MarkupText.java
+Fault in line no 101
+3075 Patches Generated
+Correct Patch Generated!
+end
+start
+Total Candidate Patches: 3075
+Correct Patch Rank: 15
+
+
+Processing jenkinsci_jenkins/modifiedFiles/26/MavenBuild.java
+Fault in line no 481
+6114 Patches Generated
+Correct Patch Generated!
+getParentBuild
+getModuleSetBuild
+Total Candidate Patches: 6114
+Correct Patch Rank: 70
+
+
+Processing jphp-compiler_jphp/modifiedFiles/10/FileFunctions.java
+Fault in line no 106
+2331 Patches Generated
+Correct Patch Generated!
+getPath
+getParent
+Total Candidate Patches: 2331
+Correct Patch Rank: 104
+
+
+Processing imagej_imagej/modifiedFiles/10/UnsignedShortArrayAccessor.java
+Fault in line no 37
+165 Patches Generated
+Correct Patch Generated!
+value+=65536 + value
+value=65536 + value
+Total Candidate Patches: 165
+Correct Patch Rank: 2
+
+
+Processing apache_archiva/modifiedFiles/4/ArchivaDavResourceFactory.java
+Fault in line no 449
+9477 Patches Generated
+Correct Patch Generated!
+"/" + repoGroupConfig.getMergedIndexPath()
+repoGroupConfig.getMergedIndexPath()
+Total Candidate Patches: 9477
+Correct Patch Rank: 232
+
+
+Processing apache_archiva/modifiedFiles/6/Maven2RepositoryMerger.java
+Fault in line no 264
+1374 Patches Generated
+Correct Patch Generated!
+projectMetadataFileInSourceRepo
+projectMetadataFileInTargetRepo
+Total Candidate Patches: 1374
+Correct Patch Rank: 57
+
+
+Processing jenkinsci_credentials-plugin/modifiedFiles/2/URIRequirementBuilder.java
+Fault in line no 199
+214 Patches Generated
+Correct Patch Generated!
+withoutScheme
+withoutPath
+Total Candidate Patches: 214
+Correct Patch Rank: 38
+
+
+Processing fge_json-patch/modifiedFiles/2/LCS.java
+Fault in line no 130
+1160 Patches Generated
+Correct Patch Generated!
+0
+i
+Total Candidate Patches: 1160
+Correct Patch Rank: 2
+
+
+Processing JetBrains_ideavim/modifiedFiles/2/CommandParser.java
+Fault in line no 304
+2164 Patches Generated
+Correct Patch Generated!
+'0'
+'.'
+Total Candidate Patches: 2164
+Correct Patch Rank: 699
+
+
+Processing puniverse_quasar/modifiedFiles/4/RemoteActor.java
+Fault in line no 32
+87 Patches Generated
+Correct Patch Generated!
+Object
+LifecycleListener
+Total Candidate Patches: 87
+Correct Patch Rank: 33
+
+
+Processing lenskit_lenskit/modifiedFiles/2/BinarySearch.java
+Fault in line no 68
+737 Patches Generated
+Correct Patch Generated!
+0
+start
+Total Candidate Patches: 737
+Correct Patch Rank: 11
+
+
+Processing Internet2_grouper/modifiedFiles/2/AddMissingGroupSets.java
+Fault in line no 453
+2696 Patches Generated
+Correct Patch Generated!
+setOwnerStemId
+setOwnerAttrDefId
+Total Candidate Patches: 2696
+Correct Patch Rank: 157
+
+
+Processing apache_lucene-solr/modifiedFiles/10/SpellCheckCollator.java
+Fault in line no 205
+7296 Patches Generated
+Correct Patch Generated!
+collation
+origQuery
+Total Candidate Patches: 7296
+Correct Patch Rank: 824
+
+
+Processing apache_lucene-solr/modifiedFiles/2/GeoPoint.java
+Fault in line no 94
+350 Patches Generated
+Correct Patch Generated!
+z
+x
+Total Candidate Patches: 350
+Correct Patch Rank: 16
+
+
+Processing apache_lucene-solr/modifiedFiles/18/ValueSourceParser.java
+Fault in line no 107
+4720 Patches Generated
+Correct Patch Generated!
+getString
+parseArg
+Total Candidate Patches: 4720
+Correct Patch Rank: 35
+
+
+Processing TeamCohen_ProPPR/modifiedFiles/2/SparseMatrixIndex.java
+Fault in line no 155
+615 Patches Generated
+Correct Patch Generated!
+r != null
+r == null
+Total Candidate Patches: 615
+Correct Patch Rank: 1
+
+
+Processing apache_mahout/modifiedFiles/6/WeightedRunningAverage.java
+Fault in line no 43
+330 Patches Generated
+Correct Patch Generated!
+datum * weight
+datum
+Total Candidate Patches: 330
+Correct Patch Rank: 23
+
+
+Processing apache_mahout/modifiedFiles/14/AdaptiveWordValueEncoder.java
+Fault in line no 47
+449 Patches Generated
+Correct Patch Generated!
+getWeight(originalForm,weight)
+weight
+Total Candidate Patches: 449
+Correct Patch Rank: 2
+
+
+Processing allure-framework_allure-core/modifiedFiles/2/AllureTestListener.java
+Fault in line no 76
+2048 Patches Generated
+Correct Patch Generated!
+iTestContext.getSuite().getName()
+getCurrentSuiteTitle(iTestContext)
+Total Candidate Patches: 2048
+Correct Patch Rank: 695
+
+
+Processing cmusphinx_sphinx4/modifiedFiles/4/ConfigurationManager.java
+Fault in line no 121
+2450 Patches Generated
+Correct Patch Generated!
+getClass
+getConfigurableClass
+Total Candidate Patches: 2450
+Correct Patch Rank: 1679
+
+
+Processing atlasapi_atlas/modifiedFiles/20/BbcModule.java
+Fault in line no 59
+1176 Patches Generated
+Correct Patch Generated!
+HOURLY
+FIFTEEN_MINUTES
+Total Candidate Patches: 1176
+Correct Patch Rank: 1133
+
+
+Processing atlasapi_atlas/modifiedFiles/18/C4EpgEntryProcessor.java
+Fault in line no 240
+2220 Patches Generated
+Correct Patch Generated!
+"c4:" + id
+id
+Total Candidate Patches: 2220
+Correct Patch Rank: 4
+
+
+Processing geotools_geotools/modifiedFiles/16/WMSComplexTypes.java
+Fault in line no 4173
+9112 Patches Generated
+Correct Patch Generated!
+2
+i
+Total Candidate Patches: 9112
+Correct Patch Rank: 53
+
+
+Processing geotools_geotools/modifiedFiles/4/CSVFeatureSource.java
+Fault in line no 69
+472 Patches Generated
+Correct Patch Generated!
+getReader
+getReaderInternal
+Total Candidate Patches: 472
+Correct Patch Rank: 26
+
+
+Processing geotools_geotools/modifiedFiles/20/JTS.java
+Fault in line no 264
+3580 Patches Generated
+Correct Patch Generated!
+getSourceDimensions
+getTargetDimensions
+Total Candidate Patches: 3580
+Correct Patch Rank: 5
+
+
+Processing geotools_geotools/modifiedFiles/22/StreamingRenderer.java
+Fault in line no 2449
+15288 Patches Generated
+Correct Patch Generated!
+drawMe.content
+grid
+Total Candidate Patches: 15288
+Correct Patch Rank: 12
+
+
+Processing geotools_geotools/modifiedFiles/12/SLDParser.java
+Fault in line no 1879
+9916 Patches Generated
+Correct Patch Generated!
+false
+true
+Total Candidate Patches: 9916
+Correct Patch Rank: 29
+
+
+Processing geotools_geotools/modifiedFiles/18/Benchmark.java
+Fault in line no 82
+452 Patches Generated
+Correct Patch Generated!
+features.close(it)
+it.close()
+Total Candidate Patches: 452
+Correct Patch Rank: 144
+
+
+Processing Pardot_Rhombus/modifiedFiles/4/CObjectCQLGenerator.java
+Fault in line no 417
+3592 Patches Generated
+Correct Patch Generated!
+index.getShardingStrategy().getShardKey(uuid) + ""
+index.getShardingStrategy().getShardKey(uuid)
+Total Candidate Patches: 3592
+Correct Patch Rank: 193
+
+
+Processing apache_chemistry-opencmis/modifiedFiles/2/ObjectFactoryImpl.java
+Fault in line no 352
+2284 Patches Generated
+Correct Patch Generated!
+secondaryType.getId()
+secondaryTypeId
+Total Candidate Patches: 2284
+Correct Patch Rank: 216
+
+
+Processing droolsjbpm_drools/modifiedFiles/32/ClassObjectType.java
+Fault in line no 43
+821 Patches Generated
+Correct Patch Generated!
+InitialFactImpl
+InitialFact
+Total Candidate Patches: 821
+Correct Patch Rank: 287
+
+
+Processing droolsjbpm_drools/modifiedFiles/14/SlidingTimeWindow.java
+Fault in line no 195
+1500 Patches Generated
+Correct Patch Generated!
+pctx
+expiresPctx
+Total Candidate Patches: 1500
+Correct Patch Rank: 4
+
+
+Processing droolsjbpm_drools/modifiedFiles/38/DescrFactory.java
+Fault in line no 401
+9633 Patches Generated
+Correct Patch Generated!
+((DroolsTree)activeEntry.getValue()).getText()
+((DroolsTree)activeEntry.getValue() != null) ? ((DroolsTree)activeEntry.getValue()).getText() : "()"
+Total Candidate Patches: 9633
+Correct Patch Rank: 2
+
+
+Processing droolsjbpm_drools/modifiedFiles/2/KnowledgeBuilderImpl.java
+Fault in line no 1523
+16472 Patches Generated
+Correct Patch Generated!
+!current.getName().equals(packageDescr.getName())
+current.getName().equals(packageDescr.getName())
+Total Candidate Patches: 16472
+Correct Patch Rank: 1
+
+
+Processing droolsjbpm_drools/modifiedFiles/24/PackageBuilder.java
+Fault in line no 1508
+9724 Patches Generated
+Correct Patch Generated!
+endsWith
+equals
+Total Candidate Patches: 9724
+Correct Patch Rank: 84
+
+
+Processing caskdata_cdap/modifiedFiles/82/SerializingMetaDataStore.java
+Fault in line no 198
+2736 Patches Generated
+Correct Patch Generated!
+new OperationException(StatusCode.ENTRY_EXISTS,message)
+new OperationException(StatusCode.WRITE_CONFLICT,message)
+Total Candidate Patches: 2736
+Correct Patch Rank: 4
+
+
+Processing caskdata_cdap/modifiedFiles/30/KeyValueTable.java
+Fault in line no 146
+584 Patches Generated
+Correct Patch Generated!
+swap
+compareAndSwap
+Total Candidate Patches: 584
+Correct Patch Rank: 2
+
+
+Processing caskdata_cdap/modifiedFiles/58/KafkaTestBase.java
+Fault in line no 70
+651 Patches Generated
+Correct Patch Generated!
+"10"
+"2"
+Total Candidate Patches: 651
+Correct Patch Rank: 141
+
+
+Processing caskdata_cdap/modifiedFiles/80/SerializingMetaDataStore.java
+Fault in line no 206
+2880 Patches Generated
+Correct Patch Generated!
+new OperationException(StatusCode.ENTRY_EXISTS,message)
+new OperationException(StatusCode.WRITE_CONFLICT,message)
+Total Candidate Patches: 2880
+Correct Patch Rank: 4
+
+
+Processing caskdata_cdap/modifiedFiles/12/AltStyleTableRenderer.java
+Fault in line no 208
+1806 Patches Generated
+Correct Patch Generated!
+splitFieldLine.length() - 1
+splitFieldLine.length()
+Total Candidate Patches: 1806
+Correct Patch Rank: 232
+
+
+Processing caskdata_cdap/modifiedFiles/84/InMemoryDiscoveryService.java
+Fault in line no 44
+569 Patches Generated
+Correct Patch Generated!
+discoverable
+wrapper
+Total Candidate Patches: 569
+Correct Patch Rank: 3
+
+
+Processing caskdata_cdap/modifiedFiles/18/ProgramLifecycleHttpHandler.java
+Fault in line no 693
+9716 Patches Generated
+Correct Patch Generated!
+HttpResponseStatus.BAD_REQUEST
+HttpResponseStatus.NOT_FOUND
+Total Candidate Patches: 9716
+Correct Patch Rank: 1052
+
+
+Processing caskdata_cdap/modifiedFiles/86/SmartTransactionAgent.java
+Fault in line no 172
+1921 Patches Generated
+Correct Patch Generated!
+null
+this.xaction
+Total Candidate Patches: 1921
+Correct Patch Rank: 447
+
+
+Processing caskdata_cdap/modifiedFiles/26/MetricsRequestParser.java
+Fault in line no 365
+2260 Patches Generated
+Correct Patch Generated!
+queryParams
+queryParams.get(RUN_ID)
+Total Candidate Patches: 2260
+Correct Patch Rank: 666
+
+
+Processing cowtowncoder_StoreMate/modifiedFiles/2/StorableKey.java
+Fault in line no 162
+1281 Patches Generated
+Correct Patch Generated!
+from + _length
+length
+Total Candidate Patches: 1281
+Correct Patch Rank: 21
+
+
+Processing enioka_jqm/modifiedFiles/4/HibernateClient.java
+Fault in line no 1167
+17908 Patches Generated
+Correct Patch Generated!
+wh
+wh2
+Total Candidate Patches: 17908
+Correct Patch Rank: 15
+
+
+Processing druid-io_druid-api/modifiedFiles/6/TimestampSpec.java
+Fault in line no 28
+759 Patches Generated
+Correct Patch Generated!
+format.toLowerCase()
+format
+Total Candidate Patches: 759
+Correct Patch Rank: 18
+
+
+Processing druid-io_druid-api/modifiedFiles/2/DelimitedParseSpec.java
+Fault in line no 36
+1287 Patches Generated
+Correct Patch Generated!
+Lists.<String>newArrayList()
+dimensionsSpec.getDimensions()
+Total Candidate Patches: 1287
+Correct Patch Rank: 232
+
+
+Processing Hive2Hive_Hive2Hive/modifiedFiles/4/FolderIndex.java
+Fault in line no 260
+537 Patches Generated
+Correct Patch Generated!
+isShared
+isShared()
+Total Candidate Patches: 537
+Correct Patch Rank: 49
+
+
+Processing lightblue-platform_lightblue-core/modifiedFiles/6/FieldProjector.java
+Fault in line no 50
+244 Patches Generated
+Correct Patch Generated!
+equals
+matches
+Total Candidate Patches: 244
+Correct Patch Rank: 20
+
+
+Processing hazelcast_hazelcast/modifiedFiles/116/ClientEngineImpl.java
+Fault in line no 309
+1608 Patches Generated
+Correct Patch Generated!
+endpoint.isFirstConnection()
+!endpoint.isFirstConnection()
+Total Candidate Patches: 1608
+Correct Patch Rank: 151
+
+
+Processing hazelcast_hazelcast/modifiedFiles/52/MapService.java
+Fault in line no 721
+8908 Patches Generated
+problem: Syntax error on token "!=", invalid AssignmentOperator31493
+dataValue=dataValue != null ? dataValue : dataOldValue
+dataValue != null
+Correct Patch Generated!
+dataValue != null ? dataValue : dataOldValue
+null
+Total Candidate Patches: 8908
+Correct Patch Rank: 374
+
+
+Processing hazelcast_hazelcast/modifiedFiles/172/TxnDeleteOperation.java
+Fault in line no 91
+91 Patches Generated
+Correct Patch Generated!
+successful
+true
+Total Candidate Patches: 91
+Correct Patch Rank: 1
+
+
+Processing hazelcast_hazelcast/modifiedFiles/66/ObjectRecordFactory.java
+Fault in line no 45
+612 Patches Generated
+Correct Patch Generated!
+value
+v
+Total Candidate Patches: 612
+Correct Patch Rank: 2
+
+
+Processing hazelcast_hazelcast/modifiedFiles/168/TxnCommitBackupOperation.java
+Fault in line no 57
+753 Patches Generated
+Correct Patch Generated!
+getCallerUuid()
+caller
+Total Candidate Patches: 753
+Correct Patch Rank: 8
+
+
+Processing hazelcast_hazelcast/modifiedFiles/156/ReplicatedRecord.java
+Fault in line no 70
+527 Patches Generated
+Correct Patch Generated!
+value
+this.value
+Total Candidate Patches: 527
+Correct Patch Rank: 12
+
+
+Processing hazelcast_hazelcast/modifiedFiles/10/BasicInvocationFuture.java
+Fault in line no 77
+1362 Patches Generated
+Correct Patch Generated!
+response != null
+response != null && !(response instanceof BasicInvocation.InternalResponse)
+Total Candidate Patches: 1362
+Correct Patch Rank: 297
+
+
+Processing hazelcast_hazelcast/modifiedFiles/78/TransactionalMapProxy.java
+Fault in line no 316
+1590 Patches Generated
+Correct Patch Generated!
+entry.getValue()
+entry.getValue().value
+Total Candidate Patches: 1590
+Correct Patch Rank: 928
+
+
+Processing hazelcast_hazelcast/modifiedFiles/12/BasicInvocationFuture.java
+Fault in line no 73
+1353 Patches Generated
+Correct Patch Generated!
+response != null
+response != null && !(response instanceof BasicInvocation.InternalResponse)
+Total Candidate Patches: 1353
+Correct Patch Rank: 297
+
+
+Processing hazelcast_hazelcast/modifiedFiles/136/TransactionManagerServiceImpl.java
+Fault in line no 232
+5446 Patches Generated
+Correct Patch Generated!
+NO_TXN
+COMMITTING
+Total Candidate Patches: 5446
+Correct Patch Rank: 84
+
+
+Processing hazelcast_hazelcast/modifiedFiles/46/GroupProperties.java
+Fault in line no 324
+3045 Patches Generated
+Correct Patch Generated!
+"60"
+"300"
+Total Candidate Patches: 3045
+Correct Patch Rank: 1380
+
+
+Processing hazelcast_hazelcast/modifiedFiles/138/HttpPostCommandProcessor.java
+Fault in line no 40
+1824 Patches Generated
+Correct Patch Generated!
+0
+-1
+Total Candidate Patches: 1824
+Correct Patch Rank: 611
+
+
+Processing hazelcast_hazelcast/modifiedFiles/140/HttpPostCommandProcessor.java
+Fault in line no 113
+2028 Patches Generated
+Correct Patch Generated!
+0
+-1
+Total Candidate Patches: 2028
+Correct Patch Rank: 389
+
+
+Processing Activiti_Activiti/modifiedFiles/4/ExtensionElementsParser.java
+Fault in line no 47
+487 Patches Generated
+Correct Patch Generated!
+activeProcess
+parentElement
+Total Candidate Patches: 487
+Correct Patch Rank: 109
+
+
+Processing CruiseControl_cruisecontrol/modifiedFiles/18/AntBuilder.java
+Fault in line no 290
+3124 Patches Generated
+Correct Patch Generated!
+"\"" + antScript + "\""
+antScript
+Total Candidate Patches: 3124
+Correct Patch Rank: 36
+
+
+Processing broadgsa_gatk-protected/modifiedFiles/14/SlidingWindow.java
+Fault in line no 881
+12444 Patches Generated
+Correct Patch Generated!
+markedSites.getVariantSiteBitSet().length
+markedSites.getVariantSiteBitSet().length - 1
+Total Candidate Patches: 12444
+Correct Patch Rank: 794
+
+
+Processing broadgsa_gatk-protected/modifiedFiles/10/VariantOverlapAnnotator.java
+Fault in line no 139
+2252 Patches Generated
+Correct Patch Generated!
+vcToAnnotate
+annotated
+Total Candidate Patches: 2252
+Correct Patch Rank: 163
+
+
+Processing bcdev_beam/modifiedFiles/10/EnvisatConstants.java
+Fault in line no 129
+720 Patches Generated
+Correct Patch Generated!
+1.0F
+0.0F
+Total Candidate Patches: 720
+Correct Patch Rank: 219
+
+
+Processing Mashape_unirest-java/modifiedFiles/2/GetRequest.java
+Fault in line no 41
+306 Patches Generated
+Correct Patch Generated!
+"\\?"
+"?"
+Total Candidate Patches: 306
+Correct Patch Rank: 195
+
+
+Processing eclipse_eclipse.jdt.ui/modifiedFiles/2/LocalCorrectionsSubProcessor.java
+Fault in line no 1630
+19125 Patches Generated
+Correct Patch Generated!
+selectedNode instanceof Name && selectedNode.getParent() instanceof SwitchStatement
+selectedNode instanceof Expression && selectedNode.getLocationInParent() == SwitchStatement.EXPRESSION_PROPERTY
+Total Candidate Patches: 19125
+Correct Patch Rank: 306
+
+
+Processing openengsb_openengsb/modifiedFiles/2/EDBConverter.java
+Fault in line no 377
+5357 Patches Generated
+Correct Patch Generated!
+toString
+getName
+Total Candidate Patches: 5357
+Correct Patch Rank: 96
+
+
+Processing qcadoo_mes/modifiedFiles/4/ProductionPerShiftDetailsHooks.java
+Fault in line no 202
+1719 Patches Generated
+Correct Patch Generated!
+orderPlannedStartDate
+orderEffectiveStartDate
+Total Candidate Patches: 1719
+Correct Patch Rank: 40
+
+
+Processing sboesebeck_morphium/modifiedFiles/12/Messaging.java
+Fault in line no 111
+884 Patches Generated
+Correct Patch Generated!
+messagesList
+toStore
+Total Candidate Patches: 884
+Correct Patch Rank: 15
+
+
+Processing baasbox_baasbox/modifiedFiles/6/QueryParams.java
+Fault in line no 265
+3278 Patches Generated
+Correct Patch Generated!
+toString
+asText
+Total Candidate Patches: 3278
+Correct Patch Rank: 1829
+
+
+Processing baasbox_baasbox/modifiedFiles/10/UsersResource.java
+Fault in line no 86
+900 Patches Generated
+Correct Patch Generated!
+true
+false
+Total Candidate Patches: 900
+Correct Patch Rank: 9
+
+
+Processing baasbox_baasbox/modifiedFiles/2/UsersResource.java
+Fault in line no 290
+4104 Patches Generated
+Correct Patch Generated!
+ATTRIBUTES_VISIBLE_BY_ANONYMOUS_USER
+ATTRIBUTES_VISIBLE_ONLY_BY_THE_USER
+Total Candidate Patches: 4104
+Correct Patch Rank: 44
+
+
+Processing Sage-Bionetworks_Synapse-Repository-Services/modifiedFiles/2/SearchQueueWorker.java
+Fault in line no 89
+675 Patches Generated
+Correct Patch Generated!
+change
+newMessage
+Total Candidate Patches: 675
+Correct Patch Rank: 108
+
+
+Processing realm_realm-java/modifiedFiles/20/Table.java
+Fault in line no 58
+662 Patches Generated
+Correct Patch Generated!
+true
+false
+Total Candidate Patches: 662
+Correct Patch Rank: 2
+
+
+Processing realm_realm-java/modifiedFiles/12/Realm.java
+Fault in line no 368
+3330 Patches Generated
+Correct Patch Generated!
+absolutePath
+absolutePath.hashCode()
+Total Candidate Patches: 3330
+Correct Patch Rank: 234
+
+
+Processing realm_realm-java/modifiedFiles/18/Realm.java
+Fault in line no 456
+1876 Patches Generated
+Correct Patch Generated!
+simpleClassName
+TABLE_PREFIX + simpleClassName
+Total Candidate Patches: 1876
+Correct Patch Rank: 3
+
+
+Processing Acstylos_wpi-suite/modifiedFiles/4/Project.java
+Fault in line no 270
+700 Patches Generated
+Correct Patch Generated!
+!team.contains(u)
+team.contains(u)
+Total Candidate Patches: 700
+Correct Patch Rank: 1
+
+
+Processing ControlSystemStudio_cs-studio/modifiedFiles/6/StateParser.java
+Fault in line no 22
+636 Patches Generated
+Correct Patch Generated!
+start
+end
+Total Candidate Patches: 636
+Correct Patch Rank: 36
+
+
+Processing ControlSystemStudio_cs-studio/modifiedFiles/2/UpgradeUtil.java
+Fault in line no 61
+495 Patches Generated
+Correct Patch Generated!
+indexOf
+lastIndexOf
+Total Candidate Patches: 495
+Correct Patch Rank: 22
+
+
+Processing neo4j_neo4j/modifiedFiles/10/DefaultGraphDatabaseDependencies.java
+Fault in line no 54
+260 Patches Generated
+Correct Patch Generated!
+GraphDatabaseSettings.class
+settingsClasses
+Total Candidate Patches: 260
+Correct Patch Rank: 144
+
+
+Processing CubeEngine_ReflecT/modifiedFiles/2/YamlCodec.java
+Fault in line no 280
+2130 Patches Generated
+Correct Patch Generated!
+offset
+offset + 1
+Total Candidate Patches: 2130
+Correct Patch Rank: 25
+
+
+Processing impetus-opensource_Kundera/modifiedFiles/6/CassandraDataHandlerBase.java
+Fault in line no 601
+3122 Patches Generated
+Correct Patch Generated!
+initialize(tr,m,entity)
+entity=initialize(tr,m,entity)
+Total Candidate Patches: 3122
+Correct Patch Rank: 4
+
+
+Processing mockito_mockito/modifiedFiles/2/InvocationMatcher.java
+Fault in line no 55
+1428 Patches Generated
+Correct Patch Generated!
+argumentsMatch(actual.getArguments()) || argumentsMatch(actual.getRawArguments())
+argumentsMatch(actual.getArguments())
+Total Candidate Patches: 1428
+Correct Patch Rank: 162
+
+
+Processing JetBrains_kotlin/modifiedFiles/34/TestAll.java
+Fault in line no 17
+135 Patches Generated
+Correct Patch Generated!
+kotlinlib
+stdlib
+Total Candidate Patches: 135
+Correct Patch Rank: 42
+
+
+Processing mapzen_open/modifiedFiles/10/RouteFragment.java
+Fault in line no 155
+3096 Patches Generated
+Correct Patch Generated!
+getActivity()
+act
+Total Candidate Patches: 3096
+Correct Patch Rank: 169
+
+
+Processing boundlessgeo_GeoGig/modifiedFiles/4/MongoGraphDatabase.java
+Fault in line no 8
+573 Patches Generated
+Correct Patch Generated!
+com.boundlessgeo
+org.geogit
+Total Candidate Patches: 573
+Correct Patch Rank: 62
+
+
+Processing gocd_gocd/modifiedFiles/18/StageSqlMapDao.java
+Fault in line no 404
+9960 Patches Generated
+Correct Patch Generated!
+getCurrentPage
+getOffset
+Total Candidate Patches: 9960
+Correct Patch Rank: 3397
+
+
+Processing collectionspace_services/modifiedFiles/2/IDGeneratorSerializer.java
+Fault in line no 106
+360 Patches Generated
+Correct Patch Generated!
+serializedPattern
+serializedGenerator
+Total Candidate Patches: 360
+Correct Patch Rank: 134
+
+
+Processing amplab_tachyon/modifiedFiles/10/InodeFile.java
+Fault in line no 256
+3267 Patches Generated
+Correct Patch Generated!
+blockIndex > mBlocks.size()
+blockIndex >= mBlocks.size()
+Total Candidate Patches: 3267
+Correct Patch Rank: 49
+
+
+Processing opendaylight_controller/modifiedFiles/6/DijkstraImplementation.java
+Fault in line no 400
+1191 Patches Generated
+Correct Patch Generated!
+{"unchecked","rawtypes"}
+"unchecked"
+Total Candidate Patches: 1191
+Correct Patch Rank: 25
+
+
+Processing yusuke_twitter4j/modifiedFiles/6/StatusStreamImpl.java
+Fault in line no 98
+1165 Patches Generated
+Correct Patch Generated!
+userStreamListener
+listener
+Total Candidate Patches: 1165
+Correct Patch Rank: 117
+
+
+Processing yusuke_twitter4j/modifiedFiles/2/HTMLEntity.java
+Fault in line no 74
+11891 Patches Generated
+Correct Patch Generated!
+-1 != semicolonIndex && 10 > (semicolonIndex - index)
+-1 != semicolonIndex
+Total Candidate Patches: 11891
+Correct Patch Rank: 91
+
+
+Processing hornetq_hornetq/modifiedFiles/70/ConsumerFlowTokenMessageCodec.java
+Fault in line no 40
+199 Patches Generated
+Correct Patch Generated!
+putFloat
+putInt
+Total Candidate Patches: 199
+Correct Patch Rank: 3
+
+
+Processing hornetq_hornetq/modifiedFiles/4/ClientSessionImpl.java
+Fault in line no 1998
+6010 Patches Generated
+Correct Patch Generated!
+consumerMaxRate
+maxRate
+Total Candidate Patches: 6010
+Correct Patch Rank: 2
+
+
+Processing hornetq_hornetq/modifiedFiles/22/HornetQServerImpl.java
+Fault in line no 1680
+7393 Patches Generated
+Correct Patch Generated!
+commit
+commitBindings
+Total Candidate Patches: 7393
+Correct Patch Rank: 505
+
+
+Processing hornetq_hornetq/modifiedFiles/60/ConcurrentHashSet.java
+Fault in line no 81
+353 Patches Generated
+Correct Patch Generated!
+dummy
+null
+Total Candidate Patches: 353
+Correct Patch Rank: 68
+
+
+Processing apache_directory-server/modifiedFiles/4/AvlTree.java
+Fault in line no 571
+1875 Patches Generated
+Correct Patch Generated!
+null
+node.left
+Total Candidate Patches: 1875
+Correct Patch Rank: 823
+
+
+Processing apache_directory-server/modifiedFiles/8/JdbmTable.java
+Fault in line no 159
+3559 Patches Generated
+Correct Patch Generated!
+valueSerializer
+null
+Total Candidate Patches: 3559
+Correct Patch Rank: 553
+
+
+Processing apache_directory-server/modifiedFiles/18/SubentryService.java
+Fault in line no 345
+4844 Patches Generated
+Correct Patch Generated!
+subentryDn
+normName
+Total Candidate Patches: 4844
+Correct Patch Rank: 11
+
+
+Processing SmartBear_soapui/modifiedFiles/2/RestMockService.java
+Fault in line no 121
+995 Patches Generated
+Correct Patch Generated!
+contains
+startsWith
+Total Candidate Patches: 995
+Correct Patch Rank: 83
+
+
+Processing pentaho_big-data-plugin/modifiedFiles/2/HadoopConfigurationBootstrap.java
+Fault in line no 249
+552 Patches Generated
+Correct Patch Generated!
+true
+false
+Total Candidate Patches: 552
+Correct Patch Rank: 1
+
+
+Processing RIPE-NCC_whois/modifiedFiles/4/JdbcRpslObjectDao.java
+Fault in line no 196
+2272 Patches Generated
+Correct Patch Generated!
+getByKey
+getByKeyOrNull
+Total Candidate Patches: 2272
+Correct Patch Rank: 94
+
+
+Processing spacewalkproject_spacewalk/modifiedFiles/10/AddressTag.java
+Fault in line no 215
+442 Patches Generated
+Correct Patch Generated!
+"href=\""
+" href=\""
+Total Candidate Patches: 442
+Correct Patch Rank: 245
+
+
+Processing Evolveum_midpoint/modifiedFiles/16/ModelControllerImpl.java
+Fault in line no 153
+6325 Patches Generated
+Correct Patch Generated!
+silentMarshal
+silentMarshalWrap
+Total Candidate Patches: 6325
+Correct Patch Rank: 18
+
+
+Processing Evolveum_midpoint/modifiedFiles/10/RAnyConverter.java
+Fault in line no 365
+1718 Patches Generated
+Correct Patch Generated!
+printDom
+serializeDOMToString
+Total Candidate Patches: 1718
+Correct Patch Rank: 1182
+
+
+Processing arturmkrtchyan_iban4j/modifiedFiles/2/BbanStructure.java
+Fault in line no 106
+1865 Patches Generated
+Correct Patch Generated!
+BbanStructureEntry.accountNumber(10,'c')
+BbanStructureEntry.accountNumber(10,'n')
+Total Candidate Patches: 1865
+Correct Patch Rank: 153
+
+
+Processing geosolutions-it_geobatch/modifiedFiles/2/Ds2dsAction.java
+Fault in line no 80
+1187 Patches Generated
+Correct Patch Generated!
+ActionConfiguration
+Ds2dsConfiguration
+Total Candidate Patches: 1187
+Correct Patch Rank: 463
+
+
+Processing marschall_memoryfilesystem/modifiedFiles/4/BlockChannel.java
+Fault in line no 106
+3914 Patches Generated
+Correct Patch Generated!
+1
+i
+Total Candidate Patches: 3914
+Correct Patch Rank: 53
+
+
+Processing BriteSnow_snow/modifiedFiles/4/DefaultFramePathsResolver.java
+Fault in line no 29
+1027 Patches Generated
+Correct Patch Generated!
+-1
+0
+Total Candidate Patches: 1027
+Correct Patch Rank: 506
+
+
+Processing BroadleafCommerce_BroadleafCommerce/modifiedFiles/2/FixedPriceFulfillmentPricingProvider.java
+Fault in line no 65
+646 Patches Generated
+Correct Patch Generated!
+fulfillmentGroup.getFulfillmentOption()
+option
+Total Candidate Patches: 646
+Correct Patch Rank: 26
+
+
+Processing myui_hivemall/modifiedFiles/4/OnlineVariance.java
+Fault in line no 68
+116 Patches Generated
+Correct Patch Generated!
+mean()
+mean
+Total Candidate Patches: 116
+Correct Patch Rank: 1
+
+
+Processing myui_hivemall/modifiedFiles/2/NetUtils.java
+Fault in line no 71
+180 Patches Generated
+Correct Patch Generated!
+getAvialablePort
+getAvailablePort
+Total Candidate Patches: 180
+Correct Patch Rank: 12
+
+
+Processing tinkerpop_tinkerpop3/modifiedFiles/2/UnionStep.java
+Fault in line no 82
+562 Patches Generated
+Correct Patch Generated!
+this
+clone
+Total Candidate Patches: 562
+Correct Patch Rank: 3
+
+
+Processing eclipse_rt.equinox.p2/modifiedFiles/6/RemovingABundle.java
+Fault in line no 30
+1623 Patches Generated
+Correct Patch Generated!
+Activator.getContext().getDataFile(RemovingABundle.class.getName()).getAbsolutePath()
+RemovingABundle.class.getName()
+Total Candidate Patches: 1623
+Correct Patch Rank: 78
+
+
+Processing openmicroscopy_openmicroscopy/modifiedFiles/6/FsFile.java
+Fault in line no 54
+1649 Patches Generated
+Correct Patch Generated!
+File.separatorChar
+separator
+Total Candidate Patches: 1649
+Correct Patch Rank: 72
+
+
+Processing eclipse_nebula.widgets.nattable/modifiedFiles/2/ColorPersistor.java
+Fault in line no 45
+54 Patches Generated
+Correct Patch Generated!
+DEFAULT_COLOR
+null
+Total Candidate Patches: 54
+Correct Patch Rank: 9
+
+
+Processing molgenis_molgenis/modifiedFiles/18/RestController.java
+Fault in line no 560
+2756 Patches Generated
+Correct Patch Generated!
+getAttributes
+getAtomicAttributes
+Total Candidate Patches: 2756
+Correct Patch Rank: 6
+
+
+Processing taskadapter_redmine-java-api/modifiedFiles/4/CustomField.java
+Fault in line no 94
+1856 Patches Generated
+Correct Patch Generated!
+that.value
+that.values
+Total Candidate Patches: 1856
+Correct Patch Rank: 130
+
+
+Processing evanchooly_javabot/modifiedFiles/6/GetFactoidOperation.java
+Fault in line no 120
+2822 Patches Generated
+Correct Patch Generated!
+sender
+nick
+Total Candidate Patches: 2822
+Correct Patch Rank: 26
+
+
+Processing evanchooly_javabot/modifiedFiles/10/SeenDaoHibernate.java
+Fault in line no 36
+537 Patches Generated
+Correct Patch Generated!
+getSeen(nick,channel).getNick()
+getSeen(nick,channel)
+Total Candidate Patches: 537
+Correct Patch Rank: 52
+
+
+Processing jbosstools_jbosstools-integration-tests/modifiedFiles/4/DriverDefinitionFactory.java
+Fault in line no 41
+237 Patches Generated
+Correct Patch Generated!
+preferencePage
+preferenceDialog
+Total Candidate Patches: 237
+Correct Patch Rank: 37
+
+
+Processing AndrewRosenberg_AuToBI/modifiedFiles/2/TextGridReader.java
+Fault in line no 154
+510 Patches Generated
+Correct Patch Generated!
+tones_tier
+breaks_tier
+Total Candidate Patches: 510
+Correct Patch Rank: 9
+
+
+Processing tananaev_traccar/modifiedFiles/4/GlobalSatProtocolDecoder.java
+Fault in line no 173
+2912 Patches Generated
+Correct Patch Generated!
+Double.valueOf(value)
+value
+Total Candidate Patches: 2912
+Correct Patch Rank: 376
+
+
+Processing tananaev_traccar/modifiedFiles/18/GlobalSatProtocolDecoder.java
+Fault in line no 190
+353 Patches Generated
+Correct Patch Generated!
+"(\\d+),"
+"(\\d+\\.?\\d*),"
+Total Candidate Patches: 353
+Correct Patch Rank: 21
+
+
+Processing cromwellian_gwt-sandbox/modifiedFiles/6/NumberFormat.java
+Fault in line no 1501
+12436 Patches Generated
+Correct Patch Generated!
+3
+2
+Total Candidate Patches: 12436
+Correct Patch Rank: 2166
+
+
+Processing cromwellian_gwt-sandbox/modifiedFiles/24/AbstractCollection.java
+Fault in line no 124
+832 Patches Generated
+Correct Patch Generated!
+i++
+i
+Total Candidate Patches: 832
+Correct Patch Rank: 3
+
+
+Processing astamuse_asta4d/modifiedFiles/2/InjectUtil.java
+Fault in line no 502
+7630 Patches Generated
+Correct Patch Generated!
+DEFAULT_VALUE
+EXCEPTION
+Total Candidate Patches: 7630
+Correct Patch Rank: 118
+
+
+Processing e-ucm_ead/modifiedFiles/4/RandomSublist.java
+Fault in line no 74
+349 Patches Generated
+Correct Patch Generated!
+i
+index
+Total Candidate Patches: 349
+Correct Patch Rank: 6
+
+
+Processing e-ucm_ead/modifiedFiles/2/BackgroundTaskDemo.java
+Fault in line no 63
+704 Patches Generated
+Correct Patch Generated!
+mockController
+controller
+Total Candidate Patches: 704
+Correct Patch Rank: 11
+
+
+Processing spring-projects_spring-roo/modifiedFiles/10/SimpleParser.java
+Fault in line no 593
+8537 Patches Generated
+Correct Patch Generated!
+null
+paramType
+Total Candidate Patches: 8537
+Correct Patch Rank: 1679
+
+
+Processing apache_activemq/modifiedFiles/4/SharedFileLocker.java
+Fault in line no 47
+585 Patches Generated
+Correct Patch Generated!
+true
+false
+Total Candidate Patches: 585
+Correct Patch Rank: 17
+
+
+Processing apache_activemq/modifiedFiles/8/Queue.java
+Fault in line no 399
+10105 Patches Generated
+Correct Patch Generated!
+setCount
+add
+Total Candidate Patches: 10105
+Correct Patch Rank: 87
+
+
+Processing apache_activemq/modifiedFiles/30/NetworkBridgeFactory.java
+Fault in line no 78
+305 Patches Generated
+Correct Patch Generated!
+"false"
+"true"
+Total Candidate Patches: 305
+Correct Patch Rank: 46
+
+
+Processing apache_activemq/modifiedFiles/48/TopicRegion.java
+Fault in line no 198
+3169 Patches Generated
+Correct Patch Generated!
+sub.getConsumerInfo()
+sub.getConsumerInfo().getConsumerId()
+Total Candidate Patches: 3169
+Correct Patch Rank: 103
+
+
+Processing apache_activemq/modifiedFiles/10/BrokerService.java
+Fault in line no 2128
+18677 Patches Generated
+Correct Patch Generated!
+e.getMessage()
+e
+Total Candidate Patches: 18677
+Correct Patch Rank: 540
+
+
+Processing apache_activemq/modifiedFiles/38/TopicSubscription.java
+Fault in line no 80
+7923 Patches Generated
+Correct Patch Generated!
+info.getDestination().isTemporary() || broker == null
+info.getDestination().isTemporary()
+Total Candidate Patches: 7923
+Correct Patch Rank: 292
+
+
+Processing apache_activemq/modifiedFiles/12/LeaseDatabaseLocker.java
+Fault in line no 108
+3156 Patches Generated
+Correct Patch Generated!
+now
+now + lockAcquireSleepInterval
+Total Candidate Patches: 3156
+Correct Patch Rank: 59
+
+
+Processing apache_activemq/modifiedFiles/50/ActiveMQMessageConsumer.java
+Fault in line no 863
+4160 Patches Generated
+Correct Patch Generated!
+sendAck
+syncSendPacket
+Total Candidate Patches: 4160
+Correct Patch Rank: 2846
+
+
+Processing apache_activemq/modifiedFiles/76/PrefetchSubscription.java
+Fault in line no 471
+5443 Patches Generated
+Correct Patch Generated!
+isSlave() || dispatched.size() - prefetchExtension >= info.getPrefetchSize()
+dispatched.size() - prefetchExtension >= info.getPrefetchSize()
+Total Candidate Patches: 5443
+Correct Patch Rank: 2
+
+
+Processing apache_activemq/modifiedFiles/26/DurableTopicSubscription.java
+Fault in line no 308
+724 Patches Generated
+Correct Patch Generated!
+isActive()
+true
+Total Candidate Patches: 724
+Correct Patch Rank: 52
+
+
+Processing jersey_jersey/modifiedFiles/14/FormParamValueFactoryProvider.java
+Fault in line no 194
+2080 Patches Generated
+Correct Patch Generated!
+requestContext.getMediaType().equals(MediaType.APPLICATION_FORM_URLENCODED_TYPE)
+MediaTypes.typeEqual(MediaType.APPLICATION_FORM_URLENCODED_TYPE,requestContext.getMediaType())
+Total Candidate Patches: 2080
+Correct Patch Rank: 733
+
+
+Processing mybatis_mybatis-3/modifiedFiles/2/GenericTokenParser.java
+Fault in line no 42
+792 Patches Generated
+Correct Patch Generated!
+start
+start - offset
+Total Candidate Patches: 792
+Correct Patch Rank: 62
+
+
+Processing ImpressiveCode_ic-depress/modifiedFiles/2/JiraOnlineAdapterUriBuilder.java
+Fault in line no 122
+1522 Patches Generated
+Correct Patch Generated!
+"https"
+protocol
+Total Candidate Patches: 1522
+Correct Patch Rank: 62
+
+
+Processing android_platform_frameworks_support/modifiedFiles/2/LinearLayoutManager.java
+Fault in line no 680
+4480 Patches Generated
+Correct Patch Generated!
+mShouldReverseLayout
+anchorInfo.mLayoutFromEnd
+Total Candidate Patches: 4480
+Correct Patch Rank: 90
+
+
+Processing gxa_atlas/modifiedFiles/16/SolrClient.java
+Fault in line no 75
+1696 Patches Generated
+Correct Patch Generated!
+searchText
+geneQuery
+Total Candidate Patches: 1696
+Correct Patch Rank: 58
+
+
+Processing gxa_atlas/modifiedFiles/8/NumberUtils.java
+Fault in line no 54
+406 Patches Generated
+Correct Patch Generated!
+numberOfFractionalDigits
+value
+Total Candidate Patches: 406
+Correct Patch Rank: 224
+
+
+Processing jtalks-org_jcommune/modifiedFiles/18/SamplePageController.java
+Fault in line no 80
+740 Patches Generated
+Correct Patch Generated!
+"/pages/{pagetId}/edit"
+"/pages/{pageId}/edit"
+Total Candidate Patches: 740
+Correct Patch Rank: 29
+
+
+Processing AsyncHttpClient_async-http-client/modifiedFiles/16/NettyAsyncHttpProvider.java
+Fault in line no 714
+6699 Patches Generated
+Correct Patch Generated!
+e.getCause()
+cause
+Total Candidate Patches: 6699
+Correct Patch Rank: 2450
+
+
+Processing apache_cassandra/modifiedFiles/16/ColumnFamily.java
+Fault in line no 275
+1244 Patches Generated
+Correct Patch Generated!
+Long.MIN_VALUE
+getMarkedForDeleteAt()
+Total Candidate Patches: 1244
+Correct Patch Rank: 419
+
+
+Processing apache_cassandra/modifiedFiles/14/ColumnFamily.java
+Fault in line no 370
+1432 Patches Generated
+Correct Patch Generated!
+Long.MIN_VALUE
+getMarkedForDeleteAt()
+Total Candidate Patches: 1432
+Correct Patch Rank: 178
+
+
+Processing apache_cassandra/modifiedFiles/22/CliClient.java
+Fault in line no 379
+10430 Patches Generated
+Correct Patch Generated!
+comparator_type
+column_type
+Total Candidate Patches: 10430
+Correct Patch Rank: 133
+
+
+Processing apache_cassandra/modifiedFiles/24/CliClient.java
+Fault in line no 471
+11736 Patches Generated
+Correct Patch Generated!
+statement.getChild(0).getText()
+CliCompiler.getColumnFamily(statement,keyspacesMap.get(keySpace).cf_defs)
+Total Candidate Patches: 11736
+Correct Patch Rank: 1702
+
+
+Processing develar_settings-repository/modifiedFiles/2/IcsManager.java
+Fault in line no 344
+224 Patches Generated
+Correct Patch Generated!
+true
+repositoryManager != null
+Total Candidate Patches: 224
+Correct Patch Rank: 17
+
+
+Processing apache_cloudstack/modifiedFiles/6/ProcessUtil.java
+Fault in line no 53
+493 Patches Generated
+Correct Patch Generated!
+"/var/run"
+pidDir == null ? "/var/run" : pidDir
+Total Candidate Patches: 493
+Correct Patch Rank: 146
+
+
+Processing caelum_vraptor/modifiedFiles/12/DefaultParametersControl.java
+Fault in line no 53
+1003 Patches Generated
+Correct Patch Generated!
+"\\{(.+?)\\}"
+"\\{([^\\}]+?)\\}"
+Total Candidate Patches: 1003
+Correct Patch Rank: 155
+
+
+Processing ninjaframework_ninja/modifiedFiles/6/MetricsServiceImpl.java
+Fault in line no 48
+552 Patches Generated
+Correct Patch Generated!
+Map
+ConcurrentHashMap
+Total Candidate Patches: 552
+Correct Patch Rank: 71
+
+
+Processing eclipse_cdt/modifiedFiles/6/BaseTestCase.java
+Fault in line no 200
+3185 Patches Generated
+Correct Patch Generated!
+(TestFailure)r.failures().nextElement()
+r.failures().nextElement()
+Total Candidate Patches: 3185
+Correct Patch Rank: 1
+
+
+Processing jenkinsci_junit-plugin/modifiedFiles/2/AbstractTestResultAction.java
+Fault in line no 162
+9200 Patches Generated
+Correct Patch Generated!
+0.0
+1.0
+Total Candidate Patches: 9200
+Correct Patch Rank: 319
+
+
+Processing apache_camel/modifiedFiles/4/JmsMessageHelper.java
+Fault in line no 388
+1985 Patches Generated
+Correct Patch Generated!
+answer=JmsMessageType.Bytes
+answer=JmsMessageType.Stream
+Total Candidate Patches: 1985
+Correct Patch Rank: 11
+
+
+Processing apache_camel/modifiedFiles/40/DefaultCamelContext.java
+Fault in line no 515
+4316 Patches Generated
+Correct Patch Generated!
+routes
+getRoutes()
+Total Candidate Patches: 4316
+Correct Patch Rank: 629
+
+
+Processing apache_camel/modifiedFiles/48/ProcessorDefinition.java
+Fault in line no 1344
+2793 Patches Generated
+Correct Patch Generated!
+resequencer
+resequence
+Total Candidate Patches: 2793
+Correct Patch Rank: 4
+
+
+Processing apache_camel/modifiedFiles/2/EndpointAnnotationProcessor.java
+Fault in line no 194
+2948 Patches Generated
+Correct Patch Generated!
+buffer.append("\n  }")
+buffer.append("\n  },")
+Total Candidate Patches: 2948
+Correct Patch Rank: 22
+
+
+Processing apache_camel/modifiedFiles/62/MailConsumer.java
+Fault in line no 116
+436 Patches Generated
+Correct Patch Generated!
+MessagingException
+Exception
+Total Candidate Patches: 436
+Correct Patch Rank: 394
+
+
+Processing ddf-project_DDF/modifiedFiles/2/AStatisticsSupporter.java
+Fault in line no 164
+6123 Patches Generated
+Correct Patch Generated!
+setX
+setY
+Total Candidate Patches: 6123
+Correct Patch Rank: 307
+
+
+Processing takawitter_trie4j/modifiedFiles/2/BytesRank1OnlySuccinctBitVector.java
+Fault in line no 49
+1466 Patches Generated
+Correct Patch Generated!
+0
+n / 8
+Total Candidate Patches: 1466
+Correct Patch Rank: 1102
+
+
+Processing korpling_ANNIS/modifiedFiles/2/QueryNodeListener.java
+Fault in line no 165
+2777 Patches Generated
+Correct Patch Generated!
+textMatchingFromSpec(ctx.txt,false)
+textMatchingFromSpec(ctx.txt,ctx.NEQ() != null)
+Total Candidate Patches: 2777
+Correct Patch Rank: 416
+
+
+Processing consulo_consulo/modifiedFiles/52/SMTestRunnerResultsForm.java
+Fault in line no 276
+1453 Patches Generated
+Correct Patch Generated!
+performUpdate
+updateFromRoot
+Total Candidate Patches: 1453
+Correct Patch Rank: 124
+
+
+Processing consulo_consulo/modifiedFiles/54/GroovyEnterHandler.java
+Fault in line no 104
+4236 Patches Generated
+Correct Patch Generated!
+text.length() - 2
+text.length() - 1
+Total Candidate Patches: 4236
+Correct Patch Rank: 103
+
+
+Processing consulo_consulo/modifiedFiles/6/MinusculeMatcher.java
+Fault in line no 214
+5284 Patches Generated
+Correct Patch Generated!
+i >= minFragment ? FList.<TextRange>emptyList().prepend(TextRange.from(nameIndex,i)) : null
+FList.<TextRange>emptyList().prepend(TextRange.from(nameIndex,i))
+Total Candidate Patches: 5284
+Correct Patch Rank: 498
+
+
+Processing consulo_consulo/modifiedFiles/58/MavenImportingTestCase.java
+Fault in line no 314
+1728 Patches Generated
+Correct Patch Generated!
+true
+false
+Total Candidate Patches: 1728
+Correct Patch Rank: 20
+
+
+Processing consulo_consulo/modifiedFiles/22/LookupImpl.java
+Fault in line no 448
+28016 Patches Generated
+Correct Patch Generated!
+(isExactPrefixItem(first,true) || isExactPrefixItem(first,false))
+isExactPrefixItem(first,true)
+Total Candidate Patches: 28016
+Correct Patch Rank: 77
+
+
+Processing mikosik_smooth-build/modifiedFiles/6/UserConsole.java
+Fault in line no 36
+1344 Patches Generated
+Correct Patch Generated!
+messageGroup.name()
+groupHeader
+Total Candidate Patches: 1344
+Correct Patch Rank: 12
+
+
+Processing hibernate_hibernate-validator/modifiedFiles/2/ReflectionHelper.java
+Fault in line no 255
+3770 Patches Generated
+Correct Patch Generated!
+((Constructor<?>)member)
+member
+Total Candidate Patches: 3770
+Correct Patch Rank: 152
+
+
+Processing jsonld-java_jsonld-java/modifiedFiles/2/RDFDataset.java
+Fault in line no 413
+4080 Patches Generated
+Correct Patch Generated!
+false
+true
+Total Candidate Patches: 4080
+Correct Patch Rank: 319
+
+
+Processing OpenNMS_opennms/modifiedFiles/40/ThresholdingSet.java
+Fault in line no 258
+3789 Patches Generated
+Correct Patch Generated!
+attr
+f.getField()
+Total Candidate Patches: 3789
+Correct Patch Rank: 1468
+
+
+Processing OpenNMS_opennms/modifiedFiles/44/TableTracker.java
+Fault in line no 103
+1344 Patches Generated
+Correct Patch Generated!
+m_ids
+m_lastOid
+Total Candidate Patches: 1344
+Correct Patch Rank: 32
+
+
+Processing rackerlabs_blueflood/modifiedFiles/4/HistogramRollup.java
+Fault in line no 92
+141 Patches Generated
+Correct Patch Generated!
+getNumberOfBins
+getMaxBins
+Total Candidate Patches: 141
+Correct Patch Rank: 94
+
+
+Processing droolsjbpm_guvnor/modifiedFiles/2/ScenarioTestEditorServiceImpl.java
+Fault in line no 17
+2444 Patches Generated
+Correct Patch Generated!
+org.kie.guvnor.testscenario.backend.server
+org.drools.guvnor.models.testscenarios.backend
+Total Candidate Patches: 2444
+Correct Patch Rank: 739
+
+
+Processing eclipse_jetty.project/modifiedFiles/26/ChannelEndPoint.java
+Fault in line no 152
+616 Patches Generated
+Correct Patch Generated!
+close()
+_channel.close()
+Total Candidate Patches: 616
+Correct Patch Rank: 359
+
+
+Processing rackerlabs_repose/modifiedFiles/10/CyclicByteBuffer.java
+Fault in line no 48
+855 Patches Generated
+Correct Patch Generated!
+0
+readableLength
+Total Candidate Patches: 855
+Correct Patch Rank: 35
+
+
+Processing intermine_intermine/modifiedFiles/32/Constant.java
+Fault in line no 74
+1066 Patches Generated
+Correct Patch Generated!
+(objC.value.charAt(value.length() - 1) == '\'')
+(objC.value.charAt(objC.value.length() - 1) == '\'')
+Total Candidate Patches: 1066
+Correct Patch Rank: 7
+
+
+Processing intermine_intermine/modifiedFiles/22/KeggPathwayConverter.java
+Fault in line no 130
+1015 Patches Generated
+Correct Patch Generated!
+"secondaryIdentifier"
+"identifier"
+Total Candidate Patches: 1015
+Correct Patch Rank: 566
+
+
+Processing intermine_intermine/modifiedFiles/34/Query.java
+Fault in line no 839
+2436 Patches Generated
+Correct Patch Generated!
+new Query()
+new Query(aliasToTable)
+Total Candidate Patches: 2436
+Correct Patch Rank: 958
+
+
+Processing apache_wicket/modifiedFiles/4/XmlPullParser.java
+Fault in line no 360
+2200 Patches Generated
+Correct Patch Generated!
+lastType=HttpTagType.CONDITIONAL_COMMENT
+lastType=HttpTagType.CONDITIONAL_COMMENT_ENDIF
+Total Candidate Patches: 2200
+Correct Patch Rank: 7
+
+
+Processing apache_wicket/modifiedFiles/22/Bytes.java
+Fault in line no 388
+787 Patches Generated
+Correct Patch Generated!
+gigabytes
+terabytes
+Total Candidate Patches: 787
+Correct Patch Rank: 31
+
+
+Processing broadgsa_gatk/modifiedFiles/52/DiploidGenotypePriors.java
+Fault in line no 210
+820 Patches Generated
+Correct Patch Generated!
+PROB_OF_REFERENCE_ERROR
+pRefError
+Total Candidate Patches: 820
+Correct Patch Rank: 50
+
+
+Processing broadgsa_gatk/modifiedFiles/2/IntervalUtils.java
+Fault in line no 374
+7389 Patches Generated
+Correct Patch Generated!
+loc.getStop() - loc.getStart()
+loc.size()
+Total Candidate Patches: 7389
+Correct Patch Rank: 4687
+
+
+Processing broadgsa_gatk/modifiedFiles/44/RealignerTargetCreator.java
+Fault in line no 67
+663 Patches Generated
+Correct Patch Generated!
+0.15
+0.0
+Total Candidate Patches: 663
+Correct Patch Rank: 584
+
+
+Processing eclipse_jgit/modifiedFiles/12/Repository.java
+Fault in line no 512
+5982 Patches Generated
+Correct Patch Generated!
+rev=rw.parseAny(rev)
+rev=rw.peel(rev)
+Total Candidate Patches: 5982
+Correct Patch Rank: 5
+
+
+Processing apache_sling/modifiedFiles/4/ValidationServiceImpl.java
+Fault in line no 231
+5530 Patches Generated
+Correct Patch Generated!
+true
+enforceValidation
+Total Candidate Patches: 5530
+Correct Patch Rank: 256
+
+
+Processing boundlessgeo_geoserver/modifiedFiles/14/CurveTypeWrapper.java
+Fault in line no 11
+1049 Patches Generated
+Correct Patch Generated!
+org.geotools.gml3
+org.geotools.geometry.jts
+Total Candidate Patches: 1049
+Correct Patch Rank: 83
+
+
+Processing boundlessgeo_geoserver/modifiedFiles/2/PreviewLayer.java
+Fault in line no 61
+628 Patches Generated
+Correct Patch Generated!
+getName
+prefixedName
+Total Candidate Patches: 628
+Correct Patch Rank: 22
+
+
+Processing yegor256_rultor/modifiedFiles/6/QnReferredTo.java
+Fault in line no 89
+888 Patches Generated
+Correct Patch Generated!
+comment.body().trim()
+comment.body()
+Total Candidate Patches: 888
+Correct Patch Rank: 28
+
+
+Processing yegor256_rultor/modifiedFiles/14/StandsRs.java
+Fault in line no 95
+486 Patches Generated
+Correct Patch Generated!
+StandRs
+AclRs
+Total Candidate Patches: 486
+Correct Patch Rank: 105
+
+
+Processing fcrepo4_fcrepo4/modifiedFiles/2/NamespaceRdfContext.java
+Fault in line no 93
+333 Patches Generated
+Correct Patch Generated!
+nsURI
+rdfNsUri
+Total Candidate Patches: 333
+Correct Patch Rank: 4
+
+
+Processing camunda_camunda-bpm-platform/modifiedFiles/8/HistoryParseListener.java
+Fault in line no 88
+1708 Patches Generated
+Correct Patch Generated!
+addExecutionListener
+addBuiltInListener
+Total Candidate Patches: 1708
+Correct Patch Rank: 10
+
+
+Processing camunda_camunda-bpm-platform/modifiedFiles/42/CallActivityBehavior.java
+Fault in line no 162
+1233 Patches Generated
+Correct Patch Generated!
+execution
+subProcessInstance
+Total Candidate Patches: 1233
+Correct Patch Rank: 43
+
+
+Processing camunda_camunda-bpm-platform/modifiedFiles/32/BusinessProcess.java
+Fault in line no 381
+957 Patches Generated
+Correct Patch Generated!
+associationManager.setTask(null)
+associationManager.disAssociate()
+Total Candidate Patches: 957
+Correct Patch Rank: 34
+
+
+Processing camunda_camunda-bpm-platform/modifiedFiles/18/InclusiveGatewayActivityBehavior.java
+Fault in line no 109
+1962 Patches Generated
+Correct Patch Generated!
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity
+concurrentExecution.isActive()
+Total Candidate Patches: 1962
+Correct Patch Rank: 157
+
+
+Processing apache_axis2-java/modifiedFiles/2/SchemaCompiler.java
+Fault in line no 1139
+12560 Patches Generated
+Correct Patch Generated!
+null
+extension.getBaseTypeName()
+Total Candidate Patches: 12560
+Correct Patch Rank: 1869
+
+
+Processing datacleaner_AnalyzerBeans/modifiedFiles/2/JaxbConfigurationReader.java
+Fault in line no 761
+12224 Patches Generated
+Correct Patch Generated!
+clusterName
+name
+Total Candidate Patches: 12224
+Correct Patch Rank: 37
+
+
+Processing oblac_jodd/modifiedFiles/2/MailAddress.java
+Fault in line no 57
+1352 Patches Generated
+Correct Patch Generated!
+ndx - 1
+ndx
+Total Candidate Patches: 1352
+Correct Patch Rank: 21
+
+
+Processing floodlight_floodlight/modifiedFiles/4/Hub.java
+Fault in line no 69
+1000 Patches Generated
+Correct Patch Generated!
+USE_FLOW_MOD
+USE_PACKET_OUT
+Total Candidate Patches: 1000
+Correct Patch Rank: 19
+
+
+Processing sdbg_sdbg/modifiedFiles/16/FunctionTypeImpl.java
+Fault in line no 56
+4716 Patches Generated
+Correct Patch Generated!
+firstTypes
+secondTypes
+Total Candidate Patches: 4716
+Correct Patch Rank: 27
+
+
+Processing sdbg_sdbg/modifiedFiles/32/DartParser.java
+Fault in line no 4017
+44970 Patches Generated
+Correct Patch Generated!
+peek(1) == Token.IDENTIFIER || peek(1) == Token.LT
+peek(1) == Token.IDENTIFIER || peek(1) == Token.LT || peek(1) == Token.PERIOD
+Total Candidate Patches: 44970
+Correct Patch Rank: 11082
+
+
+Processing sdbg_sdbg/modifiedFiles/26/PackageUriResolver.java
+Fault in line no 81
+749 Patches Generated
+Correct Patch Generated!
+File.separatorChar
+'/'
+Total Candidate Patches: 749
+Correct Patch Rank: 279
+
+
+Processing AICP_frameworks_base/modifiedFiles/18/FragmentManager.java
+Fault in line no 1893
+15948 Patches Generated
+Correct Patch Generated!
+f != null && !f.mHidden && f.mUserVisibleHint
+f != null && !f.mHidden
+Total Candidate Patches: 15948
+Correct Patch Rank: 20
+
+
+Processing eclipse_eclipse.jdt.core/modifiedFiles/12/AssertStatement.java
+Fault in line no 89
+1758 Patches Generated
+Correct Patch Generated!
+flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy())
+flowInfo.mergedWith(assertInfo.nullInfoLessUnconditionalCopy())
+Total Candidate Patches: 1758
+Correct Patch Rank: 11
+
+
+Processing eclipse_eclipse.jdt.core/modifiedFiles/18/ASTRewriteAnalyzer.java
+Fault in line no 1140
+15372 Patches Generated
+Correct Patch Generated!
+true
+false
+Total Candidate Patches: 15372
+Correct Patch Rank: 202
+
+
+Processing apache_olingo-odata2/modifiedFiles/2/XmlMetadataConsumer.java
+Fault in line no 309
+10640 Patches Generated
+Correct Patch Generated!
+EDM_FUNCTION_IMPORT
+EDM_FUNCTION_PARAMETER
+Total Candidate Patches: 10640
+Correct Patch Rank: 276
+
+
+Processing takari_io.takari.incrementalbuild/modifiedFiles/4/DefaultBuildContext.java
+Fault in line no 571
+2493 Patches Generated
+Correct Patch Generated!
+registeredInputs.containsKey(inputFile)
+registeredInputs.containsKey(inputFile) && !processedInputs.containsKey(inputFile)
+Total Candidate Patches: 2493
+Correct Patch Rank: 1356
+
+
+Processing takari_io.takari.incrementalbuild/modifiedFiles/6/DefaultBuildContext.java
+Fault in line no 752
+4174 Patches Generated
+Correct Patch Generated!
+inputFile
+includedInput
+Total Candidate Patches: 4174
+Correct Patch Rank: 36
+
+
+Processing takari_io.takari.incrementalbuild/modifiedFiles/2/DefaultBuildContext.java
+Fault in line no 348
+3594 Patches Generated
+Correct Patch Generated!
+state.outputs
+processedOutputs
+Total Candidate Patches: 3594
+Correct Patch Rank: 687
 
 

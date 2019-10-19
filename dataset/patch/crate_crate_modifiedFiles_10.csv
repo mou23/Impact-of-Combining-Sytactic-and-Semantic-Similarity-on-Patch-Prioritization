@@ -1,0 +1,690 @@
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,delegate.get(index),METHOD_INVOCATION, line no: 79, 2.0, 1.0, 1.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,materialize,SIMPLE_NAME, line no: 83, 2.0, 0.14285714285714285, 1.0
+materialize,SIMPLE_NAME, line no: 84,Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84, 1.875, 0.875, 1.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,delegate.size(),METHOD_INVOCATION, line no: 71, 1.8571428571428572, 0.8571428571428571, 1.0
+delegate,SIMPLE_NAME, line no: 84,row,SIMPLE_NAME, line no: 55, 1.625, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,this.row.delegate=row,ASSIGNMENT, line no: 137, 1.625, 0.625, 1.0
+delegate,SIMPLE_NAME, line no: 84,this.row.delegate,FIELD_ACCESS, line no: 137, 1.625, 0.625, 1.0
+delegate,SIMPLE_NAME, line no: 84,Row,SIMPLE_NAME, line no: 25, 1.125, 0.125, 1.0
+delegate,SIMPLE_NAME, line no: 84,updateRow,SIMPLE_NAME, line no: 136, 1.125, 0.125, 1.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,this.row.delegate=row,ASSIGNMENT, line no: 137, 1.0714285714285714, 0.5714285714285714, 0.5
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,this.row.delegate,FIELD_ACCESS, line no: 137, 1.0714285714285714, 0.5714285714285714, 0.5
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,Buckets,SIMPLE_NAME, line no: 24, 1.0, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,bytes,SIMPLE_NAME, line no: 38, 1.0, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,XContentMapValues,SIMPLE_NAME, line no: 45, 1.0, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,IOException,SIMPLE_NAME, line no: 48, 1.0, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,Map,SIMPLE_NAME, line no: 51, 1.0, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,idx,SIMPLE_NAME, line no: 59, 1.0, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,generator,SIMPLE_NAME, line no: 60, 1.0, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,delegate,SIMPLE_NAME, line no: 61, 1.0, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,size,SIMPLE_NAME, line no: 70, 1.0, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,Object,SIMPLE_NAME, line no: 75, 1.0, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,get,SIMPLE_NAME, line no: 75, 1.0, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,index,SIMPLE_NAME, line no: 75, 1.0, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,index == idx,INFIX_EXPRESSION, line no: 76, 1.0, 1.0, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,generateSource,SIMPLE_NAME, line no: 77, 1.0, 1.0, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,String,SIMPLE_NAME, line no: 94, 1.0, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,sourceInput,SIMPLE_NAME, line no: 100, 1.0, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,includes,SIMPLE_NAME, line no: 104, 1.0, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,excludes,SIMPLE_NAME, line no: 105, 1.0, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,null,NULL_LITERAL, line no: 111, 1.0, 0.7142857142857143, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,input,SIMPLE_NAME, line no: 146, 1.0, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,value,SIMPLE_NAME, line no: 154, 1.0, 1.0, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,sourceInput.value(),METHOD_INVOCATION, line no: 175, 1.0, 1.0, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,value == null,INFIX_EXPRESSION, line no: 176, 1.0, 1.0, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,filteredMap,SIMPLE_NAME, line no: 179, 1.0, 1.0, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,XContentMapValues.filter(value includes excludes),METHOD_INVOCATION, line no: 179, 1.0, 1.0, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,filter,SIMPLE_NAME, line no: 179, 1.0, 1.0, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,bytes.toBytesRef(),METHOD_INVOCATION, line no: 184, 1.0, 1.0, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,toBytesRef,SIMPLE_NAME, line no: 184, 1.0, 1.0, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,ex,SIMPLE_NAME, line no: 185, 1.0, 1.0, 0.0
+Buckets,SIMPLE_NAME, line no: 84,io.crate.core.collections.Buckets,QUALIFIED_NAME, line no: 24, 1.0, 0.0, 1.0
+Buckets,SIMPLE_NAME, line no: 84,bytes,SIMPLE_NAME, line no: 38, 1.0, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,XContentMapValues,SIMPLE_NAME, line no: 45, 1.0, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,IOException,SIMPLE_NAME, line no: 48, 1.0, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,Map,SIMPLE_NAME, line no: 51, 1.0, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,idx,SIMPLE_NAME, line no: 59, 1.0, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,delegate,SIMPLE_NAME, line no: 61, 1.0, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,Object,SIMPLE_NAME, line no: 75, 1.0, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,get,SIMPLE_NAME, line no: 75, 1.0, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,index,SIMPLE_NAME, line no: 75, 1.0, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,index == idx,INFIX_EXPRESSION, line no: 76, 1.0, 1.0, 0.0
+Buckets,SIMPLE_NAME, line no: 84,delegate.get(index),METHOD_INVOCATION, line no: 79, 1.0, 1.0, 0.0
+Buckets,SIMPLE_NAME, line no: 84,materialize,SIMPLE_NAME, line no: 83, 1.0, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,String,SIMPLE_NAME, line no: 94, 1.0, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,sourceInput,SIMPLE_NAME, line no: 100, 1.0, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,includes,SIMPLE_NAME, line no: 104, 1.0, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,excludes,SIMPLE_NAME, line no: 105, 1.0, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,null,NULL_LITERAL, line no: 111, 1.0, 0.75, 0.0
+Buckets,SIMPLE_NAME, line no: 84,value,SIMPLE_NAME, line no: 154, 1.0, 0.875, 0.0
+Buckets,SIMPLE_NAME, line no: 84,sourceInput.value(),METHOD_INVOCATION, line no: 175, 1.0, 1.0, 0.0
+Buckets,SIMPLE_NAME, line no: 84,value == null,INFIX_EXPRESSION, line no: 176, 1.0, 1.0, 0.0
+Buckets,SIMPLE_NAME, line no: 84,filteredMap,SIMPLE_NAME, line no: 179, 1.0, 1.0, 0.0
+Buckets,SIMPLE_NAME, line no: 84,XContentMapValues.filter(value includes excludes),METHOD_INVOCATION, line no: 179, 1.0, 1.0, 0.0
+Buckets,SIMPLE_NAME, line no: 84,filter,SIMPLE_NAME, line no: 179, 1.0, 1.0, 0.0
+Buckets,SIMPLE_NAME, line no: 84,bytes.toBytesRef(),METHOD_INVOCATION, line no: 184, 1.0, 1.0, 0.0
+Buckets,SIMPLE_NAME, line no: 84,toBytesRef,SIMPLE_NAME, line no: 184, 1.0, 1.0, 0.0
+Buckets,SIMPLE_NAME, line no: 84,ex,SIMPLE_NAME, line no: 185, 1.0, 1.0, 0.0
+materialize,SIMPLE_NAME, line no: 84,Buckets,SIMPLE_NAME, line no: 24, 1.0, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,bytes,SIMPLE_NAME, line no: 38, 1.0, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,XContentMapValues,SIMPLE_NAME, line no: 45, 1.0, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,IOException,SIMPLE_NAME, line no: 48, 1.0, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,Map,SIMPLE_NAME, line no: 51, 1.0, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,idx,SIMPLE_NAME, line no: 59, 1.0, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,delegate,SIMPLE_NAME, line no: 61, 1.0, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,Object,SIMPLE_NAME, line no: 75, 1.0, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,get,SIMPLE_NAME, line no: 75, 1.0, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,index,SIMPLE_NAME, line no: 75, 1.0, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,index == idx,INFIX_EXPRESSION, line no: 76, 1.0, 1.0, 0.0
+materialize,SIMPLE_NAME, line no: 84,delegate.get(index),METHOD_INVOCATION, line no: 79, 1.0, 1.0, 0.0
+materialize,SIMPLE_NAME, line no: 84,String,SIMPLE_NAME, line no: 94, 1.0, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,sourceInput,SIMPLE_NAME, line no: 100, 1.0, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,includes,SIMPLE_NAME, line no: 104, 1.0, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,excludes,SIMPLE_NAME, line no: 105, 1.0, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,null,NULL_LITERAL, line no: 111, 1.0, 0.75, 0.0
+materialize,SIMPLE_NAME, line no: 84,value,SIMPLE_NAME, line no: 154, 1.0, 0.875, 0.0
+materialize,SIMPLE_NAME, line no: 84,sourceInput.value(),METHOD_INVOCATION, line no: 175, 1.0, 1.0, 0.0
+materialize,SIMPLE_NAME, line no: 84,value == null,INFIX_EXPRESSION, line no: 176, 1.0, 1.0, 0.0
+materialize,SIMPLE_NAME, line no: 84,filteredMap,SIMPLE_NAME, line no: 179, 1.0, 1.0, 0.0
+materialize,SIMPLE_NAME, line no: 84,XContentMapValues.filter(value includes excludes),METHOD_INVOCATION, line no: 179, 1.0, 1.0, 0.0
+materialize,SIMPLE_NAME, line no: 84,filter,SIMPLE_NAME, line no: 179, 1.0, 1.0, 0.0
+materialize,SIMPLE_NAME, line no: 84,bytes.toBytesRef(),METHOD_INVOCATION, line no: 184, 1.0, 1.0, 0.0
+materialize,SIMPLE_NAME, line no: 84,toBytesRef,SIMPLE_NAME, line no: 184, 1.0, 1.0, 0.0
+materialize,SIMPLE_NAME, line no: 84,ex,SIMPLE_NAME, line no: 185, 1.0, 1.0, 0.0
+delegate,SIMPLE_NAME, line no: 84,Buckets,SIMPLE_NAME, line no: 24, 1.0, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,io.crate.core.collections.Row,QUALIFIED_NAME, line no: 25, 1.0, 0.0, 1.0
+delegate,SIMPLE_NAME, line no: 84,bytes,SIMPLE_NAME, line no: 38, 1.0, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,XContentMapValues,SIMPLE_NAME, line no: 45, 1.0, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,IOException,SIMPLE_NAME, line no: 48, 1.0, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,Map,SIMPLE_NAME, line no: 51, 1.0, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,idx,SIMPLE_NAME, line no: 59, 1.0, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,Object,SIMPLE_NAME, line no: 75, 1.0, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,get,SIMPLE_NAME, line no: 75, 1.0, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,index,SIMPLE_NAME, line no: 75, 1.0, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,index == idx,INFIX_EXPRESSION, line no: 76, 1.0, 1.0, 0.0
+delegate,SIMPLE_NAME, line no: 84,delegate.get(index),METHOD_INVOCATION, line no: 79, 1.0, 1.0, 0.0
+delegate,SIMPLE_NAME, line no: 84,materialize,SIMPLE_NAME, line no: 83, 1.0, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,String,SIMPLE_NAME, line no: 94, 1.0, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,sourceInput,SIMPLE_NAME, line no: 100, 1.0, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,includes,SIMPLE_NAME, line no: 104, 1.0, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,excludes,SIMPLE_NAME, line no: 105, 1.0, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,null,NULL_LITERAL, line no: 111, 1.0, 0.75, 0.0
+delegate,SIMPLE_NAME, line no: 84,value,SIMPLE_NAME, line no: 154, 1.0, 0.875, 0.0
+delegate,SIMPLE_NAME, line no: 84,sourceInput.value(),METHOD_INVOCATION, line no: 175, 1.0, 1.0, 0.0
+delegate,SIMPLE_NAME, line no: 84,value == null,INFIX_EXPRESSION, line no: 176, 1.0, 1.0, 0.0
+delegate,SIMPLE_NAME, line no: 84,filteredMap,SIMPLE_NAME, line no: 179, 1.0, 1.0, 0.0
+delegate,SIMPLE_NAME, line no: 84,XContentMapValues.filter(value includes excludes),METHOD_INVOCATION, line no: 179, 1.0, 1.0, 0.0
+delegate,SIMPLE_NAME, line no: 84,filter,SIMPLE_NAME, line no: 179, 1.0, 1.0, 0.0
+delegate,SIMPLE_NAME, line no: 84,bytes.toBytesRef(),METHOD_INVOCATION, line no: 184, 1.0, 1.0, 0.0
+delegate,SIMPLE_NAME, line no: 84,toBytesRef,SIMPLE_NAME, line no: 184, 1.0, 1.0, 0.0
+delegate,SIMPLE_NAME, line no: 84,ex,SIMPLE_NAME, line no: 185, 1.0, 1.0, 0.0
+Buckets,SIMPLE_NAME, line no: 84,Requests,SIMPLE_NAME, line no: 36, 0.875, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,BytesReference,SIMPLE_NAME, line no: 38, 0.875, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,BytesStreamOutput,SIMPLE_NAME, line no: 39, 0.875, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,XContentBuilder,SIMPLE_NAME, line no: 44, 0.875, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,generator,SIMPLE_NAME, line no: 60, 0.875, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,size,SIMPLE_NAME, line no: 70, 0.875, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,generateSource,SIMPLE_NAME, line no: 77, 0.875, 0.875, 0.0
+Buckets,SIMPLE_NAME, line no: 84,Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84, 0.875, 0.875, 0.0
+Buckets,SIMPLE_NAME, line no: 84,input,SIMPLE_NAME, line no: 146, 0.875, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,lastSourceSize,SIMPLE_NAME, line no: 164, 0.875, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,new XContentBuilder(Requests.INDEX_CONTENT_TYPE.xContent() new BytesStreamOutput(lastSourceSize)).map(filteredMap).bytes(),METHOD_INVOCATION, line no: 181, 0.875, 0.875, 0.0
+Buckets,SIMPLE_NAME, line no: 84,new XContentBuilder(Requests.INDEX_CONTENT_TYPE.xContent() new BytesStreamOutput(lastSourceSize)).map(filteredMap),METHOD_INVOCATION, line no: 181, 0.875, 0.875, 0.0
+Buckets,SIMPLE_NAME, line no: 84,new XContentBuilder(Requests.INDEX_CONTENT_TYPE.xContent() new BytesStreamOutput(lastSourceSize)),CLASS_INSTANCE_CREATION, line no: 181, 0.875, 0.875, 0.0
+Buckets,SIMPLE_NAME, line no: 84,Requests.INDEX_CONTENT_TYPE.xContent(),METHOD_INVOCATION, line no: 181, 0.875, 0.875, 0.0
+Buckets,SIMPLE_NAME, line no: 84,Requests.INDEX_CONTENT_TYPE,QUALIFIED_NAME, line no: 181, 0.875, 0.875, 0.0
+Buckets,SIMPLE_NAME, line no: 84,INDEX_CONTENT_TYPE,SIMPLE_NAME, line no: 181, 0.875, 0.875, 0.0
+Buckets,SIMPLE_NAME, line no: 84,xContent,SIMPLE_NAME, line no: 181, 0.875, 0.875, 0.0
+Buckets,SIMPLE_NAME, line no: 84,new BytesStreamOutput(lastSourceSize),CLASS_INSTANCE_CREATION, line no: 182, 0.875, 0.875, 0.0
+Buckets,SIMPLE_NAME, line no: 84,map,SIMPLE_NAME, line no: 182, 0.875, 0.875, 0.0
+Buckets,SIMPLE_NAME, line no: 84,lastSourceSize=bytes.length(),ASSIGNMENT, line no: 183, 0.875, 0.875, 0.0
+Buckets,SIMPLE_NAME, line no: 84,bytes.length(),METHOD_INVOCATION, line no: 183, 0.875, 0.875, 0.0
+Buckets,SIMPLE_NAME, line no: 84,length,SIMPLE_NAME, line no: 183, 0.875, 0.875, 0.0
+materialize,SIMPLE_NAME, line no: 84,Requests,SIMPLE_NAME, line no: 36, 0.875, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,BytesReference,SIMPLE_NAME, line no: 38, 0.875, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,BytesStreamOutput,SIMPLE_NAME, line no: 39, 0.875, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,XContentBuilder,SIMPLE_NAME, line no: 44, 0.875, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,generator,SIMPLE_NAME, line no: 60, 0.875, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,size,SIMPLE_NAME, line no: 70, 0.875, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,generateSource,SIMPLE_NAME, line no: 77, 0.875, 0.875, 0.0
+materialize,SIMPLE_NAME, line no: 84,input,SIMPLE_NAME, line no: 146, 0.875, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,lastSourceSize,SIMPLE_NAME, line no: 164, 0.875, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,new XContentBuilder(Requests.INDEX_CONTENT_TYPE.xContent() new BytesStreamOutput(lastSourceSize)).map(filteredMap).bytes(),METHOD_INVOCATION, line no: 181, 0.875, 0.875, 0.0
+materialize,SIMPLE_NAME, line no: 84,new XContentBuilder(Requests.INDEX_CONTENT_TYPE.xContent() new BytesStreamOutput(lastSourceSize)).map(filteredMap),METHOD_INVOCATION, line no: 181, 0.875, 0.875, 0.0
+materialize,SIMPLE_NAME, line no: 84,new XContentBuilder(Requests.INDEX_CONTENT_TYPE.xContent() new BytesStreamOutput(lastSourceSize)),CLASS_INSTANCE_CREATION, line no: 181, 0.875, 0.875, 0.0
+materialize,SIMPLE_NAME, line no: 84,Requests.INDEX_CONTENT_TYPE.xContent(),METHOD_INVOCATION, line no: 181, 0.875, 0.875, 0.0
+materialize,SIMPLE_NAME, line no: 84,Requests.INDEX_CONTENT_TYPE,QUALIFIED_NAME, line no: 181, 0.875, 0.875, 0.0
+materialize,SIMPLE_NAME, line no: 84,INDEX_CONTENT_TYPE,SIMPLE_NAME, line no: 181, 0.875, 0.875, 0.0
+materialize,SIMPLE_NAME, line no: 84,xContent,SIMPLE_NAME, line no: 181, 0.875, 0.875, 0.0
+materialize,SIMPLE_NAME, line no: 84,new BytesStreamOutput(lastSourceSize),CLASS_INSTANCE_CREATION, line no: 182, 0.875, 0.875, 0.0
+materialize,SIMPLE_NAME, line no: 84,map,SIMPLE_NAME, line no: 182, 0.875, 0.875, 0.0
+materialize,SIMPLE_NAME, line no: 84,lastSourceSize=bytes.length(),ASSIGNMENT, line no: 183, 0.875, 0.875, 0.0
+materialize,SIMPLE_NAME, line no: 84,bytes.length(),METHOD_INVOCATION, line no: 183, 0.875, 0.875, 0.0
+materialize,SIMPLE_NAME, line no: 84,length,SIMPLE_NAME, line no: 183, 0.875, 0.875, 0.0
+delegate,SIMPLE_NAME, line no: 84,Requests,SIMPLE_NAME, line no: 36, 0.875, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,BytesReference,SIMPLE_NAME, line no: 38, 0.875, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,BytesStreamOutput,SIMPLE_NAME, line no: 39, 0.875, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,XContentBuilder,SIMPLE_NAME, line no: 44, 0.875, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,generator,SIMPLE_NAME, line no: 60, 0.875, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,size,SIMPLE_NAME, line no: 70, 0.875, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,generateSource,SIMPLE_NAME, line no: 77, 0.875, 0.875, 0.0
+delegate,SIMPLE_NAME, line no: 84,Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84, 0.875, 0.875, 0.0
+delegate,SIMPLE_NAME, line no: 84,input,SIMPLE_NAME, line no: 146, 0.875, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,lastSourceSize,SIMPLE_NAME, line no: 164, 0.875, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,new XContentBuilder(Requests.INDEX_CONTENT_TYPE.xContent() new BytesStreamOutput(lastSourceSize)).map(filteredMap).bytes(),METHOD_INVOCATION, line no: 181, 0.875, 0.875, 0.0
+delegate,SIMPLE_NAME, line no: 84,new XContentBuilder(Requests.INDEX_CONTENT_TYPE.xContent() new BytesStreamOutput(lastSourceSize)).map(filteredMap),METHOD_INVOCATION, line no: 181, 0.875, 0.875, 0.0
+delegate,SIMPLE_NAME, line no: 84,new XContentBuilder(Requests.INDEX_CONTENT_TYPE.xContent() new BytesStreamOutput(lastSourceSize)),CLASS_INSTANCE_CREATION, line no: 181, 0.875, 0.875, 0.0
+delegate,SIMPLE_NAME, line no: 84,Requests.INDEX_CONTENT_TYPE.xContent(),METHOD_INVOCATION, line no: 181, 0.875, 0.875, 0.0
+delegate,SIMPLE_NAME, line no: 84,Requests.INDEX_CONTENT_TYPE,QUALIFIED_NAME, line no: 181, 0.875, 0.875, 0.0
+delegate,SIMPLE_NAME, line no: 84,INDEX_CONTENT_TYPE,SIMPLE_NAME, line no: 181, 0.875, 0.875, 0.0
+delegate,SIMPLE_NAME, line no: 84,xContent,SIMPLE_NAME, line no: 181, 0.875, 0.875, 0.0
+delegate,SIMPLE_NAME, line no: 84,new BytesStreamOutput(lastSourceSize),CLASS_INSTANCE_CREATION, line no: 182, 0.875, 0.875, 0.0
+delegate,SIMPLE_NAME, line no: 84,map,SIMPLE_NAME, line no: 182, 0.875, 0.875, 0.0
+delegate,SIMPLE_NAME, line no: 84,lastSourceSize=bytes.length(),ASSIGNMENT, line no: 183, 0.875, 0.875, 0.0
+delegate,SIMPLE_NAME, line no: 84,bytes.length(),METHOD_INVOCATION, line no: 183, 0.875, 0.875, 0.0
+delegate,SIMPLE_NAME, line no: 84,length,SIMPLE_NAME, line no: 183, 0.875, 0.875, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,Requests,SIMPLE_NAME, line no: 36, 0.8571428571428571, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,BytesReference,SIMPLE_NAME, line no: 38, 0.8571428571428571, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,BytesStreamOutput,SIMPLE_NAME, line no: 39, 0.8571428571428571, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,XContentBuilder,SIMPLE_NAME, line no: 44, 0.8571428571428571, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,generator.generateSource(),METHOD_INVOCATION, line no: 77, 0.8571428571428571, 0.8571428571428571, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,input.value(),METHOD_INVOCATION, line no: 154, 0.8571428571428571, 0.8571428571428571, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,lastSourceSize,SIMPLE_NAME, line no: 164, 0.8571428571428571, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,new XContentBuilder(Requests.INDEX_CONTENT_TYPE.xContent() new BytesStreamOutput(lastSourceSize)).map(filteredMap).bytes(),METHOD_INVOCATION, line no: 181, 0.8571428571428571, 0.8571428571428571, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,new XContentBuilder(Requests.INDEX_CONTENT_TYPE.xContent() new BytesStreamOutput(lastSourceSize)).map(filteredMap),METHOD_INVOCATION, line no: 181, 0.8571428571428571, 0.8571428571428571, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,new XContentBuilder(Requests.INDEX_CONTENT_TYPE.xContent() new BytesStreamOutput(lastSourceSize)),CLASS_INSTANCE_CREATION, line no: 181, 0.8571428571428571, 0.8571428571428571, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,Requests.INDEX_CONTENT_TYPE.xContent(),METHOD_INVOCATION, line no: 181, 0.8571428571428571, 0.8571428571428571, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,Requests.INDEX_CONTENT_TYPE,QUALIFIED_NAME, line no: 181, 0.8571428571428571, 0.8571428571428571, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,INDEX_CONTENT_TYPE,SIMPLE_NAME, line no: 181, 0.8571428571428571, 0.8571428571428571, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,xContent,SIMPLE_NAME, line no: 181, 0.8571428571428571, 0.8571428571428571, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,new BytesStreamOutput(lastSourceSize),CLASS_INSTANCE_CREATION, line no: 182, 0.8571428571428571, 0.8571428571428571, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,map,SIMPLE_NAME, line no: 182, 0.8571428571428571, 0.8571428571428571, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,lastSourceSize=bytes.length(),ASSIGNMENT, line no: 183, 0.8571428571428571, 0.8571428571428571, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,bytes.length(),METHOD_INVOCATION, line no: 183, 0.8571428571428571, 0.8571428571428571, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,length,SIMPLE_NAME, line no: 183, 0.8571428571428571, 0.8571428571428571, 0.0
+Buckets,SIMPLE_NAME, line no: 84,Reference,SIMPLE_NAME, line no: 31, 0.75, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,Symbol,SIMPLE_NAME, line no: 32, 0.75, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,settings,SIMPLE_NAME, line no: 42, 0.75, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,HashMap,SIMPLE_NAME, line no: 49, 0.75, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,row,SIMPLE_NAME, line no: 55, 0.75, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,this,THIS_EXPRESSION, line no: 64, 0.75, 0.5, 0.0
+Buckets,SIMPLE_NAME, line no: 84,delegate.size(),METHOD_INVOCATION, line no: 71, 0.75, 0.75, 0.0
+Buckets,SIMPLE_NAME, line no: 84,generator.generateSource(),METHOD_INVOCATION, line no: 77, 0.75, 0.75, 0.0
+Buckets,SIMPLE_NAME, line no: 84,clusterService,SIMPLE_NAME, line no: 89, 0.75, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,transportShardUpsertActionDelegate,SIMPLE_NAME, line no: 91, 0.75, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,transportCreateIndexAction,SIMPLE_NAME, line no: 92, 0.75, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,tableIdent,SIMPLE_NAME, line no: 93, 0.75, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,partitionIdent,SIMPLE_NAME, line no: 94, 0.75, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,rawSourceReference,SIMPLE_NAME, line no: 95, 0.75, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,primaryKeyIdents,SIMPLE_NAME, line no: 96, 0.75, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,primaryKeySymbols,SIMPLE_NAME, line no: 97, 0.75, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,partitionedByInputs,SIMPLE_NAME, line no: 98, 0.75, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,routingSymbol,SIMPLE_NAME, line no: 99, 0.75, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,sourceInputColumn,SIMPLE_NAME, line no: 101, 0.75, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,collectExpressions,SIMPLE_NAME, line no: 102, 0.75, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,bulkActions,SIMPLE_NAME, line no: 103, 0.75, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,autoCreateIndices,SIMPLE_NAME, line no: 106, 0.75, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,overwriteDuplicates,SIMPLE_NAME, line no: 107, 0.75, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,includes == null && excludes == null,INFIX_EXPRESSION, line no: 111, 0.75, 0.75, 0.0
+Buckets,SIMPLE_NAME, line no: 84,includes == null,INFIX_EXPRESSION, line no: 111, 0.75, 0.75, 0.0
+Buckets,SIMPLE_NAME, line no: 84,excludes == null,INFIX_EXPRESSION, line no: 111, 0.75, 0.75, 0.0
+Buckets,SIMPLE_NAME, line no: 84,sourceInputColumn.index(),METHOD_INVOCATION, line no: 113, 0.75, 0.75, 0.0
+Buckets,SIMPLE_NAME, line no: 84,insertAssignments,SIMPLE_NAME, line no: 120, 0.75, 0.75, 0.0
+Buckets,SIMPLE_NAME, line no: 84,new HashMap<>(1),CLASS_INSTANCE_CREATION, line no: 120, 0.75, 0.75, 0.0
+Buckets,SIMPLE_NAME, line no: 84,1,NUMBER_LITERAL, line no: 120, 0.75, 0.75, 0.0
+Buckets,SIMPLE_NAME, line no: 84,insertAssignments.put(rawSourceReference sourceInputColumn),METHOD_INVOCATION, line no: 121, 0.75, 0.75, 0.0
+Buckets,SIMPLE_NAME, line no: 84,put,SIMPLE_NAME, line no: 121, 0.75, 0.75, 0.0
+Buckets,SIMPLE_NAME, line no: 84,createBulkShardProcessor(clusterService settings transportShardUpsertActionDelegate transportCreateIndexAction bulkActions autoCreateIndices overwriteDuplicates null insertAssignments),METHOD_INVOCATION, line no: 123, 0.75, 0.75, 0.0
+Buckets,SIMPLE_NAME, line no: 84,createBulkShardProcessor,SIMPLE_NAME, line no: 123, 0.75, 0.75, 0.0
+Buckets,SIMPLE_NAME, line no: 84,this.row,FIELD_ACCESS, line no: 137, 0.75, 0.625, 0.0
+Buckets,SIMPLE_NAME, line no: 84,input.value(),METHOD_INVOCATION, line no: 154, 0.75, 0.75, 0.0
+Buckets,SIMPLE_NAME, line no: 84,logger,SIMPLE_NAME, line no: 163, 0.75, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,error,SIMPLE_NAME, line no: 186, 0.75, 0.75, 0.0
+materialize,SIMPLE_NAME, line no: 84,Reference,SIMPLE_NAME, line no: 31, 0.75, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,Symbol,SIMPLE_NAME, line no: 32, 0.75, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,settings,SIMPLE_NAME, line no: 42, 0.75, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,HashMap,SIMPLE_NAME, line no: 49, 0.75, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,row,SIMPLE_NAME, line no: 55, 0.75, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,this,THIS_EXPRESSION, line no: 64, 0.75, 0.5, 0.0
+materialize,SIMPLE_NAME, line no: 84,delegate.size(),METHOD_INVOCATION, line no: 71, 0.75, 0.75, 0.0
+materialize,SIMPLE_NAME, line no: 84,generator.generateSource(),METHOD_INVOCATION, line no: 77, 0.75, 0.75, 0.0
+materialize,SIMPLE_NAME, line no: 84,clusterService,SIMPLE_NAME, line no: 89, 0.75, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,transportShardUpsertActionDelegate,SIMPLE_NAME, line no: 91, 0.75, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,transportCreateIndexAction,SIMPLE_NAME, line no: 92, 0.75, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,tableIdent,SIMPLE_NAME, line no: 93, 0.75, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,partitionIdent,SIMPLE_NAME, line no: 94, 0.75, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,rawSourceReference,SIMPLE_NAME, line no: 95, 0.75, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,primaryKeyIdents,SIMPLE_NAME, line no: 96, 0.75, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,primaryKeySymbols,SIMPLE_NAME, line no: 97, 0.75, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,partitionedByInputs,SIMPLE_NAME, line no: 98, 0.75, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,routingSymbol,SIMPLE_NAME, line no: 99, 0.75, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,sourceInputColumn,SIMPLE_NAME, line no: 101, 0.75, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,collectExpressions,SIMPLE_NAME, line no: 102, 0.75, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,bulkActions,SIMPLE_NAME, line no: 103, 0.75, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,autoCreateIndices,SIMPLE_NAME, line no: 106, 0.75, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,overwriteDuplicates,SIMPLE_NAME, line no: 107, 0.75, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,includes == null && excludes == null,INFIX_EXPRESSION, line no: 111, 0.75, 0.75, 0.0
+materialize,SIMPLE_NAME, line no: 84,includes == null,INFIX_EXPRESSION, line no: 111, 0.75, 0.75, 0.0
+materialize,SIMPLE_NAME, line no: 84,excludes == null,INFIX_EXPRESSION, line no: 111, 0.75, 0.75, 0.0
+materialize,SIMPLE_NAME, line no: 84,sourceInputColumn.index(),METHOD_INVOCATION, line no: 113, 0.75, 0.75, 0.0
+materialize,SIMPLE_NAME, line no: 84,insertAssignments,SIMPLE_NAME, line no: 120, 0.75, 0.75, 0.0
+materialize,SIMPLE_NAME, line no: 84,new HashMap<>(1),CLASS_INSTANCE_CREATION, line no: 120, 0.75, 0.75, 0.0
+materialize,SIMPLE_NAME, line no: 84,1,NUMBER_LITERAL, line no: 120, 0.75, 0.75, 0.0
+materialize,SIMPLE_NAME, line no: 84,insertAssignments.put(rawSourceReference sourceInputColumn),METHOD_INVOCATION, line no: 121, 0.75, 0.75, 0.0
+materialize,SIMPLE_NAME, line no: 84,put,SIMPLE_NAME, line no: 121, 0.75, 0.75, 0.0
+materialize,SIMPLE_NAME, line no: 84,createBulkShardProcessor(clusterService settings transportShardUpsertActionDelegate transportCreateIndexAction bulkActions autoCreateIndices overwriteDuplicates null insertAssignments),METHOD_INVOCATION, line no: 123, 0.75, 0.75, 0.0
+materialize,SIMPLE_NAME, line no: 84,createBulkShardProcessor,SIMPLE_NAME, line no: 123, 0.75, 0.75, 0.0
+materialize,SIMPLE_NAME, line no: 84,this.row,FIELD_ACCESS, line no: 137, 0.75, 0.625, 0.0
+materialize,SIMPLE_NAME, line no: 84,input.value(),METHOD_INVOCATION, line no: 154, 0.75, 0.75, 0.0
+materialize,SIMPLE_NAME, line no: 84,logger,SIMPLE_NAME, line no: 163, 0.75, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,error,SIMPLE_NAME, line no: 186, 0.75, 0.75, 0.0
+delegate,SIMPLE_NAME, line no: 84,Reference,SIMPLE_NAME, line no: 31, 0.75, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,Symbol,SIMPLE_NAME, line no: 32, 0.75, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,settings,SIMPLE_NAME, line no: 42, 0.75, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,HashMap,SIMPLE_NAME, line no: 49, 0.75, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,this,THIS_EXPRESSION, line no: 64, 0.75, 0.5, 0.0
+delegate,SIMPLE_NAME, line no: 84,delegate.size(),METHOD_INVOCATION, line no: 71, 0.75, 0.75, 0.0
+delegate,SIMPLE_NAME, line no: 84,generator.generateSource(),METHOD_INVOCATION, line no: 77, 0.75, 0.75, 0.0
+delegate,SIMPLE_NAME, line no: 84,clusterService,SIMPLE_NAME, line no: 89, 0.75, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,transportShardUpsertActionDelegate,SIMPLE_NAME, line no: 91, 0.75, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,transportCreateIndexAction,SIMPLE_NAME, line no: 92, 0.75, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,tableIdent,SIMPLE_NAME, line no: 93, 0.75, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,partitionIdent,SIMPLE_NAME, line no: 94, 0.75, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,rawSourceReference,SIMPLE_NAME, line no: 95, 0.75, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,primaryKeyIdents,SIMPLE_NAME, line no: 96, 0.75, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,primaryKeySymbols,SIMPLE_NAME, line no: 97, 0.75, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,partitionedByInputs,SIMPLE_NAME, line no: 98, 0.75, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,routingSymbol,SIMPLE_NAME, line no: 99, 0.75, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,sourceInputColumn,SIMPLE_NAME, line no: 101, 0.75, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,collectExpressions,SIMPLE_NAME, line no: 102, 0.75, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,bulkActions,SIMPLE_NAME, line no: 103, 0.75, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,autoCreateIndices,SIMPLE_NAME, line no: 106, 0.75, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,overwriteDuplicates,SIMPLE_NAME, line no: 107, 0.75, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,includes == null && excludes == null,INFIX_EXPRESSION, line no: 111, 0.75, 0.75, 0.0
+delegate,SIMPLE_NAME, line no: 84,includes == null,INFIX_EXPRESSION, line no: 111, 0.75, 0.75, 0.0
+delegate,SIMPLE_NAME, line no: 84,excludes == null,INFIX_EXPRESSION, line no: 111, 0.75, 0.75, 0.0
+delegate,SIMPLE_NAME, line no: 84,sourceInputColumn.index(),METHOD_INVOCATION, line no: 113, 0.75, 0.75, 0.0
+delegate,SIMPLE_NAME, line no: 84,insertAssignments,SIMPLE_NAME, line no: 120, 0.75, 0.75, 0.0
+delegate,SIMPLE_NAME, line no: 84,new HashMap<>(1),CLASS_INSTANCE_CREATION, line no: 120, 0.75, 0.75, 0.0
+delegate,SIMPLE_NAME, line no: 84,1,NUMBER_LITERAL, line no: 120, 0.75, 0.75, 0.0
+delegate,SIMPLE_NAME, line no: 84,insertAssignments.put(rawSourceReference sourceInputColumn),METHOD_INVOCATION, line no: 121, 0.75, 0.75, 0.0
+delegate,SIMPLE_NAME, line no: 84,put,SIMPLE_NAME, line no: 121, 0.75, 0.75, 0.0
+delegate,SIMPLE_NAME, line no: 84,createBulkShardProcessor(clusterService settings transportShardUpsertActionDelegate transportCreateIndexAction bulkActions autoCreateIndices overwriteDuplicates null insertAssignments),METHOD_INVOCATION, line no: 123, 0.75, 0.75, 0.0
+delegate,SIMPLE_NAME, line no: 84,createBulkShardProcessor,SIMPLE_NAME, line no: 123, 0.75, 0.75, 0.0
+delegate,SIMPLE_NAME, line no: 84,this.row,FIELD_ACCESS, line no: 137, 0.75, 0.625, 0.0
+delegate,SIMPLE_NAME, line no: 84,input.value(),METHOD_INVOCATION, line no: 154, 0.75, 0.75, 0.0
+delegate,SIMPLE_NAME, line no: 84,logger,SIMPLE_NAME, line no: 163, 0.75, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,error,SIMPLE_NAME, line no: 186, 0.75, 0.75, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,Reference,SIMPLE_NAME, line no: 31, 0.7142857142857143, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,Symbol,SIMPLE_NAME, line no: 32, 0.7142857142857143, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,settings,SIMPLE_NAME, line no: 42, 0.7142857142857143, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,HashMap,SIMPLE_NAME, line no: 49, 0.7142857142857143, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,row,SIMPLE_NAME, line no: 55, 0.7142857142857143, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,this,THIS_EXPRESSION, line no: 64, 0.7142857142857143, 0.42857142857142855, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,clusterService,SIMPLE_NAME, line no: 89, 0.7142857142857143, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,transportShardUpsertActionDelegate,SIMPLE_NAME, line no: 91, 0.7142857142857143, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,transportCreateIndexAction,SIMPLE_NAME, line no: 92, 0.7142857142857143, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,tableIdent,SIMPLE_NAME, line no: 93, 0.7142857142857143, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,partitionIdent,SIMPLE_NAME, line no: 94, 0.7142857142857143, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,rawSourceReference,SIMPLE_NAME, line no: 95, 0.7142857142857143, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,primaryKeyIdents,SIMPLE_NAME, line no: 96, 0.7142857142857143, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,primaryKeySymbols,SIMPLE_NAME, line no: 97, 0.7142857142857143, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,partitionedByInputs,SIMPLE_NAME, line no: 98, 0.7142857142857143, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,routingSymbol,SIMPLE_NAME, line no: 99, 0.7142857142857143, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,sourceInputColumn,SIMPLE_NAME, line no: 101, 0.7142857142857143, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,collectExpressions,SIMPLE_NAME, line no: 102, 0.7142857142857143, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,bulkActions,SIMPLE_NAME, line no: 103, 0.7142857142857143, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,autoCreateIndices,SIMPLE_NAME, line no: 106, 0.7142857142857143, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,overwriteDuplicates,SIMPLE_NAME, line no: 107, 0.7142857142857143, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,includes == null && excludes == null,INFIX_EXPRESSION, line no: 111, 0.7142857142857143, 0.7142857142857143, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,includes == null,INFIX_EXPRESSION, line no: 111, 0.7142857142857143, 0.7142857142857143, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,excludes == null,INFIX_EXPRESSION, line no: 111, 0.7142857142857143, 0.7142857142857143, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,sourceInputColumn.index(),METHOD_INVOCATION, line no: 113, 0.7142857142857143, 0.7142857142857143, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,insertAssignments,SIMPLE_NAME, line no: 120, 0.7142857142857143, 0.7142857142857143, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,new HashMap<>(1),CLASS_INSTANCE_CREATION, line no: 120, 0.7142857142857143, 0.7142857142857143, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,1,NUMBER_LITERAL, line no: 120, 0.7142857142857143, 0.7142857142857143, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,insertAssignments.put(rawSourceReference sourceInputColumn),METHOD_INVOCATION, line no: 121, 0.7142857142857143, 0.7142857142857143, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,put,SIMPLE_NAME, line no: 121, 0.7142857142857143, 0.7142857142857143, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,createBulkShardProcessor(clusterService settings transportShardUpsertActionDelegate transportCreateIndexAction bulkActions autoCreateIndices overwriteDuplicates null insertAssignments),METHOD_INVOCATION, line no: 123, 0.7142857142857143, 0.7142857142857143, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,createBulkShardProcessor,SIMPLE_NAME, line no: 123, 0.7142857142857143, 0.7142857142857143, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,this.row,FIELD_ACCESS, line no: 137, 0.7142857142857143, 0.5714285714285714, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,logger,SIMPLE_NAME, line no: 163, 0.7142857142857143, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,logger.error("could not parse xContent" ex),METHOD_INVOCATION, line no: 186, 0.7142857142857143, 0.7142857142857143, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,error,SIMPLE_NAME, line no: 186, 0.7142857142857143, 0.7142857142857143, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,"could not parse xContent",STRING_LITERAL, line no: 186, 0.7142857142857143, 0.7142857142857143, 0.0
+Buckets,SIMPLE_NAME, line no: 84,Input,SIMPLE_NAME, line no: 28, 0.625, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,BytesRef,SIMPLE_NAME, line no: 33, 0.625, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,SourceInjectorRow,SIMPLE_NAME, line no: 55, 0.625, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,row=new SourceInjectorRow(sourceInputColumn.index() new BytesRefInput((Input<BytesRef>)sourceInput)),ASSIGNMENT, line no: 113, 0.625, 0.625, 0.0
+Buckets,SIMPLE_NAME, line no: 84,new SourceInjectorRow(sourceInputColumn.index() new BytesRefInput((Input<BytesRef>)sourceInput)),CLASS_INSTANCE_CREATION, line no: 113, 0.625, 0.625, 0.0
+Buckets,SIMPLE_NAME, line no: 84,new BytesRefInput((Input<BytesRef>)sourceInput),CLASS_INSTANCE_CREATION, line no: 113, 0.625, 0.625, 0.0
+Buckets,SIMPLE_NAME, line no: 84,BytesRefInput,SIMPLE_NAME, line no: 113, 0.625, 0.625, 0.0
+Buckets,SIMPLE_NAME, line no: 84,(Input<BytesRef>)sourceInput,CAST_EXPRESSION, line no: 113, 0.625, 0.625, 0.0
+Buckets,SIMPLE_NAME, line no: 84,row=new SourceInjectorRow(sourceInputColumn.index() new MapInput((Input<Map<String Object>>)sourceInput includes excludes)),ASSIGNMENT, line no: 116, 0.625, 0.625, 0.0
+Buckets,SIMPLE_NAME, line no: 84,new SourceInjectorRow(sourceInputColumn.index() new MapInput((Input<Map<String Object>>)sourceInput includes excludes)),CLASS_INSTANCE_CREATION, line no: 116, 0.625, 0.625, 0.0
+Buckets,SIMPLE_NAME, line no: 84,new MapInput((Input<Map<String Object>>)sourceInput includes excludes),CLASS_INSTANCE_CREATION, line no: 117, 0.625, 0.625, 0.0
+Buckets,SIMPLE_NAME, line no: 84,MapInput,SIMPLE_NAME, line no: 117, 0.625, 0.625, 0.0
+Buckets,SIMPLE_NAME, line no: 84,(Input<Map<String Object>>)sourceInput,CAST_EXPRESSION, line no: 117, 0.625, 0.625, 0.0
+Buckets,SIMPLE_NAME, line no: 84,this.row.delegate=row,ASSIGNMENT, line no: 137, 0.625, 0.625, 0.0
+Buckets,SIMPLE_NAME, line no: 84,this.row.delegate,FIELD_ACCESS, line no: 137, 0.625, 0.625, 0.0
+Buckets,SIMPLE_NAME, line no: 84,logger.error("could not parse xContent" ex),METHOD_INVOCATION, line no: 186, 0.625, 0.625, 0.0
+Buckets,SIMPLE_NAME, line no: 84,"could not parse xContent",STRING_LITERAL, line no: 186, 0.625, 0.625, 0.0
+materialize,SIMPLE_NAME, line no: 84,Input,SIMPLE_NAME, line no: 28, 0.625, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,BytesRef,SIMPLE_NAME, line no: 33, 0.625, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,SourceInjectorRow,SIMPLE_NAME, line no: 55, 0.625, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,row=new SourceInjectorRow(sourceInputColumn.index() new BytesRefInput((Input<BytesRef>)sourceInput)),ASSIGNMENT, line no: 113, 0.625, 0.625, 0.0
+materialize,SIMPLE_NAME, line no: 84,new SourceInjectorRow(sourceInputColumn.index() new BytesRefInput((Input<BytesRef>)sourceInput)),CLASS_INSTANCE_CREATION, line no: 113, 0.625, 0.625, 0.0
+materialize,SIMPLE_NAME, line no: 84,new BytesRefInput((Input<BytesRef>)sourceInput),CLASS_INSTANCE_CREATION, line no: 113, 0.625, 0.625, 0.0
+materialize,SIMPLE_NAME, line no: 84,BytesRefInput,SIMPLE_NAME, line no: 113, 0.625, 0.625, 0.0
+materialize,SIMPLE_NAME, line no: 84,(Input<BytesRef>)sourceInput,CAST_EXPRESSION, line no: 113, 0.625, 0.625, 0.0
+materialize,SIMPLE_NAME, line no: 84,row=new SourceInjectorRow(sourceInputColumn.index() new MapInput((Input<Map<String Object>>)sourceInput includes excludes)),ASSIGNMENT, line no: 116, 0.625, 0.625, 0.0
+materialize,SIMPLE_NAME, line no: 84,new SourceInjectorRow(sourceInputColumn.index() new MapInput((Input<Map<String Object>>)sourceInput includes excludes)),CLASS_INSTANCE_CREATION, line no: 116, 0.625, 0.625, 0.0
+materialize,SIMPLE_NAME, line no: 84,new MapInput((Input<Map<String Object>>)sourceInput includes excludes),CLASS_INSTANCE_CREATION, line no: 117, 0.625, 0.625, 0.0
+materialize,SIMPLE_NAME, line no: 84,MapInput,SIMPLE_NAME, line no: 117, 0.625, 0.625, 0.0
+materialize,SIMPLE_NAME, line no: 84,(Input<Map<String Object>>)sourceInput,CAST_EXPRESSION, line no: 117, 0.625, 0.625, 0.0
+materialize,SIMPLE_NAME, line no: 84,this.row.delegate=row,ASSIGNMENT, line no: 137, 0.625, 0.625, 0.0
+materialize,SIMPLE_NAME, line no: 84,this.row.delegate,FIELD_ACCESS, line no: 137, 0.625, 0.625, 0.0
+materialize,SIMPLE_NAME, line no: 84,logger.error("could not parse xContent" ex),METHOD_INVOCATION, line no: 186, 0.625, 0.625, 0.0
+materialize,SIMPLE_NAME, line no: 84,"could not parse xContent",STRING_LITERAL, line no: 186, 0.625, 0.625, 0.0
+delegate,SIMPLE_NAME, line no: 84,Input,SIMPLE_NAME, line no: 28, 0.625, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,BytesRef,SIMPLE_NAME, line no: 33, 0.625, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,SourceInjectorRow,SIMPLE_NAME, line no: 55, 0.625, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,row=new SourceInjectorRow(sourceInputColumn.index() new BytesRefInput((Input<BytesRef>)sourceInput)),ASSIGNMENT, line no: 113, 0.625, 0.625, 0.0
+delegate,SIMPLE_NAME, line no: 84,new SourceInjectorRow(sourceInputColumn.index() new BytesRefInput((Input<BytesRef>)sourceInput)),CLASS_INSTANCE_CREATION, line no: 113, 0.625, 0.625, 0.0
+delegate,SIMPLE_NAME, line no: 84,new BytesRefInput((Input<BytesRef>)sourceInput),CLASS_INSTANCE_CREATION, line no: 113, 0.625, 0.625, 0.0
+delegate,SIMPLE_NAME, line no: 84,BytesRefInput,SIMPLE_NAME, line no: 113, 0.625, 0.625, 0.0
+delegate,SIMPLE_NAME, line no: 84,(Input<BytesRef>)sourceInput,CAST_EXPRESSION, line no: 113, 0.625, 0.625, 0.0
+delegate,SIMPLE_NAME, line no: 84,row=new SourceInjectorRow(sourceInputColumn.index() new MapInput((Input<Map<String Object>>)sourceInput includes excludes)),ASSIGNMENT, line no: 116, 0.625, 0.625, 0.0
+delegate,SIMPLE_NAME, line no: 84,new SourceInjectorRow(sourceInputColumn.index() new MapInput((Input<Map<String Object>>)sourceInput includes excludes)),CLASS_INSTANCE_CREATION, line no: 116, 0.625, 0.625, 0.0
+delegate,SIMPLE_NAME, line no: 84,new MapInput((Input<Map<String Object>>)sourceInput includes excludes),CLASS_INSTANCE_CREATION, line no: 117, 0.625, 0.625, 0.0
+delegate,SIMPLE_NAME, line no: 84,MapInput,SIMPLE_NAME, line no: 117, 0.625, 0.625, 0.0
+delegate,SIMPLE_NAME, line no: 84,(Input<Map<String Object>>)sourceInput,CAST_EXPRESSION, line no: 117, 0.625, 0.625, 0.0
+delegate,SIMPLE_NAME, line no: 84,logger.error("could not parse xContent" ex),METHOD_INVOCATION, line no: 186, 0.625, 0.625, 0.0
+delegate,SIMPLE_NAME, line no: 84,"could not parse xContent",STRING_LITERAL, line no: 186, 0.625, 0.625, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,Input,SIMPLE_NAME, line no: 28, 0.5714285714285714, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,BytesRef,SIMPLE_NAME, line no: 33, 0.5714285714285714, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,SourceInjectorRow,SIMPLE_NAME, line no: 55, 0.5714285714285714, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,row=new SourceInjectorRow(sourceInputColumn.index() new BytesRefInput((Input<BytesRef>)sourceInput)),ASSIGNMENT, line no: 113, 0.5714285714285714, 0.5714285714285714, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,new SourceInjectorRow(sourceInputColumn.index() new BytesRefInput((Input<BytesRef>)sourceInput)),CLASS_INSTANCE_CREATION, line no: 113, 0.5714285714285714, 0.5714285714285714, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,new BytesRefInput((Input<BytesRef>)sourceInput),CLASS_INSTANCE_CREATION, line no: 113, 0.5714285714285714, 0.5714285714285714, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,BytesRefInput,SIMPLE_NAME, line no: 113, 0.5714285714285714, 0.5714285714285714, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,(Input<BytesRef>)sourceInput,CAST_EXPRESSION, line no: 113, 0.5714285714285714, 0.5714285714285714, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,row=new SourceInjectorRow(sourceInputColumn.index() new MapInput((Input<Map<String Object>>)sourceInput includes excludes)),ASSIGNMENT, line no: 116, 0.5714285714285714, 0.5714285714285714, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,new SourceInjectorRow(sourceInputColumn.index() new MapInput((Input<Map<String Object>>)sourceInput includes excludes)),CLASS_INSTANCE_CREATION, line no: 116, 0.5714285714285714, 0.5714285714285714, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,new MapInput((Input<Map<String Object>>)sourceInput includes excludes),CLASS_INSTANCE_CREATION, line no: 117, 0.5714285714285714, 0.5714285714285714, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,MapInput,SIMPLE_NAME, line no: 117, 0.5714285714285714, 0.5714285714285714, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,(Input<Map<String Object>>)sourceInput,CAST_EXPRESSION, line no: 117, 0.5714285714285714, 0.5714285714285714, 0.0
+Buckets,SIMPLE_NAME, line no: 84,BigArrays,SIMPLE_NAME, line no: 43, 0.5, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,this.idx=idx,ASSIGNMENT, line no: 64, 0.5, 0.5, 0.0
+Buckets,SIMPLE_NAME, line no: 84,this.idx,FIELD_ACCESS, line no: 64, 0.5, 0.5, 0.0
+Buckets,SIMPLE_NAME, line no: 84,this.generator=generator,ASSIGNMENT, line no: 65, 0.5, 0.5, 0.0
+Buckets,SIMPLE_NAME, line no: 84,this.generator,FIELD_ACCESS, line no: 65, 0.5, 0.5, 0.0
+Buckets,SIMPLE_NAME, line no: 84,this.sourceInput=sourceInput,ASSIGNMENT, line no: 167, 0.5, 0.5, 0.0
+Buckets,SIMPLE_NAME, line no: 84,this.sourceInput,FIELD_ACCESS, line no: 167, 0.5, 0.5, 0.0
+Buckets,SIMPLE_NAME, line no: 84,this.includes=includes,ASSIGNMENT, line no: 168, 0.5, 0.5, 0.0
+Buckets,SIMPLE_NAME, line no: 84,this.includes,FIELD_ACCESS, line no: 168, 0.5, 0.5, 0.0
+Buckets,SIMPLE_NAME, line no: 84,this.excludes=excludes,ASSIGNMENT, line no: 169, 0.5, 0.5, 0.0
+Buckets,SIMPLE_NAME, line no: 84,this.excludes,FIELD_ACCESS, line no: 169, 0.5, 0.5, 0.0
+Buckets,SIMPLE_NAME, line no: 84,this.lastSourceSize=BigArrays.BYTE_PAGE_SIZE,ASSIGNMENT, line no: 170, 0.5, 0.5, 0.0
+Buckets,SIMPLE_NAME, line no: 84,this.lastSourceSize,FIELD_ACCESS, line no: 170, 0.5, 0.5, 0.0
+Buckets,SIMPLE_NAME, line no: 84,BigArrays.BYTE_PAGE_SIZE,QUALIFIED_NAME, line no: 170, 0.5, 0.5, 0.0
+Buckets,SIMPLE_NAME, line no: 84,BYTE_PAGE_SIZE,SIMPLE_NAME, line no: 170, 0.5, 0.5, 0.0
+materialize,SIMPLE_NAME, line no: 84,BigArrays,SIMPLE_NAME, line no: 43, 0.5, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,this.idx=idx,ASSIGNMENT, line no: 64, 0.5, 0.5, 0.0
+materialize,SIMPLE_NAME, line no: 84,this.idx,FIELD_ACCESS, line no: 64, 0.5, 0.5, 0.0
+materialize,SIMPLE_NAME, line no: 84,this.generator=generator,ASSIGNMENT, line no: 65, 0.5, 0.5, 0.0
+materialize,SIMPLE_NAME, line no: 84,this.generator,FIELD_ACCESS, line no: 65, 0.5, 0.5, 0.0
+materialize,SIMPLE_NAME, line no: 84,this.sourceInput=sourceInput,ASSIGNMENT, line no: 167, 0.5, 0.5, 0.0
+materialize,SIMPLE_NAME, line no: 84,this.sourceInput,FIELD_ACCESS, line no: 167, 0.5, 0.5, 0.0
+materialize,SIMPLE_NAME, line no: 84,this.includes=includes,ASSIGNMENT, line no: 168, 0.5, 0.5, 0.0
+materialize,SIMPLE_NAME, line no: 84,this.includes,FIELD_ACCESS, line no: 168, 0.5, 0.5, 0.0
+materialize,SIMPLE_NAME, line no: 84,this.excludes=excludes,ASSIGNMENT, line no: 169, 0.5, 0.5, 0.0
+materialize,SIMPLE_NAME, line no: 84,this.excludes,FIELD_ACCESS, line no: 169, 0.5, 0.5, 0.0
+materialize,SIMPLE_NAME, line no: 84,this.lastSourceSize=BigArrays.BYTE_PAGE_SIZE,ASSIGNMENT, line no: 170, 0.5, 0.5, 0.0
+materialize,SIMPLE_NAME, line no: 84,this.lastSourceSize,FIELD_ACCESS, line no: 170, 0.5, 0.5, 0.0
+materialize,SIMPLE_NAME, line no: 84,BigArrays.BYTE_PAGE_SIZE,QUALIFIED_NAME, line no: 170, 0.5, 0.5, 0.0
+materialize,SIMPLE_NAME, line no: 84,BYTE_PAGE_SIZE,SIMPLE_NAME, line no: 170, 0.5, 0.5, 0.0
+delegate,SIMPLE_NAME, line no: 84,BigArrays,SIMPLE_NAME, line no: 43, 0.5, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,this.idx=idx,ASSIGNMENT, line no: 64, 0.5, 0.5, 0.0
+delegate,SIMPLE_NAME, line no: 84,this.idx,FIELD_ACCESS, line no: 64, 0.5, 0.5, 0.0
+delegate,SIMPLE_NAME, line no: 84,this.generator=generator,ASSIGNMENT, line no: 65, 0.5, 0.5, 0.0
+delegate,SIMPLE_NAME, line no: 84,this.generator,FIELD_ACCESS, line no: 65, 0.5, 0.5, 0.0
+delegate,SIMPLE_NAME, line no: 84,this.sourceInput=sourceInput,ASSIGNMENT, line no: 167, 0.5, 0.5, 0.0
+delegate,SIMPLE_NAME, line no: 84,this.sourceInput,FIELD_ACCESS, line no: 167, 0.5, 0.5, 0.0
+delegate,SIMPLE_NAME, line no: 84,this.includes=includes,ASSIGNMENT, line no: 168, 0.5, 0.5, 0.0
+delegate,SIMPLE_NAME, line no: 84,this.includes,FIELD_ACCESS, line no: 168, 0.5, 0.5, 0.0
+delegate,SIMPLE_NAME, line no: 84,this.excludes=excludes,ASSIGNMENT, line no: 169, 0.5, 0.5, 0.0
+delegate,SIMPLE_NAME, line no: 84,this.excludes,FIELD_ACCESS, line no: 169, 0.5, 0.5, 0.0
+delegate,SIMPLE_NAME, line no: 84,this.lastSourceSize=BigArrays.BYTE_PAGE_SIZE,ASSIGNMENT, line no: 170, 0.5, 0.5, 0.0
+delegate,SIMPLE_NAME, line no: 84,this.lastSourceSize,FIELD_ACCESS, line no: 170, 0.5, 0.5, 0.0
+delegate,SIMPLE_NAME, line no: 84,BigArrays.BYTE_PAGE_SIZE,QUALIFIED_NAME, line no: 170, 0.5, 0.5, 0.0
+delegate,SIMPLE_NAME, line no: 84,BYTE_PAGE_SIZE,SIMPLE_NAME, line no: 170, 0.5, 0.5, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,BigArrays,SIMPLE_NAME, line no: 43, 0.42857142857142855, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,this.idx=idx,ASSIGNMENT, line no: 64, 0.42857142857142855, 0.42857142857142855, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,this.idx,FIELD_ACCESS, line no: 64, 0.42857142857142855, 0.42857142857142855, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,this.generator=generator,ASSIGNMENT, line no: 65, 0.42857142857142855, 0.42857142857142855, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,this.generator,FIELD_ACCESS, line no: 65, 0.42857142857142855, 0.42857142857142855, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,this.sourceInput=sourceInput,ASSIGNMENT, line no: 167, 0.42857142857142855, 0.42857142857142855, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,this.sourceInput,FIELD_ACCESS, line no: 167, 0.42857142857142855, 0.42857142857142855, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,this.includes=includes,ASSIGNMENT, line no: 168, 0.42857142857142855, 0.42857142857142855, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,this.includes,FIELD_ACCESS, line no: 168, 0.42857142857142855, 0.42857142857142855, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,this.excludes=excludes,ASSIGNMENT, line no: 169, 0.42857142857142855, 0.42857142857142855, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,this.excludes,FIELD_ACCESS, line no: 169, 0.42857142857142855, 0.42857142857142855, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,this.lastSourceSize=BigArrays.BYTE_PAGE_SIZE,ASSIGNMENT, line no: 170, 0.42857142857142855, 0.42857142857142855, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,this.lastSourceSize,FIELD_ACCESS, line no: 170, 0.42857142857142855, 0.42857142857142855, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,BigArrays.BYTE_PAGE_SIZE,QUALIFIED_NAME, line no: 170, 0.42857142857142855, 0.42857142857142855, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,BYTE_PAGE_SIZE,SIMPLE_NAME, line no: 170, 0.42857142857142855, 0.42857142857142855, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,Loggers,SIMPLE_NAME, line no: 41, 0.2857142857142857, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,this.input=input,ASSIGNMENT, line no: 149, 0.2857142857142857, 0.2857142857142857, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,this.input,FIELD_ACCESS, line no: 149, 0.2857142857142857, 0.2857142857142857, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,getLogger,SIMPLE_NAME, line no: 163, 0.2857142857142857, 0.2857142857142857, 0.0
+Buckets,SIMPLE_NAME, line no: 84,Loggers,SIMPLE_NAME, line no: 41, 0.25, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,this.input=input,ASSIGNMENT, line no: 149, 0.25, 0.25, 0.0
+Buckets,SIMPLE_NAME, line no: 84,this.input,FIELD_ACCESS, line no: 149, 0.25, 0.25, 0.0
+Buckets,SIMPLE_NAME, line no: 84,getLogger,SIMPLE_NAME, line no: 163, 0.25, 0.25, 0.0
+materialize,SIMPLE_NAME, line no: 84,Loggers,SIMPLE_NAME, line no: 41, 0.25, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,this.input=input,ASSIGNMENT, line no: 149, 0.25, 0.25, 0.0
+materialize,SIMPLE_NAME, line no: 84,this.input,FIELD_ACCESS, line no: 149, 0.25, 0.25, 0.0
+materialize,SIMPLE_NAME, line no: 84,getLogger,SIMPLE_NAME, line no: 163, 0.25, 0.25, 0.0
+delegate,SIMPLE_NAME, line no: 84,Loggers,SIMPLE_NAME, line no: 41, 0.25, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,this.input=input,ASSIGNMENT, line no: 149, 0.25, 0.25, 0.0
+delegate,SIMPLE_NAME, line no: 84,this.input,FIELD_ACCESS, line no: 149, 0.25, 0.25, 0.0
+delegate,SIMPLE_NAME, line no: 84,getLogger,SIMPLE_NAME, line no: 163, 0.25, 0.25, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,io,SIMPLE_NAME, line no: 22, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,crate,SIMPLE_NAME, line no: 22, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,operation,SIMPLE_NAME, line no: 22, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,projectors,SIMPLE_NAME, line no: 22, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,core,SIMPLE_NAME, line no: 24, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,collections,SIMPLE_NAME, line no: 24, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,Row,SIMPLE_NAME, line no: 25, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,metadata,SIMPLE_NAME, line no: 26, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,ColumnIdent,SIMPLE_NAME, line no: 26, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,TableIdent,SIMPLE_NAME, line no: 27, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,collect,SIMPLE_NAME, line no: 29, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,CollectExpression,SIMPLE_NAME, line no: 29, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,planner,SIMPLE_NAME, line no: 30, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,symbol,SIMPLE_NAME, line no: 30, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,InputColumn,SIMPLE_NAME, line no: 30, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,org,SIMPLE_NAME, line no: 33, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,apache,SIMPLE_NAME, line no: 33, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,lucene,SIMPLE_NAME, line no: 33, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,util,SIMPLE_NAME, line no: 33, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,elasticsearch,SIMPLE_NAME, line no: 34, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,action,SIMPLE_NAME, line no: 34, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,admin,SIMPLE_NAME, line no: 34, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,indices,SIMPLE_NAME, line no: 34, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,create,SIMPLE_NAME, line no: 34, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,TransportCreateIndexAction,SIMPLE_NAME, line no: 34, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,bulk,SIMPLE_NAME, line no: 35, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,TransportShardUpsertActionDelegate,SIMPLE_NAME, line no: 35, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,client,SIMPLE_NAME, line no: 36, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,cluster,SIMPLE_NAME, line no: 37, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,ClusterService,SIMPLE_NAME, line no: 37, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,common,SIMPLE_NAME, line no: 38, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,stream,SIMPLE_NAME, line no: 39, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,logging,SIMPLE_NAME, line no: 40, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,ESLogger,SIMPLE_NAME, line no: 40, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,Settings,SIMPLE_NAME, line no: 42, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,xcontent,SIMPLE_NAME, line no: 44, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,support,SIMPLE_NAME, line no: 45, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,javax,SIMPLE_NAME, line no: 47, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,annotation,SIMPLE_NAME, line no: 47, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,Nullable,SIMPLE_NAME, line no: 47, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,java,SIMPLE_NAME, line no: 48, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,List,SIMPLE_NAME, line no: 50, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,IndexWriterProjector,SIMPLE_NAME, line no: 53, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,AbstractIndexWriterProjector,SIMPLE_NAME, line no: 53, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,BytesRefGenerator,SIMPLE_NAME, line no: 60, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,Override,SIMPLE_NAME, line no: 69, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,Integer,SIMPLE_NAME, line no: 103, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,updateRow,SIMPLE_NAME, line no: 136, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,Loggers.getLogger(MapInput.class),METHOD_INVOCATION, line no: 163, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets.materialize(delegate),METHOD_INVOCATION, line no: 84,MapInput.class,TYPE_LITERAL, line no: 163, 0.14285714285714285, 0.14285714285714285, 0.0
+Buckets,SIMPLE_NAME, line no: 84,io,SIMPLE_NAME, line no: 22, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,crate,SIMPLE_NAME, line no: 22, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,operation,SIMPLE_NAME, line no: 22, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,projectors,SIMPLE_NAME, line no: 22, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,core,SIMPLE_NAME, line no: 24, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,collections,SIMPLE_NAME, line no: 24, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,Row,SIMPLE_NAME, line no: 25, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,metadata,SIMPLE_NAME, line no: 26, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,ColumnIdent,SIMPLE_NAME, line no: 26, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,TableIdent,SIMPLE_NAME, line no: 27, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,collect,SIMPLE_NAME, line no: 29, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,CollectExpression,SIMPLE_NAME, line no: 29, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,planner,SIMPLE_NAME, line no: 30, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,symbol,SIMPLE_NAME, line no: 30, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,InputColumn,SIMPLE_NAME, line no: 30, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,org,SIMPLE_NAME, line no: 33, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,apache,SIMPLE_NAME, line no: 33, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,lucene,SIMPLE_NAME, line no: 33, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,util,SIMPLE_NAME, line no: 33, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,elasticsearch,SIMPLE_NAME, line no: 34, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,action,SIMPLE_NAME, line no: 34, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,admin,SIMPLE_NAME, line no: 34, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,indices,SIMPLE_NAME, line no: 34, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,create,SIMPLE_NAME, line no: 34, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,TransportCreateIndexAction,SIMPLE_NAME, line no: 34, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,bulk,SIMPLE_NAME, line no: 35, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,TransportShardUpsertActionDelegate,SIMPLE_NAME, line no: 35, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,client,SIMPLE_NAME, line no: 36, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,cluster,SIMPLE_NAME, line no: 37, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,ClusterService,SIMPLE_NAME, line no: 37, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,common,SIMPLE_NAME, line no: 38, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,stream,SIMPLE_NAME, line no: 39, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,logging,SIMPLE_NAME, line no: 40, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,ESLogger,SIMPLE_NAME, line no: 40, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,Settings,SIMPLE_NAME, line no: 42, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,xcontent,SIMPLE_NAME, line no: 44, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,support,SIMPLE_NAME, line no: 45, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,javax,SIMPLE_NAME, line no: 47, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,annotation,SIMPLE_NAME, line no: 47, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,Nullable,SIMPLE_NAME, line no: 47, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,java,SIMPLE_NAME, line no: 48, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,List,SIMPLE_NAME, line no: 50, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,IndexWriterProjector,SIMPLE_NAME, line no: 53, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,AbstractIndexWriterProjector,SIMPLE_NAME, line no: 53, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,BytesRefGenerator,SIMPLE_NAME, line no: 60, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,Override,SIMPLE_NAME, line no: 69, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,Integer,SIMPLE_NAME, line no: 103, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,updateRow,SIMPLE_NAME, line no: 136, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,Loggers.getLogger(MapInput.class),METHOD_INVOCATION, line no: 163, 0.125, 0.125, 0.0
+Buckets,SIMPLE_NAME, line no: 84,MapInput.class,TYPE_LITERAL, line no: 163, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,io,SIMPLE_NAME, line no: 22, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,crate,SIMPLE_NAME, line no: 22, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,operation,SIMPLE_NAME, line no: 22, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,projectors,SIMPLE_NAME, line no: 22, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,core,SIMPLE_NAME, line no: 24, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,collections,SIMPLE_NAME, line no: 24, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,Row,SIMPLE_NAME, line no: 25, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,metadata,SIMPLE_NAME, line no: 26, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,ColumnIdent,SIMPLE_NAME, line no: 26, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,TableIdent,SIMPLE_NAME, line no: 27, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,collect,SIMPLE_NAME, line no: 29, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,CollectExpression,SIMPLE_NAME, line no: 29, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,planner,SIMPLE_NAME, line no: 30, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,symbol,SIMPLE_NAME, line no: 30, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,InputColumn,SIMPLE_NAME, line no: 30, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,org,SIMPLE_NAME, line no: 33, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,apache,SIMPLE_NAME, line no: 33, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,lucene,SIMPLE_NAME, line no: 33, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,util,SIMPLE_NAME, line no: 33, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,elasticsearch,SIMPLE_NAME, line no: 34, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,action,SIMPLE_NAME, line no: 34, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,admin,SIMPLE_NAME, line no: 34, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,indices,SIMPLE_NAME, line no: 34, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,create,SIMPLE_NAME, line no: 34, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,TransportCreateIndexAction,SIMPLE_NAME, line no: 34, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,bulk,SIMPLE_NAME, line no: 35, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,TransportShardUpsertActionDelegate,SIMPLE_NAME, line no: 35, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,client,SIMPLE_NAME, line no: 36, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,cluster,SIMPLE_NAME, line no: 37, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,ClusterService,SIMPLE_NAME, line no: 37, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,common,SIMPLE_NAME, line no: 38, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,stream,SIMPLE_NAME, line no: 39, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,logging,SIMPLE_NAME, line no: 40, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,ESLogger,SIMPLE_NAME, line no: 40, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,Settings,SIMPLE_NAME, line no: 42, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,xcontent,SIMPLE_NAME, line no: 44, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,support,SIMPLE_NAME, line no: 45, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,javax,SIMPLE_NAME, line no: 47, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,annotation,SIMPLE_NAME, line no: 47, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,Nullable,SIMPLE_NAME, line no: 47, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,java,SIMPLE_NAME, line no: 48, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,List,SIMPLE_NAME, line no: 50, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,IndexWriterProjector,SIMPLE_NAME, line no: 53, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,AbstractIndexWriterProjector,SIMPLE_NAME, line no: 53, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,BytesRefGenerator,SIMPLE_NAME, line no: 60, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,Override,SIMPLE_NAME, line no: 69, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,Integer,SIMPLE_NAME, line no: 103, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,updateRow,SIMPLE_NAME, line no: 136, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,Loggers.getLogger(MapInput.class),METHOD_INVOCATION, line no: 163, 0.125, 0.125, 0.0
+materialize,SIMPLE_NAME, line no: 84,MapInput.class,TYPE_LITERAL, line no: 163, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,io,SIMPLE_NAME, line no: 22, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,crate,SIMPLE_NAME, line no: 22, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,operation,SIMPLE_NAME, line no: 22, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,projectors,SIMPLE_NAME, line no: 22, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,core,SIMPLE_NAME, line no: 24, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,collections,SIMPLE_NAME, line no: 24, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,metadata,SIMPLE_NAME, line no: 26, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,ColumnIdent,SIMPLE_NAME, line no: 26, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,TableIdent,SIMPLE_NAME, line no: 27, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,collect,SIMPLE_NAME, line no: 29, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,CollectExpression,SIMPLE_NAME, line no: 29, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,planner,SIMPLE_NAME, line no: 30, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,symbol,SIMPLE_NAME, line no: 30, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,InputColumn,SIMPLE_NAME, line no: 30, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,org,SIMPLE_NAME, line no: 33, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,apache,SIMPLE_NAME, line no: 33, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,lucene,SIMPLE_NAME, line no: 33, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,util,SIMPLE_NAME, line no: 33, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,elasticsearch,SIMPLE_NAME, line no: 34, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,action,SIMPLE_NAME, line no: 34, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,admin,SIMPLE_NAME, line no: 34, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,indices,SIMPLE_NAME, line no: 34, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,create,SIMPLE_NAME, line no: 34, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,TransportCreateIndexAction,SIMPLE_NAME, line no: 34, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,bulk,SIMPLE_NAME, line no: 35, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,TransportShardUpsertActionDelegate,SIMPLE_NAME, line no: 35, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,client,SIMPLE_NAME, line no: 36, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,cluster,SIMPLE_NAME, line no: 37, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,ClusterService,SIMPLE_NAME, line no: 37, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,common,SIMPLE_NAME, line no: 38, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,stream,SIMPLE_NAME, line no: 39, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,logging,SIMPLE_NAME, line no: 40, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,ESLogger,SIMPLE_NAME, line no: 40, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,Settings,SIMPLE_NAME, line no: 42, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,xcontent,SIMPLE_NAME, line no: 44, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,support,SIMPLE_NAME, line no: 45, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,javax,SIMPLE_NAME, line no: 47, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,annotation,SIMPLE_NAME, line no: 47, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,Nullable,SIMPLE_NAME, line no: 47, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,java,SIMPLE_NAME, line no: 48, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,List,SIMPLE_NAME, line no: 50, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,IndexWriterProjector,SIMPLE_NAME, line no: 53, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,AbstractIndexWriterProjector,SIMPLE_NAME, line no: 53, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,BytesRefGenerator,SIMPLE_NAME, line no: 60, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,Override,SIMPLE_NAME, line no: 69, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,Integer,SIMPLE_NAME, line no: 103, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,Loggers.getLogger(MapInput.class),METHOD_INVOCATION, line no: 163, 0.125, 0.125, 0.0
+delegate,SIMPLE_NAME, line no: 84,MapInput.class,TYPE_LITERAL, line no: 163, 0.125, 0.125, 0.0

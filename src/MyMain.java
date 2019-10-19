@@ -16,7 +16,7 @@ import org.apache.commons.io.FilenameUtils;
 import net.lingala.zip4j.core.ZipFile;
 
 public class MyMain {
-	static String dirLocation = "dataset/buggy0/";
+	static String dirLocation = "dataset/buggy/";
 	static File rootFolder = new File(dirLocation);
 	public static void main(String[] args) {
 		File[] listOfFiles = rootFolder.listFiles();

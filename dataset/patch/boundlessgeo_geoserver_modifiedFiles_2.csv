@@ -1,0 +1,628 @@
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,String,SIMPLE_NAME, line no: 57, 2.0, 0.14285714285714285, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getName,SIMPLE_NAME, line no: 57, 2.0, 0.14285714285714285, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,prefixedName,SIMPLE_NAME, line no: 59, 2.0, 1.0, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getWorkspace,SIMPLE_NAME, line no: 65, 2.0, 0.14285714285714285, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,groupInfo != null && groupInfo.getWorkspace() != null,INFIX_EXPRESSION, line no: 68, 2.0, 1.0, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,groupInfo != null,INFIX_EXPRESSION, line no: 68, 2.0, 1.0, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,groupInfo.getWorkspace() != null,INFIX_EXPRESSION, line no: 68, 2.0, 1.0, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,groupInfo.getWorkspace(),METHOD_INVOCATION, line no: 68, 2.0, 1.0, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,groupInfo.getWorkspace().getName(),METHOD_INVOCATION, line no: 69, 2.0, 1.0, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getTitle,SIMPLE_NAME, line no: 88, 2.0, 0.14285714285714285, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,groupInfo.getTitle(),METHOD_INVOCATION, line no: 92, 2.0, 1.0, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getAbstract,SIMPLE_NAME, line no: 98, 2.0, 0.14285714285714285, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,groupInfo.getAbstract(),METHOD_INVOCATION, line no: 102, 2.0, 1.0, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,toString,SIMPLE_NAME, line no: 110, 2.0, 1.0, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getBaseUrl,SIMPLE_NAME, line no: 183, 2.0, 0.14285714285714285, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,service,SIMPLE_NAME, line no: 183, 2.0, 0.14285714285714285, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,ws,SIMPLE_NAME, line no: 184, 2.0, 1.0, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,buildURL,SIMPLE_NAME, line no: 187, 2.0, 1.0, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getSRS,SIMPLE_NAME, line no: 212, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,String,SIMPLE_NAME, line no: 57, 2.0, 0.125, 1.0
+getName,SIMPLE_NAME, line no: 61,layerInfo.getResource().prefixedName(),METHOD_INVOCATION, line no: 59, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,prefixedName,SIMPLE_NAME, line no: 59, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,getWorkspace,SIMPLE_NAME, line no: 65, 2.0, 0.125, 1.0
+getName,SIMPLE_NAME, line no: 61,layerInfo.getResource().getStore().getWorkspace().getName(),METHOD_INVOCATION, line no: 67, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,groupInfo.getWorkspace().getName(),METHOD_INVOCATION, line no: 69, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,getTitle,SIMPLE_NAME, line no: 88, 2.0, 0.125, 1.0
+getName,SIMPLE_NAME, line no: 61,layerInfo.getResource().getTitle(),METHOD_INVOCATION, line no: 90, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,getAbstract,SIMPLE_NAME, line no: 98, 2.0, 0.125, 1.0
+getName,SIMPLE_NAME, line no: 61,layerInfo.getResource().getAbstract(),METHOD_INVOCATION, line no: 100, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,layerInfo.getResource().getKeywords().toString(),METHOD_INVOCATION, line no: 110, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,toString,SIMPLE_NAME, line no: 110, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,getName(),METHOD_INVOCATION, line no: 157, 2.0, 0.75, 1.0
+getName,SIMPLE_NAME, line no: 61,getBaseUrl,SIMPLE_NAME, line no: 183, 2.0, 0.125, 1.0
+getName,SIMPLE_NAME, line no: 61,service,SIMPLE_NAME, line no: 183, 2.0, 0.125, 1.0
+getName,SIMPLE_NAME, line no: 61,ws,SIMPLE_NAME, line no: 184, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,getWorkspace(),METHOD_INVOCATION, line no: 184, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,ResponseUtils.buildURL("../" service null URLType.SERVICE),METHOD_INVOCATION, line no: 187, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,buildURL,SIMPLE_NAME, line no: 187, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,"../",STRING_LITERAL, line no: 187, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,ResponseUtils.buildURL("../" ws + "/" + service null URLType.SERVICE),METHOD_INVOCATION, line no: 189, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,ws + "/" + service,INFIX_EXPRESSION, line no: 189, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,"/",STRING_LITERAL, line no: 189, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,getBaseUrl("wms"),METHOD_INVOCATION, line no: 206, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,"wms",STRING_LITERAL, line no: 206, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,"?service=WMS&version=1.1.0&request=GetMap",STRING_LITERAL, line no: 206, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,"&layers=",STRING_LITERAL, line no: 207, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,"&styles=",STRING_LITERAL, line no: 208, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,"&bbox=",STRING_LITERAL, line no: 209, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61," ",STRING_LITERAL, line no: 209, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,"&width=",STRING_LITERAL, line no: 211, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,"&height=",STRING_LITERAL, line no: 212, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,"&srs=",STRING_LITERAL, line no: 212, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,request.getSRS(),METHOD_INVOCATION, line no: 212, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,getSRS,SIMPLE_NAME, line no: 212, 2.0, 1.0, 1.0
+getName,SIMPLE_NAME, line no: 61,groupInfo.getName(),METHOD_INVOCATION, line no: 61, 1.875, 0.875, 1.0
+getName,SIMPLE_NAME, line no: 61,groupInfo.getTitle(),METHOD_INVOCATION, line no: 92, 1.875, 0.875, 1.0
+getName,SIMPLE_NAME, line no: 61,groupInfo.getAbstract(),METHOD_INVOCATION, line no: 102, 1.875, 0.875, 1.0
+getName,SIMPLE_NAME, line no: 61,"application/openlayers",STRING_LITERAL, line no: 142, 1.75, 0.75, 1.0
+getName,SIMPLE_NAME, line no: 61,epsgCode,SIMPLE_NAME, line no: 148, 1.75, 0.75, 1.0
+getName,SIMPLE_NAME, line no: 61,"EPSG:" + epsgCode,INFIX_EXPRESSION, line no: 150, 1.75, 0.75, 1.0
+getName,SIMPLE_NAME, line no: 61,"EPSG:",STRING_LITERAL, line no: 150, 1.75, 0.75, 1.0
+getName,SIMPLE_NAME, line no: 61,"Could not set figure out automatically a good preview link for " + getName(),INFIX_EXPRESSION, line no: 156, 1.75, 0.75, 1.0
+getName,SIMPLE_NAME, line no: 61,"Could not set figure out automatically a good preview link for ",STRING_LITERAL, line no: 156, 1.75, 0.75, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,groupInfo.getBounds(),METHOD_INVOCATION, line no: 146, 1.7142857142857144, 0.7142857142857143, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,epsgCode,SIMPLE_NAME, line no: 148, 1.7142857142857144, 0.7142857142857143, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,Iterables.filter(groupInfo.getLayers() LayerInfo.class),METHOD_INVOCATION, line no: 176, 1.7142857142857144, 0.7142857142857143, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,groupInfo.getLayers(),METHOD_INVOCATION, line no: 176, 1.7142857142857144, 0.7142857142857143, 1.0
+getName,SIMPLE_NAME, line no: 61,"",STRING_LITERAL, line no: 94, 1.375, 0.375, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,this.groupInfo=groupInfo,ASSIGNMENT, line no: 54, 1.2857142857142856, 0.2857142857142857, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,this.groupInfo,FIELD_ACCESS, line no: 54, 1.2857142857142856, 0.2857142857142857, 1.0
+groupInfo,SIMPLE_NAME, line no: 61,this.groupInfo=groupInfo,ASSIGNMENT, line no: 54, 1.25, 0.25, 1.0
+groupInfo,SIMPLE_NAME, line no: 61,this.groupInfo,FIELD_ACCESS, line no: 54, 1.25, 0.25, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getKeywords,SIMPLE_NAME, line no: 108, 1.1428571428571428, 0.14285714285714285, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getWmsLink,SIMPLE_NAME, line no: 200, 1.1428571428571428, 0.14285714285714285, 1.0
+groupInfo,SIMPLE_NAME, line no: 61,LayerGroupInfo,SIMPLE_NAME, line no: 15, 1.125, 0.125, 1.0
+getName,SIMPLE_NAME, line no: 61,getKeywords,SIMPLE_NAME, line no: 108, 1.125, 0.125, 1.0
+getName,SIMPLE_NAME, line no: 61,getWmsLink,SIMPLE_NAME, line no: 200, 1.125, 0.125, 1.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,PublishedType,SIMPLE_NAME, line no: 17, 1.0, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,URLType,SIMPLE_NAME, line no: 18, 1.0, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,ResponseUtils,SIMPLE_NAME, line no: 19, 1.0, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,CatalogIconFactory,SIMPLE_NAME, line no: 20, 1.0, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,GetMapRequest,SIMPLE_NAME, line no: 23, 1.0, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,Envelope,SIMPLE_NAME, line no: 30, 1.0, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,PreviewLayerType,SIMPLE_NAME, line no: 39, 1.0, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,Raster,SIMPLE_NAME, line no: 40, 1.0, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,Vector,SIMPLE_NAME, line no: 40, 1.0, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,Remote,SIMPLE_NAME, line no: 40, 1.0, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,layerInfo,SIMPLE_NAME, line no: 43, 1.0, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,groupInfo,SIMPLE_NAME, line no: 45, 1.0, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,request,SIMPLE_NAME, line no: 47, 1.0, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,layerInfo != null,INFIX_EXPRESSION, line no: 58, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,null,NULL_LITERAL, line no: 58, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,layerInfo.getResource().prefixedName(),METHOD_INVOCATION, line no: 59, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,layerInfo.getResource(),METHOD_INVOCATION, line no: 59, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getResource,SIMPLE_NAME, line no: 59, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,layerInfo.getResource().getStore().getWorkspace().getName(),METHOD_INVOCATION, line no: 67, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,layerInfo.getResource().getStore().getWorkspace(),METHOD_INVOCATION, line no: 67, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,layerInfo.getResource().getStore(),METHOD_INVOCATION, line no: 67, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getStore,SIMPLE_NAME, line no: 67, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,CatalogIconFactory.get().getSpecificLayerIcon(layerInfo),METHOD_INVOCATION, line no: 76, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,CatalogIconFactory.get(),METHOD_INVOCATION, line no: 76, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,get,SIMPLE_NAME, line no: 76, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getSpecificLayerIcon,SIMPLE_NAME, line no: 76, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,CatalogIconFactory.GROUP_ICON,QUALIFIED_NAME, line no: 78, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,GROUP_ICON,SIMPLE_NAME, line no: 78, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,layerInfo.getResource().getTitle(),METHOD_INVOCATION, line no: 90, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,layerInfo.getResource().getAbstract(),METHOD_INVOCATION, line no: 100, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,layerInfo.getResource().getKeywords().toString(),METHOD_INVOCATION, line no: 110, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,layerInfo.getResource().getKeywords(),METHOD_INVOCATION, line no: 110, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getType,SIMPLE_NAME, line no: 116, 1.0, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,layerInfo.getType() == PublishedType.RASTER,INFIX_EXPRESSION, line no: 118, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,layerInfo.getType(),METHOD_INVOCATION, line no: 118, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,PublishedType.RASTER,QUALIFIED_NAME, line no: 118, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,RASTER,SIMPLE_NAME, line no: 118, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,PreviewLayerType.Raster,QUALIFIED_NAME, line no: 119, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,layerInfo.getType() == PublishedType.VECTOR,INFIX_EXPRESSION, line no: 120, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,PublishedType.VECTOR,QUALIFIED_NAME, line no: 120, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,VECTOR,SIMPLE_NAME, line no: 120, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,PreviewLayerType.Vector,QUALIFIED_NAME, line no: 121, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,PreviewLayerType.Remote,QUALIFIED_NAME, line no: 123, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getRequest,SIMPLE_NAME, line no: 135, 1.0, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,layers,SIMPLE_NAME, line no: 140, 1.0, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getName(),METHOD_INVOCATION, line no: 157, 1.0, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getWorkspace(),METHOD_INVOCATION, line no: 184, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,ws == null,INFIX_EXPRESSION, line no: 185, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,ResponseUtils.buildURL("../" service null URLType.SERVICE),METHOD_INVOCATION, line no: 187, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,"../",STRING_LITERAL, line no: 187, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,URLType.SERVICE,QUALIFIED_NAME, line no: 187, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,SERVICE,SIMPLE_NAME, line no: 187, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,ResponseUtils.buildURL("../" ws + "/" + service null URLType.SERVICE),METHOD_INVOCATION, line no: 189, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,ws + "/" + service,INFIX_EXPRESSION, line no: 189, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,"/",STRING_LITERAL, line no: 189, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getRequest(),METHOD_INVOCATION, line no: 201, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,bbox,SIMPLE_NAME, line no: 202, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,request.getBbox(),METHOD_INVOCATION, line no: 202, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getBbox,SIMPLE_NAME, line no: 202, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,bbox == null,INFIX_EXPRESSION, line no: 203, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getBaseUrl("wms") + "?service=WMS&version=1.1.0&request=GetMap" + "&layers="+ getName()+ "&styles="+ "&bbox="+ bbox.getMinX()+ " "+ bbox.getMinY()+ " "+ bbox.getMaxX()+ " "+ bbox.getMaxY()+ "&width="+ request.getWidth()+ "&height="+ request.getHeight()+ "&srs="+ request.getSRS(),INFIX_EXPRESSION, line no: 206, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getBaseUrl("wms"),METHOD_INVOCATION, line no: 206, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,"wms",STRING_LITERAL, line no: 206, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,"?service=WMS&version=1.1.0&request=GetMap",STRING_LITERAL, line no: 206, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,"&layers=",STRING_LITERAL, line no: 207, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,"&styles=",STRING_LITERAL, line no: 208, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,"&bbox=",STRING_LITERAL, line no: 209, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,bbox.getMinX(),METHOD_INVOCATION, line no: 209, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getMinX,SIMPLE_NAME, line no: 209, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61," ",STRING_LITERAL, line no: 209, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,bbox.getMinY(),METHOD_INVOCATION, line no: 209, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getMinY,SIMPLE_NAME, line no: 209, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,bbox.getMaxX(),METHOD_INVOCATION, line no: 210, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getMaxX,SIMPLE_NAME, line no: 210, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,bbox.getMaxY(),METHOD_INVOCATION, line no: 210, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getMaxY,SIMPLE_NAME, line no: 210, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,"&width=",STRING_LITERAL, line no: 211, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,request.getWidth(),METHOD_INVOCATION, line no: 211, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getWidth,SIMPLE_NAME, line no: 211, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,"&height=",STRING_LITERAL, line no: 212, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,request.getHeight(),METHOD_INVOCATION, line no: 212, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getHeight,SIMPLE_NAME, line no: 212, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,"&srs=",STRING_LITERAL, line no: 212, 1.0, 1.0, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,request.getSRS(),METHOD_INVOCATION, line no: 212, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,org.geoserver.catalog.LayerGroupInfo,QUALIFIED_NAME, line no: 15, 1.0, 0.0, 1.0
+groupInfo,SIMPLE_NAME, line no: 61,PublishedType,SIMPLE_NAME, line no: 17, 1.0, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,URLType,SIMPLE_NAME, line no: 18, 1.0, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,ResponseUtils,SIMPLE_NAME, line no: 19, 1.0, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,CatalogIconFactory,SIMPLE_NAME, line no: 20, 1.0, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,GetMapRequest,SIMPLE_NAME, line no: 23, 1.0, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,Envelope,SIMPLE_NAME, line no: 30, 1.0, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,PreviewLayerType,SIMPLE_NAME, line no: 39, 1.0, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,Raster,SIMPLE_NAME, line no: 40, 1.0, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,Vector,SIMPLE_NAME, line no: 40, 1.0, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,Remote,SIMPLE_NAME, line no: 40, 1.0, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,layerInfo,SIMPLE_NAME, line no: 43, 1.0, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,request,SIMPLE_NAME, line no: 47, 1.0, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,String,SIMPLE_NAME, line no: 57, 1.0, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getName,SIMPLE_NAME, line no: 57, 1.0, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,layerInfo != null,INFIX_EXPRESSION, line no: 58, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,null,NULL_LITERAL, line no: 58, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,layerInfo.getResource().prefixedName(),METHOD_INVOCATION, line no: 59, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,layerInfo.getResource(),METHOD_INVOCATION, line no: 59, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getResource,SIMPLE_NAME, line no: 59, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,prefixedName,SIMPLE_NAME, line no: 59, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getWorkspace,SIMPLE_NAME, line no: 65, 1.0, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,layerInfo.getResource().getStore().getWorkspace().getName(),METHOD_INVOCATION, line no: 67, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,layerInfo.getResource().getStore().getWorkspace(),METHOD_INVOCATION, line no: 67, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,layerInfo.getResource().getStore(),METHOD_INVOCATION, line no: 67, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getStore,SIMPLE_NAME, line no: 67, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,groupInfo != null && groupInfo.getWorkspace() != null,INFIX_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,groupInfo != null,INFIX_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,groupInfo.getWorkspace() != null,INFIX_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,groupInfo.getWorkspace(),METHOD_INVOCATION, line no: 68, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,groupInfo.getWorkspace().getName(),METHOD_INVOCATION, line no: 69, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,CatalogIconFactory.get().getSpecificLayerIcon(layerInfo),METHOD_INVOCATION, line no: 76, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,CatalogIconFactory.get(),METHOD_INVOCATION, line no: 76, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,get,SIMPLE_NAME, line no: 76, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getSpecificLayerIcon,SIMPLE_NAME, line no: 76, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,CatalogIconFactory.GROUP_ICON,QUALIFIED_NAME, line no: 78, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,GROUP_ICON,SIMPLE_NAME, line no: 78, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getTitle,SIMPLE_NAME, line no: 88, 1.0, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,layerInfo.getResource().getTitle(),METHOD_INVOCATION, line no: 90, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getAbstract,SIMPLE_NAME, line no: 98, 1.0, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,layerInfo.getResource().getAbstract(),METHOD_INVOCATION, line no: 100, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getKeywords,SIMPLE_NAME, line no: 108, 1.0, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,layerInfo.getResource().getKeywords().toString(),METHOD_INVOCATION, line no: 110, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,layerInfo.getResource().getKeywords(),METHOD_INVOCATION, line no: 110, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,toString,SIMPLE_NAME, line no: 110, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getType,SIMPLE_NAME, line no: 116, 1.0, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,layerInfo.getType() == PublishedType.RASTER,INFIX_EXPRESSION, line no: 118, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,layerInfo.getType(),METHOD_INVOCATION, line no: 118, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,PublishedType.RASTER,QUALIFIED_NAME, line no: 118, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,RASTER,SIMPLE_NAME, line no: 118, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,PreviewLayerType.Raster,QUALIFIED_NAME, line no: 119, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,layerInfo.getType() == PublishedType.VECTOR,INFIX_EXPRESSION, line no: 120, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,PublishedType.VECTOR,QUALIFIED_NAME, line no: 120, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,VECTOR,SIMPLE_NAME, line no: 120, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,PreviewLayerType.Vector,QUALIFIED_NAME, line no: 121, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,PreviewLayerType.Remote,QUALIFIED_NAME, line no: 123, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getRequest,SIMPLE_NAME, line no: 135, 1.0, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,layers,SIMPLE_NAME, line no: 140, 1.0, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getName(),METHOD_INVOCATION, line no: 157, 1.0, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getBaseUrl,SIMPLE_NAME, line no: 183, 1.0, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,service,SIMPLE_NAME, line no: 183, 1.0, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,ws,SIMPLE_NAME, line no: 184, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getWorkspace(),METHOD_INVOCATION, line no: 184, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,ws == null,INFIX_EXPRESSION, line no: 185, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,ResponseUtils.buildURL("../" service null URLType.SERVICE),METHOD_INVOCATION, line no: 187, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,buildURL,SIMPLE_NAME, line no: 187, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,"../",STRING_LITERAL, line no: 187, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,URLType.SERVICE,QUALIFIED_NAME, line no: 187, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,SERVICE,SIMPLE_NAME, line no: 187, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,ResponseUtils.buildURL("../" ws + "/" + service null URLType.SERVICE),METHOD_INVOCATION, line no: 189, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,ws + "/" + service,INFIX_EXPRESSION, line no: 189, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,"/",STRING_LITERAL, line no: 189, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getRequest(),METHOD_INVOCATION, line no: 201, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,bbox,SIMPLE_NAME, line no: 202, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,request.getBbox(),METHOD_INVOCATION, line no: 202, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getBbox,SIMPLE_NAME, line no: 202, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,bbox == null,INFIX_EXPRESSION, line no: 203, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getBaseUrl("wms") + "?service=WMS&version=1.1.0&request=GetMap" + "&layers="+ getName()+ "&styles="+ "&bbox="+ bbox.getMinX()+ " "+ bbox.getMinY()+ " "+ bbox.getMaxX()+ " "+ bbox.getMaxY()+ "&width="+ request.getWidth()+ "&height="+ request.getHeight()+ "&srs="+ request.getSRS(),INFIX_EXPRESSION, line no: 206, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getBaseUrl("wms"),METHOD_INVOCATION, line no: 206, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,"wms",STRING_LITERAL, line no: 206, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,"?service=WMS&version=1.1.0&request=GetMap",STRING_LITERAL, line no: 206, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,"&layers=",STRING_LITERAL, line no: 207, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,"&styles=",STRING_LITERAL, line no: 208, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,"&bbox=",STRING_LITERAL, line no: 209, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,bbox.getMinX(),METHOD_INVOCATION, line no: 209, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getMinX,SIMPLE_NAME, line no: 209, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61," ",STRING_LITERAL, line no: 209, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,bbox.getMinY(),METHOD_INVOCATION, line no: 209, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getMinY,SIMPLE_NAME, line no: 209, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,bbox.getMaxX(),METHOD_INVOCATION, line no: 210, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getMaxX,SIMPLE_NAME, line no: 210, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,bbox.getMaxY(),METHOD_INVOCATION, line no: 210, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getMaxY,SIMPLE_NAME, line no: 210, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,"&width=",STRING_LITERAL, line no: 211, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,request.getWidth(),METHOD_INVOCATION, line no: 211, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getWidth,SIMPLE_NAME, line no: 211, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,"&height=",STRING_LITERAL, line no: 212, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,request.getHeight(),METHOD_INVOCATION, line no: 212, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getHeight,SIMPLE_NAME, line no: 212, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,"&srs=",STRING_LITERAL, line no: 212, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,request.getSRS(),METHOD_INVOCATION, line no: 212, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getSRS,SIMPLE_NAME, line no: 212, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,PublishedType,SIMPLE_NAME, line no: 17, 1.0, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,URLType,SIMPLE_NAME, line no: 18, 1.0, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,ResponseUtils,SIMPLE_NAME, line no: 19, 1.0, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,CatalogIconFactory,SIMPLE_NAME, line no: 20, 1.0, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,GetMapRequest,SIMPLE_NAME, line no: 23, 1.0, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,Envelope,SIMPLE_NAME, line no: 30, 1.0, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,PreviewLayerType,SIMPLE_NAME, line no: 39, 1.0, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,Raster,SIMPLE_NAME, line no: 40, 1.0, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,Vector,SIMPLE_NAME, line no: 40, 1.0, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,Remote,SIMPLE_NAME, line no: 40, 1.0, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,layerInfo,SIMPLE_NAME, line no: 43, 1.0, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,groupInfo,SIMPLE_NAME, line no: 45, 1.0, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,request,SIMPLE_NAME, line no: 47, 1.0, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,layerInfo != null,INFIX_EXPRESSION, line no: 58, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,null,NULL_LITERAL, line no: 58, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,layerInfo.getResource(),METHOD_INVOCATION, line no: 59, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,getResource,SIMPLE_NAME, line no: 59, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,layerInfo.getResource().getStore().getWorkspace(),METHOD_INVOCATION, line no: 67, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,layerInfo.getResource().getStore(),METHOD_INVOCATION, line no: 67, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,getStore,SIMPLE_NAME, line no: 67, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,groupInfo != null && groupInfo.getWorkspace() != null,INFIX_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,groupInfo != null,INFIX_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,groupInfo.getWorkspace() != null,INFIX_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,groupInfo.getWorkspace(),METHOD_INVOCATION, line no: 68, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,CatalogIconFactory.get().getSpecificLayerIcon(layerInfo),METHOD_INVOCATION, line no: 76, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,CatalogIconFactory.get(),METHOD_INVOCATION, line no: 76, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,get,SIMPLE_NAME, line no: 76, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,getSpecificLayerIcon,SIMPLE_NAME, line no: 76, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,CatalogIconFactory.GROUP_ICON,QUALIFIED_NAME, line no: 78, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,GROUP_ICON,SIMPLE_NAME, line no: 78, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,layerInfo.getResource().getKeywords(),METHOD_INVOCATION, line no: 110, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,getType,SIMPLE_NAME, line no: 116, 1.0, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,layerInfo.getType() == PublishedType.RASTER,INFIX_EXPRESSION, line no: 118, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,layerInfo.getType(),METHOD_INVOCATION, line no: 118, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,PublishedType.RASTER,QUALIFIED_NAME, line no: 118, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,RASTER,SIMPLE_NAME, line no: 118, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,PreviewLayerType.Raster,QUALIFIED_NAME, line no: 119, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,layerInfo.getType() == PublishedType.VECTOR,INFIX_EXPRESSION, line no: 120, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,PublishedType.VECTOR,QUALIFIED_NAME, line no: 120, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,VECTOR,SIMPLE_NAME, line no: 120, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,PreviewLayerType.Vector,QUALIFIED_NAME, line no: 121, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,PreviewLayerType.Remote,QUALIFIED_NAME, line no: 123, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,getRequest,SIMPLE_NAME, line no: 135, 1.0, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,layers,SIMPLE_NAME, line no: 140, 1.0, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,ws == null,INFIX_EXPRESSION, line no: 185, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,URLType.SERVICE,QUALIFIED_NAME, line no: 187, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,SERVICE,SIMPLE_NAME, line no: 187, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,getRequest(),METHOD_INVOCATION, line no: 201, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,bbox,SIMPLE_NAME, line no: 202, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,request.getBbox(),METHOD_INVOCATION, line no: 202, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,getBbox,SIMPLE_NAME, line no: 202, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,bbox == null,INFIX_EXPRESSION, line no: 203, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,getBaseUrl("wms") + "?service=WMS&version=1.1.0&request=GetMap" + "&layers="+ getName()+ "&styles="+ "&bbox="+ bbox.getMinX()+ " "+ bbox.getMinY()+ " "+ bbox.getMaxX()+ " "+ bbox.getMaxY()+ "&width="+ request.getWidth()+ "&height="+ request.getHeight()+ "&srs="+ request.getSRS(),INFIX_EXPRESSION, line no: 206, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,bbox.getMinX(),METHOD_INVOCATION, line no: 209, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,getMinX,SIMPLE_NAME, line no: 209, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,bbox.getMinY(),METHOD_INVOCATION, line no: 209, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,getMinY,SIMPLE_NAME, line no: 209, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,bbox.getMaxX(),METHOD_INVOCATION, line no: 210, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,getMaxX,SIMPLE_NAME, line no: 210, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,bbox.getMaxY(),METHOD_INVOCATION, line no: 210, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,getMaxY,SIMPLE_NAME, line no: 210, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,request.getWidth(),METHOD_INVOCATION, line no: 211, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,getWidth,SIMPLE_NAME, line no: 211, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,request.getHeight(),METHOD_INVOCATION, line no: 212, 1.0, 1.0, 0.0
+getName,SIMPLE_NAME, line no: 61,getHeight,SIMPLE_NAME, line no: 212, 1.0, 1.0, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,ArrayList,SIMPLE_NAME, line no: 8, 0.875, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,List,SIMPLE_NAME, line no: 9, 0.875, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,MapLayerInfo,SIMPLE_NAME, line no: 24, 0.875, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,groupInfo.getName(),METHOD_INVOCATION, line no: 61, 0.875, 0.875, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,groupInfo.getTitle(),METHOD_INVOCATION, line no: 92, 0.875, 0.875, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,groupInfo.getAbstract(),METHOD_INVOCATION, line no: 102, 0.875, 0.875, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,request == null,INFIX_EXPRESSION, line no: 136, 0.875, 0.875, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,new ArrayList<MapLayerInfo>(),CLASS_INSTANCE_CREATION, line no: 171, 0.875, 0.875, 0.0
+getName,SIMPLE_NAME, line no: 61,ArrayList,SIMPLE_NAME, line no: 8, 0.875, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,List,SIMPLE_NAME, line no: 9, 0.875, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,MapLayerInfo,SIMPLE_NAME, line no: 24, 0.875, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,request == null,INFIX_EXPRESSION, line no: 136, 0.875, 0.875, 0.0
+getName,SIMPLE_NAME, line no: 61,new ArrayList<MapLayerInfo>(),CLASS_INSTANCE_CREATION, line no: 171, 0.875, 0.875, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,ArrayList,SIMPLE_NAME, line no: 8, 0.8571428571428571, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,List,SIMPLE_NAME, line no: 9, 0.8571428571428571, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,MapLayerInfo,SIMPLE_NAME, line no: 24, 0.8571428571428571, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,request == null,INFIX_EXPRESSION, line no: 136, 0.8571428571428571, 0.8571428571428571, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,new ArrayList<MapLayerInfo>(),CLASS_INSTANCE_CREATION, line no: 171, 0.8571428571428571, 0.8571428571428571, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,Level,SIMPLE_NAME, line no: 10, 0.75, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,catalog,SIMPLE_NAME, line no: 14, 0.75, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,Catalog,SIMPLE_NAME, line no: 14, 0.75, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,LayerInfo,SIMPLE_NAME, line no: 16, 0.75, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,GeoServerApplication,SIMPLE_NAME, line no: 21, 0.75, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,DefaultWebMapService,SIMPLE_NAME, line no: 22, 0.75, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,ReferencedEnvelope,SIMPLE_NAME, line no: 25, 0.75, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,GML2EncodingUtils,SIMPLE_NAME, line no: 26, 0.75, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,Iterables,SIMPLE_NAME, line no: 29, 0.75, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,LOGGER,SIMPLE_NAME, line no: 37, 0.75, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,Group,SIMPLE_NAME, line no: 40, 0.75, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,app,SIMPLE_NAME, line no: 137, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,GeoServerApplication.get(),METHOD_INVOCATION, line no: 137, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,request=new GetMapRequest(),ASSIGNMENT, line no: 138, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,new GetMapRequest(),CLASS_INSTANCE_CREATION, line no: 138, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,app.getCatalog(),METHOD_INVOCATION, line no: 139, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getCatalog,SIMPLE_NAME, line no: 139, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,expandLayers(catalog),METHOD_INVOCATION, line no: 140, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,expandLayers,SIMPLE_NAME, line no: 140, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,request.setLayers(layers),METHOD_INVOCATION, line no: 141, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,setLayers,SIMPLE_NAME, line no: 141, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,request.setFormat("application/openlayers"),METHOD_INVOCATION, line no: 142, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,setFormat,SIMPLE_NAME, line no: 142, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,"application/openlayers",STRING_LITERAL, line no: 142, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,bounds,SIMPLE_NAME, line no: 146, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,groupInfo.getBounds(),METHOD_INVOCATION, line no: 146, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getBounds,SIMPLE_NAME, line no: 146, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,request.setBbox(bounds),METHOD_INVOCATION, line no: 147, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,setBbox,SIMPLE_NAME, line no: 147, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,epsgCode,SIMPLE_NAME, line no: 148, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,GML2EncodingUtils.epsgCode(bounds.getCoordinateReferenceSystem()),METHOD_INVOCATION, line no: 148, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,bounds.getCoordinateReferenceSystem(),METHOD_INVOCATION, line no: 148, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getCoordinateReferenceSystem,SIMPLE_NAME, line no: 148, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,epsgCode != null,INFIX_EXPRESSION, line no: 149, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,request.setSRS("EPSG:" + epsgCode),METHOD_INVOCATION, line no: 150, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,setSRS,SIMPLE_NAME, line no: 150, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,"EPSG:" + epsgCode,INFIX_EXPRESSION, line no: 150, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,"EPSG:",STRING_LITERAL, line no: 150, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,DefaultWebMapService.autoSetBoundsAndSize(request),METHOD_INVOCATION, line no: 153, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,autoSetBoundsAndSize,SIMPLE_NAME, line no: 153, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,Exception,SIMPLE_NAME, line no: 154, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,e,SIMPLE_NAME, line no: 154, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,LOGGER.log(Level.INFO "Could not set figure out automatically a good preview link for " + getName() e),METHOD_INVOCATION, line no: 155, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,log,SIMPLE_NAME, line no: 155, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,Level.INFO,QUALIFIED_NAME, line no: 155, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,INFO,SIMPLE_NAME, line no: 155, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,"Could not set figure out automatically a good preview link for " + getName(),INFIX_EXPRESSION, line no: 156, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,"Could not set figure out automatically a good preview link for ",STRING_LITERAL, line no: 156, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,layers.add(new MapLayerInfo(layerInfo)),METHOD_INVOCATION, line no: 174, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,add,SIMPLE_NAME, line no: 174, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,new MapLayerInfo(layerInfo),CLASS_INSTANCE_CREATION, line no: 174, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,l,SIMPLE_NAME, line no: 176, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,Iterables.filter(groupInfo.getLayers() LayerInfo.class),METHOD_INVOCATION, line no: 176, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,filter,SIMPLE_NAME, line no: 176, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,groupInfo.getLayers(),METHOD_INVOCATION, line no: 176, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getLayers,SIMPLE_NAME, line no: 176, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,LayerInfo.class,TYPE_LITERAL, line no: 176, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,layers.add(new MapLayerInfo(l)),METHOD_INVOCATION, line no: 177, 0.75, 0.75, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,new MapLayerInfo(l),CLASS_INSTANCE_CREATION, line no: 177, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,Level,SIMPLE_NAME, line no: 10, 0.75, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,catalog,SIMPLE_NAME, line no: 14, 0.75, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,Catalog,SIMPLE_NAME, line no: 14, 0.75, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,LayerInfo,SIMPLE_NAME, line no: 16, 0.75, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,GeoServerApplication,SIMPLE_NAME, line no: 21, 0.75, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,DefaultWebMapService,SIMPLE_NAME, line no: 22, 0.75, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,ReferencedEnvelope,SIMPLE_NAME, line no: 25, 0.75, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,GML2EncodingUtils,SIMPLE_NAME, line no: 26, 0.75, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,Iterables,SIMPLE_NAME, line no: 29, 0.75, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,LOGGER,SIMPLE_NAME, line no: 37, 0.75, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,Group,SIMPLE_NAME, line no: 40, 0.75, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,app,SIMPLE_NAME, line no: 137, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,GeoServerApplication.get(),METHOD_INVOCATION, line no: 137, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,request=new GetMapRequest(),ASSIGNMENT, line no: 138, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,new GetMapRequest(),CLASS_INSTANCE_CREATION, line no: 138, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,app.getCatalog(),METHOD_INVOCATION, line no: 139, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,getCatalog,SIMPLE_NAME, line no: 139, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,expandLayers(catalog),METHOD_INVOCATION, line no: 140, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,expandLayers,SIMPLE_NAME, line no: 140, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,request.setLayers(layers),METHOD_INVOCATION, line no: 141, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,setLayers,SIMPLE_NAME, line no: 141, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,request.setFormat("application/openlayers"),METHOD_INVOCATION, line no: 142, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,setFormat,SIMPLE_NAME, line no: 142, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,bounds,SIMPLE_NAME, line no: 146, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,groupInfo.getBounds(),METHOD_INVOCATION, line no: 146, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,getBounds,SIMPLE_NAME, line no: 146, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,request.setBbox(bounds),METHOD_INVOCATION, line no: 147, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,setBbox,SIMPLE_NAME, line no: 147, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,GML2EncodingUtils.epsgCode(bounds.getCoordinateReferenceSystem()),METHOD_INVOCATION, line no: 148, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,bounds.getCoordinateReferenceSystem(),METHOD_INVOCATION, line no: 148, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,getCoordinateReferenceSystem,SIMPLE_NAME, line no: 148, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,epsgCode != null,INFIX_EXPRESSION, line no: 149, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,request.setSRS("EPSG:" + epsgCode),METHOD_INVOCATION, line no: 150, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,setSRS,SIMPLE_NAME, line no: 150, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,DefaultWebMapService.autoSetBoundsAndSize(request),METHOD_INVOCATION, line no: 153, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,autoSetBoundsAndSize,SIMPLE_NAME, line no: 153, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,Exception,SIMPLE_NAME, line no: 154, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,e,SIMPLE_NAME, line no: 154, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,LOGGER.log(Level.INFO "Could not set figure out automatically a good preview link for " + getName() e),METHOD_INVOCATION, line no: 155, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,log,SIMPLE_NAME, line no: 155, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,Level.INFO,QUALIFIED_NAME, line no: 155, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,INFO,SIMPLE_NAME, line no: 155, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,layers.add(new MapLayerInfo(layerInfo)),METHOD_INVOCATION, line no: 174, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,add,SIMPLE_NAME, line no: 174, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,new MapLayerInfo(layerInfo),CLASS_INSTANCE_CREATION, line no: 174, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,l,SIMPLE_NAME, line no: 176, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,Iterables.filter(groupInfo.getLayers() LayerInfo.class),METHOD_INVOCATION, line no: 176, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,filter,SIMPLE_NAME, line no: 176, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,groupInfo.getLayers(),METHOD_INVOCATION, line no: 176, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,getLayers,SIMPLE_NAME, line no: 176, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,LayerInfo.class,TYPE_LITERAL, line no: 176, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,layers.add(new MapLayerInfo(l)),METHOD_INVOCATION, line no: 177, 0.75, 0.75, 0.0
+getName,SIMPLE_NAME, line no: 61,new MapLayerInfo(l),CLASS_INSTANCE_CREATION, line no: 177, 0.75, 0.75, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,Level,SIMPLE_NAME, line no: 10, 0.7142857142857143, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,catalog,SIMPLE_NAME, line no: 14, 0.7142857142857143, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,Catalog,SIMPLE_NAME, line no: 14, 0.7142857142857143, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,LayerInfo,SIMPLE_NAME, line no: 16, 0.7142857142857143, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,GeoServerApplication,SIMPLE_NAME, line no: 21, 0.7142857142857143, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,DefaultWebMapService,SIMPLE_NAME, line no: 22, 0.7142857142857143, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,ReferencedEnvelope,SIMPLE_NAME, line no: 25, 0.7142857142857143, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,GML2EncodingUtils,SIMPLE_NAME, line no: 26, 0.7142857142857143, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,Iterables,SIMPLE_NAME, line no: 29, 0.7142857142857143, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,LOGGER,SIMPLE_NAME, line no: 37, 0.7142857142857143, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,Group,SIMPLE_NAME, line no: 40, 0.7142857142857143, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,PreviewLayerType.Group,QUALIFIED_NAME, line no: 125, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,app,SIMPLE_NAME, line no: 137, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,GeoServerApplication.get(),METHOD_INVOCATION, line no: 137, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,request=new GetMapRequest(),ASSIGNMENT, line no: 138, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,new GetMapRequest(),CLASS_INSTANCE_CREATION, line no: 138, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,app.getCatalog(),METHOD_INVOCATION, line no: 139, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getCatalog,SIMPLE_NAME, line no: 139, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,expandLayers(catalog),METHOD_INVOCATION, line no: 140, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,expandLayers,SIMPLE_NAME, line no: 140, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,request.setLayers(layers),METHOD_INVOCATION, line no: 141, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,setLayers,SIMPLE_NAME, line no: 141, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,request.setFormat("application/openlayers"),METHOD_INVOCATION, line no: 142, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,setFormat,SIMPLE_NAME, line no: 142, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,"application/openlayers",STRING_LITERAL, line no: 142, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,bounds,SIMPLE_NAME, line no: 146, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getBounds,SIMPLE_NAME, line no: 146, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,request.setBbox(bounds),METHOD_INVOCATION, line no: 147, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,setBbox,SIMPLE_NAME, line no: 147, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,GML2EncodingUtils.epsgCode(bounds.getCoordinateReferenceSystem()),METHOD_INVOCATION, line no: 148, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,bounds.getCoordinateReferenceSystem(),METHOD_INVOCATION, line no: 148, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getCoordinateReferenceSystem,SIMPLE_NAME, line no: 148, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,epsgCode != null,INFIX_EXPRESSION, line no: 149, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,request.setSRS("EPSG:" + epsgCode),METHOD_INVOCATION, line no: 150, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,setSRS,SIMPLE_NAME, line no: 150, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,"EPSG:" + epsgCode,INFIX_EXPRESSION, line no: 150, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,"EPSG:",STRING_LITERAL, line no: 150, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,DefaultWebMapService.autoSetBoundsAndSize(request),METHOD_INVOCATION, line no: 153, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,autoSetBoundsAndSize,SIMPLE_NAME, line no: 153, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,Exception,SIMPLE_NAME, line no: 154, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,e,SIMPLE_NAME, line no: 154, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,LOGGER.log(Level.INFO "Could not set figure out automatically a good preview link for " + getName() e),METHOD_INVOCATION, line no: 155, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,log,SIMPLE_NAME, line no: 155, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,Level.INFO,QUALIFIED_NAME, line no: 155, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,INFO,SIMPLE_NAME, line no: 155, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,"Could not set figure out automatically a good preview link for " + getName(),INFIX_EXPRESSION, line no: 156, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,"Could not set figure out automatically a good preview link for ",STRING_LITERAL, line no: 156, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,layers.add(new MapLayerInfo(layerInfo)),METHOD_INVOCATION, line no: 174, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,add,SIMPLE_NAME, line no: 174, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,new MapLayerInfo(layerInfo),CLASS_INSTANCE_CREATION, line no: 174, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,l,SIMPLE_NAME, line no: 176, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,filter,SIMPLE_NAME, line no: 176, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getLayers,SIMPLE_NAME, line no: 176, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,LayerInfo.class,TYPE_LITERAL, line no: 176, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,layers.add(new MapLayerInfo(l)),METHOD_INVOCATION, line no: 177, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,new MapLayerInfo(l),CLASS_INSTANCE_CREATION, line no: 177, 0.7142857142857143, 0.7142857142857143, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,PreviewLayerType.Group,QUALIFIED_NAME, line no: 125, 0.625, 0.625, 0.0
+getName,SIMPLE_NAME, line no: 61,PreviewLayerType.Group,QUALIFIED_NAME, line no: 125, 0.625, 0.625, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,"",STRING_LITERAL, line no: 94, 0.42857142857142855, 0.42857142857142855, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,"",STRING_LITERAL, line no: 94, 0.375, 0.375, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,Logging,SIMPLE_NAME, line no: 27, 0.2857142857142857, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,PreviewLayer,SIMPLE_NAME, line no: 36, 0.2857142857142857, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getLogger,SIMPLE_NAME, line no: 37, 0.2857142857142857, 0.2857142857142857, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,this.layerInfo=layerInfo,ASSIGNMENT, line no: 50, 0.2857142857142857, 0.2857142857142857, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,this.layerInfo,FIELD_ACCESS, line no: 50, 0.2857142857142857, 0.2857142857142857, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,this,THIS_EXPRESSION, line no: 50, 0.2857142857142857, 0.2857142857142857, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,Logging,SIMPLE_NAME, line no: 27, 0.25, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,PreviewLayer,SIMPLE_NAME, line no: 36, 0.25, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getLogger,SIMPLE_NAME, line no: 37, 0.25, 0.25, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,this.layerInfo=layerInfo,ASSIGNMENT, line no: 50, 0.25, 0.25, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,this.layerInfo,FIELD_ACCESS, line no: 50, 0.25, 0.25, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,this,THIS_EXPRESSION, line no: 50, 0.25, 0.25, 0.0
+getName,SIMPLE_NAME, line no: 61,Logging,SIMPLE_NAME, line no: 27, 0.25, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,PreviewLayer,SIMPLE_NAME, line no: 36, 0.25, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,getLogger,SIMPLE_NAME, line no: 37, 0.25, 0.25, 0.0
+getName,SIMPLE_NAME, line no: 61,this.layerInfo=layerInfo,ASSIGNMENT, line no: 50, 0.25, 0.25, 0.0
+getName,SIMPLE_NAME, line no: 61,this.layerInfo,FIELD_ACCESS, line no: 50, 0.25, 0.25, 0.0
+getName,SIMPLE_NAME, line no: 61,this,THIS_EXPRESSION, line no: 50, 0.25, 0.25, 0.0
+getName,SIMPLE_NAME, line no: 61,this.groupInfo=groupInfo,ASSIGNMENT, line no: 54, 0.25, 0.25, 0.0
+getName,SIMPLE_NAME, line no: 61,this.groupInfo,FIELD_ACCESS, line no: 54, 0.25, 0.25, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,org,SIMPLE_NAME, line no: 6, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,geoserver,SIMPLE_NAME, line no: 6, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,web,SIMPLE_NAME, line no: 6, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,demo,SIMPLE_NAME, line no: 6, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,java,SIMPLE_NAME, line no: 8, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,util,SIMPLE_NAME, line no: 8, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,logging,SIMPLE_NAME, line no: 10, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,Logger,SIMPLE_NAME, line no: 11, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,apache,SIMPLE_NAME, line no: 13, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,wicket,SIMPLE_NAME, line no: 13, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,ResourceReference,SIMPLE_NAME, line no: 13, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,LayerGroupInfo,SIMPLE_NAME, line no: 15, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,ows,SIMPLE_NAME, line no: 18, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,URLMangler,SIMPLE_NAME, line no: 18, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,wms,SIMPLE_NAME, line no: 22, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,geotools,SIMPLE_NAME, line no: 25, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,geometry,SIMPLE_NAME, line no: 25, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,jts,SIMPLE_NAME, line no: 25, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,gml2,SIMPLE_NAME, line no: 26, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,bindings,SIMPLE_NAME, line no: 26, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,com,SIMPLE_NAME, line no: 29, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,google,SIMPLE_NAME, line no: 29, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,common,SIMPLE_NAME, line no: 29, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,collect,SIMPLE_NAME, line no: 29, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,vividsolutions,SIMPLE_NAME, line no: 30, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,geom,SIMPLE_NAME, line no: 30, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,Logging.getLogger(PreviewLayer.class),METHOD_INVOCATION, line no: 37, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,PreviewLayer.class,TYPE_LITERAL, line no: 37, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getIcon,SIMPLE_NAME, line no: 74, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo.getName(),METHOD_INVOCATION, line no: 61,getTypeSpecificIcon,SIMPLE_NAME, line no: 81, 0.14285714285714285, 0.14285714285714285, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,org,SIMPLE_NAME, line no: 6, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,geoserver,SIMPLE_NAME, line no: 6, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,web,SIMPLE_NAME, line no: 6, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,demo,SIMPLE_NAME, line no: 6, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,java,SIMPLE_NAME, line no: 8, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,util,SIMPLE_NAME, line no: 8, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,logging,SIMPLE_NAME, line no: 10, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,Logger,SIMPLE_NAME, line no: 11, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,apache,SIMPLE_NAME, line no: 13, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,wicket,SIMPLE_NAME, line no: 13, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,ResourceReference,SIMPLE_NAME, line no: 13, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,ows,SIMPLE_NAME, line no: 18, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,URLMangler,SIMPLE_NAME, line no: 18, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,wms,SIMPLE_NAME, line no: 22, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,geotools,SIMPLE_NAME, line no: 25, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,geometry,SIMPLE_NAME, line no: 25, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,jts,SIMPLE_NAME, line no: 25, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,gml2,SIMPLE_NAME, line no: 26, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,bindings,SIMPLE_NAME, line no: 26, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,com,SIMPLE_NAME, line no: 29, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,google,SIMPLE_NAME, line no: 29, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,common,SIMPLE_NAME, line no: 29, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,collect,SIMPLE_NAME, line no: 29, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,vividsolutions,SIMPLE_NAME, line no: 30, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,geom,SIMPLE_NAME, line no: 30, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,Logging.getLogger(PreviewLayer.class),METHOD_INVOCATION, line no: 37, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,PreviewLayer.class,TYPE_LITERAL, line no: 37, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getIcon,SIMPLE_NAME, line no: 74, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getTypeSpecificIcon,SIMPLE_NAME, line no: 81, 0.125, 0.125, 0.0
+groupInfo,SIMPLE_NAME, line no: 61,getWmsLink,SIMPLE_NAME, line no: 200, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,org,SIMPLE_NAME, line no: 6, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,geoserver,SIMPLE_NAME, line no: 6, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,web,SIMPLE_NAME, line no: 6, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,demo,SIMPLE_NAME, line no: 6, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,java,SIMPLE_NAME, line no: 8, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,util,SIMPLE_NAME, line no: 8, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,logging,SIMPLE_NAME, line no: 10, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,Logger,SIMPLE_NAME, line no: 11, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,apache,SIMPLE_NAME, line no: 13, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,wicket,SIMPLE_NAME, line no: 13, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,ResourceReference,SIMPLE_NAME, line no: 13, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,LayerGroupInfo,SIMPLE_NAME, line no: 15, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,ows,SIMPLE_NAME, line no: 18, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,URLMangler,SIMPLE_NAME, line no: 18, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,wms,SIMPLE_NAME, line no: 22, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,geotools,SIMPLE_NAME, line no: 25, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,geometry,SIMPLE_NAME, line no: 25, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,jts,SIMPLE_NAME, line no: 25, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,gml2,SIMPLE_NAME, line no: 26, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,bindings,SIMPLE_NAME, line no: 26, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,com,SIMPLE_NAME, line no: 29, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,google,SIMPLE_NAME, line no: 29, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,common,SIMPLE_NAME, line no: 29, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,collect,SIMPLE_NAME, line no: 29, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,vividsolutions,SIMPLE_NAME, line no: 30, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,geom,SIMPLE_NAME, line no: 30, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,Logging.getLogger(PreviewLayer.class),METHOD_INVOCATION, line no: 37, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,PreviewLayer.class,TYPE_LITERAL, line no: 37, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,getIcon,SIMPLE_NAME, line no: 74, 0.125, 0.125, 0.0
+getName,SIMPLE_NAME, line no: 61,getTypeSpecificIcon,SIMPLE_NAME, line no: 81, 0.125, 0.125, 0.0

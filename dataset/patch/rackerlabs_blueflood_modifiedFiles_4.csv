@@ -1,0 +1,141 @@
+getNumberOfBins,SIMPLE_NAME, line no: 92,bins,SIMPLE_NAME, line no: 30, 2.0, 1.0, 1.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,bins=MAX_BIN_SIZE,ASSIGNMENT, line no: 32, 2.0, 1.0, 1.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,0,NUMBER_LITERAL, line no: 33, 2.0, 1.0, 1.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,bins=1,ASSIGNMENT, line no: 34, 2.0, 1.0, 1.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,1,NUMBER_LITERAL, line no: 34, 2.0, 1.0, 1.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,size,SIMPLE_NAME, line no: 40, 2.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,number_of_bins,SIMPLE_NAME, line no: 78, 2.0, 1.0, 1.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,getIdealNumberOfBins(input),METHOD_INVOCATION, line no: 78, 2.0, 1.0, 1.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,getIdealNumberOfBins,SIMPLE_NAME, line no: 78, 2.0, 1.0, 1.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Math.abs((int)Math.floor(3.5 * (Math.sqrt(getVariance(input)) / Math.cbrt(input.getPoints().size())))),METHOD_INVOCATION, line no: 119, 2.0, 1.0, 1.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,abs,SIMPLE_NAME, line no: 119, 2.0, 1.0, 1.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,(int)Math.floor(3.5 * (Math.sqrt(getVariance(input)) / Math.cbrt(input.getPoints().size()))),CAST_EXPRESSION, line no: 119, 2.0, 1.0, 1.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,input.getPoints().size(),METHOD_INVOCATION, line no: 119, 2.0, 1.0, 1.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,com,SIMPLE_NAME, line no: 17, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,rackspacecloud,SIMPLE_NAME, line no: 17, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,blueflood,SIMPLE_NAME, line no: 17, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,types,SIMPLE_NAME, line no: 17, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,bigml,SIMPLE_NAME, line no: 19, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,histogram,SIMPLE_NAME, line no: 19, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,java,SIMPLE_NAME, line no: 21, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,io,SIMPLE_NAME, line no: 21, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,IOException,SIMPLE_NAME, line no: 21, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,util,SIMPLE_NAME, line no: 22, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Collection,SIMPLE_NAME, line no: 22, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,HashMap,SIMPLE_NAME, line no: 23, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Map,SIMPLE_NAME, line no: 24, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,HistogramRollup,SIMPLE_NAME, line no: 26, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Rollup,SIMPLE_NAME, line no: 26, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Histogram,SIMPLE_NAME, line no: 27, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,SimpleTarget,SIMPLE_NAME, line no: 27, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Integer,SIMPLE_NAME, line no: 28, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,MAX_BIN_SIZE,SIMPLE_NAME, line no: 28, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,64,NUMBER_LITERAL, line no: 28, 1.0, 0.0, 1.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,bins > MAX_BIN_SIZE,INFIX_EXPRESSION, line no: 31, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,bins <= 0,INFIX_EXPRESSION, line no: 33, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,this.histogram=new Histogram<SimpleTarget>(bins),ASSIGNMENT, line no: 36, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,this.histogram,FIELD_ACCESS, line no: 36, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,this,THIS_EXPRESSION, line no: 36, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,new Histogram<SimpleTarget>(bins),CLASS_INSTANCE_CREATION, line no: 36, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Bin,SIMPLE_NAME, line no: 39, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,this.histogram=new Histogram(bins.size()),ASSIGNMENT, line no: 40, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,new Histogram(bins.size()),CLASS_INSTANCE_CREATION, line no: 40, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,bins.size(),METHOD_INVOCATION, line no: 40, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,bin,SIMPLE_NAME, line no: 41, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,this.histogram.insertBin(bin),METHOD_INVOCATION, line no: 42, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,insertBin,SIMPLE_NAME, line no: 42, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,computeFromRollups,SIMPLE_NAME, line no: 46, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Points,SIMPLE_NAME, line no: 46, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,input,SIMPLE_NAME, line no: 46, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,input == null,INFIX_EXPRESSION, line no: 47, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,null,NULL_LITERAL, line no: 47, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,new IOException("Null input to create rollup from"),CLASS_INSTANCE_CREATION, line no: 48, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,"Null input to create rollup from",STRING_LITERAL, line no: 48, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,input.isEmpty(),METHOD_INVOCATION, line no: 51, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,isEmpty,SIMPLE_NAME, line no: 51, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Long,SIMPLE_NAME, line no: 55, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Points.Point,QUALIFIED_NAME, line no: 55, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Point,SIMPLE_NAME, line no: 55, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,points,SIMPLE_NAME, line no: 55, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,input.getPoints(),METHOD_INVOCATION, line no: 55, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,getPoints,SIMPLE_NAME, line no: 55, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Map.Entry,QUALIFIED_NAME, line no: 57, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Entry,SIMPLE_NAME, line no: 57, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,item,SIMPLE_NAME, line no: 57, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,points.entrySet(),METHOD_INVOCATION, line no: 57, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,entrySet,SIMPLE_NAME, line no: 57, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,rollup,SIMPLE_NAME, line no: 58, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,item.getValue().getData(),METHOD_INVOCATION, line no: 58, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,item.getValue(),METHOD_INVOCATION, line no: 58, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,getValue,SIMPLE_NAME, line no: 58, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,getData,SIMPLE_NAME, line no: 58, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,histogram.merge(rollup.histogram),METHOD_INVOCATION, line no: 60, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,merge,SIMPLE_NAME, line no: 60, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,rollup.histogram,QUALIFIED_NAME, line no: 60, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,MixedInsertException,SIMPLE_NAME, line no: 61, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,ex,SIMPLE_NAME, line no: 61, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,new IOException(ex),CLASS_INSTANCE_CREATION, line no: 62, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,computeFromSimpleMetrics,SIMPLE_NAME, line no: 67, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,SimpleNumber,SIMPLE_NAME, line no: 67, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,input.getPoints().entrySet(),METHOD_INVOCATION, line no: 69, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,histogram.insert(toDouble(item.getValue().getData().getValue())),METHOD_INVOCATION, line no: 70, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,insert,SIMPLE_NAME, line no: 70, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,toDouble(item.getValue().getData().getValue()),METHOD_INVOCATION, line no: 70, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,toDouble,SIMPLE_NAME, line no: 70, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,item.getValue().getData().getValue(),METHOD_INVOCATION, line no: 70, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,buildRollupFromRawSamples,SIMPLE_NAME, line no: 77, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,histogramRollup,SIMPLE_NAME, line no: 79, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,new HistogramRollup(number_of_bins),CLASS_INSTANCE_CREATION, line no: 79, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,histogramRollup.computeFromSimpleMetrics(input),METHOD_INVOCATION, line no: 80, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,buildRollupFromRollups,SIMPLE_NAME, line no: 85, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,new HistogramRollup(MAX_BIN_SIZE),CLASS_INSTANCE_CREATION, line no: 86, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,histogramRollup.computeFromRollups(input),METHOD_INVOCATION, line no: 87, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,histogram.getMaxBins(),METHOD_INVOCATION, line no: 93, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,getMaxBins,SIMPLE_NAME, line no: 93, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,getCount,SIMPLE_NAME, line no: 96, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,(long)histogram.getBins().size(),CAST_EXPRESSION, line no: 97, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,histogram.getBins().size(),METHOD_INVOCATION, line no: 97, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,histogram.getBins(),METHOD_INVOCATION, line no: 97, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,getBins,SIMPLE_NAME, line no: 97, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Double,SIMPLE_NAME, line no: 104, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,getPercentile,SIMPLE_NAME, line no: 104, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,percentileLimit,SIMPLE_NAME, line no: 104, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,histogram.percentiles(percentileLimit),METHOD_INVOCATION, line no: 105, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,percentiles,SIMPLE_NAME, line no: 105, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,getVariance,SIMPLE_NAME, line no: 108, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Variance,SIMPLE_NAME, line no: 109, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,variance,SIMPLE_NAME, line no: 109, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,new Variance(),CLASS_INSTANCE_CREATION, line no: 109, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,variance.handleFullResMetric(item.getValue().getData().getValue()),METHOD_INVOCATION, line no: 111, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,handleFullResMetric,SIMPLE_NAME, line no: 111, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,variance.toDouble(),METHOD_INVOCATION, line no: 114, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Math,SIMPLE_NAME, line no: 119, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Math.floor(3.5 * (Math.sqrt(getVariance(input)) / Math.cbrt(input.getPoints().size()))),METHOD_INVOCATION, line no: 119, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,floor,SIMPLE_NAME, line no: 119, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,3.5 * (Math.sqrt(getVariance(input)) / Math.cbrt(input.getPoints().size())),INFIX_EXPRESSION, line no: 119, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,3.5,NUMBER_LITERAL, line no: 119, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,(Math.sqrt(getVariance(input)) / Math.cbrt(input.getPoints().size())),PARENTHESIZED_EXPRESSION, line no: 119, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Math.sqrt(getVariance(input)) / Math.cbrt(input.getPoints().size()),INFIX_EXPRESSION, line no: 119, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Math.sqrt(getVariance(input)),METHOD_INVOCATION, line no: 119, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,sqrt,SIMPLE_NAME, line no: 119, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,getVariance(input),METHOD_INVOCATION, line no: 119, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Math.cbrt(input.getPoints().size()),METHOD_INVOCATION, line no: 119, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,cbrt,SIMPLE_NAME, line no: 119, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Object,SIMPLE_NAME, line no: 122, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,val,SIMPLE_NAME, line no: 122, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,RuntimeException,SIMPLE_NAME, line no: 122, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,val instanceof Integer,INSTANCEOF_EXPRESSION, line no: 123, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,new Double((Integer)val),CLASS_INSTANCE_CREATION, line no: 124, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,(Integer)val,CAST_EXPRESSION, line no: 124, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,val instanceof Long,INSTANCEOF_EXPRESSION, line no: 125, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,new Double((Long)val),CLASS_INSTANCE_CREATION, line no: 126, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,(Long)val,CAST_EXPRESSION, line no: 126, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,val instanceof Double,INSTANCEOF_EXPRESSION, line no: 127, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,(Double)val,CAST_EXPRESSION, line no: 128, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,new RuntimeException("Unsupported data type for histogram"),CLASS_INSTANCE_CREATION, line no: 130, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,"Unsupported data type for histogram",STRING_LITERAL, line no: 130, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Override,SIMPLE_NAME, line no: 134, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,Boolean,SIMPLE_NAME, line no: 135, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,hasData,SIMPLE_NAME, line no: 135, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,new RuntimeException("Unsupported operation for histogram"),CLASS_INSTANCE_CREATION, line no: 136, 1.0, 1.0, 0.0
+getNumberOfBins,SIMPLE_NAME, line no: 92,"Unsupported operation for histogram",STRING_LITERAL, line no: 136, 1.0, 1.0, 0.0

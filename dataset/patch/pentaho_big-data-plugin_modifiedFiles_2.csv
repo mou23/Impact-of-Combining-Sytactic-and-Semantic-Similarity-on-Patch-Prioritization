@@ -1,0 +1,552 @@
+true,BOOLEAN_LITERAL, line no: 249,false,BOOLEAN_LITERAL, line no: 194, 1.9333333333333333, 0.9333333333333333, 1.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,PROPERTY_ACTIVE_HADOOP_CONFIGURATION,SIMPLE_NAME, line no: 58, 1.875, 0.0625, 1.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,getActiveConfigurationId,SIMPLE_NAME, line no: 113, 1.875, 0.875, 1.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,getProperty,SIMPLE_NAME, line no: 223, 1.875, 0.4375, 1.0
+true,BOOLEAN_LITERAL, line no: 249,exists,SIMPLE_NAME, line no: 194, 1.8666666666666667, 0.8666666666666667, 1.0
+true,BOOLEAN_LITERAL, line no: 249,!exists,PREFIX_EXPRESSION, line no: 202, 1.8666666666666667, 0.8666666666666667, 1.0
+true,BOOLEAN_LITERAL, line no: 249,ex instanceof ConfigurationException,INSTANCEOF_EXPRESSION, line no: 126, 1.8, 0.8, 1.0
+true,BOOLEAN_LITERAL, line no: 249,!p.containsKey(PROPERTY_ACTIVE_HADOOP_CONFIGURATION),PREFIX_EXPRESSION, line no: 236, 1.8, 0.8, 1.0
+true,BOOLEAN_LITERAL, line no: 249,p.containsKey(PROPERTY_ACTIVE_HADOOP_CONFIGURATION),METHOD_INVOCATION, line no: 236, 1.8, 0.8, 1.0
+true,BOOLEAN_LITERAL, line no: 249,containsKey,SIMPLE_NAME, line no: 236, 1.8, 0.8, 1.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,PLUGIN_ID,SIMPLE_NAME, line no: 56, 1.625, 0.0625, 1.0
+true,BOOLEAN_LITERAL, line no: 249,exists=dir.exists(),ASSIGNMENT, line no: 197, 1.4666666666666668, 0.4666666666666667, 1.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,String,SIMPLE_NAME, line no: 56, 1.4375, 0.0625, 1.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,PROPERTY_HADOOP_CONFIGURATIONS_PATH,SIMPLE_NAME, line no: 60, 1.4375, 0.0625, 1.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,DEFAULT_FOLDER_HADOOP_CONFIGURATIONS,SIMPLE_NAME, line no: 62, 1.4375, 0.0625, 1.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,hadoopConfigurationPath,SIMPLE_NAME, line no: 222, 1.4375, 0.4375, 1.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,Exception,SIMPLE_NAME, line no: 110, 1.0, 0.9375, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,e,SIMPLE_NAME, line no: 198, 1.0, 1.0, 0.0
+e,SIMPLE_NAME, line no: 249,LifecycleException,SIMPLE_NAME, line no: 33, 1.0, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,BaseMessages,SIMPLE_NAME, line no: 40, 1.0, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,PKG,SIMPLE_NAME, line no: 54, 1.0, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,getString,SIMPLE_NAME, line no: 66, 1.0, 0.2, 0.0
+e,SIMPLE_NAME, line no: 249,Exception,SIMPLE_NAME, line no: 110, 1.0, 0.9333333333333333, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,FileObject,SIMPLE_NAME, line no: 28, 0.9375, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,BaseMessages,SIMPLE_NAME, line no: 40, 0.9375, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,PKG,SIMPLE_NAME, line no: 54, 0.9375, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,getString,SIMPLE_NAME, line no: 66, 0.9375, 0.1875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,null,NULL_LITERAL, line no: 100, 0.9375, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,ex,SIMPLE_NAME, line no: 110, 0.9375, 0.9375, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,"HadoopConfigurationBootstrap.HadoopConfiguration.InvalidActiveConfiguration",STRING_LITERAL, line no: 112, 0.9375, 0.9375, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.StartupError"),METHOD_INVOCATION, line no: 129, 0.9375, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,"HadoopConfigurationBootstrap.UnableToLoadPluginProperties",STRING_LITERAL, line no: 164, 0.9375, 0.9375, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,dir,SIMPLE_NAME, line no: 193, 0.9375, 0.9375, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,exists,SIMPLE_NAME, line no: 194, 0.9375, 0.9375, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,false,BOOLEAN_LITERAL, line no: 194, 0.9375, 0.9375, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,"HadoopConfigurationBootstrap.PluginDirectoryNotFound",STRING_LITERAL, line no: 200, 0.9375, 0.9375, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,!exists,PREFIX_EXPRESSION, line no: 202, 0.9375, 0.9375, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,"HadoopConfigurationBootstrap.UnableToDetermineActiveConfiguration",STRING_LITERAL, line no: 234, 0.9375, 0.9375, 0.0
+e,SIMPLE_NAME, line no: 249,FileObject,SIMPLE_NAME, line no: 28, 0.9333333333333333, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,ConfigurationException,SIMPLE_NAME, line no: 42, 0.9333333333333333, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,null,NULL_LITERAL, line no: 100, 0.9333333333333333, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,ex,SIMPLE_NAME, line no: 110, 0.9333333333333333, 0.9333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.InvalidActiveConfiguration" getActiveConfigurationId()) ex),CLASS_INSTANCE_CREATION, line no: 111, 0.9333333333333333, 0.9333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.InvalidActiveConfiguration" getActiveConfigurationId()),METHOD_INVOCATION, line no: 111, 0.9333333333333333, 0.9333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,"HadoopConfigurationBootstrap.HadoopConfiguration.InvalidActiveConfiguration",STRING_LITERAL, line no: 112, 0.9333333333333333, 0.9333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,getActiveConfigurationId(),METHOD_INVOCATION, line no: 113, 0.9333333333333333, 0.9333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,getActiveConfigurationId,SIMPLE_NAME, line no: 113, 0.9333333333333333, 0.9333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.StartupError"),METHOD_INVOCATION, line no: 129, 0.9333333333333333, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 130, 0.9333333333333333, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,dir,SIMPLE_NAME, line no: 193, 0.9333333333333333, 0.9333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,exists,SIMPLE_NAME, line no: 194, 0.9333333333333333, 0.9333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,false,BOOLEAN_LITERAL, line no: 194, 0.9333333333333333, 0.9333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,!exists,PREFIX_EXPRESSION, line no: 202, 0.9333333333333333, 0.9333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,new LifecycleException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.StartupError") e true),CLASS_INSTANCE_CREATION, line no: 248, 0.9333333333333333, 0.9333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,true,BOOLEAN_LITERAL, line no: 249, 0.9333333333333333, 0.9333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 249,LifecycleException,SIMPLE_NAME, line no: 33, 0.9333333333333333, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,BaseMessages,SIMPLE_NAME, line no: 40, 0.9333333333333333, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,PKG,SIMPLE_NAME, line no: 54, 0.9333333333333333, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,getString,SIMPLE_NAME, line no: 66, 0.9333333333333333, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 249,Exception,SIMPLE_NAME, line no: 110, 0.9333333333333333, 0.8666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.StartupError"),METHOD_INVOCATION, line no: 129, 0.9333333333333333, 0.8666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 130, 0.9333333333333333, 0.8666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,e,SIMPLE_NAME, line no: 198, 0.9333333333333333, 0.9333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 249,new LifecycleException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.StartupError") e true),CLASS_INSTANCE_CREATION, line no: 248, 0.9333333333333333, 0.9333333333333333, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,Properties,SIMPLE_NAME, line no: 26, 0.875, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,LifecycleException,SIMPLE_NAME, line no: 33, 0.875, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,ConfigurationException,SIMPLE_NAME, line no: 42, 0.875, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,HadoopConfiguration,SIMPLE_NAME, line no: 43, 0.875, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,HadoopConfigurationProvider,SIMPLE_NAME, line no: 46, 0.875, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,provider,SIMPLE_NAME, line no: 64, 0.875, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,log,SIMPLE_NAME, line no: 66, 0.875, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,provider == null,INFIX_EXPRESSION, line no: 100, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,hadoopConfigurationsDir,SIMPLE_NAME, line no: 103, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,resolveHadoopConfigurationsDirectory(),METHOD_INVOCATION, line no: 103, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,resolveHadoopConfigurationsDirectory,SIMPLE_NAME, line no: 103, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,p,SIMPLE_NAME, line no: 104, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,initializeHadoopConfigurationProvider(hadoopConfigurationsDir),METHOD_INVOCATION, line no: 104, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,initializeHadoopConfigurationProvider,SIMPLE_NAME, line no: 104, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,activeConfig,SIMPLE_NAME, line no: 107, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.InvalidActiveConfiguration" getActiveConfigurationId()) ex),CLASS_INSTANCE_CREATION, line no: 111, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.InvalidActiveConfiguration" getActiveConfigurationId()),METHOD_INVOCATION, line no: 111, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,getActiveConfigurationId(),METHOD_INVOCATION, line no: 113, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,activeConfig == null,INFIX_EXPRESSION, line no: 115, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,provider=p,ASSIGNMENT, line no: 121, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,log.logDetailed(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.Loaded") provider.getConfigurations().size() hadoopConfigurationsDir),METHOD_INVOCATION, line no: 123, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,logDetailed,SIMPLE_NAME, line no: 123, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.Loaded"),METHOD_INVOCATION, line no: 123, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,"HadoopConfigurationBootstrap.HadoopConfiguration.Loaded",STRING_LITERAL, line no: 123, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,provider.getConfigurations().size(),METHOD_INVOCATION, line no: 124, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,provider.getConfigurations(),METHOD_INVOCATION, line no: 124, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,getConfigurations,SIMPLE_NAME, line no: 124, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,size,SIMPLE_NAME, line no: 124, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.UnableToLoadPluginProperties"),METHOD_INVOCATION, line no: 163, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.PluginDirectoryNotFound"),METHOD_INVOCATION, line no: 199, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.UnableToDetermineActiveConfiguration"),METHOD_INVOCATION, line no: 233, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,!p.containsKey(PROPERTY_ACTIVE_HADOOP_CONFIGURATION),PREFIX_EXPRESSION, line no: 236, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,p.containsKey(PROPERTY_ACTIVE_HADOOP_CONFIGURATION),METHOD_INVOCATION, line no: 236, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,containsKey,SIMPLE_NAME, line no: 236, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,p.getProperty(PROPERTY_ACTIVE_HADOOP_CONFIGURATION),METHOD_INVOCATION, line no: 240, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,new LifecycleException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.StartupError") e true),CLASS_INSTANCE_CREATION, line no: 248, 0.875, 0.875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,true,BOOLEAN_LITERAL, line no: 249, 0.875, 0.875, 0.0
+e,SIMPLE_NAME, line no: 249,Properties,SIMPLE_NAME, line no: 26, 0.8666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,HadoopConfiguration,SIMPLE_NAME, line no: 43, 0.8666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,HadoopConfigurationProvider,SIMPLE_NAME, line no: 46, 0.8666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,PROPERTY_ACTIVE_HADOOP_CONFIGURATION,SIMPLE_NAME, line no: 58, 0.8666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,provider,SIMPLE_NAME, line no: 64, 0.8666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,log,SIMPLE_NAME, line no: 66, 0.8666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,provider == null,INFIX_EXPRESSION, line no: 100, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,hadoopConfigurationsDir,SIMPLE_NAME, line no: 103, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,resolveHadoopConfigurationsDirectory(),METHOD_INVOCATION, line no: 103, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,resolveHadoopConfigurationsDirectory,SIMPLE_NAME, line no: 103, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,p,SIMPLE_NAME, line no: 104, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,initializeHadoopConfigurationProvider(hadoopConfigurationsDir),METHOD_INVOCATION, line no: 104, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,initializeHadoopConfigurationProvider,SIMPLE_NAME, line no: 104, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,activeConfig,SIMPLE_NAME, line no: 107, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,activeConfig == null,INFIX_EXPRESSION, line no: 115, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,provider=p,ASSIGNMENT, line no: 121, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,log.logDetailed(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.Loaded") provider.getConfigurations().size() hadoopConfigurationsDir),METHOD_INVOCATION, line no: 123, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,logDetailed,SIMPLE_NAME, line no: 123, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.Loaded"),METHOD_INVOCATION, line no: 123, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,"HadoopConfigurationBootstrap.HadoopConfiguration.Loaded",STRING_LITERAL, line no: 123, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,provider.getConfigurations().size(),METHOD_INVOCATION, line no: 124, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,provider.getConfigurations(),METHOD_INVOCATION, line no: 124, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,getConfigurations,SIMPLE_NAME, line no: 124, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,size,SIMPLE_NAME, line no: 124, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,ex instanceof ConfigurationException,INSTANCEOF_EXPRESSION, line no: 126, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.StartupError") ex),CLASS_INSTANCE_CREATION, line no: 129, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.UnableToLoadPluginProperties") ex),CLASS_INSTANCE_CREATION, line no: 163, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.UnableToLoadPluginProperties"),METHOD_INVOCATION, line no: 163, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,"HadoopConfigurationBootstrap.UnableToLoadPluginProperties",STRING_LITERAL, line no: 164, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.PluginDirectoryNotFound") e),CLASS_INSTANCE_CREATION, line no: 199, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.PluginDirectoryNotFound"),METHOD_INVOCATION, line no: 199, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,"HadoopConfigurationBootstrap.PluginDirectoryNotFound",STRING_LITERAL, line no: 200, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,getProperty,SIMPLE_NAME, line no: 223, 0.8666666666666667, 0.4666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.UnableToDetermineActiveConfiguration") ex),CLASS_INSTANCE_CREATION, line no: 233, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.UnableToDetermineActiveConfiguration"),METHOD_INVOCATION, line no: 233, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,"HadoopConfigurationBootstrap.UnableToDetermineActiveConfiguration",STRING_LITERAL, line no: 234, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,!p.containsKey(PROPERTY_ACTIVE_HADOOP_CONFIGURATION),PREFIX_EXPRESSION, line no: 236, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,p.containsKey(PROPERTY_ACTIVE_HADOOP_CONFIGURATION),METHOD_INVOCATION, line no: 236, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,containsKey,SIMPLE_NAME, line no: 236, 0.8666666666666667, 0.8666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,p.getProperty(PROPERTY_ACTIVE_HADOOP_CONFIGURATION),METHOD_INVOCATION, line no: 240, 0.8666666666666667, 0.8666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,FileObject,SIMPLE_NAME, line no: 28, 0.8666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,ConfigurationException,SIMPLE_NAME, line no: 42, 0.8666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,null,NULL_LITERAL, line no: 100, 0.8666666666666667, 0.8, 0.0
+true,BOOLEAN_LITERAL, line no: 249,ex,SIMPLE_NAME, line no: 110, 0.8666666666666667, 0.8666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.InvalidActiveConfiguration" getActiveConfigurationId()) ex),CLASS_INSTANCE_CREATION, line no: 111, 0.8666666666666667, 0.8666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.InvalidActiveConfiguration" getActiveConfigurationId()),METHOD_INVOCATION, line no: 111, 0.8666666666666667, 0.8666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,"HadoopConfigurationBootstrap.HadoopConfiguration.InvalidActiveConfiguration",STRING_LITERAL, line no: 112, 0.8666666666666667, 0.8666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,getActiveConfigurationId(),METHOD_INVOCATION, line no: 113, 0.8666666666666667, 0.8666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,getActiveConfigurationId,SIMPLE_NAME, line no: 113, 0.8666666666666667, 0.8666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.StartupError") ex),CLASS_INSTANCE_CREATION, line no: 129, 0.8666666666666667, 0.8666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.UnableToLoadPluginProperties") ex),CLASS_INSTANCE_CREATION, line no: 163, 0.8666666666666667, 0.8666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.UnableToLoadPluginProperties"),METHOD_INVOCATION, line no: 163, 0.8666666666666667, 0.8666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,"HadoopConfigurationBootstrap.UnableToLoadPluginProperties",STRING_LITERAL, line no: 164, 0.8666666666666667, 0.8666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,dir,SIMPLE_NAME, line no: 193, 0.8666666666666667, 0.8666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.PluginDirectoryNotFound") e),CLASS_INSTANCE_CREATION, line no: 199, 0.8666666666666667, 0.8666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.PluginDirectoryNotFound"),METHOD_INVOCATION, line no: 199, 0.8666666666666667, 0.8666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,"HadoopConfigurationBootstrap.PluginDirectoryNotFound",STRING_LITERAL, line no: 200, 0.8666666666666667, 0.8666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.UnableToDetermineActiveConfiguration") ex),CLASS_INSTANCE_CREATION, line no: 233, 0.8666666666666667, 0.8666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.UnableToDetermineActiveConfiguration"),METHOD_INVOCATION, line no: 233, 0.8666666666666667, 0.8666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,"HadoopConfigurationBootstrap.UnableToDetermineActiveConfiguration",STRING_LITERAL, line no: 234, 0.8666666666666667, 0.8666666666666667, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.InvalidActiveConfiguration" getActiveConfigurationId())),CLASS_INSTANCE_CREATION, line no: 116, 0.8125, 0.8125, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.StartupError") ex),CLASS_INSTANCE_CREATION, line no: 129, 0.8125, 0.8125, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.UnableToLoadPluginProperties") ex),CLASS_INSTANCE_CREATION, line no: 163, 0.8125, 0.8125, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.PluginDirectoryNotFound") e),CLASS_INSTANCE_CREATION, line no: 199, 0.8125, 0.8125, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.UnableToDetermineActiveConfiguration") ex),CLASS_INSTANCE_CREATION, line no: 233, 0.8125, 0.8125, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,"HadoopConfigurationBootstrap.MissingActiveConfigurationProperty",STRING_LITERAL, line no: 238, 0.8125, 0.8125, 0.0
+e,SIMPLE_NAME, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.InvalidActiveConfiguration" getActiveConfigurationId())),CLASS_INSTANCE_CREATION, line no: 116, 0.8, 0.8, 0.0
+true,BOOLEAN_LITERAL, line no: 249,Properties,SIMPLE_NAME, line no: 26, 0.8, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,HadoopConfiguration,SIMPLE_NAME, line no: 43, 0.8, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,HadoopConfigurationProvider,SIMPLE_NAME, line no: 46, 0.8, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,PROPERTY_ACTIVE_HADOOP_CONFIGURATION,SIMPLE_NAME, line no: 58, 0.8, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,provider,SIMPLE_NAME, line no: 64, 0.8, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,log,SIMPLE_NAME, line no: 66, 0.8, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,provider == null,INFIX_EXPRESSION, line no: 100, 0.8, 0.8, 0.0
+true,BOOLEAN_LITERAL, line no: 249,hadoopConfigurationsDir,SIMPLE_NAME, line no: 103, 0.8, 0.8, 0.0
+true,BOOLEAN_LITERAL, line no: 249,resolveHadoopConfigurationsDirectory(),METHOD_INVOCATION, line no: 103, 0.8, 0.8, 0.0
+true,BOOLEAN_LITERAL, line no: 249,resolveHadoopConfigurationsDirectory,SIMPLE_NAME, line no: 103, 0.8, 0.8, 0.0
+true,BOOLEAN_LITERAL, line no: 249,p,SIMPLE_NAME, line no: 104, 0.8, 0.8, 0.0
+true,BOOLEAN_LITERAL, line no: 249,initializeHadoopConfigurationProvider(hadoopConfigurationsDir),METHOD_INVOCATION, line no: 104, 0.8, 0.8, 0.0
+true,BOOLEAN_LITERAL, line no: 249,initializeHadoopConfigurationProvider,SIMPLE_NAME, line no: 104, 0.8, 0.8, 0.0
+true,BOOLEAN_LITERAL, line no: 249,activeConfig,SIMPLE_NAME, line no: 107, 0.8, 0.8, 0.0
+true,BOOLEAN_LITERAL, line no: 249,activeConfig == null,INFIX_EXPRESSION, line no: 115, 0.8, 0.8, 0.0
+true,BOOLEAN_LITERAL, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.InvalidActiveConfiguration" getActiveConfigurationId())),CLASS_INSTANCE_CREATION, line no: 116, 0.8, 0.8, 0.0
+true,BOOLEAN_LITERAL, line no: 249,provider=p,ASSIGNMENT, line no: 121, 0.8, 0.8, 0.0
+true,BOOLEAN_LITERAL, line no: 249,log.logDetailed(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.Loaded") provider.getConfigurations().size() hadoopConfigurationsDir),METHOD_INVOCATION, line no: 123, 0.8, 0.8, 0.0
+true,BOOLEAN_LITERAL, line no: 249,logDetailed,SIMPLE_NAME, line no: 123, 0.8, 0.8, 0.0
+true,BOOLEAN_LITERAL, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.HadoopConfiguration.Loaded"),METHOD_INVOCATION, line no: 123, 0.8, 0.8, 0.0
+true,BOOLEAN_LITERAL, line no: 249,"HadoopConfigurationBootstrap.HadoopConfiguration.Loaded",STRING_LITERAL, line no: 123, 0.8, 0.8, 0.0
+true,BOOLEAN_LITERAL, line no: 249,provider.getConfigurations().size(),METHOD_INVOCATION, line no: 124, 0.8, 0.8, 0.0
+true,BOOLEAN_LITERAL, line no: 249,provider.getConfigurations(),METHOD_INVOCATION, line no: 124, 0.8, 0.8, 0.0
+true,BOOLEAN_LITERAL, line no: 249,getConfigurations,SIMPLE_NAME, line no: 124, 0.8, 0.8, 0.0
+true,BOOLEAN_LITERAL, line no: 249,size,SIMPLE_NAME, line no: 124, 0.8, 0.8, 0.0
+true,BOOLEAN_LITERAL, line no: 249,getProperty,SIMPLE_NAME, line no: 223, 0.8, 0.4, 0.0
+true,BOOLEAN_LITERAL, line no: 249,p.getProperty(PROPERTY_ACTIVE_HADOOP_CONFIGURATION),METHOD_INVOCATION, line no: 240, 0.8, 0.8, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,ex instanceof ConfigurationException,INSTANCEOF_EXPRESSION, line no: 126, 0.75, 0.75, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,"HadoopConfigurationBootstrap.CannotLocatePlugin",STRING_LITERAL, line no: 178, 0.75, 0.75, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.MissingActiveConfigurationProperty" PROPERTY_ACTIVE_HADOOP_CONFIGURATION),METHOD_INVOCATION, line no: 237, 0.75, 0.75, 0.0
+e,SIMPLE_NAME, line no: 249,KettleException,SIMPLE_NAME, line no: 31, 0.7333333333333333, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.MissingActiveConfigurationProperty" PROPERTY_ACTIVE_HADOOP_CONFIGURATION)),CLASS_INSTANCE_CREATION, line no: 237, 0.7333333333333333, 0.7333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.MissingActiveConfigurationProperty" PROPERTY_ACTIVE_HADOOP_CONFIGURATION),METHOD_INVOCATION, line no: 237, 0.7333333333333333, 0.7333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,"HadoopConfigurationBootstrap.MissingActiveConfigurationProperty",STRING_LITERAL, line no: 238, 0.7333333333333333, 0.7333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 249,KettleException,SIMPLE_NAME, line no: 31, 0.7333333333333333, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.MissingActiveConfigurationProperty" PROPERTY_ACTIVE_HADOOP_CONFIGURATION)),CLASS_INSTANCE_CREATION, line no: 237, 0.7333333333333333, 0.7333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.MissingActiveConfigurationProperty" PROPERTY_ACTIVE_HADOOP_CONFIGURATION),METHOD_INVOCATION, line no: 237, 0.7333333333333333, 0.7333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 249,"HadoopConfigurationBootstrap.MissingActiveConfigurationProperty",STRING_LITERAL, line no: 238, 0.7333333333333333, 0.7333333333333333, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,KettleException,SIMPLE_NAME, line no: 31, 0.6875, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.CannotLocatePlugin"),METHOD_INVOCATION, line no: 178, 0.6875, 0.6875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.MissingActiveConfigurationProperty" PROPERTY_ACTIVE_HADOOP_CONFIGURATION)),CLASS_INSTANCE_CREATION, line no: 237, 0.6875, 0.6875, 0.0
+e,SIMPLE_NAME, line no: 249,LifecyclePluginType,SIMPLE_NAME, line no: 36, 0.6666666666666666, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,PluginInterface,SIMPLE_NAME, line no: 37, 0.6666666666666666, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,PluginRegistry,SIMPLE_NAME, line no: 38, 0.6666666666666666, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,PLUGIN_ID,SIMPLE_NAME, line no: 56, 0.6666666666666666, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,plugin,SIMPLE_NAME, line no: 72, 0.6666666666666666, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,getInstance,SIMPLE_NAME, line no: 86, 0.6666666666666666, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,plugin == null,INFIX_EXPRESSION, line no: 174, 0.6666666666666666, 0.6666666666666666, 0.0
+e,SIMPLE_NAME, line no: 249,pi,SIMPLE_NAME, line no: 175, 0.6666666666666666, 0.6666666666666666, 0.0
+e,SIMPLE_NAME, line no: 249,PluginRegistry.getInstance().findPluginWithId(LifecyclePluginType.class HadoopSpoonPlugin.PLUGIN_ID),METHOD_INVOCATION, line no: 176, 0.6666666666666666, 0.6666666666666666, 0.0
+e,SIMPLE_NAME, line no: 249,PluginRegistry.getInstance(),METHOD_INVOCATION, line no: 176, 0.6666666666666666, 0.6666666666666666, 0.0
+e,SIMPLE_NAME, line no: 249,findPluginWithId,SIMPLE_NAME, line no: 176, 0.6666666666666666, 0.6666666666666666, 0.0
+e,SIMPLE_NAME, line no: 249,LifecyclePluginType.class,TYPE_LITERAL, line no: 176, 0.6666666666666666, 0.6666666666666666, 0.0
+e,SIMPLE_NAME, line no: 249,HadoopSpoonPlugin.PLUGIN_ID,QUALIFIED_NAME, line no: 176, 0.6666666666666666, 0.6666666666666666, 0.0
+e,SIMPLE_NAME, line no: 249,HadoopSpoonPlugin,SIMPLE_NAME, line no: 176, 0.6666666666666666, 0.6666666666666666, 0.0
+e,SIMPLE_NAME, line no: 249,pi == null,INFIX_EXPRESSION, line no: 177, 0.6666666666666666, 0.6666666666666666, 0.0
+e,SIMPLE_NAME, line no: 249,new KettleException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.CannotLocatePlugin")),CLASS_INSTANCE_CREATION, line no: 178, 0.6666666666666666, 0.6666666666666666, 0.0
+e,SIMPLE_NAME, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.CannotLocatePlugin"),METHOD_INVOCATION, line no: 178, 0.6666666666666666, 0.6666666666666666, 0.0
+e,SIMPLE_NAME, line no: 249,"HadoopConfigurationBootstrap.CannotLocatePlugin",STRING_LITERAL, line no: 178, 0.6666666666666666, 0.6666666666666666, 0.0
+e,SIMPLE_NAME, line no: 249,plugin=pi,ASSIGNMENT, line no: 180, 0.6666666666666666, 0.6666666666666666, 0.0
+e,SIMPLE_NAME, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.PluginDirectoryNotFound")),CLASS_INSTANCE_CREATION, line no: 203, 0.6666666666666666, 0.6666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 249,new KettleException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.CannotLocatePlugin")),CLASS_INSTANCE_CREATION, line no: 178, 0.6666666666666666, 0.6666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.CannotLocatePlugin"),METHOD_INVOCATION, line no: 178, 0.6666666666666666, 0.6666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 249,"HadoopConfigurationBootstrap.CannotLocatePlugin",STRING_LITERAL, line no: 178, 0.6666666666666666, 0.6666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.PluginDirectoryNotFound")),CLASS_INSTANCE_CREATION, line no: 203, 0.6666666666666666, 0.6666666666666666, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,LifecyclePluginType,SIMPLE_NAME, line no: 36, 0.625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,PluginInterface,SIMPLE_NAME, line no: 37, 0.625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,PluginRegistry,SIMPLE_NAME, line no: 38, 0.625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,plugin,SIMPLE_NAME, line no: 72, 0.625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,getInstance,SIMPLE_NAME, line no: 86, 0.625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,plugin == null,INFIX_EXPRESSION, line no: 174, 0.625, 0.625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,pi,SIMPLE_NAME, line no: 175, 0.625, 0.625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,PluginRegistry.getInstance().findPluginWithId(LifecyclePluginType.class HadoopSpoonPlugin.PLUGIN_ID),METHOD_INVOCATION, line no: 176, 0.625, 0.625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,PluginRegistry.getInstance(),METHOD_INVOCATION, line no: 176, 0.625, 0.625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,findPluginWithId,SIMPLE_NAME, line no: 176, 0.625, 0.625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,LifecyclePluginType.class,TYPE_LITERAL, line no: 176, 0.625, 0.625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,HadoopSpoonPlugin.PLUGIN_ID,QUALIFIED_NAME, line no: 176, 0.625, 0.625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,HadoopSpoonPlugin,SIMPLE_NAME, line no: 176, 0.625, 0.625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,pi == null,INFIX_EXPRESSION, line no: 177, 0.625, 0.625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,new KettleException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.CannotLocatePlugin")),CLASS_INSTANCE_CREATION, line no: 178, 0.625, 0.625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,plugin=pi,ASSIGNMENT, line no: 180, 0.625, 0.625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,new ConfigurationException(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.PluginDirectoryNotFound")),CLASS_INSTANCE_CREATION, line no: 203, 0.625, 0.625, 0.0
+e,SIMPLE_NAME, line no: 249,HadoopConfigurationLocator,SIMPLE_NAME, line no: 44, 0.6, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,new HadoopConfigurationLocator(),CLASS_INSTANCE_CREATION, line no: 146, 0.6, 0.6, 0.0
+true,BOOLEAN_LITERAL, line no: 249,LifecyclePluginType,SIMPLE_NAME, line no: 36, 0.6, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,PluginInterface,SIMPLE_NAME, line no: 37, 0.6, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,PluginRegistry,SIMPLE_NAME, line no: 38, 0.6, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,PLUGIN_ID,SIMPLE_NAME, line no: 56, 0.6, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,plugin,SIMPLE_NAME, line no: 72, 0.6, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,getInstance,SIMPLE_NAME, line no: 86, 0.6, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,plugin == null,INFIX_EXPRESSION, line no: 174, 0.6, 0.6, 0.0
+true,BOOLEAN_LITERAL, line no: 249,pi,SIMPLE_NAME, line no: 175, 0.6, 0.6, 0.0
+true,BOOLEAN_LITERAL, line no: 249,PluginRegistry.getInstance().findPluginWithId(LifecyclePluginType.class HadoopSpoonPlugin.PLUGIN_ID),METHOD_INVOCATION, line no: 176, 0.6, 0.6, 0.0
+true,BOOLEAN_LITERAL, line no: 249,PluginRegistry.getInstance(),METHOD_INVOCATION, line no: 176, 0.6, 0.6, 0.0
+true,BOOLEAN_LITERAL, line no: 249,findPluginWithId,SIMPLE_NAME, line no: 176, 0.6, 0.6, 0.0
+true,BOOLEAN_LITERAL, line no: 249,LifecyclePluginType.class,TYPE_LITERAL, line no: 176, 0.6, 0.6, 0.0
+true,BOOLEAN_LITERAL, line no: 249,HadoopSpoonPlugin.PLUGIN_ID,QUALIFIED_NAME, line no: 176, 0.6, 0.6, 0.0
+true,BOOLEAN_LITERAL, line no: 249,HadoopSpoonPlugin,SIMPLE_NAME, line no: 176, 0.6, 0.6, 0.0
+true,BOOLEAN_LITERAL, line no: 249,pi == null,INFIX_EXPRESSION, line no: 177, 0.6, 0.6, 0.0
+true,BOOLEAN_LITERAL, line no: 249,plugin=pi,ASSIGNMENT, line no: 180, 0.6, 0.6, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,PluginPropertiesUtil,SIMPLE_NAME, line no: 41, 0.5625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,HadoopConfigurationLocator,SIMPLE_NAME, line no: 44, 0.5625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,new HadoopConfigurationLocator(),CLASS_INSTANCE_CREATION, line no: 146, 0.5625, 0.5625, 0.0
+e,SIMPLE_NAME, line no: 249,DefaultFileSystemManager,SIMPLE_NAME, line no: 29, 0.5333333333333333, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,KettleVFS,SIMPLE_NAME, line no: 39, 0.5333333333333333, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,PluginPropertiesUtil,SIMPLE_NAME, line no: 41, 0.5333333333333333, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,locator,SIMPLE_NAME, line no: 146, 0.5333333333333333, 0.5333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,locator.init(hadoopConfigurationsDir this (DefaultFileSystemManager)KettleVFS.getInstance().getFileSystemManager()),METHOD_INVOCATION, line no: 147, 0.5333333333333333, 0.5333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,init,SIMPLE_NAME, line no: 147, 0.5333333333333333, 0.5333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,this,THIS_EXPRESSION, line no: 147, 0.5333333333333333, 0.5333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,(DefaultFileSystemManager)KettleVFS.getInstance().getFileSystemManager(),CAST_EXPRESSION, line no: 147, 0.5333333333333333, 0.5333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,KettleVFS.getInstance().getFileSystemManager(),METHOD_INVOCATION, line no: 147, 0.5333333333333333, 0.5333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,KettleVFS.getInstance(),METHOD_INVOCATION, line no: 147, 0.5333333333333333, 0.5333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,getFileSystemManager,SIMPLE_NAME, line no: 148, 0.5333333333333333, 0.5333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,getPluginInterface(),METHOD_INVOCATION, line no: 161, 0.5333333333333333, 0.4, 0.0
+e,SIMPLE_NAME, line no: 249,getPluginInterface,SIMPLE_NAME, line no: 161, 0.5333333333333333, 0.4666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,dir=KettleVFS.getFileObject(getPluginInterface().getPluginDirectory().toExternalForm()),ASSIGNMENT, line no: 196, 0.5333333333333333, 0.5333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,KettleVFS.getFileObject(getPluginInterface().getPluginDirectory().toExternalForm()),METHOD_INVOCATION, line no: 196, 0.5333333333333333, 0.5333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,getFileObject,SIMPLE_NAME, line no: 196, 0.5333333333333333, 0.5333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,getPluginInterface().getPluginDirectory().toExternalForm(),METHOD_INVOCATION, line no: 196, 0.5333333333333333, 0.5333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,getPluginInterface().getPluginDirectory(),METHOD_INVOCATION, line no: 196, 0.5333333333333333, 0.5333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,getPluginDirectory,SIMPLE_NAME, line no: 196, 0.5333333333333333, 0.5333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,toExternalForm,SIMPLE_NAME, line no: 196, 0.5333333333333333, 0.5333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,exists=dir.exists(),ASSIGNMENT, line no: 197, 0.5333333333333333, 0.5333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,dir.exists(),METHOD_INVOCATION, line no: 197, 0.5333333333333333, 0.5333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 249,PluginPropertiesUtil,SIMPLE_NAME, line no: 41, 0.5333333333333333, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,HadoopConfigurationLocator,SIMPLE_NAME, line no: 44, 0.5333333333333333, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,new HadoopConfigurationLocator(),CLASS_INSTANCE_CREATION, line no: 146, 0.5333333333333333, 0.5333333333333333, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,DefaultFileSystemManager,SIMPLE_NAME, line no: 29, 0.5, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,KettleVFS,SIMPLE_NAME, line no: 39, 0.5, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,locator,SIMPLE_NAME, line no: 146, 0.5, 0.5, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,locator.init(hadoopConfigurationsDir this (DefaultFileSystemManager)KettleVFS.getInstance().getFileSystemManager()),METHOD_INVOCATION, line no: 147, 0.5, 0.5, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,init,SIMPLE_NAME, line no: 147, 0.5, 0.5, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,this,THIS_EXPRESSION, line no: 147, 0.5, 0.5, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,(DefaultFileSystemManager)KettleVFS.getInstance().getFileSystemManager(),CAST_EXPRESSION, line no: 147, 0.5, 0.5, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,KettleVFS.getInstance().getFileSystemManager(),METHOD_INVOCATION, line no: 147, 0.5, 0.5, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,KettleVFS.getInstance(),METHOD_INVOCATION, line no: 147, 0.5, 0.5, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,getFileSystemManager,SIMPLE_NAME, line no: 148, 0.5, 0.5, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,new PluginPropertiesUtil(),CLASS_INSTANCE_CREATION, line no: 161, 0.5, 0.5, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,loadPluginProperties,SIMPLE_NAME, line no: 161, 0.5, 0.5, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,getPluginInterface(),METHOD_INVOCATION, line no: 161, 0.5, 0.4375, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,getPluginInterface,SIMPLE_NAME, line no: 161, 0.5, 0.5, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,dir=KettleVFS.getFileObject(getPluginInterface().getPluginDirectory().toExternalForm()),ASSIGNMENT, line no: 196, 0.5, 0.5, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,KettleVFS.getFileObject(getPluginInterface().getPluginDirectory().toExternalForm()),METHOD_INVOCATION, line no: 196, 0.5, 0.5, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,getFileObject,SIMPLE_NAME, line no: 196, 0.5, 0.5, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,getPluginInterface().getPluginDirectory().toExternalForm(),METHOD_INVOCATION, line no: 196, 0.5, 0.5, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,getPluginInterface().getPluginDirectory(),METHOD_INVOCATION, line no: 196, 0.5, 0.5, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,getPluginDirectory,SIMPLE_NAME, line no: 196, 0.5, 0.5, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,toExternalForm,SIMPLE_NAME, line no: 196, 0.5, 0.5, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,exists=dir.exists(),ASSIGNMENT, line no: 197, 0.5, 0.5, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,dir.exists(),METHOD_INVOCATION, line no: 197, 0.5, 0.5, 0.0
+e,SIMPLE_NAME, line no: 249,String,SIMPLE_NAME, line no: 56, 0.4666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,PROPERTY_HADOOP_CONFIGURATIONS_PATH,SIMPLE_NAME, line no: 60, 0.4666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,DEFAULT_FOLDER_HADOOP_CONFIGURATIONS,SIMPLE_NAME, line no: 62, 0.4666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,getPluginProperties,SIMPLE_NAME, line no: 159, 0.4666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,new PluginPropertiesUtil(),CLASS_INSTANCE_CREATION, line no: 161, 0.4666666666666667, 0.4666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,loadPluginProperties,SIMPLE_NAME, line no: 161, 0.4666666666666667, 0.4666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,locatePluginDirectory,SIMPLE_NAME, line no: 192, 0.4666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,hadoopConfigurationPath,SIMPLE_NAME, line no: 222, 0.4666666666666667, 0.4666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,getPluginProperties().getProperty(PROPERTY_HADOOP_CONFIGURATIONS_PATH DEFAULT_FOLDER_HADOOP_CONFIGURATIONS),METHOD_INVOCATION, line no: 223, 0.4666666666666667, 0.4666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,getPluginProperties(),METHOD_INVOCATION, line no: 223, 0.4666666666666667, 0.4666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,locatePluginDirectory().resolveFile(hadoopConfigurationPath),METHOD_INVOCATION, line no: 224, 0.4666666666666667, 0.4666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,locatePluginDirectory(),METHOD_INVOCATION, line no: 224, 0.4666666666666667, 0.4666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,resolveFile,SIMPLE_NAME, line no: 224, 0.4666666666666667, 0.4666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,DefaultFileSystemManager,SIMPLE_NAME, line no: 29, 0.4666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,KettleVFS,SIMPLE_NAME, line no: 39, 0.4666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,locator,SIMPLE_NAME, line no: 146, 0.4666666666666667, 0.4666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,locator.init(hadoopConfigurationsDir this (DefaultFileSystemManager)KettleVFS.getInstance().getFileSystemManager()),METHOD_INVOCATION, line no: 147, 0.4666666666666667, 0.4666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,init,SIMPLE_NAME, line no: 147, 0.4666666666666667, 0.4666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,this,THIS_EXPRESSION, line no: 147, 0.4666666666666667, 0.4666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,(DefaultFileSystemManager)KettleVFS.getInstance().getFileSystemManager(),CAST_EXPRESSION, line no: 147, 0.4666666666666667, 0.4666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,KettleVFS.getInstance().getFileSystemManager(),METHOD_INVOCATION, line no: 147, 0.4666666666666667, 0.4666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,KettleVFS.getInstance(),METHOD_INVOCATION, line no: 147, 0.4666666666666667, 0.4666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,getFileSystemManager,SIMPLE_NAME, line no: 148, 0.4666666666666667, 0.4666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,new PluginPropertiesUtil(),CLASS_INSTANCE_CREATION, line no: 161, 0.4666666666666667, 0.4666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,loadPluginProperties,SIMPLE_NAME, line no: 161, 0.4666666666666667, 0.4666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,getPluginInterface(),METHOD_INVOCATION, line no: 161, 0.4666666666666667, 0.4, 0.0
+true,BOOLEAN_LITERAL, line no: 249,getPluginInterface,SIMPLE_NAME, line no: 161, 0.4666666666666667, 0.4666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,dir=KettleVFS.getFileObject(getPluginInterface().getPluginDirectory().toExternalForm()),ASSIGNMENT, line no: 196, 0.4666666666666667, 0.4666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,KettleVFS.getFileObject(getPluginInterface().getPluginDirectory().toExternalForm()),METHOD_INVOCATION, line no: 196, 0.4666666666666667, 0.4666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,getFileObject,SIMPLE_NAME, line no: 196, 0.4666666666666667, 0.4666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,getPluginInterface().getPluginDirectory().toExternalForm(),METHOD_INVOCATION, line no: 196, 0.4666666666666667, 0.4666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,getPluginInterface().getPluginDirectory(),METHOD_INVOCATION, line no: 196, 0.4666666666666667, 0.4666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,getPluginDirectory,SIMPLE_NAME, line no: 196, 0.4666666666666667, 0.4666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,toExternalForm,SIMPLE_NAME, line no: 196, 0.4666666666666667, 0.4666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,dir.exists(),METHOD_INVOCATION, line no: 197, 0.4666666666666667, 0.4666666666666667, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,getActiveConfiguration,SIMPLE_NAME, line no: 109, 0.4375, 0.4375, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,getPluginProperties,SIMPLE_NAME, line no: 159, 0.4375, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,new PluginPropertiesUtil().loadPluginProperties(getPluginInterface()),METHOD_INVOCATION, line no: 161, 0.4375, 0.4375, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,locatePluginDirectory,SIMPLE_NAME, line no: 192, 0.4375, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,getPluginProperties().getProperty(PROPERTY_HADOOP_CONFIGURATIONS_PATH DEFAULT_FOLDER_HADOOP_CONFIGURATIONS),METHOD_INVOCATION, line no: 223, 0.4375, 0.4375, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,getPluginProperties(),METHOD_INVOCATION, line no: 223, 0.4375, 0.4375, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,locatePluginDirectory().resolveFile(hadoopConfigurationPath),METHOD_INVOCATION, line no: 224, 0.4375, 0.4375, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,locatePluginDirectory(),METHOD_INVOCATION, line no: 224, 0.4375, 0.4375, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,resolveFile,SIMPLE_NAME, line no: 224, 0.4375, 0.4375, 0.0
+e,SIMPLE_NAME, line no: 249,getActiveConfiguration,SIMPLE_NAME, line no: 109, 0.4, 0.4, 0.0
+e,SIMPLE_NAME, line no: 249,(ConfigurationException)ex,CAST_EXPRESSION, line no: 127, 0.4, 0.4, 0.0
+e,SIMPLE_NAME, line no: 249,new PluginPropertiesUtil().loadPluginProperties(getPluginInterface()),METHOD_INVOCATION, line no: 161, 0.4, 0.4, 0.0
+true,BOOLEAN_LITERAL, line no: 249,String,SIMPLE_NAME, line no: 56, 0.4, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,PROPERTY_HADOOP_CONFIGURATIONS_PATH,SIMPLE_NAME, line no: 60, 0.4, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,DEFAULT_FOLDER_HADOOP_CONFIGURATIONS,SIMPLE_NAME, line no: 62, 0.4, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,getActiveConfiguration,SIMPLE_NAME, line no: 109, 0.4, 0.4, 0.0
+true,BOOLEAN_LITERAL, line no: 249,(ConfigurationException)ex,CAST_EXPRESSION, line no: 127, 0.4, 0.4, 0.0
+true,BOOLEAN_LITERAL, line no: 249,getPluginProperties,SIMPLE_NAME, line no: 159, 0.4, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,new PluginPropertiesUtil().loadPluginProperties(getPluginInterface()),METHOD_INVOCATION, line no: 161, 0.4, 0.4, 0.0
+true,BOOLEAN_LITERAL, line no: 249,locatePluginDirectory,SIMPLE_NAME, line no: 192, 0.4, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,hadoopConfigurationPath,SIMPLE_NAME, line no: 222, 0.4, 0.4, 0.0
+true,BOOLEAN_LITERAL, line no: 249,getPluginProperties().getProperty(PROPERTY_HADOOP_CONFIGURATIONS_PATH DEFAULT_FOLDER_HADOOP_CONFIGURATIONS),METHOD_INVOCATION, line no: 223, 0.4, 0.4, 0.0
+true,BOOLEAN_LITERAL, line no: 249,getPluginProperties(),METHOD_INVOCATION, line no: 223, 0.4, 0.4, 0.0
+true,BOOLEAN_LITERAL, line no: 249,locatePluginDirectory().resolveFile(hadoopConfigurationPath),METHOD_INVOCATION, line no: 224, 0.4, 0.4, 0.0
+true,BOOLEAN_LITERAL, line no: 249,locatePluginDirectory(),METHOD_INVOCATION, line no: 224, 0.4, 0.4, 0.0
+true,BOOLEAN_LITERAL, line no: 249,resolveFile,SIMPLE_NAME, line no: 224, 0.4, 0.4, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,getProvider,SIMPLE_NAME, line no: 83, 0.375, 0.3125, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,p.getActiveConfiguration(),METHOD_INVOCATION, line no: 109, 0.375, 0.375, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,(ConfigurationException)ex,CAST_EXPRESSION, line no: 127, 0.375, 0.375, 0.0
+e,SIMPLE_NAME, line no: 249,getProvider,SIMPLE_NAME, line no: 83, 0.3333333333333333, 0.26666666666666666, 0.0
+e,SIMPLE_NAME, line no: 249,activeConfig=p.getActiveConfiguration(),ASSIGNMENT, line no: 109, 0.3333333333333333, 0.3333333333333333, 0.0
+e,SIMPLE_NAME, line no: 249,p.getActiveConfiguration(),METHOD_INVOCATION, line no: 109, 0.3333333333333333, 0.3333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 249,getProvider,SIMPLE_NAME, line no: 83, 0.3333333333333333, 0.26666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 249,activeConfig=p.getActiveConfiguration(),ASSIGNMENT, line no: 109, 0.3333333333333333, 0.3333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 249,p.getActiveConfiguration(),METHOD_INVOCATION, line no: 109, 0.3333333333333333, 0.3333333333333333, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,instance,SIMPLE_NAME, line no: 74, 0.3125, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,initProvider,SIMPLE_NAME, line no: 91, 0.3125, 0.3125, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,activeConfig=p.getActiveConfiguration(),ASSIGNMENT, line no: 109, 0.3125, 0.3125, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,getInstance().getProvider(),METHOD_INVOCATION, line no: 246, 0.3125, 0.3125, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,getInstance(),METHOD_INVOCATION, line no: 246, 0.3125, 0.3125, 0.0
+e,SIMPLE_NAME, line no: 249,HadoopConfigurationBootstrap,SIMPLE_NAME, line no: 53, 0.26666666666666666, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,instance,SIMPLE_NAME, line no: 74, 0.26666666666666666, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,initProvider,SIMPLE_NAME, line no: 91, 0.26666666666666666, 0.26666666666666666, 0.0
+e,SIMPLE_NAME, line no: 249,p=getPluginProperties(),ASSIGNMENT, line no: 231, 0.26666666666666666, 0.26666666666666666, 0.0
+e,SIMPLE_NAME, line no: 249,getInstance().getProvider(),METHOD_INVOCATION, line no: 246, 0.26666666666666666, 0.26666666666666666, 0.0
+e,SIMPLE_NAME, line no: 249,getInstance(),METHOD_INVOCATION, line no: 246, 0.26666666666666666, 0.26666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 249,HadoopConfigurationBootstrap,SIMPLE_NAME, line no: 53, 0.26666666666666666, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,instance,SIMPLE_NAME, line no: 74, 0.26666666666666666, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,initProvider,SIMPLE_NAME, line no: 91, 0.26666666666666666, 0.26666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 249,p=getPluginProperties(),ASSIGNMENT, line no: 231, 0.26666666666666666, 0.26666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 249,getInstance().getProvider(),METHOD_INVOCATION, line no: 246, 0.26666666666666666, 0.26666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 249,getInstance(),METHOD_INVOCATION, line no: 246, 0.26666666666666666, 0.26666666666666666, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,HadoopConfigurationBootstrap,SIMPLE_NAME, line no: 53, 0.25, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,instance.getProvider(),METHOD_INVOCATION, line no: 83, 0.25, 0.25, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,initProvider(),METHOD_INVOCATION, line no: 91, 0.25, 0.25, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,p=getPluginProperties(),ASSIGNMENT, line no: 231, 0.25, 0.25, 0.0
+e,SIMPLE_NAME, line no: 249,"HadoopConfigurationBootstrap.LoggingPrefix",STRING_LITERAL, line no: 67, 0.2, 0.2, 0.0
+e,SIMPLE_NAME, line no: 249,instance.getProvider(),METHOD_INVOCATION, line no: 83, 0.2, 0.2, 0.0
+e,SIMPLE_NAME, line no: 249,initProvider(),METHOD_INVOCATION, line no: 91, 0.2, 0.2, 0.0
+e,SIMPLE_NAME, line no: 249,HadoopConfigurationBootstrap.instance=instance,ASSIGNMENT, line no: 96, 0.2, 0.2, 0.0
+e,SIMPLE_NAME, line no: 249,HadoopConfigurationBootstrap.instance,QUALIFIED_NAME, line no: 96, 0.2, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 249,"HadoopConfigurationBootstrap.LoggingPrefix",STRING_LITERAL, line no: 67, 0.2, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 249,instance.getProvider(),METHOD_INVOCATION, line no: 83, 0.2, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 249,initProvider(),METHOD_INVOCATION, line no: 91, 0.2, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 249,HadoopConfigurationBootstrap.instance=instance,ASSIGNMENT, line no: 96, 0.2, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 249,HadoopConfigurationBootstrap.instance,QUALIFIED_NAME, line no: 96, 0.2, 0.2, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,"HadoopConfigurationBootstrap.LoggingPrefix",STRING_LITERAL, line no: 67, 0.1875, 0.1875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,HadoopConfigurationBootstrap.instance=instance,ASSIGNMENT, line no: 96, 0.1875, 0.1875, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,HadoopConfigurationBootstrap.instance,QUALIFIED_NAME, line no: 96, 0.1875, 0.1875, 0.0
+e,SIMPLE_NAME, line no: 249,LogChannel,SIMPLE_NAME, line no: 34, 0.13333333333333333, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.LoggingPrefix"),METHOD_INVOCATION, line no: 66, 0.13333333333333333, 0.13333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 249,LogChannel,SIMPLE_NAME, line no: 34, 0.13333333333333333, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.LoggingPrefix"),METHOD_INVOCATION, line no: 66, 0.13333333333333333, 0.13333333333333333, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,LogChannel,SIMPLE_NAME, line no: 34, 0.125, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,BaseMessages.getString(PKG "HadoopConfigurationBootstrap.LoggingPrefix"),METHOD_INVOCATION, line no: 66, 0.125, 0.125, 0.0
+e,SIMPLE_NAME, line no: 249,org,SIMPLE_NAME, line no: 23, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,pentaho,SIMPLE_NAME, line no: 23, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,di,SIMPLE_NAME, line no: 23, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,core,SIMPLE_NAME, line no: 23, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,hadoop,SIMPLE_NAME, line no: 23, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,java,SIMPLE_NAME, line no: 25, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,io,SIMPLE_NAME, line no: 25, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,IOException,SIMPLE_NAME, line no: 25, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,util,SIMPLE_NAME, line no: 26, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,apache,SIMPLE_NAME, line no: 28, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,commons,SIMPLE_NAME, line no: 28, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,vfs,SIMPLE_NAME, line no: 28, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,impl,SIMPLE_NAME, line no: 29, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,annotations,SIMPLE_NAME, line no: 30, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,KettleLifecyclePlugin,SIMPLE_NAME, line no: 30, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,exception,SIMPLE_NAME, line no: 31, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,lifecycle,SIMPLE_NAME, line no: 32, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,KettleLifecycleListener,SIMPLE_NAME, line no: 32, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,logging,SIMPLE_NAME, line no: 34, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,LogChannelInterface,SIMPLE_NAME, line no: 35, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,plugins,SIMPLE_NAME, line no: 36, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,i18n,SIMPLE_NAME, line no: 40, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,shim,SIMPLE_NAME, line no: 42, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,api,SIMPLE_NAME, line no: 45, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,ActiveHadoopConfigurationLocator,SIMPLE_NAME, line no: 45, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,spi,SIMPLE_NAME, line no: 46, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,id,SIMPLE_NAME, line no: 52, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,"HadoopConfigurationBootstrap",STRING_LITERAL, line no: 52, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,name,SIMPLE_NAME, line no: 52, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,"Hadoop Configuration Bootstrap",STRING_LITERAL, line no: 52, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,Class,SIMPLE_NAME, line no: 54, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,"active.hadoop.configuration",STRING_LITERAL, line no: 58, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,"hadoop.configurations.path",STRING_LITERAL, line no: 60, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,"hadoop-configurations",STRING_LITERAL, line no: 62, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,new LogChannel(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.LoggingPrefix")),CLASS_INSTANCE_CREATION, line no: 66, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,new HadoopConfigurationBootstrap(),CLASS_INSTANCE_CREATION, line no: 74, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,getHadoopConfigurationProvider,SIMPLE_NAME, line no: 82, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,setInstance,SIMPLE_NAME, line no: 95, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,Override,SIMPLE_NAME, line no: 227, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,onEnvironmentInit,SIMPLE_NAME, line no: 244, 0.06666666666666667, 0.06666666666666667, 0.0
+e,SIMPLE_NAME, line no: 249,onEnvironmentShutdown,SIMPLE_NAME, line no: 254, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,org,SIMPLE_NAME, line no: 23, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,pentaho,SIMPLE_NAME, line no: 23, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,di,SIMPLE_NAME, line no: 23, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,core,SIMPLE_NAME, line no: 23, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,hadoop,SIMPLE_NAME, line no: 23, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,java,SIMPLE_NAME, line no: 25, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,io,SIMPLE_NAME, line no: 25, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,IOException,SIMPLE_NAME, line no: 25, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,util,SIMPLE_NAME, line no: 26, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,apache,SIMPLE_NAME, line no: 28, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,commons,SIMPLE_NAME, line no: 28, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,vfs,SIMPLE_NAME, line no: 28, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,impl,SIMPLE_NAME, line no: 29, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,annotations,SIMPLE_NAME, line no: 30, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,KettleLifecyclePlugin,SIMPLE_NAME, line no: 30, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,exception,SIMPLE_NAME, line no: 31, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,lifecycle,SIMPLE_NAME, line no: 32, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,KettleLifecycleListener,SIMPLE_NAME, line no: 32, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,logging,SIMPLE_NAME, line no: 34, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,LogChannelInterface,SIMPLE_NAME, line no: 35, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,plugins,SIMPLE_NAME, line no: 36, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,i18n,SIMPLE_NAME, line no: 40, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,shim,SIMPLE_NAME, line no: 42, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,api,SIMPLE_NAME, line no: 45, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,ActiveHadoopConfigurationLocator,SIMPLE_NAME, line no: 45, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,spi,SIMPLE_NAME, line no: 46, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,id,SIMPLE_NAME, line no: 52, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,"HadoopConfigurationBootstrap",STRING_LITERAL, line no: 52, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,name,SIMPLE_NAME, line no: 52, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,"Hadoop Configuration Bootstrap",STRING_LITERAL, line no: 52, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,Class,SIMPLE_NAME, line no: 54, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,"active.hadoop.configuration",STRING_LITERAL, line no: 58, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,"hadoop.configurations.path",STRING_LITERAL, line no: 60, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,"hadoop-configurations",STRING_LITERAL, line no: 62, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,new LogChannel(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.LoggingPrefix")),CLASS_INSTANCE_CREATION, line no: 66, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,new HadoopConfigurationBootstrap(),CLASS_INSTANCE_CREATION, line no: 74, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,getHadoopConfigurationProvider,SIMPLE_NAME, line no: 82, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,setInstance,SIMPLE_NAME, line no: 95, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,Override,SIMPLE_NAME, line no: 227, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,onEnvironmentInit,SIMPLE_NAME, line no: 244, 0.06666666666666667, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 249,onEnvironmentShutdown,SIMPLE_NAME, line no: 254, 0.06666666666666667, 0.06666666666666667, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,org,SIMPLE_NAME, line no: 23, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,pentaho,SIMPLE_NAME, line no: 23, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,di,SIMPLE_NAME, line no: 23, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,core,SIMPLE_NAME, line no: 23, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,hadoop,SIMPLE_NAME, line no: 23, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,java,SIMPLE_NAME, line no: 25, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,io,SIMPLE_NAME, line no: 25, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,IOException,SIMPLE_NAME, line no: 25, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,util,SIMPLE_NAME, line no: 26, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,apache,SIMPLE_NAME, line no: 28, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,commons,SIMPLE_NAME, line no: 28, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,vfs,SIMPLE_NAME, line no: 28, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,impl,SIMPLE_NAME, line no: 29, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,annotations,SIMPLE_NAME, line no: 30, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,KettleLifecyclePlugin,SIMPLE_NAME, line no: 30, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,exception,SIMPLE_NAME, line no: 31, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,lifecycle,SIMPLE_NAME, line no: 32, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,KettleLifecycleListener,SIMPLE_NAME, line no: 32, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,logging,SIMPLE_NAME, line no: 34, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,LogChannelInterface,SIMPLE_NAME, line no: 35, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,plugins,SIMPLE_NAME, line no: 36, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,i18n,SIMPLE_NAME, line no: 40, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,shim,SIMPLE_NAME, line no: 42, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,api,SIMPLE_NAME, line no: 45, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,ActiveHadoopConfigurationLocator,SIMPLE_NAME, line no: 45, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,spi,SIMPLE_NAME, line no: 46, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,id,SIMPLE_NAME, line no: 52, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,"HadoopConfigurationBootstrap",STRING_LITERAL, line no: 52, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,name,SIMPLE_NAME, line no: 52, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,"Hadoop Configuration Bootstrap",STRING_LITERAL, line no: 52, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,Class,SIMPLE_NAME, line no: 54, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,"active.hadoop.configuration",STRING_LITERAL, line no: 58, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,"hadoop.configurations.path",STRING_LITERAL, line no: 60, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,"hadoop-configurations",STRING_LITERAL, line no: 62, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,new LogChannel(BaseMessages.getString(PKG "HadoopConfigurationBootstrap.LoggingPrefix")),CLASS_INSTANCE_CREATION, line no: 66, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,new HadoopConfigurationBootstrap(),CLASS_INSTANCE_CREATION, line no: 74, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,getHadoopConfigurationProvider,SIMPLE_NAME, line no: 82, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,setInstance,SIMPLE_NAME, line no: 95, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,Override,SIMPLE_NAME, line no: 227, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,onEnvironmentInit,SIMPLE_NAME, line no: 244, 0.0625, 0.0625, 0.0
+"HadoopConfigurationBootstrap.HadoopConfiguration.StartupError",STRING_LITERAL, line no: 249,onEnvironmentShutdown,SIMPLE_NAME, line no: 254, 0.0625, 0.0625, 0.0

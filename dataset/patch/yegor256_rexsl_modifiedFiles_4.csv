@@ -1,0 +1,1345 @@
+this.appKey,FIELD_ACCESS, line no: 145,appKey,SIMPLE_NAME, line no: 77, 2.0, 0.03571428571428571, 1.0
+this.appKey,FIELD_ACCESS, line no: 145,token,SIMPLE_NAME, line no: 109, 2.0, 0.9285714285714286, 1.0
+appKey,SIMPLE_NAME, line no: 145,token,SIMPLE_NAME, line no: 109, 2.0, 0.9310344827586207, 1.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,redirectUri,SIMPLE_NAME, line no: 145, 2.0, 1.0, 1.0
+this,THIS_EXPRESSION, line no: 145,Facebook,SIMPLE_NAME, line no: 57, 1.9655172413793105, 0.034482758620689655, 1.0
+appKey,SIMPLE_NAME, line no: 145,String,SIMPLE_NAME, line no: 62, 1.9655172413793105, 0.034482758620689655, 1.0
+appKey,SIMPLE_NAME, line no: 145,FLAG,SIMPLE_NAME, line no: 62, 1.9655172413793105, 0.034482758620689655, 1.0
+appKey,SIMPLE_NAME, line no: 145,appId,SIMPLE_NAME, line no: 72, 1.9655172413793105, 0.034482758620689655, 1.0
+appKey,SIMPLE_NAME, line no: 145,this.appId,FIELD_ACCESS, line no: 88, 1.9655172413793105, 0.3448275862068966, 1.0
+appKey,SIMPLE_NAME, line no: 145,this.appKey,FIELD_ACCESS, line no: 89, 1.9655172413793105, 0.3448275862068966, 1.0
+appKey,SIMPLE_NAME, line no: 145,Facebook.FLAG,QUALIFIED_NAME, line no: 100, 1.9655172413793105, 0.9655172413793104, 1.0
+appKey,SIMPLE_NAME, line no: 145,code,SIMPLE_NAME, line no: 101, 1.9655172413793105, 0.9310344827586207, 0.0
+appKey,SIMPLE_NAME, line no: 145,"code",STRING_LITERAL, line no: 103, 1.9655172413793105, 0.9655172413793104, 1.0
+appKey,SIMPLE_NAME, line no: 145,"client_id",STRING_LITERAL, line no: 143, 1.9655172413793105, 0.9310344827586207, 1.0
+appKey,SIMPLE_NAME, line no: 145,"redirect_uri",STRING_LITERAL, line no: 144, 1.9655172413793105, 0.9310344827586207, 1.0
+appKey,SIMPLE_NAME, line no: 145,"https://graph.facebook.com/oauth/access_token",STRING_LITERAL, line no: 168, 1.9655172413793105, 0.9655172413793104, 1.0
+appKey,SIMPLE_NAME, line no: 145,"{id}",STRING_LITERAL, line no: 169, 1.9655172413793105, 0.9655172413793104, 1.0
+appKey,SIMPLE_NAME, line no: 145,"{uri}",STRING_LITERAL, line no: 170, 1.9655172413793105, 0.9655172413793104, 1.0
+appKey,SIMPLE_NAME, line no: 145,"client_secret",STRING_LITERAL, line no: 171, 1.9655172413793105, 0.9655172413793104, 1.0
+appKey,SIMPLE_NAME, line no: 145,"{secret}",STRING_LITERAL, line no: 171, 1.9655172413793105, 0.9655172413793104, 1.0
+appKey,SIMPLE_NAME, line no: 145,"{code}",STRING_LITERAL, line no: 172, 1.9655172413793105, 0.9655172413793104, 1.0
+appKey,SIMPLE_NAME, line no: 145,response,SIMPLE_NAME, line no: 179, 1.9655172413793105, 0.9655172413793104, 1.0
+appKey,SIMPLE_NAME, line no: 145,RestTester.start(uri).get("fetch Facebook access token").assertStatus(HttpURLConnection.HTTP_OK).getBody(),METHOD_INVOCATION, line no: 179, 1.9655172413793105, 0.9655172413793104, 1.0
+appKey,SIMPLE_NAME, line no: 145,"fetch Facebook access token",STRING_LITERAL, line no: 180, 1.9655172413793105, 0.9655172413793104, 1.0
+appKey,SIMPLE_NAME, line no: 145,getBody,SIMPLE_NAME, line no: 182, 1.9655172413793105, 0.9655172413793104, 1.0
+appKey,SIMPLE_NAME, line no: 145,"&",STRING_LITERAL, line no: 183, 1.9655172413793105, 0.9655172413793104, 1.0
+appKey,SIMPLE_NAME, line no: 145,sector,SIMPLE_NAME, line no: 185, 1.9655172413793105, 0.9655172413793104, 1.0
+this,THIS_EXPRESSION, line no: 145,Facebook,SIMPLE_NAME, line no: 57, 1.9655172413793105, 0.034482758620689655, 1.0
+redirectUri,SIMPLE_NAME, line no: 145,URI,SIMPLE_NAME, line no: 41, 1.9655172413793105, 0.034482758620689655, 1.0
+redirectUri,SIMPLE_NAME, line no: 145,photo,SIMPLE_NAME, line no: 122, 1.9655172413793105, 0.9655172413793104, 1.0
+redirectUri,SIMPLE_NAME, line no: 145,this.redirectUri(),METHOD_INVOCATION, line no: 145, 1.9655172413793105, 0.9655172413793104, 1.0
+redirectUri,SIMPLE_NAME, line no: 145,uri,SIMPLE_NAME, line no: 167, 1.9655172413793105, 0.9655172413793104, 1.0
+this.appKey,FIELD_ACCESS, line no: 145,String,SIMPLE_NAME, line no: 62, 1.9642857142857144, 0.03571428571428571, 1.0
+this.appKey,FIELD_ACCESS, line no: 145,FLAG,SIMPLE_NAME, line no: 62, 1.9642857142857144, 0.03571428571428571, 1.0
+this.appKey,FIELD_ACCESS, line no: 145,appId,SIMPLE_NAME, line no: 72, 1.9642857142857144, 0.03571428571428571, 1.0
+this.appKey,FIELD_ACCESS, line no: 145,code,SIMPLE_NAME, line no: 101, 1.9642857142857144, 0.9285714285714286, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}").queryParam("redirect_uri" "{redirect_uri}").build(this.appKey this.redirectUri()),METHOD_INVOCATION, line no: 140, 1.9642857142857144, 0.9642857142857143, 1.0
+this.appKey,FIELD_ACCESS, line no: 145,response,SIMPLE_NAME, line no: 179, 1.9642857142857144, 0.9642857142857143, 1.0
+this.appKey,FIELD_ACCESS, line no: 145,getBody,SIMPLE_NAME, line no: 182, 1.9642857142857144, 0.9642857142857143, 1.0
+this.appKey,FIELD_ACCESS, line no: 145,sector,SIMPLE_NAME, line no: 185, 1.9642857142857144, 0.9642857142857143, 1.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,URI,SIMPLE_NAME, line no: 41, 1.9642857142857144, 0.03571428571428571, 1.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,photo,SIMPLE_NAME, line no: 122, 1.9642857142857144, 0.9642857142857143, 1.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,uri,SIMPLE_NAME, line no: 167, 1.9642857142857144, 0.9642857142857143, 1.0
+appKey,SIMPLE_NAME, line no: 145,get,SIMPLE_NAME, line no: 103, 1.9310344827586206, 0.9310344827586207, 0.0
+appKey,SIMPLE_NAME, line no: 145,this.token(code.get(0)),METHOD_INVOCATION, line no: 109, 1.9310344827586206, 0.9310344827586207, 1.0
+appKey,SIMPLE_NAME, line no: 145,code.get(0),METHOD_INVOCATION, line no: 109, 1.9310344827586206, 0.9310344827586207, 1.0
+appKey,SIMPLE_NAME, line no: 145,name,SIMPLE_NAME, line no: 118, 1.9310344827586206, 0.9310344827586207, 1.0
+appKey,SIMPLE_NAME, line no: 145,"https://www.facebook.com/dialog/oauth",STRING_LITERAL, line no: 141, 1.9310344827586206, 0.9310344827586207, 1.0
+appKey,SIMPLE_NAME, line no: 145,"{client_id}",STRING_LITERAL, line no: 143, 1.9310344827586206, 0.9310344827586207, 1.0
+appKey,SIMPLE_NAME, line no: 145,"{redirect_uri}",STRING_LITERAL, line no: 144, 1.9310344827586206, 0.9310344827586207, 1.0
+this.appKey,FIELD_ACCESS, line no: 145,get,SIMPLE_NAME, line no: 103, 1.9285714285714286, 0.9285714285714286, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,name,SIMPLE_NAME, line no: 118, 1.9285714285714286, 0.9285714285714286, 1.0
+this.appKey,FIELD_ACCESS, line no: 145,new Link("auth-facebook" UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}").queryParam("redirect_uri" "{redirect_uri}").build(this.appKey this.redirectUri())),CLASS_INSTANCE_CREATION, line no: 138, 1.9285714285714286, 0.9285714285714286, 1.0
+appKey,SIMPLE_NAME, line no: 145,"auth-facebook",STRING_LITERAL, line no: 139, 1.896551724137931, 0.896551724137931, 1.0
+appKey,SIMPLE_NAME, line no: 145,"=",STRING_LITERAL, line no: 186, 1.6206896551724137, 0.6206896551724138, 1.0
+appKey,SIMPLE_NAME, line no: 145,"access_token",STRING_LITERAL, line no: 195, 1.6206896551724137, 0.6206896551724138, 1.0
+appKey,SIMPLE_NAME, line no: 145,"https://graph.facebook.com/",STRING_LITERAL, line no: 123, 1.5862068965517242, 0.5862068965517241, 1.0
+appKey,SIMPLE_NAME, line no: 145,"/{id}/picture",STRING_LITERAL, line no: 124, 1.5862068965517242, 0.5862068965517241, 1.0
+appKey,SIMPLE_NAME, line no: 145,pair[0],ARRAY_ACCESS, line no: 195, 1.5862068965517242, 0.5862068965517241, 1.0
+this.appKey,FIELD_ACCESS, line no: 145,format,SIMPLE_NAME, line no: 114, 1.5357142857142856, 0.5357142857142857, 1.0
+appKey,SIMPLE_NAME, line no: 145,format,SIMPLE_NAME, line no: 114, 1.5172413793103448, 0.5172413793103449, 1.0
+appKey,SIMPLE_NAME, line no: 145,"urn:facebook:%s",STRING_LITERAL, line no: 114, 1.5172413793103448, 0.5172413793103449, 1.0
+this.appKey,FIELD_ACCESS, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}").queryParam("client_secret" "{secret}").queryParam("code" "{code}").build(this.appId this.redirectUri() this.appKey code),METHOD_INVOCATION, line no: 167, 1.4642857142857144, 0.9642857142857143, 0.5
+this.appKey,FIELD_ACCESS, line no: 145,aid,SIMPLE_NAME, line no: 86, 1.3928571428571428, 0.03571428571428571, 1.0
+this.appKey,FIELD_ACCESS, line no: 145,key,SIMPLE_NAME, line no: 86, 1.3928571428571428, 0.03571428571428571, 1.0
+appKey,SIMPLE_NAME, line no: 145,aid,SIMPLE_NAME, line no: 86, 1.3793103448275863, 0.034482758620689655, 1.0
+appKey,SIMPLE_NAME, line no: 145,key,SIMPLE_NAME, line no: 86, 1.3793103448275863, 0.034482758620689655, 1.0
+appKey,SIMPLE_NAME, line no: 145,"me",STRING_LITERAL, line no: 219, 1.3793103448275863, 0.3793103448275862, 1.0
+this.appKey,FIELD_ACCESS, line no: 145,this.appKey=key,ASSIGNMENT, line no: 89, 1.3571428571428572, 0.35714285714285715, 1.0
+appKey,SIMPLE_NAME, line no: 145,this.appId=aid,ASSIGNMENT, line no: 88, 1.3448275862068966, 0.3448275862068966, 1.0
+appKey,SIMPLE_NAME, line no: 145,this.appKey=key,ASSIGNMENT, line no: 89, 1.3448275862068966, 0.3448275862068966, 1.0
+appKey,SIMPLE_NAME, line no: 145,"Invalid response: '%s'",STRING_LITERAL, line no: 190, 1.3448275862068966, 0.3448275862068966, 1.0
+appKey,SIMPLE_NAME, line no: 145,"Access token not found in response: '%s'",STRING_LITERAL, line no: 203, 1.3448275862068966, 0.3448275862068966, 1.0
+appKey,SIMPLE_NAME, line no: 145,String.format("Invalid response: '%s'" response),METHOD_INVOCATION, line no: 189, 1.3103448275862069, 0.3103448275862069, 1.0
+appKey,SIMPLE_NAME, line no: 145,String.format("Access token not found in response: '%s'" response),METHOD_INVOCATION, line no: 202, 1.3103448275862069, 0.3103448275862069, 1.0
+appKey,SIMPLE_NAME, line no: 145,"HTTP query parameter 'code' is mandatory",STRING_LITERAL, line no: 106, 1.1724137931034484, 0.1724137931034483, 1.0
+appKey,SIMPLE_NAME, line no: 145,token=pair[1],ASSIGNMENT, line no: 196, 1.0689655172413792, 0.06896551724137931, 1.0
+appKey,SIMPLE_NAME, line no: 145,pair[1],ARRAY_ACCESS, line no: 196, 1.0689655172413792, 0.06896551724137931, 1.0
+appKey,SIMPLE_NAME, line no: 145,"appId",STRING_LITERAL, line no: 56, 1.0344827586206897, 0.034482758620689655, 1.0
+appKey,SIMPLE_NAME, line no: 145,"appKey",STRING_LITERAL, line no: 56, 1.0344827586206897, 0.034482758620689655, 1.0
+appKey,SIMPLE_NAME, line no: 145,"rexsl-facebook",STRING_LITERAL, line no: 62, 1.0344827586206897, 0.034482758620689655, 1.0
+build,SIMPLE_NAME, line no: 145,UriBuilder,SIMPLE_NAME, line no: 44, 1.0, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,appKey,SIMPLE_NAME, line no: 77, 1.0, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,"code",STRING_LITERAL, line no: 103, 1.0, 1.0, 0.0
+build,SIMPLE_NAME, line no: 145,token,SIMPLE_NAME, line no: 109, 1.0, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,fromUri,SIMPLE_NAME, line no: 123, 1.0, 0.6071428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,queryParam,SIMPLE_NAME, line no: 143, 1.0, 1.0, 0.0
+build,SIMPLE_NAME, line no: 145,redirectUri,SIMPLE_NAME, line no: 145, 1.0, 1.0, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,this,THIS_EXPRESSION, line no: 87, 1.0, 0.35714285714285715, 0.0
+this,THIS_EXPRESSION, line no: 145,token,SIMPLE_NAME, line no: 109, 1.0, 0.9310344827586207, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,UriBuilder,SIMPLE_NAME, line no: 44, 1.0, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,this,THIS_EXPRESSION, line no: 87, 1.0, 0.32142857142857145, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"code",STRING_LITERAL, line no: 103, 1.0, 1.0, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,token,SIMPLE_NAME, line no: 109, 1.0, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,fromUri,SIMPLE_NAME, line no: 123, 1.0, 0.6428571428571429, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}").queryParam("redirect_uri" "{redirect_uri}"),METHOD_INVOCATION, line no: 140, 1.0, 1.0, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}"),METHOD_INVOCATION, line no: 140, 1.0, 1.0, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth"),METHOD_INVOCATION, line no: 140, 1.0, 1.0, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"https://www.facebook.com/dialog/oauth",STRING_LITERAL, line no: 141, 1.0, 1.0, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,queryParam,SIMPLE_NAME, line no: 143, 1.0, 1.0, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"client_id",STRING_LITERAL, line no: 143, 1.0, 1.0, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"{client_id}",STRING_LITERAL, line no: 143, 1.0, 1.0, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"redirect_uri",STRING_LITERAL, line no: 144, 1.0, 1.0, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"{redirect_uri}",STRING_LITERAL, line no: 144, 1.0, 1.0, 0.0
+this,THIS_EXPRESSION, line no: 145,"code",STRING_LITERAL, line no: 103, 1.0, 1.0, 0.0
+this,THIS_EXPRESSION, line no: 145,token,SIMPLE_NAME, line no: 109, 1.0, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,java.net.URI,QUALIFIED_NAME, line no: 41, 1.0, 0.0, 1.0
+redirectUri,SIMPLE_NAME, line no: 145,UriBuilder,SIMPLE_NAME, line no: 44, 1.0, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"code",STRING_LITERAL, line no: 103, 1.0, 1.0, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,token,SIMPLE_NAME, line no: 109, 1.0, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,fromUri,SIMPLE_NAME, line no: 123, 1.0, 0.6206896551724138, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,queryParam,SIMPLE_NAME, line no: 143, 1.0, 1.0, 0.0
+this,THIS_EXPRESSION, line no: 145,RestTester,SIMPLE_NAME, line no: 38, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,HttpURLConnection,SIMPLE_NAME, line no: 40, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,URI,SIMPLE_NAME, line no: 41, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder,SIMPLE_NAME, line no: 44, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,String,SIMPLE_NAME, line no: 62, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,FLAG,SIMPLE_NAME, line no: 62, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,resource,SIMPLE_NAME, line no: 67, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,appId,SIMPLE_NAME, line no: 72, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,appKey,SIMPLE_NAME, line no: 77, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,this.resource,FIELD_ACCESS, line no: 87, 0.9655172413793104, 0.3793103448275862, 0.0
+this,THIS_EXPRESSION, line no: 145,this.appId,FIELD_ACCESS, line no: 88, 0.9655172413793104, 0.3793103448275862, 0.0
+this,THIS_EXPRESSION, line no: 145,this.appKey,FIELD_ACCESS, line no: 89, 0.9655172413793104, 0.3793103448275862, 0.0
+this,THIS_EXPRESSION, line no: 145,Identity,SIMPLE_NAME, line no: 97, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,identity,SIMPLE_NAME, line no: 97, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,Identity.ANONYMOUS,QUALIFIED_NAME, line no: 98, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,ANONYMOUS,SIMPLE_NAME, line no: 98, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,this.resource.uriInfo().getQueryParameters().containsKey(Facebook.FLAG),METHOD_INVOCATION, line no: 99, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,this.resource.uriInfo().getQueryParameters(),METHOD_INVOCATION, line no: 99, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,this.resource.uriInfo(),METHOD_INVOCATION, line no: 99, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,uriInfo,SIMPLE_NAME, line no: 99, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,getQueryParameters,SIMPLE_NAME, line no: 99, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,containsKey,SIMPLE_NAME, line no: 100, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,Facebook.FLAG,QUALIFIED_NAME, line no: 100, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,code,SIMPLE_NAME, line no: 101, 0.9655172413793104, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,get,SIMPLE_NAME, line no: 103, 0.9655172413793104, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,"code",STRING_LITERAL, line no: 103, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,fromUri,SIMPLE_NAME, line no: 123, 0.9655172413793104, 0.5862068965517241, 0.0
+this,THIS_EXPRESSION, line no: 145,build,SIMPLE_NAME, line no: 125, 0.9655172413793104, 0.5517241379310345, 0.0
+this,THIS_EXPRESSION, line no: 145,queryParam,SIMPLE_NAME, line no: 143, 0.9655172413793104, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,"client_id",STRING_LITERAL, line no: 143, 0.9655172413793104, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,"redirect_uri",STRING_LITERAL, line no: 144, 0.9655172413793104, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,this.redirectUri(),METHOD_INVOCATION, line no: 145, 0.9655172413793104, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,redirectUri,SIMPLE_NAME, line no: 145, 0.9655172413793104, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,uri,SIMPLE_NAME, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}").queryParam("client_secret" "{secret}").queryParam("code" "{code}").build(this.appId this.redirectUri() this.appKey code),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}").queryParam("client_secret" "{secret}").queryParam("code" "{code}"),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}").queryParam("client_secret" "{secret}"),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}"),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}"),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token"),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,"https://graph.facebook.com/oauth/access_token",STRING_LITERAL, line no: 168, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,"{id}",STRING_LITERAL, line no: 169, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,"{uri}",STRING_LITERAL, line no: 170, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,"client_secret",STRING_LITERAL, line no: 171, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,"{secret}",STRING_LITERAL, line no: 171, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,"{code}",STRING_LITERAL, line no: 172, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,response,SIMPLE_NAME, line no: 179, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,RestTester.start(uri).get("fetch Facebook access token").assertStatus(HttpURLConnection.HTTP_OK).getBody(),METHOD_INVOCATION, line no: 179, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,RestTester.start(uri).get("fetch Facebook access token").assertStatus(HttpURLConnection.HTTP_OK),METHOD_INVOCATION, line no: 179, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,RestTester.start(uri).get("fetch Facebook access token"),METHOD_INVOCATION, line no: 179, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,RestTester.start(uri),METHOD_INVOCATION, line no: 179, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,start,SIMPLE_NAME, line no: 179, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,"fetch Facebook access token",STRING_LITERAL, line no: 180, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,assertStatus,SIMPLE_NAME, line no: 181, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,HttpURLConnection.HTTP_OK,QUALIFIED_NAME, line no: 181, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,HTTP_OK,SIMPLE_NAME, line no: 181, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,getBody,SIMPLE_NAME, line no: 182, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,sectors,SIMPLE_NAME, line no: 183, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,response.split("&"),METHOD_INVOCATION, line no: 183, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,split,SIMPLE_NAME, line no: 183, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,"&",STRING_LITERAL, line no: 183, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,null,NULL_LITERAL, line no: 184, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,sector,SIMPLE_NAME, line no: 185, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,token == null,INFIX_EXPRESSION, line no: 200, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,RestTester,SIMPLE_NAME, line no: 38, 0.9655172413793104, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,HttpURLConnection,SIMPLE_NAME, line no: 40, 0.9655172413793104, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,URI,SIMPLE_NAME, line no: 41, 0.9655172413793104, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,UriBuilder,SIMPLE_NAME, line no: 44, 0.9655172413793104, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,Facebook,SIMPLE_NAME, line no: 57, 0.9655172413793104, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,resource,SIMPLE_NAME, line no: 67, 0.9655172413793104, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,this.resource,FIELD_ACCESS, line no: 87, 0.9655172413793104, 0.3448275862068966, 0.0
+appKey,SIMPLE_NAME, line no: 145,this,THIS_EXPRESSION, line no: 87, 0.9655172413793104, 0.3448275862068966, 0.0
+appKey,SIMPLE_NAME, line no: 145,Identity,SIMPLE_NAME, line no: 97, 0.9655172413793104, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,identity,SIMPLE_NAME, line no: 97, 0.9655172413793104, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,Identity.ANONYMOUS,QUALIFIED_NAME, line no: 98, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,ANONYMOUS,SIMPLE_NAME, line no: 98, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,this.resource.uriInfo().getQueryParameters().containsKey(Facebook.FLAG),METHOD_INVOCATION, line no: 99, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,this.resource.uriInfo().getQueryParameters(),METHOD_INVOCATION, line no: 99, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,this.resource.uriInfo(),METHOD_INVOCATION, line no: 99, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,uriInfo,SIMPLE_NAME, line no: 99, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,getQueryParameters,SIMPLE_NAME, line no: 99, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,containsKey,SIMPLE_NAME, line no: 100, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,fromUri,SIMPLE_NAME, line no: 123, 0.9655172413793104, 0.5862068965517241, 0.0
+appKey,SIMPLE_NAME, line no: 145,build,SIMPLE_NAME, line no: 125, 0.9655172413793104, 0.5517241379310345, 0.0
+appKey,SIMPLE_NAME, line no: 145,queryParam,SIMPLE_NAME, line no: 143, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,this.redirectUri(),METHOD_INVOCATION, line no: 145, 0.9655172413793104, 0.9310344827586207, 0.0
+appKey,SIMPLE_NAME, line no: 145,redirectUri,SIMPLE_NAME, line no: 145, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,uri,SIMPLE_NAME, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}").queryParam("client_secret" "{secret}").queryParam("code" "{code}").build(this.appId this.redirectUri() this.appKey code),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}").queryParam("client_secret" "{secret}").queryParam("code" "{code}"),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}").queryParam("client_secret" "{secret}"),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}"),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}"),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token"),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,RestTester.start(uri).get("fetch Facebook access token").assertStatus(HttpURLConnection.HTTP_OK),METHOD_INVOCATION, line no: 179, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,RestTester.start(uri).get("fetch Facebook access token"),METHOD_INVOCATION, line no: 179, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,RestTester.start(uri),METHOD_INVOCATION, line no: 179, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,start,SIMPLE_NAME, line no: 179, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,assertStatus,SIMPLE_NAME, line no: 181, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,HttpURLConnection.HTTP_OK,QUALIFIED_NAME, line no: 181, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,HTTP_OK,SIMPLE_NAME, line no: 181, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,sectors,SIMPLE_NAME, line no: 183, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,response.split("&"),METHOD_INVOCATION, line no: 183, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,split,SIMPLE_NAME, line no: 183, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,null,NULL_LITERAL, line no: 184, 0.9655172413793104, 0.9655172413793104, 0.0
+appKey,SIMPLE_NAME, line no: 145,token == null,INFIX_EXPRESSION, line no: 200, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,urn,SIMPLE_NAME, line no: 33, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,URN,SIMPLE_NAME, line no: 33, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,User,SIMPLE_NAME, line no: 35, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,RestTester,SIMPLE_NAME, line no: 38, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,HttpURLConnection,SIMPLE_NAME, line no: 40, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,URI,SIMPLE_NAME, line no: 41, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,List,SIMPLE_NAME, line no: 42, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder,SIMPLE_NAME, line no: 44, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,String,SIMPLE_NAME, line no: 62, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,FLAG,SIMPLE_NAME, line no: 62, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,resource,SIMPLE_NAME, line no: 67, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,appId,SIMPLE_NAME, line no: 72, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,appKey,SIMPLE_NAME, line no: 77, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,this.resource,FIELD_ACCESS, line no: 87, 0.9655172413793104, 0.3448275862068966, 0.0
+this,THIS_EXPRESSION, line no: 145,this.appId,FIELD_ACCESS, line no: 88, 0.9655172413793104, 0.3448275862068966, 0.0
+this,THIS_EXPRESSION, line no: 145,this.appKey,FIELD_ACCESS, line no: 89, 0.9655172413793104, 0.3448275862068966, 0.0
+this,THIS_EXPRESSION, line no: 145,Override,SIMPLE_NAME, line no: 95, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,Identity,SIMPLE_NAME, line no: 97, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,identity,SIMPLE_NAME, line no: 97, 0.9655172413793104, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,Identity.ANONYMOUS,QUALIFIED_NAME, line no: 98, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,ANONYMOUS,SIMPLE_NAME, line no: 98, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,this.resource.uriInfo().getQueryParameters().containsKey(Facebook.FLAG),METHOD_INVOCATION, line no: 99, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,this.resource.uriInfo().getQueryParameters(),METHOD_INVOCATION, line no: 99, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,this.resource.uriInfo(),METHOD_INVOCATION, line no: 99, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,uriInfo,SIMPLE_NAME, line no: 99, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,getQueryParameters,SIMPLE_NAME, line no: 99, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,containsKey,SIMPLE_NAME, line no: 100, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,Facebook.FLAG,QUALIFIED_NAME, line no: 100, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,code,SIMPLE_NAME, line no: 101, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,this.resource.uriInfo().getQueryParameters().get("code"),METHOD_INVOCATION, line no: 101, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,get,SIMPLE_NAME, line no: 103, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,code.isEmpty(),METHOD_INVOCATION, line no: 104, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,isEmpty,SIMPLE_NAME, line no: 104, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,fbuser,SIMPLE_NAME, line no: 109, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,this.fetch(this.token(code.get(0))),METHOD_INVOCATION, line no: 109, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,fetch,SIMPLE_NAME, line no: 109, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,this.token(code.get(0)),METHOD_INVOCATION, line no: 109, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,code.get(0),METHOD_INVOCATION, line no: 109, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,0,NUMBER_LITERAL, line no: 109, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,identity=new Identity(){   @Override public URN urn(){     return URN.create(String.format("urn:facebook:%s" fbuser.getId()));   }   @Override public String name(){     return fbuser.getName();   }   @Override public URI photo(){     return UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture").build(fbuser.getId());   } } ,ASSIGNMENT, line no: 110, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,new Identity(){   @Override public URN urn(){     return URN.create(String.format("urn:facebook:%s" fbuser.getId()));   }   @Override public String name(){     return fbuser.getName();   }   @Override public URI photo(){     return UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture").build(fbuser.getId());   } } ,CLASS_INSTANCE_CREATION, line no: 110, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,@Override,MARKER_ANNOTATION, line no: 111, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,name,SIMPLE_NAME, line no: 118, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,photo,SIMPLE_NAME, line no: 122, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,fromUri,SIMPLE_NAME, line no: 123, 0.9655172413793104, 0.6206896551724138, 0.0
+this,THIS_EXPRESSION, line no: 145,build,SIMPLE_NAME, line no: 125, 0.9655172413793104, 0.5517241379310345, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}").queryParam("redirect_uri" "{redirect_uri}"),METHOD_INVOCATION, line no: 140, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}"),METHOD_INVOCATION, line no: 140, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth"),METHOD_INVOCATION, line no: 140, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,"https://www.facebook.com/dialog/oauth",STRING_LITERAL, line no: 141, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,queryParam,SIMPLE_NAME, line no: 143, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,"client_id",STRING_LITERAL, line no: 143, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,"{client_id}",STRING_LITERAL, line no: 143, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,"redirect_uri",STRING_LITERAL, line no: 144, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,"{redirect_uri}",STRING_LITERAL, line no: 144, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,this.redirectUri(),METHOD_INVOCATION, line no: 145, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,redirectUri,SIMPLE_NAME, line no: 145, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,uri,SIMPLE_NAME, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}").queryParam("client_secret" "{secret}").queryParam("code" "{code}").build(this.appId this.redirectUri() this.appKey code),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}").queryParam("client_secret" "{secret}").queryParam("code" "{code}"),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}").queryParam("client_secret" "{secret}"),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}"),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}"),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token"),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,"https://graph.facebook.com/oauth/access_token",STRING_LITERAL, line no: 168, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,"{id}",STRING_LITERAL, line no: 169, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,"{uri}",STRING_LITERAL, line no: 170, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,"client_secret",STRING_LITERAL, line no: 171, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,"{secret}",STRING_LITERAL, line no: 171, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,"{code}",STRING_LITERAL, line no: 172, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,response,SIMPLE_NAME, line no: 179, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,RestTester.start(uri).get("fetch Facebook access token").assertStatus(HttpURLConnection.HTTP_OK).getBody(),METHOD_INVOCATION, line no: 179, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,RestTester.start(uri).get("fetch Facebook access token").assertStatus(HttpURLConnection.HTTP_OK),METHOD_INVOCATION, line no: 179, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,RestTester.start(uri).get("fetch Facebook access token"),METHOD_INVOCATION, line no: 179, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,RestTester.start(uri),METHOD_INVOCATION, line no: 179, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,start,SIMPLE_NAME, line no: 179, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,"fetch Facebook access token",STRING_LITERAL, line no: 180, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,assertStatus,SIMPLE_NAME, line no: 181, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,HttpURLConnection.HTTP_OK,QUALIFIED_NAME, line no: 181, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,HTTP_OK,SIMPLE_NAME, line no: 181, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,getBody,SIMPLE_NAME, line no: 182, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,sectors,SIMPLE_NAME, line no: 183, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,response.split("&"),METHOD_INVOCATION, line no: 183, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,split,SIMPLE_NAME, line no: 183, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,"&",STRING_LITERAL, line no: 183, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,null,NULL_LITERAL, line no: 184, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,sector,SIMPLE_NAME, line no: 185, 0.9655172413793104, 0.9655172413793104, 0.0
+this,THIS_EXPRESSION, line no: 145,token == null,INFIX_EXPRESSION, line no: 200, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,urn,SIMPLE_NAME, line no: 33, 0.9655172413793104, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,URN,SIMPLE_NAME, line no: 33, 0.9655172413793104, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,User,SIMPLE_NAME, line no: 35, 0.9655172413793104, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,RestTester,SIMPLE_NAME, line no: 38, 0.9655172413793104, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,HttpURLConnection,SIMPLE_NAME, line no: 40, 0.9655172413793104, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,List,SIMPLE_NAME, line no: 42, 0.9655172413793104, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,Facebook,SIMPLE_NAME, line no: 57, 0.9655172413793104, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,String,SIMPLE_NAME, line no: 62, 0.9655172413793104, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,FLAG,SIMPLE_NAME, line no: 62, 0.9655172413793104, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,resource,SIMPLE_NAME, line no: 67, 0.9655172413793104, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,appId,SIMPLE_NAME, line no: 72, 0.9655172413793104, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,appKey,SIMPLE_NAME, line no: 77, 0.9655172413793104, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,this.resource,FIELD_ACCESS, line no: 87, 0.9655172413793104, 0.3103448275862069, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,this,THIS_EXPRESSION, line no: 87, 0.9655172413793104, 0.3103448275862069, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,this.appId,FIELD_ACCESS, line no: 88, 0.9655172413793104, 0.3103448275862069, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,this.appKey,FIELD_ACCESS, line no: 89, 0.9655172413793104, 0.3103448275862069, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,Override,SIMPLE_NAME, line no: 95, 0.9655172413793104, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,Identity,SIMPLE_NAME, line no: 97, 0.9655172413793104, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,identity,SIMPLE_NAME, line no: 97, 0.9655172413793104, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,Identity.ANONYMOUS,QUALIFIED_NAME, line no: 98, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,ANONYMOUS,SIMPLE_NAME, line no: 98, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,this.resource.uriInfo().getQueryParameters().containsKey(Facebook.FLAG),METHOD_INVOCATION, line no: 99, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,this.resource.uriInfo().getQueryParameters(),METHOD_INVOCATION, line no: 99, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,this.resource.uriInfo(),METHOD_INVOCATION, line no: 99, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,uriInfo,SIMPLE_NAME, line no: 99, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,getQueryParameters,SIMPLE_NAME, line no: 99, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,containsKey,SIMPLE_NAME, line no: 100, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,Facebook.FLAG,QUALIFIED_NAME, line no: 100, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,code,SIMPLE_NAME, line no: 101, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,this.resource.uriInfo().getQueryParameters().get("code"),METHOD_INVOCATION, line no: 101, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,get,SIMPLE_NAME, line no: 103, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,code.isEmpty(),METHOD_INVOCATION, line no: 104, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,isEmpty,SIMPLE_NAME, line no: 104, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,fbuser,SIMPLE_NAME, line no: 109, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,this.fetch(this.token(code.get(0))),METHOD_INVOCATION, line no: 109, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,fetch,SIMPLE_NAME, line no: 109, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,this.token(code.get(0)),METHOD_INVOCATION, line no: 109, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,code.get(0),METHOD_INVOCATION, line no: 109, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,0,NUMBER_LITERAL, line no: 109, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,identity=new Identity(){   @Override public URN urn(){     return URN.create(String.format("urn:facebook:%s" fbuser.getId()));   }   @Override public String name(){     return fbuser.getName();   }   @Override public URI photo(){     return UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture").build(fbuser.getId());   } } ,ASSIGNMENT, line no: 110, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,new Identity(){   @Override public URN urn(){     return URN.create(String.format("urn:facebook:%s" fbuser.getId()));   }   @Override public String name(){     return fbuser.getName();   }   @Override public URI photo(){     return UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture").build(fbuser.getId());   } } ,CLASS_INSTANCE_CREATION, line no: 110, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,@Override,MARKER_ANNOTATION, line no: 111, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,name,SIMPLE_NAME, line no: 118, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,build,SIMPLE_NAME, line no: 125, 0.9655172413793104, 0.5517241379310345, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}").queryParam("redirect_uri" "{redirect_uri}"),METHOD_INVOCATION, line no: 140, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}"),METHOD_INVOCATION, line no: 140, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth"),METHOD_INVOCATION, line no: 140, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"https://www.facebook.com/dialog/oauth",STRING_LITERAL, line no: 141, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"client_id",STRING_LITERAL, line no: 143, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"{client_id}",STRING_LITERAL, line no: 143, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"redirect_uri",STRING_LITERAL, line no: 144, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"{redirect_uri}",STRING_LITERAL, line no: 144, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}").queryParam("client_secret" "{secret}").queryParam("code" "{code}").build(this.appId this.redirectUri() this.appKey code),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}").queryParam("client_secret" "{secret}").queryParam("code" "{code}"),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}").queryParam("client_secret" "{secret}"),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}"),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}"),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token"),METHOD_INVOCATION, line no: 167, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"https://graph.facebook.com/oauth/access_token",STRING_LITERAL, line no: 168, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"{id}",STRING_LITERAL, line no: 169, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"{uri}",STRING_LITERAL, line no: 170, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"client_secret",STRING_LITERAL, line no: 171, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"{secret}",STRING_LITERAL, line no: 171, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"{code}",STRING_LITERAL, line no: 172, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,response,SIMPLE_NAME, line no: 179, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,RestTester.start(uri).get("fetch Facebook access token").assertStatus(HttpURLConnection.HTTP_OK).getBody(),METHOD_INVOCATION, line no: 179, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,RestTester.start(uri).get("fetch Facebook access token").assertStatus(HttpURLConnection.HTTP_OK),METHOD_INVOCATION, line no: 179, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,RestTester.start(uri).get("fetch Facebook access token"),METHOD_INVOCATION, line no: 179, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,RestTester.start(uri),METHOD_INVOCATION, line no: 179, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,start,SIMPLE_NAME, line no: 179, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"fetch Facebook access token",STRING_LITERAL, line no: 180, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,assertStatus,SIMPLE_NAME, line no: 181, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,HttpURLConnection.HTTP_OK,QUALIFIED_NAME, line no: 181, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,HTTP_OK,SIMPLE_NAME, line no: 181, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,getBody,SIMPLE_NAME, line no: 182, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,sectors,SIMPLE_NAME, line no: 183, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,response.split("&"),METHOD_INVOCATION, line no: 183, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,split,SIMPLE_NAME, line no: 183, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"&",STRING_LITERAL, line no: 183, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,null,NULL_LITERAL, line no: 184, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,sector,SIMPLE_NAME, line no: 185, 0.9655172413793104, 0.9655172413793104, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,token == null,INFIX_EXPRESSION, line no: 200, 0.9655172413793104, 0.9655172413793104, 0.0
+build,SIMPLE_NAME, line no: 145,urn,SIMPLE_NAME, line no: 33, 0.9642857142857143, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,URN,SIMPLE_NAME, line no: 33, 0.9642857142857143, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,User,SIMPLE_NAME, line no: 35, 0.9642857142857143, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,Link,SIMPLE_NAME, line no: 36, 0.9642857142857143, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,RestTester,SIMPLE_NAME, line no: 38, 0.9642857142857143, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,HttpURLConnection,SIMPLE_NAME, line no: 40, 0.9642857142857143, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,URI,SIMPLE_NAME, line no: 41, 0.9642857142857143, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,List,SIMPLE_NAME, line no: 42, 0.9642857142857143, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,Facebook,SIMPLE_NAME, line no: 57, 0.9642857142857143, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,String,SIMPLE_NAME, line no: 62, 0.9642857142857143, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,FLAG,SIMPLE_NAME, line no: 62, 0.9642857142857143, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,resource,SIMPLE_NAME, line no: 67, 0.9642857142857143, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,appId,SIMPLE_NAME, line no: 72, 0.9642857142857143, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,this.resource,FIELD_ACCESS, line no: 87, 0.9642857142857143, 0.32142857142857145, 0.0
+build,SIMPLE_NAME, line no: 145,this,THIS_EXPRESSION, line no: 87, 0.9642857142857143, 0.32142857142857145, 0.0
+build,SIMPLE_NAME, line no: 145,this.appId,FIELD_ACCESS, line no: 88, 0.9642857142857143, 0.32142857142857145, 0.0
+build,SIMPLE_NAME, line no: 145,this.appKey,FIELD_ACCESS, line no: 89, 0.9642857142857143, 0.32142857142857145, 0.0
+build,SIMPLE_NAME, line no: 145,Override,SIMPLE_NAME, line no: 95, 0.9642857142857143, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,Identity,SIMPLE_NAME, line no: 97, 0.9642857142857143, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,identity,SIMPLE_NAME, line no: 97, 0.9642857142857143, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,Identity.ANONYMOUS,QUALIFIED_NAME, line no: 98, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,ANONYMOUS,SIMPLE_NAME, line no: 98, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,this.resource.uriInfo().getQueryParameters().containsKey(Facebook.FLAG),METHOD_INVOCATION, line no: 99, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,this.resource.uriInfo().getQueryParameters(),METHOD_INVOCATION, line no: 99, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,this.resource.uriInfo(),METHOD_INVOCATION, line no: 99, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,uriInfo,SIMPLE_NAME, line no: 99, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,getQueryParameters,SIMPLE_NAME, line no: 99, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,containsKey,SIMPLE_NAME, line no: 100, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,Facebook.FLAG,QUALIFIED_NAME, line no: 100, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,code,SIMPLE_NAME, line no: 101, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,this.resource.uriInfo().getQueryParameters().get("code"),METHOD_INVOCATION, line no: 101, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,get,SIMPLE_NAME, line no: 103, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,code.isEmpty(),METHOD_INVOCATION, line no: 104, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,isEmpty,SIMPLE_NAME, line no: 104, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,fbuser,SIMPLE_NAME, line no: 109, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,this.fetch(this.token(code.get(0))),METHOD_INVOCATION, line no: 109, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,fetch,SIMPLE_NAME, line no: 109, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,this.token(code.get(0)),METHOD_INVOCATION, line no: 109, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,code.get(0),METHOD_INVOCATION, line no: 109, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,0,NUMBER_LITERAL, line no: 109, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,identity=new Identity(){   @Override public URN urn(){     return URN.create(String.format("urn:facebook:%s" fbuser.getId()));   }   @Override public String name(){     return fbuser.getName();   }   @Override public URI photo(){     return UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture").build(fbuser.getId());   } } ,ASSIGNMENT, line no: 110, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,new Identity(){   @Override public URN urn(){     return URN.create(String.format("urn:facebook:%s" fbuser.getId()));   }   @Override public String name(){     return fbuser.getName();   }   @Override public URI photo(){     return UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture").build(fbuser.getId());   } } ,CLASS_INSTANCE_CREATION, line no: 110, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,@Override,MARKER_ANNOTATION, line no: 111, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,name,SIMPLE_NAME, line no: 118, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,photo,SIMPLE_NAME, line no: 122, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}").queryParam("redirect_uri" "{redirect_uri}").build(this.appKey this.redirectUri()),METHOD_INVOCATION, line no: 140, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}").queryParam("redirect_uri" "{redirect_uri}"),METHOD_INVOCATION, line no: 140, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}"),METHOD_INVOCATION, line no: 140, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth"),METHOD_INVOCATION, line no: 140, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,"https://www.facebook.com/dialog/oauth",STRING_LITERAL, line no: 141, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,"client_id",STRING_LITERAL, line no: 143, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,"{client_id}",STRING_LITERAL, line no: 143, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,"redirect_uri",STRING_LITERAL, line no: 144, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,"{redirect_uri}",STRING_LITERAL, line no: 144, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,this.redirectUri(),METHOD_INVOCATION, line no: 145, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,uri,SIMPLE_NAME, line no: 167, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}").queryParam("client_secret" "{secret}").queryParam("code" "{code}").build(this.appId this.redirectUri() this.appKey code),METHOD_INVOCATION, line no: 167, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}").queryParam("client_secret" "{secret}").queryParam("code" "{code}"),METHOD_INVOCATION, line no: 167, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}").queryParam("client_secret" "{secret}"),METHOD_INVOCATION, line no: 167, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}"),METHOD_INVOCATION, line no: 167, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}"),METHOD_INVOCATION, line no: 167, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token"),METHOD_INVOCATION, line no: 167, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,"https://graph.facebook.com/oauth/access_token",STRING_LITERAL, line no: 168, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,"{id}",STRING_LITERAL, line no: 169, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,"{uri}",STRING_LITERAL, line no: 170, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,"client_secret",STRING_LITERAL, line no: 171, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,"{secret}",STRING_LITERAL, line no: 171, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,"{code}",STRING_LITERAL, line no: 172, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,response,SIMPLE_NAME, line no: 179, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,RestTester.start(uri).get("fetch Facebook access token").assertStatus(HttpURLConnection.HTTP_OK).getBody(),METHOD_INVOCATION, line no: 179, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,RestTester.start(uri).get("fetch Facebook access token").assertStatus(HttpURLConnection.HTTP_OK),METHOD_INVOCATION, line no: 179, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,RestTester.start(uri).get("fetch Facebook access token"),METHOD_INVOCATION, line no: 179, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,RestTester.start(uri),METHOD_INVOCATION, line no: 179, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,start,SIMPLE_NAME, line no: 179, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,"fetch Facebook access token",STRING_LITERAL, line no: 180, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,assertStatus,SIMPLE_NAME, line no: 181, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,HttpURLConnection.HTTP_OK,QUALIFIED_NAME, line no: 181, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,HTTP_OK,SIMPLE_NAME, line no: 181, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,getBody,SIMPLE_NAME, line no: 182, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,sectors,SIMPLE_NAME, line no: 183, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,response.split("&"),METHOD_INVOCATION, line no: 183, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,split,SIMPLE_NAME, line no: 183, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,"&",STRING_LITERAL, line no: 183, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,null,NULL_LITERAL, line no: 184, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,sector,SIMPLE_NAME, line no: 185, 0.9642857142857143, 0.9642857142857143, 0.0
+build,SIMPLE_NAME, line no: 145,token == null,INFIX_EXPRESSION, line no: 200, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,RestTester,SIMPLE_NAME, line no: 38, 0.9642857142857143, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,HttpURLConnection,SIMPLE_NAME, line no: 40, 0.9642857142857143, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,URI,SIMPLE_NAME, line no: 41, 0.9642857142857143, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,UriBuilder,SIMPLE_NAME, line no: 44, 0.9642857142857143, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,Facebook,SIMPLE_NAME, line no: 57, 0.9642857142857143, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,resource,SIMPLE_NAME, line no: 67, 0.9642857142857143, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,this.resource,FIELD_ACCESS, line no: 87, 0.9642857142857143, 0.35714285714285715, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,this.appId,FIELD_ACCESS, line no: 88, 0.9642857142857143, 0.35714285714285715, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,Identity,SIMPLE_NAME, line no: 97, 0.9642857142857143, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,identity,SIMPLE_NAME, line no: 97, 0.9642857142857143, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,Identity.ANONYMOUS,QUALIFIED_NAME, line no: 98, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,ANONYMOUS,SIMPLE_NAME, line no: 98, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,this.resource.uriInfo().getQueryParameters().containsKey(Facebook.FLAG),METHOD_INVOCATION, line no: 99, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,this.resource.uriInfo().getQueryParameters(),METHOD_INVOCATION, line no: 99, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,this.resource.uriInfo(),METHOD_INVOCATION, line no: 99, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,uriInfo,SIMPLE_NAME, line no: 99, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,getQueryParameters,SIMPLE_NAME, line no: 99, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,containsKey,SIMPLE_NAME, line no: 100, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,Facebook.FLAG,QUALIFIED_NAME, line no: 100, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"code",STRING_LITERAL, line no: 103, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,fromUri,SIMPLE_NAME, line no: 123, 0.9642857142857143, 0.6071428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,build,SIMPLE_NAME, line no: 125, 0.9642857142857143, 0.5714285714285714, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}").queryParam("redirect_uri" "{redirect_uri}"),METHOD_INVOCATION, line no: 140, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}"),METHOD_INVOCATION, line no: 140, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth"),METHOD_INVOCATION, line no: 140, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"https://www.facebook.com/dialog/oauth",STRING_LITERAL, line no: 141, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,queryParam,SIMPLE_NAME, line no: 143, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"client_id",STRING_LITERAL, line no: 143, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"{client_id}",STRING_LITERAL, line no: 143, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"redirect_uri",STRING_LITERAL, line no: 144, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"{redirect_uri}",STRING_LITERAL, line no: 144, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,this.redirectUri(),METHOD_INVOCATION, line no: 145, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,redirectUri,SIMPLE_NAME, line no: 145, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,uri,SIMPLE_NAME, line no: 167, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}").queryParam("client_secret" "{secret}").queryParam("code" "{code}"),METHOD_INVOCATION, line no: 167, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}").queryParam("client_secret" "{secret}"),METHOD_INVOCATION, line no: 167, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}"),METHOD_INVOCATION, line no: 167, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}"),METHOD_INVOCATION, line no: 167, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token"),METHOD_INVOCATION, line no: 167, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"https://graph.facebook.com/oauth/access_token",STRING_LITERAL, line no: 168, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"{id}",STRING_LITERAL, line no: 169, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"{uri}",STRING_LITERAL, line no: 170, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"client_secret",STRING_LITERAL, line no: 171, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"{secret}",STRING_LITERAL, line no: 171, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"{code}",STRING_LITERAL, line no: 172, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,RestTester.start(uri).get("fetch Facebook access token").assertStatus(HttpURLConnection.HTTP_OK).getBody(),METHOD_INVOCATION, line no: 179, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,RestTester.start(uri).get("fetch Facebook access token").assertStatus(HttpURLConnection.HTTP_OK),METHOD_INVOCATION, line no: 179, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,RestTester.start(uri).get("fetch Facebook access token"),METHOD_INVOCATION, line no: 179, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,RestTester.start(uri),METHOD_INVOCATION, line no: 179, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,start,SIMPLE_NAME, line no: 179, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"fetch Facebook access token",STRING_LITERAL, line no: 180, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,assertStatus,SIMPLE_NAME, line no: 181, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,HttpURLConnection.HTTP_OK,QUALIFIED_NAME, line no: 181, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,HTTP_OK,SIMPLE_NAME, line no: 181, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,sectors,SIMPLE_NAME, line no: 183, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,response.split("&"),METHOD_INVOCATION, line no: 183, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,split,SIMPLE_NAME, line no: 183, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"&",STRING_LITERAL, line no: 183, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,null,NULL_LITERAL, line no: 184, 0.9642857142857143, 0.9642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,token == null,INFIX_EXPRESSION, line no: 200, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,urn,SIMPLE_NAME, line no: 33, 0.9642857142857143, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,URN,SIMPLE_NAME, line no: 33, 0.9642857142857143, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,User,SIMPLE_NAME, line no: 35, 0.9642857142857143, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,RestTester,SIMPLE_NAME, line no: 38, 0.9642857142857143, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,HttpURLConnection,SIMPLE_NAME, line no: 40, 0.9642857142857143, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,List,SIMPLE_NAME, line no: 42, 0.9642857142857143, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,Facebook,SIMPLE_NAME, line no: 57, 0.9642857142857143, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,String,SIMPLE_NAME, line no: 62, 0.9642857142857143, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,FLAG,SIMPLE_NAME, line no: 62, 0.9642857142857143, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,resource,SIMPLE_NAME, line no: 67, 0.9642857142857143, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,appId,SIMPLE_NAME, line no: 72, 0.9642857142857143, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,appKey,SIMPLE_NAME, line no: 77, 0.9642857142857143, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,this.resource,FIELD_ACCESS, line no: 87, 0.9642857142857143, 0.32142857142857145, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,this.appId,FIELD_ACCESS, line no: 88, 0.9642857142857143, 0.32142857142857145, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,this.appKey,FIELD_ACCESS, line no: 89, 0.9642857142857143, 0.32142857142857145, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,Override,SIMPLE_NAME, line no: 95, 0.9642857142857143, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,Identity,SIMPLE_NAME, line no: 97, 0.9642857142857143, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,identity,SIMPLE_NAME, line no: 97, 0.9642857142857143, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,Identity.ANONYMOUS,QUALIFIED_NAME, line no: 98, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,ANONYMOUS,SIMPLE_NAME, line no: 98, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,this.resource.uriInfo().getQueryParameters().containsKey(Facebook.FLAG),METHOD_INVOCATION, line no: 99, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,this.resource.uriInfo().getQueryParameters(),METHOD_INVOCATION, line no: 99, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,this.resource.uriInfo(),METHOD_INVOCATION, line no: 99, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,uriInfo,SIMPLE_NAME, line no: 99, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,getQueryParameters,SIMPLE_NAME, line no: 99, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,containsKey,SIMPLE_NAME, line no: 100, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,Facebook.FLAG,QUALIFIED_NAME, line no: 100, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,code,SIMPLE_NAME, line no: 101, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,this.resource.uriInfo().getQueryParameters().get("code"),METHOD_INVOCATION, line no: 101, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,get,SIMPLE_NAME, line no: 103, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,code.isEmpty(),METHOD_INVOCATION, line no: 104, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,isEmpty,SIMPLE_NAME, line no: 104, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,fbuser,SIMPLE_NAME, line no: 109, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,this.fetch(this.token(code.get(0))),METHOD_INVOCATION, line no: 109, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,fetch,SIMPLE_NAME, line no: 109, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,this.token(code.get(0)),METHOD_INVOCATION, line no: 109, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,code.get(0),METHOD_INVOCATION, line no: 109, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,0,NUMBER_LITERAL, line no: 109, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,identity=new Identity(){   @Override public URN urn(){     return URN.create(String.format("urn:facebook:%s" fbuser.getId()));   }   @Override public String name(){     return fbuser.getName();   }   @Override public URI photo(){     return UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture").build(fbuser.getId());   } } ,ASSIGNMENT, line no: 110, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,new Identity(){   @Override public URN urn(){     return URN.create(String.format("urn:facebook:%s" fbuser.getId()));   }   @Override public String name(){     return fbuser.getName();   }   @Override public URI photo(){     return UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture").build(fbuser.getId());   } } ,CLASS_INSTANCE_CREATION, line no: 110, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,@Override,MARKER_ANNOTATION, line no: 111, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,name,SIMPLE_NAME, line no: 118, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,build,SIMPLE_NAME, line no: 125, 0.9642857142857143, 0.5714285714285714, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}").queryParam("redirect_uri" "{redirect_uri}").build(this.appKey this.redirectUri()),METHOD_INVOCATION, line no: 140, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}").queryParam("client_secret" "{secret}").queryParam("code" "{code}").build(this.appId this.redirectUri() this.appKey code),METHOD_INVOCATION, line no: 167, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}").queryParam("client_secret" "{secret}").queryParam("code" "{code}"),METHOD_INVOCATION, line no: 167, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}").queryParam("client_secret" "{secret}"),METHOD_INVOCATION, line no: 167, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}").queryParam("redirect_uri" "{uri}"),METHOD_INVOCATION, line no: 167, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token").queryParam("client_id" "{id}"),METHOD_INVOCATION, line no: 167, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/oauth/access_token"),METHOD_INVOCATION, line no: 167, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"https://graph.facebook.com/oauth/access_token",STRING_LITERAL, line no: 168, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"{id}",STRING_LITERAL, line no: 169, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"{uri}",STRING_LITERAL, line no: 170, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"client_secret",STRING_LITERAL, line no: 171, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"{secret}",STRING_LITERAL, line no: 171, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"{code}",STRING_LITERAL, line no: 172, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,response,SIMPLE_NAME, line no: 179, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,RestTester.start(uri).get("fetch Facebook access token").assertStatus(HttpURLConnection.HTTP_OK).getBody(),METHOD_INVOCATION, line no: 179, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,RestTester.start(uri).get("fetch Facebook access token").assertStatus(HttpURLConnection.HTTP_OK),METHOD_INVOCATION, line no: 179, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,RestTester.start(uri).get("fetch Facebook access token"),METHOD_INVOCATION, line no: 179, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,RestTester.start(uri),METHOD_INVOCATION, line no: 179, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,start,SIMPLE_NAME, line no: 179, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"fetch Facebook access token",STRING_LITERAL, line no: 180, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,assertStatus,SIMPLE_NAME, line no: 181, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,HttpURLConnection.HTTP_OK,QUALIFIED_NAME, line no: 181, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,HTTP_OK,SIMPLE_NAME, line no: 181, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,getBody,SIMPLE_NAME, line no: 182, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,sectors,SIMPLE_NAME, line no: 183, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,response.split("&"),METHOD_INVOCATION, line no: 183, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,split,SIMPLE_NAME, line no: 183, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"&",STRING_LITERAL, line no: 183, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,null,NULL_LITERAL, line no: 184, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,sector,SIMPLE_NAME, line no: 185, 0.9642857142857143, 0.9642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,token == null,INFIX_EXPRESSION, line no: 200, 0.9642857142857143, 0.9642857142857143, 0.0
+this,THIS_EXPRESSION, line no: 145,urn,SIMPLE_NAME, line no: 33, 0.9310344827586207, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,URN,SIMPLE_NAME, line no: 33, 0.9310344827586207, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,User,SIMPLE_NAME, line no: 35, 0.9310344827586207, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,List,SIMPLE_NAME, line no: 42, 0.9310344827586207, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,Override,SIMPLE_NAME, line no: 95, 0.9310344827586207, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,this.resource.uriInfo().getQueryParameters().get("code"),METHOD_INVOCATION, line no: 101, 0.9310344827586207, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,code.isEmpty(),METHOD_INVOCATION, line no: 104, 0.9310344827586207, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,isEmpty,SIMPLE_NAME, line no: 104, 0.9310344827586207, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,fbuser,SIMPLE_NAME, line no: 109, 0.9310344827586207, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,this.fetch(this.token(code.get(0))),METHOD_INVOCATION, line no: 109, 0.9310344827586207, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,fetch,SIMPLE_NAME, line no: 109, 0.9310344827586207, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,this.token(code.get(0)),METHOD_INVOCATION, line no: 109, 0.9310344827586207, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,code.get(0),METHOD_INVOCATION, line no: 109, 0.9310344827586207, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,0,NUMBER_LITERAL, line no: 109, 0.9310344827586207, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,identity=new Identity(){   @Override public URN urn(){     return URN.create(String.format("urn:facebook:%s" fbuser.getId()));   }   @Override public String name(){     return fbuser.getName();   }   @Override public URI photo(){     return UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture").build(fbuser.getId());   } } ,ASSIGNMENT, line no: 110, 0.9310344827586207, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,new Identity(){   @Override public URN urn(){     return URN.create(String.format("urn:facebook:%s" fbuser.getId()));   }   @Override public String name(){     return fbuser.getName();   }   @Override public URI photo(){     return UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture").build(fbuser.getId());   } } ,CLASS_INSTANCE_CREATION, line no: 110, 0.9310344827586207, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,@Override,MARKER_ANNOTATION, line no: 111, 0.9310344827586207, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,name,SIMPLE_NAME, line no: 118, 0.9310344827586207, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,photo,SIMPLE_NAME, line no: 122, 0.9310344827586207, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}").queryParam("redirect_uri" "{redirect_uri}").build(this.appKey this.redirectUri()),METHOD_INVOCATION, line no: 140, 0.9310344827586207, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}").queryParam("redirect_uri" "{redirect_uri}"),METHOD_INVOCATION, line no: 140, 0.9310344827586207, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}"),METHOD_INVOCATION, line no: 140, 0.9310344827586207, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth"),METHOD_INVOCATION, line no: 140, 0.9310344827586207, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,"https://www.facebook.com/dialog/oauth",STRING_LITERAL, line no: 141, 0.9310344827586207, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,"{client_id}",STRING_LITERAL, line no: 143, 0.9310344827586207, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,"{redirect_uri}",STRING_LITERAL, line no: 144, 0.9310344827586207, 0.9310344827586207, 0.0
+appKey,SIMPLE_NAME, line no: 145,urn,SIMPLE_NAME, line no: 33, 0.9310344827586207, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,URN,SIMPLE_NAME, line no: 33, 0.9310344827586207, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,User,SIMPLE_NAME, line no: 35, 0.9310344827586207, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,Link,SIMPLE_NAME, line no: 36, 0.9310344827586207, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,List,SIMPLE_NAME, line no: 42, 0.9310344827586207, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,Override,SIMPLE_NAME, line no: 95, 0.9310344827586207, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,this.resource.uriInfo().getQueryParameters().get("code"),METHOD_INVOCATION, line no: 101, 0.9310344827586207, 0.9310344827586207, 0.0
+appKey,SIMPLE_NAME, line no: 145,code.isEmpty(),METHOD_INVOCATION, line no: 104, 0.9310344827586207, 0.9310344827586207, 0.0
+appKey,SIMPLE_NAME, line no: 145,isEmpty,SIMPLE_NAME, line no: 104, 0.9310344827586207, 0.9310344827586207, 0.0
+appKey,SIMPLE_NAME, line no: 145,fbuser,SIMPLE_NAME, line no: 109, 0.9310344827586207, 0.9310344827586207, 0.0
+appKey,SIMPLE_NAME, line no: 145,this.fetch(this.token(code.get(0))),METHOD_INVOCATION, line no: 109, 0.9310344827586207, 0.9310344827586207, 0.0
+appKey,SIMPLE_NAME, line no: 145,fetch,SIMPLE_NAME, line no: 109, 0.9310344827586207, 0.9310344827586207, 0.0
+appKey,SIMPLE_NAME, line no: 145,0,NUMBER_LITERAL, line no: 109, 0.9310344827586207, 0.9310344827586207, 0.0
+appKey,SIMPLE_NAME, line no: 145,identity=new Identity(){   @Override public URN urn(){     return URN.create(String.format("urn:facebook:%s" fbuser.getId()));   }   @Override public String name(){     return fbuser.getName();   }   @Override public URI photo(){     return UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture").build(fbuser.getId());   } } ,ASSIGNMENT, line no: 110, 0.9310344827586207, 0.9310344827586207, 0.0
+appKey,SIMPLE_NAME, line no: 145,new Identity(){   @Override public URN urn(){     return URN.create(String.format("urn:facebook:%s" fbuser.getId()));   }   @Override public String name(){     return fbuser.getName();   }   @Override public URI photo(){     return UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture").build(fbuser.getId());   } } ,CLASS_INSTANCE_CREATION, line no: 110, 0.9310344827586207, 0.9310344827586207, 0.0
+appKey,SIMPLE_NAME, line no: 145,@Override,MARKER_ANNOTATION, line no: 111, 0.9310344827586207, 0.9310344827586207, 0.0
+appKey,SIMPLE_NAME, line no: 145,photo,SIMPLE_NAME, line no: 122, 0.9310344827586207, 0.9310344827586207, 0.0
+appKey,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}").queryParam("redirect_uri" "{redirect_uri}").build(this.appKey this.redirectUri()),METHOD_INVOCATION, line no: 140, 0.9310344827586207, 0.9310344827586207, 0.0
+appKey,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}").queryParam("redirect_uri" "{redirect_uri}"),METHOD_INVOCATION, line no: 140, 0.9310344827586207, 0.9310344827586207, 0.0
+appKey,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}"),METHOD_INVOCATION, line no: 140, 0.9310344827586207, 0.9310344827586207, 0.0
+appKey,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth"),METHOD_INVOCATION, line no: 140, 0.9310344827586207, 0.9310344827586207, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}").queryParam("redirect_uri" "{redirect_uri}").build(this.appKey this.redirectUri()),METHOD_INVOCATION, line no: 140, 0.9310344827586207, 0.9310344827586207, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,Link,SIMPLE_NAME, line no: 36, 0.9310344827586207, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}").queryParam("redirect_uri" "{redirect_uri}").build(this.appKey this.redirectUri()),METHOD_INVOCATION, line no: 140, 0.9310344827586207, 0.9310344827586207, 0.0
+build,SIMPLE_NAME, line no: 145,new Link("auth-facebook" UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}").queryParam("redirect_uri" "{redirect_uri}").build(this.appKey this.redirectUri())),CLASS_INSTANCE_CREATION, line no: 138, 0.9285714285714286, 0.9285714285714286, 0.0
+build,SIMPLE_NAME, line no: 145,"auth-facebook",STRING_LITERAL, line no: 139, 0.9285714285714286, 0.9285714285714286, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,urn,SIMPLE_NAME, line no: 33, 0.9285714285714286, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,URN,SIMPLE_NAME, line no: 33, 0.9285714285714286, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,User,SIMPLE_NAME, line no: 35, 0.9285714285714286, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,Link,SIMPLE_NAME, line no: 36, 0.9285714285714286, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,List,SIMPLE_NAME, line no: 42, 0.9285714285714286, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,Override,SIMPLE_NAME, line no: 95, 0.9285714285714286, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,this.resource.uriInfo().getQueryParameters().get("code"),METHOD_INVOCATION, line no: 101, 0.9285714285714286, 0.9285714285714286, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,code.isEmpty(),METHOD_INVOCATION, line no: 104, 0.9285714285714286, 0.9285714285714286, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,isEmpty,SIMPLE_NAME, line no: 104, 0.9285714285714286, 0.9285714285714286, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,fbuser,SIMPLE_NAME, line no: 109, 0.9285714285714286, 0.9285714285714286, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,this.fetch(this.token(code.get(0))),METHOD_INVOCATION, line no: 109, 0.9285714285714286, 0.9285714285714286, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,fetch,SIMPLE_NAME, line no: 109, 0.9285714285714286, 0.9285714285714286, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,this.token(code.get(0)),METHOD_INVOCATION, line no: 109, 0.9285714285714286, 0.9285714285714286, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,code.get(0),METHOD_INVOCATION, line no: 109, 0.9285714285714286, 0.9285714285714286, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,0,NUMBER_LITERAL, line no: 109, 0.9285714285714286, 0.9285714285714286, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,identity=new Identity(){   @Override public URN urn(){     return URN.create(String.format("urn:facebook:%s" fbuser.getId()));   }   @Override public String name(){     return fbuser.getName();   }   @Override public URI photo(){     return UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture").build(fbuser.getId());   } } ,ASSIGNMENT, line no: 110, 0.9285714285714286, 0.9285714285714286, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,new Identity(){   @Override public URN urn(){     return URN.create(String.format("urn:facebook:%s" fbuser.getId()));   }   @Override public String name(){     return fbuser.getName();   }   @Override public URI photo(){     return UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture").build(fbuser.getId());   } } ,CLASS_INSTANCE_CREATION, line no: 110, 0.9285714285714286, 0.9285714285714286, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,@Override,MARKER_ANNOTATION, line no: 111, 0.9285714285714286, 0.9285714285714286, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,photo,SIMPLE_NAME, line no: 122, 0.9285714285714286, 0.9285714285714286, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"auth-facebook",STRING_LITERAL, line no: 139, 0.9285714285714286, 0.9285714285714286, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,Link,SIMPLE_NAME, line no: 36, 0.9285714285714286, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,new Link("auth-facebook" UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}").queryParam("redirect_uri" "{redirect_uri}").build(this.appKey this.redirectUri())),CLASS_INSTANCE_CREATION, line no: 138, 0.9285714285714286, 0.9285714285714286, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"auth-facebook",STRING_LITERAL, line no: 139, 0.9285714285714286, 0.9285714285714286, 0.0
+this,THIS_EXPRESSION, line no: 145,Link,SIMPLE_NAME, line no: 36, 0.896551724137931, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,new Link("auth-facebook" UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}").queryParam("redirect_uri" "{redirect_uri}").build(this.appKey this.redirectUri())),CLASS_INSTANCE_CREATION, line no: 138, 0.896551724137931, 0.896551724137931, 0.0
+this,THIS_EXPRESSION, line no: 145,"auth-facebook",STRING_LITERAL, line no: 139, 0.896551724137931, 0.896551724137931, 0.0
+appKey,SIMPLE_NAME, line no: 145,new Link("auth-facebook" UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}").queryParam("redirect_uri" "{redirect_uri}").build(this.appKey this.redirectUri())),CLASS_INSTANCE_CREATION, line no: 138, 0.896551724137931, 0.896551724137931, 0.0
+this,THIS_EXPRESSION, line no: 145,Link,SIMPLE_NAME, line no: 36, 0.896551724137931, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,new Link("auth-facebook" UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}").queryParam("redirect_uri" "{redirect_uri}").build(this.appKey this.redirectUri())),CLASS_INSTANCE_CREATION, line no: 138, 0.896551724137931, 0.896551724137931, 0.0
+this,THIS_EXPRESSION, line no: 145,"auth-facebook",STRING_LITERAL, line no: 139, 0.896551724137931, 0.896551724137931, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,new Link("auth-facebook" UriBuilder.fromUri("https://www.facebook.com/dialog/oauth").queryParam("client_id" "{client_id}").queryParam("redirect_uri" "{redirect_uri}").build(this.appKey this.redirectUri())),CLASS_INSTANCE_CREATION, line no: 138, 0.896551724137931, 0.896551724137931, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"auth-facebook",STRING_LITERAL, line no: 139, 0.896551724137931, 0.896551724137931, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,getRequestUriBuilder,SIMPLE_NAME, line no: 154, 0.6896551724137931, 0.6896551724137931, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,clone,SIMPLE_NAME, line no: 155, 0.6896551724137931, 0.6896551724137931, 0.0
+build,SIMPLE_NAME, line no: 145,getRequestUriBuilder,SIMPLE_NAME, line no: 154, 0.6785714285714286, 0.6785714285714286, 0.0
+build,SIMPLE_NAME, line no: 145,clone,SIMPLE_NAME, line no: 155, 0.6785714285714286, 0.6785714285714286, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,this.resource.uriInfo().getRequestUriBuilder().clone().queryParam(Facebook.FLAG),METHOD_INVOCATION, line no: 154, 0.6785714285714286, 0.6785714285714286, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,this.resource.uriInfo().getRequestUriBuilder().clone(),METHOD_INVOCATION, line no: 154, 0.6785714285714286, 0.6785714285714286, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,this.resource.uriInfo().getRequestUriBuilder(),METHOD_INVOCATION, line no: 154, 0.6785714285714286, 0.6785714285714286, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,getRequestUriBuilder,SIMPLE_NAME, line no: 154, 0.6785714285714286, 0.6785714285714286, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,clone,SIMPLE_NAME, line no: 155, 0.6785714285714286, 0.6785714285714286, 0.0
+appKey,SIMPLE_NAME, line no: 145,getRequestUriBuilder,SIMPLE_NAME, line no: 154, 0.6551724137931034, 0.6551724137931034, 0.0
+appKey,SIMPLE_NAME, line no: 145,clone,SIMPLE_NAME, line no: 155, 0.6551724137931034, 0.6551724137931034, 0.0
+this,THIS_EXPRESSION, line no: 145,this.resource.uriInfo().getRequestUriBuilder().clone().queryParam(Facebook.FLAG),METHOD_INVOCATION, line no: 154, 0.6551724137931034, 0.6551724137931034, 0.0
+this,THIS_EXPRESSION, line no: 145,this.resource.uriInfo().getRequestUriBuilder().clone(),METHOD_INVOCATION, line no: 154, 0.6551724137931034, 0.6551724137931034, 0.0
+this,THIS_EXPRESSION, line no: 145,this.resource.uriInfo().getRequestUriBuilder(),METHOD_INVOCATION, line no: 154, 0.6551724137931034, 0.6551724137931034, 0.0
+this,THIS_EXPRESSION, line no: 145,getRequestUriBuilder,SIMPLE_NAME, line no: 154, 0.6551724137931034, 0.6551724137931034, 0.0
+this,THIS_EXPRESSION, line no: 145,clone,SIMPLE_NAME, line no: 155, 0.6551724137931034, 0.6551724137931034, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,this.resource.uriInfo().getRequestUriBuilder().clone().queryParam(Facebook.FLAG),METHOD_INVOCATION, line no: 154, 0.6551724137931034, 0.6551724137931034, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,this.resource.uriInfo().getRequestUriBuilder().clone(),METHOD_INVOCATION, line no: 154, 0.6551724137931034, 0.6551724137931034, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,this.resource.uriInfo().getRequestUriBuilder(),METHOD_INVOCATION, line no: 154, 0.6551724137931034, 0.6551724137931034, 0.0
+build,SIMPLE_NAME, line no: 145,this.resource.uriInfo().getRequestUriBuilder().clone().queryParam(Facebook.FLAG).build(),METHOD_INVOCATION, line no: 154, 0.6428571428571429, 0.6428571428571429, 0.0
+build,SIMPLE_NAME, line no: 145,this.resource.uriInfo().getRequestUriBuilder().clone().queryParam(Facebook.FLAG),METHOD_INVOCATION, line no: 154, 0.6428571428571429, 0.6428571428571429, 0.0
+build,SIMPLE_NAME, line no: 145,this.resource.uriInfo().getRequestUriBuilder().clone(),METHOD_INVOCATION, line no: 154, 0.6428571428571429, 0.6428571428571429, 0.0
+build,SIMPLE_NAME, line no: 145,this.resource.uriInfo().getRequestUriBuilder(),METHOD_INVOCATION, line no: 154, 0.6428571428571429, 0.6428571428571429, 0.0
+build,SIMPLE_NAME, line no: 145,"=",STRING_LITERAL, line no: 186, 0.6428571428571429, 0.6428571428571429, 0.0
+build,SIMPLE_NAME, line no: 145,"access_token",STRING_LITERAL, line no: 195, 0.6428571428571429, 0.6428571428571429, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,this.resource.uriInfo().getRequestUriBuilder().clone().queryParam(Facebook.FLAG).build(),METHOD_INVOCATION, line no: 154, 0.6428571428571429, 0.6428571428571429, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,this.resource.uriInfo().getRequestUriBuilder().clone().queryParam(Facebook.FLAG),METHOD_INVOCATION, line no: 154, 0.6428571428571429, 0.6428571428571429, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,this.resource.uriInfo().getRequestUriBuilder().clone(),METHOD_INVOCATION, line no: 154, 0.6428571428571429, 0.6428571428571429, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,this.resource.uriInfo().getRequestUriBuilder(),METHOD_INVOCATION, line no: 154, 0.6428571428571429, 0.6428571428571429, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,getRequestUriBuilder,SIMPLE_NAME, line no: 154, 0.6428571428571429, 0.6428571428571429, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,clone,SIMPLE_NAME, line no: 155, 0.6428571428571429, 0.6428571428571429, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"https://graph.facebook.com/",STRING_LITERAL, line no: 123, 0.6428571428571429, 0.6428571428571429, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,this.resource.uriInfo().getRequestUriBuilder().clone().queryParam(Facebook.FLAG).build(),METHOD_INVOCATION, line no: 154, 0.6428571428571429, 0.6428571428571429, 0.0
+this,THIS_EXPRESSION, line no: 145,this.resource.uriInfo().getRequestUriBuilder().clone().queryParam(Facebook.FLAG).build(),METHOD_INVOCATION, line no: 154, 0.6206896551724138, 0.6206896551724138, 0.0
+this,THIS_EXPRESSION, line no: 145,this.resource.uriInfo().getRequestUriBuilder().clone().queryParam(Facebook.FLAG),METHOD_INVOCATION, line no: 154, 0.6206896551724138, 0.6206896551724138, 0.0
+this,THIS_EXPRESSION, line no: 145,this.resource.uriInfo().getRequestUriBuilder().clone(),METHOD_INVOCATION, line no: 154, 0.6206896551724138, 0.6206896551724138, 0.0
+this,THIS_EXPRESSION, line no: 145,this.resource.uriInfo().getRequestUriBuilder(),METHOD_INVOCATION, line no: 154, 0.6206896551724138, 0.6206896551724138, 0.0
+this,THIS_EXPRESSION, line no: 145,getRequestUriBuilder,SIMPLE_NAME, line no: 154, 0.6206896551724138, 0.6206896551724138, 0.0
+this,THIS_EXPRESSION, line no: 145,clone,SIMPLE_NAME, line no: 155, 0.6206896551724138, 0.6206896551724138, 0.0
+appKey,SIMPLE_NAME, line no: 145,this.resource.uriInfo().getRequestUriBuilder().clone().queryParam(Facebook.FLAG).build(),METHOD_INVOCATION, line no: 154, 0.6206896551724138, 0.6206896551724138, 0.0
+appKey,SIMPLE_NAME, line no: 145,this.resource.uriInfo().getRequestUriBuilder().clone().queryParam(Facebook.FLAG),METHOD_INVOCATION, line no: 154, 0.6206896551724138, 0.6206896551724138, 0.0
+appKey,SIMPLE_NAME, line no: 145,this.resource.uriInfo().getRequestUriBuilder().clone(),METHOD_INVOCATION, line no: 154, 0.6206896551724138, 0.6206896551724138, 0.0
+appKey,SIMPLE_NAME, line no: 145,this.resource.uriInfo().getRequestUriBuilder(),METHOD_INVOCATION, line no: 154, 0.6206896551724138, 0.6206896551724138, 0.0
+this,THIS_EXPRESSION, line no: 145,"https://graph.facebook.com/",STRING_LITERAL, line no: 123, 0.6206896551724138, 0.6206896551724138, 0.0
+this,THIS_EXPRESSION, line no: 145,this.resource.uriInfo().getRequestUriBuilder().clone().queryParam(Facebook.FLAG).build(),METHOD_INVOCATION, line no: 154, 0.6206896551724138, 0.6206896551724138, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"https://graph.facebook.com/",STRING_LITERAL, line no: 123, 0.6206896551724138, 0.6206896551724138, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,this.resource.uriInfo().getRequestUriBuilder().clone().queryParam(Facebook.FLAG).build(),METHOD_INVOCATION, line no: 154, 0.6206896551724138, 0.6206896551724138, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"=",STRING_LITERAL, line no: 186, 0.6206896551724138, 0.6206896551724138, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"access_token",STRING_LITERAL, line no: 195, 0.6206896551724138, 0.6206896551724138, 0.0
+build,SIMPLE_NAME, line no: 145,getId,SIMPLE_NAME, line no: 114, 0.6071428571428571, 0.5714285714285714, 0.0
+build,SIMPLE_NAME, line no: 145,"https://graph.facebook.com/",STRING_LITERAL, line no: 123, 0.6071428571428571, 0.6071428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,path,SIMPLE_NAME, line no: 124, 0.6071428571428571, 0.6071428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,"/{id}/picture",STRING_LITERAL, line no: 124, 0.6071428571428571, 0.6071428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,pair,SIMPLE_NAME, line no: 186, 0.6071428571428571, 0.5714285714285714, 0.0
+build,SIMPLE_NAME, line no: 145,sector.split("="),METHOD_INVOCATION, line no: 186, 0.6071428571428571, 0.6071428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,"access_token".equals(pair[0]),METHOD_INVOCATION, line no: 195, 0.6071428571428571, 0.6071428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,equals,SIMPLE_NAME, line no: 195, 0.6071428571428571, 0.6071428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,pair[0],ARRAY_ACCESS, line no: 195, 0.6071428571428571, 0.6071428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,getId,SIMPLE_NAME, line no: 114, 0.6071428571428571, 0.5714285714285714, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"https://graph.facebook.com/",STRING_LITERAL, line no: 123, 0.6071428571428571, 0.6071428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,path,SIMPLE_NAME, line no: 124, 0.6071428571428571, 0.6071428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"/{id}/picture",STRING_LITERAL, line no: 124, 0.6071428571428571, 0.6071428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"=",STRING_LITERAL, line no: 186, 0.6071428571428571, 0.6071428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"access_token",STRING_LITERAL, line no: 195, 0.6071428571428571, 0.6071428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,getId,SIMPLE_NAME, line no: 114, 0.6071428571428571, 0.5714285714285714, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/"),METHOD_INVOCATION, line no: 123, 0.6071428571428571, 0.6071428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,path,SIMPLE_NAME, line no: 124, 0.6071428571428571, 0.6071428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"/{id}/picture",STRING_LITERAL, line no: 124, 0.6071428571428571, 0.6071428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"=",STRING_LITERAL, line no: 186, 0.6071428571428571, 0.6071428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"access_token",STRING_LITERAL, line no: 195, 0.6071428571428571, 0.6071428571428571, 0.0
+this,THIS_EXPRESSION, line no: 145,getId,SIMPLE_NAME, line no: 114, 0.5862068965517241, 0.5517241379310345, 0.0
+this,THIS_EXPRESSION, line no: 145,"https://graph.facebook.com/",STRING_LITERAL, line no: 123, 0.5862068965517241, 0.5862068965517241, 0.0
+this,THIS_EXPRESSION, line no: 145,path,SIMPLE_NAME, line no: 124, 0.5862068965517241, 0.5862068965517241, 0.0
+this,THIS_EXPRESSION, line no: 145,"/{id}/picture",STRING_LITERAL, line no: 124, 0.5862068965517241, 0.5862068965517241, 0.0
+this,THIS_EXPRESSION, line no: 145,"=",STRING_LITERAL, line no: 186, 0.5862068965517241, 0.5862068965517241, 0.0
+this,THIS_EXPRESSION, line no: 145,"access_token",STRING_LITERAL, line no: 195, 0.5862068965517241, 0.5862068965517241, 0.0
+appKey,SIMPLE_NAME, line no: 145,getId,SIMPLE_NAME, line no: 114, 0.5862068965517241, 0.5517241379310345, 0.0
+appKey,SIMPLE_NAME, line no: 145,path,SIMPLE_NAME, line no: 124, 0.5862068965517241, 0.5862068965517241, 0.0
+appKey,SIMPLE_NAME, line no: 145,pair,SIMPLE_NAME, line no: 186, 0.5862068965517241, 0.5517241379310345, 0.0
+appKey,SIMPLE_NAME, line no: 145,sector.split("="),METHOD_INVOCATION, line no: 186, 0.5862068965517241, 0.5862068965517241, 0.0
+appKey,SIMPLE_NAME, line no: 145,"access_token".equals(pair[0]),METHOD_INVOCATION, line no: 195, 0.5862068965517241, 0.5862068965517241, 0.0
+appKey,SIMPLE_NAME, line no: 145,equals,SIMPLE_NAME, line no: 195, 0.5862068965517241, 0.5862068965517241, 0.0
+this,THIS_EXPRESSION, line no: 145,getId,SIMPLE_NAME, line no: 114, 0.5862068965517241, 0.5517241379310345, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/"),METHOD_INVOCATION, line no: 123, 0.5862068965517241, 0.5862068965517241, 0.0
+this,THIS_EXPRESSION, line no: 145,path,SIMPLE_NAME, line no: 124, 0.5862068965517241, 0.5862068965517241, 0.0
+this,THIS_EXPRESSION, line no: 145,"/{id}/picture",STRING_LITERAL, line no: 124, 0.5862068965517241, 0.5862068965517241, 0.0
+this,THIS_EXPRESSION, line no: 145,"=",STRING_LITERAL, line no: 186, 0.5862068965517241, 0.5862068965517241, 0.0
+this,THIS_EXPRESSION, line no: 145,"access_token",STRING_LITERAL, line no: 195, 0.5862068965517241, 0.5862068965517241, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,getId,SIMPLE_NAME, line no: 114, 0.5862068965517241, 0.5517241379310345, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/"),METHOD_INVOCATION, line no: 123, 0.5862068965517241, 0.5862068965517241, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,path,SIMPLE_NAME, line no: 124, 0.5862068965517241, 0.5862068965517241, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"/{id}/picture",STRING_LITERAL, line no: 124, 0.5862068965517241, 0.5862068965517241, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,pair,SIMPLE_NAME, line no: 186, 0.5862068965517241, 0.5517241379310345, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,sector.split("="),METHOD_INVOCATION, line no: 186, 0.5862068965517241, 0.5862068965517241, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"access_token".equals(pair[0]),METHOD_INVOCATION, line no: 195, 0.5862068965517241, 0.5862068965517241, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,equals,SIMPLE_NAME, line no: 195, 0.5862068965517241, 0.5862068965517241, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,pair[0],ARRAY_ACCESS, line no: 195, 0.5862068965517241, 0.5862068965517241, 0.0
+build,SIMPLE_NAME, line no: 145,fbuser.getId(),METHOD_INVOCATION, line no: 114, 0.5714285714285714, 0.5357142857142857, 0.0
+build,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture"),METHOD_INVOCATION, line no: 123, 0.5714285714285714, 0.5714285714285714, 0.0
+build,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/"),METHOD_INVOCATION, line no: 123, 0.5714285714285714, 0.5714285714285714, 0.0
+build,SIMPLE_NAME, line no: 145,pair.length != 2,INFIX_EXPRESSION, line no: 187, 0.5714285714285714, 0.5714285714285714, 0.0
+build,SIMPLE_NAME, line no: 145,pair.length,QUALIFIED_NAME, line no: 187, 0.5714285714285714, 0.5714285714285714, 0.0
+build,SIMPLE_NAME, line no: 145,length,SIMPLE_NAME, line no: 187, 0.5714285714285714, 0.5714285714285714, 0.0
+build,SIMPLE_NAME, line no: 145,2,NUMBER_LITERAL, line no: 187, 0.5714285714285714, 0.5714285714285714, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,fbuser.getId(),METHOD_INVOCATION, line no: 114, 0.5714285714285714, 0.5357142857142857, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture"),METHOD_INVOCATION, line no: 123, 0.5714285714285714, 0.5714285714285714, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/"),METHOD_INVOCATION, line no: 123, 0.5714285714285714, 0.5714285714285714, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,pair,SIMPLE_NAME, line no: 186, 0.5714285714285714, 0.5357142857142857, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,sector.split("="),METHOD_INVOCATION, line no: 186, 0.5714285714285714, 0.5714285714285714, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"access_token".equals(pair[0]),METHOD_INVOCATION, line no: 195, 0.5714285714285714, 0.5714285714285714, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,equals,SIMPLE_NAME, line no: 195, 0.5714285714285714, 0.5714285714285714, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,pair[0],ARRAY_ACCESS, line no: 195, 0.5714285714285714, 0.5714285714285714, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,fbuser.getId(),METHOD_INVOCATION, line no: 114, 0.5714285714285714, 0.5357142857142857, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture"),METHOD_INVOCATION, line no: 123, 0.5714285714285714, 0.5714285714285714, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,pair,SIMPLE_NAME, line no: 186, 0.5714285714285714, 0.5357142857142857, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,sector.split("="),METHOD_INVOCATION, line no: 186, 0.5714285714285714, 0.5714285714285714, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"access_token".equals(pair[0]),METHOD_INVOCATION, line no: 195, 0.5714285714285714, 0.5714285714285714, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,equals,SIMPLE_NAME, line no: 195, 0.5714285714285714, 0.5714285714285714, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,pair[0],ARRAY_ACCESS, line no: 195, 0.5714285714285714, 0.5714285714285714, 0.0
+this,THIS_EXPRESSION, line no: 145,fbuser.getId(),METHOD_INVOCATION, line no: 114, 0.5517241379310345, 0.5172413793103449, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture"),METHOD_INVOCATION, line no: 123, 0.5517241379310345, 0.5517241379310345, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/"),METHOD_INVOCATION, line no: 123, 0.5517241379310345, 0.5517241379310345, 0.0
+this,THIS_EXPRESSION, line no: 145,pair,SIMPLE_NAME, line no: 186, 0.5517241379310345, 0.5172413793103449, 0.0
+this,THIS_EXPRESSION, line no: 145,sector.split("="),METHOD_INVOCATION, line no: 186, 0.5517241379310345, 0.5517241379310345, 0.0
+this,THIS_EXPRESSION, line no: 145,"access_token".equals(pair[0]),METHOD_INVOCATION, line no: 195, 0.5517241379310345, 0.5517241379310345, 0.0
+this,THIS_EXPRESSION, line no: 145,equals,SIMPLE_NAME, line no: 195, 0.5517241379310345, 0.5517241379310345, 0.0
+this,THIS_EXPRESSION, line no: 145,pair[0],ARRAY_ACCESS, line no: 195, 0.5517241379310345, 0.5517241379310345, 0.0
+appKey,SIMPLE_NAME, line no: 145,fbuser.getId(),METHOD_INVOCATION, line no: 114, 0.5517241379310345, 0.5172413793103449, 0.0
+appKey,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture"),METHOD_INVOCATION, line no: 123, 0.5517241379310345, 0.5517241379310345, 0.0
+appKey,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/"),METHOD_INVOCATION, line no: 123, 0.5517241379310345, 0.5517241379310345, 0.0
+appKey,SIMPLE_NAME, line no: 145,pair.length != 2,INFIX_EXPRESSION, line no: 187, 0.5517241379310345, 0.5517241379310345, 0.0
+appKey,SIMPLE_NAME, line no: 145,pair.length,QUALIFIED_NAME, line no: 187, 0.5517241379310345, 0.5517241379310345, 0.0
+appKey,SIMPLE_NAME, line no: 145,length,SIMPLE_NAME, line no: 187, 0.5517241379310345, 0.5517241379310345, 0.0
+appKey,SIMPLE_NAME, line no: 145,2,NUMBER_LITERAL, line no: 187, 0.5517241379310345, 0.5517241379310345, 0.0
+this,THIS_EXPRESSION, line no: 145,fbuser.getId(),METHOD_INVOCATION, line no: 114, 0.5517241379310345, 0.5172413793103449, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture"),METHOD_INVOCATION, line no: 123, 0.5517241379310345, 0.5517241379310345, 0.0
+this,THIS_EXPRESSION, line no: 145,pair,SIMPLE_NAME, line no: 186, 0.5517241379310345, 0.5172413793103449, 0.0
+this,THIS_EXPRESSION, line no: 145,sector.split("="),METHOD_INVOCATION, line no: 186, 0.5517241379310345, 0.5517241379310345, 0.0
+this,THIS_EXPRESSION, line no: 145,"access_token".equals(pair[0]),METHOD_INVOCATION, line no: 195, 0.5517241379310345, 0.5517241379310345, 0.0
+this,THIS_EXPRESSION, line no: 145,equals,SIMPLE_NAME, line no: 195, 0.5517241379310345, 0.5517241379310345, 0.0
+this,THIS_EXPRESSION, line no: 145,pair[0],ARRAY_ACCESS, line no: 195, 0.5517241379310345, 0.5517241379310345, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,fbuser.getId(),METHOD_INVOCATION, line no: 114, 0.5517241379310345, 0.5172413793103449, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture"),METHOD_INVOCATION, line no: 123, 0.5517241379310345, 0.5517241379310345, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,pair.length != 2,INFIX_EXPRESSION, line no: 187, 0.5517241379310345, 0.5517241379310345, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,pair.length,QUALIFIED_NAME, line no: 187, 0.5517241379310345, 0.5517241379310345, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,length,SIMPLE_NAME, line no: 187, 0.5517241379310345, 0.5517241379310345, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,2,NUMBER_LITERAL, line no: 187, 0.5517241379310345, 0.5517241379310345, 0.0
+build,SIMPLE_NAME, line no: 145,format,SIMPLE_NAME, line no: 114, 0.5357142857142857, 0.5357142857142857, 0.0
+build,SIMPLE_NAME, line no: 145,"urn:facebook:%s",STRING_LITERAL, line no: 114, 0.5357142857142857, 0.5357142857142857, 0.0
+build,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture").build(fbuser.getId()),METHOD_INVOCATION, line no: 123, 0.5357142857142857, 0.5357142857142857, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"urn:facebook:%s",STRING_LITERAL, line no: 114, 0.5357142857142857, 0.5357142857142857, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture").build(fbuser.getId()),METHOD_INVOCATION, line no: 123, 0.5357142857142857, 0.5357142857142857, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,pair.length != 2,INFIX_EXPRESSION, line no: 187, 0.5357142857142857, 0.5357142857142857, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,pair.length,QUALIFIED_NAME, line no: 187, 0.5357142857142857, 0.5357142857142857, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,length,SIMPLE_NAME, line no: 187, 0.5357142857142857, 0.5357142857142857, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,2,NUMBER_LITERAL, line no: 187, 0.5357142857142857, 0.5357142857142857, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,format,SIMPLE_NAME, line no: 114, 0.5357142857142857, 0.5357142857142857, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"urn:facebook:%s",STRING_LITERAL, line no: 114, 0.5357142857142857, 0.5357142857142857, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture").build(fbuser.getId()),METHOD_INVOCATION, line no: 123, 0.5357142857142857, 0.5357142857142857, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,pair.length != 2,INFIX_EXPRESSION, line no: 187, 0.5357142857142857, 0.5357142857142857, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,pair.length,QUALIFIED_NAME, line no: 187, 0.5357142857142857, 0.5357142857142857, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,length,SIMPLE_NAME, line no: 187, 0.5357142857142857, 0.5357142857142857, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,2,NUMBER_LITERAL, line no: 187, 0.5357142857142857, 0.5357142857142857, 0.0
+this,THIS_EXPRESSION, line no: 145,format,SIMPLE_NAME, line no: 114, 0.5172413793103449, 0.5172413793103449, 0.0
+this,THIS_EXPRESSION, line no: 145,"urn:facebook:%s",STRING_LITERAL, line no: 114, 0.5172413793103449, 0.5172413793103449, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture").build(fbuser.getId()),METHOD_INVOCATION, line no: 123, 0.5172413793103449, 0.5172413793103449, 0.0
+this,THIS_EXPRESSION, line no: 145,pair.length != 2,INFIX_EXPRESSION, line no: 187, 0.5172413793103449, 0.5172413793103449, 0.0
+this,THIS_EXPRESSION, line no: 145,pair.length,QUALIFIED_NAME, line no: 187, 0.5172413793103449, 0.5172413793103449, 0.0
+this,THIS_EXPRESSION, line no: 145,length,SIMPLE_NAME, line no: 187, 0.5172413793103449, 0.5172413793103449, 0.0
+this,THIS_EXPRESSION, line no: 145,2,NUMBER_LITERAL, line no: 187, 0.5172413793103449, 0.5172413793103449, 0.0
+appKey,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture").build(fbuser.getId()),METHOD_INVOCATION, line no: 123, 0.5172413793103449, 0.5172413793103449, 0.0
+this,THIS_EXPRESSION, line no: 145,format,SIMPLE_NAME, line no: 114, 0.5172413793103449, 0.5172413793103449, 0.0
+this,THIS_EXPRESSION, line no: 145,"urn:facebook:%s",STRING_LITERAL, line no: 114, 0.5172413793103449, 0.5172413793103449, 0.0
+this,THIS_EXPRESSION, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture").build(fbuser.getId()),METHOD_INVOCATION, line no: 123, 0.5172413793103449, 0.5172413793103449, 0.0
+this,THIS_EXPRESSION, line no: 145,pair.length != 2,INFIX_EXPRESSION, line no: 187, 0.5172413793103449, 0.5172413793103449, 0.0
+this,THIS_EXPRESSION, line no: 145,pair.length,QUALIFIED_NAME, line no: 187, 0.5172413793103449, 0.5172413793103449, 0.0
+this,THIS_EXPRESSION, line no: 145,length,SIMPLE_NAME, line no: 187, 0.5172413793103449, 0.5172413793103449, 0.0
+this,THIS_EXPRESSION, line no: 145,2,NUMBER_LITERAL, line no: 187, 0.5172413793103449, 0.5172413793103449, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,format,SIMPLE_NAME, line no: 114, 0.5172413793103449, 0.5172413793103449, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"urn:facebook:%s",STRING_LITERAL, line no: 114, 0.5172413793103449, 0.5172413793103449, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,UriBuilder.fromUri("https://graph.facebook.com/").path("/{id}/picture").build(fbuser.getId()),METHOD_INVOCATION, line no: 123, 0.5172413793103449, 0.5172413793103449, 0.0
+build,SIMPLE_NAME, line no: 145,com,SIMPLE_NAME, line no: 30, 0.5, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,restfb,SIMPLE_NAME, line no: 34, 0.5, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,create,SIMPLE_NAME, line no: 113, 0.5, 0.5, 0.0
+build,SIMPLE_NAME, line no: 145,String.format("urn:facebook:%s" fbuser.getId()),METHOD_INVOCATION, line no: 114, 0.5, 0.5, 0.0
+build,SIMPLE_NAME, line no: 145,com.restfb.exception.FacebookException,QUALIFIED_NAME, line no: 220, 0.5, 0.5, 0.0
+build,SIMPLE_NAME, line no: 145,com.restfb.exception,QUALIFIED_NAME, line no: 220, 0.5, 0.5, 0.0
+build,SIMPLE_NAME, line no: 145,com.restfb,QUALIFIED_NAME, line no: 220, 0.5, 0.5, 0.0
+build,SIMPLE_NAME, line no: 145,exception,SIMPLE_NAME, line no: 220, 0.5, 0.5, 0.0
+build,SIMPLE_NAME, line no: 145,FacebookException,SIMPLE_NAME, line no: 220, 0.5, 0.5, 0.0
+build,SIMPLE_NAME, line no: 145,ex,SIMPLE_NAME, line no: 220, 0.5, 0.5, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,create,SIMPLE_NAME, line no: 113, 0.5, 0.5, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,String.format("urn:facebook:%s" fbuser.getId()),METHOD_INVOCATION, line no: 114, 0.5, 0.5, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,create,SIMPLE_NAME, line no: 113, 0.5, 0.5, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,String.format("urn:facebook:%s" fbuser.getId()),METHOD_INVOCATION, line no: 114, 0.5, 0.5, 0.0
+this,THIS_EXPRESSION, line no: 145,create,SIMPLE_NAME, line no: 113, 0.4827586206896552, 0.4827586206896552, 0.0
+this,THIS_EXPRESSION, line no: 145,String.format("urn:facebook:%s" fbuser.getId()),METHOD_INVOCATION, line no: 114, 0.4827586206896552, 0.4827586206896552, 0.0
+appKey,SIMPLE_NAME, line no: 145,com,SIMPLE_NAME, line no: 30, 0.4827586206896552, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,restfb,SIMPLE_NAME, line no: 34, 0.4827586206896552, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,create,SIMPLE_NAME, line no: 113, 0.4827586206896552, 0.4827586206896552, 0.0
+appKey,SIMPLE_NAME, line no: 145,String.format("urn:facebook:%s" fbuser.getId()),METHOD_INVOCATION, line no: 114, 0.4827586206896552, 0.4827586206896552, 0.0
+appKey,SIMPLE_NAME, line no: 145,com.restfb.exception.FacebookException,QUALIFIED_NAME, line no: 220, 0.4827586206896552, 0.4827586206896552, 0.0
+appKey,SIMPLE_NAME, line no: 145,com.restfb.exception,QUALIFIED_NAME, line no: 220, 0.4827586206896552, 0.4827586206896552, 0.0
+appKey,SIMPLE_NAME, line no: 145,com.restfb,QUALIFIED_NAME, line no: 220, 0.4827586206896552, 0.4827586206896552, 0.0
+appKey,SIMPLE_NAME, line no: 145,exception,SIMPLE_NAME, line no: 220, 0.4827586206896552, 0.4827586206896552, 0.0
+appKey,SIMPLE_NAME, line no: 145,FacebookException,SIMPLE_NAME, line no: 220, 0.4827586206896552, 0.4827586206896552, 0.0
+appKey,SIMPLE_NAME, line no: 145,ex,SIMPLE_NAME, line no: 220, 0.4827586206896552, 0.4827586206896552, 0.0
+this,THIS_EXPRESSION, line no: 145,create,SIMPLE_NAME, line no: 113, 0.4827586206896552, 0.4827586206896552, 0.0
+this,THIS_EXPRESSION, line no: 145,String.format("urn:facebook:%s" fbuser.getId()),METHOD_INVOCATION, line no: 114, 0.4827586206896552, 0.4827586206896552, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,com,SIMPLE_NAME, line no: 30, 0.4827586206896552, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,restfb,SIMPLE_NAME, line no: 34, 0.4827586206896552, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,create,SIMPLE_NAME, line no: 113, 0.4827586206896552, 0.4827586206896552, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,String.format("urn:facebook:%s" fbuser.getId()),METHOD_INVOCATION, line no: 114, 0.4827586206896552, 0.4827586206896552, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,com.restfb.exception.FacebookException,QUALIFIED_NAME, line no: 220, 0.4827586206896552, 0.4827586206896552, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,com.restfb.exception,QUALIFIED_NAME, line no: 220, 0.4827586206896552, 0.4827586206896552, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,com.restfb,QUALIFIED_NAME, line no: 220, 0.4827586206896552, 0.4827586206896552, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,exception,SIMPLE_NAME, line no: 220, 0.4827586206896552, 0.4827586206896552, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,FacebookException,SIMPLE_NAME, line no: 220, 0.4827586206896552, 0.4827586206896552, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,ex,SIMPLE_NAME, line no: 220, 0.4827586206896552, 0.4827586206896552, 0.0
+build,SIMPLE_NAME, line no: 145,URN.create(String.format("urn:facebook:%s" fbuser.getId())),METHOD_INVOCATION, line no: 113, 0.4642857142857143, 0.4642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,com,SIMPLE_NAME, line no: 30, 0.4642857142857143, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,restfb,SIMPLE_NAME, line no: 34, 0.4642857142857143, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,URN.create(String.format("urn:facebook:%s" fbuser.getId())),METHOD_INVOCATION, line no: 113, 0.4642857142857143, 0.4642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,com.restfb.exception.FacebookException,QUALIFIED_NAME, line no: 220, 0.4642857142857143, 0.4642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,com.restfb.exception,QUALIFIED_NAME, line no: 220, 0.4642857142857143, 0.4642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,com.restfb,QUALIFIED_NAME, line no: 220, 0.4642857142857143, 0.4642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,exception,SIMPLE_NAME, line no: 220, 0.4642857142857143, 0.4642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,FacebookException,SIMPLE_NAME, line no: 220, 0.4642857142857143, 0.4642857142857143, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,ex,SIMPLE_NAME, line no: 220, 0.4642857142857143, 0.4642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,com,SIMPLE_NAME, line no: 30, 0.4642857142857143, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,restfb,SIMPLE_NAME, line no: 34, 0.4642857142857143, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,URN.create(String.format("urn:facebook:%s" fbuser.getId())),METHOD_INVOCATION, line no: 113, 0.4642857142857143, 0.4642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,com.restfb.exception.FacebookException,QUALIFIED_NAME, line no: 220, 0.4642857142857143, 0.4642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,com.restfb.exception,QUALIFIED_NAME, line no: 220, 0.4642857142857143, 0.4642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,com.restfb,QUALIFIED_NAME, line no: 220, 0.4642857142857143, 0.4642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,exception,SIMPLE_NAME, line no: 220, 0.4642857142857143, 0.4642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,FacebookException,SIMPLE_NAME, line no: 220, 0.4642857142857143, 0.4642857142857143, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,ex,SIMPLE_NAME, line no: 220, 0.4642857142857143, 0.4642857142857143, 0.0
+this,THIS_EXPRESSION, line no: 145,com,SIMPLE_NAME, line no: 30, 0.4482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,restfb,SIMPLE_NAME, line no: 34, 0.4482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,URN.create(String.format("urn:facebook:%s" fbuser.getId())),METHOD_INVOCATION, line no: 113, 0.4482758620689655, 0.4482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,com.restfb.exception.FacebookException,QUALIFIED_NAME, line no: 220, 0.4482758620689655, 0.4482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,com.restfb.exception,QUALIFIED_NAME, line no: 220, 0.4482758620689655, 0.4482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,com.restfb,QUALIFIED_NAME, line no: 220, 0.4482758620689655, 0.4482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,exception,SIMPLE_NAME, line no: 220, 0.4482758620689655, 0.4482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,FacebookException,SIMPLE_NAME, line no: 220, 0.4482758620689655, 0.4482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,ex,SIMPLE_NAME, line no: 220, 0.4482758620689655, 0.4482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,URN.create(String.format("urn:facebook:%s" fbuser.getId())),METHOD_INVOCATION, line no: 113, 0.4482758620689655, 0.4482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,com,SIMPLE_NAME, line no: 30, 0.4482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,restfb,SIMPLE_NAME, line no: 34, 0.4482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,URN.create(String.format("urn:facebook:%s" fbuser.getId())),METHOD_INVOCATION, line no: 113, 0.4482758620689655, 0.4482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,com.restfb.exception.FacebookException,QUALIFIED_NAME, line no: 220, 0.4482758620689655, 0.4482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,com.restfb.exception,QUALIFIED_NAME, line no: 220, 0.4482758620689655, 0.4482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,com.restfb,QUALIFIED_NAME, line no: 220, 0.4482758620689655, 0.4482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,exception,SIMPLE_NAME, line no: 220, 0.4482758620689655, 0.4482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,FacebookException,SIMPLE_NAME, line no: 220, 0.4482758620689655, 0.4482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,ex,SIMPLE_NAME, line no: 220, 0.4482758620689655, 0.4482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,URN.create(String.format("urn:facebook:%s" fbuser.getId())),METHOD_INVOCATION, line no: 113, 0.4482758620689655, 0.4482758620689655, 0.0
+build,SIMPLE_NAME, line no: 145,DefaultFacebookClient,SIMPLE_NAME, line no: 34, 0.42857142857142855, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,DefaultFacebookClient,SIMPLE_NAME, line no: 34, 0.42857142857142855, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,DefaultFacebookClient,SIMPLE_NAME, line no: 34, 0.42857142857142855, 0.03571428571428571, 0.0
+this,THIS_EXPRESSION, line no: 145,DefaultFacebookClient,SIMPLE_NAME, line no: 34, 0.41379310344827586, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,res,SIMPLE_NAME, line no: 85, 0.41379310344827586, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,aid,SIMPLE_NAME, line no: 86, 0.41379310344827586, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,key,SIMPLE_NAME, line no: 86, 0.41379310344827586, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,DefaultFacebookClient,SIMPLE_NAME, line no: 34, 0.41379310344827586, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,DefaultFacebookClient,SIMPLE_NAME, line no: 34, 0.41379310344827586, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,DefaultFacebookClient,SIMPLE_NAME, line no: 34, 0.41379310344827586, 0.034482758620689655, 0.0
+build,SIMPLE_NAME, line no: 145,new DefaultFacebookClient(token),CLASS_INSTANCE_CREATION, line no: 218, 0.39285714285714285, 0.39285714285714285, 0.0
+build,SIMPLE_NAME, line no: 145,fetchObject,SIMPLE_NAME, line no: 219, 0.39285714285714285, 0.39285714285714285, 0.0
+build,SIMPLE_NAME, line no: 145,"me",STRING_LITERAL, line no: 219, 0.39285714285714285, 0.39285714285714285, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,res,SIMPLE_NAME, line no: 85, 0.39285714285714285, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,new DefaultFacebookClient(token),CLASS_INSTANCE_CREATION, line no: 218, 0.39285714285714285, 0.39285714285714285, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,fetchObject,SIMPLE_NAME, line no: 219, 0.39285714285714285, 0.39285714285714285, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"me",STRING_LITERAL, line no: 219, 0.39285714285714285, 0.39285714285714285, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,new DefaultFacebookClient(token),CLASS_INSTANCE_CREATION, line no: 218, 0.39285714285714285, 0.39285714285714285, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,fetchObject,SIMPLE_NAME, line no: 219, 0.39285714285714285, 0.39285714285714285, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"me",STRING_LITERAL, line no: 219, 0.39285714285714285, 0.39285714285714285, 0.0
+this,THIS_EXPRESSION, line no: 145,this.resource=res,ASSIGNMENT, line no: 87, 0.3793103448275862, 0.3793103448275862, 0.0
+this,THIS_EXPRESSION, line no: 145,this.appId=aid,ASSIGNMENT, line no: 88, 0.3793103448275862, 0.3793103448275862, 0.0
+this,THIS_EXPRESSION, line no: 145,this.appKey=key,ASSIGNMENT, line no: 89, 0.3793103448275862, 0.3793103448275862, 0.0
+this,THIS_EXPRESSION, line no: 145,new DefaultFacebookClient(token),CLASS_INSTANCE_CREATION, line no: 218, 0.3793103448275862, 0.3793103448275862, 0.0
+this,THIS_EXPRESSION, line no: 145,fetchObject,SIMPLE_NAME, line no: 219, 0.3793103448275862, 0.3793103448275862, 0.0
+this,THIS_EXPRESSION, line no: 145,"me",STRING_LITERAL, line no: 219, 0.3793103448275862, 0.3793103448275862, 0.0
+appKey,SIMPLE_NAME, line no: 145,res,SIMPLE_NAME, line no: 85, 0.3793103448275862, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,new DefaultFacebookClient(token),CLASS_INSTANCE_CREATION, line no: 218, 0.3793103448275862, 0.3793103448275862, 0.0
+appKey,SIMPLE_NAME, line no: 145,fetchObject,SIMPLE_NAME, line no: 219, 0.3793103448275862, 0.3793103448275862, 0.0
+this,THIS_EXPRESSION, line no: 145,res,SIMPLE_NAME, line no: 85, 0.3793103448275862, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,aid,SIMPLE_NAME, line no: 86, 0.3793103448275862, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,key,SIMPLE_NAME, line no: 86, 0.3793103448275862, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,new DefaultFacebookClient(token),CLASS_INSTANCE_CREATION, line no: 218, 0.3793103448275862, 0.3793103448275862, 0.0
+this,THIS_EXPRESSION, line no: 145,fetchObject,SIMPLE_NAME, line no: 219, 0.3793103448275862, 0.3793103448275862, 0.0
+this,THIS_EXPRESSION, line no: 145,"me",STRING_LITERAL, line no: 219, 0.3793103448275862, 0.3793103448275862, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,new DefaultFacebookClient(token),CLASS_INSTANCE_CREATION, line no: 218, 0.3793103448275862, 0.3793103448275862, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,fetchObject,SIMPLE_NAME, line no: 219, 0.3793103448275862, 0.3793103448275862, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"me",STRING_LITERAL, line no: 219, 0.3793103448275862, 0.3793103448275862, 0.0
+build,SIMPLE_NAME, line no: 145,res,SIMPLE_NAME, line no: 85, 0.35714285714285715, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,aid,SIMPLE_NAME, line no: 86, 0.35714285714285715, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,key,SIMPLE_NAME, line no: 86, 0.35714285714285715, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,"Invalid response: '%s'",STRING_LITERAL, line no: 190, 0.35714285714285715, 0.35714285714285715, 0.0
+build,SIMPLE_NAME, line no: 145,"Access token not found in response: '%s'",STRING_LITERAL, line no: 203, 0.35714285714285715, 0.35714285714285715, 0.0
+build,SIMPLE_NAME, line no: 145,new DefaultFacebookClient(token).fetchObject("me" User.class),METHOD_INVOCATION, line no: 218, 0.35714285714285715, 0.35714285714285715, 0.0
+build,SIMPLE_NAME, line no: 145,User.class,TYPE_LITERAL, line no: 219, 0.35714285714285715, 0.35714285714285715, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,this.resource=res,ASSIGNMENT, line no: 87, 0.35714285714285715, 0.35714285714285715, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,this.appId=aid,ASSIGNMENT, line no: 88, 0.35714285714285715, 0.35714285714285715, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"Invalid response: '%s'",STRING_LITERAL, line no: 190, 0.35714285714285715, 0.35714285714285715, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"Access token not found in response: '%s'",STRING_LITERAL, line no: 203, 0.35714285714285715, 0.35714285714285715, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,new DefaultFacebookClient(token).fetchObject("me" User.class),METHOD_INVOCATION, line no: 218, 0.35714285714285715, 0.35714285714285715, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,User.class,TYPE_LITERAL, line no: 219, 0.35714285714285715, 0.35714285714285715, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,res,SIMPLE_NAME, line no: 85, 0.35714285714285715, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,aid,SIMPLE_NAME, line no: 86, 0.35714285714285715, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,key,SIMPLE_NAME, line no: 86, 0.35714285714285715, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"Invalid response: '%s'",STRING_LITERAL, line no: 190, 0.35714285714285715, 0.35714285714285715, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"Access token not found in response: '%s'",STRING_LITERAL, line no: 203, 0.35714285714285715, 0.35714285714285715, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,new DefaultFacebookClient(token).fetchObject("me" User.class),METHOD_INVOCATION, line no: 218, 0.35714285714285715, 0.35714285714285715, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,User.class,TYPE_LITERAL, line no: 219, 0.35714285714285715, 0.35714285714285715, 0.0
+this,THIS_EXPRESSION, line no: 145,"Invalid response: '%s'",STRING_LITERAL, line no: 190, 0.3448275862068966, 0.3448275862068966, 0.0
+this,THIS_EXPRESSION, line no: 145,"Access token not found in response: '%s'",STRING_LITERAL, line no: 203, 0.3448275862068966, 0.3448275862068966, 0.0
+this,THIS_EXPRESSION, line no: 145,new DefaultFacebookClient(token).fetchObject("me" User.class),METHOD_INVOCATION, line no: 218, 0.3448275862068966, 0.3448275862068966, 0.0
+this,THIS_EXPRESSION, line no: 145,User.class,TYPE_LITERAL, line no: 219, 0.3448275862068966, 0.3448275862068966, 0.0
+appKey,SIMPLE_NAME, line no: 145,this.resource=res,ASSIGNMENT, line no: 87, 0.3448275862068966, 0.3448275862068966, 0.0
+appKey,SIMPLE_NAME, line no: 145,new DefaultFacebookClient(token).fetchObject("me" User.class),METHOD_INVOCATION, line no: 218, 0.3448275862068966, 0.3448275862068966, 0.0
+appKey,SIMPLE_NAME, line no: 145,User.class,TYPE_LITERAL, line no: 219, 0.3448275862068966, 0.3448275862068966, 0.0
+this,THIS_EXPRESSION, line no: 145,this.resource=res,ASSIGNMENT, line no: 87, 0.3448275862068966, 0.3448275862068966, 0.0
+this,THIS_EXPRESSION, line no: 145,this.appId=aid,ASSIGNMENT, line no: 88, 0.3448275862068966, 0.3448275862068966, 0.0
+this,THIS_EXPRESSION, line no: 145,this.appKey=key,ASSIGNMENT, line no: 89, 0.3448275862068966, 0.3448275862068966, 0.0
+this,THIS_EXPRESSION, line no: 145,"Invalid response: '%s'",STRING_LITERAL, line no: 190, 0.3448275862068966, 0.3448275862068966, 0.0
+this,THIS_EXPRESSION, line no: 145,"Access token not found in response: '%s'",STRING_LITERAL, line no: 203, 0.3448275862068966, 0.3448275862068966, 0.0
+this,THIS_EXPRESSION, line no: 145,new DefaultFacebookClient(token).fetchObject("me" User.class),METHOD_INVOCATION, line no: 218, 0.3448275862068966, 0.3448275862068966, 0.0
+this,THIS_EXPRESSION, line no: 145,User.class,TYPE_LITERAL, line no: 219, 0.3448275862068966, 0.3448275862068966, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,res,SIMPLE_NAME, line no: 85, 0.3448275862068966, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,aid,SIMPLE_NAME, line no: 86, 0.3448275862068966, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,key,SIMPLE_NAME, line no: 86, 0.3448275862068966, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"Invalid response: '%s'",STRING_LITERAL, line no: 190, 0.3448275862068966, 0.3448275862068966, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"Access token not found in response: '%s'",STRING_LITERAL, line no: 203, 0.3448275862068966, 0.3448275862068966, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,new DefaultFacebookClient(token).fetchObject("me" User.class),METHOD_INVOCATION, line no: 218, 0.3448275862068966, 0.3448275862068966, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,User.class,TYPE_LITERAL, line no: 219, 0.3448275862068966, 0.3448275862068966, 0.0
+build,SIMPLE_NAME, line no: 145,this.resource=res,ASSIGNMENT, line no: 87, 0.32142857142857145, 0.32142857142857145, 0.0
+build,SIMPLE_NAME, line no: 145,this.appId=aid,ASSIGNMENT, line no: 88, 0.32142857142857145, 0.32142857142857145, 0.0
+build,SIMPLE_NAME, line no: 145,this.appKey=key,ASSIGNMENT, line no: 89, 0.32142857142857145, 0.32142857142857145, 0.0
+build,SIMPLE_NAME, line no: 145,IllegalArgumentException,SIMPLE_NAME, line no: 188, 0.32142857142857145, 0.32142857142857145, 0.0
+build,SIMPLE_NAME, line no: 145,String.format("Invalid response: '%s'" response),METHOD_INVOCATION, line no: 189, 0.32142857142857145, 0.32142857142857145, 0.0
+build,SIMPLE_NAME, line no: 145,String.format("Access token not found in response: '%s'" response),METHOD_INVOCATION, line no: 202, 0.32142857142857145, 0.32142857142857145, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,IllegalArgumentException,SIMPLE_NAME, line no: 188, 0.32142857142857145, 0.32142857142857145, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,String.format("Invalid response: '%s'" response),METHOD_INVOCATION, line no: 189, 0.32142857142857145, 0.32142857142857145, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,String.format("Access token not found in response: '%s'" response),METHOD_INVOCATION, line no: 202, 0.32142857142857145, 0.32142857142857145, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,this.resource=res,ASSIGNMENT, line no: 87, 0.32142857142857145, 0.32142857142857145, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,this.appId=aid,ASSIGNMENT, line no: 88, 0.32142857142857145, 0.32142857142857145, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,this.appKey=key,ASSIGNMENT, line no: 89, 0.32142857142857145, 0.32142857142857145, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,IllegalArgumentException,SIMPLE_NAME, line no: 188, 0.32142857142857145, 0.32142857142857145, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,String.format("Invalid response: '%s'" response),METHOD_INVOCATION, line no: 189, 0.32142857142857145, 0.32142857142857145, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,String.format("Access token not found in response: '%s'" response),METHOD_INVOCATION, line no: 202, 0.32142857142857145, 0.32142857142857145, 0.0
+this,THIS_EXPRESSION, line no: 145,IllegalArgumentException,SIMPLE_NAME, line no: 188, 0.3103448275862069, 0.3103448275862069, 0.0
+this,THIS_EXPRESSION, line no: 145,String.format("Invalid response: '%s'" response),METHOD_INVOCATION, line no: 189, 0.3103448275862069, 0.3103448275862069, 0.0
+this,THIS_EXPRESSION, line no: 145,String.format("Access token not found in response: '%s'" response),METHOD_INVOCATION, line no: 202, 0.3103448275862069, 0.3103448275862069, 0.0
+appKey,SIMPLE_NAME, line no: 145,IllegalArgumentException,SIMPLE_NAME, line no: 188, 0.3103448275862069, 0.3103448275862069, 0.0
+this,THIS_EXPRESSION, line no: 145,IllegalArgumentException,SIMPLE_NAME, line no: 188, 0.3103448275862069, 0.3103448275862069, 0.0
+this,THIS_EXPRESSION, line no: 145,String.format("Invalid response: '%s'" response),METHOD_INVOCATION, line no: 189, 0.3103448275862069, 0.3103448275862069, 0.0
+this,THIS_EXPRESSION, line no: 145,String.format("Access token not found in response: '%s'" response),METHOD_INVOCATION, line no: 202, 0.3103448275862069, 0.3103448275862069, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,this.resource=res,ASSIGNMENT, line no: 87, 0.3103448275862069, 0.3103448275862069, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,this.appId=aid,ASSIGNMENT, line no: 88, 0.3103448275862069, 0.3103448275862069, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,this.appKey=key,ASSIGNMENT, line no: 89, 0.3103448275862069, 0.3103448275862069, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,IllegalArgumentException,SIMPLE_NAME, line no: 188, 0.3103448275862069, 0.3103448275862069, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,String.format("Invalid response: '%s'" response),METHOD_INVOCATION, line no: 189, 0.3103448275862069, 0.3103448275862069, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,String.format("Access token not found in response: '%s'" response),METHOD_INVOCATION, line no: 202, 0.3103448275862069, 0.3103448275862069, 0.0
+build,SIMPLE_NAME, line no: 145,new IllegalArgumentException(String.format("Invalid response: '%s'" response)),CLASS_INSTANCE_CREATION, line no: 188, 0.2857142857142857, 0.2857142857142857, 0.0
+build,SIMPLE_NAME, line no: 145,new IllegalArgumentException(String.format("Access token not found in response: '%s'" response)),CLASS_INSTANCE_CREATION, line no: 201, 0.2857142857142857, 0.2857142857142857, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,new IllegalArgumentException(String.format("Invalid response: '%s'" response)),CLASS_INSTANCE_CREATION, line no: 188, 0.2857142857142857, 0.2857142857142857, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,new IllegalArgumentException(String.format("Access token not found in response: '%s'" response)),CLASS_INSTANCE_CREATION, line no: 201, 0.2857142857142857, 0.2857142857142857, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,new IllegalArgumentException(String.format("Invalid response: '%s'" response)),CLASS_INSTANCE_CREATION, line no: 188, 0.2857142857142857, 0.2857142857142857, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,new IllegalArgumentException(String.format("Access token not found in response: '%s'" response)),CLASS_INSTANCE_CREATION, line no: 201, 0.2857142857142857, 0.2857142857142857, 0.0
+this,THIS_EXPRESSION, line no: 145,new IllegalArgumentException(String.format("Invalid response: '%s'" response)),CLASS_INSTANCE_CREATION, line no: 188, 0.27586206896551724, 0.27586206896551724, 0.0
+this,THIS_EXPRESSION, line no: 145,new IllegalArgumentException(String.format("Access token not found in response: '%s'" response)),CLASS_INSTANCE_CREATION, line no: 201, 0.27586206896551724, 0.27586206896551724, 0.0
+appKey,SIMPLE_NAME, line no: 145,new IllegalArgumentException(String.format("Invalid response: '%s'" response)),CLASS_INSTANCE_CREATION, line no: 188, 0.27586206896551724, 0.27586206896551724, 0.0
+appKey,SIMPLE_NAME, line no: 145,new IllegalArgumentException(String.format("Access token not found in response: '%s'" response)),CLASS_INSTANCE_CREATION, line no: 201, 0.27586206896551724, 0.27586206896551724, 0.0
+this,THIS_EXPRESSION, line no: 145,new IllegalArgumentException(String.format("Invalid response: '%s'" response)),CLASS_INSTANCE_CREATION, line no: 188, 0.27586206896551724, 0.27586206896551724, 0.0
+this,THIS_EXPRESSION, line no: 145,new IllegalArgumentException(String.format("Access token not found in response: '%s'" response)),CLASS_INSTANCE_CREATION, line no: 201, 0.27586206896551724, 0.27586206896551724, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,new IllegalArgumentException(String.format("Invalid response: '%s'" response)),CLASS_INSTANCE_CREATION, line no: 188, 0.27586206896551724, 0.27586206896551724, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,new IllegalArgumentException(String.format("Access token not found in response: '%s'" response)),CLASS_INSTANCE_CREATION, line no: 201, 0.27586206896551724, 0.27586206896551724, 0.0
+build,SIMPLE_NAME, line no: 145,getName,SIMPLE_NAME, line no: 119, 0.25, 0.25, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,getName,SIMPLE_NAME, line no: 119, 0.25, 0.25, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,getName,SIMPLE_NAME, line no: 119, 0.25, 0.25, 0.0
+this,THIS_EXPRESSION, line no: 145,getName,SIMPLE_NAME, line no: 119, 0.2413793103448276, 0.2413793103448276, 0.0
+appKey,SIMPLE_NAME, line no: 145,getName,SIMPLE_NAME, line no: 119, 0.2413793103448276, 0.2413793103448276, 0.0
+this,THIS_EXPRESSION, line no: 145,getName,SIMPLE_NAME, line no: 119, 0.2413793103448276, 0.2413793103448276, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,getName,SIMPLE_NAME, line no: 119, 0.2413793103448276, 0.2413793103448276, 0.0
+build,SIMPLE_NAME, line no: 145,fbuser.getName(),METHOD_INVOCATION, line no: 119, 0.21428571428571427, 0.21428571428571427, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,fbuser.getName(),METHOD_INVOCATION, line no: 119, 0.21428571428571427, 0.21428571428571427, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,fbuser.getName(),METHOD_INVOCATION, line no: 119, 0.21428571428571427, 0.21428571428571427, 0.0
+this,THIS_EXPRESSION, line no: 145,fbuser.getName(),METHOD_INVOCATION, line no: 119, 0.20689655172413793, 0.20689655172413793, 0.0
+appKey,SIMPLE_NAME, line no: 145,fbuser.getName(),METHOD_INVOCATION, line no: 119, 0.20689655172413793, 0.20689655172413793, 0.0
+this,THIS_EXPRESSION, line no: 145,fbuser.getName(),METHOD_INVOCATION, line no: 119, 0.20689655172413793, 0.20689655172413793, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,fbuser.getName(),METHOD_INVOCATION, line no: 119, 0.20689655172413793, 0.20689655172413793, 0.0
+build,SIMPLE_NAME, line no: 145,IllegalStateException,SIMPLE_NAME, line no: 105, 0.17857142857142858, 0.17857142857142858, 0.0
+build,SIMPLE_NAME, line no: 145,"HTTP query parameter 'code' is mandatory",STRING_LITERAL, line no: 106, 0.17857142857142858, 0.17857142857142858, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,IllegalStateException,SIMPLE_NAME, line no: 105, 0.17857142857142858, 0.17857142857142858, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"HTTP query parameter 'code' is mandatory",STRING_LITERAL, line no: 106, 0.17857142857142858, 0.17857142857142858, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,IllegalStateException,SIMPLE_NAME, line no: 105, 0.17857142857142858, 0.17857142857142858, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"HTTP query parameter 'code' is mandatory",STRING_LITERAL, line no: 106, 0.17857142857142858, 0.17857142857142858, 0.0
+this,THIS_EXPRESSION, line no: 145,IllegalStateException,SIMPLE_NAME, line no: 105, 0.1724137931034483, 0.1724137931034483, 0.0
+this,THIS_EXPRESSION, line no: 145,"HTTP query parameter 'code' is mandatory",STRING_LITERAL, line no: 106, 0.1724137931034483, 0.1724137931034483, 0.0
+appKey,SIMPLE_NAME, line no: 145,IllegalStateException,SIMPLE_NAME, line no: 105, 0.1724137931034483, 0.1724137931034483, 0.0
+this,THIS_EXPRESSION, line no: 145,IllegalStateException,SIMPLE_NAME, line no: 105, 0.1724137931034483, 0.1724137931034483, 0.0
+this,THIS_EXPRESSION, line no: 145,"HTTP query parameter 'code' is mandatory",STRING_LITERAL, line no: 106, 0.1724137931034483, 0.1724137931034483, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,IllegalStateException,SIMPLE_NAME, line no: 105, 0.1724137931034483, 0.1724137931034483, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"HTTP query parameter 'code' is mandatory",STRING_LITERAL, line no: 106, 0.1724137931034483, 0.1724137931034483, 0.0
+build,SIMPLE_NAME, line no: 145,new IllegalStateException("HTTP query parameter 'code' is mandatory"),CLASS_INSTANCE_CREATION, line no: 105, 0.14285714285714285, 0.14285714285714285, 0.0
+build,SIMPLE_NAME, line no: 145,new IllegalArgumentException(ex),CLASS_INSTANCE_CREATION, line no: 221, 0.14285714285714285, 0.14285714285714285, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,new IllegalStateException("HTTP query parameter 'code' is mandatory"),CLASS_INSTANCE_CREATION, line no: 105, 0.14285714285714285, 0.14285714285714285, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,new IllegalArgumentException(ex),CLASS_INSTANCE_CREATION, line no: 221, 0.14285714285714285, 0.14285714285714285, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,new IllegalStateException("HTTP query parameter 'code' is mandatory"),CLASS_INSTANCE_CREATION, line no: 105, 0.14285714285714285, 0.14285714285714285, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,new IllegalArgumentException(ex),CLASS_INSTANCE_CREATION, line no: 221, 0.14285714285714285, 0.14285714285714285, 0.0
+this,THIS_EXPRESSION, line no: 145,new IllegalStateException("HTTP query parameter 'code' is mandatory"),CLASS_INSTANCE_CREATION, line no: 105, 0.13793103448275862, 0.13793103448275862, 0.0
+this,THIS_EXPRESSION, line no: 145,new IllegalArgumentException(ex),CLASS_INSTANCE_CREATION, line no: 221, 0.13793103448275862, 0.13793103448275862, 0.0
+appKey,SIMPLE_NAME, line no: 145,new IllegalStateException("HTTP query parameter 'code' is mandatory"),CLASS_INSTANCE_CREATION, line no: 105, 0.13793103448275862, 0.13793103448275862, 0.0
+appKey,SIMPLE_NAME, line no: 145,new IllegalArgumentException(ex),CLASS_INSTANCE_CREATION, line no: 221, 0.13793103448275862, 0.13793103448275862, 0.0
+this,THIS_EXPRESSION, line no: 145,new IllegalStateException("HTTP query parameter 'code' is mandatory"),CLASS_INSTANCE_CREATION, line no: 105, 0.13793103448275862, 0.13793103448275862, 0.0
+this,THIS_EXPRESSION, line no: 145,new IllegalArgumentException(ex),CLASS_INSTANCE_CREATION, line no: 221, 0.13793103448275862, 0.13793103448275862, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,new IllegalStateException("HTTP query parameter 'code' is mandatory"),CLASS_INSTANCE_CREATION, line no: 105, 0.13793103448275862, 0.13793103448275862, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,new IllegalArgumentException(ex),CLASS_INSTANCE_CREATION, line no: 221, 0.13793103448275862, 0.13793103448275862, 0.0
+build,SIMPLE_NAME, line no: 145,token=pair[1],ASSIGNMENT, line no: 196, 0.07142857142857142, 0.07142857142857142, 0.0
+build,SIMPLE_NAME, line no: 145,pair[1],ARRAY_ACCESS, line no: 196, 0.07142857142857142, 0.07142857142857142, 0.0
+build,SIMPLE_NAME, line no: 145,1,NUMBER_LITERAL, line no: 196, 0.07142857142857142, 0.07142857142857142, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,token=pair[1],ASSIGNMENT, line no: 196, 0.07142857142857142, 0.07142857142857142, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,pair[1],ARRAY_ACCESS, line no: 196, 0.07142857142857142, 0.07142857142857142, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,1,NUMBER_LITERAL, line no: 196, 0.07142857142857142, 0.07142857142857142, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,token=pair[1],ASSIGNMENT, line no: 196, 0.07142857142857142, 0.07142857142857142, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,pair[1],ARRAY_ACCESS, line no: 196, 0.07142857142857142, 0.07142857142857142, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,1,NUMBER_LITERAL, line no: 196, 0.07142857142857142, 0.07142857142857142, 0.0
+this,THIS_EXPRESSION, line no: 145,token=pair[1],ASSIGNMENT, line no: 196, 0.06896551724137931, 0.06896551724137931, 0.0
+this,THIS_EXPRESSION, line no: 145,pair[1],ARRAY_ACCESS, line no: 196, 0.06896551724137931, 0.06896551724137931, 0.0
+this,THIS_EXPRESSION, line no: 145,1,NUMBER_LITERAL, line no: 196, 0.06896551724137931, 0.06896551724137931, 0.0
+appKey,SIMPLE_NAME, line no: 145,1,NUMBER_LITERAL, line no: 196, 0.06896551724137931, 0.06896551724137931, 0.0
+this,THIS_EXPRESSION, line no: 145,token=pair[1],ASSIGNMENT, line no: 196, 0.06896551724137931, 0.06896551724137931, 0.0
+this,THIS_EXPRESSION, line no: 145,pair[1],ARRAY_ACCESS, line no: 196, 0.06896551724137931, 0.06896551724137931, 0.0
+this,THIS_EXPRESSION, line no: 145,1,NUMBER_LITERAL, line no: 196, 0.06896551724137931, 0.06896551724137931, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,token=pair[1],ASSIGNMENT, line no: 196, 0.06896551724137931, 0.06896551724137931, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,pair[1],ARRAY_ACCESS, line no: 196, 0.06896551724137931, 0.06896551724137931, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,1,NUMBER_LITERAL, line no: 196, 0.06896551724137931, 0.06896551724137931, 0.0
+build,SIMPLE_NAME, line no: 145,rexsl,SIMPLE_NAME, line no: 30, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,page,SIMPLE_NAME, line no: 30, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,auth,SIMPLE_NAME, line no: 30, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,jcabi,SIMPLE_NAME, line no: 32, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,aspects,SIMPLE_NAME, line no: 32, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,Loggable,SIMPLE_NAME, line no: 32, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,types,SIMPLE_NAME, line no: 35, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,Resource,SIMPLE_NAME, line no: 37, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,test,SIMPLE_NAME, line no: 38, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,java,SIMPLE_NAME, line no: 39, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,io,SIMPLE_NAME, line no: 39, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,IOException,SIMPLE_NAME, line no: 39, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,net,SIMPLE_NAME, line no: 40, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,util,SIMPLE_NAME, line no: 42, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,javax,SIMPLE_NAME, line no: 43, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,validation,SIMPLE_NAME, line no: 43, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,constraints,SIMPLE_NAME, line no: 43, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,NotNull,SIMPLE_NAME, line no: 43, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,ws,SIMPLE_NAME, line no: 44, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,rs,SIMPLE_NAME, line no: 44, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,core,SIMPLE_NAME, line no: 44, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,lombok,SIMPLE_NAME, line no: 45, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,EqualsAndHashCode,SIMPLE_NAME, line no: 45, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,ToString,SIMPLE_NAME, line no: 46, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,of,SIMPLE_NAME, line no: 56, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,"appId",STRING_LITERAL, line no: 56, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,"appKey",STRING_LITERAL, line no: 56, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,Provider,SIMPLE_NAME, line no: 57, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,"rexsl-facebook",STRING_LITERAL, line no: 62, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,DEBUG,SIMPLE_NAME, line no: 96, 0.03571428571428571, 0.03571428571428571, 0.0
+build,SIMPLE_NAME, line no: 145,link,SIMPLE_NAME, line no: 137, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,rexsl,SIMPLE_NAME, line no: 30, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,page,SIMPLE_NAME, line no: 30, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,auth,SIMPLE_NAME, line no: 30, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,jcabi,SIMPLE_NAME, line no: 32, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,aspects,SIMPLE_NAME, line no: 32, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,Loggable,SIMPLE_NAME, line no: 32, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,types,SIMPLE_NAME, line no: 35, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,Resource,SIMPLE_NAME, line no: 37, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,test,SIMPLE_NAME, line no: 38, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,java,SIMPLE_NAME, line no: 39, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,io,SIMPLE_NAME, line no: 39, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,IOException,SIMPLE_NAME, line no: 39, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,net,SIMPLE_NAME, line no: 40, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,util,SIMPLE_NAME, line no: 42, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,javax,SIMPLE_NAME, line no: 43, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,validation,SIMPLE_NAME, line no: 43, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,constraints,SIMPLE_NAME, line no: 43, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,NotNull,SIMPLE_NAME, line no: 43, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,ws,SIMPLE_NAME, line no: 44, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,rs,SIMPLE_NAME, line no: 44, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,core,SIMPLE_NAME, line no: 44, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,lombok,SIMPLE_NAME, line no: 45, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,EqualsAndHashCode,SIMPLE_NAME, line no: 45, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,ToString,SIMPLE_NAME, line no: 46, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,of,SIMPLE_NAME, line no: 56, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"appId",STRING_LITERAL, line no: 56, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"appKey",STRING_LITERAL, line no: 56, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,Provider,SIMPLE_NAME, line no: 57, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,"rexsl-facebook",STRING_LITERAL, line no: 62, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,DEBUG,SIMPLE_NAME, line no: 96, 0.03571428571428571, 0.03571428571428571, 0.0
+this.appKey,FIELD_ACCESS, line no: 145,link,SIMPLE_NAME, line no: 137, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,rexsl,SIMPLE_NAME, line no: 30, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,page,SIMPLE_NAME, line no: 30, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,auth,SIMPLE_NAME, line no: 30, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,jcabi,SIMPLE_NAME, line no: 32, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,aspects,SIMPLE_NAME, line no: 32, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,Loggable,SIMPLE_NAME, line no: 32, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,types,SIMPLE_NAME, line no: 35, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,Resource,SIMPLE_NAME, line no: 37, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,test,SIMPLE_NAME, line no: 38, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,java,SIMPLE_NAME, line no: 39, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,io,SIMPLE_NAME, line no: 39, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,IOException,SIMPLE_NAME, line no: 39, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,net,SIMPLE_NAME, line no: 40, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,util,SIMPLE_NAME, line no: 42, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,javax,SIMPLE_NAME, line no: 43, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,validation,SIMPLE_NAME, line no: 43, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,constraints,SIMPLE_NAME, line no: 43, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,NotNull,SIMPLE_NAME, line no: 43, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,ws,SIMPLE_NAME, line no: 44, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,rs,SIMPLE_NAME, line no: 44, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,core,SIMPLE_NAME, line no: 44, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,lombok,SIMPLE_NAME, line no: 45, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,EqualsAndHashCode,SIMPLE_NAME, line no: 45, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,ToString,SIMPLE_NAME, line no: 46, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,of,SIMPLE_NAME, line no: 56, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"appId",STRING_LITERAL, line no: 56, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"appKey",STRING_LITERAL, line no: 56, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,Provider,SIMPLE_NAME, line no: 57, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,"rexsl-facebook",STRING_LITERAL, line no: 62, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,DEBUG,SIMPLE_NAME, line no: 96, 0.03571428571428571, 0.03571428571428571, 0.0
+this.redirectUri(),METHOD_INVOCATION, line no: 145,link,SIMPLE_NAME, line no: 137, 0.03571428571428571, 0.03571428571428571, 0.0
+this,THIS_EXPRESSION, line no: 145,rexsl,SIMPLE_NAME, line no: 30, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,page,SIMPLE_NAME, line no: 30, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,auth,SIMPLE_NAME, line no: 30, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,jcabi,SIMPLE_NAME, line no: 32, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,aspects,SIMPLE_NAME, line no: 32, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,Loggable,SIMPLE_NAME, line no: 32, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,types,SIMPLE_NAME, line no: 35, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,Resource,SIMPLE_NAME, line no: 37, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,test,SIMPLE_NAME, line no: 38, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,java,SIMPLE_NAME, line no: 39, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,io,SIMPLE_NAME, line no: 39, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,IOException,SIMPLE_NAME, line no: 39, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,net,SIMPLE_NAME, line no: 40, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,util,SIMPLE_NAME, line no: 42, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,javax,SIMPLE_NAME, line no: 43, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,validation,SIMPLE_NAME, line no: 43, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,constraints,SIMPLE_NAME, line no: 43, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,NotNull,SIMPLE_NAME, line no: 43, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,ws,SIMPLE_NAME, line no: 44, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,rs,SIMPLE_NAME, line no: 44, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,core,SIMPLE_NAME, line no: 44, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,lombok,SIMPLE_NAME, line no: 45, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,EqualsAndHashCode,SIMPLE_NAME, line no: 45, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,ToString,SIMPLE_NAME, line no: 46, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,of,SIMPLE_NAME, line no: 56, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,"appId",STRING_LITERAL, line no: 56, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,"appKey",STRING_LITERAL, line no: 56, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,Provider,SIMPLE_NAME, line no: 57, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,"rexsl-facebook",STRING_LITERAL, line no: 62, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,DEBUG,SIMPLE_NAME, line no: 96, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,link,SIMPLE_NAME, line no: 137, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,rexsl,SIMPLE_NAME, line no: 30, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,page,SIMPLE_NAME, line no: 30, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,auth,SIMPLE_NAME, line no: 30, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,jcabi,SIMPLE_NAME, line no: 32, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,aspects,SIMPLE_NAME, line no: 32, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,Loggable,SIMPLE_NAME, line no: 32, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,types,SIMPLE_NAME, line no: 35, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,Resource,SIMPLE_NAME, line no: 37, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,test,SIMPLE_NAME, line no: 38, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,java,SIMPLE_NAME, line no: 39, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,io,SIMPLE_NAME, line no: 39, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,IOException,SIMPLE_NAME, line no: 39, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,net,SIMPLE_NAME, line no: 40, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,util,SIMPLE_NAME, line no: 42, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,javax,SIMPLE_NAME, line no: 43, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,validation,SIMPLE_NAME, line no: 43, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,constraints,SIMPLE_NAME, line no: 43, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,NotNull,SIMPLE_NAME, line no: 43, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,ws,SIMPLE_NAME, line no: 44, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,rs,SIMPLE_NAME, line no: 44, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,core,SIMPLE_NAME, line no: 44, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,lombok,SIMPLE_NAME, line no: 45, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,EqualsAndHashCode,SIMPLE_NAME, line no: 45, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,ToString,SIMPLE_NAME, line no: 46, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,of,SIMPLE_NAME, line no: 56, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,Provider,SIMPLE_NAME, line no: 57, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,DEBUG,SIMPLE_NAME, line no: 96, 0.034482758620689655, 0.034482758620689655, 0.0
+appKey,SIMPLE_NAME, line no: 145,link,SIMPLE_NAME, line no: 137, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,rexsl,SIMPLE_NAME, line no: 30, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,page,SIMPLE_NAME, line no: 30, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,auth,SIMPLE_NAME, line no: 30, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,jcabi,SIMPLE_NAME, line no: 32, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,aspects,SIMPLE_NAME, line no: 32, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,Loggable,SIMPLE_NAME, line no: 32, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,types,SIMPLE_NAME, line no: 35, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,Resource,SIMPLE_NAME, line no: 37, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,test,SIMPLE_NAME, line no: 38, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,java,SIMPLE_NAME, line no: 39, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,io,SIMPLE_NAME, line no: 39, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,IOException,SIMPLE_NAME, line no: 39, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,net,SIMPLE_NAME, line no: 40, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,util,SIMPLE_NAME, line no: 42, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,javax,SIMPLE_NAME, line no: 43, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,validation,SIMPLE_NAME, line no: 43, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,constraints,SIMPLE_NAME, line no: 43, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,NotNull,SIMPLE_NAME, line no: 43, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,ws,SIMPLE_NAME, line no: 44, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,rs,SIMPLE_NAME, line no: 44, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,core,SIMPLE_NAME, line no: 44, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,lombok,SIMPLE_NAME, line no: 45, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,EqualsAndHashCode,SIMPLE_NAME, line no: 45, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,ToString,SIMPLE_NAME, line no: 46, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,of,SIMPLE_NAME, line no: 56, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,"appId",STRING_LITERAL, line no: 56, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,"appKey",STRING_LITERAL, line no: 56, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,Provider,SIMPLE_NAME, line no: 57, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,"rexsl-facebook",STRING_LITERAL, line no: 62, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,DEBUG,SIMPLE_NAME, line no: 96, 0.034482758620689655, 0.034482758620689655, 0.0
+this,THIS_EXPRESSION, line no: 145,link,SIMPLE_NAME, line no: 137, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,rexsl,SIMPLE_NAME, line no: 30, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,page,SIMPLE_NAME, line no: 30, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,auth,SIMPLE_NAME, line no: 30, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,jcabi,SIMPLE_NAME, line no: 32, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,aspects,SIMPLE_NAME, line no: 32, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,Loggable,SIMPLE_NAME, line no: 32, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,types,SIMPLE_NAME, line no: 35, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,Resource,SIMPLE_NAME, line no: 37, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,test,SIMPLE_NAME, line no: 38, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,java,SIMPLE_NAME, line no: 39, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,io,SIMPLE_NAME, line no: 39, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,IOException,SIMPLE_NAME, line no: 39, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,net,SIMPLE_NAME, line no: 40, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,util,SIMPLE_NAME, line no: 42, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,javax,SIMPLE_NAME, line no: 43, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,validation,SIMPLE_NAME, line no: 43, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,constraints,SIMPLE_NAME, line no: 43, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,NotNull,SIMPLE_NAME, line no: 43, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,ws,SIMPLE_NAME, line no: 44, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,rs,SIMPLE_NAME, line no: 44, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,core,SIMPLE_NAME, line no: 44, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,lombok,SIMPLE_NAME, line no: 45, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,EqualsAndHashCode,SIMPLE_NAME, line no: 45, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,ToString,SIMPLE_NAME, line no: 46, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,of,SIMPLE_NAME, line no: 56, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"appId",STRING_LITERAL, line no: 56, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"appKey",STRING_LITERAL, line no: 56, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,Provider,SIMPLE_NAME, line no: 57, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,"rexsl-facebook",STRING_LITERAL, line no: 62, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,DEBUG,SIMPLE_NAME, line no: 96, 0.034482758620689655, 0.034482758620689655, 0.0
+redirectUri,SIMPLE_NAME, line no: 145,link,SIMPLE_NAME, line no: 137, 0.034482758620689655, 0.034482758620689655, 0.0

@@ -1,0 +1,349 @@
+i,SIMPLE_NAME, line no: 74,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 68, 2.0, 1.0, 1.0
+i,SIMPLE_NAME, line no: 74,0,NUMBER_LITERAL, line no: 68, 2.0, 1.0, 1.0
+i,SIMPLE_NAME, line no: 74,((Number)o2).intValue(),METHOD_INVOCATION, line no: 68, 2.0, 1.0, 1.0
+i,SIMPLE_NAME, line no: 74,intValue,SIMPLE_NAME, line no: 68, 2.0, 1.0, 1.0
+i,SIMPLE_NAME, line no: 74,i++,POSTFIX_EXPRESSION, line no: 68, 2.0, 1.0, 1.0
+i,SIMPLE_NAME, line no: 74,index,SIMPLE_NAME, line no: 69, 2.0, 0.9428571428571428, 1.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,indexes.clear(),METHOD_INVOCATION, line no: 67, 1.5, 1.0, 0.5
+indexes.add(i),METHOD_INVOCATION, line no: 74,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 68, 1.5, 1.0, 0.5
+indexes.add(i),METHOD_INVOCATION, line no: 74,i++,POSTFIX_EXPRESSION, line no: 68, 1.5, 1.0, 0.5
+i,SIMPLE_NAME, line no: 74,nextInt,SIMPLE_NAME, line no: 71, 1.4285714285714286, 0.42857142857142855, 1.0
+i,SIMPLE_NAME, line no: 74,index=random.nextInt(list.size),ASSIGNMENT, line no: 71, 1.3714285714285714, 0.37142857142857144, 1.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,i < ((Number)o2).intValue(),INFIX_EXPRESSION, line no: 68, 1.3333333333333333, 1.0, 0.3333333333333333
+indexes.add(i),METHOD_INVOCATION, line no: 74,i < list.size,INFIX_EXPRESSION, line no: 68, 1.3333333333333333, 1.0, 0.3333333333333333
+indexes.add(i),METHOD_INVOCATION, line no: 74,indexes.contains(index false),METHOD_INVOCATION, line no: 72, 1.303921568627451, 0.9705882352941176, 0.3333333333333333
+indexes.add(i),METHOD_INVOCATION, line no: 74,i < ((Number)o2).intValue() && i < list.size,INFIX_EXPRESSION, line no: 68, 1.25, 1.0, 0.25
+indexes,SIMPLE_NAME, line no: 74,Array,SIMPLE_NAME, line no: 39, 1.0285714285714285, 0.05714285714285714, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,Array,SIMPLE_NAME, line no: 39, 1.0, 0.058823529411764705, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,indexes,SIMPLE_NAME, line no: 51, 1.0, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,Object,SIMPLE_NAME, line no: 60, 1.0, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,evaluate,SIMPLE_NAME, line no: 60, 1.0, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,context,SIMPLE_NAME, line no: 60, 1.0, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,lazy,SIMPLE_NAME, line no: 60, 1.0, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,o1,SIMPLE_NAME, line no: 62, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,first().evaluate(context lazy),METHOD_INVOCATION, line no: 62, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,first(),METHOD_INVOCATION, line no: 62, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,first,SIMPLE_NAME, line no: 62, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,o2,SIMPLE_NAME, line no: 63, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,second().evaluate(context lazy),METHOD_INVOCATION, line no: 63, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,second(),METHOD_INVOCATION, line no: 63, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,second,SIMPLE_NAME, line no: 63, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,o1 instanceof Array && o2 instanceof Number,INFIX_EXPRESSION, line no: 64, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,o1 instanceof Array,INSTANCEOF_EXPRESSION, line no: 64, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,o2 instanceof Number,INSTANCEOF_EXPRESSION, line no: 64, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,Number,SIMPLE_NAME, line no: 64, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,list,SIMPLE_NAME, line no: 65, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,(Array<Object>)o1,CAST_EXPRESSION, line no: 65, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,randomList,SIMPLE_NAME, line no: 66, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,new Array<Object>(),CLASS_INSTANCE_CREATION, line no: 66, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,clear,SIMPLE_NAME, line no: 67, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,i,SIMPLE_NAME, line no: 68, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,0,NUMBER_LITERAL, line no: 68, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,((Number)o2).intValue(),METHOD_INVOCATION, line no: 68, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,((Number)o2),PARENTHESIZED_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,(Number)o2,CAST_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,intValue,SIMPLE_NAME, line no: 68, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,list.size,QUALIFIED_NAME, line no: 68, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,size,SIMPLE_NAME, line no: 68, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,index,SIMPLE_NAME, line no: 69, 1.0, 0.9411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,randomList.add(list.get(index)),METHOD_INVOCATION, line no: 73, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,add,SIMPLE_NAME, line no: 73, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,list.get(index),METHOD_INVOCATION, line no: 73, 1.0, 1.0, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,get,SIMPLE_NAME, line no: 73, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,Object,SIMPLE_NAME, line no: 60, 1.0, 0.02857142857142857, 0.0
+indexes,SIMPLE_NAME, line no: 74,evaluate,SIMPLE_NAME, line no: 60, 1.0, 0.02857142857142857, 0.0
+indexes,SIMPLE_NAME, line no: 74,context,SIMPLE_NAME, line no: 60, 1.0, 0.02857142857142857, 0.0
+indexes,SIMPLE_NAME, line no: 74,lazy,SIMPLE_NAME, line no: 60, 1.0, 0.02857142857142857, 0.0
+indexes,SIMPLE_NAME, line no: 74,o1,SIMPLE_NAME, line no: 62, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,first().evaluate(context lazy),METHOD_INVOCATION, line no: 62, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,first(),METHOD_INVOCATION, line no: 62, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,first,SIMPLE_NAME, line no: 62, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,o2,SIMPLE_NAME, line no: 63, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,second().evaluate(context lazy),METHOD_INVOCATION, line no: 63, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,second(),METHOD_INVOCATION, line no: 63, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,second,SIMPLE_NAME, line no: 63, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,o1 instanceof Array && o2 instanceof Number,INFIX_EXPRESSION, line no: 64, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,o1 instanceof Array,INSTANCEOF_EXPRESSION, line no: 64, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,o2 instanceof Number,INSTANCEOF_EXPRESSION, line no: 64, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,Number,SIMPLE_NAME, line no: 64, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,list,SIMPLE_NAME, line no: 65, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,(Array<Object>)o1,CAST_EXPRESSION, line no: 65, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,randomList,SIMPLE_NAME, line no: 66, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,new Array<Object>(),CLASS_INSTANCE_CREATION, line no: 66, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,indexes.clear(),METHOD_INVOCATION, line no: 67, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,clear,SIMPLE_NAME, line no: 67, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,i,SIMPLE_NAME, line no: 68, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,0,NUMBER_LITERAL, line no: 68, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,i < ((Number)o2).intValue() && i < list.size,INFIX_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,i < ((Number)o2).intValue(),INFIX_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,((Number)o2).intValue(),METHOD_INVOCATION, line no: 68, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,((Number)o2),PARENTHESIZED_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,(Number)o2,CAST_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,intValue,SIMPLE_NAME, line no: 68, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,i < list.size,INFIX_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,list.size,QUALIFIED_NAME, line no: 68, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,size,SIMPLE_NAME, line no: 68, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,i++,POSTFIX_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,index,SIMPLE_NAME, line no: 69, 1.0, 0.9428571428571428, 0.0
+indexes,SIMPLE_NAME, line no: 74,add,SIMPLE_NAME, line no: 73, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,get,SIMPLE_NAME, line no: 73, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,Array,SIMPLE_NAME, line no: 39, 1.0, 0.05714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,indexes,SIMPLE_NAME, line no: 51, 1.0, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,Object,SIMPLE_NAME, line no: 60, 1.0, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,evaluate,SIMPLE_NAME, line no: 60, 1.0, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,context,SIMPLE_NAME, line no: 60, 1.0, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,lazy,SIMPLE_NAME, line no: 60, 1.0, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,o1,SIMPLE_NAME, line no: 62, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,first().evaluate(context lazy),METHOD_INVOCATION, line no: 62, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,first(),METHOD_INVOCATION, line no: 62, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,first,SIMPLE_NAME, line no: 62, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,o2,SIMPLE_NAME, line no: 63, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,second().evaluate(context lazy),METHOD_INVOCATION, line no: 63, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,second(),METHOD_INVOCATION, line no: 63, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,second,SIMPLE_NAME, line no: 63, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,o1 instanceof Array && o2 instanceof Number,INFIX_EXPRESSION, line no: 64, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,o1 instanceof Array,INSTANCEOF_EXPRESSION, line no: 64, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,o2 instanceof Number,INSTANCEOF_EXPRESSION, line no: 64, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,Number,SIMPLE_NAME, line no: 64, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,list,SIMPLE_NAME, line no: 65, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,(Array<Object>)o1,CAST_EXPRESSION, line no: 65, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,randomList,SIMPLE_NAME, line no: 66, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,new Array<Object>(),CLASS_INSTANCE_CREATION, line no: 66, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,indexes.clear(),METHOD_INVOCATION, line no: 67, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,clear,SIMPLE_NAME, line no: 67, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,i,SIMPLE_NAME, line no: 68, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,0,NUMBER_LITERAL, line no: 68, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,i < ((Number)o2).intValue() && i < list.size,INFIX_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,i < ((Number)o2).intValue(),INFIX_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,((Number)o2).intValue(),METHOD_INVOCATION, line no: 68, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,((Number)o2),PARENTHESIZED_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,(Number)o2,CAST_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,intValue,SIMPLE_NAME, line no: 68, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,i < list.size,INFIX_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,list.size,QUALIFIED_NAME, line no: 68, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,size,SIMPLE_NAME, line no: 68, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,i++,POSTFIX_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+add,SIMPLE_NAME, line no: 74,index,SIMPLE_NAME, line no: 69, 1.0, 0.9428571428571428, 0.0
+add,SIMPLE_NAME, line no: 74,get,SIMPLE_NAME, line no: 73, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,Array,SIMPLE_NAME, line no: 39, 1.0, 0.05714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,indexes,SIMPLE_NAME, line no: 51, 1.0, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,2,NUMBER_LITERAL, line no: 56, 1.0, 0.0, 1.0
+i,SIMPLE_NAME, line no: 74,Object,SIMPLE_NAME, line no: 60, 1.0, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,evaluate,SIMPLE_NAME, line no: 60, 1.0, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,context,SIMPLE_NAME, line no: 60, 1.0, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,lazy,SIMPLE_NAME, line no: 60, 1.0, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,o1,SIMPLE_NAME, line no: 62, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,first().evaluate(context lazy),METHOD_INVOCATION, line no: 62, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,first(),METHOD_INVOCATION, line no: 62, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,first,SIMPLE_NAME, line no: 62, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,o2,SIMPLE_NAME, line no: 63, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,second().evaluate(context lazy),METHOD_INVOCATION, line no: 63, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,second(),METHOD_INVOCATION, line no: 63, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,second,SIMPLE_NAME, line no: 63, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,o1 instanceof Array && o2 instanceof Number,INFIX_EXPRESSION, line no: 64, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,o1 instanceof Array,INSTANCEOF_EXPRESSION, line no: 64, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,o2 instanceof Number,INSTANCEOF_EXPRESSION, line no: 64, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,Number,SIMPLE_NAME, line no: 64, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,list,SIMPLE_NAME, line no: 65, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,(Array<Object>)o1,CAST_EXPRESSION, line no: 65, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,randomList,SIMPLE_NAME, line no: 66, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,new Array<Object>(),CLASS_INSTANCE_CREATION, line no: 66, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,indexes.clear(),METHOD_INVOCATION, line no: 67, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,clear,SIMPLE_NAME, line no: 67, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,i < ((Number)o2).intValue() && i < list.size,INFIX_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,i < ((Number)o2).intValue(),INFIX_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,((Number)o2),PARENTHESIZED_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,(Number)o2,CAST_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,i < list.size,INFIX_EXPRESSION, line no: 68, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,list.size,QUALIFIED_NAME, line no: 68, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,size,SIMPLE_NAME, line no: 68, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,add,SIMPLE_NAME, line no: 73, 1.0, 1.0, 0.0
+i,SIMPLE_NAME, line no: 74,get,SIMPLE_NAME, line no: 73, 1.0, 1.0, 0.0
+indexes,SIMPLE_NAME, line no: 74,contains,SIMPLE_NAME, line no: 72, 0.9714285714285714, 0.9714285714285714, 0.0
+indexes,SIMPLE_NAME, line no: 74,randomList.add(list.get(index)),METHOD_INVOCATION, line no: 73, 0.9714285714285714, 0.9714285714285714, 0.0
+indexes,SIMPLE_NAME, line no: 74,list.get(index),METHOD_INVOCATION, line no: 73, 0.9714285714285714, 0.9714285714285714, 0.0
+indexes,SIMPLE_NAME, line no: 74,indexes.add(i),METHOD_INVOCATION, line no: 74, 0.9714285714285714, 0.9714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,contains,SIMPLE_NAME, line no: 72, 0.9714285714285714, 0.9714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,randomList.add(list.get(index)),METHOD_INVOCATION, line no: 73, 0.9714285714285714, 0.9714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,list.get(index),METHOD_INVOCATION, line no: 73, 0.9714285714285714, 0.9714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,indexes.add(i),METHOD_INVOCATION, line no: 74, 0.9714285714285714, 0.9714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,contains,SIMPLE_NAME, line no: 72, 0.9714285714285714, 0.9714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,randomList.add(list.get(index)),METHOD_INVOCATION, line no: 73, 0.9714285714285714, 0.9714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,list.get(index),METHOD_INVOCATION, line no: 73, 0.9714285714285714, 0.9714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,indexes.add(i),METHOD_INVOCATION, line no: 74, 0.9714285714285714, 0.9714285714285714, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,contains,SIMPLE_NAME, line no: 72, 0.9705882352941176, 0.9705882352941176, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,false,BOOLEAN_LITERAL, line no: 72, 0.9705882352941176, 0.9705882352941176, 0.0
+indexes,SIMPLE_NAME, line no: 74,indexes.contains(index false),METHOD_INVOCATION, line no: 72, 0.9428571428571428, 0.9428571428571428, 0.0
+indexes,SIMPLE_NAME, line no: 74,false,BOOLEAN_LITERAL, line no: 72, 0.9428571428571428, 0.9428571428571428, 0.0
+add,SIMPLE_NAME, line no: 74,indexes.contains(index false),METHOD_INVOCATION, line no: 72, 0.9428571428571428, 0.9428571428571428, 0.0
+add,SIMPLE_NAME, line no: 74,false,BOOLEAN_LITERAL, line no: 72, 0.9428571428571428, 0.9428571428571428, 0.0
+i,SIMPLE_NAME, line no: 74,indexes.contains(index false),METHOD_INVOCATION, line no: 72, 0.9428571428571428, 0.9428571428571428, 0.0
+i,SIMPLE_NAME, line no: 74,false,BOOLEAN_LITERAL, line no: 72, 0.9428571428571428, 0.9428571428571428, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,random,SIMPLE_NAME, line no: 53, 0.4411764705882353, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,nextInt,SIMPLE_NAME, line no: 71, 0.4411764705882353, 0.4411764705882353, 0.0
+indexes,SIMPLE_NAME, line no: 74,random,SIMPLE_NAME, line no: 53, 0.42857142857142855, 0.02857142857142857, 0.0
+indexes,SIMPLE_NAME, line no: 74,nextInt,SIMPLE_NAME, line no: 71, 0.42857142857142855, 0.42857142857142855, 0.0
+add,SIMPLE_NAME, line no: 74,random,SIMPLE_NAME, line no: 53, 0.42857142857142855, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,nextInt,SIMPLE_NAME, line no: 71, 0.42857142857142855, 0.42857142857142855, 0.0
+i,SIMPLE_NAME, line no: 74,random,SIMPLE_NAME, line no: 53, 0.42857142857142855, 0.02857142857142857, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,random.nextInt(list.size),METHOD_INVOCATION, line no: 71, 0.4117647058823529, 0.4117647058823529, 0.0
+indexes,SIMPLE_NAME, line no: 74,random.nextInt(list.size),METHOD_INVOCATION, line no: 71, 0.4, 0.4, 0.0
+add,SIMPLE_NAME, line no: 74,random.nextInt(list.size),METHOD_INVOCATION, line no: 71, 0.4, 0.4, 0.0
+i,SIMPLE_NAME, line no: 74,random.nextInt(list.size),METHOD_INVOCATION, line no: 71, 0.4, 0.4, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,index=random.nextInt(list.size),ASSIGNMENT, line no: 71, 0.38235294117647056, 0.38235294117647056, 0.0
+indexes,SIMPLE_NAME, line no: 74,index=random.nextInt(list.size),ASSIGNMENT, line no: 71, 0.37142857142857144, 0.37142857142857144, 0.0
+add,SIMPLE_NAME, line no: 74,index=random.nextInt(list.size),ASSIGNMENT, line no: 71, 0.37142857142857144, 0.37142857142857144, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,ExpressionEvaluationException,SIMPLE_NAME, line no: 40, 0.08823529411764706, 0.058823529411764705, 0.0
+indexes,SIMPLE_NAME, line no: 74,ExpressionEvaluationException,SIMPLE_NAME, line no: 40, 0.08571428571428572, 0.05714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,ExpressionEvaluationException,SIMPLE_NAME, line no: 40, 0.08571428571428572, 0.05714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,ExpressionEvaluationException,SIMPLE_NAME, line no: 40, 0.08571428571428572, 0.05714285714285714, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,es,SIMPLE_NAME, line no: 37, 0.058823529411764705, 0.058823529411764705, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,eucm,SIMPLE_NAME, line no: 37, 0.058823529411764705, 0.058823529411764705, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,ead,SIMPLE_NAME, line no: 37, 0.058823529411764705, 0.058823529411764705, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,engine,SIMPLE_NAME, line no: 37, 0.058823529411764705, 0.058823529411764705, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,expressions,SIMPLE_NAME, line no: 37, 0.058823529411764705, 0.058823529411764705, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,operators,SIMPLE_NAME, line no: 37, 0.058823529411764705, 0.058823529411764705, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,com,SIMPLE_NAME, line no: 39, 0.058823529411764705, 0.058823529411764705, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,badlogic,SIMPLE_NAME, line no: 39, 0.058823529411764705, 0.058823529411764705, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,gdx,SIMPLE_NAME, line no: 39, 0.058823529411764705, 0.058823529411764705, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,utils,SIMPLE_NAME, line no: 39, 0.058823529411764705, 0.058823529411764705, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,Operation,SIMPLE_NAME, line no: 41, 0.058823529411764705, 0.058823529411764705, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,variables,SIMPLE_NAME, line no: 42, 0.058823529411764705, 0.058823529411764705, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,VarsContext,SIMPLE_NAME, line no: 42, 0.058823529411764705, 0.058823529411764705, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,java,SIMPLE_NAME, line no: 44, 0.058823529411764705, 0.058823529411764705, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,util,SIMPLE_NAME, line no: 44, 0.058823529411764705, 0.058823529411764705, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,Random,SIMPLE_NAME, line no: 44, 0.058823529411764705, 0.058823529411764705, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,new ExpressionEvaluationException("Expected array as first operand and a number as second" this),CLASS_INSTANCE_CREATION, line no: 78, 0.058823529411764705, 0.058823529411764705, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,"Expected array as first operand and a number as second",STRING_LITERAL, line no: 79, 0.058823529411764705, 0.058823529411764705, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,this,THIS_EXPRESSION, line no: 80, 0.058823529411764705, 0.058823529411764705, 0.0
+indexes,SIMPLE_NAME, line no: 74,es,SIMPLE_NAME, line no: 37, 0.05714285714285714, 0.05714285714285714, 0.0
+indexes,SIMPLE_NAME, line no: 74,eucm,SIMPLE_NAME, line no: 37, 0.05714285714285714, 0.05714285714285714, 0.0
+indexes,SIMPLE_NAME, line no: 74,ead,SIMPLE_NAME, line no: 37, 0.05714285714285714, 0.05714285714285714, 0.0
+indexes,SIMPLE_NAME, line no: 74,engine,SIMPLE_NAME, line no: 37, 0.05714285714285714, 0.05714285714285714, 0.0
+indexes,SIMPLE_NAME, line no: 74,expressions,SIMPLE_NAME, line no: 37, 0.05714285714285714, 0.05714285714285714, 0.0
+indexes,SIMPLE_NAME, line no: 74,operators,SIMPLE_NAME, line no: 37, 0.05714285714285714, 0.05714285714285714, 0.0
+indexes,SIMPLE_NAME, line no: 74,com,SIMPLE_NAME, line no: 39, 0.05714285714285714, 0.05714285714285714, 0.0
+indexes,SIMPLE_NAME, line no: 74,badlogic,SIMPLE_NAME, line no: 39, 0.05714285714285714, 0.05714285714285714, 0.0
+indexes,SIMPLE_NAME, line no: 74,gdx,SIMPLE_NAME, line no: 39, 0.05714285714285714, 0.05714285714285714, 0.0
+indexes,SIMPLE_NAME, line no: 74,utils,SIMPLE_NAME, line no: 39, 0.05714285714285714, 0.05714285714285714, 0.0
+indexes,SIMPLE_NAME, line no: 74,Operation,SIMPLE_NAME, line no: 41, 0.05714285714285714, 0.05714285714285714, 0.0
+indexes,SIMPLE_NAME, line no: 74,variables,SIMPLE_NAME, line no: 42, 0.05714285714285714, 0.05714285714285714, 0.0
+indexes,SIMPLE_NAME, line no: 74,VarsContext,SIMPLE_NAME, line no: 42, 0.05714285714285714, 0.05714285714285714, 0.0
+indexes,SIMPLE_NAME, line no: 74,java,SIMPLE_NAME, line no: 44, 0.05714285714285714, 0.05714285714285714, 0.0
+indexes,SIMPLE_NAME, line no: 74,util,SIMPLE_NAME, line no: 44, 0.05714285714285714, 0.05714285714285714, 0.0
+indexes,SIMPLE_NAME, line no: 74,Random,SIMPLE_NAME, line no: 44, 0.05714285714285714, 0.05714285714285714, 0.0
+indexes,SIMPLE_NAME, line no: 74,new ExpressionEvaluationException("Expected array as first operand and a number as second" this),CLASS_INSTANCE_CREATION, line no: 78, 0.05714285714285714, 0.05714285714285714, 0.0
+indexes,SIMPLE_NAME, line no: 74,"Expected array as first operand and a number as second",STRING_LITERAL, line no: 79, 0.05714285714285714, 0.05714285714285714, 0.0
+indexes,SIMPLE_NAME, line no: 74,this,THIS_EXPRESSION, line no: 80, 0.05714285714285714, 0.05714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,es,SIMPLE_NAME, line no: 37, 0.05714285714285714, 0.05714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,eucm,SIMPLE_NAME, line no: 37, 0.05714285714285714, 0.05714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,ead,SIMPLE_NAME, line no: 37, 0.05714285714285714, 0.05714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,engine,SIMPLE_NAME, line no: 37, 0.05714285714285714, 0.05714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,expressions,SIMPLE_NAME, line no: 37, 0.05714285714285714, 0.05714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,operators,SIMPLE_NAME, line no: 37, 0.05714285714285714, 0.05714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,com,SIMPLE_NAME, line no: 39, 0.05714285714285714, 0.05714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,badlogic,SIMPLE_NAME, line no: 39, 0.05714285714285714, 0.05714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,gdx,SIMPLE_NAME, line no: 39, 0.05714285714285714, 0.05714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,utils,SIMPLE_NAME, line no: 39, 0.05714285714285714, 0.05714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,Operation,SIMPLE_NAME, line no: 41, 0.05714285714285714, 0.05714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,variables,SIMPLE_NAME, line no: 42, 0.05714285714285714, 0.05714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,VarsContext,SIMPLE_NAME, line no: 42, 0.05714285714285714, 0.05714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,java,SIMPLE_NAME, line no: 44, 0.05714285714285714, 0.05714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,util,SIMPLE_NAME, line no: 44, 0.05714285714285714, 0.05714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,Random,SIMPLE_NAME, line no: 44, 0.05714285714285714, 0.05714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,new ExpressionEvaluationException("Expected array as first operand and a number as second" this),CLASS_INSTANCE_CREATION, line no: 78, 0.05714285714285714, 0.05714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,"Expected array as first operand and a number as second",STRING_LITERAL, line no: 79, 0.05714285714285714, 0.05714285714285714, 0.0
+add,SIMPLE_NAME, line no: 74,this,THIS_EXPRESSION, line no: 80, 0.05714285714285714, 0.05714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,es,SIMPLE_NAME, line no: 37, 0.05714285714285714, 0.05714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,eucm,SIMPLE_NAME, line no: 37, 0.05714285714285714, 0.05714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,ead,SIMPLE_NAME, line no: 37, 0.05714285714285714, 0.05714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,engine,SIMPLE_NAME, line no: 37, 0.05714285714285714, 0.05714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,expressions,SIMPLE_NAME, line no: 37, 0.05714285714285714, 0.05714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,operators,SIMPLE_NAME, line no: 37, 0.05714285714285714, 0.05714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,com,SIMPLE_NAME, line no: 39, 0.05714285714285714, 0.05714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,badlogic,SIMPLE_NAME, line no: 39, 0.05714285714285714, 0.05714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,gdx,SIMPLE_NAME, line no: 39, 0.05714285714285714, 0.05714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,utils,SIMPLE_NAME, line no: 39, 0.05714285714285714, 0.05714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,Operation,SIMPLE_NAME, line no: 41, 0.05714285714285714, 0.05714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,variables,SIMPLE_NAME, line no: 42, 0.05714285714285714, 0.05714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,VarsContext,SIMPLE_NAME, line no: 42, 0.05714285714285714, 0.05714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,java,SIMPLE_NAME, line no: 44, 0.05714285714285714, 0.05714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,util,SIMPLE_NAME, line no: 44, 0.05714285714285714, 0.05714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,Random,SIMPLE_NAME, line no: 44, 0.05714285714285714, 0.05714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,new ExpressionEvaluationException("Expected array as first operand and a number as second" this),CLASS_INSTANCE_CREATION, line no: 78, 0.05714285714285714, 0.05714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,"Expected array as first operand and a number as second",STRING_LITERAL, line no: 79, 0.05714285714285714, 0.05714285714285714, 0.0
+i,SIMPLE_NAME, line no: 74,this,THIS_EXPRESSION, line no: 80, 0.05714285714285714, 0.05714285714285714, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,es.eucm.ead.engine.expressions.operators,QUALIFIED_NAME, line no: 37, 0.029411764705882353, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,es.eucm.ead.engine.expressions,QUALIFIED_NAME, line no: 37, 0.029411764705882353, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,es.eucm.ead.engine,QUALIFIED_NAME, line no: 37, 0.029411764705882353, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,es.eucm.ead,QUALIFIED_NAME, line no: 37, 0.029411764705882353, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,es.eucm,QUALIFIED_NAME, line no: 37, 0.029411764705882353, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,com.badlogic.gdx.utils.Array,QUALIFIED_NAME, line no: 39, 0.029411764705882353, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,com.badlogic.gdx.utils,QUALIFIED_NAME, line no: 39, 0.029411764705882353, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,com.badlogic.gdx,QUALIFIED_NAME, line no: 39, 0.029411764705882353, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,com.badlogic,QUALIFIED_NAME, line no: 39, 0.029411764705882353, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,es.eucm.ead.engine.expressions.ExpressionEvaluationException,QUALIFIED_NAME, line no: 40, 0.029411764705882353, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,es.eucm.ead.engine.expressions.Operation,QUALIFIED_NAME, line no: 41, 0.029411764705882353, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,es.eucm.ead.engine.variables.VarsContext,QUALIFIED_NAME, line no: 42, 0.029411764705882353, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,es.eucm.ead.engine.variables,QUALIFIED_NAME, line no: 42, 0.029411764705882353, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,java.util.Random,QUALIFIED_NAME, line no: 44, 0.029411764705882353, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,java.util,QUALIFIED_NAME, line no: 44, 0.029411764705882353, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,RandomSublist,SIMPLE_NAME, line no: 49, 0.029411764705882353, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,Integer,SIMPLE_NAME, line no: 51, 0.029411764705882353, 0.029411764705882353, 0.0
+indexes.add(i),METHOD_INVOCATION, line no: 74,Override,SIMPLE_NAME, line no: 59, 0.029411764705882353, 0.029411764705882353, 0.0
+indexes,SIMPLE_NAME, line no: 74,es.eucm.ead.engine.expressions.operators,QUALIFIED_NAME, line no: 37, 0.02857142857142857, 0.02857142857142857, 0.0
+indexes,SIMPLE_NAME, line no: 74,es.eucm.ead.engine.expressions,QUALIFIED_NAME, line no: 37, 0.02857142857142857, 0.02857142857142857, 0.0
+indexes,SIMPLE_NAME, line no: 74,es.eucm.ead.engine,QUALIFIED_NAME, line no: 37, 0.02857142857142857, 0.02857142857142857, 0.0
+indexes,SIMPLE_NAME, line no: 74,es.eucm.ead,QUALIFIED_NAME, line no: 37, 0.02857142857142857, 0.02857142857142857, 0.0
+indexes,SIMPLE_NAME, line no: 74,es.eucm,QUALIFIED_NAME, line no: 37, 0.02857142857142857, 0.02857142857142857, 0.0
+indexes,SIMPLE_NAME, line no: 74,com.badlogic.gdx.utils.Array,QUALIFIED_NAME, line no: 39, 0.02857142857142857, 0.02857142857142857, 0.0
+indexes,SIMPLE_NAME, line no: 74,com.badlogic.gdx.utils,QUALIFIED_NAME, line no: 39, 0.02857142857142857, 0.02857142857142857, 0.0
+indexes,SIMPLE_NAME, line no: 74,com.badlogic.gdx,QUALIFIED_NAME, line no: 39, 0.02857142857142857, 0.02857142857142857, 0.0
+indexes,SIMPLE_NAME, line no: 74,com.badlogic,QUALIFIED_NAME, line no: 39, 0.02857142857142857, 0.02857142857142857, 0.0
+indexes,SIMPLE_NAME, line no: 74,es.eucm.ead.engine.expressions.ExpressionEvaluationException,QUALIFIED_NAME, line no: 40, 0.02857142857142857, 0.02857142857142857, 0.0
+indexes,SIMPLE_NAME, line no: 74,es.eucm.ead.engine.expressions.Operation,QUALIFIED_NAME, line no: 41, 0.02857142857142857, 0.02857142857142857, 0.0
+indexes,SIMPLE_NAME, line no: 74,es.eucm.ead.engine.variables.VarsContext,QUALIFIED_NAME, line no: 42, 0.02857142857142857, 0.02857142857142857, 0.0
+indexes,SIMPLE_NAME, line no: 74,es.eucm.ead.engine.variables,QUALIFIED_NAME, line no: 42, 0.02857142857142857, 0.02857142857142857, 0.0
+indexes,SIMPLE_NAME, line no: 74,java.util.Random,QUALIFIED_NAME, line no: 44, 0.02857142857142857, 0.02857142857142857, 0.0
+indexes,SIMPLE_NAME, line no: 74,java.util,QUALIFIED_NAME, line no: 44, 0.02857142857142857, 0.02857142857142857, 0.0
+indexes,SIMPLE_NAME, line no: 74,RandomSublist,SIMPLE_NAME, line no: 49, 0.02857142857142857, 0.02857142857142857, 0.0
+indexes,SIMPLE_NAME, line no: 74,Integer,SIMPLE_NAME, line no: 51, 0.02857142857142857, 0.02857142857142857, 0.0
+indexes,SIMPLE_NAME, line no: 74,Override,SIMPLE_NAME, line no: 59, 0.02857142857142857, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,es.eucm.ead.engine.expressions.operators,QUALIFIED_NAME, line no: 37, 0.02857142857142857, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,es.eucm.ead.engine.expressions,QUALIFIED_NAME, line no: 37, 0.02857142857142857, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,es.eucm.ead.engine,QUALIFIED_NAME, line no: 37, 0.02857142857142857, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,es.eucm.ead,QUALIFIED_NAME, line no: 37, 0.02857142857142857, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,es.eucm,QUALIFIED_NAME, line no: 37, 0.02857142857142857, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,com.badlogic.gdx.utils.Array,QUALIFIED_NAME, line no: 39, 0.02857142857142857, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,com.badlogic.gdx.utils,QUALIFIED_NAME, line no: 39, 0.02857142857142857, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,com.badlogic.gdx,QUALIFIED_NAME, line no: 39, 0.02857142857142857, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,com.badlogic,QUALIFIED_NAME, line no: 39, 0.02857142857142857, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,es.eucm.ead.engine.expressions.ExpressionEvaluationException,QUALIFIED_NAME, line no: 40, 0.02857142857142857, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,es.eucm.ead.engine.expressions.Operation,QUALIFIED_NAME, line no: 41, 0.02857142857142857, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,es.eucm.ead.engine.variables.VarsContext,QUALIFIED_NAME, line no: 42, 0.02857142857142857, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,es.eucm.ead.engine.variables,QUALIFIED_NAME, line no: 42, 0.02857142857142857, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,java.util.Random,QUALIFIED_NAME, line no: 44, 0.02857142857142857, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,java.util,QUALIFIED_NAME, line no: 44, 0.02857142857142857, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,RandomSublist,SIMPLE_NAME, line no: 49, 0.02857142857142857, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,Integer,SIMPLE_NAME, line no: 51, 0.02857142857142857, 0.02857142857142857, 0.0
+add,SIMPLE_NAME, line no: 74,Override,SIMPLE_NAME, line no: 59, 0.02857142857142857, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,es.eucm.ead.engine.expressions.operators,QUALIFIED_NAME, line no: 37, 0.02857142857142857, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,es.eucm.ead.engine.expressions,QUALIFIED_NAME, line no: 37, 0.02857142857142857, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,es.eucm.ead.engine,QUALIFIED_NAME, line no: 37, 0.02857142857142857, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,es.eucm.ead,QUALIFIED_NAME, line no: 37, 0.02857142857142857, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,es.eucm,QUALIFIED_NAME, line no: 37, 0.02857142857142857, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,com.badlogic.gdx.utils.Array,QUALIFIED_NAME, line no: 39, 0.02857142857142857, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,com.badlogic.gdx.utils,QUALIFIED_NAME, line no: 39, 0.02857142857142857, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,com.badlogic.gdx,QUALIFIED_NAME, line no: 39, 0.02857142857142857, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,com.badlogic,QUALIFIED_NAME, line no: 39, 0.02857142857142857, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,es.eucm.ead.engine.expressions.ExpressionEvaluationException,QUALIFIED_NAME, line no: 40, 0.02857142857142857, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,es.eucm.ead.engine.expressions.Operation,QUALIFIED_NAME, line no: 41, 0.02857142857142857, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,es.eucm.ead.engine.variables.VarsContext,QUALIFIED_NAME, line no: 42, 0.02857142857142857, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,es.eucm.ead.engine.variables,QUALIFIED_NAME, line no: 42, 0.02857142857142857, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,java.util.Random,QUALIFIED_NAME, line no: 44, 0.02857142857142857, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,java.util,QUALIFIED_NAME, line no: 44, 0.02857142857142857, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,RandomSublist,SIMPLE_NAME, line no: 49, 0.02857142857142857, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,Integer,SIMPLE_NAME, line no: 51, 0.02857142857142857, 0.02857142857142857, 0.0
+i,SIMPLE_NAME, line no: 74,Override,SIMPLE_NAME, line no: 59, 0.02857142857142857, 0.02857142857142857, 0.0

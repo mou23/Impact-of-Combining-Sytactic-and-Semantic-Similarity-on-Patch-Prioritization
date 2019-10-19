@@ -1,0 +1,724 @@
+isActive(),METHOD_INVOCATION, line no: 308,isActive,SIMPLE_NAME, line no: 69, 2.0, 0.2, 1.0
+isActive(),METHOD_INVOCATION, line no: 308,get,SIMPLE_NAME, line no: 70, 2.0, 1.0, 1.0
+isActive,SIMPLE_NAME, line no: 308,active.get(),METHOD_INVOCATION, line no: 70, 2.0, 1.0, 1.0
+isActive,SIMPLE_NAME, line no: 308,get,SIMPLE_NAME, line no: 70, 2.0, 1.0, 1.0
+isActive,SIMPLE_NAME, line no: 308,isActive(),METHOD_INVOCATION, line no: 276, 2.0, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,keepDurableSubsActive,SIMPLE_NAME, line no: 55, 1.8333333333333335, 0.16666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,isFull,SIMPLE_NAME, line no: 82, 1.8333333333333335, 0.16666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,!active.get() || super.isFull(),INFIX_EXPRESSION, line no: 83, 1.8333333333333335, 0.8333333333333334, 1.0
+isActive,SIMPLE_NAME, line no: 308,!active.get(),PREFIX_EXPRESSION, line no: 83, 1.8333333333333335, 0.8333333333333334, 1.0
+isActive,SIMPLE_NAME, line no: 308,super.isFull(),SUPER_METHOD_INVOCATION, line no: 83, 1.8333333333333335, 0.8333333333333334, 1.0
+isActive,SIMPLE_NAME, line no: 308,!destinations.contains(destination),PREFIX_EXPRESSION, line no: 110, 1.8333333333333335, 0.8333333333333334, 1.0
+isActive,SIMPLE_NAME, line no: 308,destinations.contains(destination),METHOD_INVOCATION, line no: 110, 1.8333333333333335, 0.8333333333333334, 1.0
+isActive,SIMPLE_NAME, line no: 308,contains,SIMPLE_NAME, line no: 110, 1.8333333333333335, 0.8333333333333334, 1.0
+isActive,SIMPLE_NAME, line no: 308,durableDestinations.containsKey(destination.getActiveMQDestination()),METHOD_INVOCATION, line no: 114, 1.8333333333333335, 0.8333333333333334, 1.0
+isActive,SIMPLE_NAME, line no: 308,containsKey,SIMPLE_NAME, line no: 114, 1.8333333333333335, 0.8333333333333334, 1.0
+isActive,SIMPLE_NAME, line no: 308,active.get() || keepDurableSubsActive,INFIX_EXPRESSION, line no: 119, 1.8333333333333335, 0.8333333333333334, 1.0
+isActive,SIMPLE_NAME, line no: 308,destination.getMessageStore() != null,INFIX_EXPRESSION, line no: 126, 1.8333333333333335, 0.8333333333333334, 1.0
+isActive,SIMPLE_NAME, line no: 308,node != QueueMessageReference.NULL_MESSAGE,INFIX_EXPRESSION, line no: 257, 1.8333333333333335, 0.8333333333333334, 1.0
+isActive(),METHOD_INVOCATION, line no: 308,keepDurableSubsActive,SIMPLE_NAME, line no: 55, 1.8, 0.2, 1.0
+isActive(),METHOD_INVOCATION, line no: 308,isFull,SIMPLE_NAME, line no: 82, 1.8, 0.2, 1.0
+isActive(),METHOD_INVOCATION, line no: 308,contains,SIMPLE_NAME, line no: 110, 1.8, 0.8, 1.0
+isActive(),METHOD_INVOCATION, line no: 308,containsKey,SIMPLE_NAME, line no: 114, 1.8, 0.8, 1.0
+isActive,SIMPLE_NAME, line no: 308,this.keepDurableSubsActive=keepDurableSubsActive,ASSIGNMENT, line no: 65, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,this.keepDurableSubsActive,FIELD_ACCESS, line no: 65, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,add,SIMPLE_NAME, line no: 109, 1.6666666666666665, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,pending.isEmpty(topic),METHOD_INVOCATION, line no: 122, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,isEmpty,SIMPLE_NAME, line no: 122, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,!keepDurableSubsActive,PREFIX_EXPRESSION, line no: 147, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,dest != null && regionBroker.getDestinationPolicy() != null,INFIX_EXPRESSION, line no: 156, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,dest != null,INFIX_EXPRESSION, line no: 156, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,regionBroker.getDestinationPolicy() != null,INFIX_EXPRESSION, line no: 156, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,entry != null,INFIX_EXPRESSION, line no: 158, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,pending.isEmpty(),METHOD_INVOCATION, line no: 172, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,true,BOOLEAN_LITERAL, line no: 179, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,false,BOOLEAN_LITERAL, line no: 190, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,topicsToDeactivate.add(topic),METHOD_INVOCATION, line no: 204, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,count != null,INFIX_EXPRESSION, line no: 217, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,keepDurableSubsActive && pending.isTransient(),INFIX_EXPRESSION, line no: 222, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,pending.isTransient(),METHOD_INVOCATION, line no: 222, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,isTransient,SIMPLE_NAME, line no: 222, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,!topicsToDeactivate.isEmpty(),PREFIX_EXPRESSION, line no: 230, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,topicsToDeactivate.isEmpty(),METHOD_INVOCATION, line no: 230, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,!keepDurableSubsActive && pending.isTransient(),INFIX_EXPRESSION, line no: 235, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,pending.hasNext(),METHOD_INVOCATION, line no: 238, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,hasNext,SIMPLE_NAME, line no: 238, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,!active.get() && !keepDurableSubsActive,INFIX_EXPRESSION, line no: 268, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,oldPercentUsage > newPercentUsage && oldPercentUsage >= 90,INFIX_EXPRESSION, line no: 359, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,oldPercentUsage > newPercentUsage,INFIX_EXPRESSION, line no: 359, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,oldPercentUsage >= 90,INFIX_EXPRESSION, line no: 359, 1.6666666666666665, 0.6666666666666666, 1.0
+isActive(),METHOD_INVOCATION, line no: 308,add,SIMPLE_NAME, line no: 109, 1.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,isEmpty,SIMPLE_NAME, line no: 122, 1.6, 0.6, 1.0
+isActive(),METHOD_INVOCATION, line no: 308,true,BOOLEAN_LITERAL, line no: 179, 1.6, 0.6, 1.0
+isActive(),METHOD_INVOCATION, line no: 308,false,BOOLEAN_LITERAL, line no: 190, 1.6, 0.6, 1.0
+isActive(),METHOD_INVOCATION, line no: 308,isTransient,SIMPLE_NAME, line no: 222, 1.6, 0.6, 1.0
+isActive(),METHOD_INVOCATION, line no: 308,hasNext,SIMPLE_NAME, line no: 238, 1.6, 0.6, 1.0
+isActive(),METHOD_INVOCATION, line no: 308,canDispatch,SIMPLE_NAME, line no: 307, 1.2, 0.2, 1.0
+isActive(),METHOD_INVOCATION, line no: 308,isDropped,SIMPLE_NAME, line no: 369, 1.2, 0.2, 1.0
+isActive(),METHOD_INVOCATION, line no: 308,isKeepDurableSubsActive,SIMPLE_NAME, line no: 373, 1.2, 0.2, 1.0
+isActive,SIMPLE_NAME, line no: 308,canDispatch,SIMPLE_NAME, line no: 307, 1.1666666666666667, 0.16666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,isDropped,SIMPLE_NAME, line no: 369, 1.1666666666666667, 0.16666666666666666, 1.0
+isActive,SIMPLE_NAME, line no: 308,isKeepDurableSubsActive,SIMPLE_NAME, line no: 373, 1.1666666666666667, 0.16666666666666666, 1.0
+isActive(),METHOD_INVOCATION, line no: 308,durableDestinations,SIMPLE_NAME, line no: 53, 1.0, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,active,SIMPLE_NAME, line no: 56, 1.0, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,offlineTimestamp,SIMPLE_NAME, line no: 57, 1.0, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,info,SIMPLE_NAME, line no: 59, 1.0, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,active.get(),METHOD_INVOCATION, line no: 70, 1.0, 1.0, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,offlineTimestamp.get(),METHOD_INVOCATION, line no: 74, 1.0, 1.0, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,enqueueCounter,SIMPLE_NAME, line no: 125, 1.0, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,size,SIMPLE_NAME, line no: 125, 1.0, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,dispatched.size(),METHOD_INVOCATION, line no: 206, 1.0, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,dispatched,SIMPLE_NAME, line no: 206, 1.0, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,md,SIMPLE_NAME, line no: 256, 1.0, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getPendingQueueSize,SIMPLE_NAME, line no: 293, 1.0, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,"DurableTopicSubscription-" + getSubscriptionKey() + "  id="+ info.getConsumerId()+ "  active="+ isActive()+ "  destinations="+ durableDestinations.size()+ "  total="+ enqueueCounter+ "  pending="+ getPendingQueueSize()+ "  dispatched="+ dispatchCounter+ "  inflight="+ dispatched.size()+ "  prefetchExtension="+ getPrefetchExtension(),INFIX_EXPRESSION, line no: 321, 1.0, 1.0, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,"DurableTopicSubscription-",STRING_LITERAL, line no: 321, 1.0, 1.0, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getSubscriptionKey(),METHOD_INVOCATION, line no: 321, 1.0, 1.0, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getSubscriptionKey,SIMPLE_NAME, line no: 321, 1.0, 1.0, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,"  id=",STRING_LITERAL, line no: 321, 1.0, 1.0, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,info.getConsumerId(),METHOD_INVOCATION, line no: 321, 1.0, 1.0, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getConsumerId,SIMPLE_NAME, line no: 321, 1.0, 1.0, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,"  active=",STRING_LITERAL, line no: 321, 1.0, 1.0, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,"  destinations=",STRING_LITERAL, line no: 321, 1.0, 1.0, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,durableDestinations.size(),METHOD_INVOCATION, line no: 322, 1.0, 1.0, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,"  total=",STRING_LITERAL, line no: 322, 1.0, 1.0, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,"  pending=",STRING_LITERAL, line no: 322, 1.0, 1.0, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getPendingQueueSize(),METHOD_INVOCATION, line no: 322, 1.0, 1.0, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,"  dispatched=",STRING_LITERAL, line no: 322, 1.0, 1.0, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,dispatchCounter,SIMPLE_NAME, line no: 322, 1.0, 1.0, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,"  inflight=",STRING_LITERAL, line no: 323, 1.0, 1.0, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,"  prefetchExtension=",STRING_LITERAL, line no: 323, 1.0, 1.0, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getPrefetchExtension(),METHOD_INVOCATION, line no: 323, 1.0, 1.0, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getPrefetchExtension,SIMPLE_NAME, line no: 323, 1.0, 1.0, 0.0
+isActive,SIMPLE_NAME, line no: 308,durableDestinations,SIMPLE_NAME, line no: 53, 1.0, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,active,SIMPLE_NAME, line no: 56, 1.0, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,offlineTimestamp,SIMPLE_NAME, line no: 57, 1.0, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,info,SIMPLE_NAME, line no: 59, 1.0, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,offlineTimestamp.get(),METHOD_INVOCATION, line no: 74, 1.0, 1.0, 0.0
+isActive,SIMPLE_NAME, line no: 308,enqueueCounter,SIMPLE_NAME, line no: 125, 1.0, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,size,SIMPLE_NAME, line no: 125, 1.0, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,dispatched.size(),METHOD_INVOCATION, line no: 206, 1.0, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,dispatched,SIMPLE_NAME, line no: 206, 1.0, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,md,SIMPLE_NAME, line no: 256, 1.0, 0.8333333333333334, 0.0
+isActive,SIMPLE_NAME, line no: 308,getPendingQueueSize,SIMPLE_NAME, line no: 293, 1.0, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,"DurableTopicSubscription-" + getSubscriptionKey() + "  id="+ info.getConsumerId()+ "  active="+ isActive()+ "  destinations="+ durableDestinations.size()+ "  total="+ enqueueCounter+ "  pending="+ getPendingQueueSize()+ "  dispatched="+ dispatchCounter+ "  inflight="+ dispatched.size()+ "  prefetchExtension="+ getPrefetchExtension(),INFIX_EXPRESSION, line no: 321, 1.0, 1.0, 0.0
+isActive,SIMPLE_NAME, line no: 308,"DurableTopicSubscription-",STRING_LITERAL, line no: 321, 1.0, 1.0, 0.0
+isActive,SIMPLE_NAME, line no: 308,getSubscriptionKey(),METHOD_INVOCATION, line no: 321, 1.0, 1.0, 0.0
+isActive,SIMPLE_NAME, line no: 308,getSubscriptionKey,SIMPLE_NAME, line no: 321, 1.0, 1.0, 0.0
+isActive,SIMPLE_NAME, line no: 308,"  id=",STRING_LITERAL, line no: 321, 1.0, 1.0, 0.0
+isActive,SIMPLE_NAME, line no: 308,info.getConsumerId(),METHOD_INVOCATION, line no: 321, 1.0, 1.0, 0.0
+isActive,SIMPLE_NAME, line no: 308,getConsumerId,SIMPLE_NAME, line no: 321, 1.0, 1.0, 0.0
+isActive,SIMPLE_NAME, line no: 308,"  active=",STRING_LITERAL, line no: 321, 1.0, 1.0, 0.0
+isActive,SIMPLE_NAME, line no: 308,"  destinations=",STRING_LITERAL, line no: 321, 1.0, 1.0, 0.0
+isActive,SIMPLE_NAME, line no: 308,durableDestinations.size(),METHOD_INVOCATION, line no: 322, 1.0, 1.0, 0.0
+isActive,SIMPLE_NAME, line no: 308,"  total=",STRING_LITERAL, line no: 322, 1.0, 1.0, 0.0
+isActive,SIMPLE_NAME, line no: 308,"  pending=",STRING_LITERAL, line no: 322, 1.0, 1.0, 0.0
+isActive,SIMPLE_NAME, line no: 308,getPendingQueueSize(),METHOD_INVOCATION, line no: 322, 1.0, 1.0, 0.0
+isActive,SIMPLE_NAME, line no: 308,"  dispatched=",STRING_LITERAL, line no: 322, 1.0, 1.0, 0.0
+isActive,SIMPLE_NAME, line no: 308,dispatchCounter,SIMPLE_NAME, line no: 322, 1.0, 1.0, 0.0
+isActive,SIMPLE_NAME, line no: 308,"  inflight=",STRING_LITERAL, line no: 323, 1.0, 1.0, 0.0
+isActive,SIMPLE_NAME, line no: 308,"  prefetchExtension=",STRING_LITERAL, line no: 323, 1.0, 1.0, 0.0
+isActive,SIMPLE_NAME, line no: 308,getPrefetchExtension(),METHOD_INVOCATION, line no: 323, 1.0, 1.0, 0.0
+isActive,SIMPLE_NAME, line no: 308,getPrefetchExtension,SIMPLE_NAME, line no: 323, 1.0, 1.0, 0.0
+isActive,SIMPLE_NAME, line no: 308,MessageDispatch,SIMPLE_NAME, line no: 39, 0.8333333333333334, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,node,SIMPLE_NAME, line no: 95, 0.8333333333333334, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,destination,SIMPLE_NAME, line no: 109, 0.8333333333333334, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,destinations,SIMPLE_NAME, line no: 110, 0.8333333333333334, 0.8333333333333334, 0.0
+isActive,SIMPLE_NAME, line no: 308,destination.getActiveMQDestination(),METHOD_INVOCATION, line no: 114, 0.8333333333333334, 0.8333333333333334, 0.0
+isActive,SIMPLE_NAME, line no: 308,getActiveMQDestination,SIMPLE_NAME, line no: 114, 0.8333333333333334, 0.8333333333333334, 0.0
+isActive,SIMPLE_NAME, line no: 308,durableDestinations.put(destination.getActiveMQDestination() destination),METHOD_INVOCATION, line no: 117, 0.8333333333333334, 0.8333333333333334, 0.0
+isActive,SIMPLE_NAME, line no: 308,put,SIMPLE_NAME, line no: 117, 0.8333333333333334, 0.8333333333333334, 0.0
+isActive,SIMPLE_NAME, line no: 308,destination.getMessageStore(),METHOD_INVOCATION, line no: 126, 0.8333333333333334, 0.8333333333333334, 0.0
+isActive,SIMPLE_NAME, line no: 308,getMessageStore,SIMPLE_NAME, line no: 126, 0.8333333333333334, 0.8333333333333334, 0.0
+isActive,SIMPLE_NAME, line no: 308,null,NULL_LITERAL, line no: 126, 0.8333333333333334, 0.8333333333333334, 0.0
+isActive,SIMPLE_NAME, line no: 308,dispatchPending(),METHOD_INVOCATION, line no: 136, 0.8333333333333334, 0.8333333333333334, 0.0
+isActive,SIMPLE_NAME, line no: 308,dispatchPending,SIMPLE_NAME, line no: 136, 0.8333333333333334, 0.8333333333333334, 0.0
+isActive,SIMPLE_NAME, line no: 308,0,NUMBER_LITERAL, line no: 251, 0.8333333333333334, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,createMessageDispatch,SIMPLE_NAME, line no: 255, 0.8333333333333334, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,message,SIMPLE_NAME, line no: 255, 0.8333333333333334, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,super.createMessageDispatch(node message),SUPER_METHOD_INVOCATION, line no: 256, 0.8333333333333334, 0.8333333333333334, 0.0
+isActive,SIMPLE_NAME, line no: 308,QueueMessageReference.NULL_MESSAGE,QUALIFIED_NAME, line no: 257, 0.8333333333333334, 0.8333333333333334, 0.0
+isActive,SIMPLE_NAME, line no: 308,QueueMessageReference,SIMPLE_NAME, line no: 257, 0.8333333333333334, 0.8333333333333334, 0.0
+isActive,SIMPLE_NAME, line no: 308,NULL_MESSAGE,SIMPLE_NAME, line no: 257, 0.8333333333333334, 0.8333333333333334, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,MessageDispatch,SIMPLE_NAME, line no: 39, 0.8, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,!active.get() || super.isFull(),INFIX_EXPRESSION, line no: 83, 0.8, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,!active.get(),PREFIX_EXPRESSION, line no: 83, 0.8, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,super.isFull(),SUPER_METHOD_INVOCATION, line no: 83, 0.8, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,node,SIMPLE_NAME, line no: 95, 0.8, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,destination,SIMPLE_NAME, line no: 109, 0.8, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,!destinations.contains(destination),PREFIX_EXPRESSION, line no: 110, 0.8, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,destinations.contains(destination),METHOD_INVOCATION, line no: 110, 0.8, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,destinations,SIMPLE_NAME, line no: 110, 0.8, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,durableDestinations.containsKey(destination.getActiveMQDestination()),METHOD_INVOCATION, line no: 114, 0.8, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,destination.getActiveMQDestination(),METHOD_INVOCATION, line no: 114, 0.8, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getActiveMQDestination,SIMPLE_NAME, line no: 114, 0.8, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,durableDestinations.put(destination.getActiveMQDestination() destination),METHOD_INVOCATION, line no: 117, 0.8, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,put,SIMPLE_NAME, line no: 117, 0.8, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,active.get() || keepDurableSubsActive,INFIX_EXPRESSION, line no: 119, 0.8, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,destination.getMessageStore() != null,INFIX_EXPRESSION, line no: 126, 0.8, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,destination.getMessageStore(),METHOD_INVOCATION, line no: 126, 0.8, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getMessageStore,SIMPLE_NAME, line no: 126, 0.8, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,null,NULL_LITERAL, line no: 126, 0.8, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,dispatchPending(),METHOD_INVOCATION, line no: 136, 0.8, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,dispatchPending,SIMPLE_NAME, line no: 136, 0.8, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,0,NUMBER_LITERAL, line no: 251, 0.8, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,createMessageDispatch,SIMPLE_NAME, line no: 255, 0.8, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,message,SIMPLE_NAME, line no: 255, 0.8, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,super.createMessageDispatch(node message),SUPER_METHOD_INVOCATION, line no: 256, 0.8, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,node != QueueMessageReference.NULL_MESSAGE,INFIX_EXPRESSION, line no: 257, 0.8, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,QueueMessageReference.NULL_MESSAGE,QUALIFIED_NAME, line no: 257, 0.8, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,QueueMessageReference,SIMPLE_NAME, line no: 257, 0.8, 0.8, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,NULL_MESSAGE,SIMPLE_NAME, line no: 257, 0.8, 0.8, 0.0
+isActive,SIMPLE_NAME, line no: 308,broker,SIMPLE_NAME, line no: 17, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,IOException,SIMPLE_NAME, line no: 19, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,ArrayList,SIMPLE_NAME, line no: 20, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,Collections,SIMPLE_NAME, line no: 21, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,List,SIMPLE_NAME, line no: 22, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,StoreDurableSubscriberCursor,SIMPLE_NAME, line no: 33, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,PolicyEntry,SIMPLE_NAME, line no: 34, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,ActiveMQDestination,SIMPLE_NAME, line no: 35, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,MessageAck,SIMPLE_NAME, line no: 38, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,store,SIMPLE_NAME, line no: 41, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,TopicMessageStore,SIMPLE_NAME, line no: 41, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,SubscriptionKey,SIMPLE_NAME, line no: 45, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,LOG,SIMPLE_NAME, line no: 51, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,Integer,SIMPLE_NAME, line no: 52, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,redeliveredMessages,SIMPLE_NAME, line no: 52, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,Destination,SIMPLE_NAME, line no: 53, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,subscriptionKey,SIMPLE_NAME, line no: 54, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,usageManager,SIMPLE_NAME, line no: 59, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,context,SIMPLE_NAME, line no: 59, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,this.pending=new StoreDurableSubscriberCursor(broker context.getClientId() info.getSubscriptionName() info.getPrefetchSize() this),ASSIGNMENT, line no: 62, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,this.pending,FIELD_ACCESS, line no: 62, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,this,THIS_EXPRESSION, line no: 62, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,pending,SIMPLE_NAME, line no: 62, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,new StoreDurableSubscriberCursor(broker context.getClientId() info.getSubscriptionName() info.getPrefetchSize() this),CLASS_INSTANCE_CREATION, line no: 62, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,context.getClientId(),METHOD_INVOCATION, line no: 62, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,getClientId,SIMPLE_NAME, line no: 62, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,info.getSubscriptionName(),METHOD_INVOCATION, line no: 62, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,getSubscriptionName,SIMPLE_NAME, line no: 62, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,info.getPrefetchSize(),METHOD_INVOCATION, line no: 62, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,getPrefetchSize,SIMPLE_NAME, line no: 62, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,this.pending.setSystemUsage(usageManager),METHOD_INVOCATION, line no: 63, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,setSystemUsage,SIMPLE_NAME, line no: 63, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,this.pending.setMemoryUsageHighWaterMark(getCursorMemoryHighWaterMark()),METHOD_INVOCATION, line no: 64, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,setMemoryUsageHighWaterMark,SIMPLE_NAME, line no: 64, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,getCursorMemoryHighWaterMark(),METHOD_INVOCATION, line no: 64, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,getCursorMemoryHighWaterMark,SIMPLE_NAME, line no: 64, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,subscriptionKey=new SubscriptionKey(context.getClientId() info.getSubscriptionName()),ASSIGNMENT, line no: 66, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,new SubscriptionKey(context.getClientId() info.getSubscriptionName()),CLASS_INSTANCE_CREATION, line no: 66, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,timestamp,SIMPLE_NAME, line no: 77, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,offlineTimestamp.set(timestamp),METHOD_INVOCATION, line no: 78, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,set,SIMPLE_NAME, line no: 78, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,MessageReference,SIMPLE_NAME, line no: 95, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,ack,SIMPLE_NAME, line no: 96, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,new MessageAck(),CLASS_INSTANCE_CREATION, line no: 96, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,ack.setAckType(MessageAck.UNMATCHED_ACK_TYPE),METHOD_INVOCATION, line no: 97, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,setAckType,SIMPLE_NAME, line no: 97, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,MessageAck.UNMATCHED_ACK_TYPE,QUALIFIED_NAME, line no: 97, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,UNMATCHED_ACK_TYPE,SIMPLE_NAME, line no: 97, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,ack.setMessageID(node.getMessageId()),METHOD_INVOCATION, line no: 98, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,setMessageID,SIMPLE_NAME, line no: 98, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,node.getMessageId(),METHOD_INVOCATION, line no: 98, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,getMessageId,SIMPLE_NAME, line no: 98, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,regionDestination,SIMPLE_NAME, line no: 99, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,(Destination)node.getRegionDestination(),CAST_EXPRESSION, line no: 99, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,node.getRegionDestination(),METHOD_INVOCATION, line no: 99, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,getRegionDestination,SIMPLE_NAME, line no: 99, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,regionDestination.acknowledge(this.getContext() this ack node),METHOD_INVOCATION, line no: 100, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,acknowledge,SIMPLE_NAME, line no: 100, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,this.getContext(),METHOD_INVOCATION, line no: 100, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,getContext,SIMPLE_NAME, line no: 100, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,Topic,SIMPLE_NAME, line no: 120, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,topic,SIMPLE_NAME, line no: 120, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,(Topic)destination,CAST_EXPRESSION, line no: 120, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,topic.activate(context this),METHOD_INVOCATION, line no: 121, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,activate,SIMPLE_NAME, line no: 121, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,topic.recoverRetroactiveMessages(context this),METHOD_INVOCATION, line no: 123, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,recoverRetroactiveMessages,SIMPLE_NAME, line no: 123, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,this.enqueueCounter+=pending.size(),ASSIGNMENT, line no: 125, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,this.enqueueCounter,FIELD_ACCESS, line no: 125, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,pending.size(),METHOD_INVOCATION, line no: 125, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,(TopicMessageStore)destination.getMessageStore(),CAST_EXPRESSION, line no: 127, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,this.enqueueCounter+=store.getMessageCount(subscriptionKey.getClientId() subscriptionKey.getSubscriptionName()),ASSIGNMENT, line no: 129, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,store.getMessageCount(subscriptionKey.getClientId() subscriptionKey.getSubscriptionName()),METHOD_INVOCATION, line no: 129, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,getMessageCount,SIMPLE_NAME, line no: 129, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,subscriptionKey.getClientId(),METHOD_INVOCATION, line no: 129, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,subscriptionKey.getSubscriptionName(),METHOD_INVOCATION, line no: 129, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,e,SIMPLE_NAME, line no: 130, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,jmsEx,SIMPLE_NAME, line no: 131, 0.6666666666666666, 0.5, 0.0
+isActive,SIMPLE_NAME, line no: 308,jmsEx.setLinkedException(e),METHOD_INVOCATION, line no: 132, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,setLinkedException,SIMPLE_NAME, line no: 132, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,memoryManager,SIMPLE_NAME, line no: 139, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,regionBroker,SIMPLE_NAME, line no: 139, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,this.context=context,ASSIGNMENT, line no: 141, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,this.context,FIELD_ACCESS, line no: 141, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,this.info=info,ASSIGNMENT, line no: 142, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,this.info,FIELD_ACCESS, line no: 142, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,LOG.isDebugEnabled(),METHOD_INVOCATION, line no: 144, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,isDebugEnabled,SIMPLE_NAME, line no: 144, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,LOG.debug("Activating " + this),METHOD_INVOCATION, line no: 145, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,debug,SIMPLE_NAME, line no: 145, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,"Activating " + this,INFIX_EXPRESSION, line no: 145, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,"Activating ",STRING_LITERAL, line no: 145, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,durableDestinations.values(),METHOD_INVOCATION, line no: 148, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,values,SIMPLE_NAME, line no: 148, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,add(context topic),METHOD_INVOCATION, line no: 150, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,dest,SIMPLE_NAME, line no: 155, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,this.info.getDestination(),METHOD_INVOCATION, line no: 155, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,getDestination,SIMPLE_NAME, line no: 155, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,regionBroker.getDestinationPolicy(),METHOD_INVOCATION, line no: 156, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,getDestinationPolicy,SIMPLE_NAME, line no: 156, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,entry,SIMPLE_NAME, line no: 157, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,regionBroker.getDestinationPolicy().getEntryFor(dest),METHOD_INVOCATION, line no: 157, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,getEntryFor,SIMPLE_NAME, line no: 157, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,entry.configure(broker usageManager this),METHOD_INVOCATION, line no: 159, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,configure,SIMPLE_NAME, line no: 159, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,pendingLock,SIMPLE_NAME, line no: 164, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,pending.setSystemUsage(memoryManager),METHOD_INVOCATION, line no: 165, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,pending.setMemoryUsageHighWaterMark(getCursorMemoryHighWaterMark()),METHOD_INVOCATION, line no: 166, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,pending.setMaxAuditDepth(getMaxAuditDepth()),METHOD_INVOCATION, line no: 167, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,setMaxAuditDepth,SIMPLE_NAME, line no: 167, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,getMaxAuditDepth(),METHOD_INVOCATION, line no: 167, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,getMaxAuditDepth,SIMPLE_NAME, line no: 167, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,pending.setMaxProducersToAudit(getMaxProducersToAudit()),METHOD_INVOCATION, line no: 168, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,setMaxProducersToAudit,SIMPLE_NAME, line no: 168, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,getMaxProducersToAudit(),METHOD_INVOCATION, line no: 168, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,getMaxProducersToAudit,SIMPLE_NAME, line no: 168, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,pending.start(),METHOD_INVOCATION, line no: 169, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,start,SIMPLE_NAME, line no: 169, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,this.active.set(true),METHOD_INVOCATION, line no: 179, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,this.active,FIELD_ACCESS, line no: 179, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,this.offlineTimestamp.set(-1),METHOD_INVOCATION, line no: 180, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,this.offlineTimestamp,FIELD_ACCESS, line no: 180, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,-1,PREFIX_EXPRESSION, line no: 180, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,1,NUMBER_LITERAL, line no: 180, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,this.usageManager.getMemoryUsage().addUsageListener(this),METHOD_INVOCATION, line no: 182, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,this.usageManager.getMemoryUsage(),METHOD_INVOCATION, line no: 182, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,this.usageManager,FIELD_ACCESS, line no: 182, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,getMemoryUsage,SIMPLE_NAME, line no: 182, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,addUsageListener,SIMPLE_NAME, line no: 182, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,deactivate,SIMPLE_NAME, line no: 186, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,LOG.debug("Deactivating keepActive=" + keepDurableSubsActive + "  "+ this),METHOD_INVOCATION, line no: 188, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,"Deactivating keepActive=" + keepDurableSubsActive + "  "+ this,INFIX_EXPRESSION, line no: 188, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,"Deactivating keepActive=",STRING_LITERAL, line no: 188, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,"  ",STRING_LITERAL, line no: 188, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,active.set(false),METHOD_INVOCATION, line no: 190, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,offlineTimestamp.set(System.currentTimeMillis()),METHOD_INVOCATION, line no: 191, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,System.currentTimeMillis(),METHOD_INVOCATION, line no: 191, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,System,SIMPLE_NAME, line no: 191, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,currentTimeMillis,SIMPLE_NAME, line no: 191, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,this.usageManager.getMemoryUsage().removeUsageListener(this),METHOD_INVOCATION, line no: 192, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,removeUsageListener,SIMPLE_NAME, line no: 192, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,topicsToDeactivate,SIMPLE_NAME, line no: 194, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,new ArrayList<Topic>(),CLASS_INSTANCE_CREATION, line no: 194, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,savedDispateched,SIMPLE_NAME, line no: 195, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,pending.stop(),METHOD_INVOCATION, line no: 198, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,stop,SIMPLE_NAME, line no: 198, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,dispatchLock,SIMPLE_NAME, line no: 200, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,topic.getDestinationStatistics().getInflight().subtract(dispatched.size()),METHOD_INVOCATION, line no: 206, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,topic.getDestinationStatistics().getInflight(),METHOD_INVOCATION, line no: 206, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,topic.getDestinationStatistics(),METHOD_INVOCATION, line no: 206, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,getDestinationStatistics,SIMPLE_NAME, line no: 206, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,getInflight,SIMPLE_NAME, line no: 206, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,subtract,SIMPLE_NAME, line no: 206, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,Collections.reverse(dispatched),METHOD_INVOCATION, line no: 212, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,reverse,SIMPLE_NAME, line no: 212, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,count,SIMPLE_NAME, line no: 216, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,redeliveredMessages.get(node.getMessageId()),METHOD_INVOCATION, line no: 216, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,redeliveredMessages.put(node.getMessageId() Integer.valueOf(count.intValue() + 1)),METHOD_INVOCATION, line no: 218, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,Integer.valueOf(count.intValue() + 1),METHOD_INVOCATION, line no: 218, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,valueOf,SIMPLE_NAME, line no: 218, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,count.intValue() + 1,INFIX_EXPRESSION, line no: 218, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,count.intValue(),METHOD_INVOCATION, line no: 218, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,intValue,SIMPLE_NAME, line no: 218, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,redeliveredMessages.put(node.getMessageId() Integer.valueOf(1)),METHOD_INVOCATION, line no: 220, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,Integer.valueOf(1),METHOD_INVOCATION, line no: 220, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,pending.addMessageFirst(node),METHOD_INVOCATION, line no: 223, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,addMessageFirst,SIMPLE_NAME, line no: 223, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,pending.rollback(node.getMessageId()),METHOD_INVOCATION, line no: 224, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,rollback,SIMPLE_NAME, line no: 224, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,node.decrementReferenceCount(),METHOD_INVOCATION, line no: 226, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,decrementReferenceCount,SIMPLE_NAME, line no: 226, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,dispatched.clear(),METHOD_INVOCATION, line no: 233, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,clear,SIMPLE_NAME, line no: 233, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,pending.reset(),METHOD_INVOCATION, line no: 237, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,reset,SIMPLE_NAME, line no: 237, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,pending.next(),METHOD_INVOCATION, line no: 239, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,next,SIMPLE_NAME, line no: 239, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,pending.remove(),METHOD_INVOCATION, line no: 241, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,remove,SIMPLE_NAME, line no: 241, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,pending.release(),METHOD_INVOCATION, line no: 244, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,release,SIMPLE_NAME, line no: 244, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,topic.deactivate(context this savedDispateched),METHOD_INVOCATION, line no: 249, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,prefetchExtension.set(0),METHOD_INVOCATION, line no: 251, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,prefetchExtension,SIMPLE_NAME, line no: 251, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,md.setRedeliveryCounter(count.intValue()),METHOD_INVOCATION, line no: 260, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,setRedeliveryCounter,SIMPLE_NAME, line no: 260, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,super.add(node),SUPER_METHOD_INVOCATION, line no: 271, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,pending.remove(node),METHOD_INVOCATION, line no: 282, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,pending.addRecoveredMessage(message),METHOD_INVOCATION, line no: 288, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,addRecoveredMessage,SIMPLE_NAME, line no: 288, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,regionDestination.acknowledge(context this ack node),METHOD_INVOCATION, line no: 314, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,redeliveredMessages.remove(node.getMessageId()),METHOD_INVOCATION, line no: 315, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,pending.clear(),METHOD_INVOCATION, line no: 345, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,setSlowConsumer(false),METHOD_INVOCATION, line no: 354, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,setSlowConsumer,SIMPLE_NAME, line no: 354, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,oldPercentUsage,SIMPLE_NAME, line no: 358, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,newPercentUsage,SIMPLE_NAME, line no: 358, 0.6666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,90,NUMBER_LITERAL, line no: 359, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,LOG.warn("problem calling dispatchMatched" e),METHOD_INVOCATION, line no: 363, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,warn,SIMPLE_NAME, line no: 363, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,"problem calling dispatchMatched",STRING_LITERAL, line no: 363, 0.6666666666666666, 0.6666666666666666, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,broker,SIMPLE_NAME, line no: 17, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,IOException,SIMPLE_NAME, line no: 19, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,ArrayList,SIMPLE_NAME, line no: 20, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,Collections,SIMPLE_NAME, line no: 21, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,List,SIMPLE_NAME, line no: 22, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,StoreDurableSubscriberCursor,SIMPLE_NAME, line no: 33, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,PolicyEntry,SIMPLE_NAME, line no: 34, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,ActiveMQDestination,SIMPLE_NAME, line no: 35, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,MessageAck,SIMPLE_NAME, line no: 38, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,store,SIMPLE_NAME, line no: 41, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,TopicMessageStore,SIMPLE_NAME, line no: 41, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,SubscriptionKey,SIMPLE_NAME, line no: 45, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,LOG,SIMPLE_NAME, line no: 51, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,Integer,SIMPLE_NAME, line no: 52, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,redeliveredMessages,SIMPLE_NAME, line no: 52, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,Destination,SIMPLE_NAME, line no: 53, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,subscriptionKey,SIMPLE_NAME, line no: 54, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,usageManager,SIMPLE_NAME, line no: 59, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,context,SIMPLE_NAME, line no: 59, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.pending=new StoreDurableSubscriberCursor(broker context.getClientId() info.getSubscriptionName() info.getPrefetchSize() this),ASSIGNMENT, line no: 62, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.pending,FIELD_ACCESS, line no: 62, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this,THIS_EXPRESSION, line no: 62, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,pending,SIMPLE_NAME, line no: 62, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,new StoreDurableSubscriberCursor(broker context.getClientId() info.getSubscriptionName() info.getPrefetchSize() this),CLASS_INSTANCE_CREATION, line no: 62, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,context.getClientId(),METHOD_INVOCATION, line no: 62, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getClientId,SIMPLE_NAME, line no: 62, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,info.getSubscriptionName(),METHOD_INVOCATION, line no: 62, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getSubscriptionName,SIMPLE_NAME, line no: 62, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,info.getPrefetchSize(),METHOD_INVOCATION, line no: 62, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getPrefetchSize,SIMPLE_NAME, line no: 62, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.pending.setSystemUsage(usageManager),METHOD_INVOCATION, line no: 63, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,setSystemUsage,SIMPLE_NAME, line no: 63, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.pending.setMemoryUsageHighWaterMark(getCursorMemoryHighWaterMark()),METHOD_INVOCATION, line no: 64, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,setMemoryUsageHighWaterMark,SIMPLE_NAME, line no: 64, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getCursorMemoryHighWaterMark(),METHOD_INVOCATION, line no: 64, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getCursorMemoryHighWaterMark,SIMPLE_NAME, line no: 64, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.keepDurableSubsActive=keepDurableSubsActive,ASSIGNMENT, line no: 65, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.keepDurableSubsActive,FIELD_ACCESS, line no: 65, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,subscriptionKey=new SubscriptionKey(context.getClientId() info.getSubscriptionName()),ASSIGNMENT, line no: 66, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,new SubscriptionKey(context.getClientId() info.getSubscriptionName()),CLASS_INSTANCE_CREATION, line no: 66, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,timestamp,SIMPLE_NAME, line no: 77, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,offlineTimestamp.set(timestamp),METHOD_INVOCATION, line no: 78, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,set,SIMPLE_NAME, line no: 78, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,MessageReference,SIMPLE_NAME, line no: 95, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,ack,SIMPLE_NAME, line no: 96, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,new MessageAck(),CLASS_INSTANCE_CREATION, line no: 96, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,ack.setAckType(MessageAck.UNMATCHED_ACK_TYPE),METHOD_INVOCATION, line no: 97, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,setAckType,SIMPLE_NAME, line no: 97, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,MessageAck.UNMATCHED_ACK_TYPE,QUALIFIED_NAME, line no: 97, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,UNMATCHED_ACK_TYPE,SIMPLE_NAME, line no: 97, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,ack.setMessageID(node.getMessageId()),METHOD_INVOCATION, line no: 98, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,setMessageID,SIMPLE_NAME, line no: 98, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,node.getMessageId(),METHOD_INVOCATION, line no: 98, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getMessageId,SIMPLE_NAME, line no: 98, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,regionDestination,SIMPLE_NAME, line no: 99, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,(Destination)node.getRegionDestination(),CAST_EXPRESSION, line no: 99, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,node.getRegionDestination(),METHOD_INVOCATION, line no: 99, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getRegionDestination,SIMPLE_NAME, line no: 99, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,regionDestination.acknowledge(this.getContext() this ack node),METHOD_INVOCATION, line no: 100, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,acknowledge,SIMPLE_NAME, line no: 100, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.getContext(),METHOD_INVOCATION, line no: 100, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getContext,SIMPLE_NAME, line no: 100, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,Topic,SIMPLE_NAME, line no: 120, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,topic,SIMPLE_NAME, line no: 120, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,(Topic)destination,CAST_EXPRESSION, line no: 120, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,topic.activate(context this),METHOD_INVOCATION, line no: 121, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,activate,SIMPLE_NAME, line no: 121, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,pending.isEmpty(topic),METHOD_INVOCATION, line no: 122, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,topic.recoverRetroactiveMessages(context this),METHOD_INVOCATION, line no: 123, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,recoverRetroactiveMessages,SIMPLE_NAME, line no: 123, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.enqueueCounter+=pending.size(),ASSIGNMENT, line no: 125, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.enqueueCounter,FIELD_ACCESS, line no: 125, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,pending.size(),METHOD_INVOCATION, line no: 125, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,(TopicMessageStore)destination.getMessageStore(),CAST_EXPRESSION, line no: 127, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.enqueueCounter+=store.getMessageCount(subscriptionKey.getClientId() subscriptionKey.getSubscriptionName()),ASSIGNMENT, line no: 129, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,store.getMessageCount(subscriptionKey.getClientId() subscriptionKey.getSubscriptionName()),METHOD_INVOCATION, line no: 129, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getMessageCount,SIMPLE_NAME, line no: 129, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,subscriptionKey.getClientId(),METHOD_INVOCATION, line no: 129, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,subscriptionKey.getSubscriptionName(),METHOD_INVOCATION, line no: 129, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,e,SIMPLE_NAME, line no: 130, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,jmsEx,SIMPLE_NAME, line no: 131, 0.6, 0.4, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,jmsEx.setLinkedException(e),METHOD_INVOCATION, line no: 132, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,setLinkedException,SIMPLE_NAME, line no: 132, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,memoryManager,SIMPLE_NAME, line no: 139, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,regionBroker,SIMPLE_NAME, line no: 139, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.context=context,ASSIGNMENT, line no: 141, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.context,FIELD_ACCESS, line no: 141, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.info=info,ASSIGNMENT, line no: 142, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.info,FIELD_ACCESS, line no: 142, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,LOG.isDebugEnabled(),METHOD_INVOCATION, line no: 144, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,isDebugEnabled,SIMPLE_NAME, line no: 144, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,LOG.debug("Activating " + this),METHOD_INVOCATION, line no: 145, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,debug,SIMPLE_NAME, line no: 145, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,"Activating " + this,INFIX_EXPRESSION, line no: 145, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,"Activating ",STRING_LITERAL, line no: 145, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,!keepDurableSubsActive,PREFIX_EXPRESSION, line no: 147, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,durableDestinations.values(),METHOD_INVOCATION, line no: 148, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,values,SIMPLE_NAME, line no: 148, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,add(context topic),METHOD_INVOCATION, line no: 150, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,dest,SIMPLE_NAME, line no: 155, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.info.getDestination(),METHOD_INVOCATION, line no: 155, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getDestination,SIMPLE_NAME, line no: 155, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,dest != null && regionBroker.getDestinationPolicy() != null,INFIX_EXPRESSION, line no: 156, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,dest != null,INFIX_EXPRESSION, line no: 156, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,regionBroker.getDestinationPolicy() != null,INFIX_EXPRESSION, line no: 156, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,regionBroker.getDestinationPolicy(),METHOD_INVOCATION, line no: 156, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getDestinationPolicy,SIMPLE_NAME, line no: 156, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,entry,SIMPLE_NAME, line no: 157, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,regionBroker.getDestinationPolicy().getEntryFor(dest),METHOD_INVOCATION, line no: 157, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getEntryFor,SIMPLE_NAME, line no: 157, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,entry != null,INFIX_EXPRESSION, line no: 158, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,entry.configure(broker usageManager this),METHOD_INVOCATION, line no: 159, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,configure,SIMPLE_NAME, line no: 159, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,pendingLock,SIMPLE_NAME, line no: 164, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,pending.setSystemUsage(memoryManager),METHOD_INVOCATION, line no: 165, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,pending.setMemoryUsageHighWaterMark(getCursorMemoryHighWaterMark()),METHOD_INVOCATION, line no: 166, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,pending.setMaxAuditDepth(getMaxAuditDepth()),METHOD_INVOCATION, line no: 167, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,setMaxAuditDepth,SIMPLE_NAME, line no: 167, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getMaxAuditDepth(),METHOD_INVOCATION, line no: 167, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getMaxAuditDepth,SIMPLE_NAME, line no: 167, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,pending.setMaxProducersToAudit(getMaxProducersToAudit()),METHOD_INVOCATION, line no: 168, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,setMaxProducersToAudit,SIMPLE_NAME, line no: 168, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getMaxProducersToAudit(),METHOD_INVOCATION, line no: 168, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getMaxProducersToAudit,SIMPLE_NAME, line no: 168, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,pending.start(),METHOD_INVOCATION, line no: 169, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,start,SIMPLE_NAME, line no: 169, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,pending.isEmpty(),METHOD_INVOCATION, line no: 172, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.active.set(true),METHOD_INVOCATION, line no: 179, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.active,FIELD_ACCESS, line no: 179, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.offlineTimestamp.set(-1),METHOD_INVOCATION, line no: 180, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.offlineTimestamp,FIELD_ACCESS, line no: 180, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,-1,PREFIX_EXPRESSION, line no: 180, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,1,NUMBER_LITERAL, line no: 180, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.usageManager.getMemoryUsage().addUsageListener(this),METHOD_INVOCATION, line no: 182, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.usageManager.getMemoryUsage(),METHOD_INVOCATION, line no: 182, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.usageManager,FIELD_ACCESS, line no: 182, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getMemoryUsage,SIMPLE_NAME, line no: 182, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,addUsageListener,SIMPLE_NAME, line no: 182, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,deactivate,SIMPLE_NAME, line no: 186, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,LOG.debug("Deactivating keepActive=" + keepDurableSubsActive + "  "+ this),METHOD_INVOCATION, line no: 188, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,"Deactivating keepActive=" + keepDurableSubsActive + "  "+ this,INFIX_EXPRESSION, line no: 188, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,"Deactivating keepActive=",STRING_LITERAL, line no: 188, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,"  ",STRING_LITERAL, line no: 188, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,active.set(false),METHOD_INVOCATION, line no: 190, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,offlineTimestamp.set(System.currentTimeMillis()),METHOD_INVOCATION, line no: 191, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,System.currentTimeMillis(),METHOD_INVOCATION, line no: 191, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,System,SIMPLE_NAME, line no: 191, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,currentTimeMillis,SIMPLE_NAME, line no: 191, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,this.usageManager.getMemoryUsage().removeUsageListener(this),METHOD_INVOCATION, line no: 192, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,removeUsageListener,SIMPLE_NAME, line no: 192, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,topicsToDeactivate,SIMPLE_NAME, line no: 194, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,new ArrayList<Topic>(),CLASS_INSTANCE_CREATION, line no: 194, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,savedDispateched,SIMPLE_NAME, line no: 195, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,pending.stop(),METHOD_INVOCATION, line no: 198, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,stop,SIMPLE_NAME, line no: 198, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,dispatchLock,SIMPLE_NAME, line no: 200, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,topicsToDeactivate.add(topic),METHOD_INVOCATION, line no: 204, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,topic.getDestinationStatistics().getInflight().subtract(dispatched.size()),METHOD_INVOCATION, line no: 206, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,topic.getDestinationStatistics().getInflight(),METHOD_INVOCATION, line no: 206, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,topic.getDestinationStatistics(),METHOD_INVOCATION, line no: 206, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getDestinationStatistics,SIMPLE_NAME, line no: 206, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getInflight,SIMPLE_NAME, line no: 206, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,subtract,SIMPLE_NAME, line no: 206, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,Collections.reverse(dispatched),METHOD_INVOCATION, line no: 212, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,reverse,SIMPLE_NAME, line no: 212, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,count,SIMPLE_NAME, line no: 216, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,redeliveredMessages.get(node.getMessageId()),METHOD_INVOCATION, line no: 216, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,count != null,INFIX_EXPRESSION, line no: 217, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,redeliveredMessages.put(node.getMessageId() Integer.valueOf(count.intValue() + 1)),METHOD_INVOCATION, line no: 218, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,Integer.valueOf(count.intValue() + 1),METHOD_INVOCATION, line no: 218, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,valueOf,SIMPLE_NAME, line no: 218, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,count.intValue() + 1,INFIX_EXPRESSION, line no: 218, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,count.intValue(),METHOD_INVOCATION, line no: 218, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,intValue,SIMPLE_NAME, line no: 218, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,redeliveredMessages.put(node.getMessageId() Integer.valueOf(1)),METHOD_INVOCATION, line no: 220, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,Integer.valueOf(1),METHOD_INVOCATION, line no: 220, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,keepDurableSubsActive && pending.isTransient(),INFIX_EXPRESSION, line no: 222, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,pending.isTransient(),METHOD_INVOCATION, line no: 222, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,pending.addMessageFirst(node),METHOD_INVOCATION, line no: 223, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,addMessageFirst,SIMPLE_NAME, line no: 223, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,pending.rollback(node.getMessageId()),METHOD_INVOCATION, line no: 224, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,rollback,SIMPLE_NAME, line no: 224, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,node.decrementReferenceCount(),METHOD_INVOCATION, line no: 226, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,decrementReferenceCount,SIMPLE_NAME, line no: 226, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,!topicsToDeactivate.isEmpty(),PREFIX_EXPRESSION, line no: 230, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,topicsToDeactivate.isEmpty(),METHOD_INVOCATION, line no: 230, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,dispatched.clear(),METHOD_INVOCATION, line no: 233, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,clear,SIMPLE_NAME, line no: 233, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,!keepDurableSubsActive && pending.isTransient(),INFIX_EXPRESSION, line no: 235, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,pending.reset(),METHOD_INVOCATION, line no: 237, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,reset,SIMPLE_NAME, line no: 237, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,pending.hasNext(),METHOD_INVOCATION, line no: 238, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,pending.next(),METHOD_INVOCATION, line no: 239, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,next,SIMPLE_NAME, line no: 239, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,pending.remove(),METHOD_INVOCATION, line no: 241, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,remove,SIMPLE_NAME, line no: 241, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,pending.release(),METHOD_INVOCATION, line no: 244, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,release,SIMPLE_NAME, line no: 244, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,topic.deactivate(context this savedDispateched),METHOD_INVOCATION, line no: 249, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,prefetchExtension.set(0),METHOD_INVOCATION, line no: 251, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,prefetchExtension,SIMPLE_NAME, line no: 251, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,md.setRedeliveryCounter(count.intValue()),METHOD_INVOCATION, line no: 260, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,setRedeliveryCounter,SIMPLE_NAME, line no: 260, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,!active.get() && !keepDurableSubsActive,INFIX_EXPRESSION, line no: 268, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,super.add(node),SUPER_METHOD_INVOCATION, line no: 271, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,pending.remove(node),METHOD_INVOCATION, line no: 282, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,pending.addRecoveredMessage(message),METHOD_INVOCATION, line no: 288, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,addRecoveredMessage,SIMPLE_NAME, line no: 288, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,super.getPendingQueueSize(),SUPER_METHOD_INVOCATION, line no: 295, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,regionDestination.acknowledge(context this ack node),METHOD_INVOCATION, line no: 314, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,redeliveredMessages.remove(node.getMessageId()),METHOD_INVOCATION, line no: 315, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,pending.clear(),METHOD_INVOCATION, line no: 345, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,setSlowConsumer(false),METHOD_INVOCATION, line no: 354, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,setSlowConsumer,SIMPLE_NAME, line no: 354, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,oldPercentUsage,SIMPLE_NAME, line no: 358, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,newPercentUsage,SIMPLE_NAME, line no: 358, 0.6, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,oldPercentUsage > newPercentUsage && oldPercentUsage >= 90,INFIX_EXPRESSION, line no: 359, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,oldPercentUsage > newPercentUsage,INFIX_EXPRESSION, line no: 359, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,oldPercentUsage >= 90,INFIX_EXPRESSION, line no: 359, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,90,NUMBER_LITERAL, line no: 359, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,LOG.warn("problem calling dispatchMatched" e),METHOD_INVOCATION, line no: 363, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,warn,SIMPLE_NAME, line no: 363, 0.6, 0.6, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,"problem calling dispatchMatched",STRING_LITERAL, line no: 363, 0.6, 0.6, 0.0
+isActive,SIMPLE_NAME, line no: 308,JMSException,SIMPLE_NAME, line no: 28, 0.5, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,new JMSException("Failed to retrieve enqueueCount from store " + e),CLASS_INSTANCE_CREATION, line no: 131, 0.5, 0.5, 0.0
+isActive,SIMPLE_NAME, line no: 308,"Failed to retrieve enqueueCount from store " + e,INFIX_EXPRESSION, line no: 131, 0.5, 0.5, 0.0
+isActive,SIMPLE_NAME, line no: 308,"Failed to retrieve enqueueCount from store ",STRING_LITERAL, line no: 131, 0.5, 0.5, 0.0
+isActive,SIMPLE_NAME, line no: 308,super.getPendingQueueSize(),SUPER_METHOD_INVOCATION, line no: 295, 0.5, 0.5, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,JMSException,SIMPLE_NAME, line no: 28, 0.4, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,LoggerFactory,SIMPLE_NAME, line no: 47, 0.4, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,DurableTopicSubscription,SIMPLE_NAME, line no: 49, 0.4, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getLogger,SIMPLE_NAME, line no: 51, 0.4, 0.4, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,new JMSException("Failed to retrieve enqueueCount from store " + e),CLASS_INSTANCE_CREATION, line no: 131, 0.4, 0.4, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,"Failed to retrieve enqueueCount from store " + e,INFIX_EXPRESSION, line no: 131, 0.4, 0.4, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,"Failed to retrieve enqueueCount from store ",STRING_LITERAL, line no: 131, 0.4, 0.4, 0.0
+isActive,SIMPLE_NAME, line no: 308,LoggerFactory,SIMPLE_NAME, line no: 47, 0.3333333333333333, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,DurableTopicSubscription,SIMPLE_NAME, line no: 49, 0.3333333333333333, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,getLogger,SIMPLE_NAME, line no: 51, 0.3333333333333333, 0.3333333333333333, 0.0
+isActive,SIMPLE_NAME, line no: 308,super.add(context destination),SUPER_METHOD_INVOCATION, line no: 111, 0.3333333333333333, 0.3333333333333333, 0.0
+isActive,SIMPLE_NAME, line no: 308,savedDispateched=new ArrayList<MessageReference>(dispatched),ASSIGNMENT, line no: 231, 0.3333333333333333, 0.3333333333333333, 0.0
+isActive,SIMPLE_NAME, line no: 308,new ArrayList<MessageReference>(dispatched),CLASS_INSTANCE_CREATION, line no: 231, 0.3333333333333333, 0.3333333333333333, 0.0
+isActive,SIMPLE_NAME, line no: 308,UnsupportedOperationException,SIMPLE_NAME, line no: 303, 0.3333333333333333, 0.3333333333333333, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,org,SIMPLE_NAME, line no: 17, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,apache,SIMPLE_NAME, line no: 17, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,activemq,SIMPLE_NAME, line no: 17, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,region,SIMPLE_NAME, line no: 17, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,java,SIMPLE_NAME, line no: 19, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,io,SIMPLE_NAME, line no: 19, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,util,SIMPLE_NAME, line no: 20, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,concurrent,SIMPLE_NAME, line no: 23, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,ConcurrentHashMap,SIMPLE_NAME, line no: 23, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,atomic,SIMPLE_NAME, line no: 24, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,AtomicBoolean,SIMPLE_NAME, line no: 24, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,AtomicLong,SIMPLE_NAME, line no: 25, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,javax,SIMPLE_NAME, line no: 27, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,jms,SIMPLE_NAME, line no: 27, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,InvalidSelectorException,SIMPLE_NAME, line no: 27, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,Broker,SIMPLE_NAME, line no: 30, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,ConnectionContext,SIMPLE_NAME, line no: 31, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,cursors,SIMPLE_NAME, line no: 32, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,PendingMessageCursor,SIMPLE_NAME, line no: 32, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,policy,SIMPLE_NAME, line no: 34, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,command,SIMPLE_NAME, line no: 35, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,ConsumerInfo,SIMPLE_NAME, line no: 36, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,Message,SIMPLE_NAME, line no: 37, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,MessageId,SIMPLE_NAME, line no: 40, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,usage,SIMPLE_NAME, line no: 42, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,SystemUsage,SIMPLE_NAME, line no: 42, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,Usage,SIMPLE_NAME, line no: 43, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,UsageListener,SIMPLE_NAME, line no: 44, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,slf4j,SIMPLE_NAME, line no: 46, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,Logger,SIMPLE_NAME, line no: 46, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,PrefetchSubscription,SIMPLE_NAME, line no: 49, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,LoggerFactory.getLogger(DurableTopicSubscription.class),METHOD_INVOCATION, line no: 51, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,DurableTopicSubscription.class,TYPE_LITERAL, line no: 51, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,getOfflineTimestamp,SIMPLE_NAME, line no: 73, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,setOfflineTimestamp,SIMPLE_NAME, line no: 77, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,Override,SIMPLE_NAME, line no: 81, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,gc,SIMPLE_NAME, line no: 87, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,unmatched,SIMPLE_NAME, line no: 95, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,setPendingBatchSize,SIMPLE_NAME, line no: 104, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,numberToDispatch,SIMPLE_NAME, line no: 104, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,Exception,SIMPLE_NAME, line no: 109, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,super.add(context destination),SUPER_METHOD_INVOCATION, line no: 111, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,RegionBroker,SIMPLE_NAME, line no: 139, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,savedDispateched=new ArrayList<MessageReference>(dispatched),ASSIGNMENT, line no: 231, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,new ArrayList<MessageReference>(dispatched),CLASS_INSTANCE_CREATION, line no: 231, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,super.dispatchPending(),SUPER_METHOD_INVOCATION, line no: 277, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,removePending,SIMPLE_NAME, line no: 281, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,doAddRecoveredMessage,SIMPLE_NAME, line no: 286, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,setSelector,SIMPLE_NAME, line no: 302, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,String,SIMPLE_NAME, line no: 302, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,selector,SIMPLE_NAME, line no: 302, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,new UnsupportedOperationException("You cannot dynamically change the selector for durable topic subscriptions"),CLASS_INSTANCE_CREATION, line no: 303, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,UnsupportedOperationException,SIMPLE_NAME, line no: 303, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,"You cannot dynamically change the selector for durable topic subscriptions",STRING_LITERAL, line no: 303, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,toString,SIMPLE_NAME, line no: 320, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,destroy,SIMPLE_NAME, line no: 334, 0.2, 0.2, 0.0
+isActive(),METHOD_INVOCATION, line no: 308,onUsageChanged,SIMPLE_NAME, line no: 358, 0.2, 0.2, 0.0
+isActive,SIMPLE_NAME, line no: 308,org,SIMPLE_NAME, line no: 17, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,apache,SIMPLE_NAME, line no: 17, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,activemq,SIMPLE_NAME, line no: 17, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,region,SIMPLE_NAME, line no: 17, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,java,SIMPLE_NAME, line no: 19, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,io,SIMPLE_NAME, line no: 19, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,util,SIMPLE_NAME, line no: 20, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,concurrent,SIMPLE_NAME, line no: 23, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,ConcurrentHashMap,SIMPLE_NAME, line no: 23, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,atomic,SIMPLE_NAME, line no: 24, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,AtomicBoolean,SIMPLE_NAME, line no: 24, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,AtomicLong,SIMPLE_NAME, line no: 25, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,javax,SIMPLE_NAME, line no: 27, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,jms,SIMPLE_NAME, line no: 27, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,InvalidSelectorException,SIMPLE_NAME, line no: 27, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,Broker,SIMPLE_NAME, line no: 30, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,ConnectionContext,SIMPLE_NAME, line no: 31, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,cursors,SIMPLE_NAME, line no: 32, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,PendingMessageCursor,SIMPLE_NAME, line no: 32, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,policy,SIMPLE_NAME, line no: 34, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,command,SIMPLE_NAME, line no: 35, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,ConsumerInfo,SIMPLE_NAME, line no: 36, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,Message,SIMPLE_NAME, line no: 37, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,MessageId,SIMPLE_NAME, line no: 40, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,usage,SIMPLE_NAME, line no: 42, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,SystemUsage,SIMPLE_NAME, line no: 42, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,Usage,SIMPLE_NAME, line no: 43, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,UsageListener,SIMPLE_NAME, line no: 44, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,slf4j,SIMPLE_NAME, line no: 46, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,Logger,SIMPLE_NAME, line no: 46, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,PrefetchSubscription,SIMPLE_NAME, line no: 49, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,LoggerFactory.getLogger(DurableTopicSubscription.class),METHOD_INVOCATION, line no: 51, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,DurableTopicSubscription.class,TYPE_LITERAL, line no: 51, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,getOfflineTimestamp,SIMPLE_NAME, line no: 73, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,setOfflineTimestamp,SIMPLE_NAME, line no: 77, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,Override,SIMPLE_NAME, line no: 81, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,gc,SIMPLE_NAME, line no: 87, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,unmatched,SIMPLE_NAME, line no: 95, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,setPendingBatchSize,SIMPLE_NAME, line no: 104, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,numberToDispatch,SIMPLE_NAME, line no: 104, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,Exception,SIMPLE_NAME, line no: 109, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,RegionBroker,SIMPLE_NAME, line no: 139, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,super.dispatchPending(),SUPER_METHOD_INVOCATION, line no: 277, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,removePending,SIMPLE_NAME, line no: 281, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,doAddRecoveredMessage,SIMPLE_NAME, line no: 286, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,setSelector,SIMPLE_NAME, line no: 302, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,String,SIMPLE_NAME, line no: 302, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,selector,SIMPLE_NAME, line no: 302, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,new UnsupportedOperationException("You cannot dynamically change the selector for durable topic subscriptions"),CLASS_INSTANCE_CREATION, line no: 303, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,"You cannot dynamically change the selector for durable topic subscriptions",STRING_LITERAL, line no: 303, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,toString,SIMPLE_NAME, line no: 320, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,destroy,SIMPLE_NAME, line no: 334, 0.16666666666666666, 0.16666666666666666, 0.0
+isActive,SIMPLE_NAME, line no: 308,onUsageChanged,SIMPLE_NAME, line no: 358, 0.16666666666666666, 0.16666666666666666, 0.0
