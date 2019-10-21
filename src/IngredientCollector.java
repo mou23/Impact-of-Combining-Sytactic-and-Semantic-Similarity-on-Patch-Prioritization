@@ -14,6 +14,8 @@ import org.eclipse.jdt.core.dom.ASTNode;
 import org.eclipse.jdt.core.dom.ASTVisitor;
 import org.eclipse.jdt.core.dom.CompilationUnit;
 import org.eclipse.jdt.core.dom.Expression;
+import org.eclipse.jdt.core.dom.IBinding;
+import org.eclipse.jdt.core.dom.ImportDeclaration;
 import org.eclipse.jdt.core.dom.TypeDeclaration;
 
 public class IngredientCollector extends ASTVisitor {
@@ -38,13 +40,22 @@ public class IngredientCollector extends ASTVisitor {
 	@Override
 	public void preVisit(ASTNode node) {
 		PatchGenerator patchGenerator = PatchGenerator.createPatchGenerator();
-		
-		if(node instanceof Expression) {
-//			System.out.println("NODE " +node);
-//			System.out.println(patchGenerator.compilationUnit.getLineNumber(node.getStartPosition()) + " "+patchGenerator.compilationUnit.getLineNumber(node.getStartPosition()+node.getLength()));
-			this.collectFaultyNode(node);
-			this.collectFixingIngredients(node);
-		}		
+		if(node.getNodeType()==ASTNode.IMPORT_DECLARATION) {
+			ImportDeclaration id = (ImportDeclaration)node;
+			IBinding ib = id.resolveBinding();
+			System.out.println(id.toString().replace("\n", "") + " "+ ib.isRecovered());
+			if(ib.toString().contains("RecoveredTypeBinding")) {
+				System.out.println("PROBLEM!!!!!!!!!!!!!!!!!!!!");
+				System.out.println(ib);
+				System.out.println();
+			}
+		}
+//		if(node instanceof Expression) {
+////			System.out.println("NODE " +node);
+////			System.out.println(patchGenerator.compilationUnit.getLineNumber(node.getStartPosition()) + " "+patchGenerator.compilationUnit.getLineNumber(node.getStartPosition()+node.getLength()));
+//			this.collectFaultyNode(node);
+//			this.collectFixingIngredients(node);
+//		}		
 	}
 
 	private void collectFaultyNode(ASTNode node) {

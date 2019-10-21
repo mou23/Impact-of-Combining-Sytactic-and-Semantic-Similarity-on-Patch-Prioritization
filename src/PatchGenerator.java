@@ -45,7 +45,7 @@ public class PatchGenerator {
 	//	static HashSet<CandidatePatch> candidatePatchesSet = new HashSet<CandidatePatch>();
 	ArrayList<CandidatePatch> candidatePatchesList = new ArrayList<CandidatePatch>();
 	ArrayList<String>sourceFiles = new ArrayList<String>();
-//	ArrayList<String>classFiles = new ArrayList<String>();
+	ArrayList<String>classFiles = new ArrayList<String>();
 	Document document;
 	File file;
 	boolean correctPatchFound;
@@ -84,7 +84,7 @@ public class PatchGenerator {
 		parser.setResolveBindings(true);
 		parser.setBindingsRecovery(true);
 		
-		File sourcePath = new File("/home/mou/code/"+fileIdentifier);
+		File sourcePath = new File("D:/code/"+fileIdentifier);
 		File[] folders = sourcePath.listFiles();
 		
 		for(int i=0; i<folders.length; i++) {
@@ -98,16 +98,16 @@ public class PatchGenerator {
 		}
 
 		String[] sourceFilesArray = this.sourceFiles.toArray(new String[0]);
-//		String[] classFilesArray = this.classFiles.toArray(new String[0]);
+		String[] classFilesArray = this.classFiles.toArray(new String[0]);
 //		for(int i=0; i<this.sourceFiles.size(); i++) {
 //			System.out.println(sourceFilesArray[i]);
 //		}
 		
-		parser.setEnvironment(new String[0], sourceFilesArray , null, true);
+		parser.setEnvironment(classFilesArray, sourceFilesArray , null, true);
 		parser.setUnitName("file.java");
 		this.compilationUnit = (CompilationUnit) parser.createAST(null);
 
-		this.compilationUnit.accept(new VariableCollector());
+//		this.compilationUnit.accept(new VariableCollector());
 		this.compilationUnit.accept(ingredientCollector);
 		
 		//		System.out.println("INGREDIENT");
@@ -121,42 +121,42 @@ public class PatchGenerator {
 //			Variable v = VariableCollector.variables.get(i);
 //			System.out.println(v);
 //		}
-		ReplaceHandler replaceHandler = ReplaceHandler.createReplaceHandler();
-		for(int i=0; i<this.ingredientCollector.faultyNodes.size(); i++) {
-			Node faultyNode = this.ingredientCollector.faultyNodes.get(i);
-			replaceHandler.replace(faultyNode);
-			//			System.out.println(faultyNode);
-			//			this.generatePatchTemplate(faultyNode);
-		}
-////		////		candidatePatchesList = new ArrayList<CandidatePatch>(candidatePatchesSet);
-		Collections.sort(this.candidatePatchesList);
-//////		//
-		this.writeCandidatePatches(fileIdentifier);
-//////		////		System.out.println((long)15*60*1000000000);
-//////		this.correctPatchFound = false;
-		System.out.println(this.candidatePatchesList.size() +" Patches Generated");
-		for(int i=0; i<this.candidatePatchesList.size(); i++) { //candidatePatches.size()
-			//			long currentTime = System.nanoTime();
-			//			System.out.println("Patch no: "+(i+1)+ " ");
-			//			System.out.println(this.candidatePatchesList.get(i).toString()+"\n");
-			//			
-			//			if((currentTime - startingTime) >= (long)30*60*1000000000) {
-			//				System.out.println("time-up!!!!!!!!!!!!!!!!");
-			//				break;
-			//			}
-			this.document = new Document(fileContent);
-			CompilationUnit compilationUnitCopy = (CompilationUnit)ASTNode.copySubtree(compilationUnit.getAST(), compilationUnit);
-
-			ASTRewrite rewriter = ASTRewrite.create(compilationUnitCopy.getAST()); //compilationUnit.getAST();
-			this.generateConcretePatch(rewriter, candidatePatchesList.get(i));
-			if(correctPatchFound==true) {
-				this.correctPatches++;
-				System.out.println("Total Candidate Patches: " +candidatePatchesList.size());
-				System.out.println("Correct Patch Rank: " + (i+1));
-				break;
-				//				correctPatchFound = false;
-			}
-		}
+//		ReplaceHandler replaceHandler = ReplaceHandler.createReplaceHandler();
+//		for(int i=0; i<this.ingredientCollector.faultyNodes.size(); i++) {
+//			Node faultyNode = this.ingredientCollector.faultyNodes.get(i);
+//			replaceHandler.replace(faultyNode);
+//			//			System.out.println(faultyNode);
+//			//			this.generatePatchTemplate(faultyNode);
+//		}
+//////		////		candidatePatchesList = new ArrayList<CandidatePatch>(candidatePatchesSet);
+//		Collections.sort(this.candidatePatchesList);
+////////		//
+//		this.writeCandidatePatches(fileIdentifier);
+////////		////		System.out.println((long)15*60*1000000000);
+////////		this.correctPatchFound = false;
+//		System.out.println(this.candidatePatchesList.size() +" Patches Generated");
+//		for(int i=0; i<this.candidatePatchesList.size(); i++) { //candidatePatches.size()
+//			//			long currentTime = System.nanoTime();
+//			//			System.out.println("Patch no: "+(i+1)+ " ");
+//			//			System.out.println(this.candidatePatchesList.get(i).toString()+"\n");
+//			//			
+//			//			if((currentTime - startingTime) >= (long)30*60*1000000000) {
+//			//				System.out.println("time-up!!!!!!!!!!!!!!!!");
+//			//				break;
+//			//			}
+//			this.document = new Document(fileContent);
+//			CompilationUnit compilationUnitCopy = (CompilationUnit)ASTNode.copySubtree(compilationUnit.getAST(), compilationUnit);
+//
+//			ASTRewrite rewriter = ASTRewrite.create(compilationUnitCopy.getAST()); //compilationUnit.getAST();
+//			this.generateConcretePatch(rewriter, candidatePatchesList.get(i));
+//			if(correctPatchFound==true) {
+//				this.correctPatches++;
+//				System.out.println("Total Candidate Patches: " +candidatePatchesList.size());
+//				System.out.println("Correct Patch Rank: " + (i+1));
+//				break;
+//				//				correctPatchFound = false;
+//			}
+//		}
 //		if(correctPatchFound==false) {
 //			file.delete();
 //		}
@@ -174,9 +174,9 @@ public class PatchGenerator {
 				}
 				scanDirectory(new File(folder+"/"+listOfFiles[i].getName()));
 			}
-//			else if (listOfFiles[i].getName().endsWith(".jar")) {
-//				this.classFiles.add(listOfFiles[i].getAbsolutePath());
-//			}
+			else if (listOfFiles[i].getName().endsWith(".jar")) {
+				this.classFiles.add(listOfFiles[i].getAbsolutePath());
+			}
 		}
 	}
 
@@ -200,7 +200,7 @@ public class PatchGenerator {
 		this.correctPatches = 0;
 		this.candidatePatchesList.clear();
 		this.sourceFiles.clear();
-//		this.classFiles.clear();
+		this.classFiles.clear();
 		VariableCollector.variables.clear();
 		this.ingredientCollector.faultyNodes.clear();
 		this.ingredientCollector.fixingIngredients.clear();
