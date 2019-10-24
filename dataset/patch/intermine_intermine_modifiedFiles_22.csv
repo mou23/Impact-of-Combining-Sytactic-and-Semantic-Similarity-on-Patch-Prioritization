@@ -1,1015 +1,112 @@
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,setAttribute,SIMPLE_NAME, line no: 66, 2.0, 0.44660194174757284, 1.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,setReference,SIMPLE_NAME, line no: 131, 2.0, 1.0, 1.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,addCollection,SIMPLE_NAME, line no: 133, 2.0, 1.0, 1.0
-gene,SIMPLE_NAME, line no: 130,organism,SIMPLE_NAME, line no: 112, 2.0, 0.9807692307692307, 1.0
-setAttribute,SIMPLE_NAME, line no: 130,setReference,SIMPLE_NAME, line no: 131, 2.0, 1.0, 1.0
-setAttribute,SIMPLE_NAME, line no: 130,addCollection,SIMPLE_NAME, line no: 133, 2.0, 1.0, 1.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,String,SIMPLE_NAME, line no: 41, 2.0, 0.009615384615384616, 1.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,getName,SIMPLE_NAME, line no: 94, 2.0, 1.0, 1.0
-geneName,SIMPLE_NAME, line no: 130,String,SIMPLE_NAME, line no: 41, 2.0, 0.009615384615384616, 1.0
-geneName,SIMPLE_NAME, line no: 130,"^(\\S+)_gene_map.*",STRING_LITERAL, line no: 93, 2.0, 1.0, 1.0
-geneName,SIMPLE_NAME, line no: 130,currentFile.getName(),METHOD_INVOCATION, line no: 94, 2.0, 1.0, 1.0
-geneName,SIMPLE_NAME, line no: 130,getName,SIMPLE_NAME, line no: 94, 2.0, 1.0, 1.0
-geneName,SIMPLE_NAME, line no: 130,line[0],ARRAY_ACCESS, line no: 95, 2.0, 1.0, 1.0
-geneName,SIMPLE_NAME, line no: 130,"#",STRING_LITERAL, line no: 95, 2.0, 1.0, 1.0
-geneName,SIMPLE_NAME, line no: 130,"map_title",STRING_LITERAL, line no: 98, 2.0, 1.0, 1.0
-gene,SIMPLE_NAME, line no: 130,createItem,SIMPLE_NAME, line no: 65, 1.9903846153846154, 0.4423076923076923, 1.0
-gene,SIMPLE_NAME, line no: 130,getAndStoreItemOnce,SIMPLE_NAME, line no: 101, 1.9903846153846154, 0.46153846153846156, 1.0
-setAttribute,SIMPLE_NAME, line no: 130,gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130, 1.9903846153846154, 0.9903846153846154, 1.0
-setAttribute,SIMPLE_NAME, line no: 130,gene.setReference("organism" organism),METHOD_INVOCATION, line no: 131, 1.9903846153846154, 0.9903846153846154, 1.0
-setAttribute,SIMPLE_NAME, line no: 130,gene.addCollection(referenceList),METHOD_INVOCATION, line no: 133, 1.9903846153846154, 0.9903846153846154, 1.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,geneName,SIMPLE_NAME, line no: 114, 1.9903846153846154, 0.9711538461538461, 1.0
-geneName,SIMPLE_NAME, line no: 130,keggOrgName,SIMPLE_NAME, line no: 108, 1.9903846153846154, 0.9903846153846154, 1.0
-geneName,SIMPLE_NAME, line no: 130,matcher.group(1),METHOD_INVOCATION, line no: 108, 1.9903846153846154, 0.9903846153846154, 1.0
-geneName,SIMPLE_NAME, line no: 130,group,SIMPLE_NAME, line no: 108, 1.9903846153846154, 0.9903846153846154, 1.0
-geneName,SIMPLE_NAME, line no: 130,taxonId,SIMPLE_NAME, line no: 109, 1.9903846153846154, 0.9903846153846154, 1.0
-geneName,SIMPLE_NAME, line no: 130,keggOrganismToTaxonId.get(keggOrgName),METHOD_INVOCATION, line no: 109, 1.9903846153846154, 0.9903846153846154, 1.0
-geneName,SIMPLE_NAME, line no: 130,get,SIMPLE_NAME, line no: 109, 1.9903846153846154, 0.9903846153846154, 1.0
-geneName,SIMPLE_NAME, line no: 130,mapIdentifiers,SIMPLE_NAME, line no: 122, 1.9903846153846154, 0.9807692307692307, 1.0
-geneName,SIMPLE_NAME, line no: 130,"secondaryIdentifier",STRING_LITERAL, line no: 130, 1.9903846153846154, 0.9903846153846154, 1.0
-geneName,SIMPLE_NAME, line no: 130,"organism",STRING_LITERAL, line no: 131, 1.9903846153846154, 0.9903846153846154, 1.0
-gene,SIMPLE_NAME, line no: 130,Item,SIMPLE_NAME, line no: 29, 1.9807692307692308, 0.019230769230769232, 1.0
-gene,SIMPLE_NAME, line no: 130,getAndStoreItemOnce("Organism" "taxonId" taxonId),METHOD_INVOCATION, line no: 112, 1.9807692307692308, 0.9807692307692307, 1.0
-gene,SIMPLE_NAME, line no: 130,createItem("Gene"),METHOD_INVOCATION, line no: 129, 1.9807692307692308, 0.9807692307692307, 1.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,keggOrgName,SIMPLE_NAME, line no: 108, 1.9807692307692308, 0.9807692307692307, 1.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,group,SIMPLE_NAME, line no: 108, 1.9807692307692308, 0.9807692307692307, 1.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,taxonId,SIMPLE_NAME, line no: 109, 1.9807692307692308, 0.9807692307692307, 1.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,get,SIMPLE_NAME, line no: 109, 1.9807692307692308, 0.9807692307692307, 1.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,mapIdentifiers,SIMPLE_NAME, line no: 122, 1.9807692307692308, 0.9711538461538461, 1.0
-geneName,SIMPLE_NAME, line no: 130,"Organism",STRING_LITERAL, line no: 112, 1.9807692307692308, 0.9807692307692307, 1.0
-geneName,SIMPLE_NAME, line no: 130,"taxonId",STRING_LITERAL, line no: 112, 1.9807692307692308, 0.9807692307692307, 1.0
-geneName,SIMPLE_NAME, line no: 130,"Dmel_",STRING_LITERAL, line no: 117, 1.9807692307692308, 0.9807692307692307, 1.0
-geneName,SIMPLE_NAME, line no: 130," ",STRING_LITERAL, line no: 124, 1.9807692307692308, 0.9807692307692307, 1.0
-geneName,SIMPLE_NAME, line no: 130,"Gene",STRING_LITERAL, line no: 129, 1.9807692307692308, 0.9807692307692307, 1.0
-geneName,SIMPLE_NAME, line no: 130,line[1],ARRAY_ACCESS, line no: 100, 1.9711538461538463, 0.4519230769230769, 1.0
-geneName,SIMPLE_NAME, line no: 130,"pathways",STRING_LITERAL, line no: 123, 1.9711538461538463, 0.9711538461538461, 1.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,store(gene),METHOD_INVOCATION, line no: 134, 1.5, 1.0, 0.5
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,geneName.startsWith("Dmel_"),METHOD_INVOCATION, line no: 117, 1.4902912621359223, 0.9902912621359223, 0.5
-gene,SIMPLE_NAME, line no: 130,dataSet,SIMPLE_NAME, line no: 40, 1.4807692307692308, 0.009615384615384616, 1.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,getIdentifier,SIMPLE_NAME, line no: 105, 1.4807692307692308, 0.4807692307692308, 1.0
-geneName,SIMPLE_NAME, line no: 130,getIdentifier,SIMPLE_NAME, line no: 105, 1.4807692307692308, 0.4807692307692308, 1.0
-geneName,SIMPLE_NAME, line no: 130,dataSet.getIdentifier(),METHOD_INVOCATION, line no: 105, 1.4711538461538463, 0.47115384615384615, 1.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,setCollection,SIMPLE_NAME, line no: 103, 1.4660194174757282, 0.46601941747572817, 1.0
-gene,SIMPLE_NAME, line no: 130,pathway,SIMPLE_NAME, line no: 101, 1.4615384615384617, 0.4519230769230769, 1.0
-setAttribute,SIMPLE_NAME, line no: 130,setCollection,SIMPLE_NAME, line no: 103, 1.4615384615384617, 0.46153846153846156, 1.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,mapIdentifier,SIMPLE_NAME, line no: 99, 1.4615384615384617, 0.4519230769230769, 1.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,mapName,SIMPLE_NAME, line no: 100, 1.4615384615384617, 0.4519230769230769, 1.0
-geneName,SIMPLE_NAME, line no: 130,"name",STRING_LITERAL, line no: 66, 1.4615384615384617, 0.4326923076923077, 1.0
-geneName,SIMPLE_NAME, line no: 130,mapIdentifier,SIMPLE_NAME, line no: 99, 1.4615384615384617, 0.4519230769230769, 1.0
-geneName,SIMPLE_NAME, line no: 130,mapName,SIMPLE_NAME, line no: 100, 1.4615384615384617, 0.4519230769230769, 1.0
-geneName,SIMPLE_NAME, line no: 130,"Pathway",STRING_LITERAL, line no: 101, 1.4615384615384617, 0.46153846153846156, 1.0
-geneName,SIMPLE_NAME, line no: 130,"identifier",STRING_LITERAL, line no: 101, 1.4615384615384617, 0.46153846153846156, 1.0
-geneName,SIMPLE_NAME, line no: 130,"evidence",STRING_LITERAL, line no: 103, 1.4615384615384617, 0.46153846153846156, 1.0
-gene,SIMPLE_NAME, line no: 130,getAndStoreItemOnce("Pathway" "identifier" mapIdentifier),METHOD_INVOCATION, line no: 101, 1.4519230769230769, 0.4519230769230769, 1.0
-setAttribute,SIMPLE_NAME, line no: 130,pathway.setAttribute("name" mapName),METHOD_INVOCATION, line no: 102, 1.4519230769230769, 0.4519230769230769, 1.0
-setAttribute,SIMPLE_NAME, line no: 130,pathway.setCollection("evidence" new ArrayList(Collections.singleton(dataSet.getIdentifier()))),METHOD_INVOCATION, line no: 103, 1.4519230769230769, 0.4519230769230769, 1.0
-gene,SIMPLE_NAME, line no: 130,dataSource,SIMPLE_NAME, line no: 40, 1.4423076923076923, 0.009615384615384616, 1.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,put,SIMPLE_NAME, line no: 57, 1.4423076923076923, 0.4423076923076923, 1.0
-geneName,SIMPLE_NAME, line no: 130,put,SIMPLE_NAME, line no: 57, 1.4423076923076923, 0.4423076923076923, 1.0
-gene,SIMPLE_NAME, line no: 130,createItem("DataSource"),METHOD_INVOCATION, line no: 65, 1.4326923076923077, 0.4326923076923077, 1.0
-gene,SIMPLE_NAME, line no: 130,createItem("DataSet"),METHOD_INVOCATION, line no: 67, 1.4326923076923077, 0.4326923076923077, 1.0
-setAttribute,SIMPLE_NAME, line no: 130,dataSource.setAttribute("name" "Kyoto Encyclopedia of Genes and Genomes"),METHOD_INVOCATION, line no: 66, 1.4326923076923077, 0.4326923076923077, 1.0
-setAttribute,SIMPLE_NAME, line no: 130,dataSet.setAttribute("title" "KEGG PATHWAY - dme"),METHOD_INVOCATION, line no: 68, 1.4326923076923077, 0.4326923076923077, 1.0
-setAttribute,SIMPLE_NAME, line no: 130,dataSet.setAttribute("url" "http://www.genome.jp/kegg/pathway.html"),METHOD_INVOCATION, line no: 69, 1.4326923076923077, 0.4326923076923077, 1.0
-geneName,SIMPLE_NAME, line no: 130,keggOrganismToTaxonId.put("dme" "7227"),METHOD_INVOCATION, line no: 57, 1.4326923076923077, 0.4326923076923077, 1.0
-geneName,SIMPLE_NAME, line no: 130,"dme",STRING_LITERAL, line no: 57, 1.4326923076923077, 0.4326923076923077, 1.0
-geneName,SIMPLE_NAME, line no: 130,"7227",STRING_LITERAL, line no: 57, 1.4326923076923077, 0.4326923076923077, 1.0
-geneName,SIMPLE_NAME, line no: 130,"DataSource",STRING_LITERAL, line no: 65, 1.4326923076923077, 0.4326923076923077, 1.0
-geneName,SIMPLE_NAME, line no: 130,"Kyoto Encyclopedia of Genes and Genomes",STRING_LITERAL, line no: 66, 1.4326923076923077, 0.4326923076923077, 1.0
-geneName,SIMPLE_NAME, line no: 130,"DataSet",STRING_LITERAL, line no: 67, 1.4326923076923077, 0.4326923076923077, 1.0
-geneName,SIMPLE_NAME, line no: 130,"title",STRING_LITERAL, line no: 68, 1.4326923076923077, 0.4326923076923077, 1.0
-geneName,SIMPLE_NAME, line no: 130,"KEGG PATHWAY - dme",STRING_LITERAL, line no: 68, 1.4326923076923077, 0.4326923076923077, 1.0
-geneName,SIMPLE_NAME, line no: 130,"url",STRING_LITERAL, line no: 69, 1.4326923076923077, 0.4326923076923077, 1.0
-geneName,SIMPLE_NAME, line no: 130,"http://www.genome.jp/kegg/pathway.html",STRING_LITERAL, line no: 69, 1.4326923076923077, 0.4326923076923077, 1.0
-gene,SIMPLE_NAME, line no: 130,dataSource=createItem("DataSource"),ASSIGNMENT, line no: 65, 1.4230769230769231, 0.4230769230769231, 1.0
-gene,SIMPLE_NAME, line no: 130,dataSet=createItem("DataSet"),ASSIGNMENT, line no: 67, 1.4230769230769231, 0.4230769230769231, 1.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,gene.setReference("organism" organism),METHOD_INVOCATION, line no: 131, 1.3333333333333333, 1.0, 0.3333333333333333
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,gene.addCollection(referenceList),METHOD_INVOCATION, line no: 133, 1.3333333333333333, 1.0, 0.3333333333333333
-geneName,SIMPLE_NAME, line no: 130,mapArray[i],ARRAY_ACCESS, line no: 127, 1.2211538461538463, 0.22115384615384615, 1.0
-gene,SIMPLE_NAME, line no: 130,getAndStoreItemOnce("Pathway" "identifier" mapArray[i]),METHOD_INVOCATION, line no: 126, 1.2115384615384615, 0.21153846153846154, 1.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,addRefId,SIMPLE_NAME, line no: 126, 1.203883495145631, 0.20388349514563106, 1.0
-setAttribute,SIMPLE_NAME, line no: 130,addRefId,SIMPLE_NAME, line no: 126, 1.2019230769230769, 0.20192307692307693, 1.0
-geneName,SIMPLE_NAME, line no: 130,getAndStoreItemOnce("Pathway" "identifier" mapArray[i]).getIdentifier(),METHOD_INVOCATION, line no: 126, 1.2019230769230769, 0.20192307692307693, 1.0
-setAttribute,SIMPLE_NAME, line no: 130,referenceList.addRefId(getAndStoreItemOnce("Pathway" "identifier" mapArray[i]).getIdentifier()),METHOD_INVOCATION, line no: 126, 1.1923076923076923, 0.19230769230769232, 1.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,substring,SIMPLE_NAME, line no: 118, 1.1442307692307692, 0.14423076923076922, 1.0
-geneName,SIMPLE_NAME, line no: 130,substring,SIMPLE_NAME, line no: 118, 1.1442307692307692, 0.14423076923076922, 1.0
-geneName,SIMPLE_NAME, line no: 130,geneName.substring(5),METHOD_INVOCATION, line no: 118, 1.1346153846153846, 0.1346153846153846, 1.0
-geneName,SIMPLE_NAME, line no: 130,geneName=geneName.substring(5),ASSIGNMENT, line no: 118, 1.125, 0.125, 1.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,dataLocation,SIMPLE_NAME, line no: 43, 1.0576923076923077, 0.009615384615384616, 1.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,srcdatadir,SIMPLE_NAME, line no: 144, 1.0576923076923077, 0.009615384615384616, 1.0
-geneName,SIMPLE_NAME, line no: 130,dataLocation,SIMPLE_NAME, line no: 43, 1.0576923076923077, 0.009615384615384616, 1.0
-geneName,SIMPLE_NAME, line no: 130,srcdatadir,SIMPLE_NAME, line no: 144, 1.0576923076923077, 0.009615384615384616, 1.0
-geneName,SIMPLE_NAME, line no: 130,this.dataLocation=srcdatadir,ASSIGNMENT, line no: 145, 1.0480769230769231, 0.04807692307692308, 1.0
-geneName,SIMPLE_NAME, line no: 130,this.dataLocation,FIELD_ACCESS, line no: 145, 1.0480769230769231, 0.04807692307692308, 1.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,KeggPathwayConverter,SIMPLE_NAME, line no: 38, 1.0097087378640777, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,process,SIMPLE_NAME, line no: 80, 1.0097087378640777, 0.009708737864077669, 1.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,setSrcDataDir,SIMPLE_NAME, line no: 144, 1.0097087378640777, 0.009708737864077669, 1.0
-gene,SIMPLE_NAME, line no: 130,org.intermine.xml.full.Item,QUALIFIED_NAME, line no: 29, 1.0096153846153846, 0.009615384615384616, 1.0
-setAttribute,SIMPLE_NAME, line no: 130,KeggPathwayConverter,SIMPLE_NAME, line no: 38, 1.0096153846153846, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,process,SIMPLE_NAME, line no: 80, 1.0096153846153846, 0.009615384615384616, 1.0
-setAttribute,SIMPLE_NAME, line no: 130,setSrcDataDir,SIMPLE_NAME, line no: 144, 1.0096153846153846, 0.009615384615384616, 1.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,File,SIMPLE_NAME, line no: 13, 1.0, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,Iterator,SIMPLE_NAME, line no: 18, 1.0, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,Matcher,SIMPLE_NAME, line no: 20, 1.0, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,Pattern,SIMPLE_NAME, line no: 21, 1.0, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,TextFileUtil,SIMPLE_NAME, line no: 28, 1.0, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,String,SIMPLE_NAME, line no: 41, 1.0, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,store,SIMPLE_NAME, line no: 70, 1.0, 0.44660194174757284, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,reader,SIMPLE_NAME, line no: 80, 1.0, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,lineIter,SIMPLE_NAME, line no: 81, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,TextFileUtil.parseTabDelimitedReader(reader),METHOD_INVOCATION, line no: 81, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,parseTabDelimitedReader,SIMPLE_NAME, line no: 81, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,currentFile,SIMPLE_NAME, line no: 89, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,getCurrentFile(),METHOD_INVOCATION, line no: 89, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,getCurrentFile,SIMPLE_NAME, line no: 89, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,lineIter.hasNext(),METHOD_INVOCATION, line no: 91, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,hasNext,SIMPLE_NAME, line no: 91, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,line,SIMPLE_NAME, line no: 92, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,(String[])lineIter.next(),CAST_EXPRESSION, line no: 92, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,lineIter.next(),METHOD_INVOCATION, line no: 92, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,next,SIMPLE_NAME, line no: 92, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,filePattern,SIMPLE_NAME, line no: 93, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,Pattern.compile("^(\\S+)_gene_map.*"),METHOD_INVOCATION, line no: 93, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,compile,SIMPLE_NAME, line no: 93, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"^(\\S+)_gene_map.*",STRING_LITERAL, line no: 93, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,matcher,SIMPLE_NAME, line no: 94, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,filePattern.matcher(currentFile.getName()),METHOD_INVOCATION, line no: 94, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,currentFile.getName(),METHOD_INVOCATION, line no: 94, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,getName,SIMPLE_NAME, line no: 94, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,line.length <= 1 || line[0].startsWith("#"),INFIX_EXPRESSION, line no: 95, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,line.length <= 1,INFIX_EXPRESSION, line no: 95, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,line.length,QUALIFIED_NAME, line no: 95, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,length,SIMPLE_NAME, line no: 95, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,1,NUMBER_LITERAL, line no: 95, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,line[0].startsWith("#"),METHOD_INVOCATION, line no: 95, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,line[0],ARRAY_ACCESS, line no: 95, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,0,NUMBER_LITERAL, line no: 95, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,startsWith,SIMPLE_NAME, line no: 95, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"#",STRING_LITERAL, line no: 95, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,currentFile.getName().startsWith("map_title"),METHOD_INVOCATION, line no: 98, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"map_title",STRING_LITERAL, line no: 98, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,matcher.find(),METHOD_INVOCATION, line no: 107, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,find,SIMPLE_NAME, line no: 107, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,organism,SIMPLE_NAME, line no: 112, 1.0, 0.9805825242718447, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,geneName,SIMPLE_NAME, line no: 114, 1.0, 0.9805825242718447, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,referenceList,SIMPLE_NAME, line no: 123, 1.0, 0.9805825242718447, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,gene,SIMPLE_NAME, line no: 129, 1.0, 0.9805825242718447, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"secondaryIdentifier",STRING_LITERAL, line no: 130, 1.0, 1.0, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"organism",STRING_LITERAL, line no: 131, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,File,SIMPLE_NAME, line no: 13, 1.0, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,Iterator,SIMPLE_NAME, line no: 18, 1.0, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,Matcher,SIMPLE_NAME, line no: 20, 1.0, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,Pattern,SIMPLE_NAME, line no: 21, 1.0, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,TextFileUtil,SIMPLE_NAME, line no: 28, 1.0, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,String,SIMPLE_NAME, line no: 41, 1.0, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,setAttribute,SIMPLE_NAME, line no: 66, 1.0, 0.4423076923076923, 0.0
-gene,SIMPLE_NAME, line no: 130,store,SIMPLE_NAME, line no: 70, 1.0, 0.4423076923076923, 0.0
-gene,SIMPLE_NAME, line no: 130,reader,SIMPLE_NAME, line no: 80, 1.0, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,lineIter,SIMPLE_NAME, line no: 81, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,TextFileUtil.parseTabDelimitedReader(reader),METHOD_INVOCATION, line no: 81, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,parseTabDelimitedReader,SIMPLE_NAME, line no: 81, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,currentFile,SIMPLE_NAME, line no: 89, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,getCurrentFile(),METHOD_INVOCATION, line no: 89, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,getCurrentFile,SIMPLE_NAME, line no: 89, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,lineIter.hasNext(),METHOD_INVOCATION, line no: 91, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,hasNext,SIMPLE_NAME, line no: 91, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,line,SIMPLE_NAME, line no: 92, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,(String[])lineIter.next(),CAST_EXPRESSION, line no: 92, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,lineIter.next(),METHOD_INVOCATION, line no: 92, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,next,SIMPLE_NAME, line no: 92, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,filePattern,SIMPLE_NAME, line no: 93, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,Pattern.compile("^(\\S+)_gene_map.*"),METHOD_INVOCATION, line no: 93, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,compile,SIMPLE_NAME, line no: 93, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,"^(\\S+)_gene_map.*",STRING_LITERAL, line no: 93, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,matcher,SIMPLE_NAME, line no: 94, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,filePattern.matcher(currentFile.getName()),METHOD_INVOCATION, line no: 94, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,currentFile.getName(),METHOD_INVOCATION, line no: 94, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,getName,SIMPLE_NAME, line no: 94, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,line.length <= 1 || line[0].startsWith("#"),INFIX_EXPRESSION, line no: 95, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,line.length <= 1,INFIX_EXPRESSION, line no: 95, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,line.length,QUALIFIED_NAME, line no: 95, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,length,SIMPLE_NAME, line no: 95, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,1,NUMBER_LITERAL, line no: 95, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,line[0].startsWith("#"),METHOD_INVOCATION, line no: 95, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,line[0],ARRAY_ACCESS, line no: 95, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,0,NUMBER_LITERAL, line no: 95, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,startsWith,SIMPLE_NAME, line no: 95, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,"#",STRING_LITERAL, line no: 95, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,currentFile.getName().startsWith("map_title"),METHOD_INVOCATION, line no: 98, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,"map_title",STRING_LITERAL, line no: 98, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,matcher.find(),METHOD_INVOCATION, line no: 107, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,find,SIMPLE_NAME, line no: 107, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,geneName,SIMPLE_NAME, line no: 114, 1.0, 0.9807692307692307, 0.0
-gene,SIMPLE_NAME, line no: 130,referenceList,SIMPLE_NAME, line no: 123, 1.0, 0.9807692307692307, 0.0
-gene,SIMPLE_NAME, line no: 130,setReference,SIMPLE_NAME, line no: 131, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,addCollection,SIMPLE_NAME, line no: 133, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,File,SIMPLE_NAME, line no: 13, 1.0, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,Iterator,SIMPLE_NAME, line no: 18, 1.0, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,Matcher,SIMPLE_NAME, line no: 20, 1.0, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,Pattern,SIMPLE_NAME, line no: 21, 1.0, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,TextFileUtil,SIMPLE_NAME, line no: 28, 1.0, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,String,SIMPLE_NAME, line no: 41, 1.0, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,store,SIMPLE_NAME, line no: 70, 1.0, 0.4423076923076923, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,reader,SIMPLE_NAME, line no: 80, 1.0, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,lineIter,SIMPLE_NAME, line no: 81, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,TextFileUtil.parseTabDelimitedReader(reader),METHOD_INVOCATION, line no: 81, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,parseTabDelimitedReader,SIMPLE_NAME, line no: 81, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,currentFile,SIMPLE_NAME, line no: 89, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,getCurrentFile(),METHOD_INVOCATION, line no: 89, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,getCurrentFile,SIMPLE_NAME, line no: 89, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,lineIter.hasNext(),METHOD_INVOCATION, line no: 91, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,hasNext,SIMPLE_NAME, line no: 91, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,line,SIMPLE_NAME, line no: 92, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,(String[])lineIter.next(),CAST_EXPRESSION, line no: 92, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,lineIter.next(),METHOD_INVOCATION, line no: 92, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,next,SIMPLE_NAME, line no: 92, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,filePattern,SIMPLE_NAME, line no: 93, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,Pattern.compile("^(\\S+)_gene_map.*"),METHOD_INVOCATION, line no: 93, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,compile,SIMPLE_NAME, line no: 93, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"^(\\S+)_gene_map.*",STRING_LITERAL, line no: 93, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,matcher,SIMPLE_NAME, line no: 94, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,filePattern.matcher(currentFile.getName()),METHOD_INVOCATION, line no: 94, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,currentFile.getName(),METHOD_INVOCATION, line no: 94, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,getName,SIMPLE_NAME, line no: 94, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,line.length <= 1 || line[0].startsWith("#"),INFIX_EXPRESSION, line no: 95, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,line.length <= 1,INFIX_EXPRESSION, line no: 95, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,line.length,QUALIFIED_NAME, line no: 95, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,length,SIMPLE_NAME, line no: 95, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,1,NUMBER_LITERAL, line no: 95, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,line[0].startsWith("#"),METHOD_INVOCATION, line no: 95, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,line[0],ARRAY_ACCESS, line no: 95, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,0,NUMBER_LITERAL, line no: 95, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,startsWith,SIMPLE_NAME, line no: 95, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"#",STRING_LITERAL, line no: 95, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,currentFile.getName().startsWith("map_title"),METHOD_INVOCATION, line no: 98, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"map_title",STRING_LITERAL, line no: 98, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,matcher.find(),METHOD_INVOCATION, line no: 107, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,find,SIMPLE_NAME, line no: 107, 1.0, 1.0, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,organism,SIMPLE_NAME, line no: 112, 1.0, 0.9807692307692307, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,geneName,SIMPLE_NAME, line no: 114, 1.0, 0.9807692307692307, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,referenceList,SIMPLE_NAME, line no: 123, 1.0, 0.9807692307692307, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,gene,SIMPLE_NAME, line no: 129, 1.0, 0.9807692307692307, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,File,SIMPLE_NAME, line no: 13, 1.0, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,Iterator,SIMPLE_NAME, line no: 18, 1.0, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,Matcher,SIMPLE_NAME, line no: 20, 1.0, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,Pattern,SIMPLE_NAME, line no: 21, 1.0, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,TextFileUtil,SIMPLE_NAME, line no: 28, 1.0, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,reader,SIMPLE_NAME, line no: 80, 1.0, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,lineIter,SIMPLE_NAME, line no: 81, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,TextFileUtil.parseTabDelimitedReader(reader),METHOD_INVOCATION, line no: 81, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,parseTabDelimitedReader,SIMPLE_NAME, line no: 81, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,currentFile,SIMPLE_NAME, line no: 89, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,getCurrentFile(),METHOD_INVOCATION, line no: 89, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,getCurrentFile,SIMPLE_NAME, line no: 89, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,lineIter.hasNext(),METHOD_INVOCATION, line no: 91, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,hasNext,SIMPLE_NAME, line no: 91, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,line,SIMPLE_NAME, line no: 92, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,(String[])lineIter.next(),CAST_EXPRESSION, line no: 92, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,lineIter.next(),METHOD_INVOCATION, line no: 92, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,next,SIMPLE_NAME, line no: 92, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,filePattern,SIMPLE_NAME, line no: 93, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,Pattern.compile("^(\\S+)_gene_map.*"),METHOD_INVOCATION, line no: 93, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,compile,SIMPLE_NAME, line no: 93, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,"^(\\S+)_gene_map.*",STRING_LITERAL, line no: 93, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,matcher,SIMPLE_NAME, line no: 94, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,filePattern.matcher(currentFile.getName()),METHOD_INVOCATION, line no: 94, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,currentFile.getName(),METHOD_INVOCATION, line no: 94, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,line.length <= 1 || line[0].startsWith("#"),INFIX_EXPRESSION, line no: 95, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,line.length <= 1,INFIX_EXPRESSION, line no: 95, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,line.length,QUALIFIED_NAME, line no: 95, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,length,SIMPLE_NAME, line no: 95, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,1,NUMBER_LITERAL, line no: 95, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,line[0].startsWith("#"),METHOD_INVOCATION, line no: 95, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,line[0],ARRAY_ACCESS, line no: 95, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,0,NUMBER_LITERAL, line no: 95, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,startsWith,SIMPLE_NAME, line no: 95, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,"#",STRING_LITERAL, line no: 95, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,currentFile.getName().startsWith("map_title"),METHOD_INVOCATION, line no: 98, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,"map_title",STRING_LITERAL, line no: 98, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,matcher.find(),METHOD_INVOCATION, line no: 107, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,find,SIMPLE_NAME, line no: 107, 1.0, 1.0, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,"organism",STRING_LITERAL, line no: 131, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,File,SIMPLE_NAME, line no: 13, 1.0, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,Iterator,SIMPLE_NAME, line no: 18, 1.0, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,Matcher,SIMPLE_NAME, line no: 20, 1.0, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,Pattern,SIMPLE_NAME, line no: 21, 1.0, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,TextFileUtil,SIMPLE_NAME, line no: 28, 1.0, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,setAttribute,SIMPLE_NAME, line no: 66, 1.0, 0.4423076923076923, 0.0
-geneName,SIMPLE_NAME, line no: 130,store,SIMPLE_NAME, line no: 70, 1.0, 0.4423076923076923, 0.0
-geneName,SIMPLE_NAME, line no: 130,reader,SIMPLE_NAME, line no: 80, 1.0, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,lineIter,SIMPLE_NAME, line no: 81, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,TextFileUtil.parseTabDelimitedReader(reader),METHOD_INVOCATION, line no: 81, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,parseTabDelimitedReader,SIMPLE_NAME, line no: 81, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,currentFile,SIMPLE_NAME, line no: 89, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,getCurrentFile(),METHOD_INVOCATION, line no: 89, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,getCurrentFile,SIMPLE_NAME, line no: 89, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,lineIter.hasNext(),METHOD_INVOCATION, line no: 91, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,hasNext,SIMPLE_NAME, line no: 91, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,line,SIMPLE_NAME, line no: 92, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,(String[])lineIter.next(),CAST_EXPRESSION, line no: 92, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,lineIter.next(),METHOD_INVOCATION, line no: 92, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,next,SIMPLE_NAME, line no: 92, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,filePattern,SIMPLE_NAME, line no: 93, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,Pattern.compile("^(\\S+)_gene_map.*"),METHOD_INVOCATION, line no: 93, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,compile,SIMPLE_NAME, line no: 93, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,matcher,SIMPLE_NAME, line no: 94, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,filePattern.matcher(currentFile.getName()),METHOD_INVOCATION, line no: 94, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,line.length <= 1 || line[0].startsWith("#"),INFIX_EXPRESSION, line no: 95, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,line.length <= 1,INFIX_EXPRESSION, line no: 95, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,line.length,QUALIFIED_NAME, line no: 95, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,length,SIMPLE_NAME, line no: 95, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,1,NUMBER_LITERAL, line no: 95, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,line[0].startsWith("#"),METHOD_INVOCATION, line no: 95, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,0,NUMBER_LITERAL, line no: 95, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,startsWith,SIMPLE_NAME, line no: 95, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,currentFile.getName().startsWith("map_title"),METHOD_INVOCATION, line no: 98, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,matcher.find(),METHOD_INVOCATION, line no: 107, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,find,SIMPLE_NAME, line no: 107, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,organism,SIMPLE_NAME, line no: 112, 1.0, 0.9807692307692307, 0.0
-geneName,SIMPLE_NAME, line no: 130,referenceList,SIMPLE_NAME, line no: 123, 1.0, 0.9807692307692307, 0.0
-geneName,SIMPLE_NAME, line no: 130,gene,SIMPLE_NAME, line no: 129, 1.0, 0.9807692307692307, 0.0
-geneName,SIMPLE_NAME, line no: 130,setReference,SIMPLE_NAME, line no: 131, 1.0, 1.0, 0.0
-geneName,SIMPLE_NAME, line no: 130,addCollection,SIMPLE_NAME, line no: 133, 1.0, 1.0, 0.0
-gene,SIMPLE_NAME, line no: 130,keggOrganismToTaxonId,SIMPLE_NAME, line no: 41, 0.9903846153846154, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,keggOrgName,SIMPLE_NAME, line no: 108, 0.9903846153846154, 0.9903846153846154, 0.0
-gene,SIMPLE_NAME, line no: 130,matcher.group(1),METHOD_INVOCATION, line no: 108, 0.9903846153846154, 0.9903846153846154, 0.0
-gene,SIMPLE_NAME, line no: 130,group,SIMPLE_NAME, line no: 108, 0.9903846153846154, 0.9903846153846154, 0.0
-gene,SIMPLE_NAME, line no: 130,taxonId,SIMPLE_NAME, line no: 109, 0.9903846153846154, 0.9903846153846154, 0.0
-gene,SIMPLE_NAME, line no: 130,keggOrganismToTaxonId.get(keggOrgName),METHOD_INVOCATION, line no: 109, 0.9903846153846154, 0.9903846153846154, 0.0
-gene,SIMPLE_NAME, line no: 130,get,SIMPLE_NAME, line no: 109, 0.9903846153846154, 0.9903846153846154, 0.0
-gene,SIMPLE_NAME, line no: 130,taxonId != null && taxonId.length() != 0,INFIX_EXPRESSION, line no: 111, 0.9903846153846154, 0.9903846153846154, 0.0
-gene,SIMPLE_NAME, line no: 130,taxonId != null,INFIX_EXPRESSION, line no: 111, 0.9903846153846154, 0.9903846153846154, 0.0
-gene,SIMPLE_NAME, line no: 130,null,NULL_LITERAL, line no: 111, 0.9903846153846154, 0.9903846153846154, 0.0
-gene,SIMPLE_NAME, line no: 130,taxonId.length() != 0,INFIX_EXPRESSION, line no: 111, 0.9903846153846154, 0.9903846153846154, 0.0
-gene,SIMPLE_NAME, line no: 130,taxonId.length(),METHOD_INVOCATION, line no: 111, 0.9903846153846154, 0.9903846153846154, 0.0
-gene,SIMPLE_NAME, line no: 130,mapIdentifiers,SIMPLE_NAME, line no: 122, 0.9903846153846154, 0.9807692307692307, 0.0
-gene,SIMPLE_NAME, line no: 130,split,SIMPLE_NAME, line no: 124, 0.9903846153846154, 0.9903846153846154, 0.0
-gene,SIMPLE_NAME, line no: 130,gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130, 0.9903846153846154, 0.9903846153846154, 0.0
-gene,SIMPLE_NAME, line no: 130,"secondaryIdentifier",STRING_LITERAL, line no: 130, 0.9903846153846154, 0.9903846153846154, 0.0
-gene,SIMPLE_NAME, line no: 130,gene.setReference("organism" organism),METHOD_INVOCATION, line no: 131, 0.9903846153846154, 0.9903846153846154, 0.0
-gene,SIMPLE_NAME, line no: 130,"organism",STRING_LITERAL, line no: 131, 0.9903846153846154, 0.9903846153846154, 0.0
-gene,SIMPLE_NAME, line no: 130,gene.addCollection(referenceList),METHOD_INVOCATION, line no: 133, 0.9903846153846154, 0.9903846153846154, 0.0
-gene,SIMPLE_NAME, line no: 130,store(gene),METHOD_INVOCATION, line no: 134, 0.9903846153846154, 0.9903846153846154, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,keggOrganismToTaxonId,SIMPLE_NAME, line no: 41, 0.9903846153846154, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,createItem,SIMPLE_NAME, line no: 65, 0.9903846153846154, 0.4423076923076923, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,getAndStoreItemOnce,SIMPLE_NAME, line no: 101, 0.9903846153846154, 0.46153846153846156, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,keggOrgName,SIMPLE_NAME, line no: 108, 0.9903846153846154, 0.9903846153846154, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,matcher.group(1),METHOD_INVOCATION, line no: 108, 0.9903846153846154, 0.9903846153846154, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,group,SIMPLE_NAME, line no: 108, 0.9903846153846154, 0.9903846153846154, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,taxonId,SIMPLE_NAME, line no: 109, 0.9903846153846154, 0.9903846153846154, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,keggOrganismToTaxonId.get(keggOrgName),METHOD_INVOCATION, line no: 109, 0.9903846153846154, 0.9903846153846154, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,get,SIMPLE_NAME, line no: 109, 0.9903846153846154, 0.9903846153846154, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,taxonId != null && taxonId.length() != 0,INFIX_EXPRESSION, line no: 111, 0.9903846153846154, 0.9903846153846154, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,taxonId != null,INFIX_EXPRESSION, line no: 111, 0.9903846153846154, 0.9903846153846154, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,null,NULL_LITERAL, line no: 111, 0.9903846153846154, 0.9903846153846154, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,taxonId.length() != 0,INFIX_EXPRESSION, line no: 111, 0.9903846153846154, 0.9903846153846154, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,taxonId.length(),METHOD_INVOCATION, line no: 111, 0.9903846153846154, 0.9903846153846154, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,mapIdentifiers,SIMPLE_NAME, line no: 122, 0.9903846153846154, 0.9807692307692307, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,split,SIMPLE_NAME, line no: 124, 0.9903846153846154, 0.9903846153846154, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"secondaryIdentifier",STRING_LITERAL, line no: 130, 0.9903846153846154, 0.9903846153846154, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"organism",STRING_LITERAL, line no: 131, 0.9903846153846154, 0.9903846153846154, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,store(gene),METHOD_INVOCATION, line no: 134, 0.9903846153846154, 0.9903846153846154, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,setAttribute,SIMPLE_NAME, line no: 66, 0.9903846153846154, 0.4423076923076923, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,store,SIMPLE_NAME, line no: 70, 0.9903846153846154, 0.4423076923076923, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,organism,SIMPLE_NAME, line no: 112, 0.9903846153846154, 0.9711538461538461, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,"Organism",STRING_LITERAL, line no: 112, 0.9903846153846154, 0.9903846153846154, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,"taxonId",STRING_LITERAL, line no: 112, 0.9903846153846154, 0.9903846153846154, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,"Dmel_",STRING_LITERAL, line no: 117, 0.9903846153846154, 0.9903846153846154, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,referenceList,SIMPLE_NAME, line no: 123, 0.9903846153846154, 0.9711538461538461, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130," ",STRING_LITERAL, line no: 124, 0.9903846153846154, 0.9903846153846154, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,gene,SIMPLE_NAME, line no: 129, 0.9903846153846154, 0.9711538461538461, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,"Gene",STRING_LITERAL, line no: 129, 0.9903846153846154, 0.9903846153846154, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130, 0.9903846153846154, 0.9903846153846154, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,gene.setReference("organism" organism),METHOD_INVOCATION, line no: 131, 0.9903846153846154, 0.9903846153846154, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,setReference,SIMPLE_NAME, line no: 131, 0.9903846153846154, 0.9903846153846154, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,gene.addCollection(referenceList),METHOD_INVOCATION, line no: 133, 0.9903846153846154, 0.9903846153846154, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,addCollection,SIMPLE_NAME, line no: 133, 0.9903846153846154, 0.9903846153846154, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,store(gene),METHOD_INVOCATION, line no: 134, 0.9903846153846154, 0.9903846153846154, 0.0
-geneName,SIMPLE_NAME, line no: 130,keggOrganismToTaxonId,SIMPLE_NAME, line no: 41, 0.9903846153846154, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,createItem,SIMPLE_NAME, line no: 65, 0.9903846153846154, 0.4423076923076923, 0.0
-geneName,SIMPLE_NAME, line no: 130,getAndStoreItemOnce,SIMPLE_NAME, line no: 101, 0.9903846153846154, 0.46153846153846156, 0.0
-geneName,SIMPLE_NAME, line no: 130,taxonId != null && taxonId.length() != 0,INFIX_EXPRESSION, line no: 111, 0.9903846153846154, 0.9903846153846154, 0.0
-geneName,SIMPLE_NAME, line no: 130,taxonId != null,INFIX_EXPRESSION, line no: 111, 0.9903846153846154, 0.9903846153846154, 0.0
-geneName,SIMPLE_NAME, line no: 130,null,NULL_LITERAL, line no: 111, 0.9903846153846154, 0.9903846153846154, 0.0
-geneName,SIMPLE_NAME, line no: 130,taxonId.length() != 0,INFIX_EXPRESSION, line no: 111, 0.9903846153846154, 0.9903846153846154, 0.0
-geneName,SIMPLE_NAME, line no: 130,taxonId.length(),METHOD_INVOCATION, line no: 111, 0.9903846153846154, 0.9903846153846154, 0.0
-geneName,SIMPLE_NAME, line no: 130,split,SIMPLE_NAME, line no: 124, 0.9903846153846154, 0.9903846153846154, 0.0
-geneName,SIMPLE_NAME, line no: 130,gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130, 0.9903846153846154, 0.9903846153846154, 0.0
-geneName,SIMPLE_NAME, line no: 130,gene.setReference("organism" organism),METHOD_INVOCATION, line no: 131, 0.9903846153846154, 0.9903846153846154, 0.0
-geneName,SIMPLE_NAME, line no: 130,gene.addCollection(referenceList),METHOD_INVOCATION, line no: 133, 0.9903846153846154, 0.9903846153846154, 0.0
-geneName,SIMPLE_NAME, line no: 130,store(gene),METHOD_INVOCATION, line no: 134, 0.9903846153846154, 0.9903846153846154, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,keggOrganismToTaxonId,SIMPLE_NAME, line no: 41, 0.9902912621359223, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,createItem,SIMPLE_NAME, line no: 65, 0.9902912621359223, 0.44660194174757284, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,getAndStoreItemOnce,SIMPLE_NAME, line no: 101, 0.9902912621359223, 0.46601941747572817, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,keggOrgName,SIMPLE_NAME, line no: 108, 0.9902912621359223, 0.9902912621359223, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,matcher.group(1),METHOD_INVOCATION, line no: 108, 0.9902912621359223, 0.9902912621359223, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,group,SIMPLE_NAME, line no: 108, 0.9902912621359223, 0.9902912621359223, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,taxonId,SIMPLE_NAME, line no: 109, 0.9902912621359223, 0.9902912621359223, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,keggOrganismToTaxonId.get(keggOrgName),METHOD_INVOCATION, line no: 109, 0.9902912621359223, 0.9902912621359223, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,get,SIMPLE_NAME, line no: 109, 0.9902912621359223, 0.9902912621359223, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,taxonId != null && taxonId.length() != 0,INFIX_EXPRESSION, line no: 111, 0.9902912621359223, 0.9902912621359223, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,taxonId != null,INFIX_EXPRESSION, line no: 111, 0.9902912621359223, 0.9902912621359223, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,null,NULL_LITERAL, line no: 111, 0.9902912621359223, 0.9902912621359223, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,taxonId.length() != 0,INFIX_EXPRESSION, line no: 111, 0.9902912621359223, 0.9902912621359223, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,taxonId.length(),METHOD_INVOCATION, line no: 111, 0.9902912621359223, 0.9902912621359223, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,getAndStoreItemOnce("Organism" "taxonId" taxonId),METHOD_INVOCATION, line no: 112, 0.9902912621359223, 0.9902912621359223, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"Organism",STRING_LITERAL, line no: 112, 0.9902912621359223, 0.9902912621359223, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"taxonId",STRING_LITERAL, line no: 112, 0.9902912621359223, 0.9902912621359223, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"Dmel_",STRING_LITERAL, line no: 117, 0.9902912621359223, 0.9902912621359223, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,mapIdentifiers,SIMPLE_NAME, line no: 122, 0.9902912621359223, 0.9805825242718447, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,mapIdentifiers.split(" "),METHOD_INVOCATION, line no: 124, 0.9902912621359223, 0.9902912621359223, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,split,SIMPLE_NAME, line no: 124, 0.9902912621359223, 0.9902912621359223, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130," ",STRING_LITERAL, line no: 124, 0.9902912621359223, 0.9902912621359223, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,createItem("Gene"),METHOD_INVOCATION, line no: 129, 0.9902912621359223, 0.9902912621359223, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"Gene",STRING_LITERAL, line no: 129, 0.9902912621359223, 0.9902912621359223, 0.0
-gene,SIMPLE_NAME, line no: 130,ReferenceList,SIMPLE_NAME, line no: 30, 0.9807692307692307, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,"Organism",STRING_LITERAL, line no: 112, 0.9807692307692307, 0.9807692307692307, 0.0
-gene,SIMPLE_NAME, line no: 130,"taxonId",STRING_LITERAL, line no: 112, 0.9807692307692307, 0.9807692307692307, 0.0
-gene,SIMPLE_NAME, line no: 130,geneName.startsWith("Dmel_"),METHOD_INVOCATION, line no: 117, 0.9807692307692307, 0.9807692307692307, 0.0
-gene,SIMPLE_NAME, line no: 130,"Dmel_",STRING_LITERAL, line no: 117, 0.9807692307692307, 0.9807692307692307, 0.0
-gene,SIMPLE_NAME, line no: 130,mapArray,SIMPLE_NAME, line no: 124, 0.9807692307692307, 0.9807692307692307, 0.0
-gene,SIMPLE_NAME, line no: 130,mapIdentifiers.split(" "),METHOD_INVOCATION, line no: 124, 0.9807692307692307, 0.9807692307692307, 0.0
-gene,SIMPLE_NAME, line no: 130," ",STRING_LITERAL, line no: 124, 0.9807692307692307, 0.9807692307692307, 0.0
-gene,SIMPLE_NAME, line no: 130,i,SIMPLE_NAME, line no: 125, 0.9807692307692307, 0.9807692307692307, 0.0
-gene,SIMPLE_NAME, line no: 130,"Gene",STRING_LITERAL, line no: 129, 0.9807692307692307, 0.9807692307692307, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,Item,SIMPLE_NAME, line no: 29, 0.9807692307692307, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,ReferenceList,SIMPLE_NAME, line no: 30, 0.9807692307692307, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,getAndStoreItemOnce("Organism" "taxonId" taxonId),METHOD_INVOCATION, line no: 112, 0.9807692307692307, 0.9807692307692307, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"Organism",STRING_LITERAL, line no: 112, 0.9807692307692307, 0.9807692307692307, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"taxonId",STRING_LITERAL, line no: 112, 0.9807692307692307, 0.9807692307692307, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,geneName.startsWith("Dmel_"),METHOD_INVOCATION, line no: 117, 0.9807692307692307, 0.9807692307692307, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"Dmel_",STRING_LITERAL, line no: 117, 0.9807692307692307, 0.9807692307692307, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,mapArray,SIMPLE_NAME, line no: 124, 0.9807692307692307, 0.9807692307692307, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,mapIdentifiers.split(" "),METHOD_INVOCATION, line no: 124, 0.9807692307692307, 0.9807692307692307, 0.0
-setAttribute,SIMPLE_NAME, line no: 130," ",STRING_LITERAL, line no: 124, 0.9807692307692307, 0.9807692307692307, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,i,SIMPLE_NAME, line no: 125, 0.9807692307692307, 0.9807692307692307, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,createItem("Gene"),METHOD_INVOCATION, line no: 129, 0.9807692307692307, 0.9807692307692307, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"Gene",STRING_LITERAL, line no: 129, 0.9807692307692307, 0.9807692307692307, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,keggOrganismToTaxonId,SIMPLE_NAME, line no: 41, 0.9807692307692307, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,createItem,SIMPLE_NAME, line no: 65, 0.9807692307692307, 0.4423076923076923, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,getAndStoreItemOnce,SIMPLE_NAME, line no: 101, 0.9807692307692307, 0.46153846153846156, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,matcher.group(1),METHOD_INVOCATION, line no: 108, 0.9807692307692307, 0.9807692307692307, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,keggOrganismToTaxonId.get(keggOrgName),METHOD_INVOCATION, line no: 109, 0.9807692307692307, 0.9807692307692307, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,taxonId != null && taxonId.length() != 0,INFIX_EXPRESSION, line no: 111, 0.9807692307692307, 0.9807692307692307, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,taxonId != null,INFIX_EXPRESSION, line no: 111, 0.9807692307692307, 0.9807692307692307, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,null,NULL_LITERAL, line no: 111, 0.9807692307692307, 0.9807692307692307, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,taxonId.length() != 0,INFIX_EXPRESSION, line no: 111, 0.9807692307692307, 0.9807692307692307, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,taxonId.length(),METHOD_INVOCATION, line no: 111, 0.9807692307692307, 0.9807692307692307, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,getAndStoreItemOnce("Organism" "taxonId" taxonId),METHOD_INVOCATION, line no: 112, 0.9807692307692307, 0.9807692307692307, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,geneName.startsWith("Dmel_"),METHOD_INVOCATION, line no: 117, 0.9807692307692307, 0.9807692307692307, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,"pathways",STRING_LITERAL, line no: 123, 0.9807692307692307, 0.9807692307692307, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,mapIdentifiers.split(" "),METHOD_INVOCATION, line no: 124, 0.9807692307692307, 0.9807692307692307, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,split,SIMPLE_NAME, line no: 124, 0.9807692307692307, 0.9807692307692307, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,createItem("Gene"),METHOD_INVOCATION, line no: 129, 0.9807692307692307, 0.9807692307692307, 0.0
-geneName,SIMPLE_NAME, line no: 130,Item,SIMPLE_NAME, line no: 29, 0.9807692307692307, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,ReferenceList,SIMPLE_NAME, line no: 30, 0.9807692307692307, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,getAndStoreItemOnce("Organism" "taxonId" taxonId),METHOD_INVOCATION, line no: 112, 0.9807692307692307, 0.9807692307692307, 0.0
-geneName,SIMPLE_NAME, line no: 130,geneName.startsWith("Dmel_"),METHOD_INVOCATION, line no: 117, 0.9807692307692307, 0.9807692307692307, 0.0
-geneName,SIMPLE_NAME, line no: 130,mapArray,SIMPLE_NAME, line no: 124, 0.9807692307692307, 0.9807692307692307, 0.0
-geneName,SIMPLE_NAME, line no: 130,mapIdentifiers.split(" "),METHOD_INVOCATION, line no: 124, 0.9807692307692307, 0.9807692307692307, 0.0
-geneName,SIMPLE_NAME, line no: 130,i,SIMPLE_NAME, line no: 125, 0.9807692307692307, 0.9807692307692307, 0.0
-geneName,SIMPLE_NAME, line no: 130,createItem("Gene"),METHOD_INVOCATION, line no: 129, 0.9807692307692307, 0.9807692307692307, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,Item,SIMPLE_NAME, line no: 29, 0.9805825242718447, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,ReferenceList,SIMPLE_NAME, line no: 30, 0.9805825242718447, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,line[1],ARRAY_ACCESS, line no: 100, 0.9805825242718447, 0.4563106796116505, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,new ReferenceList("pathways"),CLASS_INSTANCE_CREATION, line no: 123, 0.9805825242718447, 0.9805825242718447, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"pathways",STRING_LITERAL, line no: 123, 0.9805825242718447, 0.9805825242718447, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,mapArray,SIMPLE_NAME, line no: 124, 0.9805825242718447, 0.9805825242718447, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 125, 0.9805825242718447, 0.9805825242718447, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,i,SIMPLE_NAME, line no: 125, 0.9805825242718447, 0.9805825242718447, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,i < mapArray.length,INFIX_EXPRESSION, line no: 125, 0.9805825242718447, 0.9805825242718447, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,mapArray.length,QUALIFIED_NAME, line no: 125, 0.9805825242718447, 0.9805825242718447, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,i++,POSTFIX_EXPRESSION, line no: 125, 0.9805825242718447, 0.9805825242718447, 0.0
-gene,SIMPLE_NAME, line no: 130,line[1],ARRAY_ACCESS, line no: 100, 0.9711538461538461, 0.4519230769230769, 0.0
-gene,SIMPLE_NAME, line no: 130,new ReferenceList("pathways"),CLASS_INSTANCE_CREATION, line no: 123, 0.9711538461538461, 0.9711538461538461, 0.0
-gene,SIMPLE_NAME, line no: 130,"pathways",STRING_LITERAL, line no: 123, 0.9711538461538461, 0.9711538461538461, 0.0
-gene,SIMPLE_NAME, line no: 130,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 125, 0.9711538461538461, 0.9711538461538461, 0.0
-gene,SIMPLE_NAME, line no: 130,i < mapArray.length,INFIX_EXPRESSION, line no: 125, 0.9711538461538461, 0.9711538461538461, 0.0
-gene,SIMPLE_NAME, line no: 130,mapArray.length,QUALIFIED_NAME, line no: 125, 0.9711538461538461, 0.9711538461538461, 0.0
-gene,SIMPLE_NAME, line no: 130,i++,POSTFIX_EXPRESSION, line no: 125, 0.9711538461538461, 0.9711538461538461, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,line[1],ARRAY_ACCESS, line no: 100, 0.9711538461538461, 0.4519230769230769, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,new ReferenceList("pathways"),CLASS_INSTANCE_CREATION, line no: 123, 0.9711538461538461, 0.9711538461538461, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"pathways",STRING_LITERAL, line no: 123, 0.9711538461538461, 0.9711538461538461, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 125, 0.9711538461538461, 0.9711538461538461, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,i < mapArray.length,INFIX_EXPRESSION, line no: 125, 0.9711538461538461, 0.9711538461538461, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,mapArray.length,QUALIFIED_NAME, line no: 125, 0.9711538461538461, 0.9711538461538461, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,i++,POSTFIX_EXPRESSION, line no: 125, 0.9711538461538461, 0.9711538461538461, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,Item,SIMPLE_NAME, line no: 29, 0.9711538461538461, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,ReferenceList,SIMPLE_NAME, line no: 30, 0.9711538461538461, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,line[1],ARRAY_ACCESS, line no: 100, 0.9711538461538461, 0.4519230769230769, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,new ReferenceList("pathways"),CLASS_INSTANCE_CREATION, line no: 123, 0.9711538461538461, 0.9711538461538461, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,mapArray,SIMPLE_NAME, line no: 124, 0.9711538461538461, 0.9711538461538461, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 125, 0.9711538461538461, 0.9711538461538461, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,i,SIMPLE_NAME, line no: 125, 0.9711538461538461, 0.9711538461538461, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,i < mapArray.length,INFIX_EXPRESSION, line no: 125, 0.9711538461538461, 0.9711538461538461, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,mapArray.length,QUALIFIED_NAME, line no: 125, 0.9711538461538461, 0.9711538461538461, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,i++,POSTFIX_EXPRESSION, line no: 125, 0.9711538461538461, 0.9711538461538461, 0.0
-geneName,SIMPLE_NAME, line no: 130,new ReferenceList("pathways"),CLASS_INSTANCE_CREATION, line no: 123, 0.9711538461538461, 0.9711538461538461, 0.0
-geneName,SIMPLE_NAME, line no: 130,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 125, 0.9711538461538461, 0.9711538461538461, 0.0
-geneName,SIMPLE_NAME, line no: 130,i < mapArray.length,INFIX_EXPRESSION, line no: 125, 0.9711538461538461, 0.9711538461538461, 0.0
-geneName,SIMPLE_NAME, line no: 130,mapArray.length,QUALIFIED_NAME, line no: 125, 0.9711538461538461, 0.9711538461538461, 0.0
-geneName,SIMPLE_NAME, line no: 130,i++,POSTFIX_EXPRESSION, line no: 125, 0.9711538461538461, 0.9711538461538461, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,geneName.substring(5),METHOD_INVOCATION, line no: 118, 0.6359223300970873, 0.13592233009708737, 0.5
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,geneName=geneName.substring(5),ASSIGNMENT, line no: 118, 0.6262135922330097, 0.1262135922330097, 0.5
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,dataSet,SIMPLE_NAME, line no: 40, 0.4854368932038835, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,getIdentifier,SIMPLE_NAME, line no: 105, 0.4854368932038835, 0.4854368932038835, 0.0
-gene,SIMPLE_NAME, line no: 130,getIdentifier,SIMPLE_NAME, line no: 105, 0.4807692307692308, 0.4807692307692308, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,dataSet,SIMPLE_NAME, line no: 40, 0.4807692307692308, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,getIdentifier,SIMPLE_NAME, line no: 105, 0.4807692307692308, 0.4807692307692308, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,dataSet,SIMPLE_NAME, line no: 40, 0.4807692307692308, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,dataSet,SIMPLE_NAME, line no: 40, 0.4807692307692308, 0.009615384615384616, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,Collections,SIMPLE_NAME, line no: 16, 0.47572815533980584, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,singleton,SIMPLE_NAME, line no: 105, 0.47572815533980584, 0.47572815533980584, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,dataSet.getIdentifier(),METHOD_INVOCATION, line no: 105, 0.47572815533980584, 0.47572815533980584, 0.0
-gene,SIMPLE_NAME, line no: 130,Collections,SIMPLE_NAME, line no: 16, 0.47115384615384615, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,singleton,SIMPLE_NAME, line no: 105, 0.47115384615384615, 0.47115384615384615, 0.0
-gene,SIMPLE_NAME, line no: 130,dataSet.getIdentifier(),METHOD_INVOCATION, line no: 105, 0.47115384615384615, 0.47115384615384615, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,Collections,SIMPLE_NAME, line no: 16, 0.47115384615384615, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,singleton,SIMPLE_NAME, line no: 105, 0.47115384615384615, 0.47115384615384615, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,dataSet.getIdentifier(),METHOD_INVOCATION, line no: 105, 0.47115384615384615, 0.47115384615384615, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,Collections,SIMPLE_NAME, line no: 16, 0.47115384615384615, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,singleton,SIMPLE_NAME, line no: 105, 0.47115384615384615, 0.47115384615384615, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,dataSet.getIdentifier(),METHOD_INVOCATION, line no: 105, 0.47115384615384615, 0.47115384615384615, 0.0
-geneName,SIMPLE_NAME, line no: 130,Collections,SIMPLE_NAME, line no: 16, 0.47115384615384615, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,singleton,SIMPLE_NAME, line no: 105, 0.47115384615384615, 0.47115384615384615, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,ArrayList,SIMPLE_NAME, line no: 15, 0.46601941747572817, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"name",STRING_LITERAL, line no: 66, 0.46601941747572817, 0.4368932038834951, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,mapIdentifier,SIMPLE_NAME, line no: 99, 0.46601941747572817, 0.4563106796116505, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,mapName,SIMPLE_NAME, line no: 100, 0.46601941747572817, 0.4563106796116505, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,pathway,SIMPLE_NAME, line no: 101, 0.46601941747572817, 0.4563106796116505, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"Pathway",STRING_LITERAL, line no: 101, 0.46601941747572817, 0.46601941747572817, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"identifier",STRING_LITERAL, line no: 101, 0.46601941747572817, 0.46601941747572817, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"evidence",STRING_LITERAL, line no: 103, 0.46601941747572817, 0.46601941747572817, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,Collections.singleton(dataSet.getIdentifier()),METHOD_INVOCATION, line no: 104, 0.46601941747572817, 0.46601941747572817, 0.0
-gene,SIMPLE_NAME, line no: 130,ArrayList,SIMPLE_NAME, line no: 15, 0.46153846153846156, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,"name",STRING_LITERAL, line no: 66, 0.46153846153846156, 0.4326923076923077, 0.0
-gene,SIMPLE_NAME, line no: 130,mapIdentifier,SIMPLE_NAME, line no: 99, 0.46153846153846156, 0.4519230769230769, 0.0
-gene,SIMPLE_NAME, line no: 130,mapName,SIMPLE_NAME, line no: 100, 0.46153846153846156, 0.4519230769230769, 0.0
-gene,SIMPLE_NAME, line no: 130,"Pathway",STRING_LITERAL, line no: 101, 0.46153846153846156, 0.46153846153846156, 0.0
-gene,SIMPLE_NAME, line no: 130,"identifier",STRING_LITERAL, line no: 101, 0.46153846153846156, 0.46153846153846156, 0.0
-gene,SIMPLE_NAME, line no: 130,setCollection,SIMPLE_NAME, line no: 103, 0.46153846153846156, 0.46153846153846156, 0.0
-gene,SIMPLE_NAME, line no: 130,"evidence",STRING_LITERAL, line no: 103, 0.46153846153846156, 0.46153846153846156, 0.0
-gene,SIMPLE_NAME, line no: 130,Collections.singleton(dataSet.getIdentifier()),METHOD_INVOCATION, line no: 104, 0.46153846153846156, 0.46153846153846156, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,ArrayList,SIMPLE_NAME, line no: 15, 0.46153846153846156, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"name",STRING_LITERAL, line no: 66, 0.46153846153846156, 0.4326923076923077, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,mapIdentifier,SIMPLE_NAME, line no: 99, 0.46153846153846156, 0.4519230769230769, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,mapName,SIMPLE_NAME, line no: 100, 0.46153846153846156, 0.4519230769230769, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,pathway,SIMPLE_NAME, line no: 101, 0.46153846153846156, 0.4519230769230769, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"Pathway",STRING_LITERAL, line no: 101, 0.46153846153846156, 0.46153846153846156, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"identifier",STRING_LITERAL, line no: 101, 0.46153846153846156, 0.46153846153846156, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"evidence",STRING_LITERAL, line no: 103, 0.46153846153846156, 0.46153846153846156, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,Collections.singleton(dataSet.getIdentifier()),METHOD_INVOCATION, line no: 104, 0.46153846153846156, 0.46153846153846156, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,ArrayList,SIMPLE_NAME, line no: 15, 0.46153846153846156, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,"name",STRING_LITERAL, line no: 66, 0.46153846153846156, 0.4423076923076923, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,pathway,SIMPLE_NAME, line no: 101, 0.46153846153846156, 0.4519230769230769, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,"Pathway",STRING_LITERAL, line no: 101, 0.46153846153846156, 0.46153846153846156, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,"identifier",STRING_LITERAL, line no: 101, 0.46153846153846156, 0.46153846153846156, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,setCollection,SIMPLE_NAME, line no: 103, 0.46153846153846156, 0.46153846153846156, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,"evidence",STRING_LITERAL, line no: 103, 0.46153846153846156, 0.46153846153846156, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,Collections.singleton(dataSet.getIdentifier()),METHOD_INVOCATION, line no: 104, 0.46153846153846156, 0.46153846153846156, 0.0
-geneName,SIMPLE_NAME, line no: 130,ArrayList,SIMPLE_NAME, line no: 15, 0.46153846153846156, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,pathway,SIMPLE_NAME, line no: 101, 0.46153846153846156, 0.4519230769230769, 0.0
-geneName,SIMPLE_NAME, line no: 130,setCollection,SIMPLE_NAME, line no: 103, 0.46153846153846156, 0.46153846153846156, 0.0
-geneName,SIMPLE_NAME, line no: 130,Collections.singleton(dataSet.getIdentifier()),METHOD_INVOCATION, line no: 104, 0.46153846153846156, 0.46153846153846156, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,getAndStoreItemOnce("Pathway" "identifier" mapIdentifier),METHOD_INVOCATION, line no: 101, 0.4563106796116505, 0.4563106796116505, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,pathway.setAttribute("name" mapName),METHOD_INVOCATION, line no: 102, 0.4563106796116505, 0.4563106796116505, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,pathway.setCollection("evidence" new ArrayList(Collections.singleton(dataSet.getIdentifier()))),METHOD_INVOCATION, line no: 103, 0.4563106796116505, 0.4563106796116505, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,new ArrayList(Collections.singleton(dataSet.getIdentifier())),CLASS_INSTANCE_CREATION, line no: 104, 0.4563106796116505, 0.4563106796116505, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,store(pathway),METHOD_INVOCATION, line no: 106, 0.4563106796116505, 0.4563106796116505, 0.0
-gene,SIMPLE_NAME, line no: 130,pathway.setAttribute("name" mapName),METHOD_INVOCATION, line no: 102, 0.4519230769230769, 0.4519230769230769, 0.0
-gene,SIMPLE_NAME, line no: 130,pathway.setCollection("evidence" new ArrayList(Collections.singleton(dataSet.getIdentifier()))),METHOD_INVOCATION, line no: 103, 0.4519230769230769, 0.4519230769230769, 0.0
-gene,SIMPLE_NAME, line no: 130,new ArrayList(Collections.singleton(dataSet.getIdentifier())),CLASS_INSTANCE_CREATION, line no: 104, 0.4519230769230769, 0.4519230769230769, 0.0
-gene,SIMPLE_NAME, line no: 130,store(pathway),METHOD_INVOCATION, line no: 106, 0.4519230769230769, 0.4519230769230769, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,getAndStoreItemOnce("Pathway" "identifier" mapIdentifier),METHOD_INVOCATION, line no: 101, 0.4519230769230769, 0.4519230769230769, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,new ArrayList(Collections.singleton(dataSet.getIdentifier())),CLASS_INSTANCE_CREATION, line no: 104, 0.4519230769230769, 0.4519230769230769, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,store(pathway),METHOD_INVOCATION, line no: 106, 0.4519230769230769, 0.4519230769230769, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,getAndStoreItemOnce("Pathway" "identifier" mapIdentifier),METHOD_INVOCATION, line no: 101, 0.4519230769230769, 0.4519230769230769, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,pathway.setAttribute("name" mapName),METHOD_INVOCATION, line no: 102, 0.4519230769230769, 0.4519230769230769, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,pathway.setCollection("evidence" new ArrayList(Collections.singleton(dataSet.getIdentifier()))),METHOD_INVOCATION, line no: 103, 0.4519230769230769, 0.4519230769230769, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,new ArrayList(Collections.singleton(dataSet.getIdentifier())),CLASS_INSTANCE_CREATION, line no: 104, 0.4519230769230769, 0.4519230769230769, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,store(pathway),METHOD_INVOCATION, line no: 106, 0.4519230769230769, 0.4519230769230769, 0.0
-geneName,SIMPLE_NAME, line no: 130,getAndStoreItemOnce("Pathway" "identifier" mapIdentifier),METHOD_INVOCATION, line no: 101, 0.4519230769230769, 0.4519230769230769, 0.0
-geneName,SIMPLE_NAME, line no: 130,pathway.setAttribute("name" mapName),METHOD_INVOCATION, line no: 102, 0.4519230769230769, 0.4519230769230769, 0.0
-geneName,SIMPLE_NAME, line no: 130,pathway.setCollection("evidence" new ArrayList(Collections.singleton(dataSet.getIdentifier()))),METHOD_INVOCATION, line no: 103, 0.4519230769230769, 0.4519230769230769, 0.0
-geneName,SIMPLE_NAME, line no: 130,new ArrayList(Collections.singleton(dataSet.getIdentifier())),CLASS_INSTANCE_CREATION, line no: 104, 0.4519230769230769, 0.4519230769230769, 0.0
-geneName,SIMPLE_NAME, line no: 130,store(pathway),METHOD_INVOCATION, line no: 106, 0.4519230769230769, 0.4519230769230769, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,dataSource,SIMPLE_NAME, line no: 40, 0.44660194174757284, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,put,SIMPLE_NAME, line no: 57, 0.44660194174757284, 0.44660194174757284, 0.0
-gene,SIMPLE_NAME, line no: 130,put,SIMPLE_NAME, line no: 57, 0.4423076923076923, 0.4423076923076923, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,dataSource,SIMPLE_NAME, line no: 40, 0.4423076923076923, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,put,SIMPLE_NAME, line no: 57, 0.4423076923076923, 0.4423076923076923, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,dataSource,SIMPLE_NAME, line no: 40, 0.4423076923076923, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,"dme",STRING_LITERAL, line no: 57, 0.4423076923076923, 0.4423076923076923, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,"7227",STRING_LITERAL, line no: 57, 0.4423076923076923, 0.4423076923076923, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,"DataSource",STRING_LITERAL, line no: 65, 0.4423076923076923, 0.4423076923076923, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,"Kyoto Encyclopedia of Genes and Genomes",STRING_LITERAL, line no: 66, 0.4423076923076923, 0.4423076923076923, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,"DataSet",STRING_LITERAL, line no: 67, 0.4423076923076923, 0.4423076923076923, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,"title",STRING_LITERAL, line no: 68, 0.4423076923076923, 0.4423076923076923, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,"KEGG PATHWAY - dme",STRING_LITERAL, line no: 68, 0.4423076923076923, 0.4423076923076923, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,"url",STRING_LITERAL, line no: 69, 0.4423076923076923, 0.4423076923076923, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,"http://www.genome.jp/kegg/pathway.html",STRING_LITERAL, line no: 69, 0.4423076923076923, 0.4423076923076923, 0.0
-geneName,SIMPLE_NAME, line no: 130,dataSource,SIMPLE_NAME, line no: 40, 0.4423076923076923, 0.009615384615384616, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,writer,SIMPLE_NAME, line no: 52, 0.4368932038834951, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,model,SIMPLE_NAME, line no: 52, 0.4368932038834951, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,keggOrganismToTaxonId.put("dme" "7227"),METHOD_INVOCATION, line no: 57, 0.4368932038834951, 0.4368932038834951, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"dme",STRING_LITERAL, line no: 57, 0.4368932038834951, 0.4368932038834951, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"7227",STRING_LITERAL, line no: 57, 0.4368932038834951, 0.4368932038834951, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,createItem("DataSource"),METHOD_INVOCATION, line no: 65, 0.4368932038834951, 0.4368932038834951, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"DataSource",STRING_LITERAL, line no: 65, 0.4368932038834951, 0.4368932038834951, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,dataSource.setAttribute("name" "Kyoto Encyclopedia of Genes and Genomes"),METHOD_INVOCATION, line no: 66, 0.4368932038834951, 0.4368932038834951, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"Kyoto Encyclopedia of Genes and Genomes",STRING_LITERAL, line no: 66, 0.4368932038834951, 0.4368932038834951, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,createItem("DataSet"),METHOD_INVOCATION, line no: 67, 0.4368932038834951, 0.4368932038834951, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"DataSet",STRING_LITERAL, line no: 67, 0.4368932038834951, 0.4368932038834951, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,dataSet.setAttribute("title" "KEGG PATHWAY - dme"),METHOD_INVOCATION, line no: 68, 0.4368932038834951, 0.4368932038834951, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"title",STRING_LITERAL, line no: 68, 0.4368932038834951, 0.4368932038834951, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"KEGG PATHWAY - dme",STRING_LITERAL, line no: 68, 0.4368932038834951, 0.4368932038834951, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,dataSet.setAttribute("url" "http://www.genome.jp/kegg/pathway.html"),METHOD_INVOCATION, line no: 69, 0.4368932038834951, 0.4368932038834951, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"url",STRING_LITERAL, line no: 69, 0.4368932038834951, 0.4368932038834951, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,"http://www.genome.jp/kegg/pathway.html",STRING_LITERAL, line no: 69, 0.4368932038834951, 0.4368932038834951, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,store(dataSource),METHOD_INVOCATION, line no: 70, 0.4368932038834951, 0.4368932038834951, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,store(dataSet),METHOD_INVOCATION, line no: 71, 0.4368932038834951, 0.4368932038834951, 0.0
-gene,SIMPLE_NAME, line no: 130,writer,SIMPLE_NAME, line no: 52, 0.4326923076923077, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,model,SIMPLE_NAME, line no: 52, 0.4326923076923077, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,keggOrganismToTaxonId.put("dme" "7227"),METHOD_INVOCATION, line no: 57, 0.4326923076923077, 0.4326923076923077, 0.0
-gene,SIMPLE_NAME, line no: 130,"dme",STRING_LITERAL, line no: 57, 0.4326923076923077, 0.4326923076923077, 0.0
-gene,SIMPLE_NAME, line no: 130,"7227",STRING_LITERAL, line no: 57, 0.4326923076923077, 0.4326923076923077, 0.0
-gene,SIMPLE_NAME, line no: 130,"DataSource",STRING_LITERAL, line no: 65, 0.4326923076923077, 0.4326923076923077, 0.0
-gene,SIMPLE_NAME, line no: 130,dataSource.setAttribute("name" "Kyoto Encyclopedia of Genes and Genomes"),METHOD_INVOCATION, line no: 66, 0.4326923076923077, 0.4326923076923077, 0.0
-gene,SIMPLE_NAME, line no: 130,"Kyoto Encyclopedia of Genes and Genomes",STRING_LITERAL, line no: 66, 0.4326923076923077, 0.4326923076923077, 0.0
-gene,SIMPLE_NAME, line no: 130,"DataSet",STRING_LITERAL, line no: 67, 0.4326923076923077, 0.4326923076923077, 0.0
-gene,SIMPLE_NAME, line no: 130,dataSet.setAttribute("title" "KEGG PATHWAY - dme"),METHOD_INVOCATION, line no: 68, 0.4326923076923077, 0.4326923076923077, 0.0
-gene,SIMPLE_NAME, line no: 130,"title",STRING_LITERAL, line no: 68, 0.4326923076923077, 0.4326923076923077, 0.0
-gene,SIMPLE_NAME, line no: 130,"KEGG PATHWAY - dme",STRING_LITERAL, line no: 68, 0.4326923076923077, 0.4326923076923077, 0.0
-gene,SIMPLE_NAME, line no: 130,dataSet.setAttribute("url" "http://www.genome.jp/kegg/pathway.html"),METHOD_INVOCATION, line no: 69, 0.4326923076923077, 0.4326923076923077, 0.0
-gene,SIMPLE_NAME, line no: 130,"url",STRING_LITERAL, line no: 69, 0.4326923076923077, 0.4326923076923077, 0.0
-gene,SIMPLE_NAME, line no: 130,"http://www.genome.jp/kegg/pathway.html",STRING_LITERAL, line no: 69, 0.4326923076923077, 0.4326923076923077, 0.0
-gene,SIMPLE_NAME, line no: 130,store(dataSource),METHOD_INVOCATION, line no: 70, 0.4326923076923077, 0.4326923076923077, 0.0
-gene,SIMPLE_NAME, line no: 130,store(dataSet),METHOD_INVOCATION, line no: 71, 0.4326923076923077, 0.4326923076923077, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,writer,SIMPLE_NAME, line no: 52, 0.4326923076923077, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,model,SIMPLE_NAME, line no: 52, 0.4326923076923077, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,keggOrganismToTaxonId.put("dme" "7227"),METHOD_INVOCATION, line no: 57, 0.4326923076923077, 0.4326923076923077, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"dme",STRING_LITERAL, line no: 57, 0.4326923076923077, 0.4326923076923077, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"7227",STRING_LITERAL, line no: 57, 0.4326923076923077, 0.4326923076923077, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,createItem("DataSource"),METHOD_INVOCATION, line no: 65, 0.4326923076923077, 0.4326923076923077, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"DataSource",STRING_LITERAL, line no: 65, 0.4326923076923077, 0.4326923076923077, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"Kyoto Encyclopedia of Genes and Genomes",STRING_LITERAL, line no: 66, 0.4326923076923077, 0.4326923076923077, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,createItem("DataSet"),METHOD_INVOCATION, line no: 67, 0.4326923076923077, 0.4326923076923077, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"DataSet",STRING_LITERAL, line no: 67, 0.4326923076923077, 0.4326923076923077, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"title",STRING_LITERAL, line no: 68, 0.4326923076923077, 0.4326923076923077, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"KEGG PATHWAY - dme",STRING_LITERAL, line no: 68, 0.4326923076923077, 0.4326923076923077, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"url",STRING_LITERAL, line no: 69, 0.4326923076923077, 0.4326923076923077, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,"http://www.genome.jp/kegg/pathway.html",STRING_LITERAL, line no: 69, 0.4326923076923077, 0.4326923076923077, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,store(dataSource),METHOD_INVOCATION, line no: 70, 0.4326923076923077, 0.4326923076923077, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,store(dataSet),METHOD_INVOCATION, line no: 71, 0.4326923076923077, 0.4326923076923077, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,writer,SIMPLE_NAME, line no: 52, 0.4326923076923077, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,model,SIMPLE_NAME, line no: 52, 0.4326923076923077, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,keggOrganismToTaxonId.put("dme" "7227"),METHOD_INVOCATION, line no: 57, 0.4326923076923077, 0.4326923076923077, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,createItem("DataSource"),METHOD_INVOCATION, line no: 65, 0.4326923076923077, 0.4326923076923077, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,dataSource.setAttribute("name" "Kyoto Encyclopedia of Genes and Genomes"),METHOD_INVOCATION, line no: 66, 0.4326923076923077, 0.4326923076923077, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,createItem("DataSet"),METHOD_INVOCATION, line no: 67, 0.4326923076923077, 0.4326923076923077, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,dataSet.setAttribute("title" "KEGG PATHWAY - dme"),METHOD_INVOCATION, line no: 68, 0.4326923076923077, 0.4326923076923077, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,dataSet.setAttribute("url" "http://www.genome.jp/kegg/pathway.html"),METHOD_INVOCATION, line no: 69, 0.4326923076923077, 0.4326923076923077, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,store(dataSource),METHOD_INVOCATION, line no: 70, 0.4326923076923077, 0.4326923076923077, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,store(dataSet),METHOD_INVOCATION, line no: 71, 0.4326923076923077, 0.4326923076923077, 0.0
-geneName,SIMPLE_NAME, line no: 130,writer,SIMPLE_NAME, line no: 52, 0.4326923076923077, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,model,SIMPLE_NAME, line no: 52, 0.4326923076923077, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,createItem("DataSource"),METHOD_INVOCATION, line no: 65, 0.4326923076923077, 0.4326923076923077, 0.0
-geneName,SIMPLE_NAME, line no: 130,dataSource.setAttribute("name" "Kyoto Encyclopedia of Genes and Genomes"),METHOD_INVOCATION, line no: 66, 0.4326923076923077, 0.4326923076923077, 0.0
-geneName,SIMPLE_NAME, line no: 130,createItem("DataSet"),METHOD_INVOCATION, line no: 67, 0.4326923076923077, 0.4326923076923077, 0.0
-geneName,SIMPLE_NAME, line no: 130,dataSet.setAttribute("title" "KEGG PATHWAY - dme"),METHOD_INVOCATION, line no: 68, 0.4326923076923077, 0.4326923076923077, 0.0
-geneName,SIMPLE_NAME, line no: 130,dataSet.setAttribute("url" "http://www.genome.jp/kegg/pathway.html"),METHOD_INVOCATION, line no: 69, 0.4326923076923077, 0.4326923076923077, 0.0
-geneName,SIMPLE_NAME, line no: 130,store(dataSource),METHOD_INVOCATION, line no: 70, 0.4326923076923077, 0.4326923076923077, 0.0
-geneName,SIMPLE_NAME, line no: 130,store(dataSet),METHOD_INVOCATION, line no: 71, 0.4326923076923077, 0.4326923076923077, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,dataSource=createItem("DataSource"),ASSIGNMENT, line no: 65, 0.42718446601941745, 0.42718446601941745, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,dataSet=createItem("DataSet"),ASSIGNMENT, line no: 67, 0.42718446601941745, 0.42718446601941745, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,dataSource=createItem("DataSource"),ASSIGNMENT, line no: 65, 0.4230769230769231, 0.4230769230769231, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,dataSet=createItem("DataSet"),ASSIGNMENT, line no: 67, 0.4230769230769231, 0.4230769230769231, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,dataSource=createItem("DataSource"),ASSIGNMENT, line no: 65, 0.4230769230769231, 0.4230769230769231, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,dataSet=createItem("DataSet"),ASSIGNMENT, line no: 67, 0.4230769230769231, 0.4230769230769231, 0.0
-geneName,SIMPLE_NAME, line no: 130,dataSource=createItem("DataSource"),ASSIGNMENT, line no: 65, 0.4230769230769231, 0.4230769230769231, 0.0
-geneName,SIMPLE_NAME, line no: 130,dataSet=createItem("DataSet"),ASSIGNMENT, line no: 67, 0.4230769230769231, 0.4230769230769231, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,mapArray[i],ARRAY_ACCESS, line no: 127, 0.22330097087378642, 0.22330097087378642, 0.0
-gene,SIMPLE_NAME, line no: 130,mapArray[i],ARRAY_ACCESS, line no: 127, 0.22115384615384615, 0.22115384615384615, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,mapArray[i],ARRAY_ACCESS, line no: 127, 0.22115384615384615, 0.22115384615384615, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,mapArray[i],ARRAY_ACCESS, line no: 127, 0.22115384615384615, 0.22115384615384615, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,getAndStoreItemOnce("Pathway" "identifier" mapArray[i]),METHOD_INVOCATION, line no: 126, 0.21359223300970873, 0.21359223300970873, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,getAndStoreItemOnce("Pathway" "identifier" mapArray[i]),METHOD_INVOCATION, line no: 126, 0.21153846153846154, 0.21153846153846154, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,getAndStoreItemOnce("Pathway" "identifier" mapArray[i]),METHOD_INVOCATION, line no: 126, 0.21153846153846154, 0.21153846153846154, 0.0
-geneName,SIMPLE_NAME, line no: 130,getAndStoreItemOnce("Pathway" "identifier" mapArray[i]),METHOD_INVOCATION, line no: 126, 0.21153846153846154, 0.21153846153846154, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,getAndStoreItemOnce("Pathway" "identifier" mapArray[i]).getIdentifier(),METHOD_INVOCATION, line no: 126, 0.20388349514563106, 0.20388349514563106, 0.0
-gene,SIMPLE_NAME, line no: 130,addRefId,SIMPLE_NAME, line no: 126, 0.20192307692307693, 0.20192307692307693, 0.0
-gene,SIMPLE_NAME, line no: 130,getAndStoreItemOnce("Pathway" "identifier" mapArray[i]).getIdentifier(),METHOD_INVOCATION, line no: 126, 0.20192307692307693, 0.20192307692307693, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,getAndStoreItemOnce("Pathway" "identifier" mapArray[i]).getIdentifier(),METHOD_INVOCATION, line no: 126, 0.20192307692307693, 0.20192307692307693, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,addRefId,SIMPLE_NAME, line no: 126, 0.20192307692307693, 0.20192307692307693, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,getAndStoreItemOnce("Pathway" "identifier" mapArray[i]).getIdentifier(),METHOD_INVOCATION, line no: 126, 0.20192307692307693, 0.20192307692307693, 0.0
-geneName,SIMPLE_NAME, line no: 130,addRefId,SIMPLE_NAME, line no: 126, 0.20192307692307693, 0.20192307692307693, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,referenceList.addRefId(getAndStoreItemOnce("Pathway" "identifier" mapArray[i]).getIdentifier()),METHOD_INVOCATION, line no: 126, 0.1941747572815534, 0.1941747572815534, 0.0
-gene,SIMPLE_NAME, line no: 130,referenceList.addRefId(getAndStoreItemOnce("Pathway" "identifier" mapArray[i]).getIdentifier()),METHOD_INVOCATION, line no: 126, 0.19230769230769232, 0.19230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,referenceList.addRefId(getAndStoreItemOnce("Pathway" "identifier" mapArray[i]).getIdentifier()),METHOD_INVOCATION, line no: 126, 0.19230769230769232, 0.19230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,referenceList.addRefId(getAndStoreItemOnce("Pathway" "identifier" mapArray[i]).getIdentifier()),METHOD_INVOCATION, line no: 126, 0.19230769230769232, 0.19230769230769232, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,substring,SIMPLE_NAME, line no: 118, 0.14563106796116504, 0.14563106796116504, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,5,NUMBER_LITERAL, line no: 118, 0.14563106796116504, 0.14563106796116504, 0.0
-gene,SIMPLE_NAME, line no: 130,substring,SIMPLE_NAME, line no: 118, 0.14423076923076922, 0.14423076923076922, 0.0
-gene,SIMPLE_NAME, line no: 130,5,NUMBER_LITERAL, line no: 118, 0.14423076923076922, 0.14423076923076922, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,substring,SIMPLE_NAME, line no: 118, 0.14423076923076922, 0.14423076923076922, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,5,NUMBER_LITERAL, line no: 118, 0.14423076923076922, 0.14423076923076922, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,5,NUMBER_LITERAL, line no: 118, 0.14423076923076922, 0.14423076923076922, 0.0
-geneName,SIMPLE_NAME, line no: 130,5,NUMBER_LITERAL, line no: 118, 0.14423076923076922, 0.14423076923076922, 0.0
-gene,SIMPLE_NAME, line no: 130,geneName.substring(5),METHOD_INVOCATION, line no: 118, 0.1346153846153846, 0.1346153846153846, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,geneName.substring(5),METHOD_INVOCATION, line no: 118, 0.1346153846153846, 0.1346153846153846, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,geneName.substring(5),METHOD_INVOCATION, line no: 118, 0.1346153846153846, 0.1346153846153846, 0.0
-gene,SIMPLE_NAME, line no: 130,geneName=geneName.substring(5),ASSIGNMENT, line no: 118, 0.125, 0.125, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,geneName=geneName.substring(5),ASSIGNMENT, line no: 118, 0.125, 0.125, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,geneName=geneName.substring(5),ASSIGNMENT, line no: 118, 0.125, 0.125, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,dataLocation,SIMPLE_NAME, line no: 43, 0.05825242718446602, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,srcdatadir,SIMPLE_NAME, line no: 144, 0.05825242718446602, 0.009708737864077669, 0.0
-gene,SIMPLE_NAME, line no: 130,dataLocation,SIMPLE_NAME, line no: 43, 0.057692307692307696, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,srcdatadir,SIMPLE_NAME, line no: 144, 0.057692307692307696, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,dataLocation,SIMPLE_NAME, line no: 43, 0.057692307692307696, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,srcdatadir,SIMPLE_NAME, line no: 144, 0.057692307692307696, 0.009615384615384616, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,this.dataLocation=srcdatadir,ASSIGNMENT, line no: 145, 0.04854368932038835, 0.04854368932038835, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,this.dataLocation,FIELD_ACCESS, line no: 145, 0.04854368932038835, 0.04854368932038835, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,this,THIS_EXPRESSION, line no: 145, 0.04854368932038835, 0.04854368932038835, 0.0
-gene,SIMPLE_NAME, line no: 130,this.dataLocation=srcdatadir,ASSIGNMENT, line no: 145, 0.04807692307692308, 0.04807692307692308, 0.0
-gene,SIMPLE_NAME, line no: 130,this.dataLocation,FIELD_ACCESS, line no: 145, 0.04807692307692308, 0.04807692307692308, 0.0
-gene,SIMPLE_NAME, line no: 130,this,THIS_EXPRESSION, line no: 145, 0.04807692307692308, 0.04807692307692308, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,this.dataLocation=srcdatadir,ASSIGNMENT, line no: 145, 0.04807692307692308, 0.04807692307692308, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,this.dataLocation,FIELD_ACCESS, line no: 145, 0.04807692307692308, 0.04807692307692308, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,this,THIS_EXPRESSION, line no: 145, 0.04807692307692308, 0.04807692307692308, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,this.dataLocation=srcdatadir,ASSIGNMENT, line no: 145, 0.04807692307692308, 0.04807692307692308, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,this.dataLocation,FIELD_ACCESS, line no: 145, 0.04807692307692308, 0.04807692307692308, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,this,THIS_EXPRESSION, line no: 145, 0.04807692307692308, 0.04807692307692308, 0.0
-geneName,SIMPLE_NAME, line no: 130,this,THIS_EXPRESSION, line no: 145, 0.04807692307692308, 0.04807692307692308, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,org,SIMPLE_NAME, line no: 1, 0.019417475728155338, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,intermine,SIMPLE_NAME, line no: 1, 0.019417475728155338, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,bio,SIMPLE_NAME, line no: 1, 0.019417475728155338, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,dataconversion,SIMPLE_NAME, line no: 1, 0.019417475728155338, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,java,SIMPLE_NAME, line no: 13, 0.019417475728155338, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,io,SIMPLE_NAME, line no: 13, 0.019417475728155338, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,Reader,SIMPLE_NAME, line no: 14, 0.019417475728155338, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,util,SIMPLE_NAME, line no: 15, 0.019417475728155338, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,HashMap,SIMPLE_NAME, line no: 17, 0.019417475728155338, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,Map,SIMPLE_NAME, line no: 19, 0.019417475728155338, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,regex,SIMPLE_NAME, line no: 20, 0.019417475728155338, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,FileConverter,SIMPLE_NAME, line no: 23, 0.019417475728155338, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,ItemWriter,SIMPLE_NAME, line no: 24, 0.019417475728155338, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,metadata,SIMPLE_NAME, line no: 25, 0.019417475728155338, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,MetaDataException,SIMPLE_NAME, line no: 25, 0.019417475728155338, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,Model,SIMPLE_NAME, line no: 26, 0.019417475728155338, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,objectstore,SIMPLE_NAME, line no: 27, 0.019417475728155338, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,ObjectStoreException,SIMPLE_NAME, line no: 27, 0.019417475728155338, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,xml,SIMPLE_NAME, line no: 29, 0.019417475728155338, 0.019417475728155338, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,full,SIMPLE_NAME, line no: 29, 0.019417475728155338, 0.019417475728155338, 0.0
-gene,SIMPLE_NAME, line no: 130,org,SIMPLE_NAME, line no: 1, 0.019230769230769232, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,intermine,SIMPLE_NAME, line no: 1, 0.019230769230769232, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,bio,SIMPLE_NAME, line no: 1, 0.019230769230769232, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,dataconversion,SIMPLE_NAME, line no: 1, 0.019230769230769232, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,java,SIMPLE_NAME, line no: 13, 0.019230769230769232, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,io,SIMPLE_NAME, line no: 13, 0.019230769230769232, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,Reader,SIMPLE_NAME, line no: 14, 0.019230769230769232, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,util,SIMPLE_NAME, line no: 15, 0.019230769230769232, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,HashMap,SIMPLE_NAME, line no: 17, 0.019230769230769232, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,Map,SIMPLE_NAME, line no: 19, 0.019230769230769232, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,regex,SIMPLE_NAME, line no: 20, 0.019230769230769232, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,FileConverter,SIMPLE_NAME, line no: 23, 0.019230769230769232, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,ItemWriter,SIMPLE_NAME, line no: 24, 0.019230769230769232, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,metadata,SIMPLE_NAME, line no: 25, 0.019230769230769232, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,MetaDataException,SIMPLE_NAME, line no: 25, 0.019230769230769232, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,Model,SIMPLE_NAME, line no: 26, 0.019230769230769232, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,objectstore,SIMPLE_NAME, line no: 27, 0.019230769230769232, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,ObjectStoreException,SIMPLE_NAME, line no: 27, 0.019230769230769232, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,xml,SIMPLE_NAME, line no: 29, 0.019230769230769232, 0.019230769230769232, 0.0
-gene,SIMPLE_NAME, line no: 130,full,SIMPLE_NAME, line no: 29, 0.019230769230769232, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,org,SIMPLE_NAME, line no: 1, 0.019230769230769232, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,intermine,SIMPLE_NAME, line no: 1, 0.019230769230769232, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,bio,SIMPLE_NAME, line no: 1, 0.019230769230769232, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,dataconversion,SIMPLE_NAME, line no: 1, 0.019230769230769232, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,java,SIMPLE_NAME, line no: 13, 0.019230769230769232, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,io,SIMPLE_NAME, line no: 13, 0.019230769230769232, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,Reader,SIMPLE_NAME, line no: 14, 0.019230769230769232, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,util,SIMPLE_NAME, line no: 15, 0.019230769230769232, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,HashMap,SIMPLE_NAME, line no: 17, 0.019230769230769232, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,Map,SIMPLE_NAME, line no: 19, 0.019230769230769232, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,regex,SIMPLE_NAME, line no: 20, 0.019230769230769232, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,FileConverter,SIMPLE_NAME, line no: 23, 0.019230769230769232, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,ItemWriter,SIMPLE_NAME, line no: 24, 0.019230769230769232, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,metadata,SIMPLE_NAME, line no: 25, 0.019230769230769232, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,MetaDataException,SIMPLE_NAME, line no: 25, 0.019230769230769232, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,Model,SIMPLE_NAME, line no: 26, 0.019230769230769232, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,objectstore,SIMPLE_NAME, line no: 27, 0.019230769230769232, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,ObjectStoreException,SIMPLE_NAME, line no: 27, 0.019230769230769232, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,xml,SIMPLE_NAME, line no: 29, 0.019230769230769232, 0.019230769230769232, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,full,SIMPLE_NAME, line no: 29, 0.019230769230769232, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,org,SIMPLE_NAME, line no: 1, 0.019230769230769232, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,intermine,SIMPLE_NAME, line no: 1, 0.019230769230769232, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,bio,SIMPLE_NAME, line no: 1, 0.019230769230769232, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,dataconversion,SIMPLE_NAME, line no: 1, 0.019230769230769232, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,java,SIMPLE_NAME, line no: 13, 0.019230769230769232, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,io,SIMPLE_NAME, line no: 13, 0.019230769230769232, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,Reader,SIMPLE_NAME, line no: 14, 0.019230769230769232, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,util,SIMPLE_NAME, line no: 15, 0.019230769230769232, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,HashMap,SIMPLE_NAME, line no: 17, 0.019230769230769232, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,Map,SIMPLE_NAME, line no: 19, 0.019230769230769232, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,regex,SIMPLE_NAME, line no: 20, 0.019230769230769232, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,FileConverter,SIMPLE_NAME, line no: 23, 0.019230769230769232, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,ItemWriter,SIMPLE_NAME, line no: 24, 0.019230769230769232, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,metadata,SIMPLE_NAME, line no: 25, 0.019230769230769232, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,MetaDataException,SIMPLE_NAME, line no: 25, 0.019230769230769232, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,Model,SIMPLE_NAME, line no: 26, 0.019230769230769232, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,objectstore,SIMPLE_NAME, line no: 27, 0.019230769230769232, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,ObjectStoreException,SIMPLE_NAME, line no: 27, 0.019230769230769232, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,xml,SIMPLE_NAME, line no: 29, 0.019230769230769232, 0.019230769230769232, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,full,SIMPLE_NAME, line no: 29, 0.019230769230769232, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,org,SIMPLE_NAME, line no: 1, 0.019230769230769232, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,intermine,SIMPLE_NAME, line no: 1, 0.019230769230769232, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,bio,SIMPLE_NAME, line no: 1, 0.019230769230769232, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,dataconversion,SIMPLE_NAME, line no: 1, 0.019230769230769232, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,java,SIMPLE_NAME, line no: 13, 0.019230769230769232, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,io,SIMPLE_NAME, line no: 13, 0.019230769230769232, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,Reader,SIMPLE_NAME, line no: 14, 0.019230769230769232, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,util,SIMPLE_NAME, line no: 15, 0.019230769230769232, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,HashMap,SIMPLE_NAME, line no: 17, 0.019230769230769232, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,Map,SIMPLE_NAME, line no: 19, 0.019230769230769232, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,regex,SIMPLE_NAME, line no: 20, 0.019230769230769232, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,FileConverter,SIMPLE_NAME, line no: 23, 0.019230769230769232, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,ItemWriter,SIMPLE_NAME, line no: 24, 0.019230769230769232, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,metadata,SIMPLE_NAME, line no: 25, 0.019230769230769232, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,MetaDataException,SIMPLE_NAME, line no: 25, 0.019230769230769232, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,Model,SIMPLE_NAME, line no: 26, 0.019230769230769232, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,objectstore,SIMPLE_NAME, line no: 27, 0.019230769230769232, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,ObjectStoreException,SIMPLE_NAME, line no: 27, 0.019230769230769232, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,xml,SIMPLE_NAME, line no: 29, 0.019230769230769232, 0.019230769230769232, 0.0
-geneName,SIMPLE_NAME, line no: 130,full,SIMPLE_NAME, line no: 29, 0.019230769230769232, 0.019230769230769232, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,org.intermine.bio.dataconversion,QUALIFIED_NAME, line no: 1, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,org.intermine.bio,QUALIFIED_NAME, line no: 1, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,org.intermine,QUALIFIED_NAME, line no: 1, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,java.io.File,QUALIFIED_NAME, line no: 13, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,java.io,QUALIFIED_NAME, line no: 13, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,java.io.Reader,QUALIFIED_NAME, line no: 14, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,java.util.ArrayList,QUALIFIED_NAME, line no: 15, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,java.util,QUALIFIED_NAME, line no: 15, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,java.util.Collections,QUALIFIED_NAME, line no: 16, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,java.util.HashMap,QUALIFIED_NAME, line no: 17, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,java.util.Iterator,QUALIFIED_NAME, line no: 18, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,java.util.Map,QUALIFIED_NAME, line no: 19, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,java.util.regex.Matcher,QUALIFIED_NAME, line no: 20, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,java.util.regex,QUALIFIED_NAME, line no: 20, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,java.util.regex.Pattern,QUALIFIED_NAME, line no: 21, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,org.intermine.dataconversion.FileConverter,QUALIFIED_NAME, line no: 23, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,org.intermine.dataconversion,QUALIFIED_NAME, line no: 23, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,org.intermine.dataconversion.ItemWriter,QUALIFIED_NAME, line no: 24, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,org.intermine.metadata.MetaDataException,QUALIFIED_NAME, line no: 25, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,org.intermine.metadata,QUALIFIED_NAME, line no: 25, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,org.intermine.metadata.Model,QUALIFIED_NAME, line no: 26, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,org.intermine.objectstore.ObjectStoreException,QUALIFIED_NAME, line no: 27, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,org.intermine.objectstore,QUALIFIED_NAME, line no: 27, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,org.intermine.util.TextFileUtil,QUALIFIED_NAME, line no: 28, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,org.intermine.util,QUALIFIED_NAME, line no: 28, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,org.intermine.xml.full.Item,QUALIFIED_NAME, line no: 29, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,org.intermine.xml.full,QUALIFIED_NAME, line no: 29, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,org.intermine.xml,QUALIFIED_NAME, line no: 29, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,org.intermine.xml.full.ReferenceList,QUALIFIED_NAME, line no: 30, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,new HashMap<String String>(),CLASS_INSTANCE_CREATION, line no: 41, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,pathwayMap,SIMPLE_NAME, line no: 42, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,new HashMap(),CLASS_INSTANCE_CREATION, line no: 42, 0.009708737864077669, 0.009708737864077669, 0.0
-gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,Exception,SIMPLE_NAME, line no: 80, 0.009708737864077669, 0.009708737864077669, 0.0
-gene,SIMPLE_NAME, line no: 130,org.intermine.bio.dataconversion,QUALIFIED_NAME, line no: 1, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,org.intermine.bio,QUALIFIED_NAME, line no: 1, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,org.intermine,QUALIFIED_NAME, line no: 1, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,java.io.File,QUALIFIED_NAME, line no: 13, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,java.io,QUALIFIED_NAME, line no: 13, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,java.io.Reader,QUALIFIED_NAME, line no: 14, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,java.util.ArrayList,QUALIFIED_NAME, line no: 15, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,java.util,QUALIFIED_NAME, line no: 15, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,java.util.Collections,QUALIFIED_NAME, line no: 16, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,java.util.HashMap,QUALIFIED_NAME, line no: 17, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,java.util.Iterator,QUALIFIED_NAME, line no: 18, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,java.util.Map,QUALIFIED_NAME, line no: 19, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,java.util.regex.Matcher,QUALIFIED_NAME, line no: 20, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,java.util.regex,QUALIFIED_NAME, line no: 20, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,java.util.regex.Pattern,QUALIFIED_NAME, line no: 21, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,org.intermine.dataconversion.FileConverter,QUALIFIED_NAME, line no: 23, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,org.intermine.dataconversion,QUALIFIED_NAME, line no: 23, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,org.intermine.dataconversion.ItemWriter,QUALIFIED_NAME, line no: 24, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,org.intermine.metadata.MetaDataException,QUALIFIED_NAME, line no: 25, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,org.intermine.metadata,QUALIFIED_NAME, line no: 25, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,org.intermine.metadata.Model,QUALIFIED_NAME, line no: 26, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,org.intermine.objectstore.ObjectStoreException,QUALIFIED_NAME, line no: 27, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,org.intermine.objectstore,QUALIFIED_NAME, line no: 27, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,org.intermine.util.TextFileUtil,QUALIFIED_NAME, line no: 28, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,org.intermine.util,QUALIFIED_NAME, line no: 28, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,org.intermine.xml.full,QUALIFIED_NAME, line no: 29, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,org.intermine.xml,QUALIFIED_NAME, line no: 29, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,org.intermine.xml.full.ReferenceList,QUALIFIED_NAME, line no: 30, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,KeggPathwayConverter,SIMPLE_NAME, line no: 38, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,new HashMap<String String>(),CLASS_INSTANCE_CREATION, line no: 41, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,pathwayMap,SIMPLE_NAME, line no: 42, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,new HashMap(),CLASS_INSTANCE_CREATION, line no: 42, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,process,SIMPLE_NAME, line no: 80, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,Exception,SIMPLE_NAME, line no: 80, 0.009615384615384616, 0.009615384615384616, 0.0
-gene,SIMPLE_NAME, line no: 130,setSrcDataDir,SIMPLE_NAME, line no: 144, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,org.intermine.bio.dataconversion,QUALIFIED_NAME, line no: 1, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,org.intermine.bio,QUALIFIED_NAME, line no: 1, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,org.intermine,QUALIFIED_NAME, line no: 1, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,java.io.File,QUALIFIED_NAME, line no: 13, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,java.io,QUALIFIED_NAME, line no: 13, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,java.io.Reader,QUALIFIED_NAME, line no: 14, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,java.util.ArrayList,QUALIFIED_NAME, line no: 15, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,java.util,QUALIFIED_NAME, line no: 15, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,java.util.Collections,QUALIFIED_NAME, line no: 16, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,java.util.HashMap,QUALIFIED_NAME, line no: 17, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,java.util.Iterator,QUALIFIED_NAME, line no: 18, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,java.util.Map,QUALIFIED_NAME, line no: 19, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,java.util.regex.Matcher,QUALIFIED_NAME, line no: 20, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,java.util.regex,QUALIFIED_NAME, line no: 20, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,java.util.regex.Pattern,QUALIFIED_NAME, line no: 21, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,org.intermine.dataconversion.FileConverter,QUALIFIED_NAME, line no: 23, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,org.intermine.dataconversion,QUALIFIED_NAME, line no: 23, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,org.intermine.dataconversion.ItemWriter,QUALIFIED_NAME, line no: 24, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,org.intermine.metadata.MetaDataException,QUALIFIED_NAME, line no: 25, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,org.intermine.metadata,QUALIFIED_NAME, line no: 25, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,org.intermine.metadata.Model,QUALIFIED_NAME, line no: 26, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,org.intermine.objectstore.ObjectStoreException,QUALIFIED_NAME, line no: 27, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,org.intermine.objectstore,QUALIFIED_NAME, line no: 27, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,org.intermine.util.TextFileUtil,QUALIFIED_NAME, line no: 28, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,org.intermine.util,QUALIFIED_NAME, line no: 28, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,org.intermine.xml.full.Item,QUALIFIED_NAME, line no: 29, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,org.intermine.xml.full,QUALIFIED_NAME, line no: 29, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,org.intermine.xml,QUALIFIED_NAME, line no: 29, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,org.intermine.xml.full.ReferenceList,QUALIFIED_NAME, line no: 30, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,new HashMap<String String>(),CLASS_INSTANCE_CREATION, line no: 41, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,pathwayMap,SIMPLE_NAME, line no: 42, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,new HashMap(),CLASS_INSTANCE_CREATION, line no: 42, 0.009615384615384616, 0.009615384615384616, 0.0
-setAttribute,SIMPLE_NAME, line no: 130,Exception,SIMPLE_NAME, line no: 80, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,org.intermine.bio.dataconversion,QUALIFIED_NAME, line no: 1, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,org.intermine.bio,QUALIFIED_NAME, line no: 1, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,org.intermine,QUALIFIED_NAME, line no: 1, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,java.io.File,QUALIFIED_NAME, line no: 13, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,java.io,QUALIFIED_NAME, line no: 13, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,java.io.Reader,QUALIFIED_NAME, line no: 14, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,java.util.ArrayList,QUALIFIED_NAME, line no: 15, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,java.util,QUALIFIED_NAME, line no: 15, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,java.util.Collections,QUALIFIED_NAME, line no: 16, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,java.util.HashMap,QUALIFIED_NAME, line no: 17, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,java.util.Iterator,QUALIFIED_NAME, line no: 18, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,java.util.Map,QUALIFIED_NAME, line no: 19, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,java.util.regex.Matcher,QUALIFIED_NAME, line no: 20, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,java.util.regex,QUALIFIED_NAME, line no: 20, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,java.util.regex.Pattern,QUALIFIED_NAME, line no: 21, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,org.intermine.dataconversion.FileConverter,QUALIFIED_NAME, line no: 23, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,org.intermine.dataconversion,QUALIFIED_NAME, line no: 23, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,org.intermine.dataconversion.ItemWriter,QUALIFIED_NAME, line no: 24, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,org.intermine.metadata.MetaDataException,QUALIFIED_NAME, line no: 25, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,org.intermine.metadata,QUALIFIED_NAME, line no: 25, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,org.intermine.metadata.Model,QUALIFIED_NAME, line no: 26, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,org.intermine.objectstore.ObjectStoreException,QUALIFIED_NAME, line no: 27, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,org.intermine.objectstore,QUALIFIED_NAME, line no: 27, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,org.intermine.util.TextFileUtil,QUALIFIED_NAME, line no: 28, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,org.intermine.util,QUALIFIED_NAME, line no: 28, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,org.intermine.xml.full.Item,QUALIFIED_NAME, line no: 29, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,org.intermine.xml.full,QUALIFIED_NAME, line no: 29, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,org.intermine.xml,QUALIFIED_NAME, line no: 29, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,org.intermine.xml.full.ReferenceList,QUALIFIED_NAME, line no: 30, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,KeggPathwayConverter,SIMPLE_NAME, line no: 38, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,new HashMap<String String>(),CLASS_INSTANCE_CREATION, line no: 41, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,pathwayMap,SIMPLE_NAME, line no: 42, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,new HashMap(),CLASS_INSTANCE_CREATION, line no: 42, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,process,SIMPLE_NAME, line no: 80, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,Exception,SIMPLE_NAME, line no: 80, 0.009615384615384616, 0.009615384615384616, 0.0
-"secondaryIdentifier",STRING_LITERAL, line no: 130,setSrcDataDir,SIMPLE_NAME, line no: 144, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,org.intermine.bio.dataconversion,QUALIFIED_NAME, line no: 1, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,org.intermine.bio,QUALIFIED_NAME, line no: 1, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,org.intermine,QUALIFIED_NAME, line no: 1, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,java.io.File,QUALIFIED_NAME, line no: 13, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,java.io,QUALIFIED_NAME, line no: 13, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,java.io.Reader,QUALIFIED_NAME, line no: 14, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,java.util.ArrayList,QUALIFIED_NAME, line no: 15, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,java.util,QUALIFIED_NAME, line no: 15, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,java.util.Collections,QUALIFIED_NAME, line no: 16, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,java.util.HashMap,QUALIFIED_NAME, line no: 17, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,java.util.Iterator,QUALIFIED_NAME, line no: 18, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,java.util.Map,QUALIFIED_NAME, line no: 19, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,java.util.regex.Matcher,QUALIFIED_NAME, line no: 20, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,java.util.regex,QUALIFIED_NAME, line no: 20, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,java.util.regex.Pattern,QUALIFIED_NAME, line no: 21, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,org.intermine.dataconversion.FileConverter,QUALIFIED_NAME, line no: 23, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,org.intermine.dataconversion,QUALIFIED_NAME, line no: 23, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,org.intermine.dataconversion.ItemWriter,QUALIFIED_NAME, line no: 24, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,org.intermine.metadata.MetaDataException,QUALIFIED_NAME, line no: 25, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,org.intermine.metadata,QUALIFIED_NAME, line no: 25, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,org.intermine.metadata.Model,QUALIFIED_NAME, line no: 26, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,org.intermine.objectstore.ObjectStoreException,QUALIFIED_NAME, line no: 27, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,org.intermine.objectstore,QUALIFIED_NAME, line no: 27, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,org.intermine.util.TextFileUtil,QUALIFIED_NAME, line no: 28, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,org.intermine.util,QUALIFIED_NAME, line no: 28, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,org.intermine.xml.full.Item,QUALIFIED_NAME, line no: 29, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,org.intermine.xml.full,QUALIFIED_NAME, line no: 29, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,org.intermine.xml,QUALIFIED_NAME, line no: 29, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,org.intermine.xml.full.ReferenceList,QUALIFIED_NAME, line no: 30, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,KeggPathwayConverter,SIMPLE_NAME, line no: 38, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,new HashMap<String String>(),CLASS_INSTANCE_CREATION, line no: 41, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,pathwayMap,SIMPLE_NAME, line no: 42, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,new HashMap(),CLASS_INSTANCE_CREATION, line no: 42, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,process,SIMPLE_NAME, line no: 80, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,Exception,SIMPLE_NAME, line no: 80, 0.009615384615384616, 0.009615384615384616, 0.0
-geneName,SIMPLE_NAME, line no: 130,setSrcDataDir,SIMPLE_NAME, line no: 144, 0.009615384615384616, 0.009615384615384616, 0.0
+gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,setAttribute,SIMPLE_NAME, line no: 66, 1.0, 0.44660194174757284, 1.0
+gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,setReference,SIMPLE_NAME, line no: 131, 1.0, 1.0, 1.0
+gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,addCollection,SIMPLE_NAME, line no: 133, 1.0, 1.0, 1.0
+gene,SIMPLE_NAME, line no: 130,organism,SIMPLE_NAME, line no: 112, 1.0, 0.9807692307692307, 1.0
+setAttribute,SIMPLE_NAME, line no: 130,setReference,SIMPLE_NAME, line no: 131, 1.0, 1.0, 1.0
+setAttribute,SIMPLE_NAME, line no: 130,addCollection,SIMPLE_NAME, line no: 133, 1.0, 1.0, 1.0
+"secondaryIdentifier",STRING_LITERAL, line no: 130,String,SIMPLE_NAME, line no: 41, 1.0, 0.009615384615384616, 1.0
+"secondaryIdentifier",STRING_LITERAL, line no: 130,getName,SIMPLE_NAME, line no: 94, 1.0, 1.0, 1.0
+geneName,SIMPLE_NAME, line no: 130,String,SIMPLE_NAME, line no: 41, 1.0, 0.009615384615384616, 1.0
+geneName,SIMPLE_NAME, line no: 130,"^(\\S+)_gene_map.*",STRING_LITERAL, line no: 93, 1.0, 1.0, 1.0
+geneName,SIMPLE_NAME, line no: 130,currentFile.getName(),METHOD_INVOCATION, line no: 94, 1.0, 1.0, 1.0
+geneName,SIMPLE_NAME, line no: 130,getName,SIMPLE_NAME, line no: 94, 1.0, 1.0, 1.0
+geneName,SIMPLE_NAME, line no: 130,line[0],ARRAY_ACCESS, line no: 95, 1.0, 1.0, 1.0
+geneName,SIMPLE_NAME, line no: 130,"#",STRING_LITERAL, line no: 95, 1.0, 1.0, 1.0
+geneName,SIMPLE_NAME, line no: 130,"map_title",STRING_LITERAL, line no: 98, 1.0, 1.0, 1.0
+gene,SIMPLE_NAME, line no: 130,createItem,SIMPLE_NAME, line no: 65, 0.9903846153846154, 0.4423076923076923, 1.0
+gene,SIMPLE_NAME, line no: 130,getAndStoreItemOnce,SIMPLE_NAME, line no: 101, 0.9903846153846154, 0.46153846153846156, 1.0
+setAttribute,SIMPLE_NAME, line no: 130,gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130, 0.9903846153846154, 0.9903846153846154, 1.0
+setAttribute,SIMPLE_NAME, line no: 130,gene.setReference("organism" organism),METHOD_INVOCATION, line no: 131, 0.9903846153846154, 0.9903846153846154, 1.0
+setAttribute,SIMPLE_NAME, line no: 130,gene.addCollection(referenceList),METHOD_INVOCATION, line no: 133, 0.9903846153846154, 0.9903846153846154, 1.0
+"secondaryIdentifier",STRING_LITERAL, line no: 130,geneName,SIMPLE_NAME, line no: 114, 0.9903846153846154, 0.9711538461538461, 1.0
+geneName,SIMPLE_NAME, line no: 130,keggOrgName,SIMPLE_NAME, line no: 108, 0.9903846153846154, 0.9903846153846154, 1.0
+geneName,SIMPLE_NAME, line no: 130,matcher.group(1),METHOD_INVOCATION, line no: 108, 0.9903846153846154, 0.9903846153846154, 1.0
+geneName,SIMPLE_NAME, line no: 130,group,SIMPLE_NAME, line no: 108, 0.9903846153846154, 0.9903846153846154, 1.0
+geneName,SIMPLE_NAME, line no: 130,taxonId,SIMPLE_NAME, line no: 109, 0.9903846153846154, 0.9903846153846154, 1.0
+geneName,SIMPLE_NAME, line no: 130,keggOrganismToTaxonId.get(keggOrgName),METHOD_INVOCATION, line no: 109, 0.9903846153846154, 0.9903846153846154, 1.0
+geneName,SIMPLE_NAME, line no: 130,get,SIMPLE_NAME, line no: 109, 0.9903846153846154, 0.9903846153846154, 1.0
+geneName,SIMPLE_NAME, line no: 130,mapIdentifiers,SIMPLE_NAME, line no: 122, 0.9903846153846154, 0.9807692307692307, 1.0
+geneName,SIMPLE_NAME, line no: 130,"secondaryIdentifier",STRING_LITERAL, line no: 130, 0.9903846153846154, 0.9903846153846154, 1.0
+geneName,SIMPLE_NAME, line no: 130,"organism",STRING_LITERAL, line no: 131, 0.9903846153846154, 0.9903846153846154, 1.0
+gene,SIMPLE_NAME, line no: 130,Item,SIMPLE_NAME, line no: 29, 0.9807692307692307, 0.019230769230769232, 1.0
+gene,SIMPLE_NAME, line no: 130,getAndStoreItemOnce("Organism" "taxonId" taxonId),METHOD_INVOCATION, line no: 112, 0.9807692307692307, 0.9807692307692307, 1.0
+gene,SIMPLE_NAME, line no: 130,createItem("Gene"),METHOD_INVOCATION, line no: 129, 0.9807692307692307, 0.9807692307692307, 1.0
+"secondaryIdentifier",STRING_LITERAL, line no: 130,keggOrgName,SIMPLE_NAME, line no: 108, 0.9807692307692307, 0.9807692307692307, 1.0
+"secondaryIdentifier",STRING_LITERAL, line no: 130,group,SIMPLE_NAME, line no: 108, 0.9807692307692307, 0.9807692307692307, 1.0
+"secondaryIdentifier",STRING_LITERAL, line no: 130,taxonId,SIMPLE_NAME, line no: 109, 0.9807692307692307, 0.9807692307692307, 1.0
+"secondaryIdentifier",STRING_LITERAL, line no: 130,get,SIMPLE_NAME, line no: 109, 0.9807692307692307, 0.9807692307692307, 1.0
+"secondaryIdentifier",STRING_LITERAL, line no: 130,mapIdentifiers,SIMPLE_NAME, line no: 122, 0.9807692307692307, 0.9711538461538461, 1.0
+geneName,SIMPLE_NAME, line no: 130,"Organism",STRING_LITERAL, line no: 112, 0.9807692307692307, 0.9807692307692307, 1.0
+geneName,SIMPLE_NAME, line no: 130,"taxonId",STRING_LITERAL, line no: 112, 0.9807692307692307, 0.9807692307692307, 1.0
+geneName,SIMPLE_NAME, line no: 130,"Dmel_",STRING_LITERAL, line no: 117, 0.9807692307692307, 0.9807692307692307, 1.0
+geneName,SIMPLE_NAME, line no: 130," ",STRING_LITERAL, line no: 124, 0.9807692307692307, 0.9807692307692307, 1.0
+geneName,SIMPLE_NAME, line no: 130,"Gene",STRING_LITERAL, line no: 129, 0.9807692307692307, 0.9807692307692307, 1.0
+geneName,SIMPLE_NAME, line no: 130,line[1],ARRAY_ACCESS, line no: 100, 0.9711538461538461, 0.4519230769230769, 1.0
+geneName,SIMPLE_NAME, line no: 130,"pathways",STRING_LITERAL, line no: 123, 0.9711538461538461, 0.9711538461538461, 1.0
+gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,store(gene),METHOD_INVOCATION, line no: 134, 0.5, 1.0, 0.5
+gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,geneName.startsWith("Dmel_"),METHOD_INVOCATION, line no: 117, 0.49514563106796117, 0.9902912621359223, 0.5
+gene,SIMPLE_NAME, line no: 130,dataSet,SIMPLE_NAME, line no: 40, 0.4807692307692308, 0.009615384615384616, 1.0
+"secondaryIdentifier",STRING_LITERAL, line no: 130,getIdentifier,SIMPLE_NAME, line no: 105, 0.4807692307692308, 0.4807692307692308, 1.0
+geneName,SIMPLE_NAME, line no: 130,getIdentifier,SIMPLE_NAME, line no: 105, 0.4807692307692308, 0.4807692307692308, 1.0
+geneName,SIMPLE_NAME, line no: 130,dataSet.getIdentifier(),METHOD_INVOCATION, line no: 105, 0.47115384615384615, 0.47115384615384615, 1.0
+gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,setCollection,SIMPLE_NAME, line no: 103, 0.46601941747572817, 0.46601941747572817, 1.0
+gene,SIMPLE_NAME, line no: 130,pathway,SIMPLE_NAME, line no: 101, 0.46153846153846156, 0.4519230769230769, 1.0
+setAttribute,SIMPLE_NAME, line no: 130,setCollection,SIMPLE_NAME, line no: 103, 0.46153846153846156, 0.46153846153846156, 1.0
+"secondaryIdentifier",STRING_LITERAL, line no: 130,mapIdentifier,SIMPLE_NAME, line no: 99, 0.46153846153846156, 0.4519230769230769, 1.0
+"secondaryIdentifier",STRING_LITERAL, line no: 130,mapName,SIMPLE_NAME, line no: 100, 0.46153846153846156, 0.4519230769230769, 1.0
+geneName,SIMPLE_NAME, line no: 130,"name",STRING_LITERAL, line no: 66, 0.46153846153846156, 0.4326923076923077, 1.0
+geneName,SIMPLE_NAME, line no: 130,mapIdentifier,SIMPLE_NAME, line no: 99, 0.46153846153846156, 0.4519230769230769, 1.0
+geneName,SIMPLE_NAME, line no: 130,mapName,SIMPLE_NAME, line no: 100, 0.46153846153846156, 0.4519230769230769, 1.0
+geneName,SIMPLE_NAME, line no: 130,"Pathway",STRING_LITERAL, line no: 101, 0.46153846153846156, 0.46153846153846156, 1.0
+geneName,SIMPLE_NAME, line no: 130,"identifier",STRING_LITERAL, line no: 101, 0.46153846153846156, 0.46153846153846156, 1.0
+geneName,SIMPLE_NAME, line no: 130,"evidence",STRING_LITERAL, line no: 103, 0.46153846153846156, 0.46153846153846156, 1.0
+gene,SIMPLE_NAME, line no: 130,getAndStoreItemOnce("Pathway" "identifier" mapIdentifier),METHOD_INVOCATION, line no: 101, 0.4519230769230769, 0.4519230769230769, 1.0
+setAttribute,SIMPLE_NAME, line no: 130,pathway.setAttribute("name" mapName),METHOD_INVOCATION, line no: 102, 0.4519230769230769, 0.4519230769230769, 1.0
+setAttribute,SIMPLE_NAME, line no: 130,pathway.setCollection("evidence" new ArrayList(Collections.singleton(dataSet.getIdentifier()))),METHOD_INVOCATION, line no: 103, 0.4519230769230769, 0.4519230769230769, 1.0
+gene,SIMPLE_NAME, line no: 130,dataSource,SIMPLE_NAME, line no: 40, 0.4423076923076923, 0.009615384615384616, 1.0
+"secondaryIdentifier",STRING_LITERAL, line no: 130,put,SIMPLE_NAME, line no: 57, 0.4423076923076923, 0.4423076923076923, 1.0
+geneName,SIMPLE_NAME, line no: 130,put,SIMPLE_NAME, line no: 57, 0.4423076923076923, 0.4423076923076923, 1.0
+gene,SIMPLE_NAME, line no: 130,createItem("DataSource"),METHOD_INVOCATION, line no: 65, 0.4326923076923077, 0.4326923076923077, 1.0
+gene,SIMPLE_NAME, line no: 130,createItem("DataSet"),METHOD_INVOCATION, line no: 67, 0.4326923076923077, 0.4326923076923077, 1.0
+setAttribute,SIMPLE_NAME, line no: 130,dataSource.setAttribute("name" "Kyoto Encyclopedia of Genes and Genomes"),METHOD_INVOCATION, line no: 66, 0.4326923076923077, 0.4326923076923077, 1.0
+setAttribute,SIMPLE_NAME, line no: 130,dataSet.setAttribute("title" "KEGG PATHWAY - dme"),METHOD_INVOCATION, line no: 68, 0.4326923076923077, 0.4326923076923077, 1.0
+setAttribute,SIMPLE_NAME, line no: 130,dataSet.setAttribute("url" "http://www.genome.jp/kegg/pathway.html"),METHOD_INVOCATION, line no: 69, 0.4326923076923077, 0.4326923076923077, 1.0
+geneName,SIMPLE_NAME, line no: 130,keggOrganismToTaxonId.put("dme" "7227"),METHOD_INVOCATION, line no: 57, 0.4326923076923077, 0.4326923076923077, 1.0
+geneName,SIMPLE_NAME, line no: 130,"dme",STRING_LITERAL, line no: 57, 0.4326923076923077, 0.4326923076923077, 1.0
+geneName,SIMPLE_NAME, line no: 130,"7227",STRING_LITERAL, line no: 57, 0.4326923076923077, 0.4326923076923077, 1.0
+geneName,SIMPLE_NAME, line no: 130,"DataSource",STRING_LITERAL, line no: 65, 0.4326923076923077, 0.4326923076923077, 1.0
+geneName,SIMPLE_NAME, line no: 130,"Kyoto Encyclopedia of Genes and Genomes",STRING_LITERAL, line no: 66, 0.4326923076923077, 0.4326923076923077, 1.0
+geneName,SIMPLE_NAME, line no: 130,"DataSet",STRING_LITERAL, line no: 67, 0.4326923076923077, 0.4326923076923077, 1.0
+geneName,SIMPLE_NAME, line no: 130,"title",STRING_LITERAL, line no: 68, 0.4326923076923077, 0.4326923076923077, 1.0
+geneName,SIMPLE_NAME, line no: 130,"KEGG PATHWAY - dme",STRING_LITERAL, line no: 68, 0.4326923076923077, 0.4326923076923077, 1.0
+geneName,SIMPLE_NAME, line no: 130,"url",STRING_LITERAL, line no: 69, 0.4326923076923077, 0.4326923076923077, 1.0
+geneName,SIMPLE_NAME, line no: 130,"http://www.genome.jp/kegg/pathway.html",STRING_LITERAL, line no: 69, 0.4326923076923077, 0.4326923076923077, 1.0
+gene,SIMPLE_NAME, line no: 130,dataSource=createItem("DataSource"),ASSIGNMENT, line no: 65, 0.4230769230769231, 0.4230769230769231, 1.0
+gene,SIMPLE_NAME, line no: 130,dataSet=createItem("DataSet"),ASSIGNMENT, line no: 67, 0.4230769230769231, 0.4230769230769231, 1.0
+gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,gene.setReference("organism" organism),METHOD_INVOCATION, line no: 131, 0.3333333333333333, 1.0, 0.3333333333333333
+gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,gene.addCollection(referenceList),METHOD_INVOCATION, line no: 133, 0.3333333333333333, 1.0, 0.3333333333333333
+geneName,SIMPLE_NAME, line no: 130,mapArray[i],ARRAY_ACCESS, line no: 127, 0.22115384615384615, 0.22115384615384615, 1.0
+gene,SIMPLE_NAME, line no: 130,getAndStoreItemOnce("Pathway" "identifier" mapArray[i]),METHOD_INVOCATION, line no: 126, 0.21153846153846154, 0.21153846153846154, 1.0
+gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,addRefId,SIMPLE_NAME, line no: 126, 0.20388349514563106, 0.20388349514563106, 1.0
+setAttribute,SIMPLE_NAME, line no: 130,addRefId,SIMPLE_NAME, line no: 126, 0.20192307692307693, 0.20192307692307693, 1.0
+geneName,SIMPLE_NAME, line no: 130,getAndStoreItemOnce("Pathway" "identifier" mapArray[i]).getIdentifier(),METHOD_INVOCATION, line no: 126, 0.20192307692307693, 0.20192307692307693, 1.0
+setAttribute,SIMPLE_NAME, line no: 130,referenceList.addRefId(getAndStoreItemOnce("Pathway" "identifier" mapArray[i]).getIdentifier()),METHOD_INVOCATION, line no: 126, 0.19230769230769232, 0.19230769230769232, 1.0
+"secondaryIdentifier",STRING_LITERAL, line no: 130,substring,SIMPLE_NAME, line no: 118, 0.14423076923076922, 0.14423076923076922, 1.0
+geneName,SIMPLE_NAME, line no: 130,substring,SIMPLE_NAME, line no: 118, 0.14423076923076922, 0.14423076923076922, 1.0
+geneName,SIMPLE_NAME, line no: 130,geneName.substring(5),METHOD_INVOCATION, line no: 118, 0.1346153846153846, 0.1346153846153846, 1.0
+geneName,SIMPLE_NAME, line no: 130,geneName=geneName.substring(5),ASSIGNMENT, line no: 118, 0.125, 0.125, 1.0
+gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,geneName.substring(5),METHOD_INVOCATION, line no: 118, 0.06796116504854369, 0.13592233009708737, 0.5
+gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,geneName=geneName.substring(5),ASSIGNMENT, line no: 118, 0.06310679611650485, 0.1262135922330097, 0.5
+"secondaryIdentifier",STRING_LITERAL, line no: 130,dataLocation,SIMPLE_NAME, line no: 43, 0.057692307692307696, 0.009615384615384616, 1.0
+"secondaryIdentifier",STRING_LITERAL, line no: 130,srcdatadir,SIMPLE_NAME, line no: 144, 0.057692307692307696, 0.009615384615384616, 1.0
+geneName,SIMPLE_NAME, line no: 130,dataLocation,SIMPLE_NAME, line no: 43, 0.057692307692307696, 0.009615384615384616, 1.0
+geneName,SIMPLE_NAME, line no: 130,srcdatadir,SIMPLE_NAME, line no: 144, 0.057692307692307696, 0.009615384615384616, 1.0
+geneName,SIMPLE_NAME, line no: 130,this.dataLocation=srcdatadir,ASSIGNMENT, line no: 145, 0.04807692307692308, 0.04807692307692308, 1.0
+geneName,SIMPLE_NAME, line no: 130,this.dataLocation,FIELD_ACCESS, line no: 145, 0.04807692307692308, 0.04807692307692308, 1.0
+gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,KeggPathwayConverter,SIMPLE_NAME, line no: 52, 0.009708737864077669, 0.009708737864077669, 1.0
+gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,process,SIMPLE_NAME, line no: 80, 0.009708737864077669, 0.009708737864077669, 1.0
+gene.setAttribute("secondaryIdentifier" geneName),METHOD_INVOCATION, line no: 130,setSrcDataDir,SIMPLE_NAME, line no: 144, 0.009708737864077669, 0.009708737864077669, 1.0
+gene,SIMPLE_NAME, line no: 130,org.intermine.xml.full.Item,QUALIFIED_NAME, line no: 29, 0.009615384615384616, 0.009615384615384616, 1.0
+setAttribute,SIMPLE_NAME, line no: 130,KeggPathwayConverter,SIMPLE_NAME, line no: 52, 0.009615384615384616, 0.009615384615384616, 1.0
+setAttribute,SIMPLE_NAME, line no: 130,process,SIMPLE_NAME, line no: 80, 0.009615384615384616, 0.009615384615384616, 1.0
+setAttribute,SIMPLE_NAME, line no: 130,setSrcDataDir,SIMPLE_NAME, line no: 144, 0.009615384615384616, 0.009615384615384616, 1.0

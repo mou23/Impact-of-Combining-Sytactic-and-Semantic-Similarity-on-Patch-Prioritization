@@ -84,7 +84,7 @@ public class PatchGenerator {
 		parser.setResolveBindings(true);
 		parser.setBindingsRecovery(true);
 		
-		File sourcePath = new File("D:/code/"+fileIdentifier);
+		File sourcePath = new File("/home/mou/code/"+fileIdentifier);
 		File[] folders = sourcePath.listFiles();
 		
 		for(int i=0; i<folders.length; i++) {
@@ -107,7 +107,7 @@ public class PatchGenerator {
 		parser.setUnitName("file.java");
 		this.compilationUnit = (CompilationUnit) parser.createAST(null);
 
-//		this.compilationUnit.accept(new VariableCollector());
+		this.compilationUnit.accept(new VariableCollector());
 		this.compilationUnit.accept(ingredientCollector);
 		
 		//		System.out.println("INGREDIENT");
@@ -121,43 +121,44 @@ public class PatchGenerator {
 //			Variable v = VariableCollector.variables.get(i);
 //			System.out.println(v);
 //		}
-//		ReplaceHandler replaceHandler = ReplaceHandler.createReplaceHandler();
-//		for(int i=0; i<this.ingredientCollector.faultyNodes.size(); i++) {
-//			Node faultyNode = this.ingredientCollector.faultyNodes.get(i);
-//			replaceHandler.replace(faultyNode);
-//			//			System.out.println(faultyNode);
-//			//			this.generatePatchTemplate(faultyNode);
-//		}
+		ReplaceHandler replaceHandler = ReplaceHandler.createReplaceHandler();
+		for(int i=0; i<this.ingredientCollector.faultyNodes.size(); i++) {
+			Node faultyNode = this.ingredientCollector.faultyNodes.get(i);
+			replaceHandler.replace(faultyNode);
+			//			System.out.println(faultyNode);
+			//			this.generatePatchTemplate(faultyNode);
+		}
 //////		////		candidatePatchesList = new ArrayList<CandidatePatch>(candidatePatchesSet);
-//		Collections.sort(this.candidatePatchesList);
+		Collections.sort(this.candidatePatchesList);
 ////////		//
-//		this.writeCandidatePatches(fileIdentifier);
+		this.writeCandidatePatches(fileIdentifier);
 ////////		////		System.out.println((long)15*60*1000000000);
-////////		this.correctPatchFound = false;
-//		System.out.println(this.candidatePatchesList.size() +" Patches Generated");
-//		for(int i=0; i<this.candidatePatchesList.size(); i++) { //candidatePatches.size()
-//			//			long currentTime = System.nanoTime();
-//			//			System.out.println("Patch no: "+(i+1)+ " ");
-//			//			System.out.println(this.candidatePatchesList.get(i).toString()+"\n");
-//			//			
-//			//			if((currentTime - startingTime) >= (long)30*60*1000000000) {
-//			//				System.out.println("time-up!!!!!!!!!!!!!!!!");
-//			//				break;
-//			//			}
-//			this.document = new Document(fileContent);
-//			CompilationUnit compilationUnitCopy = (CompilationUnit)ASTNode.copySubtree(compilationUnit.getAST(), compilationUnit);
-//
-//			ASTRewrite rewriter = ASTRewrite.create(compilationUnitCopy.getAST()); //compilationUnit.getAST();
-//			this.generateConcretePatch(rewriter, candidatePatchesList.get(i));
-//			if(correctPatchFound==true) {
-//				this.correctPatches++;
-//				System.out.println("Total Candidate Patches: " +candidatePatchesList.size());
-//				System.out.println("Correct Patch Rank: " + (i+1));
-//				break;
-//				//				correctPatchFound = false;
-//			}
-//		}
-//		if(correctPatchFound==false) {
+	this.correctPatchFound = false;
+		System.out.println(this.candidatePatchesList.size() +" Patches Generated");
+		for(int i=0; i<this.candidatePatchesList.size(); i++) { //candidatePatches.size()
+			//			long currentTime = System.nanoTime();
+			//			System.out.println("Patch no: "+(i+1)+ " ");
+			//			System.out.println(this.candidatePatchesList.get(i).toString()+"\n");
+			//			
+			//			if((currentTime - startingTime) >= (long)30*60*1000000000) {
+			//				System.out.println("time-up!!!!!!!!!!!!!!!!");
+			//				break;
+			//			}
+			this.document = new Document(fileContent);
+			CompilationUnit compilationUnitCopy = (CompilationUnit)ASTNode.copySubtree(compilationUnit.getAST(), compilationUnit);
+
+			ASTRewrite rewriter = ASTRewrite.create(compilationUnitCopy.getAST()); //compilationUnit.getAST();
+			this.generateConcretePatch(rewriter, candidatePatchesList.get(i));
+			if(correctPatchFound==true) {
+				this.correctPatches++;
+				System.out.println("Total Candidate Patches: " +candidatePatchesList.size());
+				System.out.println("Correct Patch Rank: " + (i+1));
+				break;
+				//				correctPatchFound = false;
+			}
+		}
+//		if(IngredientCollector.problem==true) {
+//			System.out.println("DELETE "+file.getName());
 //			file.delete();
 //		}
 //		System.out.println(this.correctPatches + " Correct Patches Found");
@@ -197,6 +198,7 @@ public class PatchGenerator {
 	}
 
 	private void init() {
+//		IngredientCollector.problem = false;
 		this.correctPatches = 0;
 		this.candidatePatchesList.clear();
 		this.sourceFiles.clear();

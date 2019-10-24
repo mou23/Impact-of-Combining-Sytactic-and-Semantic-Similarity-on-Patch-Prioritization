@@ -22,7 +22,7 @@ public class IngredientCollector extends ASTVisitor {
 	private static IngredientCollector ingredientCollector;
 	ArrayList<Node> faultyNodes;
 	ArrayList<Node> fixingIngredients;
-    
+//    static boolean problem = false;
 	private IngredientCollector() {
 		faultyNodes = new ArrayList<Node>();
 		fixingIngredients = new ArrayList<Node>();
@@ -39,23 +39,27 @@ public class IngredientCollector extends ASTVisitor {
 	
 	@Override
 	public void preVisit(ASTNode node) {
-		PatchGenerator patchGenerator = PatchGenerator.createPatchGenerator();
-		if(node.getNodeType()==ASTNode.IMPORT_DECLARATION) {
-			ImportDeclaration id = (ImportDeclaration)node;
-			IBinding ib = id.resolveBinding();
-			System.out.println(id.toString().replace("\n", "") + " "+ ib.isRecovered());
-			if(ib.toString().contains("RecoveredTypeBinding")) {
-				System.out.println("PROBLEM!!!!!!!!!!!!!!!!!!!!");
-				System.out.println(ib);
-				System.out.println();
-			}
-		}
-//		if(node instanceof Expression) {
-////			System.out.println("NODE " +node);
-////			System.out.println(patchGenerator.compilationUnit.getLineNumber(node.getStartPosition()) + " "+patchGenerator.compilationUnit.getLineNumber(node.getStartPosition()+node.getLength()));
-//			this.collectFaultyNode(node);
-//			this.collectFixingIngredients(node);
-//		}		
+//		if(problem==false) {
+//			PatchGenerator patchGenerator = PatchGenerator.createPatchGenerator();
+//			if(node.getNodeType()==ASTNode.IMPORT_DECLARATION) {
+//				ImportDeclaration id = (ImportDeclaration)node;
+//				IBinding ib = id.resolveBinding();
+//				if(ib.toString().contains("RecoveredTypeBinding")) {
+//					System.out.println(id.toString().replace("\n", "") + " "+ ib.isRecovered());
+//					System.out.println("PROBLEM!!!!!!!!!!!!!!!!!!!!");
+//					System.out.println(ib);
+//					System.out.println();
+//					problem = true;
+//				}
+//			}
+//		}
+		
+		if(node instanceof Expression) {
+//			System.out.println("NODE " +node);
+//			System.out.println(patchGenerator.compilationUnit.getLineNumber(node.getStartPosition()) + " "+patchGenerator.compilationUnit.getLineNumber(node.getStartPosition()+node.getLength()));
+			this.collectFaultyNode(node);
+			this.collectFixingIngredients(node);
+		}		
 	}
 
 	private void collectFaultyNode(ASTNode node) {

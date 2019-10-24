@@ -1,636 +1,93 @@
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,startIndex,SIMPLE_NAME, line no: 11, 2.0, 0.006211180124223602, 1.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,localStart,SIMPLE_NAME, line no: 20, 2.0, 1.0, 1.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,preMatcher.find(localStart),METHOD_INVOCATION, line no: 21, 2.0, 1.0, 1.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,start,SIMPLE_NAME, line no: 22, 2.0, 1.0, 1.0
-localStart,SIMPLE_NAME, line no: 22,startIndex,SIMPLE_NAME, line no: 11, 2.0, 0.006172839506172839, 1.0
-localStart,SIMPLE_NAME, line no: 22,start,SIMPLE_NAME, line no: 22, 2.0, 1.0, 1.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,startIndex,SIMPLE_NAME, line no: 11, 2.0, 0.006172839506172839, 1.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,localStart,SIMPLE_NAME, line no: 20, 2.0, 1.0, 1.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,start,SIMPLE_NAME, line no: 22, 2.0, 1.0, 1.0
-preMatcher,SIMPLE_NAME, line no: 22,Matcher,SIMPLE_NAME, line no: 3, 2.0, 0.006134969325153374, 1.0
-preMatcher,SIMPLE_NAME, line no: 22,prePattern.matcher(input),METHOD_INVOCATION, line no: 14, 2.0, 1.0, 1.0
-preMatcher,SIMPLE_NAME, line no: 22,matcher,SIMPLE_NAME, line no: 14, 2.0, 1.0, 1.0
-preMatcher,SIMPLE_NAME, line no: 22,postMatcher,SIMPLE_NAME, line no: 16, 2.0, 1.0, 1.0
-preMatcher,SIMPLE_NAME, line no: 22,postPattern.matcher(input),METHOD_INVOCATION, line no: 16, 2.0, 1.0, 1.0
-preMatcher,SIMPLE_NAME, line no: 22,pattern.matcher(input),METHOD_INVOCATION, line no: 18, 2.0, 1.0, 1.0
-start,SIMPLE_NAME, line no: 22,startIndex,SIMPLE_NAME, line no: 11, 2.0, 0.006134969325153374, 1.0
-start,SIMPLE_NAME, line no: 22,localStart,SIMPLE_NAME, line no: 20, 2.0, 1.0, 1.0
-start,SIMPLE_NAME, line no: 22,preMatcher.start(),METHOD_INVOCATION, line no: 22, 1.9938650306748467, 0.9938650306748467, 1.0
-localStart,SIMPLE_NAME, line no: 22,localStart=preMatcher.start(),ASSIGNMENT, line no: 22, 1.9938271604938271, 0.9938271604938271, 1.0
-localStart,SIMPLE_NAME, line no: 22,preMatcher.start(),METHOD_INVOCATION, line no: 22, 1.9938271604938271, 0.9938271604938271, 1.0
-start,SIMPLE_NAME, line no: 22,localStart=preMatcher.start(),ASSIGNMENT, line no: 22, 1.9877300613496933, 0.9877300613496932, 1.0
-start,SIMPLE_NAME, line no: 22,length,SIMPLE_NAME, line no: 29, 1.9877300613496933, 0.6625766871165644, 1.0
-localStart,SIMPLE_NAME, line no: 22,length,SIMPLE_NAME, line no: 29, 1.9876543209876543, 0.6666666666666666, 1.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,length,SIMPLE_NAME, line no: 29, 1.9876543209876543, 0.6666666666666666, 1.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,length,SIMPLE_NAME, line no: 29, 1.9875776397515528, 0.6708074534161491, 1.0
-start,SIMPLE_NAME, line no: 22,localStart + 1,INFIX_EXPRESSION, line no: 24, 1.98159509202454, 0.9815950920245399, 1.0
-start,SIMPLE_NAME, line no: 22,1,NUMBER_LITERAL, line no: 24, 1.98159509202454, 0.9815950920245399, 1.0
-start,SIMPLE_NAME, line no: 22,input.length(),METHOD_INVOCATION, line no: 29, 1.98159509202454, 0.656441717791411, 1.0
-localStart,SIMPLE_NAME, line no: 22,localStart + 1,INFIX_EXPRESSION, line no: 24, 1.9814814814814814, 0.9814814814814815, 1.0
-localStart,SIMPLE_NAME, line no: 22,1,NUMBER_LITERAL, line no: 24, 1.9814814814814814, 0.9814814814814815, 1.0
-localStart,SIMPLE_NAME, line no: 22,input.length(),METHOD_INVOCATION, line no: 29, 1.9814814814814814, 0.6604938271604939, 1.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,end,SIMPLE_NAME, line no: 25, 1.8509316770186337, 0.8385093167701864, 1.0
-localStart,SIMPLE_NAME, line no: 22,end,SIMPLE_NAME, line no: 25, 1.845679012345679, 0.8333333333333334, 1.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,end,SIMPLE_NAME, line no: 25, 1.845679012345679, 0.8333333333333334, 1.0
-preMatcher,SIMPLE_NAME, line no: 22,region,SIMPLE_NAME, line no: 26, 1.8404907975460123, 0.8404907975460123, 1.0
-start,SIMPLE_NAME, line no: 22,end,SIMPLE_NAME, line no: 25, 1.8404907975460123, 0.8282208588957055, 1.0
-localStart,SIMPLE_NAME, line no: 22,localStart=end,ASSIGNMENT, line no: 32, 1.8395061728395061, 0.10493827160493827, 1.0
-preMatcher,SIMPLE_NAME, line no: 22,matcher.region(startIndex end),METHOD_INVOCATION, line no: 26, 1.834355828220859, 0.8343558282208589, 1.0
-start,SIMPLE_NAME, line no: 22,localStart=end,ASSIGNMENT, line no: 32, 1.834355828220859, 0.10429447852760736, 1.0
-localStart,SIMPLE_NAME, line no: 22,postMatcher.end(),METHOD_INVOCATION, line no: 25, 1.8333333333333335, 0.8333333333333334, 1.0
-start,SIMPLE_NAME, line no: 22,postMatcher.end(),METHOD_INVOCATION, line no: 25, 1.8282208588957056, 0.8282208588957055, 1.0
-localStart,SIMPLE_NAME, line no: 22,2,NUMBER_LITERAL, line no: 37, 1.6666666666666665, 0.6666666666666666, 1.0
-localStart,SIMPLE_NAME, line no: 22,body.length(),METHOD_INVOCATION, line no: 37, 1.6666666666666665, 0.6604938271604939, 1.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,_startOffSet,SIMPLE_NAME, line no: 36, 1.6645962732919255, 0.6645962732919255, 1.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,_endOffSet,SIMPLE_NAME, line no: 37, 1.6645962732919255, 0.6645962732919255, 1.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,getStartOffsetLastFound,SIMPLE_NAME, line no: 41, 1.6645962732919255, 0.6645962732919255, 1.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,getEndOffsetLastFound,SIMPLE_NAME, line no: 42, 1.6645962732919255, 0.6645962732919255, 1.0
-start,SIMPLE_NAME, line no: 22,2,NUMBER_LITERAL, line no: 37, 1.6625766871165644, 0.6625766871165644, 1.0
-start,SIMPLE_NAME, line no: 22,body.length(),METHOD_INVOCATION, line no: 37, 1.6625766871165644, 0.656441717791411, 1.0
-localStart,SIMPLE_NAME, line no: 22,end - 1,INFIX_EXPRESSION, line no: 29, 1.6604938271604939, 0.6604938271604939, 1.0
-localStart,SIMPLE_NAME, line no: 22,_startOffSet,SIMPLE_NAME, line no: 36, 1.6604938271604939, 0.6604938271604939, 1.0
-localStart,SIMPLE_NAME, line no: 22,_endOffSet,SIMPLE_NAME, line no: 37, 1.6604938271604939, 0.6604938271604939, 1.0
-localStart,SIMPLE_NAME, line no: 22,end - 2,INFIX_EXPRESSION, line no: 37, 1.6604938271604939, 0.6604938271604939, 1.0
-localStart,SIMPLE_NAME, line no: 22,body.length() - 1,INFIX_EXPRESSION, line no: 40, 1.6604938271604939, 0.6604938271604939, 1.0
-localStart,SIMPLE_NAME, line no: 22,getStartOffsetLastFound,SIMPLE_NAME, line no: 41, 1.6604938271604939, 0.6604938271604939, 1.0
-localStart,SIMPLE_NAME, line no: 22,getEndOffsetLastFound,SIMPLE_NAME, line no: 42, 1.6604938271604939, 0.6604938271604939, 1.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,_startOffSet,SIMPLE_NAME, line no: 36, 1.6604938271604939, 0.6604938271604939, 1.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,_endOffSet,SIMPLE_NAME, line no: 37, 1.6604938271604939, 0.6604938271604939, 1.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,getStartOffsetLastFound,SIMPLE_NAME, line no: 41, 1.6604938271604939, 0.6604938271604939, 1.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,getEndOffsetLastFound,SIMPLE_NAME, line no: 42, 1.6604938271604939, 0.6604938271604939, 1.0
-start,SIMPLE_NAME, line no: 22,end - 1,INFIX_EXPRESSION, line no: 29, 1.656441717791411, 0.656441717791411, 1.0
-start,SIMPLE_NAME, line no: 22,_startOffSet,SIMPLE_NAME, line no: 36, 1.656441717791411, 0.656441717791411, 1.0
-start,SIMPLE_NAME, line no: 22,_endOffSet,SIMPLE_NAME, line no: 37, 1.656441717791411, 0.656441717791411, 1.0
-start,SIMPLE_NAME, line no: 22,end - 2,INFIX_EXPRESSION, line no: 37, 1.656441717791411, 0.656441717791411, 1.0
-start,SIMPLE_NAME, line no: 22,body.length() - 1,INFIX_EXPRESSION, line no: 40, 1.656441717791411, 0.656441717791411, 1.0
-start,SIMPLE_NAME, line no: 22,getStartOffsetLastFound,SIMPLE_NAME, line no: 41, 1.656441717791411, 0.656441717791411, 1.0
-start,SIMPLE_NAME, line no: 22,getEndOffsetLastFound,SIMPLE_NAME, line no: 42, 1.656441717791411, 0.656441717791411, 1.0
-localStart,SIMPLE_NAME, line no: 22,this._startOffSet,FIELD_ACCESS, line no: 36, 1.654320987654321, 0.654320987654321, 1.0
-localStart,SIMPLE_NAME, line no: 22,matcher.start(),METHOD_INVOCATION, line no: 36, 1.654320987654321, 0.654320987654321, 1.0
-localStart,SIMPLE_NAME, line no: 22,this._endOffSet,FIELD_ACCESS, line no: 37, 1.654320987654321, 0.654320987654321, 1.0
-localStart,SIMPLE_NAME, line no: 22,end - 2 + body.length(),INFIX_EXPRESSION, line no: 37, 1.654320987654321, 0.654320987654321, 1.0
-localStart,SIMPLE_NAME, line no: 22,this.getStartOffsetLastFound(),METHOD_INVOCATION, line no: 41, 1.654320987654321, 0.654320987654321, 1.0
-localStart,SIMPLE_NAME, line no: 22,this.getEndOffsetLastFound(),METHOD_INVOCATION, line no: 41, 1.654320987654321, 0.654320987654321, 1.0
-start,SIMPLE_NAME, line no: 22,this._startOffSet,FIELD_ACCESS, line no: 36, 1.6503067484662577, 0.6503067484662577, 1.0
-start,SIMPLE_NAME, line no: 22,matcher.start(),METHOD_INVOCATION, line no: 36, 1.6503067484662577, 0.6503067484662577, 1.0
-start,SIMPLE_NAME, line no: 22,this._endOffSet,FIELD_ACCESS, line no: 37, 1.6503067484662577, 0.6503067484662577, 1.0
-start,SIMPLE_NAME, line no: 22,end - 2 + body.length(),INFIX_EXPRESSION, line no: 37, 1.6503067484662577, 0.6503067484662577, 1.0
-start,SIMPLE_NAME, line no: 22,this.getStartOffsetLastFound(),METHOD_INVOCATION, line no: 41, 1.6503067484662577, 0.6503067484662577, 1.0
-start,SIMPLE_NAME, line no: 22,this.getEndOffsetLastFound(),METHOD_INVOCATION, line no: 41, 1.6503067484662577, 0.6503067484662577, 1.0
-localStart,SIMPLE_NAME, line no: 22,this._startOffSet=matcher.start(),ASSIGNMENT, line no: 36, 1.6481481481481481, 0.6481481481481481, 1.0
-localStart,SIMPLE_NAME, line no: 22,this._endOffSet=end - 2 + body.length(),ASSIGNMENT, line no: 37, 1.6481481481481481, 0.6481481481481481, 1.0
-start,SIMPLE_NAME, line no: 22,this._startOffSet=matcher.start(),ASSIGNMENT, line no: 36, 1.6441717791411041, 0.6441717791411042, 1.0
-start,SIMPLE_NAME, line no: 22,this._endOffSet=end - 2 + body.length(),ASSIGNMENT, line no: 37, 1.6441717791411041, 0.6441717791411042, 1.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,preMatcher.start(),METHOD_INVOCATION, line no: 22, 1.5, 1.0, 0.5
-preMatcher.start(),METHOD_INVOCATION, line no: 22,preMatcher.find(localStart),METHOD_INVOCATION, line no: 21, 1.5, 1.0, 0.5
-preMatcher.start(),METHOD_INVOCATION, line no: 22,localStart=preMatcher.start(),ASSIGNMENT, line no: 22, 1.4938271604938271, 0.9938271604938271, 0.5
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,localStart + 1,INFIX_EXPRESSION, line no: 24, 1.4875776397515528, 0.9875776397515528, 0.5
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,localStart > input.length(),INFIX_EXPRESSION, line no: 46, 1.4875776397515528, 0.84472049689441, 0.5
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,postMatcher.find(localStart + 1),METHOD_INVOCATION, line no: 24, 1.320910973084886, 0.9875776397515528, 0.3333333333333333
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,localStart=end,ASSIGNMENT, line no: 32, 1.1780538302277432, 0.10559006211180125, 0.3333333333333333
-localStart,SIMPLE_NAME, line no: 22,0,NUMBER_LITERAL, line no: 60, 1.1728395061728394, 0.1728395061728395, 1.0
-start,SIMPLE_NAME, line no: 22,0,NUMBER_LITERAL, line no: 60, 1.1717791411042944, 0.17177914110429449, 1.0
-preMatcher,SIMPLE_NAME, line no: 22,mainMatcher,SIMPLE_NAME, line no: 87, 1.0061349693251533, 0.006134969325153374, 1.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,Matcher,SIMPLE_NAME, line no: 3, 1.0, 0.006211180124223602, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,Pattern,SIMPLE_NAME, line no: 4, 1.0, 0.006211180124223602, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,input,SIMPLE_NAME, line no: 11, 1.0, 0.006211180124223602, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,this._found=false,ASSIGNMENT, line no: 12, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,this._found,FIELD_ACCESS, line no: 12, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,this,THIS_EXPRESSION, line no: 12, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,_found,SIMPLE_NAME, line no: 12, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,false,BOOLEAN_LITERAL, line no: 12, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,prePattern,SIMPLE_NAME, line no: 13, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,Pattern.compile(this.getPrePatternString()),METHOD_INVOCATION, line no: 13, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,compile,SIMPLE_NAME, line no: 13, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,this.getPrePatternString(),METHOD_INVOCATION, line no: 13, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,getPrePatternString,SIMPLE_NAME, line no: 13, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,preMatcher,SIMPLE_NAME, line no: 14, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,prePattern.matcher(input),METHOD_INVOCATION, line no: 14, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,matcher,SIMPLE_NAME, line no: 14, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,postPattern,SIMPLE_NAME, line no: 15, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,Pattern.compile(this.getPostPatternString()),METHOD_INVOCATION, line no: 15, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,this.getPostPatternString(),METHOD_INVOCATION, line no: 15, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,getPostPatternString,SIMPLE_NAME, line no: 15, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,postMatcher,SIMPLE_NAME, line no: 16, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,postPattern.matcher(input),METHOD_INVOCATION, line no: 16, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,pattern,SIMPLE_NAME, line no: 17, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,Pattern.compile(this.getPatternString()),METHOD_INVOCATION, line no: 17, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,this.getPatternString(),METHOD_INVOCATION, line no: 17, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,getPatternString,SIMPLE_NAME, line no: 17, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,pattern.matcher(input),METHOD_INVOCATION, line no: 18, 1.0, 1.0, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,find,SIMPLE_NAME, line no: 21, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,Matcher,SIMPLE_NAME, line no: 3, 1.0, 0.006172839506172839, 0.0
-localStart,SIMPLE_NAME, line no: 22,Pattern,SIMPLE_NAME, line no: 4, 1.0, 0.006172839506172839, 0.0
-localStart,SIMPLE_NAME, line no: 22,input,SIMPLE_NAME, line no: 11, 1.0, 0.006172839506172839, 0.0
-localStart,SIMPLE_NAME, line no: 22,this._found=false,ASSIGNMENT, line no: 12, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,this._found,FIELD_ACCESS, line no: 12, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,this,THIS_EXPRESSION, line no: 12, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,_found,SIMPLE_NAME, line no: 12, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,false,BOOLEAN_LITERAL, line no: 12, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,prePattern,SIMPLE_NAME, line no: 13, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,Pattern.compile(this.getPrePatternString()),METHOD_INVOCATION, line no: 13, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,compile,SIMPLE_NAME, line no: 13, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,this.getPrePatternString(),METHOD_INVOCATION, line no: 13, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,getPrePatternString,SIMPLE_NAME, line no: 13, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,preMatcher,SIMPLE_NAME, line no: 14, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,prePattern.matcher(input),METHOD_INVOCATION, line no: 14, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,matcher,SIMPLE_NAME, line no: 14, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,postPattern,SIMPLE_NAME, line no: 15, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,Pattern.compile(this.getPostPatternString()),METHOD_INVOCATION, line no: 15, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,this.getPostPatternString(),METHOD_INVOCATION, line no: 15, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,getPostPatternString,SIMPLE_NAME, line no: 15, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,postMatcher,SIMPLE_NAME, line no: 16, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,postPattern.matcher(input),METHOD_INVOCATION, line no: 16, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,pattern,SIMPLE_NAME, line no: 17, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,Pattern.compile(this.getPatternString()),METHOD_INVOCATION, line no: 17, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,this.getPatternString(),METHOD_INVOCATION, line no: 17, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,getPatternString,SIMPLE_NAME, line no: 17, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,pattern.matcher(input),METHOD_INVOCATION, line no: 18, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,preMatcher.find(localStart),METHOD_INVOCATION, line no: 21, 1.0, 1.0, 0.0
-localStart,SIMPLE_NAME, line no: 22,find,SIMPLE_NAME, line no: 21, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,Matcher,SIMPLE_NAME, line no: 3, 1.0, 0.006172839506172839, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,Pattern,SIMPLE_NAME, line no: 4, 1.0, 0.006172839506172839, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,input,SIMPLE_NAME, line no: 11, 1.0, 0.006172839506172839, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,this._found=false,ASSIGNMENT, line no: 12, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,this._found,FIELD_ACCESS, line no: 12, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,this,THIS_EXPRESSION, line no: 12, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,_found,SIMPLE_NAME, line no: 12, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,false,BOOLEAN_LITERAL, line no: 12, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,prePattern,SIMPLE_NAME, line no: 13, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,Pattern.compile(this.getPrePatternString()),METHOD_INVOCATION, line no: 13, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,compile,SIMPLE_NAME, line no: 13, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,this.getPrePatternString(),METHOD_INVOCATION, line no: 13, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,getPrePatternString,SIMPLE_NAME, line no: 13, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,preMatcher,SIMPLE_NAME, line no: 14, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,prePattern.matcher(input),METHOD_INVOCATION, line no: 14, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,matcher,SIMPLE_NAME, line no: 14, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,postPattern,SIMPLE_NAME, line no: 15, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,Pattern.compile(this.getPostPatternString()),METHOD_INVOCATION, line no: 15, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,this.getPostPatternString(),METHOD_INVOCATION, line no: 15, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,getPostPatternString,SIMPLE_NAME, line no: 15, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,postMatcher,SIMPLE_NAME, line no: 16, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,postPattern.matcher(input),METHOD_INVOCATION, line no: 16, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,pattern,SIMPLE_NAME, line no: 17, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,Pattern.compile(this.getPatternString()),METHOD_INVOCATION, line no: 17, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,this.getPatternString(),METHOD_INVOCATION, line no: 17, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,getPatternString,SIMPLE_NAME, line no: 17, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,pattern.matcher(input),METHOD_INVOCATION, line no: 18, 1.0, 1.0, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,find,SIMPLE_NAME, line no: 21, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,java.util.regex.Matcher,QUALIFIED_NAME, line no: 3, 1.0, 0.0, 1.0
-preMatcher,SIMPLE_NAME, line no: 22,Pattern,SIMPLE_NAME, line no: 4, 1.0, 0.006134969325153374, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,input,SIMPLE_NAME, line no: 11, 1.0, 0.006134969325153374, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,startIndex,SIMPLE_NAME, line no: 11, 1.0, 0.006134969325153374, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,this._found=false,ASSIGNMENT, line no: 12, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,this._found,FIELD_ACCESS, line no: 12, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,this,THIS_EXPRESSION, line no: 12, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,_found,SIMPLE_NAME, line no: 12, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,false,BOOLEAN_LITERAL, line no: 12, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,prePattern,SIMPLE_NAME, line no: 13, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,Pattern.compile(this.getPrePatternString()),METHOD_INVOCATION, line no: 13, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,compile,SIMPLE_NAME, line no: 13, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,this.getPrePatternString(),METHOD_INVOCATION, line no: 13, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,getPrePatternString,SIMPLE_NAME, line no: 13, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,postPattern,SIMPLE_NAME, line no: 15, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,Pattern.compile(this.getPostPatternString()),METHOD_INVOCATION, line no: 15, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,this.getPostPatternString(),METHOD_INVOCATION, line no: 15, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,getPostPatternString,SIMPLE_NAME, line no: 15, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,pattern,SIMPLE_NAME, line no: 17, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,Pattern.compile(this.getPatternString()),METHOD_INVOCATION, line no: 17, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,this.getPatternString(),METHOD_INVOCATION, line no: 17, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,getPatternString,SIMPLE_NAME, line no: 17, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,localStart,SIMPLE_NAME, line no: 20, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,preMatcher.find(localStart),METHOD_INVOCATION, line no: 21, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,find,SIMPLE_NAME, line no: 21, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,start,SIMPLE_NAME, line no: 22, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,Matcher,SIMPLE_NAME, line no: 3, 1.0, 0.006134969325153374, 0.0
-start,SIMPLE_NAME, line no: 22,Pattern,SIMPLE_NAME, line no: 4, 1.0, 0.006134969325153374, 0.0
-start,SIMPLE_NAME, line no: 22,input,SIMPLE_NAME, line no: 11, 1.0, 0.006134969325153374, 0.0
-start,SIMPLE_NAME, line no: 22,this._found=false,ASSIGNMENT, line no: 12, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,this._found,FIELD_ACCESS, line no: 12, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,this,THIS_EXPRESSION, line no: 12, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,_found,SIMPLE_NAME, line no: 12, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,false,BOOLEAN_LITERAL, line no: 12, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,prePattern,SIMPLE_NAME, line no: 13, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,Pattern.compile(this.getPrePatternString()),METHOD_INVOCATION, line no: 13, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,compile,SIMPLE_NAME, line no: 13, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,this.getPrePatternString(),METHOD_INVOCATION, line no: 13, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,getPrePatternString,SIMPLE_NAME, line no: 13, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,preMatcher,SIMPLE_NAME, line no: 14, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,prePattern.matcher(input),METHOD_INVOCATION, line no: 14, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,matcher,SIMPLE_NAME, line no: 14, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,postPattern,SIMPLE_NAME, line no: 15, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,Pattern.compile(this.getPostPatternString()),METHOD_INVOCATION, line no: 15, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,this.getPostPatternString(),METHOD_INVOCATION, line no: 15, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,getPostPatternString,SIMPLE_NAME, line no: 15, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,postMatcher,SIMPLE_NAME, line no: 16, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,postPattern.matcher(input),METHOD_INVOCATION, line no: 16, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,pattern,SIMPLE_NAME, line no: 17, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,Pattern.compile(this.getPatternString()),METHOD_INVOCATION, line no: 17, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,this.getPatternString(),METHOD_INVOCATION, line no: 17, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,getPatternString,SIMPLE_NAME, line no: 17, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,pattern.matcher(input),METHOD_INVOCATION, line no: 18, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,preMatcher.find(localStart),METHOD_INVOCATION, line no: 21, 1.0, 1.0, 0.0
-start,SIMPLE_NAME, line no: 22,find,SIMPLE_NAME, line no: 21, 1.0, 1.0, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,preMatcher.start(),METHOD_INVOCATION, line no: 22, 0.9938650306748467, 0.9938650306748467, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,localStart=preMatcher.start(),ASSIGNMENT, line no: 22, 0.9877300613496932, 0.9877300613496932, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,length,SIMPLE_NAME, line no: 29, 0.9877300613496932, 0.6625766871165644, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,postMatcher.find(localStart + 1),METHOD_INVOCATION, line no: 24, 0.9876543209876543, 0.9876543209876543, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,localStart + 1,INFIX_EXPRESSION, line no: 24, 0.9876543209876543, 0.9876543209876543, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,1,NUMBER_LITERAL, line no: 24, 0.9876543209876543, 0.9876543209876543, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,input.length(),METHOD_INVOCATION, line no: 29, 0.9876543209876543, 0.6604938271604939, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,1,NUMBER_LITERAL, line no: 24, 0.9875776397515528, 0.9875776397515528, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,input.length(),METHOD_INVOCATION, line no: 29, 0.9875776397515528, 0.6645962732919255, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,postMatcher.find(localStart + 1),METHOD_INVOCATION, line no: 24, 0.9815950920245399, 0.9815950920245399, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,localStart + 1,INFIX_EXPRESSION, line no: 24, 0.9815950920245399, 0.9815950920245399, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,1,NUMBER_LITERAL, line no: 24, 0.9815950920245399, 0.9815950920245399, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,input.length(),METHOD_INVOCATION, line no: 29, 0.9815950920245399, 0.656441717791411, 0.0
-start,SIMPLE_NAME, line no: 22,postMatcher.find(localStart + 1),METHOD_INVOCATION, line no: 24, 0.9815950920245399, 0.9815950920245399, 0.0
-localStart,SIMPLE_NAME, line no: 22,postMatcher.find(localStart + 1),METHOD_INVOCATION, line no: 24, 0.9814814814814815, 0.9814814814814815, 0.0
-localStart,SIMPLE_NAME, line no: 22,localStart > input.length(),INFIX_EXPRESSION, line no: 46, 0.9814814814814815, 0.8395061728395061, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,localStart > input.length(),INFIX_EXPRESSION, line no: 46, 0.9814814814814815, 0.8395061728395061, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,localStart > input.length(),INFIX_EXPRESSION, line no: 46, 0.9754601226993865, 0.8343558282208589, 0.0
-start,SIMPLE_NAME, line no: 22,localStart > input.length(),INFIX_EXPRESSION, line no: 46, 0.9754601226993865, 0.8343558282208589, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,region,SIMPLE_NAME, line no: 26, 0.8509316770186336, 0.8509316770186336, 0.0
-localStart,SIMPLE_NAME, line no: 22,region,SIMPLE_NAME, line no: 26, 0.845679012345679, 0.845679012345679, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,region,SIMPLE_NAME, line no: 26, 0.845679012345679, 0.845679012345679, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,matcher.region(startIndex end),METHOD_INVOCATION, line no: 26, 0.84472049689441, 0.84472049689441, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,matcher.find(),METHOD_INVOCATION, line no: 27, 0.84472049689441, 0.84472049689441, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,end,SIMPLE_NAME, line no: 25, 0.8404907975460123, 0.8282208588957055, 0.0
-start,SIMPLE_NAME, line no: 22,region,SIMPLE_NAME, line no: 26, 0.8404907975460123, 0.8404907975460123, 0.0
-localStart,SIMPLE_NAME, line no: 22,matcher.region(startIndex end),METHOD_INVOCATION, line no: 26, 0.8395061728395061, 0.8395061728395061, 0.0
-localStart,SIMPLE_NAME, line no: 22,matcher.find(),METHOD_INVOCATION, line no: 27, 0.8395061728395061, 0.8395061728395061, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,matcher.region(startIndex end),METHOD_INVOCATION, line no: 26, 0.8395061728395061, 0.8395061728395061, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,matcher.find(),METHOD_INVOCATION, line no: 27, 0.8395061728395061, 0.8395061728395061, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,localStart=end,ASSIGNMENT, line no: 32, 0.8395061728395061, 0.10493827160493827, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,postMatcher.end(),METHOD_INVOCATION, line no: 25, 0.8385093167701864, 0.8385093167701864, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,matcher.find(),METHOD_INVOCATION, line no: 27, 0.8343558282208589, 0.8343558282208589, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,localStart=end,ASSIGNMENT, line no: 32, 0.8343558282208589, 0.10429447852760736, 0.0
-start,SIMPLE_NAME, line no: 22,matcher.region(startIndex end),METHOD_INVOCATION, line no: 26, 0.8343558282208589, 0.8343558282208589, 0.0
-start,SIMPLE_NAME, line no: 22,matcher.find(),METHOD_INVOCATION, line no: 27, 0.8343558282208589, 0.8343558282208589, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,postMatcher.end(),METHOD_INVOCATION, line no: 25, 0.8333333333333334, 0.8333333333333334, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,postMatcher.end(),METHOD_INVOCATION, line no: 25, 0.8282208588957055, 0.8282208588957055, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,body,SIMPLE_NAME, line no: 28, 0.6770186335403726, 0.6521739130434783, 0.0
-localStart,SIMPLE_NAME, line no: 22,body,SIMPLE_NAME, line no: 28, 0.6728395061728395, 0.6481481481481481, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,body,SIMPLE_NAME, line no: 28, 0.6728395061728395, 0.6481481481481481, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,group,SIMPLE_NAME, line no: 35, 0.6708074534161491, 0.6708074534161491, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,substring,SIMPLE_NAME, line no: 35, 0.6708074534161491, 0.6708074534161491, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,2,NUMBER_LITERAL, line no: 37, 0.6708074534161491, 0.6708074534161491, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,body.length(),METHOD_INVOCATION, line no: 37, 0.6708074534161491, 0.6645962732919255, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,body,SIMPLE_NAME, line no: 28, 0.6687116564417178, 0.6441717791411042, 0.0
-start,SIMPLE_NAME, line no: 22,body,SIMPLE_NAME, line no: 28, 0.6687116564417178, 0.6441717791411042, 0.0
-localStart,SIMPLE_NAME, line no: 22,group,SIMPLE_NAME, line no: 35, 0.6666666666666666, 0.6666666666666666, 0.0
-localStart,SIMPLE_NAME, line no: 22,substring,SIMPLE_NAME, line no: 35, 0.6666666666666666, 0.6666666666666666, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,group,SIMPLE_NAME, line no: 35, 0.6666666666666666, 0.6666666666666666, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,substring,SIMPLE_NAME, line no: 35, 0.6666666666666666, 0.6666666666666666, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,2,NUMBER_LITERAL, line no: 37, 0.6666666666666666, 0.6666666666666666, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,body.length(),METHOD_INVOCATION, line no: 37, 0.6666666666666666, 0.6604938271604939, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,subSequence,SIMPLE_NAME, line no: 29, 0.6645962732919255, 0.6645962732919255, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,end - 1,INFIX_EXPRESSION, line no: 29, 0.6645962732919255, 0.6645962732919255, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,_statement,SIMPLE_NAME, line no: 35, 0.6645962732919255, 0.6645962732919255, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,matcher.group(),METHOD_INVOCATION, line no: 35, 0.6645962732919255, 0.6645962732919255, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,body.substring(1),METHOD_INVOCATION, line no: 35, 0.6645962732919255, 0.6645962732919255, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,end - 2,INFIX_EXPRESSION, line no: 37, 0.6645962732919255, 0.6645962732919255, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,_node,SIMPLE_NAME, line no: 40, 0.6645962732919255, 0.6645962732919255, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,body.length() - 1,INFIX_EXPRESSION, line no: 40, 0.6645962732919255, 0.6645962732919255, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,group,SIMPLE_NAME, line no: 35, 0.6625766871165644, 0.6625766871165644, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,substring,SIMPLE_NAME, line no: 35, 0.6625766871165644, 0.6625766871165644, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,2,NUMBER_LITERAL, line no: 37, 0.6625766871165644, 0.6625766871165644, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,body.length(),METHOD_INVOCATION, line no: 37, 0.6625766871165644, 0.656441717791411, 0.0
-start,SIMPLE_NAME, line no: 22,group,SIMPLE_NAME, line no: 35, 0.6625766871165644, 0.6625766871165644, 0.0
-start,SIMPLE_NAME, line no: 22,substring,SIMPLE_NAME, line no: 35, 0.6625766871165644, 0.6625766871165644, 0.0
-localStart,SIMPLE_NAME, line no: 22,subSequence,SIMPLE_NAME, line no: 29, 0.6604938271604939, 0.6604938271604939, 0.0
-localStart,SIMPLE_NAME, line no: 22,_statement,SIMPLE_NAME, line no: 35, 0.6604938271604939, 0.6604938271604939, 0.0
-localStart,SIMPLE_NAME, line no: 22,matcher.group(),METHOD_INVOCATION, line no: 35, 0.6604938271604939, 0.6604938271604939, 0.0
-localStart,SIMPLE_NAME, line no: 22,body.substring(1),METHOD_INVOCATION, line no: 35, 0.6604938271604939, 0.6604938271604939, 0.0
-localStart,SIMPLE_NAME, line no: 22,_node,SIMPLE_NAME, line no: 40, 0.6604938271604939, 0.6604938271604939, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,subSequence,SIMPLE_NAME, line no: 29, 0.6604938271604939, 0.6604938271604939, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,end - 1,INFIX_EXPRESSION, line no: 29, 0.6604938271604939, 0.6604938271604939, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,_statement,SIMPLE_NAME, line no: 35, 0.6604938271604939, 0.6604938271604939, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,matcher.group(),METHOD_INVOCATION, line no: 35, 0.6604938271604939, 0.6604938271604939, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,body.substring(1),METHOD_INVOCATION, line no: 35, 0.6604938271604939, 0.6604938271604939, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,end - 2,INFIX_EXPRESSION, line no: 37, 0.6604938271604939, 0.6604938271604939, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,_node,SIMPLE_NAME, line no: 40, 0.6604938271604939, 0.6604938271604939, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,body.length() - 1,INFIX_EXPRESSION, line no: 40, 0.6604938271604939, 0.6604938271604939, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,StateNode,SIMPLE_NAME, line no: 6, 0.6583850931677019, 0.006211180124223602, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,determineStatementBody,SIMPLE_NAME, line no: 28, 0.6583850931677019, 0.6583850931677019, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,input.subSequence(end - 1 input.length()),METHOD_INVOCATION, line no: 28, 0.6583850931677019, 0.6583850931677019, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,this._statement,FIELD_ACCESS, line no: 35, 0.6583850931677019, 0.6583850931677019, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,matcher.group() + body.substring(1),INFIX_EXPRESSION, line no: 35, 0.6583850931677019, 0.6583850931677019, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,this._startOffSet,FIELD_ACCESS, line no: 36, 0.6583850931677019, 0.6583850931677019, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,matcher.start(),METHOD_INVOCATION, line no: 36, 0.6583850931677019, 0.6583850931677019, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,this._endOffSet,FIELD_ACCESS, line no: 37, 0.6583850931677019, 0.6583850931677019, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,end - 2 + body.length(),INFIX_EXPRESSION, line no: 37, 0.6583850931677019, 0.6583850931677019, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,stateName,SIMPLE_NAME, line no: 38, 0.6583850931677019, 0.6521739130434783, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,true,BOOLEAN_LITERAL, line no: 39, 0.6583850931677019, 0.6583850931677019, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,this._node,FIELD_ACCESS, line no: 40, 0.6583850931677019, 0.6583850931677019, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,body.substring(1 body.length() - 1),METHOD_INVOCATION, line no: 40, 0.6583850931677019, 0.6583850931677019, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,this.getStartOffsetLastFound(),METHOD_INVOCATION, line no: 41, 0.6583850931677019, 0.6583850931677019, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,this.getEndOffsetLastFound(),METHOD_INVOCATION, line no: 41, 0.6583850931677019, 0.6583850931677019, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,subSequence,SIMPLE_NAME, line no: 29, 0.656441717791411, 0.656441717791411, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,end - 1,INFIX_EXPRESSION, line no: 29, 0.656441717791411, 0.656441717791411, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,_statement,SIMPLE_NAME, line no: 35, 0.656441717791411, 0.656441717791411, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,matcher.group(),METHOD_INVOCATION, line no: 35, 0.656441717791411, 0.656441717791411, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,body.substring(1),METHOD_INVOCATION, line no: 35, 0.656441717791411, 0.656441717791411, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,_startOffSet,SIMPLE_NAME, line no: 36, 0.656441717791411, 0.656441717791411, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,_endOffSet,SIMPLE_NAME, line no: 37, 0.656441717791411, 0.656441717791411, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,end - 2,INFIX_EXPRESSION, line no: 37, 0.656441717791411, 0.656441717791411, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,_node,SIMPLE_NAME, line no: 40, 0.656441717791411, 0.656441717791411, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,body.length() - 1,INFIX_EXPRESSION, line no: 40, 0.656441717791411, 0.656441717791411, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,getStartOffsetLastFound,SIMPLE_NAME, line no: 41, 0.656441717791411, 0.656441717791411, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,getEndOffsetLastFound,SIMPLE_NAME, line no: 42, 0.656441717791411, 0.656441717791411, 0.0
-start,SIMPLE_NAME, line no: 22,subSequence,SIMPLE_NAME, line no: 29, 0.656441717791411, 0.656441717791411, 0.0
-start,SIMPLE_NAME, line no: 22,_statement,SIMPLE_NAME, line no: 35, 0.656441717791411, 0.656441717791411, 0.0
-start,SIMPLE_NAME, line no: 22,matcher.group(),METHOD_INVOCATION, line no: 35, 0.656441717791411, 0.656441717791411, 0.0
-start,SIMPLE_NAME, line no: 22,body.substring(1),METHOD_INVOCATION, line no: 35, 0.656441717791411, 0.656441717791411, 0.0
-start,SIMPLE_NAME, line no: 22,_node,SIMPLE_NAME, line no: 40, 0.656441717791411, 0.656441717791411, 0.0
-localStart,SIMPLE_NAME, line no: 22,StateNode,SIMPLE_NAME, line no: 6, 0.654320987654321, 0.006172839506172839, 0.0
-localStart,SIMPLE_NAME, line no: 22,determineStatementBody,SIMPLE_NAME, line no: 28, 0.654320987654321, 0.654320987654321, 0.0
-localStart,SIMPLE_NAME, line no: 22,input.subSequence(end - 1 input.length()),METHOD_INVOCATION, line no: 28, 0.654320987654321, 0.654320987654321, 0.0
-localStart,SIMPLE_NAME, line no: 22,this._statement,FIELD_ACCESS, line no: 35, 0.654320987654321, 0.654320987654321, 0.0
-localStart,SIMPLE_NAME, line no: 22,matcher.group() + body.substring(1),INFIX_EXPRESSION, line no: 35, 0.654320987654321, 0.654320987654321, 0.0
-localStart,SIMPLE_NAME, line no: 22,stateName,SIMPLE_NAME, line no: 38, 0.654320987654321, 0.6481481481481481, 0.0
-localStart,SIMPLE_NAME, line no: 22,true,BOOLEAN_LITERAL, line no: 39, 0.654320987654321, 0.654320987654321, 0.0
-localStart,SIMPLE_NAME, line no: 22,this._node,FIELD_ACCESS, line no: 40, 0.654320987654321, 0.654320987654321, 0.0
-localStart,SIMPLE_NAME, line no: 22,body.substring(1 body.length() - 1),METHOD_INVOCATION, line no: 40, 0.654320987654321, 0.654320987654321, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,StateNode,SIMPLE_NAME, line no: 6, 0.654320987654321, 0.006172839506172839, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,determineStatementBody,SIMPLE_NAME, line no: 28, 0.654320987654321, 0.654320987654321, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,input.subSequence(end - 1 input.length()),METHOD_INVOCATION, line no: 28, 0.654320987654321, 0.654320987654321, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,this._statement,FIELD_ACCESS, line no: 35, 0.654320987654321, 0.654320987654321, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,matcher.group() + body.substring(1),INFIX_EXPRESSION, line no: 35, 0.654320987654321, 0.654320987654321, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,this._startOffSet,FIELD_ACCESS, line no: 36, 0.654320987654321, 0.654320987654321, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,matcher.start(),METHOD_INVOCATION, line no: 36, 0.654320987654321, 0.654320987654321, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,this._endOffSet,FIELD_ACCESS, line no: 37, 0.654320987654321, 0.654320987654321, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,end - 2 + body.length(),INFIX_EXPRESSION, line no: 37, 0.654320987654321, 0.654320987654321, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,stateName,SIMPLE_NAME, line no: 38, 0.654320987654321, 0.6481481481481481, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,true,BOOLEAN_LITERAL, line no: 39, 0.654320987654321, 0.654320987654321, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,this._node,FIELD_ACCESS, line no: 40, 0.654320987654321, 0.654320987654321, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,body.substring(1 body.length() - 1),METHOD_INVOCATION, line no: 40, 0.654320987654321, 0.654320987654321, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,this.getStartOffsetLastFound(),METHOD_INVOCATION, line no: 41, 0.654320987654321, 0.654320987654321, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,this.getEndOffsetLastFound(),METHOD_INVOCATION, line no: 41, 0.654320987654321, 0.654320987654321, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,String,SIMPLE_NAME, line no: 28, 0.6521739130434783, 0.6521739130434783, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,this.determineStatementBody(input.subSequence(end - 1 input.length())),METHOD_INVOCATION, line no: 28, 0.6521739130434783, 0.6521739130434783, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,body == null,INFIX_EXPRESSION, line no: 30, 0.6521739130434783, 0.6521739130434783, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,null,NULL_LITERAL, line no: 30, 0.6521739130434783, 0.6521739130434783, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,this._statement=matcher.group() + body.substring(1),ASSIGNMENT, line no: 35, 0.6521739130434783, 0.6521739130434783, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,this._startOffSet=matcher.start(),ASSIGNMENT, line no: 36, 0.6521739130434783, 0.6521739130434783, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,this._endOffSet=end - 2 + body.length(),ASSIGNMENT, line no: 37, 0.6521739130434783, 0.6521739130434783, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,matcher.group(2),METHOD_INVOCATION, line no: 38, 0.6521739130434783, 0.6521739130434783, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,this._found=true,ASSIGNMENT, line no: 39, 0.6521739130434783, 0.6521739130434783, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,this._node=new StateNode(stateName body.substring(1 body.length() - 1) this.getStartOffsetLastFound() this.getEndOffsetLastFound()),ASSIGNMENT, line no: 40, 0.6521739130434783, 0.6521739130434783, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,new StateNode(stateName body.substring(1 body.length() - 1) this.getStartOffsetLastFound() this.getEndOffsetLastFound()),CLASS_INSTANCE_CREATION, line no: 40, 0.6521739130434783, 0.6521739130434783, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,StateNode,SIMPLE_NAME, line no: 6, 0.6503067484662577, 0.006134969325153374, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,determineStatementBody,SIMPLE_NAME, line no: 28, 0.6503067484662577, 0.6503067484662577, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,input.subSequence(end - 1 input.length()),METHOD_INVOCATION, line no: 28, 0.6503067484662577, 0.6503067484662577, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,this._statement,FIELD_ACCESS, line no: 35, 0.6503067484662577, 0.6503067484662577, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,matcher.group() + body.substring(1),INFIX_EXPRESSION, line no: 35, 0.6503067484662577, 0.6503067484662577, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,this._startOffSet,FIELD_ACCESS, line no: 36, 0.6503067484662577, 0.6503067484662577, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,matcher.start(),METHOD_INVOCATION, line no: 36, 0.6503067484662577, 0.6503067484662577, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,this._endOffSet,FIELD_ACCESS, line no: 37, 0.6503067484662577, 0.6503067484662577, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,end - 2 + body.length(),INFIX_EXPRESSION, line no: 37, 0.6503067484662577, 0.6503067484662577, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,stateName,SIMPLE_NAME, line no: 38, 0.6503067484662577, 0.6441717791411042, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,true,BOOLEAN_LITERAL, line no: 39, 0.6503067484662577, 0.6503067484662577, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,this._node,FIELD_ACCESS, line no: 40, 0.6503067484662577, 0.6503067484662577, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,body.substring(1 body.length() - 1),METHOD_INVOCATION, line no: 40, 0.6503067484662577, 0.6503067484662577, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,this.getStartOffsetLastFound(),METHOD_INVOCATION, line no: 41, 0.6503067484662577, 0.6503067484662577, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,this.getEndOffsetLastFound(),METHOD_INVOCATION, line no: 41, 0.6503067484662577, 0.6503067484662577, 0.0
-start,SIMPLE_NAME, line no: 22,StateNode,SIMPLE_NAME, line no: 6, 0.6503067484662577, 0.006134969325153374, 0.0
-start,SIMPLE_NAME, line no: 22,determineStatementBody,SIMPLE_NAME, line no: 28, 0.6503067484662577, 0.6503067484662577, 0.0
-start,SIMPLE_NAME, line no: 22,input.subSequence(end - 1 input.length()),METHOD_INVOCATION, line no: 28, 0.6503067484662577, 0.6503067484662577, 0.0
-start,SIMPLE_NAME, line no: 22,this._statement,FIELD_ACCESS, line no: 35, 0.6503067484662577, 0.6503067484662577, 0.0
-start,SIMPLE_NAME, line no: 22,matcher.group() + body.substring(1),INFIX_EXPRESSION, line no: 35, 0.6503067484662577, 0.6503067484662577, 0.0
-start,SIMPLE_NAME, line no: 22,stateName,SIMPLE_NAME, line no: 38, 0.6503067484662577, 0.6441717791411042, 0.0
-start,SIMPLE_NAME, line no: 22,true,BOOLEAN_LITERAL, line no: 39, 0.6503067484662577, 0.6503067484662577, 0.0
-start,SIMPLE_NAME, line no: 22,this._node,FIELD_ACCESS, line no: 40, 0.6503067484662577, 0.6503067484662577, 0.0
-start,SIMPLE_NAME, line no: 22,body.substring(1 body.length() - 1),METHOD_INVOCATION, line no: 40, 0.6503067484662577, 0.6503067484662577, 0.0
-localStart,SIMPLE_NAME, line no: 22,String,SIMPLE_NAME, line no: 28, 0.6481481481481481, 0.6481481481481481, 0.0
-localStart,SIMPLE_NAME, line no: 22,this.determineStatementBody(input.subSequence(end - 1 input.length())),METHOD_INVOCATION, line no: 28, 0.6481481481481481, 0.6481481481481481, 0.0
-localStart,SIMPLE_NAME, line no: 22,body == null,INFIX_EXPRESSION, line no: 30, 0.6481481481481481, 0.6481481481481481, 0.0
-localStart,SIMPLE_NAME, line no: 22,null,NULL_LITERAL, line no: 30, 0.6481481481481481, 0.6481481481481481, 0.0
-localStart,SIMPLE_NAME, line no: 22,this._statement=matcher.group() + body.substring(1),ASSIGNMENT, line no: 35, 0.6481481481481481, 0.6481481481481481, 0.0
-localStart,SIMPLE_NAME, line no: 22,matcher.group(2),METHOD_INVOCATION, line no: 38, 0.6481481481481481, 0.6481481481481481, 0.0
-localStart,SIMPLE_NAME, line no: 22,this._found=true,ASSIGNMENT, line no: 39, 0.6481481481481481, 0.6481481481481481, 0.0
-localStart,SIMPLE_NAME, line no: 22,this._node=new StateNode(stateName body.substring(1 body.length() - 1) this.getStartOffsetLastFound() this.getEndOffsetLastFound()),ASSIGNMENT, line no: 40, 0.6481481481481481, 0.6481481481481481, 0.0
-localStart,SIMPLE_NAME, line no: 22,new StateNode(stateName body.substring(1 body.length() - 1) this.getStartOffsetLastFound() this.getEndOffsetLastFound()),CLASS_INSTANCE_CREATION, line no: 40, 0.6481481481481481, 0.6481481481481481, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,String,SIMPLE_NAME, line no: 28, 0.6481481481481481, 0.6481481481481481, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,this.determineStatementBody(input.subSequence(end - 1 input.length())),METHOD_INVOCATION, line no: 28, 0.6481481481481481, 0.6481481481481481, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,body == null,INFIX_EXPRESSION, line no: 30, 0.6481481481481481, 0.6481481481481481, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,null,NULL_LITERAL, line no: 30, 0.6481481481481481, 0.6481481481481481, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,this._statement=matcher.group() + body.substring(1),ASSIGNMENT, line no: 35, 0.6481481481481481, 0.6481481481481481, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,this._startOffSet=matcher.start(),ASSIGNMENT, line no: 36, 0.6481481481481481, 0.6481481481481481, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,this._endOffSet=end - 2 + body.length(),ASSIGNMENT, line no: 37, 0.6481481481481481, 0.6481481481481481, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,matcher.group(2),METHOD_INVOCATION, line no: 38, 0.6481481481481481, 0.6481481481481481, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,this._found=true,ASSIGNMENT, line no: 39, 0.6481481481481481, 0.6481481481481481, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,this._node=new StateNode(stateName body.substring(1 body.length() - 1) this.getStartOffsetLastFound() this.getEndOffsetLastFound()),ASSIGNMENT, line no: 40, 0.6481481481481481, 0.6481481481481481, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,new StateNode(stateName body.substring(1 body.length() - 1) this.getStartOffsetLastFound() this.getEndOffsetLastFound()),CLASS_INSTANCE_CREATION, line no: 40, 0.6481481481481481, 0.6481481481481481, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,String,SIMPLE_NAME, line no: 28, 0.6441717791411042, 0.6441717791411042, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,this.determineStatementBody(input.subSequence(end - 1 input.length())),METHOD_INVOCATION, line no: 28, 0.6441717791411042, 0.6441717791411042, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,body == null,INFIX_EXPRESSION, line no: 30, 0.6441717791411042, 0.6441717791411042, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,null,NULL_LITERAL, line no: 30, 0.6441717791411042, 0.6441717791411042, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,this._statement=matcher.group() + body.substring(1),ASSIGNMENT, line no: 35, 0.6441717791411042, 0.6441717791411042, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,this._startOffSet=matcher.start(),ASSIGNMENT, line no: 36, 0.6441717791411042, 0.6441717791411042, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,this._endOffSet=end - 2 + body.length(),ASSIGNMENT, line no: 37, 0.6441717791411042, 0.6441717791411042, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,matcher.group(2),METHOD_INVOCATION, line no: 38, 0.6441717791411042, 0.6441717791411042, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,this._found=true,ASSIGNMENT, line no: 39, 0.6441717791411042, 0.6441717791411042, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,this._node=new StateNode(stateName body.substring(1 body.length() - 1) this.getStartOffsetLastFound() this.getEndOffsetLastFound()),ASSIGNMENT, line no: 40, 0.6441717791411042, 0.6441717791411042, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,new StateNode(stateName body.substring(1 body.length() - 1) this.getStartOffsetLastFound() this.getEndOffsetLastFound()),CLASS_INSTANCE_CREATION, line no: 40, 0.6441717791411042, 0.6441717791411042, 0.0
-start,SIMPLE_NAME, line no: 22,String,SIMPLE_NAME, line no: 28, 0.6441717791411042, 0.6441717791411042, 0.0
-start,SIMPLE_NAME, line no: 22,this.determineStatementBody(input.subSequence(end - 1 input.length())),METHOD_INVOCATION, line no: 28, 0.6441717791411042, 0.6441717791411042, 0.0
-start,SIMPLE_NAME, line no: 22,body == null,INFIX_EXPRESSION, line no: 30, 0.6441717791411042, 0.6441717791411042, 0.0
-start,SIMPLE_NAME, line no: 22,null,NULL_LITERAL, line no: 30, 0.6441717791411042, 0.6441717791411042, 0.0
-start,SIMPLE_NAME, line no: 22,this._statement=matcher.group() + body.substring(1),ASSIGNMENT, line no: 35, 0.6441717791411042, 0.6441717791411042, 0.0
-start,SIMPLE_NAME, line no: 22,matcher.group(2),METHOD_INVOCATION, line no: 38, 0.6441717791411042, 0.6441717791411042, 0.0
-start,SIMPLE_NAME, line no: 22,this._found=true,ASSIGNMENT, line no: 39, 0.6441717791411042, 0.6441717791411042, 0.0
-start,SIMPLE_NAME, line no: 22,this._node=new StateNode(stateName body.substring(1 body.length() - 1) this.getStartOffsetLastFound() this.getEndOffsetLastFound()),ASSIGNMENT, line no: 40, 0.6441717791411042, 0.6441717791411042, 0.0
-start,SIMPLE_NAME, line no: 22,new StateNode(stateName body.substring(1 body.length() - 1) this.getStartOffsetLastFound() this.getEndOffsetLastFound()),CLASS_INSTANCE_CREATION, line no: 40, 0.6441717791411042, 0.6441717791411042, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,charAt,SIMPLE_NAME, line no: 60, 0.17391304347826086, 0.17391304347826086, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,0,NUMBER_LITERAL, line no: 60, 0.17391304347826086, 0.17391304347826086, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,bodyParser,SIMPLE_NAME, line no: 61, 0.17391304347826086, 0.16770186335403728, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,findNext,SIMPLE_NAME, line no: 62, 0.17391304347826086, 0.17391304347826086, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,hasFoundElement,SIMPLE_NAME, line no: 63, 0.17391304347826086, 0.17391304347826086, 0.0
-localStart,SIMPLE_NAME, line no: 22,charAt,SIMPLE_NAME, line no: 60, 0.1728395061728395, 0.1728395061728395, 0.0
-localStart,SIMPLE_NAME, line no: 22,bodyParser,SIMPLE_NAME, line no: 61, 0.1728395061728395, 0.16666666666666666, 0.0
-localStart,SIMPLE_NAME, line no: 22,findNext,SIMPLE_NAME, line no: 62, 0.1728395061728395, 0.1728395061728395, 0.0
-localStart,SIMPLE_NAME, line no: 22,hasFoundElement,SIMPLE_NAME, line no: 63, 0.1728395061728395, 0.1728395061728395, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,charAt,SIMPLE_NAME, line no: 60, 0.1728395061728395, 0.1728395061728395, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,0,NUMBER_LITERAL, line no: 60, 0.1728395061728395, 0.1728395061728395, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,bodyParser,SIMPLE_NAME, line no: 61, 0.1728395061728395, 0.16666666666666666, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,findNext,SIMPLE_NAME, line no: 62, 0.1728395061728395, 0.1728395061728395, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,hasFoundElement,SIMPLE_NAME, line no: 63, 0.1728395061728395, 0.1728395061728395, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,charAt,SIMPLE_NAME, line no: 60, 0.17177914110429449, 0.17177914110429449, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,0,NUMBER_LITERAL, line no: 60, 0.17177914110429449, 0.17177914110429449, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,bodyParser,SIMPLE_NAME, line no: 61, 0.17177914110429449, 0.1656441717791411, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,findNext,SIMPLE_NAME, line no: 62, 0.17177914110429449, 0.17177914110429449, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,hasFoundElement,SIMPLE_NAME, line no: 63, 0.17177914110429449, 0.17177914110429449, 0.0
-start,SIMPLE_NAME, line no: 22,charAt,SIMPLE_NAME, line no: 60, 0.17177914110429449, 0.17177914110429449, 0.0
-start,SIMPLE_NAME, line no: 22,bodyParser,SIMPLE_NAME, line no: 61, 0.17177914110429449, 0.1656441717791411, 0.0
-start,SIMPLE_NAME, line no: 22,findNext,SIMPLE_NAME, line no: 62, 0.17177914110429449, 0.17177914110429449, 0.0
-start,SIMPLE_NAME, line no: 22,hasFoundElement,SIMPLE_NAME, line no: 63, 0.17177914110429449, 0.17177914110429449, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,input.charAt(0),METHOD_INVOCATION, line no: 60, 0.16770186335403728, 0.16770186335403728, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,BlockStatementParser,SIMPLE_NAME, line no: 61, 0.16770186335403728, 0.16770186335403728, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,bodyParser.findNext(input),METHOD_INVOCATION, line no: 62, 0.16770186335403728, 0.16770186335403728, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,bodyParser.hasFoundElement(),METHOD_INVOCATION, line no: 63, 0.16770186335403728, 0.16770186335403728, 0.0
-localStart,SIMPLE_NAME, line no: 22,input.charAt(0),METHOD_INVOCATION, line no: 60, 0.16666666666666666, 0.16666666666666666, 0.0
-localStart,SIMPLE_NAME, line no: 22,BlockStatementParser,SIMPLE_NAME, line no: 61, 0.16666666666666666, 0.16666666666666666, 0.0
-localStart,SIMPLE_NAME, line no: 22,bodyParser.findNext(input),METHOD_INVOCATION, line no: 62, 0.16666666666666666, 0.16666666666666666, 0.0
-localStart,SIMPLE_NAME, line no: 22,bodyParser.hasFoundElement(),METHOD_INVOCATION, line no: 63, 0.16666666666666666, 0.16666666666666666, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,input.charAt(0),METHOD_INVOCATION, line no: 60, 0.16666666666666666, 0.16666666666666666, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,BlockStatementParser,SIMPLE_NAME, line no: 61, 0.16666666666666666, 0.16666666666666666, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,bodyParser.findNext(input),METHOD_INVOCATION, line no: 62, 0.16666666666666666, 0.16666666666666666, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,bodyParser.hasFoundElement(),METHOD_INVOCATION, line no: 63, 0.16666666666666666, 0.16666666666666666, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,input.charAt(0),METHOD_INVOCATION, line no: 60, 0.1656441717791411, 0.1656441717791411, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,BlockStatementParser,SIMPLE_NAME, line no: 61, 0.1656441717791411, 0.1656441717791411, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,bodyParser.findNext(input),METHOD_INVOCATION, line no: 62, 0.1656441717791411, 0.1656441717791411, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,bodyParser.hasFoundElement(),METHOD_INVOCATION, line no: 63, 0.1656441717791411, 0.1656441717791411, 0.0
-start,SIMPLE_NAME, line no: 22,input.charAt(0),METHOD_INVOCATION, line no: 60, 0.1656441717791411, 0.1656441717791411, 0.0
-start,SIMPLE_NAME, line no: 22,BlockStatementParser,SIMPLE_NAME, line no: 61, 0.1656441717791411, 0.1656441717791411, 0.0
-start,SIMPLE_NAME, line no: 22,bodyParser.findNext(input),METHOD_INVOCATION, line no: 62, 0.1656441717791411, 0.1656441717791411, 0.0
-start,SIMPLE_NAME, line no: 22,bodyParser.hasFoundElement(),METHOD_INVOCATION, line no: 63, 0.1656441717791411, 0.1656441717791411, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,input.charAt(0) == '{',INFIX_EXPRESSION, line no: 60, 0.16149068322981366, 0.16149068322981366, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,'{',CHARACTER_LITERAL, line no: 60, 0.16149068322981366, 0.16149068322981366, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,new BlockStatementParser(),CLASS_INSTANCE_CREATION, line no: 61, 0.16149068322981366, 0.16149068322981366, 0.0
-localStart,SIMPLE_NAME, line no: 22,input.charAt(0) == '{',INFIX_EXPRESSION, line no: 60, 0.16049382716049382, 0.16049382716049382, 0.0
-localStart,SIMPLE_NAME, line no: 22,'{',CHARACTER_LITERAL, line no: 60, 0.16049382716049382, 0.16049382716049382, 0.0
-localStart,SIMPLE_NAME, line no: 22,new BlockStatementParser(),CLASS_INSTANCE_CREATION, line no: 61, 0.16049382716049382, 0.16049382716049382, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,input.charAt(0) == '{',INFIX_EXPRESSION, line no: 60, 0.16049382716049382, 0.16049382716049382, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,'{',CHARACTER_LITERAL, line no: 60, 0.16049382716049382, 0.16049382716049382, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,new BlockStatementParser(),CLASS_INSTANCE_CREATION, line no: 61, 0.16049382716049382, 0.16049382716049382, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,input.charAt(0) == '{',INFIX_EXPRESSION, line no: 60, 0.15950920245398773, 0.15950920245398773, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,'{',CHARACTER_LITERAL, line no: 60, 0.15950920245398773, 0.15950920245398773, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,new BlockStatementParser(),CLASS_INSTANCE_CREATION, line no: 61, 0.15950920245398773, 0.15950920245398773, 0.0
-start,SIMPLE_NAME, line no: 22,input.charAt(0) == '{',INFIX_EXPRESSION, line no: 60, 0.15950920245398773, 0.15950920245398773, 0.0
-start,SIMPLE_NAME, line no: 22,'{',CHARACTER_LITERAL, line no: 60, 0.15950920245398773, 0.15950920245398773, 0.0
-start,SIMPLE_NAME, line no: 22,new BlockStatementParser(),CLASS_INSTANCE_CREATION, line no: 61, 0.15950920245398773, 0.15950920245398773, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,getPrePatternString(),METHOD_INVOCATION, line no: 71, 0.055900621118012424, 0.055900621118012424, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,getPostPatternString(),METHOD_INVOCATION, line no: 72, 0.055900621118012424, 0.055900621118012424, 0.0
-localStart,SIMPLE_NAME, line no: 22,getPrePatternString(),METHOD_INVOCATION, line no: 71, 0.05555555555555555, 0.05555555555555555, 0.0
-localStart,SIMPLE_NAME, line no: 22,getPostPatternString(),METHOD_INVOCATION, line no: 72, 0.05555555555555555, 0.05555555555555555, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,getPrePatternString(),METHOD_INVOCATION, line no: 71, 0.05555555555555555, 0.05555555555555555, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,getPostPatternString(),METHOD_INVOCATION, line no: 72, 0.05555555555555555, 0.05555555555555555, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,getPrePatternString(),METHOD_INVOCATION, line no: 71, 0.05521472392638037, 0.05521472392638037, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,getPostPatternString(),METHOD_INVOCATION, line no: 72, 0.05521472392638037, 0.05521472392638037, 0.0
-start,SIMPLE_NAME, line no: 22,getPrePatternString(),METHOD_INVOCATION, line no: 71, 0.05521472392638037, 0.05521472392638037, 0.0
-start,SIMPLE_NAME, line no: 22,getPostPatternString(),METHOD_INVOCATION, line no: 72, 0.05521472392638037, 0.05521472392638037, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,getLastFoundStatement,SIMPLE_NAME, line no: 64, 0.049689440993788817, 0.049689440993788817, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,getPrePatternString() + "([a-zA-Z][0-9a-zA-Z_]*)" + getPostPatternString(),INFIX_EXPRESSION, line no: 71, 0.049689440993788817, 0.049689440993788817, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,"([a-zA-Z][0-9a-zA-Z_]*)",STRING_LITERAL, line no: 71, 0.049689440993788817, 0.049689440993788817, 0.0
-localStart,SIMPLE_NAME, line no: 22,getLastFoundStatement,SIMPLE_NAME, line no: 64, 0.04938271604938271, 0.04938271604938271, 0.0
-localStart,SIMPLE_NAME, line no: 22,getPrePatternString() + "([a-zA-Z][0-9a-zA-Z_]*)" + getPostPatternString(),INFIX_EXPRESSION, line no: 71, 0.04938271604938271, 0.04938271604938271, 0.0
-localStart,SIMPLE_NAME, line no: 22,"([a-zA-Z][0-9a-zA-Z_]*)",STRING_LITERAL, line no: 71, 0.04938271604938271, 0.04938271604938271, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,getLastFoundStatement,SIMPLE_NAME, line no: 64, 0.04938271604938271, 0.04938271604938271, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,getPrePatternString() + "([a-zA-Z][0-9a-zA-Z_]*)" + getPostPatternString(),INFIX_EXPRESSION, line no: 71, 0.04938271604938271, 0.04938271604938271, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,"([a-zA-Z][0-9a-zA-Z_]*)",STRING_LITERAL, line no: 71, 0.04938271604938271, 0.04938271604938271, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,getLastFoundStatement,SIMPLE_NAME, line no: 64, 0.049079754601226995, 0.049079754601226995, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,getPrePatternString() + "([a-zA-Z][0-9a-zA-Z_]*)" + getPostPatternString(),INFIX_EXPRESSION, line no: 71, 0.049079754601226995, 0.049079754601226995, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,"([a-zA-Z][0-9a-zA-Z_]*)",STRING_LITERAL, line no: 71, 0.049079754601226995, 0.049079754601226995, 0.0
-start,SIMPLE_NAME, line no: 22,getLastFoundStatement,SIMPLE_NAME, line no: 64, 0.049079754601226995, 0.049079754601226995, 0.0
-start,SIMPLE_NAME, line no: 22,getPrePatternString() + "([a-zA-Z][0-9a-zA-Z_]*)" + getPostPatternString(),INFIX_EXPRESSION, line no: 71, 0.049079754601226995, 0.049079754601226995, 0.0
-start,SIMPLE_NAME, line no: 22,"([a-zA-Z][0-9a-zA-Z_]*)",STRING_LITERAL, line no: 71, 0.049079754601226995, 0.049079754601226995, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,bodyParser.getLastFoundStatement(),METHOD_INVOCATION, line no: 64, 0.043478260869565216, 0.043478260869565216, 0.0
-localStart,SIMPLE_NAME, line no: 22,bodyParser.getLastFoundStatement(),METHOD_INVOCATION, line no: 64, 0.043209876543209874, 0.043209876543209874, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,bodyParser.getLastFoundStatement(),METHOD_INVOCATION, line no: 64, 0.043209876543209874, 0.043209876543209874, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,bodyParser.getLastFoundStatement(),METHOD_INVOCATION, line no: 64, 0.04294478527607362, 0.04294478527607362, 0.0
-start,SIMPLE_NAME, line no: 22,bodyParser.getLastFoundStatement(),METHOD_INVOCATION, line no: 64, 0.04294478527607362, 0.04294478527607362, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,UnsupportedOperationException,SIMPLE_NAME, line no: 88, 0.018633540372670808, 0.018633540372670808, 0.0
-localStart,SIMPLE_NAME, line no: 22,UnsupportedOperationException,SIMPLE_NAME, line no: 88, 0.018518518518518517, 0.018518518518518517, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,UnsupportedOperationException,SIMPLE_NAME, line no: 88, 0.018518518518518517, 0.018518518518518517, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,UnsupportedOperationException,SIMPLE_NAME, line no: 88, 0.018404907975460124, 0.018404907975460124, 0.0
-start,SIMPLE_NAME, line no: 22,UnsupportedOperationException,SIMPLE_NAME, line no: 88, 0.018404907975460124, 0.018404907975460124, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,"(state\\s+)",STRING_LITERAL, line no: 77, 0.012422360248447204, 0.012422360248447204, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,"(\\s*\\{)",STRING_LITERAL, line no: 82, 0.012422360248447204, 0.012422360248447204, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,new UnsupportedOperationException("In this parser a specail behavior of doFindNext(CharSequence int) is required; by this this method should not be called!"),CLASS_INSTANCE_CREATION, line no: 88, 0.012422360248447204, 0.012422360248447204, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,"In this parser a specail behavior of doFindNext(CharSequence int) is required; by this this method should not be called!",STRING_LITERAL, line no: 89, 0.012422360248447204, 0.012422360248447204, 0.0
-localStart,SIMPLE_NAME, line no: 22,"(state\\s+)",STRING_LITERAL, line no: 77, 0.012345679012345678, 0.012345679012345678, 0.0
-localStart,SIMPLE_NAME, line no: 22,"(\\s*\\{)",STRING_LITERAL, line no: 82, 0.012345679012345678, 0.012345679012345678, 0.0
-localStart,SIMPLE_NAME, line no: 22,new UnsupportedOperationException("In this parser a specail behavior of doFindNext(CharSequence int) is required; by this this method should not be called!"),CLASS_INSTANCE_CREATION, line no: 88, 0.012345679012345678, 0.012345679012345678, 0.0
-localStart,SIMPLE_NAME, line no: 22,"In this parser a specail behavior of doFindNext(CharSequence int) is required; by this this method should not be called!",STRING_LITERAL, line no: 89, 0.012345679012345678, 0.012345679012345678, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,"(state\\s+)",STRING_LITERAL, line no: 77, 0.012345679012345678, 0.012345679012345678, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,"(\\s*\\{)",STRING_LITERAL, line no: 82, 0.012345679012345678, 0.012345679012345678, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,new UnsupportedOperationException("In this parser a specail behavior of doFindNext(CharSequence int) is required; by this this method should not be called!"),CLASS_INSTANCE_CREATION, line no: 88, 0.012345679012345678, 0.012345679012345678, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,"In this parser a specail behavior of doFindNext(CharSequence int) is required; by this this method should not be called!",STRING_LITERAL, line no: 89, 0.012345679012345678, 0.012345679012345678, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,"(state\\s+)",STRING_LITERAL, line no: 77, 0.012269938650306749, 0.012269938650306749, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,"(\\s*\\{)",STRING_LITERAL, line no: 82, 0.012269938650306749, 0.012269938650306749, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,new UnsupportedOperationException("In this parser a specail behavior of doFindNext(CharSequence int) is required; by this this method should not be called!"),CLASS_INSTANCE_CREATION, line no: 88, 0.012269938650306749, 0.012269938650306749, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,"In this parser a specail behavior of doFindNext(CharSequence int) is required; by this this method should not be called!",STRING_LITERAL, line no: 89, 0.012269938650306749, 0.012269938650306749, 0.0
-start,SIMPLE_NAME, line no: 22,"(state\\s+)",STRING_LITERAL, line no: 77, 0.012269938650306749, 0.012269938650306749, 0.0
-start,SIMPLE_NAME, line no: 22,"(\\s*\\{)",STRING_LITERAL, line no: 82, 0.012269938650306749, 0.012269938650306749, 0.0
-start,SIMPLE_NAME, line no: 22,new UnsupportedOperationException("In this parser a specail behavior of doFindNext(CharSequence int) is required; by this this method should not be called!"),CLASS_INSTANCE_CREATION, line no: 88, 0.012269938650306749, 0.012269938650306749, 0.0
-start,SIMPLE_NAME, line no: 22,"In this parser a specail behavior of doFindNext(CharSequence int) is required; by this this method should not be called!",STRING_LITERAL, line no: 89, 0.012269938650306749, 0.012269938650306749, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,de,SIMPLE_NAME, line no: 1, 0.006211180124223602, 0.006211180124223602, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,desy,SIMPLE_NAME, line no: 1, 0.006211180124223602, 0.006211180124223602, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,language,SIMPLE_NAME, line no: 1, 0.006211180124223602, 0.006211180124223602, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,snl,SIMPLE_NAME, line no: 1, 0.006211180124223602, 0.006211180124223602, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,parser,SIMPLE_NAME, line no: 1, 0.006211180124223602, 0.006211180124223602, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,java,SIMPLE_NAME, line no: 3, 0.006211180124223602, 0.006211180124223602, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,util,SIMPLE_NAME, line no: 3, 0.006211180124223602, 0.006211180124223602, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,regex,SIMPLE_NAME, line no: 3, 0.006211180124223602, 0.006211180124223602, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,nodes,SIMPLE_NAME, line no: 6, 0.006211180124223602, 0.006211180124223602, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,StateParser,SIMPLE_NAME, line no: 8, 0.006211180124223602, 0.006211180124223602, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,AbstractOptimizedStatementParser,SIMPLE_NAME, line no: 8, 0.006211180124223602, 0.006211180124223602, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,Override,SIMPLE_NAME, line no: 10, 0.006211180124223602, 0.006211180124223602, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,doFindNext,SIMPLE_NAME, line no: 11, 0.006211180124223602, 0.006211180124223602, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,CharSequence,SIMPLE_NAME, line no: 11, 0.006211180124223602, 0.006211180124223602, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,matchFound,SIMPLE_NAME, line no: 86, 0.006211180124223602, 0.006211180124223602, 0.0
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,mainMatcher,SIMPLE_NAME, line no: 87, 0.006211180124223602, 0.006211180124223602, 0.0
-localStart,SIMPLE_NAME, line no: 22,de,SIMPLE_NAME, line no: 1, 0.006172839506172839, 0.006172839506172839, 0.0
-localStart,SIMPLE_NAME, line no: 22,desy,SIMPLE_NAME, line no: 1, 0.006172839506172839, 0.006172839506172839, 0.0
-localStart,SIMPLE_NAME, line no: 22,language,SIMPLE_NAME, line no: 1, 0.006172839506172839, 0.006172839506172839, 0.0
-localStart,SIMPLE_NAME, line no: 22,snl,SIMPLE_NAME, line no: 1, 0.006172839506172839, 0.006172839506172839, 0.0
-localStart,SIMPLE_NAME, line no: 22,parser,SIMPLE_NAME, line no: 1, 0.006172839506172839, 0.006172839506172839, 0.0
-localStart,SIMPLE_NAME, line no: 22,java,SIMPLE_NAME, line no: 3, 0.006172839506172839, 0.006172839506172839, 0.0
-localStart,SIMPLE_NAME, line no: 22,util,SIMPLE_NAME, line no: 3, 0.006172839506172839, 0.006172839506172839, 0.0
-localStart,SIMPLE_NAME, line no: 22,regex,SIMPLE_NAME, line no: 3, 0.006172839506172839, 0.006172839506172839, 0.0
-localStart,SIMPLE_NAME, line no: 22,nodes,SIMPLE_NAME, line no: 6, 0.006172839506172839, 0.006172839506172839, 0.0
-localStart,SIMPLE_NAME, line no: 22,StateParser,SIMPLE_NAME, line no: 8, 0.006172839506172839, 0.006172839506172839, 0.0
-localStart,SIMPLE_NAME, line no: 22,AbstractOptimizedStatementParser,SIMPLE_NAME, line no: 8, 0.006172839506172839, 0.006172839506172839, 0.0
-localStart,SIMPLE_NAME, line no: 22,Override,SIMPLE_NAME, line no: 10, 0.006172839506172839, 0.006172839506172839, 0.0
-localStart,SIMPLE_NAME, line no: 22,doFindNext,SIMPLE_NAME, line no: 11, 0.006172839506172839, 0.006172839506172839, 0.0
-localStart,SIMPLE_NAME, line no: 22,CharSequence,SIMPLE_NAME, line no: 11, 0.006172839506172839, 0.006172839506172839, 0.0
-localStart,SIMPLE_NAME, line no: 22,matchFound,SIMPLE_NAME, line no: 86, 0.006172839506172839, 0.006172839506172839, 0.0
-localStart,SIMPLE_NAME, line no: 22,mainMatcher,SIMPLE_NAME, line no: 87, 0.006172839506172839, 0.006172839506172839, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,de,SIMPLE_NAME, line no: 1, 0.006172839506172839, 0.006172839506172839, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,desy,SIMPLE_NAME, line no: 1, 0.006172839506172839, 0.006172839506172839, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,language,SIMPLE_NAME, line no: 1, 0.006172839506172839, 0.006172839506172839, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,snl,SIMPLE_NAME, line no: 1, 0.006172839506172839, 0.006172839506172839, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,parser,SIMPLE_NAME, line no: 1, 0.006172839506172839, 0.006172839506172839, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,java,SIMPLE_NAME, line no: 3, 0.006172839506172839, 0.006172839506172839, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,util,SIMPLE_NAME, line no: 3, 0.006172839506172839, 0.006172839506172839, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,regex,SIMPLE_NAME, line no: 3, 0.006172839506172839, 0.006172839506172839, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,nodes,SIMPLE_NAME, line no: 6, 0.006172839506172839, 0.006172839506172839, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,StateParser,SIMPLE_NAME, line no: 8, 0.006172839506172839, 0.006172839506172839, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,AbstractOptimizedStatementParser,SIMPLE_NAME, line no: 8, 0.006172839506172839, 0.006172839506172839, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,Override,SIMPLE_NAME, line no: 10, 0.006172839506172839, 0.006172839506172839, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,doFindNext,SIMPLE_NAME, line no: 11, 0.006172839506172839, 0.006172839506172839, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,CharSequence,SIMPLE_NAME, line no: 11, 0.006172839506172839, 0.006172839506172839, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,matchFound,SIMPLE_NAME, line no: 86, 0.006172839506172839, 0.006172839506172839, 0.0
-preMatcher.start(),METHOD_INVOCATION, line no: 22,mainMatcher,SIMPLE_NAME, line no: 87, 0.006172839506172839, 0.006172839506172839, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,de,SIMPLE_NAME, line no: 1, 0.006134969325153374, 0.006134969325153374, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,desy,SIMPLE_NAME, line no: 1, 0.006134969325153374, 0.006134969325153374, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,language,SIMPLE_NAME, line no: 1, 0.006134969325153374, 0.006134969325153374, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,snl,SIMPLE_NAME, line no: 1, 0.006134969325153374, 0.006134969325153374, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,parser,SIMPLE_NAME, line no: 1, 0.006134969325153374, 0.006134969325153374, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,java,SIMPLE_NAME, line no: 3, 0.006134969325153374, 0.006134969325153374, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,util,SIMPLE_NAME, line no: 3, 0.006134969325153374, 0.006134969325153374, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,regex,SIMPLE_NAME, line no: 3, 0.006134969325153374, 0.006134969325153374, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,nodes,SIMPLE_NAME, line no: 6, 0.006134969325153374, 0.006134969325153374, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,StateParser,SIMPLE_NAME, line no: 8, 0.006134969325153374, 0.006134969325153374, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,AbstractOptimizedStatementParser,SIMPLE_NAME, line no: 8, 0.006134969325153374, 0.006134969325153374, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,Override,SIMPLE_NAME, line no: 10, 0.006134969325153374, 0.006134969325153374, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,doFindNext,SIMPLE_NAME, line no: 11, 0.006134969325153374, 0.006134969325153374, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,CharSequence,SIMPLE_NAME, line no: 11, 0.006134969325153374, 0.006134969325153374, 0.0
-preMatcher,SIMPLE_NAME, line no: 22,matchFound,SIMPLE_NAME, line no: 86, 0.006134969325153374, 0.006134969325153374, 0.0
-start,SIMPLE_NAME, line no: 22,de,SIMPLE_NAME, line no: 1, 0.006134969325153374, 0.006134969325153374, 0.0
-start,SIMPLE_NAME, line no: 22,desy,SIMPLE_NAME, line no: 1, 0.006134969325153374, 0.006134969325153374, 0.0
-start,SIMPLE_NAME, line no: 22,language,SIMPLE_NAME, line no: 1, 0.006134969325153374, 0.006134969325153374, 0.0
-start,SIMPLE_NAME, line no: 22,snl,SIMPLE_NAME, line no: 1, 0.006134969325153374, 0.006134969325153374, 0.0
-start,SIMPLE_NAME, line no: 22,parser,SIMPLE_NAME, line no: 1, 0.006134969325153374, 0.006134969325153374, 0.0
-start,SIMPLE_NAME, line no: 22,java,SIMPLE_NAME, line no: 3, 0.006134969325153374, 0.006134969325153374, 0.0
-start,SIMPLE_NAME, line no: 22,util,SIMPLE_NAME, line no: 3, 0.006134969325153374, 0.006134969325153374, 0.0
-start,SIMPLE_NAME, line no: 22,regex,SIMPLE_NAME, line no: 3, 0.006134969325153374, 0.006134969325153374, 0.0
-start,SIMPLE_NAME, line no: 22,nodes,SIMPLE_NAME, line no: 6, 0.006134969325153374, 0.006134969325153374, 0.0
-start,SIMPLE_NAME, line no: 22,StateParser,SIMPLE_NAME, line no: 8, 0.006134969325153374, 0.006134969325153374, 0.0
-start,SIMPLE_NAME, line no: 22,AbstractOptimizedStatementParser,SIMPLE_NAME, line no: 8, 0.006134969325153374, 0.006134969325153374, 0.0
-start,SIMPLE_NAME, line no: 22,Override,SIMPLE_NAME, line no: 10, 0.006134969325153374, 0.006134969325153374, 0.0
-start,SIMPLE_NAME, line no: 22,doFindNext,SIMPLE_NAME, line no: 11, 0.006134969325153374, 0.006134969325153374, 0.0
-start,SIMPLE_NAME, line no: 22,CharSequence,SIMPLE_NAME, line no: 11, 0.006134969325153374, 0.006134969325153374, 0.0
-start,SIMPLE_NAME, line no: 22,matchFound,SIMPLE_NAME, line no: 86, 0.006134969325153374, 0.006134969325153374, 0.0
-start,SIMPLE_NAME, line no: 22,mainMatcher,SIMPLE_NAME, line no: 87, 0.006134969325153374, 0.006134969325153374, 0.0
+localStart=preMatcher.start(),ASSIGNMENT, line no: 22,startIndex,SIMPLE_NAME, line no: 11, 1.0, 0.006211180124223602, 1.0
+localStart=preMatcher.start(),ASSIGNMENT, line no: 22,localStart,SIMPLE_NAME, line no: 20, 1.0, 1.0, 1.0
+localStart=preMatcher.start(),ASSIGNMENT, line no: 22,preMatcher.find(localStart),METHOD_INVOCATION, line no: 21, 1.0, 1.0, 1.0
+localStart=preMatcher.start(),ASSIGNMENT, line no: 22,start,SIMPLE_NAME, line no: 22, 1.0, 1.0, 1.0
+localStart,SIMPLE_NAME, line no: 22,startIndex,SIMPLE_NAME, line no: 11, 1.0, 0.006172839506172839, 1.0
+localStart,SIMPLE_NAME, line no: 22,start,SIMPLE_NAME, line no: 22, 1.0, 1.0, 1.0
+preMatcher.start(),METHOD_INVOCATION, line no: 22,startIndex,SIMPLE_NAME, line no: 11, 1.0, 0.006172839506172839, 1.0
+preMatcher.start(),METHOD_INVOCATION, line no: 22,localStart,SIMPLE_NAME, line no: 20, 1.0, 1.0, 1.0
+preMatcher.start(),METHOD_INVOCATION, line no: 22,start,SIMPLE_NAME, line no: 22, 1.0, 1.0, 1.0
+preMatcher,SIMPLE_NAME, line no: 22,Matcher,SIMPLE_NAME, line no: 3, 1.0, 0.006134969325153374, 1.0
+preMatcher,SIMPLE_NAME, line no: 22,prePattern.matcher(input),METHOD_INVOCATION, line no: 14, 1.0, 1.0, 1.0
+preMatcher,SIMPLE_NAME, line no: 22,matcher,SIMPLE_NAME, line no: 14, 1.0, 1.0, 1.0
+preMatcher,SIMPLE_NAME, line no: 22,postMatcher,SIMPLE_NAME, line no: 16, 1.0, 1.0, 1.0
+preMatcher,SIMPLE_NAME, line no: 22,postPattern.matcher(input),METHOD_INVOCATION, line no: 16, 1.0, 1.0, 1.0
+preMatcher,SIMPLE_NAME, line no: 22,pattern.matcher(input),METHOD_INVOCATION, line no: 18, 1.0, 1.0, 1.0
+start,SIMPLE_NAME, line no: 22,startIndex,SIMPLE_NAME, line no: 11, 1.0, 0.006134969325153374, 1.0
+start,SIMPLE_NAME, line no: 22,localStart,SIMPLE_NAME, line no: 20, 1.0, 1.0, 1.0
+start,SIMPLE_NAME, line no: 22,preMatcher.start(),METHOD_INVOCATION, line no: 22, 0.9938650306748467, 0.9938650306748467, 1.0
+localStart,SIMPLE_NAME, line no: 22,localStart=preMatcher.start(),ASSIGNMENT, line no: 22, 0.9938271604938271, 0.9938271604938271, 1.0
+localStart,SIMPLE_NAME, line no: 22,preMatcher.start(),METHOD_INVOCATION, line no: 22, 0.9938271604938271, 0.9938271604938271, 1.0
+start,SIMPLE_NAME, line no: 22,localStart=preMatcher.start(),ASSIGNMENT, line no: 22, 0.9877300613496932, 0.9877300613496932, 1.0
+start,SIMPLE_NAME, line no: 22,length,SIMPLE_NAME, line no: 29, 0.9877300613496932, 0.6625766871165644, 1.0
+localStart,SIMPLE_NAME, line no: 22,length,SIMPLE_NAME, line no: 29, 0.9876543209876543, 0.6666666666666666, 1.0
+preMatcher.start(),METHOD_INVOCATION, line no: 22,length,SIMPLE_NAME, line no: 29, 0.9876543209876543, 0.6666666666666666, 1.0
+localStart=preMatcher.start(),ASSIGNMENT, line no: 22,length,SIMPLE_NAME, line no: 29, 0.9875776397515528, 0.6708074534161491, 1.0
+start,SIMPLE_NAME, line no: 22,localStart + 1,INFIX_EXPRESSION, line no: 24, 0.9815950920245399, 0.9815950920245399, 1.0
+start,SIMPLE_NAME, line no: 22,1,NUMBER_LITERAL, line no: 24, 0.9815950920245399, 0.9815950920245399, 1.0
+start,SIMPLE_NAME, line no: 22,input.length(),METHOD_INVOCATION, line no: 29, 0.9815950920245399, 0.656441717791411, 1.0
+localStart,SIMPLE_NAME, line no: 22,localStart + 1,INFIX_EXPRESSION, line no: 24, 0.9814814814814815, 0.9814814814814815, 1.0
+localStart,SIMPLE_NAME, line no: 22,1,NUMBER_LITERAL, line no: 24, 0.9814814814814815, 0.9814814814814815, 1.0
+localStart,SIMPLE_NAME, line no: 22,input.length(),METHOD_INVOCATION, line no: 29, 0.9814814814814815, 0.6604938271604939, 1.0
+localStart=preMatcher.start(),ASSIGNMENT, line no: 22,end,SIMPLE_NAME, line no: 25, 0.8509316770186336, 0.8385093167701864, 1.0
+localStart,SIMPLE_NAME, line no: 22,end,SIMPLE_NAME, line no: 25, 0.845679012345679, 0.8333333333333334, 1.0
+preMatcher.start(),METHOD_INVOCATION, line no: 22,end,SIMPLE_NAME, line no: 25, 0.845679012345679, 0.8333333333333334, 1.0
+preMatcher,SIMPLE_NAME, line no: 22,region,SIMPLE_NAME, line no: 26, 0.8404907975460123, 0.8404907975460123, 1.0
+start,SIMPLE_NAME, line no: 22,end,SIMPLE_NAME, line no: 25, 0.8404907975460123, 0.8282208588957055, 1.0
+localStart,SIMPLE_NAME, line no: 22,localStart=end,ASSIGNMENT, line no: 32, 0.8395061728395061, 0.10493827160493827, 1.0
+preMatcher,SIMPLE_NAME, line no: 22,matcher.region(startIndex end),METHOD_INVOCATION, line no: 26, 0.8343558282208589, 0.8343558282208589, 1.0
+start,SIMPLE_NAME, line no: 22,localStart=end,ASSIGNMENT, line no: 32, 0.8343558282208589, 0.10429447852760736, 1.0
+localStart,SIMPLE_NAME, line no: 22,postMatcher.end(),METHOD_INVOCATION, line no: 25, 0.8333333333333334, 0.8333333333333334, 1.0
+start,SIMPLE_NAME, line no: 22,postMatcher.end(),METHOD_INVOCATION, line no: 25, 0.8282208588957055, 0.8282208588957055, 1.0
+localStart,SIMPLE_NAME, line no: 22,2,NUMBER_LITERAL, line no: 37, 0.6666666666666666, 0.6666666666666666, 1.0
+localStart,SIMPLE_NAME, line no: 22,body.length(),METHOD_INVOCATION, line no: 37, 0.6666666666666666, 0.6604938271604939, 1.0
+localStart=preMatcher.start(),ASSIGNMENT, line no: 22,_startOffSet,SIMPLE_NAME, line no: 36, 0.6645962732919255, 0.6645962732919255, 1.0
+localStart=preMatcher.start(),ASSIGNMENT, line no: 22,_endOffSet,SIMPLE_NAME, line no: 37, 0.6645962732919255, 0.6645962732919255, 1.0
+localStart=preMatcher.start(),ASSIGNMENT, line no: 22,getStartOffsetLastFound,SIMPLE_NAME, line no: 41, 0.6645962732919255, 0.6645962732919255, 1.0
+localStart=preMatcher.start(),ASSIGNMENT, line no: 22,getEndOffsetLastFound,SIMPLE_NAME, line no: 42, 0.6645962732919255, 0.6645962732919255, 1.0
+start,SIMPLE_NAME, line no: 22,2,NUMBER_LITERAL, line no: 37, 0.6625766871165644, 0.6625766871165644, 1.0
+start,SIMPLE_NAME, line no: 22,body.length(),METHOD_INVOCATION, line no: 37, 0.6625766871165644, 0.656441717791411, 1.0
+localStart,SIMPLE_NAME, line no: 22,end - 1,INFIX_EXPRESSION, line no: 29, 0.6604938271604939, 0.6604938271604939, 1.0
+localStart,SIMPLE_NAME, line no: 22,_startOffSet,SIMPLE_NAME, line no: 36, 0.6604938271604939, 0.6604938271604939, 1.0
+localStart,SIMPLE_NAME, line no: 22,_endOffSet,SIMPLE_NAME, line no: 37, 0.6604938271604939, 0.6604938271604939, 1.0
+localStart,SIMPLE_NAME, line no: 22,end - 2,INFIX_EXPRESSION, line no: 37, 0.6604938271604939, 0.6604938271604939, 1.0
+localStart,SIMPLE_NAME, line no: 22,body.length() - 1,INFIX_EXPRESSION, line no: 40, 0.6604938271604939, 0.6604938271604939, 1.0
+localStart,SIMPLE_NAME, line no: 22,getStartOffsetLastFound,SIMPLE_NAME, line no: 41, 0.6604938271604939, 0.6604938271604939, 1.0
+localStart,SIMPLE_NAME, line no: 22,getEndOffsetLastFound,SIMPLE_NAME, line no: 42, 0.6604938271604939, 0.6604938271604939, 1.0
+preMatcher.start(),METHOD_INVOCATION, line no: 22,_startOffSet,SIMPLE_NAME, line no: 36, 0.6604938271604939, 0.6604938271604939, 1.0
+preMatcher.start(),METHOD_INVOCATION, line no: 22,_endOffSet,SIMPLE_NAME, line no: 37, 0.6604938271604939, 0.6604938271604939, 1.0
+preMatcher.start(),METHOD_INVOCATION, line no: 22,getStartOffsetLastFound,SIMPLE_NAME, line no: 41, 0.6604938271604939, 0.6604938271604939, 1.0
+preMatcher.start(),METHOD_INVOCATION, line no: 22,getEndOffsetLastFound,SIMPLE_NAME, line no: 42, 0.6604938271604939, 0.6604938271604939, 1.0
+start,SIMPLE_NAME, line no: 22,end - 1,INFIX_EXPRESSION, line no: 29, 0.656441717791411, 0.656441717791411, 1.0
+start,SIMPLE_NAME, line no: 22,_startOffSet,SIMPLE_NAME, line no: 36, 0.656441717791411, 0.656441717791411, 1.0
+start,SIMPLE_NAME, line no: 22,_endOffSet,SIMPLE_NAME, line no: 37, 0.656441717791411, 0.656441717791411, 1.0
+start,SIMPLE_NAME, line no: 22,end - 2,INFIX_EXPRESSION, line no: 37, 0.656441717791411, 0.656441717791411, 1.0
+start,SIMPLE_NAME, line no: 22,body.length() - 1,INFIX_EXPRESSION, line no: 40, 0.656441717791411, 0.656441717791411, 1.0
+start,SIMPLE_NAME, line no: 22,getStartOffsetLastFound,SIMPLE_NAME, line no: 41, 0.656441717791411, 0.656441717791411, 1.0
+start,SIMPLE_NAME, line no: 22,getEndOffsetLastFound,SIMPLE_NAME, line no: 42, 0.656441717791411, 0.656441717791411, 1.0
+localStart,SIMPLE_NAME, line no: 22,this._startOffSet,FIELD_ACCESS, line no: 36, 0.654320987654321, 0.654320987654321, 1.0
+localStart,SIMPLE_NAME, line no: 22,matcher.start(),METHOD_INVOCATION, line no: 36, 0.654320987654321, 0.654320987654321, 1.0
+localStart,SIMPLE_NAME, line no: 22,this._endOffSet,FIELD_ACCESS, line no: 37, 0.654320987654321, 0.654320987654321, 1.0
+localStart,SIMPLE_NAME, line no: 22,end - 2 + body.length(),INFIX_EXPRESSION, line no: 37, 0.654320987654321, 0.654320987654321, 1.0
+localStart,SIMPLE_NAME, line no: 22,this.getStartOffsetLastFound(),METHOD_INVOCATION, line no: 41, 0.654320987654321, 0.654320987654321, 1.0
+localStart,SIMPLE_NAME, line no: 22,this.getEndOffsetLastFound(),METHOD_INVOCATION, line no: 41, 0.654320987654321, 0.654320987654321, 1.0
+start,SIMPLE_NAME, line no: 22,this._startOffSet,FIELD_ACCESS, line no: 36, 0.6503067484662577, 0.6503067484662577, 1.0
+start,SIMPLE_NAME, line no: 22,matcher.start(),METHOD_INVOCATION, line no: 36, 0.6503067484662577, 0.6503067484662577, 1.0
+start,SIMPLE_NAME, line no: 22,this._endOffSet,FIELD_ACCESS, line no: 37, 0.6503067484662577, 0.6503067484662577, 1.0
+start,SIMPLE_NAME, line no: 22,end - 2 + body.length(),INFIX_EXPRESSION, line no: 37, 0.6503067484662577, 0.6503067484662577, 1.0
+start,SIMPLE_NAME, line no: 22,this.getStartOffsetLastFound(),METHOD_INVOCATION, line no: 41, 0.6503067484662577, 0.6503067484662577, 1.0
+start,SIMPLE_NAME, line no: 22,this.getEndOffsetLastFound(),METHOD_INVOCATION, line no: 41, 0.6503067484662577, 0.6503067484662577, 1.0
+localStart,SIMPLE_NAME, line no: 22,this._startOffSet=matcher.start(),ASSIGNMENT, line no: 36, 0.6481481481481481, 0.6481481481481481, 1.0
+localStart,SIMPLE_NAME, line no: 22,this._endOffSet=end - 2 + body.length(),ASSIGNMENT, line no: 37, 0.6481481481481481, 0.6481481481481481, 1.0
+start,SIMPLE_NAME, line no: 22,this._startOffSet=matcher.start(),ASSIGNMENT, line no: 36, 0.6441717791411042, 0.6441717791411042, 1.0
+start,SIMPLE_NAME, line no: 22,this._endOffSet=end - 2 + body.length(),ASSIGNMENT, line no: 37, 0.6441717791411042, 0.6441717791411042, 1.0
+localStart=preMatcher.start(),ASSIGNMENT, line no: 22,preMatcher.start(),METHOD_INVOCATION, line no: 22, 0.5, 1.0, 0.5
+preMatcher.start(),METHOD_INVOCATION, line no: 22,preMatcher.find(localStart),METHOD_INVOCATION, line no: 21, 0.5, 1.0, 0.5
+preMatcher.start(),METHOD_INVOCATION, line no: 22,localStart=preMatcher.start(),ASSIGNMENT, line no: 22, 0.49691358024691357, 0.9938271604938271, 0.5
+localStart=preMatcher.start(),ASSIGNMENT, line no: 22,localStart + 1,INFIX_EXPRESSION, line no: 24, 0.4937888198757764, 0.9875776397515528, 0.5
+localStart=preMatcher.start(),ASSIGNMENT, line no: 22,localStart > input.length(),INFIX_EXPRESSION, line no: 46, 0.4937888198757764, 0.84472049689441, 0.5
+localStart=preMatcher.start(),ASSIGNMENT, line no: 22,postMatcher.find(localStart + 1),METHOD_INVOCATION, line no: 24, 0.3291925465838509, 0.9875776397515528, 0.3333333333333333
+localStart=preMatcher.start(),ASSIGNMENT, line no: 22,localStart=end,ASSIGNMENT, line no: 32, 0.2815734989648033, 0.10559006211180125, 0.3333333333333333
+localStart,SIMPLE_NAME, line no: 22,0,NUMBER_LITERAL, line no: 60, 0.1728395061728395, 0.1728395061728395, 1.0
+start,SIMPLE_NAME, line no: 22,0,NUMBER_LITERAL, line no: 60, 0.17177914110429449, 0.17177914110429449, 1.0
+preMatcher,SIMPLE_NAME, line no: 22,mainMatcher,SIMPLE_NAME, line no: 87, 0.006134969325153374, 0.006134969325153374, 1.0

@@ -26,8 +26,8 @@ public class ReplaceHandler {
 
 			if(!faultyNode.node.toString().equals(fixingIngredient.node.toString())) {
 				//				if(this.compatibilityChecker.checkCompatibility(faultyNode.node, fixingIngredient, "replace")==true) {
-				//					System.out.println("FAULT "+ faultyNode.node.toString() + " line:"+faultyNode.startLine);
-				//					System.out.println("FIX " + fixingIngredient.node.toString()+ " line:"+fixingIngredient.startLine);
+//									System.out.println("FAULT "+ faultyNode.node.toString() + " line:"+faultyNode.startLine);
+//									System.out.println("FIX " + fixingIngredient.node.toString()+ " line:"+fixingIngredient.startLine);
 				CandidatePatch candidatePatch = new CandidatePatch();
 				candidatePatch.faultyNode = faultyNode.node;
 				candidatePatch.fixingIngredient = fixingIngredient.node;
@@ -45,7 +45,11 @@ public class ReplaceHandler {
 					}
 				}
 				
-				else if(faultyNode.type.equals("BOOLEAN_LITERAL") || fixingIngredient.type.equals("BOOLEAN_LITERAL")) {
+				else if(faultyNode.type.equals("BOOLEAN_LITERAL") || fixingIngredient.type.equals("BOOLEAN_LITERAL")
+						|| faultyNode.type.equals("NUMBER_LITERAL") || fixingIngredient.type.equals("NUMBER_LITERAL")
+						|| faultyNode.type.equals("NULL_LITERAL") || fixingIngredient.type.equals("NULL_LITERAL")
+						|| faultyNode.type.equals("CHARACTER_LITERAL") || fixingIngredient.type.equals("CHARACTER_LITERAL")
+						|| faultyNode.type.equals("STRING_LITERAL") || fixingIngredient.type.equals("STRING_LITERAL")) {
 					IBinding faultyBinding = ((Expression)faultyNode.node).resolveTypeBinding();
 					IBinding fixingBinding = ((Expression)fixingIngredient.node).resolveTypeBinding();
 					if(faultyBinding!=null && fixingBinding!=null && faultyBinding.equals(fixingBinding)) {
@@ -57,8 +61,8 @@ public class ReplaceHandler {
 				else {
 					candidatePatch.variableScore = modelExtractor.getVariableSimilarityScore(faultyNode.variableAccessed, fixingIngredient.variableAccessed);
 				}
-				candidatePatch.score = candidatePatch.genealogyScore+candidatePatch.variableScore;
-//
+				candidatePatch.score = candidatePatch.genealogyScore*candidatePatch.variableScore;
+//				System.out.println(candidatePatch.genealogyScore+ " "+candidatePatch.variableScore);
 				if(candidatePatch.score>0) {
 					this.patchListUpdater.updatePatchList(candidatePatch);
 				}
