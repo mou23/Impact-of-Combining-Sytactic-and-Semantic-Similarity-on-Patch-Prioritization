@@ -5,8 +5,11 @@ import org.eclipse.jdt.core.dom.ASTNode;
 import org.eclipse.jdt.core.dom.ASTVisitor;
 import org.eclipse.jdt.core.dom.Block;
 import org.eclipse.jdt.core.dom.ChildPropertyDescriptor;
+import org.eclipse.jdt.core.dom.FieldAccess;
 import org.eclipse.jdt.core.dom.MethodDeclaration;
+import org.eclipse.jdt.core.dom.SingleVariableDeclaration;
 import org.eclipse.jdt.core.dom.StructuralPropertyDescriptor;
+import org.eclipse.jdt.core.dom.VariableDeclaration;
 import org.eclipse.jdt.core.dom.VariableDeclarationFragment;
 
 public class VariableCollector extends ASTVisitor {
@@ -17,7 +20,7 @@ public class VariableCollector extends ASTVisitor {
 	public boolean visit(VariableDeclarationFragment node) {
 		Variable variable = new Variable();
 		variable.name = ((VariableDeclarationFragment)node).getName().toString();
-		variable.type = getVariableType(node.getParent());
+//		variable.type = getVariableType(node.getParent());
 		variable.binding = ((VariableDeclarationFragment)node).resolveBinding();
 		ASTNode currentNode = node.getParent().getParent();
 //		System.out.println(variable.name + " " +variable.type + " "+variable.binding);
@@ -31,13 +34,27 @@ public class VariableCollector extends ASTVisitor {
     }
 
     public boolean visit(MethodDeclaration methodDeclaration) {
+//    	System.out.println(methodDeclaration.getName());
+    	
+        for (Object parameter : methodDeclaration.parameters()) {
+            VariableDeclaration variableDeclaration = (VariableDeclaration) parameter;
+            Variable variable = new Variable();
+    		variable.name = variableDeclaration.getName().toString();
+//    		variable.type = getVariableType(variableDeclaration);
+    		variable.binding = variableDeclaration.resolveBinding();
+    		
+    		PatchGenerator patchGenerator = PatchGenerator.createPatchGenerator();
+    		variable.startLine = patchGenerator.compilationUnit.getLineNumber(variableDeclaration.getStartPosition());
+    		variable.endLine = patchGenerator.compilationUnit.getLineNumber(methodDeclaration.getStartPosition()+methodDeclaration.getLength());
+    		variables.add(variable);
+        }
         methodDeclaration.accept(new ASTVisitor() {
             public boolean visit(VariableDeclarationFragment var) {
 //            	System.out.println("VariableDeclarationFragment in Method!!!");
 //        		System.out.println("VAR " +var);
             	Variable variable = new Variable();
         		variable.name = ((VariableDeclarationFragment)var).getName().toString();
-        		variable.type = getVariableType(var.getParent());
+//        		variable.type = getVariableType(var.getParent());
         		variable.binding = ((VariableDeclarationFragment)var).resolveBinding();
 //        		System.out.println(var.getName() + " " +var.getName().isVar());
         		ASTNode currentNode = var.getParent();

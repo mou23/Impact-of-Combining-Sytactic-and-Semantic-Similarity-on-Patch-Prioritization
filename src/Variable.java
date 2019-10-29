@@ -1,8 +1,9 @@
+import org.eclipse.jdt.core.dom.ITypeBinding;
 import org.eclipse.jdt.core.dom.IVariableBinding;
 
 public class Variable {
 	String name;
-	String type;
+	ITypeBinding type;
 	IVariableBinding binding;
 	int startLine;
 	int endLine;

@@ -1,7 +1,6 @@
 fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,true,BOOLEAN_LITERAL, line no: 141, 1.0, 0.13636363636363635, 1.0
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 200, 1.0, 0.4090909090909091, 0.3333333333333333
 fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,contains,SIMPLE_NAME, line no: 200, 1.0, 0.45454545454545453, 1.0
-fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,fields != null,INFIX_EXPRESSION, line no: 262, 1.0, 1.0, 1.0
-fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262, 1.0, 1.0, 1.0
 fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,fields != null && fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 344, 1.0, 1.0, 1.0
 fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,isMultipleValueStringField,SIMPLE_NAME, line no: 406, 1.0, 1.0, 1.0
 fields != null,INFIX_EXPRESSION, line no: 262,true,BOOLEAN_LITERAL, line no: 141, 1.0, 0.13043478260869565, 1.0
@@ -56,14 +55,12 @@ contains,SIMPLE_NAME, line no: 262,groups.size() > 0,INFIX_EXPRESSION, line no: 
 contains,SIMPLE_NAME, line no: 262,name == null,INFIX_EXPRESSION, line no: 863, 0.9583333333333334, 0.7083333333333334, 1.0
 contains,SIMPLE_NAME, line no: 262,componentNode == null,INFIX_EXPRESSION, line no: 1100, 0.9583333333333334, 0.9583333333333334, 1.0
 contains,SIMPLE_NAME, line no: 262,i < componentFieldNodes.getLength(),INFIX_EXPRESSION, line no: 1105, 0.9583333333333334, 0.9583333333333334, 1.0
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,!isMultipleValueStringField(field),PREFIX_EXPRESSION, line no: 406, 0.9583333333333334, 0.9583333333333334, 1.0
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,isMultipleValueStringField(field),METHOD_INVOCATION, line no: 406, 0.9583333333333334, 0.9583333333333334, 1.0
 fields != null,INFIX_EXPRESSION, line no: 262,contains,SIMPLE_NAME, line no: 200, 0.9565217391304348, 0.43478260869565216, 1.0
-fields != null,INFIX_EXPRESSION, line no: 262,fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262, 0.9565217391304348, 0.9565217391304348, 1.0
-fields != null,INFIX_EXPRESSION, line no: 262,fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262, 0.9565217391304348, 0.9565217391304348, 1.0
-fields != null,INFIX_EXPRESSION, line no: 262,fields != null && fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 344, 0.9565217391304348, 0.9565217391304348, 1.0
 fields != null,INFIX_EXPRESSION, line no: 262,hasNext,SIMPLE_NAME, line no: 522, 0.9565217391304348, 0.6956521739130435, 1.0
 fields != null,INFIX_EXPRESSION, line no: 262,bodyOnly,SIMPLE_NAME, line no: 574, 0.9565217391304348, 0.043478260869565216, 1.0
 fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262, 0.9565217391304348, 0.9565217391304348, 1.0
-fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,fields != null,INFIX_EXPRESSION, line no: 262, 0.9565217391304348, 0.9565217391304348, 1.0
 fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,fields != null && fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 344, 0.9565217391304348, 0.9565217391304348, 1.0
 fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,hasNext,SIMPLE_NAME, line no: 522, 0.9565217391304348, 0.7391304347826086, 1.0
 fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,bodyOnly,SIMPLE_NAME, line no: 574, 0.9565217391304348, 0.043478260869565216, 1.0
@@ -198,7 +195,6 @@ fields != null,INFIX_EXPRESSION, line no: 262,equals,SIMPLE_NAME, line no: 575, 
 fields != null,INFIX_EXPRESSION, line no: 262,hasAttribute,SIMPLE_NAME, line no: 844, 0.8695652173913043, 0.8695652173913043, 1.0
 fields != null,INFIX_EXPRESSION, line no: 262,equalsIgnoreCase,SIMPLE_NAME, line no: 951, 0.8695652173913043, 0.8695652173913043, 1.0
 fields != null,INFIX_EXPRESSION, line no: 262,componentRequired,SIMPLE_NAME, line no: 1091, 0.8695652173913043, 0.043478260869565216, 1.0
-fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,fields == null,INFIX_EXPRESSION, line no: 244, 0.8695652173913043, 0.8695652173913043, 1.0
 fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,isHeaderField,SIMPLE_NAME, line no: 276, 0.8695652173913043, 0.043478260869565216, 1.0
 fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,isTrailerField,SIMPLE_NAME, line no: 292, 0.8695652173913043, 0.043478260869565216, 1.0
 fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,equals,SIMPLE_NAME, line no: 575, 0.8695652173913043, 0.8260869565217391, 1.0
@@ -206,7 +202,6 @@ fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,isSetField,S
 fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,hasAttribute,SIMPLE_NAME, line no: 844, 0.8695652173913043, 0.8695652173913043, 1.0
 fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,equalsIgnoreCase,SIMPLE_NAME, line no: 951, 0.8695652173913043, 0.8695652173913043, 1.0
 fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,componentRequired,SIMPLE_NAME, line no: 1091, 0.8695652173913043, 0.043478260869565216, 1.0
-fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,fields == null,INFIX_EXPRESSION, line no: 244, 0.8636363636363636, 0.8636363636363636, 1.0
 fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,isHeaderField,SIMPLE_NAME, line no: 276, 0.8636363636363636, 0.045454545454545456, 1.0
 fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,isTrailerField,SIMPLE_NAME, line no: 292, 0.8636363636363636, 0.045454545454545456, 1.0
 fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,equals,SIMPLE_NAME, line no: 575, 0.8636363636363636, 0.8181818181818182, 1.0
@@ -254,15 +249,15 @@ fields != null,INFIX_EXPRESSION, line no: 262,isSetField,SIMPLE_NAME, line no: 7
 fields != null,INFIX_EXPRESSION, line no: 262,isRequired,SIMPLE_NAME, line no: 1130, 0.8260869565217391, 0.6086956521739131, 1.0
 fields != null,INFIX_EXPRESSION, line no: 262,groupRequired,SIMPLE_NAME, line no: 1139, 0.8260869565217391, 0.043478260869565216, 1.0
 fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,checkFieldsOutOfOrder,SIMPLE_NAME, line no: 67, 0.8260869565217391, 0.043478260869565216, 1.0
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,fields.add(new Integer(field)),METHOD_INVOCATION, line no: 154, 0.8260869565217391, 0.30434782608695654, 0.3333333333333333
 fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,add,SIMPLE_NAME, line no: 154, 0.8260869565217391, 0.34782608695652173, 1.0
-fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,fields.add(new Integer(field)),METHOD_INVOCATION, line no: 248, 0.8260869565217391, 0.8260869565217391, 1.0
 fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,false,BOOLEAN_LITERAL, line no: 403, 0.8260869565217391, 0.08695652173913043, 1.0
 fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,hasValidStructure,SIMPLE_NAME, line no: 579, 0.8260869565217391, 0.8260869565217391, 1.0
 fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,isRequired,SIMPLE_NAME, line no: 1130, 0.8260869565217391, 0.6521739130434783, 1.0
 fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,groupRequired,SIMPLE_NAME, line no: 1139, 0.8260869565217391, 0.043478260869565216, 1.0
 fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,checkFieldsOutOfOrder,SIMPLE_NAME, line no: 67, 0.8181818181818182, 0.045454545454545456, 1.0
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,fields.add(new Integer(field)),METHOD_INVOCATION, line no: 154, 0.8181818181818182, 0.3181818181818182, 0.3333333333333333
 fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,add,SIMPLE_NAME, line no: 154, 0.8181818181818182, 0.36363636363636365, 1.0
-fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,fields.add(new Integer(field)),METHOD_INVOCATION, line no: 248, 0.8181818181818182, 0.8181818181818182, 1.0
 fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,false,BOOLEAN_LITERAL, line no: 403, 0.8181818181818182, 0.09090909090909091, 1.0
 fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,hasValidStructure,SIMPLE_NAME, line no: 579, 0.8181818181818182, 0.8181818181818182, 1.0
 fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,isRequired,SIMPLE_NAME, line no: 1130, 0.8181818181818182, 0.6363636363636364, 1.0
@@ -315,9 +310,10 @@ contains,SIMPLE_NAME, line no: 262,other instanceof GroupInfo,INSTANCEOF_EXPRESS
 contains,SIMPLE_NAME, line no: 262,delimeterField == ((GroupInfo)other).delimeterField && dataDictionary.equals(((GroupInfo)other).dataDictionary),INFIX_EXPRESSION, line no: 1274, 0.7916666666666666, 0.7916666666666666, 1.0
 contains,SIMPLE_NAME, line no: 262,delimeterField == ((GroupInfo)other).delimeterField,INFIX_EXPRESSION, line no: 1274, 0.7916666666666666, 0.7916666666666666, 1.0
 new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,tag,SIMPLE_NAME, line no: 320, 0.7916666666666666, 0.7083333333333334, 1.0
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,isHeaderField(field),METHOD_INVOCATION, line no: 354, 0.7916666666666666, 0.7916666666666666, 1.0
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,isTrailerField(field),METHOD_INVOCATION, line no: 365, 0.7916666666666666, 0.7916666666666666, 1.0
 fields != null,INFIX_EXPRESSION, line no: 262,checkFieldsOutOfOrder,SIMPLE_NAME, line no: 67, 0.782608695652174, 0.043478260869565216, 1.0
 fields != null,INFIX_EXPRESSION, line no: 262,add,SIMPLE_NAME, line no: 154, 0.782608695652174, 0.34782608695652173, 1.0
-fields != null,INFIX_EXPRESSION, line no: 262,fields.add(new Integer(field)),METHOD_INVOCATION, line no: 248, 0.782608695652174, 0.782608695652174, 1.0
 fields != null,INFIX_EXPRESSION, line no: 262,hasValidStructure,SIMPLE_NAME, line no: 579, 0.782608695652174, 0.782608695652174, 1.0
 Integer,SIMPLE_NAME, line no: 262,(Integer)names.get(name),CAST_EXPRESSION, line no: 320, 0.7692307692307693, 0.6153846153846154, 1.0
 Integer,SIMPLE_NAME, line no: 262,((Integer)entry.getKey()),PARENTHESIZED_EXPRESSION, line no: 753, 0.7692307692307693, 0.7692307692307693, 1.0
@@ -431,28 +427,69 @@ contains,SIMPLE_NAME, line no: 262,beginString.compareTo(FixVersions.BEGINSTRING
 contains,SIMPLE_NAME, line no: 262,!isMsgField(msgType field.getField()),PREFIX_EXPRESSION, line no: 730, 0.5416666666666666, 0.5416666666666666, 1.0
 contains,SIMPLE_NAME, line no: 262,isMsgField(msgType field.getField()),METHOD_INVOCATION, line no: 730, 0.5416666666666666, 0.5416666666666666, 1.0
 field,SIMPLE_NAME, line no: 262,beginString.compareTo(FixVersions.BEGINSTRING_FIX41),METHOD_INVOCATION, line no: 655, 0.52, 0.52, 1.0
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,new Integer(field),CLASS_INSTANCE_CREATION, line no: 154, 0.5, 0.3181818181818182, 0.5
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,fields != null,INFIX_EXPRESSION, line no: 262, 0.5, 1.0, 0.5
 fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,containsKey,SIMPLE_NAME, line no: 277, 0.5, 0.45454545454545453, 1.0
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,!isMultipleValueStringField(field),PREFIX_EXPRESSION, line no: 406, 0.5, 1.0, 0.5
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,isMultipleValueStringField(field),METHOD_INVOCATION, line no: 406, 0.5, 1.0, 0.5
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,new Integer(field),CLASS_INSTANCE_CREATION, line no: 154, 0.5, 0.30434782608695654, 0.5
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,!isMultipleValueStringField(field),PREFIX_EXPRESSION, line no: 406, 0.5, 1.0, 0.5
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,isMultipleValueStringField(field),METHOD_INVOCATION, line no: 406, 0.5, 1.0, 0.5
 contains,SIMPLE_NAME, line no: 262,fieldTypes.get(new Integer(field)) == FieldType.Data,INFIX_EXPRESSION, line no: 460, 0.5, 0.5, 1.0
 contains,SIMPLE_NAME, line no: 262,fieldTypes.get(new Integer(field)) == FieldType.MultipleValueString,INFIX_EXPRESSION, line no: 464, 0.5, 0.5, 1.0
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 200, 0.4791666666666667, 0.375, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,(Set)fieldValues.get(new Integer(field)),CAST_EXPRESSION, line no: 387, 0.4791666666666667, 0.8333333333333334, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,fieldValues.get(new Integer(field)),METHOD_INVOCATION, line no: 387, 0.4791666666666667, 0.875, 0.5
+fields != null,INFIX_EXPRESSION, line no: 262,fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262, 0.4782608695652174, 0.9565217391304348, 0.5
+fields != null,INFIX_EXPRESSION, line no: 262,fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262, 0.4782608695652174, 0.9565217391304348, 0.5
 fields != null,INFIX_EXPRESSION, line no: 262,containsKey,SIMPLE_NAME, line no: 277, 0.4782608695652174, 0.43478260869565216, 1.0
+fields != null,INFIX_EXPRESSION, line no: 262,fields != null && fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 344, 0.4782608695652174, 0.9565217391304348, 0.5
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,fields != null,INFIX_EXPRESSION, line no: 262, 0.4782608695652174, 0.9565217391304348, 0.5
 fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,containsKey,SIMPLE_NAME, line no: 277, 0.4782608695652174, 0.43478260869565216, 1.0
 contains,SIMPLE_NAME, line no: 262,containsKey,SIMPLE_NAME, line no: 277, 0.4583333333333333, 0.4166666666666667, 1.0
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262, 0.4583333333333333, 0.9166666666666666, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,fields != null && fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 344, 0.4583333333333333, 0.9166666666666666, 0.5
 field,SIMPLE_NAME, line no: 262,USER_DEFINED_TAG_MIN,SIMPLE_NAME, line no: 61, 0.44, 0.04, 1.0
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,fields == null,INFIX_EXPRESSION, line no: 244, 0.43478260869565216, 0.8695652173913043, 0.5
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,fields == null,INFIX_EXPRESSION, line no: 244, 0.4318181818181818, 0.8636363636363636, 0.5
 contains,SIMPLE_NAME, line no: 262,groups.containsKey(new IntStringPair(field msg)),METHOD_INVOCATION, line no: 436, 0.4166666666666667, 0.4166666666666667, 1.0
 contains,SIMPLE_NAME, line no: 262,!checkUserDefinedFields && field.getField() >= USER_DEFINED_TAG_MIN,INFIX_EXPRESSION, line no: 635, 0.4166666666666667, 0.4166666666666667, 1.0
 contains,SIMPLE_NAME, line no: 262,!checkUserDefinedFields,PREFIX_EXPRESSION, line no: 635, 0.4166666666666667, 0.4166666666666667, 1.0
 contains,SIMPLE_NAME, line no: 262,field.getField() >= USER_DEFINED_TAG_MIN,INFIX_EXPRESSION, line no: 635, 0.4166666666666667, 0.4166666666666667, 1.0
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,fields.add(new Integer(field)),METHOD_INVOCATION, line no: 154, 0.4166666666666667, 0.2916666666666667, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,!header.isSetField(field),PREFIX_EXPRESSION, line no: 754, 0.4166666666666667, 0.8333333333333334, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,header.isSetField(field),METHOD_INVOCATION, line no: 754, 0.4166666666666667, 0.8333333333333334, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,!trailer.isSetField(field),PREFIX_EXPRESSION, line no: 763, 0.4166666666666667, 0.8333333333333334, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,trailer.isSetField(field),METHOD_INVOCATION, line no: 763, 0.4166666666666667, 0.8333333333333334, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,dd.addField(field),METHOD_INVOCATION, line no: 1125, 0.4166666666666667, 0.8333333333333334, 0.5
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,isHeaderField(field),METHOD_INVOCATION, line no: 354, 0.41304347826086957, 0.8260869565217391, 0.5
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,isTrailerField(field),METHOD_INVOCATION, line no: 365, 0.41304347826086957, 0.8260869565217391, 0.5
 fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,isMsgType,SIMPLE_NAME, line no: 238, 0.4090909090909091, 0.045454545454545456, 1.0
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,isHeaderField(field),METHOD_INVOCATION, line no: 354, 0.4090909090909091, 0.8181818181818182, 0.5
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,isTrailerField(field),METHOD_INVOCATION, line no: 365, 0.4090909090909091, 0.8181818181818182, 0.5
 field,SIMPLE_NAME, line no: 262,getInvalidStructureTag,SIMPLE_NAME, line no: 581, 0.4, 0.4, 1.0
 field,SIMPLE_NAME, line no: 262,hashCode,SIMPLE_NAME, line no: 1236, 0.4, 0.04, 1.0
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,headerFields.get(new Integer(field)),METHOD_INVOCATION, line no: 355, 0.3958333333333333, 0.7916666666666666, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,trailerFields.get(new Integer(field)),METHOD_INVOCATION, line no: 366, 0.3958333333333333, 0.7916666666666666, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,groupDD.addField(field),METHOD_INVOCATION, line no: 1153, 0.3958333333333333, 0.7916666666666666, 0.5
 fields != null,INFIX_EXPRESSION, line no: 262,isMsgType,SIMPLE_NAME, line no: 238, 0.391304347826087, 0.043478260869565216, 1.0
+fields != null,INFIX_EXPRESSION, line no: 262,fields.add(new Integer(field)),METHOD_INVOCATION, line no: 248, 0.391304347826087, 0.782608695652174, 0.5
 fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,isMsgType,SIMPLE_NAME, line no: 238, 0.391304347826087, 0.043478260869565216, 1.0
 fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,addAll,SIMPLE_NAME, line no: 543, 0.391304347826087, 0.391304347826087, 1.0
 contains,SIMPLE_NAME, line no: 262,isMsgType,SIMPLE_NAME, line no: 238, 0.375, 0.041666666666666664, 1.0
 contains,SIMPLE_NAME, line no: 262,headerFields.containsKey(new Integer(field)),METHOD_INVOCATION, line no: 277, 0.375, 0.375, 1.0
 contains,SIMPLE_NAME, line no: 262,trailerFields.containsKey(new Integer(field)),METHOD_INVOCATION, line no: 293, 0.375, 0.375, 1.0
 contains,SIMPLE_NAME, line no: 262,addAll,SIMPLE_NAME, line no: 543, 0.375, 0.375, 1.0
-fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,fields=new HashSet(),ASSIGNMENT, line no: 245, 0.36363636363636365, 0.36363636363636365, 1.0
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,isHeaderField(field) && (((Boolean)headerFields.get(new Integer(field))) == Boolean.TRUE),INFIX_EXPRESSION, line no: 354, 0.375, 0.75, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,(((Boolean)headerFields.get(new Integer(field))) == Boolean.TRUE),PARENTHESIZED_EXPRESSION, line no: 355, 0.375, 0.75, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,((Boolean)headerFields.get(new Integer(field))) == Boolean.TRUE,INFIX_EXPRESSION, line no: 355, 0.375, 0.75, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,((Boolean)headerFields.get(new Integer(field))),PARENTHESIZED_EXPRESSION, line no: 355, 0.375, 0.75, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,(Boolean)headerFields.get(new Integer(field)),CAST_EXPRESSION, line no: 355, 0.375, 0.75, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,isTrailerField(field) && (((Boolean)trailerFields.get(new Integer(field))) == Boolean.TRUE),INFIX_EXPRESSION, line no: 365, 0.375, 0.75, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,(((Boolean)trailerFields.get(new Integer(field))) == Boolean.TRUE),PARENTHESIZED_EXPRESSION, line no: 366, 0.375, 0.75, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,((Boolean)trailerFields.get(new Integer(field))) == Boolean.TRUE,INFIX_EXPRESSION, line no: 366, 0.375, 0.75, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,((Boolean)trailerFields.get(new Integer(field))),PARENTHESIZED_EXPRESSION, line no: 366, 0.375, 0.75, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,(Boolean)trailerFields.get(new Integer(field)),CAST_EXPRESSION, line no: 366, 0.375, 0.75, 0.5
 fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,addAll,SIMPLE_NAME, line no: 543, 0.36363636363636365, 0.36363636363636365, 1.0
 field,SIMPLE_NAME, line no: 262,getOrdinal,SIMPLE_NAME, line no: 309, 0.36, 0.36, 1.0
 field,SIMPLE_NAME, line no: 262,TAG_SPECIFIED_OUT_OF_REQUIRED_ORDER,SIMPLE_NAME, line no: 580, 0.36, 0.36, 1.0
@@ -464,17 +501,26 @@ field,SIMPLE_NAME, line no: 262,TAG_NOT_DEFINED_FOR_THIS_MESSAGE_TYPE,SIMPLE_NAM
 field,SIMPLE_NAME, line no: 262,orderedFieldsArray[i++]=((Integer)fieldItr.next()).intValue(),ASSIGNMENT, line no: 1067, 0.36, 0.36, 1.0
 field,SIMPLE_NAME, line no: 262,orderedFieldsArray[i++],ARRAY_ACCESS, line no: 1067, 0.36, 0.36, 1.0
 field,SIMPLE_NAME, line no: 262,stringValue.hashCode(),METHOD_INVOCATION, line no: 1237, 0.36, 0.36, 1.0
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,(isHeaderField(field) && (((Boolean)headerFields.get(new Integer(field))) == Boolean.TRUE)),PARENTHESIZED_EXPRESSION, line no: 354, 0.3541666666666667, 0.7083333333333334, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,(isTrailerField(field) && (((Boolean)trailerFields.get(new Integer(field))) == Boolean.TRUE)),PARENTHESIZED_EXPRESSION, line no: 365, 0.3541666666666667, 0.7083333333333334, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,!body.isSetField(field),PREFIX_EXPRESSION, line no: 777, 0.3541666666666667, 0.7083333333333334, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,body.isSetField(field),METHOD_INVOCATION, line no: 777, 0.3541666666666667, 0.7083333333333334, 0.5
 fields != null,INFIX_EXPRESSION, line no: 262,fields=new HashSet(),ASSIGNMENT, line no: 245, 0.34782608695652173, 0.34782608695652173, 1.0
 fields != null,INFIX_EXPRESSION, line no: 262,addAll,SIMPLE_NAME, line no: 543, 0.34782608695652173, 0.34782608695652173, 1.0
-fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,fields=new HashSet(),ASSIGNMENT, line no: 245, 0.34782608695652173, 0.34782608695652173, 1.0
 fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,convert,SIMPLE_NAME, line no: 675, 0.34782608695652173, 0.34782608695652173, 1.0
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,(Set)fieldValues.get(new Integer(field)),CAST_EXPRESSION, line no: 387, 0.3333333333333333, 0.9090909090909091, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,fieldValues.get(new Integer(field)),METHOD_INVOCATION, line no: 387, 0.3333333333333333, 0.9090909090909091, 0.3333333333333333
 fields,SIMPLE_NAME, line no: 262,fields=new HashSet(),ASSIGNMENT, line no: 245, 0.3333333333333333, 0.3333333333333333, 1.0
 fields,SIMPLE_NAME, line no: 262,values=new HashSet(),ASSIGNMENT, line no: 373, 0.3333333333333333, 0.3333333333333333, 1.0
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,(Set)fieldValues.get(new Integer(field)),CAST_EXPRESSION, line no: 387, 0.3333333333333333, 0.8695652173913043, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,fieldValues.get(new Integer(field)),METHOD_INVOCATION, line no: 387, 0.3333333333333333, 0.9130434782608695, 0.3333333333333333
 fields,SIMPLE_NAME, line no: 262,fields=new HashSet(),ASSIGNMENT, line no: 245, 0.3333333333333333, 0.3333333333333333, 1.0
 fields,SIMPLE_NAME, line no: 262,values=new HashSet(),ASSIGNMENT, line no: 373, 0.3333333333333333, 0.3333333333333333, 1.0
 contains,SIMPLE_NAME, line no: 262,lhs.addAll(rhs),METHOD_INVOCATION, line no: 543, 0.3333333333333333, 0.3333333333333333, 1.0
 contains,SIMPLE_NAME, line no: 262,isMsgType(msgType),METHOD_INVOCATION, line no: 626, 0.3333333333333333, 0.3333333333333333, 1.0
 contains,SIMPLE_NAME, line no: 262,convert,SIMPLE_NAME, line no: 675, 0.3333333333333333, 0.3333333333333333, 1.0
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,getFieldTypeEnum(field).getOrdinal(),METHOD_INVOCATION, line no: 309, 0.3333333333333333, 0.3333333333333333, 1.0
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,getFieldTypeEnum(field),METHOD_INVOCATION, line no: 309, 0.3333333333333333, 0.3333333333333333, 1.0
 field,SIMPLE_NAME, line no: 262,getFieldTypeEnum(field).getOrdinal(),METHOD_INVOCATION, line no: 309, 0.32, 0.32, 1.0
 field,SIMPLE_NAME, line no: 262,SessionRejectReason.TAG_SPECIFIED_OUT_OF_REQUIRED_ORDER,QUALIFIED_NAME, line no: 580, 0.32, 0.32, 1.0
 field,SIMPLE_NAME, line no: 262,SessionRejectReason.TAG_APPEARS_MORE_THAN_ONCE,QUALIFIED_NAME, line no: 603, 0.32, 0.32, 1.0
@@ -491,32 +537,178 @@ contains,SIMPLE_NAME, line no: 262,validValues.contains(value),METHOD_INVOCATION
 contains,SIMPLE_NAME, line no: 262,validValues.contains(values[i]),METHOD_INVOCATION, line no: 413, 0.2916666666666667, 0.2916666666666667, 1.0
 contains,SIMPLE_NAME, line no: 262,!isMsgType(msgType),PREFIX_EXPRESSION, line no: 626, 0.2916666666666667, 0.2916666666666667, 1.0
 contains,SIMPLE_NAME, line no: 262,BooleanConverter.convert(field.getValue()),METHOD_INVOCATION, line no: 675, 0.2916666666666667, 0.2916666666666667, 1.0
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,!header.isSetField(field),PREFIX_EXPRESSION, line no: 754, 0.28985507246376807, 0.8695652173913043, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,header.isSetField(field),METHOD_INVOCATION, line no: 754, 0.28985507246376807, 0.8695652173913043, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,!trailer.isSetField(field),PREFIX_EXPRESSION, line no: 763, 0.28985507246376807, 0.8695652173913043, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,trailer.isSetField(field),METHOD_INVOCATION, line no: 763, 0.28985507246376807, 0.8695652173913043, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,dd.addField(field),METHOD_INVOCATION, line no: 1125, 0.28985507246376807, 0.8695652173913043, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,!header.isSetField(field),PREFIX_EXPRESSION, line no: 754, 0.28787878787878785, 0.8636363636363636, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,header.isSetField(field),METHOD_INVOCATION, line no: 754, 0.28787878787878785, 0.8636363636363636, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,!trailer.isSetField(field),PREFIX_EXPRESSION, line no: 763, 0.28787878787878785, 0.8636363636363636, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,trailer.isSetField(field),METHOD_INVOCATION, line no: 763, 0.28787878787878785, 0.8636363636363636, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,dd.addField(field),METHOD_INVOCATION, line no: 1125, 0.28787878787878785, 0.8636363636363636, 0.3333333333333333
 field,SIMPLE_NAME, line no: 262,IntConverter.convert(field.getValue()),METHOD_INVOCATION, line no: 663, 0.28, 0.28, 1.0
 field,SIMPLE_NAME, line no: 262,REQUIRED_TAG_MISSING,SIMPLE_NAME, line no: 755, 0.28, 0.28, 1.0
 field,SIMPLE_NAME, line no: 262,field=addXMLComponentFields(document fieldNode msgtype groupDD false),ASSIGNMENT, line no: 1159, 0.28, 0.28, 1.0
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,names.put(name new Integer(field)),METHOD_INVOCATION, line no: 158, 0.2777777777777778, 0.8333333333333334, 0.3333333333333333
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,entry.getValue() == Boolean.TRUE && !header.isSetField(field),INFIX_EXPRESSION, line no: 754, 0.2777777777777778, 0.8333333333333334, 0.3333333333333333
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,entry.getValue() == Boolean.TRUE && !trailer.isSetField(field),INFIX_EXPRESSION, line no: 763, 0.2777777777777778, 0.8333333333333334, 0.3333333333333333
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,dd.addMsgField(msgtype field),METHOD_INVOCATION, line no: 1126, 0.2777777777777778, 0.8333333333333334, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,headerFields.get(new Integer(field)),METHOD_INVOCATION, line no: 355, 0.2753623188405797, 0.8260869565217391, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,trailerFields.get(new Integer(field)),METHOD_INVOCATION, line no: 366, 0.2753623188405797, 0.8260869565217391, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,groupDD.addField(field),METHOD_INVOCATION, line no: 1153, 0.2753623188405797, 0.8260869565217391, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,isHeaderField(field) && (((Boolean)headerFields.get(new Integer(field))) == Boolean.TRUE),INFIX_EXPRESSION, line no: 354, 0.2727272727272727, 0.8181818181818182, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,(((Boolean)headerFields.get(new Integer(field))) == Boolean.TRUE),PARENTHESIZED_EXPRESSION, line no: 355, 0.2727272727272727, 0.8181818181818182, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,((Boolean)headerFields.get(new Integer(field))) == Boolean.TRUE,INFIX_EXPRESSION, line no: 355, 0.2727272727272727, 0.8181818181818182, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,((Boolean)headerFields.get(new Integer(field))),PARENTHESIZED_EXPRESSION, line no: 355, 0.2727272727272727, 0.8181818181818182, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,(Boolean)headerFields.get(new Integer(field)),CAST_EXPRESSION, line no: 355, 0.2727272727272727, 0.8181818181818182, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,headerFields.get(new Integer(field)),METHOD_INVOCATION, line no: 355, 0.2727272727272727, 0.8181818181818182, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,isTrailerField(field) && (((Boolean)trailerFields.get(new Integer(field))) == Boolean.TRUE),INFIX_EXPRESSION, line no: 365, 0.2727272727272727, 0.8181818181818182, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,(((Boolean)trailerFields.get(new Integer(field))) == Boolean.TRUE),PARENTHESIZED_EXPRESSION, line no: 366, 0.2727272727272727, 0.8181818181818182, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,((Boolean)trailerFields.get(new Integer(field))) == Boolean.TRUE,INFIX_EXPRESSION, line no: 366, 0.2727272727272727, 0.8181818181818182, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,((Boolean)trailerFields.get(new Integer(field))),PARENTHESIZED_EXPRESSION, line no: 366, 0.2727272727272727, 0.8181818181818182, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,(Boolean)trailerFields.get(new Integer(field)),CAST_EXPRESSION, line no: 366, 0.2727272727272727, 0.8181818181818182, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,trailerFields.get(new Integer(field)),METHOD_INVOCATION, line no: 366, 0.2727272727272727, 0.8181818181818182, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,groupDD.addField(field),METHOD_INVOCATION, line no: 1153, 0.2727272727272727, 0.8181818181818182, 0.3333333333333333
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,new IntStringPair(field value),CLASS_INSTANCE_CREATION, line no: 176, 0.2708333333333333, 0.4166666666666667, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,fieldTypes.get(new Integer(field)),METHOD_INVOCATION, line no: 211, 0.2708333333333333, 0.4583333333333333, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,new IntStringPair(field msg),CLASS_INSTANCE_CREATION, line no: 422, 0.2708333333333333, 0.5, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,names.put(name new Integer(field)) != null,INFIX_EXPRESSION, line no: 158, 0.26388888888888884, 0.7916666666666666, 0.3333333333333333
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,fieldNames.put(new Integer(field) name),METHOD_INVOCATION, line no: 161, 0.26388888888888884, 0.7916666666666666, 0.3333333333333333
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,field=lookupXMLFieldNumber(document fieldNode),ASSIGNMENT, line no: 1152, 0.26388888888888884, 0.7916666666666666, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,isHeaderField(field) && (((Boolean)headerFields.get(new Integer(field))) == Boolean.TRUE),INFIX_EXPRESSION, line no: 354, 0.2608695652173913, 0.782608695652174, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,(((Boolean)headerFields.get(new Integer(field))) == Boolean.TRUE),PARENTHESIZED_EXPRESSION, line no: 355, 0.2608695652173913, 0.782608695652174, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,((Boolean)headerFields.get(new Integer(field))) == Boolean.TRUE,INFIX_EXPRESSION, line no: 355, 0.2608695652173913, 0.782608695652174, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,((Boolean)headerFields.get(new Integer(field))),PARENTHESIZED_EXPRESSION, line no: 355, 0.2608695652173913, 0.782608695652174, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,(Boolean)headerFields.get(new Integer(field)),CAST_EXPRESSION, line no: 355, 0.2608695652173913, 0.782608695652174, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,isTrailerField(field) && (((Boolean)trailerFields.get(new Integer(field))) == Boolean.TRUE),INFIX_EXPRESSION, line no: 365, 0.2608695652173913, 0.782608695652174, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,(((Boolean)trailerFields.get(new Integer(field))) == Boolean.TRUE),PARENTHESIZED_EXPRESSION, line no: 366, 0.2608695652173913, 0.782608695652174, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,((Boolean)trailerFields.get(new Integer(field))) == Boolean.TRUE,INFIX_EXPRESSION, line no: 366, 0.2608695652173913, 0.782608695652174, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,((Boolean)trailerFields.get(new Integer(field))),PARENTHESIZED_EXPRESSION, line no: 366, 0.2608695652173913, 0.782608695652174, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,(Boolean)trailerFields.get(new Integer(field)),CAST_EXPRESSION, line no: 366, 0.2608695652173913, 0.782608695652174, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,(isHeaderField(field) && (((Boolean)headerFields.get(new Integer(field))) == Boolean.TRUE)),PARENTHESIZED_EXPRESSION, line no: 354, 0.25757575757575757, 0.7727272727272727, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,(isTrailerField(field) && (((Boolean)trailerFields.get(new Integer(field))) == Boolean.TRUE)),PARENTHESIZED_EXPRESSION, line no: 365, 0.25757575757575757, 0.7727272727272727, 0.3333333333333333
 contains,SIMPLE_NAME, line no: 262,!validValues.contains(values[i]),PREFIX_EXPRESSION, line no: 413, 0.25, 0.25, 1.0
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,fieldTypes.get(new Integer(field)) == FieldType.Data,INFIX_EXPRESSION, line no: 460, 0.25, 0.5, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,fieldTypes.get(new Integer(field)) == FieldType.MultipleValueString,INFIX_EXPRESSION, line no: 464, 0.25, 0.5, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,new FieldException(SessionRejectReason.REQUIRED_TAG_MISSING field),CLASS_INSTANCE_CREATION, line no: 755, 0.25, 0.25, 1.0
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,(isHeaderField(field) && (((Boolean)headerFields.get(new Integer(field))) == Boolean.TRUE)),PARENTHESIZED_EXPRESSION, line no: 354, 0.24637681159420288, 0.7391304347826086, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,(isTrailerField(field) && (((Boolean)trailerFields.get(new Integer(field))) == Boolean.TRUE)),PARENTHESIZED_EXPRESSION, line no: 365, 0.24637681159420288, 0.7391304347826086, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,!body.isSetField(field),PREFIX_EXPRESSION, line no: 777, 0.24637681159420288, 0.7391304347826086, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,body.isSetField(field),METHOD_INVOCATION, line no: 777, 0.24637681159420288, 0.7391304347826086, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,!body.isSetField(field),PREFIX_EXPRESSION, line no: 777, 0.24242424242424243, 0.7272727272727273, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,body.isSetField(field),METHOD_INVOCATION, line no: 777, 0.24242424242424243, 0.7272727272727273, 0.3333333333333333
 field,SIMPLE_NAME, line no: 262,INVALID_MSGTYPE,SIMPLE_NAME, line no: 629, 0.24, 0.24, 1.0
 field,SIMPLE_NAME, line no: 262,SessionRejectReason.REQUIRED_TAG_MISSING,QUALIFIED_NAME, line no: 755, 0.24, 0.24, 1.0
-fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,messageFields.put(msgType fields),METHOD_INVOCATION, line no: 246, 0.20454545454545456, 0.4090909090909091, 0.5
-fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,requiredFields.put(msgType fields),METHOD_INVOCATION, line no: 328, 0.20454545454545456, 0.4090909090909091, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,fieldNames.get(new Integer(field)),METHOD_INVOCATION, line no: 172, 0.22916666666666666, 0.4583333333333333, 0.5
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,entry.getValue() == Boolean.TRUE && !header.isSetField(field),INFIX_EXPRESSION, line no: 754, 0.21739130434782608, 0.8695652173913043, 0.25
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,entry.getValue() == Boolean.TRUE && !trailer.isSetField(field),INFIX_EXPRESSION, line no: 763, 0.21739130434782608, 0.8695652173913043, 0.25
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,dd.addMsgField(msgtype field),METHOD_INVOCATION, line no: 1126, 0.21739130434782608, 0.8695652173913043, 0.25
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,entry.getValue() == Boolean.TRUE && !header.isSetField(field),INFIX_EXPRESSION, line no: 754, 0.2159090909090909, 0.8636363636363636, 0.25
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,entry.getValue() == Boolean.TRUE && !trailer.isSetField(field),INFIX_EXPRESSION, line no: 763, 0.2159090909090909, 0.8636363636363636, 0.25
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,dd.addMsgField(msgtype field),METHOD_INVOCATION, line no: 1126, 0.2159090909090909, 0.8636363636363636, 0.25
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,(String)fieldNames.get(new Integer(field)),CAST_EXPRESSION, line no: 172, 0.20833333333333334, 0.4166666666666667, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,(FieldType)fieldTypes.get(new Integer(field)),CAST_EXPRESSION, line no: 211, 0.20833333333333334, 0.4166666666666667, 0.5
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,names.put(name new Integer(field)),METHOD_INVOCATION, line no: 158, 0.20652173913043478, 0.8260869565217391, 0.25
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,field=lookupXMLFieldNumber(document fieldNode),ASSIGNMENT, line no: 1152, 0.20652173913043478, 0.8260869565217391, 0.25
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,names.put(name new Integer(field)) != null,INFIX_EXPRESSION, line no: 158, 0.20454545454545456, 0.8181818181818182, 0.25
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,names.put(name new Integer(field)),METHOD_INVOCATION, line no: 158, 0.20454545454545456, 0.8181818181818182, 0.25
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,field=lookupXMLFieldNumber(document fieldNode),ASSIGNMENT, line no: 1152, 0.20454545454545456, 0.8181818181818182, 0.25
 field,SIMPLE_NAME, line no: 262,SessionRejectReason.INVALID_MSGTYPE,QUALIFIED_NAME, line no: 629, 0.2, 0.2, 1.0
 field,SIMPLE_NAME, line no: 262,value,SIMPLE_NAME, line no: 1212, 0.2, 0.04, 1.0
-fields != null,INFIX_EXPRESSION, line no: 262,messageFields.put(msgType fields),METHOD_INVOCATION, line no: 246, 0.1956521739130435, 0.391304347826087, 0.5
-fields != null,INFIX_EXPRESSION, line no: 262,requiredFields.put(msgType fields),METHOD_INVOCATION, line no: 328, 0.1956521739130435, 0.391304347826087, 0.5
-fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,messageFields.put(msgType fields),METHOD_INVOCATION, line no: 246, 0.1956521739130435, 0.391304347826087, 0.5
-fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,requiredFields.put(msgType fields),METHOD_INVOCATION, line no: 328, 0.1956521739130435, 0.391304347826087, 0.5
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,fieldTypes.get(new Integer(field)),METHOD_INVOCATION, line no: 211, 0.19696969696969696, 0.5, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,names.put(name new Integer(field)) != null,INFIX_EXPRESSION, line no: 158, 0.1956521739130435, 0.782608695652174, 0.25
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,fieldNames.put(new Integer(field) name),METHOD_INVOCATION, line no: 161, 0.1956521739130435, 0.782608695652174, 0.25
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,fieldNames.put(new Integer(field) name),METHOD_INVOCATION, line no: 161, 0.19318181818181818, 0.7727272727272727, 0.25
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,fieldTypes.get(new Integer(field)),METHOD_INVOCATION, line no: 211, 0.18840579710144925, 0.4782608695652174, 0.3333333333333333
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,headerFields.containsKey(new Integer(field)),METHOD_INVOCATION, line no: 277, 0.1875, 0.375, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,trailerFields.containsKey(new Integer(field)),METHOD_INVOCATION, line no: 293, 0.1875, 0.375, 0.5
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,fields=new HashSet(),ASSIGNMENT, line no: 245, 0.18181818181818182, 0.36363636363636365, 0.5
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,new IntStringPair(field value),CLASS_INSTANCE_CREATION, line no: 176, 0.1818181818181818, 0.4090909090909091, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,new IntStringPair(field msg),CLASS_INSTANCE_CREATION, line no: 422, 0.1818181818181818, 0.5, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,fieldTypes.get(new Integer(field)) == FieldType.Data,INFIX_EXPRESSION, line no: 460, 0.1818181818181818, 0.5454545454545454, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,fieldTypes.get(new Integer(field)) == FieldType.MultipleValueString,INFIX_EXPRESSION, line no: 464, 0.1818181818181818, 0.5454545454545454, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,new IntStringPair(field value),CLASS_INSTANCE_CREATION, line no: 176, 0.17391304347826086, 0.391304347826087, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,fields=new HashSet(),ASSIGNMENT, line no: 245, 0.17391304347826086, 0.34782608695652173, 0.5
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,getFieldTypeEnum(field).getOrdinal(),METHOD_INVOCATION, line no: 309, 0.17391304347826086, 0.34782608695652173, 0.5
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,getFieldTypeEnum(field),METHOD_INVOCATION, line no: 309, 0.17391304347826086, 0.34782608695652173, 0.5
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,new IntStringPair(field msg),CLASS_INSTANCE_CREATION, line no: 422, 0.17391304347826086, 0.4782608695652174, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,fieldTypes.get(new Integer(field)) == FieldType.Data,INFIX_EXPRESSION, line no: 460, 0.17391304347826086, 0.5217391304347826, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,fieldTypes.get(new Integer(field)) == FieldType.MultipleValueString,INFIX_EXPRESSION, line no: 464, 0.17391304347826086, 0.5217391304347826, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,fieldNames.get(new Integer(field)),METHOD_INVOCATION, line no: 172, 0.16666666666666666, 0.5, 0.3333333333333333
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,valueNames.get(new IntStringPair(field value)),METHOD_INVOCATION, line no: 189, 0.16666666666666666, 0.5, 0.3333333333333333
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,headerFields.put(new Integer(field) required ? Boolean.TRUE : Boolean.FALSE),METHOD_INVOCATION, line no: 266, 0.16666666666666666, 0.5, 0.3333333333333333
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,trailerFields.put(new Integer(field) required ? Boolean.TRUE : Boolean.FALSE),METHOD_INVOCATION, line no: 281, 0.16666666666666666, 0.5, 0.3333333333333333
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,groups.get(new IntStringPair(field msg)),METHOD_INVOCATION, line no: 449, 0.16666666666666666, 0.5, 0.3333333333333333
 field,SIMPLE_NAME, line no: 262,intValue=value,ASSIGNMENT, line no: 1213, 0.16, 0.16, 1.0
 field,SIMPLE_NAME, line no: 262,delimeterField=field,ASSIGNMENT, line no: 1250, 0.16, 0.16, 1.0
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,fieldNames.get(new Integer(field)),METHOD_INVOCATION, line no: 172, 0.15942028985507245, 0.4782608695652174, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,getFieldTypeEnum(field).getOrdinal(),METHOD_INVOCATION, line no: 309, 0.1590909090909091, 0.3181818181818182, 0.5
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,getFieldTypeEnum(field),METHOD_INVOCATION, line no: 309, 0.1590909090909091, 0.3181818181818182, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,(String)valueNames.get(new IntStringPair(field value)),CAST_EXPRESSION, line no: 189, 0.15277777777777776, 0.4583333333333333, 0.3333333333333333
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,(GroupInfo)groups.get(new IntStringPair(field msg)),CAST_EXPRESSION, line no: 449, 0.15277777777777776, 0.4583333333333333, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,(String)fieldNames.get(new Integer(field)),CAST_EXPRESSION, line no: 172, 0.1515151515151515, 0.45454545454545453, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,(FieldType)fieldTypes.get(new Integer(field)),CAST_EXPRESSION, line no: 211, 0.1515151515151515, 0.45454545454545453, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,(String)fieldNames.get(new Integer(field)),CAST_EXPRESSION, line no: 172, 0.14492753623188404, 0.43478260869565216, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,(FieldType)fieldTypes.get(new Integer(field)),CAST_EXPRESSION, line no: 211, 0.14492753623188404, 0.43478260869565216, 0.3333333333333333
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,groups.containsKey(new IntStringPair(field msg)),METHOD_INVOCATION, line no: 436, 0.1388888888888889, 0.4166666666666667, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,valueNames.get(new IntStringPair(field value)),METHOD_INVOCATION, line no: 189, 0.13636363636363635, 0.5454545454545454, 0.25
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,headerFields.put(new Integer(field) required ? Boolean.TRUE : Boolean.FALSE),METHOD_INVOCATION, line no: 266, 0.13636363636363635, 0.5454545454545454, 0.25
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,headerFields.containsKey(new Integer(field)),METHOD_INVOCATION, line no: 277, 0.13636363636363635, 0.4090909090909091, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,trailerFields.put(new Integer(field) required ? Boolean.TRUE : Boolean.FALSE),METHOD_INVOCATION, line no: 281, 0.13636363636363635, 0.5454545454545454, 0.25
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,trailerFields.containsKey(new Integer(field)),METHOD_INVOCATION, line no: 293, 0.13636363636363635, 0.4090909090909091, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,groups.get(new IntStringPair(field msg)),METHOD_INVOCATION, line no: 449, 0.13636363636363635, 0.5454545454545454, 0.25
 fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,flag,SIMPLE_NAME, line no: 473, 0.13636363636363635, 0.045454545454545456, 1.0
+fields != null,INFIX_EXPRESSION, line no: 262,messageFields.put(msgType fields),METHOD_INVOCATION, line no: 246, 0.13043478260869565, 0.391304347826087, 0.3333333333333333
+fields != null,INFIX_EXPRESSION, line no: 262,requiredFields.put(msgType fields),METHOD_INVOCATION, line no: 328, 0.13043478260869565, 0.391304347826087, 0.3333333333333333
 fields != null,INFIX_EXPRESSION, line no: 262,flag,SIMPLE_NAME, line no: 473, 0.13043478260869565, 0.043478260869565216, 1.0
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,valueNames.get(new IntStringPair(field value)),METHOD_INVOCATION, line no: 189, 0.13043478260869565, 0.5217391304347826, 0.25
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,headerFields.put(new Integer(field) required ? Boolean.TRUE : Boolean.FALSE),METHOD_INVOCATION, line no: 266, 0.13043478260869565, 0.5217391304347826, 0.25
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,headerFields.containsKey(new Integer(field)),METHOD_INVOCATION, line no: 277, 0.13043478260869565, 0.391304347826087, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,trailerFields.put(new Integer(field) required ? Boolean.TRUE : Boolean.FALSE),METHOD_INVOCATION, line no: 281, 0.13043478260869565, 0.5217391304347826, 0.25
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,trailerFields.containsKey(new Integer(field)),METHOD_INVOCATION, line no: 293, 0.13043478260869565, 0.391304347826087, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,groups.get(new IntStringPair(field msg)),METHOD_INVOCATION, line no: 449, 0.13043478260869565, 0.5217391304347826, 0.25
 fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,flag,SIMPLE_NAME, line no: 473, 0.13043478260869565, 0.043478260869565216, 1.0
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,(String)valueNames.get(new IntStringPair(field value)),CAST_EXPRESSION, line no: 189, 0.125, 0.5, 0.25
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,(GroupInfo)groups.get(new IntStringPair(field msg)),CAST_EXPRESSION, line no: 449, 0.125, 0.5, 0.25
 contains,SIMPLE_NAME, line no: 262,hasVersion=true,ASSIGNMENT, line no: 141, 0.125, 0.125, 1.0
 contains,SIMPLE_NAME, line no: 262,flag,SIMPLE_NAME, line no: 473, 0.125, 0.041666666666666664, 1.0
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,(String)valueNames.get(new IntStringPair(field value)),CAST_EXPRESSION, line no: 189, 0.11956521739130435, 0.4782608695652174, 0.25
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,(GroupInfo)groups.get(new IntStringPair(field msg)),CAST_EXPRESSION, line no: 449, 0.11956521739130435, 0.4782608695652174, 0.25
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,groups.containsKey(new IntStringPair(field msg)),METHOD_INVOCATION, line no: 436, 0.11363636363636363, 0.45454545454545453, 0.25
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,new FieldException(SessionRejectReason.REQUIRED_TAG_MISSING field),CLASS_INSTANCE_CREATION, line no: 755, 0.11363636363636363, 0.22727272727272727, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,fieldTypes.put(new Integer(field) fieldType),METHOD_INVOCATION, line no: 297, 0.1111111111111111, 0.3333333333333333, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,groups.containsKey(new IntStringPair(field msg)),METHOD_INVOCATION, line no: 436, 0.10869565217391304, 0.43478260869565216, 0.25
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,new FieldException(SessionRejectReason.REQUIRED_TAG_MISSING field),CLASS_INSTANCE_CREATION, line no: 755, 0.10869565217391304, 0.21739130434782608, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,addRequiredField(msgtype field),METHOD_INVOCATION, line no: 1122, 0.10416666666666667, 0.20833333333333334, 0.5
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,messageFields.put(msgType fields),METHOD_INVOCATION, line no: 246, 0.10227272727272728, 0.4090909090909091, 0.25
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,requiredFields.put(msgType fields),METHOD_INVOCATION, line no: 328, 0.10227272727272728, 0.4090909090909091, 0.25
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,groups.put(new IntStringPair(field msg) new GroupInfo(delim dataDictionary)),METHOD_INVOCATION, line no: 422, 0.1, 0.5, 0.2
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,messageFields.put(msgType fields),METHOD_INVOCATION, line no: 246, 0.09782608695652174, 0.391304347826087, 0.25
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,requiredFields.put(msgType fields),METHOD_INVOCATION, line no: 328, 0.09782608695652174, 0.391304347826087, 0.25
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,valueNames.put(new IntStringPair(field value) name),METHOD_INVOCATION, line no: 176, 0.09375, 0.375, 0.25
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,fieldTypes.put(new Integer(field) fieldType),METHOD_INVOCATION, line no: 297, 0.09090909090909091, 0.36363636363636365, 0.25
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,fieldTypes.put(new Integer(field) fieldType),METHOD_INVOCATION, line no: 297, 0.08695652173913043, 0.34782608695652173, 0.25
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,groups.put(new IntStringPair(field msg) new GroupInfo(delim dataDictionary)),METHOD_INVOCATION, line no: 422, 0.08333333333333333, 0.5, 0.16666666666666666
 contains,SIMPLE_NAME, line no: 262,checkFieldsOutOfOrder=flag,ASSIGNMENT, line no: 474, 0.08333333333333333, 0.08333333333333333, 1.0
 contains,SIMPLE_NAME, line no: 262,checkFieldsHaveValues=flag,ASSIGNMENT, line no: 484, 0.08333333333333333, 0.08333333333333333, 1.0
 contains,SIMPLE_NAME, line no: 262,checkUserDefinedFields=flag,ASSIGNMENT, line no: 494, 0.08333333333333333, 0.08333333333333333, 1.0
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,groupDD.addRequiredField(msgtype field),METHOD_INVOCATION, line no: 1156, 0.08333333333333333, 0.25, 0.3333333333333333
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,delimeterField=field,ASSIGNMENT, line no: 1250, 0.08333333333333333, 0.16666666666666666, 0.5
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,valueNames.put(new IntStringPair(field value) name),METHOD_INVOCATION, line no: 176, 0.08181818181818183, 0.4090909090909091, 0.2
 field,SIMPLE_NAME, line no: 262,firstField=field,ASSIGNMENT, line no: 1117, 0.08, 0.08, 1.0
 field,SIMPLE_NAME, line no: 262,delim=field,ASSIGNMENT, line no: 1171, 0.08, 0.08, 1.0
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,groups.put(new IntStringPair(field msg) new GroupInfo(delim dataDictionary)),METHOD_INVOCATION, line no: 422, 0.07971014492753623, 0.4782608695652174, 0.16666666666666666
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,valueNames.put(new IntStringPair(field value) name),METHOD_INVOCATION, line no: 176, 0.0782608695652174, 0.391304347826087, 0.2
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,addRequiredField(msgtype field),METHOD_INVOCATION, line no: 1122, 0.07575757575757575, 0.22727272727272727, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,addRequiredField(msgtype field),METHOD_INVOCATION, line no: 1122, 0.07246376811594202, 0.21739130434782608, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,groupDD.addRequiredField(msgtype field),METHOD_INVOCATION, line no: 1156, 0.06818181818181818, 0.2727272727272727, 0.25
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,groupDD.addRequiredField(msgtype field),METHOD_INVOCATION, line no: 1156, 0.06521739130434782, 0.2608695652173913, 0.25
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,delimeterField=field,ASSIGNMENT, line no: 1250, 0.06060606060606061, 0.18181818181818182, 0.3333333333333333
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,field=addXMLComponentFields(document fieldNode msgtype groupDD false),ASSIGNMENT, line no: 1159, 0.05833333333333334, 0.2916666666666667, 0.2
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,delimeterField=field,ASSIGNMENT, line no: 1250, 0.05797101449275362, 0.17391304347826086, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,field=addXMLComponentFields(document fieldNode msgtype groupDD false),ASSIGNMENT, line no: 1159, 0.053030303030303025, 0.3181818181818182, 0.16666666666666666
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,field=addXMLComponentFields(document fieldNode msgtype groupDD false),ASSIGNMENT, line no: 1159, 0.050724637681159424, 0.30434782608695654, 0.16666666666666666
 fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,isField,SIMPLE_NAME, line no: 199, 0.045454545454545456, 0.045454545454545456, 1.0
 fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,isRequiredField,SIMPLE_NAME, line no: 342, 0.045454545454545456, 0.045454545454545456, 1.0
 fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,isRequiredHeaderField,SIMPLE_NAME, line no: 352, 0.045454545454545456, 0.045454545454545456, 1.0
@@ -537,7 +729,13 @@ contains,SIMPLE_NAME, line no: 262,isRequiredField,SIMPLE_NAME, line no: 342, 0.
 contains,SIMPLE_NAME, line no: 262,isRequiredHeaderField,SIMPLE_NAME, line no: 352, 0.041666666666666664, 0.041666666666666664, 1.0
 contains,SIMPLE_NAME, line no: 262,isRequiredTrailerField,SIMPLE_NAME, line no: 363, 0.041666666666666664, 0.041666666666666664, 1.0
 contains,SIMPLE_NAME, line no: 262,isDataField,SIMPLE_NAME, line no: 459, 0.041666666666666664, 0.041666666666666664, 1.0
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,firstField=field,ASSIGNMENT, line no: 1117, 0.041666666666666664, 0.08333333333333333, 0.5
+new Integer(field),CLASS_INSTANCE_CREATION, line no: 262,delim=field,ASSIGNMENT, line no: 1171, 0.041666666666666664, 0.08333333333333333, 0.5
 field,SIMPLE_NAME, line no: 262,getFieldType,SIMPLE_NAME, line no: 308, 0.04, 0.04, 1.0
 field,SIMPLE_NAME, line no: 262,getFieldTag,SIMPLE_NAME, line no: 319, 0.04, 0.04, 1.0
 field,SIMPLE_NAME, line no: 262,getIntValue,SIMPLE_NAME, line no: 1217, 0.04, 0.04, 1.0
 field,SIMPLE_NAME, line no: 262,getDelimeterField,SIMPLE_NAME, line no: 1263, 0.04, 0.04, 1.0
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,firstField=field,ASSIGNMENT, line no: 1117, 0.030303030303030304, 0.09090909090909091, 0.3333333333333333
+fields != null & fields.contains(new Integer(field)),INFIX_EXPRESSION, line no: 262,delim=field,ASSIGNMENT, line no: 1171, 0.030303030303030304, 0.09090909090909091, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,firstField=field,ASSIGNMENT, line no: 1117, 0.02898550724637681, 0.08695652173913043, 0.3333333333333333
+fields.contains(new Integer(field)),METHOD_INVOCATION, line no: 262,delim=field,ASSIGNMENT, line no: 1171, 0.02898550724637681, 0.08695652173913043, 0.3333333333333333

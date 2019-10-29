@@ -188,6 +188,7 @@ color,SIMPLE_NAME, line no: 1879,x,SIMPLE_NAME, line no: 2349, 0.888888888888888
 color,SIMPLE_NAME, line no: 1879,y,SIMPLE_NAME, line no: 2350, 0.8888888888888888, 0.8888888888888888, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,parseNamedLayer(child),METHOD_INVOCATION, line no: 466, 0.8888888888888888, 0.8888888888888888, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,parseUserLayer(child),METHOD_INVOCATION, line no: 469, 0.8888888888888888, 0.8888888888888888, 1.0
+parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,child.getFirstChild(),METHOD_INVOCATION, line no: 483, 0.8888888888888888, 0.5, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,parseStyle(child),METHOD_INVOCATION, line no: 514, 0.8888888888888888, 0.8888888888888888, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,parseRemoteOWS(child),METHOD_INVOCATION, line no: 522, 0.8888888888888888, 0.8888888888888888, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,parseFeatureTypeConstraint(child),METHOD_INVOCATION, line no: 545, 0.8888888888888888, 0.8888888888888888, 1.0
@@ -196,12 +197,14 @@ parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,parseNamedStyle(
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,(child == null) || (child.getNodeType() != Node.ELEMENT_NODE) || (child.getFirstChild() == null),INFIX_EXPRESSION, line no: 728, 0.8888888888888888, 0.8333333333333334, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,(child.getFirstChild() == null),PARENTHESIZED_EXPRESSION, line no: 729, 0.8888888888888888, 0.8333333333333334, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,child.getFirstChild() == null,INFIX_EXPRESSION, line no: 729, 0.8888888888888888, 0.8333333333333334, 1.0
-parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,child.getFirstChild(),METHOD_INVOCATION, line no: 729, 0.8888888888888888, 0.8333333333333334, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,tx,SIMPLE_NAME, line no: 851, 0.8888888888888888, 0.8888888888888888, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,expression,SIMPLE_NAME, line no: 851, 0.8888888888888888, 0.8888888888888888, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,getFirstNonTextChild(child),METHOD_INVOCATION, line no: 851, 0.8888888888888888, 0.8888888888888888, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,parseGraphic(child),METHOD_INVOCATION, line no: 1124, 0.8888888888888888, 0.6111111111111112, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,text,SIMPLE_NAME, line no: 1163, 0.8888888888888888, 0.8888888888888888, 1.0
+parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,child.getAttributes().getNamedItem("name").getNodeValue(),METHOD_INVOCATION, line no: 1177, 0.8888888888888888, 0.7777777777777778, 1.0
+parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,child.getAttributes().getNamedItem("name"),METHOD_INVOCATION, line no: 1177, 0.8888888888888888, 0.7777777777777778, 1.0
+parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,child.getAttributes(),METHOD_INVOCATION, line no: 1177, 0.8888888888888888, 0.7777777777777778, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,child.getFirstChild().getLocalName(),METHOD_INVOCATION, line no: 1229, 0.8888888888888888, 0.8888888888888888, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,expr,SIMPLE_NAME, line no: 1267, 0.8888888888888888, 0.8888888888888888, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,childExpr,SIMPLE_NAME, line no: 1283, 0.8888888888888888, 0.8888888888888888, 1.0
@@ -211,9 +214,6 @@ parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,relief,SIMPLE_NA
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,ExpressionDOMParser.parseExpression(child),METHOD_INVOCATION, line no: 1513, 0.8888888888888888, 0.8888888888888888, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,parseExpression,SIMPLE_NAME, line no: 1513, 0.8888888888888888, 0.8888888888888888, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,getAttribute(child "encoding"),METHOD_INVOCATION, line no: 1701, 0.8888888888888888, 0.8888888888888888, 1.0
-parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,child.getAttributes().getNamedItem("name").getNodeValue(),METHOD_INVOCATION, line no: 1724, 0.8888888888888888, 0.8888888888888888, 1.0
-parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,child.getAttributes().getNamedItem("name"),METHOD_INVOCATION, line no: 1724, 0.8888888888888888, 0.8888888888888888, 1.0
-parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,child.getAttributes(),METHOD_INVOCATION, line no: 1724, 0.8888888888888888, 0.8888888888888888, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,value,SIMPLE_NAME, line no: 1728, 0.8888888888888888, 0.8888888888888888, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,child.getChildNodes().getLength() == 1 && child.getFirstChild().getNodeType() == Node.TEXT_NODE,INFIX_EXPRESSION, line no: 1900, 0.8888888888888888, 0.8888888888888888, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,child.getChildNodes().getLength() == 1,INFIX_EXPRESSION, line no: 1900, 0.8888888888888888, 0.8888888888888888, 1.0
@@ -432,9 +432,9 @@ Expression,SIMPLE_NAME, line no: 1879,result,SIMPLE_NAME, line no: 1623, 0.72222
 Expression,SIMPLE_NAME, line no: 1879,parseGeometry(root),METHOD_INVOCATION, line no: 1623, 0.7222222222222222, 0.7222222222222222, 1.0
 Expression,SIMPLE_NAME, line no: 1879,left,SIMPLE_NAME, line no: 2016, 0.7222222222222222, 0.05555555555555555, 1.0
 Expression,SIMPLE_NAME, line no: 1879,right,SIMPLE_NAME, line no: 2016, 0.7222222222222222, 0.05555555555555555, 1.0
+parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,child.getFirstChild() != null,INFIX_EXPRESSION, line no: 483, 0.7222222222222222, 0.5, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,parseOtherText(child),METHOD_INVOCATION, line no: 1141, 0.7222222222222222, 0.7222222222222222, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,child.getFirstChild() != null && child.getFirstChild().getNodeType() == Node.TEXT_NODE,INFIX_EXPRESSION, line no: 1403, 0.7222222222222222, 0.7222222222222222, 1.0
-parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,child.getFirstChild() != null,INFIX_EXPRESSION, line no: 1403, 0.7222222222222222, 0.7222222222222222, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,result,SIMPLE_NAME, line no: 1623, 0.7222222222222222, 0.7222222222222222, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,"setting mark to " + getFirstChildValue(child),INFIX_EXPRESSION, line no: 1669, 0.7222222222222222, 0.7222222222222222, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,"format child is " + child,INFIX_EXPRESSION, line no: 1718, 0.7222222222222222, 0.7222222222222222, 1.0
@@ -534,6 +534,7 @@ false,BOOLEAN_LITERAL, line no: 1879,left == null,INFIX_EXPRESSION, line no: 201
 false,BOOLEAN_LITERAL, line no: 1879,right == null,INFIX_EXPRESSION, line no: 2019, 0.5263157894736842, 0.5263157894736842, 1.0
 Expression,SIMPLE_NAME, line no: 1879,parseGeometry(child),METHOD_INVOCATION, line no: 1003, 0.5, 0.5, 1.0
 color,SIMPLE_NAME, line no: 1879,parseGeometry(child),METHOD_INVOCATION, line no: 1003, 0.5, 0.5, 1.0
+parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,child.getFirstChild().getNodeValue(),METHOD_INVOCATION, line no: 484, 0.5, 0.5, 1.0
 parseCssParameter,SIMPLE_NAME, line no: 1879,expressions.remove(0),METHOD_INVOCATION, line no: 2143, 0.47368421052631576, 0.47368421052631576, 1.0
 parseCssParameter(child false),METHOD_INVOCATION, line no: 1879,findElements(((Element)child) graphicSt),METHOD_INVOCATION, line no: 928, 0.4722222222222222, 0.8888888888888888, 0.5
 Expression,SIMPLE_NAME, line no: 1879,manageMixed,SIMPLE_NAME, line no: 2016, 0.4444444444444444, 0.05555555555555555, 1.0

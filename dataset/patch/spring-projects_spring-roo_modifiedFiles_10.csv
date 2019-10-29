@@ -1,39 +1,94 @@
 candidate.convertFromText("*" null include.optionContext()),METHOD_INVOCATION, line no: 593,convertFromText,SIMPLE_NAME, line no: 593, 1.0, 1.0, 1.0
 "*",STRING_LITERAL, line no: 593,String,SIMPLE_NAME, line no: 49, 1.0, 0.047619047619047616, 1.0
 "*",STRING_LITERAL, line no: 593,rawInput,SIMPLE_NAME, line no: 60, 1.0, 0.047619047619047616, 1.0
+"*",STRING_LITERAL, line no: 593,"Raw input required",STRING_LITERAL, line no: 62, 1.0, 1.0, 1.0
 "*",STRING_LITERAL, line no: 593,input,SIMPLE_NAME, line no: 63, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,normalise(rawInput),METHOD_INVOCATION, line no: 63, 1.0, 1.0, 1.0
 "*",STRING_LITERAL, line no: 593,normalise,SIMPLE_NAME, line no: 63, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,methodTarget.remainingBuffer,QUALIFIED_NAME, line no: 97, 1.0, 0.47619047619047616, 1.0
 "*",STRING_LITERAL, line no: 593,remainingBuffer,SIMPLE_NAME, line no: 97, 1.0, 0.47619047619047616, 1.0
 "*",STRING_LITERAL, line no: 593,value,SIMPLE_NAME, line no: 120, 1.0, 1.0, 1.0
 "*",STRING_LITERAL, line no: 593,sourcedFrom,SIMPLE_NAME, line no: 121, 1.0, 1.0, 1.0
 "*",STRING_LITERAL, line no: 593,possibleKey,SIMPLE_NAME, line no: 122, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,"",STRING_LITERAL, line no: 135, 1.0, 0.8095238095238095, 1.0
 "*",STRING_LITERAL, line no: 593,unspecifiedDefaultValue,SIMPLE_NAME, line no: 155, 1.0, 0.5238095238095238, 1.0
+"*",STRING_LITERAL, line no: 593,"__NULL__",STRING_LITERAL, line no: 159, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,"'",STRING_LITERAL, line no: 161, 1.0, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593," ",STRING_LITERAL, line no: 234, 1.0, 0.38095238095238093, 1.0
 "*",STRING_LITERAL, line no: 593,buffer,SIMPLE_NAME, line no: 266, 1.0, 0.047619047619047616, 1.0
+"*",STRING_LITERAL, line no: 593,"Buffer required",STRING_LITERAL, line no: 271, 1.0, 0.9047619047619048, 1.0
 "*",STRING_LITERAL, line no: 593,toGenericString,SIMPLE_NAME, line no: 288, 1.0, 0.8571428571428571, 1.0
 "*",STRING_LITERAL, line no: 593,substring,SIMPLE_NAME, line no: 332, 1.0, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"Candidates list required",STRING_LITERAL, line no: 398, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,"  ",STRING_LITERAL, line no: 407, 1.0, 1.0, 1.0
 "*",STRING_LITERAL, line no: 593,translated,SIMPLE_NAME, line no: 413, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,buffer.substring(0 cursor),METHOD_INVOCATION, line no: 413, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,"CliCommand unavailable for '" + methodTarget.method.toGenericString() + "'",INFIX_EXPRESSION, line no: 448, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,"CliCommand unavailable for '",STRING_LITERAL, line no: 448, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,methodTarget.method.toGenericString(),METHOD_INVOCATION, line no: 448, 1.0, 1.0, 1.0
 "*",STRING_LITERAL, line no: 593,lastOptionKey,SIMPLE_NAME, line no: 529, 1.0, 1.0, 1.0
 "*",STRING_LITERAL, line no: 593,lastOptionValue,SIMPLE_NAME, line no: 530, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,"--",STRING_LITERAL, line no: 540, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,include.unspecifiedDefaultValue(),METHOD_INVOCATION, line no: 573, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,".",STRING_LITERAL, line no: 763, 1.0, 1.0, 1.0
 "*",STRING_LITERAL, line no: 593,section,SIMPLE_NAME, line no: 802, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,"para",STRING_LITERAL, line no: 878, 1.0, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"xml:id",STRING_LITERAL, line no: 888, 1.0, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,"title",STRING_LITERAL, line no: 888, 1.0, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,"appendix",STRING_LITERAL, line no: 907, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,"xmlns",STRING_LITERAL, line no: 908, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,"http://docbook.org/ns/docbook",STRING_LITERAL, line no: 908, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,"version",STRING_LITERAL, line no: 909, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,"5.0",STRING_LITERAL, line no: 909, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,"command-index",STRING_LITERAL, line no: 910, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,"Command Index",STRING_LITERAL, line no: 911, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,"This appendix was automatically built from Roo " + AbstractShell.versionInfo() + ".",INFIX_EXPRESSION, line no: 912, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,"This appendix was automatically built from Roo ",STRING_LITERAL, line no: 912, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,AbstractShell.versionInfo(),METHOD_INVOCATION, line no: 912, 1.0, 1.0, 1.0
 "*",STRING_LITERAL, line no: 593,versionInfo,SIMPLE_NAME, line no: 912, 1.0, 1.0, 1.0
+"*",STRING_LITERAL, line no: 593,"Commands are listed in alphabetic order  and are shown in monospaced font with any mandatory options you must specify when using the command. Most commands accept a large number of options  and all of the possible options for each command are presented in this appendix.",STRING_LITERAL, line no: 913, 1.0, 1.0, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,String,SIMPLE_NAME, line no: 49, 1.0, 0.047619047619047616, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,rawInput,SIMPLE_NAME, line no: 60, 1.0, 0.047619047619047616, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"Raw input required",STRING_LITERAL, line no: 62, 1.0, 1.0, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,input,SIMPLE_NAME, line no: 63, 1.0, 1.0, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,normalise,SIMPLE_NAME, line no: 63, 1.0, 1.0, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,remainingBuffer,SIMPLE_NAME, line no: 97, 1.0, 0.47619047619047616, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,value,SIMPLE_NAME, line no: 120, 1.0, 1.0, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,sourcedFrom,SIMPLE_NAME, line no: 121, 1.0, 1.0, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,possibleKey,SIMPLE_NAME, line no: 122, 1.0, 1.0, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"",STRING_LITERAL, line no: 135, 1.0, 0.8095238095238095, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,unspecifiedDefaultValue,SIMPLE_NAME, line no: 155, 1.0, 0.5238095238095238, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"__NULL__",STRING_LITERAL, line no: 159, 1.0, 1.0, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"'",STRING_LITERAL, line no: 161, 1.0, 0.7619047619047619, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,optionContext,SIMPLE_NAME, line no: 170, 1.0, 0.9523809523809523, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593," ",STRING_LITERAL, line no: 234, 1.0, 0.38095238095238093, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,buffer,SIMPLE_NAME, line no: 266, 1.0, 0.047619047619047616, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"Buffer required",STRING_LITERAL, line no: 271, 1.0, 0.9047619047619048, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,toGenericString,SIMPLE_NAME, line no: 288, 1.0, 0.8571428571428571, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,substring,SIMPLE_NAME, line no: 332, 1.0, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"Candidates list required",STRING_LITERAL, line no: 398, 1.0, 1.0, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"  ",STRING_LITERAL, line no: 407, 1.0, 1.0, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,translated,SIMPLE_NAME, line no: 413, 1.0, 1.0, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"CliCommand unavailable for '",STRING_LITERAL, line no: 448, 1.0, 1.0, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,lastOptionKey,SIMPLE_NAME, line no: 529, 1.0, 1.0, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,lastOptionValue,SIMPLE_NAME, line no: 530, 1.0, 1.0, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"--",STRING_LITERAL, line no: 540, 1.0, 1.0, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"*",STRING_LITERAL, line no: 573, 1.0, 1.0, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,".",STRING_LITERAL, line no: 763, 1.0, 1.0, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,section,SIMPLE_NAME, line no: 802, 1.0, 1.0, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"para",STRING_LITERAL, line no: 878, 1.0, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"xml:id",STRING_LITERAL, line no: 888, 1.0, 0.9047619047619048, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"title",STRING_LITERAL, line no: 888, 1.0, 0.9047619047619048, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"appendix",STRING_LITERAL, line no: 907, 1.0, 1.0, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"xmlns",STRING_LITERAL, line no: 908, 1.0, 1.0, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"http://docbook.org/ns/docbook",STRING_LITERAL, line no: 908, 1.0, 1.0, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"version",STRING_LITERAL, line no: 909, 1.0, 1.0, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"5.0",STRING_LITERAL, line no: 909, 1.0, 1.0, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"command-index",STRING_LITERAL, line no: 910, 1.0, 1.0, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"Command Index",STRING_LITERAL, line no: 911, 1.0, 1.0, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"This appendix was automatically built from Roo ",STRING_LITERAL, line no: 912, 1.0, 1.0, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,versionInfo,SIMPLE_NAME, line no: 912, 1.0, 1.0, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"Commands are listed in alphabetic order  and are shown in monospaced font with any mandatory options you must specify when using the command. Most commands accept a large number of options  and all of the possible options for each command are presented in this appendix.",STRING_LITERAL, line no: 913, 1.0, 1.0, 1.0
 include,SIMPLE_NAME, line no: 593,CliOption,SIMPLE_NAME, line no: 103, 1.0, 1.0, 1.0
 include,SIMPLE_NAME, line no: 593,cliOption,SIMPLE_NAME, line no: 104, 1.0, 1.0, 1.0
 include,SIMPLE_NAME, line no: 593,option,SIMPLE_NAME, line no: 511, 1.0, 1.0, 1.0
@@ -104,11 +159,23 @@ convertFromText,SIMPLE_NAME, line no: 593,candidate.convertFromText("*" null inc
 "*",STRING_LITERAL, line no: 593,optionContext,SIMPLE_NAME, line no: 170, 0.9523809523809523, 0.9047619047619048, 1.0
 "*",STRING_LITERAL, line no: 593,getName,SIMPLE_NAME, line no: 197, 0.9523809523809523, 0.7619047619047619, 1.0
 "*",STRING_LITERAL, line no: 593,toLowerCase,SIMPLE_NAME, line no: 241, 0.9523809523809523, 0.5238095238095238, 1.0
+"*",STRING_LITERAL, line no: 593,include.optionContext(),METHOD_INVOCATION, line no: 591, 0.9523809523809523, 0.9523809523809523, 1.0
 "*",STRING_LITERAL, line no: 593,replace,SIMPLE_NAME, line no: 887, 0.9523809523809523, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,"section",STRING_LITERAL, line no: 888, 0.9523809523809523, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,"command-index-",STRING_LITERAL, line no: 888, 0.9523809523809523, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,"command-index-" + section.toLowerCase().replace(' ' '-'),INFIX_EXPRESSION, line no: 895, 0.9523809523809523, 0.9523809523809523, 1.0
+"*",STRING_LITERAL, line no: 593,section.toLowerCase().replace(' ' '-'),METHOD_INVOCATION, line no: 895, 0.9523809523809523, 0.9523809523809523, 1.0
+"*",STRING_LITERAL, line no: 593,section.toLowerCase(),METHOD_INVOCATION, line no: 895, 0.9523809523809523, 0.9523809523809523, 1.0
+"*",STRING_LITERAL, line no: 593,section + " are contained in " + target.getClass().getName()+ ".",INFIX_EXPRESSION, line no: 897, 0.9523809523809523, 0.9523809523809523, 1.0
+"*",STRING_LITERAL, line no: 593," are contained in ",STRING_LITERAL, line no: 897, 0.9523809523809523, 0.9523809523809523, 1.0
+"*",STRING_LITERAL, line no: 593,target.getClass().getName(),METHOD_INVOCATION, line no: 897, 0.9523809523809523, 0.9523809523809523, 1.0
 "*",STRING_LITERAL, line no: 593,cmd,SIMPLE_NAME, line no: 899, 0.9523809523809523, 0.9523809523809523, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,getName,SIMPLE_NAME, line no: 197, 0.9523809523809523, 0.7619047619047619, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,toLowerCase,SIMPLE_NAME, line no: 241, 0.9523809523809523, 0.5714285714285714, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,replace,SIMPLE_NAME, line no: 887, 0.9523809523809523, 0.9047619047619048, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"section",STRING_LITERAL, line no: 888, 0.9523809523809523, 0.9047619047619048, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"command-index-",STRING_LITERAL, line no: 888, 0.9523809523809523, 0.9047619047619048, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593," are contained in ",STRING_LITERAL, line no: 897, 0.9523809523809523, 0.9523809523809523, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,cmd,SIMPLE_NAME, line no: 899, 0.9523809523809523, 0.9523809523809523, 1.0
 include,SIMPLE_NAME, line no: 593,(CliOption)a,CAST_EXPRESSION, line no: 258, 0.9090909090909091, 0.45454545454545453, 1.0
 include,SIMPLE_NAME, line no: 593,cliOptions.get(i),METHOD_INVOCATION, line no: 648, 0.9090909090909091, 0.9090909090909091, 1.0
@@ -166,29 +233,84 @@ optionContext,SIMPLE_NAME, line no: 593,"** Type 'hint' (without the quotes) and
 optionContext,SIMPLE_NAME, line no: 593,"** Type 'hint' (without the quotes) and hit ENTER for step-by-step guidance **",STRING_LITERAL, line no: 1010, 0.9090909090909091, 0.9090909090909091, 1.0
 "*",STRING_LITERAL, line no: 593,toString,SIMPLE_NAME, line no: 141, 0.9047619047619048, 0.7619047619047619, 1.0
 "*",STRING_LITERAL, line no: 593,specifiedDefaultValue,SIMPLE_NAME, line no: 150, 0.9047619047619048, 0.5238095238095238, 1.0
+"*",STRING_LITERAL, line no: 593,cliOption.optionContext(),METHOD_INVOCATION, line no: 170, 0.9047619047619048, 0.9047619047619048, 1.0
 "*",STRING_LITERAL, line no: 593,key,SIMPLE_NAME, line no: 240, 0.9047619047619048, 0.5238095238095238, 1.0
+"*",STRING_LITERAL, line no: 593,"CliOption not found for parameter '" + Arrays.toString(annotations) + "'",INFIX_EXPRESSION, line no: 505, 0.9047619047619048, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"CliOption not found for parameter '",STRING_LITERAL, line no: 505, 0.9047619047619048, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,Arrays.toString(annotations),METHOD_INVOCATION, line no: 505, 0.9047619047619048, 0.7619047619047619, 1.0
 "*",STRING_LITERAL, line no: 593,suffix,SIMPLE_NAME, line no: 654, 0.9047619047619048, 0.9047619047619048, 1.0
 "*",STRING_LITERAL, line no: 593,prefix,SIMPLE_NAME, line no: 691, 0.9047619047619048, 0.9047619047619048, 1.0
 "*",STRING_LITERAL, line no: 593,currentValue,SIMPLE_NAME, line no: 697, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,System.getProperty("line.separator"),METHOD_INVOCATION, line no: 712, 0.9047619047619048, 0.9047619047619048, 1.0
 "*",STRING_LITERAL, line no: 593,getProperty,SIMPLE_NAME, line no: 712, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,"line.separator",STRING_LITERAL, line no: 712, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,option.mandatory() ? "required --" : "optional --",CONDITIONAL_EXPRESSION, line no: 713, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,"required --",STRING_LITERAL, line no: 713, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,"optional --",STRING_LITERAL, line no: 713, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,option.help(),METHOD_INVOCATION, line no: 714, 0.9047619047619048, 0.9047619047619048, 1.0
 "*",STRING_LITERAL, line no: 593,help,SIMPLE_NAME, line no: 714, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,option.specifiedDefaultValue(),METHOD_INVOCATION, line no: 719, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,option.unspecifiedDefaultValue(),METHOD_INVOCATION, line no: 719, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,help.toString(),METHOD_INVOCATION, line no: 733, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,cmd.value()[0],ARRAY_ACCESS, line no: 811, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,option.key()[0],ARRAY_ACCESS, line no: 824, 0.9047619047619048, 0.9047619047619048, 1.0
 "*",STRING_LITERAL, line no: 593,otherKey,SIMPLE_NAME, line no: 826, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,option.mandatory() ? " (mandatory) " : "",CONDITIONAL_EXPRESSION, line no: 857, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593," (mandatory) ",STRING_LITERAL, line no: 857, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,key="--" + key,ASSIGNMENT, line no: 860, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,"--" + key,INFIX_EXPRESSION, line no: 860, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,optionDetails.put(key help.toString()),METHOD_INVOCATION, line no: 862, 0.9047619047619048, 0.9047619047619048, 1.0
 "*",STRING_LITERAL, line no: 593,put,SIMPLE_NAME, line no: 862, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,"variablelist",STRING_LITERAL, line no: 873, 0.9047619047619048, 0.9047619047619048, 1.0
 "*",STRING_LITERAL, line no: 593,optionKey,SIMPLE_NAME, line no: 875, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,cmdSyntax.toString(),METHOD_INVOCATION, line no: 886, 0.9047619047619048, 0.9047619047619048, 1.0
 "*",STRING_LITERAL, line no: 593,safeName,SIMPLE_NAME, line no: 887, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,cmd.value()[0].replace("\\" "BCK").replace("/" "FWD").replace("*" "ASX"),METHOD_INVOCATION, line no: 887, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,cmd.value()[0].replace("\\" "BCK").replace("/" "FWD"),METHOD_INVOCATION, line no: 887, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,cmd.value()[0].replace("\\" "BCK"),METHOD_INVOCATION, line no: 887, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,"\\",STRING_LITERAL, line no: 887, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,"BCK",STRING_LITERAL, line no: 887, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,"/",STRING_LITERAL, line no: 887, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,"FWD",STRING_LITERAL, line no: 887, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,"ASX",STRING_LITERAL, line no: 887, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,"command-index-" + safeName.toLowerCase().replace(' ' '-'),INFIX_EXPRESSION, line no: 888, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,safeName.toLowerCase().replace(' ' '-'),METHOD_INVOCATION, line no: 888, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,safeName.toLowerCase(),METHOD_INVOCATION, line no: 888, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,cmd.help(),METHOD_INVOCATION, line no: 888, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,"programlisting",STRING_LITERAL, line no: 888, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,"CliCommand not found",STRING_LITERAL, line no: 956, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,"Description:               ",STRING_LITERAL, line no: 962, 0.9047619047619048, 0.9047619047619048, 1.0
 "*",STRING_LITERAL, line no: 593,s,SIMPLE_NAME, line no: 1005, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,sb.toString(),METHOD_INVOCATION, line no: 1009, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,"** Type 'hint' (without the quotes) and hit ENTER for step-by-step guidance **" + System.getProperty("line.separator"),INFIX_EXPRESSION, line no: 1010, 0.9047619047619048, 0.9047619047619048, 1.0
+"*",STRING_LITERAL, line no: 593,"** Type 'hint' (without the quotes) and hit ENTER for step-by-step guidance **",STRING_LITERAL, line no: 1010, 0.9047619047619048, 0.9047619047619048, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,toString,SIMPLE_NAME, line no: 141, 0.9047619047619048, 0.7619047619047619, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,specifiedDefaultValue,SIMPLE_NAME, line no: 150, 0.9047619047619048, 0.5238095238095238, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,key,SIMPLE_NAME, line no: 240, 0.9047619047619048, 0.5238095238095238, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"CliOption not found for parameter '",STRING_LITERAL, line no: 505, 0.9047619047619048, 0.7619047619047619, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,suffix,SIMPLE_NAME, line no: 654, 0.9047619047619048, 0.9047619047619048, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,prefix,SIMPLE_NAME, line no: 691, 0.9047619047619048, 0.9047619047619048, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,currentValue,SIMPLE_NAME, line no: 697, 0.9047619047619048, 0.9047619047619048, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,getProperty,SIMPLE_NAME, line no: 712, 0.9047619047619048, 0.9047619047619048, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"line.separator",STRING_LITERAL, line no: 712, 0.9047619047619048, 0.9047619047619048, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"required --",STRING_LITERAL, line no: 713, 0.9047619047619048, 0.9047619047619048, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"optional --",STRING_LITERAL, line no: 713, 0.9047619047619048, 0.9047619047619048, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,help,SIMPLE_NAME, line no: 714, 0.9047619047619048, 0.9047619047619048, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593," (mandatory) ",STRING_LITERAL, line no: 857, 0.9047619047619048, 0.9047619047619048, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,put,SIMPLE_NAME, line no: 862, 0.9047619047619048, 0.9047619047619048, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"variablelist",STRING_LITERAL, line no: 873, 0.9047619047619048, 0.9047619047619048, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,optionKey,SIMPLE_NAME, line no: 875, 0.9047619047619048, 0.9047619047619048, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,safeName,SIMPLE_NAME, line no: 887, 0.9047619047619048, 0.9047619047619048, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"\\",STRING_LITERAL, line no: 887, 0.9047619047619048, 0.9047619047619048, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"BCK",STRING_LITERAL, line no: 887, 0.9047619047619048, 0.9047619047619048, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"/",STRING_LITERAL, line no: 887, 0.9047619047619048, 0.9047619047619048, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"FWD",STRING_LITERAL, line no: 887, 0.9047619047619048, 0.9047619047619048, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"ASX",STRING_LITERAL, line no: 887, 0.9047619047619048, 0.9047619047619048, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"programlisting",STRING_LITERAL, line no: 888, 0.9047619047619048, 0.9047619047619048, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"CliCommand not found",STRING_LITERAL, line no: 956, 0.9047619047619048, 0.9047619047619048, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"Description:               ",STRING_LITERAL, line no: 962, 0.9047619047619048, 0.9047619047619048, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,s,SIMPLE_NAME, line no: 1005, 0.9047619047619048, 0.9047619047619048, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"** Type 'hint' (without the quotes) and hit ENTER for step-by-step guidance **",STRING_LITERAL, line no: 1010, 0.9047619047619048, 0.9047619047619048, 1.0
 include,SIMPLE_NAME, line no: 593,cliOption=(CliOption)a,ASSIGNMENT, line no: 502, 0.8636363636363636, 0.4090909090909091, 1.0
 optionContext,SIMPLE_NAME, line no: 593,cliOption.specifiedDefaultValue(),METHOD_INVOCATION, line no: 150, 0.8636363636363636, 0.45454545454545453, 1.0
 optionContext,SIMPLE_NAME, line no: 593,cliOption.unspecifiedDefaultValue(),METHOD_INVOCATION, line no: 155, 0.8636363636363636, 0.45454545454545453, 1.0
@@ -205,14 +327,43 @@ optionContext,SIMPLE_NAME, line no: 593,cliOption.help(),METHOD_INVOCATION, line
 optionContext,SIMPLE_NAME, line no: 593,"   Mandatory:              ",STRING_LITERAL, line no: 978, 0.8636363636363636, 0.8636363636363636, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"   Default if specified:   '",STRING_LITERAL, line no: 979, 0.8636363636363636, 0.8636363636363636, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"   Default if unspecified: '",STRING_LITERAL, line no: 980, 0.8636363636363636, 0.8636363636363636, 1.0
+"*",STRING_LITERAL, line no: 593,cliOption.specifiedDefaultValue(),METHOD_INVOCATION, line no: 150, 0.8571428571428571, 0.47619047619047616, 1.0
+"*",STRING_LITERAL, line no: 593,cliOption.unspecifiedDefaultValue(),METHOD_INVOCATION, line no: 155, 0.8571428571428571, 0.47619047619047616, 1.0
+"*",STRING_LITERAL, line no: 593,"More than one availability indicator is defined for '" + m.toGenericString() + "'",INFIX_EXPRESSION, line no: 288, 0.8571428571428571, 0.8571428571428571, 1.0
+"*",STRING_LITERAL, line no: 593,"More than one availability indicator is defined for '",STRING_LITERAL, line no: 288, 0.8571428571428571, 0.8571428571428571, 1.0
+"*",STRING_LITERAL, line no: 593,m.toGenericString(),METHOD_INVOCATION, line no: 288, 0.8571428571428571, 0.8571428571428571, 1.0
+"*",STRING_LITERAL, line no: 593,"; default: '",STRING_LITERAL, line no: 723, 0.8571428571428571, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"; default if option present: '",STRING_LITERAL, line no: 727, 0.8571428571428571, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"; default if option not present: '",STRING_LITERAL, line no: 730, 0.8571428571428571, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593," Keyword:                  ",STRING_LITERAL, line no: 974, 0.8571428571428571, 0.8571428571428571, 1.0
+"*",STRING_LITERAL, line no: 593,"   Help:                   ",STRING_LITERAL, line no: 977, 0.8571428571428571, 0.8571428571428571, 1.0
+"*",STRING_LITERAL, line no: 593,cliOption.help(),METHOD_INVOCATION, line no: 977, 0.8571428571428571, 0.8571428571428571, 1.0
+"*",STRING_LITERAL, line no: 593,"   Mandatory:              ",STRING_LITERAL, line no: 978, 0.8571428571428571, 0.8571428571428571, 1.0
+"*",STRING_LITERAL, line no: 593,"   Default if specified:   '",STRING_LITERAL, line no: 979, 0.8571428571428571, 0.8571428571428571, 1.0
+"*",STRING_LITERAL, line no: 593,"   Default if unspecified: '",STRING_LITERAL, line no: 980, 0.8571428571428571, 0.8571428571428571, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"More than one availability indicator is defined for '",STRING_LITERAL, line no: 288, 0.8571428571428571, 0.8571428571428571, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"; default: '",STRING_LITERAL, line no: 723, 0.8571428571428571, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"; default if option present: '",STRING_LITERAL, line no: 727, 0.8571428571428571, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"; default if option not present: '",STRING_LITERAL, line no: 730, 0.8571428571428571, 0.7619047619047619, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,otherKey,SIMPLE_NAME, line no: 826, 0.8571428571428571, 0.8571428571428571, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593," Keyword:                  ",STRING_LITERAL, line no: 974, 0.8571428571428571, 0.8571428571428571, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"   Help:                   ",STRING_LITERAL, line no: 977, 0.8571428571428571, 0.8571428571428571, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"   Mandatory:              ",STRING_LITERAL, line no: 978, 0.8571428571428571, 0.8571428571428571, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"   Default if specified:   '",STRING_LITERAL, line no: 979, 0.8571428571428571, 0.8571428571428571, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"   Default if unspecified: '",STRING_LITERAL, line no: 980, 0.8571428571428571, 0.8571428571428571, 1.0
 optionContext,SIMPLE_NAME, line no: 593,getMessage,SIMPLE_NAME, line no: 99, 0.8181818181818182, 0.6363636363636364, 1.0
 optionContext,SIMPLE_NAME, line no: 593,cliOption.key()[0],ARRAY_ACCESS, line no: 135, 0.8181818181818182, 0.8181818181818182, 1.0
 optionContext,SIMPLE_NAME, line no: 593,e.getMessage(),METHOD_INVOCATION, line no: 198, 0.8181818181818182, 0.8181818181818182, 1.0
 optionContext,SIMPLE_NAME, line no: 593,option.optionContext(),METHOD_INVOCATION, line no: 658, 0.8181818181818182, 0.8181818181818182, 1.0
 optionContext,SIMPLE_NAME, line no: 593,sectionName,SIMPLE_NAME, line no: 780, 0.8181818181818182, 0.7727272727272727, 1.0
 "*",STRING_LITERAL, line no: 593,getMessage,SIMPLE_NAME, line no: 99, 0.8095238095238095, 0.5714285714285714, 1.0
+"*",STRING_LITERAL, line no: 593,options.get(possibleKey),METHOD_INVOCATION, line no: 129, 0.8095238095238095, 0.8095238095238095, 1.0
 "*",STRING_LITERAL, line no: 593,get,SIMPLE_NAME, line no: 129, 0.8095238095238095, 0.8095238095238095, 1.0
+"*",STRING_LITERAL, line no: 593,cliOption.key()[0],ARRAY_ACCESS, line no: 135, 0.8095238095238095, 0.8095238095238095, 1.0
+"*",STRING_LITERAL, line no: 593,e.getMessage(),METHOD_INVOCATION, line no: 198, 0.8095238095238095, 0.8095238095238095, 1.0
+"*",STRING_LITERAL, line no: 593,translated + "--" + value+ " ",INFIX_EXPRESSION, line no: 600, 0.8095238095238095, 0.8095238095238095, 1.0
+"*",STRING_LITERAL, line no: 593,translated + " --" + value+ " ",INFIX_EXPRESSION, line no: 602, 0.8095238095238095, 0.8095238095238095, 1.0
+"*",STRING_LITERAL, line no: 593," --",STRING_LITERAL, line no: 602, 0.8095238095238095, 0.8095238095238095, 1.0
 "*",STRING_LITERAL, line no: 593,sectionName,SIMPLE_NAME, line no: 780, 0.8095238095238095, 0.7619047619047619, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,getMessage,SIMPLE_NAME, line no: 99, 0.8095238095238095, 0.6190476190476191, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,sectionName,SIMPLE_NAME, line no: 780, 0.8095238095238095, 0.7619047619047619, 1.0
@@ -274,24 +425,106 @@ optionContext,SIMPLE_NAME, line no: 593,"term",STRING_LITERAL, line no: 878, 0.7
 optionContext,SIMPLE_NAME, line no: 593,"listitem",STRING_LITERAL, line no: 878, 0.7727272727272727, 0.7727272727272727, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"This command does not accept any options.",STRING_LITERAL, line no: 882, 0.7727272727272727, 0.7727272727272727, 1.0
 "*",STRING_LITERAL, line no: 593,command,SIMPLE_NAME, line no: 56, 0.7619047619047619, 0.047619047619047616, 1.0
+"*",STRING_LITERAL, line no: 593,"You cannot specify option '" + possibleKey + "' when you have also specified '"+ sourcedFrom+ "' in the same command",INFIX_EXPRESSION, line no: 125, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"You cannot specify option '",STRING_LITERAL, line no: 125, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"' when you have also specified '",STRING_LITERAL, line no: 125, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"' in the same command",STRING_LITERAL, line no: 125, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,sourcedFrom=possibleKey,ASSIGNMENT, line no: 128, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,value=options.get(possibleKey),ASSIGNMENT, line no: 129, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"You must specify a default option ",STRING_LITERAL, line no: 136, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"(otherwise known as option '",STRING_LITERAL, line no: 138, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,cliOption.key()[1],ARRAY_ACCESS, line no: 138, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"') ",STRING_LITERAL, line no: 138, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"for this command",STRING_LITERAL, line no: 140, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,message.toString(),METHOD_INVOCATION, line no: 141, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"Nulls cannot be presented to primitive type " + requiredType.getSimpleName() + " for option '"+ StringUtils.arrayToCommaDelimitedString(cliOption.key())+ "'",INFIX_EXPRESSION, line no: 161, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"Nulls cannot be presented to primitive type ",STRING_LITERAL, line no: 161, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,requiredType.getSimpleName(),METHOD_INVOCATION, line no: 161, 0.7619047619047619, 0.7619047619047619, 1.0
 "*",STRING_LITERAL, line no: 593,getSimpleName,SIMPLE_NAME, line no: 161, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593," for option '",STRING_LITERAL, line no: 161, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,StringUtils.arrayToCommaDelimitedString(cliOption.key()),METHOD_INVOCATION, line no: 161, 0.7619047619047619, 0.7619047619047619, 1.0
 "*",STRING_LITERAL, line no: 593,arrayToCommaDelimitedString,SIMPLE_NAME, line no: 161, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,e.getClass().getName() + ": Failed to convert '" + value+ "' to type "+ requiredType.getSimpleName()+ " for option '"+ StringUtils.arrayToCommaDelimitedString(cliOption.key())+ "'",INFIX_EXPRESSION, line no: 197, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,e.getClass().getName(),METHOD_INVOCATION, line no: 197, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,": Failed to convert '",STRING_LITERAL, line no: 197, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"' to type ",STRING_LITERAL, line no: 197, 0.7619047619047619, 0.7619047619047619, 1.0
 "*",STRING_LITERAL, line no: 593,trim,SIMPLE_NAME, line no: 234, 0.7619047619047619, 0.42857142857142855, 1.0
+"*",STRING_LITERAL, line no: 593,buffer.trim(),METHOD_INVOCATION, line no: 321, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"Command required",STRING_LITERAL, line no: 326, 0.7619047619047619, 0.7619047619047619, 1.0
 "*",STRING_LITERAL, line no: 593,bufferToReturn,SIMPLE_NAME, line no: 328, 0.7619047619047619, 0.7619047619047619, 1.0
 "*",STRING_LITERAL, line no: 593,lastWord,SIMPLE_NAME, line no: 329, 0.7619047619047619, 0.7619047619047619, 1.0
 "*",STRING_LITERAL, line no: 593,bufferSoFarIncludingThis,SIMPLE_NAME, line no: 332, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,buffer.substring(0 bufferIndex + 1),METHOD_INVOCATION, line no: 332, 0.7619047619047619, 0.7619047619047619, 1.0
 "*",STRING_LITERAL, line no: 593,bufferRemaining,SIMPLE_NAME, line no: 333, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,buffer.substring(bufferIndex + 1),METHOD_INVOCATION, line no: 333, 0.7619047619047619, 0.7619047619047619, 1.0
 "*",STRING_LITERAL, line no: 593,wordSoFarIncludingThis,SIMPLE_NAME, line no: 336, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,wordSoFarIncludingThis.trim(),METHOD_INVOCATION, line no: 342, 0.7619047619047619, 0.7142857142857143, 1.0
+"*",STRING_LITERAL, line no: 593,lastWord=wordSoFarIncludingThis.trim(),ASSIGNMENT, line no: 343, 0.7619047619047619, 0.38095238095238093, 1.0
+"*",STRING_LITERAL, line no: 593,option.optionContext(),METHOD_INVOCATION, line no: 658, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"true",STRING_LITERAL, line no: 673, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"false",STRING_LITERAL, line no: 674, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"0",STRING_LITERAL, line no: 678, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"1",STRING_LITERAL, line no: 679, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"2",STRING_LITERAL, line no: 680, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"3",STRING_LITERAL, line no: 681, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"4",STRING_LITERAL, line no: 682, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"5",STRING_LITERAL, line no: 683, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"6",STRING_LITERAL, line no: 684, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"7",STRING_LITERAL, line no: 685, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"8",STRING_LITERAL, line no: 686, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"9",STRING_LITERAL, line no: 687, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,": ",STRING_LITERAL, line no: 715, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"No help available",STRING_LITERAL, line no: 715, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,target.getClass().getSimpleName(),METHOD_INVOCATION, line no: 780, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"[A-Z][^A-Z]*",STRING_LITERAL, line no: 781, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,sectionName=string.toString().trim(),ASSIGNMENT, line no: 787, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,string.toString().trim(),METHOD_INVOCATION, line no: 787, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,string.toString(),METHOD_INVOCATION, line no: 787, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,optionDetails.get(optionKey),METHOD_INVOCATION, line no: 877, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"varlistentry",STRING_LITERAL, line no: 878, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"term",STRING_LITERAL, line no: 878, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"listitem",STRING_LITERAL, line no: 878, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"This command does not accept any options.",STRING_LITERAL, line no: 882, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593,"* ",STRING_LITERAL, line no: 997, 0.7619047619047619, 0.6666666666666666, 1.0
+"*",STRING_LITERAL, line no: 593,"* " + value + " - "+ cmd.help(),INFIX_EXPRESSION, line no: 999, 0.7619047619047619, 0.7619047619047619, 1.0
+"*",STRING_LITERAL, line no: 593," - ",STRING_LITERAL, line no: 999, 0.7619047619047619, 0.7619047619047619, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,command,SIMPLE_NAME, line no: 56, 0.7619047619047619, 0.047619047619047616, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,get,SIMPLE_NAME, line no: 129, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"You must specify a default option ",STRING_LITERAL, line no: 136, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"(otherwise known as option '",STRING_LITERAL, line no: 138, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"') ",STRING_LITERAL, line no: 138, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"for this command",STRING_LITERAL, line no: 140, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"Nulls cannot be presented to primitive type ",STRING_LITERAL, line no: 161, 0.7619047619047619, 0.7619047619047619, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,getSimpleName,SIMPLE_NAME, line no: 161, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593," for option '",STRING_LITERAL, line no: 161, 0.7619047619047619, 0.7619047619047619, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,arrayToCommaDelimitedString,SIMPLE_NAME, line no: 161, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,": Failed to convert '",STRING_LITERAL, line no: 197, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"' to type ",STRING_LITERAL, line no: 197, 0.7619047619047619, 0.7619047619047619, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,trim,SIMPLE_NAME, line no: 234, 0.7619047619047619, 0.38095238095238093, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"Command required",STRING_LITERAL, line no: 326, 0.7619047619047619, 0.7619047619047619, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,bufferToReturn,SIMPLE_NAME, line no: 328, 0.7619047619047619, 0.7619047619047619, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,lastWord,SIMPLE_NAME, line no: 329, 0.7619047619047619, 0.7619047619047619, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,bufferSoFarIncludingThis,SIMPLE_NAME, line no: 332, 0.7619047619047619, 0.7619047619047619, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,bufferRemaining,SIMPLE_NAME, line no: 333, 0.7619047619047619, 0.7619047619047619, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,wordSoFarIncludingThis,SIMPLE_NAME, line no: 336, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593," --",STRING_LITERAL, line no: 602, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"0",STRING_LITERAL, line no: 678, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"1",STRING_LITERAL, line no: 679, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"2",STRING_LITERAL, line no: 680, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"3",STRING_LITERAL, line no: 681, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"4",STRING_LITERAL, line no: 682, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"5",STRING_LITERAL, line no: 683, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"6",STRING_LITERAL, line no: 684, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"7",STRING_LITERAL, line no: 685, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"8",STRING_LITERAL, line no: 686, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"9",STRING_LITERAL, line no: 687, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,": ",STRING_LITERAL, line no: 715, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"No help available",STRING_LITERAL, line no: 715, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"[A-Z][^A-Z]*",STRING_LITERAL, line no: 781, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"varlistentry",STRING_LITERAL, line no: 878, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"term",STRING_LITERAL, line no: 878, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"listitem",STRING_LITERAL, line no: 878, 0.7619047619047619, 0.7619047619047619, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"This command does not accept any options.",STRING_LITERAL, line no: 882, 0.7619047619047619, 0.7619047619047619, 1.0
 optionContext,SIMPLE_NAME, line no: 593,sourcedFrom=possibleKey,ASSIGNMENT, line no: 128, 0.7272727272727273, 0.7272727272727273, 1.0
 optionContext,SIMPLE_NAME, line no: 593,value=options.get(possibleKey),ASSIGNMENT, line no: 129, 0.7272727272727273, 0.7272727272727273, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"Use tab assist or the \"help\" command to see the legal options",STRING_LITERAL, line no: 217, 0.7272727272727273, 0.7272727272727273, 1.0
@@ -320,9 +553,45 @@ optionContext,SIMPLE_NAME, line no: 593,"CliAvailabilityIndicator is only legal 
 optionContext,SIMPLE_NAME, line no: 593,"Cannot specify an availability indicator for '" + cmd + "' more than once",INFIX_EXPRESSION, line no: 1039, 0.7272727272727273, 0.7272727272727273, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"Cannot specify an availability indicator for '",STRING_LITERAL, line no: 1039, 0.7272727272727273, 0.7272727272727273, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"' more than once",STRING_LITERAL, line no: 1039, 0.7272727272727273, 0.7272727272727273, 1.0
+"*",STRING_LITERAL, line no: 593,"You must specify option '" + cliOption.key()[0] + "' for this command",INFIX_EXPRESSION, line no: 143, 0.7142857142857143, 0.7142857142857143, 1.0
+"*",STRING_LITERAL, line no: 593,"You must specify option '",STRING_LITERAL, line no: 143, 0.7142857142857143, 0.7142857142857143, 1.0
+"*",STRING_LITERAL, line no: 593,"' for this command",STRING_LITERAL, line no: 143, 0.7142857142857143, 0.7142857142857143, 1.0
+"*",STRING_LITERAL, line no: 593,"Use tab assist or the \"help\" command to see the legal options",STRING_LITERAL, line no: 217, 0.7142857142857143, 0.7142857142857143, 1.0
+"*",STRING_LITERAL, line no: 593,isMatch(buffer value strictMatching),METHOD_INVOCATION, line no: 304, 0.7142857142857143, 0.7142857142857143, 1.0
 "*",STRING_LITERAL, line no: 593,isMatch,SIMPLE_NAME, line no: 304, 0.7142857142857143, 0.7142857142857143, 1.0
+"*",STRING_LITERAL, line no: 593,bufferToReturn=null,ASSIGNMENT, line no: 361, 0.7142857142857143, 0.42857142857142855, 1.0
+"*",STRING_LITERAL, line no: 593,target.key,QUALIFIED_NAME, line no: 432, 0.7142857142857143, 0.7142857142857143, 1.0
+"*",STRING_LITERAL, line no: 593,target.key.substring(0 stopAt) + " ",INFIX_EXPRESSION, line no: 437, 0.7142857142857143, 0.7142857142857143, 1.0
+"*",STRING_LITERAL, line no: 593,target.key.substring(0 stopAt),METHOD_INVOCATION, line no: 437, 0.7142857142857143, 0.7142857142857143, 1.0
+"*",STRING_LITERAL, line no: 593,translated.substring(0 (translated.length() - lastOptionKey.length())) + value + " ",INFIX_EXPRESSION, line no: 633, 0.7142857142857143, 0.7142857142857143, 1.0
+"*",STRING_LITERAL, line no: 593,translated.substring(0 (translated.length() - lastOptionKey.length())),METHOD_INVOCATION, line no: 633, 0.7142857142857143, 0.7142857142857143, 1.0
+"*",STRING_LITERAL, line no: 593,"; no default value",STRING_LITERAL, line no: 721, 0.7142857142857143, 0.6190476190476191, 1.0
+"*",STRING_LITERAL, line no: 593,translated.trim(),METHOD_INVOCATION, line no: 749, 0.7142857142857143, 0.7142857142857143, 1.0
+"*",STRING_LITERAL, line no: 593,"Keyword:                   ",STRING_LITERAL, line no: 959, 0.7142857142857143, 0.7142857142857143, 1.0
+"*",STRING_LITERAL, line no: 593,"CliAvailabilityIndicator is only legal for 0 parameter methods (" + m.toGenericString() + ")",INFIX_EXPRESSION, line no: 1036, 0.7142857142857143, 0.7142857142857143, 1.0
+"*",STRING_LITERAL, line no: 593,"CliAvailabilityIndicator is only legal for 0 parameter methods (",STRING_LITERAL, line no: 1036, 0.7142857142857143, 0.7142857142857143, 1.0
+"*",STRING_LITERAL, line no: 593,")",STRING_LITERAL, line no: 1036, 0.7142857142857143, 0.7142857142857143, 1.0
+"*",STRING_LITERAL, line no: 593,"CliAvailabilityIndicator is only legal for primitive boolean return types (" + m.toGenericString() + ")",INFIX_EXPRESSION, line no: 1037, 0.7142857142857143, 0.7142857142857143, 1.0
+"*",STRING_LITERAL, line no: 593,"CliAvailabilityIndicator is only legal for primitive boolean return types (",STRING_LITERAL, line no: 1037, 0.7142857142857143, 0.7142857142857143, 1.0
+"*",STRING_LITERAL, line no: 593,"Cannot specify an availability indicator for '" + cmd + "' more than once",INFIX_EXPRESSION, line no: 1039, 0.7142857142857143, 0.7142857142857143, 1.0
+"*",STRING_LITERAL, line no: 593,"Cannot specify an availability indicator for '",STRING_LITERAL, line no: 1039, 0.7142857142857143, 0.7142857142857143, 1.0
+"*",STRING_LITERAL, line no: 593,"' more than once",STRING_LITERAL, line no: 1039, 0.7142857142857143, 0.7142857142857143, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"You cannot specify option '",STRING_LITERAL, line no: 125, 0.7142857142857143, 0.7142857142857143, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"' when you have also specified '",STRING_LITERAL, line no: 125, 0.7142857142857143, 0.7142857142857143, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"' in the same command",STRING_LITERAL, line no: 125, 0.7142857142857143, 0.7142857142857143, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"Use tab assist or the \"help\" command to see the legal options",STRING_LITERAL, line no: 217, 0.7142857142857143, 0.7142857142857143, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,isMatch,SIMPLE_NAME, line no: 304, 0.7142857142857143, 0.7142857142857143, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"true",STRING_LITERAL, line no: 673, 0.7142857142857143, 0.7142857142857143, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"false",STRING_LITERAL, line no: 674, 0.7142857142857143, 0.7142857142857143, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,group,SIMPLE_NAME, line no: 785, 0.7142857142857143, 0.7142857142857143, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"Keyword:                   ",STRING_LITERAL, line no: 959, 0.7142857142857143, 0.7142857142857143, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"* ",STRING_LITERAL, line no: 997, 0.7142857142857143, 0.6190476190476191, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593," - ",STRING_LITERAL, line no: 999, 0.7142857142857143, 0.7142857142857143, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"CliAvailabilityIndicator is only legal for 0 parameter methods (",STRING_LITERAL, line no: 1036, 0.7142857142857143, 0.7142857142857143, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,")",STRING_LITERAL, line no: 1036, 0.7142857142857143, 0.7142857142857143, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"CliAvailabilityIndicator is only legal for primitive boolean return types (",STRING_LITERAL, line no: 1037, 0.7142857142857143, 0.7142857142857143, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"Cannot specify an availability indicator for '",STRING_LITERAL, line no: 1039, 0.7142857142857143, 0.7142857142857143, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"' more than once",STRING_LITERAL, line no: 1039, 0.7142857142857143, 0.7142857142857143, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"You cannot specify option '" + possibleKey + "' when you have also specified '"+ sourcedFrom+ "' in the same command",INFIX_EXPRESSION, line no: 125, 0.6818181818181818, 0.6818181818181818, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"You cannot specify option '",STRING_LITERAL, line no: 125, 0.6818181818181818, 0.6818181818181818, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"' when you have also specified '",STRING_LITERAL, line no: 125, 0.6818181818181818, 0.6818181818181818, 1.0
@@ -341,12 +610,36 @@ optionContext,SIMPLE_NAME, line no: 593,commandWords[candidate],ARRAY_ACCESS, li
 optionContext,SIMPLE_NAME, line no: 593,"true",STRING_LITERAL, line no: 673, 0.6818181818181818, 0.6818181818181818, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"false",STRING_LITERAL, line no: 674, 0.6818181818181818, 0.6818181818181818, 1.0
 optionContext,SIMPLE_NAME, line no: 593,prefix + currentValue + suffix,INFIX_EXPRESSION, line no: 701, 0.6818181818181818, 0.6818181818181818, 1.0
+"*",STRING_LITERAL, line no: 593,"Parameter type '" + requiredType + "' is not system provided",INFIX_EXPRESSION, line no: 112, 0.6666666666666666, 0.6666666666666666, 1.0
+"*",STRING_LITERAL, line no: 593,"Parameter type '",STRING_LITERAL, line no: 112, 0.6666666666666666, 0.6666666666666666, 1.0
+"*",STRING_LITERAL, line no: 593,"' is not system provided",STRING_LITERAL, line no: 112, 0.6666666666666666, 0.6666666666666666, 1.0
+"*",STRING_LITERAL, line no: 593,"Option '",STRING_LITERAL, line no: 213, 0.6666666666666666, 0.6666666666666666, 1.0
+"*",STRING_LITERAL, line no: 593,unavailableOptions.iterator().next(),METHOD_INVOCATION, line no: 213, 0.6666666666666666, 0.6666666666666666, 1.0
 "*",STRING_LITERAL, line no: 593,next,SIMPLE_NAME, line no: 213, 0.6666666666666666, 0.6666666666666666, 1.0
+"*",STRING_LITERAL, line no: 593,"' is not available for this command. ",STRING_LITERAL, line no: 213, 0.6666666666666666, 0.6666666666666666, 1.0
+"*",STRING_LITERAL, line no: 593,"Options ",STRING_LITERAL, line no: 215, 0.6666666666666666, 0.6666666666666666, 1.0
+"*",STRING_LITERAL, line no: 593,StringUtils.collectionToDelimitedString(unavailableOptions "  " "'" "'"),METHOD_INVOCATION, line no: 215, 0.6666666666666666, 0.6666666666666666, 1.0
 "*",STRING_LITERAL, line no: 593,collectionToDelimitedString,SIMPLE_NAME, line no: 215, 0.6666666666666666, 0.6666666666666666, 1.0
+"*",STRING_LITERAL, line no: 593,"  ",STRING_LITERAL, line no: 215, 0.6666666666666666, 0.6666666666666666, 1.0
+"*",STRING_LITERAL, line no: 593," are not available for this command. ",STRING_LITERAL, line no: 215, 0.6666666666666666, 0.6666666666666666, 1.0
+"*",STRING_LITERAL, line no: 593,commandWords[candidate],ARRAY_ACCESS, line no: 348, 0.6666666666666666, 0.6666666666666666, 1.0
+"*",STRING_LITERAL, line no: 593,translated + value + " ",INFIX_EXPRESSION, line no: 552, 0.6666666666666666, 0.6666666666666666, 1.0
+"*",STRING_LITERAL, line no: 593,prefix + currentValue + suffix,INFIX_EXPRESSION, line no: 701, 0.6666666666666666, 0.6666666666666666, 1.0
+"*",STRING_LITERAL, line no: 593,currentValue.toLowerCase(),METHOD_INVOCATION, line no: 704, 0.6666666666666666, 0.6666666666666666, 1.0
+"*",STRING_LITERAL, line no: 593,lastOptionValue.toLowerCase(),METHOD_INVOCATION, line no: 704, 0.6666666666666666, 0.6666666666666666, 1.0
+"*",STRING_LITERAL, line no: 593,matcher.group(),METHOD_INVOCATION, line no: 785, 0.6666666666666666, 0.6666666666666666, 1.0
 "*",STRING_LITERAL, line no: 593,group,SIMPLE_NAME, line no: 785, 0.6666666666666666, 0.6666666666666666, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"You must specify option '",STRING_LITERAL, line no: 143, 0.6666666666666666, 0.6666666666666666, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"' for this command",STRING_LITERAL, line no: 143, 0.6666666666666666, 0.6666666666666666, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"Option '",STRING_LITERAL, line no: 213, 0.6666666666666666, 0.6666666666666666, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,next,SIMPLE_NAME, line no: 213, 0.6666666666666666, 0.6666666666666666, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"' is not available for this command. ",STRING_LITERAL, line no: 213, 0.6666666666666666, 0.6666666666666666, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"Options ",STRING_LITERAL, line no: 215, 0.6666666666666666, 0.6666666666666666, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,collectionToDelimitedString,SIMPLE_NAME, line no: 215, 0.6666666666666666, 0.6666666666666666, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"  ",STRING_LITERAL, line no: 215, 0.6666666666666666, 0.6666666666666666, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593," are not available for this command. ",STRING_LITERAL, line no: 215, 0.6666666666666666, 0.6666666666666666, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,suppliedOption,SIMPLE_NAME, line no: 245, 0.6666666666666666, 0.6666666666666666, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"; no default value",STRING_LITERAL, line no: 721, 0.6666666666666666, 0.5714285714285714, 1.0
 optionContext,SIMPLE_NAME, line no: 593,ExceptionUtils.extractRootCause(e).getMessage(),METHOD_INVOCATION, line no: 99, 0.6363636363636364, 0.6363636363636364, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"You must specify option '" + cliOption.key()[0] + "' for this command",INFIX_EXPRESSION, line no: 143, 0.6363636363636364, 0.6363636363636364, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"You must specify option '",STRING_LITERAL, line no: 143, 0.6363636363636364, 0.6363636363636364, 1.0
@@ -356,8 +649,17 @@ optionContext,SIMPLE_NAME, line no: 593,"; no default value",STRING_LITERAL, lin
 optionContext,SIMPLE_NAME, line no: 593,suggestion,SIMPLE_NAME, line no: 736, 0.6363636363636364, 0.6363636363636364, 1.0
 optionContext,SIMPLE_NAME, line no: 593,results.iterator().next().trim(),METHOD_INVOCATION, line no: 736, 0.6363636363636364, 0.6363636363636364, 1.0
 optionContext,SIMPLE_NAME, line no: 593,results.iterator().next(),METHOD_INVOCATION, line no: 736, 0.6363636363636364, 0.6363636363636364, 1.0
+"*",STRING_LITERAL, line no: 593,"Ambigious command '" + input + "' (for assistance press "+ AbstractShell.completionKeys+ " or type \"hint\" then hit ENTER)",INFIX_EXPRESSION, line no: 79, 0.6190476190476191, 0.6190476190476191, 1.0
+"*",STRING_LITERAL, line no: 593,"Ambigious command '",STRING_LITERAL, line no: 79, 0.6190476190476191, 0.6190476190476191, 1.0
+"*",STRING_LITERAL, line no: 593,"' (for assistance press ",STRING_LITERAL, line no: 79, 0.6190476190476191, 0.6190476190476191, 1.0
+"*",STRING_LITERAL, line no: 593,AbstractShell.completionKeys,QUALIFIED_NAME, line no: 79, 0.6190476190476191, 0.6190476190476191, 1.0
 "*",STRING_LITERAL, line no: 593,completionKeys,SIMPLE_NAME, line no: 79, 0.6190476190476191, 0.6190476190476191, 1.0
+"*",STRING_LITERAL, line no: 593," or type \"hint\" then hit ENTER)",STRING_LITERAL, line no: 79, 0.6190476190476191, 0.6190476190476191, 1.0
 "*",STRING_LITERAL, line no: 593,suppliedOption,SIMPLE_NAME, line no: 245, 0.6190476190476191, 0.6190476190476191, 1.0
+"*",STRING_LITERAL, line no: 593,value + " ",INFIX_EXPRESSION, line no: 482, 0.6190476190476191, 0.6190476190476191, 1.0
+"*",STRING_LITERAL, line no: 593,"* " + value,INFIX_EXPRESSION, line no: 997, 0.6190476190476191, 0.6190476190476191, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"Parameter type '",STRING_LITERAL, line no: 112, 0.6190476190476191, 0.6190476190476191, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"' is not system provided",STRING_LITERAL, line no: 112, 0.6190476190476191, 0.6190476190476191, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,suggestion,SIMPLE_NAME, line no: 736, 0.6190476190476191, 0.6190476190476191, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"Ambigious command '" + input + "' (for assistance press "+ AbstractShell.completionKeys+ " or type \"hint\" then hit ENTER)",INFIX_EXPRESSION, line no: 79, 0.5909090909090909, 0.5909090909090909, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"Ambigious command '",STRING_LITERAL, line no: 79, 0.5909090909090909, 0.5909090909090909, 1.0
@@ -379,12 +681,46 @@ optionContext,SIMPLE_NAME, line no: 593,new ArrayList<String>(options.keySet()).
 optionContext,SIMPLE_NAME, line no: 593,lastOptionValue=options.get(lastOptionKey),ASSIGNMENT, line no: 535, 0.5909090909090909, 0.5909090909090909, 1.0
 optionContext,SIMPLE_NAME, line no: 593,options.get(lastOptionKey),METHOD_INVOCATION, line no: 535, 0.5909090909090909, 0.5909090909090909, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"* " + value,INFIX_EXPRESSION, line no: 997, 0.5909090909090909, 0.5909090909090909, 1.0
+"*",STRING_LITERAL, line no: 593,"Command '" + input + "' was found but is not currently available (type 'help' then ENTER to learn about this command)",INFIX_EXPRESSION, line no: 74, 0.5714285714285714, 0.5714285714285714, 1.0
+"*",STRING_LITERAL, line no: 593,"Command '",STRING_LITERAL, line no: 74, 0.5714285714285714, 0.5714285714285714, 1.0
+"*",STRING_LITERAL, line no: 593,"' was found but is not currently available (type 'help' then ENTER to learn about this command)",STRING_LITERAL, line no: 74, 0.5714285714285714, 0.5714285714285714, 1.0
+"*",STRING_LITERAL, line no: 593,ExceptionUtils.extractRootCause(e).getMessage(),METHOD_INVOCATION, line no: 99, 0.5714285714285714, 0.5714285714285714, 1.0
+"*",STRING_LITERAL, line no: 593,mt.remainingBuffer=remainingBuffer,ASSIGNMENT, line no: 309, 0.5714285714285714, 0.5714285714285714, 1.0
+"*",STRING_LITERAL, line no: 593,mt.remainingBuffer,QUALIFIED_NAME, line no: 309, 0.5714285714285714, 0.5714285714285714, 1.0
+"*",STRING_LITERAL, line no: 593,mt.key=value,ASSIGNMENT, line no: 310, 0.5714285714285714, 0.5714285714285714, 1.0
+"*",STRING_LITERAL, line no: 593,mt.key,QUALIFIED_NAME, line no: 310, 0.5714285714285714, 0.5714285714285714, 1.0
 "*",STRING_LITERAL, line no: 593,suggestion,SIMPLE_NAME, line no: 736, 0.5714285714285714, 0.5714285714285714, 1.0
+"*",STRING_LITERAL, line no: 593,results.iterator().next().trim(),METHOD_INVOCATION, line no: 736, 0.5714285714285714, 0.5714285714285714, 1.0
+"*",STRING_LITERAL, line no: 593,results.iterator().next(),METHOD_INVOCATION, line no: 736, 0.5714285714285714, 0.5714285714285714, 1.0
+"*",STRING_LITERAL, line no: 593,key=otherKey,ASSIGNMENT, line no: 828, 0.5714285714285714, 0.5714285714285714, 1.0
+"*",STRING_LITERAL, line no: 593,"[default]",STRING_LITERAL, line no: 833, 0.5714285714285714, 0.5714285714285714, 1.0
+"*",STRING_LITERAL, line no: 593,"** default **",STRING_LITERAL, line no: 972, 0.5714285714285714, 0.5714285714285714, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"Ambigious command '",STRING_LITERAL, line no: 79, 0.5714285714285714, 0.5714285714285714, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"' (for assistance press ",STRING_LITERAL, line no: 79, 0.5714285714285714, 0.5714285714285714, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,completionKeys,SIMPLE_NAME, line no: 79, 0.5714285714285714, 0.5714285714285714, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593," or type \"hint\" then hit ENTER)",STRING_LITERAL, line no: 79, 0.5714285714285714, 0.5714285714285714, 1.0
 optionContext,SIMPLE_NAME, line no: 593,key.toLowerCase(),METHOD_INVOCATION, line no: 241, 0.5454545454545454, 0.5454545454545454, 1.0
 optionContext,SIMPLE_NAME, line no: 593,bufferToReturn=bufferRemaining,ASSIGNMENT, line no: 366, 0.5454545454545454, 0.5454545454545454, 1.0
 optionContext,SIMPLE_NAME, line no: 593,key=otherKey,ASSIGNMENT, line no: 828, 0.5454545454545454, 0.5454545454545454, 1.0
+"*",STRING_LITERAL, line no: 593,key.toLowerCase(),METHOD_INVOCATION, line no: 241, 0.5238095238095238, 0.5238095238095238, 1.0
+"*",STRING_LITERAL, line no: 593,suppliedOption.toLowerCase(),METHOD_INVOCATION, line no: 246, 0.5238095238095238, 0.5238095238095238, 1.0
+"*",STRING_LITERAL, line no: 593,bufferToReturn=bufferRemaining,ASSIGNMENT, line no: 366, 0.5238095238095238, 0.5238095238095238, 1.0
+"*",STRING_LITERAL, line no: 593,buffer.replaceFirst("^ " ""),METHOD_INVOCATION, line no: 402, 0.5238095238095238, 0.5238095238095238, 1.0
 "*",STRING_LITERAL, line no: 593,replaceFirst,SIMPLE_NAME, line no: 402, 0.5238095238095238, 0.5238095238095238, 1.0
+"*",STRING_LITERAL, line no: 593,"^ ",STRING_LITERAL, line no: 402, 0.5238095238095238, 0.5238095238095238, 1.0
+"*",STRING_LITERAL, line no: 593,buffer.replaceFirst("  " " "),METHOD_INVOCATION, line no: 408, 0.5238095238095238, 0.5238095238095238, 1.0
+"*",STRING_LITERAL, line no: 593,"\"",STRING_LITERAL, line no: 456, 0.5238095238095238, 0.5238095238095238, 1.0
+"*",STRING_LITERAL, line no: 593,lastOptionKey=new ArrayList<String>(options.keySet()).get(options.keySet().size() - 1),ASSIGNMENT, line no: 534, 0.5238095238095238, 0.5238095238095238, 1.0
+"*",STRING_LITERAL, line no: 593,new ArrayList<String>(options.keySet()).get(options.keySet().size() - 1),METHOD_INVOCATION, line no: 534, 0.5238095238095238, 0.5238095238095238, 1.0
+"*",STRING_LITERAL, line no: 593,lastOptionValue=options.get(lastOptionKey),ASSIGNMENT, line no: 535, 0.5238095238095238, 0.5238095238095238, 1.0
+"*",STRING_LITERAL, line no: 593,options.get(lastOptionKey),METHOD_INVOCATION, line no: 535, 0.5238095238095238, 0.5238095238095238, 1.0
+"*",STRING_LITERAL, line no: 593,key="[default]",ASSIGNMENT, line no: 833, 0.5238095238095238, 0.5238095238095238, 1.0
+"*",STRING_LITERAL, line no: 593,"appendix-command-index.xml",STRING_LITERAL, line no: 929, 0.5238095238095238, 0.5238095238095238, 1.0
+"*",STRING_LITERAL, line no: 593,key="** default **",ASSIGNMENT, line no: 972, 0.5238095238095238, 0.5238095238095238, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"Command '",STRING_LITERAL, line no: 74, 0.5238095238095238, 0.5238095238095238, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"' was found but is not currently available (type 'help' then ENTER to learn about this command)",STRING_LITERAL, line no: 74, 0.5238095238095238, 0.5238095238095238, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"[default]",STRING_LITERAL, line no: 833, 0.5238095238095238, 0.5238095238095238, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"** default **",STRING_LITERAL, line no: 972, 0.5238095238095238, 0.5238095238095238, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"Command '" + input + "' was found but is not currently available (type 'help' then ENTER to learn about this command)",INFIX_EXPRESSION, line no: 74, 0.5, 0.5, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"Command '",STRING_LITERAL, line no: 74, 0.5, 0.5, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"' was found but is not currently available (type 'help' then ENTER to learn about this command)",STRING_LITERAL, line no: 74, 0.5, 0.5, 1.0
@@ -394,7 +730,16 @@ optionContext,SIMPLE_NAME, line no: 593,"[default]",STRING_LITERAL, line no: 833
 optionContext,SIMPLE_NAME, line no: 593,"appendix-command-index.xml",STRING_LITERAL, line no: 929, 0.5, 0.5, 1.0
 optionContext,SIMPLE_NAME, line no: 593,key="** default **",ASSIGNMENT, line no: 972, 0.5, 0.5, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"** default **",STRING_LITERAL, line no: 972, 0.5, 0.5, 1.0
+"*",STRING_LITERAL, line no: 593,"Command '" + buffer + "' not found (for assistance press "+ AbstractShell.completionKeys+ " or type \"hint\" then hit ENTER)",INFIX_EXPRESSION, line no: 267, 0.47619047619047616, 0.47619047619047616, 1.0
+"*",STRING_LITERAL, line no: 593,"' not found (for assistance press ",STRING_LITERAL, line no: 267, 0.47619047619047616, 0.47619047619047616, 1.0
+"*",STRING_LITERAL, line no: 593,buffer=buffer.replaceFirst("^ " ""),ASSIGNMENT, line no: 402, 0.47619047619047616, 0.47619047619047616, 1.0
+"*",STRING_LITERAL, line no: 593,buffer=buffer.replaceFirst("  " " "),ASSIGNMENT, line no: 408, 0.47619047619047616, 0.47619047619047616, 1.0
+"*",STRING_LITERAL, line no: 593,translated + "\"",INFIX_EXPRESSION, line no: 456, 0.47619047619047616, 0.47619047619047616, 1.0
+"*",STRING_LITERAL, line no: 593,suffix="",ASSIGNMENT, line no: 662, 0.47619047619047616, 0.47619047619047616, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,replaceFirst,SIMPLE_NAME, line no: 402, 0.47619047619047616, 0.47619047619047616, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"^ ",STRING_LITERAL, line no: 402, 0.47619047619047616, 0.47619047619047616, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"\"",STRING_LITERAL, line no: 456, 0.47619047619047616, 0.47619047619047616, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"appendix-command-index.xml",STRING_LITERAL, line no: 929, 0.47619047619047616, 0.47619047619047616, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"Command '" + buffer + "' not found (for assistance press "+ AbstractShell.completionKeys+ " or type \"hint\" then hit ENTER)",INFIX_EXPRESSION, line no: 267, 0.45454545454545453, 0.45454545454545453, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"' not found (for assistance press ",STRING_LITERAL, line no: 267, 0.45454545454545453, 0.45454545454545453, 1.0
 optionContext,SIMPLE_NAME, line no: 593,buffer.replaceFirst("^ " ""),METHOD_INVOCATION, line no: 402, 0.45454545454545453, 0.45454545454545453, 1.0
@@ -403,8 +748,16 @@ optionContext,SIMPLE_NAME, line no: 593,buffer.replaceFirst("  " " "),METHOD_INV
 optionContext,SIMPLE_NAME, line no: 593,translated + "\"",INFIX_EXPRESSION, line no: 456, 0.45454545454545453, 0.45454545454545453, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"\"",STRING_LITERAL, line no: 456, 0.45454545454545453, 0.45454545454545453, 1.0
 optionContext,SIMPLE_NAME, line no: 593,suffix="",ASSIGNMENT, line no: 662, 0.45454545454545453, 0.45454545454545453, 1.0
+"*",STRING_LITERAL, line no: 593,value=cliOption.specifiedDefaultValue(),ASSIGNMENT, line no: 150, 0.42857142857142855, 0.42857142857142855, 1.0
+"*",STRING_LITERAL, line no: 593,value=cliOption.unspecifiedDefaultValue(),ASSIGNMENT, line no: 155, 0.42857142857142855, 0.42857142857142855, 1.0
 "*",STRING_LITERAL, line no: 593,replaceAll,SIMPLE_NAME, line no: 234, 0.42857142857142855, 0.42857142857142855, 1.0
+"*",STRING_LITERAL, line no: 593,bufferSoFarIncludingThis.substring(bufferLastIndexOfWord),METHOD_INVOCATION, line no: 338, 0.42857142857142855, 0.42857142857142855, 1.0
+"*",STRING_LITERAL, line no: 593,prefix=" ",ASSIGNMENT, line no: 693, 0.42857142857142855, 0.42857142857142855, 1.0
+"*",STRING_LITERAL, line no: 593,"Section name '" + sectionName + "' not unique",INFIX_EXPRESSION, line no: 789, 0.42857142857142855, 0.42857142857142855, 1.0
+"*",STRING_LITERAL, line no: 593,"Section name '",STRING_LITERAL, line no: 789, 0.42857142857142855, 0.42857142857142855, 1.0
+"*",STRING_LITERAL, line no: 593,"' not unique",STRING_LITERAL, line no: 789, 0.42857142857142855, 0.42857142857142855, 1.0
 include.optionContext(),METHOD_INVOCATION, line no: 593,replaceAll,SIMPLE_NAME, line no: 234, 0.42857142857142855, 0.42857142857142855, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"' not found (for assistance press ",STRING_LITERAL, line no: 267, 0.42857142857142855, 0.42857142857142855, 1.0
 optionContext,SIMPLE_NAME, line no: 593,value=cliOption.specifiedDefaultValue(),ASSIGNMENT, line no: 150, 0.4090909090909091, 0.4090909090909091, 1.0
 optionContext,SIMPLE_NAME, line no: 593,value=cliOption.unspecifiedDefaultValue(),ASSIGNMENT, line no: 155, 0.4090909090909091, 0.4090909090909091, 1.0
 optionContext,SIMPLE_NAME, line no: 593,replaceAll,SIMPLE_NAME, line no: 234, 0.4090909090909091, 0.4090909090909091, 1.0
@@ -412,6 +765,14 @@ optionContext,SIMPLE_NAME, line no: 593,bufferSoFarIncludingThis.substring(buffe
 optionContext,SIMPLE_NAME, line no: 593,buffer=buffer.replaceFirst("^ " ""),ASSIGNMENT, line no: 402, 0.4090909090909091, 0.4090909090909091, 1.0
 optionContext,SIMPLE_NAME, line no: 593,buffer=buffer.replaceFirst("  " " "),ASSIGNMENT, line no: 408, 0.4090909090909091, 0.4090909090909091, 1.0
 optionContext,SIMPLE_NAME, line no: 593,prefix=" ",ASSIGNMENT, line no: 693, 0.4090909090909091, 0.4090909090909091, 1.0
+"*",STRING_LITERAL, line no: 593,rawInput.replaceAll(" +" " ").trim(),METHOD_INVOCATION, line no: 234, 0.38095238095238093, 0.38095238095238093, 1.0
+"*",STRING_LITERAL, line no: 593,rawInput.replaceAll(" +" " "),METHOD_INVOCATION, line no: 234, 0.38095238095238093, 0.38095238095238093, 1.0
+"*",STRING_LITERAL, line no: 593," +",STRING_LITERAL, line no: 234, 0.38095238095238093, 0.38095238095238093, 1.0
+"*",STRING_LITERAL, line no: 593,wordSoFarIncludingThis=bufferSoFarIncludingThis.substring(bufferLastIndexOfWord),ASSIGNMENT, line no: 338, 0.38095238095238093, 0.38095238095238093, 1.0
+"*",STRING_LITERAL, line no: 593,"appendix_",STRING_LITERAL, line no: 766, 0.38095238095238093, 0.38095238095238093, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593," +",STRING_LITERAL, line no: 234, 0.38095238095238093, 0.38095238095238093, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"Section name '",STRING_LITERAL, line no: 789, 0.38095238095238093, 0.38095238095238093, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"' not unique",STRING_LITERAL, line no: 789, 0.38095238095238093, 0.38095238095238093, 1.0
 optionContext,SIMPLE_NAME, line no: 593,rawInput.replaceAll(" +" " "),METHOD_INVOCATION, line no: 234, 0.36363636363636365, 0.36363636363636365, 1.0
 optionContext,SIMPLE_NAME, line no: 593," +",STRING_LITERAL, line no: 234, 0.36363636363636365, 0.36363636363636365, 1.0
 optionContext,SIMPLE_NAME, line no: 593,wordSoFarIncludingThis=bufferSoFarIncludingThis.substring(bufferLastIndexOfWord),ASSIGNMENT, line no: 338, 0.36363636363636365, 0.36363636363636365, 1.0
@@ -419,10 +780,21 @@ optionContext,SIMPLE_NAME, line no: 593,pathname.getName(),METHOD_INVOCATION, li
 optionContext,SIMPLE_NAME, line no: 593,"Section name '" + sectionName + "' not unique",INFIX_EXPRESSION, line no: 789, 0.36363636363636365, 0.36363636363636365, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"Section name '",STRING_LITERAL, line no: 789, 0.36363636363636365, 0.36363636363636365, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"' not unique",STRING_LITERAL, line no: 789, 0.36363636363636365, 0.36363636363636365, 1.0
+"*",STRING_LITERAL, line no: 593,"TODO: Add basic type conversion",STRING_LITERAL, line no: 182, 0.3333333333333333, 0.3333333333333333, 1.0
+"*",STRING_LITERAL, line no: 593,pathname.getName(),METHOD_INVOCATION, line no: 766, 0.3333333333333333, 0.3333333333333333, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"appendix_",STRING_LITERAL, line no: 766, 0.3333333333333333, 0.3333333333333333, 1.0
 optionContext,SIMPLE_NAME, line no: 593,rawInput.replaceAll(" +" " ").trim(),METHOD_INVOCATION, line no: 234, 0.3181818181818182, 0.3181818181818182, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"appendix_",STRING_LITERAL, line no: 766, 0.3181818181818182, 0.3181818181818182, 1.0
+"*",STRING_LITERAL, line no: 593,buffer="",ASSIGNMENT, line no: 940, 0.2857142857142857, 0.2857142857142857, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"TODO: Add basic type conversion",STRING_LITERAL, line no: 182, 0.2857142857142857, 0.2857142857142857, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"TODO: Add basic type conversion",STRING_LITERAL, line no: 182, 0.2727272727272727, 0.2727272727272727, 1.0
 optionContext,SIMPLE_NAME, line no: 593,buffer="",ASSIGNMENT, line no: 940, 0.2727272727272727, 0.2727272727272727, 1.0
+"*",STRING_LITERAL, line no: 593,"command",STRING_LITERAL, line no: 937, 0.047619047619047616, 0.047619047619047616, 1.0
+"*",STRING_LITERAL, line no: 593,"availableCommands",STRING_LITERAL, line no: 937, 0.047619047619047616, 0.047619047619047616, 1.0
+"*",STRING_LITERAL, line no: 593,"Command name to provide help for",STRING_LITERAL, line no: 937, 0.047619047619047616, 0.047619047619047616, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"command",STRING_LITERAL, line no: 937, 0.047619047619047616, 0.047619047619047616, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"availableCommands",STRING_LITERAL, line no: 937, 0.047619047619047616, 0.047619047619047616, 1.0
+include.optionContext(),METHOD_INVOCATION, line no: 593,"Command name to provide help for",STRING_LITERAL, line no: 937, 0.047619047619047616, 0.047619047619047616, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"command",STRING_LITERAL, line no: 937, 0.045454545454545456, 0.045454545454545456, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"availableCommands",STRING_LITERAL, line no: 937, 0.045454545454545456, 0.045454545454545456, 1.0
 optionContext,SIMPLE_NAME, line no: 593,"Command name to provide help for",STRING_LITERAL, line no: 937, 0.045454545454545456, 0.045454545454545456, 1.0

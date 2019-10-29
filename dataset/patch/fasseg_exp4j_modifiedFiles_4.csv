@@ -76,7 +76,6 @@ next,SIMPLE_NAME, line no: 68,'.',CHARACTER_LITERAL, line no: 38, 0.648648648648
 isDigit,SIMPLE_NAME, line no: 68,hasOp=true,ASSIGNMENT, line no: 57, 0.5135135135135135, 0.5135135135135135, 1.0
 Character.isDigit(next),METHOD_INVOCATION, line no: 68,Character.isDigit(next) && hasOp,INFIX_EXPRESSION, line no: 62, 0.5, 1.0, 0.5
 Character.isDigit(next),METHOD_INVOCATION, line no: 68,complex.append(next),METHOD_INVOCATION, line no: 56, 0.4861111111111111, 0.5277777777777778, 0.5
-Character.isDigit(next),METHOD_INVOCATION, line no: 68,next=expression.charAt(pos),ASSIGNMENT, line no: 67, 0.4722222222222222, 0.9444444444444444, 0.5
 isDigit,SIMPLE_NAME, line no: 68,tokens.add(op),METHOD_INVOCATION, line no: 125, 0.4594594594594595, 0.4594594594594595, 1.0
 isDigit,SIMPLE_NAME, line no: 68,hasI=true,ASSIGNMENT, line no: 60, 0.40540540540540543, 0.40540540540540543, 1.0
 isDigit,SIMPLE_NAME, line no: 68,tokens.add(new FunctionToken(func)),METHOD_INVOCATION, line no: 145, 0.35135135135135137, 0.35135135135135137, 1.0
@@ -84,6 +83,7 @@ isDigit,SIMPLE_NAME, line no: 68,tokens.add(new ParanthesesToken(false)),METHOD_
 Character.isDigit(next),METHOD_INVOCATION, line no: 68,(char)next,CAST_EXPRESSION, line no: 39, 0.3333333333333333, 0.3333333333333333, 1.0
 isDigit,SIMPLE_NAME, line no: 68,tokens.add(new ParanthesesToken(true)),METHOD_INVOCATION, line no: 149, 0.32432432432432434, 0.32432432432432434, 1.0
 next,SIMPLE_NAME, line no: 68,(char)next,CAST_EXPRESSION, line no: 39, 0.32432432432432434, 0.32432432432432434, 1.0
+Character.isDigit(next),METHOD_INVOCATION, line no: 68,next=expression.charAt(pos),ASSIGNMENT, line no: 67, 0.31481481481481477, 0.9444444444444444, 0.3333333333333333
 Character.isDigit(next),METHOD_INVOCATION, line no: 68,open,SIMPLE_NAME, line no: 197, 0.2777777777777778, 0.027777777777777776, 1.0
 isDigit,SIMPLE_NAME, line no: 68,open,SIMPLE_NAME, line no: 197, 0.2702702702702703, 0.02702702702702703, 1.0
 isDigit,SIMPLE_NAME, line no: 68,this.open=open,ASSIGNMENT, line no: 201, 0.24324324324324326, 0.24324324324324326, 1.0

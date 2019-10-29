@@ -107,7 +107,7 @@ public class PatchGenerator {
 		parser.setUnitName("file.java");
 		this.compilationUnit = (CompilationUnit) parser.createAST(null);
 
-		this.compilationUnit.accept(new VariableCollector());
+//		this.compilationUnit.accept(new VariableCollector());
 		this.compilationUnit.accept(ingredientCollector);
 		
 		//		System.out.println("INGREDIENT");
@@ -116,7 +116,7 @@ public class PatchGenerator {
 		//			System.out.println(this.ingredientCollector.fixingIngredients.get(i));
 		//		}
 
-//		System.out.println("VARIABLES");
+//		System.out.println("VARIABLES "+VariableCollector.variables.size());
 //		for(int i=0; i<VariableCollector.variables.size(); i++) {
 //			Variable v = VariableCollector.variables.get(i);
 //			System.out.println(v);
@@ -133,7 +133,7 @@ public class PatchGenerator {
 ////////		//
 		this.writeCandidatePatches(fileIdentifier);
 ////////		////		System.out.println((long)15*60*1000000000);
-	this.correctPatchFound = false;
+		this.correctPatchFound = false;
 		System.out.println(this.candidatePatchesList.size() +" Patches Generated");
 		for(int i=0; i<this.candidatePatchesList.size(); i++) { //candidatePatches.size()
 			//			long currentTime = System.nanoTime();

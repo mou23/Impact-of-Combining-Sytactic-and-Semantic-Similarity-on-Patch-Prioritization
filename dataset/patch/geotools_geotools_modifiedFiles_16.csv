@@ -45,16 +45,52 @@ add,SIMPLE_NAME, line no: 4173,exception.getCode() != null,INFIX_EXPRESSION, lin
 add,SIMPLE_NAME, line no: 4173,exception.getCode().length() != 0,INFIX_EXPRESSION, line no: 4853, 1.0, 1.0, 1.0
 add,SIMPLE_NAME, line no: 4173,i < codes.size(),INFIX_EXPRESSION, line no: 4865, 1.0, 1.0, 1.0
 add,SIMPLE_NAME, line no: 4173,i < noCodes.size(),INFIX_EXPRESSION, line no: 4876, 1.0, 1.0, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,value.length,QUALIFIED_NAME, line no: 132, 1.0, 1.0, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,String,SIMPLE_NAME, line no: 136, 1.0, 0.875, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,getValue,SIMPLE_NAME, line no: 239, 1.0, 1.0, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"",STRING_LITERAL, line no: 239, 1.0, 1.0, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"version",STRING_LITERAL, line no: 239, 1.0, 1.0, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"updateSequence",STRING_LITERAL, line no: 240, 1.0, 1.0, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,queryable,SIMPLE_NAME, line no: 2708, 1.0, 1.0, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"queryable",STRING_LITERAL, line no: 2708, 1.0, 1.0, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,cascaded,SIMPLE_NAME, line no: 2716, 1.0, 1.0, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"cascaded",STRING_LITERAL, line no: 2716, 1.0, 1.0, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,value[2].getValue(),METHOD_INVOCATION, line no: 4173, 1.0, 1.0, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,value[2],ARRAY_ACCESS, line no: 4173, 1.0, 1.0, 1.0
 value[2].getValue(),METHOD_INVOCATION, line no: 4173,getValue,SIMPLE_NAME, line no: 124, 1.0, 0.058823529411764705, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,value.length,QUALIFIED_NAME, line no: 132, 1.0, 1.0, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,value[2],ARRAY_ACCESS, line no: 4173, 1.0, 1.0, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,value.length,QUALIFIED_NAME, line no: 132, 1.0, 1.0, 1.0
+2,NUMBER_LITERAL, line no: 4173,1,NUMBER_LITERAL, line no: 79, 1.0, 0.05263157894736842, 1.0
+2,NUMBER_LITERAL, line no: 4173,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 132, 1.0, 1.0, 1.0
 2,NUMBER_LITERAL, line no: 4173,i,SIMPLE_NAME, line no: 132, 1.0, 1.0, 1.0
+2,NUMBER_LITERAL, line no: 4173,0,NUMBER_LITERAL, line no: 132, 1.0, 1.0, 1.0
+2,NUMBER_LITERAL, line no: 4173,value.length,QUALIFIED_NAME, line no: 132, 1.0, 1.0, 1.0
 2,NUMBER_LITERAL, line no: 4173,length,SIMPLE_NAME, line no: 132, 1.0, 1.0, 1.0
+2,NUMBER_LITERAL, line no: 4173,i++,POSTFIX_EXPRESSION, line no: 132, 1.0, 1.0, 1.0
+2,NUMBER_LITERAL, line no: 4173,3,NUMBER_LITERAL, line no: 564, 1.0, 0.10526315789473684, 1.0
+2,NUMBER_LITERAL, line no: 4173,11,NUMBER_LITERAL, line no: 565, 1.0, 0.10526315789473684, 1.0
+2,NUMBER_LITERAL, line no: 4173,4,NUMBER_LITERAL, line no: 565, 1.0, 0.10526315789473684, 1.0
+2,NUMBER_LITERAL, line no: 4173,5,NUMBER_LITERAL, line no: 565, 1.0, 0.10526315789473684, 1.0
+2,NUMBER_LITERAL, line no: 4173,6,NUMBER_LITERAL, line no: 565, 1.0, 0.10526315789473684, 1.0
+2,NUMBER_LITERAL, line no: 4173,7,NUMBER_LITERAL, line no: 566, 1.0, 0.10526315789473684, 1.0
+2,NUMBER_LITERAL, line no: 4173,8,NUMBER_LITERAL, line no: 566, 1.0, 0.10526315789473684, 1.0
+2,NUMBER_LITERAL, line no: 4173,9,NUMBER_LITERAL, line no: 566, 1.0, 0.10526315789473684, 1.0
+2,NUMBER_LITERAL, line no: 4173,10,NUMBER_LITERAL, line no: 566, 1.0, 0.10526315789473684, 1.0
+2,NUMBER_LITERAL, line no: 4173,19,NUMBER_LITERAL, line no: 2541, 1.0, 0.10526315789473684, 1.0
+2,NUMBER_LITERAL, line no: 4173,20,NUMBER_LITERAL, line no: 2543, 1.0, 0.10526315789473684, 1.0
+2,NUMBER_LITERAL, line no: 4173,12,NUMBER_LITERAL, line no: 2544, 1.0, 0.10526315789473684, 1.0
+2,NUMBER_LITERAL, line no: 4173,15,NUMBER_LITERAL, line no: 2545, 1.0, 0.10526315789473684, 1.0
+2,NUMBER_LITERAL, line no: 4173,16,NUMBER_LITERAL, line no: 2545, 1.0, 0.10526315789473684, 1.0
+2,NUMBER_LITERAL, line no: 4173,17,NUMBER_LITERAL, line no: 2545, 1.0, 0.10526315789473684, 1.0
+2,NUMBER_LITERAL, line no: 4173,18,NUMBER_LITERAL, line no: 2545, 1.0, 0.10526315789473684, 1.0
+2,NUMBER_LITERAL, line no: 4173,21,NUMBER_LITERAL, line no: 2546, 1.0, 0.10526315789473684, 1.0
+2,NUMBER_LITERAL, line no: 4173,childLayers.size(),METHOD_INVOCATION, line no: 2703, 1.0, 1.0, 1.0
 2,NUMBER_LITERAL, line no: 4173,size,SIMPLE_NAME, line no: 2703, 1.0, 1.0, 1.0
 2,NUMBER_LITERAL, line no: 4173,cascadedValue,SIMPLE_NAME, line no: 2717, 1.0, 1.0, 1.0
 getValue,SIMPLE_NAME, line no: 4173,value[i].getValue(),METHOD_INVOCATION, line no: 134, 1.0, 0.8888888888888888, 1.0
+2,NUMBER_LITERAL, line no: 4173,codes.size(),METHOD_INVOCATION, line no: 4865, 0.9473684210526315, 0.9473684210526315, 1.0
+2,NUMBER_LITERAL, line no: 4173,noCodes.size(),METHOD_INVOCATION, line no: 4876, 0.9473684210526315, 0.9473684210526315, 1.0
 String,SIMPLE_NAME, line no: 4173,attrs.getValue("" "version"),METHOD_INVOCATION, line no: 239, 0.9444444444444444, 0.9444444444444444, 1.0
 String,SIMPLE_NAME, line no: 4173,getValue,SIMPLE_NAME, line no: 239, 0.9444444444444444, 0.9444444444444444, 1.0
 String,SIMPLE_NAME, line no: 4173,"",STRING_LITERAL, line no: 239, 0.9444444444444444, 0.9444444444444444, 1.0
@@ -67,7 +103,9 @@ String,SIMPLE_NAME, line no: 4173,"queryable",STRING_LITERAL, line no: 2708, 0.9
 String,SIMPLE_NAME, line no: 4173,cascaded,SIMPLE_NAME, line no: 2716, 0.9444444444444444, 0.9444444444444444, 1.0
 String,SIMPLE_NAME, line no: 4173,attrs.getValue("cascaded"),METHOD_INVOCATION, line no: 2716, 0.9444444444444444, 0.9444444444444444, 1.0
 String,SIMPLE_NAME, line no: 4173,"cascaded",STRING_LITERAL, line no: 2716, 0.9444444444444444, 0.9444444444444444, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,value[2].getValue(),METHOD_INVOCATION, line no: 4173, 0.9444444444444444, 0.9444444444444444, 1.0
 getValue,SIMPLE_NAME, line no: 4173,value[2].getValue(),METHOD_INVOCATION, line no: 4173, 0.9444444444444444, 0.9444444444444444, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173, 0.9411764705882353, 0.9411764705882353, 1.0
 add,SIMPLE_NAME, line no: 4173,value[i].getValue() != null && ((String)value[i].getValue()).length() != 0,INFIX_EXPRESSION, line no: 480, 0.9375, 0.9375, 1.0
 add,SIMPLE_NAME, line no: 4173,value[i].getValue() != null,INFIX_EXPRESSION, line no: 480, 0.9375, 0.9375, 1.0
 add,SIMPLE_NAME, line no: 4173,((String)value[i].getValue()).length() != 0,INFIX_EXPRESSION, line no: 481, 0.9375, 0.9375, 1.0
@@ -85,12 +123,16 @@ String,SIMPLE_NAME, line no: 4173,(String)value[i].getValue(),CAST_EXPRESSION, l
 String,SIMPLE_NAME, line no: 4173,(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173, 0.8888888888888888, 0.8888888888888888, 1.0
 String,SIMPLE_NAME, line no: 4173,exception.getCode(),METHOD_INVOCATION, line no: 4853, 0.8888888888888888, 0.8888888888888888, 1.0
 String,SIMPLE_NAME, line no: 4173,getCode,SIMPLE_NAME, line no: 4853, 0.8888888888888888, 0.8888888888888888, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173, 0.8888888888888888, 0.8888888888888888, 1.0
 getValue,SIMPLE_NAME, line no: 4173,boundingBoxes.put(bbox.getEPSGCode() bbox),METHOD_INVOCATION, line no: 2636, 0.8888888888888888, 0.8888888888888888, 1.0
 getValue,SIMPLE_NAME, line no: 4173,put,SIMPLE_NAME, line no: 2636, 0.8888888888888888, 0.8888888888888888, 1.0
 getValue,SIMPLE_NAME, line no: 4173,dimensions.put(dim.getName() dim),METHOD_INVOCATION, line no: 2641, 0.8888888888888888, 0.8888888888888888, 1.0
 getValue,SIMPLE_NAME, line no: 4173,extents.put(ext.getName() ext),METHOD_INVOCATION, line no: 2645, 0.8888888888888888, 0.8888888888888888, 1.0
 getValue,SIMPLE_NAME, line no: 4173,_ExtentType.instance.getValue(element value attrs hints),METHOD_INVOCATION, line no: 3211, 0.8888888888888888, 0.8888888888888888, 1.0
 value[2].getValue(),METHOD_INVOCATION, line no: 4173,put,SIMPLE_NAME, line no: 2636, 0.8823529411764706, 0.8823529411764706, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,value != null && value.length >= 1,INFIX_EXPRESSION, line no: 4674, 0.8823529411764706, 0.8823529411764706, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,value != null,INFIX_EXPRESSION, line no: 4674, 0.8823529411764706, 0.8823529411764706, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,value.length >= 1,INFIX_EXPRESSION, line no: 4674, 0.8823529411764706, 0.8823529411764706, 1.0
 add,SIMPLE_NAME, line no: 4173,ii < stringValues.length,INFIX_EXPRESSION, line no: 135, 0.875, 0.875, 1.0
 add,SIMPLE_NAME, line no: 4173,telephone == null,INFIX_EXPRESSION, line no: 1084, 0.875, 0.875, 1.0
 add,SIMPLE_NAME, line no: 4173,name == null || name.length() == 0,INFIX_EXPRESSION, line no: 3187, 0.875, 0.875, 1.0
@@ -109,6 +151,7 @@ add,SIMPLE_NAME, line no: 4173,!ext.isEmpty(),PREFIX_EXPRESSION, line no: 3212, 
 add,SIMPLE_NAME, line no: 4173,ext.isEmpty(),METHOD_INVOCATION, line no: 3212, 0.875, 0.875, 1.0
 add,SIMPLE_NAME, line no: 4173,isEmpty,SIMPLE_NAME, line no: 3212, 0.875, 0.875, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,getName,SIMPLE_NAME, line no: 150, 0.875, 0.0625, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173," ",STRING_LITERAL, line no: 947, 0.875, 0.75, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,positionName,SIMPLE_NAME, line no: 1074, 0.875, 0.75, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,email,SIMPLE_NAME, line no: 1103, 0.875, 0.875, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,name,SIMPLE_NAME, line no: 1213, 0.875, 0.75, 1.0
@@ -122,10 +165,19 @@ add,SIMPLE_NAME, line no: 4173,isEmpty,SIMPLE_NAME, line no: 3212, 0.875, 0.875,
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,toString,SIMPLE_NAME, line no: 3645, 0.875, 0.75, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,title,SIMPLE_NAME, line no: 4163, 0.875, 0.75, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,_abstract,SIMPLE_NAME, line no: 4168, 0.875, 0.75, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,value != null && value.length >= 1,INFIX_EXPRESSION, line no: 4674, 0.875, 0.875, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,value != null,INFIX_EXPRESSION, line no: 4674, 0.875, 0.875, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,value.length >= 1,INFIX_EXPRESSION, line no: 4674, 0.875, 0.875, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,href,SIMPLE_NAME, line no: 4681, 0.875, 0.875, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"href",STRING_LITERAL, line no: 4681, 0.875, 0.875, 1.0
 legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,parseBoolean,SIMPLE_NAME, line no: 3199, 0.8666666666666667, 0.8666666666666667, 1.0
 legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,isEmpty,SIMPLE_NAME, line no: 3212, 0.8666666666666667, 0.8666666666666667, 1.0
+2,NUMBER_LITERAL, line no: 4173,((String)value[i].getValue()).length(),METHOD_INVOCATION, line no: 481, 0.8421052631578947, 0.8421052631578947, 1.0
+2,NUMBER_LITERAL, line no: 4173,int j=0,VARIABLE_DECLARATION_EXPRESSION, line no: 2622, 0.8421052631578947, 0.8421052631578947, 1.0
 2,NUMBER_LITERAL, line no: 4173,j,SIMPLE_NAME, line no: 2622, 0.8421052631578947, 0.8421052631578947, 1.0
+2,NUMBER_LITERAL, line no: 4173,crss.length,QUALIFIED_NAME, line no: 2622, 0.8421052631578947, 0.8421052631578947, 1.0
+2,NUMBER_LITERAL, line no: 4173,j++,POSTFIX_EXPRESSION, line no: 2622, 0.8421052631578947, 0.8421052631578947, 1.0
+2,NUMBER_LITERAL, line no: 4173,exception.getCode().length(),METHOD_INVOCATION, line no: 4853, 0.8421052631578947, 0.8421052631578947, 1.0
 String,SIMPLE_NAME, line no: 4173,getName,SIMPLE_NAME, line no: 150, 0.8333333333333334, 0.05555555555555555, 1.0
 String,SIMPLE_NAME, line no: 4173,((String)value[i].getValue()),PARENTHESIZED_EXPRESSION, line no: 481, 0.8333333333333334, 0.8333333333333334, 1.0
 String,SIMPLE_NAME, line no: 4173," ",STRING_LITERAL, line no: 947, 0.8333333333333334, 0.7222222222222222, 1.0
@@ -152,6 +204,9 @@ String,SIMPLE_NAME, line no: 4173,href=href != null ? href : attrs.getValue(XLin
 String,SIMPLE_NAME, line no: 4173,href != null ? href : attrs.getValue(XLinkSchema.NAMESPACE.toString() "href"),CONDITIONAL_EXPRESSION, line no: 4682, 0.8333333333333334, 0.8333333333333334, 1.0
 String,SIMPLE_NAME, line no: 4173,attrs.getValue(XLinkSchema.NAMESPACE.toString() "href"),METHOD_INVOCATION, line no: 4682, 0.8333333333333334, 0.8333333333333334, 1.0
 String,SIMPLE_NAME, line no: 4173,XLinkSchema.NAMESPACE.toString(),METHOD_INVOCATION, line no: 4682, 0.8333333333333334, 0.8333333333333334, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,value != null && value.length >= 1,INFIX_EXPRESSION, line no: 4674, 0.8333333333333334, 0.8333333333333334, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,value != null,INFIX_EXPRESSION, line no: 4674, 0.8333333333333334, 0.8333333333333334, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,value.length >= 1,INFIX_EXPRESSION, line no: 4674, 0.8333333333333334, 0.8333333333333334, 1.0
 getValue,SIMPLE_NAME, line no: 4173,Object,SIMPLE_NAME, line no: 124, 0.8333333333333334, 0.05555555555555555, 1.0
 getValue,SIMPLE_NAME, line no: 4173,codes.get(i),METHOD_INVOCATION, line no: 4866, 0.8333333333333334, 0.8333333333333334, 1.0
 getValue,SIMPLE_NAME, line no: 4173,get,SIMPLE_NAME, line no: 4866, 0.8333333333333334, 0.8333333333333334, 1.0
@@ -167,10 +222,21 @@ add,SIMPLE_NAME, line no: 4173,crs == null,INFIX_EXPRESSION, line no: 3060, 0.81
 add,SIMPLE_NAME, line no: 4173,crs.length() == 0,INFIX_EXPRESSION, line no: 3060, 0.8125, 0.8125, 1.0
 add,SIMPLE_NAME, line no: 4173,firstException == null,INFIX_EXPRESSION, line no: 4867, 0.8125, 0.8125, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,toUpperCase,SIMPLE_NAME, line no: 2623, 0.8125, 0.8125, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"name",STRING_LITERAL, line no: 3186, 0.8125, 0.8125, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,units,SIMPLE_NAME, line no: 3192, 0.8125, 0.8125, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"units",STRING_LITERAL, line no: 3192, 0.8125, 0.8125, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"current",STRING_LITERAL, line no: 3199, 0.8125, 0.8125, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,unitSymbol,SIMPLE_NAME, line no: 3204, 0.8125, 0.8125, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"unitSymbol",STRING_LITERAL, line no: 3204, 0.8125, 0.8125, 1.0
+2,NUMBER_LITERAL, line no: 4173,int ii=0,VARIABLE_DECLARATION_EXPRESSION, line no: 135, 0.7894736842105263, 0.7894736842105263, 1.0
 2,NUMBER_LITERAL, line no: 4173,ii,SIMPLE_NAME, line no: 135, 0.7894736842105263, 0.7894736842105263, 1.0
+2,NUMBER_LITERAL, line no: 4173,stringValues.length,QUALIFIED_NAME, line no: 135, 0.7894736842105263, 0.7894736842105263, 1.0
+2,NUMBER_LITERAL, line no: 4173,ii++,POSTFIX_EXPRESSION, line no: 135, 0.7894736842105263, 0.7894736842105263, 1.0
+2,NUMBER_LITERAL, line no: 4173,((Integer)value[i].getValue()).intValue(),METHOD_INVOCATION, line no: 649, 0.7894736842105263, 0.7894736842105263, 1.0
 2,NUMBER_LITERAL, line no: 4173,intValue,SIMPLE_NAME, line no: 650, 0.7894736842105263, 0.7894736842105263, 1.0
+2,NUMBER_LITERAL, line no: 4173,name.length(),METHOD_INVOCATION, line no: 3187, 0.7894736842105263, 0.7894736842105263, 1.0
+2,NUMBER_LITERAL, line no: 4173,units.length(),METHOD_INVOCATION, line no: 3193, 0.7894736842105263, 0.7894736842105263, 1.0
+2,NUMBER_LITERAL, line no: 4173,unitSymbol.length(),METHOD_INVOCATION, line no: 3205, 0.7894736842105263, 0.7894736842105263, 1.0
 String,SIMPLE_NAME, line no: 4173,(String)stringValues[ii],CAST_EXPRESSION, line no: 136, 0.7777777777777778, 0.7777777777777778, 1.0
 String,SIMPLE_NAME, line no: 4173,(String)keywords,CAST_EXPRESSION, line no: 947, 0.7777777777777778, 0.7777777777777778, 1.0
 String,SIMPLE_NAME, line no: 4173,toUpperCase,SIMPLE_NAME, line no: 2623, 0.7777777777777778, 0.7777777777777778, 1.0
@@ -184,6 +250,18 @@ String,SIMPLE_NAME, line no: 4173,"current",STRING_LITERAL, line no: 3199, 0.777
 String,SIMPLE_NAME, line no: 4173,unitSymbol,SIMPLE_NAME, line no: 3204, 0.7777777777777778, 0.7777777777777778, 1.0
 String,SIMPLE_NAME, line no: 4173,attrs.getValue("unitSymbol"),METHOD_INVOCATION, line no: 3204, 0.7777777777777778, 0.7777777777777778, 1.0
 String,SIMPLE_NAME, line no: 4173,"unitSymbol",STRING_LITERAL, line no: 3204, 0.7777777777777778, 0.7777777777777778, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,value[value.length - 1],ARRAY_ACCESS, line no: 852, 0.7777777777777778, 0.5, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,value.length - 1,INFIX_EXPRESSION, line no: 852, 0.7777777777777778, 0.5, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,value[0].getValue(),METHOD_INVOCATION, line no: 2030, 0.7777777777777778, 0.3333333333333333, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,value[0],ARRAY_ACCESS, line no: 2030, 0.7777777777777778, 0.3888888888888889, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,(URL)value[1].getValue(),CAST_EXPRESSION, line no: 3646, 0.7777777777777778, 0.7777777777777778, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,value[1].getValue(),METHOD_INVOCATION, line no: 3646, 0.7777777777777778, 0.7777777777777778, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,value[1],ARRAY_ACCESS, line no: 3646, 0.7777777777777778, 0.7777777777777778, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,(String)(((Object[])value[0].getValue())[0]),CAST_EXPRESSION, line no: 3647, 0.7777777777777778, 0.7777777777777778, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,(((Object[])value[0].getValue())[0]),PARENTHESIZED_EXPRESSION, line no: 3647, 0.7777777777777778, 0.7777777777777778, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,((Object[])value[0].getValue())[0],ARRAY_ACCESS, line no: 3647, 0.7777777777777778, 0.7777777777777778, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,((Object[])value[0].getValue()),PARENTHESIZED_EXPRESSION, line no: 3647, 0.7777777777777778, 0.7777777777777778, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,(Object[])value[0].getValue(),CAST_EXPRESSION, line no: 3647, 0.7777777777777778, 0.7777777777777778, 1.0
 getValue,SIMPLE_NAME, line no: 4173,stringValues[ii],ARRAY_ACCESS, line no: 136, 0.7777777777777778, 0.7777777777777778, 1.0
 getValue,SIMPLE_NAME, line no: 4173,value[value.length - 1].getValue(),METHOD_INVOCATION, line no: 852, 0.7777777777777778, 0.4444444444444444, 1.0
 getValue,SIMPLE_NAME, line no: 4173,keywords,SIMPLE_NAME, line no: 943, 0.7777777777777778, 0.6666666666666666, 1.0
@@ -191,7 +269,20 @@ getValue,SIMPLE_NAME, line no: 4173,value[0].getValue(),METHOD_INVOCATION, line 
 getValue,SIMPLE_NAME, line no: 4173,value[1].getValue(),METHOD_INVOCATION, line no: 3646, 0.7777777777777778, 0.7777777777777778, 1.0
 getValue,SIMPLE_NAME, line no: 4173,(((Object[])value[0].getValue())[0]),PARENTHESIZED_EXPRESSION, line no: 3647, 0.7777777777777778, 0.7777777777777778, 1.0
 getValue,SIMPLE_NAME, line no: 4173,((Object[])value[0].getValue())[0],ARRAY_ACCESS, line no: 3647, 0.7777777777777778, 0.7777777777777778, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,value[value.length - 1].getValue(),METHOD_INVOCATION, line no: 852, 0.7647058823529411, 0.47058823529411764, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,value[value.length - 1],ARRAY_ACCESS, line no: 852, 0.7647058823529411, 0.47058823529411764, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,value.length - 1,INFIX_EXPRESSION, line no: 852, 0.7647058823529411, 0.47058823529411764, 1.0
 value[2].getValue(),METHOD_INVOCATION, line no: 4173,keywords,SIMPLE_NAME, line no: 943, 0.7647058823529411, 0.6470588235294118, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,value[0].getValue(),METHOD_INVOCATION, line no: 2030, 0.7647058823529411, 0.35294117647058826, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,value[0],ARRAY_ACCESS, line no: 2030, 0.7647058823529411, 0.35294117647058826, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(URL)value[1].getValue(),CAST_EXPRESSION, line no: 3646, 0.7647058823529411, 0.7647058823529411, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,value[1].getValue(),METHOD_INVOCATION, line no: 3646, 0.7647058823529411, 0.7647058823529411, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,value[1],ARRAY_ACCESS, line no: 3646, 0.7647058823529411, 0.7647058823529411, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(String)(((Object[])value[0].getValue())[0]),CAST_EXPRESSION, line no: 3647, 0.7647058823529411, 0.7647058823529411, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(((Object[])value[0].getValue())[0]),PARENTHESIZED_EXPRESSION, line no: 3647, 0.7647058823529411, 0.7647058823529411, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,((Object[])value[0].getValue())[0],ARRAY_ACCESS, line no: 3647, 0.7647058823529411, 0.7647058823529411, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,((Object[])value[0].getValue()),PARENTHESIZED_EXPRESSION, line no: 3647, 0.7647058823529411, 0.7647058823529411, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(Object[])value[0].getValue(),CAST_EXPRESSION, line no: 3647, 0.7647058823529411, 0.7647058823529411, 1.0
 add,SIMPLE_NAME, line no: 4173,keywords == null,INFIX_EXPRESSION, line no: 944, 0.75, 0.75, 1.0
 add,SIMPLE_NAME, line no: 4173,"1".equals(queryable) || "true".equalsIgnoreCase(queryable),INFIX_EXPRESSION, line no: 2710, 0.75, 0.75, 1.0
 add,SIMPLE_NAME, line no: 4173,"1".equals(queryable),METHOD_INVOCATION, line no: 2710, 0.75, 0.75, 1.0
@@ -205,9 +296,35 @@ add,SIMPLE_NAME, line no: 4173,multipleValues,SIMPLE_NAME, line no: 3321, 0.75, 
 add,SIMPLE_NAME, line no: 4173,"1".equals(attrs.getValue("multipleValues")),METHOD_INVOCATION, line no: 3321, 0.75, 0.75, 1.0
 add,SIMPLE_NAME, line no: 4173,nearestValue,SIMPLE_NAME, line no: 3322, 0.75, 0.75, 1.0
 add,SIMPLE_NAME, line no: 4173,"1".equals(attrs.getValue("nearestValue")),METHOD_INVOCATION, line no: 3322, 0.75, 0.75, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,new String[value.length],ARRAY_CREATION, line no: 756, 0.75, 0.6875, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,value[value.length - 1].getValue(),METHOD_INVOCATION, line no: 852, 0.75, 0.5, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,value[value.length - 1],ARRAY_ACCESS, line no: 852, 0.75, 0.5, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,value.length - 1,INFIX_EXPRESSION, line no: 852, 0.75, 0.5, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,value[0].getValue(),METHOD_INVOCATION, line no: 2030, 0.75, 0.375, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,value[0],ARRAY_ACCESS, line no: 2030, 0.75, 0.375, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"minx",STRING_LITERAL, line no: 2943, 0.75, 0.625, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"maxx",STRING_LITERAL, line no: 2944, 0.75, 0.625, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"miny",STRING_LITERAL, line no: 2945, 0.75, 0.625, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"maxy",STRING_LITERAL, line no: 2946, 0.75, 0.625, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,crs,SIMPLE_NAME, line no: 3059, 0.75, 0.75, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"CRS",STRING_LITERAL, line no: 3059, 0.75, 0.75, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"SRS",STRING_LITERAL, line no: 3061, 0.75, 0.75, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,type,SIMPLE_NAME, line no: 3645, 0.75, 0.75, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"type",STRING_LITERAL, line no: 3645, 0.75, 0.75, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(URL)value[1].getValue(),CAST_EXPRESSION, line no: 3646, 0.75, 0.75, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,value[1].getValue(),METHOD_INVOCATION, line no: 3646, 0.75, 0.75, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,value[1],ARRAY_ACCESS, line no: 3646, 0.75, 0.75, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,format,SIMPLE_NAME, line no: 3647, 0.75, 0.75, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(String)(((Object[])value[0].getValue())[0]),CAST_EXPRESSION, line no: 3647, 0.75, 0.75, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(((Object[])value[0].getValue())[0]),PARENTHESIZED_EXPRESSION, line no: 3647, 0.75, 0.75, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,((Object[])value[0].getValue())[0],ARRAY_ACCESS, line no: 3647, 0.75, 0.75, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,((Object[])value[0].getValue()),PARENTHESIZED_EXPRESSION, line no: 3647, 0.75, 0.75, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(Object[])value[0].getValue(),CAST_EXPRESSION, line no: 3647, 0.75, 0.75, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"min",STRING_LITERAL, line no: 4584, 0.75, 0.75, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"max",STRING_LITERAL, line no: 4585, 0.75, 0.75, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(String)value[value.length - 1].getValue(),CAST_EXPRESSION, line no: 4676, 0.75, 0.6875, 1.0
+2,NUMBER_LITERAL, line no: 4173,value.length - 1,INFIX_EXPRESSION, line no: 852, 0.7368421052631579, 0.47368421052631576, 1.0
+2,NUMBER_LITERAL, line no: 4173,crs.length(),METHOD_INVOCATION, line no: 3060, 0.7368421052631579, 0.7368421052631579, 1.0
 legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,equals,SIMPLE_NAME, line no: 2710, 0.7333333333333333, 0.7333333333333333, 1.0
 legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,equalsIgnoreCase,SIMPLE_NAME, line no: 2710, 0.7333333333333333, 0.7333333333333333, 1.0
 legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,multipleValues,SIMPLE_NAME, line no: 3321, 0.7333333333333333, 0.7333333333333333, 1.0
@@ -240,11 +357,25 @@ String,SIMPLE_NAME, line no: 4173,"min",STRING_LITERAL, line no: 4584, 0.7222222
 String,SIMPLE_NAME, line no: 4173,attrs.getValue("max"),METHOD_INVOCATION, line no: 4585, 0.7222222222222222, 0.7222222222222222, 1.0
 String,SIMPLE_NAME, line no: 4173,"max",STRING_LITERAL, line no: 4585, 0.7222222222222222, 0.7222222222222222, 1.0
 String,SIMPLE_NAME, line no: 4173,(String)value[value.length - 1].getValue(),CAST_EXPRESSION, line no: 4676, 0.7222222222222222, 0.6666666666666666, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,new String[value.length],ARRAY_CREATION, line no: 756, 0.7222222222222222, 0.6666666666666666, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,value[value.length - 1].getValue(),METHOD_INVOCATION, line no: 852, 0.7222222222222222, 0.4444444444444444, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,new String[value.length],ARRAY_CREATION, line no: 756, 0.7058823529411765, 0.6470588235294118, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(String)value[value.length - 1].getValue(),CAST_EXPRESSION, line no: 4676, 0.7058823529411765, 0.6470588235294118, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(URL)value[0].getValue(),CAST_EXPRESSION, line no: 2238, 0.6875, 0.6875, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"1",STRING_LITERAL, line no: 2710, 0.6875, 0.6875, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"true",STRING_LITERAL, line no: 2710, 0.6875, 0.6875, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"0",STRING_LITERAL, line no: 2712, 0.6875, 0.6875, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"false",STRING_LITERAL, line no: 2712, 0.6875, 0.6875, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,defaultValue,SIMPLE_NAME, line no: 3320, 0.6875, 0.6875, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"default",STRING_LITERAL, line no: 3320, 0.6875, 0.6875, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"multipleValues",STRING_LITERAL, line no: 3321, 0.6875, 0.6875, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"nearestValue",STRING_LITERAL, line no: 3322, 0.6875, 0.6875, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,extractedValue,SIMPLE_NAME, line no: 3324, 0.6875, 0.6875, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,body,SIMPLE_NAME, line no: 4959, 0.6875, 0.6875, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,code,SIMPLE_NAME, line no: 4960, 0.6875, 0.6875, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"code",STRING_LITERAL, line no: 4960, 0.6875, 0.6875, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,location,SIMPLE_NAME, line no: 4961, 0.6875, 0.6875, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"location",STRING_LITERAL, line no: 4961, 0.6875, 0.6875, 1.0
 String,SIMPLE_NAME, line no: 4173,keywords[i]=(String)value[i].getValue(),ASSIGNMENT, line no: 759, 0.6666666666666666, 0.6666666666666666, 1.0
 String,SIMPLE_NAME, line no: 4173,keywords[i],ARRAY_ACCESS, line no: 759, 0.6666666666666666, 0.6666666666666666, 1.0
 String,SIMPLE_NAME, line no: 4173,"1",STRING_LITERAL, line no: 2710, 0.6666666666666666, 0.6666666666666666, 1.0
@@ -269,26 +400,465 @@ String,SIMPLE_NAME, line no: 4173,attrs.getValue("location"),METHOD_INVOCATION, 
 String,SIMPLE_NAME, line no: 4173,"location",STRING_LITERAL, line no: 4961, 0.6666666666666666, 0.6666666666666666, 1.0
 value[2],ARRAY_ACCESS, line no: 4173,ElementValue,SIMPLE_NAME, line no: 54, 0.6666666666666666, 0.05555555555555555, 1.0
 value[2],ARRAY_ACCESS, line no: 4173,elementValue,SIMPLE_NAME, line no: 3325, 0.6666666666666666, 0.6666666666666666, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,(String)value[value.length - 1].getValue(),CAST_EXPRESSION, line no: 4676, 0.6666666666666666, 0.6111111111111112, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(URL)value[0].getValue(),CAST_EXPRESSION, line no: 2238, 0.6470588235294118, 0.6470588235294118, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,value[1].getValue().toString(),METHOD_INVOCATION, line no: 4286, 0.625, 0.625, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,new URL((String)value[value.length - 1].getValue()),CLASS_INSTANCE_CREATION, line no: 4676, 0.625, 0.625, 1.0
 String,SIMPLE_NAME, line no: 4173,value[1].getValue().toString(),METHOD_INVOCATION, line no: 4286, 0.6111111111111112, 0.6111111111111112, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,(URL)value[0].getValue(),CAST_EXPRESSION, line no: 2238, 0.6111111111111112, 0.6111111111111112, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,value[1].getValue().toString(),METHOD_INVOCATION, line no: 4286, 0.5882352941176471, 0.5882352941176471, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,new URL((String)value[value.length - 1].getValue()),CLASS_INSTANCE_CREATION, line no: 4676, 0.5882352941176471, 0.5882352941176471, 1.0
 add,SIMPLE_NAME, line no: 4173,codes.add(exception),METHOD_INVOCATION, line no: 4854, 0.5625, 0.5625, 1.0
 add,SIMPLE_NAME, line no: 4173,noCodes.add(exception),METHOD_INVOCATION, line no: 4856, 0.5625, 0.5625, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,legendURL,SIMPLE_NAME, line no: 4286, 0.5625, 0.5625, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,new ServiceException((String)value[value.length - 1].getValue() null),CLASS_INSTANCE_CREATION, line no: 4771, 0.5625, 0.5625, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(String)value[0].getValue(),CAST_EXPRESSION, line no: 6591, 0.5625, 0.5625, 1.0
 String,SIMPLE_NAME, line no: 4173,formatStrings[i]=(String)stringValues[ii],ASSIGNMENT, line no: 2440, 0.5555555555555556, 0.5555555555555556, 1.0
 String,SIMPLE_NAME, line no: 4173,formatStrings[i],ARRAY_ACCESS, line no: 2440, 0.5555555555555556, 0.5555555555555556, 1.0
 String,SIMPLE_NAME, line no: 4173,legendURL,SIMPLE_NAME, line no: 4286, 0.5555555555555556, 0.5555555555555556, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,value[1].getValue().toString(),METHOD_INVOCATION, line no: 4286, 0.5555555555555556, 0.5555555555555556, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,new URL((String)value[value.length - 1].getValue()),CLASS_INSTANCE_CREATION, line no: 4676, 0.5555555555555556, 0.5555555555555556, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,new ServiceException((String)value[value.length - 1].getValue() null),CLASS_INSTANCE_CREATION, line no: 4771, 0.5294117647058824, 0.5294117647058824, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(String)value[0].getValue(),CAST_EXPRESSION, line no: 6591, 0.5294117647058824, 0.5294117647058824, 1.0
 2,NUMBER_LITERAL, line no: 4173,parseInt,SIMPLE_NAME, line no: 2720, 0.5263157894736842, 0.5263157894736842, 1.0
-legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,style.setLegendURLs(legendURLS),METHOD_INVOCATION, line no: 4184, 0.5, 1.0, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,value.length,QUALIFIED_NAME, line no: 132, 0.5, 1.0, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173, 0.5, 1.0, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,value[2].getValue(),METHOD_INVOCATION, line no: 4173, 0.5, 1.0, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,value[2],ARRAY_ACCESS, line no: 4173, 0.5, 1.0, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,i < value.length,INFIX_EXPRESSION, line no: 132, 0.5, 1.0, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,value[i],ARRAY_ACCESS, line no: 133, 0.5, 1.0, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,value[i].getValue(),METHOD_INVOCATION, line no: 134, 0.5, 0.9375, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(double[])value[i].getValue(),CAST_EXPRESSION, line no: 2688, 0.5, 1.0, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(ServiceException)value[i].getValue(),CAST_EXPRESSION, line no: 4852, 0.5, 1.0, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,new Double((String)value[0].getValue()),CLASS_INSTANCE_CREATION, line no: 6591, 0.5, 0.5, 1.0
 String,SIMPLE_NAME, line no: 4173,(String)value[0].getValue(),CAST_EXPRESSION, line no: 6591, 0.5, 0.5, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,i < value.length,INFIX_EXPRESSION, line no: 132, 0.5, 1.0, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,value[i],ARRAY_ACCESS, line no: 133, 0.5, 1.0, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,value[i].getValue(),METHOD_INVOCATION, line no: 134, 0.5, 0.8823529411764706, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(ServiceException)value[i].getValue(),CAST_EXPRESSION, line no: 4852, 0.5, 1.0, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,i < value.length,INFIX_EXPRESSION, line no: 132, 0.5, 1.0, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,value[i],ARRAY_ACCESS, line no: 133, 0.5, 1.0, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,value[i].getValue(),METHOD_INVOCATION, line no: 134, 0.5, 0.8888888888888888, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,new ServiceException((String)value[value.length - 1].getValue() null),CLASS_INSTANCE_CREATION, line no: 4771, 0.5, 0.5, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,(String)value[0].getValue(),CAST_EXPRESSION, line no: 6591, 0.5, 0.5, 1.0
+2,NUMBER_LITERAL, line no: 4173,Integer.parseInt(cascaded),METHOD_INVOCATION, line no: 2720, 0.47368421052631576, 0.47368421052631576, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,(String)value[i].getValue(),CAST_EXPRESSION, line no: 481, 0.4722222222222222, 0.9444444444444444, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,(double[])value[i].getValue(),CAST_EXPRESSION, line no: 2688, 0.4722222222222222, 0.9444444444444444, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,(ServiceException)value[i].getValue(),CAST_EXPRESSION, line no: 4852, 0.4722222222222222, 0.9444444444444444, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(String)value[i].getValue(),CAST_EXPRESSION, line no: 481, 0.47058823529411764, 0.9411764705882353, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(Integer)value[i].getValue(),CAST_EXPRESSION, line no: 649, 0.47058823529411764, 0.9411764705882353, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(Double)value[i].getValue(),CAST_EXPRESSION, line no: 2675, 0.47058823529411764, 0.8235294117647058, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(double[])value[i].getValue(),CAST_EXPRESSION, line no: 2688, 0.47058823529411764, 0.9411764705882353, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,new Double((String)value[0].getValue()),CLASS_INSTANCE_CREATION, line no: 6591, 0.47058823529411764, 0.47058823529411764, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(org.geotools.data.ows.OperationType)value[i].getValue(),CAST_EXPRESSION, line no: 141, 0.46875, 0.8125, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(String)value[i].getValue(),CAST_EXPRESSION, line no: 481, 0.46875, 0.9375, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(String[])value[i].getValue(),CAST_EXPRESSION, line no: 628, 0.46875, 0.9375, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(URL)value[i].getValue(),CAST_EXPRESSION, line no: 632, 0.46875, 0.9375, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(Integer)value[i].getValue(),CAST_EXPRESSION, line no: 649, 0.46875, 0.9375, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(WMSRequest)value[i].getValue(),CAST_EXPRESSION, line no: 1455, 0.46875, 0.9375, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(Layer)value[i].getValue(),CAST_EXPRESSION, line no: 1474, 0.46875, 0.8125, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(CRSEnvelope)value[i].getValue(),CAST_EXPRESSION, line no: 2629, 0.46875, 0.9375, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(Double)value[i].getValue(),CAST_EXPRESSION, line no: 2675, 0.46875, 0.875, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173, 0.46875, 0.9375, 0.5
 legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,true,BOOLEAN_LITERAL, line no: 2711, 0.4666666666666667, 0.4666666666666667, 1.0
 legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,false,BOOLEAN_LITERAL, line no: 2713, 0.4666666666666667, 0.4666666666666667, 1.0
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,value != null && value.length >= 1,INFIX_EXPRESSION, line no: 4674, 0.4666666666666667, 0.9333333333333333, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,value != null,INFIX_EXPRESSION, line no: 4674, 0.4666666666666667, 0.9333333333333333, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,value.length >= 1,INFIX_EXPRESSION, line no: 4674, 0.4666666666666667, 0.9333333333333333, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,value[i].getValue() != null && ((String)value[i].getValue()).length() != 0,INFIX_EXPRESSION, line no: 480, 0.4444444444444444, 0.8888888888888888, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,value[i].getValue() != null,INFIX_EXPRESSION, line no: 480, 0.4444444444444444, 0.8888888888888888, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,((String)value[i].getValue()).length() != 0,INFIX_EXPRESSION, line no: 481, 0.4444444444444444, 0.8888888888888888, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,((String)value[i].getValue()).length(),METHOD_INVOCATION, line no: 481, 0.4444444444444444, 0.8888888888888888, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,((String)value[i].getValue()),PARENTHESIZED_EXPRESSION, line no: 481, 0.4444444444444444, 0.8888888888888888, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,(Integer)value[i].getValue(),CAST_EXPRESSION, line no: 649, 0.4444444444444444, 0.8888888888888888, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,((String)value[i].getValue()).split(" "),METHOD_INVOCATION, line no: 2621, 0.4444444444444444, 0.8888888888888888, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,(Double)value[i].getValue(),CAST_EXPRESSION, line no: 2675, 0.4444444444444444, 0.7777777777777778, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,new Double((String)value[0].getValue()),CLASS_INSTANCE_CREATION, line no: 6591, 0.4444444444444444, 0.4444444444444444, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(org.geotools.data.ows.OperationType)value[i].getValue(),CAST_EXPRESSION, line no: 141, 0.4411764705882353, 0.7647058823529411, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,value[i].getValue() != null && ((String)value[i].getValue()).length() != 0,INFIX_EXPRESSION, line no: 480, 0.4411764705882353, 0.8823529411764706, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,value[i].getValue() != null,INFIX_EXPRESSION, line no: 480, 0.4411764705882353, 0.8823529411764706, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,((String)value[i].getValue()).length() != 0,INFIX_EXPRESSION, line no: 481, 0.4411764705882353, 0.8823529411764706, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,((String)value[i].getValue()).length(),METHOD_INVOCATION, line no: 481, 0.4411764705882353, 0.8823529411764706, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,((String)value[i].getValue()),PARENTHESIZED_EXPRESSION, line no: 481, 0.4411764705882353, 0.8823529411764706, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(String[])value[i].getValue(),CAST_EXPRESSION, line no: 628, 0.4411764705882353, 0.8823529411764706, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(URL)value[i].getValue(),CAST_EXPRESSION, line no: 632, 0.4411764705882353, 0.8823529411764706, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,((Integer)value[i].getValue()).intValue(),METHOD_INVOCATION, line no: 649, 0.4411764705882353, 0.8823529411764706, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,((Integer)value[i].getValue()),PARENTHESIZED_EXPRESSION, line no: 649, 0.4411764705882353, 0.8823529411764706, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(WMSRequest)value[i].getValue(),CAST_EXPRESSION, line no: 1455, 0.4411764705882353, 0.8823529411764706, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(Layer)value[i].getValue(),CAST_EXPRESSION, line no: 1474, 0.4411764705882353, 0.7647058823529411, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,((String)value[i].getValue()).split(" "),METHOD_INVOCATION, line no: 2621, 0.4411764705882353, 0.8823529411764706, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(CRSEnvelope)value[i].getValue(),CAST_EXPRESSION, line no: 2629, 0.4411764705882353, 0.8823529411764706, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,((Double)value[i].getValue()).doubleValue(),METHOD_INVOCATION, line no: 2827, 0.4411764705882353, 0.8823529411764706, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,((Double)value[i].getValue()),PARENTHESIZED_EXPRESSION, line no: 2827, 0.4411764705882353, 0.8823529411764706, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173, 0.4411764705882353, 0.8823529411764706, 0.5
 add,SIMPLE_NAME, line no: 4173,true,BOOLEAN_LITERAL, line no: 2711, 0.4375, 0.4375, 1.0
 add,SIMPLE_NAME, line no: 4173,false,BOOLEAN_LITERAL, line no: 2713, 0.4375, 0.4375, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(Object[])value[i].getValue(),CAST_EXPRESSION, line no: 134, 0.4375, 0.875, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,value[i].getValue() != null && ((String)value[i].getValue()).length() != 0,INFIX_EXPRESSION, line no: 480, 0.4375, 0.875, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,value[i].getValue() != null,INFIX_EXPRESSION, line no: 480, 0.4375, 0.875, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,((String)value[i].getValue()).length() != 0,INFIX_EXPRESSION, line no: 481, 0.4375, 0.875, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,((String)value[i].getValue()).length(),METHOD_INVOCATION, line no: 481, 0.4375, 0.875, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,((String)value[i].getValue()),PARENTHESIZED_EXPRESSION, line no: 481, 0.4375, 0.875, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,((Integer)value[i].getValue()).intValue(),METHOD_INVOCATION, line no: 649, 0.4375, 0.875, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,((Integer)value[i].getValue()),PARENTHESIZED_EXPRESSION, line no: 649, 0.4375, 0.875, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,((String)value[i].getValue()).split(" "),METHOD_INVOCATION, line no: 2621, 0.4375, 0.875, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(Dimension)value[i].getValue(),CAST_EXPRESSION, line no: 2640, 0.4375, 0.875, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(Extent)value[i].getValue(),CAST_EXPRESSION, line no: 2644, 0.4375, 0.875, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,((Double)value[i].getValue()).doubleValue(),METHOD_INVOCATION, line no: 2827, 0.4375, 0.875, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,((Double)value[i].getValue()),PARENTHESIZED_EXPRESSION, line no: 2827, 0.4375, 0.875, 0.5
+2,NUMBER_LITERAL, line no: 4173,cascadedValue=Integer.parseInt(cascaded),ASSIGNMENT, line no: 2720, 0.42105263157894735, 0.42105263157894735, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,(Object[])value[i].getValue(),CAST_EXPRESSION, line no: 134, 0.4166666666666667, 0.8333333333333334, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,(org.geotools.data.ows.OperationType)value[i].getValue(),CAST_EXPRESSION, line no: 141, 0.4166666666666667, 0.7222222222222222, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,(String[])value[i].getValue(),CAST_EXPRESSION, line no: 628, 0.4166666666666667, 0.8333333333333334, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,(URL)value[i].getValue(),CAST_EXPRESSION, line no: 632, 0.4166666666666667, 0.8333333333333334, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,((Integer)value[i].getValue()).intValue(),METHOD_INVOCATION, line no: 649, 0.4166666666666667, 0.8333333333333334, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,((Integer)value[i].getValue()),PARENTHESIZED_EXPRESSION, line no: 649, 0.4166666666666667, 0.8333333333333334, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,(WMSRequest)value[i].getValue(),CAST_EXPRESSION, line no: 1455, 0.4166666666666667, 0.8333333333333334, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,(Layer)value[i].getValue(),CAST_EXPRESSION, line no: 1474, 0.4166666666666667, 0.7222222222222222, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,(CRSEnvelope)value[i].getValue(),CAST_EXPRESSION, line no: 2629, 0.4166666666666667, 0.8333333333333334, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,((Double)value[i].getValue()).doubleValue(),METHOD_INVOCATION, line no: 2827, 0.4166666666666667, 0.8333333333333334, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,((Double)value[i].getValue()),PARENTHESIZED_EXPRESSION, line no: 2827, 0.4166666666666667, 0.8333333333333334, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173, 0.4166666666666667, 0.8333333333333334, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(Object[])value[i].getValue(),CAST_EXPRESSION, line no: 134, 0.4117647058823529, 0.8235294117647058, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,Collections.singleton(value[i].getValue()),METHOD_INVOCATION, line no: 1083, 0.4117647058823529, 0.8235294117647058, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(Dimension)value[i].getValue(),CAST_EXPRESSION, line no: 2640, 0.4117647058823529, 0.8235294117647058, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(Extent)value[i].getValue(),CAST_EXPRESSION, line no: 2644, 0.4117647058823529, 0.8235294117647058, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(Service)value[i].getValue(),CAST_EXPRESSION, line no: 231, 0.40625, 0.8125, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(WMSCapabilities)value[i].getValue(),CAST_EXPRESSION, line no: 235, 0.40625, 0.8125, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(ResponsiblePartyImpl)value[i].getValue(),CAST_EXPRESSION, line no: 636, 0.40625, 0.8125, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(AddressImpl)value[i].getValue(),CAST_EXPRESSION, line no: 1079, 0.40625, 0.8125, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,Collections.singleton(value[i].getValue()),METHOD_INVOCATION, line no: 1083, 0.40625, 0.8125, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(MetadataURL)value[i].getValue(),CAST_EXPRESSION, line no: 2661, 0.40625, 0.8125, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,value[value.length - 1].getValue(),METHOD_INVOCATION, line no: 852, 0.4, 0.5333333333333333, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,value[value.length - 1],ARRAY_ACCESS, line no: 852, 0.4, 0.5333333333333333, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,value.length - 1,INFIX_EXPRESSION, line no: 852, 0.4, 0.5333333333333333, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,Collections.singleton(value[i].getValue()),METHOD_INVOCATION, line no: 1083, 0.3888888888888889, 0.7777777777777778, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,(Dimension)value[i].getValue(),CAST_EXPRESSION, line no: 2640, 0.3888888888888889, 0.7777777777777778, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,(Extent)value[i].getValue(),CAST_EXPRESSION, line no: 2644, 0.3888888888888889, 0.7777777777777778, 0.5
 getValue,SIMPLE_NAME, line no: 4173,elementValue.getValue(),METHOD_INVOCATION, line no: 3326, 0.3888888888888889, 0.3888888888888889, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(Service)value[i].getValue(),CAST_EXPRESSION, line no: 231, 0.38235294117647056, 0.7647058823529411, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(WMSCapabilities)value[i].getValue(),CAST_EXPRESSION, line no: 235, 0.38235294117647056, 0.7647058823529411, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(ResponsiblePartyImpl)value[i].getValue(),CAST_EXPRESSION, line no: 636, 0.38235294117647056, 0.7647058823529411, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(AddressImpl)value[i].getValue(),CAST_EXPRESSION, line no: 1079, 0.38235294117647056, 0.7647058823529411, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(MetadataURL)value[i].getValue(),CAST_EXPRESSION, line no: 2661, 0.38235294117647056, 0.7647058823529411, 0.5
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,((Service)value[i].getValue()),PARENTHESIZED_EXPRESSION, line no: 231, 0.375, 0.75, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,new String[value.length],ARRAY_CREATION, line no: 756, 0.36666666666666664, 0.7333333333333333, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,value[0].getValue(),METHOD_INVOCATION, line no: 2030, 0.36666666666666664, 0.4, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,value[0],ARRAY_ACCESS, line no: 2030, 0.36666666666666664, 0.4, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(URL)value[1].getValue(),CAST_EXPRESSION, line no: 3646, 0.36666666666666664, 0.7333333333333333, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,value[1].getValue(),METHOD_INVOCATION, line no: 3646, 0.36666666666666664, 0.7333333333333333, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,value[1],ARRAY_ACCESS, line no: 3646, 0.36666666666666664, 0.7333333333333333, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(String)(((Object[])value[0].getValue())[0]),CAST_EXPRESSION, line no: 3647, 0.36666666666666664, 0.7333333333333333, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(((Object[])value[0].getValue())[0]),PARENTHESIZED_EXPRESSION, line no: 3647, 0.36666666666666664, 0.7333333333333333, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,((Object[])value[0].getValue())[0],ARRAY_ACCESS, line no: 3647, 0.36666666666666664, 0.7333333333333333, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,((Object[])value[0].getValue()),PARENTHESIZED_EXPRESSION, line no: 3647, 0.36666666666666664, 0.7333333333333333, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(Object[])value[0].getValue(),CAST_EXPRESSION, line no: 3647, 0.36666666666666664, 0.7333333333333333, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(String)value[value.length - 1].getValue(),CAST_EXPRESSION, line no: 4676, 0.36666666666666664, 0.6666666666666666, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,(Service)value[i].getValue(),CAST_EXPRESSION, line no: 231, 0.3611111111111111, 0.7222222222222222, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,(WMSCapabilities)value[i].getValue(),CAST_EXPRESSION, line no: 235, 0.3611111111111111, 0.7222222222222222, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,(ResponsiblePartyImpl)value[i].getValue(),CAST_EXPRESSION, line no: 636, 0.3611111111111111, 0.7222222222222222, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,(AddressImpl)value[i].getValue(),CAST_EXPRESSION, line no: 1079, 0.3611111111111111, 0.7222222222222222, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,(MetadataURL)value[i].getValue(),CAST_EXPRESSION, line no: 2661, 0.3611111111111111, 0.7222222222222222, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,((Service)value[i].getValue()),PARENTHESIZED_EXPRESSION, line no: 231, 0.35294117647058826, 0.7058823529411765, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,i < value.length,INFIX_EXPRESSION, line no: 132, 0.3333333333333333, 1.0, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,value[i],ARRAY_ACCESS, line no: 133, 0.3333333333333333, 1.0, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,value[i].getValue(),METHOD_INVOCATION, line no: 134, 0.3333333333333333, 0.9333333333333333, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(URL)value[0].getValue(),CAST_EXPRESSION, line no: 2238, 0.3333333333333333, 0.6666666666666666, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(double[])value[i].getValue(),CAST_EXPRESSION, line no: 2688, 0.3333333333333333, 1.0, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,style.setLegendURLs(legendURLS),METHOD_INVOCATION, line no: 4184, 0.3333333333333333, 1.0, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,value[1].getValue().toString(),METHOD_INVOCATION, line no: 4286, 0.3333333333333333, 0.6666666666666666, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,new URL((String)value[value.length - 1].getValue()),CLASS_INSTANCE_CREATION, line no: 4676, 0.3333333333333333, 0.6666666666666666, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(ServiceException)value[i].getValue(),CAST_EXPRESSION, line no: 4852, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[0] value[i]),METHOD_INVOCATION, line no: 133, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[1] value[i]),METHOD_INVOCATION, line no: 140, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[2] value[i]),METHOD_INVOCATION, line no: 622, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[3] value[i]) || sameName(elems[11] value[i]),INFIX_EXPRESSION, line no: 626, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[3] value[i]),METHOD_INVOCATION, line no: 626, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[11] value[i]),METHOD_INVOCATION, line no: 627, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[4] value[i]),METHOD_INVOCATION, line no: 631, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[5] value[i]),METHOD_INVOCATION, line no: 635, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[8] value[i]),METHOD_INVOCATION, line no: 648, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[9] value[i]),METHOD_INVOCATION, line no: 653, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[10] value[i]),METHOD_INVOCATION, line no: 658, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[0] value[i]) || sameName(elems[8] value[i]),INFIX_EXPRESSION, line no: 1896, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[1] value[i]) || sameName(elems[9] value[i]),INFIX_EXPRESSION, line no: 1902, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[2] value[i]) || sameName(elems[10] value[i]),INFIX_EXPRESSION, line no: 1907, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[6] value[i]),METHOD_INVOCATION, line no: 1929, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[4] value[i]) || sameName(elems[19] value[i]),INFIX_EXPRESSION, line no: 2619, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[19] value[i]),METHOD_INVOCATION, line no: 2620, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[5] value[i]) || sameName(elems[20] value[i]),INFIX_EXPRESSION, line no: 2627, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[20] value[i]),METHOD_INVOCATION, line no: 2628, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[7] value[i]),METHOD_INVOCATION, line no: 2639, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[12] value[i]),METHOD_INVOCATION, line no: 2660, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[15] value[i]),METHOD_INVOCATION, line no: 2671, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[16] value[i]),METHOD_INVOCATION, line no: 2674, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[17] value[i]),METHOD_INVOCATION, line no: 2678, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[18] value[i]),METHOD_INVOCATION, line no: 2682, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,sameName(elems[21] value[i]),METHOD_INVOCATION, line no: 2687, 0.3333333333333333, 1.0, 0.3333333333333333
 String,SIMPLE_NAME, line no: 4173,extractedValue+=elementValue.getValue(),ASSIGNMENT, line no: 3326, 0.3333333333333333, 0.3333333333333333, 1.0
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[0] value[i]),METHOD_INVOCATION, line no: 133, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[1] value[i]),METHOD_INVOCATION, line no: 140, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[2] value[i]),METHOD_INVOCATION, line no: 622, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[3] value[i]) || sameName(elems[11] value[i]),INFIX_EXPRESSION, line no: 626, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[3] value[i]),METHOD_INVOCATION, line no: 626, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[11] value[i]),METHOD_INVOCATION, line no: 627, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[4] value[i]),METHOD_INVOCATION, line no: 631, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[5] value[i]),METHOD_INVOCATION, line no: 635, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[8] value[i]),METHOD_INVOCATION, line no: 648, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[9] value[i]),METHOD_INVOCATION, line no: 653, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[10] value[i]),METHOD_INVOCATION, line no: 658, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[0] value[i]) || sameName(elems[8] value[i]),INFIX_EXPRESSION, line no: 1896, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[1] value[i]) || sameName(elems[9] value[i]),INFIX_EXPRESSION, line no: 1902, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[2] value[i]) || sameName(elems[10] value[i]),INFIX_EXPRESSION, line no: 1907, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[6] value[i]),METHOD_INVOCATION, line no: 1929, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[4] value[i]) || sameName(elems[19] value[i]),INFIX_EXPRESSION, line no: 2619, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[19] value[i]),METHOD_INVOCATION, line no: 2620, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[5] value[i]) || sameName(elems[20] value[i]),INFIX_EXPRESSION, line no: 2627, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[20] value[i]),METHOD_INVOCATION, line no: 2628, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[7] value[i]),METHOD_INVOCATION, line no: 2639, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[12] value[i]),METHOD_INVOCATION, line no: 2660, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[15] value[i]),METHOD_INVOCATION, line no: 2671, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[16] value[i]),METHOD_INVOCATION, line no: 2674, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[17] value[i]),METHOD_INVOCATION, line no: 2678, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[18] value[i]),METHOD_INVOCATION, line no: 2682, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,sameName(elems[21] value[i]),METHOD_INVOCATION, line no: 2687, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[0] value[i]),METHOD_INVOCATION, line no: 133, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[1] value[i]),METHOD_INVOCATION, line no: 140, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,((Service)value[i].getValue()),PARENTHESIZED_EXPRESSION, line no: 231, 0.3333333333333333, 0.6666666666666666, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[2] value[i]),METHOD_INVOCATION, line no: 622, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[3] value[i]) || sameName(elems[11] value[i]),INFIX_EXPRESSION, line no: 626, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[3] value[i]),METHOD_INVOCATION, line no: 626, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[11] value[i]),METHOD_INVOCATION, line no: 627, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[4] value[i]),METHOD_INVOCATION, line no: 631, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[5] value[i]),METHOD_INVOCATION, line no: 635, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[8] value[i]),METHOD_INVOCATION, line no: 648, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[9] value[i]),METHOD_INVOCATION, line no: 653, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[10] value[i]),METHOD_INVOCATION, line no: 658, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[0] value[i]) || sameName(elems[8] value[i]),INFIX_EXPRESSION, line no: 1896, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[1] value[i]) || sameName(elems[9] value[i]),INFIX_EXPRESSION, line no: 1902, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[2] value[i]) || sameName(elems[10] value[i]),INFIX_EXPRESSION, line no: 1907, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[6] value[i]),METHOD_INVOCATION, line no: 1929, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[4] value[i]) || sameName(elems[19] value[i]),INFIX_EXPRESSION, line no: 2619, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[19] value[i]),METHOD_INVOCATION, line no: 2620, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[5] value[i]) || sameName(elems[20] value[i]),INFIX_EXPRESSION, line no: 2627, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[20] value[i]),METHOD_INVOCATION, line no: 2628, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[7] value[i]),METHOD_INVOCATION, line no: 2639, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[12] value[i]),METHOD_INVOCATION, line no: 2660, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[15] value[i]),METHOD_INVOCATION, line no: 2671, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[16] value[i]),METHOD_INVOCATION, line no: 2674, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[17] value[i]),METHOD_INVOCATION, line no: 2678, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[18] value[i]),METHOD_INVOCATION, line no: 2682, 0.3333333333333333, 1.0, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,sameName(elems[21] value[i]),METHOD_INVOCATION, line no: 2687, 0.3333333333333333, 1.0, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"onlineResource",STRING_LITERAL, line no: 2234, 0.3125, 0.3125, 1.0
 (String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,toFormatMIME,SIMPLE_NAME, line no: 5043, 0.3125, 0.3125, 1.0
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(org.geotools.data.ows.OperationType)value[i].getValue(),CAST_EXPRESSION, line no: 141, 0.3111111111111111, 0.8, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,value[i].getValue() != null && ((String)value[i].getValue()).length() != 0,INFIX_EXPRESSION, line no: 480, 0.3111111111111111, 0.9333333333333333, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,value[i].getValue() != null,INFIX_EXPRESSION, line no: 480, 0.3111111111111111, 0.9333333333333333, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,((String)value[i].getValue()).length() != 0,INFIX_EXPRESSION, line no: 481, 0.3111111111111111, 0.9333333333333333, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,((String)value[i].getValue()).length(),METHOD_INVOCATION, line no: 481, 0.3111111111111111, 0.9333333333333333, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,((String)value[i].getValue()),PARENTHESIZED_EXPRESSION, line no: 481, 0.3111111111111111, 0.9333333333333333, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(String)value[i].getValue(),CAST_EXPRESSION, line no: 481, 0.3111111111111111, 0.9333333333333333, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(String[])value[i].getValue(),CAST_EXPRESSION, line no: 628, 0.3111111111111111, 0.9333333333333333, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(URL)value[i].getValue(),CAST_EXPRESSION, line no: 632, 0.3111111111111111, 0.9333333333333333, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,((Integer)value[i].getValue()).intValue(),METHOD_INVOCATION, line no: 649, 0.3111111111111111, 0.9333333333333333, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,((Integer)value[i].getValue()),PARENTHESIZED_EXPRESSION, line no: 649, 0.3111111111111111, 0.9333333333333333, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(Integer)value[i].getValue(),CAST_EXPRESSION, line no: 649, 0.3111111111111111, 0.9333333333333333, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(WMSRequest)value[i].getValue(),CAST_EXPRESSION, line no: 1455, 0.3111111111111111, 0.9333333333333333, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(Layer)value[i].getValue(),CAST_EXPRESSION, line no: 1474, 0.3111111111111111, 0.8, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,((String)value[i].getValue()).split(" "),METHOD_INVOCATION, line no: 2621, 0.3111111111111111, 0.9333333333333333, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(CRSEnvelope)value[i].getValue(),CAST_EXPRESSION, line no: 2629, 0.3111111111111111, 0.9333333333333333, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(Double)value[i].getValue(),CAST_EXPRESSION, line no: 2675, 0.3111111111111111, 0.8666666666666667, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,((Double)value[i].getValue()).doubleValue(),METHOD_INVOCATION, line no: 2827, 0.3111111111111111, 0.9333333333333333, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,((Double)value[i].getValue()),PARENTHESIZED_EXPRESSION, line no: 2827, 0.3111111111111111, 0.9333333333333333, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,new ServiceException((String)value[value.length - 1].getValue() null),CLASS_INSTANCE_CREATION, line no: 4771, 0.3, 0.6, 0.5
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,service.setLayerLimit(((Integer)value[i].getValue()).intValue()),METHOD_INVOCATION, line no: 649, 0.2941176470588235, 0.8823529411764706, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,service.setMaxWidth(((Integer)value[i].getValue()).intValue()),METHOD_INVOCATION, line no: 654, 0.2941176470588235, 0.8823529411764706, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,service.setMaxHeight(((Integer)value[i].getValue()).intValue()),METHOD_INVOCATION, line no: 659, 0.2941176470588235, 0.8823529411764706, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,bbox.setMinX(((Double)value[i].getValue()).doubleValue()),METHOD_INVOCATION, line no: 2827, 0.2941176470588235, 0.8823529411764706, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,bbox.setMaxX(((Double)value[i].getValue()).doubleValue()),METHOD_INVOCATION, line no: 2830, 0.2941176470588235, 0.8823529411764706, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,bbox.setMinY(((Double)value[i].getValue()).doubleValue()),METHOD_INVOCATION, line no: 2833, 0.2941176470588235, 0.8823529411764706, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,bbox.setMaxY(((Double)value[i].getValue()).doubleValue()),METHOD_INVOCATION, line no: 2836, 0.2941176470588235, 0.8823529411764706, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,service.setName((String)value[i].getValue()),METHOD_INVOCATION, line no: 615, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,service.setTitle((String)value[i].getValue()),METHOD_INVOCATION, line no: 619, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,service.set_abstract((String)value[i].getValue()),METHOD_INVOCATION, line no: 623, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,service.setKeywordList((String[])value[i].getValue()),METHOD_INVOCATION, line no: 628, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,service.setOnlineResource((URL)value[i].getValue()),METHOD_INVOCATION, line no: 632, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,service.setLayerLimit(((Integer)value[i].getValue()).intValue()),METHOD_INVOCATION, line no: 649, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,service.setMaxWidth(((Integer)value[i].getValue()).intValue()),METHOD_INVOCATION, line no: 654, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,service.setMaxHeight(((Integer)value[i].getValue()).intValue()),METHOD_INVOCATION, line no: 659, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,capabilities.setRequest((WMSRequest)value[i].getValue()),METHOD_INVOCATION, line no: 1455, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,capabilities.setExceptions((String[])value[i].getValue()),METHOD_INVOCATION, line no: 1459, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,request.setGetCapabilities((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1898, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,request.setGetMap((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1904, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,request.setGetFeatureInfo((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1909, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,request.setDescribeLayer((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1914, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,request.setGetLegendGraphic((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1919, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,request.setGetStyles((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1924, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,request.setPutStyles((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1930, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,operationType.setGet((URL)value[i].getValue()),METHOD_INVOCATION, line no: 2127, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,operationType.setPost((URL)value[i].getValue()),METHOD_INVOCATION, line no: 2131, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,layer.setName((String)value[i].getValue()),METHOD_INVOCATION, line no: 2605, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,layer.setTitle((String)value[i].getValue()),METHOD_INVOCATION, line no: 2609, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,layer.set_abstract((String)value[i].getValue()),METHOD_INVOCATION, line no: 2613, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,layer.setKeywords((String[])value[i].getValue()),METHOD_INVOCATION, line no: 2616, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,layer.setLatLonBoundingBox((CRSEnvelope)value[i].getValue()),METHOD_INVOCATION, line no: 2629, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,bbox.setMinX(((Double)value[i].getValue()).doubleValue()),METHOD_INVOCATION, line no: 2827, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,bbox.setMaxX(((Double)value[i].getValue()).doubleValue()),METHOD_INVOCATION, line no: 2830, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,bbox.setMinY(((Double)value[i].getValue()).doubleValue()),METHOD_INVOCATION, line no: 2833, 0.29166666666666663, 0.875, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,bbox.setMaxY(((Double)value[i].getValue()).doubleValue()),METHOD_INVOCATION, line no: 2836, 0.29166666666666663, 0.875, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(Object[])value[i].getValue(),CAST_EXPRESSION, line no: 134, 0.28888888888888886, 0.8666666666666667, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,Collections.singleton(value[i].getValue()),METHOD_INVOCATION, line no: 1083, 0.28888888888888886, 0.8666666666666667, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(Dimension)value[i].getValue(),CAST_EXPRESSION, line no: 2640, 0.28888888888888886, 0.8666666666666667, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(Extent)value[i].getValue(),CAST_EXPRESSION, line no: 2644, 0.28888888888888886, 0.8666666666666667, 0.3333333333333333
 String,SIMPLE_NAME, line no: 4173,attrs.getValue("onlineResource"),METHOD_INVOCATION, line no: 2234, 0.2777777777777778, 0.2777777777777778, 1.0
 String,SIMPLE_NAME, line no: 4173,"onlineResource",STRING_LITERAL, line no: 2234, 0.2777777777777778, 0.2777777777777778, 1.0
 String,SIMPLE_NAME, line no: 4173,toFormatMIME,SIMPLE_NAME, line no: 5043, 0.2777777777777778, 0.2777777777777778, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,service.setLayerLimit(((Integer)value[i].getValue()).intValue()),METHOD_INVOCATION, line no: 649, 0.2777777777777778, 0.8333333333333334, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,service.setMaxWidth(((Integer)value[i].getValue()).intValue()),METHOD_INVOCATION, line no: 654, 0.2777777777777778, 0.8333333333333334, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,service.setMaxHeight(((Integer)value[i].getValue()).intValue()),METHOD_INVOCATION, line no: 659, 0.2777777777777778, 0.8333333333333334, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,bbox.setMinX(((Double)value[i].getValue()).doubleValue()),METHOD_INVOCATION, line no: 2827, 0.2777777777777778, 0.8333333333333334, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,bbox.setMaxX(((Double)value[i].getValue()).doubleValue()),METHOD_INVOCATION, line no: 2830, 0.2777777777777778, 0.8333333333333334, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,bbox.setMinY(((Double)value[i].getValue()).doubleValue()),METHOD_INVOCATION, line no: 2833, 0.2777777777777778, 0.8333333333333334, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,bbox.setMaxY(((Double)value[i].getValue()).doubleValue()),METHOD_INVOCATION, line no: 2836, 0.2777777777777778, 0.8333333333333334, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,service.setName((String)value[i].getValue()),METHOD_INVOCATION, line no: 615, 0.2745098039215686, 0.8235294117647058, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,service.setTitle((String)value[i].getValue()),METHOD_INVOCATION, line no: 619, 0.2745098039215686, 0.8235294117647058, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,service.set_abstract((String)value[i].getValue()),METHOD_INVOCATION, line no: 623, 0.2745098039215686, 0.8235294117647058, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,service.setKeywordList((String[])value[i].getValue()),METHOD_INVOCATION, line no: 628, 0.2745098039215686, 0.8235294117647058, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,service.setOnlineResource((URL)value[i].getValue()),METHOD_INVOCATION, line no: 632, 0.2745098039215686, 0.8235294117647058, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,capabilities.setRequest((WMSRequest)value[i].getValue()),METHOD_INVOCATION, line no: 1455, 0.2745098039215686, 0.8235294117647058, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,capabilities.setExceptions((String[])value[i].getValue()),METHOD_INVOCATION, line no: 1459, 0.2745098039215686, 0.8235294117647058, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,request.setGetCapabilities((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1898, 0.2745098039215686, 0.8235294117647058, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,request.setGetMap((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1904, 0.2745098039215686, 0.8235294117647058, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,request.setGetFeatureInfo((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1909, 0.2745098039215686, 0.8235294117647058, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,request.setDescribeLayer((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1914, 0.2745098039215686, 0.8235294117647058, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,request.setGetLegendGraphic((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1919, 0.2745098039215686, 0.8235294117647058, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,request.setGetStyles((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1924, 0.2745098039215686, 0.8235294117647058, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,request.setPutStyles((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1930, 0.2745098039215686, 0.8235294117647058, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,operationType.setGet((URL)value[i].getValue()),METHOD_INVOCATION, line no: 2127, 0.2745098039215686, 0.8235294117647058, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,operationType.setPost((URL)value[i].getValue()),METHOD_INVOCATION, line no: 2131, 0.2745098039215686, 0.8235294117647058, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,layer.setName((String)value[i].getValue()),METHOD_INVOCATION, line no: 2605, 0.2745098039215686, 0.8235294117647058, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,layer.setTitle((String)value[i].getValue()),METHOD_INVOCATION, line no: 2609, 0.2745098039215686, 0.8235294117647058, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,layer.set_abstract((String)value[i].getValue()),METHOD_INVOCATION, line no: 2613, 0.2745098039215686, 0.8235294117647058, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,layer.setKeywords((String[])value[i].getValue()),METHOD_INVOCATION, line no: 2616, 0.2745098039215686, 0.8235294117647058, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,layer.setLatLonBoundingBox((CRSEnvelope)value[i].getValue()),METHOD_INVOCATION, line no: 2629, 0.2745098039215686, 0.8235294117647058, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,strings.add(value[i].getValue()),METHOD_INVOCATION, line no: 482, 0.2708333333333333, 0.8125, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,styles.add(value[i].getValue()),METHOD_INVOCATION, line no: 2672, 0.2708333333333333, 0.8125, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,((Service)value[i].getValue()),PARENTHESIZED_EXPRESSION, line no: 231, 0.26666666666666666, 0.8, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(Service)value[i].getValue(),CAST_EXPRESSION, line no: 231, 0.26666666666666666, 0.8, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(WMSCapabilities)value[i].getValue(),CAST_EXPRESSION, line no: 235, 0.26666666666666666, 0.8, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(ResponsiblePartyImpl)value[i].getValue(),CAST_EXPRESSION, line no: 636, 0.26666666666666666, 0.8, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(AddressImpl)value[i].getValue(),CAST_EXPRESSION, line no: 1079, 0.26666666666666666, 0.8, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(MetadataURL)value[i].getValue(),CAST_EXPRESSION, line no: 2661, 0.26666666666666666, 0.8, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,new Double((String)value[0].getValue()),CLASS_INSTANCE_CREATION, line no: 6591, 0.26666666666666666, 0.5333333333333333, 0.5
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(String)value[0].getValue(),CAST_EXPRESSION, line no: 6591, 0.26666666666666666, 0.5333333333333333, 0.5
+value[2],ARRAY_ACCESS, line no: 4173,service.setName((String)value[i].getValue()),METHOD_INVOCATION, line no: 615, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,service.setTitle((String)value[i].getValue()),METHOD_INVOCATION, line no: 619, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,service.set_abstract((String)value[i].getValue()),METHOD_INVOCATION, line no: 623, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,service.setKeywordList((String[])value[i].getValue()),METHOD_INVOCATION, line no: 628, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,service.setOnlineResource((URL)value[i].getValue()),METHOD_INVOCATION, line no: 632, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,capabilities.setRequest((WMSRequest)value[i].getValue()),METHOD_INVOCATION, line no: 1455, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,capabilities.setExceptions((String[])value[i].getValue()),METHOD_INVOCATION, line no: 1459, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,request.setGetCapabilities((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1898, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,request.setGetMap((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1904, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,request.setGetFeatureInfo((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1909, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,request.setDescribeLayer((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1914, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,request.setGetLegendGraphic((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1919, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,request.setGetStyles((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1924, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,request.setPutStyles((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1930, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,operationType.setGet((URL)value[i].getValue()),METHOD_INVOCATION, line no: 2127, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,operationType.setPost((URL)value[i].getValue()),METHOD_INVOCATION, line no: 2131, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,layer.setName((String)value[i].getValue()),METHOD_INVOCATION, line no: 2605, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,layer.setTitle((String)value[i].getValue()),METHOD_INVOCATION, line no: 2609, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,layer.set_abstract((String)value[i].getValue()),METHOD_INVOCATION, line no: 2613, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,layer.setKeywords((String[])value[i].getValue()),METHOD_INVOCATION, line no: 2616, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,layer.setLatLonBoundingBox((CRSEnvelope)value[i].getValue()),METHOD_INVOCATION, line no: 2629, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,strings.add(value[i].getValue()),METHOD_INVOCATION, line no: 482, 0.2549019607843137, 0.7647058823529411, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,styles.add(value[i].getValue()),METHOD_INVOCATION, line no: 2672, 0.2549019607843137, 0.7647058823529411, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[0] value[i]),METHOD_INVOCATION, line no: 133, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[1] value[i]),METHOD_INVOCATION, line no: 140, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[2] value[i]),METHOD_INVOCATION, line no: 622, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[3] value[i]) || sameName(elems[11] value[i]),INFIX_EXPRESSION, line no: 626, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[3] value[i]),METHOD_INVOCATION, line no: 626, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[11] value[i]),METHOD_INVOCATION, line no: 627, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[4] value[i]),METHOD_INVOCATION, line no: 631, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[5] value[i]),METHOD_INVOCATION, line no: 635, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[8] value[i]),METHOD_INVOCATION, line no: 648, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[9] value[i]),METHOD_INVOCATION, line no: 653, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[10] value[i]),METHOD_INVOCATION, line no: 658, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[0] value[i]) || sameName(elems[8] value[i]),INFIX_EXPRESSION, line no: 1896, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[1] value[i]) || sameName(elems[9] value[i]),INFIX_EXPRESSION, line no: 1902, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[2] value[i]) || sameName(elems[10] value[i]),INFIX_EXPRESSION, line no: 1907, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[6] value[i]),METHOD_INVOCATION, line no: 1929, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[4] value[i]) || sameName(elems[19] value[i]),INFIX_EXPRESSION, line no: 2619, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[19] value[i]),METHOD_INVOCATION, line no: 2620, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[5] value[i]) || sameName(elems[20] value[i]),INFIX_EXPRESSION, line no: 2627, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[20] value[i]),METHOD_INVOCATION, line no: 2628, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[7] value[i]),METHOD_INVOCATION, line no: 2639, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[12] value[i]),METHOD_INVOCATION, line no: 2660, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[15] value[i]),METHOD_INVOCATION, line no: 2671, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[16] value[i]),METHOD_INVOCATION, line no: 2674, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[17] value[i]),METHOD_INVOCATION, line no: 2678, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[18] value[i]),METHOD_INVOCATION, line no: 2682, 0.25, 1.0, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,sameName(elems[21] value[i]),METHOD_INVOCATION, line no: 2687, 0.25, 1.0, 0.25
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,operationType=(org.geotools.data.ows.OperationType)value[i].getValue(),ASSIGNMENT, line no: 141, 0.25, 0.75, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,service=((Service)value[i].getValue()),ASSIGNMENT, line no: 231, 0.25, 0.75, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,capabilities=(WMSCapabilities)value[i].getValue(),ASSIGNMENT, line no: 235, 0.25, 0.75, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,contactPerson=(ResponsiblePartyImpl)value[i].getValue(),ASSIGNMENT, line no: 1058, 0.25, 0.75, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,address=(AddressImpl)value[i].getValue(),ASSIGNMENT, line no: 1079, 0.25, 0.75, 0.3333333333333333
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"GIF",STRING_LITERAL, line no: 5043, 0.25, 0.25, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"JPEG",STRING_LITERAL, line no: 5130, 0.25, 0.25, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"PNG",STRING_LITERAL, line no: 5217, 0.25, 0.25, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"PPM",STRING_LITERAL, line no: 5304, 0.25, 0.25, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"TIFF",STRING_LITERAL, line no: 5391, 0.25, 0.25, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"GeoTIFF",STRING_LITERAL, line no: 5478, 0.25, 0.25, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"WebCGM",STRING_LITERAL, line no: 5565, 0.25, 0.25, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"SVG",STRING_LITERAL, line no: 5652, 0.25, 0.25, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"WMS_XML",STRING_LITERAL, line no: 5739, 0.25, 0.25, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"GML.1",STRING_LITERAL, line no: 5826, 0.25, 0.25, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"GML.2",STRING_LITERAL, line no: 5913, 0.25, 0.25, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"GML.3",STRING_LITERAL, line no: 6000, 0.25, 0.25, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"WBMP",STRING_LITERAL, line no: 6087, 0.25, 0.25, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"BMP",STRING_LITERAL, line no: 6174, 0.25, 0.25, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"MIME",STRING_LITERAL, line no: 6261, 0.25, 0.25, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"INIMAGE",STRING_LITERAL, line no: 6348, 0.25, 0.25, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"BLANK",STRING_LITERAL, line no: 6435, 0.25, 0.25, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"CW_WKB",STRING_LITERAL, line no: 6522, 0.25, 0.25, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,strings.add(value[i].getValue()),METHOD_INVOCATION, line no: 482, 0.24074074074074073, 0.7222222222222222, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,styles.add(value[i].getValue()),METHOD_INVOCATION, line no: 2672, 0.24074074074074073, 0.7222222222222222, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,operationType=(org.geotools.data.ows.OperationType)value[i].getValue(),ASSIGNMENT, line no: 141, 0.23529411764705882, 0.7058823529411765, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,service=((Service)value[i].getValue()),ASSIGNMENT, line no: 231, 0.23529411764705882, 0.7058823529411765, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,capabilities=(WMSCapabilities)value[i].getValue(),ASSIGNMENT, line no: 235, 0.23529411764705882, 0.7058823529411765, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,contactPerson=(ResponsiblePartyImpl)value[i].getValue(),ASSIGNMENT, line no: 1058, 0.23529411764705882, 0.7058823529411765, 0.3333333333333333
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,address=(AddressImpl)value[i].getValue(),ASSIGNMENT, line no: 1079, 0.23529411764705882, 0.7058823529411765, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,service.setName((String)value[i].getValue()),METHOD_INVOCATION, line no: 615, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,service.setTitle((String)value[i].getValue()),METHOD_INVOCATION, line no: 619, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,service.set_abstract((String)value[i].getValue()),METHOD_INVOCATION, line no: 623, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,service.setKeywordList((String[])value[i].getValue()),METHOD_INVOCATION, line no: 628, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,service.setOnlineResource((URL)value[i].getValue()),METHOD_INVOCATION, line no: 632, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,service.setLayerLimit(((Integer)value[i].getValue()).intValue()),METHOD_INVOCATION, line no: 649, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,service.setMaxWidth(((Integer)value[i].getValue()).intValue()),METHOD_INVOCATION, line no: 654, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,service.setMaxHeight(((Integer)value[i].getValue()).intValue()),METHOD_INVOCATION, line no: 659, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,capabilities.setRequest((WMSRequest)value[i].getValue()),METHOD_INVOCATION, line no: 1455, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,capabilities.setExceptions((String[])value[i].getValue()),METHOD_INVOCATION, line no: 1459, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,request.setGetCapabilities((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1898, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,request.setGetMap((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1904, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,request.setGetFeatureInfo((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1909, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,request.setDescribeLayer((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1914, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,request.setGetLegendGraphic((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1919, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,request.setGetStyles((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1924, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,request.setPutStyles((org.geotools.data.ows.OperationType)value[i].getValue()),METHOD_INVOCATION, line no: 1930, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,operationType.setGet((URL)value[i].getValue()),METHOD_INVOCATION, line no: 2127, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,operationType.setPost((URL)value[i].getValue()),METHOD_INVOCATION, line no: 2131, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,layer.setName((String)value[i].getValue()),METHOD_INVOCATION, line no: 2605, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,layer.setTitle((String)value[i].getValue()),METHOD_INVOCATION, line no: 2609, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,layer.set_abstract((String)value[i].getValue()),METHOD_INVOCATION, line no: 2613, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,layer.setKeywords((String[])value[i].getValue()),METHOD_INVOCATION, line no: 2616, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,layer.setLatLonBoundingBox((CRSEnvelope)value[i].getValue()),METHOD_INVOCATION, line no: 2629, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,bbox.setMinX(((Double)value[i].getValue()).doubleValue()),METHOD_INVOCATION, line no: 2827, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,bbox.setMaxX(((Double)value[i].getValue()).doubleValue()),METHOD_INVOCATION, line no: 2830, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,bbox.setMinY(((Double)value[i].getValue()).doubleValue()),METHOD_INVOCATION, line no: 2833, 0.23333333333333334, 0.9333333333333333, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,bbox.setMaxY(((Double)value[i].getValue()).doubleValue()),METHOD_INVOCATION, line no: 2836, 0.23333333333333334, 0.9333333333333333, 0.25
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,keywords[i]=(String)value[i].getValue(),ASSIGNMENT, line no: 759, 0.22916666666666666, 0.6875, 0.3333333333333333
 String,SIMPLE_NAME, line no: 4173,WMS1_0_0.toFormatMIME("GIF"),METHOD_INVOCATION, line no: 5043, 0.2222222222222222, 0.2222222222222222, 1.0
 String,SIMPLE_NAME, line no: 4173,"GIF",STRING_LITERAL, line no: 5043, 0.2222222222222222, 0.2222222222222222, 1.0
 String,SIMPLE_NAME, line no: 4173,WMS1_0_0.toFormatMIME("JPEG"),METHOD_INVOCATION, line no: 5130, 0.2222222222222222, 0.2222222222222222, 1.0
@@ -325,10 +895,39 @@ String,SIMPLE_NAME, line no: 4173,WMS1_0_0.toFormatMIME("BLANK"),METHOD_INVOCATI
 String,SIMPLE_NAME, line no: 4173,"BLANK",STRING_LITERAL, line no: 6435, 0.2222222222222222, 0.2222222222222222, 1.0
 String,SIMPLE_NAME, line no: 4173,WMS1_0_0.toFormatMIME("CW_WKB"),METHOD_INVOCATION, line no: 6522, 0.2222222222222222, 0.2222222222222222, 1.0
 String,SIMPLE_NAME, line no: 4173,"CW_WKB",STRING_LITERAL, line no: 6522, 0.2222222222222222, 0.2222222222222222, 1.0
+value[2],ARRAY_ACCESS, line no: 4173,operationType=(org.geotools.data.ows.OperationType)value[i].getValue(),ASSIGNMENT, line no: 141, 0.2222222222222222, 0.6666666666666666, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,service=((Service)value[i].getValue()),ASSIGNMENT, line no: 231, 0.2222222222222222, 0.6666666666666666, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,capabilities=(WMSCapabilities)value[i].getValue(),ASSIGNMENT, line no: 235, 0.2222222222222222, 0.6666666666666666, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,keywords[i]=(String)value[i].getValue(),ASSIGNMENT, line no: 759, 0.2222222222222222, 0.6666666666666666, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,contactPerson=(ResponsiblePartyImpl)value[i].getValue(),ASSIGNMENT, line no: 1058, 0.2222222222222222, 0.6666666666666666, 0.3333333333333333
+value[2],ARRAY_ACCESS, line no: 4173,address=(AddressImpl)value[i].getValue(),ASSIGNMENT, line no: 1079, 0.2222222222222222, 0.6666666666666666, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,strings.add(value[i].getValue()),METHOD_INVOCATION, line no: 482, 0.21666666666666667, 0.8666666666666667, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,styles.add(value[i].getValue()),METHOD_INVOCATION, line no: 2672, 0.21666666666666667, 0.8666666666666667, 0.25
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,keywords[i]=(String)value[i].getValue(),ASSIGNMENT, line no: 759, 0.21568627450980393, 0.6470588235294118, 0.3333333333333333
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,operationType=(org.geotools.data.ows.OperationType)value[i].getValue(),ASSIGNMENT, line no: 141, 0.2, 0.8, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,service=((Service)value[i].getValue()),ASSIGNMENT, line no: 231, 0.2, 0.8, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,capabilities=(WMSCapabilities)value[i].getValue(),ASSIGNMENT, line no: 235, 0.2, 0.8, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,contactPerson=(ResponsiblePartyImpl)value[i].getValue(),ASSIGNMENT, line no: 1058, 0.2, 0.8, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,address=(AddressImpl)value[i].getValue(),ASSIGNMENT, line no: 1079, 0.2, 0.8, 0.25
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,keywords[i]=(String)value[i].getValue(),ASSIGNMENT, line no: 759, 0.18333333333333332, 0.7333333333333333, 0.25
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,(Extent)_ExtentType.instance.getValue(element value attrs hints),CAST_EXPRESSION, line no: 3211, 0.17647058823529413, 0.8823529411764706, 0.2
+value[2].getValue(),METHOD_INVOCATION, line no: 4173,_ExtentType.instance.getValue(element value attrs hints),METHOD_INVOCATION, line no: 3211, 0.17647058823529413, 0.8823529411764706, 0.2
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,(Extent)_ExtentType.instance.getValue(element value attrs hints),CAST_EXPRESSION, line no: 3211, 0.17500000000000002, 0.875, 0.2
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,_ExtentType.instance.getValue(element value attrs hints),METHOD_INVOCATION, line no: 3211, 0.17500000000000002, 0.875, 0.2
+value[2],ARRAY_ACCESS, line no: 4173,(Extent)_ExtentType.instance.getValue(element value attrs hints),CAST_EXPRESSION, line no: 3211, 0.16666666666666669, 0.8333333333333334, 0.2
+value[2],ARRAY_ACCESS, line no: 4173,_ExtentType.instance.getValue(element value attrs hints),METHOD_INVOCATION, line no: 3211, 0.16666666666666669, 0.8333333333333334, 0.2
 2,NUMBER_LITERAL, line no: 4173,RESTRICTION,SIMPLE_NAME, line no: 6577, 0.15789473684210525, 0.15789473684210525, 1.0
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,(Extent)_ExtentType.instance.getValue(element value attrs hints),CAST_EXPRESSION, line no: 3211, 0.14444444444444443, 0.8666666666666667, 0.16666666666666666
+legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,_ExtentType.instance.getValue(element value attrs hints),METHOD_INVOCATION, line no: 3211, 0.14444444444444443, 0.8666666666666667, 0.16666666666666666
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"Bounding Box element contains no CRS/SRS attribute",STRING_LITERAL, line no: 3065, 0.125, 0.125, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"Dimension element contains no 'name' attribute",STRING_LITERAL, line no: 3189, 0.125, 0.125, 1.0
+(String)value[2].getValue(),CAST_EXPRESSION, line no: 4173,"Dimension element contains no 'units' attribute",STRING_LITERAL, line no: 3195, 0.125, 0.125, 1.0
 String,SIMPLE_NAME, line no: 4173,"Bounding Box element contains no CRS/SRS attribute",STRING_LITERAL, line no: 3065, 0.1111111111111111, 0.1111111111111111, 1.0
 String,SIMPLE_NAME, line no: 4173,"Dimension element contains no 'name' attribute",STRING_LITERAL, line no: 3189, 0.1111111111111111, 0.1111111111111111, 1.0
 String,SIMPLE_NAME, line no: 4173,"Dimension element contains no 'units' attribute",STRING_LITERAL, line no: 3195, 0.1111111111111111, 0.1111111111111111, 1.0
+2,NUMBER_LITERAL, line no: 4173,13,NUMBER_LITERAL, line no: 2544, 0.10526315789473684, 0.10526315789473684, 1.0
+2,NUMBER_LITERAL, line no: 4173,14,NUMBER_LITERAL, line no: 2545, 0.10526315789473684, 0.10526315789473684, 1.0
+2,NUMBER_LITERAL, line no: 4173,Schema.RESTRICTION,QUALIFIED_NAME, line no: 6577, 0.10526315789473684, 0.10526315789473684, 1.0
 legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,canEncode,SIMPLE_NAME, line no: 158, 0.06666666666666667, 0.06666666666666667, 1.0
 legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,isMixed,SIMPLE_NAME, line no: 528, 0.06666666666666667, 0.06666666666666667, 1.0
 legendURLS.add((String)value[2].getValue()),METHOD_INVOCATION, line no: 4173,isAbstract,SIMPLE_NAME, line no: 1730, 0.06666666666666667, 0.06666666666666667, 1.0

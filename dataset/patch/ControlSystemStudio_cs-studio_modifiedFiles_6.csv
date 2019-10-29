@@ -21,7 +21,9 @@ localStart,SIMPLE_NAME, line no: 22,preMatcher.start(),METHOD_INVOCATION, line n
 start,SIMPLE_NAME, line no: 22,localStart=preMatcher.start(),ASSIGNMENT, line no: 22, 0.9877300613496932, 0.9877300613496932, 1.0
 start,SIMPLE_NAME, line no: 22,length,SIMPLE_NAME, line no: 29, 0.9877300613496932, 0.6625766871165644, 1.0
 localStart,SIMPLE_NAME, line no: 22,length,SIMPLE_NAME, line no: 29, 0.9876543209876543, 0.6666666666666666, 1.0
+preMatcher.start(),METHOD_INVOCATION, line no: 22,1,NUMBER_LITERAL, line no: 24, 0.9876543209876543, 0.9876543209876543, 1.0
 preMatcher.start(),METHOD_INVOCATION, line no: 22,length,SIMPLE_NAME, line no: 29, 0.9876543209876543, 0.6666666666666666, 1.0
+localStart=preMatcher.start(),ASSIGNMENT, line no: 22,1,NUMBER_LITERAL, line no: 24, 0.9875776397515528, 0.9875776397515528, 1.0
 localStart=preMatcher.start(),ASSIGNMENT, line no: 22,length,SIMPLE_NAME, line no: 29, 0.9875776397515528, 0.6708074534161491, 1.0
 start,SIMPLE_NAME, line no: 22,localStart + 1,INFIX_EXPRESSION, line no: 24, 0.9815950920245399, 0.9815950920245399, 1.0
 start,SIMPLE_NAME, line no: 22,1,NUMBER_LITERAL, line no: 24, 0.9815950920245399, 0.9815950920245399, 1.0
@@ -39,8 +41,10 @@ preMatcher,SIMPLE_NAME, line no: 22,matcher.region(startIndex end),METHOD_INVOCA
 start,SIMPLE_NAME, line no: 22,localStart=end,ASSIGNMENT, line no: 32, 0.8343558282208589, 0.10429447852760736, 1.0
 localStart,SIMPLE_NAME, line no: 22,postMatcher.end(),METHOD_INVOCATION, line no: 25, 0.8333333333333334, 0.8333333333333334, 1.0
 start,SIMPLE_NAME, line no: 22,postMatcher.end(),METHOD_INVOCATION, line no: 25, 0.8282208588957055, 0.8282208588957055, 1.0
+localStart=preMatcher.start(),ASSIGNMENT, line no: 22,2,NUMBER_LITERAL, line no: 37, 0.6708074534161491, 0.6708074534161491, 1.0
 localStart,SIMPLE_NAME, line no: 22,2,NUMBER_LITERAL, line no: 37, 0.6666666666666666, 0.6666666666666666, 1.0
 localStart,SIMPLE_NAME, line no: 22,body.length(),METHOD_INVOCATION, line no: 37, 0.6666666666666666, 0.6604938271604939, 1.0
+preMatcher.start(),METHOD_INVOCATION, line no: 22,2,NUMBER_LITERAL, line no: 37, 0.6666666666666666, 0.6666666666666666, 1.0
 localStart=preMatcher.start(),ASSIGNMENT, line no: 22,_startOffSet,SIMPLE_NAME, line no: 36, 0.6645962732919255, 0.6645962732919255, 1.0
 localStart=preMatcher.start(),ASSIGNMENT, line no: 22,_endOffSet,SIMPLE_NAME, line no: 37, 0.6645962732919255, 0.6645962732919255, 1.0
 localStart=preMatcher.start(),ASSIGNMENT, line no: 22,getStartOffsetLastFound,SIMPLE_NAME, line no: 41, 0.6645962732919255, 0.6645962732919255, 1.0
@@ -85,9 +89,11 @@ localStart=preMatcher.start(),ASSIGNMENT, line no: 22,preMatcher.start(),METHOD_
 preMatcher.start(),METHOD_INVOCATION, line no: 22,preMatcher.find(localStart),METHOD_INVOCATION, line no: 21, 0.5, 1.0, 0.5
 preMatcher.start(),METHOD_INVOCATION, line no: 22,localStart=preMatcher.start(),ASSIGNMENT, line no: 22, 0.49691358024691357, 0.9938271604938271, 0.5
 localStart=preMatcher.start(),ASSIGNMENT, line no: 22,localStart + 1,INFIX_EXPRESSION, line no: 24, 0.4937888198757764, 0.9875776397515528, 0.5
-localStart=preMatcher.start(),ASSIGNMENT, line no: 22,localStart > input.length(),INFIX_EXPRESSION, line no: 46, 0.4937888198757764, 0.84472049689441, 0.5
 localStart=preMatcher.start(),ASSIGNMENT, line no: 22,postMatcher.find(localStart + 1),METHOD_INVOCATION, line no: 24, 0.3291925465838509, 0.9875776397515528, 0.3333333333333333
+localStart=preMatcher.start(),ASSIGNMENT, line no: 22,localStart > input.length(),INFIX_EXPRESSION, line no: 46, 0.3291925465838509, 0.84472049689441, 0.3333333333333333
 localStart=preMatcher.start(),ASSIGNMENT, line no: 22,localStart=end,ASSIGNMENT, line no: 32, 0.2815734989648033, 0.10559006211180125, 0.3333333333333333
+localStart=preMatcher.start(),ASSIGNMENT, line no: 22,0,NUMBER_LITERAL, line no: 60, 0.17391304347826086, 0.17391304347826086, 1.0
 localStart,SIMPLE_NAME, line no: 22,0,NUMBER_LITERAL, line no: 60, 0.1728395061728395, 0.1728395061728395, 1.0
+preMatcher.start(),METHOD_INVOCATION, line no: 22,0,NUMBER_LITERAL, line no: 60, 0.1728395061728395, 0.1728395061728395, 1.0
 start,SIMPLE_NAME, line no: 22,0,NUMBER_LITERAL, line no: 60, 0.17177914110429449, 0.17177914110429449, 1.0
 preMatcher,SIMPLE_NAME, line no: 22,mainMatcher,SIMPLE_NAME, line no: 87, 0.006134969325153374, 0.006134969325153374, 1.0

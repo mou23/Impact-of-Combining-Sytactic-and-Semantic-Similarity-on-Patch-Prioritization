@@ -1,13 +1,12 @@
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,String,SIMPLE_NAME, line no: 26, 1.0, 0.06666666666666667, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path,SIMPLE_NAME, line no: 31, 1.0, 0.06666666666666667, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,toString,SIMPLE_NAME, line no: 80, 1.0, 0.7333333333333333, 1.0
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path == null,INFIX_EXPRESSION, line no: 107, 1.0, 0.9333333333333333, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,segment,SIMPLE_NAME, line no: 108, 1.0, 1.0, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,substring,SIMPLE_NAME, line no: 113, 1.0, 0.8666666666666667, 1.0
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path.lastIndexOf('/'),METHOD_INVOCATION, line no: 176, 1.0, 0.7333333333333333, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,";",STRING_LITERAL, line no: 169, 1.0, 0.8666666666666667, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,name,SIMPLE_NAME, line no: 208, 1.0, 0.06666666666666667, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,param,SIMPLE_NAME, line no: 266, 1.0, 0.8, 1.0
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,PathHelper.URI_TEMPLATE_PATTERN.matcher(path),METHOD_INVOCATION, line no: 382, 1.0, 1.0, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,"=",STRING_LITERAL, line no: 366, 1.0, 0.8666666666666667, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,matrixParams,SIMPLE_NAME, line no: 402, 1.0, 1.0, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,theName,SIMPLE_NAME, line no: 412, 1.0, 0.8, 1.0
 path,SIMPLE_NAME, line no: 427,String,SIMPLE_NAME, line no: 26, 1.0, 0.0625, 1.0
@@ -28,17 +27,25 @@ path,SIMPLE_NAME, line no: 427,theName,SIMPLE_NAME, line no: 412, 1.0, 0.8125, 1
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,path,SIMPLE_NAME, line no: 31, 1.0, 0.0625, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,toString,SIMPLE_NAME, line no: 80, 1.0, 0.75, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,substring,SIMPLE_NAME, line no: 113, 1.0, 0.8125, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,";",STRING_LITERAL, line no: 169, 1.0, 0.875, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,name,SIMPLE_NAME, line no: 208, 1.0, 0.0625, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,param,SIMPLE_NAME, line no: 266, 1.0, 0.75, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,"=",STRING_LITERAL, line no: 366, 1.0, 0.875, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,matrixParams,SIMPLE_NAME, line no: 402, 1.0, 1.0, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,theName,SIMPLE_NAME, line no: 412, 1.0, 0.75, 1.0
 ";",STRING_LITERAL, line no: 427,String,SIMPLE_NAME, line no: 26, 1.0, 0.058823529411764705, 1.0
 ";",STRING_LITERAL, line no: 427,path,SIMPLE_NAME, line no: 31, 1.0, 0.058823529411764705, 1.0
 ";",STRING_LITERAL, line no: 427,toString,SIMPLE_NAME, line no: 80, 1.0, 0.7058823529411765, 1.0
 ";",STRING_LITERAL, line no: 427,substring,SIMPLE_NAME, line no: 113, 1.0, 0.8235294117647058, 1.0
+";",STRING_LITERAL, line no: 427,path.substring(0 matrixIndex),METHOD_INVOCATION, line no: 179, 1.0, 0.7058823529411765, 1.0
 ";",STRING_LITERAL, line no: 427,name,SIMPLE_NAME, line no: 208, 1.0, 0.058823529411764705, 1.0
 ";",STRING_LITERAL, line no: 427,param,SIMPLE_NAME, line no: 266, 1.0, 0.7058823529411765, 1.0
+";",STRING_LITERAL, line no: 427,"=",STRING_LITERAL, line no: 366, 1.0, 0.8823529411764706, 1.0
+";",STRING_LITERAL, line no: 427,path=newSegment.toString(),ASSIGNMENT, line no: 392, 1.0, 1.0, 1.0
+";",STRING_LITERAL, line no: 427,newSegment.toString(),METHOD_INVOCATION, line no: 392, 1.0, 1.0, 1.0
 ";",STRING_LITERAL, line no: 427,matrixParams,SIMPLE_NAME, line no: 402, 1.0, 1.0, 1.0
+";",STRING_LITERAL, line no: 427,path.substring(matrixIndex + 1),METHOD_INVOCATION, line no: 402, 1.0, 1.0, 1.0
+";",STRING_LITERAL, line no: 427,path=path.substring(0 matrixIndex),ASSIGNMENT, line no: 403, 1.0, 1.0, 1.0
 ";",STRING_LITERAL, line no: 427,theName,SIMPLE_NAME, line no: 412, 1.0, 0.7058823529411765, 1.0
 name,SIMPLE_NAME, line no: 427,String,SIMPLE_NAME, line no: 26, 1.0, 0.058823529411764705, 1.0
 name,SIMPLE_NAME, line no: 427,path,SIMPLE_NAME, line no: 31, 1.0, 0.058823529411764705, 1.0
@@ -57,14 +64,21 @@ name,SIMPLE_NAME, line no: 427,theName,SIMPLE_NAME, line no: 412, 1.0, 0.7647058
 "=",STRING_LITERAL, line no: 427,path,SIMPLE_NAME, line no: 31, 1.0, 0.058823529411764705, 1.0
 "=",STRING_LITERAL, line no: 427,toString,SIMPLE_NAME, line no: 80, 1.0, 0.7058823529411765, 1.0
 "=",STRING_LITERAL, line no: 427,substring,SIMPLE_NAME, line no: 113, 1.0, 0.8235294117647058, 1.0
+"=",STRING_LITERAL, line no: 427,";",STRING_LITERAL, line no: 169, 1.0, 0.8823529411764706, 1.0
+"=",STRING_LITERAL, line no: 427,path.substring(0 matrixIndex),METHOD_INVOCATION, line no: 179, 1.0, 0.7058823529411765, 1.0
 "=",STRING_LITERAL, line no: 427,name,SIMPLE_NAME, line no: 208, 1.0, 0.058823529411764705, 1.0
 "=",STRING_LITERAL, line no: 427,param,SIMPLE_NAME, line no: 266, 1.0, 0.7058823529411765, 1.0
+"=",STRING_LITERAL, line no: 427,path=newSegment.toString(),ASSIGNMENT, line no: 392, 1.0, 1.0, 1.0
+"=",STRING_LITERAL, line no: 427,newSegment.toString(),METHOD_INVOCATION, line no: 392, 1.0, 1.0, 1.0
 "=",STRING_LITERAL, line no: 427,matrixParams,SIMPLE_NAME, line no: 402, 1.0, 1.0, 1.0
+"=",STRING_LITERAL, line no: 427,path.substring(matrixIndex + 1),METHOD_INVOCATION, line no: 402, 1.0, 1.0, 1.0
+"=",STRING_LITERAL, line no: 427,path=path.substring(0 matrixIndex),ASSIGNMENT, line no: 403, 1.0, 1.0, 1.0
 "=",STRING_LITERAL, line no: 427,theName,SIMPLE_NAME, line no: 412, 1.0, 0.7058823529411765, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,String,SIMPLE_NAME, line no: 26, 1.0, 0.058823529411764705, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,path,SIMPLE_NAME, line no: 31, 1.0, 0.058823529411764705, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,toString,SIMPLE_NAME, line no: 80, 1.0, 0.7647058823529411, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,substring,SIMPLE_NAME, line no: 113, 1.0, 0.8235294117647058, 1.0
+val.toString(),METHOD_INVOCATION, line no: 427,";",STRING_LITERAL, line no: 169, 1.0, 0.8823529411764706, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,name,SIMPLE_NAME, line no: 208, 1.0, 0.058823529411764705, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,param,SIMPLE_NAME, line no: 266, 1.0, 0.7647058823529411, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,matrixParams,SIMPLE_NAME, line no: 402, 1.0, 1.0, 1.0
@@ -107,10 +121,27 @@ toString,SIMPLE_NAME, line no: 427,query+=nv[0] + "=" + nv[1],ASSIGNMENT, line n
 toString,SIMPLE_NAME, line no: 427,nv[0] + "=" + nv[1],INFIX_EXPRESSION, line no: 481, 0.9444444444444444, 0.9444444444444444, 1.0
 toString,SIMPLE_NAME, line no: 427,nv[1],ARRAY_ACCESS, line no: 481, 0.9444444444444444, 0.9444444444444444, 1.0
 ";",STRING_LITERAL, line no: 427,query,SIMPLE_NAME, line no: 32, 0.9411764705882353, 0.058823529411764705, 1.0
+";",STRING_LITERAL, line no: 427,"",STRING_LITERAL, line no: 57, 0.9411764705882353, 0.8235294117647058, 1.0
+";",STRING_LITERAL, line no: 427,path="",ASSIGNMENT, line no: 107, 0.9411764705882353, 0.8823529411764706, 1.0
 ";",STRING_LITERAL, line no: 427,segment,SIMPLE_NAME, line no: 108, 0.9411764705882353, 0.9411764705882353, 1.0
 ";",STRING_LITERAL, line no: 427,encodeSegment,SIMPLE_NAME, line no: 196, 0.9411764705882353, 0.5294117647058824, 1.0
+";",STRING_LITERAL, line no: 427,value.toString(),METHOD_INVOCATION, line no: 213, 0.9411764705882353, 0.5294117647058824, 1.0
+";",STRING_LITERAL, line no: 427,val.toString(),METHOD_INVOCATION, line no: 355, 0.9411764705882353, 0.6470588235294118, 1.0
+";",STRING_LITERAL, line no: 427,Encode.encodeSegment(name false),METHOD_INVOCATION, line no: 366, 0.9411764705882353, 0.8235294117647058, 1.0
+";",STRING_LITERAL, line no: 427,";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427, 0.9411764705882353, 0.9411764705882353, 1.0
+";",STRING_LITERAL, line no: 427,query="",ASSIGNMENT, line no: 454, 0.9411764705882353, 0.9411764705882353, 1.0
+";",STRING_LITERAL, line no: 427,query+="&",ASSIGNMENT, line no: 455, 0.9411764705882353, 0.9411764705882353, 1.0
+";",STRING_LITERAL, line no: 427,"&",STRING_LITERAL, line no: 455, 0.9411764705882353, 0.9411764705882353, 1.0
+";",STRING_LITERAL, line no: 427,query+=Encode.encodeSegment(name false) + "=" + Encode.encodeSegment(value.toString() true),ASSIGNMENT, line no: 456, 0.9411764705882353, 0.9411764705882353, 1.0
+";",STRING_LITERAL, line no: 427,Encode.encodeSegment(name false) + "=" + Encode.encodeSegment(value.toString() true),INFIX_EXPRESSION, line no: 456, 0.9411764705882353, 0.9411764705882353, 1.0
+";",STRING_LITERAL, line no: 427,Encode.encodeSegment(value.toString() true),METHOD_INVOCATION, line no: 456, 0.9411764705882353, 0.9411764705882353, 1.0
+";",STRING_LITERAL, line no: 427,query=null,ASSIGNMENT, line no: 467, 0.9411764705882353, 0.9411764705882353, 1.0
 ";",STRING_LITERAL, line no: 427,replacedName,SIMPLE_NAME, line no: 469, 0.9411764705882353, 0.9411764705882353, 1.0
 ";",STRING_LITERAL, line no: 427,paramName,SIMPLE_NAME, line no: 476, 0.9411764705882353, 0.9411764705882353, 1.0
+";",STRING_LITERAL, line no: 427,nv[0],ARRAY_ACCESS, line no: 476, 0.9411764705882353, 0.9411764705882353, 1.0
+";",STRING_LITERAL, line no: 427,query+=nv[0] + "=" + nv[1],ASSIGNMENT, line no: 481, 0.9411764705882353, 0.9411764705882353, 1.0
+";",STRING_LITERAL, line no: 427,nv[0] + "=" + nv[1],INFIX_EXPRESSION, line no: 481, 0.9411764705882353, 0.9411764705882353, 1.0
+";",STRING_LITERAL, line no: 427,nv[1],ARRAY_ACCESS, line no: 481, 0.9411764705882353, 0.9411764705882353, 1.0
 name,SIMPLE_NAME, line no: 427,query,SIMPLE_NAME, line no: 32, 0.9411764705882353, 0.058823529411764705, 1.0
 name,SIMPLE_NAME, line no: 427,"",STRING_LITERAL, line no: 57, 0.9411764705882353, 0.8823529411764706, 1.0
 name,SIMPLE_NAME, line no: 427,path="",ASSIGNMENT, line no: 107, 0.9411764705882353, 0.8823529411764706, 1.0
@@ -135,13 +166,33 @@ name,SIMPLE_NAME, line no: 427,query+=nv[0] + "=" + nv[1],ASSIGNMENT, line no: 4
 name,SIMPLE_NAME, line no: 427,nv[0] + "=" + nv[1],INFIX_EXPRESSION, line no: 481, 0.9411764705882353, 0.9411764705882353, 1.0
 name,SIMPLE_NAME, line no: 427,nv[1],ARRAY_ACCESS, line no: 481, 0.9411764705882353, 0.9411764705882353, 1.0
 "=",STRING_LITERAL, line no: 427,query,SIMPLE_NAME, line no: 32, 0.9411764705882353, 0.058823529411764705, 1.0
+"=",STRING_LITERAL, line no: 427,"",STRING_LITERAL, line no: 57, 0.9411764705882353, 0.8235294117647058, 1.0
+"=",STRING_LITERAL, line no: 427,path="",ASSIGNMENT, line no: 107, 0.9411764705882353, 0.8823529411764706, 1.0
 "=",STRING_LITERAL, line no: 427,segment,SIMPLE_NAME, line no: 108, 0.9411764705882353, 0.9411764705882353, 1.0
 "=",STRING_LITERAL, line no: 427,encodeSegment,SIMPLE_NAME, line no: 196, 0.9411764705882353, 0.5294117647058824, 1.0
+"=",STRING_LITERAL, line no: 427,value.toString(),METHOD_INVOCATION, line no: 213, 0.9411764705882353, 0.5294117647058824, 1.0
+"=",STRING_LITERAL, line no: 427,val.toString(),METHOD_INVOCATION, line no: 355, 0.9411764705882353, 0.6470588235294118, 1.0
+"=",STRING_LITERAL, line no: 427,Encode.encodeSegment(name false),METHOD_INVOCATION, line no: 366, 0.9411764705882353, 0.8235294117647058, 1.0
+"=",STRING_LITERAL, line no: 427,";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427, 0.9411764705882353, 0.9411764705882353, 1.0
+"=",STRING_LITERAL, line no: 427,query="",ASSIGNMENT, line no: 454, 0.9411764705882353, 0.9411764705882353, 1.0
+"=",STRING_LITERAL, line no: 427,query+="&",ASSIGNMENT, line no: 455, 0.9411764705882353, 0.9411764705882353, 1.0
+"=",STRING_LITERAL, line no: 427,"&",STRING_LITERAL, line no: 455, 0.9411764705882353, 0.9411764705882353, 1.0
+"=",STRING_LITERAL, line no: 427,query+=Encode.encodeSegment(name false) + "=" + Encode.encodeSegment(value.toString() true),ASSIGNMENT, line no: 456, 0.9411764705882353, 0.9411764705882353, 1.0
+"=",STRING_LITERAL, line no: 427,Encode.encodeSegment(name false) + "=" + Encode.encodeSegment(value.toString() true),INFIX_EXPRESSION, line no: 456, 0.9411764705882353, 0.9411764705882353, 1.0
+"=",STRING_LITERAL, line no: 427,Encode.encodeSegment(value.toString() true),METHOD_INVOCATION, line no: 456, 0.9411764705882353, 0.9411764705882353, 1.0
+"=",STRING_LITERAL, line no: 427,query=null,ASSIGNMENT, line no: 467, 0.9411764705882353, 0.9411764705882353, 1.0
 "=",STRING_LITERAL, line no: 427,replacedName,SIMPLE_NAME, line no: 469, 0.9411764705882353, 0.9411764705882353, 1.0
 "=",STRING_LITERAL, line no: 427,paramName,SIMPLE_NAME, line no: 476, 0.9411764705882353, 0.9411764705882353, 1.0
+"=",STRING_LITERAL, line no: 427,nv[0],ARRAY_ACCESS, line no: 476, 0.9411764705882353, 0.9411764705882353, 1.0
+"=",STRING_LITERAL, line no: 427,query+=nv[0] + "=" + nv[1],ASSIGNMENT, line no: 481, 0.9411764705882353, 0.9411764705882353, 1.0
+"=",STRING_LITERAL, line no: 427,nv[0] + "=" + nv[1],INFIX_EXPRESSION, line no: 481, 0.9411764705882353, 0.9411764705882353, 1.0
+"=",STRING_LITERAL, line no: 427,nv[1],ARRAY_ACCESS, line no: 481, 0.9411764705882353, 0.9411764705882353, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,query,SIMPLE_NAME, line no: 32, 0.9411764705882353, 0.058823529411764705, 1.0
+val.toString(),METHOD_INVOCATION, line no: 427,"",STRING_LITERAL, line no: 57, 0.9411764705882353, 0.8823529411764706, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,segment,SIMPLE_NAME, line no: 108, 0.9411764705882353, 0.9411764705882353, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,encodeSegment,SIMPLE_NAME, line no: 196, 0.9411764705882353, 0.5882352941176471, 1.0
+val.toString(),METHOD_INVOCATION, line no: 427,"=",STRING_LITERAL, line no: 366, 0.9411764705882353, 0.8823529411764706, 1.0
+val.toString(),METHOD_INVOCATION, line no: 427,"&",STRING_LITERAL, line no: 455, 0.9411764705882353, 0.9411764705882353, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,replacedName,SIMPLE_NAME, line no: 469, 0.9411764705882353, 0.9411764705882353, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,paramName,SIMPLE_NAME, line no: 476, 0.9411764705882353, 0.9411764705882353, 1.0
 path,SIMPLE_NAME, line no: 427,query,SIMPLE_NAME, line no: 32, 0.9375, 0.0625, 1.0
@@ -170,14 +221,19 @@ path,SIMPLE_NAME, line no: 427,nv[0] + "=" + nv[1],INFIX_EXPRESSION, line no: 48
 path,SIMPLE_NAME, line no: 427,nv[1],ARRAY_ACCESS, line no: 481, 0.9375, 0.9375, 1.0
 path,SIMPLE_NAME, line no: 427,query+=param,ASSIGNMENT, line no: 489, 0.9375, 0.9375, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,query,SIMPLE_NAME, line no: 32, 0.9375, 0.0625, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,"",STRING_LITERAL, line no: 57, 0.9375, 0.875, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,segment,SIMPLE_NAME, line no: 108, 0.9375, 0.9375, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,encodeSegment,SIMPLE_NAME, line no: 196, 0.9375, 0.5625, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,Encode.encodeSegment(name false),METHOD_INVOCATION, line no: 366, 0.9375, 0.875, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,"&",STRING_LITERAL, line no: 455, 0.9375, 0.9375, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,Encode.encodeSegment(name false) + "=" + Encode.encodeSegment(value.toString() true),INFIX_EXPRESSION, line no: 456, 0.9375, 0.9375, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,replacedName,SIMPLE_NAME, line no: 469, 0.9375, 0.9375, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,paramName,SIMPLE_NAME, line no: 476, 0.9375, 0.9375, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,query,SIMPLE_NAME, line no: 32, 0.9333333333333333, 0.06666666666666667, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,"",STRING_LITERAL, line no: 57, 0.9333333333333333, 0.8666666666666667, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,basePath,SIMPLE_NAME, line no: 104, 0.9333333333333333, 0.06666666666666667, 1.0
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path="",ASSIGNMENT, line no: 107, 0.9333333333333333, 0.9333333333333333, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,encodeSegment,SIMPLE_NAME, line no: 196, 0.9333333333333333, 0.6, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,"&",STRING_LITERAL, line no: 455, 0.9333333333333333, 0.9333333333333333, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,replacedName,SIMPLE_NAME, line no: 469, 0.9333333333333333, 0.9333333333333333, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,paramName,SIMPLE_NAME, line no: 476, 0.9333333333333333, 0.9333333333333333, 1.0
 toString,SIMPLE_NAME, line no: 427,basePath,SIMPLE_NAME, line no: 104, 0.8888888888888888, 0.05555555555555555, 1.0
@@ -195,7 +251,10 @@ toString,SIMPLE_NAME, line no: 427,";" + name + "="+ val.toString(),INFIX_EXPRES
 ";",STRING_LITERAL, line no: 427,basePath,SIMPLE_NAME, line no: 104, 0.8823529411764706, 0.058823529411764705, 1.0
 ";",STRING_LITERAL, line no: 427,value,SIMPLE_NAME, line no: 134, 0.8823529411764706, 0.47058823529411764, 1.0
 ";",STRING_LITERAL, line no: 427,string,SIMPLE_NAME, line no: 261, 0.8823529411764706, 0.058823529411764705, 1.0
+";",STRING_LITERAL, line no: 427,matcher.group(1),METHOD_INVOCATION, line no: 266, 0.8823529411764706, 0.7058823529411765, 1.0
 ";",STRING_LITERAL, line no: 427,group,SIMPLE_NAME, line no: 266, 0.8823529411764706, 0.7058823529411765, 1.0
+";",STRING_LITERAL, line no: 427,paramMap.get(param).toString(),METHOD_INVOCATION, line no: 283, 0.8823529411764706, 0.8823529411764706, 1.0
+";",STRING_LITERAL, line no: 427,path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427, 0.8823529411764706, 0.8823529411764706, 1.0
 name,SIMPLE_NAME, line no: 427,basePath,SIMPLE_NAME, line no: 104, 0.8823529411764706, 0.058823529411764705, 1.0
 name,SIMPLE_NAME, line no: 427,value,SIMPLE_NAME, line no: 134, 0.8823529411764706, 0.5294117647058824, 1.0
 name,SIMPLE_NAME, line no: 427,matrix,SIMPLE_NAME, line no: 166, 0.8823529411764706, 0.058823529411764705, 1.0
@@ -212,7 +271,10 @@ name,SIMPLE_NAME, line no: 427,query+=param,ASSIGNMENT, line no: 489, 0.88235294
 "=",STRING_LITERAL, line no: 427,basePath,SIMPLE_NAME, line no: 104, 0.8823529411764706, 0.058823529411764705, 1.0
 "=",STRING_LITERAL, line no: 427,value,SIMPLE_NAME, line no: 134, 0.8823529411764706, 0.47058823529411764, 1.0
 "=",STRING_LITERAL, line no: 427,string,SIMPLE_NAME, line no: 261, 0.8823529411764706, 0.058823529411764705, 1.0
+"=",STRING_LITERAL, line no: 427,matcher.group(1),METHOD_INVOCATION, line no: 266, 0.8823529411764706, 0.7058823529411765, 1.0
 "=",STRING_LITERAL, line no: 427,group,SIMPLE_NAME, line no: 266, 0.8823529411764706, 0.7058823529411765, 1.0
+"=",STRING_LITERAL, line no: 427,paramMap.get(param).toString(),METHOD_INVOCATION, line no: 283, 0.8823529411764706, 0.8823529411764706, 1.0
+"=",STRING_LITERAL, line no: 427,path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427, 0.8823529411764706, 0.8823529411764706, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,basePath,SIMPLE_NAME, line no: 104, 0.8823529411764706, 0.058823529411764705, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,value,SIMPLE_NAME, line no: 134, 0.8823529411764706, 0.5294117647058824, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,matrix,SIMPLE_NAME, line no: 166, 0.8823529411764706, 0.058823529411764705, 1.0
@@ -242,11 +304,9 @@ path,SIMPLE_NAME, line no: 427,Encode.encodeSegment(val.toString() true),METHOD_
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,matrix,SIMPLE_NAME, line no: 166, 0.875, 0.0625, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,string,SIMPLE_NAME, line no: 261, 0.875, 0.0625, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,group,SIMPLE_NAME, line no: 266, 0.875, 0.75, 1.0
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,!path.endsWith("/"),PREFIX_EXPRESSION, line no: 111, 0.8666666666666667, 0.8666666666666667, 1.0
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path.endsWith("/"),METHOD_INVOCATION, line no: 111, 0.8666666666666667, 0.8666666666666667, 1.0
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path+="/",ASSIGNMENT, line no: 111, 0.8666666666666667, 0.8666666666666667, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,";" + Encode.encodeSegment(name false) + "="+ Encode.encodeSegment(val.toString() true),INFIX_EXPRESSION, line no: 366, 0.875, 0.875, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,"/",STRING_LITERAL, line no: 111, 0.8666666666666667, 0.8666666666666667, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,encodePath,SIMPLE_NAME, line no: 114, 0.8666666666666667, 0.8666666666666667, 1.0
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path+=segment,ASSIGNMENT, line no: 115, 0.8666666666666667, 0.8666666666666667, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,value,SIMPLE_NAME, line no: 134, 0.8666666666666667, 0.5333333333333333, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,matrix,SIMPLE_NAME, line no: 166, 0.8666666666666667, 0.06666666666666667, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,string,SIMPLE_NAME, line no: 261, 0.8666666666666667, 0.06666666666666667, 1.0
@@ -293,8 +353,20 @@ toString,SIMPLE_NAME, line no: 427,path+=segment,ASSIGNMENT, line no: 115, 0.833
 toString,SIMPLE_NAME, line no: 427,path+=";" + Encode.encodeSegment(name false) + "="+ Encode.encodeSegment(val.toString() true),ASSIGNMENT, line no: 366, 0.8333333333333334, 0.8333333333333334, 1.0
 toString,SIMPLE_NAME, line no: 427,path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427, 0.8333333333333334, 0.8333333333333334, 1.0
 toString,SIMPLE_NAME, line no: 427,query+=param,ASSIGNMENT, line no: 489, 0.8333333333333334, 0.8333333333333334, 1.0
+";",STRING_LITERAL, line no: 427,"/",STRING_LITERAL, line no: 111, 0.8235294117647058, 0.8235294117647058, 1.0
+";",STRING_LITERAL, line no: 427,path+="/",ASSIGNMENT, line no: 111, 0.8235294117647058, 0.8235294117647058, 1.0
+";",STRING_LITERAL, line no: 427,segment=segment.substring(1),ASSIGNMENT, line no: 113, 0.8235294117647058, 0.8235294117647058, 1.0
+";",STRING_LITERAL, line no: 427,segment.substring(1),METHOD_INVOCATION, line no: 113, 0.8235294117647058, 0.8235294117647058, 1.0
+";",STRING_LITERAL, line no: 427,segment=Encode.encodePath(segment true),ASSIGNMENT, line no: 114, 0.8235294117647058, 0.8235294117647058, 1.0
+";",STRING_LITERAL, line no: 427,Encode.encodePath(segment true),METHOD_INVOCATION, line no: 114, 0.8235294117647058, 0.8235294117647058, 1.0
 ";",STRING_LITERAL, line no: 427,encodePath,SIMPLE_NAME, line no: 114, 0.8235294117647058, 0.8235294117647058, 1.0
+";",STRING_LITERAL, line no: 427,path+=segment,ASSIGNMENT, line no: 115, 0.8235294117647058, 0.8235294117647058, 1.0
 ";",STRING_LITERAL, line no: 427,matrix,SIMPLE_NAME, line no: 166, 0.8235294117647058, 0.058823529411764705, 1.0
+";",STRING_LITERAL, line no: 427,matrix=";" + matrix,ASSIGNMENT, line no: 169, 0.8235294117647058, 0.8235294117647058, 1.0
+";",STRING_LITERAL, line no: 427,";" + matrix,INFIX_EXPRESSION, line no: 169, 0.8235294117647058, 0.8235294117647058, 1.0
+";",STRING_LITERAL, line no: 427,";" + Encode.encodeSegment(name false) + "="+ Encode.encodeSegment(val.toString() true),INFIX_EXPRESSION, line no: 366, 0.8235294117647058, 0.8235294117647058, 1.0
+";",STRING_LITERAL, line no: 427,Encode.encodeSegment(val.toString() true),METHOD_INVOCATION, line no: 366, 0.8235294117647058, 0.8235294117647058, 1.0
+";",STRING_LITERAL, line no: 427,query+=param,ASSIGNMENT, line no: 489, 0.8235294117647058, 0.8235294117647058, 1.0
 name,SIMPLE_NAME, line no: 427,host,SIMPLE_NAME, line no: 26, 0.8235294117647058, 0.058823529411764705, 1.0
 name,SIMPLE_NAME, line no: 427,scheme,SIMPLE_NAME, line no: 27, 0.8235294117647058, 0.058823529411764705, 1.0
 name,SIMPLE_NAME, line no: 427,userInfo,SIMPLE_NAME, line no: 30, 0.8235294117647058, 0.058823529411764705, 1.0
@@ -334,8 +406,20 @@ name,SIMPLE_NAME, line no: 427,Encode.encodePath(segment true),METHOD_INVOCATION
 name,SIMPLE_NAME, line no: 427,encodePath,SIMPLE_NAME, line no: 114, 0.8235294117647058, 0.8235294117647058, 1.0
 name,SIMPLE_NAME, line no: 427,path+=segment,ASSIGNMENT, line no: 115, 0.8235294117647058, 0.8235294117647058, 1.0
 name,SIMPLE_NAME, line no: 427,path+=";" + Encode.encodeSegment(name false) + "="+ Encode.encodeSegment(val.toString() true),ASSIGNMENT, line no: 366, 0.8235294117647058, 0.8235294117647058, 1.0
+"=",STRING_LITERAL, line no: 427,"/",STRING_LITERAL, line no: 111, 0.8235294117647058, 0.8235294117647058, 1.0
+"=",STRING_LITERAL, line no: 427,path+="/",ASSIGNMENT, line no: 111, 0.8235294117647058, 0.8235294117647058, 1.0
+"=",STRING_LITERAL, line no: 427,segment=segment.substring(1),ASSIGNMENT, line no: 113, 0.8235294117647058, 0.8235294117647058, 1.0
+"=",STRING_LITERAL, line no: 427,segment.substring(1),METHOD_INVOCATION, line no: 113, 0.8235294117647058, 0.8235294117647058, 1.0
+"=",STRING_LITERAL, line no: 427,segment=Encode.encodePath(segment true),ASSIGNMENT, line no: 114, 0.8235294117647058, 0.8235294117647058, 1.0
+"=",STRING_LITERAL, line no: 427,Encode.encodePath(segment true),METHOD_INVOCATION, line no: 114, 0.8235294117647058, 0.8235294117647058, 1.0
 "=",STRING_LITERAL, line no: 427,encodePath,SIMPLE_NAME, line no: 114, 0.8235294117647058, 0.8235294117647058, 1.0
+"=",STRING_LITERAL, line no: 427,path+=segment,ASSIGNMENT, line no: 115, 0.8235294117647058, 0.8235294117647058, 1.0
 "=",STRING_LITERAL, line no: 427,matrix,SIMPLE_NAME, line no: 166, 0.8235294117647058, 0.058823529411764705, 1.0
+"=",STRING_LITERAL, line no: 427,matrix=";" + matrix,ASSIGNMENT, line no: 169, 0.8235294117647058, 0.8235294117647058, 1.0
+"=",STRING_LITERAL, line no: 427,";" + matrix,INFIX_EXPRESSION, line no: 169, 0.8235294117647058, 0.8235294117647058, 1.0
+"=",STRING_LITERAL, line no: 427,";" + Encode.encodeSegment(name false) + "="+ Encode.encodeSegment(val.toString() true),INFIX_EXPRESSION, line no: 366, 0.8235294117647058, 0.8235294117647058, 1.0
+"=",STRING_LITERAL, line no: 427,Encode.encodeSegment(val.toString() true),METHOD_INVOCATION, line no: 366, 0.8235294117647058, 0.8235294117647058, 1.0
+"=",STRING_LITERAL, line no: 427,query+=param,ASSIGNMENT, line no: 489, 0.8235294117647058, 0.8235294117647058, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,host,SIMPLE_NAME, line no: 26, 0.8235294117647058, 0.058823529411764705, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,scheme,SIMPLE_NAME, line no: 27, 0.8235294117647058, 0.058823529411764705, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,userInfo,SIMPLE_NAME, line no: 30, 0.8235294117647058, 0.058823529411764705, 1.0
@@ -350,6 +434,7 @@ val.toString(),METHOD_INVOCATION, line no: 427,getFragment,SIMPLE_NAME, line no:
 val.toString(),METHOD_INVOCATION, line no: 427,getRawFragment,SIMPLE_NAME, line no: 58, 0.8235294117647058, 0.8235294117647058, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,getQuery,SIMPLE_NAME, line no: 59, 0.8235294117647058, 0.8235294117647058, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,getRawQuery,SIMPLE_NAME, line no: 59, 0.8235294117647058, 0.8235294117647058, 1.0
+val.toString(),METHOD_INVOCATION, line no: 427,"/",STRING_LITERAL, line no: 111, 0.8235294117647058, 0.8235294117647058, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,encodePath,SIMPLE_NAME, line no: 114, 0.8235294117647058, 0.8235294117647058, 1.0
 path,SIMPLE_NAME, line no: 427,host,SIMPLE_NAME, line no: 26, 0.8125, 0.0625, 1.0
 path,SIMPLE_NAME, line no: 427,scheme,SIMPLE_NAME, line no: 27, 0.8125, 0.0625, 1.0
@@ -405,6 +490,7 @@ path,SIMPLE_NAME, line no: 427,namevalue[0],ARRAY_ACCESS, line no: 412, 0.8125, 
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,getRawFragment,SIMPLE_NAME, line no: 58, 0.8125, 0.8125, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,getQuery,SIMPLE_NAME, line no: 59, 0.8125, 0.8125, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,getRawQuery,SIMPLE_NAME, line no: 59, 0.8125, 0.8125, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,"/",STRING_LITERAL, line no: 111, 0.8125, 0.8125, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,encodePath,SIMPLE_NAME, line no: 114, 0.8125, 0.8125, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,host,SIMPLE_NAME, line no: 26, 0.8, 0.06666666666666667, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,scheme,SIMPLE_NAME, line no: 27, 0.8, 0.06666666666666667, 1.0
@@ -415,13 +501,14 @@ path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,getScheme,SIMPLE
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,getUserInfo,SIMPLE_NAME, line no: 56, 0.8, 0.8, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,getRawUserInfo,SIMPLE_NAME, line no: 56, 0.8, 0.8, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,getPath,SIMPLE_NAME, line no: 57, 0.8, 0.8, 1.0
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path=uri.getRawPath(),ASSIGNMENT, line no: 57, 0.8, 0.8, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,getRawPath,SIMPLE_NAME, line no: 57, 0.8, 0.8, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,getFragment,SIMPLE_NAME, line no: 58, 0.8, 0.8, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,getRawFragment,SIMPLE_NAME, line no: 58, 0.8, 0.8, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,getQuery,SIMPLE_NAME, line no: 59, 0.8, 0.8, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,getRawQuery,SIMPLE_NAME, line no: 59, 0.8, 0.8, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,replace,SIMPLE_NAME, line no: 269, 0.8, 0.8, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,"%",STRING_LITERAL, line no: 269, 0.8, 0.8, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,"%25",STRING_LITERAL, line no: 269, 0.8, 0.8, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,encodeNonCodes,SIMPLE_NAME, line no: 270, 0.8, 0.8, 1.0
 toString,SIMPLE_NAME, line no: 427,ssp,SIMPLE_NAME, line no: 71, 0.7777777777777778, 0.05555555555555555, 1.0
 toString,SIMPLE_NAME, line no: 427,":",STRING_LITERAL, line no: 74, 0.7777777777777778, 0.7777777777777778, 1.0
@@ -449,17 +536,43 @@ toString,SIMPLE_NAME, line no: 427,"You provided too many values",STRING_LITERAL
 ";",STRING_LITERAL, line no: 427,scheme,SIMPLE_NAME, line no: 27, 0.7647058823529411, 0.058823529411764705, 1.0
 ";",STRING_LITERAL, line no: 427,userInfo,SIMPLE_NAME, line no: 30, 0.7647058823529411, 0.058823529411764705, 1.0
 ";",STRING_LITERAL, line no: 427,fragment,SIMPLE_NAME, line no: 33, 0.7647058823529411, 0.058823529411764705, 1.0
+";",STRING_LITERAL, line no: 427,uri.getHost(),METHOD_INVOCATION, line no: 53, 0.7647058823529411, 0.7647058823529411, 1.0
 ";",STRING_LITERAL, line no: 427,getHost,SIMPLE_NAME, line no: 53, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,host=uri.getHost(),ASSIGNMENT, line no: 53, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,uri.getScheme(),METHOD_INVOCATION, line no: 54, 0.7647058823529411, 0.7647058823529411, 1.0
 ";",STRING_LITERAL, line no: 427,getScheme,SIMPLE_NAME, line no: 54, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,scheme=uri.getScheme(),ASSIGNMENT, line no: 54, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,uri.getUserInfo(),METHOD_INVOCATION, line no: 56, 0.7647058823529411, 0.7647058823529411, 1.0
 ";",STRING_LITERAL, line no: 427,getUserInfo,SIMPLE_NAME, line no: 56, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,userInfo=uri.getRawUserInfo(),ASSIGNMENT, line no: 56, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,uri.getRawUserInfo(),METHOD_INVOCATION, line no: 56, 0.7647058823529411, 0.7647058823529411, 1.0
 ";",STRING_LITERAL, line no: 427,getRawUserInfo,SIMPLE_NAME, line no: 56, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,uri.getPath(),METHOD_INVOCATION, line no: 57, 0.7647058823529411, 0.7647058823529411, 1.0
 ";",STRING_LITERAL, line no: 427,getPath,SIMPLE_NAME, line no: 57, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,path=uri.getRawPath(),ASSIGNMENT, line no: 57, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,uri.getRawPath(),METHOD_INVOCATION, line no: 57, 0.7647058823529411, 0.7647058823529411, 1.0
 ";",STRING_LITERAL, line no: 427,getRawPath,SIMPLE_NAME, line no: 57, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,uri.getFragment(),METHOD_INVOCATION, line no: 58, 0.7647058823529411, 0.7647058823529411, 1.0
 ";",STRING_LITERAL, line no: 427,getFragment,SIMPLE_NAME, line no: 58, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,fragment=uri.getRawFragment(),ASSIGNMENT, line no: 58, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,uri.getRawFragment(),METHOD_INVOCATION, line no: 58, 0.7647058823529411, 0.7647058823529411, 1.0
 ";",STRING_LITERAL, line no: 427,getRawFragment,SIMPLE_NAME, line no: 58, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,uri.getQuery(),METHOD_INVOCATION, line no: 59, 0.7647058823529411, 0.7647058823529411, 1.0
 ";",STRING_LITERAL, line no: 427,getQuery,SIMPLE_NAME, line no: 59, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,query=uri.getRawQuery(),ASSIGNMENT, line no: 59, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,uri.getRawQuery(),METHOD_INVOCATION, line no: 59, 0.7647058823529411, 0.7647058823529411, 1.0
 ";",STRING_LITERAL, line no: 427,getRawQuery,SIMPLE_NAME, line no: 59, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,":",STRING_LITERAL, line no: 74, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,buffer.toString(),METHOD_INVOCATION, line no: 214, 0.7647058823529411, 0.5882352941176471, 1.0
+";",STRING_LITERAL, line no: 427,"://",STRING_LITERAL, line no: 235, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,"@",STRING_LITERAL, line no: 236, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,Integer.toString(port),METHOD_INVOCATION, line no: 238, 0.7647058823529411, 0.7647058823529411, 1.0
 ";",STRING_LITERAL, line no: 427,buf,SIMPLE_NAME, line no: 250, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,"%",STRING_LITERAL, line no: 269, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,"%25",STRING_LITERAL, line no: 269, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,"You did not supply enough values to fill path parameters",STRING_LITERAL, line no: 344, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,"You provided too many values",STRING_LITERAL, line no: 345, 0.7647058823529411, 0.7647058823529411, 1.0
+";",STRING_LITERAL, line no: 427,path+=";" + Encode.encodeSegment(name false) + "="+ Encode.encodeSegment(val.toString() true),ASSIGNMENT, line no: 366, 0.7647058823529411, 0.7647058823529411, 1.0
 name,SIMPLE_NAME, line no: 427,ssp,SIMPLE_NAME, line no: 71, 0.7647058823529411, 0.058823529411764705, 1.0
 name,SIMPLE_NAME, line no: 427,":",STRING_LITERAL, line no: 74, 0.7647058823529411, 0.7647058823529411, 1.0
 name,SIMPLE_NAME, line no: 427,uriStr.toString(),METHOD_INVOCATION, line no: 80, 0.7647058823529411, 0.7647058823529411, 1.0
@@ -487,21 +600,54 @@ name,SIMPLE_NAME, line no: 427,namevalue[0],ARRAY_ACCESS, line no: 412, 0.764705
 "=",STRING_LITERAL, line no: 427,scheme,SIMPLE_NAME, line no: 27, 0.7647058823529411, 0.058823529411764705, 1.0
 "=",STRING_LITERAL, line no: 427,userInfo,SIMPLE_NAME, line no: 30, 0.7647058823529411, 0.058823529411764705, 1.0
 "=",STRING_LITERAL, line no: 427,fragment,SIMPLE_NAME, line no: 33, 0.7647058823529411, 0.058823529411764705, 1.0
+"=",STRING_LITERAL, line no: 427,uri.getHost(),METHOD_INVOCATION, line no: 53, 0.7647058823529411, 0.7647058823529411, 1.0
 "=",STRING_LITERAL, line no: 427,getHost,SIMPLE_NAME, line no: 53, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,host=uri.getHost(),ASSIGNMENT, line no: 53, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,uri.getScheme(),METHOD_INVOCATION, line no: 54, 0.7647058823529411, 0.7647058823529411, 1.0
 "=",STRING_LITERAL, line no: 427,getScheme,SIMPLE_NAME, line no: 54, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,scheme=uri.getScheme(),ASSIGNMENT, line no: 54, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,uri.getUserInfo(),METHOD_INVOCATION, line no: 56, 0.7647058823529411, 0.7647058823529411, 1.0
 "=",STRING_LITERAL, line no: 427,getUserInfo,SIMPLE_NAME, line no: 56, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,userInfo=uri.getRawUserInfo(),ASSIGNMENT, line no: 56, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,uri.getRawUserInfo(),METHOD_INVOCATION, line no: 56, 0.7647058823529411, 0.7647058823529411, 1.0
 "=",STRING_LITERAL, line no: 427,getRawUserInfo,SIMPLE_NAME, line no: 56, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,uri.getPath(),METHOD_INVOCATION, line no: 57, 0.7647058823529411, 0.7647058823529411, 1.0
 "=",STRING_LITERAL, line no: 427,getPath,SIMPLE_NAME, line no: 57, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,path=uri.getRawPath(),ASSIGNMENT, line no: 57, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,uri.getRawPath(),METHOD_INVOCATION, line no: 57, 0.7647058823529411, 0.7647058823529411, 1.0
 "=",STRING_LITERAL, line no: 427,getRawPath,SIMPLE_NAME, line no: 57, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,uri.getFragment(),METHOD_INVOCATION, line no: 58, 0.7647058823529411, 0.7647058823529411, 1.0
 "=",STRING_LITERAL, line no: 427,getFragment,SIMPLE_NAME, line no: 58, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,fragment=uri.getRawFragment(),ASSIGNMENT, line no: 58, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,uri.getRawFragment(),METHOD_INVOCATION, line no: 58, 0.7647058823529411, 0.7647058823529411, 1.0
 "=",STRING_LITERAL, line no: 427,getRawFragment,SIMPLE_NAME, line no: 58, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,uri.getQuery(),METHOD_INVOCATION, line no: 59, 0.7647058823529411, 0.7647058823529411, 1.0
 "=",STRING_LITERAL, line no: 427,getQuery,SIMPLE_NAME, line no: 59, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,query=uri.getRawQuery(),ASSIGNMENT, line no: 59, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,uri.getRawQuery(),METHOD_INVOCATION, line no: 59, 0.7647058823529411, 0.7647058823529411, 1.0
 "=",STRING_LITERAL, line no: 427,getRawQuery,SIMPLE_NAME, line no: 59, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,":",STRING_LITERAL, line no: 74, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,buffer.toString(),METHOD_INVOCATION, line no: 214, 0.7647058823529411, 0.5882352941176471, 1.0
+"=",STRING_LITERAL, line no: 427,"://",STRING_LITERAL, line no: 235, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,"@",STRING_LITERAL, line no: 236, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,Integer.toString(port),METHOD_INVOCATION, line no: 238, 0.7647058823529411, 0.7647058823529411, 1.0
 "=",STRING_LITERAL, line no: 427,buf,SIMPLE_NAME, line no: 250, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,"%",STRING_LITERAL, line no: 269, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,"%25",STRING_LITERAL, line no: 269, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,"You did not supply enough values to fill path parameters",STRING_LITERAL, line no: 344, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,"You provided too many values",STRING_LITERAL, line no: 345, 0.7647058823529411, 0.7647058823529411, 1.0
+"=",STRING_LITERAL, line no: 427,path+=";" + Encode.encodeSegment(name false) + "="+ Encode.encodeSegment(val.toString() true),ASSIGNMENT, line no: 366, 0.7647058823529411, 0.7647058823529411, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,ssp,SIMPLE_NAME, line no: 71, 0.7647058823529411, 0.058823529411764705, 1.0
+val.toString(),METHOD_INVOCATION, line no: 427,":",STRING_LITERAL, line no: 74, 0.7647058823529411, 0.7647058823529411, 1.0
+val.toString(),METHOD_INVOCATION, line no: 427,"://",STRING_LITERAL, line no: 235, 0.7647058823529411, 0.7647058823529411, 1.0
+val.toString(),METHOD_INVOCATION, line no: 427,"@",STRING_LITERAL, line no: 236, 0.7647058823529411, 0.7647058823529411, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,buf,SIMPLE_NAME, line no: 250, 0.7647058823529411, 0.7647058823529411, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,replace,SIMPLE_NAME, line no: 269, 0.7647058823529411, 0.7647058823529411, 1.0
+val.toString(),METHOD_INVOCATION, line no: 427,"%",STRING_LITERAL, line no: 269, 0.7647058823529411, 0.7647058823529411, 1.0
+val.toString(),METHOD_INVOCATION, line no: 427,"%25",STRING_LITERAL, line no: 269, 0.7647058823529411, 0.7647058823529411, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,encodeNonCodes,SIMPLE_NAME, line no: 270, 0.7647058823529411, 0.7647058823529411, 1.0
+val.toString(),METHOD_INVOCATION, line no: 427,"You did not supply enough values to fill path parameters",STRING_LITERAL, line no: 344, 0.7647058823529411, 0.7647058823529411, 1.0
+val.toString(),METHOD_INVOCATION, line no: 427,"You provided too many values",STRING_LITERAL, line no: 345, 0.7647058823529411, 0.7647058823529411, 1.0
 path,SIMPLE_NAME, line no: 427,ssp,SIMPLE_NAME, line no: 71, 0.75, 0.0625, 1.0
 path,SIMPLE_NAME, line no: 427,":",STRING_LITERAL, line no: 74, 0.75, 0.75, 1.0
 path,SIMPLE_NAME, line no: 427,uriStr.toString(),METHOD_INVOCATION, line no: 80, 0.75, 0.75, 1.0
@@ -518,13 +664,24 @@ path,SIMPLE_NAME, line no: 427,"You provided too many values",STRING_LITERAL, li
 path,SIMPLE_NAME, line no: 427,"A value was null",STRING_LITERAL, line no: 353, 0.75, 0.75, 1.0
 path,SIMPLE_NAME, line no: 427,pathParam,SIMPLE_NAME, line no: 354, 0.75, 0.6875, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,ssp,SIMPLE_NAME, line no: 71, 0.75, 0.0625, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,":",STRING_LITERAL, line no: 74, 0.75, 0.75, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,"://",STRING_LITERAL, line no: 235, 0.75, 0.75, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,"@",STRING_LITERAL, line no: 236, 0.75, 0.75, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,buf,SIMPLE_NAME, line no: 250, 0.75, 0.75, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,replace,SIMPLE_NAME, line no: 269, 0.75, 0.75, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,"%",STRING_LITERAL, line no: 269, 0.75, 0.75, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,"%25",STRING_LITERAL, line no: 269, 0.75, 0.75, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,encodeNonCodes,SIMPLE_NAME, line no: 270, 0.75, 0.75, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,"You did not supply enough values to fill path parameters",STRING_LITERAL, line no: 344, 0.75, 0.75, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,"You provided too many values",STRING_LITERAL, line no: 345, 0.75, 0.75, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,ssp,SIMPLE_NAME, line no: 71, 0.7333333333333333, 0.06666666666666667, 1.0
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path+=matrix,ASSIGNMENT, line no: 180, 0.7333333333333333, 0.7333333333333333, 1.0
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path != null,INFIX_EXPRESSION, line no: 210, 0.7333333333333333, 0.6666666666666666, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,":",STRING_LITERAL, line no: 74, 0.7333333333333333, 0.7333333333333333, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,"://",STRING_LITERAL, line no: 235, 0.7333333333333333, 0.7333333333333333, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,"@",STRING_LITERAL, line no: 236, 0.7333333333333333, 0.7333333333333333, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,buf,SIMPLE_NAME, line no: 250, 0.7333333333333333, 0.7333333333333333, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,"You did not supply enough values to fill path parameters",STRING_LITERAL, line no: 344, 0.7333333333333333, 0.7333333333333333, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,"You provided too many values",STRING_LITERAL, line no: 345, 0.7333333333333333, 0.7333333333333333, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,"A value was null",STRING_LITERAL, line no: 353, 0.7333333333333333, 0.7333333333333333, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,pathParam,SIMPLE_NAME, line no: 354, 0.7333333333333333, 0.6666666666666666, 1.0
 val,SIMPLE_NAME, line no: 427,pathParams.put(pathParam val.toString()),METHOD_INVOCATION, line no: 355, 0.7222222222222222, 0.7222222222222222, 1.0
 val,SIMPLE_NAME, line no: 427,put,SIMPLE_NAME, line no: 355, 0.7222222222222222, 0.7222222222222222, 1.0
@@ -532,13 +689,34 @@ toString,SIMPLE_NAME, line no: 427,"A value was null",STRING_LITERAL, line no: 3
 toString,SIMPLE_NAME, line no: 427,pathParam,SIMPLE_NAME, line no: 354, 0.7222222222222222, 0.6666666666666666, 1.0
 toString,SIMPLE_NAME, line no: 427,namevalue[0],ARRAY_ACCESS, line no: 412, 0.7222222222222222, 0.7222222222222222, 1.0
 ";",STRING_LITERAL, line no: 427,ssp,SIMPLE_NAME, line no: 71, 0.7058823529411765, 0.058823529411764705, 1.0
+";",STRING_LITERAL, line no: 427,uriStr.toString(),METHOD_INVOCATION, line no: 80, 0.7058823529411765, 0.7058823529411765, 1.0
+";",STRING_LITERAL, line no: 427,path=path.substring(0 matrixIndex) + matrix,ASSIGNMENT, line no: 179, 0.7058823529411765, 0.7058823529411765, 1.0
+";",STRING_LITERAL, line no: 427,path.substring(0 matrixIndex) + matrix,INFIX_EXPRESSION, line no: 179, 0.7058823529411765, 0.7058823529411765, 1.0
+";",STRING_LITERAL, line no: 427,path+=matrix,ASSIGNMENT, line no: 180, 0.7058823529411765, 0.7058823529411765, 1.0
+";",STRING_LITERAL, line no: 427,value=Encode.encodeSegment(value false),ASSIGNMENT, line no: 268, 0.7058823529411765, 0.7058823529411765, 1.0
+";",STRING_LITERAL, line no: 427,Encode.encodeSegment(value false),METHOD_INVOCATION, line no: 268, 0.7058823529411765, 0.7058823529411765, 1.0
+";",STRING_LITERAL, line no: 427,value=value.replace("%" "%25"),ASSIGNMENT, line no: 269, 0.7058823529411765, 0.7058823529411765, 1.0
+";",STRING_LITERAL, line no: 427,value.replace("%" "%25"),METHOD_INVOCATION, line no: 269, 0.7058823529411765, 0.7058823529411765, 1.0
 ";",STRING_LITERAL, line no: 427,replace,SIMPLE_NAME, line no: 269, 0.7058823529411765, 0.7058823529411765, 1.0
+";",STRING_LITERAL, line no: 427,Encode.encodeNonCodes(value),METHOD_INVOCATION, line no: 270, 0.7058823529411765, 0.7058823529411765, 1.0
 ";",STRING_LITERAL, line no: 427,encodeNonCodes,SIMPLE_NAME, line no: 270, 0.7058823529411765, 0.7058823529411765, 1.0
+";",STRING_LITERAL, line no: 427,namevalue[0],ARRAY_ACCESS, line no: 412, 0.7058823529411765, 0.7058823529411765, 1.0
 name,SIMPLE_NAME, line no: 427,"A value was null",STRING_LITERAL, line no: 353, 0.7058823529411765, 0.7058823529411765, 1.0
 name,SIMPLE_NAME, line no: 427,pathParam,SIMPLE_NAME, line no: 354, 0.7058823529411765, 0.6470588235294118, 1.0
 "=",STRING_LITERAL, line no: 427,ssp,SIMPLE_NAME, line no: 71, 0.7058823529411765, 0.058823529411764705, 1.0
+"=",STRING_LITERAL, line no: 427,uriStr.toString(),METHOD_INVOCATION, line no: 80, 0.7058823529411765, 0.7058823529411765, 1.0
+"=",STRING_LITERAL, line no: 427,path=path.substring(0 matrixIndex) + matrix,ASSIGNMENT, line no: 179, 0.7058823529411765, 0.7058823529411765, 1.0
+"=",STRING_LITERAL, line no: 427,path.substring(0 matrixIndex) + matrix,INFIX_EXPRESSION, line no: 179, 0.7058823529411765, 0.7058823529411765, 1.0
+"=",STRING_LITERAL, line no: 427,path+=matrix,ASSIGNMENT, line no: 180, 0.7058823529411765, 0.7058823529411765, 1.0
+"=",STRING_LITERAL, line no: 427,value=Encode.encodeSegment(value false),ASSIGNMENT, line no: 268, 0.7058823529411765, 0.7058823529411765, 1.0
+"=",STRING_LITERAL, line no: 427,Encode.encodeSegment(value false),METHOD_INVOCATION, line no: 268, 0.7058823529411765, 0.7058823529411765, 1.0
+"=",STRING_LITERAL, line no: 427,value=value.replace("%" "%25"),ASSIGNMENT, line no: 269, 0.7058823529411765, 0.7058823529411765, 1.0
+"=",STRING_LITERAL, line no: 427,value.replace("%" "%25"),METHOD_INVOCATION, line no: 269, 0.7058823529411765, 0.7058823529411765, 1.0
 "=",STRING_LITERAL, line no: 427,replace,SIMPLE_NAME, line no: 269, 0.7058823529411765, 0.7058823529411765, 1.0
+"=",STRING_LITERAL, line no: 427,Encode.encodeNonCodes(value),METHOD_INVOCATION, line no: 270, 0.7058823529411765, 0.7058823529411765, 1.0
 "=",STRING_LITERAL, line no: 427,encodeNonCodes,SIMPLE_NAME, line no: 270, 0.7058823529411765, 0.7058823529411765, 1.0
+"=",STRING_LITERAL, line no: 427,namevalue[0],ARRAY_ACCESS, line no: 412, 0.7058823529411765, 0.7058823529411765, 1.0
+val.toString(),METHOD_INVOCATION, line no: 427,"A value was null",STRING_LITERAL, line no: 353, 0.7058823529411765, 0.7058823529411765, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,pathParam,SIMPLE_NAME, line no: 354, 0.7058823529411765, 0.6470588235294118, 1.0
 path,SIMPLE_NAME, line no: 427,"#",STRING_LITERAL, line no: 78, 0.6875, 0.625, 1.0
 path,SIMPLE_NAME, line no: 427,paths,SIMPLE_NAME, line no: 104, 0.6875, 0.0625, 1.0
@@ -549,9 +727,13 @@ path,SIMPLE_NAME, line no: 427,"?",STRING_LITERAL, line no: 242, 0.6875, 0.6875,
 path,SIMPLE_NAME, line no: 427,params.get(i++),METHOD_INVOCATION, line no: 354, 0.6875, 0.6875, 1.0
 path,SIMPLE_NAME, line no: 427,get,SIMPLE_NAME, line no: 354, 0.6875, 0.6875, 1.0
 path,SIMPLE_NAME, line no: 427,"_resteasy_uri_parameter",STRING_LITERAL, line no: 371, 0.6875, 0.125, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,"A value was null",STRING_LITERAL, line no: 353, 0.6875, 0.6875, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,pathParam,SIMPLE_NAME, line no: 354, 0.6875, 0.625, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,"#",STRING_LITERAL, line no: 78, 0.6666666666666666, 0.6666666666666666, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,paths,SIMPLE_NAME, line no: 104, 0.6666666666666666, 0.06666666666666667, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,"?",STRING_LITERAL, line no: 242, 0.6666666666666666, 0.6666666666666666, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,get,SIMPLE_NAME, line no: 354, 0.6666666666666666, 0.6666666666666666, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,"_resteasy_uri_parameter",STRING_LITERAL, line no: 371, 0.6666666666666666, 0.13333333333333333, 1.0
 toString,SIMPLE_NAME, line no: 427,"#",STRING_LITERAL, line no: 78, 0.6666666666666666, 0.6111111111111112, 1.0
 toString,SIMPLE_NAME, line no: 427,paths,SIMPLE_NAME, line no: 104, 0.6666666666666666, 0.05555555555555555, 1.0
 toString,SIMPLE_NAME, line no: 427,path=paths(true path segments),ASSIGNMENT, line no: 135, 0.6666666666666666, 0.6666666666666666, 1.0
@@ -561,6 +743,7 @@ toString,SIMPLE_NAME, line no: 427,"?",STRING_LITERAL, line no: 242, 0.666666666
 toString,SIMPLE_NAME, line no: 427,params.get(i++),METHOD_INVOCATION, line no: 354, 0.6666666666666666, 0.6666666666666666, 1.0
 toString,SIMPLE_NAME, line no: 427,get,SIMPLE_NAME, line no: 354, 0.6666666666666666, 0.6666666666666666, 1.0
 toString,SIMPLE_NAME, line no: 427,"_resteasy_uri_parameter",STRING_LITERAL, line no: 371, 0.6666666666666666, 0.1111111111111111, 1.0
+";",STRING_LITERAL, line no: 427,"A value was null",STRING_LITERAL, line no: 353, 0.6470588235294118, 0.6470588235294118, 1.0
 ";",STRING_LITERAL, line no: 427,pathParam,SIMPLE_NAME, line no: 354, 0.6470588235294118, 0.5882352941176471, 1.0
 name,SIMPLE_NAME, line no: 427,"#",STRING_LITERAL, line no: 78, 0.6470588235294118, 0.5882352941176471, 1.0
 name,SIMPLE_NAME, line no: 427,paths,SIMPLE_NAME, line no: 104, 0.6470588235294118, 0.058823529411764705, 1.0
@@ -571,22 +754,39 @@ name,SIMPLE_NAME, line no: 427,"?",STRING_LITERAL, line no: 242, 0.6470588235294
 name,SIMPLE_NAME, line no: 427,params.get(i++),METHOD_INVOCATION, line no: 354, 0.6470588235294118, 0.6470588235294118, 1.0
 name,SIMPLE_NAME, line no: 427,get,SIMPLE_NAME, line no: 354, 0.6470588235294118, 0.6470588235294118, 1.0
 name,SIMPLE_NAME, line no: 427,"_resteasy_uri_parameter",STRING_LITERAL, line no: 371, 0.6470588235294118, 0.11764705882352941, 1.0
+"=",STRING_LITERAL, line no: 427,"A value was null",STRING_LITERAL, line no: 353, 0.6470588235294118, 0.6470588235294118, 1.0
 "=",STRING_LITERAL, line no: 427,pathParam,SIMPLE_NAME, line no: 354, 0.6470588235294118, 0.5882352941176471, 1.0
+val.toString(),METHOD_INVOCATION, line no: 427,"#",STRING_LITERAL, line no: 78, 0.6470588235294118, 0.6470588235294118, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,paths,SIMPLE_NAME, line no: 104, 0.6470588235294118, 0.058823529411764705, 1.0
+val.toString(),METHOD_INVOCATION, line no: 427,"?",STRING_LITERAL, line no: 242, 0.6470588235294118, 0.6470588235294118, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,get,SIMPLE_NAME, line no: 354, 0.6470588235294118, 0.6470588235294118, 1.0
+val.toString(),METHOD_INVOCATION, line no: 427,"_resteasy_uri_parameter",STRING_LITERAL, line no: 371, 0.6470588235294118, 0.11764705882352941, 1.0
 path,SIMPLE_NAME, line no: 427,matcher.group(),METHOD_INVOCATION, line no: 387, 0.625, 0.625, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,"#",STRING_LITERAL, line no: 78, 0.625, 0.625, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,paths,SIMPLE_NAME, line no: 104, 0.625, 0.0625, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,"?",STRING_LITERAL, line no: 242, 0.625, 0.625, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,get,SIMPLE_NAME, line no: 354, 0.625, 0.625, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,"_resteasy_uri_parameter",STRING_LITERAL, line no: 371, 0.625, 0.125, 1.0
 toString,SIMPLE_NAME, line no: 427,matcher.group(),METHOD_INVOCATION, line no: 387, 0.6111111111111112, 0.6111111111111112, 1.0
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path=paths(true path segment),ASSIGNMENT, line no: 124, 0.6, 0.6, 1.0
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,paths(true path segment),METHOD_INVOCATION, line no: 124, 0.6, 0.6, 1.0
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,this.path=Encode.encodePath(path true),ASSIGNMENT, line no: 549, 0.6, 0.6, 1.0
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,this.path,FIELD_ACCESS, line no: 549, 0.6, 0.6, 1.0
+";",STRING_LITERAL, line no: 427,"#",STRING_LITERAL, line no: 78, 0.5882352941176471, 0.5882352941176471, 1.0
 ";",STRING_LITERAL, line no: 427,paths,SIMPLE_NAME, line no: 104, 0.5882352941176471, 0.058823529411764705, 1.0
+";",STRING_LITERAL, line no: 427,path=paths(true path segments),ASSIGNMENT, line no: 135, 0.5882352941176471, 0.5882352941176471, 1.0
+";",STRING_LITERAL, line no: 427,paths(true path segments),METHOD_INVOCATION, line no: 135, 0.5882352941176471, 0.5882352941176471, 1.0
+";",STRING_LITERAL, line no: 427,path=buffer.toString(),ASSIGNMENT, line no: 214, 0.5882352941176471, 0.5882352941176471, 1.0
+";",STRING_LITERAL, line no: 427,"?",STRING_LITERAL, line no: 242, 0.5882352941176471, 0.5882352941176471, 1.0
+";",STRING_LITERAL, line no: 427,params.get(i++),METHOD_INVOCATION, line no: 354, 0.5882352941176471, 0.5882352941176471, 1.0
 ";",STRING_LITERAL, line no: 427,get,SIMPLE_NAME, line no: 354, 0.5882352941176471, 0.5882352941176471, 1.0
+";",STRING_LITERAL, line no: 427,"_resteasy_uri_parameter",STRING_LITERAL, line no: 371, 0.5882352941176471, 0.11764705882352941, 1.0
 name,SIMPLE_NAME, line no: 427,matcher.group(),METHOD_INVOCATION, line no: 387, 0.5882352941176471, 0.5882352941176471, 1.0
+"=",STRING_LITERAL, line no: 427,"#",STRING_LITERAL, line no: 78, 0.5882352941176471, 0.5882352941176471, 1.0
 "=",STRING_LITERAL, line no: 427,paths,SIMPLE_NAME, line no: 104, 0.5882352941176471, 0.058823529411764705, 1.0
+"=",STRING_LITERAL, line no: 427,path=paths(true path segments),ASSIGNMENT, line no: 135, 0.5882352941176471, 0.5882352941176471, 1.0
+"=",STRING_LITERAL, line no: 427,paths(true path segments),METHOD_INVOCATION, line no: 135, 0.5882352941176471, 0.5882352941176471, 1.0
+"=",STRING_LITERAL, line no: 427,path=buffer.toString(),ASSIGNMENT, line no: 214, 0.5882352941176471, 0.5882352941176471, 1.0
+"=",STRING_LITERAL, line no: 427,"?",STRING_LITERAL, line no: 242, 0.5882352941176471, 0.5882352941176471, 1.0
+"=",STRING_LITERAL, line no: 427,params.get(i++),METHOD_INVOCATION, line no: 354, 0.5882352941176471, 0.5882352941176471, 1.0
 "=",STRING_LITERAL, line no: 427,get,SIMPLE_NAME, line no: 354, 0.5882352941176471, 0.5882352941176471, 1.0
+"=",STRING_LITERAL, line no: 427,"_resteasy_uri_parameter",STRING_LITERAL, line no: 371, 0.5882352941176471, 0.11764705882352941, 1.0
 path,SIMPLE_NAME, line no: 427,impl.host=host,ASSIGNMENT, line no: 39, 0.5625, 0.5625, 1.0
 path,SIMPLE_NAME, line no: 427,impl.host,QUALIFIED_NAME, line no: 39, 0.5625, 0.5625, 1.0
 path,SIMPLE_NAME, line no: 427,impl.scheme=scheme,ASSIGNMENT, line no: 40, 0.5625, 0.5625, 1.0
@@ -614,6 +814,15 @@ toString,SIMPLE_NAME, line no: 427,ann.value(),METHOD_INVOCATION, line no: 134, 
 toString,SIMPLE_NAME, line no: 427,Encode.encodeSegment(fragment true),METHOD_INVOCATION, line no: 196, 0.5555555555555556, 0.5555555555555556, 1.0
 toString,SIMPLE_NAME, line no: 427,pathParams.get(i++),METHOD_INVOCATION, line no: 441, 0.5555555555555556, 0.5555555555555556, 1.0
 toString,SIMPLE_NAME, line no: 427,Encode.encodePath(path true),METHOD_INVOCATION, line no: 549, 0.5555555555555556, 0.5555555555555556, 1.0
+";",STRING_LITERAL, line no: 427,path=paths(true path segment),ASSIGNMENT, line no: 124, 0.5294117647058824, 0.5294117647058824, 1.0
+";",STRING_LITERAL, line no: 427,paths(true path segment),METHOD_INVOCATION, line no: 124, 0.5294117647058824, 0.5294117647058824, 1.0
+";",STRING_LITERAL, line no: 427,this.fragment=Encode.encodeSegment(fragment true),ASSIGNMENT, line no: 196, 0.5294117647058824, 0.5294117647058824, 1.0
+";",STRING_LITERAL, line no: 427,this.fragment,FIELD_ACCESS, line no: 196, 0.5294117647058824, 0.5294117647058824, 1.0
+";",STRING_LITERAL, line no: 427,Encode.encodeSegment(fragment true),METHOD_INVOCATION, line no: 196, 0.5294117647058824, 0.5294117647058824, 1.0
+";",STRING_LITERAL, line no: 427,matcher.group(),METHOD_INVOCATION, line no: 387, 0.5294117647058824, 0.5294117647058824, 1.0
+";",STRING_LITERAL, line no: 427,this.path=Encode.encodePath(path true),ASSIGNMENT, line no: 549, 0.5294117647058824, 0.5294117647058824, 1.0
+";",STRING_LITERAL, line no: 427,this.path,FIELD_ACCESS, line no: 549, 0.5294117647058824, 0.5294117647058824, 1.0
+";",STRING_LITERAL, line no: 427,Encode.encodePath(path true),METHOD_INVOCATION, line no: 549, 0.5294117647058824, 0.5294117647058824, 1.0
 name,SIMPLE_NAME, line no: 427,impl.host=host,ASSIGNMENT, line no: 39, 0.5294117647058824, 0.5294117647058824, 1.0
 name,SIMPLE_NAME, line no: 427,impl.host,QUALIFIED_NAME, line no: 39, 0.5294117647058824, 0.5294117647058824, 1.0
 name,SIMPLE_NAME, line no: 427,impl.scheme=scheme,ASSIGNMENT, line no: 40, 0.5294117647058824, 0.5294117647058824, 1.0
@@ -636,17 +845,27 @@ name,SIMPLE_NAME, line no: 427,pathParams.get(i++),METHOD_INVOCATION, line no: 4
 name,SIMPLE_NAME, line no: 427,this.path=Encode.encodePath(path true),ASSIGNMENT, line no: 549, 0.5294117647058824, 0.5294117647058824, 1.0
 name,SIMPLE_NAME, line no: 427,this.path,FIELD_ACCESS, line no: 549, 0.5294117647058824, 0.5294117647058824, 1.0
 name,SIMPLE_NAME, line no: 427,Encode.encodePath(path true),METHOD_INVOCATION, line no: 549, 0.5294117647058824, 0.5294117647058824, 1.0
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path.indexOf(';' start),METHOD_INVOCATION, line no: 178, 0.5, 0.7333333333333333, 0.5
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path.substring(0 matrixIndex),METHOD_INVOCATION, line no: 179, 0.5, 0.7333333333333333, 0.5
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path=newSegment.toString(),ASSIGNMENT, line no: 392, 0.5, 1.0, 0.5
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path.substring(matrixIndex + 1),METHOD_INVOCATION, line no: 402, 0.5, 1.0, 0.5
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path=path.substring(0 matrixIndex),ASSIGNMENT, line no: 403, 0.5, 1.0, 0.5
+"=",STRING_LITERAL, line no: 427,path=paths(true path segment),ASSIGNMENT, line no: 124, 0.5294117647058824, 0.5294117647058824, 1.0
+"=",STRING_LITERAL, line no: 427,paths(true path segment),METHOD_INVOCATION, line no: 124, 0.5294117647058824, 0.5294117647058824, 1.0
+"=",STRING_LITERAL, line no: 427,this.fragment=Encode.encodeSegment(fragment true),ASSIGNMENT, line no: 196, 0.5294117647058824, 0.5294117647058824, 1.0
+"=",STRING_LITERAL, line no: 427,this.fragment,FIELD_ACCESS, line no: 196, 0.5294117647058824, 0.5294117647058824, 1.0
+"=",STRING_LITERAL, line no: 427,Encode.encodeSegment(fragment true),METHOD_INVOCATION, line no: 196, 0.5294117647058824, 0.5294117647058824, 1.0
+"=",STRING_LITERAL, line no: 427,matcher.group(),METHOD_INVOCATION, line no: 387, 0.5294117647058824, 0.5294117647058824, 1.0
+"=",STRING_LITERAL, line no: 427,this.path=Encode.encodePath(path true),ASSIGNMENT, line no: 549, 0.5294117647058824, 0.5294117647058824, 1.0
+"=",STRING_LITERAL, line no: 427,this.path,FIELD_ACCESS, line no: 549, 0.5294117647058824, 0.5294117647058824, 1.0
+"=",STRING_LITERAL, line no: 427,Encode.encodePath(path true),METHOD_INVOCATION, line no: 549, 0.5294117647058824, 0.5294117647058824, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path == null,INFIX_EXPRESSION, line no: 107, 0.5, 0.9333333333333333, 0.5
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path.lastIndexOf('/'),METHOD_INVOCATION, line no: 176, 0.5, 0.7333333333333333, 0.5
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,PathHelper.URI_TEMPLATE_PATTERN.matcher(path),METHOD_INVOCATION, line no: 382, 0.5, 1.0, 0.5
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427, 0.5, 1.0, 0.5
 path,SIMPLE_NAME, line no: 427,method,SIMPLE_NAME, line no: 141, 0.5, 0.0625, 1.0
 path,SIMPLE_NAME, line no: 427,m.getName(),METHOD_INVOCATION, line no: 145, 0.5, 0.5, 1.0
 path,SIMPLE_NAME, line no: 427,getName,SIMPLE_NAME, line no: 145, 0.5, 0.5, 1.0
 path,SIMPLE_NAME, line no: 427,value=namevalue[1],ASSIGNMENT, line no: 416, 0.5, 0.5, 1.0
 path,SIMPLE_NAME, line no: 427,namevalue[1],ARRAY_ACCESS, line no: 416, 0.5, 0.5, 1.0
 path,SIMPLE_NAME, line no: 427,Encode.encodeSegment(segment true),METHOD_INVOCATION, line no: 535, 0.5, 0.5, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,matrixParam(name values),METHOD_INVOCATION, line no: 376, 0.5, 1.0, 0.5
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,map.remove(name),METHOD_INVOCATION, line no: 421, 0.5, 1.0, 0.5
 toString,SIMPLE_NAME, line no: 427,impl.host=host,ASSIGNMENT, line no: 39, 0.5, 0.5, 1.0
 toString,SIMPLE_NAME, line no: 427,impl.host,QUALIFIED_NAME, line no: 39, 0.5, 0.5, 1.0
 toString,SIMPLE_NAME, line no: 427,impl.scheme=scheme,ASSIGNMENT, line no: 40, 0.5, 0.5, 1.0
@@ -668,18 +887,61 @@ toString,SIMPLE_NAME, line no: 427,this.fragment,FIELD_ACCESS, line no: 196, 0.5
 toString,SIMPLE_NAME, line no: 427,Encode.encodeSegment(segment true),METHOD_INVOCATION, line no: 535, 0.5, 0.5, 1.0
 toString,SIMPLE_NAME, line no: 427,this.path=Encode.encodePath(path true),ASSIGNMENT, line no: 549, 0.5, 0.5, 1.0
 toString,SIMPLE_NAME, line no: 427,this.path,FIELD_ACCESS, line no: 549, 0.5, 0.5, 1.0
+";",STRING_LITERAL, line no: 427,impl.host=host,ASSIGNMENT, line no: 39, 0.47058823529411764, 0.47058823529411764, 1.0
+";",STRING_LITERAL, line no: 427,impl.host,QUALIFIED_NAME, line no: 39, 0.47058823529411764, 0.47058823529411764, 1.0
+";",STRING_LITERAL, line no: 427,impl.scheme=scheme,ASSIGNMENT, line no: 40, 0.47058823529411764, 0.47058823529411764, 1.0
+";",STRING_LITERAL, line no: 427,impl.scheme,QUALIFIED_NAME, line no: 40, 0.47058823529411764, 0.47058823529411764, 1.0
+";",STRING_LITERAL, line no: 427,impl.userInfo=userInfo,ASSIGNMENT, line no: 42, 0.47058823529411764, 0.47058823529411764, 1.0
+";",STRING_LITERAL, line no: 427,impl.userInfo,QUALIFIED_NAME, line no: 42, 0.47058823529411764, 0.47058823529411764, 1.0
+";",STRING_LITERAL, line no: 427,impl.path=path,ASSIGNMENT, line no: 43, 0.47058823529411764, 0.47058823529411764, 1.0
+";",STRING_LITERAL, line no: 427,impl.path,QUALIFIED_NAME, line no: 43, 0.47058823529411764, 0.47058823529411764, 1.0
+";",STRING_LITERAL, line no: 427,impl.query=query,ASSIGNMENT, line no: 44, 0.47058823529411764, 0.47058823529411764, 1.0
+";",STRING_LITERAL, line no: 427,impl.query,QUALIFIED_NAME, line no: 44, 0.47058823529411764, 0.47058823529411764, 1.0
+";",STRING_LITERAL, line no: 427,impl.fragment=fragment,ASSIGNMENT, line no: 45, 0.47058823529411764, 0.47058823529411764, 1.0
+";",STRING_LITERAL, line no: 427,impl.fragment,QUALIFIED_NAME, line no: 45, 0.47058823529411764, 0.47058823529411764, 1.0
+";",STRING_LITERAL, line no: 427,ann.value(),METHOD_INVOCATION, line no: 134, 0.47058823529411764, 0.47058823529411764, 1.0
+";",STRING_LITERAL, line no: 427,"path param ",STRING_LITERAL, line no: 293, 0.47058823529411764, 0.47058823529411764, 1.0
+";",STRING_LITERAL, line no: 427," has not been provided by the parameter map",STRING_LITERAL, line no: 293, 0.47058823529411764, 0.47058823529411764, 1.0
+";",STRING_LITERAL, line no: 427,value=namevalue[1],ASSIGNMENT, line no: 416, 0.47058823529411764, 0.47058823529411764, 1.0
+";",STRING_LITERAL, line no: 427,namevalue[1],ARRAY_ACCESS, line no: 416, 0.47058823529411764, 0.47058823529411764, 1.0
+";",STRING_LITERAL, line no: 427,pathParams.get(i++),METHOD_INVOCATION, line no: 441, 0.47058823529411764, 0.47058823529411764, 1.0
+";",STRING_LITERAL, line no: 427,Encode.encodeSegment(segment true),METHOD_INVOCATION, line no: 535, 0.47058823529411764, 0.47058823529411764, 1.0
 name,SIMPLE_NAME, line no: 427,method,SIMPLE_NAME, line no: 141, 0.47058823529411764, 0.058823529411764705, 1.0
 name,SIMPLE_NAME, line no: 427,m.getName(),METHOD_INVOCATION, line no: 145, 0.47058823529411764, 0.47058823529411764, 1.0
 name,SIMPLE_NAME, line no: 427,getName,SIMPLE_NAME, line no: 145, 0.47058823529411764, 0.47058823529411764, 1.0
 name,SIMPLE_NAME, line no: 427,value=namevalue[1],ASSIGNMENT, line no: 416, 0.47058823529411764, 0.47058823529411764, 1.0
 name,SIMPLE_NAME, line no: 427,namevalue[1],ARRAY_ACCESS, line no: 416, 0.47058823529411764, 0.47058823529411764, 1.0
 name,SIMPLE_NAME, line no: 427,Encode.encodeSegment(segment true),METHOD_INVOCATION, line no: 535, 0.47058823529411764, 0.47058823529411764, 1.0
+"=",STRING_LITERAL, line no: 427,impl.host=host,ASSIGNMENT, line no: 39, 0.47058823529411764, 0.47058823529411764, 1.0
+"=",STRING_LITERAL, line no: 427,impl.host,QUALIFIED_NAME, line no: 39, 0.47058823529411764, 0.47058823529411764, 1.0
+"=",STRING_LITERAL, line no: 427,impl.scheme=scheme,ASSIGNMENT, line no: 40, 0.47058823529411764, 0.47058823529411764, 1.0
+"=",STRING_LITERAL, line no: 427,impl.scheme,QUALIFIED_NAME, line no: 40, 0.47058823529411764, 0.47058823529411764, 1.0
+"=",STRING_LITERAL, line no: 427,impl.userInfo=userInfo,ASSIGNMENT, line no: 42, 0.47058823529411764, 0.47058823529411764, 1.0
+"=",STRING_LITERAL, line no: 427,impl.userInfo,QUALIFIED_NAME, line no: 42, 0.47058823529411764, 0.47058823529411764, 1.0
+"=",STRING_LITERAL, line no: 427,impl.path=path,ASSIGNMENT, line no: 43, 0.47058823529411764, 0.47058823529411764, 1.0
+"=",STRING_LITERAL, line no: 427,impl.path,QUALIFIED_NAME, line no: 43, 0.47058823529411764, 0.47058823529411764, 1.0
+"=",STRING_LITERAL, line no: 427,impl.query=query,ASSIGNMENT, line no: 44, 0.47058823529411764, 0.47058823529411764, 1.0
+"=",STRING_LITERAL, line no: 427,impl.query,QUALIFIED_NAME, line no: 44, 0.47058823529411764, 0.47058823529411764, 1.0
+"=",STRING_LITERAL, line no: 427,impl.fragment=fragment,ASSIGNMENT, line no: 45, 0.47058823529411764, 0.47058823529411764, 1.0
+"=",STRING_LITERAL, line no: 427,impl.fragment,QUALIFIED_NAME, line no: 45, 0.47058823529411764, 0.47058823529411764, 1.0
+"=",STRING_LITERAL, line no: 427,ann.value(),METHOD_INVOCATION, line no: 134, 0.47058823529411764, 0.47058823529411764, 1.0
+"=",STRING_LITERAL, line no: 427,"path param ",STRING_LITERAL, line no: 293, 0.47058823529411764, 0.47058823529411764, 1.0
+"=",STRING_LITERAL, line no: 427," has not been provided by the parameter map",STRING_LITERAL, line no: 293, 0.47058823529411764, 0.47058823529411764, 1.0
+"=",STRING_LITERAL, line no: 427,value=namevalue[1],ASSIGNMENT, line no: 416, 0.47058823529411764, 0.47058823529411764, 1.0
+"=",STRING_LITERAL, line no: 427,namevalue[1],ARRAY_ACCESS, line no: 416, 0.47058823529411764, 0.47058823529411764, 1.0
+"=",STRING_LITERAL, line no: 427,pathParams.get(i++),METHOD_INVOCATION, line no: 441, 0.47058823529411764, 0.47058823529411764, 1.0
+"=",STRING_LITERAL, line no: 427,Encode.encodeSegment(segment true),METHOD_INVOCATION, line no: 535, 0.47058823529411764, 0.47058823529411764, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,method,SIMPLE_NAME, line no: 141, 0.47058823529411764, 0.058823529411764705, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,getName,SIMPLE_NAME, line no: 145, 0.47058823529411764, 0.47058823529411764, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427, 0.46875, 0.9375, 0.5
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,query+=Encode.encodeSegment(name false) + "=" + Encode.encodeSegment(value.toString() true),ASSIGNMENT, line no: 456, 0.46875, 0.9375, 0.5
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,queryParam(name values),METHOD_INVOCATION, line no: 464, 0.46875, 0.9375, 0.5
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,ui,SIMPLE_NAME, line no: 84, 0.4666666666666667, 0.06666666666666667, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path="",ASSIGNMENT, line no: 107, 0.4666666666666667, 0.9333333333333333, 0.5
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,method,SIMPLE_NAME, line no: 141, 0.4666666666666667, 0.06666666666666667, 1.0
 path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,getName,SIMPLE_NAME, line no: 145, 0.4666666666666667, 0.4666666666666667, 1.0
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path=matrix,ASSIGNMENT, line no: 172, 0.4666666666666667, 0.4666666666666667, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,Encode.encodeSegment(name false),METHOD_INVOCATION, line no: 366, 0.4666666666666667, 0.8666666666666667, 0.5
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,Encode.encodeSegment(name false) + "=" + Encode.encodeSegment(value.toString() true),INFIX_EXPRESSION, line no: 456, 0.4666666666666667, 0.9333333333333333, 0.5
 toString,SIMPLE_NAME, line no: 427,value=namevalue[1],ASSIGNMENT, line no: 416, 0.4444444444444444, 0.4444444444444444, 1.0
 toString,SIMPLE_NAME, line no: 427,namevalue[1],ARRAY_ACCESS, line no: 416, 0.4444444444444444, 0.4444444444444444, 1.0
 path,SIMPLE_NAME, line no: 427,ui,SIMPLE_NAME, line no: 84, 0.4375, 0.0625, 1.0
@@ -687,9 +949,21 @@ path,SIMPLE_NAME, line no: 427,path=matrix,ASSIGNMENT, line no: 172, 0.4375, 0.4
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,ui,SIMPLE_NAME, line no: 84, 0.4375, 0.0625, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,method,SIMPLE_NAME, line no: 141, 0.4375, 0.0625, 1.0
 ";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,getName,SIMPLE_NAME, line no: 145, 0.4375, 0.4375, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,"Failed to create URI: ",STRING_LITERAL, line no: 257, 0.4375, 0.4375, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,"path param ",STRING_LITERAL, line no: 293, 0.4375, 0.4375, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427," has not been provided by the parameter map",STRING_LITERAL, line no: 293, 0.4375, 0.4375, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,!path.endsWith("/"),PREFIX_EXPRESSION, line no: 111, 0.43333333333333335, 0.8666666666666667, 0.5
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path.endsWith("/"),METHOD_INVOCATION, line no: 111, 0.43333333333333335, 0.8666666666666667, 0.5
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path+="/",ASSIGNMENT, line no: 111, 0.43333333333333335, 0.8666666666666667, 0.5
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path+=segment,ASSIGNMENT, line no: 115, 0.43333333333333335, 0.8666666666666667, 0.5
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,";" + Encode.encodeSegment(name false) + "="+ Encode.encodeSegment(val.toString() true),INFIX_EXPRESSION, line no: 366, 0.43333333333333335, 0.8666666666666667, 0.5
 ";",STRING_LITERAL, line no: 427,ui,SIMPLE_NAME, line no: 84, 0.4117647058823529, 0.058823529411764705, 1.0
 ";",STRING_LITERAL, line no: 427,method,SIMPLE_NAME, line no: 141, 0.4117647058823529, 0.058823529411764705, 1.0
+";",STRING_LITERAL, line no: 427,m.getName(),METHOD_INVOCATION, line no: 145, 0.4117647058823529, 0.4117647058823529, 1.0
 ";",STRING_LITERAL, line no: 427,getName,SIMPLE_NAME, line no: 145, 0.4117647058823529, 0.4117647058823529, 1.0
+";",STRING_LITERAL, line no: 427,path=matrix,ASSIGNMENT, line no: 172, 0.4117647058823529, 0.4117647058823529, 1.0
+";",STRING_LITERAL, line no: 427,"Failed to create URI: ",STRING_LITERAL, line no: 257, 0.4117647058823529, 0.4117647058823529, 1.0
+";",STRING_LITERAL, line no: 427,"path param " + param + " has not been provided by the parameter map",INFIX_EXPRESSION, line no: 293, 0.4117647058823529, 0.4117647058823529, 1.0
 name,SIMPLE_NAME, line no: 427,ui,SIMPLE_NAME, line no: 84, 0.4117647058823529, 0.058823529411764705, 1.0
 name,SIMPLE_NAME, line no: 427,path=matrix,ASSIGNMENT, line no: 172, 0.4117647058823529, 0.4117647058823529, 1.0
 name,SIMPLE_NAME, line no: 427,"Failed to create URI: ",STRING_LITERAL, line no: 257, 0.4117647058823529, 0.4117647058823529, 1.0
@@ -698,8 +972,19 @@ name,SIMPLE_NAME, line no: 427,"path param ",STRING_LITERAL, line no: 293, 0.411
 name,SIMPLE_NAME, line no: 427," has not been provided by the parameter map",STRING_LITERAL, line no: 293, 0.4117647058823529, 0.4117647058823529, 1.0
 "=",STRING_LITERAL, line no: 427,ui,SIMPLE_NAME, line no: 84, 0.4117647058823529, 0.058823529411764705, 1.0
 "=",STRING_LITERAL, line no: 427,method,SIMPLE_NAME, line no: 141, 0.4117647058823529, 0.058823529411764705, 1.0
+"=",STRING_LITERAL, line no: 427,m.getName(),METHOD_INVOCATION, line no: 145, 0.4117647058823529, 0.4117647058823529, 1.0
 "=",STRING_LITERAL, line no: 427,getName,SIMPLE_NAME, line no: 145, 0.4117647058823529, 0.4117647058823529, 1.0
+"=",STRING_LITERAL, line no: 427,path=matrix,ASSIGNMENT, line no: 172, 0.4117647058823529, 0.4117647058823529, 1.0
+"=",STRING_LITERAL, line no: 427,"Failed to create URI: ",STRING_LITERAL, line no: 257, 0.4117647058823529, 0.4117647058823529, 1.0
+"=",STRING_LITERAL, line no: 427,"path param " + param + " has not been provided by the parameter map",INFIX_EXPRESSION, line no: 293, 0.4117647058823529, 0.4117647058823529, 1.0
 val.toString(),METHOD_INVOCATION, line no: 427,ui,SIMPLE_NAME, line no: 84, 0.4117647058823529, 0.058823529411764705, 1.0
+val.toString(),METHOD_INVOCATION, line no: 427,"Failed to create URI: ",STRING_LITERAL, line no: 257, 0.4117647058823529, 0.4117647058823529, 1.0
+val.toString(),METHOD_INVOCATION, line no: 427,"path param ",STRING_LITERAL, line no: 293, 0.4117647058823529, 0.4117647058823529, 1.0
+val.toString(),METHOD_INVOCATION, line no: 427," has not been provided by the parameter map",STRING_LITERAL, line no: 293, 0.4117647058823529, 0.4117647058823529, 1.0
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,path+=";" + Encode.encodeSegment(name false) + "="+ Encode.encodeSegment(val.toString() true),ASSIGNMENT, line no: 366, 0.40625, 0.8125, 0.5
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,"Failed to create URI: ",STRING_LITERAL, line no: 257, 0.4, 0.4, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,"path param ",STRING_LITERAL, line no: 293, 0.4, 0.4, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427," has not been provided by the parameter map",STRING_LITERAL, line no: 293, 0.4, 0.4, 1.0
 toString,SIMPLE_NAME, line no: 427,ui,SIMPLE_NAME, line no: 84, 0.3888888888888889, 0.05555555555555555, 1.0
 toString,SIMPLE_NAME, line no: 427,path=matrix,ASSIGNMENT, line no: 172, 0.3888888888888889, 0.3888888888888889, 1.0
 toString,SIMPLE_NAME, line no: 427,"Failed to create URI: ",STRING_LITERAL, line no: 257, 0.3888888888888889, 0.3888888888888889, 1.0
@@ -718,9 +1003,18 @@ path,SIMPLE_NAME, line no: 427,"Failed to create URI: ",STRING_LITERAL, line no:
 path,SIMPLE_NAME, line no: 427,"path param " + param + " has not been provided by the parameter map",INFIX_EXPRESSION, line no: 293, 0.375, 0.375, 1.0
 path,SIMPLE_NAME, line no: 427,"path param ",STRING_LITERAL, line no: 293, 0.375, 0.375, 1.0
 path,SIMPLE_NAME, line no: 427," has not been provided by the parameter map",STRING_LITERAL, line no: 293, 0.375, 0.375, 1.0
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path=path.substring(0 matrixIndex) + matrix,ASSIGNMENT, line no: 179, 0.36666666666666664, 0.7333333333333333, 0.5
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path.substring(0 matrixIndex) + matrix,INFIX_EXPRESSION, line no: 179, 0.36666666666666664, 0.7333333333333333, 0.5
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,replaceParameter(paramMap isEncoded path buffer),METHOD_INVOCATION, line no: 239, 0.36666666666666664, 0.7333333333333333, 0.5
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,!param.equals(name),PREFIX_EXPRESSION, line no: 267, 0.375, 0.75, 0.5
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,param.equals(name),METHOD_INVOCATION, line no: 267, 0.375, 0.75, 0.5
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path != null,INFIX_EXPRESSION, line no: 210, 0.36666666666666664, 0.6666666666666666, 0.5
+";",STRING_LITERAL, line no: 427,this.scheme=scheme,ASSIGNMENT, line no: 66, 0.35294117647058826, 0.35294117647058826, 1.0
+";",STRING_LITERAL, line no: 427,this.scheme,FIELD_ACCESS, line no: 66, 0.35294117647058826, 0.35294117647058826, 1.0
+";",STRING_LITERAL, line no: 427,this.userInfo=ui,ASSIGNMENT, line no: 86, 0.35294117647058826, 0.35294117647058826, 1.0
+";",STRING_LITERAL, line no: 427,this.userInfo,FIELD_ACCESS, line no: 86, 0.35294117647058826, 0.35294117647058826, 1.0
+";",STRING_LITERAL, line no: 427,this.host=host,ASSIGNMENT, line no: 93, 0.35294117647058826, 0.35294117647058826, 1.0
+";",STRING_LITERAL, line no: 427,this.host,FIELD_ACCESS, line no: 93, 0.35294117647058826, 0.35294117647058826, 1.0
+";",STRING_LITERAL, line no: 427,this.query=query,ASSIGNMENT, line no: 189, 0.35294117647058826, 0.35294117647058826, 1.0
+";",STRING_LITERAL, line no: 427,this.query,FIELD_ACCESS, line no: 189, 0.35294117647058826, 0.35294117647058826, 1.0
+";",STRING_LITERAL, line no: 427,"Failed to create URI: " + buf,INFIX_EXPRESSION, line no: 257, 0.35294117647058826, 0.35294117647058826, 1.0
 name,SIMPLE_NAME, line no: 427,this.scheme=scheme,ASSIGNMENT, line no: 66, 0.35294117647058826, 0.35294117647058826, 1.0
 name,SIMPLE_NAME, line no: 427,this.scheme,FIELD_ACCESS, line no: 66, 0.35294117647058826, 0.35294117647058826, 1.0
 name,SIMPLE_NAME, line no: 427,this.userInfo=ui,ASSIGNMENT, line no: 86, 0.35294117647058826, 0.35294117647058826, 1.0
@@ -730,10 +1024,22 @@ name,SIMPLE_NAME, line no: 427,this.host,FIELD_ACCESS, line no: 93, 0.3529411764
 name,SIMPLE_NAME, line no: 427,this.query=query,ASSIGNMENT, line no: 189, 0.35294117647058826, 0.35294117647058826, 1.0
 name,SIMPLE_NAME, line no: 427,this.query,FIELD_ACCESS, line no: 189, 0.35294117647058826, 0.35294117647058826, 1.0
 name,SIMPLE_NAME, line no: 427,"Failed to create URI: " + buf,INFIX_EXPRESSION, line no: 257, 0.35294117647058826, 0.35294117647058826, 1.0
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path=paths(true path segments),ASSIGNMENT, line no: 135, 0.3333333333333333, 0.6666666666666666, 0.5
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,paths(true path segments),METHOD_INVOCATION, line no: 135, 0.3333333333333333, 0.6666666666666666, 0.5
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path=buffer.toString(),ASSIGNMENT, line no: 214, 0.3333333333333333, 0.6666666666666666, 0.5
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,PARAM_REPLACEMENT.matcher(path),METHOD_INVOCATION, line no: 436, 0.3333333333333333, 0.6666666666666666, 0.5
+"=",STRING_LITERAL, line no: 427,this.scheme=scheme,ASSIGNMENT, line no: 66, 0.35294117647058826, 0.35294117647058826, 1.0
+"=",STRING_LITERAL, line no: 427,this.scheme,FIELD_ACCESS, line no: 66, 0.35294117647058826, 0.35294117647058826, 1.0
+"=",STRING_LITERAL, line no: 427,this.userInfo=ui,ASSIGNMENT, line no: 86, 0.35294117647058826, 0.35294117647058826, 1.0
+"=",STRING_LITERAL, line no: 427,this.userInfo,FIELD_ACCESS, line no: 86, 0.35294117647058826, 0.35294117647058826, 1.0
+"=",STRING_LITERAL, line no: 427,this.host=host,ASSIGNMENT, line no: 93, 0.35294117647058826, 0.35294117647058826, 1.0
+"=",STRING_LITERAL, line no: 427,this.host,FIELD_ACCESS, line no: 93, 0.35294117647058826, 0.35294117647058826, 1.0
+"=",STRING_LITERAL, line no: 427,this.query=query,ASSIGNMENT, line no: 189, 0.35294117647058826, 0.35294117647058826, 1.0
+"=",STRING_LITERAL, line no: 427,this.query,FIELD_ACCESS, line no: 189, 0.35294117647058826, 0.35294117647058826, 1.0
+"=",STRING_LITERAL, line no: 427,"Failed to create URI: " + buf,INFIX_EXPRESSION, line no: 257, 0.35294117647058826, 0.35294117647058826, 1.0
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path.indexOf(';' start),METHOD_INVOCATION, line no: 178, 0.3333333333333333, 0.7333333333333333, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path.substring(0 matrixIndex),METHOD_INVOCATION, line no: 179, 0.3333333333333333, 0.7333333333333333, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,matrixParam(name values),METHOD_INVOCATION, line no: 376, 0.3333333333333333, 1.0, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path=newSegment.toString(),ASSIGNMENT, line no: 392, 0.3333333333333333, 1.0, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path.substring(matrixIndex + 1),METHOD_INVOCATION, line no: 402, 0.3333333333333333, 1.0, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path=path.substring(0 matrixIndex),ASSIGNMENT, line no: 403, 0.3333333333333333, 1.0, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,map.remove(name),METHOD_INVOCATION, line no: 421, 0.3333333333333333, 1.0, 0.3333333333333333
 toString,SIMPLE_NAME, line no: 427,this.scheme=scheme,ASSIGNMENT, line no: 66, 0.3333333333333333, 0.3333333333333333, 1.0
 toString,SIMPLE_NAME, line no: 427,this.scheme,FIELD_ACCESS, line no: 66, 0.3333333333333333, 0.3333333333333333, 1.0
 toString,SIMPLE_NAME, line no: 427,this.userInfo=ui,ASSIGNMENT, line no: 86, 0.3333333333333333, 0.3333333333333333, 1.0
@@ -744,8 +1050,28 @@ toString,SIMPLE_NAME, line no: 427,this.query=query,ASSIGNMENT, line no: 189, 0.
 toString,SIMPLE_NAME, line no: 427,this.query,FIELD_ACCESS, line no: 189, 0.3333333333333333, 0.3333333333333333, 1.0
 toString,SIMPLE_NAME, line no: 427,"Failed to create URI: " + buf,INFIX_EXPRESSION, line no: 257, 0.3333333333333333, 0.3333333333333333, 1.0
 path,SIMPLE_NAME, line no: 427,"Failed to create URI: " + buf,INFIX_EXPRESSION, line no: 257, 0.3125, 0.3125, 1.0
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,replaceParameter(name value.toString() isEncoded path buffer),METHOD_INVOCATION, line no: 213, 0.3, 0.6, 0.5
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,impl.path=path,ASSIGNMENT, line no: 43, 0.26666666666666666, 0.5333333333333333, 0.5
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,impl.path,QUALIFIED_NAME, line no: 43, 0.26666666666666666, 0.5333333333333333, 0.5
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,matcher=PARAM_REPLACEMENT.matcher(path),ASSIGNMENT, line no: 436, 0.2222222222222222, 0.6666666666666666, 0.3333333333333333
-path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,addToPathParamList(params set path),METHOD_INVOCATION, line no: 312, 0.19999999999999998, 0.6, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,query+=Encode.encodeSegment(name false) + "=" + Encode.encodeSegment(value.toString() true),ASSIGNMENT, line no: 456, 0.3111111111111111, 0.9333333333333333, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,queryParam(name values),METHOD_INVOCATION, line no: 464, 0.3111111111111111, 0.9333333333333333, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,this.path,FIELD_ACCESS, line no: 549, 0.3, 0.6, 0.5
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,Encode.encodePath(path true),METHOD_INVOCATION, line no: 549, 0.3, 0.6, 0.5
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path=uri.getRawPath(),ASSIGNMENT, line no: 57, 0.26666666666666666, 0.8, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,!param.equals(name),PREFIX_EXPRESSION, line no: 267, 0.26666666666666666, 0.8, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,param.equals(name),METHOD_INVOCATION, line no: 267, 0.26666666666666666, 0.8, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path+=matrix,ASSIGNMENT, line no: 180, 0.2444444444444444, 0.7333333333333333, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,replaceParameter(name value.toString() isEncoded path buffer),METHOD_INVOCATION, line no: 213, 0.24, 0.6, 0.4
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path=paths(true path segments),ASSIGNMENT, line no: 135, 0.2222222222222222, 0.6666666666666666, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,paths(true path segments),METHOD_INVOCATION, line no: 135, 0.2222222222222222, 0.6666666666666666, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path=buffer.toString(),ASSIGNMENT, line no: 214, 0.2222222222222222, 0.6666666666666666, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,PARAM_REPLACEMENT.matcher(path),METHOD_INVOCATION, line no: 436, 0.2222222222222222, 0.6666666666666666, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path=paths(true path segment),ASSIGNMENT, line no: 124, 0.19999999999999998, 0.6, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,paths(true path segment),METHOD_INVOCATION, line no: 124, 0.19999999999999998, 0.6, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,this.path=Encode.encodePath(path true),ASSIGNMENT, line no: 549, 0.19999999999999998, 0.6, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path=path.substring(0 matrixIndex) + matrix,ASSIGNMENT, line no: 179, 0.18333333333333332, 0.7333333333333333, 0.25
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path.substring(0 matrixIndex) + matrix,INFIX_EXPRESSION, line no: 179, 0.18333333333333332, 0.7333333333333333, 0.25
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,impl.path=path,ASSIGNMENT, line no: 43, 0.17777777777777776, 0.5333333333333333, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,impl.path,QUALIFIED_NAME, line no: 43, 0.17777777777777776, 0.5333333333333333, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,matcher=PARAM_REPLACEMENT.matcher(path),ASSIGNMENT, line no: 436, 0.16666666666666666, 0.6666666666666666, 0.25
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,path=matrix,ASSIGNMENT, line no: 172, 0.15555555555555556, 0.4666666666666667, 0.3333333333333333
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,addToPathParamList(params set path),METHOD_INVOCATION, line no: 312, 0.15, 0.6, 0.25
+path+=";" + name + "="+ val.toString(),ASSIGNMENT, line no: 427,replaceParameter(paramMap isEncoded path buffer),METHOD_INVOCATION, line no: 239, 0.14666666666666667, 0.7333333333333333, 0.2
+";" + name + "="+ val.toString(),INFIX_EXPRESSION, line no: 427,replaceParameter(name value.toString() isEncoded path buffer),METHOD_INVOCATION, line no: 213, 0.1125, 0.5625, 0.2

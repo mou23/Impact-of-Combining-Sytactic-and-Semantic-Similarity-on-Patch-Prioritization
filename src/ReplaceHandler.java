@@ -1,6 +1,5 @@
 import org.eclipse.jdt.core.dom.Expression;
 import org.eclipse.jdt.core.dom.IBinding;
-import org.eclipse.jdt.core.dom.SimpleName;
 
 public class ReplaceHandler {
 	private static ReplaceHandler replaceHandler;
@@ -36,6 +35,7 @@ public class ReplaceHandler {
 				ModelExtractor modelExtractor = ModelExtractor.createModelExtractor();
 				candidatePatch.genealogyScore = modelExtractor.getGenealogySimilarityScore(faultyNode.genealogy, fixingIngredient.genealogy);
 				if(faultyNode.type.equals("SIMPLE_NAME") || fixingIngredient.type.equals("SIMPLE_NAME")) {
+					
 					IBinding faultyBinding = ((Expression)faultyNode.node).resolveTypeBinding();
 					IBinding fixingBinding = ((Expression)fixingIngredient.node).resolveTypeBinding();
 					if(faultyBinding!=null && fixingBinding!=null && faultyBinding.equals(fixingBinding)) {
@@ -43,6 +43,8 @@ public class ReplaceHandler {
 						//							System.out.println(fixingIngredient.node + " line : " + fixingIngredient.startLine);
 						candidatePatch.variableScore = 1.0;
 					}
+//					System.out.println("FAULT "+faultyNode.toString()  + " "+ faultyBinding);
+//					System.out.println("FIX " +fixingIngredient.toString()+ " "+fixingBinding);
 				}
 				
 				else if(faultyNode.type.equals("BOOLEAN_LITERAL") || fixingIngredient.type.equals("BOOLEAN_LITERAL")

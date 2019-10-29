@@ -1,6 +1,4 @@
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,equals,SIMPLE_NAME, line no: 430, 1.0, 0.7333333333333333, 1.0
-name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,cls.getClass().getName(),METHOD_INVOCATION, line no: 799, 1.0, 1.0, 1.0
-name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,cls.getClass(),METHOD_INVOCATION, line no: 799, 1.0, 1.0, 1.0
 name,SIMPLE_NAME, line no: 799,getName,SIMPLE_NAME, line no: 677, 1.0, 0.875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getName,SIMPLE_NAME, line no: 677, 1.0, 0.875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,cls.getClass(),METHOD_INVOCATION, line no: 799, 1.0, 1.0, 1.0
@@ -137,29 +135,37 @@ cls.getClass().getName(),METHOD_INVOCATION, line no: 799,ATTR_MAIN_CLASS,SIMPLE_
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,toString,SIMPLE_NAME, line no: 431, 0.9375, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getKey,SIMPLE_NAME, line no: 451, 0.9375, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getBefore,SIMPLE_NAME, line no: 470, 0.9375, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Capsule wrapping loop detected with capsule ",STRING_LITERAL, line no: 661, 0.9375, 0.9375, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getValue,SIMPLE_NAME, line no: 673, 0.9375, 0.875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Read JAR in setTarget",STRING_LITERAL, line no: 685, 0.9375, 0.9375, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,putValue,SIMPLE_NAME, line no: 688, 0.9375, 0.9375, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,name,SIMPLE_NAME, line no: 734, 0.9375, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Applying caplet ",STRING_LITERAL, line no: 763, 0.9375, 0.9375, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Caplet ",STRING_LITERAL, line no: 768, 0.9375, 0.9375, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," is already in the chain (after ",STRING_LITERAL, line no: 768, 0.9375, 0.9375, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,")",STRING_LITERAL, line no: 768, 0.9375, 0.9375, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,cls != null,INFIX_EXPRESSION, line no: 798, 0.9375, 0.9375, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,cls=cls.getSuperclass(),ASSIGNMENT, line no: 798, 0.9375, 0.9375, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,cls.getSuperclass(),METHOD_INVOCATION, line no: 798, 0.9375, 0.9375, 1.0
-cls.getClass().getName(),METHOD_INVOCATION, line no: 799,name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799, 0.9375, 0.9375, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,join,SIMPLE_NAME, line no: 1097, 0.9375, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," ",STRING_LITERAL, line no: 1097, 0.9375, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," (",STRING_LITERAL, line no: 2153, 0.9375, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,wrapperVersion,SIMPLE_NAME, line no: 2858, 0.9375, 0.9375, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,wrappedVersion,SIMPLE_NAME, line no: 2859, 0.9375, 0.9375, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," is not a valid capsule",STRING_LITERAL, line no: 2863, 0.9375, 0.125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Incompatible Capsule versions: ",STRING_LITERAL, line no: 2868, 0.9375, 0.9375, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,")  ",STRING_LITERAL, line no: 2868, 0.9375, 0.9375, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,wrMainClass,SIMPLE_NAME, line no: 2880, 0.9375, 0.9375, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Testing capsule ",STRING_LITERAL, line no: 2912, 0.9375, 0.9375, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Done testing capsule ",STRING_LITERAL, line no: 2914, 0.9375, 0.9375, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,true,BOOLEAN_LITERAL, line no: 145, 0.9333333333333333, 0.13333333333333333, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,false,BOOLEAN_LITERAL, line no: 160, 0.9333333333333333, 0.13333333333333333, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,isFactoryCapsule,SIMPLE_NAME, line no: 358, 0.9333333333333333, 0.6666666666666666, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,wrapper,SIMPLE_NAME, line no: 546, 0.9333333333333333, 0.06666666666666667, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,isCapsule,SIMPLE_NAME, line no: 669, 0.9333333333333333, 0.9333333333333333, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,hasCaplet,SIMPLE_NAME, line no: 769, 0.9333333333333333, 0.9333333333333333, 1.0
-name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,cls != null,INFIX_EXPRESSION, line no: 798, 0.9333333333333333, 0.9333333333333333, 1.0
-name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,cls=cls.getSuperclass(),ASSIGNMENT, line no: 798, 0.9333333333333333, 0.9333333333333333, 1.0
-name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,cls.getSuperclass(),METHOD_INVOCATION, line no: 798, 0.9333333333333333, 0.9333333333333333, 1.0
 cls.getClass(),METHOD_INVOCATION, line no: 799,cls != null,INFIX_EXPRESSION, line no: 798, 0.8823529411764706, 0.8823529411764706, 1.0
 cls.getClass(),METHOD_INVOCATION, line no: 799,cls=cls.getSuperclass(),ASSIGNMENT, line no: 798, 0.8823529411764706, 0.8823529411764706, 1.0
-cls.getClass(),METHOD_INVOCATION, line no: 799,name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799, 0.8823529411764706, 0.8823529411764706, 1.0
 getName,SIMPLE_NAME, line no: 799,PROP_RESET,SIMPLE_NAME, line no: 148, 0.8823529411764706, 0.058823529411764705, 1.0
 getName,SIMPLE_NAME, line no: 799,VAR_CLASSPATH,SIMPLE_NAME, line no: 200, 0.8823529411764706, 0.058823529411764705, 1.0
 getName,SIMPLE_NAME, line no: 799,PROP_JAVA_HOME,SIMPLE_NAME, line no: 211, 0.8823529411764706, 0.058823529411764705, 1.0
@@ -410,21 +416,43 @@ cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getProperty,SIMPLE_NAME
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,TIMESTAMP_FILE_NAME,SIMPLE_NAME, line no: 239, 0.875, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,toLowerCase,SIMPLE_NAME, line no: 285, 0.875, 0.125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,replace,SIMPLE_NAME, line no: 515, 0.875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"jar",STRING_LITERAL, line no: 648, 0.875, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," is not a capsule or an executable JAR",STRING_LITERAL, line no: 674, 0.875, 0.875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,".class",STRING_LITERAL, line no: 677, 0.875, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getAppId,SIMPLE_NAME, line no: 714, 0.875, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getAttribute,SIMPLE_NAME, line no: 714, 0.875, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Factory (unchanged) capsule",STRING_LITERAL, line no: 872, 0.875, 0.875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getMode,SIMPLE_NAME, line no: 890, 0.875, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"UTF-8",STRING_LITERAL, line no: 934, 0.875, 0.875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," -> ",STRING_LITERAL, line no: 1002, 0.875, 0.625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,a,SIMPLE_NAME, line no: 1291, 0.875, 0.875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"$",STRING_LITERAL, line no: 1292, 0.875, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,put,SIMPLE_NAME, line no: 1341, 0.875, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,processOutgoingPath,SIMPLE_NAME, line no: 1345, 0.875, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Cannot run the startup script ",STRING_LITERAL, line no: 1683, 0.875, 0.875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," when the ",STRING_LITERAL, line no: 1683, 0.875, 0.875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," attribute is set to false",STRING_LITERAL, line no: 1683, 0.875, 0.875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,compileClassPath,SIMPLE_NAME, line no: 1689, 0.875, 0.875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,prefix,SIMPLE_NAME, line no: 1794, 0.875, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,p,SIMPLE_NAME, line no: 1910, 0.875, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,javaVersion,SIMPLE_NAME, line no: 2137, 0.875, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Java version ",STRING_LITERAL, line no: 2141, 0.875, 0.5, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,shortJavaVersion,SIMPLE_NAME, line no: 2148, 0.875, 0.875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," matches",STRING_LITERAL, line no: 2156, 0.875, 0.875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"  ",STRING_LITERAL, line no: 2181, 0.875, 0.5625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,ver,SIMPLE_NAME, line no: 2241, 0.875, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-digest",STRING_LITERAL, line no: 2388, 0.875, 0.875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Magic",STRING_LITERAL, line no: 2388, 0.875, 0.875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"resolve ",STRING_LITERAL, line no: 2753, 0.875, 0.875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Dependency ",STRING_LITERAL, line no: 2755, 0.875, 0.875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," was not found.",STRING_LITERAL, line no: 2755, 0.875, 0.875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,fileName,SIMPLE_NAME, line no: 2838, 0.875, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"capsule/",STRING_LITERAL, line no: 2844, 0.875, 0.875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"META-INF/",STRING_LITERAL, line no: 2846, 0.875, 0.875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getActualJavaVersion,SIMPLE_NAME, line no: 3419, 0.875, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,toHexString,SIMPLE_NAME, line no: 4347, 0.875, 0.875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"empty",STRING_LITERAL, line no: 4365, 0.875, 0.875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"mode: ",STRING_LITERAL, line no: 4367, 0.875, 0.875, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,isEmpty,SIMPLE_NAME, line no: 297, 0.8666666666666667, 0.7333333333333333, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,startsWith,SIMPLE_NAME, line no: 425, 0.8666666666666667, 0.8, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,contains,SIMPLE_NAME, line no: 467, 0.8666666666666667, 0.8, 1.0
@@ -448,6 +476,7 @@ name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,hasDepende
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,markSupported,SIMPLE_NAME, line no: 3116, 0.8666666666666667, 0.8666666666666667, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,allPathsHaveSameRoot,SIMPLE_NAME, line no: 3160, 0.8666666666666667, 0.8666666666666667, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,recursive,SIMPLE_NAME, line no: 3294, 0.8666666666666667, 0.06666666666666667, 1.0
+cls.getClass(),METHOD_INVOCATION, line no: 799,cls == null,INFIX_EXPRESSION, line no: 4487, 0.8235294117647058, 0.8235294117647058, 1.0
 getName,SIMPLE_NAME, line no: 799,ENV_CACHE_DIR,SIMPLE_NAME, line no: 139, 0.8235294117647058, 0.058823529411764705, 1.0
 getName,SIMPLE_NAME, line no: 799,PROP_LOG_LEVEL,SIMPLE_NAME, line no: 149, 0.8235294117647058, 0.058823529411764705, 1.0
 getName,SIMPLE_NAME, line no: 799,PROP_CAPSULE_JAVA_HOME,SIMPLE_NAME, line no: 150, 0.8235294117647058, 0.058823529411764705, 1.0
@@ -1567,6 +1596,7 @@ equals,SIMPLE_NAME, line no: 799,cls == null,INFIX_EXPRESSION, line no: 4487, 0.
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,ENV_CACHE_DIR,SIMPLE_NAME, line no: 139, 0.8125, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,PROP_LOG_LEVEL,SIMPLE_NAME, line no: 149, 0.8125, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,PROP_CAPSULE_JAVA_HOME,SIMPLE_NAME, line no: 150, 0.8125, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"",STRING_LITERAL, line no: 179, 0.8125, 0.125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,VAR_CAPSULE_APP,SIMPLE_NAME, line no: 197, 0.8125, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,VAR_CAPSULE_DIR,SIMPLE_NAME, line no: 198, 0.8125, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,VAR_CAPSULE_JAR,SIMPLE_NAME, line no: 199, 0.8125, 0.0625, 1.0
@@ -1592,73 +1622,178 @@ cls.getClass().getName(),METHOD_INVOCATION, line no: 799,OS,SIMPLE_NAME, line no
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getProperty0,SIMPLE_NAME, line no: 285, 0.8125, 0.1875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,PLATFORM,SIMPLE_NAME, line no: 286, 0.8125, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,remove,SIMPLE_NAME, line no: 300, 0.8125, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"CAPSULE EXCEPTION: ",STRING_LITERAL, line no: 343, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getMessage,SIMPLE_NAME, line no: 343, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," while processing ",STRING_LITERAL, line no: 345, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getContext,SIMPLE_NAME, line no: 345, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," (for stack trace  run with -D",STRING_LITERAL, line no: 350, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"=verbose)",STRING_LITERAL, line no: 350, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,mainClass,SIMPLE_NAME, line no: 368, 0.8125, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getMainClass,SIMPLE_NAME, line no: 370, 0.8125, 0.5, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,optionName,SIMPLE_NAME, line no: 424, 0.8125, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,defaultValue,SIMPLE_NAME, line no: 424, 0.8125, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,methodName,SIMPLE_NAME, line no: 424, 0.8125, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,description,SIMPLE_NAME, line no: 424, 0.8125, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Option name must start with ",STRING_LITERAL, line no: 426, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," but was ",STRING_LITERAL, line no: 426, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,option,SIMPLE_NAME, line no: 451, 0.8125, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,get,SIMPLE_NAME, line no: 462, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-",STRING_LITERAL, line no: 462, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,arg,SIMPLE_NAME, line no: 464, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,optarg,SIMPLE_NAME, line no: 466, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"=",STRING_LITERAL, line no: 467, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getAfter,SIMPLE_NAME, line no: 468, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,simpleToOption,SIMPLE_NAME, line no: 470, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Unrecognized option: ",STRING_LITERAL, line no: 472, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,x,SIMPLE_NAME, line no: 476, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Action ",STRING_LITERAL, line no: 500, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," is availbale for wrapper capsules only.",STRING_LITERAL, line no: 500, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,substring,SIMPLE_NAME, line no: 515, 0.8125, 0.6875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,simple,SIMPLE_NAME, line no: 518, 0.8125, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-h",STRING_LITERAL, line no: 519, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,appId,SIMPLE_NAME, line no: 549, 0.8125, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,mode,SIMPLE_NAME, line no: 550, 0.8125, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,target,SIMPLE_NAME, line no: 646, 0.8125, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," not found.",STRING_LITERAL, line no: 650, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,caplet,SIMPLE_NAME, line no: 726, 0.8125, 0.5, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Initializing app ID",STRING_LITERAL, line no: 733, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getAppIdNoVer,SIMPLE_NAME, line no: 734, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,version,SIMPLE_NAME, line no: 737, 0.8125, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Initialized app ID: ",STRING_LITERAL, line no: 739, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Loading caplet: ",STRING_LITERAL, line no: 750, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,".jar",STRING_LITERAL, line no: 751, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getProtocol,SIMPLE_NAME, line no: 913, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"The Capsule class must be in a JAR file  but was loaded from: ",STRING_LITERAL, line no: 914, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,path,SIMPLE_NAME, line no: 915, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getPath,SIMPLE_NAME, line no: 915, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"The Capsule class must be in a local JAR file  but was loaded from: ",STRING_LITERAL, line no: 917, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,attr,SIMPLE_NAME, line no: 957, 0.8125, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getManifestAttribute,SIMPLE_NAME, line no: 958, 0.8125, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,": ",STRING_LITERAL, line no: 975, 0.8125, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"java ",STRING_LITERAL, line no: 1020, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-jar ",STRING_LITERAL, line no: 1023, 0.8125, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"<options> ",STRING_LITERAL, line no: 1026, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"<path or Maven coords of application JAR/capsule>",STRING_LITERAL, line no: 1030, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"USAGE: ",STRING_LITERAL, line no: 1033, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Cannot launch a wrapper capsule.",STRING_LITERAL, line no: 1081, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Total",STRING_LITERAL, line no: 1096, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," (Running in ",STRING_LITERAL, line no: 1097, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,emptyToNull,SIMPLE_NAME, line no: 1222, 0.8125, 0.5, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"$*",STRING_LITERAL, line no: 1293, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,var,SIMPLE_NAME, line no: 1334, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,":",STRING_LITERAL, line no: 1335, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,id,SIMPLE_NAME, line no: 1375, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getAppArtifactId,SIMPLE_NAME, line no: 1387, 0.8125, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,".",STRING_LITERAL, line no: 1391, 0.8125, 0.5, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getAppArtifactVersion,SIMPLE_NAME, line no: 1394, 0.8125, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,cacheDirEnv,SIMPLE_NAME, line no: 1415, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getenv,SIMPLE_NAME, line no: 1415, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Cache directory: ",STRING_LITERAL, line no: 1435, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"App cache ",STRING_LITERAL, line no: 1564, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," is up to date.",STRING_LITERAL, line no: 1564, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"buildAppCacheDir",STRING_LITERAL, line no: 1566, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,s,SIMPLE_NAME, line no: 1669, 0.8125, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Command line length: ",STRING_LITERAL, line no: 1740, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Command line too long and trampoline requested.",STRING_LITERAL, line no: 1742, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Writing classpath: ",STRING_LITERAL, line no: 1744, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," to pathing JAR: ",STRING_LITERAL, line no: 1744, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,javaCmd,SIMPLE_NAME, line no: 1760, 0.8125, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,value,SIMPLE_NAME, line no: 1794, 0.8125, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"buildClassPath",STRING_LITERAL, line no: 1843, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Resolving native libs ",STRING_LITERAL, line no: 1954, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getNativeLibExtension,SIMPLE_NAME, line no: 1955, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"One of the native artifacts ",STRING_LITERAL, line no: 1957, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," reolved to more than a single file or to none",STRING_LITERAL, line no: 1957, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-client",STRING_LITERAL, line no: 2010, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-server",STRING_LITERAL, line no: 2010, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"compiler",STRING_LITERAL, line no: 2011, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-enablesystemassertions",STRING_LITERAL, line no: 2012, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-esa",STRING_LITERAL, line no: 2012, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-disablesystemassertions",STRING_LITERAL, line no: 2013, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-dsa",STRING_LITERAL, line no: 2013, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"systemassertions",STRING_LITERAL, line no: 2014, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-jre-restrict-search",STRING_LITERAL, line no: 2015, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-no-jre-restrict-search",STRING_LITERAL, line no: 2015, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-Xloggc:",STRING_LITERAL, line no: 2017, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-Xloggc",STRING_LITERAL, line no: 2018, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-Xss",STRING_LITERAL, line no: 2019, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-Xmx",STRING_LITERAL, line no: 2021, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-Xms",STRING_LITERAL, line no: 2023, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-XX:+",STRING_LITERAL, line no: 2025, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-XX:-",STRING_LITERAL, line no: 2025, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-XX:",STRING_LITERAL, line no: 2026, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Jar ",STRING_LITERAL, line no: 2057, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," does not have a main class defined in the manifest.",STRING_LITERAL, line no: 2057, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,propJHome,SIMPLE_NAME, line no: 2091, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"current",STRING_LITERAL, line no: 2093, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"chooseJavaHome",STRING_LITERAL, line no: 2112, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,bestVersion,SIMPLE_NAME, line no: 2119, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,v,SIMPLE_NAME, line no: 2122, 0.8125, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," fails to match due to ",STRING_LITERAL, line no: 2145, 0.8125, 0.6875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,type,SIMPLE_NAME, line no: 2176, 0.8125, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,dep,SIMPLE_NAME, line no: 2192, 0.8125, 0.6875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,attribute00,SIMPLE_NAME, line no: 2225, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,attrName,SIMPLE_NAME, line no: 2267, 0.8125, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Type ",STRING_LITERAL, line no: 2269, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," is not supported for attributes",STRING_LITERAL, line no: 2269, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,section,SIMPLE_NAME, line no: 2326, 0.8125, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," is an illegal mode name",STRING_LITERAL, line no: 2352, 0.8125, 0.6875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,typeString,SIMPLE_NAME, line no: 2443, 0.8125, 0.4375, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,majorJavaVersion,SIMPLE_NAME, line no: 2449, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getJavaVersion,SIMPLE_NAME, line no: 2449, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"java-",STRING_LITERAL, line no: 2453, 0.8125, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,platform,SIMPLE_NAME, line no: 2477, 0.8125, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"map of String to ",STRING_LITERAL, line no: 2590, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," in the form \"k1=v1 k2=v2 ...\"",STRING_LITERAL, line no: 2590, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getSimpleName,SIMPLE_NAME, line no: 2592, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,se,SIMPLE_NAME, line no: 2617, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,sdefaultValue,SIMPLE_NAME, line no: 2624, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Unsupported primitive attribute type: ",STRING_LITERAL, line no: 2648, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,group,SIMPLE_NAME, line no: 2695, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,artifact,SIMPLE_NAME, line no: 2696, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,filename,SIMPLE_NAME, line no: 2698, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"lib",STRING_LITERAL, line no: 2701, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Path ",STRING_LITERAL, line no: 2980, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," is not local to app cache ",STRING_LITERAL, line no: 2980, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,str,SIMPLE_NAME, line no: 2983, 0.8125, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"solaris",STRING_LITERAL, line no: 3037, 0.8125, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Unrecognized OS: ",STRING_LITERAL, line no: 3050, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"**",STRING_LITERAL, line no: 3302, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"glob:",STRING_LITERAL, line no: 3307, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"jdk",STRING_LITERAL, line no: 3365, 0.8125, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"jre",STRING_LITERAL, line no: 3365, 0.8125, 0.6875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,isJavaDir,SIMPLE_NAME, line no: 3378, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,".jdk",STRING_LITERAL, line no: 3446, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,".jre",STRING_LITERAL, line no: 3446, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-openjdk",STRING_LITERAL, line no: 3452, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-oracle",STRING_LITERAL, line no: 3452, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"java-([0-9]+)-",STRING_LITERAL, line no: 3453, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,versionLine,SIMPLE_NAME, line no: 3492, 0.8125, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Could not parse version line: ",STRING_LITERAL, line no: 3495, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Could not parse version: ",STRING_LITERAL, line no: 3584, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"major",STRING_LITERAL, line no: 3586, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"minor",STRING_LITERAL, line no: 3587, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"patch",STRING_LITERAL, line no: 3588, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"update",STRING_LITERAL, line no: 3589, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,pre,SIMPLE_NAME, line no: 3590, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"pre",STRING_LITERAL, line no: 3590, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Cannot resolve variable $",STRING_LITERAL, line no: 3677, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"; capsule not expanded",STRING_LITERAL, line no: 3677, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," in an empty capsule.",STRING_LITERAL, line no: 3683, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"0",STRING_LITERAL, line no: 3688, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,jhome,SIMPLE_NAME, line no: 3693, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"; Java home not set.",STRING_LITERAL, line no: 3695, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,separator,SIMPLE_NAME, line no: 3721, 0.8125, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,map,SIMPLE_NAME, line no: 3734, 0.8125, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,entry,SIMPLE_NAME, line no: 3738, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Unhandled type: ",STRING_LITERAL, line no: 3920, 0.8125, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,envVar,SIMPLE_NAME, line no: 3996, 0.8125, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,capsuleClass,SIMPLE_NAME, line no: 4431, 0.8125, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," does not appear to be a valid capsule.",STRING_LITERAL, line no: 4449, 0.8125, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Loading capsule class ",STRING_LITERAL, line no: 4455, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," using class loader ",STRING_LITERAL, line no: 4455, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"PROPERTIES",STRING_LITERAL, line no: 4462, 0.8125, 0.8125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,cls == null,INFIX_EXPRESSION, line no: 4487, 0.8125, 0.8125, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,parseBoolean,SIMPLE_NAME, line no: 264, 0.8, 0.13333333333333333, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,isWrapperFactoryCapsule,SIMPLE_NAME, line no: 324, 0.8, 0.8, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,runActions,SIMPLE_NAME, line no: 329, 0.8, 0.8, 1.0
@@ -1694,6 +1829,10 @@ name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,isMac,SIMP
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,isRegularFile,SIMPLE_NAME, line no: 2702, 0.8, 0.8, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,shouldExtractFile,SIMPLE_NAME, line no: 2831, 0.8, 0.8, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,matches,SIMPLE_NAME, line no: 3322, 0.8, 0.7333333333333333, 1.0
+cls.getClass(),METHOD_INVOCATION, line no: 799,cls != null && !cls.getName().equals(Capsule.class.getName()),INFIX_EXPRESSION, line no: 4485, 0.7647058823529411, 0.7647058823529411, 1.0
+cls.getClass(),METHOD_INVOCATION, line no: 799,!cls.getName().equals(Capsule.class.getName()),PREFIX_EXPRESSION, line no: 4485, 0.7647058823529411, 0.7647058823529411, 1.0
+cls.getClass(),METHOD_INVOCATION, line no: 799,cls.getName().equals(Capsule.class.getName()),METHOD_INVOCATION, line no: 4485, 0.7647058823529411, 0.7647058823529411, 1.0
+cls.getClass(),METHOD_INVOCATION, line no: 799,cls.getName(),METHOD_INVOCATION, line no: 4485, 0.7647058823529411, 0.7647058823529411, 1.0
 getName,SIMPLE_NAME, line no: 799,"false",STRING_LITERAL, line no: 142, 0.7647058823529411, 0.058823529411764705, 1.0
 getName,SIMPLE_NAME, line no: 799,PROP_HELP,SIMPLE_NAME, line no: 146, 0.7647058823529411, 0.058823529411764705, 1.0
 getName,SIMPLE_NAME, line no: 799,PROP_CAPSULE_JAVA_CMD,SIMPLE_NAME, line no: 151, 0.7647058823529411, 0.058823529411764705, 1.0
@@ -2433,11 +2572,13 @@ equals,SIMPLE_NAME, line no: 799,security != null,INFIX_EXPRESSION, line no: 450
 equals,SIMPLE_NAME, line no: 799,!target.getClass().getProtectionDomain().implies(PERM_UNSAFE_OVERRIDE),PREFIX_EXPRESSION, line no: 4509, 0.75, 0.75, 1.0
 equals,SIMPLE_NAME, line no: 799,target.getClass().getProtectionDomain().implies(PERM_UNSAFE_OVERRIDE),METHOD_INVOCATION, line no: 4509, 0.75, 0.75, 1.0
 equals,SIMPLE_NAME, line no: 799,implies,SIMPLE_NAME, line no: 4509, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"false",STRING_LITERAL, line no: 142, 0.75, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,PROP_HELP,SIMPLE_NAME, line no: 146, 0.75, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,PROP_CAPSULE_JAVA_CMD,SIMPLE_NAME, line no: 151, 0.75, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,PROP_JVM_ARGS,SIMPLE_NAME, line no: 152, 0.75, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,PROP_TRAMPOLINE,SIMPLE_NAME, line no: 153, 0.75, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,T_STRING,SIMPLE_NAME, line no: 160, 0.75, 0.1875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"true",STRING_LITERAL, line no: 181, 0.75, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,PROP_CAPSULE_JAR,SIMPLE_NAME, line no: 203, 0.75, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,PROP_CAPSULE_DIR,SIMPLE_NAME, line no: 204, 0.75, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,PROP_CAPSULE_APP,SIMPLE_NAME, line no: 205, 0.75, 0.0625, 1.0
@@ -2449,30 +2590,118 @@ cls.getClass().getName(),METHOD_INVOCATION, line no: 799,ATTR_IMPLEMENTATION_VEN
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,ATTR_IMPLEMENTATION_URL,SIMPLE_NAME, line no: 227, 0.75, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,PATH_SEPARATOR,SIMPLE_NAME, line no: 231, 0.75, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,LOG_PREFIX,SIMPLE_NAME, line no: 259, 0.75, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Option ",STRING_LITERAL, line no: 431, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," has a conflicting registration: ",STRING_LITERAL, line no: 431, 0.75, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,defval,SIMPLE_NAME, line no: 452, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-D",STRING_LITERAL, line no: 477, 0.75, 0.6875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,optionToSimple,SIMPLE_NAME, line no: 514, 0.75, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"jarFile can't be null",STRING_LITERAL, line no: 589, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Jar: ",STRING_LITERAL, line no: 608, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Platform: ",STRING_LITERAL, line no: 609, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Load class",STRING_LITERAL, line no: 615, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Read JAR in constructor",STRING_LITERAL, line no: 616, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Could not determine app ID. Capsule jar ",STRING_LITERAL, line no: 715, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," should have the ",STRING_LITERAL, line no: 715, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," manifest attribute.",STRING_LITERAL, line no: 715, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"_",STRING_LITERAL, line no: 738, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"The caplet ",STRING_LITERAL, line no: 754, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," has transitive dependencies.",STRING_LITERAL, line no: 754, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"No debug information in Capsule class",STRING_LITERAL, line no: 828, 0.75, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getClassName,SIMPLE_NAME, line no: 831, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Illegal access. Method can only be called by the ",STRING_LITERAL, line no: 832, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," class",STRING_LITERAL, line no: 832, 0.75, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getMethodName,SIMPLE_NAME, line no: 842, 0.75, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,toJarUrl,SIMPLE_NAME, line no: 927, 0.75, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Application ",STRING_LITERAL, line no: 952, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Version: ",STRING_LITERAL, line no: 956, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Capsule Version ",STRING_LITERAL, line no: 962, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Default mode only",STRING_LITERAL, line no: 971, 0.75, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,m,SIMPLE_NAME, line no: 973, 0.75, 0.5, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"No detected Java installations",STRING_LITERAL, line no: 983, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"This is not a wrapper capsule",STRING_LITERAL, line no: 997, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"\n",STRING_LITERAL, line no: 1037, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Actions:",STRING_LITERAL, line no: 1037, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Options:",STRING_LITERAL, line no: 1037, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"<value>",STRING_LITERAL, line no: 1050, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," (default: ",STRING_LITERAL, line no: 1052, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," - ",STRING_LITERAL, line no: 1054, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"  ",STRING_LITERAL, line no: 1056, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"\nManifest Attributes:",STRING_LITERAL, line no: 1063, 0.75, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,attrib,SIMPLE_NAME, line no: 1066, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Capsule cannot trampoline because manifest defines the ",STRING_LITERAL, line no: 1101, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," attribute.",STRING_LITERAL, line no: 1101, 0.75, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,setProperty,SIMPLE_NAME, line no: 1114, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"App ID-related attribute ",STRING_LITERAL, line no: 1381, 0.75, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," is defined in a modal section of the manifest. ",STRING_LITERAL, line no: 1381, 0.75, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," In this case  you must add the ",STRING_LITERAL, line no: 1382, 0.75, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," attribute to the manifest's main section.",STRING_LITERAL, line no: 1382, 0.75, 0.5625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,coords,SIMPLE_NAME, line no: 1387, 0.75, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Could not initialize cache directory ",STRING_LITERAL, line no: 1421, 0.75, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getCacheName,SIMPLE_NAME, line no: 1423, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"capsule-",STRING_LITERAL, line no: 1427, 0.75, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,localAppData,SIMPLE_NAME, line no: 1466, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"LOCALAPPDATA",STRING_LITERAL, line no: 1466, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"AppData",STRING_LITERAL, line no: 1472, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Local",STRING_LITERAL, line no: 1472, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Local Settings",STRING_LITERAL, line no: 1474, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Application Data",STRING_LITERAL, line no: 1474, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"%LOCALAPPDATA% is undefined  and neither ",STRING_LITERAL, line no: 1476, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," nor ",STRING_LITERAL, line no: 1477, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," have been found",STRING_LITERAL, line no: 1478, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-Xbootclasspath:",STRING_LITERAL, line no: 1714, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-Xbootclasspath/p:",STRING_LITERAL, line no: 1715, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-Xbootclasspath/a:",STRING_LITERAL, line no: 1716, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-javaagent:",STRING_LITERAL, line no: 1718, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-agentpath:",STRING_LITERAL, line no: 1719, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-classpath",STRING_LITERAL, line no: 1724, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Cannot set the ",STRING_LITERAL, line no: 1809, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," attribute to false when the ",STRING_LITERAL, line no: 1809, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," attribute is also set to false",STRING_LITERAL, line no: 1809, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Glob pattern not allowed in ",STRING_LITERAL, line no: 1814, 0.75, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,e,SIMPLE_NAME, line no: 1821, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"*.jar",STRING_LITERAL, line no: 1848, 0.75, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,o,SIMPLE_NAME, line no: 1858, 0.75, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,trim,SIMPLE_NAME, line no: 1997, 0.75, 0.6875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,expand,SIMPLE_NAME, line no: 1999, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"buildAgents (",STRING_LITERAL, line no: 2048, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"java",STRING_LITERAL, line no: 2048, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"native",STRING_LITERAL, line no: 2048, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Finding JVM: ",STRING_LITERAL, line no: 2100, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"ms",STRING_LITERAL, line no: 2100, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Trying JVM: ",STRING_LITERAL, line no: 2123, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," (version ",STRING_LITERAL, line no: 2123, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"JVM ",STRING_LITERAL, line no: 2125, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,") matches",STRING_LITERAL, line no: 2125, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Attribute ",STRING_LITERAL, line no: 2274, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"attribute",STRING_LITERAL, line no: 2295, 0.75, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Capsule manifest contains a ",STRING_LITERAL, line no: 2316, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," Use ",STRING_LITERAL, line no: 2317, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," and/or ",STRING_LITERAL, line no: 2317, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," instead.",STRING_LITERAL, line no: 2317, 0.75, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,os,SIMPLE_NAME, line no: 2398, 0.75, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getPlatformAttribute,SIMPLE_NAME, line no: 2454, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"attribute of ",STRING_LITERAL, line no: 2461, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"dll",STRING_LITERAL, line no: 3058, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"dylib",STRING_LITERAL, line no: 3060, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"so",STRING_LITERAL, line no: 3062, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Unsupported operating system: ",STRING_LITERAL, line no: 3063, 0.75, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,dir,SIMPLE_NAME, line no: 3181, 0.75, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-version",STRING_LITERAL, line no: 3492, 0.75, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,quoteReplacement,SIMPLE_NAME, line no: 3653, 0.75, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getVarValue,SIMPLE_NAME, line no: 3653, 0.75, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,xor,SIMPLE_NAME, line no: 3653, 0.75, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,key,SIMPLE_NAME, line no: 3739, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"(",STRING_LITERAL, line no: 3943, 0.75, 0.625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,property,SIMPLE_NAME, line no: 4032, 0.75, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"pipe-out",STRING_LITERAL, line no: 4264, 0.75, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"pipe-err",STRING_LITERAL, line no: 4265, 0.75, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"pipe-in",STRING_LITERAL, line no: 4266, 0.75, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"pid",STRING_LITERAL, line no: 4304, 0.75, 0.75, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,mainClassName,SIMPLE_NAME, line no: 4446, 0.75, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,cls != null && !cls.getName().equals(Capsule.class.getName()),INFIX_EXPRESSION, line no: 4485, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,!cls.getName().equals(Capsule.class.getName()),PREFIX_EXPRESSION, line no: 4485, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,cls.getName().equals(Capsule.class.getName()),METHOD_INVOCATION, line no: 4485, 0.75, 0.75, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,cls.getName(),METHOD_INVOCATION, line no: 4485, 0.75, 0.75, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,isEmptyCapsule,SIMPLE_NAME, line no: 297, 0.7333333333333333, 0.7333333333333333, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,isCapsuleOption,SIMPLE_NAME, line no: 532, 0.7333333333333333, 0.06666666666666667, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,isStream,SIMPLE_NAME, line no: 835, 0.7333333333333333, 0.7333333333333333, 1.0
@@ -2991,24 +3220,65 @@ equals,SIMPLE_NAME, line no: 799,cl == null,INFIX_EXPRESSION, line no: 4498, 0.6
 equals,SIMPLE_NAME, line no: 799,cl instanceof URLClassLoader,INSTANCEOF_EXPRESSION, line no: 4499, 0.6875, 0.6875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,ATTR_MANIFEST_VERSION,SIMPLE_NAME, line no: 221, 0.6875, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,LOCK_FILE_NAME,SIMPLE_NAME, line no: 238, 0.6875, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"main",STRING_LITERAL, line no: 377, 0.6875, 0.6875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,camelCaseToDashed,SIMPLE_NAME, line no: 515, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Capsule ",STRING_LITERAL, line no: 601, 0.6875, 0.5, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Wrapping capsule ",STRING_LITERAL, line no: 690, 0.6875, 0.6875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,chooseMode1,SIMPLE_NAME, line no: 711, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," has already been applied.",STRING_LITERAL, line no: 770, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Cannot print modes of a wrapper capsule.",STRING_LITERAL, line no: 966, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Available modes:",STRING_LITERAL, line no: 968, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Detected Java installations:",STRING_LITERAL, line no: 985, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," (JDK)",STRING_LITERAL, line no: 988, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"\t\t",STRING_LITERAL, line no: 988, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"\t",STRING_LITERAL, line no: 988, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"selected ",STRING_LITERAL, line no: 992, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," (current)",STRING_LITERAL, line no: 992, 0.6875, 0.6875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,message,SIMPLE_NAME, line no: 1127, 0.6875, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Launching app ",STRING_LITERAL, line no: 1141, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," in mode ",STRING_LITERAL, line no: 1141, 0.6875, 0.6875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,chooseMode,SIMPLE_NAME, line no: 1207, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," does not have mode ",STRING_LITERAL, line no: 1209, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Capsule not extracted.",STRING_LITERAL, line no: 1508, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Creating cache for ",STRING_LITERAL, line no: 1579, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," in ",STRING_LITERAL, line no: 1579, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Unlocking ",STRING_LITERAL, line no: 1652, 0.6875, 0.6875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,clo,SIMPLE_NAME, line no: 1787, 0.6875, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,sp,SIMPLE_NAME, line no: 1834, 0.6875, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Copying native libs to ",STRING_LITERAL, line no: 1960, 0.6875, 0.6875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,rename,SIMPLE_NAME, line no: 1965, 0.6875, 0.6875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,agentName,SIMPLE_NAME, line no: 2037, 0.6875, 0.6875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,agentOptions,SIMPLE_NAME, line no: 2038, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Using JVM: ",STRING_LITERAL, line no: 2075, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"/",STRING_LITERAL, line no: 2310, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"~/",STRING_LITERAL, line no: 2989, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"~",STRING_LITERAL, line no: 2989, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," is not under ",STRING_LITERAL, line no: 3012, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Not a JAR/ZIP file",STRING_LITERAL, line no: 3124, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"capsule_pathing_jar",STRING_LITERAL, line no: 3147, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"1.0",STRING_LITERAL, line no: 3149, 0.6875, 0.6875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,toNativePath,SIMPLE_NAME, line no: 3180, 0.6875, 0.6875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getDirectory,SIMPLE_NAME, line no: 3181, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"*",STRING_LITERAL, line no: 3353, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"?",STRING_LITERAL, line no: 3353, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"{",STRING_LITERAL, line no: 3353, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"[",STRING_LITERAL, line no: 3353, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"bin",STRING_LITERAL, line no: 3480, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,".exe",STRING_LITERAL, line no: 3480, 0.6875, 0.6875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,exec,SIMPLE_NAME, line no: 3484, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"javaw",STRING_LITERAL, line no: 3484, 0.6875, 0.6875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,b,SIMPLE_NAME, line no: 3543, 0.6875, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"rc",STRING_LITERAL, line no: 3592, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"beta",STRING_LITERAL, line no: 3594, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"ea",STRING_LITERAL, line no: 3596, 0.6875, 0.6875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,className,SIMPLE_NAME, line no: 3989, 0.6875, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,propName,SIMPLE_NAME, line no: 3996, 0.6875, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,val,SIMPLE_NAME, line no: 3997, 0.6875, 0.625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getFileName,SIMPLE_NAME, line no: 4060, 0.6875, 0.6875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,level,SIMPLE_NAME, line no: 4172, 0.6875, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"null",STRING_LITERAL, line no: 4498, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"}",STRING_LITERAL, line no: 4499, 0.6875, 0.6875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," --> ",STRING_LITERAL, line no: 4500, 0.6875, 0.6875, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,isThrownByCapsule,SIMPLE_NAME, line no: 2043, 0.6666666666666666, 0.6666666666666666, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,isJavaVersionSpecific,SIMPLE_NAME, line no: 2311, 0.6666666666666666, 0.6666666666666666, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,isOsSpecific,SIMPLE_NAME, line no: 2311, 0.6666666666666666, 0.6666666666666666, 1.0
@@ -3275,16 +3545,62 @@ cls.getClass().getName(),METHOD_INVOCATION, line no: 799,PROP_MERGE,SIMPLE_NAME,
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,PROP_TMP_DIR,SIMPLE_NAME, line no: 219, 0.625, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,FILE_SEPARATOR,SIMPLE_NAME, line no: 229, 0.625, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,propertyName,SIMPLE_NAME, line no: 444, 0.625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Capsule is finalized",STRING_LITERAL, line no: 720, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," isn't empty",STRING_LITERAL, line no: 722, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Merging ",STRING_LITERAL, line no: 1002, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," + ",STRING_LITERAL, line no: 1002, 0.625, 0.625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,chooseMode0,SIMPLE_NAME, line no: 1218, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Capsule has not been prepared for launch!",STRING_LITERAL, line no: 1266, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Could not create directory: ",STRING_LITERAL, line no: 1429, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," -- ",STRING_LITERAL, line no: 1429, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," to app cache directory ",STRING_LITERAL, line no: 1588, 0.625, 0.4375, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Extracting ",STRING_LITERAL, line no: 1628, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Locking ",STRING_LITERAL, line no: 1644, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Could not find Java installation for requested version ",STRING_LITERAL, line no: 2103, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Min. Java version: ",STRING_LITERAL, line no: 2104, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," JavaVersion: ",STRING_LITERAL, line no: 2105, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," Min. update version: ",STRING_LITERAL, line no: 2106, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," (JDK required: ",STRING_LITERAL, line no: 2107, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,". You can override the used Java version with the -D",STRING_LITERAL, line no: 2108, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," flag.",STRING_LITERAL, line no: 2108, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,") is best so far",STRING_LITERAL, line no: 2127, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Manifest section ",STRING_LITERAL, line no: 2336, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," contains non-modal attribute ",STRING_LITERAL, line no: 2336, 0.625, 0.625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,collType,SIMPLE_NAME, line no: 2585, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Set",STRING_LITERAL, line no: 2585, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"List",STRING_LITERAL, line no: 2585, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," of ",STRING_LITERAL, line no: 2586, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," in the form \"v1 v2 ...\"",STRING_LITERAL, line no: 2586, 0.625, 0.625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,processOutgoingPath0,SIMPLE_NAME, line no: 2802, 0.625, 0.625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getCapsuleVersion,SIMPLE_NAME, line no: 2861, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Main class of wrapper capsule ",STRING_LITERAL, line no: 2883, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,") is not ",STRING_LITERAL, line no: 2883, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," and is of lower version ( ",STRING_LITERAL, line no: 2884, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,") than that of the wrapped capsule ",STRING_LITERAL, line no: 2884, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"). Cannot merge.",STRING_LITERAL, line no: 2884, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"nux",STRING_LITERAL, line no: 3037, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"aix",STRING_LITERAL, line no: 3037, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"\\",STRING_LITERAL, line no: 3190, 0.625, 0.625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,glob,SIMPLE_NAME, line no: 3290, 0.625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"\\\\",STRING_LITERAL, line no: 3357, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,".0",STRING_LITERAL, line no: 3514, 0.625, 0.5, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getVarValue0,SIMPLE_NAME, line no: 3669, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Resolved variable $",STRING_LITERAL, line no: 3702, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," with a property",STRING_LITERAL, line no: 3702, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," with an environement variable",STRING_LITERAL, line no: 3707, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Not found",STRING_LITERAL, line no: 3858, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"java.util.stream",STRING_LITERAL, line no: 3990, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"$$Lambda",STRING_LITERAL, line no: 3990, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Spliterator",STRING_LITERAL, line no: 3990, 0.625, 0.625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,line,SIMPLE_NAME, line no: 4131, 0.625, 0.5625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,readLine,SIMPLE_NAME, line no: 4131, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Command '",STRING_LITERAL, line no: 4141, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"' has returned ",STRING_LITERAL, line no: 4141, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"QUIET",STRING_LITERAL, line no: 4180, 0.625, 0.625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,toUpperCase,SIMPLE_NAME, line no: 4181, 0.625, 0.625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,op,SIMPLE_NAME, line no: 4240, 0.625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"PROFILE ",STRING_LITERAL, line no: 4246, 0.625, 0.625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"1.8.0",STRING_LITERAL, line no: 4260, 0.625, 0.625, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,deepEquals,SIMPLE_NAME, line no: 1002, 0.6, 0.6, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,regular,SIMPLE_NAME, line no: 3290, 0.6, 0.06666666666666667, 1.0
 getName,SIMPLE_NAME, line no: 799,ENV_CACHE_NAME,SIMPLE_NAME, line no: 140, 0.5882352941176471, 0.058823529411764705, 1.0
@@ -3420,9 +3736,28 @@ cls.getClass().getName(),METHOD_INVOCATION, line no: 799,camel,SIMPLE_NAME, line
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,replaceAll,SIMPLE_NAME, line no: 529, 0.5625, 0.5625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,desc,SIMPLE_NAME, line no: 974, 0.5625, 0.5, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getModeDescription,SIMPLE_NAME, line no: 974, 0.5625, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"* ",STRING_LITERAL, line no: 975, 0.5625, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"%LOCALAPPDATA% set to nonexistent directory ",STRING_LITERAL, line no: 1470, 0.5625, 0.5625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getJvmArgKey,SIMPLE_NAME, line no: 2006, 0.5625, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Cannot run the embedded agent ",STRING_LITERAL, line no: 2044, 0.5625, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"resolveDependencies",STRING_LITERAL, line no: 2181, 0.5625, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"resolveDependencies ",STRING_LITERAL, line no: 2182, 0.5625, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"resolveDependency ",STRING_LITERAL, line no: 2206, 0.5625, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Manifest in JAR ",STRING_LITERAL, line no: 2328, 0.5625, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," contains a case-insensitive duplicate of section ",STRING_LITERAL, line no: 2328, 0.5625, 0.5625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,lib,SIMPLE_NAME, line no: 2689, 0.5625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"unreachable",STRING_LITERAL, line no: 3532, 0.5625, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"system property",STRING_LITERAL, line no: 4008, 0.5625, 0.5625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,envName,SIMPLE_NAME, line no: 4026, 0.5625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"environment variable",STRING_LITERAL, line no: 4028, 0.5625, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"NONE",STRING_LITERAL, line no: 4182, 0.5625, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"VERBOSE",STRING_LITERAL, line no: 4186, 0.5625, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"DEBUG",STRING_LITERAL, line no: 4188, 0.5625, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"ALL",STRING_LITERAL, line no: 4189, 0.5625, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Unrecognized log level: ",STRING_LITERAL, line no: 4192, 0.5625, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,cls.getDeclaredField("VERSION"),METHOD_INVOCATION, line no: 4490, 0.5625, 0.5625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"VERSION",STRING_LITERAL, line no: 4490, 0.5625, 0.5625, 1.0
+cls.getClass(),METHOD_INVOCATION, line no: 799,cls.getDeclaredField("VERSION"),METHOD_INVOCATION, line no: 4490, 0.5294117647058824, 0.5294117647058824, 1.0
 getName,SIMPLE_NAME, line no: 799,PROP_MODE,SIMPLE_NAME, line no: 147, 0.5294117647058824, 0.058823529411764705, 1.0
 getName,SIMPLE_NAME, line no: 799,CACHE_DEFAULT_NAME,SIMPLE_NAME, line no: 236, 0.5294117647058824, 0.058823529411764705, 1.0
 getName,SIMPLE_NAME, line no: 799,getMainClass(jar),METHOD_INVOCATION, line no: 370, 0.5294117647058824, 0.5294117647058824, 1.0
@@ -3462,6 +3797,8 @@ getName,SIMPLE_NAME, line no: 799,pre="ea",ASSIGNMENT, line no: 3620, 0.52941176
 getName,SIMPLE_NAME, line no: 799,pre="?",ASSIGNMENT, line no: 3623, 0.5294117647058824, 0.5294117647058824, 1.0
 getName,SIMPLE_NAME, line no: 799,envName != null ? System.getenv(envName) : null,CONDITIONAL_EXPRESSION, line no: 4027, 0.5294117647058824, 0.5294117647058824, 1.0
 getName,SIMPLE_NAME, line no: 799,(String)f.get(null),CAST_EXPRESSION, line no: 4491, 0.5294117647058824, 0.5294117647058824, 1.0
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,cls.getClass().getName(),METHOD_INVOCATION, line no: 799, 0.5, 1.0, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,cls.getClass(),METHOD_INVOCATION, line no: 799, 0.5, 1.0, 0.5
 name,SIMPLE_NAME, line no: 799,mainClass=getMainClass(jar),ASSIGNMENT, line no: 370, 0.5, 0.5, 1.0
 name,SIMPLE_NAME, line no: 799,camel.replaceAll("([A-Z][a-z]+)" "-$1"),METHOD_INVOCATION, line no: 529, 0.5, 0.5, 1.0
 name,SIMPLE_NAME, line no: 799,"([A-Z][a-z]+)",STRING_LITERAL, line no: 529, 0.5, 0.5, 1.0
@@ -3494,8 +3831,21 @@ equals,SIMPLE_NAME, line no: 799,lib.contains(":\\"),METHOD_INVOCATION, line no:
 equals,SIMPLE_NAME, line no: 799,map != null,INFIX_EXPRESSION, line no: 3811, 0.5, 0.5, 1.0
 equals,SIMPLE_NAME, line no: 799,level != null,INFIX_EXPRESSION, line no: 4161, 0.5, 0.5, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,CACHE_DEFAULT_NAME,SIMPLE_NAME, line no: 236, 0.5, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"JAR file ",STRING_LITERAL, line no: 372, 0.5, 0.5, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," is not an executable (does not have a main class)",STRING_LITERAL, line no: 372, 0.5, 0.5, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"([A-Z][a-z]+)",STRING_LITERAL, line no: 529, 0.5, 0.5, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"-$1",STRING_LITERAL, line no: 529, 0.5, 0.5, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," does not have a manifest",STRING_LITERAL, line no: 601, 0.5, 0.5, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,cacheNameEnv,SIMPLE_NAME, line no: 1442, 0.5, 0.5, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,cacheName,SIMPLE_NAME, line no: 1443, 0.5, 0.5, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," The ",STRING_LITERAL, line no: 1516, 0.5, 0.5, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," attribute has been set to false",STRING_LITERAL, line no: 1516, 0.5, 0.5, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," fails to match because JDK required and this is not a JDK",STRING_LITERAL, line no: 2141, 0.5, 0.5, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,":\\",STRING_LITERAL, line no: 2690, 0.5, 0.5, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Unrecognized major Java version: ",STRING_LITERAL, line no: 3513, 0.5, 0.5, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"1.",STRING_LITERAL, line no: 3514, 0.5, 0.5, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Unsafe target ",STRING_LITERAL, line no: 4510, 0.5, 0.5, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," skipped",STRING_LITERAL, line no: 4510, 0.5, 0.5, 1.0
 getName,SIMPLE_NAME, line no: 799,mainClass=getMainClass(jar),ASSIGNMENT, line no: 370, 0.47058823529411764, 0.47058823529411764, 1.0
 getName,SIMPLE_NAME, line no: 799,camel.replaceAll("([A-Z][a-z]+)" "-$1"),METHOD_INVOCATION, line no: 529, 0.47058823529411764, 0.47058823529411764, 1.0
 getName,SIMPLE_NAME, line no: 799,"([A-Z][a-z]+)",STRING_LITERAL, line no: 529, 0.47058823529411764, 0.47058823529411764, 1.0
@@ -3520,8 +3870,12 @@ getName,SIMPLE_NAME, line no: 799,"Unsafe target " + target + " skipped",INFIX_E
 getName,SIMPLE_NAME, line no: 799,"Unsafe target ",STRING_LITERAL, line no: 4510, 0.47058823529411764, 0.47058823529411764, 1.0
 getName,SIMPLE_NAME, line no: 799," skipped",STRING_LITERAL, line no: 4510, 0.47058823529411764, 0.47058823529411764, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,Class<?> cls=c.getClass(),VARIABLE_DECLARATION_EXPRESSION, line no: 798, 0.46875, 0.9375, 0.5
-name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,Class<?> cls=c.getClass(),VARIABLE_DECLARATION_EXPRESSION, line no: 798, 0.4666666666666667, 0.9333333333333333, 0.5
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799, 0.46875, 0.9375, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,cls != null,INFIX_EXPRESSION, line no: 798, 0.4666666666666667, 0.9333333333333333, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,cls=cls.getSuperclass(),ASSIGNMENT, line no: 798, 0.4666666666666667, 0.9333333333333333, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,cls.getSuperclass(),METHOD_INVOCATION, line no: 798, 0.4666666666666667, 0.9333333333333333, 0.5
 cls.getClass(),METHOD_INVOCATION, line no: 799,Class<?> cls=c.getClass(),VARIABLE_DECLARATION_EXPRESSION, line no: 798, 0.4411764705882353, 0.8823529411764706, 0.5
+cls.getClass(),METHOD_INVOCATION, line no: 799,name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799, 0.4411764705882353, 0.8823529411764706, 0.5
 name,SIMPLE_NAME, line no: 799,camel.replaceAll("([A-Z][a-z]+)" "-$1").toLowerCase(),METHOD_INVOCATION, line no: 529, 0.4375, 0.4375, 1.0
 name,SIMPLE_NAME, line no: 799,relPath,SIMPLE_NAME, line no: 927, 0.4375, 0.0625, 1.0
 name,SIMPLE_NAME, line no: 799,emptyToNull(getProperty(PROP_MODE)),METHOD_INVOCATION, line no: 1222, 0.4375, 0.4375, 1.0
@@ -3545,6 +3899,11 @@ equals,SIMPLE_NAME, line no: 799,list != null,INFIX_EXPRESSION, line no: 3806, 0
 equals,SIMPLE_NAME, line no: 799,list.isEmpty(),METHOD_INVOCATION, line no: 3815, 0.4375, 0.4375, 1.0
 equals,SIMPLE_NAME, line no: 799,map.isEmpty(),METHOD_INVOCATION, line no: 3819, 0.4375, 0.4375, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,relPath,SIMPLE_NAME, line no: 927, 0.4375, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Exception while extracting jar ",STRING_LITERAL, line no: 1588, 0.4375, 0.4375, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Element ",STRING_LITERAL, line no: 3745, 0.4375, 0.4375, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," in \"",STRING_LITERAL, line no: 3745, 0.4375, 0.4375, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"\" is not a key-value entry separated with ",STRING_LITERAL, line no: 3745, 0.4375, 0.4375, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," and no default value provided",STRING_LITERAL, line no: 3745, 0.4375, 0.4375, 1.0
 getName,SIMPLE_NAME, line no: 799,camel.replaceAll("([A-Z][a-z]+)" "-$1").toLowerCase(),METHOD_INVOCATION, line no: 529, 0.4117647058823529, 0.4117647058823529, 1.0
 getName,SIMPLE_NAME, line no: 799,relPath,SIMPLE_NAME, line no: 927, 0.4117647058823529, 0.058823529411764705, 1.0
 getName,SIMPLE_NAME, line no: 799,emptyToNull(getProperty(PROP_MODE)),METHOD_INVOCATION, line no: 1222, 0.4117647058823529, 0.4117647058823529, 1.0
@@ -3556,6 +3915,11 @@ getName,SIMPLE_NAME, line no: 799,". Expected ",STRING_LITERAL, line no: 2443, 0
 getName,SIMPLE_NAME, line no: 799," but was: ",STRING_LITERAL, line no: 2443, 0.4117647058823529, 0.4117647058823529, 1.0
 getName,SIMPLE_NAME, line no: 799,getMainClass(getManifest(jar)),METHOD_INVOCATION, line no: 3096, 0.4117647058823529, 0.4117647058823529, 1.0
 getName,SIMPLE_NAME, line no: 799,PROPERTIES.getProperty(propName),METHOD_INVOCATION, line no: 4013, 0.4117647058823529, 0.4117647058823529, 1.0
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,name == null,INFIX_EXPRESSION, line no: 735, 0.4, 0.8, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,entry.getKey().equalsIgnoreCase(name),METHOD_INVOCATION, line no: 2680, 0.4, 0.8, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,new RuntimeException(name + " does not appear to be a valid capsule."),CLASS_INSTANCE_CREATION, line no: 4459, 0.4, 0.8, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,name + " does not appear to be a valid capsule.",INFIX_EXPRESSION, line no: 4459, 0.4, 0.8, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,cls == null,INFIX_EXPRESSION, line no: 4487, 0.4, 0.8, 0.5
 name,SIMPLE_NAME, line no: 799,"jar:file:" + getJarFile().toAbsolutePath() + "!/"+ relPath,INFIX_EXPRESSION, line no: 928, 0.375, 0.375, 1.0
 name,SIMPLE_NAME, line no: 799,"jar:file:",STRING_LITERAL, line no: 928, 0.375, 0.375, 1.0
 name,SIMPLE_NAME, line no: 799,"!/",STRING_LITERAL, line no: 928, 0.375, 0.375, 1.0
@@ -3580,6 +3944,22 @@ equals,SIMPLE_NAME, line no: 799,(map != null && !map.isEmpty()),PARENTHESIZED_E
 equals,SIMPLE_NAME, line no: 799,map != null && !map.isEmpty(),INFIX_EXPRESSION, line no: 3819, 0.375, 0.375, 1.0
 equals,SIMPLE_NAME, line no: 799,!map.isEmpty(),PREFIX_EXPRESSION, line no: 3819, 0.375, 0.375, 1.0
 equals,SIMPLE_NAME, line no: 799,propName != null,INFIX_EXPRESSION, line no: 4013, 0.375, 0.375, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"jar:file:",STRING_LITERAL, line no: 928, 0.375, 0.375, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"!/",STRING_LITERAL, line no: 928, 0.375, 0.375, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Nothing to run",STRING_LITERAL, line no: 1087, 0.375, 0.375, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"prepareForLaunch",STRING_LITERAL, line no: 1150, 0.375, 0.375, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," This is a wrapper capsule and the wrapped capsule hasn't been set (yet)",STRING_LITERAL, line no: 1511, 0.375, 0.375, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," App ID has not been determined yet.",STRING_LITERAL, line no: 1513, 0.375, 0.375, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Error parsing attribute ",STRING_LITERAL, line no: 2443, 0.375, 0.375, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,". Expected ",STRING_LITERAL, line no: 2443, 0.375, 0.375, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," but was: ",STRING_LITERAL, line no: 2443, 0.375, 0.375, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"\\s+",STRING_LITERAL, line no: 2666, 0.375, 0.3125, 1.0
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,initCacheDir(getCacheHome().resolve(name)),METHOD_INVOCATION, line no: 1424, 0.36666666666666664, 0.7333333333333333, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,getCacheHome().resolve(name),METHOD_INVOCATION, line no: 1424, 0.36666666666666664, 0.7333333333333333, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,cls != null && !cls.getName().equals(Capsule.class.getName()),INFIX_EXPRESSION, line no: 4485, 0.36666666666666664, 0.7333333333333333, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,!cls.getName().equals(Capsule.class.getName()),PREFIX_EXPRESSION, line no: 4485, 0.36666666666666664, 0.7333333333333333, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,cls.getName().equals(Capsule.class.getName()),METHOD_INVOCATION, line no: 4485, 0.36666666666666664, 0.7333333333333333, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,cls.getName(),METHOD_INVOCATION, line no: 4485, 0.36666666666666664, 0.7333333333333333, 0.5
 getName,SIMPLE_NAME, line no: 799,"jar:file:" + getJarFile().toAbsolutePath() + "!/"+ relPath,INFIX_EXPRESSION, line no: 928, 0.35294117647058826, 0.35294117647058826, 1.0
 getName,SIMPLE_NAME, line no: 799,"jar:file:",STRING_LITERAL, line no: 928, 0.35294117647058826, 0.35294117647058826, 1.0
 getName,SIMPLE_NAME, line no: 799,"!/",STRING_LITERAL, line no: 928, 0.35294117647058826, 0.35294117647058826, 1.0
@@ -3592,6 +3972,22 @@ getName,SIMPLE_NAME, line no: 799," App ID has not been determined yet.",STRING_
 getName,SIMPLE_NAME, line no: 799,"\\s+",STRING_LITERAL, line no: 2666, 0.35294117647058826, 0.29411764705882354, 1.0
 getName,SIMPLE_NAME, line no: 799,obj.toString(),METHOD_INVOCATION, line no: 3718, 0.35294117647058826, 0.35294117647058826, 1.0
 getName,SIMPLE_NAME, line no: 799,propName != null ? PROPERTIES.getProperty(propName) : null,CONDITIONAL_EXPRESSION, line no: 4013, 0.35294117647058826, 0.35294117647058826, 1.0
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,(T)name,CAST_EXPRESSION, line no: 2237, 0.3333333333333333, 0.6666666666666666, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,!name.contains("/") && !name.endsWith(".class") && !name.endsWith(".jar")&& !isJavaVersionSpecific(name)&& !isOsSpecific(name),INFIX_EXPRESSION, line no: 2310, 0.3333333333333333, 0.6666666666666666, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,!name.contains("/"),PREFIX_EXPRESSION, line no: 2310, 0.3333333333333333, 0.6666666666666666, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,name.contains("/"),METHOD_INVOCATION, line no: 2310, 0.3333333333333333, 0.6666666666666666, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,!name.endsWith(".class"),PREFIX_EXPRESSION, line no: 2310, 0.3333333333333333, 0.6666666666666666, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,name.endsWith(".class"),METHOD_INVOCATION, line no: 2310, 0.3333333333333333, 0.6666666666666666, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,!name.endsWith(".jar"),PREFIX_EXPRESSION, line no: 2310, 0.3333333333333333, 0.6666666666666666, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,name.endsWith(".jar"),METHOD_INVOCATION, line no: 2310, 0.3333333333333333, 0.6666666666666666, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,!isJavaVersionSpecific(name),PREFIX_EXPRESSION, line no: 2311, 0.3333333333333333, 0.6666666666666666, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,isJavaVersionSpecific(name),METHOD_INVOCATION, line no: 2311, 0.3333333333333333, 0.6666666666666666, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,!isOsSpecific(name),PREFIX_EXPRESSION, line no: 2311, 0.3333333333333333, 0.6666666666666666, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,isOsSpecific(name),METHOD_INVOCATION, line no: 2311, 0.3333333333333333, 0.6666666666666666, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,name.contains("jdk") && !name.contains("jre"),INFIX_EXPRESSION, line no: 3365, 0.3333333333333333, 0.6666666666666666, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,name.contains("jdk"),METHOD_INVOCATION, line no: 3365, 0.3333333333333333, 0.6666666666666666, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,!name.contains("jre"),PREFIX_EXPRESSION, line no: 3365, 0.3333333333333333, 0.6666666666666666, 0.5
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,name.contains("jre"),METHOD_INVOCATION, line no: 3365, 0.3333333333333333, 0.6666666666666666, 0.5
 name,SIMPLE_NAME, line no: 799,"Exception while getting attribute " + name(attr),INFIX_EXPRESSION, line no: 2298, 0.3125, 0.3125, 1.0
 name,SIMPLE_NAME, line no: 799,"Exception while getting attribute ",STRING_LITERAL, line no: 2298, 0.3125, 0.3125, 1.0
 name,SIMPLE_NAME, line no: 799,attribute.getKey(),METHOD_INVOCATION, line no: 2306, 0.3125, 0.3125, 1.0
@@ -3603,6 +3999,12 @@ equals,SIMPLE_NAME, line no: 799,systemPropertyEmptyOrTrue(PROP_TRAMPOLINE),METH
 equals,SIMPLE_NAME, line no: 799,OS.startsWith("windows"),METHOD_INVOCATION, line no: 3023, 0.3125, 0.3125, 1.0
 equals,SIMPLE_NAME, line no: 799,OS.startsWith("mac"),METHOD_INVOCATION, line no: 3030, 0.3125, 0.3125, 1.0
 equals,SIMPLE_NAME, line no: 799,obj != null,INFIX_EXPRESSION, line no: 3718, 0.3125, 0.3125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Exception while getting attribute ",STRING_LITERAL, line no: 2298, 0.3125, 0.3125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"windows",STRING_LITERAL, line no: 3023, 0.3125, 0.3125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"mac",STRING_LITERAL, line no: 3030, 0.3125, 0.3125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"capsule",STRING_LITERAL, line no: 4051, 0.3125, 0.3125, 1.0
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,Class<?> cls=c.getClass(),VARIABLE_DECLARATION_EXPRESSION, line no: 798, 0.3111111111111111, 0.9333333333333333, 0.3333333333333333
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,cls.getDeclaredField("VERSION"),METHOD_INVOCATION, line no: 4490, 0.3, 0.6, 0.5
 getName,SIMPLE_NAME, line no: 799,"Exception while getting attribute " + name(attr),INFIX_EXPRESSION, line no: 2298, 0.29411764705882354, 0.29411764705882354, 1.0
 getName,SIMPLE_NAME, line no: 799,"Exception while getting attribute ",STRING_LITERAL, line no: 2298, 0.29411764705882354, 0.29411764705882354, 1.0
 getName,SIMPLE_NAME, line no: 799,attribute.getKey(),METHOD_INVOCATION, line no: 2306, 0.29411764705882354, 0.29411764705882354, 1.0
@@ -3610,9 +4012,15 @@ getName,SIMPLE_NAME, line no: 799,"windows",STRING_LITERAL, line no: 3023, 0.294
 getName,SIMPLE_NAME, line no: 799,"mac",STRING_LITERAL, line no: 3030, 0.29411764705882354, 0.29411764705882354, 1.0
 getName,SIMPLE_NAME, line no: 799,obj != null ? obj.toString() : null,CONDITIONAL_EXPRESSION, line no: 3718, 0.29411764705882354, 0.29411764705882354, 1.0
 getName,SIMPLE_NAME, line no: 799,"capsule",STRING_LITERAL, line no: 4051, 0.29411764705882354, 0.29411764705882354, 1.0
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,name + (version != null ? "_" + version : ""),INFIX_EXPRESSION, line no: 738, 0.26666666666666666, 0.8, 0.3333333333333333
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,entry.getName().equals(name),METHOD_INVOCATION, line no: 3089, 0.26666666666666666, 0.8, 0.3333333333333333
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,new NoSuchMethodException(name + "(" + Arrays.toString(parameterTypes)+ ")"),CLASS_INSTANCE_CREATION, line no: 3943, 0.26666666666666666, 0.6666666666666666, 0.3333333333333333
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,name + "(" + Arrays.toString(parameterTypes)+ ")",INFIX_EXPRESSION, line no: 3943, 0.26666666666666666, 0.6666666666666666, 0.3333333333333333
 equals,SIMPLE_NAME, line no: 799,isCapsule=true,ASSIGNMENT, line no: 678, 0.25, 0.25, 1.0
 equals,SIMPLE_NAME, line no: 799,hasDependencies=true,ASSIGNMENT, line no: 2772, 0.25, 0.25, 1.0
 equals,SIMPLE_NAME, line no: 799,level <= getLogLevel(),INFIX_EXPRESSION, line no: 4200, 0.25, 0.25, 1.0
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,cache=initCacheDir(getCacheHome().resolve(name)),ASSIGNMENT, line no: 1424, 0.2444444444444444, 0.7333333333333333, 0.3333333333333333
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,name=getManifestAttribute(ATTR_IMPLEMENTATION_TITLE),ASSIGNMENT, line no: 2236, 0.2222222222222222, 0.6666666666666666, 0.3333333333333333
 name,SIMPLE_NAME, line no: 799,PROP_PROFILE,SIMPLE_NAME, line no: 154, 0.1875, 0.0625, 1.0
 name,SIMPLE_NAME, line no: 799,jar + " does not exist or does appear to be a valid JAR",INFIX_EXPRESSION, line no: 374, 0.1875, 0.1875, 1.0
 name,SIMPLE_NAME, line no: 799," does not exist or does appear to be a valid JAR",STRING_LITERAL, line no: 374, 0.1875, 0.1875, 1.0
@@ -3635,6 +4043,16 @@ name,SIMPLE_NAME, line no: 799,"Caplet " + capsuleClass + " not found.",INFIX_EX
 equals,SIMPLE_NAME, line no: 799,overridden=true,ASSIGNMENT, line no: 478, 0.1875, 0.1875, 1.0
 equals,SIMPLE_NAME, line no: 799,super.equals(obj),SUPER_METHOD_INVOCATION, line no: 4339, 0.1875, 0.1875, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,PROP_PROFILE,SIMPLE_NAME, line no: 154, 0.1875, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," does not exist or does appear to be a valid JAR",STRING_LITERAL, line no: 374, 0.1875, 0.1875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Could not read JAR file ",STRING_LITERAL, line no: 603, 0.1875, 0.1875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Could not start script ",STRING_LITERAL, line no: 1673, 0.1875, 0.1875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Exception while copying native libs",STRING_LITERAL, line no: 1970, 0.1875, 0.1875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Could not resolve item ",STRING_LITERAL, line no: 2758, 0.1875, 0.1875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Error reading manifest from ",STRING_LITERAL, line no: 3109, 0.1875, 0.1875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799," is not compatible with this capsule (",STRING_LITERAL, line no: 4404, 0.1875, 0.1875, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Could not instantiate capsule ",STRING_LITERAL, line no: 4441, 0.1875, 0.1875, 1.0
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,getMethod(clazz.getSuperclass() name parameterTypes),METHOD_INVOCATION, line no: 3952, 0.18333333333333332, 0.7333333333333333, 0.25
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,getEntry(openJarInputStream(jar) name),METHOD_INVOCATION, line no: 3084, 0.17777777777777776, 0.5333333333333333, 0.3333333333333333
 getName,SIMPLE_NAME, line no: 799,PROP_PROFILE,SIMPLE_NAME, line no: 154, 0.17647058823529413, 0.058823529411764705, 1.0
 getName,SIMPLE_NAME, line no: 799,jar + " does not exist or does appear to be a valid JAR",INFIX_EXPRESSION, line no: 374, 0.17647058823529413, 0.17647058823529413, 1.0
 getName,SIMPLE_NAME, line no: 799," does not exist or does appear to be a valid JAR",STRING_LITERAL, line no: 374, 0.17647058823529413, 0.17647058823529413, 1.0
@@ -3654,6 +4072,11 @@ getName,SIMPLE_NAME, line no: 799,"Caplet " + capsuleClass + " is not compatible
 getName,SIMPLE_NAME, line no: 799,"Could not instantiate capsule " + capsuleClass,INFIX_EXPRESSION, line no: 4441, 0.17647058823529413, 0.17647058823529413, 1.0
 getName,SIMPLE_NAME, line no: 799,"Could not instantiate capsule ",STRING_LITERAL, line no: 4441, 0.17647058823529413, 0.17647058823529413, 1.0
 getName,SIMPLE_NAME, line no: 799,"Caplet " + capsuleClass + " not found.",INFIX_EXPRESSION, line no: 4466, 0.17647058823529413, 0.17647058823529413, 1.0
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,getMethod(c.getClass() name parameterTypes),METHOD_INVOCATION, line no: 3939, 0.16666666666666666, 0.6666666666666666, 0.25
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,clazz.getDeclaredMethod(name parameterTypes),METHOD_INVOCATION, line no: 3948, 0.16666666666666666, 0.6666666666666666, 0.25
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,oc.appId=name + (version != null ? "_" + version : ""),ASSIGNMENT, line no: 738, 0.16000000000000003, 0.8, 0.2
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,ps.put(name value),METHOD_INVOCATION, line no: 1914, 0.15, 0.6, 0.25
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,accessible(clazz.getDeclaredMethod(name parameterTypes)),METHOD_INVOCATION, line no: 3948, 0.15, 0.6, 0.25
 name,SIMPLE_NAME, line no: 799,PROP_FILE_SEPARATOR,SIMPLE_NAME, line no: 215, 0.125, 0.0625, 1.0
 name,SIMPLE_NAME, line no: 799,PROP_PATH_SEPARATOR,SIMPLE_NAME, line no: 216, 0.125, 0.0625, 1.0
 name,SIMPLE_NAME, line no: 799,System.getProperty(PROP_PROFILE "false"),METHOD_INVOCATION, line no: 264, 0.125, 0.125, 1.0
@@ -3668,6 +4091,10 @@ equals,SIMPLE_NAME, line no: 799,contextType_ != null,INFIX_EXPRESSION, line no:
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,PROP_FILE_SEPARATOR,SIMPLE_NAME, line no: 215, 0.125, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,PROP_PATH_SEPARATOR,SIMPLE_NAME, line no: 216, 0.125, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,getOS,SIMPLE_NAME, line no: 286, 0.125, 0.125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Capsule merge failed.",STRING_LITERAL, line no: 1005, 0.125, 0.125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Illegal system property definition: ",STRING_LITERAL, line no: 1916, 0.125, 0.125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Pathing JAR creation failed",STRING_LITERAL, line no: 3155, 0.125, 0.125, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Could not instantiate capsule.",STRING_LITERAL, line no: 4408, 0.125, 0.125, 1.0
 getName,SIMPLE_NAME, line no: 799,PROP_FILE_SEPARATOR,SIMPLE_NAME, line no: 215, 0.11764705882352941, 0.058823529411764705, 1.0
 getName,SIMPLE_NAME, line no: 799,PROP_PATH_SEPARATOR,SIMPLE_NAME, line no: 216, 0.11764705882352941, 0.058823529411764705, 1.0
 getName,SIMPLE_NAME, line no: 799,System.getProperty(PROP_PROFILE "false"),METHOD_INVOCATION, line no: 264, 0.11764705882352941, 0.11764705882352941, 1.0
@@ -3799,10 +4226,108 @@ name,SIMPLE_NAME, line no: 799,"\\$(?:([a-zA-Z0-9_\\-]+)|(?:\\{([^\\}]*)\\}))",S
 name,SIMPLE_NAME, line no: 799,propertyOrEnv,SIMPLE_NAME, line no: 3996, 0.0625, 0.0625, 1.0
 equals,SIMPLE_NAME, line no: 799,Boolean.parseBoolean(System.getProperty(PROP_PROFILE "false")),METHOD_INVOCATION, line no: 264, 0.0625, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,PROP_VERSION,SIMPLE_NAME, line no: 142, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"capsule.version",STRING_LITERAL, line no: 142, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"printVersion",STRING_LITERAL, line no: 142, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Prints the capsule and application versions.",STRING_LITERAL, line no: 142, 0.0625, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,PROP_MODES,SIMPLE_NAME, line no: 143, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"capsule.modes",STRING_LITERAL, line no: 143, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"printModes",STRING_LITERAL, line no: 143, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Prints all available capsule modes.",STRING_LITERAL, line no: 143, 0.0625, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,PROP_PRINT_JRES,SIMPLE_NAME, line no: 144, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"capsule.jvms",STRING_LITERAL, line no: 144, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"printJVMs",STRING_LITERAL, line no: 144, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Prints a list of all JVM installations found.",STRING_LITERAL, line no: 144, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"capsule.merge",STRING_LITERAL, line no: 145, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"mergeCapsules",STRING_LITERAL, line no: 145, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Merges a wrapper capsule with a wrapped capsule.",STRING_LITERAL, line no: 145, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"capsule.help",STRING_LITERAL, line no: 146, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"printHelp",STRING_LITERAL, line no: 146, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Prints this help message.",STRING_LITERAL, line no: 146, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"capsule.mode",STRING_LITERAL, line no: 147, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Picks the capsule mode to run.",STRING_LITERAL, line no: 147, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"capsule.reset",STRING_LITERAL, line no: 148, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Resets the capsule cache before launching. The capsule to be re-extracted (if applicable)  and other possibly cached files will be recreated.",STRING_LITERAL, line no: 148, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"capsule.log",STRING_LITERAL, line no: 149, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"quiet",STRING_LITERAL, line no: 149, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Picks a log level. Must be one of none  quiet  verbose  or debug.",STRING_LITERAL, line no: 149, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"capsule.java.home",STRING_LITERAL, line no: 150, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Sets the location of the Java home (JVM installation directory) to use; If \'current\' forces the use of the JVM that launched the capsule.",STRING_LITERAL, line no: 150, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"capsule.java.cmd",STRING_LITERAL, line no: 151, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Sets the path to the Java executable to use.",STRING_LITERAL, line no: 151, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"capsule.jvm.args",STRING_LITERAL, line no: 152, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Sets additional JVM arguments to use when running the application.",STRING_LITERAL, line no: 152, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Application-Name",STRING_LITERAL, line no: 160, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"The application's name",STRING_LITERAL, line no: 160, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Application-Id",STRING_LITERAL, line no: 162, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Application-Version",STRING_LITERAL, line no: 163, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"The application's version string",STRING_LITERAL, line no: 163, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Caplets",STRING_LITERAL, line no: 164, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"A list of names of caplet classes -- if embedded in the capsule -- or Maven coordinates of caplet artifacts that will be applied to the capsule in the order they are listed",STRING_LITERAL, line no: 164, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Capsule-Log-Level",STRING_LITERAL, line no: 165, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"The capsule's default log level",STRING_LITERAL, line no: 165, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Description",STRING_LITERAL, line no: 166, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Contains the description of its respective mode",STRING_LITERAL, line no: 166, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Application-Class",STRING_LITERAL, line no: 167, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"The main application class",STRING_LITERAL, line no: 167, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Application",STRING_LITERAL, line no: 168, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"The Maven coordinates of the application's main JAR or the path of the main JAR within the capsule",STRING_LITERAL, line no: 168, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Application-Script",STRING_LITERAL, line no: 169, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"A startup script to be run *instead* of `Application-Class`  given as a path relative to the capsule's root",STRING_LITERAL, line no: 169, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Extract-Capsule",STRING_LITERAL, line no: 170, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Whether or not the capsule JAR will be extracted to the filesystem",STRING_LITERAL, line no: 170, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Min-Java-Version",STRING_LITERAL, line no: 171, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"The lowest Java version required to run the application",STRING_LITERAL, line no: 171, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Java-Version",STRING_LITERAL, line no: 172, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"The highest version of the Java installation required to run the application",STRING_LITERAL, line no: 172, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Min-Update-Version",STRING_LITERAL, line no: 173, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"A space-separated key-value ('=' separated) list mapping Java versions to the minimum update version required",STRING_LITERAL, line no: 173, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"JDK-Required",STRING_LITERAL, line no: 174, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Whether or not a JDK is required to launch the application",STRING_LITERAL, line no: 174, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Args",STRING_LITERAL, line no: 175, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"A list of command line arguments to be passed to the application; the UNIX shell-style special variables (`$*`  `$1`  `$2`  ...) can refer to the actual arguments passed on the capsule's command line; if no special var is used  the listed values will be prepended to the supplied arguments (i.e.  as if `$*` had been listed last).",STRING_LITERAL, line no: 176, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Environment-Variables",STRING_LITERAL, line no: 177, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"A list of environment variables that will be put in the applications environment; formatted \"var=value\" or \"var\"",STRING_LITERAL, line no: 177, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"JVM-Args",STRING_LITERAL, line no: 178, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"A list of JVM arguments that will be used to launch the application's Java process",STRING_LITERAL, line no: 178, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"System-Properties",STRING_LITERAL, line no: 179, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"A list of system properties that will be defined in the applications JVM; formatted \"prop=value\" or \"prop\"",STRING_LITERAL, line no: 179, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"App-Class-Path",STRING_LITERAL, line no: 180, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"A list of JARs  relative to the capsule root  that will be put on the application's classpath  in the order they are listed",STRING_LITERAL, line no: 180, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Capsule-In-Class-Path",STRING_LITERAL, line no: 181, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Whether or not the capsule JAR itself is on the application's classpath",STRING_LITERAL, line no: 181, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Boot-Class-Path",STRING_LITERAL, line no: 182, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"A list of JARs  dependencies  and/or directories  relative to the capsule root  that will be used as the application's boot classpath",STRING_LITERAL, line no: 182, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Boot-Class-Path-A",STRING_LITERAL, line no: 183, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"A list of JARs dependencies  and/or directories  relative to the capsule root  that will be appended to the applications default boot classpath",STRING_LITERAL, line no: 183, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Boot-Class-Path-P",STRING_LITERAL, line no: 184, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"A list of JARs dependencies  and/or directories  relative to the capsule root  that will be prepended to the applications default boot classpath",STRING_LITERAL, line no: 184, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Library-Path-A",STRING_LITERAL, line no: 185, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"A list of JARs and/or directories  relative to the capsule root  to be appended to the default native library path",STRING_LITERAL, line no: 185, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Library-Path-P",STRING_LITERAL, line no: 186, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"a list of JARs and/or directories  relative to the capsule root  to be prepended to the default native library path",STRING_LITERAL, line no: 186, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Security-Manager",STRING_LITERAL, line no: 187, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"The name of a class that will serve as the application's security-manager",STRING_LITERAL, line no: 187, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Security-Policy",STRING_LITERAL, line no: 188, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"A security policy file  relative to the capsule root  that will be used as the security policy",STRING_LITERAL, line no: 188, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Security-Policy-A",STRING_LITERAL, line no: 189, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"A security policy file  relative to the capsule root  that will be appended to the default security policy",STRING_LITERAL, line no: 189, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Java-Agents",STRING_LITERAL, line no: 190, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"A list of Java agents used by the application; formatted \"agent\" or \"agent=arg1 arg2...\"  where agent is either the path to a JAR relative to the capsule root  or a Maven coordinate of a dependency",STRING_LITERAL, line no: 190, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Native-Agents",STRING_LITERAL, line no: 191, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"A list of native JVMTI agents used by the application; formatted \"agent\" or \"agent=arg1 arg2...\"  where agent is either the path to a native library  without the platform-specific suffix  relative to the capsule root. The native library file(s) can be embedded in the capsule or listed as Maven native dependencies using the Native-Dependencies-... attributes.",STRING_LITERAL, line no: 192, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Dependencies",STRING_LITERAL, line no: 193, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"A list of Maven dependencies given as groupId:artifactId:version[(excludeGroupId:excludeArtifactId ...)]",STRING_LITERAL, line no: 193, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Native-Dependencies",STRING_LITERAL, line no: 194, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"A list of Maven dependencies consisting of native library artifacts; each item can be a comma separated pair  with the second component being a new name to give the download artifact",STRING_LITERAL, line no: 194, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"C:",STRING_LITERAL, line no: 243, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Program Files",STRING_LITERAL, line no: 243, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Program Files (x86)",STRING_LITERAL, line no: 244, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"\\A(.+-|)java-[0-9]+\\z",STRING_LITERAL, line no: 2405, 0.0625, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,expandCommandLinePath,SIMPLE_NAME, line no: 2983, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,".*?\"(.+?)\"",STRING_LITERAL, line no: 3488, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"(?<major>\\d+)\\.(?<minor>\\d+)(?:\\.(?<patch>\\d+))?(_(?<update>\\d+))?(-(?<pre>[^-]+))?(-(?<build>.+))?",STRING_LITERAL, line no: 3578, 0.0625, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,toJavaVersionString,SIMPLE_NAME, line no: 3603, 0.0625, 0.0625, 1.0
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"\\$(?:([a-zA-Z0-9_\\-]+)|(?:\\{([^\\}]*)\\}))",STRING_LITERAL, line no: 3644, 0.0625, 0.0625, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,propertyOrEnv,SIMPLE_NAME, line no: 3996, 0.0625, 0.0625, 1.0
 getName,SIMPLE_NAME, line no: 799,PROP_VERSION,SIMPLE_NAME, line no: 142, 0.058823529411764705, 0.058823529411764705, 1.0
 getName,SIMPLE_NAME, line no: 799,OPTION("capsule.version" "false" "printVersion" "Prints the capsule and application versions."),METHOD_INVOCATION, line no: 142, 0.058823529411764705, 0.058823529411764705, 1.0

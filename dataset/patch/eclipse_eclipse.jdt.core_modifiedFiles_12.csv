@@ -7,7 +7,6 @@ flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METH
 flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,assertInfo,SIMPLE_NAME, line no: 57, 1.0, 1.0, 1.0
 flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,initsWhenFalse,SIMPLE_NAME, line no: 57, 1.0, 1.0, 1.0
 flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,addInitializationsFrom,SIMPLE_NAME, line no: 89, 1.0, 1.0, 1.0
-flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,assertInfo.nullInfoLessUnconditionalCopy(),METHOD_INVOCATION, line no: 89, 1.0, 1.0, 1.0
 flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,flowInfo.mergedWith(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 91, 1.0, 1.0, 1.0
 flowInfo,SIMPLE_NAME, line no: 89,FlowInfo,SIMPLE_NAME, line no: 43, 1.0, 0.08333333333333333, 1.0
 flowInfo,SIMPLE_NAME, line no: 89,analyseCode,SIMPLE_NAME, line no: 43, 1.0, 0.08333333333333333, 1.0
@@ -39,7 +38,6 @@ assertInfo.nullInfoLessUnconditionalCopy(),METHOD_INVOCATION, line no: 89,Uncond
 assertInfo.nullInfoLessUnconditionalCopy(),METHOD_INVOCATION, line no: 89,assertWhenTrueInfo,SIMPLE_NAME, line no: 56, 1.0, 1.0, 1.0
 assertInfo.nullInfoLessUnconditionalCopy(),METHOD_INVOCATION, line no: 89,unconditionalInits,SIMPLE_NAME, line no: 56, 1.0, 1.0, 1.0
 assertInfo.nullInfoLessUnconditionalCopy(),METHOD_INVOCATION, line no: 89,nullInfoLessUnconditionalCopy,SIMPLE_NAME, line no: 89, 1.0, 1.0, 1.0
-assertInfo.nullInfoLessUnconditionalCopy(),METHOD_INVOCATION, line no: 89,flowInfo.mergedWith(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 91, 1.0, 1.0, 1.0
 assertInfo.nullInfoLessUnconditionalCopy(),METHOD_INVOCATION, line no: 89,mergedWith,SIMPLE_NAME, line no: 91, 1.0, 1.0, 1.0
 assertInfo.nullInfoLessUnconditionalCopy(),METHOD_INVOCATION, line no: 89,discardInitializationInfo,SIMPLE_NAME, line no: 92, 1.0, 1.0, 1.0
 assertInfo,SIMPLE_NAME, line no: 89,FlowInfo,SIMPLE_NAME, line no: 43, 1.0, 0.07692307692307693, 1.0
@@ -66,7 +64,6 @@ nullInfoLessUnconditionalCopy,SIMPLE_NAME, line no: 89,assertWhenTrueInfo.discar
 nullInfoLessUnconditionalCopy,SIMPLE_NAME, line no: 89,discardInitializationInfo,SIMPLE_NAME, line no: 92, 1.0, 1.0, 1.0
 flowInfo,SIMPLE_NAME, line no: 89,flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89, 0.9166666666666666, 0.9166666666666666, 1.0
 addInitializationsFrom,SIMPLE_NAME, line no: 89,flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89, 0.9166666666666666, 0.9166666666666666, 1.0
-assertInfo.nullInfoLessUnconditionalCopy(),METHOD_INVOCATION, line no: 89,flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89, 0.9166666666666666, 0.9166666666666666, 1.0
 assertInfo,SIMPLE_NAME, line no: 89,exceptionInfo,SIMPLE_NAME, line no: 64, 0.8461538461538461, 0.8461538461538461, 1.0
 assertInfo,SIMPLE_NAME, line no: 89,this.exceptionArgument.analyseCode(currentScope flowContext assertInfo.copy()),METHOD_INVOCATION, line no: 64, 0.8461538461538461, 0.8461538461538461, 1.0
 assertInfo,SIMPLE_NAME, line no: 89,assertInfo.copy(),METHOD_INVOCATION, line no: 64, 0.8461538461538461, 0.8461538461538461, 1.0
@@ -79,17 +76,30 @@ addInitializationsFrom,SIMPLE_NAME, line no: 89,this.exceptionArgument.analyseCo
 addInitializationsFrom,SIMPLE_NAME, line no: 89,assertInfo.copy(),METHOD_INVOCATION, line no: 64, 0.8333333333333334, 0.8333333333333334, 1.0
 assertInfo.nullInfoLessUnconditionalCopy(),METHOD_INVOCATION, line no: 89,assertInfo.copy(),METHOD_INVOCATION, line no: 64, 0.8333333333333334, 0.8333333333333334, 1.0
 flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,exceptionInfo,SIMPLE_NAME, line no: 64, 0.8181818181818182, 0.8181818181818182, 1.0
-flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,assertInfo.copy(),METHOD_INVOCATION, line no: 64, 0.8181818181818182, 0.8181818181818182, 1.0
+flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,flowInfo.mergedWith(assertInfo.nullInfoLessUnconditionalCopy()).addInitializationsFrom(assertWhenTrueInfo.discardInitializationInfo()),METHOD_INVOCATION, line no: 91, 0.6666666666666666, 1.0, 0.6666666666666666
 flowInfo,SIMPLE_NAME, line no: 89,setReachMode,SIMPLE_NAME, line no: 59, 0.6666666666666666, 0.6666666666666666, 1.0
 addInitializationsFrom,SIMPLE_NAME, line no: 89,setReachMode,SIMPLE_NAME, line no: 59, 0.6666666666666666, 0.6666666666666666, 1.0
-flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,assertInfo.setReachMode(FlowInfo.UNREACHABLE),METHOD_INVOCATION, line no: 59, 0.6363636363636364, 0.6363636363636364, 1.0
 flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,setReachMode,SIMPLE_NAME, line no: 59, 0.6363636363636364, 0.6363636363636364, 1.0
 assertInfo,SIMPLE_NAME, line no: 89,setReachMode,SIMPLE_NAME, line no: 59, 0.6153846153846154, 0.6153846153846154, 1.0
 flowInfo,SIMPLE_NAME, line no: 89,assertInfo.setReachMode(FlowInfo.UNREACHABLE),METHOD_INVOCATION, line no: 59, 0.5833333333333334, 0.5833333333333334, 1.0
 addInitializationsFrom,SIMPLE_NAME, line no: 89,assertInfo.setReachMode(FlowInfo.UNREACHABLE),METHOD_INVOCATION, line no: 59, 0.5833333333333334, 0.5833333333333334, 1.0
 assertInfo.nullInfoLessUnconditionalCopy(),METHOD_INVOCATION, line no: 89,assertInfo.setReachMode(FlowInfo.UNREACHABLE),METHOD_INVOCATION, line no: 59, 0.5833333333333334, 0.5833333333333334, 1.0
 assertInfo,SIMPLE_NAME, line no: 89,assertInfo.setReachMode(FlowInfo.UNREACHABLE),METHOD_INVOCATION, line no: 59, 0.5384615384615384, 0.5384615384615384, 1.0
-flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,flowInfo.mergedWith(assertInfo.nullInfoLessUnconditionalCopy()).addInitializationsFrom(assertWhenTrueInfo.discardInitializationInfo()),METHOD_INVOCATION, line no: 91, 0.5, 1.0, 0.5
-assertInfo.nullInfoLessUnconditionalCopy(),METHOD_INVOCATION, line no: 89,flowInfo.mergedWith(assertInfo.nullInfoLessUnconditionalCopy()).addInitializationsFrom(assertWhenTrueInfo.discardInitializationInfo()),METHOD_INVOCATION, line no: 91, 0.5, 1.0, 0.5
-assertInfo.nullInfoLessUnconditionalCopy(),METHOD_INVOCATION, line no: 89,this.exceptionArgument.analyseCode(currentScope flowContext assertInfo.copy()),METHOD_INVOCATION, line no: 64, 0.4166666666666667, 0.8333333333333334, 0.5
-flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,this.exceptionArgument.analyseCode(currentScope flowContext assertInfo.copy()),METHOD_INVOCATION, line no: 64, 0.4090909090909091, 0.8181818181818182, 0.5
+flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,flowInfo.copy(),METHOD_INVOCATION, line no: 54, 0.5, 1.0, 0.5
+flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,assertInfo.nullInfoLessUnconditionalCopy(),METHOD_INVOCATION, line no: 89, 0.5, 1.0, 0.5
+assertInfo.nullInfoLessUnconditionalCopy(),METHOD_INVOCATION, line no: 89,flowInfo.mergedWith(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 91, 0.5, 1.0, 0.5
+assertInfo.nullInfoLessUnconditionalCopy(),METHOD_INVOCATION, line no: 89,flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89, 0.4583333333333333, 0.9166666666666666, 0.5
+flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,assertInfo.copy(),METHOD_INVOCATION, line no: 64, 0.4090909090909091, 0.8181818181818182, 0.5
+flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,(flowInfo.tagBits & FlowInfo.UNREACHABLE) == 0,INFIX_EXPRESSION, line no: 175, 0.4090909090909091, 0.8181818181818182, 0.5
+flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,(flowInfo.tagBits & FlowInfo.UNREACHABLE),PARENTHESIZED_EXPRESSION, line no: 175, 0.4090909090909091, 0.8181818181818182, 0.5
+flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,flowInfo.tagBits & FlowInfo.UNREACHABLE,INFIX_EXPRESSION, line no: 175, 0.4090909090909091, 0.8181818181818182, 0.5
+flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,flowInfo.tagBits,QUALIFIED_NAME, line no: 175, 0.4090909090909091, 0.8181818181818182, 0.5
+flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,currentScope.methodScope().recordInitializationStates(flowInfo),METHOD_INVOCATION, line no: 44, 0.3333333333333333, 1.0, 0.3333333333333333
+assertInfo.nullInfoLessUnconditionalCopy(),METHOD_INVOCATION, line no: 89,flowInfo.mergedWith(assertInfo.nullInfoLessUnconditionalCopy()).addInitializationsFrom(assertWhenTrueInfo.discardInitializationInfo()),METHOD_INVOCATION, line no: 91, 0.3333333333333333, 1.0, 0.3333333333333333
+flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,assertInfo.setReachMode(FlowInfo.UNREACHABLE),METHOD_INVOCATION, line no: 59, 0.3181818181818182, 0.6363636363636364, 0.5
+flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,this.preAssertInitStateIndex=currentScope.methodScope().recordInitializationStates(flowInfo),ASSIGNMENT, line no: 44, 0.25, 1.0, 0.25
+assertInfo.nullInfoLessUnconditionalCopy(),METHOD_INVOCATION, line no: 89,this.exceptionArgument.analyseCode(currentScope flowContext assertInfo.copy()),METHOD_INVOCATION, line no: 64, 0.20833333333333334, 0.8333333333333334, 0.25
+flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,this.assertExpression.analyseCode(currentScope flowContext flowInfo.copy()),METHOD_INVOCATION, line no: 54, 0.2, 1.0, 0.2
+flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,manageSyntheticAccessIfNecessary(currentScope flowInfo),METHOD_INVOCATION, line no: 79, 0.1818181818181818, 0.5454545454545454, 0.3333333333333333
+flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,this.exceptionArgument.analyseCode(currentScope flowContext assertInfo.copy()),METHOD_INVOCATION, line no: 64, 0.16363636363636366, 0.8181818181818182, 0.2
+flowInfo.addInitializationsFrom(assertInfo.nullInfoLessUnconditionalCopy()),METHOD_INVOCATION, line no: 89,this.assertExpression.checkNPE(currentScope flowContext flowInfo),METHOD_INVOCATION, line no: 48, 0.1272727272727273, 0.6363636363636364, 0.2

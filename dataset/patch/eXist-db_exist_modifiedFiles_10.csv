@@ -2,7 +2,6 @@
 !Type.subTypeOf(result.getItemType() Type.NODE),PREFIX_EXPRESSION, line no: 255,inPredicate,SIMPLE_NAME, line no: 59, 1.0, 0.004016064257028112, 1.0
 !Type.subTypeOf(result.getItemType() Type.NODE),PREFIX_EXPRESSION, line no: 255,hasNext,SIMPLE_NAME, line no: 93, 1.0, 0.12048192771084337, 1.0
 !Type.subTypeOf(result.getItemType() Type.NODE),PREFIX_EXPRESSION, line no: 255,isEnabled,SIMPLE_NAME, line no: 168, 1.0, 1.0, 1.0
-!Type.subTypeOf(result.getItemType() Type.NODE),PREFIX_EXPRESSION, line no: 255,result=contextSequence,ASSIGNMENT, line no: 185, 1.0, 1.0, 1.0
 !Type.subTypeOf(result.getItemType() Type.NODE),PREFIX_EXPRESSION, line no: 255,gotAtomicResult,SIMPLE_NAME, line no: 201, 1.0, 1.0, 1.0
 !Type.subTypeOf(result.getItemType() Type.NODE),PREFIX_EXPRESSION, line no: 255,subTypeOf,SIMPLE_NAME, line no: 208, 1.0, 1.0, 1.0
 !Type.subTypeOf(result.getItemType() Type.NODE),PREFIX_EXPRESSION, line no: 255,result.getItemType(),METHOD_INVOCATION, line no: 212, 1.0, 0.10843373493975904, 1.0
@@ -19,7 +18,6 @@
 Type.subTypeOf(result.getItemType() Type.NODE),METHOD_INVOCATION, line no: 255,false,BOOLEAN_LITERAL, line no: 53, 1.0, 0.004, 1.0
 Type.subTypeOf(result.getItemType() Type.NODE),METHOD_INVOCATION, line no: 255,hasNext,SIMPLE_NAME, line no: 93, 1.0, 0.12, 1.0
 Type.subTypeOf(result.getItemType() Type.NODE),METHOD_INVOCATION, line no: 255,isEnabled,SIMPLE_NAME, line no: 168, 1.0, 1.0, 1.0
-Type.subTypeOf(result.getItemType() Type.NODE),METHOD_INVOCATION, line no: 255,result=contextSequence,ASSIGNMENT, line no: 185, 1.0, 1.0, 1.0
 Type.subTypeOf(result.getItemType() Type.NODE),METHOD_INVOCATION, line no: 255,gotAtomicResult,SIMPLE_NAME, line no: 201, 1.0, 1.0, 1.0
 Type.subTypeOf(result.getItemType() Type.NODE),METHOD_INVOCATION, line no: 255,subTypeOf,SIMPLE_NAME, line no: 208, 1.0, 1.0, 1.0
 Type.subTypeOf(result.getItemType() Type.NODE),METHOD_INVOCATION, line no: 255,result.getItemType(),METHOD_INVOCATION, line no: 212, 1.0, 0.108, 1.0
@@ -53,7 +51,7 @@ subTypeOf,SIMPLE_NAME, line no: 255,expr instanceof LetExpr,INSTANCEOF_EXPRESSIO
 subTypeOf,SIMPLE_NAME, line no: 255,!Type.subTypeOf(result.getItemType() Type.ATOMIC),PREFIX_EXPRESSION, line no: 273, 1.0, 1.0, 1.0
 subTypeOf,SIMPLE_NAME, line no: 255,Type.subTypeOf(result.getItemType() Type.ATOMIC),METHOD_INVOCATION, line no: 273, 1.0, 1.0, 1.0
 result.getItemType(),METHOD_INVOCATION, line no: 255,size,SIMPLE_NAME, line no: 115, 1.0, 0.11553784860557768, 1.0
-result.getItemType(),METHOD_INVOCATION, line no: 255,result=contextSequence,ASSIGNMENT, line no: 185, 1.0, 1.0, 1.0
+result.getItemType(),METHOD_INVOCATION, line no: 255,0,NUMBER_LITERAL, line no: 127, 1.0, 0.13545816733067728, 1.0
 result.getItemType(),METHOD_INVOCATION, line no: 255,returnsType,SIMPLE_NAME, line no: 208, 1.0, 1.0, 1.0
 result.getItemType(),METHOD_INVOCATION, line no: 255,getItemType,SIMPLE_NAME, line no: 212, 1.0, 0.11155378486055777, 1.0
 result.getItemType(),METHOD_INVOCATION, line no: 255,!Type.subTypeOf(result.getItemType() Type.ATOMIC),PREFIX_EXPRESSION, line no: 273, 1.0, 1.0, 1.0
@@ -75,6 +73,7 @@ getItemType,SIMPLE_NAME, line no: 255,result.getItemType(),METHOD_INVOCATION, li
 getItemType,SIMPLE_NAME, line no: 255,Type.ATOMIC,QUALIFIED_NAME, line no: 273, 1.0, 1.0, 1.0
 getItemType,SIMPLE_NAME, line no: 255,ATOMIC,SIMPLE_NAME, line no: 273, 1.0, 1.0, 1.0
 Type.NODE,QUALIFIED_NAME, line no: 255,size,SIMPLE_NAME, line no: 115, 1.0, 0.11553784860557768, 1.0
+Type.NODE,QUALIFIED_NAME, line no: 255,0,NUMBER_LITERAL, line no: 127, 1.0, 0.13545816733067728, 1.0
 Type.NODE,QUALIFIED_NAME, line no: 255,NODE,SIMPLE_NAME, line no: 208, 1.0, 1.0, 1.0
 Type.NODE,QUALIFIED_NAME, line no: 255,getItemType,SIMPLE_NAME, line no: 212, 1.0, 0.11155378486055777, 1.0
 Type.NODE,QUALIFIED_NAME, line no: 255,NUMBER,SIMPLE_NAME, line no: 228, 1.0, 1.0, 1.0
@@ -181,7 +180,9 @@ subTypeOf,SIMPLE_NAME, line no: 255,steps.size() > 1 && !(result instanceof Virt
 subTypeOf,SIMPLE_NAME, line no: 255,steps.size() > 1 && !(result instanceof VirtualNodeSet),INFIX_EXPRESSION, line no: 254, 0.9880478087649402, 0.9880478087649402, 1.0
 subTypeOf,SIMPLE_NAME, line no: 255,steps.size() > 1,INFIX_EXPRESSION, line no: 254, 0.9880478087649402, 0.9880478087649402, 1.0
 subTypeOf,SIMPLE_NAME, line no: 255,!staticContext,PREFIX_EXPRESSION, line no: 263, 0.9880478087649402, 0.9880478087649402, 1.0
+result.getItemType(),METHOD_INVOCATION, line no: 255,1,NUMBER_LITERAL, line no: 115, 0.9880478087649402, 0.11155378486055777, 1.0
 result.getItemType(),METHOD_INVOCATION, line no: 255,result.removeDuplicates(),METHOD_INVOCATION, line no: 261, 0.9880478087649402, 0.9880478087649402, 1.0
+Type.NODE,QUALIFIED_NAME, line no: 255,1,NUMBER_LITERAL, line no: 115, 0.9880478087649402, 0.11155378486055777, 1.0
 Type.subTypeOf(result.getItemType() Type.NODE),METHOD_INVOCATION, line no: 255,true,BOOLEAN_LITERAL, line no: 256, 0.988, 0.988, 1.0
 getItemType,SIMPLE_NAME, line no: 255,1,NUMBER_LITERAL, line no: 115, 0.9841269841269841, 0.1111111111111111, 1.0
 getItemType,SIMPLE_NAME, line no: 255,getDependencies,SIMPLE_NAME, line no: 170, 0.9841269841269841, 0.23809523809523808, 1.0
@@ -197,6 +198,9 @@ Type.NODE,QUALIFIED_NAME, line no: 255,getDependencies,SIMPLE_NAME, line no: 170
 result,SIMPLE_NAME, line no: 255,currentContext=result,ASSIGNMENT, line no: 264, 0.9801587301587301, 0.9801587301587301, 1.0
 getItemType,SIMPLE_NAME, line no: 255,expr.getDependencies(),METHOD_INVOCATION, line no: 222, 0.9801587301587301, 0.9801587301587301, 1.0
 NODE,SIMPLE_NAME, line no: 255,expr.getDependencies(),METHOD_INVOCATION, line no: 222, 0.9801587301587301, 0.9801587301587301, 1.0
+!Type.subTypeOf(result.getItemType() Type.NODE),PREFIX_EXPRESSION, line no: 255,result=contextSequence,ASSIGNMENT, line no: 185, 0.5, 1.0, 0.5
+Type.subTypeOf(result.getItemType() Type.NODE),METHOD_INVOCATION, line no: 255,result=contextSequence,ASSIGNMENT, line no: 185, 0.5, 1.0, 0.5
+result.getItemType(),METHOD_INVOCATION, line no: 255,result=contextSequence,ASSIGNMENT, line no: 185, 0.5, 1.0, 0.5
 !Type.subTypeOf(result.getItemType() Type.NODE),PREFIX_EXPRESSION, line no: 255,steps.size() > 1 && !(result instanceof VirtualNodeSet) && !result.isEmpty() && !Type.subTypeOf(result.getItemType() Type.NODE),INFIX_EXPRESSION, line no: 254, 0.4979919678714859, 0.9959839357429718, 0.5
 !Type.subTypeOf(result.getItemType() Type.NODE),PREFIX_EXPRESSION, line no: 255,steps.size() > 1 && !(result instanceof VirtualNodeSet) && !result.isEmpty(),INFIX_EXPRESSION, line no: 254, 0.4979919678714859, 0.9959839357429718, 0.5
 !Type.subTypeOf(result.getItemType() Type.NODE),PREFIX_EXPRESSION, line no: 255,steps.size() > 1 && !(result instanceof VirtualNodeSet),INFIX_EXPRESSION, line no: 254, 0.4979919678714859, 0.9959839357429718, 0.5

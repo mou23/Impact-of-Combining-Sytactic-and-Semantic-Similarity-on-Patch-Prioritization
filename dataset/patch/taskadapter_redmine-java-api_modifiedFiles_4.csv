@@ -221,6 +221,8 @@ values != null ? !values.equals(that.value) : that.values != null,CONDITIONAL_EX
 values.equals(that.value),METHOD_INVOCATION, line no: 94,!isMultiple() || values.size() == 0 ? value : values.get(0),CONDITIONAL_EXPRESSION, line no: 47, 0.1111111111111111, 0.16666666666666666, 0.6666666666666666
 values != null ? !values.equals(that.value) : that.values != null,CONDITIONAL_EXPRESSION, line no: 94,31 * result + (value != null ? value.hashCode() : 0),INFIX_EXPRESSION, line no: 104, 0.10372340425531915, 0.4148936170212766, 0.25
 values != null ? !values.equals(that.value) : that.values != null,CONDITIONAL_EXPRESSION, line no: 94,31 * result + (values != null ? values.hashCode() : 0),INFIX_EXPRESSION, line no: 105, 0.10372340425531915, 0.4148936170212766, 0.25
+that.value,QUALIFIED_NAME, line no: 94,"CustomField{",STRING_LITERAL, line no: 111, 0.10309278350515463, 0.10309278350515463, 1.0
+that.value,QUALIFIED_NAME, line no: 94,"id=",STRING_LITERAL, line no: 111, 0.10309278350515463, 0.10309278350515463, 1.0
 !values.equals(that.value),PREFIX_EXPRESSION, line no: 94,31 * result + (value != null ? value.hashCode() : 0),INFIX_EXPRESSION, line no: 104, 0.10263157894736842, 0.4105263157894737, 0.25
 !values.equals(that.value),PREFIX_EXPRESSION, line no: 94,31 * result + (values != null ? values.hashCode() : 0),INFIX_EXPRESSION, line no: 105, 0.10263157894736842, 0.4105263157894737, 0.25
 value,SIMPLE_NAME, line no: 94,"CustomField{" + "id=",INFIX_EXPRESSION, line no: 111, 0.10204081632653061, 0.10204081632653061, 1.0
@@ -238,6 +240,9 @@ values.equals(that.value),METHOD_INVOCATION, line no: 94,result=31 * result + (v
 that.values,QUALIFIED_NAME, line no: 94,values.size(),METHOD_INVOCATION, line no: 47, 0.09895833333333333, 0.19791666666666666, 0.5
 that.values != null,INFIX_EXPRESSION, line no: 94,values.size() == 0,INFIX_EXPRESSION, line no: 47, 0.09473684210526316, 0.18947368421052632, 0.5
 that.values,QUALIFIED_NAME, line no: 94,values.size() == 0,INFIX_EXPRESSION, line no: 47, 0.09375, 0.1875, 0.5
+that.value,QUALIFIED_NAME, line no: 94,"  name='",STRING_LITERAL, line no: 111, 0.09278350515463918, 0.09278350515463918, 1.0
+that.value,QUALIFIED_NAME, line no: 94,"  value='",STRING_LITERAL, line no: 112, 0.09278350515463918, 0.09278350515463918, 1.0
+that.value,QUALIFIED_NAME, line no: 94,"  values=",STRING_LITERAL, line no: 112, 0.09278350515463918, 0.09278350515463918, 1.0
 value,SIMPLE_NAME, line no: 94,"CustomField{" + "id=" + id + "  name='"+ name+ '\''+ "  value='"+ value+ '\''+ "  values="+ values+ '}',INFIX_EXPRESSION, line no: 111, 0.09183673469387756, 0.09183673469387756, 1.0
 value,SIMPLE_NAME, line no: 94,"  name='",STRING_LITERAL, line no: 111, 0.09183673469387756, 0.09183673469387756, 1.0
 value,SIMPLE_NAME, line no: 94,"  value='",STRING_LITERAL, line no: 112, 0.09183673469387756, 0.09183673469387756, 1.0
@@ -255,7 +260,6 @@ values.equals(that.value),METHOD_INVOCATION, line no: 94,multiple,SIMPLE_NAME, l
 equals,SIMPLE_NAME, line no: 94,multiple,SIMPLE_NAME, line no: 15, 0.08247422680412371, 0.010309278350515464, 1.0
 values != null,INFIX_EXPRESSION, line no: 94,this.values=null,ASSIGNMENT, line no: 52, 0.07368421052631578, 0.07368421052631578, 1.0
 values != null,INFIX_EXPRESSION, line no: 94,this.values,FIELD_ACCESS, line no: 52, 0.07368421052631578, 0.07368421052631578, 1.0
-values != null,INFIX_EXPRESSION, line no: 94,this.values=values,ASSIGNMENT, line no: 67, 0.07368421052631578, 0.07368421052631578, 1.0
 values,SIMPLE_NAME, line no: 94,this.values=null,ASSIGNMENT, line no: 52, 0.07291666666666667, 0.07291666666666667, 1.0
 values,SIMPLE_NAME, line no: 94,this.values,FIELD_ACCESS, line no: 52, 0.07291666666666667, 0.07291666666666667, 1.0
 values,SIMPLE_NAME, line no: 94,this.values=values,ASSIGNMENT, line no: 67, 0.07291666666666667, 0.07291666666666667, 1.0
@@ -291,37 +295,38 @@ that.value,QUALIFIED_NAME, line no: 94,!isMultiple() || values.size() == 0 ? val
 values != null ? !values.equals(that.value) : that.values != null,CONDITIONAL_EXPRESSION, line no: 94,"CustomField{" + "id=" + id + "  name='"+ name+ '\''+ "  value='"+ value+ '\''+ "  values="+ values+ '}',INFIX_EXPRESSION, line no: 111, 0.03829787234042553, 0.09574468085106383, 0.4
 !values.equals(that.value),PREFIX_EXPRESSION, line no: 94,"CustomField{" + "id=" + id + "  name='"+ name+ '\''+ "  value='"+ value+ '\''+ "  values="+ values+ '}',INFIX_EXPRESSION, line no: 111, 0.037894736842105266, 0.09473684210526316, 0.4
 values.equals(that.value),METHOD_INVOCATION, line no: 94,"CustomField{" + "id=" + id + "  name='"+ name+ '\''+ "  value='"+ value+ '\''+ "  values="+ values+ '}',INFIX_EXPRESSION, line no: 111, 0.037500000000000006, 0.09375, 0.4
+values != null,INFIX_EXPRESSION, line no: 94,this.values=values,ASSIGNMENT, line no: 67, 0.03684210526315789, 0.07368421052631578, 0.5
 that.values != null,INFIX_EXPRESSION, line no: 94,this.values=null,ASSIGNMENT, line no: 52, 0.03684210526315789, 0.07368421052631578, 0.5
 that.values != null,INFIX_EXPRESSION, line no: 94,this.values,FIELD_ACCESS, line no: 52, 0.03684210526315789, 0.07368421052631578, 0.5
-that.values != null,INFIX_EXPRESSION, line no: 94,this.values=values,ASSIGNMENT, line no: 67, 0.03684210526315789, 0.07368421052631578, 0.5
 that.values,QUALIFIED_NAME, line no: 94,this.values=null,ASSIGNMENT, line no: 52, 0.036458333333333336, 0.07291666666666667, 0.5
 that.values,QUALIFIED_NAME, line no: 94,this.values,FIELD_ACCESS, line no: 52, 0.036458333333333336, 0.07291666666666667, 0.5
-that.values,QUALIFIED_NAME, line no: 94,this.values=values,ASSIGNMENT, line no: 67, 0.036458333333333336, 0.07291666666666667, 0.5
-that.value,QUALIFIED_NAME, line no: 94,this.value=value,ASSIGNMENT, line no: 27, 0.03608247422680412, 0.07216494845360824, 0.5
 that.value,QUALIFIED_NAME, line no: 94,this.value,FIELD_ACCESS, line no: 27, 0.03608247422680412, 0.07216494845360824, 0.5
 that.value,QUALIFIED_NAME, line no: 94,this.value=null,ASSIGNMENT, line no: 68, 0.03608247422680412, 0.07216494845360824, 0.5
-values != null ? !values.equals(that.value) : that.values != null,CONDITIONAL_EXPRESSION, line no: 94,this.value=value,ASSIGNMENT, line no: 27, 0.02482269503546099, 0.07446808510638298, 0.3333333333333333
 values != null ? !values.equals(that.value) : that.values != null,CONDITIONAL_EXPRESSION, line no: 94,this.value,FIELD_ACCESS, line no: 27, 0.02482269503546099, 0.07446808510638298, 0.3333333333333333
 values != null ? !values.equals(that.value) : that.values != null,CONDITIONAL_EXPRESSION, line no: 94,this.values=null,ASSIGNMENT, line no: 52, 0.02482269503546099, 0.07446808510638298, 0.3333333333333333
 values != null ? !values.equals(that.value) : that.values != null,CONDITIONAL_EXPRESSION, line no: 94,this.values,FIELD_ACCESS, line no: 52, 0.02482269503546099, 0.07446808510638298, 0.3333333333333333
-values != null ? !values.equals(that.value) : that.values != null,CONDITIONAL_EXPRESSION, line no: 94,this.values=values,ASSIGNMENT, line no: 67, 0.02482269503546099, 0.07446808510638298, 0.3333333333333333
 values != null ? !values.equals(that.value) : that.values != null,CONDITIONAL_EXPRESSION, line no: 94,this.value=null,ASSIGNMENT, line no: 68, 0.02482269503546099, 0.07446808510638298, 0.3333333333333333
-!values.equals(that.value),PREFIX_EXPRESSION, line no: 94,this.value=value,ASSIGNMENT, line no: 27, 0.024561403508771926, 0.07368421052631578, 0.3333333333333333
 !values.equals(that.value),PREFIX_EXPRESSION, line no: 94,this.value,FIELD_ACCESS, line no: 27, 0.024561403508771926, 0.07368421052631578, 0.3333333333333333
 !values.equals(that.value),PREFIX_EXPRESSION, line no: 94,this.values=null,ASSIGNMENT, line no: 52, 0.024561403508771926, 0.07368421052631578, 0.3333333333333333
 !values.equals(that.value),PREFIX_EXPRESSION, line no: 94,this.values,FIELD_ACCESS, line no: 52, 0.024561403508771926, 0.07368421052631578, 0.3333333333333333
-!values.equals(that.value),PREFIX_EXPRESSION, line no: 94,this.values=values,ASSIGNMENT, line no: 67, 0.024561403508771926, 0.07368421052631578, 0.3333333333333333
 !values.equals(that.value),PREFIX_EXPRESSION, line no: 94,this.value=null,ASSIGNMENT, line no: 68, 0.024561403508771926, 0.07368421052631578, 0.3333333333333333
-values.equals(that.value),METHOD_INVOCATION, line no: 94,this.value=value,ASSIGNMENT, line no: 27, 0.024305555555555556, 0.07291666666666667, 0.3333333333333333
+that.values != null,INFIX_EXPRESSION, line no: 94,this.values=values,ASSIGNMENT, line no: 67, 0.024561403508771926, 0.07368421052631578, 0.3333333333333333
 values.equals(that.value),METHOD_INVOCATION, line no: 94,this.value,FIELD_ACCESS, line no: 27, 0.024305555555555556, 0.07291666666666667, 0.3333333333333333
 values.equals(that.value),METHOD_INVOCATION, line no: 94,this.values=null,ASSIGNMENT, line no: 52, 0.024305555555555556, 0.07291666666666667, 0.3333333333333333
 values.equals(that.value),METHOD_INVOCATION, line no: 94,this.values,FIELD_ACCESS, line no: 52, 0.024305555555555556, 0.07291666666666667, 0.3333333333333333
-values.equals(that.value),METHOD_INVOCATION, line no: 94,this.values=values,ASSIGNMENT, line no: 67, 0.024305555555555556, 0.07291666666666667, 0.3333333333333333
 values.equals(that.value),METHOD_INVOCATION, line no: 94,this.value=null,ASSIGNMENT, line no: 68, 0.024305555555555556, 0.07291666666666667, 0.3333333333333333
+that.values,QUALIFIED_NAME, line no: 94,this.values=values,ASSIGNMENT, line no: 67, 0.024305555555555556, 0.07291666666666667, 0.3333333333333333
+that.value,QUALIFIED_NAME, line no: 94,this.value=value,ASSIGNMENT, line no: 27, 0.024054982817869414, 0.07216494845360824, 0.3333333333333333
 values != null,INFIX_EXPRESSION, line no: 94,"CustomField{" + "id=" + id + "  name='"+ name+ '\''+ "  value='"+ value+ '\''+ "  values="+ values+ '}',INFIX_EXPRESSION, line no: 111, 0.02368421052631579, 0.09473684210526316, 0.25
 that.values != null,INFIX_EXPRESSION, line no: 94,"CustomField{" + "id=" + id + "  name='"+ name+ '\''+ "  value='"+ value+ '\''+ "  values="+ values+ '}',INFIX_EXPRESSION, line no: 111, 0.018947368421052633, 0.09473684210526316, 0.2
 that.values,QUALIFIED_NAME, line no: 94,"CustomField{" + "id=" + id + "  name='"+ name+ '\''+ "  value='"+ value+ '\''+ "  values="+ values+ '}',INFIX_EXPRESSION, line no: 111, 0.018750000000000003, 0.09375, 0.2
+values != null ? !values.equals(that.value) : that.values != null,CONDITIONAL_EXPRESSION, line no: 94,this.value=value,ASSIGNMENT, line no: 27, 0.018617021276595744, 0.07446808510638298, 0.25
+values != null ? !values.equals(that.value) : that.values != null,CONDITIONAL_EXPRESSION, line no: 94,this.values=values,ASSIGNMENT, line no: 67, 0.018617021276595744, 0.07446808510638298, 0.25
 that.value,QUALIFIED_NAME, line no: 94,"CustomField{" + "id=" + id + "  name='"+ name+ '\''+ "  value='"+ value+ '\''+ "  values="+ values+ '}',INFIX_EXPRESSION, line no: 111, 0.018556701030927835, 0.09278350515463918, 0.2
+!values.equals(that.value),PREFIX_EXPRESSION, line no: 94,this.value=value,ASSIGNMENT, line no: 27, 0.018421052631578946, 0.07368421052631578, 0.25
+!values.equals(that.value),PREFIX_EXPRESSION, line no: 94,this.values=values,ASSIGNMENT, line no: 67, 0.018421052631578946, 0.07368421052631578, 0.25
+values.equals(that.value),METHOD_INVOCATION, line no: 94,this.value=value,ASSIGNMENT, line no: 27, 0.018229166666666668, 0.07291666666666667, 0.25
+values.equals(that.value),METHOD_INVOCATION, line no: 94,this.values=values,ASSIGNMENT, line no: 67, 0.018229166666666668, 0.07291666666666667, 0.25
 values,SIMPLE_NAME, line no: 94,List,SIMPLE_NAME, line no: 16, 0.010416666666666666, 0.010416666666666666, 1.0
 values,SIMPLE_NAME, line no: 94,getValues,SIMPLE_NAME, line no: 59, 0.010416666666666666, 0.010416666666666666, 1.0
 that.values,QUALIFIED_NAME, line no: 94,List,SIMPLE_NAME, line no: 16, 0.010416666666666666, 0.010416666666666666, 1.0

@@ -1,8 +1,11 @@
 value+=65536 + value,ASSIGNMENT, line no: 37,value,SIMPLE_NAME, line no: 15, 1.0, 0.8695652173913043, 1.0
 value+=65536 + value,ASSIGNMENT, line no: 37,value=65536 + value,ASSIGNMENT, line no: 18, 1.0, 1.0, 1.0
 value+=65536 + value,ASSIGNMENT, line no: 37,65536 + value,INFIX_EXPRESSION, line no: 18, 1.0, 1.0, 1.0
+value+=65536 + value,ASSIGNMENT, line no: 37,65536,NUMBER_LITERAL, line no: 18, 1.0, 1.0, 1.0
 65536 + value,INFIX_EXPRESSION, line no: 37,value,SIMPLE_NAME, line no: 15, 1.0, 0.8333333333333334, 1.0
+65536 + value,INFIX_EXPRESSION, line no: 37,65536,NUMBER_LITERAL, line no: 18, 1.0, 1.0, 1.0
 65536,NUMBER_LITERAL, line no: 37,value,SIMPLE_NAME, line no: 15, 0.96, 0.8, 1.0
+65536,NUMBER_LITERAL, line no: 37,65536 + value,INFIX_EXPRESSION, line no: 18, 0.96, 0.96, 1.0
 value,SIMPLE_NAME, line no: 37,65536 + value,INFIX_EXPRESSION, line no: 18, 0.96, 0.96, 1.0
 value,SIMPLE_NAME, line no: 37,65536,NUMBER_LITERAL, line no: 18, 0.96, 0.96, 1.0
 value,SIMPLE_NAME, line no: 37,value=65536 + value,ASSIGNMENT, line no: 18, 0.9583333333333334, 0.9583333333333334, 1.0
@@ -11,10 +14,22 @@ value,SIMPLE_NAME, line no: 37,65536,NUMBER_LITERAL, line no: 18, 0.958333333333
 value,SIMPLE_NAME, line no: 37,value+=65536 + value,ASSIGNMENT, line no: 37, 0.9583333333333334, 0.9583333333333334, 1.0
 65536 + value,INFIX_EXPRESSION, line no: 37,value=65536 + value,ASSIGNMENT, line no: 18, 0.9583333333333334, 0.9583333333333334, 1.0
 65536 + value,INFIX_EXPRESSION, line no: 37,value+=65536 + value,ASSIGNMENT, line no: 37, 0.9583333333333334, 0.9583333333333334, 1.0
+65536,NUMBER_LITERAL, line no: 37,(int)index,CAST_EXPRESSION, line no: 15, 0.92, 0.8, 1.0
+65536,NUMBER_LITERAL, line no: 37,0,NUMBER_LITERAL, line no: 17, 0.92, 0.92, 1.0
+65536,NUMBER_LITERAL, line no: 37,value=65536 + value,ASSIGNMENT, line no: 18, 0.92, 0.92, 1.0
+65536,NUMBER_LITERAL, line no: 37,0xffff,NUMBER_LITERAL, line no: 27, 0.92, 0.92, 1.0
+65536,NUMBER_LITERAL, line no: 37,((int)value & 0xffff),PARENTHESIZED_EXPRESSION, line no: 28, 0.92, 0.92, 1.0
+65536,NUMBER_LITERAL, line no: 37,(int)value & 0xffff,INFIX_EXPRESSION, line no: 28, 0.92, 0.92, 1.0
+65536,NUMBER_LITERAL, line no: 37,(int)value,CAST_EXPRESSION, line no: 28, 0.92, 0.92, 1.0
+65536,NUMBER_LITERAL, line no: 37,value+=65536 + value,ASSIGNMENT, line no: 37, 0.92, 0.92, 1.0
 value,SIMPLE_NAME, line no: 37,value=65536 + value,ASSIGNMENT, line no: 18, 0.92, 0.92, 1.0
 value,SIMPLE_NAME, line no: 37,value+=65536 + value,ASSIGNMENT, line no: 37, 0.92, 0.92, 1.0
 65536 + value,INFIX_EXPRESSION, line no: 37,value < 0,INFIX_EXPRESSION, line no: 17, 0.9166666666666666, 0.9166666666666666, 1.0
+65536 + value,INFIX_EXPRESSION, line no: 37,0,NUMBER_LITERAL, line no: 17, 0.9166666666666666, 0.9166666666666666, 1.0
+65536 + value,INFIX_EXPRESSION, line no: 37,0xffff,NUMBER_LITERAL, line no: 27, 0.9166666666666666, 0.9166666666666666, 1.0
 value+=65536 + value,ASSIGNMENT, line no: 37,value < 0,INFIX_EXPRESSION, line no: 17, 0.9130434782608695, 0.9130434782608695, 1.0
+value+=65536 + value,ASSIGNMENT, line no: 37,0,NUMBER_LITERAL, line no: 17, 0.9130434782608695, 0.9130434782608695, 1.0
+value+=65536 + value,ASSIGNMENT, line no: 37,0xffff,NUMBER_LITERAL, line no: 27, 0.9130434782608695, 0.9130434782608695, 1.0
 value,SIMPLE_NAME, line no: 37,(int)index,CAST_EXPRESSION, line no: 15, 0.88, 0.8, 1.0
 value,SIMPLE_NAME, line no: 37,0,NUMBER_LITERAL, line no: 17, 0.88, 0.88, 1.0
 value,SIMPLE_NAME, line no: 37,0xffff,NUMBER_LITERAL, line no: 27, 0.88, 0.88, 1.0

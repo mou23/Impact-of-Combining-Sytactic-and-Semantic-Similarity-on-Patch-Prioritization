@@ -262,54 +262,25 @@ public class ModelExtractor {
 			public void preVisit(ASTNode child) {
 				if(child.getNodeType()==ASTNode.SIMPLE_NAME) {
 					IBinding binding = (IBinding) ((Name) child).resolveBinding();
-					if(binding!=null) {
+					if(binding!=null && binding.getKind()==IBinding.VARIABLE) {
+						Variable variable = new Variable();
+						variable.name = binding.getName();
+						variable.type = ((Name) child).resolveTypeBinding();
 						Iterator<Variable> iterator = variableAccessed.iterator(); 
 						boolean match = false;
 						while(iterator.hasNext())  
 						{ 
-							Variable var = iterator.next(); 
-							if(var.binding!=null && var.binding.equals(binding)) {
+							Variable currentVariable = iterator.next(); 
+							if(currentVariable.name.equals(variable.name) && currentVariable.type.equals(variable.type)) {
 								match = true;
 								break;
 							}
 						}
 						if(match == false) {
-							for(Variable variable : VariableCollector.variables) {
-								if(variable.binding!=null && variable.binding.equals(binding)) {
-									variableAccessed.add(variable);
-//									System.out.println("VARIABLE "+variable);
-									break;
-								}
-							}
+//							System.out.println(variable.name);
+							variableAccessed.add(variable);
 						}
 					}
-					
-					else {
-						Iterator<Variable> iterator = variableAccessed.iterator(); 
-						boolean match = false;
-						while(iterator.hasNext())  
-						{ 
-							Variable var = iterator.next(); 
-							if(var.binding==null && var.name.equals(child.toString())) {
-								match = true;
-								break;
-							}
-						}
-						if(match == false) {
-							for(Variable variable : VariableCollector.variables) {
-								if(variable.binding==null && variable.name.equals(child.toString())) {
-//									System.out.println("VARIABLE "+variable);
-									PatchGenerator patchGenerator = PatchGenerator.createPatchGenerator();
-									int lineNo = patchGenerator.compilationUnit.getLineNumber(child.getStartPosition());
-									if(lineNo>=variable.startLine && lineNo<=variable.endLine) {
-										variableAccessed.add(variable);
-										break;
-									}
-								}
-							}
-						}
-					}
-					
 				}
 			}
 		});
@@ -319,11 +290,13 @@ public class ModelExtractor {
 
 	public double getVariableSimilarityScore(HashSet<Variable> variableAccessedTarget, HashSet<Variable> variableAccessedSource) {
 		int match = 0;
+//		System.out.println("F " +variableAccessedTarget.size());
+//		System.out.print(variableAccessedSource.size());
 		if(variableAccessedTarget.isEmpty() || variableAccessedSource.isEmpty()) {
 //			System.out.println("EMPTY VAR");
 			return match;
 		}
-//		System.out.println("VAR SIM!!!!!!!!");
+		
 		Iterator<Variable> iteratorTarget = variableAccessedTarget.iterator();  
 		while(iteratorTarget.hasNext())  
 		{  

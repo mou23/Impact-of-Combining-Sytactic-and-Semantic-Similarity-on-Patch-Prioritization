@@ -1,9 +1,6 @@
 descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,Object,SIMPLE_NAME, line no: 40, 1.0, 0.06666666666666667, 1.0
 descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,obj,SIMPLE_NAME, line no: 40, 1.0, 0.06666666666666667, 1.0
-descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 101, 1.0, 1.0, 1.0
-descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,i++,POSTFIX_EXPRESSION, line no: 101, 1.0, 1.0, 1.0
 descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,item,SIMPLE_NAME, line no: 102, 1.0, 1.0, 1.0
-descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,Array.get(obj i),METHOD_INVOCATION, line no: 102, 1.0, 1.0, 1.0
 descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,get,SIMPLE_NAME, line no: 102, 1.0, 1.0, 1.0
 descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,setProperty,SIMPLE_NAME, line no: 104, 1.0, 1.0, 1.0
 setProperty,SIMPLE_NAME, line no: 104,Object,SIMPLE_NAME, line no: 40, 1.0, 0.0625, 1.0
@@ -15,6 +12,7 @@ i++,POSTFIX_EXPRESSION, line no: 104,len,SIMPLE_NAME, line no: 100, 1.0, 1.0, 1.
 i++,POSTFIX_EXPRESSION, line no: 104,getLength,SIMPLE_NAME, line no: 100, 1.0, 1.0, 1.0
 i++,POSTFIX_EXPRESSION, line no: 104,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 101, 1.0, 1.0, 1.0
 i++,POSTFIX_EXPRESSION, line no: 104,i,SIMPLE_NAME, line no: 101, 1.0, 1.0, 1.0
+i++,POSTFIX_EXPRESSION, line no: 104,0,NUMBER_LITERAL, line no: 101, 1.0, 1.0, 1.0
 i,SIMPLE_NAME, line no: 104,len,SIMPLE_NAME, line no: 100, 1.0, 1.0, 1.0
 i,SIMPLE_NAME, line no: 104,Array.getLength(obj),METHOD_INVOCATION, line no: 100, 1.0, 1.0, 1.0
 i,SIMPLE_NAME, line no: 104,getLength,SIMPLE_NAME, line no: 100, 1.0, 1.0, 1.0
@@ -24,8 +22,6 @@ i,SIMPLE_NAME, line no: 104,i++,POSTFIX_EXPRESSION, line no: 101, 1.0, 1.0, 1.0
 i,SIMPLE_NAME, line no: 104,index,SIMPLE_NAME, line no: 112, 0.9411764705882353, 0.9411764705882353, 1.0
 descriptor,SIMPLE_NAME, line no: 104,beanDescriptor,SIMPLE_NAME, line no: 168, 0.9375, 0.0625, 1.0
 setProperty,SIMPLE_NAME, line no: 104,descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104, 0.9375, 0.9375, 1.0
-i++,POSTFIX_EXPRESSION, line no: 104,Array.get(obj i),METHOD_INVOCATION, line no: 102, 0.9375, 0.9375, 1.0
-i++,POSTFIX_EXPRESSION, line no: 104,descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104, 0.9375, 0.9375, 1.0
 i++,POSTFIX_EXPRESSION, line no: 104,index,SIMPLE_NAME, line no: 112, 0.9375, 0.9375, 1.0
 i,SIMPLE_NAME, line no: 104,index++,POSTFIX_EXPRESSION, line no: 115, 0.8823529411764706, 0.8823529411764706, 1.0
 descriptor,SIMPLE_NAME, line no: 104,JavaBeanDescriptor,SIMPLE_NAME, line no: 40, 0.875, 0.0625, 1.0
@@ -118,6 +114,7 @@ setProperty,SIMPLE_NAME, line no: 104,setPrimitiveProperty,SIMPLE_NAME, line no:
 setProperty,SIMPLE_NAME, line no: 104,getConstructorArg(paramTypes[i]),METHOD_INVOCATION, line no: 306, 0.625, 0.625, 1.0
 setProperty,SIMPLE_NAME, line no: 104,getConstructorArg,SIMPLE_NAME, line no: 306, 0.625, 0.625, 1.0
 setProperty,SIMPLE_NAME, line no: 104,result=beanDescriptor.getPrimitiveProperty(),ASSIGNMENT, line no: 367, 0.625, 0.625, 1.0
+i++,POSTFIX_EXPRESSION, line no: 104,1,NUMBER_LITERAL, line no: 273, 0.625, 0.625, 1.0
 i++,POSTFIX_EXPRESSION, line no: 104,length,SIMPLE_NAME, line no: 296, 0.625, 0.5625, 1.0
 i++,POSTFIX_EXPRESSION, line no: 104,dimension,SIMPLE_NAME, line no: 432, 0.625, 0.625, 1.0
 descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,setPrimitiveProperty,SIMPLE_NAME, line no: 96, 0.6, 0.6, 1.0
@@ -131,6 +128,7 @@ i,SIMPLE_NAME, line no: 104,TYPE_BEAN,SIMPLE_NAME, line no: 71, 0.58823529411764
 i,SIMPLE_NAME, line no: 104,beanDescriptor.getType(),METHOD_INVOCATION, line no: 268, 0.5882352941176471, 0.5882352941176471, 1.0
 i,SIMPLE_NAME, line no: 104,getType,SIMPLE_NAME, line no: 268, 0.5882352941176471, 0.5882352941176471, 1.0
 i,SIMPLE_NAME, line no: 104,c.getParameterTypes().length,FIELD_ACCESS, line no: 296, 0.5882352941176471, 0.5882352941176471, 1.0
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,descriptor.setProperty(i itemDescriptor),METHOD_INVOCATION, line no: 107, 0.5777777777777777, 0.8666666666666667, 0.6666666666666666
 descriptor,SIMPLE_NAME, line no: 104,createDescriptorIfAbsent(obj accessor cache),METHOD_INVOCATION, line no: 53, 0.5625, 0.5625, 1.0
 descriptor,SIMPLE_NAME, line no: 104,new JavaBeanDescriptor(Class.class.getName() JavaBeanDescriptor.TYPE_CLASS),CLASS_INSTANCE_CREATION, line no: 65, 0.5625, 0.5625, 1.0
 setProperty,SIMPLE_NAME, line no: 104,descriptor.setPrimitiveProperty(obj),METHOD_INVOCATION, line no: 96, 0.5625, 0.5625, 1.0
@@ -146,7 +144,9 @@ i,SIMPLE_NAME, line no: 104,JavaBeanDescriptor.TYPE_CLASS,QUALIFIED_NAME, line n
 i,SIMPLE_NAME, line no: 104,TYPE_CLASS,SIMPLE_NAME, line no: 65, 0.5294117647058824, 0.5294117647058824, 1.0
 i,SIMPLE_NAME, line no: 104,name.length() - 1,INFIX_EXPRESSION, line no: 445, 0.5294117647058824, 0.5294117647058824, 1.0
 i,SIMPLE_NAME, line no: 104,name.length(),METHOD_INVOCATION, line no: 445, 0.5294117647058824, 0.5294117647058824, 1.0
-descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,i < len,INFIX_EXPRESSION, line no: 101, 0.5, 1.0, 0.5
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,descriptor == null,INFIX_EXPRESSION, line no: 89, 0.5, 1.0, 0.5
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 101, 0.5, 1.0, 0.5
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,i++,POSTFIX_EXPRESSION, line no: 101, 0.5, 1.0, 0.5
 descriptor,SIMPLE_NAME, line no: 104,new JavaBeanDescriptor(cl.getComponentType().getName() JavaBeanDescriptor.TYPE_ARRAY),CLASS_INSTANCE_CREATION, line no: 61, 0.5, 0.5, 1.0
 descriptor,SIMPLE_NAME, line no: 104,new JavaBeanDescriptor(cl.getName() JavaBeanDescriptor.TYPE_PRIMITIVE),CLASS_INSTANCE_CREATION, line no: 63, 0.5, 0.5, 1.0
 i++,POSTFIX_EXPRESSION, line no: 104,TYPE_CLASS,SIMPLE_NAME, line no: 65, 0.5, 0.5, 1.0
@@ -157,11 +157,13 @@ i,SIMPLE_NAME, line no: 104,JavaBeanDescriptor.TYPE_PRIMITIVE,QUALIFIED_NAME, li
 i,SIMPLE_NAME, line no: 104,TYPE_PRIMITIVE,SIMPLE_NAME, line no: 63, 0.47058823529411764, 0.47058823529411764, 1.0
 i,SIMPLE_NAME, line no: 104,argc=c.getParameterTypes().length,ASSIGNMENT, line no: 297, 0.47058823529411764, 0.47058823529411764, 1.0
 i,SIMPLE_NAME, line no: 104,++dimension,PREFIX_EXPRESSION, line no: 434, 0.47058823529411764, 0.47058823529411764, 1.0
+i++,POSTFIX_EXPRESSION, line no: 104,Array.get(obj i),METHOD_INVOCATION, line no: 102, 0.46875, 0.9375, 0.5
+i++,POSTFIX_EXPRESSION, line no: 104,descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104, 0.46875, 0.9375, 0.5
 descriptor,SIMPLE_NAME, line no: 104,get,SIMPLE_NAME, line no: 77, 0.4375, 0.4375, 1.0
 i++,POSTFIX_EXPRESSION, line no: 104,TYPE_ARRAY,SIMPLE_NAME, line no: 61, 0.4375, 0.4375, 1.0
 i++,POSTFIX_EXPRESSION, line no: 104,TYPE_PRIMITIVE,SIMPLE_NAME, line no: 63, 0.4375, 0.4375, 1.0
-descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,descriptor.setProperty(i itemDescriptor),METHOD_INVOCATION, line no: 107, 0.43333333333333335, 0.8666666666666667, 0.5
-i++,POSTFIX_EXPRESSION, line no: 104,descriptor.setProperty(i itemDescriptor),METHOD_INVOCATION, line no: 107, 0.40625, 0.8125, 0.5
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,!descriptor.containsProperty(entry.getKey()),PREFIX_EXPRESSION, line no: 149, 0.4, 0.8, 0.5
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,descriptor.containsProperty(entry.getKey()),METHOD_INVOCATION, line no: 149, 0.4, 0.8, 0.5
 descriptor,SIMPLE_NAME, line no: 104,serialize,SIMPLE_NAME, line no: 40, 0.375, 0.0625, 1.0
 descriptor,SIMPLE_NAME, line no: 104,serialize(obj JavaBeanAccessor.FIELD),METHOD_INVOCATION, line no: 41, 0.375, 0.375, 1.0
 descriptor,SIMPLE_NAME, line no: 104,new JavaBeanDescriptor(cl.getName() JavaBeanDescriptor.TYPE_ENUM),CLASS_INSTANCE_CREATION, line no: 59, 0.375, 0.375, 1.0
@@ -173,22 +175,33 @@ i,SIMPLE_NAME, line no: 104,JavaBeanDescriptor.TYPE_ENUM,QUALIFIED_NAME, line no
 i,SIMPLE_NAME, line no: 104,TYPE_ENUM,SIMPLE_NAME, line no: 59, 0.35294117647058826, 0.35294117647058826, 1.0
 i,SIMPLE_NAME, line no: 104,dimensions[i]=0,ASSIGNMENT, line no: 440, 0.35294117647058826, 0.35294117647058826, 1.0
 i,SIMPLE_NAME, line no: 104,dimensions[i],ARRAY_ACCESS, line no: 440, 0.35294117647058826, 0.35294117647058826, 1.0
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,obj == null || descriptor == null,INFIX_EXPRESSION, line no: 89, 0.3333333333333333, 1.0, 0.3333333333333333
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,i < len,INFIX_EXPRESSION, line no: 101, 0.3333333333333333, 1.0, 0.3333333333333333
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,Array.get(obj i),METHOD_INVOCATION, line no: 102, 0.3333333333333333, 1.0, 0.3333333333333333
 descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,deserialize,SIMPLE_NAME, line no: 168, 0.3333333333333333, 0.06666666666666667, 1.0
-descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,i < constructorArgs.length,INFIX_EXPRESSION, line no: 305, 0.3333333333333333, 0.6666666666666666, 0.5
-descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,i < dimension,INFIX_EXPRESSION, line no: 439, 0.3333333333333333, 0.6666666666666666, 0.5
 i++,POSTFIX_EXPRESSION, line no: 104,TYPE_ENUM,SIMPLE_NAME, line no: 59, 0.3125, 0.3125, 1.0
 i++,POSTFIX_EXPRESSION, line no: 104,i < constructorArgs.length,INFIX_EXPRESSION, line no: 305, 0.3125, 0.625, 0.5
 i++,POSTFIX_EXPRESSION, line no: 104,i < dimension,INFIX_EXPRESSION, line no: 439, 0.3125, 0.625, 0.5
-descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,getConstructorArg(paramTypes[i]),METHOD_INVOCATION, line no: 306, 0.3, 0.6, 0.5
-descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,paramTypes[i],ARRAY_ACCESS, line no: 306, 0.3, 0.6, 0.5
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,descriptor.setProperty(index++ null),METHOD_INVOCATION, line no: 115, 0.3111111111111111, 0.9333333333333333, 0.3333333333333333
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,descriptor.setProperty(entry.getKey() valueDescriptor),METHOD_INVOCATION, line no: 139, 0.28888888888888886, 0.8666666666666667, 0.3333333333333333
 i++,POSTFIX_EXPRESSION, line no: 104,getConstructorArg(paramTypes[i]),METHOD_INVOCATION, line no: 306, 0.28125, 0.5625, 0.5
 i++,POSTFIX_EXPRESSION, line no: 104,paramTypes[i],ARRAY_ACCESS, line no: 306, 0.28125, 0.5625, 0.5
-descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,constructorArgs[i],ARRAY_ACCESS, line no: 306, 0.26666666666666666, 0.5333333333333333, 0.5
+i++,POSTFIX_EXPRESSION, line no: 104,descriptor.setProperty(i itemDescriptor),METHOD_INVOCATION, line no: 107, 0.2708333333333333, 0.8125, 0.3333333333333333
 descriptor,SIMPLE_NAME, line no: 104,(JavaBeanDescriptor)obj,CAST_EXPRESSION, line no: 50, 0.25, 0.1875, 1.0
 i++,POSTFIX_EXPRESSION, line no: 104,constructorArgs[i],ARRAY_ACCESS, line no: 306, 0.25, 0.5, 0.5
-descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,dimensions[i]=0,ASSIGNMENT, line no: 440, 0.2, 0.4, 0.5
-descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,dimensions[i],ARRAY_ACCESS, line no: 440, 0.2, 0.4, 0.5
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,descriptor.setClassNameProperty(((Class<?>)obj).getName()),METHOD_INVOCATION, line no: 98, 0.2222222222222222, 0.6666666666666666, 0.3333333333333333
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,i < constructorArgs.length,INFIX_EXPRESSION, line no: 305, 0.2222222222222222, 0.6666666666666666, 0.3333333333333333
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,i < dimension,INFIX_EXPRESSION, line no: 439, 0.2222222222222222, 0.6666666666666666, 0.3333333333333333
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,descriptor.setProperty(index++ itemDescriptor),METHOD_INVOCATION, line no: 118, 0.21666666666666667, 0.8666666666666667, 0.25
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,descriptor.setProperty(keyDescriptor valueDescriptor),METHOD_INVOCATION, line no: 127, 0.21666666666666667, 0.8666666666666667, 0.25
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,descriptor.setPrimitiveProperty(obj),METHOD_INVOCATION, line no: 96, 0.19999999999999998, 0.6, 0.3333333333333333
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,getConstructorArg(paramTypes[i]),METHOD_INVOCATION, line no: 306, 0.19999999999999998, 0.6, 0.3333333333333333
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,paramTypes[i],ARRAY_ACCESS, line no: 306, 0.19999999999999998, 0.6, 0.3333333333333333
 i++,POSTFIX_EXPRESSION, line no: 104,dimensions[i]=0,ASSIGNMENT, line no: 440, 0.1875, 0.375, 0.5
 i++,POSTFIX_EXPRESSION, line no: 104,dimensions[i],ARRAY_ACCESS, line no: 440, 0.1875, 0.375, 0.5
-descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,constructorArgs[i]=getConstructorArg(paramTypes[i]),ASSIGNMENT, line no: 306, 0.17777777777777776, 0.5333333333333333, 0.3333333333333333
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,descriptor.setEnumNameProperty(((Enum<?>)obj).name()),METHOD_INVOCATION, line no: 94, 0.17777777777777776, 0.5333333333333333, 0.3333333333333333
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,constructorArgs[i],ARRAY_ACCESS, line no: 306, 0.17777777777777776, 0.5333333333333333, 0.3333333333333333
 i++,POSTFIX_EXPRESSION, line no: 104,constructorArgs[i]=getConstructorArg(paramTypes[i]),ASSIGNMENT, line no: 306, 0.16666666666666666, 0.5, 0.3333333333333333
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,constructorArgs[i]=getConstructorArg(paramTypes[i]),ASSIGNMENT, line no: 306, 0.13333333333333333, 0.5333333333333333, 0.25
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,dimensions[i]=0,ASSIGNMENT, line no: 440, 0.13333333333333333, 0.4, 0.3333333333333333
+descriptor.setProperty(i++ null),METHOD_INVOCATION, line no: 104,dimensions[i],ARRAY_ACCESS, line no: 440, 0.13333333333333333, 0.4, 0.3333333333333333

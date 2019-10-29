@@ -2016,7 +2016,6 @@ isFocused,SIMPLE_NAME, line no: 448,pos.line == 0,INFIX_EXPRESSION, line no: 677
 isFocused,SIMPLE_NAME, line no: 448,isDisposed,SIMPLE_NAME, line no: 689, 0.4666666666666667, 0.4666666666666667, 1.0
 isFocused,SIMPLE_NAME, line no: 448,!itemMatcher(item).cloneWithPrefix(commonPrefix).prefixMatches(item),PREFIX_EXPRESSION, line no: 1096, 0.4666666666666667, 0.4666666666666667, 1.0
 !(isExactPrefixItem(first true) || isExactPrefixItem(first false)) || mySelectionTouched,INFIX_EXPRESSION, line no: 448,isDisposed,SIMPLE_NAME, line no: 689, 0.4666666666666667, 0.4666666666666667, 1.0
-isFocused() && (!(isExactPrefixItem(first true) || isExactPrefixItem(first false)) || mySelectionTouched),INFIX_EXPRESSION, line no: 448,!explicitlyInvoked && mySelectionTouched,INFIX_EXPRESSION, line no: 1053, 0.46511627906976744, 0.9302325581395349, 0.5
 isFocused() && (!(isExactPrefixItem(first true) || isExactPrefixItem(first false)) || mySelectionTouched),INFIX_EXPRESSION, line no: 448,isPopupTrigger,SIMPLE_NAME, line no: 1448, 0.46511627906976744, 0.46511627906976744, 1.0
 isExactPrefixItem,SIMPLE_NAME, line no: 448,itemMatcher(item).cloneWithPrefix(commonPrefix).prefixMatches(item),METHOD_INVOCATION, line no: 1096, 0.46, 0.46, 1.0
 true,BOOLEAN_LITERAL, line no: 448,itemMatcher(item).cloneWithPrefix(commonPrefix).prefixMatches(item),METHOD_INVOCATION, line no: 1096, 0.46, 0.46, 1.0
@@ -2031,9 +2030,7 @@ isExactPrefixItem(first true) || isExactPrefixItem(first false),INFIX_EXPRESSION
 mySelectionTouched,SIMPLE_NAME, line no: 448,pos.line == 0,INFIX_EXPRESSION, line no: 677, 0.45652173913043476, 0.45652173913043476, 1.0
 mySelectionTouched,SIMPLE_NAME, line no: 448,isDisposed,SIMPLE_NAME, line no: 689, 0.45652173913043476, 0.45652173913043476, 1.0
 mySelectionTouched,SIMPLE_NAME, line no: 448,!itemMatcher(item).cloneWithPrefix(commonPrefix).prefixMatches(item),PREFIX_EXPRESSION, line no: 1096, 0.45652173913043476, 0.45652173913043476, 1.0
-!(isExactPrefixItem(first true) || isExactPrefixItem(first false)) || mySelectionTouched,INFIX_EXPRESSION, line no: 448,!explicitlyInvoked && mySelectionTouched,INFIX_EXPRESSION, line no: 1053, 0.45555555555555555, 0.9111111111111111, 0.5
 isFocused(),METHOD_INVOCATION, line no: 448,isPopupTrigger,SIMPLE_NAME, line no: 1448, 0.45454545454545453, 0.45454545454545453, 1.0
-(!(isExactPrefixItem(first true) || isExactPrefixItem(first false)) || mySelectionTouched),PARENTHESIZED_EXPRESSION, line no: 448,!explicitlyInvoked && mySelectionTouched,INFIX_EXPRESSION, line no: 1053, 0.45454545454545453, 0.9090909090909091, 0.5
 (!(isExactPrefixItem(first true) || isExactPrefixItem(first false)) || mySelectionTouched),PARENTHESIZED_EXPRESSION, line no: 448,isPopupTrigger,SIMPLE_NAME, line no: 1448, 0.45454545454545453, 0.45454545454545453, 1.0
 isExactPrefixItem(first true),METHOD_INVOCATION, line no: 448,(!(isExactPrefixItem(first true) || isExactPrefixItem(first false)) || mySelectionTouched),PARENTHESIZED_EXPRESSION, line no: 448, 0.4489795918367347, 0.8979591836734694, 0.5
 isExactPrefixItem(first false),METHOD_INVOCATION, line no: 448,(!(isExactPrefixItem(first true) || isExactPrefixItem(first false)) || mySelectionTouched),PARENTHESIZED_EXPRESSION, line no: 448, 0.4489795918367347, 0.8979591836734694, 0.5
@@ -2234,8 +2231,11 @@ false,BOOLEAN_LITERAL, line no: 448,myHidden=true,ASSIGNMENT, line no: 1189, 0.3
 !(isExactPrefixItem(first true) || isExactPrefixItem(first false)) || mySelectionTouched,INFIX_EXPRESSION, line no: 448,mySelectionTouched ? (LookupElement)myList.getSelectedValue() : null,CONDITIONAL_EXPRESSION, line no: 393, 0.31851851851851853, 0.9555555555555556, 0.3333333333333333
 isFocused,SIMPLE_NAME, line no: 448,!isSelectionVisible(),PREFIX_EXPRESSION, line no: 355, 0.3111111111111111, 0.3111111111111111, 1.0
 isFocused,SIMPLE_NAME, line no: 448,!myDisposed,PREFIX_EXPRESSION, line no: 945, 0.3111111111111111, 0.3111111111111111, 1.0
+isFocused() && (!(isExactPrefixItem(first true) || isExactPrefixItem(first false)) || mySelectionTouched),INFIX_EXPRESSION, line no: 448,!explicitlyInvoked && mySelectionTouched,INFIX_EXPRESSION, line no: 1053, 0.31007751937984496, 0.9302325581395349, 0.3333333333333333
 mySelectionTouched,SIMPLE_NAME, line no: 448,!isSelectionVisible(),PREFIX_EXPRESSION, line no: 355, 0.30434782608695654, 0.30434782608695654, 1.0
 mySelectionTouched,SIMPLE_NAME, line no: 448,!myDisposed,PREFIX_EXPRESSION, line no: 945, 0.30434782608695654, 0.30434782608695654, 1.0
+!(isExactPrefixItem(first true) || isExactPrefixItem(first false)) || mySelectionTouched,INFIX_EXPRESSION, line no: 448,!explicitlyInvoked && mySelectionTouched,INFIX_EXPRESSION, line no: 1053, 0.3037037037037037, 0.9111111111111111, 0.3333333333333333
+(!(isExactPrefixItem(first true) || isExactPrefixItem(first false)) || mySelectionTouched),PARENTHESIZED_EXPRESSION, line no: 448,!explicitlyInvoked && mySelectionTouched,INFIX_EXPRESSION, line no: 1053, 0.303030303030303, 0.9090909090909091, 0.3333333333333333
 isExactPrefixItem,SIMPLE_NAME, line no: 448,!isSelectionVisible(),PREFIX_EXPRESSION, line no: 355, 0.3, 0.3, 1.0
 isExactPrefixItem,SIMPLE_NAME, line no: 448,myList.getSelectedValue() == oldSelected,INFIX_EXPRESSION, line no: 500, 0.3, 0.3, 1.0
 isExactPrefixItem,SIMPLE_NAME, line no: 448,myList.getSelectedValue() == element,INFIX_EXPRESSION, line no: 509, 0.3, 0.3, 1.0
@@ -2716,15 +2716,15 @@ false,BOOLEAN_LITERAL, line no: 448,myFocused=focused,ASSIGNMENT, line no: 228, 
 false,BOOLEAN_LITERAL, line no: 448,mySelectionTouched=selectionTouched,ASSIGNMENT, line no: 259, 0.08, 0.08, 1.0
 false,BOOLEAN_LITERAL, line no: 448,myStartCompletionWhenNothingMatches=startCompletionWhenNothingMatches,ASSIGNMENT, line no: 347, 0.08, 0.08, 1.0
 false,BOOLEAN_LITERAL, line no: 448,myChangeGuard || myDisposed,INFIX_EXPRESSION, line no: 810, 0.08, 0.08, 1.0
-isFocused() && (!(isExactPrefixItem(first true) || isExactPrefixItem(first false)) || mySelectionTouched),INFIX_EXPRESSION, line no: 448,mySelectionTouched=selectionTouched,ASSIGNMENT, line no: 259, 0.046511627906976744, 0.09302325581395349, 0.5
-(!(isExactPrefixItem(first true) || isExactPrefixItem(first false)) || mySelectionTouched),PARENTHESIZED_EXPRESSION, line no: 448,mySelectionTouched=selectionTouched,ASSIGNMENT, line no: 259, 0.045454545454545456, 0.09090909090909091, 0.5
 isFocused,SIMPLE_NAME, line no: 448,myCustomArranger instanceof CompletionLookupArranger,INSTANCEOF_EXPRESSION, line no: 1138, 0.044444444444444446, 0.044444444444444446, 1.0
-!(isExactPrefixItem(first true) || isExactPrefixItem(first false)) || mySelectionTouched,INFIX_EXPRESSION, line no: 448,mySelectionTouched=selectionTouched,ASSIGNMENT, line no: 259, 0.044444444444444446, 0.08888888888888889, 0.5
 mySelectionTouched,SIMPLE_NAME, line no: 448,myCustomArranger instanceof CompletionLookupArranger,INSTANCEOF_EXPRESSION, line no: 1138, 0.043478260869565216, 0.043478260869565216, 1.0
 isExactPrefixItem,SIMPLE_NAME, line no: 448,myCustomArranger instanceof CompletionLookupArranger,INSTANCEOF_EXPRESSION, line no: 1138, 0.04, 0.04, 1.0
 true,BOOLEAN_LITERAL, line no: 448,myCustomArranger instanceof CompletionLookupArranger,INSTANCEOF_EXPRESSION, line no: 1138, 0.04, 0.04, 1.0
 isExactPrefixItem,SIMPLE_NAME, line no: 448,myCustomArranger instanceof CompletionLookupArranger,INSTANCEOF_EXPRESSION, line no: 1138, 0.04, 0.04, 1.0
 false,BOOLEAN_LITERAL, line no: 448,myCustomArranger instanceof CompletionLookupArranger,INSTANCEOF_EXPRESSION, line no: 1138, 0.04, 0.04, 1.0
+isFocused() && (!(isExactPrefixItem(first true) || isExactPrefixItem(first false)) || mySelectionTouched),INFIX_EXPRESSION, line no: 448,mySelectionTouched=selectionTouched,ASSIGNMENT, line no: 259, 0.031007751937984496, 0.09302325581395349, 0.3333333333333333
+(!(isExactPrefixItem(first true) || isExactPrefixItem(first false)) || mySelectionTouched),PARENTHESIZED_EXPRESSION, line no: 448,mySelectionTouched=selectionTouched,ASSIGNMENT, line no: 259, 0.030303030303030304, 0.09090909090909091, 0.3333333333333333
+!(isExactPrefixItem(first true) || isExactPrefixItem(first false)) || mySelectionTouched,INFIX_EXPRESSION, line no: 448,mySelectionTouched=selectionTouched,ASSIGNMENT, line no: 259, 0.02962962962962963, 0.08888888888888889, 0.3333333333333333
 isFocused() && (!(isExactPrefixItem(first true) || isExactPrefixItem(first false)) || mySelectionTouched),INFIX_EXPRESSION, line no: 448,isCalculating,SIMPLE_NAME, line no: 231, 0.023255813953488372, 0.023255813953488372, 1.0
 isFocused() && (!(isExactPrefixItem(first true) || isExactPrefixItem(first false)) || mySelectionTouched),INFIX_EXPRESSION, line no: 448,isStartCompletionWhenNothingMatches,SIMPLE_NAME, line no: 350, 0.023255813953488372, 0.023255813953488372, 1.0
 isFocused() && (!(isExactPrefixItem(first true) || isExactPrefixItem(first false)) || mySelectionTouched),INFIX_EXPRESSION, line no: 448,truncatePrefix,SIMPLE_NAME, line no: 360, 0.023255813953488372, 0.023255813953488372, 1.0

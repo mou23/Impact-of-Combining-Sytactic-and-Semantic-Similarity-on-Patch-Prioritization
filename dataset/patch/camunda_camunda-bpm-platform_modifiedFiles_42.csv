@@ -63,6 +63,8 @@ String,SIMPLE_NAME, line no: 162,processDefinitionKey=(String)processDefinitionE
 String,SIMPLE_NAME, line no: 162,(String)processDefinitionExpression.getValue(execution),CAST_EXPRESSION, line no: 99, 0.26666666666666666, 0.26666666666666666, 1.0
 String,SIMPLE_NAME, line no: 162,this.processDefinitionKey=processDefinitionKey,ASSIGNMENT, line no: 65, 0.23333333333333334, 0.1, 1.0
 String,SIMPLE_NAME, line no: 162,this.binding=binding,ASSIGNMENT, line no: 75, 0.23333333333333334, 0.23333333333333334, 1.0
+execution.getVariables(),METHOD_INVOCATION, line no: 162,execution.setVariables(subProcessInstance.getVariables()),METHOD_INVOCATION, line no: 164, 0.1896551724137931, 0.3793103448275862, 0.5
+execution.getVariables(),METHOD_INVOCATION, line no: 162,execution.setVariable(dataOutputAssociation.getTarget() value),METHOD_INVOCATION, line no: 175, 0.1896551724137931, 0.3793103448275862, 0.5
 String,SIMPLE_NAME, line no: 162,value,SIMPLE_NAME, line no: 52, 0.13333333333333333, 0.03333333333333333, 1.0
 String,SIMPLE_NAME, line no: 162,this.value=value,ASSIGNMENT, line no: 55, 0.1, 0.1, 1.0
 String,SIMPLE_NAME, line no: 162,this.value,FIELD_ACCESS, line no: 55, 0.1, 0.1, 1.0

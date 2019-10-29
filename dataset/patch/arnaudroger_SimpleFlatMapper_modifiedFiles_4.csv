@@ -1,28 +1,5 @@
-property == null && !selectedParameters.isEmpty(),INFIX_EXPRESSION, line no: 31,property == null,INFIX_EXPRESSION, line no: 31, 1.0, 1.0, 1.0
-property == null && !selectedParameters.isEmpty(),INFIX_EXPRESSION, line no: 31,isEmpty,SIMPLE_NAME, line no: 31, 1.0, 1.0, 1.0
-!selectedParameters.isEmpty(),PREFIX_EXPRESSION, line no: 31,isEmpty,SIMPLE_NAME, line no: 31, 1.0, 1.0, 1.0
-selectedParameters.isEmpty(),METHOD_INVOCATION, line no: 31,isEmpty,SIMPLE_NAME, line no: 31, 1.0, 1.0, 1.0
 isEmpty,SIMPLE_NAME, line no: 31,selectedParameters.isEmpty(),METHOD_INVOCATION, line no: 31, 0.9848484848484849, 0.9848484848484849, 1.0
 property == null,INFIX_EXPRESSION, line no: 31,property == null && !selectedParameters.isEmpty(),INFIX_EXPRESSION, line no: 31, 0.984375, 0.984375, 1.0
-property == null,INFIX_EXPRESSION, line no: 31,isEmpty,SIMPLE_NAME, line no: 31, 0.984375, 0.984375, 1.0
 isEmpty,SIMPLE_NAME, line no: 31,!selectedParameters.isEmpty(),PREFIX_EXPRESSION, line no: 31, 0.9696969696969697, 0.9696969696969697, 1.0
 isEmpty,SIMPLE_NAME, line no: 31,property == null && !selectedParameters.isEmpty(),INFIX_EXPRESSION, line no: 31, 0.9545454545454546, 0.9545454545454546, 1.0
-isEmpty,SIMPLE_NAME, line no: 31,property == null,INFIX_EXPRESSION, line no: 31, 0.9545454545454546, 0.9545454545454546, 1.0
-property,SIMPLE_NAME, line no: 31,PropertyMeta,SIMPLE_NAME, line no: 27, 0.9538461538461539, 0.015384615384615385, 1.0
-property,SIMPLE_NAME, line no: 31,findProperty,SIMPLE_NAME, line no: 27, 0.9538461538461539, 0.015384615384615385, 1.0
-property,SIMPLE_NAME, line no: 31,propertyFinder.findProperty(propertyNameMatcher),METHOD_INVOCATION, line no: 29, 0.9384615384615385, 0.9384615384615385, 1.0
-isEmpty,SIMPLE_NAME, line no: 31,constructorDefinition != null,INFIX_EXPRESSION, line no: 34, 0.6666666666666666, 0.6666666666666666, 1.0
-property == null && !selectedParameters.isEmpty(),INFIX_EXPRESSION, line no: 31,add,SIMPLE_NAME, line no: 36, 0.47619047619047616, 0.47619047619047616, 1.0
-property == null,INFIX_EXPRESSION, line no: 31,add,SIMPLE_NAME, line no: 36, 0.46875, 0.46875, 1.0
-!selectedParameters.isEmpty(),PREFIX_EXPRESSION, line no: 31,add,SIMPLE_NAME, line no: 36, 0.46875, 0.46875, 1.0
-property,SIMPLE_NAME, line no: 31,propertyFinder.findProperty(new DefaultPropertyNameMatcher(param.getName())),METHOD_INVOCATION, line no: 37, 0.46153846153846156, 0.46153846153846156, 1.0
-selectedParameters.isEmpty(),METHOD_INVOCATION, line no: 31,add,SIMPLE_NAME, line no: 36, 0.46153846153846156, 0.46153846153846156, 1.0
-isEmpty,SIMPLE_NAME, line no: 31,add,SIMPLE_NAME, line no: 36, 0.45454545454545453, 0.45454545454545453, 1.0
 isEmpty,SIMPLE_NAME, line no: 31,selectedParameters.add(param.getName()),METHOD_INVOCATION, line no: 36, 0.4393939393939394, 0.4393939393939394, 1.0
-isEmpty,SIMPLE_NAME, line no: 31,def.getParameters().length == 1 && (selected == null || selected.getParameters().length > def.getParameters().length),INFIX_EXPRESSION, line no: 47, 0.3787878787878788, 0.3787878787878788, 1.0
-isEmpty,SIMPLE_NAME, line no: 31,def.getParameters().length == 1,INFIX_EXPRESSION, line no: 47, 0.3787878787878788, 0.3787878787878788, 1.0
-isEmpty,SIMPLE_NAME, line no: 31,(selected == null || selected.getParameters().length > def.getParameters().length),PARENTHESIZED_EXPRESSION, line no: 47, 0.3787878787878788, 0.3787878787878788, 1.0
-isEmpty,SIMPLE_NAME, line no: 31,selected == null || selected.getParameters().length > def.getParameters().length,INFIX_EXPRESSION, line no: 47, 0.3787878787878788, 0.3787878787878788, 1.0
-isEmpty,SIMPLE_NAME, line no: 31,selected == null,INFIX_EXPRESSION, line no: 47, 0.3787878787878788, 0.3787878787878788, 1.0
-isEmpty,SIMPLE_NAME, line no: 31,selected.getParameters().length > def.getParameters().length,INFIX_EXPRESSION, line no: 47, 0.3787878787878788, 0.3787878787878788, 1.0
-selectedParameters,SIMPLE_NAME, line no: 31,List,SIMPLE_NAME, line no: 18, 0.015151515151515152, 0.015151515151515152, 1.0

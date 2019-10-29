@@ -1,7 +1,9 @@
 splitBySeparator,SIMPLE_NAME, line no: 54,split,SIMPLE_NAME, line no: 54, 1.0, 1.0, 1.0
 path.split("\\" + File.separatorChar),METHOD_INVOCATION, line no: 54,split,SIMPLE_NAME, line no: 54, 1.0, 1.0, 1.0
+"\\" + File.separatorChar,INFIX_EXPRESSION, line no: 54,"\\",STRING_LITERAL, line no: 54, 1.0, 1.0, 1.0
 File.separatorChar,QUALIFIED_NAME, line no: 54,separatorChar,SIMPLE_NAME, line no: 38, 1.0, 0.047619047619047616, 1.0
 separatorChar,SIMPLE_NAME, line no: 54,File.separatorChar,QUALIFIED_NAME, line no: 54, 0.9767441860465116, 0.9767441860465116, 1.0
+"\\",STRING_LITERAL, line no: 54,"\\" + File.separatorChar,INFIX_EXPRESSION, line no: 54, 0.9761904761904762, 0.9761904761904762, 1.0
 path,SIMPLE_NAME, line no: 54,String,SIMPLE_NAME, line no: 41, 0.975609756097561, 0.024390243902439025, 1.0
 path,SIMPLE_NAME, line no: 54,"\\" + File.separatorChar,INFIX_EXPRESSION, line no: 54, 0.975609756097561, 0.975609756097561, 1.0
 path,SIMPLE_NAME, line no: 54,"\\",STRING_LITERAL, line no: 54, 0.975609756097561, 0.975609756097561, 1.0
@@ -20,12 +22,16 @@ String,SIMPLE_NAME, line no: 54,component,SIMPLE_NAME, line no: 56, 0.9268292682
 path,SIMPLE_NAME, line no: 54,component,SIMPLE_NAME, line no: 56, 0.926829268292683, 0.926829268292683, 1.0
 "\\" + File.separatorChar,INFIX_EXPRESSION, line no: 54,component,SIMPLE_NAME, line no: 56, 0.9024390243902439, 0.9024390243902439, 1.0
 "\\",STRING_LITERAL, line no: 54,component,SIMPLE_NAME, line no: 56, 0.8809523809523809, 0.8809523809523809, 1.0
+"\\",STRING_LITERAL, line no: 54,this.path,FIELD_ACCESS, line no: 70, 0.8809523809523809, 0.19047619047619047, 1.0
+"\\",STRING_LITERAL, line no: 54,this.path=pathBuilder.toString(),ASSIGNMENT, line no: 83, 0.8809523809523809, 0.8809523809523809, 1.0
+"\\",STRING_LITERAL, line no: 54,pathBuilder.toString(),METHOD_INVOCATION, line no: 83, 0.8809523809523809, 0.8809523809523809, 1.0
 "\\",STRING_LITERAL, line no: 54,toString,SIMPLE_NAME, line no: 83, 0.8809523809523809, 0.8809523809523809, 1.0
 path,SIMPLE_NAME, line no: 54,this.path,FIELD_ACCESS, line no: 70, 0.8780487804878049, 0.1951219512195122, 1.0
 path,SIMPLE_NAME, line no: 54,this.path=pathBuilder.toString(),ASSIGNMENT, line no: 83, 0.8780487804878049, 0.8780487804878049, 1.0
 path,SIMPLE_NAME, line no: 54,pathBuilder.toString(),METHOD_INVOCATION, line no: 83, 0.8780487804878049, 0.8780487804878049, 1.0
 path,SIMPLE_NAME, line no: 54,toString,SIMPLE_NAME, line no: 83, 0.8780487804878049, 0.8780487804878049, 1.0
 "\\" + File.separatorChar,INFIX_EXPRESSION, line no: 54,toString,SIMPLE_NAME, line no: 83, 0.8780487804878049, 0.8780487804878049, 1.0
+path.split("\\" + File.separatorChar),METHOD_INVOCATION, line no: 54,this.path,FIELD_ACCESS, line no: 70, 0.875, 0.2, 1.0
 String,SIMPLE_NAME, line no: 54,this.path,FIELD_ACCESS, line no: 70, 0.8536585365853658, 0.1951219512195122, 1.0
 String,SIMPLE_NAME, line no: 54,this.path=pathBuilder.toString(),ASSIGNMENT, line no: 83, 0.8536585365853658, 0.8536585365853658, 1.0
 String,SIMPLE_NAME, line no: 54,pathBuilder.toString(),METHOD_INVOCATION, line no: 83, 0.8536585365853658, 0.8536585365853658, 1.0
@@ -35,7 +41,9 @@ String,SIMPLE_NAME, line no: 54,next,SIMPLE_NAME, line no: 164, 0.78048780487804
 path,SIMPLE_NAME, line no: 54,contained.next(),METHOD_INVOCATION, line no: 164, 0.7804878048780488, 0.5365853658536586, 1.0
 path,SIMPLE_NAME, line no: 54,container.next(),METHOD_INVOCATION, line no: 169, 0.7804878048780488, 0.7804878048780488, 1.0
 "\\" + File.separatorChar,INFIX_EXPRESSION, line no: 54,next,SIMPLE_NAME, line no: 164, 0.7804878048780488, 0.5609756097560976, 1.0
+"\\",STRING_LITERAL, line no: 54,contained.next(),METHOD_INVOCATION, line no: 164, 0.7619047619047619, 0.5238095238095238, 1.0
 "\\",STRING_LITERAL, line no: 54,next,SIMPLE_NAME, line no: 164, 0.7619047619047619, 0.5476190476190477, 1.0
+"\\",STRING_LITERAL, line no: 54,container.next(),METHOD_INVOCATION, line no: 169, 0.7619047619047619, 0.7619047619047619, 1.0
 String,SIMPLE_NAME, line no: 54,contained.next(),METHOD_INVOCATION, line no: 164, 0.7560975609756098, 0.5121951219512195, 1.0
 String,SIMPLE_NAME, line no: 54,container.next(),METHOD_INVOCATION, line no: 169, 0.7560975609756098, 0.7560975609756098, 1.0
 path,SIMPLE_NAME, line no: 54,apply,SIMPLE_NAME, line no: 146, 0.6585365853658537, 0.6585365853658537, 1.0
@@ -44,15 +52,24 @@ path,SIMPLE_NAME, line no: 54,apply,SIMPLE_NAME, line no: 146, 0.658536585365853
 String,SIMPLE_NAME, line no: 54,apply,SIMPLE_NAME, line no: 146, 0.6341463414634146, 0.6341463414634146, 1.0
 path,SIMPLE_NAME, line no: 54,componentTransformer.apply(component),METHOD_INVOCATION, line no: 146, 0.6341463414634146, 0.6341463414634146, 1.0
 separatorChar,SIMPLE_NAME, line no: 54,FsFile.separatorChar,QUALIFIED_NAME, line no: 80, 0.627906976744186, 0.627906976744186, 1.0
+"\\",STRING_LITERAL, line no: 54,"path components may not be null",STRING_LITERAL, line no: 76, 0.6190476190476191, 0.6190476190476191, 1.0
+"\\",STRING_LITERAL, line no: 54,"path components may not contain a path separator",STRING_LITERAL, line no: 78, 0.6190476190476191, 0.6190476190476191, 1.0
+"\\",STRING_LITERAL, line no: 54,componentTransformer.apply(component),METHOD_INVOCATION, line no: 146, 0.6190476190476191, 0.6190476190476191, 1.0
 String,SIMPLE_NAME, line no: 54,componentTransformer.apply(component),METHOD_INVOCATION, line no: 146, 0.6097560975609756, 0.6097560975609756, 1.0
+"\\" + File.separatorChar,INFIX_EXPRESSION, line no: 54,"path components may not be null",STRING_LITERAL, line no: 76, 0.6097560975609756, 0.6097560975609756, 1.0
+"\\" + File.separatorChar,INFIX_EXPRESSION, line no: 54,"path components may not contain a path separator",STRING_LITERAL, line no: 78, 0.6097560975609756, 0.6097560975609756, 1.0
+"\\",STRING_LITERAL, line no: 54,"count must be positive",STRING_LITERAL, line no: 104, 0.5952380952380952, 0.5952380952380952, 1.0
 String,SIMPLE_NAME, line no: 54,"path components may not be null",STRING_LITERAL, line no: 76, 0.5853658536585366, 0.5853658536585366, 1.0
 String,SIMPLE_NAME, line no: 54,"path components may not contain a path separator",STRING_LITERAL, line no: 78, 0.5853658536585366, 0.5853658536585366, 1.0
 path,SIMPLE_NAME, line no: 54,"path components may not be null",STRING_LITERAL, line no: 76, 0.5853658536585366, 0.5853658536585366, 1.0
 path,SIMPLE_NAME, line no: 54,"path components may not contain a path separator",STRING_LITERAL, line no: 78, 0.5853658536585366, 0.5853658536585366, 1.0
+"\\" + File.separatorChar,INFIX_EXPRESSION, line no: 54,"count must be positive",STRING_LITERAL, line no: 104, 0.5853658536585366, 0.5853658536585366, 1.0
 String,SIMPLE_NAME, line no: 54,"count must be positive",STRING_LITERAL, line no: 104, 0.5609756097560976, 0.5609756097560976, 1.0
 path,SIMPLE_NAME, line no: 54,"count must be positive",STRING_LITERAL, line no: 104, 0.5609756097560976, 0.5609756097560976, 1.0
+path.split("\\" + File.separatorChar),METHOD_INVOCATION, line no: 54,this.path=pathBuilder.toString(),ASSIGNMENT, line no: 83, 0.4375, 0.875, 0.5
 String,SIMPLE_NAME, line no: 54,((FsFile)object).path,FIELD_ACCESS, line no: 216, 0.34146341463414637, 0.34146341463414637, 1.0
 path,SIMPLE_NAME, line no: 54,((FsFile)object).path,FIELD_ACCESS, line no: 216, 0.34146341463414637, 0.34146341463414637, 1.0
+"\\",STRING_LITERAL, line no: 54,((FsFile)object).path,FIELD_ACCESS, line no: 216, 0.3333333333333333, 0.3333333333333333, 1.0
 File,SIMPLE_NAME, line no: 54,file,SIMPLE_NAME, line no: 126, 0.3023255813953488, 0.023255813953488372, 1.0
 File,SIMPLE_NAME, line no: 54,file=new File(file component),ASSIGNMENT, line no: 193, 0.27906976744186046, 0.27906976744186046, 1.0
 File,SIMPLE_NAME, line no: 54,new File(file component),CLASS_INSTANCE_CREATION, line no: 193, 0.27906976744186046, 0.27906976744186046, 1.0
@@ -61,14 +78,25 @@ path,SIMPLE_NAME, line no: 54,getAbsolutePath,SIMPLE_NAME, line no: 127, 0.26829
 "\\",STRING_LITERAL, line no: 54,getAbsolutePath,SIMPLE_NAME, line no: 127, 0.2619047619047619, 0.2619047619047619, 1.0
 String,SIMPLE_NAME, line no: 54,getAbsolutePath,SIMPLE_NAME, line no: 127, 0.24390243902439024, 0.24390243902439024, 1.0
 path,SIMPLE_NAME, line no: 54,file.getAbsolutePath(),METHOD_INVOCATION, line no: 127, 0.24390243902439024, 0.24390243902439024, 1.0
+"\\",STRING_LITERAL, line no: 54,file.getAbsolutePath(),METHOD_INVOCATION, line no: 127, 0.23809523809523808, 0.23809523809523808, 1.0
 String,SIMPLE_NAME, line no: 54,file.getAbsolutePath(),METHOD_INVOCATION, line no: 127, 0.21951219512195122, 0.21951219512195122, 1.0
+"\\",STRING_LITERAL, line no: 54,"",STRING_LITERAL, line no: 70, 0.21428571428571427, 0.21428571428571427, 1.0
+path.split("\\" + File.separatorChar),METHOD_INVOCATION, line no: 54,this.path="",ASSIGNMENT, line no: 70, 0.2, 0.2, 1.0
 String,SIMPLE_NAME, line no: 54,this.path="",ASSIGNMENT, line no: 70, 0.1951219512195122, 0.1951219512195122, 1.0
 String,SIMPLE_NAME, line no: 54,"",STRING_LITERAL, line no: 70, 0.1951219512195122, 0.1951219512195122, 1.0
 path,SIMPLE_NAME, line no: 54,this.path="",ASSIGNMENT, line no: 70, 0.1951219512195122, 0.1951219512195122, 1.0
 path,SIMPLE_NAME, line no: 54,"",STRING_LITERAL, line no: 70, 0.1951219512195122, 0.1951219512195122, 1.0
+"\\" + File.separatorChar,INFIX_EXPRESSION, line no: 54,"",STRING_LITERAL, line no: 70, 0.1951219512195122, 0.1951219512195122, 1.0
+"\\",STRING_LITERAL, line no: 54,this.path="",ASSIGNMENT, line no: 70, 0.19047619047619047, 0.19047619047619047, 1.0
+path.split("\\" + File.separatorChar),METHOD_INVOCATION, line no: 54,this.path.equals(((FsFile)object).path),METHOD_INVOCATION, line no: 216, 0.175, 0.35, 0.5
+path.split("\\" + File.separatorChar),METHOD_INVOCATION, line no: 54,((FsFile)object).path,FIELD_ACCESS, line no: 216, 0.175, 0.35, 0.5
 splitBySeparator,SIMPLE_NAME, line no: 54,components,SIMPLE_NAME, line no: 91, 0.15, 0.025, 1.0
 path.split("\\" + File.separatorChar),METHOD_INVOCATION, line no: 54,components,SIMPLE_NAME, line no: 91, 0.15, 0.025, 1.0
+path.split("\\" + File.separatorChar),METHOD_INVOCATION, line no: 54,this.path.hashCode(),METHOD_INVOCATION, line no: 224, 0.15, 0.15, 1.0
 split,SIMPLE_NAME, line no: 54,components,SIMPLE_NAME, line no: 91, 0.14634146341463414, 0.024390243902439025, 1.0
+path.split("\\" + File.separatorChar),METHOD_INVOCATION, line no: 54,this.path.hashCode() * 97,INFIX_EXPRESSION, line no: 224, 0.125, 0.125, 1.0
+path.split("\\" + File.separatorChar),METHOD_INVOCATION, line no: 54,splitComponents(path FsFile.separatorChar),METHOD_INVOCATION, line no: 135, 0.0875, 0.175, 0.5
+File.separatorChar,QUALIFIED_NAME, line no: 54,'/',CHARACTER_LITERAL, line no: 38, 0.023809523809523808, 0.023809523809523808, 1.0
 File.separatorChar,QUALIFIED_NAME, line no: 54,separator,SIMPLE_NAME, line no: 53, 0.023809523809523808, 0.023809523809523808, 1.0
 File,SIMPLE_NAME, line no: 54,java.io.File,QUALIFIED_NAME, line no: 22, 0.023255813953488372, 0.023255813953488372, 1.0
 File,SIMPLE_NAME, line no: 54,toFile,SIMPLE_NAME, line no: 191, 0.023255813953488372, 0.023255813953488372, 1.0

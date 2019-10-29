@@ -3,6 +3,8 @@ new LocationPropertiesFromBrooklynProperties().getLocationProperties("byon" name
 new LocationPropertiesFromBrooklynProperties().getLocationProperties("byon" namedLocation properties),METHOD_INVOCATION, line no: 50,locationFlags,SIMPLE_NAME, line no: 36, 1.0, 0.0070921985815602835, 1.0
 new LocationPropertiesFromBrooklynProperties(),CLASS_INSTANCE_CREATION, line no: 50,LocationPropertiesFromBrooklynProperties,SIMPLE_NAME, line no: 50, 1.0, 1.0, 1.0
 getLocationProperties,SIMPLE_NAME, line no: 50,filteredProperties,SIMPLE_NAME, line no: 50, 1.0, 0.9929577464788732, 1.0
+"byon",STRING_LITERAL, line no: 50,"named",STRING_LITERAL, line no: 46, 1.0, 1.0, 1.0
+"byon",STRING_LITERAL, line no: 50,"target",STRING_LITERAL, line no: 57, 1.0, 0.9859154929577465, 1.0
 namedLocation,SIMPLE_NAME, line no: 50,String,SIMPLE_NAME, line no: 19, 1.0, 0.007042253521126761, 1.0
 namedLocation,SIMPLE_NAME, line no: 50,spec,SIMPLE_NAME, line no: 31, 1.0, 0.007042253521126761, 1.0
 namedLocation,SIMPLE_NAME, line no: 50,args,SIMPLE_NAME, line no: 47, 1.0, 0.9929577464788732, 1.0
@@ -13,7 +15,9 @@ properties,SIMPLE_NAME, line no: 50,locationFlags,SIMPLE_NAME, line no: 36, 1.0,
 "byon",STRING_LITERAL, line no: 50,spec,SIMPLE_NAME, line no: 31, 0.9929577464788732, 0.007042253521126761, 1.0
 "byon",STRING_LITERAL, line no: 50,namedLocation,SIMPLE_NAME, line no: 46, 0.9929577464788732, 0.9859154929577465, 1.0
 "byon",STRING_LITERAL, line no: 50,args,SIMPLE_NAME, line no: 47, 0.9929577464788732, 0.9859154929577465, 1.0
+"byon",STRING_LITERAL, line no: 50,matcher.group(2),METHOD_INVOCATION, line no: 47, 0.9929577464788732, 0.9929577464788732, 1.0
 "byon",STRING_LITERAL, line no: 50,group,SIMPLE_NAME, line no: 47, 0.9929577464788732, 0.9929577464788732, 1.0
+"byon",STRING_LITERAL, line no: 50,locationArgs.get("target").toString(),METHOD_INVOCATION, line no: 60, 0.9929577464788732, 0.9929577464788732, 1.0
 "byon",STRING_LITERAL, line no: 50,toString,SIMPLE_NAME, line no: 60, 0.9929577464788732, 0.9929577464788732, 1.0
 namedLocation,SIMPLE_NAME, line no: 50,"named",STRING_LITERAL, line no: 46, 0.9929577464788732, 0.9929577464788732, 1.0
 namedLocation,SIMPLE_NAME, line no: 50,matcher.group(2),METHOD_INVOCATION, line no: 47, 0.9929577464788732, 0.9929577464788732, 1.0
@@ -34,7 +38,10 @@ String,SIMPLE_NAME, line no: 50,target,SIMPLE_NAME, line no: 60, 0.9859154929577
 String,SIMPLE_NAME, line no: 50,toString,SIMPLE_NAME, line no: 60, 0.9859154929577465, 0.9859154929577465, 1.0
 Object,SIMPLE_NAME, line no: 50,get,SIMPLE_NAME, line no: 46, 0.9859154929577465, 0.9859154929577465, 1.0
 getLocationProperties,SIMPLE_NAME, line no: 50,Map,SIMPLE_NAME, line no: 50, 0.9859154929577465, 0.9859154929577465, 1.0
+"byon",STRING_LITERAL, line no: 50,(String)locationFlags.get("named"),CAST_EXPRESSION, line no: 46, 0.9859154929577465, 0.9859154929577465, 1.0
 "byon",STRING_LITERAL, line no: 50,target,SIMPLE_NAME, line no: 60, 0.9859154929577465, 0.9859154929577465, 1.0
+"byon",STRING_LITERAL, line no: 50,"location",STRING_LITERAL, line no: 67, 0.9859154929577465, 0.9859154929577465, 1.0
+"byon",STRING_LITERAL, line no: 50,"locationFlags",STRING_LITERAL, line no: 68, 0.9859154929577465, 0.9859154929577465, 1.0
 namedLocation,SIMPLE_NAME, line no: 50,(String)locationFlags.get("named"),CAST_EXPRESSION, line no: 46, 0.9859154929577465, 0.9859154929577465, 1.0
 String,SIMPLE_NAME, line no: 50,(String)locationFlags.get("named"),CAST_EXPRESSION, line no: 46, 0.9788732394366197, 0.9788732394366197, 1.0
 String,SIMPLE_NAME, line no: 50,"named",STRING_LITERAL, line no: 46, 0.9788732394366197, 0.9788732394366197, 1.0
@@ -52,6 +59,10 @@ String,SIMPLE_NAME, line no: 50,"Invalid location '",STRING_LITERAL, line no: 43
 String,SIMPLE_NAME, line no: 50,"'; must specify something like single(named:foo)",STRING_LITERAL, line no: 43, 0.08450704225352113, 0.08450704225352113, 1.0
 String,SIMPLE_NAME, line no: 50,"Invalid target location '",STRING_LITERAL, line no: 63, 0.08450704225352113, 0.08450704225352113, 1.0
 String,SIMPLE_NAME, line no: 50,"'; must be resolvable location",STRING_LITERAL, line no: 63, 0.08450704225352113, 0.08450704225352113, 1.0
+"byon",STRING_LITERAL, line no: 50,"Invalid location '",STRING_LITERAL, line no: 43, 0.08450704225352113, 0.08450704225352113, 1.0
+"byon",STRING_LITERAL, line no: 50,"'; must specify something like single(named:foo)",STRING_LITERAL, line no: 43, 0.08450704225352113, 0.08450704225352113, 1.0
+"byon",STRING_LITERAL, line no: 50,"Invalid target location '",STRING_LITERAL, line no: 63, 0.08450704225352113, 0.08450704225352113, 1.0
+"byon",STRING_LITERAL, line no: 50,"'; must be resolvable location",STRING_LITERAL, line no: 63, 0.08450704225352113, 0.08450704225352113, 1.0
 namedLocation,SIMPLE_NAME, line no: 50,"Invalid location '",STRING_LITERAL, line no: 43, 0.08450704225352113, 0.08450704225352113, 1.0
 namedLocation,SIMPLE_NAME, line no: 50,"'; must specify something like single(named:foo)",STRING_LITERAL, line no: 43, 0.08450704225352113, 0.08450704225352113, 1.0
 namedLocation,SIMPLE_NAME, line no: 50,"Invalid target location '",STRING_LITERAL, line no: 63, 0.08450704225352113, 0.08450704225352113, 1.0
@@ -59,11 +70,15 @@ namedLocation,SIMPLE_NAME, line no: 50,"'; must be resolvable location",STRING_L
 properties,SIMPLE_NAME, line no: 50,getProperties,SIMPLE_NAME, line no: 37, 0.08450704225352113, 0.08450704225352113, 1.0
 String,SIMPLE_NAME, line no: 50,"Invalid location '" + spec + "'; must specify something like single(named:foo)",INFIX_EXPRESSION, line no: 43, 0.07746478873239436, 0.07746478873239436, 1.0
 String,SIMPLE_NAME, line no: 50,"Invalid target location '" + target + "'; must be resolvable location",INFIX_EXPRESSION, line no: 63, 0.07746478873239436, 0.07746478873239436, 1.0
+"byon",STRING_LITERAL, line no: 50,"Invalid location '" + spec + "'; must specify something like single(named:foo)",INFIX_EXPRESSION, line no: 43, 0.07746478873239436, 0.07746478873239436, 1.0
+"byon",STRING_LITERAL, line no: 50,"Invalid target location '" + target + "'; must be resolvable location",INFIX_EXPRESSION, line no: 63, 0.07746478873239436, 0.07746478873239436, 1.0
 namedLocation,SIMPLE_NAME, line no: 50,"Invalid location '" + spec + "'; must specify something like single(named:foo)",INFIX_EXPRESSION, line no: 43, 0.07746478873239436, 0.07746478873239436, 1.0
 namedLocation,SIMPLE_NAME, line no: 50,"Invalid target location '" + target + "'; must be resolvable location",INFIX_EXPRESSION, line no: 63, 0.07746478873239436, 0.07746478873239436, 1.0
 properties,SIMPLE_NAME, line no: 50,registry.getProperties(),METHOD_INVOCATION, line no: 37, 0.07746478873239436, 0.07746478873239436, 1.0
 String,SIMPLE_NAME, line no: 50,"managementContext",STRING_LITERAL, line no: 27, 0.056338028169014086, 0.056338028169014086, 1.0
 String,SIMPLE_NAME, line no: 50,"target must be specified in single-machine spec",STRING_LITERAL, line no: 58, 0.056338028169014086, 0.056338028169014086, 1.0
+"byon",STRING_LITERAL, line no: 50,"managementContext",STRING_LITERAL, line no: 27, 0.056338028169014086, 0.056338028169014086, 1.0
+"byon",STRING_LITERAL, line no: 50,"target must be specified in single-machine spec",STRING_LITERAL, line no: 58, 0.056338028169014086, 0.056338028169014086, 1.0
 namedLocation,SIMPLE_NAME, line no: 50,"managementContext",STRING_LITERAL, line no: 27, 0.056338028169014086, 0.056338028169014086, 1.0
 namedLocation,SIMPLE_NAME, line no: 50,"target must be specified in single-machine spec",STRING_LITERAL, line no: 58, 0.056338028169014086, 0.056338028169014086, 1.0
 "byon",STRING_LITERAL, line no: 50,SINGLE,SIMPLE_NAME, line no: 19, 0.035211267605633804, 0.014084507042253521, 1.0
@@ -72,20 +87,29 @@ namedLocation,SIMPLE_NAME, line no: 50,SINGLE,SIMPLE_NAME, line no: 19, 0.035211
 namedLocation,SIMPLE_NAME, line no: 50,toUpperCase,SIMPLE_NAME, line no: 21, 0.035211267605633804, 0.035211267605633804, 1.0
 String,SIMPLE_NAME, line no: 50,SINGLE,SIMPLE_NAME, line no: 19, 0.028169014084507043, 0.007042253521126761, 1.0
 String,SIMPLE_NAME, line no: 50,toUpperCase,SIMPLE_NAME, line no: 21, 0.028169014084507043, 0.028169014084507043, 1.0
+"byon",STRING_LITERAL, line no: 50,"(",STRING_LITERAL, line no: 21, 0.028169014084507043, 0.028169014084507043, 1.0
+"byon",STRING_LITERAL, line no: 50,"|",STRING_LITERAL, line no: 21, 0.028169014084507043, 0.028169014084507043, 1.0
+"byon",STRING_LITERAL, line no: 50,SINGLE.toUpperCase(),METHOD_INVOCATION, line no: 21, 0.028169014084507043, 0.028169014084507043, 1.0
+"byon",STRING_LITERAL, line no: 50,")",STRING_LITERAL, line no: 21, 0.028169014084507043, 0.028169014084507043, 1.0
+"byon",STRING_LITERAL, line no: 50,":",STRING_LITERAL, line no: 21, 0.028169014084507043, 0.028169014084507043, 1.0
+"byon",STRING_LITERAL, line no: 50,"\\((.*)\\)$",STRING_LITERAL, line no: 21, 0.028169014084507043, 0.028169014084507043, 1.0
 namedLocation,SIMPLE_NAME, line no: 50,"(",STRING_LITERAL, line no: 21, 0.028169014084507043, 0.028169014084507043, 1.0
 namedLocation,SIMPLE_NAME, line no: 50,"|",STRING_LITERAL, line no: 21, 0.028169014084507043, 0.028169014084507043, 1.0
 namedLocation,SIMPLE_NAME, line no: 50,SINGLE.toUpperCase(),METHOD_INVOCATION, line no: 21, 0.028169014084507043, 0.028169014084507043, 1.0
 namedLocation,SIMPLE_NAME, line no: 50,")",STRING_LITERAL, line no: 21, 0.028169014084507043, 0.028169014084507043, 1.0
 namedLocation,SIMPLE_NAME, line no: 50,":",STRING_LITERAL, line no: 21, 0.028169014084507043, 0.028169014084507043, 1.0
 namedLocation,SIMPLE_NAME, line no: 50,"\\((.*)\\)$",STRING_LITERAL, line no: 21, 0.028169014084507043, 0.028169014084507043, 1.0
+new LocationPropertiesFromBrooklynProperties().getLocationProperties("byon" namedLocation properties),METHOD_INVOCATION, line no: 50,newLocationFromString(spec null properties new MutableMap()),METHOD_INVOCATION, line no: 32, 0.021276595744680847, 0.06382978723404255, 0.3333333333333333
 String,SIMPLE_NAME, line no: 50,"(",STRING_LITERAL, line no: 21, 0.02112676056338028, 0.02112676056338028, 1.0
 String,SIMPLE_NAME, line no: 50,"|",STRING_LITERAL, line no: 21, 0.02112676056338028, 0.02112676056338028, 1.0
 String,SIMPLE_NAME, line no: 50,SINGLE.toUpperCase(),METHOD_INVOCATION, line no: 21, 0.02112676056338028, 0.02112676056338028, 1.0
 String,SIMPLE_NAME, line no: 50,")",STRING_LITERAL, line no: 21, 0.02112676056338028, 0.02112676056338028, 1.0
 String,SIMPLE_NAME, line no: 50,":",STRING_LITERAL, line no: 21, 0.02112676056338028, 0.02112676056338028, 1.0
 String,SIMPLE_NAME, line no: 50,"\\((.*)\\)$",STRING_LITERAL, line no: 21, 0.02112676056338028, 0.02112676056338028, 1.0
+"byon",STRING_LITERAL, line no: 50,"(" + SINGLE + "|"+ SINGLE.toUpperCase()+ ")"+ ":"+ "\\((.*)\\)$",INFIX_EXPRESSION, line no: 21, 0.02112676056338028, 0.02112676056338028, 1.0
 namedLocation,SIMPLE_NAME, line no: 50,"(" + SINGLE + "|"+ SINGLE.toUpperCase()+ ")"+ ":"+ "\\((.*)\\)$",INFIX_EXPRESSION, line no: 21, 0.02112676056338028, 0.02112676056338028, 1.0
 String,SIMPLE_NAME, line no: 50,"(" + SINGLE + "|"+ SINGLE.toUpperCase()+ ")"+ ":"+ "\\((.*)\\)$",INFIX_EXPRESSION, line no: 21, 0.014084507042253521, 0.014084507042253521, 1.0
+"byon",STRING_LITERAL, line no: 50,"single",STRING_LITERAL, line no: 19, 0.014084507042253521, 0.014084507042253521, 1.0
 namedLocation,SIMPLE_NAME, line no: 50,"single",STRING_LITERAL, line no: 19, 0.014084507042253521, 0.014084507042253521, 1.0
 new LocationPropertiesFromBrooklynProperties().getLocationProperties("byon" namedLocation properties),METHOD_INVOCATION, line no: 50,Map,SIMPLE_NAME, line no: 31, 0.0070921985815602835, 0.0070921985815602835, 1.0
 String,SIMPLE_NAME, line no: 50,"single",STRING_LITERAL, line no: 19, 0.007042253521126761, 0.007042253521126761, 1.0

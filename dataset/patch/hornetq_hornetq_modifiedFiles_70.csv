@@ -18,6 +18,9 @@ message,SIMPLE_NAME, line no: 40,ConsumerFlowTokenMessage,SIMPLE_NAME, line no: 
 message,SIMPLE_NAME, line no: 40,new ConsumerFlowTokenMessage(in.getInt()),CLASS_INSTANCE_CREATION, line no: 53, 0.6875, 0.6875, 1.0
 getTokens,SIMPLE_NAME, line no: 40,bodyLength,SIMPLE_NAME, line no: 47, 0.6875, 0.6875, 1.0
 message.getTokens(),METHOD_INVOCATION, line no: 40,bodyLength,SIMPLE_NAME, line no: 47, 0.6666666666666666, 0.6666666666666666, 1.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,out.putInt(INT_LENGTH),METHOD_INVOCATION, line no: 39, 0.5, 1.0, 0.5
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,message.getTokens(),METHOD_INVOCATION, line no: 40, 0.5, 1.0, 0.5
+message.getTokens(),METHOD_INVOCATION, line no: 40,out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40, 0.4666666666666667, 0.9333333333333333, 0.5
 out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,ConsumerFlowTokenMessageCodec,SIMPLE_NAME, line no: 27, 0.07142857142857142, 0.07142857142857142, 1.0
 out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,encodeBody,SIMPLE_NAME, line no: 37, 0.07142857142857142, 0.07142857142857142, 1.0
 out,SIMPLE_NAME, line no: 40,RemotingBuffer,SIMPLE_NAME, line no: 37, 0.06666666666666667, 0.06666666666666667, 1.0

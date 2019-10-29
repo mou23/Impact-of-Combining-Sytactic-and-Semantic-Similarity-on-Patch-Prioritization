@@ -103,6 +103,7 @@ NO_TXN,SIMPLE_NAME, line no: 232,beginLog.state,QUALIFIED_NAME, line no: 248, 0.
 callerUuid,SIMPLE_NAME, line no: 232,SERVICE_NAME,SIMPLE_NAME, line no: 44, 0.5333333333333333, 0.03333333333333333, 1.0
 callerUuid,SIMPLE_NAME, line no: 232,TransactionManagerServiceImpl.SERVICE_NAME,QUALIFIED_NAME, line no: 278, 0.48333333333333334, 0.48333333333333334, 1.0
 xid,SIMPLE_NAME, line no: 232,new SerializableXID(xid.getFormatId() xid.getGlobalTransactionId() xid.getBranchQualifier()),CLASS_INSTANCE_CREATION, line no: 143, 0.48333333333333334, 0.48333333333333334, 1.0
+new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,new TxBackupLog(txLogs callerUuid State.COMMITTING timeoutMillis startTime beginLog.xid),CLASS_INSTANCE_CREATION, line no: 251, 0.4661016949152542, 0.559322033898305, 0.8333333333333334
 new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,new TransactionImpl(this nodeEngine txnId log.txLogs log.timeoutMillis log.startTime log.callerUuid),CLASS_INSTANCE_CREATION, line no: 188, 0.423728813559322, 0.847457627118644, 0.5
 txLogs,SIMPLE_NAME, line no: 232,emptyList,SIMPLE_NAME, line no: 237, 0.4166666666666667, 0.4166666666666667, 1.0
 txLogs,SIMPLE_NAME, line no: 232,Collections.<TransactionLog>emptyList(),METHOD_INVOCATION, line no: 237, 0.4, 0.4, 1.0
@@ -116,6 +117,8 @@ TxBackupLog,SIMPLE_NAME, line no: 232,txBackupLogs.putIfAbsent(txnId log),METHOD
 TxBackupLog,SIMPLE_NAME, line no: 232,new TxBackupLog(Collections.<TransactionLog>emptyList() callerUuid State.ACTIVE -1 -1 xid),CLASS_INSTANCE_CREATION, line no: 237, 0.3559322033898305, 0.3559322033898305, 1.0
 TxBackupLog,SIMPLE_NAME, line no: 232,txBackupLogs.putIfAbsent(txnId log),METHOD_INVOCATION, line no: 238, 0.3559322033898305, 0.3559322033898305, 1.0
 log,SIMPLE_NAME, line no: 232,txBackupLogs.putIfAbsent(txnId log),METHOD_INVOCATION, line no: 238, 0.3559322033898305, 0.3559322033898305, 1.0
+new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,txBackupLogs.replace(txnId beginLog new TxBackupLog(txLogs callerUuid State.COMMITTING timeoutMillis startTime beginLog.xid)),METHOD_INVOCATION, line no: 251, 0.34957627118644063, 0.559322033898305, 0.625
+new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,!txBackupLogs.replace(txnId beginLog new TxBackupLog(txLogs callerUuid State.COMMITTING timeoutMillis startTime beginLog.xid)),PREFIX_EXPRESSION, line no: 251, 0.3389830508474576, 0.5423728813559322, 0.625
 callerUuid,SIMPLE_NAME, line no: 232,getUuid,SIMPLE_NAME, line no: 138, 0.3333333333333333, 0.3333333333333333, 1.0
 callerUuid,SIMPLE_NAME, line no: 232,member.getUuid(),METHOD_INVOCATION, line no: 138, 0.31666666666666665, 0.31666666666666665, 1.0
 timeoutMillis,SIMPLE_NAME, line no: 232,TransactionOptions.getDefault().getTimeoutMillis(),METHOD_INVOCATION, line no: 177, 0.23333333333333334, 0.23333333333333334, 1.0
@@ -145,8 +148,8 @@ callerUuid,SIMPLE_NAME, line no: 232,"This log is XA Managed " + log,INFIX_EXPRE
 callerUuid,SIMPLE_NAME, line no: 232,"This log is XA Managed ",STRING_LITERAL, line no: 184, 0.18333333333333332, 0.18333333333333332, 1.0
 State,SIMPLE_NAME, line no: 232,log.state=State.NO_TXN,ASSIGNMENT, line no: 185, 0.18032786885245902, 0.18032786885245902, 1.0
 NO_TXN,SIMPLE_NAME, line no: 232,log.state=State.NO_TXN,ASSIGNMENT, line no: 185, 0.18032786885245902, 0.18032786885245902, 1.0
-new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,uuid.equals(log.callerUuid),METHOD_INVOCATION, line no: 165, 0.1581920903954802, 0.9491525423728814, 0.16666666666666666
 new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,log.callerUuid,QUALIFIED_NAME, line no: 165, 0.1581920903954802, 0.9491525423728814, 0.16666666666666666
+new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,new TxBackupLog(Collections.<TransactionLog>emptyList() callerUuid State.ACTIVE -1 -1 xid),CLASS_INSTANCE_CREATION, line no: 237, 0.15593220338983052, 0.3898305084745763, 0.4
 callerUuid,SIMPLE_NAME, line no: 232,"Member left while recovering: " + e,INFIX_EXPRESSION, line no: 296, 0.15, 0.1, 1.0
 callerUuid,SIMPLE_NAME, line no: 232,"Member left while recovering: ",STRING_LITERAL, line no: 296, 0.15, 0.1, 1.0
 new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,log.xid != null,INFIX_EXPRESSION, line no: 183, 0.14689265536723162, 0.7966101694915254, 0.16666666666666666
@@ -154,6 +157,7 @@ new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLAS
 new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,log.txLogs,QUALIFIED_NAME, line no: 188, 0.14124293785310732, 0.847457627118644, 0.16666666666666666
 new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,log.timeoutMillis,QUALIFIED_NAME, line no: 188, 0.14124293785310732, 0.847457627118644, 0.16666666666666666
 new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,log.startTime,QUALIFIED_NAME, line no: 188, 0.14124293785310732, 0.847457627118644, 0.16666666666666666
+new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,uuid.equals(log.callerUuid),METHOD_INVOCATION, line no: 165, 0.13559322033898305, 0.9491525423728814, 0.14285714285714285
 State.NO_TXN,QUALIFIED_NAME, line no: 232,ROLLING_BACK,SIMPLE_NAME, line no: 259, 0.13333333333333333, 0.13333333333333333, 1.0
 new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,tx.setXid(xid),METHOD_INVOCATION, line no: 291, 0.1327683615819209, 0.7966101694915254, 0.16666666666666666
 new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,xidSet.add(xid),METHOD_INVOCATION, line no: 292, 0.1327683615819209, 0.7966101694915254, 0.16666666666666666
@@ -185,24 +189,21 @@ callerUuid,SIMPLE_NAME, line no: 232,"Error during rolling-back from tx backup!"
 callerUuid,SIMPLE_NAME, line no: 232,"No tx backup log is found  tx -> " + txnId,INFIX_EXPRESSION, line no: 261, 0.1, 0.1, 1.0
 callerUuid,SIMPLE_NAME, line no: 232,"No tx backup log is found  tx -> ",STRING_LITERAL, line no: 261, 0.1, 0.1, 1.0
 TxBackupLog,SIMPLE_NAME, line no: 232,txBackupLogs.remove(txnId),METHOD_INVOCATION, line no: 266, 0.09836065573770492, 0.09836065573770492, 1.0
-new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,new TxBackupLog(txLogs callerUuid State.COMMITTING timeoutMillis startTime beginLog.xid),CLASS_INSTANCE_CREATION, line no: 251, 0.09322033898305083, 0.559322033898305, 0.16666666666666666
 new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,beginLog.xid,QUALIFIED_NAME, line no: 251, 0.09322033898305083, 0.559322033898305, 0.16666666666666666
 callerUuid,SIMPLE_NAME, line no: 232,"Error while rolling-back tx!",STRING_LITERAL, line no: 179, 0.08333333333333333, 0.08333333333333333, 1.0
-new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,txBackupLogs.replace(txnId beginLog new TxBackupLog(txLogs callerUuid State.COMMITTING timeoutMillis startTime beginLog.xid)),METHOD_INVOCATION, line no: 251, 0.07990314769975786, 0.559322033898305, 0.14285714285714285
-new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,!txBackupLogs.replace(txnId beginLog new TxBackupLog(txLogs callerUuid State.COMMITTING timeoutMillis startTime beginLog.xid)),PREFIX_EXPRESSION, line no: 251, 0.07748184019370459, 0.5423728813559322, 0.14285714285714285
 callerUuid,SIMPLE_NAME, line no: 232,"TransactionalTask is required!",STRING_LITERAL, line no: 65, 0.05, 0.05, 1.0
 callerUuid,SIMPLE_NAME, line no: 232,"TxLog already exists!",STRING_LITERAL, line no: 239, 0.05, 0.05, 1.0
 callerUuid,SIMPLE_NAME, line no: 232,"Could not find begin tx log!",STRING_LITERAL, line no: 246, 0.05, 0.05, 1.0
-new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,this.txLogs=txLogs,ASSIGNMENT, line no: 351, 0.04406779661016949, 0.22033898305084745, 0.2
 new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,this.txLogs,FIELD_ACCESS, line no: 351, 0.04406779661016949, 0.22033898305084745, 0.2
-new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,this.callerUuid=callerUuid,ASSIGNMENT, line no: 352, 0.04406779661016949, 0.22033898305084745, 0.2
 new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,this.callerUuid,FIELD_ACCESS, line no: 352, 0.04406779661016949, 0.22033898305084745, 0.2
-new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,this.timeoutMillis=timeoutMillis,ASSIGNMENT, line no: 354, 0.04406779661016949, 0.22033898305084745, 0.2
 new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,this.timeoutMillis,FIELD_ACCESS, line no: 354, 0.04406779661016949, 0.22033898305084745, 0.2
-new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,this.startTime=startTime,ASSIGNMENT, line no: 355, 0.04406779661016949, 0.22033898305084745, 0.2
 new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,this.startTime,FIELD_ACCESS, line no: 355, 0.04406779661016949, 0.22033898305084745, 0.2
-new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,this.xid=xid,ASSIGNMENT, line no: 356, 0.04406779661016949, 0.22033898305084745, 0.2
 new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,this.xid,FIELD_ACCESS, line no: 356, 0.04406779661016949, 0.22033898305084745, 0.2
+new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,this.txLogs=txLogs,ASSIGNMENT, line no: 351, 0.036723163841807904, 0.22033898305084745, 0.16666666666666666
+new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,this.callerUuid=callerUuid,ASSIGNMENT, line no: 352, 0.036723163841807904, 0.22033898305084745, 0.16666666666666666
+new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,this.timeoutMillis=timeoutMillis,ASSIGNMENT, line no: 354, 0.036723163841807904, 0.22033898305084745, 0.16666666666666666
+new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,this.startTime=startTime,ASSIGNMENT, line no: 355, 0.036723163841807904, 0.22033898305084745, 0.16666666666666666
+new TxBackupLog(txLogs callerUuid State.NO_TXN timeoutMillis startTime xid),CLASS_INSTANCE_CREATION, line no: 232,this.xid=xid,ASSIGNMENT, line no: 356, 0.036723163841807904, 0.22033898305084745, 0.16666666666666666
 callerUuid,SIMPLE_NAME, line no: 232,"hz:core:txManagerService",STRING_LITERAL, line no: 44, 0.016666666666666666, 0.016666666666666666, 1.0
 State,SIMPLE_NAME, line no: 232,com.hazelcast.transaction.impl.Transaction.State,QUALIFIED_NAME, line no: 36, 0.01639344262295082, 0.01639344262295082, 1.0
 NO_TXN,SIMPLE_NAME, line no: 232,com.hazelcast.transaction.impl.Transaction.State,QUALIFIED_NAME, line no: 36, 0.01639344262295082, 0.01639344262295082, 1.0

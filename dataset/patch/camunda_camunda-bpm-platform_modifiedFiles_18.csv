@@ -65,10 +65,8 @@ concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,activeConcurrentE
 concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,isLoggable,SIMPLE_NAME, line no: 50, 0.92, 0.92, 1.0
 concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,activeConcurrentExecutionsExist,SIMPLE_NAME, line no: 48, 0.92, 0.92, 1.0
 concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,isLoggable,SIMPLE_NAME, line no: 50, 0.92, 0.92, 1.0
-concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,execution.findInactiveConcurrentExecutions(activity),METHOD_INVOCATION, line no: 54, 0.92, 0.92, 1.0
 concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,activeConcurrentExecutionsExist,SIMPLE_NAME, line no: 48, 0.918918918918919, 0.918918918918919, 1.0
 concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,isLoggable,SIMPLE_NAME, line no: 50, 0.918918918918919, 0.918918918918919, 1.0
-concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,execution.findInactiveConcurrentExecutions(activity),METHOD_INVOCATION, line no: 54, 0.918918918918919, 0.918918918918919, 1.0
 concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,reachable,SIMPLE_NAME, line no: 112, 0.8783783783783784, 0.8648648648648649, 1.0
 concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,reachable,SIMPLE_NAME, line no: 112, 0.8666666666666667, 0.8533333333333334, 1.0
 concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,reachable,SIMPLE_NAME, line no: 112, 0.8666666666666667, 0.8533333333333334, 1.0
@@ -82,6 +80,8 @@ isActive,SIMPLE_NAME, line no: 109,!outgoingTransition.getId().equals(defaultSeq
 isActive,SIMPLE_NAME, line no: 109,subExecutions.size() == 0,INFIX_EXPRESSION, line no: 94, 0.5131578947368421, 0.5131578947368421, 1.0
 concurrentExecution,SIMPLE_NAME, line no: 109,parent,SIMPLE_NAME, line no: 91, 0.5064935064935064, 0.012987012987012988, 1.0
 isActive,SIMPLE_NAME, line no: 109,defaultSequenceFlow != null,INFIX_EXPRESSION, line no: 71, 0.5, 0.5, 1.0
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,execution.findInactiveConcurrentExecutions(activity),METHOD_INVOCATION, line no: 54, 0.46, 0.92, 0.5
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,execution.findInactiveConcurrentExecutions(activity),METHOD_INVOCATION, line no: 54, 0.4594594594594595, 0.918918918918919, 0.5
 concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,evaluate,SIMPLE_NAME, line no: 61, 0.43243243243243246, 0.43243243243243246, 1.0
 concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,contains,SIMPLE_NAME, line no: 159, 0.43243243243243246, 0.43243243243243246, 1.0
 concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,evaluate,SIMPLE_NAME, line no: 61, 0.4266666666666667, 0.4266666666666667, 1.0

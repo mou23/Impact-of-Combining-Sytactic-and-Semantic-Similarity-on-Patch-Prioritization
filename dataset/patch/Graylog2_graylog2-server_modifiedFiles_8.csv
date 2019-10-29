@@ -1,7 +1,9 @@
 compressMe,SIMPLE_NAME, line no: 50,ByteArrayInputStream,SIMPLE_NAME, line no: 23, 1.0, 0.02, 1.0
 new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,ByteArrayInputStream,SIMPLE_NAME, line no: 23, 1.0, 0.02, 1.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,what.getBytes(),METHOD_INVOCATION, line no: 50, 1.0, 1.0, 1.0
 what.getBytes(),METHOD_INVOCATION, line no: 50,getBytes,SIMPLE_NAME, line no: 35, 1.0, 0.6274509803921569, 1.0
 getBytes,SIMPLE_NAME, line no: 50,what.getBytes(),METHOD_INVOCATION, line no: 50, 0.9807692307692307, 0.9807692307692307, 1.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50, 0.9803921568627451, 0.9803921568627451, 1.0
 ByteArrayInputStream,SIMPLE_NAME, line no: 50,compressMe,SIMPLE_NAME, line no: 50, 0.98, 0.98, 1.0
 compressMe,SIMPLE_NAME, line no: 50,new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50, 0.98, 0.98, 1.0
 new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,compressMe,SIMPLE_NAME, line no: 50, 0.98, 0.98, 1.0
@@ -18,7 +20,9 @@ what.getBytes(),METHOD_INVOCATION, line no: 50,data,SIMPLE_NAME, line no: 61, 0.
 what.getBytes(),METHOD_INVOCATION, line no: 50,chunkData,SIMPLE_NAME, line no: 66, 0.8235294117647058, 0.8235294117647058, 1.0
 what,SIMPLE_NAME, line no: 50,id,SIMPLE_NAME, line no: 61, 0.8076923076923077, 0.019230769230769232, 1.0
 getBytes,SIMPLE_NAME, line no: 50,id.getBytes(),METHOD_INVOCATION, line no: 62, 0.8076923076923077, 0.8076923076923077, 1.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,what.getBytes("UTF-8"),METHOD_INVOCATION, line no: 35, 0.62, 0.62, 1.0
 what.getBytes(),METHOD_INVOCATION, line no: 50,input,SIMPLE_NAME, line no: 35, 0.6078431372549019, 0.6078431372549019, 1.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,what.getBytes("UTF-8"),METHOD_INVOCATION, line no: 35, 0.6078431372549019, 0.6078431372549019, 1.0
 what.getBytes(),METHOD_INVOCATION, line no: 50,output,SIMPLE_NAME, line no: 38, 0.6078431372549019, 0.6078431372549019, 1.0
 what,SIMPLE_NAME, line no: 50,"UTF-8",STRING_LITERAL, line no: 35, 0.5961538461538461, 0.5961538461538461, 1.0
 getBytes,SIMPLE_NAME, line no: 50,input,SIMPLE_NAME, line no: 35, 0.5961538461538461, 0.5961538461538461, 1.0

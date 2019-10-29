@@ -3,7 +3,6 @@ p.equals(field),METHOD_INVOCATION, line no: 50,p.matchingPrefix(field),METHOD_IN
 p.equals(field),METHOD_INVOCATION, line no: 50,matchingPrefix,SIMPLE_NAME, line no: 47, 1.0, 1.0, 1.0
 p.equals(field),METHOD_INVOCATION, line no: 50,equals,SIMPLE_NAME, line no: 50, 1.0, 1.0, 1.0
 p.equals(field),METHOD_INVOCATION, line no: 50,p.numSegments() > field.numSegments(),INFIX_EXPRESSION, line no: 53, 1.0, 1.0, 1.0
-p.equals(field),METHOD_INVOCATION, line no: 50,field.numSegments(),METHOD_INVOCATION, line no: 53, 1.0, 1.0, 1.0
 p.equals(field),METHOD_INVOCATION, line no: 50,p.prefix(field.numSegments()).matches(field),METHOD_INVOCATION, line no: 53, 1.0, 1.0, 1.0
 p.equals(field),METHOD_INVOCATION, line no: 50,p.prefix(field.numSegments()),METHOD_INVOCATION, line no: 53, 1.0, 1.0, 1.0
 p.equals(field),METHOD_INVOCATION, line no: 50,matches,SIMPLE_NAME, line no: 53, 1.0, 1.0, 1.0
@@ -24,6 +23,8 @@ field,SIMPLE_NAME, line no: 50,prefix,SIMPLE_NAME, line no: 53, 1.0, 1.0, 1.0
 equals,SIMPLE_NAME, line no: 50,p.equals(field),METHOD_INVOCATION, line no: 50, 0.95, 0.95, 1.0
 equals,SIMPLE_NAME, line no: 50,include,SIMPLE_NAME, line no: 30, 0.9, 0.05, 1.0
 p.equals(field),METHOD_INVOCATION, line no: 50,include,SIMPLE_NAME, line no: 30, 0.8947368421052632, 0.05263157894736842, 1.0
+p.equals(field),METHOD_INVOCATION, line no: 50,recursive && p.numSegments() > field.numSegments() && p.prefix(field.numSegments()).matches(field),INFIX_EXPRESSION, line no: 53, 0.6666666666666666, 1.0, 0.6666666666666666
+p.equals(field),METHOD_INVOCATION, line no: 50,recursive && p.numSegments() > field.numSegments(),INFIX_EXPRESSION, line no: 53, 0.6666666666666666, 1.0, 0.6666666666666666
 p,SIMPLE_NAME, line no: 50,Path,SIMPLE_NAME, line no: 21, 0.55, 0.1, 1.0
 p,SIMPLE_NAME, line no: 50,ctxPath,SIMPLE_NAME, line no: 33, 0.55, 0.05, 1.0
 p,SIMPLE_NAME, line no: 50,field=new Path(ctxPath p.getField()),ASSIGNMENT, line no: 35, 0.55, 0.55, 1.0
@@ -42,10 +43,10 @@ field,SIMPLE_NAME, line no: 50,field=new Path(ctxPath p.getField()),ASSIGNMENT, 
 field,SIMPLE_NAME, line no: 50,new Path(ctxPath p.getField()),CLASS_INSTANCE_CREATION, line no: 35, 0.55, 0.55, 1.0
 field,SIMPLE_NAME, line no: 50,p.getField(),METHOD_INVOCATION, line no: 35, 0.55, 0.55, 1.0
 field,SIMPLE_NAME, line no: 50,getField,SIMPLE_NAME, line no: 35, 0.55, 0.55, 1.0
-p.equals(field),METHOD_INVOCATION, line no: 50,field=new Path(ctxPath p.getField()),ASSIGNMENT, line no: 35, 0.5263157894736842, 0.5263157894736842, 1.0
 p.equals(field),METHOD_INVOCATION, line no: 50,isInclude,SIMPLE_NAME, line no: 36, 0.5263157894736842, 0.5263157894736842, 1.0
 p.equals(field),METHOD_INVOCATION, line no: 50,isRecursive,SIMPLE_NAME, line no: 37, 0.5263157894736842, 0.5263157894736842, 1.0
-p.equals(field),METHOD_INVOCATION, line no: 50,recursive && p.numSegments() > field.numSegments() && p.prefix(field.numSegments()).matches(field),INFIX_EXPRESSION, line no: 53, 0.5, 1.0, 0.5
-p.equals(field),METHOD_INVOCATION, line no: 50,recursive && p.numSegments() > field.numSegments(),INFIX_EXPRESSION, line no: 53, 0.5, 1.0, 0.5
+p.equals(field),METHOD_INVOCATION, line no: 50,p.numSegments(),METHOD_INVOCATION, line no: 53, 0.5, 1.0, 0.5
+p.equals(field),METHOD_INVOCATION, line no: 50,field.numSegments(),METHOD_INVOCATION, line no: 53, 0.5, 1.0, 0.5
+p.equals(field),METHOD_INVOCATION, line no: 50,field=new Path(ctxPath p.getField()),ASSIGNMENT, line no: 35, 0.13157894736842105, 0.5263157894736842, 0.25
 p,SIMPLE_NAME, line no: 50,com.redhat.lightblue.util.Path,QUALIFIED_NAME, line no: 21, 0.05, 0.05, 1.0
 field,SIMPLE_NAME, line no: 50,com.redhat.lightblue.util.Path,QUALIFIED_NAME, line no: 21, 0.05, 0.05, 1.0

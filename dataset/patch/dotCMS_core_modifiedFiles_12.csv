@@ -12,6 +12,8 @@ getPrimaryGroup() + field.getInode(),INFIX_EXPRESSION, line no: 199,inode,SIMPLE
 getPrimaryGroup() + field.getInode(),INFIX_EXPRESSION, line no: 199,getInode,SIMPLE_NAME, line no: 24, 1.0, 1.0, 1.0
 getPrimaryGroup() + field.getInode(),INFIX_EXPRESSION, line no: 199,getPrimaryGroup,SIMPLE_NAME, line no: 25, 1.0, 0.92, 1.0
 getPrimaryGroup() + field.getInode(),INFIX_EXPRESSION, line no: 199,getFieldsVarGroup,SIMPLE_NAME, line no: 145, 1.0, 0.04, 1.0
+getPrimaryGroup() + field.getInode(),INFIX_EXPRESSION, line no: 199,field.getInode(),METHOD_INVOCATION, line no: 172, 1.0, 0.96, 1.0
+getPrimaryGroup() + field.getInode(),INFIX_EXPRESSION, line no: 199,getFieldsVarGroup() + field.getInode(),INFIX_EXPRESSION, line no: 179, 1.0, 0.96, 1.0
 getPrimaryGroup(),METHOD_INVOCATION, line no: 199,inode,SIMPLE_NAME, line no: 24, 1.0, 1.0, 1.0
 getPrimaryGroup(),METHOD_INVOCATION, line no: 199,getInode,SIMPLE_NAME, line no: 24, 1.0, 1.0, 1.0
 getPrimaryGroup(),METHOD_INVOCATION, line no: 199,getPrimaryGroup,SIMPLE_NAME, line no: 25, 1.0, 0.9230769230769231, 1.0
@@ -48,6 +50,8 @@ getPrimaryGroup(),METHOD_INVOCATION, line no: 199,String,SIMPLE_NAME, line no: 2
 getPrimaryGroup(),METHOD_INVOCATION, line no: 199,id,SIMPLE_NAME, line no: 155, 0.9615384615384616, 0.038461538461538464, 1.0
 field.getInode(),METHOD_INVOCATION, line no: 199,String,SIMPLE_NAME, line no: 24, 0.9615384615384616, 0.9615384615384616, 1.0
 field.getInode(),METHOD_INVOCATION, line no: 199,id,SIMPLE_NAME, line no: 155, 0.9615384615384616, 0.038461538461538464, 1.0
+field.getInode(),METHOD_INVOCATION, line no: 199,getFieldsVarGroup() + field.getInode(),INFIX_EXPRESSION, line no: 179, 0.9615384615384616, 0.9230769230769231, 1.0
+field.getInode(),METHOD_INVOCATION, line no: 199,getPrimaryGroup() + field.getInode(),INFIX_EXPRESSION, line no: 199, 0.9615384615384616, 0.9615384615384616, 1.0
 String,SIMPLE_NAME, line no: 199,inode,SIMPLE_NAME, line no: 24, 0.96, 0.96, 1.0
 String,SIMPLE_NAME, line no: 199,st.getInode(),METHOD_INVOCATION, line no: 24, 0.96, 0.96, 1.0
 String,SIMPLE_NAME, line no: 199,getInode,SIMPLE_NAME, line no: 24, 0.96, 0.96, 1.0
@@ -87,6 +91,7 @@ getPrimaryGroup(),METHOD_INVOCATION, line no: 199,velocityVarName,SIMPLE_NAME, l
 getPrimaryGroup(),METHOD_INVOCATION, line no: 199,key,SIMPLE_NAME, line no: 179, 0.9230769230769231, 0.8846153846153846, 1.0
 field.getInode(),METHOD_INVOCATION, line no: 199,getVelocityVarName,SIMPLE_NAME, line no: 26, 0.9230769230769231, 0.9230769230769231, 1.0
 field.getInode(),METHOD_INVOCATION, line no: 199,velocityVarName,SIMPLE_NAME, line no: 66, 0.9230769230769231, 0.038461538461538464, 1.0
+field.getInode(),METHOD_INVOCATION, line no: 199,field == null,INFIX_EXPRESSION, line no: 163, 0.9230769230769231, 0.9230769230769231, 1.0
 field.getInode(),METHOD_INVOCATION, line no: 199,key,SIMPLE_NAME, line no: 179, 0.9230769230769231, 0.8846153846153846, 1.0
 String,SIMPLE_NAME, line no: 199,getPrimaryGroup() + inode,INFIX_EXPRESSION, line no: 25, 0.92, 0.92, 1.0
 String,SIMPLE_NAME, line no: 199,getPrimaryGroup(),METHOD_INVOCATION, line no: 25, 0.92, 0.92, 1.0
@@ -103,17 +108,20 @@ key,SIMPLE_NAME, line no: 199,getVelocityVarName,SIMPLE_NAME, line no: 26, 0.92,
 key,SIMPLE_NAME, line no: 199,getPrimaryGroup() + id,INFIX_EXPRESSION, line no: 159, 0.92, 0.52, 1.0
 getPrimaryGroup() + field.getInode(),INFIX_EXPRESSION, line no: 199,getVelocityVarName,SIMPLE_NAME, line no: 26, 0.92, 0.92, 1.0
 getPrimaryGroup() + field.getInode(),INFIX_EXPRESSION, line no: 199,velocityVarName,SIMPLE_NAME, line no: 66, 0.92, 0.04, 1.0
+getPrimaryGroup() + field.getInode(),INFIX_EXPRESSION, line no: 199,field == null,INFIX_EXPRESSION, line no: 163, 0.92, 0.92, 1.0
 getPrimaryGroup,SIMPLE_NAME, line no: 199,velocityVarName.intern(),METHOD_INVOCATION, line no: 75, 0.8888888888888888, 0.8888888888888888, 1.0
 getPrimaryGroup,SIMPLE_NAME, line no: 199,intern,SIMPLE_NAME, line no: 75, 0.8888888888888888, 0.8888888888888888, 1.0
 getInode,SIMPLE_NAME, line no: 199,velocityVarName.intern(),METHOD_INVOCATION, line no: 75, 0.8888888888888888, 0.8888888888888888, 1.0
 getInode,SIMPLE_NAME, line no: 199,intern,SIMPLE_NAME, line no: 75, 0.8888888888888888, 0.8888888888888888, 1.0
 getPrimaryGroup(),METHOD_INVOCATION, line no: 199,intern,SIMPLE_NAME, line no: 75, 0.8846153846153846, 0.8846153846153846, 1.0
 field.getInode(),METHOD_INVOCATION, line no: 199,intern,SIMPLE_NAME, line no: 75, 0.8846153846153846, 0.8846153846153846, 1.0
+field.getInode(),METHOD_INVOCATION, line no: 199,removeFieldVariables(field),METHOD_INVOCATION, line no: 174, 0.8846153846153846, 0.8846153846153846, 1.0
 String,SIMPLE_NAME, line no: 199,velocityVarName.intern(),METHOD_INVOCATION, line no: 75, 0.88, 0.88, 1.0
 String,SIMPLE_NAME, line no: 199,intern,SIMPLE_NAME, line no: 75, 0.88, 0.88, 1.0
 key,SIMPLE_NAME, line no: 199,velocityVarName.intern(),METHOD_INVOCATION, line no: 75, 0.88, 0.88, 1.0
 key,SIMPLE_NAME, line no: 199,intern,SIMPLE_NAME, line no: 75, 0.88, 0.88, 1.0
 getPrimaryGroup() + field.getInode(),INFIX_EXPRESSION, line no: 199,intern,SIMPLE_NAME, line no: 75, 0.88, 0.88, 1.0
+getPrimaryGroup() + field.getInode(),INFIX_EXPRESSION, line no: 199,removeFieldVariables(field),METHOD_INVOCATION, line no: 174, 0.88, 0.88, 1.0
 String,SIMPLE_NAME, line no: 199,getPrimaryGroup() + velocityVarName,INFIX_EXPRESSION, line no: 70, 0.56, 0.56, 1.0
 key,SIMPLE_NAME, line no: 199,getPrimaryGroup() + velocityVarName,INFIX_EXPRESSION, line no: 70, 0.56, 0.56, 1.0
 getPrimaryGroup,SIMPLE_NAME, line no: 199,getPrimaryGroup() + velocityVarName,INFIX_EXPRESSION, line no: 70, 0.5555555555555556, 0.5555555555555556, 1.0
@@ -121,10 +129,19 @@ getInode,SIMPLE_NAME, line no: 199,getPrimaryGroup() + velocityVarName,INFIX_EXP
 field,SIMPLE_NAME, line no: 199,field=(Field)cache.get(getPrimaryGroup() + id getPrimaryGroup()),ASSIGNMENT, line no: 159, 0.4444444444444444, 0.4444444444444444, 1.0
 field,SIMPLE_NAME, line no: 199,(Field)cache.get(getPrimaryGroup() + id getPrimaryGroup()),CAST_EXPRESSION, line no: 159, 0.4444444444444444, 0.4444444444444444, 1.0
 field,SIMPLE_NAME, line no: 199,getFieldByInode,SIMPLE_NAME, line no: 164, 0.4074074074074074, 0.4074074074074074, 1.0
+getPrimaryGroup() + field.getInode(),INFIX_EXPRESSION, line no: 199,addField(field),METHOD_INVOCATION, line no: 165, 0.4, 0.4, 1.0
+field.getInode(),METHOD_INVOCATION, line no: 199,addField(field),METHOD_INVOCATION, line no: 165, 0.38461538461538464, 0.38461538461538464, 1.0
 field,SIMPLE_NAME, line no: 199,FieldFactory.getFieldByInode(id),METHOD_INVOCATION, line no: 164, 0.37037037037037035, 0.37037037037037035, 1.0
 field,SIMPLE_NAME, line no: 199,field=FieldFactory.getFieldByInode(id),ASSIGNMENT, line no: 164, 0.3333333333333333, 0.3333333333333333, 1.0
 String,SIMPLE_NAME, line no: 199,"Cache Entry not found",STRING_LITERAL, line no: 35, 0.28, 0.28, 1.0
 key,SIMPLE_NAME, line no: 199,"Cache Entry not found",STRING_LITERAL, line no: 35, 0.28, 0.28, 1.0
+getPrimaryGroup() + field.getInode(),INFIX_EXPRESSION, line no: 199,"Cache Entry not found",STRING_LITERAL, line no: 35, 0.28, 0.28, 1.0
+getPrimaryGroup(),METHOD_INVOCATION, line no: 199,"Cache Entry not found",STRING_LITERAL, line no: 35, 0.2692307692307692, 0.2692307692307692, 1.0
+field.getInode(),METHOD_INVOCATION, line no: 199,"Cache Entry not found",STRING_LITERAL, line no: 35, 0.2692307692307692, 0.2692307692307692, 1.0
 getPrimaryGroup,SIMPLE_NAME, line no: 199,"Cache Entry not found",STRING_LITERAL, line no: 35, 0.25925925925925924, 0.25925925925925924, 1.0
 getInode,SIMPLE_NAME, line no: 199,"Cache Entry not found",STRING_LITERAL, line no: 35, 0.25925925925925924, 0.25925925925925924, 1.0
+getPrimaryGroup() + field.getInode(),INFIX_EXPRESSION, line no: 199,field=FieldFactory.getFieldByInode(id),ASSIGNMENT, line no: 164, 0.18, 0.36, 0.5
+field.getInode(),METHOD_INVOCATION, line no: 199,field=FieldFactory.getFieldByInode(id),ASSIGNMENT, line no: 164, 0.17307692307692307, 0.34615384615384615, 0.5
+getPrimaryGroup() + field.getInode(),INFIX_EXPRESSION, line no: 199,field=(Field)cache.get(getPrimaryGroup() + id getPrimaryGroup()),ASSIGNMENT, line no: 159, 0.15999999999999998, 0.48, 0.3333333333333333
+field.getInode(),METHOD_INVOCATION, line no: 199,field=(Field)cache.get(getPrimaryGroup() + id getPrimaryGroup()),ASSIGNMENT, line no: 159, 0.15384615384615385, 0.46153846153846156, 0.3333333333333333
 field,SIMPLE_NAME, line no: 199,getField,SIMPLE_NAME, line no: 155, 0.037037037037037035, 0.037037037037037035, 1.0

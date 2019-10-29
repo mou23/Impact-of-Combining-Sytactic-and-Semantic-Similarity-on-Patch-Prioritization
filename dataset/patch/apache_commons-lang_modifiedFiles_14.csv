@@ -68,8 +68,31 @@ cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,equals,SIMP
 contains,SIMPLE_NAME, line no: 223,list.add(defaultLocale),METHOD_INVOCATION, line no: 175, 0.625, 0.625, 1.0
 contains,SIMPLE_NAME, line no: 223,langs.add(locale),METHOD_INVOCATION, line no: 246, 0.625, 0.625, 1.0
 contains,SIMPLE_NAME, line no: 223,countries.add(locale),METHOD_INVOCATION, line no: 279, 0.625, 0.625, 1.0
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,localeLookupList(locale locale),METHOD_INVOCATION, line no: 143, 0.5, 1.0, 0.5
 locale,SIMPLE_NAME, line no: 223,new Locale(str ""),CLASS_INSTANCE_CREATION, line no: 108, 0.5, 0.5, 1.0
-cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,cAvailableLocaleSet=set,ASSIGNMENT, line no: 210, 0.35714285714285715, 0.7142857142857143, 0.5
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,locale != null,INFIX_EXPRESSION, line no: 166, 0.42857142857142855, 0.8571428571428571, 0.5
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,locale.getVariant().length() > 0,INFIX_EXPRESSION, line no: 168, 0.35714285714285715, 0.7142857142857143, 0.5
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,locale.getVariant().length(),METHOD_INVOCATION, line no: 168, 0.35714285714285715, 0.7142857142857143, 0.5
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,locale.getVariant(),METHOD_INVOCATION, line no: 168, 0.35714285714285715, 0.7142857142857143, 0.5
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,new Locale(locale.getLanguage() locale.getCountry()),CLASS_INSTANCE_CREATION, line no: 169, 0.35714285714285715, 0.7142857142857143, 0.5
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,locale.getLanguage(),METHOD_INVOCATION, line no: 169, 0.35714285714285715, 0.7142857142857143, 0.5
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,locale.getCountry(),METHOD_INVOCATION, line no: 169, 0.35714285714285715, 0.7142857142857143, 0.5
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,locale.getCountry().length() > 0,INFIX_EXPRESSION, line no: 171, 0.35714285714285715, 0.7142857142857143, 0.5
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,locale.getCountry().length(),METHOD_INVOCATION, line no: 171, 0.35714285714285715, 0.7142857142857143, 0.5
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,new Locale(locale.getLanguage() ""),CLASS_INSTANCE_CREATION, line no: 172, 0.35714285714285715, 0.7142857142857143, 0.5
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,locale.getVariant().length() == 0,INFIX_EXPRESSION, line no: 245, 0.35714285714285715, 0.7142857142857143, 0.5
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,locale.getCountry().length() != 0,INFIX_EXPRESSION, line no: 277, 0.35714285714285715, 0.7142857142857143, 0.5
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,list.add(locale),METHOD_INVOCATION, line no: 167, 0.23809523809523808, 0.7142857142857143, 0.3333333333333333
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,list.add(new Locale(locale.getLanguage() locale.getCountry())),METHOD_INVOCATION, line no: 169, 0.23809523809523808, 0.7142857142857143, 0.3333333333333333
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,list.add(new Locale(locale.getLanguage() "")),METHOD_INVOCATION, line no: 172, 0.23809523809523808, 0.7142857142857143, 0.3333333333333333
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,cAvailableLocaleSet=set,ASSIGNMENT, line no: 210, 0.23809523809523808, 0.7142857142857143, 0.3333333333333333
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,countryCode.equals(locale.getCountry()) && locale.getVariant().length() == 0,INFIX_EXPRESSION, line no: 244, 0.23809523809523808, 0.7142857142857143, 0.3333333333333333
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,countryCode.equals(locale.getCountry()),METHOD_INVOCATION, line no: 244, 0.23809523809523808, 0.7142857142857143, 0.3333333333333333
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,langs.add(locale),METHOD_INVOCATION, line no: 246, 0.23809523809523808, 0.7142857142857143, 0.3333333333333333
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,languageCode.equals(locale.getLanguage()) && locale.getCountry().length() != 0 && locale.getVariant().length() == 0,INFIX_EXPRESSION, line no: 276, 0.23809523809523808, 0.7142857142857143, 0.3333333333333333
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,languageCode.equals(locale.getLanguage()) && locale.getCountry().length() != 0,INFIX_EXPRESSION, line no: 276, 0.23809523809523808, 0.7142857142857143, 0.3333333333333333
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,languageCode.equals(locale.getLanguage()),METHOD_INVOCATION, line no: 276, 0.23809523809523808, 0.7142857142857143, 0.3333333333333333
+cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,countries.add(locale),METHOD_INVOCATION, line no: 279, 0.23809523809523808, 0.7142857142857143, 0.3333333333333333
 cAvailableLocaleSet.contains(locale),METHOD_INVOCATION, line no: 223,isAvailableLocale,SIMPLE_NAME, line no: 222, 0.14285714285714285, 0.14285714285714285, 1.0
 cAvailableLocaleSet,SIMPLE_NAME, line no: 223,availableLocaleSet,SIMPLE_NAME, line no: 205, 0.125, 0.125, 1.0
 contains,SIMPLE_NAME, line no: 223,isAvailableLocale,SIMPLE_NAME, line no: 222, 0.125, 0.125, 1.0

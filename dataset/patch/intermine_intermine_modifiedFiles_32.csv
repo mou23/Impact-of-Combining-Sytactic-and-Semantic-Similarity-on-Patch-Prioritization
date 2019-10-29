@@ -26,13 +26,20 @@ objC.value.charAt(value.length() - 1),METHOD_INVOCATION, line no: 74,objC.value.
 objC.value,QUALIFIED_NAME, line no: 74,value,SIMPLE_NAME, line no: 11, 1.0, 0.006369426751592357, 1.0
 value.length() - 1,INFIX_EXPRESSION, line no: 74,value.length(),METHOD_INVOCATION, line no: 72, 1.0, 1.0, 1.0
 value.length() - 1,INFIX_EXPRESSION, line no: 74,length,SIMPLE_NAME, line no: 72, 1.0, 1.0, 1.0
+value.length() - 1,INFIX_EXPRESSION, line no: 74,1,NUMBER_LITERAL, line no: 72, 1.0, 1.0, 1.0
 value.length(),METHOD_INVOCATION, line no: 74,length,SIMPLE_NAME, line no: 72, 1.0, 1.0, 1.0
 value,SIMPLE_NAME, line no: 74,objC.value,QUALIFIED_NAME, line no: 73, 0.9937106918238994, 0.9811320754716981, 1.0
 length,SIMPLE_NAME, line no: 74,value.length(),METHOD_INVOCATION, line no: 72, 0.9937106918238994, 0.9937106918238994, 1.0
 length,SIMPLE_NAME, line no: 74,objC.value.length(),METHOD_INVOCATION, line no: 93, 0.9937106918238994, 0.9937106918238994, 1.0
 value,SIMPLE_NAME, line no: 74,objC.value,QUALIFIED_NAME, line no: 73, 0.9936708860759493, 0.9936708860759493, 1.0
 value.length(),METHOD_INVOCATION, line no: 74,value.length() - 1,INFIX_EXPRESSION, line no: 72, 0.9936708860759493, 0.9936708860759493, 1.0
+value.length(),METHOD_INVOCATION, line no: 74,1,NUMBER_LITERAL, line no: 72, 0.9936708860759493, 0.9936708860759493, 1.0
+1,NUMBER_LITERAL, line no: 74,0,NUMBER_LITERAL, line no: 72, 0.9936708860759493, 0.9936708860759493, 1.0
+1,NUMBER_LITERAL, line no: 74,value.length() - 1,INFIX_EXPRESSION, line no: 72, 0.9936708860759493, 0.9936708860759493, 1.0
+1,NUMBER_LITERAL, line no: 74,value.length(),METHOD_INVOCATION, line no: 72, 0.9936708860759493, 0.9936708860759493, 1.0
 1,NUMBER_LITERAL, line no: 74,length,SIMPLE_NAME, line no: 72, 0.9936708860759493, 0.9936708860759493, 1.0
+1,NUMBER_LITERAL, line no: 74,objC.value.length() - 1,INFIX_EXPRESSION, line no: 93, 0.9936708860759493, 0.9936708860759493, 1.0
+1,NUMBER_LITERAL, line no: 74,objC.value.length(),METHOD_INVOCATION, line no: 93, 0.9936708860759493, 0.9936708860759493, 1.0
 objC.value,QUALIFIED_NAME, line no: 74,objC.value.charAt(0),METHOD_INVOCATION, line no: 73, 0.9936305732484076, 0.9936305732484076, 1.0
 objC.value,QUALIFIED_NAME, line no: 74,objC.value.charAt(value.length() - 1),METHOD_INVOCATION, line no: 74, 0.9936305732484076, 0.9936305732484076, 1.0
 objC.value,QUALIFIED_NAME, line no: 74,objC.value.charAt(objC.value.length() - 1),METHOD_INVOCATION, line no: 93, 0.9936305732484076, 0.9936305732484076, 1.0
@@ -44,11 +51,18 @@ charAt,SIMPLE_NAME, line no: 74,objC.value.charAt(0),METHOD_INVOCATION, line no:
 charAt,SIMPLE_NAME, line no: 74,objC.value.charAt(value.length() - 1),METHOD_INVOCATION, line no: 74, 0.9936305732484076, 0.9936305732484076, 1.0
 charAt,SIMPLE_NAME, line no: 74,objC.value.charAt(objC.value.length() - 1),METHOD_INVOCATION, line no: 93, 0.9936305732484076, 0.9936305732484076, 1.0
 value.length() - 1,INFIX_EXPRESSION, line no: 74,value.charAt(0),METHOD_INVOCATION, line no: 72, 0.9936305732484076, 0.9936305732484076, 1.0
+value.length() - 1,INFIX_EXPRESSION, line no: 74,0,NUMBER_LITERAL, line no: 72, 0.9936305732484076, 0.9936305732484076, 1.0
 value.length() - 1,INFIX_EXPRESSION, line no: 74,value.charAt(value.length() - 1),METHOD_INVOCATION, line no: 72, 0.9936305732484076, 0.9936305732484076, 1.0
+objC.value.charAt(value.length() - 1),METHOD_INVOCATION, line no: 74,'\'',CHARACTER_LITERAL, line no: 72, 0.9935897435897436, 0.9935897435897436, 1.0
 objC.value.charAt(value.length() - 1),METHOD_INVOCATION, line no: 74,objC.value.charAt(0) == '\'',INFIX_EXPRESSION, line no: 73, 0.9935897435897436, 0.9935897435897436, 1.0
 objC.value.charAt(value.length() - 1),METHOD_INVOCATION, line no: 74,objC.value.charAt(value.length() - 1) == '\'',INFIX_EXPRESSION, line no: 74, 0.9935897435897436, 0.9935897435897436, 1.0
 objC.value.charAt(value.length() - 1),METHOD_INVOCATION, line no: 74,objC.value.charAt(objC.value.length() - 1) == '\'',INFIX_EXPRESSION, line no: 93, 0.9935897435897436, 0.9935897435897436, 1.0
+'\'',CHARACTER_LITERAL, line no: 74,value.charAt(0),METHOD_INVOCATION, line no: 72, 0.9935897435897436, 0.9935897435897436, 1.0
 '\'',CHARACTER_LITERAL, line no: 74,charAt,SIMPLE_NAME, line no: 72, 0.9935897435897436, 0.9935897435897436, 1.0
+'\'',CHARACTER_LITERAL, line no: 74,value.charAt(value.length() - 1),METHOD_INVOCATION, line no: 72, 0.9935897435897436, 0.9935897435897436, 1.0
+'\'',CHARACTER_LITERAL, line no: 74,objC.value.charAt(0),METHOD_INVOCATION, line no: 73, 0.9935897435897436, 0.9935897435897436, 1.0
+'\'',CHARACTER_LITERAL, line no: 74,objC.value.charAt(value.length() - 1),METHOD_INVOCATION, line no: 74, 0.9935897435897436, 0.9935897435897436, 1.0
+'\'',CHARACTER_LITERAL, line no: 74,objC.value.charAt(objC.value.length() - 1),METHOD_INVOCATION, line no: 93, 0.9935897435897436, 0.9935897435897436, 1.0
 objC.value.charAt(value.length() - 1) == '\'',INFIX_EXPRESSION, line no: 74,(objC.value.charAt(0) == '\''),PARENTHESIZED_EXPRESSION, line no: 73, 0.9935483870967742, 0.9935483870967742, 1.0
 objC.value.charAt(value.length() - 1) == '\'',INFIX_EXPRESSION, line no: 74,(objC.value.charAt(value.length() - 1) == '\''),PARENTHESIZED_EXPRESSION, line no: 74, 0.9935483870967742, 0.9935483870967742, 1.0
 objC.value.charAt(value.length() - 1) == '\'',INFIX_EXPRESSION, line no: 74,(objC.value.charAt(objC.value.length() - 1) == '\''),PARENTHESIZED_EXPRESSION, line no: 93, 0.9935483870967742, 0.9935483870967742, 1.0
@@ -58,6 +72,7 @@ length,SIMPLE_NAME, line no: 74,value.length() - 1,INFIX_EXPRESSION, line no: 72
 length,SIMPLE_NAME, line no: 74,1,NUMBER_LITERAL, line no: 72, 0.9874213836477987, 0.9874213836477987, 1.0
 length,SIMPLE_NAME, line no: 74,objC.value.length() - 1,INFIX_EXPRESSION, line no: 93, 0.9874213836477987, 0.9874213836477987, 1.0
 value.length(),METHOD_INVOCATION, line no: 74,value.charAt(0),METHOD_INVOCATION, line no: 72, 0.9873417721518988, 0.9873417721518988, 1.0
+value.length(),METHOD_INVOCATION, line no: 74,0,NUMBER_LITERAL, line no: 72, 0.9873417721518988, 0.9873417721518988, 1.0
 value.length(),METHOD_INVOCATION, line no: 74,value.charAt(value.length() - 1),METHOD_INVOCATION, line no: 72, 0.9873417721518988, 0.9873417721518988, 1.0
 objC.value,QUALIFIED_NAME, line no: 74,objC.value.charAt(0) == '\'',INFIX_EXPRESSION, line no: 73, 0.9872611464968153, 0.9872611464968153, 1.0
 objC.value,QUALIFIED_NAME, line no: 74,objC.value.charAt(value.length() - 1) == '\'',INFIX_EXPRESSION, line no: 74, 0.9872611464968153, 0.9872611464968153, 1.0
@@ -180,6 +195,7 @@ objC.value.charAt(value.length() - 1),METHOD_INVOCATION, line no: 74,value.compa
 objC.value.charAt(value.length() - 1),METHOD_INVOCATION, line no: 74,(Double.parseDouble(value) < Double.parseDouble(objC.value) ? LESS : GREATER),PARENTHESIZED_EXPRESSION, line no: 79, 0.1282051282051282, 0.1282051282051282, 1.0
 objC.value,QUALIFIED_NAME, line no: 74,value.compareTo(objC.value),METHOD_INVOCATION, line no: 76, 0.12738853503184713, 0.12738853503184713, 1.0
 objC.value,QUALIFIED_NAME, line no: 74,(Double.parseDouble(value) < Double.parseDouble(objC.value) ? LESS : GREATER),PARENTHESIZED_EXPRESSION, line no: 79, 0.12738853503184713, 0.12738853503184713, 1.0
+1,NUMBER_LITERAL, line no: 74,value.compareTo(objC.value),METHOD_INVOCATION, line no: 76, 0.12658227848101267, 0.12658227848101267, 1.0
 length,SIMPLE_NAME, line no: 74,value.compareTo(objC.value),METHOD_INVOCATION, line no: 76, 0.12578616352201258, 0.12578616352201258, 1.0
 (objC.value.charAt(value.length() - 1) == '\''),PARENTHESIZED_EXPRESSION, line no: 74,value.compareTo(objC.value) < 0,INFIX_EXPRESSION, line no: 76, 0.12337662337662338, 0.12337662337662338, 1.0
 objC.value.charAt(value.length() - 1) == '\'',INFIX_EXPRESSION, line no: 74,value.compareTo(objC.value) < 0,INFIX_EXPRESSION, line no: 76, 0.12258064516129032, 0.12258064516129032, 1.0
@@ -214,7 +230,9 @@ value.length(),METHOD_INVOCATION, line no: 74,value.compareTo(objC.value),METHOD
 value.length(),METHOD_INVOCATION, line no: 74,(Double.parseDouble(value) < Double.parseDouble(objC.value) ? LESS : GREATER),PARENTHESIZED_EXPRESSION, line no: 79, 0.06329113924050633, 0.12658227848101267, 0.5
 value.length() - 1,INFIX_EXPRESSION, line no: 74,value.compareTo(objC.value) < 0,INFIX_EXPRESSION, line no: 76, 0.06050955414012739, 0.12101910828025478, 0.5
 value.length(),METHOD_INVOCATION, line no: 74,value.compareTo(objC.value) < 0,INFIX_EXPRESSION, line no: 76, 0.060126582278481014, 0.12025316455696203, 0.5
+value.length() - 1,INFIX_EXPRESSION, line no: 74,value == null,INFIX_EXPRESSION, line no: 20, 0.05732484076433121, 0.05732484076433121, 1.0
 value.length() - 1,INFIX_EXPRESSION, line no: 74,value.compareTo(objC.value) < 0 ? LESS : GREATER,CONDITIONAL_EXPRESSION, line no: 76, 0.05732484076433121, 0.11464968152866242, 0.5
+value.length(),METHOD_INVOCATION, line no: 74,value == null,INFIX_EXPRESSION, line no: 20, 0.056962025316455694, 0.056962025316455694, 1.0
 value.length(),METHOD_INVOCATION, line no: 74,value.compareTo(objC.value) < 0 ? LESS : GREATER,CONDITIONAL_EXPRESSION, line no: 76, 0.056962025316455694, 0.11392405063291139, 0.5
 value.length() - 1,INFIX_EXPRESSION, line no: 74,objConstant.value,QUALIFIED_NAME, line no: 45, 0.054140127388535034, 0.10828025477707007, 0.5
 value.length() - 1,INFIX_EXPRESSION, line no: 74,(value.compareTo(objC.value) < 0 ? LESS : GREATER),PARENTHESIZED_EXPRESSION, line no: 76, 0.054140127388535034, 0.10828025477707007, 0.5
@@ -222,13 +240,11 @@ value.length(),METHOD_INVOCATION, line no: 74,objConstant.value,QUALIFIED_NAME, 
 value.length(),METHOD_INVOCATION, line no: 74,(value.compareTo(objC.value) < 0 ? LESS : GREATER),PARENTHESIZED_EXPRESSION, line no: 76, 0.05379746835443038, 0.10759493670886076, 0.5
 value.length() - 1,INFIX_EXPRESSION, line no: 74,value.equals(objConstant.value),METHOD_INVOCATION, line no: 45, 0.050955414012738856, 0.10191082802547771, 0.5
 value.length(),METHOD_INVOCATION, line no: 74,value.equals(objConstant.value),METHOD_INVOCATION, line no: 45, 0.05063291139240506, 0.10126582278481013, 0.5
-value.length() - 1,INFIX_EXPRESSION, line no: 74,this.value=value,ASSIGNMENT, line no: 23, 0.044585987261146494, 0.044585987261146494, 1.0
 value.length() - 1,INFIX_EXPRESSION, line no: 74,this.value,FIELD_ACCESS, line no: 23, 0.044585987261146494, 0.044585987261146494, 1.0
 value.length() - 1,INFIX_EXPRESSION, line no: 74,hashCode,SIMPLE_NAME, line no: 55, 0.044585987261146494, 0.006369426751592357, 1.0
 objC,SIMPLE_NAME, line no: 74,this,THIS_EXPRESSION, line no: 23, 0.04430379746835443, 0.04430379746835443, 1.0
 value,SIMPLE_NAME, line no: 74,this.value=value,ASSIGNMENT, line no: 23, 0.04430379746835443, 0.04430379746835443, 1.0
 value,SIMPLE_NAME, line no: 74,this.value,FIELD_ACCESS, line no: 23, 0.04430379746835443, 0.04430379746835443, 1.0
-value.length(),METHOD_INVOCATION, line no: 74,this.value=value,ASSIGNMENT, line no: 23, 0.04430379746835443, 0.04430379746835443, 1.0
 value.length(),METHOD_INVOCATION, line no: 74,this.value,FIELD_ACCESS, line no: 23, 0.04430379746835443, 0.04430379746835443, 1.0
 value.length(),METHOD_INVOCATION, line no: 74,hashCode,SIMPLE_NAME, line no: 55, 0.04430379746835443, 0.006329113924050633, 1.0
 1,NUMBER_LITERAL, line no: 74,hashCode,SIMPLE_NAME, line no: 55, 0.04430379746835443, 0.006329113924050633, 1.0
@@ -237,6 +253,7 @@ value,SIMPLE_NAME, line no: 74,this.value,FIELD_ACCESS, line no: 23, 0.044025157
 length,SIMPLE_NAME, line no: 74,hashCode,SIMPLE_NAME, line no: 55, 0.0440251572327044, 0.006289308176100629, 1.0
 value.length() - 1,INFIX_EXPRESSION, line no: 74,value.hashCode(),METHOD_INVOCATION, line no: 56, 0.03821656050955414, 0.03821656050955414, 1.0
 value.length(),METHOD_INVOCATION, line no: 74,value.hashCode(),METHOD_INVOCATION, line no: 56, 0.0379746835443038, 0.0379746835443038, 1.0
+1,NUMBER_LITERAL, line no: 74,value.hashCode(),METHOD_INVOCATION, line no: 56, 0.0379746835443038, 0.0379746835443038, 1.0
 length,SIMPLE_NAME, line no: 74,value.hashCode(),METHOD_INVOCATION, line no: 56, 0.03773584905660377, 0.03773584905660377, 1.0
 (objC.value.charAt(value.length() - 1) == '\''),PARENTHESIZED_EXPRESSION, line no: 74,objConstant.value,QUALIFIED_NAME, line no: 45, 0.03679653679653679, 0.11038961038961038, 0.3333333333333333
 objC.value.charAt(value.length() - 1) == '\'',INFIX_EXPRESSION, line no: 74,objConstant.value,QUALIFIED_NAME, line no: 45, 0.03655913978494624, 0.10967741935483871, 0.3333333333333333
@@ -246,20 +263,27 @@ objC.value,QUALIFIED_NAME, line no: 74,objConstant.value,QUALIFIED_NAME, line no
 objC.value.charAt(value.length() - 1) == '\'',INFIX_EXPRESSION, line no: 74,value.equals(objConstant.value),METHOD_INVOCATION, line no: 45, 0.034408602150537634, 0.1032258064516129, 0.3333333333333333
 objC.value.charAt(value.length() - 1),METHOD_INVOCATION, line no: 74,value.equals(objConstant.value),METHOD_INVOCATION, line no: 45, 0.034188034188034185, 0.10256410256410256, 0.3333333333333333
 objC.value,QUALIFIED_NAME, line no: 74,value.equals(objConstant.value),METHOD_INVOCATION, line no: 45, 0.03397027600849257, 0.10191082802547771, 0.3333333333333333
+(objC.value.charAt(value.length() - 1) == '\''),PARENTHESIZED_EXPRESSION, line no: 74,value == null,INFIX_EXPRESSION, line no: 20, 0.02922077922077922, 0.05844155844155844, 0.5
+objC.value.charAt(value.length() - 1) == '\'',INFIX_EXPRESSION, line no: 74,value == null,INFIX_EXPRESSION, line no: 20, 0.02903225806451613, 0.05806451612903226, 0.5
+objC.value.charAt(value.length() - 1),METHOD_INVOCATION, line no: 74,value == null,INFIX_EXPRESSION, line no: 20, 0.028846153846153848, 0.057692307692307696, 0.5
+objC.value,QUALIFIED_NAME, line no: 74,value == null,INFIX_EXPRESSION, line no: 20, 0.028662420382165606, 0.05732484076433121, 0.5
+objC.value,QUALIFIED_NAME, line no: 74,"Constants cannot have a null value",STRING_LITERAL, line no: 21, 0.025477707006369428, 0.025477707006369428, 1.0
 value,SIMPLE_NAME, line no: 74,"Constants cannot have a null value",STRING_LITERAL, line no: 21, 0.02531645569620253, 0.02531645569620253, 1.0
 value,SIMPLE_NAME, line no: 74,"Constants cannot have a null value",STRING_LITERAL, line no: 21, 0.025157232704402517, 0.025157232704402517, 1.0
-(objC.value.charAt(value.length() - 1) == '\''),PARENTHESIZED_EXPRESSION, line no: 74,this.value=value,ASSIGNMENT, line no: 23, 0.022727272727272728, 0.045454545454545456, 0.5
 (objC.value.charAt(value.length() - 1) == '\''),PARENTHESIZED_EXPRESSION, line no: 74,this.value,FIELD_ACCESS, line no: 23, 0.022727272727272728, 0.045454545454545456, 0.5
-objC.value.charAt(value.length() - 1) == '\'',INFIX_EXPRESSION, line no: 74,this.value=value,ASSIGNMENT, line no: 23, 0.02258064516129032, 0.04516129032258064, 0.5
 objC.value.charAt(value.length() - 1) == '\'',INFIX_EXPRESSION, line no: 74,this.value,FIELD_ACCESS, line no: 23, 0.02258064516129032, 0.04516129032258064, 0.5
-objC.value.charAt(value.length() - 1),METHOD_INVOCATION, line no: 74,this.value=value,ASSIGNMENT, line no: 23, 0.022435897435897436, 0.04487179487179487, 0.5
 objC.value.charAt(value.length() - 1),METHOD_INVOCATION, line no: 74,this.value,FIELD_ACCESS, line no: 23, 0.022435897435897436, 0.04487179487179487, 0.5
-objC.value,QUALIFIED_NAME, line no: 74,this.value=value,ASSIGNMENT, line no: 23, 0.022292993630573247, 0.044585987261146494, 0.5
 objC.value,QUALIFIED_NAME, line no: 74,this.value,FIELD_ACCESS, line no: 23, 0.022292993630573247, 0.044585987261146494, 0.5
+value.length() - 1,INFIX_EXPRESSION, line no: 74,this.value=value,ASSIGNMENT, line no: 23, 0.022292993630573247, 0.044585987261146494, 0.5
+value.length(),METHOD_INVOCATION, line no: 74,this.value=value,ASSIGNMENT, line no: 23, 0.022151898734177215, 0.04430379746835443, 0.5
 (objC.value.charAt(value.length() - 1) == '\''),PARENTHESIZED_EXPRESSION, line no: 74,value.hashCode(),METHOD_INVOCATION, line no: 56, 0.01948051948051948, 0.03896103896103896, 0.5
 objC.value.charAt(value.length() - 1) == '\'',INFIX_EXPRESSION, line no: 74,value.hashCode(),METHOD_INVOCATION, line no: 56, 0.01935483870967742, 0.03870967741935484, 0.5
 objC.value.charAt(value.length() - 1),METHOD_INVOCATION, line no: 74,value.hashCode(),METHOD_INVOCATION, line no: 56, 0.019230769230769232, 0.038461538461538464, 0.5
 objC.value,QUALIFIED_NAME, line no: 74,value.hashCode(),METHOD_INVOCATION, line no: 56, 0.01910828025477707, 0.03821656050955414, 0.5
+(objC.value.charAt(value.length() - 1) == '\''),PARENTHESIZED_EXPRESSION, line no: 74,this.value=value,ASSIGNMENT, line no: 23, 0.015151515151515152, 0.045454545454545456, 0.3333333333333333
+objC.value.charAt(value.length() - 1) == '\'',INFIX_EXPRESSION, line no: 74,this.value=value,ASSIGNMENT, line no: 23, 0.015053763440860214, 0.04516129032258064, 0.3333333333333333
+objC.value.charAt(value.length() - 1),METHOD_INVOCATION, line no: 74,this.value=value,ASSIGNMENT, line no: 23, 0.014957264957264956, 0.04487179487179487, 0.3333333333333333
+objC.value,QUALIFIED_NAME, line no: 74,this.value=value,ASSIGNMENT, line no: 23, 0.014861995753715497, 0.044585987261146494, 0.3333333333333333
 objC.value,QUALIFIED_NAME, line no: 74,String,SIMPLE_NAME, line no: 11, 0.006369426751592357, 0.006369426751592357, 1.0
 objC.value,QUALIFIED_NAME, line no: 74,getSQLString,SIMPLE_NAME, line no: 32, 0.006369426751592357, 0.006369426751592357, 1.0
 value.length() - 1,INFIX_EXPRESSION, line no: 74,compare,SIMPLE_NAME, line no: 66, 0.006369426751592357, 0.006369426751592357, 1.0
