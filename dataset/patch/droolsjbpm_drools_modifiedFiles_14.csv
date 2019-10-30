@@ -59,11 +59,11 @@ pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,context.
 pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,context.workingMemory,QUALIFIED_NAME, line no: 424, 0.24731182795698925, 0.7419354838709677, 0.3333333333333333
 pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,context.pctx,QUALIFIED_NAME, line no: 427, 0.24731182795698925, 0.7419354838709677, 0.3333333333333333
 evaluateActionQueue,SIMPLE_NAME, line no: 195,out.writeLong(this.size),METHOD_INVOCATION, line no: 90, 0.21875, 0.21875, 1.0
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,this.workingMemory=workingMemory,ASSIGNMENT, line no: 391, 0.20967741935483872, 0.41935483870967744, 0.5
 pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,this.workingMemory,FIELD_ACCESS, line no: 391, 0.20967741935483872, 0.41935483870967744, 0.5
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,this.pctx=pctx,ASSIGNMENT, line no: 395, 0.20967741935483872, 0.41935483870967744, 0.5
 pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,this.pctx,FIELD_ACCESS, line no: 395, 0.20967741935483872, 0.41935483870967744, 0.5
 pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,workingMemory.queueWorkingMemoryAction(new BehaviorExpireWMAction(stw memory context pctx)),METHOD_INVOCATION, line no: 232, 0.16774193548387098, 0.41935483870967744, 0.4
-pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,this.workingMemory=workingMemory,ASSIGNMENT, line no: 391, 0.13978494623655913, 0.41935483870967744, 0.3333333333333333
-pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,this.pctx=pctx,ASSIGNMENT, line no: 395, 0.13978494623655913, 0.41935483870967744, 0.3333333333333333
 pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,this.behavior.expireFacts(memory context pctx workingMemory),METHOD_INVOCATION, line no: 487, 0.12903225806451613, 0.3225806451612903, 0.4
 pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,new BehaviorExpireWMAction(context.behavior context.memory context.behaviorContext context.pctx),CLASS_INSTANCE_CREATION, line no: 424, 0.12365591397849462, 0.7419354838709677, 0.16666666666666666
 pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,new BehaviorExpireWMAction(stw memory context pctx),CLASS_INSTANCE_CREATION, line no: 232, 0.08387096774193549, 0.41935483870967744, 0.2

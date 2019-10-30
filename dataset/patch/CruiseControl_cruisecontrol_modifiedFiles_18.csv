@@ -504,6 +504,7 @@ add,SIMPLE_NAME, line no: 290,this.useLogger,FIELD_ACCESS, line no: 245, 0.16666
 add,SIMPLE_NAME, line no: 290,useDebug=debug,ASSIGNMENT, line no: 412, 0.16666666666666666, 0.16666666666666666, 1.0
 "\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"'buildfile' is a required attribute on AntBuilder",STRING_LITERAL, line no: 87, 0.16666666666666666, 0.16666666666666666, 1.0
 "\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"'target' is a required attribute on AntBuilder",STRING_LITERAL, line no: 91, 0.16666666666666666, 0.16666666666666666, 1.0
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,this.antScript=antScript,ASSIGNMENT, line no: 208, 0.16666666666666666, 0.16666666666666666, 1.0
 "\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,this.antScript,FIELD_ACCESS, line no: 208, 0.16666666666666666, 0.16666666666666666, 1.0
 "\"",STRING_LITERAL, line no: 290,"'buildfile' is a required attribute on AntBuilder",STRING_LITERAL, line no: 87, 0.16, 0.16, 1.0
 "\"",STRING_LITERAL, line no: 290,"'target' is a required attribute on AntBuilder",STRING_LITERAL, line no: 91, 0.16, 0.16, 1.0
@@ -562,9 +563,8 @@ antScript,SIMPLE_NAME, line no: 290,this.value,FIELD_ACCESS, line no: 448, 0.16,
 arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add(arg),METHOD_INVOCATION, line no: 298, 0.13043478260869565, 0.391304347826087, 0.3333333333333333
 arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add("-D" + key + "="+ value),METHOD_INVOCATION, line no: 322, 0.13043478260869565, 0.5217391304347826, 0.25
 arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add(targets.nextToken()),METHOD_INVOCATION, line no: 342, 0.13043478260869565, 0.391304347826087, 0.3333333333333333
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,this.antScript=antScript,ASSIGNMENT, line no: 208, 0.08695652173913043, 0.17391304347826086, 0.5
 arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,this.antScript,FIELD_ACCESS, line no: 208, 0.08695652173913043, 0.17391304347826086, 0.5
-"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,this.antScript=antScript,ASSIGNMENT, line no: 208, 0.08333333333333333, 0.16666666666666666, 0.5
-arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,this.antScript=antScript,ASSIGNMENT, line no: 208, 0.05797101449275362, 0.17391304347826086, 0.3333333333333333
 "\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,DEFAULT_LOGGER,SIMPLE_NAME, line no: 68, 0.041666666666666664, 0.041666666666666664, 1.0
 "\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"org.apache.tools.ant.XmlLogger",STRING_LITERAL, line no: 68, 0.041666666666666664, 0.041666666666666664, 1.0
 "\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"build.xml",STRING_LITERAL, line no: 72, 0.041666666666666664, 0.041666666666666664, 1.0

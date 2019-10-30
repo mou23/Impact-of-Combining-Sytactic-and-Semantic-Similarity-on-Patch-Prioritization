@@ -145,7 +145,6 @@ cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Caplet ",STRING_LITERA
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799," is already in the chain (after ",STRING_LITERAL, line no: 768, 0.9375, 0.9375, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,")",STRING_LITERAL, line no: 768, 0.9375, 0.9375, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,cls != null,INFIX_EXPRESSION, line no: 798, 0.9375, 0.9375, 1.0
-cls.getClass().getName(),METHOD_INVOCATION, line no: 799,cls=cls.getSuperclass(),ASSIGNMENT, line no: 798, 0.9375, 0.9375, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,cls.getSuperclass(),METHOD_INVOCATION, line no: 798, 0.9375, 0.9375, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,join,SIMPLE_NAME, line no: 1097, 0.9375, 0.8125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799," ",STRING_LITERAL, line no: 1097, 0.9375, 0.8125, 1.0
@@ -165,7 +164,6 @@ name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,wrapper,SI
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,isCapsule,SIMPLE_NAME, line no: 669, 0.9333333333333333, 0.9333333333333333, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,hasCaplet,SIMPLE_NAME, line no: 769, 0.9333333333333333, 0.9333333333333333, 1.0
 cls.getClass(),METHOD_INVOCATION, line no: 799,cls != null,INFIX_EXPRESSION, line no: 798, 0.8823529411764706, 0.8823529411764706, 1.0
-cls.getClass(),METHOD_INVOCATION, line no: 799,cls=cls.getSuperclass(),ASSIGNMENT, line no: 798, 0.8823529411764706, 0.8823529411764706, 1.0
 getName,SIMPLE_NAME, line no: 799,PROP_RESET,SIMPLE_NAME, line no: 148, 0.8823529411764706, 0.058823529411764705, 1.0
 getName,SIMPLE_NAME, line no: 799,VAR_CLASSPATH,SIMPLE_NAME, line no: 200, 0.8823529411764706, 0.058823529411764705, 1.0
 getName,SIMPLE_NAME, line no: 799,PROP_JAVA_HOME,SIMPLE_NAME, line no: 211, 0.8823529411764706, 0.058823529411764705, 1.0
@@ -3869,12 +3867,11 @@ getName,SIMPLE_NAME, line no: 799," and no default value provided",STRING_LITERA
 getName,SIMPLE_NAME, line no: 799,"Unsafe target " + target + " skipped",INFIX_EXPRESSION, line no: 4510, 0.47058823529411764, 0.47058823529411764, 1.0
 getName,SIMPLE_NAME, line no: 799,"Unsafe target ",STRING_LITERAL, line no: 4510, 0.47058823529411764, 0.47058823529411764, 1.0
 getName,SIMPLE_NAME, line no: 799," skipped",STRING_LITERAL, line no: 4510, 0.47058823529411764, 0.47058823529411764, 1.0
-cls.getClass().getName(),METHOD_INVOCATION, line no: 799,Class<?> cls=c.getClass(),VARIABLE_DECLARATION_EXPRESSION, line no: 798, 0.46875, 0.9375, 0.5
+cls.getClass().getName(),METHOD_INVOCATION, line no: 799,cls=cls.getSuperclass(),ASSIGNMENT, line no: 798, 0.46875, 0.9375, 0.5
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799, 0.46875, 0.9375, 0.5
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,cls != null,INFIX_EXPRESSION, line no: 798, 0.4666666666666667, 0.9333333333333333, 0.5
-name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,cls=cls.getSuperclass(),ASSIGNMENT, line no: 798, 0.4666666666666667, 0.9333333333333333, 0.5
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,cls.getSuperclass(),METHOD_INVOCATION, line no: 798, 0.4666666666666667, 0.9333333333333333, 0.5
-cls.getClass(),METHOD_INVOCATION, line no: 799,Class<?> cls=c.getClass(),VARIABLE_DECLARATION_EXPRESSION, line no: 798, 0.4411764705882353, 0.8823529411764706, 0.5
+cls.getClass(),METHOD_INVOCATION, line no: 799,cls=cls.getSuperclass(),ASSIGNMENT, line no: 798, 0.4411764705882353, 0.8823529411764706, 0.5
 cls.getClass(),METHOD_INVOCATION, line no: 799,name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799, 0.4411764705882353, 0.8823529411764706, 0.5
 name,SIMPLE_NAME, line no: 799,camel.replaceAll("([A-Z][a-z]+)" "-$1").toLowerCase(),METHOD_INVOCATION, line no: 529, 0.4375, 0.4375, 1.0
 name,SIMPLE_NAME, line no: 799,relPath,SIMPLE_NAME, line no: 927, 0.4375, 0.0625, 1.0
@@ -3916,7 +3913,6 @@ getName,SIMPLE_NAME, line no: 799," but was: ",STRING_LITERAL, line no: 2443, 0.
 getName,SIMPLE_NAME, line no: 799,getMainClass(getManifest(jar)),METHOD_INVOCATION, line no: 3096, 0.4117647058823529, 0.4117647058823529, 1.0
 getName,SIMPLE_NAME, line no: 799,PROPERTIES.getProperty(propName),METHOD_INVOCATION, line no: 4013, 0.4117647058823529, 0.4117647058823529, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,name == null,INFIX_EXPRESSION, line no: 735, 0.4, 0.8, 0.5
-name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,entry.getKey().equalsIgnoreCase(name),METHOD_INVOCATION, line no: 2680, 0.4, 0.8, 0.5
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,new RuntimeException(name + " does not appear to be a valid capsule."),CLASS_INSTANCE_CREATION, line no: 4459, 0.4, 0.8, 0.5
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,name + " does not appear to be a valid capsule.",INFIX_EXPRESSION, line no: 4459, 0.4, 0.8, 0.5
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,cls == null,INFIX_EXPRESSION, line no: 4487, 0.4, 0.8, 0.5
@@ -4003,7 +3999,7 @@ cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"Exception while gettin
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"windows",STRING_LITERAL, line no: 3023, 0.3125, 0.3125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"mac",STRING_LITERAL, line no: 3030, 0.3125, 0.3125, 1.0
 cls.getClass().getName(),METHOD_INVOCATION, line no: 799,"capsule",STRING_LITERAL, line no: 4051, 0.3125, 0.3125, 1.0
-name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,Class<?> cls=c.getClass(),VARIABLE_DECLARATION_EXPRESSION, line no: 798, 0.3111111111111111, 0.9333333333333333, 0.3333333333333333
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,cls=cls.getSuperclass(),ASSIGNMENT, line no: 798, 0.3111111111111111, 0.9333333333333333, 0.3333333333333333
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,cls.getDeclaredField("VERSION"),METHOD_INVOCATION, line no: 4490, 0.3, 0.6, 0.5
 getName,SIMPLE_NAME, line no: 799,"Exception while getting attribute " + name(attr),INFIX_EXPRESSION, line no: 2298, 0.29411764705882354, 0.29411764705882354, 1.0
 getName,SIMPLE_NAME, line no: 799,"Exception while getting attribute ",STRING_LITERAL, line no: 2298, 0.29411764705882354, 0.29411764705882354, 1.0
@@ -4013,6 +4009,7 @@ getName,SIMPLE_NAME, line no: 799,"mac",STRING_LITERAL, line no: 3030, 0.2941176
 getName,SIMPLE_NAME, line no: 799,obj != null ? obj.toString() : null,CONDITIONAL_EXPRESSION, line no: 3718, 0.29411764705882354, 0.29411764705882354, 1.0
 getName,SIMPLE_NAME, line no: 799,"capsule",STRING_LITERAL, line no: 4051, 0.29411764705882354, 0.29411764705882354, 1.0
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,name + (version != null ? "_" + version : ""),INFIX_EXPRESSION, line no: 738, 0.26666666666666666, 0.8, 0.3333333333333333
+name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,entry.getKey().equalsIgnoreCase(name),METHOD_INVOCATION, line no: 2680, 0.26666666666666666, 0.8, 0.3333333333333333
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,entry.getName().equals(name),METHOD_INVOCATION, line no: 3089, 0.26666666666666666, 0.8, 0.3333333333333333
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,new NoSuchMethodException(name + "(" + Arrays.toString(parameterTypes)+ ")"),CLASS_INSTANCE_CREATION, line no: 3943, 0.26666666666666666, 0.6666666666666666, 0.3333333333333333
 name.equals(cls.getClass().getName()),METHOD_INVOCATION, line no: 799,name + "(" + Arrays.toString(parameterTypes)+ ")",INFIX_EXPRESSION, line no: 3943, 0.26666666666666666, 0.6666666666666666, 0.3333333333333333

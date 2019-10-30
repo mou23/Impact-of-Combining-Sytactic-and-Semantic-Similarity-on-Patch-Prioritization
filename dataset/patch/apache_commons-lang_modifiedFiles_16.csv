@@ -717,8 +717,6 @@ str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,buffer[size +
 str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,buffer[i] != str.charAt(i),INFIX_EXPRESSION, line no: 1525, 0.26666666666666666, 0.6666666666666666, 0.4
 str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,str == null,INFIX_EXPRESSION, line no: 122, 0.25, 0.9166666666666666, 0.25
 str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,str.length(),METHOD_INVOCATION, line no: 125, 0.25, 0.8333333333333334, 0.25
-str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,buffer.length,QUALIFIED_NAME, line no: 218, 0.25, 0.16666666666666666, 0.25
-str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,buffer.length > length(),INFIX_EXPRESSION, line no: 242, 0.25, 1.0, 0.25
 str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,size == 0,INFIX_EXPRESSION, line no: 272, 0.25, 0.16666666666666666, 0.25
 str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,strLen > 0,INFIX_EXPRESSION, line no: 473, 0.25, 1.0, 0.25
 str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,(str == null ? 0 : str.length()),PARENTHESIZED_EXPRESSION, line no: 942, 0.25, 1.0, 0.25
@@ -759,6 +757,8 @@ str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,ensureCapacit
 str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,size + 1,INFIX_EXPRESSION, line no: 1049, 0.20833333333333334, 0.8333333333333334, 0.25
 str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,this.size,FIELD_ACCESS, line no: 1673, 0.20833333333333334, 0.5833333333333334, 0.25
 str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,this.buffer,FIELD_ACCESS, line no: 2082, 0.20833333333333334, 0.8333333333333334, 0.25
+str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,buffer.length,QUALIFIED_NAME, line no: 218, 0.2, 0.16666666666666666, 0.2
+str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,buffer.length > length(),INFIX_EXPRESSION, line no: 242, 0.2, 1.0, 0.2
 str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,startIndex < 0 || startIndex > str.length(),INFIX_EXPRESSION, line no: 495, 0.2, 1.0, 0.2
 str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,startIndex > str.length(),INFIX_EXPRESSION, line no: 495, 0.2, 1.0, 0.2
 str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,buffer[size++]=padChar,ASSIGNMENT, line no: 816, 0.2, 0.5, 0.4
@@ -780,7 +780,6 @@ str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,size / 2,INFI
 str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,str.charAt(0),METHOD_INVOCATION, line no: 1767, 0.1875, 0.6666666666666666, 0.25
 str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,length < size,INFIX_EXPRESSION, line no: 197, 0.18333333333333335, 0.9166666666666666, 0.2
 str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,length > size,INFIX_EXPRESSION, line no: 199, 0.18333333333333335, 0.9166666666666666, 0.2
-str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,capacity > buffer.length,INFIX_EXPRESSION, line no: 228, 0.18333333333333335, 0.9166666666666666, 0.2
 str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,buffer[index],ARRAY_ACCESS, line no: 305, 0.18333333333333335, 0.6666666666666666, 0.2
 str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,ensureCapacity(len + strLen),METHOD_INVOCATION, line no: 475, 0.18333333333333335, 0.9166666666666666, 0.2
 str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,len + strLen,INFIX_EXPRESSION, line no: 475, 0.18333333333333335, 0.9166666666666666, 0.2
@@ -835,6 +834,7 @@ str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,StrBuilder.th
 str,SIMPLE_NAME, line no: 884,"end < start",STRING_LITERAL, line no: 412, 0.15384615384615385, 0.15384615384615385, 1.0
 str,SIMPLE_NAME, line no: 884,"startIndex must be valid",STRING_LITERAL, line no: 496, 0.15384615384615385, 0.15384615384615385, 1.0
 str,SIMPLE_NAME, line no: 884,"length must be valid",STRING_LITERAL, line no: 499, 0.15384615384615385, 0.15384615384615385, 1.0
+str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,capacity > buffer.length,INFIX_EXPRESSION, line no: 228, 0.15277777777777776, 0.9166666666666666, 0.16666666666666666
 str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,System.arraycopy(buffer 0 destination 0 len),METHOD_INVOCATION, line no: 390, 0.15277777777777776, 0.9166666666666666, 0.16666666666666666
 str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,buffer=new char[initialCapacity],ASSIGNMENT, line no: 111, 0.15000000000000002, 0.75, 0.2
 str.getChars(0 strLen buffer size),METHOD_INVOCATION, line no: 884,str.charAt(i),METHOD_INVOCATION, line no: 1525, 0.15000000000000002, 0.75, 0.2

@@ -203,7 +203,7 @@ public class PatchGenerator {
 		this.candidatePatchesList.clear();
 		this.sourceFiles.clear();
 		this.classFiles.clear();
-		VariableCollector.variables.clear();
+//		VariableCollector.variables.clear();
 		this.ingredientCollector.faultyNodes.clear();
 		this.ingredientCollector.fixingIngredients.clear();
 	}

@@ -39,7 +39,6 @@ RestValue,SIMPLE_NAME, line no: 113,new RestValue(data command.getContentType())
 getContentType,SIMPLE_NAME, line no: 113,RES_204,SIMPLE_NAME, line no: 82, 0.9655172413793104, 0.1724137931034483, 1.0
 data,SIMPLE_NAME, line no: 113,getData,SIMPLE_NAME, line no: 74, 0.9649122807017544, 0.22807017543859648, 1.0
 data,SIMPLE_NAME, line no: 113,HttpCommand.RES_204,QUALIFIED_NAME, line no: 82, 0.9649122807017544, 0.15789473684210525, 1.0
-command.getContentType(),METHOD_INVOCATION, line no: 113,command.setResponse(HttpCommand.RES_204),METHOD_INVOCATION, line no: 82, 0.9649122807017544, 0.15789473684210525, 1.0
 command.getContentType(),METHOD_INVOCATION, line no: 113,RES_204,SIMPLE_NAME, line no: 82, 0.9649122807017544, 0.17543859649122806, 1.0
 mapName,SIMPLE_NAME, line no: 113,uri.substring(URI_MAPS.length() indexEnd),METHOD_INVOCATION, line no: 110, 0.9642857142857143, 0.9642857142857143, 1.0
 mapName,SIMPLE_NAME, line no: 113,uri.substring(indexEnd + 1),METHOD_INVOCATION, line no: 111, 0.9642857142857143, 0.9642857142857143, 1.0
@@ -89,7 +88,6 @@ key,SIMPLE_NAME, line no: 113,URLDecoder.decode(strList[2] "UTF-8"),METHOD_INVOC
 key,SIMPLE_NAME, line no: 113,strList[2],ARRAY_ACCESS, line no: 95, 0.9464285714285714, 0.9464285714285714, 1.0
 0,NUMBER_LITERAL, line no: 113,2,NUMBER_LITERAL, line no: 95, 0.9464285714285714, 0.9464285714285714, 1.0
 getContentType,SIMPLE_NAME, line no: 113,command.getData(),METHOD_INVOCATION, line no: 74, 0.9310344827586207, 0.20689655172413793, 1.0
-command.getContentType(),METHOD_INVOCATION, line no: 113,textCommandService.sendResponse(command),METHOD_INVOCATION, line no: 51, 0.8421052631578947, 0.8421052631578947, 1.0
 mapName,SIMPLE_NAME, line no: 113,getURI,SIMPLE_NAME, line no: 38, 0.7321428571428571, 0.7321428571428571, 1.0
 key,SIMPLE_NAME, line no: 113,getURI,SIMPLE_NAME, line no: 38, 0.7321428571428571, 0.7321428571428571, 1.0
 mapName,SIMPLE_NAME, line no: 113,command.getURI(),METHOD_INVOCATION, line no: 38, 0.7142857142857143, 0.7142857142857143, 1.0
@@ -99,16 +97,16 @@ key,SIMPLE_NAME, line no: 113,command.getURI(),METHOD_INVOCATION, line no: 38, 0
 key,SIMPLE_NAME, line no: 113,URI_MANCENTER_CHANGE_URL,SIMPLE_NAME, line no: 41, 0.7142857142857143, 0.7142857142857143, 1.0
 key,SIMPLE_NAME, line no: 113,URI_QUEUES,SIMPLE_NAME, line no: 43, 0.7142857142857143, 0.7142857142857143, 1.0
 command.getContentType(),METHOD_INVOCATION, line no: 113,command.getURI(),METHOD_INVOCATION, line no: 38, 0.7017543859649122, 0.7017543859649122, 1.0
-textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113, 0.5, 1.0, 0.5
 new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,command.getContentType(),METHOD_INVOCATION, line no: 75, 0.5, 0.21428571428571427, 0.5
 command.getContentType(),METHOD_INVOCATION, line no: 113,new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113, 0.49122807017543857, 0.9824561403508771, 0.5
-new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,command.setResponse(HttpCommand.RES_204),METHOD_INVOCATION, line no: 82, 0.49107142857142855, 0.16071428571428573, 0.5
-new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113, 0.49107142857142855, 0.9821428571428571, 0.5
+command.getContentType(),METHOD_INVOCATION, line no: 113,command.setResponse(HttpCommand.RES_204),METHOD_INVOCATION, line no: 82, 0.4824561403508772, 0.15789473684210525, 0.5
 new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,command.getData(),METHOD_INVOCATION, line no: 74, 0.48214285714285715, 0.21428571428571427, 0.5
 command.getContentType(),METHOD_INVOCATION, line no: 113,command.setResponse(res),METHOD_INVOCATION, line no: 101, 0.47368421052631576, 0.9473684210526315, 0.5
 new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,bytesToString(data).split("&"),METHOD_INVOCATION, line no: 92, 0.4642857142857143, 0.9285714285714286, 0.5
 new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,bytesToString(data),METHOD_INVOCATION, line no: 92, 0.4642857142857143, 0.9285714285714286, 0.5
-new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,textCommandService.sendResponse(command),METHOD_INVOCATION, line no: 51, 0.41964285714285715, 0.8392857142857143, 0.5
+command.getContentType(),METHOD_INVOCATION, line no: 113,textCommandService.sendResponse(command),METHOD_INVOCATION, line no: 51, 0.42105263157894735, 0.8421052631578947, 0.5
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113, 0.4, 1.0, 0.4
+new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113, 0.39285714285714285, 0.9821428571428571, 0.4
 0,NUMBER_LITERAL, line no: 113,suffix.length(),METHOD_INVOCATION, line no: 69, 0.375, 0.375, 1.0
 mapName,SIMPLE_NAME, line no: 113,suffix.substring(0 indexSlash),METHOD_INVOCATION, line no: 68, 0.35714285714285715, 0.35714285714285715, 1.0
 mapName,SIMPLE_NAME, line no: 113,suffix.substring(indexSlash + 1 suffix.length()),METHOD_INVOCATION, line no: 69, 0.35714285714285715, 0.35714285714285715, 1.0
@@ -116,45 +114,47 @@ key,SIMPLE_NAME, line no: 113,suffix.substring(0 indexSlash),METHOD_INVOCATION, 
 key,SIMPLE_NAME, line no: 113,suffix.substring(indexSlash + 1 suffix.length()),METHOD_INVOCATION, line no: 69, 0.35714285714285715, 0.35714285714285715, 1.0
 new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,command.getURI(),METHOD_INVOCATION, line no: 38, 0.35714285714285715, 0.7142857142857143, 0.5
 0,NUMBER_LITERAL, line no: 113,indexSlash + 1,INFIX_EXPRESSION, line no: 69, 0.35714285714285715, 0.35714285714285715, 1.0
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,textCommandService.sendResponse(command),METHOD_INVOCATION, line no: 51, 0.3418181818181818, 0.8545454545454545, 0.4
 mapName,SIMPLE_NAME, line no: 113,queueName=suffix.substring(0 indexSlash),ASSIGNMENT, line no: 68, 0.3392857142857143, 0.3392857142857143, 1.0
 mapName,SIMPLE_NAME, line no: 113,simpleValue=suffix.substring(indexSlash + 1 suffix.length()),ASSIGNMENT, line no: 69, 0.3392857142857143, 0.3392857142857143, 1.0
 key,SIMPLE_NAME, line no: 113,queueName=suffix.substring(0 indexSlash),ASSIGNMENT, line no: 68, 0.3392857142857143, 0.3392857142857143, 1.0
 key,SIMPLE_NAME, line no: 113,simpleValue=suffix.substring(indexSlash + 1 suffix.length()),ASSIGNMENT, line no: 69, 0.3392857142857143, 0.3392857142857143, 1.0
 new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,new RestValue(data contentType),CLASS_INSTANCE_CREATION, line no: 80, 0.32738095238095233, 0.9821428571428571, 0.3333333333333333
+new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,command.setResponse(HttpCommand.RES_204),METHOD_INVOCATION, line no: 82, 0.32738095238095233, 0.16071428571428573, 0.3333333333333333
 new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,command.setResponse(res),METHOD_INVOCATION, line no: 101, 0.31547619047619047, 0.9464285714285714, 0.3333333333333333
 0,NUMBER_LITERAL, line no: 113,URI_QUEUES.length(),METHOD_INVOCATION, line no: 58, 0.2857142857142857, 0.2857142857142857, 1.0
 0,NUMBER_LITERAL, line no: 113,uri.length(),METHOD_INVOCATION, line no: 58, 0.2857142857142857, 0.2857142857142857, 1.0
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,textCommandService.offer(queueName new RestValue(data contentType)),METHOD_INVOCATION, line no: 80, 0.2805194805194805, 0.9818181818181818, 0.2857142857142857
+new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,textCommandService.sendResponse(command),METHOD_INVOCATION, line no: 51, 0.27976190476190477, 0.8392857142857143, 0.3333333333333333
 mapName,SIMPLE_NAME, line no: 113,uri.substring(URI_QUEUES.length() uri.length() - 1),METHOD_INVOCATION, line no: 58, 0.26785714285714285, 0.26785714285714285, 1.0
 key,SIMPLE_NAME, line no: 113,uri.substring(URI_QUEUES.length() uri.length() - 1),METHOD_INVOCATION, line no: 58, 0.26785714285714285, 0.26785714285714285, 1.0
 0,NUMBER_LITERAL, line no: 113,uri.length() - 1,INFIX_EXPRESSION, line no: 58, 0.26785714285714285, 0.26785714285714285, 1.0
-textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,command.getContentType(),METHOD_INVOCATION, line no: 75, 0.25, 0.21818181818181817, 0.25
-textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,command.setResponse(HttpCommand.RES_204),METHOD_INVOCATION, line no: 82, 0.25, 0.16363636363636364, 0.25
 mapName,SIMPLE_NAME, line no: 113,suffix=uri.substring(URI_QUEUES.length() uri.length() - 1),ASSIGNMENT, line no: 58, 0.25, 0.25, 1.0
 key,SIMPLE_NAME, line no: 113,suffix=uri.substring(URI_QUEUES.length() uri.length() - 1),ASSIGNMENT, line no: 58, 0.25, 0.25, 1.0
-textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,command.getData(),METHOD_INVOCATION, line no: 74, 0.24545454545454545, 0.21818181818181817, 0.25
-command.getContentType(),METHOD_INVOCATION, line no: 113,textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113, 0.2412280701754386, 0.9649122807017544, 0.25
-new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,textCommandService.offer(queueName new RestValue(data contentType)),METHOD_INVOCATION, line no: 80, 0.24107142857142858, 0.9642857142857143, 0.25
-textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,bytesToString(data).split("&"),METHOD_INVOCATION, line no: 92, 0.23636363636363636, 0.9454545454545454, 0.25
-textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,bytesToString(data),METHOD_INVOCATION, line no: 92, 0.23636363636363636, 0.9454545454545454, 0.25
 mapName,SIMPLE_NAME, line no: 113,uri.substring(URI_QUEUES.length() uri.length()),METHOD_INVOCATION, line no: 60, 0.23214285714285715, 0.23214285714285715, 1.0
 key,SIMPLE_NAME, line no: 113,uri.substring(URI_QUEUES.length() uri.length()),METHOD_INVOCATION, line no: 60, 0.23214285714285715, 0.23214285714285715, 1.0
 mapName,SIMPLE_NAME, line no: 113,suffix=uri.substring(URI_QUEUES.length() uri.length()),ASSIGNMENT, line no: 60, 0.21428571428571427, 0.21428571428571427, 1.0
 key,SIMPLE_NAME, line no: 113,suffix=uri.substring(URI_QUEUES.length() uri.length()),ASSIGNMENT, line no: 60, 0.21428571428571427, 0.21428571428571427, 1.0
-textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,textCommandService.sendResponse(command),METHOD_INVOCATION, line no: 51, 0.21363636363636362, 0.8545454545454545, 0.25
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,command.getContentType(),METHOD_INVOCATION, line no: 75, 0.2, 0.21818181818181817, 0.2
 new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,data=command.getData(),ASSIGNMENT, line no: 74, 0.19642857142857142, 0.19642857142857142, 1.0
-textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,new RestValue(data contentType),CLASS_INSTANCE_CREATION, line no: 80, 0.19636363636363638, 0.9818181818181818, 0.2
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,command.getData(),METHOD_INVOCATION, line no: 74, 0.19636363636363638, 0.21818181818181817, 0.2
+command.getContentType(),METHOD_INVOCATION, line no: 113,textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113, 0.1929824561403509, 0.9649122807017544, 0.2
 data,SIMPLE_NAME, line no: 113,stringToBytes,SIMPLE_NAME, line no: 30, 0.19298245614035087, 0.03508771929824561, 1.0
 data,SIMPLE_NAME, line no: 113,data=command.getData(),ASSIGNMENT, line no: 74, 0.19298245614035087, 0.19298245614035087, 1.0
 data,SIMPLE_NAME, line no: 113,contentType=command.getContentType(),ASSIGNMENT, line no: 75, 0.19298245614035087, 0.19298245614035087, 1.0
 data,SIMPLE_NAME, line no: 113,clusterWideUpdateManagementCenterUrl,SIMPLE_NAME, line no: 99, 0.19298245614035087, 0.19298245614035087, 1.0
 command.getContentType(),METHOD_INVOCATION, line no: 113,stringToBytes,SIMPLE_NAME, line no: 30, 0.19298245614035087, 0.03508771929824561, 1.0
 command.getContentType(),METHOD_INVOCATION, line no: 113,clusterWideUpdateManagementCenterUrl,SIMPLE_NAME, line no: 99, 0.19298245614035087, 0.19298245614035087, 1.0
-textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,command.setResponse(res),METHOD_INVOCATION, line no: 101, 0.19272727272727275, 0.9636363636363636, 0.2
+new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,textCommandService.offer(queueName new RestValue(data contentType)),METHOD_INVOCATION, line no: 80, 0.19285714285714287, 0.9642857142857143, 0.2
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,textCommandService.getNode().getGroupProperties(),METHOD_INVOCATION, line no: 89, 0.19272727272727275, 0.9636363636363636, 0.2
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,textCommandService.getNode(),METHOD_INVOCATION, line no: 89, 0.19272727272727275, 0.9636363636363636, 0.2
 getContentType,SIMPLE_NAME, line no: 113,stringToBytes,SIMPLE_NAME, line no: 30, 0.1896551724137931, 0.034482758620689655, 1.0
 getContentType,SIMPLE_NAME, line no: 113,data=command.getData(),ASSIGNMENT, line no: 74, 0.1896551724137931, 0.1896551724137931, 1.0
 getContentType,SIMPLE_NAME, line no: 113,contentType=command.getContentType(),ASSIGNMENT, line no: 75, 0.1896551724137931, 0.1896551724137931, 1.0
 getContentType,SIMPLE_NAME, line no: 113,clusterWideUpdateManagementCenterUrl,SIMPLE_NAME, line no: 99, 0.1896551724137931, 0.1896551724137931, 1.0
-textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,command.getURI(),METHOD_INVOCATION, line no: 38, 0.18181818181818182, 0.7272727272727273, 0.25
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,bytesToString(data).split("&"),METHOD_INVOCATION, line no: 92, 0.1890909090909091, 0.9454545454545454, 0.2
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,bytesToString(data),METHOD_INVOCATION, line no: 92, 0.1890909090909091, 0.9454545454545454, 0.2
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,textCommandService.getNode().getManagementCenterService(),METHOD_INVOCATION, line no: 97, 0.1890909090909091, 0.9454545454545454, 0.2
 data,SIMPLE_NAME, line no: 113,QUEUE_SIMPLE_VALUE_CONTENT_TYPE,SIMPLE_NAME, line no: 30, 0.17543859649122806, 0.017543859649122806, 1.0
 data,SIMPLE_NAME, line no: 113,RES_400,SIMPLE_NAME, line no: 46, 0.17543859649122806, 0.17543859649122806, 1.0
 data,SIMPLE_NAME, line no: 113,RES_500,SIMPLE_NAME, line no: 49, 0.17543859649122806, 0.17543859649122806, 1.0
@@ -171,50 +171,55 @@ getContentType,SIMPLE_NAME, line no: 113,RES_500,SIMPLE_NAME, line no: 49, 0.172
 getContentType,SIMPLE_NAME, line no: 113,stringToBytes(simpleValue),METHOD_INVOCATION, line no: 77, 0.1724137931034483, 0.1724137931034483, 1.0
 getContentType,SIMPLE_NAME, line no: 113,RES_503,SIMPLE_NAME, line no: 84, 0.1724137931034483, 0.1724137931034483, 1.0
 getContentType,SIMPLE_NAME, line no: 113,managementCenterService.clusterWideUpdateManagementCenterUrl(cluster pass url),METHOD_INVOCATION, line no: 99, 0.1724137931034483, 0.1724137931034483, 1.0
-textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,textCommandService.offer(queueName new RestValue(data contentType)),METHOD_INVOCATION, line no: 80, 0.16363636363636364, 0.9818181818181818, 0.16666666666666666
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,command.setResponse(HttpCommand.RES_204),METHOD_INVOCATION, line no: 82, 0.16666666666666666, 0.16363636363636364, 0.16666666666666666
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,new RestValue(data contentType),CLASS_INSTANCE_CREATION, line no: 80, 0.16363636363636364, 0.9818181818181818, 0.16666666666666666
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,textCommandService.getNode().getGroupProperties().MC_URL_CHANGE_ENABLED.getBoolean(),METHOD_INVOCATION, line no: 89, 0.16060606060606059, 0.9636363636363636, 0.16666666666666666
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,textCommandService.getNode().getGroupProperties().MC_URL_CHANGE_ENABLED,FIELD_ACCESS, line no: 89, 0.16060606060606059, 0.9636363636363636, 0.16666666666666666
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,command.setResponse(res),METHOD_INVOCATION, line no: 101, 0.16060606060606059, 0.9636363636363636, 0.16666666666666666
 data,SIMPLE_NAME, line no: 113,HttpCommand.RES_400,QUALIFIED_NAME, line no: 46, 0.15789473684210525, 0.15789473684210525, 1.0
 data,SIMPLE_NAME, line no: 113,HttpCommand.RES_500,QUALIFIED_NAME, line no: 49, 0.15789473684210525, 0.15789473684210525, 1.0
 data,SIMPLE_NAME, line no: 113,data=stringToBytes(simpleValue),ASSIGNMENT, line no: 77, 0.15789473684210525, 0.15789473684210525, 1.0
 data,SIMPLE_NAME, line no: 113,contentType=QUEUE_SIMPLE_VALUE_CONTENT_TYPE,ASSIGNMENT, line no: 78, 0.15789473684210525, 0.15789473684210525, 1.0
 data,SIMPLE_NAME, line no: 113,HttpCommand.RES_503,QUALIFIED_NAME, line no: 84, 0.15789473684210525, 0.15789473684210525, 1.0
 data,SIMPLE_NAME, line no: 113,res=managementCenterService.clusterWideUpdateManagementCenterUrl(cluster pass url),ASSIGNMENT, line no: 99, 0.15789473684210525, 0.15789473684210525, 1.0
-command.getContentType(),METHOD_INVOCATION, line no: 113,command.setResponse(HttpCommand.RES_400),METHOD_INVOCATION, line no: 46, 0.15789473684210525, 0.15789473684210525, 1.0
-command.getContentType(),METHOD_INVOCATION, line no: 113,command.setResponse(HttpCommand.RES_500),METHOD_INVOCATION, line no: 49, 0.15789473684210525, 0.15789473684210525, 1.0
-command.getContentType(),METHOD_INVOCATION, line no: 113,command.setResponse(HttpCommand.RES_503),METHOD_INVOCATION, line no: 84, 0.15789473684210525, 0.15789473684210525, 1.0
 getContentType,SIMPLE_NAME, line no: 113,HttpCommand.RES_400,QUALIFIED_NAME, line no: 46, 0.15517241379310345, 0.15517241379310345, 1.0
 getContentType,SIMPLE_NAME, line no: 113,HttpCommand.RES_500,QUALIFIED_NAME, line no: 49, 0.15517241379310345, 0.15517241379310345, 1.0
 getContentType,SIMPLE_NAME, line no: 113,data=stringToBytes(simpleValue),ASSIGNMENT, line no: 77, 0.15517241379310345, 0.15517241379310345, 1.0
 getContentType,SIMPLE_NAME, line no: 113,contentType=QUEUE_SIMPLE_VALUE_CONTENT_TYPE,ASSIGNMENT, line no: 78, 0.15517241379310345, 0.15517241379310345, 1.0
 getContentType,SIMPLE_NAME, line no: 113,HttpCommand.RES_503,QUALIFIED_NAME, line no: 84, 0.15517241379310345, 0.15517241379310345, 1.0
 getContentType,SIMPLE_NAME, line no: 113,res=managementCenterService.clusterWideUpdateManagementCenterUrl(cluster pass url),ASSIGNMENT, line no: 99, 0.15517241379310345, 0.15517241379310345, 1.0
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,command.getURI(),METHOD_INVOCATION, line no: 38, 0.14545454545454548, 0.7272727272727273, 0.2
 command.getContentType(),METHOD_INVOCATION, line no: 113,handleManagementCenterUrlChange(command),METHOD_INVOCATION, line no: 42, 0.10526315789473684, 0.10526315789473684, 1.0
 command.getContentType(),METHOD_INVOCATION, line no: 113,handle(command),METHOD_INVOCATION, line no: 118, 0.10526315789473684, 0.10526315789473684, 1.0
-textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,data=command.getData(),ASSIGNMENT, line no: 74, 0.1, 0.2, 0.5
 command.getContentType(),METHOD_INVOCATION, line no: 113,data=command.getData(),ASSIGNMENT, line no: 74, 0.09649122807017543, 0.19298245614035087, 0.5
 command.getContentType(),METHOD_INVOCATION, line no: 113,contentType=command.getContentType(),ASSIGNMENT, line no: 75, 0.09649122807017543, 0.19298245614035087, 0.5
-new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,command.setResponse(HttpCommand.RES_400),METHOD_INVOCATION, line no: 46, 0.08035714285714286, 0.16071428571428573, 0.5
-new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,command.setResponse(HttpCommand.RES_500),METHOD_INVOCATION, line no: 49, 0.08035714285714286, 0.16071428571428573, 0.5
-new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,command.setResponse(HttpCommand.RES_503),METHOD_INVOCATION, line no: 84, 0.08035714285714286, 0.16071428571428573, 0.5
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,data=command.getData(),ASSIGNMENT, line no: 74, 0.08000000000000002, 0.2, 0.4
+command.getContentType(),METHOD_INVOCATION, line no: 113,command.setResponse(HttpCommand.RES_400),METHOD_INVOCATION, line no: 46, 0.07894736842105263, 0.15789473684210525, 0.5
+command.getContentType(),METHOD_INVOCATION, line no: 113,command.setResponse(HttpCommand.RES_500),METHOD_INVOCATION, line no: 49, 0.07894736842105263, 0.15789473684210525, 0.5
+command.getContentType(),METHOD_INVOCATION, line no: 113,command.setResponse(HttpCommand.RES_503),METHOD_INVOCATION, line no: 84, 0.07894736842105263, 0.15789473684210525, 0.5
 mapName,SIMPLE_NAME, line no: 113,queueName=suffix,ASSIGNMENT, line no: 66, 0.07142857142857142, 0.07142857142857142, 1.0
 key,SIMPLE_NAME, line no: 113,queueName=suffix,ASSIGNMENT, line no: 66, 0.07142857142857142, 0.07142857142857142, 1.0
 new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,contentType=command.getContentType(),ASSIGNMENT, line no: 75, 0.06547619047619047, 0.19642857142857142, 0.3333333333333333
 command.getContentType(),METHOD_INVOCATION, line no: 113,handleMap(command uri),METHOD_INVOCATION, line no: 40, 0.06140350877192982, 0.12280701754385964, 0.5
 command.getContentType(),METHOD_INVOCATION, line no: 113,handleQueue(command uri),METHOD_INVOCATION, line no: 44, 0.06140350877192982, 0.12280701754385964, 0.5
+new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,command.setResponse(HttpCommand.RES_400),METHOD_INVOCATION, line no: 46, 0.053571428571428575, 0.16071428571428573, 0.3333333333333333
+new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,command.setResponse(HttpCommand.RES_500),METHOD_INVOCATION, line no: 49, 0.053571428571428575, 0.16071428571428573, 0.3333333333333333
 new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,data=stringToBytes(simpleValue),ASSIGNMENT, line no: 77, 0.053571428571428575, 0.16071428571428573, 0.3333333333333333
+new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,command.setResponse(HttpCommand.RES_503),METHOD_INVOCATION, line no: 84, 0.053571428571428575, 0.16071428571428573, 0.3333333333333333
 new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,handleManagementCenterUrlChange(command),METHOD_INVOCATION, line no: 42, 0.05357142857142857, 0.10714285714285714, 0.5
 new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,handle(command),METHOD_INVOCATION, line no: 118, 0.05357142857142857, 0.10714285714285714, 0.5
 new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,handleMap(command uri),METHOD_INVOCATION, line no: 40, 0.041666666666666664, 0.125, 0.3333333333333333
 new RestValue(data command.getContentType()),CLASS_INSTANCE_CREATION, line no: 113,handleQueue(command uri),METHOD_INVOCATION, line no: 44, 0.041666666666666664, 0.125, 0.3333333333333333
-textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,command.setResponse(HttpCommand.RES_400),METHOD_INVOCATION, line no: 46, 0.04090909090909091, 0.16363636363636364, 0.25
-textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,command.setResponse(HttpCommand.RES_500),METHOD_INVOCATION, line no: 49, 0.04090909090909091, 0.16363636363636364, 0.25
-textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,command.setResponse(HttpCommand.RES_503),METHOD_INVOCATION, line no: 84, 0.04090909090909091, 0.16363636363636364, 0.25
-textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,contentType=command.getContentType(),ASSIGNMENT, line no: 75, 0.04000000000000001, 0.2, 0.2
 textCommandService,SIMPLE_NAME, line no: 113,TextCommandService,SIMPLE_NAME, line no: 19, 0.03571428571428571, 0.03571428571428571, 1.0
-textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,data=stringToBytes(simpleValue),ASSIGNMENT, line no: 77, 0.03272727272727273, 0.16363636363636364, 0.2
-textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,handleManagementCenterUrlChange(command),METHOD_INVOCATION, line no: 42, 0.02727272727272727, 0.10909090909090909, 0.25
-textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,handle(command),METHOD_INVOCATION, line no: 118, 0.02727272727272727, 0.10909090909090909, 0.25
-textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,handleMap(command uri),METHOD_INVOCATION, line no: 40, 0.025454545454545452, 0.12727272727272726, 0.2
-textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,handleQueue(command uri),METHOD_INVOCATION, line no: 44, 0.025454545454545452, 0.12727272727272726, 0.2
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,contentType=command.getContentType(),ASSIGNMENT, line no: 75, 0.03333333333333333, 0.2, 0.16666666666666666
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,command.setResponse(HttpCommand.RES_400),METHOD_INVOCATION, line no: 46, 0.02727272727272727, 0.16363636363636364, 0.16666666666666666
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,command.setResponse(HttpCommand.RES_500),METHOD_INVOCATION, line no: 49, 0.02727272727272727, 0.16363636363636364, 0.16666666666666666
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,data=stringToBytes(simpleValue),ASSIGNMENT, line no: 77, 0.02727272727272727, 0.16363636363636364, 0.16666666666666666
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,command.setResponse(HttpCommand.RES_503),METHOD_INVOCATION, line no: 84, 0.02727272727272727, 0.16363636363636364, 0.16666666666666666
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,handleManagementCenterUrlChange(command),METHOD_INVOCATION, line no: 42, 0.02181818181818182, 0.10909090909090909, 0.2
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,handle(command),METHOD_INVOCATION, line no: 118, 0.02181818181818182, 0.10909090909090909, 0.2
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,handleMap(command uri),METHOD_INVOCATION, line no: 40, 0.02121212121212121, 0.12727272727272726, 0.16666666666666666
+textCommandService.put(mapName key new RestValue(data command.getContentType()) 0),METHOD_INVOCATION, line no: 113,handleQueue(command uri),METHOD_INVOCATION, line no: 44, 0.02121212121212121, 0.12727272727272726, 0.16666666666666666
 textCommandService,SIMPLE_NAME, line no: 113,com.hazelcast.ascii.TextCommandService,QUALIFIED_NAME, line no: 19, 0.017857142857142856, 0.017857142857142856, 1.0
 mapName,SIMPLE_NAME, line no: 113,"text/plain",STRING_LITERAL, line no: 30, 0.017857142857142856, 0.017857142857142856, 1.0
 key,SIMPLE_NAME, line no: 113,"text/plain",STRING_LITERAL, line no: 30, 0.017857142857142856, 0.017857142857142856, 1.0

@@ -11,7 +11,6 @@ subscriptions.length,QUALIFIED_NAME, line no: 75,idx,SIMPLE_NAME, line no: 59, 1
 subscriptions.length,QUALIFIED_NAME, line no: 75,length,SIMPLE_NAME, line no: 59, 1.0, 0.6818181818181818, 1.0
 subscriptions.length,QUALIFIED_NAME, line no: 75,1,NUMBER_LITERAL, line no: 60, 1.0, 0.6818181818181818, 1.0
 subscriptions.length,QUALIFIED_NAME, line no: 75,subscriptions.length == 1,INFIX_EXPRESSION, line no: 67, 1.0, 1.0, 1.0
-subscriptions.length,QUALIFIED_NAME, line no: 75,subscriptions[0],ARRAY_ACCESS, line no: 67, 1.0, 1.0, 1.0
 subscriptions.length,QUALIFIED_NAME, line no: 75,subscriptions.length == 0,INFIX_EXPRESSION, line no: 67, 1.0, 1.0, 1.0
 subscriptions.length,QUALIFIED_NAME, line no: 75,new Subscription[subscriptions.length - 1],ARRAY_CREATION, line no: 70, 1.0, 1.0, 1.0
 subscriptions.length,QUALIFIED_NAME, line no: 75,subscriptions.length - 1,INFIX_EXPRESSION, line no: 70, 1.0, 1.0, 1.0
@@ -27,9 +26,18 @@ idx,SIMPLE_NAME, line no: 75,idx++,POSTFIX_EXPRESSION, line no: 79, 0.8636363636
 length,SIMPLE_NAME, line no: 75,idx++,POSTFIX_EXPRESSION, line no: 79, 0.8260869565217391, 0.8260869565217391, 1.0
 idx,SIMPLE_NAME, line no: 75,idx + 1,INFIX_EXPRESSION, line no: 60, 0.7272727272727273, 0.7272727272727273, 1.0
 length,SIMPLE_NAME, line no: 75,idx + 1,INFIX_EXPRESSION, line no: 60, 0.6956521739130435, 0.6956521739130435, 1.0
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,subscriptions.length,QUALIFIED_NAME, line no: 59, 0.6666666666666666, 0.6666666666666666, 0.6666666666666666
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,subscriptions.length == 1,INFIX_EXPRESSION, line no: 67, 0.6666666666666666, 1.0, 0.6666666666666666
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,subscriptions.length == 0,INFIX_EXPRESSION, line no: 67, 0.6666666666666666, 1.0, 0.6666666666666666
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,new Subscription[subscriptions.length - 1],ARRAY_CREATION, line no: 70, 0.6666666666666666, 1.0, 0.6666666666666666
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,subscriptions.length - 1,INFIX_EXPRESSION, line no: 70, 0.6666666666666666, 1.0, 0.6666666666666666
 idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,isEmpty,SIMPLE_NAME, line no: 180, 0.6666666666666666, 0.6666666666666666, 1.0
+subscriptions.length,QUALIFIED_NAME, line no: 75,(subscriptions.length == 1 && subscriptions[0].equals(s)) || subscriptions.length == 0,INFIX_EXPRESSION, line no: 67, 0.6666666666666666, 1.0, 0.6666666666666666
+subscriptions.length,QUALIFIED_NAME, line no: 75,(subscriptions.length == 1 && subscriptions[0].equals(s)),PARENTHESIZED_EXPRESSION, line no: 67, 0.6666666666666666, 1.0, 0.6666666666666666
+subscriptions.length,QUALIFIED_NAME, line no: 75,subscriptions.length == 1 && subscriptions[0].equals(s),INFIX_EXPRESSION, line no: 67, 0.6666666666666666, 1.0, 0.6666666666666666
 subscriptions,SIMPLE_NAME, line no: 75,new Subscription[idx + 1],ARRAY_CREATION, line no: 60, 0.6521739130434783, 0.6521739130434783, 1.0
 subscriptions,SIMPLE_NAME, line no: 75,oldState.subscriptions,QUALIFIED_NAME, line no: 153, 0.6521739130434783, 0.6521739130434783, 1.0
+subscriptions.length,QUALIFIED_NAME, line no: 75,idx == subscriptions.length,INFIX_EXPRESSION, line no: 75, 0.6363636363636364, 0.9545454545454546, 0.6666666666666666
 idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,compareAndSet,SIMPLE_NAME, line no: 123, 0.6190476190476191, 0.6190476190476191, 1.0
 idx,SIMPLE_NAME, line no: 75,es.size(),METHOD_INVOCATION, line no: 181, 0.5909090909090909, 0.5909090909090909, 1.0
 idx,SIMPLE_NAME, line no: 75,size,SIMPLE_NAME, line no: 181, 0.5909090909090909, 0.5909090909090909, 1.0
@@ -37,48 +45,47 @@ length,SIMPLE_NAME, line no: 75,es.size(),METHOD_INVOCATION, line no: 181, 0.565
 length,SIMPLE_NAME, line no: 75,size,SIMPLE_NAME, line no: 181, 0.5652173913043478, 0.5652173913043478, 1.0
 subscriptions.length,QUALIFIED_NAME, line no: 75,size,SIMPLE_NAME, line no: 181, 0.5454545454545454, 0.5454545454545454, 1.0
 subscriptions,SIMPLE_NAME, line no: 75,newSub2,SIMPLE_NAME, line no: 87, 0.5217391304347826, 0.4782608695652174, 1.0
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,subscriptions.length,QUALIFIED_NAME, line no: 59, 0.5, 0.6666666666666666, 0.5
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,subscriptions.length == 1,INFIX_EXPRESSION, line no: 67, 0.5, 1.0, 0.5
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,subscriptions[0],ARRAY_ACCESS, line no: 67, 0.5, 1.0, 0.5
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,subscriptions.length == 0,INFIX_EXPRESSION, line no: 67, 0.5, 1.0, 0.5
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,new Subscription[subscriptions.length - 1],ARRAY_CREATION, line no: 70, 0.5, 1.0, 0.5
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,subscriptions.length - 1,INFIX_EXPRESSION, line no: 70, 0.5, 1.0, 0.5
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,idx == 0,INFIX_EXPRESSION, line no: 82, 0.5, 1.0, 0.5
-subscriptions.length,QUALIFIED_NAME, line no: 75,(subscriptions.length == 1 && subscriptions[0].equals(s)) || subscriptions.length == 0,INFIX_EXPRESSION, line no: 67, 0.5, 1.0, 0.5
-subscriptions.length,QUALIFIED_NAME, line no: 75,(subscriptions.length == 1 && subscriptions[0].equals(s)),PARENTHESIZED_EXPRESSION, line no: 67, 0.5, 1.0, 0.5
-subscriptions.length,QUALIFIED_NAME, line no: 75,subscriptions.length == 1 && subscriptions[0].equals(s),INFIX_EXPRESSION, line no: 67, 0.5, 1.0, 0.5
-subscriptions.length,QUALIFIED_NAME, line no: 75,subscriptions[0].equals(s),METHOD_INVOCATION, line no: 67, 0.5, 1.0, 0.5
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,(subscriptions.length == 1 && subscriptions[0].equals(s)) || subscriptions.length == 0,INFIX_EXPRESSION, line no: 67, 0.5, 1.0, 0.5
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,(subscriptions.length == 1 && subscriptions[0].equals(s)),PARENTHESIZED_EXPRESSION, line no: 67, 0.5, 1.0, 0.5
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,subscriptions.length == 1 && subscriptions[0].equals(s),INFIX_EXPRESSION, line no: 67, 0.5, 1.0, 0.5
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,idx < newSubscriptions.length,INFIX_EXPRESSION, line no: 86, 0.5, 1.0, 0.5
+subscriptions.length,QUALIFIED_NAME, line no: 75,subscriptions[0],ARRAY_ACCESS, line no: 67, 0.5, 1.0, 0.5
 subscriptions,SIMPLE_NAME, line no: 75,s0,SIMPLE_NAME, line no: 40, 0.4782608695652174, 0.4782608695652174, 1.0
 subscriptions,SIMPLE_NAME, line no: 75,new Subscription[0],ARRAY_CREATION, line no: 40, 0.4782608695652174, 0.4782608695652174, 1.0
 subscriptions,SIMPLE_NAME, line no: 75,new Subscription[idx],ARRAY_CREATION, line no: 87, 0.4782608695652174, 0.4782608695652174, 1.0
-subscriptions.length,QUALIFIED_NAME, line no: 75,idx == subscriptions.length,INFIX_EXPRESSION, line no: 75, 0.4772727272727273, 0.9545454545454546, 0.5
 idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,false,BOOLEAN_LITERAL, line no: 41, 0.47619047619047616, 0.47619047619047616, 1.0
 idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,true,BOOLEAN_LITERAL, line no: 42, 0.47619047619047616, 0.47619047619047616, 1.0
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,idx++,POSTFIX_EXPRESSION, line no: 79, 0.4523809523809524, 0.9047619047619048, 0.5
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,System.arraycopy(subscriptions 0 newSubscriptions 0 idx),METHOD_INVOCATION, line no: 61, 0.4444444444444444, 0.6666666666666666, 0.6666666666666666
 idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,u,SIMPLE_NAME, line no: 49, 0.42857142857142855, 0.047619047619047616, 1.0
 subscriptions,SIMPLE_NAME, line no: 75,s,SIMPLE_NAME, line no: 49, 0.391304347826087, 0.043478260869565216, 1.0
-subscriptions.length,QUALIFIED_NAME, line no: 75,this.subscriptions,FIELD_ACCESS, line no: 51, 0.36363636363636365, 0.36363636363636365, 1.0
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,idx + 1,INFIX_EXPRESSION, line no: 60, 0.35714285714285715, 0.7142857142857143, 0.5
 subscriptions,SIMPLE_NAME, line no: 75,this.subscriptions=s,ASSIGNMENT, line no: 51, 0.34782608695652173, 0.34782608695652173, 1.0
 subscriptions,SIMPLE_NAME, line no: 75,this.subscriptions,FIELD_ACCESS, line no: 51, 0.34782608695652173, 0.34782608695652173, 1.0
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,new Subscription[idx + 1],ARRAY_CREATION, line no: 60, 0.3333333333333333, 0.6666666666666666, 0.5
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,(subscriptions.length == 1 && subscriptions[0].equals(s)) || subscriptions.length == 0,INFIX_EXPRESSION, line no: 67, 0.3333333333333333, 1.0, 0.3333333333333333
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,(subscriptions.length == 1 && subscriptions[0].equals(s)),PARENTHESIZED_EXPRESSION, line no: 67, 0.3333333333333333, 1.0, 0.3333333333333333
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,subscriptions.length == 1 && subscriptions[0].equals(s),INFIX_EXPRESSION, line no: 67, 0.3333333333333333, 1.0, 0.3333333333333333
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,subscriptions[0].equals(s),METHOD_INVOCATION, line no: 67, 0.3333333333333333, 1.0, 0.3333333333333333
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,idx < newSubscriptions.length,INFIX_EXPRESSION, line no: 86, 0.3333333333333333, 1.0, 0.3333333333333333
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,System.arraycopy(subscriptions 0 newSubscriptions 0 idx),METHOD_INVOCATION, line no: 61, 0.3333333333333333, 0.6666666666666666, 0.5
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,subscriptions[0],ARRAY_ACCESS, line no: 67, 0.3333333333333333, 1.0, 0.3333333333333333
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,idx == 0,INFIX_EXPRESSION, line no: 82, 0.3333333333333333, 1.0, 0.3333333333333333
 idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,add,SIMPLE_NAME, line no: 177, 0.3333333333333333, 0.3333333333333333, 1.0
-subscriptions.length,QUALIFIED_NAME, line no: 75,unsubscribeFromAll(oldState.subscriptions),METHOD_INVOCATION, line no: 153, 0.3181818181818182, 0.6363636363636364, 0.5
-subscriptions.length,QUALIFIED_NAME, line no: 75,oldState.subscriptions,QUALIFIED_NAME, line no: 153, 0.3181818181818182, 0.6363636363636364, 0.5
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,newSubscriptions[idx],ARRAY_ACCESS, line no: 62, 0.30158730158730157, 0.6666666666666666, 0.3333333333333333
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,newSubscriptions[idx]=_s,ASSIGNMENT, line no: 78, 0.30158730158730157, 0.9047619047619048, 0.3333333333333333
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,new Subscription[idx],ARRAY_CREATION, line no: 87, 0.23809523809523808, 0.47619047619047616, 0.5
-subscriptions.length,QUALIFIED_NAME, line no: 75,System.arraycopy(subscriptions 0 newSubscriptions 0 idx),METHOD_INVOCATION, line no: 61, 0.2121212121212121, 0.6363636363636364, 0.3333333333333333
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,unsubscribeFromAll(oldState.subscriptions),METHOD_INVOCATION, line no: 153, 0.20634920634920634, 0.6190476190476191, 0.3333333333333333
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,oldState.subscriptions,QUALIFIED_NAME, line no: 153, 0.20634920634920634, 0.6190476190476191, 0.3333333333333333
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,this.subscriptions,FIELD_ACCESS, line no: 51, 0.19047619047619047, 0.38095238095238093, 0.5
-subscriptions.length,QUALIFIED_NAME, line no: 75,this.subscriptions=s,ASSIGNMENT, line no: 51, 0.18181818181818182, 0.36363636363636365, 0.5
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,newSubscriptions[idx]=s,ASSIGNMENT, line no: 62, 0.16666666666666666, 0.6666666666666666, 0.25
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,System.arraycopy(newSubscriptions 0 newSub2 0 idx),METHOD_INVOCATION, line no: 88, 0.13095238095238096, 0.5238095238095238, 0.25
-idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,this.subscriptions=s,ASSIGNMENT, line no: 51, 0.12698412698412698, 0.38095238095238093, 0.3333333333333333
+subscriptions.length,QUALIFIED_NAME, line no: 75,subscriptions[0].equals(s),METHOD_INVOCATION, line no: 67, 0.3333333333333333, 1.0, 0.3333333333333333
+subscriptions.length,QUALIFIED_NAME, line no: 75,newSubscriptions.length,QUALIFIED_NAME, line no: 86, 0.3333333333333333, 1.0, 0.3333333333333333
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,idx++,POSTFIX_EXPRESSION, line no: 79, 0.30158730158730157, 0.9047619047619048, 0.3333333333333333
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,subscriptions[0].equals(s),METHOD_INVOCATION, line no: 67, 0.25, 1.0, 0.25
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,newSubscriptions.length,QUALIFIED_NAME, line no: 86, 0.25, 1.0, 0.25
+subscriptions.length,QUALIFIED_NAME, line no: 75,idx < newSubscriptions.length,INFIX_EXPRESSION, line no: 86, 0.25, 1.0, 0.25
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,idx + 1,INFIX_EXPRESSION, line no: 60, 0.23809523809523808, 0.7142857142857143, 0.3333333333333333
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,newSubscriptions[idx],ARRAY_ACCESS, line no: 62, 0.2261904761904762, 0.6666666666666666, 0.25
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,new Subscription[idx + 1],ARRAY_CREATION, line no: 60, 0.2222222222222222, 0.6666666666666666, 0.3333333333333333
+subscriptions.length,QUALIFIED_NAME, line no: 75,unsubscribeFromAll(oldState.subscriptions),METHOD_INVOCATION, line no: 153, 0.2121212121212121, 0.6363636363636364, 0.3333333333333333
+subscriptions.length,QUALIFIED_NAME, line no: 75,oldState.subscriptions,QUALIFIED_NAME, line no: 153, 0.2121212121212121, 0.6363636363636364, 0.3333333333333333
+subscriptions.length,QUALIFIED_NAME, line no: 75,this.subscriptions,FIELD_ACCESS, line no: 51, 0.18181818181818182, 0.36363636363636365, 0.5
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,newSubscriptions[idx]=_s,ASSIGNMENT, line no: 78, 0.18095238095238098, 0.9047619047619048, 0.2
+subscriptions.length,QUALIFIED_NAME, line no: 75,System.arraycopy(subscriptions 0 newSubscriptions 0 idx),METHOD_INVOCATION, line no: 61, 0.1590909090909091, 0.6363636363636364, 0.25
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,new Subscription[idx],ARRAY_CREATION, line no: 87, 0.15873015873015872, 0.47619047619047616, 0.3333333333333333
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,unsubscribeFromAll(oldState.subscriptions),METHOD_INVOCATION, line no: 153, 0.15476190476190477, 0.6190476190476191, 0.25
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,oldState.subscriptions,QUALIFIED_NAME, line no: 153, 0.15476190476190477, 0.6190476190476191, 0.25
+subscriptions.length,QUALIFIED_NAME, line no: 75,new State(false subscriptions),CLASS_INSTANCE_CREATION, line no: 104, 0.13636363636363635, 0.2727272727272727, 0.5
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,newSubscriptions[idx]=s,ASSIGNMENT, line no: 62, 0.13333333333333333, 0.6666666666666666, 0.2
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,this.subscriptions,FIELD_ACCESS, line no: 51, 0.12698412698412698, 0.38095238095238093, 0.3333333333333333
+subscriptions.length,QUALIFIED_NAME, line no: 75,this.subscriptions=s,ASSIGNMENT, line no: 51, 0.12121212121212122, 0.36363636363636365, 0.3333333333333333
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,System.arraycopy(newSubscriptions 0 newSub2 0 idx),METHOD_INVOCATION, line no: 88, 0.10476190476190478, 0.5238095238095238, 0.2
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,this.subscriptions=s,ASSIGNMENT, line no: 51, 0.09523809523809523, 0.38095238095238093, 0.25
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,new State(false subscriptions),CLASS_INSTANCE_CREATION, line no: 104, 0.09523809523809523, 0.2857142857142857, 0.3333333333333333
+subscriptions.length,QUALIFIED_NAME, line no: 75,state.set(new State(false subscriptions)),METHOD_INVOCATION, line no: 104, 0.0909090909090909, 0.2727272727272727, 0.3333333333333333
+idx == subscriptions.length,INFIX_EXPRESSION, line no: 75,state.set(new State(false subscriptions)),METHOD_INVOCATION, line no: 104, 0.07142857142857142, 0.2857142857142857, 0.25

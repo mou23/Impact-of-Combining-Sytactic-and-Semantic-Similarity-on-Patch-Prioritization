@@ -143,7 +143,6 @@ worldsPath.resolve(getChunkFilename(chunkPos)),METHOD_INVOCATION, line no: 127,g
 worldsPath.resolve(getChunkFilename(chunkPos)),METHOD_INVOCATION, line no: 127,getWorldTempPath().resolve(getChunkFilename(chunkPos)),METHOD_INVOCATION, line no: 131, 0.5, 1.0, 0.5
 getChunkFilename(chunkPos),METHOD_INVOCATION, line no: 127,worldsPath.resolve(getChunkFilename(chunkPos)),METHOD_INVOCATION, line no: 127, 0.45, 0.9, 0.5
 worldsPath.resolve(getChunkFilename(chunkPos)),METHOD_INVOCATION, line no: 127,this.worldsPath,FIELD_ACCESS, line no: 48, 0.3888888888888889, 0.7777777777777778, 0.5
-worldsPath.resolve(getChunkFilename(chunkPos)),METHOD_INVOCATION, line no: 127,worldsPath.resolve(TerasologyConstants.MAIN_WORLD),METHOD_INVOCATION, line no: 49, 0.3888888888888889, 0.7777777777777778, 0.5
 worldsPath.resolve(getChunkFilename(chunkPos)),METHOD_INVOCATION, line no: 127,new Vector3i(chunkPos),CLASS_INSTANCE_CREATION, line no: 112, 0.3333333333333333, 0.6666666666666666, 0.5
 worldsPath.resolve(getChunkFilename(chunkPos)),METHOD_INVOCATION, line no: 127,chunkPos.x < 0,INFIX_EXPRESSION, line no: 114, 0.3333333333333333, 0.6666666666666666, 0.5
 worldsPath.resolve(getChunkFilename(chunkPos)),METHOD_INVOCATION, line no: 127,chunkPos.x,QUALIFIED_NAME, line no: 114, 0.3333333333333333, 0.6666666666666666, 0.5
@@ -151,8 +150,9 @@ worldsPath.resolve(getChunkFilename(chunkPos)),METHOD_INVOCATION, line no: 127,c
 worldsPath.resolve(getChunkFilename(chunkPos)),METHOD_INVOCATION, line no: 127,chunkPos.y,QUALIFIED_NAME, line no: 117, 0.3333333333333333, 0.6666666666666666, 0.5
 worldsPath.resolve(getChunkFilename(chunkPos)),METHOD_INVOCATION, line no: 127,chunkPos.z < 0,INFIX_EXPRESSION, line no: 120, 0.3333333333333333, 0.6666666666666666, 0.5
 worldsPath.resolve(getChunkFilename(chunkPos)),METHOD_INVOCATION, line no: 127,chunkPos.z,QUALIFIED_NAME, line no: 120, 0.3333333333333333, 0.6666666666666666, 0.5
-worldsPath.resolve(getChunkFilename(chunkPos)),METHOD_INVOCATION, line no: 127,this.worldPath=worldsPath.resolve(TerasologyConstants.MAIN_WORLD),ASSIGNMENT, line no: 49, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
+worldsPath.resolve(getChunkFilename(chunkPos)),METHOD_INVOCATION, line no: 127,worldsPath.resolve(TerasologyConstants.MAIN_WORLD),METHOD_INVOCATION, line no: 49, 0.25925925925925924, 0.7777777777777778, 0.3333333333333333
 worldsPath.resolve(getChunkFilename(chunkPos)),METHOD_INVOCATION, line no: 127,this.worldsPath=storagePathDirectory.resolve(WORLDS_PATH),ASSIGNMENT, line no: 48, 0.19444444444444445, 0.7777777777777778, 0.25
+worldsPath.resolve(getChunkFilename(chunkPos)),METHOD_INVOCATION, line no: 127,this.worldPath=worldsPath.resolve(TerasologyConstants.MAIN_WORLD),ASSIGNMENT, line no: 49, 0.19444444444444445, 0.7777777777777778, 0.25
 worldsPath.resolve(getChunkFilename(chunkPos)),METHOD_INVOCATION, line no: 127,Path,SIMPLE_NAME, line no: 22, 0.1111111111111111, 0.1111111111111111, 1.0
 worldsPath.resolve(getChunkFilename(chunkPos)),METHOD_INVOCATION, line no: 127,getPlayersPath,SIMPLE_NAME, line no: 56, 0.1111111111111111, 0.1111111111111111, 1.0
 worldsPath.resolve(getChunkFilename(chunkPos)),METHOD_INVOCATION, line no: 127,getWorldsPath,SIMPLE_NAME, line no: 65, 0.1111111111111111, 0.1111111111111111, 1.0

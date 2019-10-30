@@ -243,7 +243,6 @@ buffer.append("\n  }"),METHOD_INVOCATION, line no: 194,buffer.append("\n    \"ve
 "\n  }",STRING_LITERAL, line no: 194,className,SIMPLE_NAME, line no: 445, 0.19823788546255505, 0.004405286343612335, 1.0
 "\n  }",STRING_LITERAL, line no: 194,"java.lang.Object",STRING_LITERAL, line no: 446, 0.19823788546255505, 0.19823788546255505, 1.0
 buffer.append("\n  }"),METHOD_INVOCATION, line no: 194,buffer.append("\n    "),METHOD_INVOCATION, line no: 191, 0.19469026548672566, 0.168141592920354, 1.0
-buffer.append("\n  }"),METHOD_INVOCATION, line no: 194,buffer.append(JsonSchemaHelper.toJson(entry.getName() entry.getType() entry.getDefaultValue() entry.getDocumentationWithNotes() entry.isEnumType() entry.getEnums())),METHOD_INVOCATION, line no: 206, 0.19469026548672566, 0.19469026548672566, 1.0
 buffer,SIMPLE_NAME, line no: 194,buffer.append("\n    "),METHOD_INVOCATION, line no: 191, 0.19383259911894274, 0.16740088105726872, 1.0
 buffer,SIMPLE_NAME, line no: 194,buffer.append(JsonSchemaHelper.toJson(entry.getName() entry.getType() entry.getDefaultValue() entry.getDocumentationWithNotes() entry.isEnumType() entry.getEnums())),METHOD_INVOCATION, line no: 206, 0.19383259911894274, 0.19383259911894274, 1.0
 append,SIMPLE_NAME, line no: 194,buffer.append("\n    "),METHOD_INVOCATION, line no: 191, 0.19383259911894274, 0.16740088105726872, 1.0
@@ -261,7 +260,6 @@ append,SIMPLE_NAME, line no: 194,buffer.append(JsonSchemaHelper.toJson(entry.get
 "\n  }",STRING_LITERAL, line no: 194,JsonSchemaHelper.toJson(path.getName() path.getType() "" path.getDocumentation() false null),METHOD_INVOCATION, line no: 192, 0.17180616740088106, 0.17180616740088106, 1.0
 "\n  }",STRING_LITERAL, line no: 194,value=value.trim().replaceAll("\n" ""),ASSIGNMENT, line no: 533, 0.17180616740088106, 0.17180616740088106, 1.0
 "\n  }",STRING_LITERAL, line no: 194,answer.put(key.trim() value),METHOD_INVOCATION, line no: 534, 0.17180616740088106, 0.17180616740088106, 1.0
-buffer.append("\n  }"),METHOD_INVOCATION, line no: 194,buffer.append(JsonSchemaHelper.toJson(path.getName() path.getType() "" path.getDocumentation() false null)),METHOD_INVOCATION, line no: 192, 0.168141592920354, 0.168141592920354, 1.0
 buffer,SIMPLE_NAME, line no: 194,buffer.append(JsonSchemaHelper.toJson(path.getName() path.getType() "" path.getDocumentation() false null)),METHOD_INVOCATION, line no: 192, 0.16740088105726872, 0.16740088105726872, 1.0
 append,SIMPLE_NAME, line no: 194,buffer.append(JsonSchemaHelper.toJson(path.getName() path.getType() "" path.getDocumentation() false null)),METHOD_INVOCATION, line no: 192, 0.16740088105726872, 0.16740088105726872, 1.0
 "\n  }",STRING_LITERAL, line no: 194,consumerClassName=consumerType.toString(),ASSIGNMENT, line no: 137, 0.16740088105726872, 0.16740088105726872, 1.0
@@ -312,6 +310,7 @@ append,SIMPLE_NAME, line no: 194,new StringBuilder(),CLASS_INSTANCE_CREATION, li
 "\n  }",STRING_LITERAL, line no: 194,classDoc=classDoc.trim(),ASSIGNMENT, line no: 219, 0.10572687224669604, 0.10572687224669604, 1.0
 "\n  }",STRING_LITERAL, line no: 194,"<p>" + classDoc + "</p>",INFIX_EXPRESSION, line no: 220, 0.10572687224669604, 0.10572687224669604, 1.0
 "\n  }",STRING_LITERAL, line no: 194,"<h2>" + scheme + " consumer"+ "</h2>",INFIX_EXPRESSION, line no: 140, 0.1013215859030837, 0.1013215859030837, 1.0
+buffer.append("\n  }"),METHOD_INVOCATION, line no: 194,buffer.append(JsonSchemaHelper.toJson(entry.getName() entry.getType() entry.getDefaultValue() entry.getDocumentationWithNotes() entry.isEnumType() entry.getEnums())),METHOD_INVOCATION, line no: 206, 0.09734513274336283, 0.19469026548672566, 0.5
 "\n  }",STRING_LITERAL, line no: 194,sanitizeDescription,SIMPLE_NAME, line no: 273, 0.09691629955947137, 0.06167400881057269, 1.0
 "\n  }",STRING_LITERAL, line no: 194,"class",STRING_LITERAL, line no: 263, 0.09251101321585903, 0.09251101321585903, 1.0
 "\n  }",STRING_LITERAL, line no: 194,sanitizeDescription(doc true),METHOD_INVOCATION, line no: 273, 0.09251101321585903, 0.05726872246696035, 1.0
@@ -319,6 +318,7 @@ append,SIMPLE_NAME, line no: 194,new StringBuilder(),CLASS_INSTANCE_CREATION, li
 "\n  }",STRING_LITERAL, line no: 194,doc=sanitizeDescription(doc true),ASSIGNMENT, line no: 302, 0.0881057268722467, 0.0881057268722467, 1.0
 "\n  }",STRING_LITERAL, line no: 194,elementUtils.getDocComment(method),METHOD_INVOCATION, line no: 342, 0.0881057268722467, 0.0881057268722467, 1.0
 "\n  }",STRING_LITERAL, line no: 194,superClassName,SIMPLE_NAME, line no: 434, 0.0881057268722467, 0.07929515418502203, 1.0
+buffer.append("\n  }"),METHOD_INVOCATION, line no: 194,buffer.append(JsonSchemaHelper.toJson(path.getName() path.getType() "" path.getDocumentation() false null)),METHOD_INVOCATION, line no: 192, 0.084070796460177, 0.168141592920354, 0.5
 "\n  }",STRING_LITERAL, line no: 194,superclass.toString(),METHOD_INVOCATION, line no: 434, 0.08370044052863436, 0.08370044052863436, 1.0
 "\n  }",STRING_LITERAL, line no: 194,val,SIMPLE_NAME, line no: 418, 0.07929515418502203, 0.07488986784140969, 1.0
 "\n  }",STRING_LITERAL, line no: 194,canonicalClassName(superclass.toString()),METHOD_INVOCATION, line no: 434, 0.07929515418502203, 0.07929515418502203, 1.0

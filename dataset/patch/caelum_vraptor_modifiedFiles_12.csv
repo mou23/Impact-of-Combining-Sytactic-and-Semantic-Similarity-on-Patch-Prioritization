@@ -33,6 +33,7 @@ originalPattern,SIMPLE_NAME, line no: 53,String,SIMPLE_NAME, line no: 44, 0.9649
 Matcher,SIMPLE_NAME, line no: 53,Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53, 0.9642857142857143, 0.9642857142857143, 1.0
 Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,Matcher,SIMPLE_NAME, line no: 31, 0.9642857142857143, 0.017857142857142856, 1.0
 "\\{(.+?)\\}",STRING_LITERAL, line no: 53,patternUri,SIMPLE_NAME, line no: 50, 0.9482758620689655, 0.9482758620689655, 1.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,this.originalPattern=originalPattern,ASSIGNMENT, line no: 49, 0.9464285714285714, 0.9464285714285714, 1.0
 Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,this.originalPattern,FIELD_ACCESS, line no: 49, 0.9464285714285714, 0.9464285714285714, 1.0
 Pattern,SIMPLE_NAME, line no: 53,pattern,SIMPLE_NAME, line no: 45, 0.9310344827586207, 0.034482758620689655, 1.0
 Pattern,SIMPLE_NAME, line no: 53,Pattern.compile(patternUri),METHOD_INVOCATION, line no: 57, 0.9310344827586207, 0.9310344827586207, 1.0
@@ -82,7 +83,6 @@ Matcher,SIMPLE_NAME, line no: 53,pattern.matcher(uri),METHOD_INVOCATION, line no
 "\\{(.+?)\\}",STRING_LITERAL, line no: 53,originalPattern.replaceAll("\\.\\*" ""),METHOD_INVOCATION, line no: 61, 0.6379310344827587, 0.6379310344827587, 1.0
 originalPattern,SIMPLE_NAME, line no: 53,key,SIMPLE_NAME, line no: 62, 0.6140350877192983, 0.6140350877192983, 1.0
 "\\{(.+?)\\}",STRING_LITERAL, line no: 53,key,SIMPLE_NAME, line no: 62, 0.603448275862069, 0.603448275862069, 1.0
-Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,this.originalPattern=originalPattern,ASSIGNMENT, line no: 49, 0.4732142857142857, 0.9464285714285714, 0.5
 originalPattern,SIMPLE_NAME, line no: 53,replace,SIMPLE_NAME, line no: 55, 0.45614035087719296, 0.2982456140350877, 1.0
 originalPattern,SIMPLE_NAME, line no: 53,"{",STRING_LITERAL, line no: 64, 0.45614035087719296, 0.45614035087719296, 1.0
 originalPattern,SIMPLE_NAME, line no: 53,"}",STRING_LITERAL, line no: 64, 0.45614035087719296, 0.45614035087719296, 1.0

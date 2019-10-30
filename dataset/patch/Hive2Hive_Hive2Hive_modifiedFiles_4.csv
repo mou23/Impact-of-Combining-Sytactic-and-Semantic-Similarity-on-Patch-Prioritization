@@ -36,8 +36,6 @@ isShared,SIMPLE_NAME, line no: 260,addAll,SIMPLE_NAME, line no: 188, 0.5625, 0.5
 isShared,SIMPLE_NAME, line no: 260,permission.getPermission() == PermissionType.WRITE,INFIX_EXPRESSION, line no: 213, 0.5625, 0.5625, 1.0
 parent.isShared,QUALIFIED_NAME, line no: 260,equalsIgnoreCase,SIMPLE_NAME, line no: 93, 0.5333333333333333, 0.5333333333333333, 1.0
 parent.isShared,QUALIFIED_NAME, line no: 260,isSharedOrHasSharedChildren,SIMPLE_NAME, line no: 110, 0.5333333333333333, 0.5333333333333333, 1.0
-parent.isShared,QUALIFIED_NAME, line no: 260,this.isShared=true,ASSIGNMENT, line no: 114, 0.5333333333333333, 0.5333333333333333, 1.0
-parent.isShared,QUALIFIED_NAME, line no: 260,this.isShared,FIELD_ACCESS, line no: 114, 0.5333333333333333, 0.5333333333333333, 1.0
 parent.isShared,QUALIFIED_NAME, line no: 260,addAll,SIMPLE_NAME, line no: 188, 0.5333333333333333, 0.5333333333333333, 1.0
 isShared,SIMPLE_NAME, line no: 260,getChildByName(child.getName()) == null,INFIX_EXPRESSION, line no: 66, 0.5, 0.5, 1.0
 isShared,SIMPLE_NAME, line no: 260,children.add(child),METHOD_INVOCATION, line no: 67, 0.5, 0.5, 1.0
@@ -53,13 +51,22 @@ isShared,SIMPLE_NAME, line no: 260,children.remove(getChildByName(child.getName(
 isShared,SIMPLE_NAME, line no: 260,iter.hasNext(),METHOD_INVOCATION, line no: 145, 0.4375, 0.4375, 1.0
 isShared,SIMPLE_NAME, line no: 260,hasNext,SIMPLE_NAME, line no: 145, 0.4375, 0.4375, 1.0
 isShared,SIMPLE_NAME, line no: 260,other.getName() == null,INFIX_EXPRESSION, line no: 298, 0.4375, 0.4375, 1.0
-parent.isShared,QUALIFIED_NAME, line no: 260,this.isShared=false,ASSIGNMENT, line no: 122, 0.4, 0.4, 1.0
 parent.isShared,QUALIFIED_NAME, line no: 260,hasNext,SIMPLE_NAME, line no: 145, 0.4, 0.4, 1.0
 isShared,SIMPLE_NAME, line no: 260,this.isShared=false,ASSIGNMENT, line no: 122, 0.375, 0.375, 1.0
+parent.isShared,QUALIFIED_NAME, line no: 260,parent.getCalculatedUserPermissions(),METHOD_INVOCATION, line no: 172, 0.3333333333333333, 0.6666666666666666, 0.5
 isShared,SIMPLE_NAME, line no: 260,users.add(permission.getUserId()),METHOD_INVOCATION, line no: 183, 0.3125, 0.3125, 1.0
 isShared,SIMPLE_NAME, line no: 260,getProtectionKeys() != null,INFIX_EXPRESSION, line no: 197, 0.3125, 0.3125, 1.0
+parent.isShared,QUALIFIED_NAME, line no: 260,parent != null,INFIX_EXPRESSION, line no: 171, 0.3, 0.6, 0.5
+parent.isShared,QUALIFIED_NAME, line no: 260,this.isShared=true,ASSIGNMENT, line no: 114, 0.26666666666666666, 0.5333333333333333, 0.5
+parent.isShared,QUALIFIED_NAME, line no: 260,this.isShared,FIELD_ACCESS, line no: 114, 0.26666666666666666, 0.5333333333333333, 0.5
+parent.isShared,QUALIFIED_NAME, line no: 260,parent.getCalculatedUserList(),METHOD_INVOCATION, line no: 188, 0.26666666666666666, 0.5333333333333333, 0.5
 isShared,SIMPLE_NAME, line no: 260,userPermissions.add(userPermission),METHOD_INVOCATION, line no: 135, 0.25, 0.25, 1.0
+parent.isShared,QUALIFIED_NAME, line no: 260,this.isShared=false,ASSIGNMENT, line no: 122, 0.2, 0.4, 0.5
+parent.isShared,QUALIFIED_NAME, line no: 260,parent.getProtectionKeys(),METHOD_INVOCATION, line no: 240, 0.2, 0.4, 0.5
+parent.isShared,QUALIFIED_NAME, line no: 260,parent != null && userPermissions.isEmpty(),INFIX_EXPRESSION, line no: 171, 0.19999999999999998, 0.6, 0.3333333333333333
 isShared,SIMPLE_NAME, line no: 260,parent == null,INFIX_EXPRESSION, line no: 47, 0.1875, 0.1875, 1.0
+parent.isShared,QUALIFIED_NAME, line no: 260,users.addAll(parent.getCalculatedUserList()),METHOD_INVOCATION, line no: 188, 0.17777777777777776, 0.5333333333333333, 0.3333333333333333
+parent.isShared,QUALIFIED_NAME, line no: 260,parent == null,INFIX_EXPRESSION, line no: 47, 0.1, 0.2, 0.5
 parent.isShared,QUALIFIED_NAME, line no: 260,canWrite,SIMPLE_NAME, line no: 194, 0.06666666666666667, 0.06666666666666667, 1.0
 parent.isShared,QUALIFIED_NAME, line no: 260,getSharedFlag,SIMPLE_NAME, line no: 269, 0.06666666666666667, 0.06666666666666667, 1.0
 parent.isShared,QUALIFIED_NAME, line no: 260,isFolder,SIMPLE_NAME, line no: 274, 0.06666666666666667, 0.06666666666666667, 1.0

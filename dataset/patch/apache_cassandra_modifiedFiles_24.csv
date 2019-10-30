@@ -753,8 +753,6 @@ getText,SIMPLE_NAME, line no: 471,leftSpace + "  Column Name: " + columnName,INF
 getText,SIMPLE_NAME, line no: 471,"  Column Name: ",STRING_LITERAL, line no: 1247, 0.3146067415730337, 0.3146067415730337, 1.0
 getText,SIMPLE_NAME, line no: 471,columnLeftSpace + "Validation Class: " + columnDef.getValidation_class(),INFIX_EXPRESSION, line no: 1248, 0.3146067415730337, 0.3146067415730337, 1.0
 getText,SIMPLE_NAME, line no: 471,"Validation Class: ",STRING_LITERAL, line no: 1248, 0.3146067415730337, 0.3146067415730337, 1.0
-statement.getChild(0).getText(),METHOD_INVOCATION, line no: 471,CliCompiler.getColumnFamily(statement keyspacesMap.get(keySpace).cf_defs),METHOD_INVOCATION, line no: 725, 0.3020050125313283, 0.2669172932330827, 0.3333333333333333
-statement.getChild(0),METHOD_INVOCATION, line no: 471,CliCompiler.getColumnFamily(statement keyspacesMap.get(keySpace).cf_defs),METHOD_INVOCATION, line no: 725, 0.3008739076154806, 0.26591760299625467, 0.3333333333333333
 statement.getChild(0),METHOD_INVOCATION, line no: 471,idList,SIMPLE_NAME, line no: 1292, 0.2883895131086142, 0.2846441947565543, 1.0
 statement.getChild(0),METHOD_INVOCATION, line no: 471,options,SIMPLE_NAME, line no: 1607, 0.2883895131086142, 0.003745318352059925, 1.0
 statement,SIMPLE_NAME, line no: 471,idList,SIMPLE_NAME, line no: 1292, 0.2873134328358209, 0.2835820895522388, 1.0
@@ -801,6 +799,8 @@ getText,SIMPLE_NAME, line no: 471,currentStatement,SIMPLE_NAME, line no: 759, 0.
 String,SIMPLE_NAME, line no: 471,currentStatement,SIMPLE_NAME, line no: 759, 0.24436090225563908, 0.24060150375939848, 1.0
 columnFamily,SIMPLE_NAME, line no: 471,CliCompiler.getColumnFamily(columnFamily keyspacesMap.get(keySpace).cf_defs),METHOD_INVOCATION, line no: 975, 0.22932330827067668, 0.22932330827067668, 1.0
 getText,SIMPLE_NAME, line no: 471,CliCompiler.getColumnFamily(columnFamily keyspacesMap.get(keySpace).cf_defs),METHOD_INVOCATION, line no: 975, 0.22846441947565543, 0.22846441947565543, 1.0
+statement.getChild(0).getText(),METHOD_INVOCATION, line no: 471,CliCompiler.getColumnFamily(statement keyspacesMap.get(keySpace).cf_defs),METHOD_INVOCATION, line no: 725, 0.22650375939849623, 0.2669172932330827, 0.25
+statement.getChild(0),METHOD_INVOCATION, line no: 471,CliCompiler.getColumnFamily(statement keyspacesMap.get(keySpace).cf_defs),METHOD_INVOCATION, line no: 725, 0.22565543071161048, 0.26591760299625467, 0.25
 String,SIMPLE_NAME, line no: 471,CliCompiler.getColumnFamily(columnFamily keyspacesMap.get(keySpace).cf_defs),METHOD_INVOCATION, line no: 975, 0.22556390977443608, 0.22556390977443608, 1.0
 String,SIMPLE_NAME, line no: 471,keyspace,SIMPLE_NAME, line no: 210, 0.22180451127819548, 0.0037593984962406013, 1.0
 String,SIMPLE_NAME, line no: 471,formatSuperColumnName,SIMPLE_NAME, line no: 318, 0.22180451127819548, 0.22180451127819548, 1.0
@@ -1530,12 +1530,6 @@ String,SIMPLE_NAME, line no: 471,"LIMIT should be greater than zero.",STRING_LIT
 columnFamily,SIMPLE_NAME, line no: 471,"LIMIT should be greater than zero.",STRING_LITERAL, line no: 532, 0.03007518796992481, 0.03007518796992481, 1.0
 statement.getChild(0).getText(),METHOD_INVOCATION, line no: 471,"LIMIT should be greater than zero.",STRING_LITERAL, line no: 532, 0.03007518796992481, 0.03007518796992481, 1.0
 getText,SIMPLE_NAME, line no: 471,"LIMIT should be greater than zero.",STRING_LITERAL, line no: 532, 0.0299625468164794, 0.0299625468164794, 1.0
-statement.getChild(0).getText(),METHOD_INVOCATION, line no: 471,sessionState.out.println(thriftClient.system_add_keyspace(updateKsDefAttributes(statement ksDef))),METHOD_INVOCATION, line no: 646, 0.023496240601503758, 0.09398496240601503, 0.25
-statement.getChild(0).getText(),METHOD_INVOCATION, line no: 471,sessionState.out.println(thriftClient.system_add_column_family(updateCfDefAttributes(statement cfDef))),METHOD_INVOCATION, line no: 674, 0.023496240601503758, 0.09398496240601503, 0.25
-statement.getChild(0).getText(),METHOD_INVOCATION, line no: 471,sessionState.out.println(thriftClient.system_update_column_family(updateCfDefAttributes(statement cfDef))),METHOD_INVOCATION, line no: 731, 0.023496240601503758, 0.09398496240601503, 0.25
-statement.getChild(0),METHOD_INVOCATION, line no: 471,sessionState.out.println(thriftClient.system_add_keyspace(updateKsDefAttributes(statement ksDef))),METHOD_INVOCATION, line no: 646, 0.023408239700374533, 0.09363295880149813, 0.25
-statement.getChild(0),METHOD_INVOCATION, line no: 471,sessionState.out.println(thriftClient.system_add_column_family(updateCfDefAttributes(statement cfDef))),METHOD_INVOCATION, line no: 674, 0.023408239700374533, 0.09363295880149813, 0.25
-statement.getChild(0),METHOD_INVOCATION, line no: 471,sessionState.out.println(thriftClient.system_update_column_family(updateCfDefAttributes(statement cfDef))),METHOD_INVOCATION, line no: 731, 0.023408239700374533, 0.09363295880149813, 0.25
 String,SIMPLE_NAME, line no: 471,this.username=username,ASSIGNMENT, line no: 1108, 0.022556390977443608, 0.022556390977443608, 1.0
 columnFamily,SIMPLE_NAME, line no: 471,this.username=username,ASSIGNMENT, line no: 1108, 0.022556390977443608, 0.022556390977443608, 1.0
 getText,SIMPLE_NAME, line no: 471,this.username=username,ASSIGNMENT, line no: 1108, 0.02247191011235955, 0.02247191011235955, 1.0
@@ -1545,7 +1539,13 @@ String,SIMPLE_NAME, line no: 471,username == null ? "default" : username,CONDITI
 columnFamily,SIMPLE_NAME, line no: 471,keySpace == null ? "unknown" : keySpace,CONDITIONAL_EXPRESSION, line no: 1091, 0.018796992481203006, 0.018796992481203006, 1.0
 columnFamily,SIMPLE_NAME, line no: 471,"unknown",STRING_LITERAL, line no: 1091, 0.018796992481203006, 0.018796992481203006, 1.0
 columnFamily,SIMPLE_NAME, line no: 471,username == null ? "default" : username,CONDITIONAL_EXPRESSION, line no: 1103, 0.018796992481203006, 0.018796992481203006, 1.0
+statement.getChild(0).getText(),METHOD_INVOCATION, line no: 471,sessionState.out.println(thriftClient.system_add_keyspace(updateKsDefAttributes(statement ksDef))),METHOD_INVOCATION, line no: 646, 0.018796992481203006, 0.09398496240601503, 0.2
+statement.getChild(0).getText(),METHOD_INVOCATION, line no: 471,sessionState.out.println(thriftClient.system_add_column_family(updateCfDefAttributes(statement cfDef))),METHOD_INVOCATION, line no: 674, 0.018796992481203006, 0.09398496240601503, 0.2
+statement.getChild(0).getText(),METHOD_INVOCATION, line no: 471,sessionState.out.println(thriftClient.system_update_column_family(updateCfDefAttributes(statement cfDef))),METHOD_INVOCATION, line no: 731, 0.018796992481203006, 0.09398496240601503, 0.2
 statement.getChild(0).getText(),METHOD_INVOCATION, line no: 471,"unknown",STRING_LITERAL, line no: 1091, 0.018796992481203006, 0.018796992481203006, 1.0
+statement.getChild(0),METHOD_INVOCATION, line no: 471,sessionState.out.println(thriftClient.system_add_keyspace(updateKsDefAttributes(statement ksDef))),METHOD_INVOCATION, line no: 646, 0.018726591760299626, 0.09363295880149813, 0.2
+statement.getChild(0),METHOD_INVOCATION, line no: 471,sessionState.out.println(thriftClient.system_add_column_family(updateCfDefAttributes(statement cfDef))),METHOD_INVOCATION, line no: 674, 0.018726591760299626, 0.09363295880149813, 0.2
+statement.getChild(0),METHOD_INVOCATION, line no: 471,sessionState.out.println(thriftClient.system_update_column_family(updateCfDefAttributes(statement cfDef))),METHOD_INVOCATION, line no: 731, 0.018726591760299626, 0.09363295880149813, 0.2
 getText,SIMPLE_NAME, line no: 471,keySpace == null ? "unknown" : keySpace,CONDITIONAL_EXPRESSION, line no: 1091, 0.018726591760299626, 0.018726591760299626, 1.0
 getText,SIMPLE_NAME, line no: 471,"unknown",STRING_LITERAL, line no: 1091, 0.018726591760299626, 0.018726591760299626, 1.0
 getText,SIMPLE_NAME, line no: 471,username == null ? "default" : username,CONDITIONAL_EXPRESSION, line no: 1103, 0.018726591760299626, 0.018726591760299626, 1.0

@@ -25,9 +25,6 @@ getCallerUuid,SIMPLE_NAME, line no: 57,getServiceName,SIMPLE_NAME, line no: 52, 
 threadId,SIMPLE_NAME, line no: 57,getPartitionId,SIMPLE_NAME, line no: 52, 0.7105263157894737, 0.7105263157894737, 1.0
 getCallerUuid,SIMPLE_NAME, line no: 57,getServiceName(),METHOD_INVOCATION, line no: 52, 0.6923076923076923, 0.6923076923076923, 1.0
 threadId,SIMPLE_NAME, line no: 57,getPartitionId(),METHOD_INVOCATION, line no: 52, 0.6842105263157895, 0.6842105263157895, 1.0
-getOrCreateContainer().unlock(dataKey getCallerUuid() threadId),METHOD_INVOCATION, line no: 57,out.writeInt(threadId),METHOD_INVOCATION, line no: 67, 0.40540540540540543, 0.8108108108108109, 0.5
-getOrCreateContainer().unlock(dataKey getCallerUuid() threadId),METHOD_INVOCATION, line no: 57,threadId=in.readInt(),ASSIGNMENT, line no: 78, 0.3918918918918919, 0.7837837837837838, 0.5
-getOrCreateContainer().unlock(dataKey getCallerUuid() threadId),METHOD_INVOCATION, line no: 57,this.threadId,FIELD_ACCESS, line no: 47, 0.32432432432432434, 0.32432432432432434, 1.0
 getCallerUuid(),METHOD_INVOCATION, line no: 57,name,SIMPLE_NAME, line no: 43, 0.3157894736842105, 0.02631578947368421, 1.0
 threadId,SIMPLE_NAME, line no: 57,this.threadId=threadId,ASSIGNMENT, line no: 47, 0.3157894736842105, 0.3157894736842105, 1.0
 threadId,SIMPLE_NAME, line no: 57,this.threadId,FIELD_ACCESS, line no: 47, 0.3157894736842105, 0.3157894736842105, 1.0
@@ -36,8 +33,11 @@ getCallerUuid,SIMPLE_NAME, line no: 57,this.caller=caller,ASSIGNMENT, line no: 4
 getCallerUuid,SIMPLE_NAME, line no: 57,this.caller,FIELD_ACCESS, line no: 46, 0.3076923076923077, 0.3076923076923077, 1.0
 getOrCreateContainer().unlock(dataKey getCallerUuid() threadId),METHOD_INVOCATION, line no: 57,add,SIMPLE_NAME, line no: 75, 0.2972972972972973, 0.2972972972972973, 1.0
 unlock,SIMPLE_NAME, line no: 57,add,SIMPLE_NAME, line no: 75, 0.2894736842105263, 0.2894736842105263, 1.0
+getOrCreateContainer().unlock(dataKey getCallerUuid() threadId),METHOD_INVOCATION, line no: 57,out.writeInt(threadId),METHOD_INVOCATION, line no: 67, 0.2702702702702703, 0.8108108108108109, 0.3333333333333333
 unlock,SIMPLE_NAME, line no: 57,opList.add((Operation)in.readObject()),METHOD_INVOCATION, line no: 75, 0.2631578947368421, 0.2631578947368421, 1.0
+getOrCreateContainer().unlock(dataKey getCallerUuid() threadId),METHOD_INVOCATION, line no: 57,threadId=in.readInt(),ASSIGNMENT, line no: 78, 0.26126126126126126, 0.7837837837837838, 0.3333333333333333
 getOrCreateContainer().unlock(dataKey getCallerUuid() threadId),METHOD_INVOCATION, line no: 57,this.threadId=threadId,ASSIGNMENT, line no: 47, 0.16216216216216217, 0.32432432432432434, 0.5
+getOrCreateContainer().unlock(dataKey getCallerUuid() threadId),METHOD_INVOCATION, line no: 57,this.threadId,FIELD_ACCESS, line no: 47, 0.16216216216216217, 0.32432432432432434, 0.5
 threadId,SIMPLE_NAME, line no: 57,TXN_COMMIT_BACKUP,SIMPLE_NAME, line no: 82, 0.07894736842105263, 0.07894736842105263, 1.0
 threadId,SIMPLE_NAME, line no: 57,MultiMapDataSerializerHook.TXN_COMMIT_BACKUP,QUALIFIED_NAME, line no: 82, 0.05263157894736842, 0.05263157894736842, 1.0
 dataKey,SIMPLE_NAME, line no: 57,Data,SIMPLE_NAME, line no: 23, 0.02631578947368421, 0.02631578947368421, 1.0

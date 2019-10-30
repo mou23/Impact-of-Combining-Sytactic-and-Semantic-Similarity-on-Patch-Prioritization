@@ -1064,11 +1064,9 @@ pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.print
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("{"),METHOD_INVOCATION, line no: 335, 0.5, 1.0, 0.5
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,printSerialVersionUID(pw),METHOD_INVOCATION, line no: 337, 0.5, 1.0, 0.5
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\t{"),METHOD_INVOCATION, line no: 580, 0.5, 1.0, 0.5
-pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\t}" + Environment.NL),METHOD_INVOCATION, line no: 581, 0.5, 1.0, 0.5
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\t\treturn discriminator;"),METHOD_INVOCATION, line no: 589, 0.5, 1.0, 0.5
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.print("\t\tif (discriminator != "),METHOD_INVOCATION, line no: 631, 0.5, 1.0, 0.5
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725," && discriminator != " + lab,INFIX_EXPRESSION, line no: 661, 0.5, 0.9285714285714286, 0.5
-pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println(")" + Environment.NL + "\t\t\tthrow new org.omg.CORBA.BAD_OPERATION();"),METHOD_INVOCATION, line no: 666, 0.5, 1.0, 0.5
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.print("\t\tdiscriminator = "),METHOD_INVOCATION, line no: 676, 0.5, 1.0, 0.5
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.print("\t\tif (_discriminator != "),METHOD_INVOCATION, line no: 695, 0.5, 1.0, 0.5
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\t\tdiscriminator = _discriminator;"),METHOD_INVOCATION, line no: 731, 0.5, 1.0, 0.5
@@ -1135,7 +1133,6 @@ pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.print
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.print("\t\tif( "),METHOD_INVOCATION, line no: 750, 0.42857142857142855, 0.8571428571428571, 0.5
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725," _discriminator == " + lab,INFIX_EXPRESSION, line no: 756, 0.42857142857142855, 0.8571428571428571, 0.5
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725," || _discriminator == " + lab,INFIX_EXPRESSION, line no: 760, 0.42857142857142855, 0.8571428571428571, 0.5
-pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println(" )" + Environment.NL + "\t\t\tthrow new org.omg.CORBA.BAD_PARAM( \"Illegal value is used in __default method\" "+ " 34  org.omg.CORBA.CompletionStatus.COMPLETED_NO );"+ Environment.NL),METHOD_INVOCATION, line no: 763, 0.42857142857142855, 0.8571428571428571, 0.5
 print,SIMPLE_NAME, line no: 725,visitor.visitUnion(this),METHOD_INVOCATION, line no: 1434, 0.4, 0.4, 1.0
 " && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Helper.read(",STRING_LITERAL, line no: 129, 0.4, 0.4, 1.0
 " && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,pw.print(" _discriminator == " + lab),METHOD_INVOCATION, line no: 756, 0.4, 0.8, 0.5
@@ -1159,18 +1156,13 @@ lab,SIMPLE_NAME, line no: 725,indent1="\t\t",ASSIGNMENT, line no: 870, 0.375, 0.
 lab,SIMPLE_NAME, line no: 725,indent2="\t\t\t",ASSIGNMENT, line no: 871, 0.375, 0.375, 1.0
 lab,SIMPLE_NAME, line no: 725,case_str="if (s.discriminator () ==",ASSIGNMENT, line no: 1086, 0.375, 0.375, 1.0
 lab,SIMPLE_NAME, line no: 725,"if (s.discriminator () ==",STRING_LITERAL, line no: 1086, 0.375, 0.375, 1.0
-pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("package " + pack_name + ";"),METHOD_INVOCATION, line no: 326, 0.35714285714285715, 0.7142857142857143, 0.5
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.print(" && discriminator != "),METHOD_INVOCATION, line no: 648, 0.35714285714285715, 0.7142857142857143, 0.5
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,printClassComment("union" className pw),METHOD_INVOCATION, line no: 331, 0.3333333333333333, 1.0, 0.3333333333333333
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("public" + parser.getFinalString() + " class "+ className),METHOD_INVOCATION, line no: 333, 0.3333333333333333, 1.0, 0.3333333333333333
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\tprivate " + ts.typeName() + " discriminator;"),METHOD_INVOCATION, line no: 353, 0.3333333333333333, 1.0, 0.3333333333333333
-pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\tprivate " + c.element_spec.typeSpec.typeName() + " "+ c.element_spec.declarator.name()+ ";"),METHOD_INVOCATION, line no: 571, 0.3333333333333333, 1.0, 0.3333333333333333
-pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println(Environment.NL + "\tpublic " + className+ " ()"),METHOD_INVOCATION, line no: 579, 0.3333333333333333, 1.0, 0.3333333333333333
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\t}" + Environment.NL),METHOD_INVOCATION, line no: 581, 0.3333333333333333, 1.0, 0.3333333333333333
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\tpublic " + ts.typeName() + " discriminator ()"),METHOD_INVOCATION, line no: 587, 0.3333333333333333, 1.0, 0.3333333333333333
-pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\tpublic " + c.element_spec.typeSpec.typeName() + " "+ c.element_spec.declarator.name()+ " ()"),METHOD_INVOCATION, line no: 628, 0.3333333333333333, 1.0, 0.3333333333333333
-pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\t\treturn " + c.element_spec.declarator.name() + ";"),METHOD_INVOCATION, line no: 667, 0.3333333333333333, 1.0, 0.3333333333333333
-pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\tpublic void " + c.element_spec.declarator.name() + " ("+ c.element_spec.typeSpec.typeName()+ " _x)"),METHOD_INVOCATION, line no: 672, 0.3333333333333333, 1.0, 0.3333333333333333
-pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\t\t" + c.element_spec.declarator.name() + " = _x;"),METHOD_INVOCATION, line no: 686, 0.3333333333333333, 1.0, 0.3333333333333333
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println(")" + Environment.NL + "\t\t\tthrow new org.omg.CORBA.BAD_OPERATION();"),METHOD_INVOCATION, line no: 666, 0.3333333333333333, 1.0, 0.3333333333333333
 " && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Helper.type()",STRING_LITERAL, line no: 304, 0.3333333333333333, 0.3333333333333333, 1.0
 " && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,getRecursiveTypeCodeExpression,SIMPLE_NAME, line no: 311, 0.3333333333333333, 0.3333333333333333, 1.0
 " && discriminator != ",STRING_LITERAL, line no: 725,pack_name="",ASSIGNMENT, line no: 56, 0.3125, 0.3125, 1.0
@@ -1190,13 +1182,21 @@ pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,!lab.equ
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,lab.equals(defaultStr),METHOD_INVOCATION, line no: 659, 0.30952380952380953, 0.9285714285714286, 0.3333333333333333
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\t\tdiscriminator = " + defaultStr + ";"),METHOD_INVOCATION, line no: 745, 0.2857142857142857, 0.8571428571428571, 0.3333333333333333
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\tpublic void __default (" + ts.typeName() + " _discriminator)"),METHOD_INVOCATION, line no: 748, 0.2857142857142857, 0.8571428571428571, 0.3333333333333333
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println(" )" + Environment.NL + "\t\t\tthrow new org.omg.CORBA.BAD_PARAM( \"Illegal value is used in __default method\" "+ " 34  org.omg.CORBA.CompletionStatus.COMPLETED_NO );"+ Environment.NL),METHOD_INVOCATION, line no: 763, 0.2857142857142857, 0.8571428571428571, 0.3333333333333333
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.print(defaultStr),METHOD_INVOCATION, line no: 639, 0.26190476190476186, 0.7142857142857143, 0.3333333333333333
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println(defaultStr + ";"),METHOD_INVOCATION, line no: 680, 0.26190476190476186, 0.7857142857142857, 0.3333333333333333
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println(label[0] + ";"),METHOD_INVOCATION, line no: 684, 0.26190476190476186, 0.7857142857142857, 0.3333333333333333
-pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\tpublic void " + c.element_spec.declarator.name() + " ("+ ts.typeName()+ " _discriminator  "+ c.element_spec.typeSpec.typeName()+ " _x)"),METHOD_INVOCATION, line no: 691, 0.25, 1.0, 0.25
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println(Environment.NL + "\tpublic " + className+ " ()"),METHOD_INVOCATION, line no: 579, 0.25, 1.0, 0.25
 " && discriminator != ",STRING_LITERAL, line no: 725,this.getRecursiveTypeCodeExpression(),METHOD_INVOCATION, line no: 311, 0.25, 0.25, 1.0
 lab,SIMPLE_NAME, line no: 725,this.getRecursiveTypeCodeExpression(),METHOD_INVOCATION, line no: 311, 0.25, 0.25, 1.0
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("package " + pack_name + ";"),METHOD_INVOCATION, line no: 326, 0.23809523809523808, 0.7142857142857143, 0.3333333333333333
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\t\treturn " + c.element_spec.declarator.name() + ";"),METHOD_INVOCATION, line no: 667, 0.2, 1.0, 0.2
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\t\t" + c.element_spec.declarator.name() + " = _x;"),METHOD_INVOCATION, line no: 686, 0.2, 1.0, 0.2
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.print(label[i]),METHOD_INVOCATION, line no: 643, 0.19642857142857142, 0.7142857142857143, 0.25
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\tprivate " + c.element_spec.typeSpec.typeName() + " "+ c.element_spec.declarator.name()+ ";"),METHOD_INVOCATION, line no: 571, 0.16666666666666666, 1.0, 0.16666666666666666
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\tpublic " + c.element_spec.typeSpec.typeName() + " "+ c.element_spec.declarator.name()+ " ()"),METHOD_INVOCATION, line no: 628, 0.16666666666666666, 1.0, 0.16666666666666666
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\tpublic void " + c.element_spec.declarator.name() + " ("+ c.element_spec.typeSpec.typeName()+ " _x)"),METHOD_INVOCATION, line no: 672, 0.16666666666666666, 1.0, 0.16666666666666666
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\tpublic void " + c.element_spec.declarator.name() + " ("+ ts.typeName()+ " _discriminator  "+ c.element_spec.typeSpec.typeName()+ " _x)"),METHOD_INVOCATION, line no: 691, 0.14285714285714285, 1.0, 0.14285714285714285
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,UnionType,SIMPLE_NAME, line no: 53, 0.07142857142857142, 0.07142857142857142, 1.0
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,setScopeData,SIMPLE_NAME, line no: 73, 0.07142857142857142, 0.07142857142857142, 1.0
 pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,set_included,SIMPLE_NAME, line no: 147, 0.07142857142857142, 0.07142857142857142, 1.0

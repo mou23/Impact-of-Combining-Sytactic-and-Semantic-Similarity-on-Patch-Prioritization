@@ -59,8 +59,12 @@ sentence.length() - 1,INFIX_EXPRESSION, line no: 520,size,SIMPLE_NAME, line no: 
 sentence.length() - 1,INFIX_EXPRESSION, line no: 520,charCount,SIMPLE_NAME, line no: 492, 1.0, 1.0, 1.0
 sentence.length() - 1,INFIX_EXPRESSION, line no: 520,lineCount,SIMPLE_NAME, line no: 493, 1.0, 1.0, 1.0
 sentence.length() - 1,INFIX_EXPRESSION, line no: 520,columnCount,SIMPLE_NAME, line no: 494, 1.0, 1.0, 1.0
+sentence.length() - 1,INFIX_EXPRESSION, line no: 520,getAnalyzedSentence(sentence),METHOD_INVOCATION, line no: 498, 1.0, 1.0, 1.0
+sentence.length() - 1,INFIX_EXPRESSION, line no: 520,sentence.length(),METHOD_INVOCATION, line no: 514, 1.0, 1.0, 1.0
+sentence.length() - 1,INFIX_EXPRESSION, line no: 520,countLineBreaks(sentence),METHOD_INVOCATION, line no: 515, 1.0, 1.0, 1.0
 sentence.length() - 1,INFIX_EXPRESSION, line no: 520,countLineBreaks,SIMPLE_NAME, line no: 515, 1.0, 1.0, 1.0
 sentence.length() - 1,INFIX_EXPRESSION, line no: 520,lineBreakPos,SIMPLE_NAME, line no: 518, 1.0, 1.0, 1.0
+sentence.length() - 1,INFIX_EXPRESSION, line no: 520,sentence.indexOf('\n'),METHOD_INVOCATION, line no: 518, 1.0, 1.0, 1.0
 sentence.length() - 1,INFIX_EXPRESSION, line no: 520,indexOf,SIMPLE_NAME, line no: 518, 1.0, 1.0, 1.0
 sentence.length() - 1,INFIX_EXPRESSION, line no: 520,i,SIMPLE_NAME, line no: 713, 1.0, 1.0, 1.0
 sentence.length() - 1,INFIX_EXPRESSION, line no: 520,numTokens,SIMPLE_NAME, line no: 721, 1.0, 1.0, 1.0
@@ -76,8 +80,11 @@ sentence.length(),METHOD_INVOCATION, line no: 520,size,SIMPLE_NAME, line no: 290
 sentence.length(),METHOD_INVOCATION, line no: 520,charCount,SIMPLE_NAME, line no: 492, 1.0, 1.0, 1.0
 sentence.length(),METHOD_INVOCATION, line no: 520,lineCount,SIMPLE_NAME, line no: 493, 1.0, 1.0, 1.0
 sentence.length(),METHOD_INVOCATION, line no: 520,columnCount,SIMPLE_NAME, line no: 494, 1.0, 1.0, 1.0
+sentence.length(),METHOD_INVOCATION, line no: 520,getAnalyzedSentence(sentence),METHOD_INVOCATION, line no: 498, 1.0, 1.0, 1.0
+sentence.length(),METHOD_INVOCATION, line no: 520,countLineBreaks(sentence),METHOD_INVOCATION, line no: 515, 1.0, 1.0, 1.0
 sentence.length(),METHOD_INVOCATION, line no: 520,countLineBreaks,SIMPLE_NAME, line no: 515, 1.0, 1.0, 1.0
 sentence.length(),METHOD_INVOCATION, line no: 520,lineBreakPos,SIMPLE_NAME, line no: 518, 1.0, 1.0, 1.0
+sentence.length(),METHOD_INVOCATION, line no: 520,sentence.indexOf('\n'),METHOD_INVOCATION, line no: 518, 1.0, 1.0, 1.0
 sentence.length(),METHOD_INVOCATION, line no: 520,indexOf,SIMPLE_NAME, line no: 518, 1.0, 1.0, 1.0
 sentence.length(),METHOD_INVOCATION, line no: 520,i,SIMPLE_NAME, line no: 713, 1.0, 1.0, 1.0
 sentence.length(),METHOD_INVOCATION, line no: 520,numTokens,SIMPLE_NAME, line no: 721, 1.0, 1.0, 1.0
@@ -196,6 +203,7 @@ length,SIMPLE_NAME, line no: 520,lineBreaksToEndOfError,SIMPLE_NAME, line no: 63
 length,SIMPLE_NAME, line no: 520,countLineBreaks(sentencePartToEndOfError),METHOD_INVOCATION, line no: 635, 0.9333333333333333, 0.9333333333333333, 1.0
 length,SIMPLE_NAME, line no: 520,lineCount + lineBreaksToError,INFIX_EXPRESSION, line no: 636, 0.9333333333333333, 0.9333333333333333, 1.0
 length,SIMPLE_NAME, line no: 520,lineCount + lineBreaksToEndOfError,INFIX_EXPRESSION, line no: 637, 0.9333333333333333, 0.9333333333333333, 1.0
+sentence.length(),METHOD_INVOCATION, line no: 520,sentence.length() - 1,INFIX_EXPRESSION, line no: 520, 0.9285714285714286, 0.9285714285714286, 1.0
 sentence.length(),METHOD_INVOCATION, line no: 520,sentLen,SIMPLE_NAME, line no: 607, 0.9285714285714286, 0.07142857142857142, 1.0
 sentence.length(),METHOD_INVOCATION, line no: 520,getFromPos,SIMPLE_NAME, line no: 610, 0.9285714285714286, 0.9285714285714286, 1.0
 sentence.length(),METHOD_INVOCATION, line no: 520,getToPos,SIMPLE_NAME, line no: 610, 0.9285714285714286, 0.9285714285714286, 1.0
@@ -403,7 +411,6 @@ length,SIMPLE_NAME, line no: 520,lastToken - i,INFIX_EXPRESSION, line no: 752, 0
 1,NUMBER_LITERAL, line no: 520,posFix+=softHyphenTokens.get(i).length() - aTokens.get(i).getToken().length(),ASSIGNMENT, line no: 729, 0.7142857142857143, 0.7142857142857143, 1.0
 columnCount,SIMPLE_NAME, line no: 520,tokenCount,SIMPLE_NAME, line no: 552, 0.6923076923076923, 0.07692307692307693, 1.0
 columnCount,SIMPLE_NAME, line no: 520,lastToken - i,INFIX_EXPRESSION, line no: 752, 0.6923076923076923, 0.6923076923076923, 1.0
-columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,columnCount=1,ASSIGNMENT, line no: 529, 0.6666666666666666, 0.6666666666666666, 1.0
 columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,tokenCount,SIMPLE_NAME, line no: 552, 0.6666666666666666, 0.08333333333333333, 1.0
 sentence,SIMPLE_NAME, line no: 520,filename,SIMPLE_NAME, line no: 308, 0.6666666666666666, 0.06666666666666667, 1.0
 sentence,SIMPLE_NAME, line no: 520,t.getToken(),METHOD_INVOCATION, line no: 650, 0.6666666666666666, 0.6666666666666666, 1.0
@@ -444,6 +451,17 @@ sentence,SIMPLE_NAME, line no: 520,"No public constructor for rule class: ",STRI
 sentence,SIMPLE_NAME, line no: 520,falseFriendRulesFilename,SIMPLE_NAME, line no: 364, 0.5333333333333333, 0.5333333333333333, 1.0
 sentence,SIMPLE_NAME, line no: 520,categoryName,SIMPLE_NAME, line no: 393, 0.5333333333333333, 0.06666666666666667, 1.0
 length,SIMPLE_NAME, line no: 520,columnCount=1,ASSIGNMENT, line no: 529, 0.5333333333333333, 0.5333333333333333, 1.0
+columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,getAnalyzedSentence(sentence),METHOD_INVOCATION, line no: 498, 0.5, 1.0, 0.5
+columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,sentence.length(),METHOD_INVOCATION, line no: 514, 0.5, 1.0, 0.5
+columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,countLineBreaks(sentence),METHOD_INVOCATION, line no: 515, 0.5, 1.0, 0.5
+columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,sentence.indexOf('\n'),METHOD_INVOCATION, line no: 518, 0.5, 1.0, 0.5
+columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,sentence.length() - 1,INFIX_EXPRESSION, line no: 520, 0.5, 1.0, 0.5
+sentence.length() - 1,INFIX_EXPRESSION, line no: 520,charCount+=sentence.length(),ASSIGNMENT, line no: 514, 0.5, 1.0, 0.5
+sentence.length() - 1,INFIX_EXPRESSION, line no: 520,lineCount+=countLineBreaks(sentence),ASSIGNMENT, line no: 515, 0.5, 1.0, 0.5
+sentence.length() - 1,INFIX_EXPRESSION, line no: 520,wordTokenizer.tokenize(sentence),METHOD_INVOCATION, line no: 709, 0.5, 1.0, 0.5
+sentence.length(),METHOD_INVOCATION, line no: 520,charCount+=sentence.length(),ASSIGNMENT, line no: 514, 0.5, 1.0, 0.5
+sentence.length(),METHOD_INVOCATION, line no: 520,lineCount+=countLineBreaks(sentence),ASSIGNMENT, line no: 515, 0.5, 1.0, 0.5
+sentence.length(),METHOD_INVOCATION, line no: 520,wordTokenizer.tokenize(sentence),METHOD_INVOCATION, line no: 709, 0.5, 1.0, 0.5
 1,NUMBER_LITERAL, line no: 520,lastToken-=i,ASSIGNMENT, line no: 753, 0.5, 0.5, 1.0
 sentence,SIMPLE_NAME, line no: 520,manifest.getMainAttributes().getValue("Implementation-Date"),METHOD_INVOCATION, line no: 84, 0.4666666666666667, 0.4666666666666667, 1.0
 sentence,SIMPLE_NAME, line no: 520,getValue,SIMPLE_NAME, line no: 84, 0.4666666666666667, 0.4666666666666667, 1.0
@@ -452,23 +470,47 @@ sentence,SIMPLE_NAME, line no: 520,defaultPatternFilename,SIMPLE_NAME, line no: 
 sentence,SIMPLE_NAME, line no: 520,language.getRuleFileName(),METHOD_INVOCATION, line no: 349, 0.4666666666666667, 0.4666666666666667, 1.0
 sentence,SIMPLE_NAME, line no: 520,getRuleFileName,SIMPLE_NAME, line no: 349, 0.4666666666666667, 0.4666666666666667, 1.0
 length,SIMPLE_NAME, line no: 520,lastToken-=i,ASSIGNMENT, line no: 753, 0.4666666666666667, 0.4666666666666667, 1.0
-columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,sentencePartToEndOfError.length() + columnCount + 1,INFIX_EXPRESSION, line no: 630, 0.4583333333333333, 0.9166666666666666, 0.5
-columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,columnCount--,POSTFIX_EXPRESSION, line no: 526, 0.4166666666666667, 0.4166666666666667, 1.0
-columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,sentencePartToError.length() + columnCount,INFIX_EXPRESSION, line no: 623, 0.4166666666666667, 0.8333333333333334, 0.5
+sentence.length(),METHOD_INVOCATION, line no: 520,sentence.substring(0 rm.getFromPos()),METHOD_INVOCATION, line no: 615, 0.4642857142857143, 0.9285714285714286, 0.5
+sentence.length(),METHOD_INVOCATION, line no: 520,sentence.substring(0 rm.getToPos()),METHOD_INVOCATION, line no: 617, 0.4642857142857143, 0.9285714285714286, 0.5
+sentence.length() - 1,INFIX_EXPRESSION, line no: 520,columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520, 0.46153846153846156, 0.9230769230769231, 0.5
+sentence.length() - 1,INFIX_EXPRESSION, line no: 520,sentence.substring(0 rm.getFromPos()),METHOD_INVOCATION, line no: 615, 0.46153846153846156, 0.9230769230769231, 0.5
+sentence.length() - 1,INFIX_EXPRESSION, line no: 520,sentence.substring(0 rm.getToPos()),METHOD_INVOCATION, line no: 617, 0.46153846153846156, 0.9230769230769231, 0.5
+sentence.length(),METHOD_INVOCATION, line no: 520,columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520, 0.42857142857142855, 0.8571428571428571, 0.5
 sentence,SIMPLE_NAME, line no: 520,"org.languagetool.MessagesBundle",STRING_LITERAL, line no: 238, 0.4, 0.4, 1.0
 sentence,SIMPLE_NAME, line no: 520,"Failed to load built-in Java rules for language " + language,INFIX_EXPRESSION, line no: 287, 0.4, 0.4, 1.0
 sentence,SIMPLE_NAME, line no: 520,"Failed to load built-in Java rules for language ",STRING_LITERAL, line no: 287, 0.4, 0.4, 1.0
+sentence.length(),METHOD_INVOCATION, line no: 520,columnCount=sentence.length(),ASSIGNMENT, line no: 523, 0.39285714285714285, 0.7857142857142857, 0.5
 columnCount,SIMPLE_NAME, line no: 520,columnCount--,POSTFIX_EXPRESSION, line no: 526, 0.38461538461538464, 0.38461538461538464, 1.0
+sentence.length() - 1,INFIX_EXPRESSION, line no: 520,columnCount=sentence.length(),ASSIGNMENT, line no: 523, 0.38461538461538464, 0.7692307692307693, 0.5
+sentence.length(),METHOD_INVOCATION, line no: 520,getRawAnalyzedSentence(sentence),METHOD_INVOCATION, line no: 695, 0.35714285714285715, 0.35714285714285715, 1.0
 1,NUMBER_LITERAL, line no: 520,columnCount--,POSTFIX_EXPRESSION, line no: 526, 0.35714285714285715, 0.35714285714285715, 1.0
+columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,charCount+=sentence.length(),ASSIGNMENT, line no: 514, 0.3333333333333333, 1.0, 0.3333333333333333
+columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,lineCount+=countLineBreaks(sentence),ASSIGNMENT, line no: 515, 0.3333333333333333, 1.0, 0.3333333333333333
+columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,columnCount=1,ASSIGNMENT, line no: 529, 0.3333333333333333, 0.6666666666666666, 0.5
+columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,wordTokenizer.tokenize(sentence),METHOD_INVOCATION, line no: 709, 0.3333333333333333, 1.0, 0.3333333333333333
 length,SIMPLE_NAME, line no: 520,columnCount--,POSTFIX_EXPRESSION, line no: 526, 0.3333333333333333, 0.3333333333333333, 1.0
-columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,endColumn=sentencePartToEndOfError.length() + columnCount + 1,ASSIGNMENT, line no: 630, 0.3055555555555555, 0.9166666666666666, 0.3333333333333333
-columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,column=sentencePartToError.length() + columnCount,ASSIGNMENT, line no: 623, 0.2777777777777778, 0.8333333333333334, 0.3333333333333333
-columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,checkAnalyzedSentence(paraMode allRules charCount lineCount columnCount sentence analyzedText),METHOD_INVOCATION, line no: 509, 0.16666666666666666, 1.0, 0.16666666666666666
-columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,adjustRuleMatchPos(element1 tokenCount columnCount lineCount sentence),METHOD_INVOCATION, line no: 585, 0.16666666666666666, 0.6666666666666666, 0.25
+sentence.length() - 1,INFIX_EXPRESSION, line no: 520,getRawAnalyzedSentence(sentence),METHOD_INVOCATION, line no: 695, 0.3076923076923077, 0.3076923076923077, 1.0
+columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,sentence.substring(0 rm.getFromPos()),METHOD_INVOCATION, line no: 615, 0.3055555555555555, 0.9166666666666666, 0.3333333333333333
+columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,sentence.substring(0 rm.getToPos()),METHOD_INVOCATION, line no: 617, 0.3055555555555555, 0.9166666666666666, 0.3333333333333333
+columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,sentencePartToEndOfError.length() + columnCount + 1,INFIX_EXPRESSION, line no: 630, 0.3055555555555555, 0.9166666666666666, 0.3333333333333333
+columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,checkAnalyzedSentence(paraMode allRules charCount lineCount columnCount sentence analyzedText),METHOD_INVOCATION, line no: 509, 0.2857142857142857, 1.0, 0.2857142857142857
+columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,sentencePartToError.length() + columnCount,INFIX_EXPRESSION, line no: 623, 0.2777777777777778, 0.8333333333333334, 0.3333333333333333
+columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,adjustRuleMatchPos(element1 tokenCount columnCount lineCount sentence),METHOD_INVOCATION, line no: 585, 0.26666666666666666, 0.6666666666666666, 0.4
+columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,endColumn=sentencePartToEndOfError.length() + columnCount + 1,ASSIGNMENT, line no: 630, 0.22916666666666666, 0.9166666666666666, 0.25
+columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,columnCount--,POSTFIX_EXPRESSION, line no: 526, 0.20833333333333334, 0.4166666666666667, 0.5
+columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,column=sentencePartToError.length() + columnCount,ASSIGNMENT, line no: 623, 0.20833333333333334, 0.8333333333333334, 0.25
+sentence.length(),METHOD_INVOCATION, line no: 520,disambiguator.disambiguate(getRawAnalyzedSentence(sentence)),METHOD_INVOCATION, line no: 695, 0.17857142857142858, 0.35714285714285715, 0.5
+columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,getRawAnalyzedSentence(sentence),METHOD_INVOCATION, line no: 695, 0.16666666666666666, 0.3333333333333333, 0.5
+sentence.length() - 1,INFIX_EXPRESSION, line no: 520,disambiguator.disambiguate(getRawAnalyzedSentence(sentence)),METHOD_INVOCATION, line no: 695, 0.15384615384615385, 0.3076923076923077, 0.5
+sentence.length() - 1,INFIX_EXPRESSION, line no: 520,checkAnalyzedSentence(paraMode allRules charCount lineCount columnCount sentence analyzedText),METHOD_INVOCATION, line no: 509, 0.14285714285714285, 1.0, 0.14285714285714285
+sentence.length(),METHOD_INVOCATION, line no: 520,checkAnalyzedSentence(paraMode allRules charCount lineCount columnCount sentence analyzedText),METHOD_INVOCATION, line no: 509, 0.14285714285714285, 1.0, 0.14285714285714285
 sentence,SIMPLE_NAME, line no: 520,getBuildDate,SIMPLE_NAME, line no: 65, 0.13333333333333333, 0.13333333333333333, 1.0
 sentence,SIMPLE_NAME, line no: 520,"Could not get build date from JAR",STRING_LITERAL, line no: 89, 0.13333333333333333, 0.13333333333333333, 1.0
 sentence,SIMPLE_NAME, line no: 520,"language cannot be null",STRING_LITERAL, line no: 165, 0.13333333333333333, 0.13333333333333333, 1.0
 sentence,SIMPLE_NAME, line no: 520,"listUnknownWords is set to false  unknown words not stored",STRING_LITERAL, line no: 665, 0.13333333333333333, 0.13333333333333333, 1.0
+sentence.length(),METHOD_INVOCATION, line no: 520,adjustRuleMatchPos(element1 tokenCount columnCount lineCount sentence),METHOD_INVOCATION, line no: 585, 0.1285714285714286, 0.6428571428571429, 0.2
+sentence.length() - 1,INFIX_EXPRESSION, line no: 520,adjustRuleMatchPos(element1 tokenCount columnCount lineCount sentence),METHOD_INVOCATION, line no: 585, 0.12307692307692308, 0.6153846153846154, 0.2
+columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,disambiguator.disambiguate(getRawAnalyzedSentence(sentence)),METHOD_INVOCATION, line no: 695, 0.1111111111111111, 0.3333333333333333, 0.3333333333333333
 columnCount+=sentence.length() - 1,ASSIGNMENT, line no: 520,getSentenceCount,SIMPLE_NAME, line no: 788, 0.08333333333333333, 0.08333333333333333, 1.0
 columnCount,SIMPLE_NAME, line no: 520,getSentenceCount,SIMPLE_NAME, line no: 788, 0.07692307692307693, 0.07692307692307693, 1.0
 sentence.length() - 1,INFIX_EXPRESSION, line no: 520,getSentenceCount,SIMPLE_NAME, line no: 788, 0.07692307692307693, 0.07692307692307693, 1.0

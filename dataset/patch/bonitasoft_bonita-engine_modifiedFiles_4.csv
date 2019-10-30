@@ -160,20 +160,20 @@ create,SIMPLE_NAME, line no: 113,createPageMappingForExistingFormMapping,SIMPLE_
 key,SIMPLE_NAME, line no: 113,"getFormMappingByKey",STRING_LITERAL, line no: 252, 0.15789473684210525, 0.15789473684210525, 1.0
 legacyUrlAdapter,SIMPLE_NAME, line no: 113,"getFormMappingByKey",STRING_LITERAL, line no: 252, 0.15789473684210525, 0.15789473684210525, 1.0
 sPageMapping,SIMPLE_NAME, line no: 113,createPageMappingForExistingFormMapping(formMapping url pageId),METHOD_INVOCATION, line no: 167, 0.1504424778761062, 0.1504424778761062, 1.0
+pageMappingService.create(key null legacyUrlAdapter authorizationRules),METHOD_INVOCATION, line no: 113,this.pageMappingService=pageMappingService,ASSIGNMENT, line no: 84, 0.1504424778761062, 0.6017699115044248, 0.25
 pageMappingService.create(key null legacyUrlAdapter authorizationRules),METHOD_INVOCATION, line no: 113,this.pageMappingService,FIELD_ACCESS, line no: 84, 0.1504424778761062, 0.6017699115044248, 0.25
+pageMappingService.create(key null legacyUrlAdapter authorizationRules),METHOD_INVOCATION, line no: 113,this.legacyUrlAdapter=legacyUrlAdapter,ASSIGNMENT, line no: 88, 0.1504424778761062, 0.6017699115044248, 0.25
 pageMappingService.create(key null legacyUrlAdapter authorizationRules),METHOD_INVOCATION, line no: 113,this.legacyUrlAdapter,FIELD_ACCESS, line no: 88, 0.1504424778761062, 0.6017699115044248, 0.25
 create,SIMPLE_NAME, line no: 113,createPageMappingForExistingFormMapping(formMapping url pageId),METHOD_INVOCATION, line no: 167, 0.14912280701754385, 0.14912280701754385, 1.0
 authorizationRules,SIMPLE_NAME, line no: 113,buildAuthorizationRules(formMapping.getType()),METHOD_INVOCATION, line no: 186, 0.13157894736842105, 0.13157894736842105, 1.0
 sPageMapping,SIMPLE_NAME, line no: 113,pageMappingService.create(key url externalUrlAdapter buildAuthorizationRules(formMapping.getType())),METHOD_INVOCATION, line no: 186, 0.12389380530973451, 0.12389380530973451, 1.0
 create,SIMPLE_NAME, line no: 113,pageMappingService.create(key url externalUrlAdapter buildAuthorizationRules(formMapping.getType())),METHOD_INVOCATION, line no: 186, 0.12280701754385964, 0.12280701754385964, 1.0
+sPageMapping=pageMappingService.create(key null legacyUrlAdapter authorizationRules),ASSIGNMENT, line no: 113,this.pageMappingService=pageMappingService,ASSIGNMENT, line no: 84, 0.12142857142857143, 0.6071428571428571, 0.2
 sPageMapping=pageMappingService.create(key null legacyUrlAdapter authorizationRules),ASSIGNMENT, line no: 113,this.pageMappingService,FIELD_ACCESS, line no: 84, 0.12142857142857143, 0.6071428571428571, 0.2
+sPageMapping=pageMappingService.create(key null legacyUrlAdapter authorizationRules),ASSIGNMENT, line no: 113,this.legacyUrlAdapter=legacyUrlAdapter,ASSIGNMENT, line no: 88, 0.12142857142857143, 0.6071428571428571, 0.2
 sPageMapping=pageMappingService.create(key null legacyUrlAdapter authorizationRules),ASSIGNMENT, line no: 113,this.legacyUrlAdapter,FIELD_ACCESS, line no: 88, 0.12142857142857143, 0.6071428571428571, 0.2
-pageMappingService.create(key null legacyUrlAdapter authorizationRules),METHOD_INVOCATION, line no: 113,this.pageMappingService=pageMappingService,ASSIGNMENT, line no: 84, 0.12035398230088497, 0.6017699115044248, 0.2
-pageMappingService.create(key null legacyUrlAdapter authorizationRules),METHOD_INVOCATION, line no: 113,this.legacyUrlAdapter=legacyUrlAdapter,ASSIGNMENT, line no: 88, 0.12035398230088497, 0.6017699115044248, 0.2
 sPageMapping,SIMPLE_NAME, line no: 113,pageMappingService.create(key pageId buildAuthorizationRules(formMapping.getType())),METHOD_INVOCATION, line no: 188, 0.11504424778761062, 0.11504424778761062, 1.0
 create,SIMPLE_NAME, line no: 113,pageMappingService.create(key pageId buildAuthorizationRules(formMapping.getType())),METHOD_INVOCATION, line no: 188, 0.11403508771929824, 0.11403508771929824, 1.0
-sPageMapping=pageMappingService.create(key null legacyUrlAdapter authorizationRules),ASSIGNMENT, line no: 113,this.pageMappingService=pageMappingService,ASSIGNMENT, line no: 84, 0.10119047619047618, 0.6071428571428571, 0.16666666666666666
-sPageMapping=pageMappingService.create(key null legacyUrlAdapter authorizationRules),ASSIGNMENT, line no: 113,this.legacyUrlAdapter=legacyUrlAdapter,ASSIGNMENT, line no: 88, 0.10119047619047618, 0.6071428571428571, 0.16666666666666666
 key,SIMPLE_NAME, line no: 113,"the page with id " + pageId + " does not exists",INFIX_EXPRESSION, line no: 197, 0.09649122807017543, 0.09649122807017543, 1.0
 key,SIMPLE_NAME, line no: 113,"the page with id ",STRING_LITERAL, line no: 197, 0.09649122807017543, 0.09649122807017543, 1.0
 key,SIMPLE_NAME, line no: 113," does not exists",STRING_LITERAL, line no: 197, 0.09649122807017543, 0.09649122807017543, 1.0

@@ -122,6 +122,7 @@ z,SIMPLE_NAME, line no: 94,v.magnitude(),METHOD_INVOCATION, line no: 78, 0.64, 0
 atan2,SIMPLE_NAME, line no: 94,Tools.safeAcos(dotProduct(v) / (magnitude() * v.magnitude())),METHOD_INVOCATION, line no: 78, 0.6, 0.6, 1.0
 y,SIMPLE_NAME, line no: 94,Tools.safeAcos(dotProduct(v) / (magnitude() * v.magnitude())),METHOD_INVOCATION, line no: 78, 0.6, 0.6, 1.0
 z,SIMPLE_NAME, line no: 94,Tools.safeAcos(dotProduct(v) / (magnitude() * v.magnitude())),METHOD_INVOCATION, line no: 78, 0.6, 0.6, 1.0
+Math.atan2(y z),METHOD_INVOCATION, line no: 94,Math.abs(y),METHOD_INVOCATION, line no: 92, 0.4791666666666667, 0.9583333333333334, 0.5
 Math.atan2(y z),METHOD_INVOCATION, line no: 94,NEGATIVE_INFINITY,SIMPLE_NAME, line no: 29, 0.4583333333333333, 0.041666666666666664, 1.0
 Math.atan2(y z),METHOD_INVOCATION, line no: 94,asin,SIMPLE_NAME, line no: 85, 0.4583333333333333, 0.4583333333333333, 1.0
 atan2,SIMPLE_NAME, line no: 94,NEGATIVE_INFINITY,SIMPLE_NAME, line no: 29, 0.44, 0.04, 1.0
@@ -154,6 +155,12 @@ y,SIMPLE_NAME, line no: 94,Math.asin(z / magnitude()),METHOD_INVOCATION, line no
 y,SIMPLE_NAME, line no: 94,Double.NEGATIVE_INFINITY,QUALIFIED_NAME, line no: 102, 0.4, 0.4, 1.0
 z,SIMPLE_NAME, line no: 94,Math.asin(z / magnitude()),METHOD_INVOCATION, line no: 85, 0.4, 0.4, 1.0
 z,SIMPLE_NAME, line no: 94,Double.NEGATIVE_INFINITY,QUALIFIED_NAME, line no: 102, 0.4, 0.4, 1.0
+Math.atan2(y z),METHOD_INVOCATION, line no: 94,Math.abs(y) < MINIMUM_RESOLUTION,INFIX_EXPRESSION, line no: 92, 0.3055555555555555, 0.9166666666666666, 0.3333333333333333
+Math.atan2(y z),METHOD_INVOCATION, line no: 94,z / magnitude(),INFIX_EXPRESSION, line no: 85, 0.22916666666666666, 0.4583333333333333, 0.5
+Math.atan2(y z),METHOD_INVOCATION, line no: 94,Math.abs(x) < MINIMUM_RESOLUTION && Math.abs(y) < MINIMUM_RESOLUTION,INFIX_EXPRESSION, line no: 92, 0.22916666666666666, 0.9166666666666666, 0.25
+Math.atan2(y z),METHOD_INVOCATION, line no: 94,Math.asin(z / magnitude()),METHOD_INVOCATION, line no: 85, 0.20833333333333334, 0.4166666666666667, 0.5
+Math.atan2(y z),METHOD_INVOCATION, line no: 94,y * magnitude,INFIX_EXPRESSION, line no: 59, 0.15277777777777776, 0.4583333333333333, 0.3333333333333333
+Math.atan2(y z),METHOD_INVOCATION, line no: 94,z * magnitude,INFIX_EXPRESSION, line no: 59, 0.15277777777777776, 0.4583333333333333, 0.3333333333333333
 atan2,SIMPLE_NAME, line no: 94,this.magnitude=super.magnitude(),ASSIGNMENT, line no: 103, 0.12, 0.12, 1.0
 atan2,SIMPLE_NAME, line no: 94,super.magnitude(),SUPER_METHOD_INVOCATION, line no: 103, 0.12, 0.12, 1.0
 y,SIMPLE_NAME, line no: 94,this.magnitude=super.magnitude(),ASSIGNMENT, line no: 103, 0.12, 0.12, 1.0

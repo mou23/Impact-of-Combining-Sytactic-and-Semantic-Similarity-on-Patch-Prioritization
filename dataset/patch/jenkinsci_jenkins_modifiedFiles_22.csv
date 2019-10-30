@@ -1,25 +1,27 @@
-end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,this.end,FIELD_ACCESS, line no: 94, 2.0, 0.39285714285714285, 2.0
-end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,end < 0,INFIX_EXPRESSION, line no: 101, 2.0, 1.0, 2.0
-this.end + 1 + end,INFIX_EXPRESSION, line no: 101,this.end,FIELD_ACCESS, line no: 94, 2.0, 0.3793103448275862, 2.0
-this.end + 1 + end,INFIX_EXPRESSION, line no: 101,end < 0,INFIX_EXPRESSION, line no: 101, 2.0, 1.0, 2.0
-this.end + end,INFIX_EXPRESSION, line no: 101,this.end,FIELD_ACCESS, line no: 94, 2.0, 0.3793103448275862, 2.0
-this.end + end,INFIX_EXPRESSION, line no: 101,end < 0,INFIX_EXPRESSION, line no: 101, 2.0, 1.0, 2.0
 end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,end,SIMPLE_NAME, line no: 77, 1.0, 0.03571428571428571, 1.0
 end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,0,NUMBER_LITERAL, line no: 86, 1.0, 0.6071428571428571, 1.0
 end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,1,NUMBER_LITERAL, line no: 87, 1.0, 0.6071428571428571, 1.0
+end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,this.end,FIELD_ACCESS, line no: 94, 1.0, 0.39285714285714285, 1.0
+end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,end < 0,INFIX_EXPRESSION, line no: 101, 1.0, 1.0, 1.0
 end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,this.end + 1 + end,INFIX_EXPRESSION, line no: 101, 1.0, 1.0, 1.0
 end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,this.end + end,INFIX_EXPRESSION, line no: 101, 1.0, 1.0, 1.0
 end < 0,INFIX_EXPRESSION, line no: 101,this.end,FIELD_ACCESS, line no: 94, 1.0, 0.3793103448275862, 1.0
+end < 0,INFIX_EXPRESSION, line no: 101,this.end + 1 + end,INFIX_EXPRESSION, line no: 101, 1.0, 1.0, 1.0
+end < 0,INFIX_EXPRESSION, line no: 101,this.end + end,INFIX_EXPRESSION, line no: 101, 1.0, 1.0, 1.0
 0,NUMBER_LITERAL, line no: 101,1,NUMBER_LITERAL, line no: 87, 1.0, 0.6333333333333333, 1.0
 this.end + 1 + end,INFIX_EXPRESSION, line no: 101,end,SIMPLE_NAME, line no: 77, 1.0, 0.034482758620689655, 1.0
 this.end + 1 + end,INFIX_EXPRESSION, line no: 101,0,NUMBER_LITERAL, line no: 86, 1.0, 0.6206896551724138, 1.0
 this.end + 1 + end,INFIX_EXPRESSION, line no: 101,1,NUMBER_LITERAL, line no: 87, 1.0, 0.6206896551724138, 1.0
+this.end + 1 + end,INFIX_EXPRESSION, line no: 101,this.end,FIELD_ACCESS, line no: 94, 1.0, 0.3793103448275862, 1.0
+this.end + 1 + end,INFIX_EXPRESSION, line no: 101,end < 0,INFIX_EXPRESSION, line no: 101, 1.0, 1.0, 1.0
 this.end + 1 + end,INFIX_EXPRESSION, line no: 101,this.end + end,INFIX_EXPRESSION, line no: 101, 1.0, 1.0, 1.0
 this.end,FIELD_ACCESS, line no: 101,end,SIMPLE_NAME, line no: 77, 1.0, 0.03333333333333333, 1.0
 1,NUMBER_LITERAL, line no: 101,0,NUMBER_LITERAL, line no: 86, 1.0, 0.6333333333333333, 1.0
 this.end + end,INFIX_EXPRESSION, line no: 101,end,SIMPLE_NAME, line no: 77, 1.0, 0.034482758620689655, 1.0
 this.end + end,INFIX_EXPRESSION, line no: 101,0,NUMBER_LITERAL, line no: 86, 1.0, 0.6206896551724138, 1.0
 this.end + end,INFIX_EXPRESSION, line no: 101,1,NUMBER_LITERAL, line no: 87, 1.0, 0.6206896551724138, 1.0
+this.end + end,INFIX_EXPRESSION, line no: 101,this.end,FIELD_ACCESS, line no: 94, 1.0, 0.3793103448275862, 1.0
+this.end + end,INFIX_EXPRESSION, line no: 101,end < 0,INFIX_EXPRESSION, line no: 101, 1.0, 1.0, 1.0
 this.end + end,INFIX_EXPRESSION, line no: 101,this.end + 1 + end,INFIX_EXPRESSION, line no: 101, 1.0, 1.0, 1.0
 this.end,FIELD_ACCESS, line no: 101,end,SIMPLE_NAME, line no: 77, 1.0, 0.03333333333333333, 1.0
 end,SIMPLE_NAME, line no: 101,start,SIMPLE_NAME, line no: 77, 0.967741935483871, 0.03225806451612903, 1.0
@@ -40,6 +42,8 @@ this.end,FIELD_ACCESS, line no: 101,start,SIMPLE_NAME, line no: 77, 0.9666666666
 this.end,FIELD_ACCESS, line no: 101,0,NUMBER_LITERAL, line no: 86, 0.9666666666666667, 0.6, 1.0
 this.end,FIELD_ACCESS, line no: 101,1,NUMBER_LITERAL, line no: 87, 0.9666666666666667, 0.6, 1.0
 this.end,FIELD_ACCESS, line no: 101,end < 0,INFIX_EXPRESSION, line no: 101, 0.9666666666666667, 0.9666666666666667, 1.0
+this.end,FIELD_ACCESS, line no: 101,this.end + 1 + end,INFIX_EXPRESSION, line no: 101, 0.9666666666666667, 0.9666666666666667, 1.0
+this.end,FIELD_ACCESS, line no: 101,this.end + end,INFIX_EXPRESSION, line no: 101, 0.9666666666666667, 0.9666666666666667, 1.0
 1,NUMBER_LITERAL, line no: 101,end,SIMPLE_NAME, line no: 77, 0.9666666666666667, 0.03333333333333333, 1.0
 1,NUMBER_LITERAL, line no: 101,this.end,FIELD_ACCESS, line no: 94, 0.9666666666666667, 0.36666666666666664, 1.0
 1,NUMBER_LITERAL, line no: 101,this.end + 1 + end,INFIX_EXPRESSION, line no: 101, 0.9666666666666667, 0.9666666666666667, 1.0
@@ -54,12 +58,15 @@ this.end,FIELD_ACCESS, line no: 101,start,SIMPLE_NAME, line no: 77, 0.9666666666
 this.end,FIELD_ACCESS, line no: 101,0,NUMBER_LITERAL, line no: 86, 0.9666666666666667, 0.6, 1.0
 this.end,FIELD_ACCESS, line no: 101,1,NUMBER_LITERAL, line no: 87, 0.9666666666666667, 0.6, 1.0
 this.end,FIELD_ACCESS, line no: 101,end < 0,INFIX_EXPRESSION, line no: 101, 0.9666666666666667, 0.9666666666666667, 1.0
+this.end,FIELD_ACCESS, line no: 101,this.end + 1 + end,INFIX_EXPRESSION, line no: 101, 0.9666666666666667, 0.9666666666666667, 1.0
+this.end,FIELD_ACCESS, line no: 101,this.end + end,INFIX_EXPRESSION, line no: 101, 0.9666666666666667, 0.9666666666666667, 1.0
 end,SIMPLE_NAME, line no: 101,start,SIMPLE_NAME, line no: 77, 0.9666666666666667, 0.03333333333333333, 1.0
 end,SIMPLE_NAME, line no: 101,0,NUMBER_LITERAL, line no: 86, 0.9666666666666667, 0.6333333333333333, 1.0
 end,SIMPLE_NAME, line no: 101,1,NUMBER_LITERAL, line no: 87, 0.9666666666666667, 0.6333333333333333, 1.0
 end,SIMPLE_NAME, line no: 101,this.end,FIELD_ACCESS, line no: 94, 0.9666666666666667, 0.36666666666666664, 1.0
 end,SIMPLE_NAME, line no: 101,this.end + 1 + end,INFIX_EXPRESSION, line no: 101, 0.9666666666666667, 0.9666666666666667, 1.0
 end,SIMPLE_NAME, line no: 101,this.end + end,INFIX_EXPRESSION, line no: 101, 0.9666666666666667, 0.9666666666666667, 1.0
+end < 0,INFIX_EXPRESSION, line no: 101,end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101, 0.9655172413793104, 0.9655172413793104, 1.0
 this.end + 1 + end,INFIX_EXPRESSION, line no: 101,start,SIMPLE_NAME, line no: 77, 0.9655172413793104, 0.034482758620689655, 1.0
 this.end + 1 + end,INFIX_EXPRESSION, line no: 101,end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101, 0.9655172413793104, 0.9655172413793104, 1.0
 this.end + end,INFIX_EXPRESSION, line no: 101,start,SIMPLE_NAME, line no: 77, 0.9655172413793104, 0.034482758620689655, 1.0
@@ -82,6 +89,7 @@ end,SIMPLE_NAME, line no: 101,end < 0 ? this.end + 1 + end : this.end + end,COND
 0,NUMBER_LITERAL, line no: 101,this.start,FIELD_ACCESS, line no: 93, 0.9333333333333333, 0.36666666666666664, 1.0
 0,NUMBER_LITERAL, line no: 101,this.start + start,INFIX_EXPRESSION, line no: 100, 0.9333333333333333, 0.9333333333333333, 1.0
 0,NUMBER_LITERAL, line no: 101,end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101, 0.9333333333333333, 0.9333333333333333, 1.0
+this.end,FIELD_ACCESS, line no: 101,end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101, 0.9333333333333333, 0.9333333333333333, 1.0
 1,NUMBER_LITERAL, line no: 101,start,SIMPLE_NAME, line no: 77, 0.9333333333333333, 0.03333333333333333, 1.0
 1,NUMBER_LITERAL, line no: 101,this.start,FIELD_ACCESS, line no: 93, 0.9333333333333333, 0.36666666666666664, 1.0
 1,NUMBER_LITERAL, line no: 101,this.start + start,INFIX_EXPRESSION, line no: 100, 0.9333333333333333, 0.9333333333333333, 1.0
@@ -89,6 +97,7 @@ end,SIMPLE_NAME, line no: 101,end < 0 ? this.end + 1 + end : this.end + end,COND
 end,SIMPLE_NAME, line no: 101,this.start,FIELD_ACCESS, line no: 93, 0.9333333333333333, 0.36666666666666664, 1.0
 end,SIMPLE_NAME, line no: 101,this.start + start,INFIX_EXPRESSION, line no: 100, 0.9333333333333333, 0.9333333333333333, 1.0
 end,SIMPLE_NAME, line no: 101,end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101, 0.9333333333333333, 0.9333333333333333, 1.0
+this.end,FIELD_ACCESS, line no: 101,end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101, 0.9333333333333333, 0.9333333333333333, 1.0
 end,SIMPLE_NAME, line no: 101,this.start,FIELD_ACCESS, line no: 93, 0.9333333333333333, 0.36666666666666664, 1.0
 end,SIMPLE_NAME, line no: 101,this.start + start,INFIX_EXPRESSION, line no: 100, 0.9333333333333333, 0.9333333333333333, 1.0
 end,SIMPLE_NAME, line no: 101,end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101, 0.9333333333333333, 0.9333333333333333, 1.0
@@ -360,7 +369,6 @@ end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 1
 end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,2,NUMBER_LITERAL, line no: 85, 0.6071428571428571, 0.6071428571428571, 1.0
 end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,groupId,SIMPLE_NAME, line no: 200, 0.6071428571428571, 0.6071428571428571, 1.0
 end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,9,NUMBER_LITERAL, line no: 201, 0.6071428571428571, 0.6071428571428571, 1.0
-end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,text.length() + 1 + end,INFIX_EXPRESSION, line no: 246, 0.6071428571428571, 0.6071428571428571, 1.0
 0,NUMBER_LITERAL, line no: 101,groupId,SIMPLE_NAME, line no: 200, 0.6, 0.6, 1.0
 0,NUMBER_LITERAL, line no: 101,ch - '0',INFIX_EXPRESSION, line no: 200, 0.6, 0.6, 1.0
 this.end,FIELD_ACCESS, line no: 101,textOffset,SIMPLE_NAME, line no: 80, 0.6, 0.03333333333333333, 1.0
@@ -377,19 +385,14 @@ this.end,FIELD_ACCESS, line no: 101,groupCount,SIMPLE_NAME, line no: 84, 0.6, 0.
 this.end,FIELD_ACCESS, line no: 101,2,NUMBER_LITERAL, line no: 85, 0.6, 0.6, 1.0
 this.end,FIELD_ACCESS, line no: 101,groupId,SIMPLE_NAME, line no: 200, 0.6, 0.6, 1.0
 this.end,FIELD_ACCESS, line no: 101,9,NUMBER_LITERAL, line no: 201, 0.6, 0.6, 1.0
-this.end + 1 + end,INFIX_EXPRESSION, line no: 101,text.length() + 1 + end,INFIX_EXPRESSION, line no: 246, 0.5862068965517241, 0.5862068965517241, 1.0
-this.end + end,INFIX_EXPRESSION, line no: 101,text.length() + 1 + end,INFIX_EXPRESSION, line no: 246, 0.5862068965517241, 0.5862068965517241, 1.0
 end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,groupIndex,SIMPLE_NAME, line no: 148, 0.5714285714285714, 0.03571428571428571, 1.0
-end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,end < 0 ? text.length() + 1 + end : end,CONDITIONAL_EXPRESSION, line no: 246, 0.5714285714285714, 0.5714285714285714, 1.0
 end,SIMPLE_NAME, line no: 101,text.length() + 1 + end,INFIX_EXPRESSION, line no: 246, 0.5666666666666667, 0.5666666666666667, 1.0
 0,NUMBER_LITERAL, line no: 101,text.length() + 1 + end,INFIX_EXPRESSION, line no: 246, 0.5666666666666667, 0.5666666666666667, 1.0
 1,NUMBER_LITERAL, line no: 101,text.length() + 1 + end,INFIX_EXPRESSION, line no: 246, 0.5666666666666667, 0.5666666666666667, 1.0
 end,SIMPLE_NAME, line no: 101,text.length() + 1 + end,INFIX_EXPRESSION, line no: 246, 0.5666666666666667, 0.5666666666666667, 1.0
 end,SIMPLE_NAME, line no: 101,text.length() + 1 + end,INFIX_EXPRESSION, line no: 246, 0.5666666666666667, 0.5666666666666667, 1.0
 this.end + 1 + end,INFIX_EXPRESSION, line no: 101,groupIndex,SIMPLE_NAME, line no: 148, 0.5517241379310345, 0.034482758620689655, 1.0
-this.end + 1 + end,INFIX_EXPRESSION, line no: 101,end < 0 ? text.length() + 1 + end : end,CONDITIONAL_EXPRESSION, line no: 246, 0.5517241379310345, 0.5517241379310345, 1.0
 this.end + end,INFIX_EXPRESSION, line no: 101,groupIndex,SIMPLE_NAME, line no: 148, 0.5517241379310345, 0.034482758620689655, 1.0
-this.end + end,INFIX_EXPRESSION, line no: 101,end < 0 ? text.length() + 1 + end : end,CONDITIONAL_EXPRESSION, line no: 246, 0.5517241379310345, 0.5517241379310345, 1.0
 end,SIMPLE_NAME, line no: 101,text.length() + 1 + end,INFIX_EXPRESSION, line no: 246, 0.5483870967741935, 0.5483870967741935, 1.0
 end,SIMPLE_NAME, line no: 101,text.length() + 1 + end,INFIX_EXPRESSION, line no: 246, 0.5483870967741935, 0.5483870967741935, 1.0
 end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,startPos,SIMPLE_NAME, line no: 110, 0.5357142857142857, 0.03571428571428571, 1.0
@@ -417,8 +420,6 @@ this,THIS_EXPRESSION, line no: 101,SubText,SIMPLE_NAME, line no: 76, 0.516129032
 end,SIMPLE_NAME, line no: 101,groupIndex,SIMPLE_NAME, line no: 148, 0.5161290322580645, 0.03225806451612903, 1.0
 end,SIMPLE_NAME, line no: 101,end < 0 ? text.length() + 1 + end : end,CONDITIONAL_EXPRESSION, line no: 246, 0.5161290322580645, 0.5161290322580645, 1.0
 end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,pos,SIMPLE_NAME, line no: 59, 0.5, 0.03571428571428571, 1.0
-end < 0,INFIX_EXPRESSION, line no: 101,this.end + 1 + end,INFIX_EXPRESSION, line no: 101, 0.5, 1.0, 0.5
-end < 0,INFIX_EXPRESSION, line no: 101,this.end + end,INFIX_EXPRESSION, line no: 101, 0.5, 1.0, 0.5
 end,SIMPLE_NAME, line no: 101,pos,SIMPLE_NAME, line no: 59, 0.5, 0.03333333333333333, 1.0
 end,SIMPLE_NAME, line no: 101,startPos,SIMPLE_NAME, line no: 110, 0.5, 0.03333333333333333, 1.0
 end,SIMPLE_NAME, line no: 101,endPos,SIMPLE_NAME, line no: 110, 0.5, 0.03333333333333333, 1.0
@@ -461,11 +462,6 @@ end,SIMPLE_NAME, line no: 101,endPos,SIMPLE_NAME, line no: 110, 0.48387096774193
 end,SIMPLE_NAME, line no: 101,start(groupIndex),METHOD_INVOCATION, line no: 179, 0.4838709677419355, 0.4838709677419355, 1.0
 end,SIMPLE_NAME, line no: 101,-1,PREFIX_EXPRESSION, line no: 179, 0.4838709677419355, 0.4838709677419355, 1.0
 end,SIMPLE_NAME, line no: 101,tag.pos,QUALIFIED_NAME, line no: 300, 0.4838709677419355, 0.4838709677419355, 1.0
-this.end,FIELD_ACCESS, line no: 101,this.end + 1 + end,INFIX_EXPRESSION, line no: 101, 0.48333333333333334, 0.9666666666666667, 0.5
-this.end,FIELD_ACCESS, line no: 101,this.end + end,INFIX_EXPRESSION, line no: 101, 0.48333333333333334, 0.9666666666666667, 0.5
-this.end,FIELD_ACCESS, line no: 101,this.end + 1 + end,INFIX_EXPRESSION, line no: 101, 0.48333333333333334, 0.9666666666666667, 0.5
-this.end,FIELD_ACCESS, line no: 101,this.end + end,INFIX_EXPRESSION, line no: 101, 0.48333333333333334, 0.9666666666666667, 0.5
-end < 0,INFIX_EXPRESSION, line no: 101,end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101, 0.4827586206896552, 0.9655172413793104, 0.5
 this.end + 1 + end,INFIX_EXPRESSION, line no: 101,pos,SIMPLE_NAME, line no: 59, 0.4827586206896552, 0.034482758620689655, 1.0
 this.end + end,INFIX_EXPRESSION, line no: 101,pos,SIMPLE_NAME, line no: 59, 0.4827586206896552, 0.034482758620689655, 1.0
 end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,MarkupText.this.subText(this.start + start end < 0 ? this.end + 1 + end : this.end + end),METHOD_INVOCATION, line no: 100, 0.48214285714285715, 0.9642857142857143, 0.5
@@ -479,7 +475,6 @@ end,SIMPLE_NAME, line no: 101,end(groupIndex),METHOD_INVOCATION, line no: 181, 0
 0,NUMBER_LITERAL, line no: 101,end(groupIndex),METHOD_INVOCATION, line no: 181, 0.4666666666666667, 0.4666666666666667, 1.0
 0,NUMBER_LITERAL, line no: 101,tag.pos,QUALIFIED_NAME, line no: 300, 0.4666666666666667, 0.4666666666666667, 1.0
 this.end,FIELD_ACCESS, line no: 101,pos,SIMPLE_NAME, line no: 59, 0.4666666666666667, 0.03333333333333333, 1.0
-this.end,FIELD_ACCESS, line no: 101,end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101, 0.4666666666666667, 0.9333333333333333, 0.5
 1,NUMBER_LITERAL, line no: 101,pos,SIMPLE_NAME, line no: 59, 0.4666666666666667, 0.03333333333333333, 1.0
 1,NUMBER_LITERAL, line no: 101,startPos + start,INFIX_EXPRESSION, line no: 111, 0.4666666666666667, 0.4666666666666667, 1.0
 1,NUMBER_LITERAL, line no: 101,endPos + start,INFIX_EXPRESSION, line no: 111, 0.4666666666666667, 0.4666666666666667, 1.0
@@ -490,10 +485,10 @@ end,SIMPLE_NAME, line no: 101,startPos + start,INFIX_EXPRESSION, line no: 111, 0
 end,SIMPLE_NAME, line no: 101,endPos + start,INFIX_EXPRESSION, line no: 111, 0.4666666666666667, 0.4666666666666667, 1.0
 end,SIMPLE_NAME, line no: 101,end(groupIndex),METHOD_INVOCATION, line no: 181, 0.4666666666666667, 0.4666666666666667, 1.0
 this.end,FIELD_ACCESS, line no: 101,pos,SIMPLE_NAME, line no: 59, 0.4666666666666667, 0.03333333333333333, 1.0
-this.end,FIELD_ACCESS, line no: 101,end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101, 0.4666666666666667, 0.9333333333333333, 0.5
 end,SIMPLE_NAME, line no: 101,startPos + start,INFIX_EXPRESSION, line no: 111, 0.4666666666666667, 0.4666666666666667, 1.0
 end,SIMPLE_NAME, line no: 101,endPos + start,INFIX_EXPRESSION, line no: 111, 0.4666666666666667, 0.4666666666666667, 1.0
 end,SIMPLE_NAME, line no: 101,end(groupIndex),METHOD_INVOCATION, line no: 181, 0.4666666666666667, 0.4666666666666667, 1.0
+end < 0,INFIX_EXPRESSION, line no: 101,MarkupText.this.subText(this.start + start end < 0 ? this.end + 1 + end : this.end + end),METHOD_INVOCATION, line no: 100, 0.46551724137931033, 0.9310344827586207, 0.5
 this.end + 1 + end,INFIX_EXPRESSION, line no: 101,MarkupText.this.subText(this.start + start end < 0 ? this.end + 1 + end : this.end + end),METHOD_INVOCATION, line no: 100, 0.46551724137931033, 0.9310344827586207, 0.5
 this.end + end,INFIX_EXPRESSION, line no: 101,MarkupText.this.subText(this.start + start end < 0 ? this.end + 1 + end : this.end + end),METHOD_INVOCATION, line no: 100, 0.46551724137931033, 0.9310344827586207, 0.5
 end,SIMPLE_NAME, line no: 101,startPos + start,INFIX_EXPRESSION, line no: 111, 0.45161290322580644, 0.45161290322580644, 1.0
@@ -502,6 +497,8 @@ end,SIMPLE_NAME, line no: 101,end(groupIndex),METHOD_INVOCATION, line no: 181, 0
 end,SIMPLE_NAME, line no: 101,startPos + start,INFIX_EXPRESSION, line no: 111, 0.45161290322580644, 0.45161290322580644, 1.0
 end,SIMPLE_NAME, line no: 101,endPos + start,INFIX_EXPRESSION, line no: 111, 0.45161290322580644, 0.45161290322580644, 1.0
 end,SIMPLE_NAME, line no: 101,end(groupIndex),METHOD_INVOCATION, line no: 181, 0.45161290322580644, 0.45161290322580644, 1.0
+this.end,FIELD_ACCESS, line no: 101,MarkupText.this.subText(this.start + start end < 0 ? this.end + 1 + end : this.end + end),METHOD_INVOCATION, line no: 100, 0.45, 0.9, 0.5
+this.end,FIELD_ACCESS, line no: 101,MarkupText.this.subText(this.start + start end < 0 ? this.end + 1 + end : this.end + end),METHOD_INVOCATION, line no: 100, 0.45, 0.9, 0.5
 end < 0,INFIX_EXPRESSION, line no: 101,add,SIMPLE_NAME, line no: 258, 0.4482758620689655, 0.4482758620689655, 1.0
 end,SIMPLE_NAME, line no: 101,groupIndex * 2,INFIX_EXPRESSION, line no: 150, 0.43333333333333335, 0.43333333333333335, 1.0
 end,SIMPLE_NAME, line no: 101,copied=tag.pos,ASSIGNMENT, line no: 303, 0.43333333333333335, 0.43333333333333335, 1.0
@@ -517,9 +514,6 @@ end,SIMPLE_NAME, line no: 101,groupIndex * 2,INFIX_EXPRESSION, line no: 150, 0.4
 end,SIMPLE_NAME, line no: 101,copied=tag.pos,ASSIGNMENT, line no: 303, 0.41935483870967744, 0.41935483870967744, 1.0
 end,SIMPLE_NAME, line no: 101,groupIndex * 2,INFIX_EXPRESSION, line no: 150, 0.41935483870967744, 0.41935483870967744, 1.0
 end,SIMPLE_NAME, line no: 101,copied=tag.pos,ASSIGNMENT, line no: 303, 0.41935483870967744, 0.41935483870967744, 1.0
-this.end + 1 + end,INFIX_EXPRESSION, line no: 101,end=m.end() + textOffset,ASSIGNMENT, line no: 82, 0.41379310344827586, 0.6206896551724138, 0.6666666666666666
-this.end + end,INFIX_EXPRESSION, line no: 101,end=m.end() + textOffset,ASSIGNMENT, line no: 82, 0.41379310344827586, 0.6206896551724138, 0.6666666666666666
-end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,end=m.end() + textOffset,ASSIGNMENT, line no: 82, 0.4047619047619047, 0.6071428571428571, 0.6666666666666666
 end,SIMPLE_NAME, line no: 101,groupIndex * 2 - 2,INFIX_EXPRESSION, line no: 150, 0.4, 0.4, 1.0
 end,SIMPLE_NAME, line no: 101,groupIndex * 2 - 1,INFIX_EXPRESSION, line no: 165, 0.4, 0.4, 1.0
 0,NUMBER_LITERAL, line no: 101,groups[groupIndex * 2 - 2],ARRAY_ACCESS, line no: 150, 0.4, 0.4, 1.0
@@ -543,27 +537,27 @@ end,SIMPLE_NAME, line no: 101,groups[groupIndex * 2 - 1],ARRAY_ACCESS, line no: 
 end,SIMPLE_NAME, line no: 101,groups[groupIndex * 2 - 2],ARRAY_ACCESS, line no: 150, 0.36666666666666664, 0.36666666666666664, 1.0
 end,SIMPLE_NAME, line no: 101,groups[groupIndex * 2 - 1],ARRAY_ACCESS, line no: 165, 0.36666666666666664, 0.36666666666666664, 1.0
 end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,this.end=end,ASSIGNMENT, line no: 94, 0.35714285714285715, 0.35714285714285715, 1.0
-end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,new SubText(start end < 0 ? text.length() + 1 + end : end),CLASS_INSTANCE_CREATION, line no: 246, 0.3571428571428571, 0.5357142857142857, 0.6666666666666666
 end,SIMPLE_NAME, line no: 101,groups[groupIndex * 2 - 2],ARRAY_ACCESS, line no: 150, 0.3548387096774194, 0.3548387096774194, 1.0
 end,SIMPLE_NAME, line no: 101,groups[groupIndex * 2 - 1],ARRAY_ACCESS, line no: 165, 0.3548387096774194, 0.3548387096774194, 1.0
 end,SIMPLE_NAME, line no: 101,groups[groupIndex * 2 - 2],ARRAY_ACCESS, line no: 150, 0.3548387096774194, 0.3548387096774194, 1.0
 end,SIMPLE_NAME, line no: 101,groups[groupIndex * 2 - 1],ARRAY_ACCESS, line no: 165, 0.3548387096774194, 0.3548387096774194, 1.0
+end < 0,INFIX_EXPRESSION, line no: 101,this.end=end,ASSIGNMENT, line no: 94, 0.3448275862068966, 0.3448275862068966, 1.0
 this.end + 1 + end,INFIX_EXPRESSION, line no: 101,this.end=end,ASSIGNMENT, line no: 94, 0.3448275862068966, 0.3448275862068966, 1.0
-this.end + 1 + end,INFIX_EXPRESSION, line no: 101,new SubText(start end < 0 ? text.length() + 1 + end : end),CLASS_INSTANCE_CREATION, line no: 246, 0.3448275862068966, 0.5172413793103449, 0.6666666666666666
 this.end + end,INFIX_EXPRESSION, line no: 101,this.end=end,ASSIGNMENT, line no: 94, 0.3448275862068966, 0.3448275862068966, 1.0
-this.end + end,INFIX_EXPRESSION, line no: 101,new SubText(start end < 0 ? text.length() + 1 + end : end),CLASS_INSTANCE_CREATION, line no: 246, 0.3448275862068966, 0.5172413793103449, 0.6666666666666666
 end,SIMPLE_NAME, line no: 101,this.pos,FIELD_ACCESS, line no: 64, 0.3333333333333333, 0.3, 1.0
 end,SIMPLE_NAME, line no: 101,this.start=start,ASSIGNMENT, line no: 93, 0.3333333333333333, 0.3333333333333333, 1.0
 end,SIMPLE_NAME, line no: 101,this.end=end,ASSIGNMENT, line no: 94, 0.3333333333333333, 0.3333333333333333, 1.0
 0,NUMBER_LITERAL, line no: 101,this.pos,FIELD_ACCESS, line no: 64, 0.3333333333333333, 0.3, 1.0
 0,NUMBER_LITERAL, line no: 101,this.start=start,ASSIGNMENT, line no: 93, 0.3333333333333333, 0.3333333333333333, 1.0
 0,NUMBER_LITERAL, line no: 101,this.end=end,ASSIGNMENT, line no: 94, 0.3333333333333333, 0.3333333333333333, 1.0
+this.end,FIELD_ACCESS, line no: 101,this.end=end,ASSIGNMENT, line no: 94, 0.3333333333333333, 0.3333333333333333, 1.0
 1,NUMBER_LITERAL, line no: 101,this.pos,FIELD_ACCESS, line no: 64, 0.3333333333333333, 0.3, 1.0
 1,NUMBER_LITERAL, line no: 101,this.start=start,ASSIGNMENT, line no: 93, 0.3333333333333333, 0.3333333333333333, 1.0
 1,NUMBER_LITERAL, line no: 101,this.end=end,ASSIGNMENT, line no: 94, 0.3333333333333333, 0.3333333333333333, 1.0
 end,SIMPLE_NAME, line no: 101,this.pos,FIELD_ACCESS, line no: 64, 0.3333333333333333, 0.3, 1.0
 end,SIMPLE_NAME, line no: 101,this.start=start,ASSIGNMENT, line no: 93, 0.3333333333333333, 0.3333333333333333, 1.0
 end,SIMPLE_NAME, line no: 101,this.end=end,ASSIGNMENT, line no: 94, 0.3333333333333333, 0.3333333333333333, 1.0
+this.end,FIELD_ACCESS, line no: 101,this.end=end,ASSIGNMENT, line no: 94, 0.3333333333333333, 0.3333333333333333, 1.0
 end,SIMPLE_NAME, line no: 101,this.pos,FIELD_ACCESS, line no: 64, 0.3333333333333333, 0.3, 1.0
 end,SIMPLE_NAME, line no: 101,this.start=start,ASSIGNMENT, line no: 93, 0.3333333333333333, 0.3333333333333333, 1.0
 end,SIMPLE_NAME, line no: 101,this.end=end,ASSIGNMENT, line no: 94, 0.3333333333333333, 0.3333333333333333, 1.0
@@ -573,6 +567,7 @@ end,SIMPLE_NAME, line no: 101,this.end=end,ASSIGNMENT, line no: 94, 0.3225806451
 end,SIMPLE_NAME, line no: 101,this.pos,FIELD_ACCESS, line no: 64, 0.3225806451612903, 0.2903225806451613, 1.0
 end,SIMPLE_NAME, line no: 101,this.start=start,ASSIGNMENT, line no: 93, 0.3225806451612903, 0.3225806451612903, 1.0
 end,SIMPLE_NAME, line no: 101,this.end=end,ASSIGNMENT, line no: 94, 0.3225806451612903, 0.3225806451612903, 1.0
+end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,text.length() + 1 + end,INFIX_EXPRESSION, line no: 246, 0.30357142857142855, 0.6071428571428571, 0.5
 end,SIMPLE_NAME, line no: 101,this.pos - that.pos,INFIX_EXPRESSION, line no: 69, 0.3, 0.3, 1.0
 end,SIMPLE_NAME, line no: 101,that.pos,QUALIFIED_NAME, line no: 69, 0.3, 0.3, 1.0
 end,SIMPLE_NAME, line no: 101,length(),METHOD_INVOCATION, line no: 123, 0.3, 0.3, 1.0
@@ -589,15 +584,20 @@ end,SIMPLE_NAME, line no: 101,this.pos - that.pos,INFIX_EXPRESSION, line no: 69,
 end,SIMPLE_NAME, line no: 101,that.pos,QUALIFIED_NAME, line no: 69, 0.3, 0.3, 1.0
 end,SIMPLE_NAME, line no: 101,length(),METHOD_INVOCATION, line no: 123, 0.3, 0.3, 1.0
 end < 0,INFIX_EXPRESSION, line no: 101,text.length() + 1 + end,INFIX_EXPRESSION, line no: 246, 0.29310344827586204, 0.5862068965517241, 0.5
+this.end + 1 + end,INFIX_EXPRESSION, line no: 101,text.length() + 1 + end,INFIX_EXPRESSION, line no: 246, 0.29310344827586204, 0.5862068965517241, 0.5
+this.end + end,INFIX_EXPRESSION, line no: 101,text.length() + 1 + end,INFIX_EXPRESSION, line no: 246, 0.29310344827586204, 0.5862068965517241, 0.5
 end,SIMPLE_NAME, line no: 101,this.pos - that.pos,INFIX_EXPRESSION, line no: 69, 0.2903225806451613, 0.2903225806451613, 1.0
 end,SIMPLE_NAME, line no: 101,that.pos,QUALIFIED_NAME, line no: 69, 0.2903225806451613, 0.2903225806451613, 1.0
 end,SIMPLE_NAME, line no: 101,length(),METHOD_INVOCATION, line no: 123, 0.2903225806451613, 0.2903225806451613, 1.0
 end,SIMPLE_NAME, line no: 101,this.pos - that.pos,INFIX_EXPRESSION, line no: 69, 0.2903225806451613, 0.2903225806451613, 1.0
 end,SIMPLE_NAME, line no: 101,that.pos,QUALIFIED_NAME, line no: 69, 0.2903225806451613, 0.2903225806451613, 1.0
 end,SIMPLE_NAME, line no: 101,length(),METHOD_INVOCATION, line no: 123, 0.2903225806451613, 0.2903225806451613, 1.0
+end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,end < 0 ? text.length() + 1 + end : end,CONDITIONAL_EXPRESSION, line no: 246, 0.2857142857142857, 0.5714285714285714, 0.5
 this.end,FIELD_ACCESS, line no: 101,text.length() + 1 + end,INFIX_EXPRESSION, line no: 246, 0.2833333333333333, 0.5666666666666667, 0.5
 this.end,FIELD_ACCESS, line no: 101,text.length() + 1 + end,INFIX_EXPRESSION, line no: 246, 0.2833333333333333, 0.5666666666666667, 0.5
 end < 0,INFIX_EXPRESSION, line no: 101,end < 0 ? text.length() + 1 + end : end,CONDITIONAL_EXPRESSION, line no: 246, 0.27586206896551724, 0.5517241379310345, 0.5
+this.end + 1 + end,INFIX_EXPRESSION, line no: 101,end < 0 ? text.length() + 1 + end : end,CONDITIONAL_EXPRESSION, line no: 246, 0.27586206896551724, 0.5517241379310345, 0.5
+this.end + end,INFIX_EXPRESSION, line no: 101,end < 0 ? text.length() + 1 + end : end,CONDITIONAL_EXPRESSION, line no: 246, 0.27586206896551724, 0.5517241379310345, 0.5
 end,SIMPLE_NAME, line no: 101,this.pos=pos,ASSIGNMENT, line no: 64, 0.26666666666666666, 0.26666666666666666, 1.0
 0,NUMBER_LITERAL, line no: 101,this.pos=pos,ASSIGNMENT, line no: 64, 0.26666666666666666, 0.26666666666666666, 1.0
 this.end,FIELD_ACCESS, line no: 101,end < 0 ? text.length() + 1 + end : end,CONDITIONAL_EXPRESSION, line no: 246, 0.26666666666666666, 0.5333333333333333, 0.5
@@ -607,23 +607,23 @@ this.end,FIELD_ACCESS, line no: 101,end < 0 ? text.length() + 1 + end : end,COND
 end,SIMPLE_NAME, line no: 101,this.pos=pos,ASSIGNMENT, line no: 64, 0.26666666666666666, 0.26666666666666666, 1.0
 end,SIMPLE_NAME, line no: 101,this.pos=pos,ASSIGNMENT, line no: 64, 0.25806451612903225, 0.25806451612903225, 1.0
 end,SIMPLE_NAME, line no: 101,this.pos=pos,ASSIGNMENT, line no: 64, 0.25806451612903225, 0.25806451612903225, 1.0
-end < 0,INFIX_EXPRESSION, line no: 101,MarkupText.this.subText(this.start + start end < 0 ? this.end + 1 + end : this.end + end),METHOD_INVOCATION, line no: 100, 0.23275862068965517, 0.9310344827586207, 0.25
-this.end,FIELD_ACCESS, line no: 101,MarkupText.this.subText(this.start + start end < 0 ? this.end + 1 + end : this.end + end),METHOD_INVOCATION, line no: 100, 0.225, 0.9, 0.25
-this.end,FIELD_ACCESS, line no: 101,MarkupText.this.subText(this.start + start end < 0 ? this.end + 1 + end : this.end + end),METHOD_INVOCATION, line no: 100, 0.225, 0.9, 0.25
 end < 0,INFIX_EXPRESSION, line no: 101,end=m.end() + textOffset,ASSIGNMENT, line no: 82, 0.20689655172413793, 0.6206896551724138, 0.3333333333333333
+this.end + 1 + end,INFIX_EXPRESSION, line no: 101,end=m.end() + textOffset,ASSIGNMENT, line no: 82, 0.20689655172413793, 0.6206896551724138, 0.3333333333333333
+this.end + end,INFIX_EXPRESSION, line no: 101,end=m.end() + textOffset,ASSIGNMENT, line no: 82, 0.20689655172413793, 0.6206896551724138, 0.3333333333333333
+end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,end=m.end() + textOffset,ASSIGNMENT, line no: 82, 0.20238095238095236, 0.6071428571428571, 0.3333333333333333
 this.end,FIELD_ACCESS, line no: 101,end=m.end() + textOffset,ASSIGNMENT, line no: 82, 0.19999999999999998, 0.6, 0.3333333333333333
 this.end,FIELD_ACCESS, line no: 101,end=m.end() + textOffset,ASSIGNMENT, line no: 82, 0.19999999999999998, 0.6, 0.3333333333333333
-end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,text.substring(start end),METHOD_INVOCATION, line no: 106, 0.19047619047619047, 0.2857142857142857, 0.6666666666666666
-this.end + 1 + end,INFIX_EXPRESSION, line no: 101,text.substring(start end),METHOD_INVOCATION, line no: 106, 0.1839080459770115, 0.27586206896551724, 0.6666666666666666
-this.end + end,INFIX_EXPRESSION, line no: 101,text.substring(start end),METHOD_INVOCATION, line no: 106, 0.1839080459770115, 0.27586206896551724, 0.6666666666666666
-end < 0,INFIX_EXPRESSION, line no: 101,this.end=end,ASSIGNMENT, line no: 94, 0.1724137931034483, 0.3448275862068966, 0.5
+end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,new SubText(start end < 0 ? text.length() + 1 + end : end),CLASS_INSTANCE_CREATION, line no: 246, 0.17857142857142855, 0.5357142857142857, 0.3333333333333333
 end < 0,INFIX_EXPRESSION, line no: 101,new SubText(start end < 0 ? text.length() + 1 + end : end),CLASS_INSTANCE_CREATION, line no: 246, 0.1724137931034483, 0.5172413793103449, 0.3333333333333333
 end < 0,INFIX_EXPRESSION, line no: 101,false,BOOLEAN_LITERAL, line no: 280, 0.1724137931034483, 0.1724137931034483, 1.0
-this.end,FIELD_ACCESS, line no: 101,this.end=end,ASSIGNMENT, line no: 94, 0.16666666666666666, 0.3333333333333333, 0.5
+this.end + 1 + end,INFIX_EXPRESSION, line no: 101,new SubText(start end < 0 ? text.length() + 1 + end : end),CLASS_INSTANCE_CREATION, line no: 246, 0.1724137931034483, 0.5172413793103449, 0.3333333333333333
+this.end + end,INFIX_EXPRESSION, line no: 101,new SubText(start end < 0 ? text.length() + 1 + end : end),CLASS_INSTANCE_CREATION, line no: 246, 0.1724137931034483, 0.5172413793103449, 0.3333333333333333
 this.end,FIELD_ACCESS, line no: 101,new SubText(start end < 0 ? text.length() + 1 + end : end),CLASS_INSTANCE_CREATION, line no: 246, 0.16666666666666666, 0.5, 0.3333333333333333
-this.end,FIELD_ACCESS, line no: 101,this.end=end,ASSIGNMENT, line no: 94, 0.16666666666666666, 0.3333333333333333, 0.5
 this.end,FIELD_ACCESS, line no: 101,new SubText(start end < 0 ? text.length() + 1 + end : end),CLASS_INSTANCE_CREATION, line no: 246, 0.16666666666666666, 0.5, 0.3333333333333333
+end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,text.substring(start end),METHOD_INVOCATION, line no: 106, 0.09523809523809523, 0.2857142857142857, 0.3333333333333333
 end < 0,INFIX_EXPRESSION, line no: 101,text.substring(start end),METHOD_INVOCATION, line no: 106, 0.09195402298850575, 0.27586206896551724, 0.3333333333333333
+this.end + 1 + end,INFIX_EXPRESSION, line no: 101,text.substring(start end),METHOD_INVOCATION, line no: 106, 0.09195402298850575, 0.27586206896551724, 0.3333333333333333
+this.end + end,INFIX_EXPRESSION, line no: 101,text.substring(start end),METHOD_INVOCATION, line no: 106, 0.09195402298850575, 0.27586206896551724, 0.3333333333333333
 this.end,FIELD_ACCESS, line no: 101,text.substring(start end),METHOD_INVOCATION, line no: 106, 0.08888888888888888, 0.26666666666666666, 0.3333333333333333
 this.end,FIELD_ACCESS, line no: 101,text.substring(start end),METHOD_INVOCATION, line no: 106, 0.08888888888888888, 0.26666666666666666, 0.3333333333333333
 end < 0 ? this.end + 1 + end : this.end + end,CONDITIONAL_EXPRESSION, line no: 101,compareTo,SIMPLE_NAME, line no: 68, 0.03571428571428571, 0.03571428571428571, 1.0

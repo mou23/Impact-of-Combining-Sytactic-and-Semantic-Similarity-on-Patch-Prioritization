@@ -42,7 +42,14 @@ Pointer,SIMPLE_NAME, line no: 1192,FFIType.get(Pointer.class),METHOD_INVOCATION,
 Pointer,SIMPLE_NAME, line no: 1192,FFIType.get(fromNative.nativeType()),METHOD_INVOCATION, line no: 1193, 0.994328922495274, 0.994328922495274, 1.0
 Pointer,SIMPLE_NAME, line no: 1192,FFIType.get(NativeMappedConverter.getInstance(rclass).nativeType()),METHOD_INVOCATION, line no: 1199, 0.994328922495274, 0.994328922495274, 1.0
 Pointer,SIMPLE_NAME, line no: 1192,FFIType.get(rclass),METHOD_INVOCATION, line no: 1206, 0.994328922495274, 0.994328922495274, 1.0
-closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,closure_rtype=rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1202, 0.5, 1.0, 0.5
+closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,closure_rtype=rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1202, 0.6666666666666666, 1.0, 0.6666666666666666
+closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192, 0.5, 1.0, 0.5
+closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,closure_rtype=rtype=FFIType.get(rclass).peer,ASSIGNMENT, line no: 1209, 0.5, 1.0, 0.5
+FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,FFIType.get(fromNative.nativeType()).peer,FIELD_ACCESS, line no: 1193, 0.5, 1.0, 0.5
+FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,FFIType.get(NativeMappedConverter.getInstance(rclass).nativeType()).peer,FIELD_ACCESS, line no: 1199, 0.5, 1.0, 0.5
+FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,FFIType.get(rclass).peer,FIELD_ACCESS, line no: 1206, 0.5, 1.0, 0.5
+FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192, 0.4990476190476191, 0.9980952380952381, 0.5
+FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1202, 0.4990476190476191, 0.9980952380952381, 0.5
 get,SIMPLE_NAME, line no: 1192,FFIType.get(type),METHOD_INVOCATION, line no: 1234, 0.3795066413662239, 0.3776091081593928, 1.0
 closure_rtype,SIMPLE_NAME, line no: 1192,atypes[t],ARRAY_ACCESS, line no: 1234, 0.379047619047619, 0.37714285714285717, 1.0
 closure_rtype,SIMPLE_NAME, line no: 1192,FFIType.get(type).peer,FIELD_ACCESS, line no: 1234, 0.379047619047619, 0.37714285714285717, 1.0
@@ -69,7 +76,30 @@ closure_rtype,SIMPLE_NAME, line no: 1192,closure_atypes[t]=atypes[t]=FFIType.get
 peer,SIMPLE_NAME, line no: 1192,atypes[t]=FFIType.get(toNative[t].nativeType()).peer,ASSIGNMENT, line no: 1242, 0.3745247148288973, 0.3745247148288973, 1.0
 peer,SIMPLE_NAME, line no: 1192,closure_atypes[t]=atypes[t]=FFIType.get(type).peer,ASSIGNMENT, line no: 1245, 0.3745247148288973, 0.3745247148288973, 1.0
 peer,SIMPLE_NAME, line no: 1192,closure_atypes[t]=atypes[t]=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1248, 0.3745247148288973, 0.3745247148288973, 1.0
-closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,closure_rtype=rtype=FFIType.get(rclass).peer,ASSIGNMENT, line no: 1209, 0.3333333333333333, 1.0, 0.3333333333333333
+closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,FFIType.get(fromNative.nativeType()).peer,FIELD_ACCESS, line no: 1193, 0.3333333333333333, 1.0, 0.3333333333333333
+closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,FFIType.get(NativeMappedConverter.getInstance(rclass).nativeType()).peer,FIELD_ACCESS, line no: 1199, 0.3333333333333333, 1.0, 0.3333333333333333
+closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1202, 0.3333333333333333, 1.0, 0.3333333333333333
+closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,FFIType.get(rclass).peer,FIELD_ACCESS, line no: 1206, 0.3333333333333333, 1.0, 0.3333333333333333
+FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,rtype=FFIType.get(fromNative.nativeType()).peer,ASSIGNMENT, line no: 1193, 0.3326984126984127, 0.9980952380952381, 0.3333333333333333
+FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,rtype=FFIType.get(NativeMappedConverter.getInstance(rclass).nativeType()).peer,ASSIGNMENT, line no: 1199, 0.3326984126984127, 0.9980952380952381, 0.3333333333333333
+FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,closure_rtype=rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1202, 0.3326984126984127, 0.9980952380952381, 0.3333333333333333
+FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,rtype=FFIType.get(rclass).peer,ASSIGNMENT, line no: 1206, 0.3326984126984127, 0.9980952380952381, 0.3333333333333333
+closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,rtype=FFIType.get(fromNative.nativeType()).peer,ASSIGNMENT, line no: 1193, 0.25, 1.0, 0.25
+closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,rtype=FFIType.get(NativeMappedConverter.getInstance(rclass).nativeType()).peer,ASSIGNMENT, line no: 1199, 0.25, 1.0, 0.25
+closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,rtype=FFIType.get(rclass).peer,ASSIGNMENT, line no: 1206, 0.25, 1.0, 0.25
+FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,closure_rtype=rtype=FFIType.get(rclass).peer,ASSIGNMENT, line no: 1209, 0.24952380952380954, 0.9980952380952381, 0.25
+FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,FFIType.get(type).peer,FIELD_ACCESS, line no: 1234, 0.1895238095238095, 0.37714285714285717, 0.5
+closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,FFIType.get(type).peer,FIELD_ACCESS, line no: 1234, 0.12659033078880405, 0.37786259541984735, 0.3333333333333333
+FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,closure_atypes[t]=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1235, 0.12571428571428572, 0.37523809523809526, 0.3333333333333333
+FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,FFIType.get(toNative[t].nativeType()).peer,FIELD_ACCESS, line no: 1242, 0.12571428571428572, 0.37714285714285717, 0.3333333333333333
+FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,atypes[t]=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1248, 0.12571428571428572, 0.37714285714285717, 0.3333333333333333
+closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,closure_atypes[t]=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1235, 0.09446564885496184, 0.37595419847328243, 0.25
+closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,FFIType.get(toNative[t].nativeType()).peer,FIELD_ACCESS, line no: 1242, 0.09446564885496184, 0.37786259541984735, 0.25
+closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,atypes[t]=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1248, 0.09446564885496184, 0.37786259541984735, 0.25
+FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,atypes[t]=FFIType.get(type).peer,ASSIGNMENT, line no: 1234, 0.09428571428571429, 0.37523809523809526, 0.25
+FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,closure_atypes[t]=FFIType.get(type).peer,ASSIGNMENT, line no: 1239, 0.09428571428571429, 0.37714285714285717, 0.25
+FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,atypes[t]=FFIType.get(toNative[t].nativeType()).peer,ASSIGNMENT, line no: 1242, 0.09380952380952381, 0.37523809523809526, 0.25
+FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,closure_atypes[t]=atypes[t]=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1248, 0.09380952380952381, 0.37523809523809526, 0.25
 closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,getWindowHandle0,SIMPLE_NAME, line no: 262, 0.08969465648854962, 0.08969465648854962, 1.0
 closure_rtype,SIMPLE_NAME, line no: 1192,getWindowHandle0,SIMPLE_NAME, line no: 262, 0.08952380952380952, 0.08952380952380952, 1.0
 FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,getWindowHandle0,SIMPLE_NAME, line no: 262, 0.08952380952380952, 0.08952380952380952, 1.0
@@ -86,6 +116,11 @@ closure_rtype,SIMPLE_NAME, line no: 1192,System.currentTimeMillis(),METHOD_INVOC
 FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,start,SIMPLE_NAME, line no: 850, 0.0838095238095238, 0.0838095238095238, 1.0
 peer,SIMPLE_NAME, line no: 1192,start,SIMPLE_NAME, line no: 850, 0.08365019011406843, 0.08365019011406843, 1.0
 peer,SIMPLE_NAME, line no: 1192,System.currentTimeMillis(),METHOD_INVOCATION, line no: 850, 0.08365019011406843, 0.08365019011406843, 1.0
+closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,atypes[t]=FFIType.get(type).peer,ASSIGNMENT, line no: 1234, 0.07557251908396947, 0.37595419847328243, 0.2
+closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,closure_atypes[t]=FFIType.get(type).peer,ASSIGNMENT, line no: 1239, 0.07557251908396947, 0.37786259541984735, 0.2
+closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,atypes[t]=FFIType.get(toNative[t].nativeType()).peer,ASSIGNMENT, line no: 1242, 0.0751908396946565, 0.37595419847328243, 0.2
+closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,closure_atypes[t]=atypes[t]=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1248, 0.0751908396946565, 0.37595419847328243, 0.2
+FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,closure_atypes[t]=atypes[t]=FFIType.get(type).peer,ASSIGNMENT, line no: 1245, 0.07504761904761906, 0.37523809523809526, 0.2
 FFIType.get(Pointer.class),METHOD_INVOCATION, line no: 1192,f,SIMPLE_NAME, line no: 1275, 0.06653992395437262, 0.06653992395437262, 1.0
 get,SIMPLE_NAME, line no: 1192,f,SIMPLE_NAME, line no: 1275, 0.06641366223908918, 0.06641366223908918, 1.0
 Pointer,SIMPLE_NAME, line no: 1192,f,SIMPLE_NAME, line no: 1275, 0.0661625708884688, 0.0661625708884688, 1.0
@@ -101,8 +136,11 @@ closure_rtype,SIMPLE_NAME, line no: 1192,registerMethod(cls method.getName() sig
 peer,SIMPLE_NAME, line no: 1192,System.currentTimeMillis() - start,INFIX_EXPRESSION, line no: 854, 0.06273764258555133, 0.06273764258555133, 1.0
 peer,SIMPLE_NAME, line no: 1192,handles[i],ARRAY_ACCESS, line no: 1270, 0.06273764258555133, 0.06273764258555133, 1.0
 peer,SIMPLE_NAME, line no: 1192,registerMethod(cls method.getName() sig cvt closure_atypes atypes rcvt closure_rtype rtype rclass f.peer f.getCallingConvention() throwLastError toNative fromNative),METHOD_INVOCATION, line no: 1270, 0.06273764258555133, 0.06273764258555133, 1.0
+closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,closure_atypes[t]=atypes[t]=FFIType.get(type).peer,ASSIGNMENT, line no: 1245, 0.0626590330788804, 0.37595419847328243, 0.16666666666666666
 closure_rtype,SIMPLE_NAME, line no: 1192,handles[i]=registerMethod(cls method.getName() sig cvt closure_atypes atypes rcvt closure_rtype rtype rclass f.peer f.getCallingConvention() throwLastError toNative fromNative),ASSIGNMENT, line no: 1270, 0.06095238095238095, 0.06095238095238095, 1.0
 peer,SIMPLE_NAME, line no: 1192,handles[i]=registerMethod(cls method.getName() sig cvt closure_atypes atypes rcvt closure_rtype rtype rclass f.peer f.getCallingConvention() throwLastError toNative fromNative),ASSIGNMENT, line no: 1270, 0.060836501901140684, 0.060836501901140684, 1.0
+FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,f.peer,QUALIFIED_NAME, line no: 1275, 0.03238095238095238, 0.06476190476190476, 0.5
+closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,f.peer,QUALIFIED_NAME, line no: 1275, 0.021628498727735368, 0.0648854961832061, 0.3333333333333333
 closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,getComponentID,SIMPLE_NAME, line no: 234, 0.015267175572519083, 0.009541984732824428, 1.0
 closure_rtype,SIMPLE_NAME, line no: 1192,getComponentID,SIMPLE_NAME, line no: 234, 0.015238095238095238, 0.009523809523809525, 1.0
 FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,getComponentID,SIMPLE_NAME, line no: 234, 0.015238095238095238, 0.009523809523809525, 1.0
@@ -114,12 +152,14 @@ Pointer,SIMPLE_NAME, line no: 1192,new Pointer(getComponentID(c)),CLASS_INSTANCE
 FFIType.get(Pointer.class),METHOD_INVOCATION, line no: 1192,getComponentPointer,SIMPLE_NAME, line no: 272, 0.009505703422053232, 0.009505703422053232, 1.0
 get,SIMPLE_NAME, line no: 1192,getComponentPointer,SIMPLE_NAME, line no: 272, 0.009487666034155597, 0.009487666034155597, 1.0
 Pointer,SIMPLE_NAME, line no: 1192,getComponentPointer,SIMPLE_NAME, line no: 272, 0.00945179584120983, 0.00945179584120983, 1.0
+closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,registerMethod(cls method.getName() sig cvt closure_atypes atypes rcvt closure_rtype rtype rclass f.peer f.getCallingConvention() throwLastError toNative fromNative),METHOD_INVOCATION, line no: 1270, 0.007872137404580152, 0.06297709923664122, 0.125
 closure_rtype,SIMPLE_NAME, line no: 1192,getComponentID(w),METHOD_INVOCATION, line no: 234, 0.007619047619047619, 0.007619047619047619, 1.0
 peer,SIMPLE_NAME, line no: 1192,getComponentID(w),METHOD_INVOCATION, line no: 234, 0.0076045627376425855, 0.0076045627376425855, 1.0
 get,SIMPLE_NAME, line no: 1192,getComponentPointer(w),METHOD_INVOCATION, line no: 272, 0.007590132827324478, 0.007590132827324478, 1.0
 Pointer,SIMPLE_NAME, line no: 1192,getComponentPointer(w),METHOD_INVOCATION, line no: 272, 0.007561436672967864, 0.007561436672967864, 1.0
-closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,registerMethod(cls method.getName() sig cvt closure_atypes atypes rcvt closure_rtype rtype rclass f.peer f.getCallingConvention() throwLastError toNative fromNative),METHOD_INVOCATION, line no: 1270, 0.004498364231188658, 0.06297709923664122, 0.07142857142857142
-closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,handles[i]=registerMethod(cls method.getName() sig cvt closure_atypes atypes rcvt closure_rtype rtype rclass f.peer f.getCallingConvention() throwLastError toNative fromNative),ASSIGNMENT, line no: 1270, 0.003816793893129771, 0.061068702290076333, 0.0625
+closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,handles[i]=registerMethod(cls method.getName() sig cvt closure_atypes atypes rcvt closure_rtype rtype rclass f.peer f.getCallingConvention() throwLastError toNative fromNative),ASSIGNMENT, line no: 1270, 0.006785411365564036, 0.061068702290076333, 0.1111111111111111
+FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,registerMethod(cls method.getName() sig cvt closure_atypes atypes rcvt closure_rtype rtype rclass f.peer f.getCallingConvention() throwLastError toNative fromNative),METHOD_INVOCATION, line no: 1270, 0.003928571428571429, 0.06285714285714286, 0.0625
+FFIType.get(Pointer.class).peer,FIELD_ACCESS, line no: 1192,handles[i]=registerMethod(cls method.getName() sig cvt closure_atypes atypes rcvt closure_rtype rtype rclass f.peer f.getCallingConvention() throwLastError toNative fromNative),ASSIGNMENT, line no: 1270, 0.003386243386243386, 0.06095238095238095, 0.05555555555555555
 closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,getWindowID,SIMPLE_NAME, line no: 233, 0.0019083969465648854, 0.0019083969465648854, 1.0
 closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,fptr,SIMPLE_NAME, line no: 1331, 0.0019083969465648854, 0.0019083969465648854, 1.0
 closure_rtype=FFIType.get(Pointer.class).peer,ASSIGNMENT, line no: 1192,ffi_prep_cif,SIMPLE_NAME, line no: 1355, 0.0019083969465648854, 0.0019083969465648854, 1.0

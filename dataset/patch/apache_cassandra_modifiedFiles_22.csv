@@ -350,25 +350,21 @@ cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"column",STRING_LITERAL, line
 "Super",STRING_LITERAL, line no: 379,"row",STRING_LITERAL, line no: 294, 0.6302250803858521, 0.6302250803858521, 1.0
 "Super",STRING_LITERAL, line no: 379,"column",STRING_LITERAL, line no: 294, 0.6302250803858521, 0.6302250803858521, 1.0
 isSuper,SIMPLE_NAME, line no: 379,(columnSpecCnt == 0),PARENTHESIZED_EXPRESSION, line no: 294, 0.6290322580645161, 0.6290322580645161, 1.0
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.column_type,QUALIFIED_NAME, line no: 262, 0.6290322580645161, 0.6290322580645161, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,key,SIMPLE_NAME, line no: 228, 0.6282051282051282, 0.41346153846153844, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,"row",STRING_LITERAL, line no: 294, 0.6282051282051282, 0.6282051282051282, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,"column",STRING_LITERAL, line no: 294, 0.6282051282051282, 0.6282051282051282, 1.0
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,statement,SIMPLE_NAME, line no: 110, 0.6270096463022508, 0.003215434083601286, 1.0
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,getKey,SIMPLE_NAME, line no: 228, 0.6270096463022508, 0.4180064308681672, 1.0
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.column_type,QUALIFIED_NAME, line no: 262, 0.6270096463022508, 0.6270096463022508, 1.0
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"%s removed.",STRING_LITERAL, line no: 294, 0.6270096463022508, 0.6270096463022508, 1.0
 equals,SIMPLE_NAME, line no: 379,(columnSpecCnt == 0),PARENTHESIZED_EXPRESSION, line no: 294, 0.6270096463022508, 0.6270096463022508, 1.0
 "Super",STRING_LITERAL, line no: 379,getKey,SIMPLE_NAME, line no: 228, 0.6270096463022508, 0.4180064308681672, 1.0
 "Super",STRING_LITERAL, line no: 379,cfDef.column_type,QUALIFIED_NAME, line no: 262, 0.6270096463022508, 0.6270096463022508, 1.0
 "Super",STRING_LITERAL, line no: 379,"%s removed.",STRING_LITERAL, line no: 294, 0.6270096463022508, 0.6270096463022508, 1.0
 isSuper,SIMPLE_NAME, line no: 379,cfDef.column_type.equals("Super"),METHOD_INVOCATION, line no: 262, 0.6258064516129033, 0.6258064516129033, 1.0
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.column_type.equals("Super"),METHOD_INVOCATION, line no: 262, 0.6258064516129033, 0.6258064516129033, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,statement,SIMPLE_NAME, line no: 110, 0.625, 0.003205128205128205, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,getKey,SIMPLE_NAME, line no: 228, 0.625, 0.4166666666666667, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,cfDef.column_type,QUALIFIED_NAME, line no: 262, 0.625, 0.625, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,"%s removed.",STRING_LITERAL, line no: 294, 0.625, 0.625, 1.0
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.column_type.equals("Super"),METHOD_INVOCATION, line no: 262, 0.6237942122186495, 0.6237942122186495, 1.0
 equals,SIMPLE_NAME, line no: 379,cfDef.column_type.equals("Super"),METHOD_INVOCATION, line no: 262, 0.6237942122186495, 0.6237942122186495, 1.0
 "Super",STRING_LITERAL, line no: 379,statement,SIMPLE_NAME, line no: 110, 0.6237942122186495, 0.003215434083601286, 1.0
 "Super",STRING_LITERAL, line no: 379,CliCompiler.getKey(columnFamilySpec),METHOD_INVOCATION, line no: 228, 0.6237942122186495, 0.41479099678456594, 1.0
@@ -482,8 +478,6 @@ comparator_type,SIMPLE_NAME, line no: 379,"Assumption for column family '%s' add
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"COMPARATOR",STRING_LITERAL, line no: 1047, 0.5048231511254019, 0.5048231511254019, 1.0
 equals,SIMPLE_NAME, line no: 379,assumptionElement.equals("COMPARATOR"),METHOD_INVOCATION, line no: 1047, 0.5048231511254019, 0.5048231511254019, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,"COMPARATOR",STRING_LITERAL, line no: 1047, 0.5032051282051282, 0.5032051282051282, 1.0
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,getValidatorForValue(cfDef TBaseHelper.byteBufferToByteArray(columnName)),METHOD_INVOCATION, line no: 415, 0.5, 1.0, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,getValidatorForValue(cfDef TBaseHelper.byteBufferToByteArray(columnName)),METHOD_INVOCATION, line no: 415, 0.4983922829581994, 0.9967845659163987, 0.5
 isSuper,SIMPLE_NAME, line no: 379,i < meta.getChildCount(),INFIX_EXPRESSION, line no: 1380, 0.47096774193548385, 0.47096774193548385, 1.0
 equals,SIMPLE_NAME, line no: 379,i < meta.getChildCount(),INFIX_EXPRESSION, line no: 1380, 0.4694533762057878, 0.4694533762057878, 1.0
 isSuper,SIMPLE_NAME, line no: 379,columnOrSuperColumn.super_column != null,INFIX_EXPRESSION, line no: 1851, 0.4290322580645161, 0.4290322580645161, 1.0
@@ -587,42 +581,8 @@ comparator_type,SIMPLE_NAME, line no: 379,operator,SIMPLE_NAME, line no: 493, 0.
 comparator_type,SIMPLE_NAME, line no: 379,condition.getChild(0).getText(),METHOD_INVOCATION, line no: 493, 0.33653846153846156, 0.33653846153846156, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,columnNameString,SIMPLE_NAME, line no: 494, 0.33653846153846156, 0.33653846153846156, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,CliUtils.unescapeSQLString(condition.getChild(1).getText()),METHOD_INVOCATION, line no: 494, 0.33653846153846156, 0.33653846153846156, 1.0
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,getCFColumnMetaFromTree(cfDef arrayOfMetaAttributes),METHOD_INVOCATION, line no: 852, 0.3241935483870968, 0.6483870967741936, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,getCFColumnMetaFromTree(cfDef arrayOfMetaAttributes),METHOD_INVOCATION, line no: 852, 0.32315112540192925, 0.6463022508038585, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setColumn_type(CliUtils.unescapeSQLString(mValue)),METHOD_INVOCATION, line no: 825, 0.3225806451612903, 0.6451612903225806, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setComparator_type(CliUtils.unescapeSQLString(mValue)),METHOD_INVOCATION, line no: 828, 0.3225806451612903, 0.6451612903225806, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setSubcomparator_type(CliUtils.unescapeSQLString(mValue)),METHOD_INVOCATION, line no: 831, 0.3225806451612903, 0.6451612903225806, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setComment(CliUtils.unescapeSQLString(mValue)),METHOD_INVOCATION, line no: 834, 0.3225806451612903, 0.6451612903225806, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setRow_cache_size(Double.parseDouble(mValue)),METHOD_INVOCATION, line no: 837, 0.3225806451612903, 0.6451612903225806, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setKey_cache_size(Double.parseDouble(mValue)),METHOD_INVOCATION, line no: 840, 0.3225806451612903, 0.6451612903225806, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setRead_repair_chance(Double.parseDouble(mValue)),METHOD_INVOCATION, line no: 843, 0.3225806451612903, 0.6451612903225806, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setGc_grace_seconds(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 846, 0.3225806451612903, 0.6451612903225806, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setColumn_metadata(getCFColumnMetaFromTree(cfDef arrayOfMetaAttributes)),METHOD_INVOCATION, line no: 852, 0.3225806451612903, 0.6451612903225806, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setMemtable_operations_in_millions(Double.parseDouble(mValue)),METHOD_INVOCATION, line no: 855, 0.3225806451612903, 0.6451612903225806, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setMemtable_flush_after_mins(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 858, 0.3225806451612903, 0.6451612903225806, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setMemtable_throughput_in_mb(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 861, 0.3225806451612903, 0.6451612903225806, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setRow_cache_save_period_in_seconds(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 864, 0.3225806451612903, 0.6451612903225806, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setKey_cache_save_period_in_seconds(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 867, 0.3225806451612903, 0.6451612903225806, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setDefault_validation_class(mValue),METHOD_INVOCATION, line no: 870, 0.3225806451612903, 0.6451612903225806, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setMin_compaction_threshold(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 873, 0.3225806451612903, 0.6451612903225806, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setMax_compaction_threshold(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 876, 0.3225806451612903, 0.6451612903225806, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setColumn_type(CliUtils.unescapeSQLString(mValue)),METHOD_INVOCATION, line no: 825, 0.3215434083601286, 0.6430868167202572, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setComparator_type(CliUtils.unescapeSQLString(mValue)),METHOD_INVOCATION, line no: 828, 0.3215434083601286, 0.6430868167202572, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setSubcomparator_type(CliUtils.unescapeSQLString(mValue)),METHOD_INVOCATION, line no: 831, 0.3215434083601286, 0.6430868167202572, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setComment(CliUtils.unescapeSQLString(mValue)),METHOD_INVOCATION, line no: 834, 0.3215434083601286, 0.6430868167202572, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setRow_cache_size(Double.parseDouble(mValue)),METHOD_INVOCATION, line no: 837, 0.3215434083601286, 0.6430868167202572, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setKey_cache_size(Double.parseDouble(mValue)),METHOD_INVOCATION, line no: 840, 0.3215434083601286, 0.6430868167202572, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setRead_repair_chance(Double.parseDouble(mValue)),METHOD_INVOCATION, line no: 843, 0.3215434083601286, 0.6430868167202572, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setGc_grace_seconds(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 846, 0.3215434083601286, 0.6430868167202572, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setColumn_metadata(getCFColumnMetaFromTree(cfDef arrayOfMetaAttributes)),METHOD_INVOCATION, line no: 852, 0.3215434083601286, 0.6430868167202572, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setMemtable_operations_in_millions(Double.parseDouble(mValue)),METHOD_INVOCATION, line no: 855, 0.3215434083601286, 0.6430868167202572, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setMemtable_flush_after_mins(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 858, 0.3215434083601286, 0.6430868167202572, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setMemtable_throughput_in_mb(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 861, 0.3215434083601286, 0.6430868167202572, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setRow_cache_save_period_in_seconds(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 864, 0.3215434083601286, 0.6430868167202572, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setKey_cache_save_period_in_seconds(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 867, 0.3215434083601286, 0.6430868167202572, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setDefault_validation_class(mValue),METHOD_INVOCATION, line no: 870, 0.3215434083601286, 0.6430868167202572, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setMin_compaction_threshold(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 873, 0.3215434083601286, 0.6430868167202572, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setMax_compaction_threshold(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 876, 0.3215434083601286, 0.6430868167202572, 0.5
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,getValidatorForValue(cfDef TBaseHelper.byteBufferToByteArray(columnName)),METHOD_INVOCATION, line no: 415, 0.3333333333333333, 1.0, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,getValidatorForValue(cfDef TBaseHelper.byteBufferToByteArray(columnName)),METHOD_INVOCATION, line no: 415, 0.3322615219721329, 0.9967845659163987, 0.3333333333333333
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,getValidation_class,SIMPLE_NAME, line no: 1271, 0.3086816720257235, 0.3086816720257235, 1.0
 "Super",STRING_LITERAL, line no: 379,getValidation_class,SIMPLE_NAME, line no: 1271, 0.3086816720257235, 0.3086816720257235, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,getValidation_class,SIMPLE_NAME, line no: 1271, 0.3076923076923077, 0.3076923076923077, 1.0
@@ -689,8 +649,6 @@ equals,SIMPLE_NAME, line no: 379,columnDef.isSetIndex_type(),METHOD_INVOCATION, 
 equals,SIMPLE_NAME, line no: 379,metaKey.equals("column_name"),METHOD_INVOCATION, line no: 1396, 0.2990353697749196, 0.2990353697749196, 1.0
 isSuper,SIMPLE_NAME, line no: 379,columnNameValidator instanceof BytesType,INSTANCEOF_EXPRESSION, line no: 1257, 0.2967741935483871, 0.2967741935483871, 1.0
 equals,SIMPLE_NAME, line no: 379,columnNameValidator instanceof BytesType,INSTANCEOF_EXPRESSION, line no: 1257, 0.2958199356913183, 0.2958199356913183, 1.0
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,convertValueByFunction(valueTree cfDef columnName true),METHOD_INVOCATION, line no: 608, 0.27956989247311825, 0.8387096774193549, 0.3333333333333333
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,convertValueByFunction(valueTree cfDef columnName true),METHOD_INVOCATION, line no: 608, 0.27867095391211144, 0.8360128617363344, 0.3333333333333333
 isSuper,SIMPLE_NAME, line no: 379,withUpdate,SIMPLE_NAME, line no: 1693, 0.25483870967741934, 0.0032258064516129032, 1.0
 isSuper,SIMPLE_NAME, line no: 379,functionArg.isEmpty(),METHOD_INVOCATION, line no: 1705, 0.25483870967741934, 0.25483870967741934, 1.0
 cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,withUpdate,SIMPLE_NAME, line no: 1693, 0.25483870967741934, 0.0032258064516129032, 1.0
@@ -716,23 +674,65 @@ comparator_type,SIMPLE_NAME, line no: 379,hostName,SIMPLE_NAME, line no: 1330, 0
 "Super",STRING_LITERAL, line no: 379,hostName.toString(),METHOD_INVOCATION, line no: 1330, 0.24115755627009647, 0.24115755627009647, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,sessionState.hostName,QUALIFIED_NAME, line no: 1330, 0.2403846153846154, 0.2403846153846154, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,hostName.toString(),METHOD_INVOCATION, line no: 1330, 0.2403846153846154, 0.2403846153846154, 1.0
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cf_def.comparator_type,QUALIFIED_NAME, line no: 1236, 0.24008574490889603, 0.7202572347266881, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cf_def.comparator_type,QUALIFIED_NAME, line no: 1236, 0.23978494623655913, 0.7193548387096774, 0.3333333333333333
 "Super",STRING_LITERAL, line no: 379,sessionState.hostName=hostName.toString(),ASSIGNMENT, line no: 1330, 0.2379421221864952, 0.2379421221864952, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,sessionState.hostName=hostName.toString(),ASSIGNMENT, line no: 1330, 0.23717948717948717, 0.23717948717948717, 1.0
 isSuper,SIMPLE_NAME, line no: 379,idx < idCount,INFIX_EXPRESSION, line no: 1320, 0.23548387096774193, 0.23548387096774193, 1.0
 equals,SIMPLE_NAME, line no: 379,idx < idCount,INFIX_EXPRESSION, line no: 1320, 0.2347266881028939, 0.2347266881028939, 1.0
 isSuper,SIMPLE_NAME, line no: 379,i < options.getChildCount(),INFIX_EXPRESSION, line no: 1651, 0.23225806451612904, 0.23225806451612904, 1.0
 equals,SIMPLE_NAME, line no: 379,i < options.getChildCount(),INFIX_EXPRESSION, line no: 1651, 0.2315112540192926, 0.2315112540192926, 1.0
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,getCFColumnMetaFromTree(cfDef arrayOfMetaAttributes),METHOD_INVOCATION, line no: 852, 0.2161290322580645, 0.6483870967741936, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,getCFColumnMetaFromTree(cfDef arrayOfMetaAttributes),METHOD_INVOCATION, line no: 852, 0.21543408360128616, 0.6463022508038585, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setColumn_type(CliUtils.unescapeSQLString(mValue)),METHOD_INVOCATION, line no: 825, 0.2150537634408602, 0.6451612903225806, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setComparator_type(CliUtils.unescapeSQLString(mValue)),METHOD_INVOCATION, line no: 828, 0.2150537634408602, 0.6451612903225806, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setSubcomparator_type(CliUtils.unescapeSQLString(mValue)),METHOD_INVOCATION, line no: 831, 0.2150537634408602, 0.6451612903225806, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setComment(CliUtils.unescapeSQLString(mValue)),METHOD_INVOCATION, line no: 834, 0.2150537634408602, 0.6451612903225806, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setRow_cache_size(Double.parseDouble(mValue)),METHOD_INVOCATION, line no: 837, 0.2150537634408602, 0.6451612903225806, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setKey_cache_size(Double.parseDouble(mValue)),METHOD_INVOCATION, line no: 840, 0.2150537634408602, 0.6451612903225806, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setRead_repair_chance(Double.parseDouble(mValue)),METHOD_INVOCATION, line no: 843, 0.2150537634408602, 0.6451612903225806, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setGc_grace_seconds(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 846, 0.2150537634408602, 0.6451612903225806, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setColumn_metadata(getCFColumnMetaFromTree(cfDef arrayOfMetaAttributes)),METHOD_INVOCATION, line no: 852, 0.2150537634408602, 0.6451612903225806, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setMemtable_operations_in_millions(Double.parseDouble(mValue)),METHOD_INVOCATION, line no: 855, 0.2150537634408602, 0.6451612903225806, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setMemtable_flush_after_mins(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 858, 0.2150537634408602, 0.6451612903225806, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setMemtable_throughput_in_mb(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 861, 0.2150537634408602, 0.6451612903225806, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setRow_cache_save_period_in_seconds(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 864, 0.2150537634408602, 0.6451612903225806, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setKey_cache_save_period_in_seconds(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 867, 0.2150537634408602, 0.6451612903225806, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setDefault_validation_class(mValue),METHOD_INVOCATION, line no: 870, 0.2150537634408602, 0.6451612903225806, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setMin_compaction_threshold(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 873, 0.2150537634408602, 0.6451612903225806, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.setMax_compaction_threshold(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 876, 0.2150537634408602, 0.6451612903225806, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setColumn_type(CliUtils.unescapeSQLString(mValue)),METHOD_INVOCATION, line no: 825, 0.21436227224008575, 0.6430868167202572, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setComparator_type(CliUtils.unescapeSQLString(mValue)),METHOD_INVOCATION, line no: 828, 0.21436227224008575, 0.6430868167202572, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setSubcomparator_type(CliUtils.unescapeSQLString(mValue)),METHOD_INVOCATION, line no: 831, 0.21436227224008575, 0.6430868167202572, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setComment(CliUtils.unescapeSQLString(mValue)),METHOD_INVOCATION, line no: 834, 0.21436227224008575, 0.6430868167202572, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setRow_cache_size(Double.parseDouble(mValue)),METHOD_INVOCATION, line no: 837, 0.21436227224008575, 0.6430868167202572, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setKey_cache_size(Double.parseDouble(mValue)),METHOD_INVOCATION, line no: 840, 0.21436227224008575, 0.6430868167202572, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setRead_repair_chance(Double.parseDouble(mValue)),METHOD_INVOCATION, line no: 843, 0.21436227224008575, 0.6430868167202572, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setGc_grace_seconds(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 846, 0.21436227224008575, 0.6430868167202572, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setColumn_metadata(getCFColumnMetaFromTree(cfDef arrayOfMetaAttributes)),METHOD_INVOCATION, line no: 852, 0.21436227224008575, 0.6430868167202572, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setMemtable_operations_in_millions(Double.parseDouble(mValue)),METHOD_INVOCATION, line no: 855, 0.21436227224008575, 0.6430868167202572, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setMemtable_flush_after_mins(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 858, 0.21436227224008575, 0.6430868167202572, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setMemtable_throughput_in_mb(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 861, 0.21436227224008575, 0.6430868167202572, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setRow_cache_save_period_in_seconds(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 864, 0.21436227224008575, 0.6430868167202572, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setKey_cache_save_period_in_seconds(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 867, 0.21436227224008575, 0.6430868167202572, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setDefault_validation_class(mValue),METHOD_INVOCATION, line no: 870, 0.21436227224008575, 0.6430868167202572, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setMin_compaction_threshold(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 873, 0.21436227224008575, 0.6430868167202572, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.setMax_compaction_threshold(Integer.parseInt(mValue)),METHOD_INVOCATION, line no: 876, 0.21436227224008575, 0.6430868167202572, 0.3333333333333333
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,currentStatement,SIMPLE_NAME, line no: 782, 0.21221864951768488, 0.2090032154340836, 1.0
 "Super",STRING_LITERAL, line no: 379,currentStatement,SIMPLE_NAME, line no: 782, 0.21221864951768488, 0.2090032154340836, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,currentStatement,SIMPLE_NAME, line no: 782, 0.21153846153846154, 0.20833333333333334, 1.0
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,convertValueByFunction(valueTree cfDef columnName true),METHOD_INVOCATION, line no: 608, 0.20967741935483872, 0.8387096774193549, 0.25
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.column_type,QUALIFIED_NAME, line no: 262, 0.2096774193548387, 0.6290322580645161, 0.3333333333333333
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,DEFAULT_PLACEMENT_STRATEGY,SIMPLE_NAME, line no: 92, 0.2090032154340836, 0.006430868167202572, 1.0
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,convertValueByFunction(valueTree cfDef columnName true),METHOD_INVOCATION, line no: 608, 0.2090032154340836, 0.8360128617363344, 0.25
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,keyspaceName,SIMPLE_NAME, line no: 664, 0.2090032154340836, 0.2090032154340836, 1.0
 "Super",STRING_LITERAL, line no: 379,DEFAULT_PLACEMENT_STRATEGY,SIMPLE_NAME, line no: 92, 0.2090032154340836, 0.006430868167202572, 1.0
 "Super",STRING_LITERAL, line no: 379,keyspaceName,SIMPLE_NAME, line no: 664, 0.2090032154340836, 0.2090032154340836, 1.0
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,columnValueInBytes=convertValueByFunction(valueTree cfDef columnName true),ASSIGNMENT, line no: 608, 0.20887096774193548, 0.8354838709677419, 0.25
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.column_type,QUALIFIED_NAME, line no: 262, 0.20900321543408357, 0.6270096463022508, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.column_type.equals("Super"),METHOD_INVOCATION, line no: 262, 0.20860215053763442, 0.6258064516129033, 0.3333333333333333
 comparator_type,SIMPLE_NAME, line no: 379,DEFAULT_PLACEMENT_STRATEGY,SIMPLE_NAME, line no: 92, 0.20833333333333334, 0.00641025641025641, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,keyspaceName,SIMPLE_NAME, line no: 664, 0.20833333333333334, 0.20833333333333334, 1.0
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,columnValueInBytes=convertValueByFunction(valueTree cfDef columnName true),ASSIGNMENT, line no: 608, 0.20819935691318328, 0.8327974276527331, 0.25
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.column_type.equals("Super"),METHOD_INVOCATION, line no: 262, 0.20793140407288316, 0.6237942122186495, 0.3333333333333333
 cfDef,SIMPLE_NAME, line no: 379,new CfDef(keySpace statement.getChild(0).getText()),CLASS_INSTANCE_CREATION, line no: 693, 0.1955128205128205, 0.1955128205128205, 1.0
 "Super",STRING_LITERAL, line no: 379,CliCompiler.getColumnFamily(columnFamily keyspacesMap.get(keySpace).cf_defs),METHOD_INVOCATION, line no: 998, 0.19292604501607716, 0.19292604501607716, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,CliCompiler.getColumnFamily(columnFamily keyspacesMap.get(keySpace).cf_defs),METHOD_INVOCATION, line no: 998, 0.19230769230769232, 0.19230769230769232, 1.0
@@ -759,10 +759,12 @@ equals,SIMPLE_NAME, line no: 379,validator instanceof LexicalUUIDType,INSTANCEOF
 "Super",STRING_LITERAL, line no: 379,formatColumnName(keyspace columnFamily column),METHOD_INVOCATION, line no: 333, 0.16720257234726688, 0.16720257234726688, 1.0
 "Super",STRING_LITERAL, line no: 379,validator.getString(column.value),METHOD_INVOCATION, line no: 334, 0.16720257234726688, 0.16720257234726688, 1.0
 "Super",STRING_LITERAL, line no: 379,formatColumnName(keySpace columnFamilyName col),METHOD_INVOCATION, line no: 1848, 0.16720257234726688, 0.16720257234726688, 1.0
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,columnValueInBytes=convertValueByFunction(valueTree cfDef columnName true),ASSIGNMENT, line no: 608, 0.1670967741935484, 0.8354838709677419, 0.2
 comparator_type,SIMPLE_NAME, line no: 379,validator.getString(col.value),METHOD_INVOCATION, line no: 323, 0.16666666666666666, 0.14743589743589744, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,formatColumnName(keyspace columnFamily column),METHOD_INVOCATION, line no: 333, 0.16666666666666666, 0.16666666666666666, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,validator.getString(column.value),METHOD_INVOCATION, line no: 334, 0.16666666666666666, 0.16666666666666666, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,formatColumnName(keySpace columnFamilyName col),METHOD_INVOCATION, line no: 1848, 0.16666666666666666, 0.16666666666666666, 1.0
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,columnValueInBytes=convertValueByFunction(valueTree cfDef columnName true),ASSIGNMENT, line no: 608, 0.16655948553054664, 0.8327974276527331, 0.2
 isSuper,SIMPLE_NAME, line no: 379,validator instanceof TimeUUIDType,INSTANCEOF_EXPRESSION, line no: 1707, 0.16451612903225807, 0.16451612903225807, 1.0
 equals,SIMPLE_NAME, line no: 379,validator instanceof TimeUUIDType,INSTANCEOF_EXPRESSION, line no: 1707, 0.1639871382636656, 0.1639871382636656, 1.0
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,typeName,SIMPLE_NAME, line no: 443, 0.1607717041800643, 0.15755627009646303, 1.0
@@ -800,8 +802,6 @@ comparator_type,SIMPLE_NAME, line no: 379,default_validation_class,SIMPLE_NAME, 
 comparator_type,SIMPLE_NAME, line no: 379,formatSubcolumnName(keySpace columnFamilyName col),METHOD_INVOCATION, line no: 1861, 0.15064102564102563, 0.15064102564102563, 1.0
 isSuper,SIMPLE_NAME, line no: 379,defaultValidator != null,INFIX_EXPRESSION, line no: 1632, 0.14838709677419354, 0.14838709677419354, 1.0
 isSuper,SIMPLE_NAME, line no: 379,!defaultValidator.isEmpty(),PREFIX_EXPRESSION, line no: 1632, 0.14838709677419354, 0.14838709677419354, 1.0
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,getValidatorForValue(cfDef col.getName()),METHOD_INVOCATION, line no: 321, 0.14838709677419354, 0.14838709677419354, 1.0
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,getValidatorForValue(cfDef col.getName()),METHOD_INVOCATION, line no: 321, 0.14790996784565916, 0.14790996784565916, 1.0
 equals,SIMPLE_NAME, line no: 379,defaultValidator != null,INFIX_EXPRESSION, line no: 1632, 0.14790996784565916, 0.14790996784565916, 1.0
 equals,SIMPLE_NAME, line no: 379,!defaultValidator.isEmpty(),PREFIX_EXPRESSION, line no: 1632, 0.14790996784565916, 0.14790996784565916, 1.0
 "Super",STRING_LITERAL, line no: 379,formatSubcolumnName(keyspace columnFamily col),METHOD_INVOCATION, line no: 322, 0.14790996784565916, 0.14790996784565916, 1.0
@@ -925,7 +925,9 @@ equals,SIMPLE_NAME, line no: 379,limitValue == 0,INFIX_EXPRESSION, line no: 533,
 "Super",STRING_LITERAL, line no: 379,(i != functions.length - 1) ? "  " : ".",CONDITIONAL_EXPRESSION, line no: 76, 0.10610932475884244, 0.10610932475884244, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,functions[i].name().toLowerCase(),METHOD_INVOCATION, line no: 75, 0.10576923076923077, 0.10576923076923077, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,(i != functions.length - 1) ? "  " : ".",CONDITIONAL_EXPRESSION, line no: 76, 0.10576923076923077, 0.10576923076923077, 1.0
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,sessionState.out.printf("      Columns sorted by: %s%s%n" cf_def.comparator_type cf_def.column_type.equals("Super") ? "/" + cf_def.subcomparator_type : ""),METHOD_INVOCATION, line no: 1236, 0.10289389067524116, 0.7202572347266881, 0.14285714285714285
 "Super",STRING_LITERAL, line no: 379,((i != functions.length - 1) ? "  " : "."),PARENTHESIZED_EXPRESSION, line no: 76, 0.10289389067524116, 0.10289389067524116, 1.0
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,sessionState.out.printf("      Columns sorted by: %s%s%n" cf_def.comparator_type cf_def.column_type.equals("Super") ? "/" + cf_def.subcomparator_type : ""),METHOD_INVOCATION, line no: 1236, 0.10276497695852534, 0.7193548387096774, 0.14285714285714285
 comparator_type,SIMPLE_NAME, line no: 379,((i != functions.length - 1) ? "  " : "."),PARENTHESIZED_EXPRESSION, line no: 76, 0.10256410256410256, 0.10256410256410256, 1.0
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,getColumn,SIMPLE_NAME, line no: 236, 0.09967845659163987, 0.08038585209003216, 1.0
 "Super",STRING_LITERAL, line no: 379,getColumn,SIMPLE_NAME, line no: 236, 0.09967845659163987, 0.08038585209003216, 1.0
@@ -992,8 +994,6 @@ comparator_type,SIMPLE_NAME, line no: 379,system_add_keyspace,SIMPLE_NAME, line 
 comparator_type,SIMPLE_NAME, line no: 379,system_add_column_family,SIMPLE_NAME, line no: 697, 0.08653846153846154, 0.08653846153846154, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,system_update_column_family,SIMPLE_NAME, line no: 754, 0.08653846153846154, 0.08653846153846154, 1.0
 isSuper,SIMPLE_NAME, line no: 379,validator == null,INFIX_EXPRESSION, line no: 454, 0.08387096774193549, 0.08387096774193549, 1.0
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,getValidatorForValue(cfDef column.getName()),METHOD_INVOCATION, line no: 332, 0.08387096774193549, 0.16774193548387098, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,getValidatorForValue(cfDef column.getName()),METHOD_INVOCATION, line no: 332, 0.08360128617363344, 0.16720257234726688, 0.5
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,columnString,SIMPLE_NAME, line no: 1261, 0.08360128617363344, 0.08038585209003216, 1.0
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379," (",STRING_LITERAL, line no: 1262, 0.08360128617363344, 0.08360128617363344, 1.0
 equals,SIMPLE_NAME, line no: 379,validator == null,INFIX_EXPRESSION, line no: 454, 0.08360128617363344, 0.08360128617363344, 1.0
@@ -1013,9 +1013,13 @@ comparator_type,SIMPLE_NAME, line no: 379,thriftClient.system_add_column_family(
 comparator_type,SIMPLE_NAME, line no: 379,thriftClient.system_update_column_family(updateCfDefAttributes(statement cfDef)),METHOD_INVOCATION, line no: 754, 0.08333333333333333, 0.08333333333333333, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,columnString,SIMPLE_NAME, line no: 1261, 0.08333333333333333, 0.08012820512820513, 1.0
 comparator_type,SIMPLE_NAME, line no: 379," (",STRING_LITERAL, line no: 1262, 0.08333333333333333, 0.08333333333333333, 1.0
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,isSuper ? cf_def.subcomparator_type : cf_def.comparator_type,CONDITIONAL_EXPRESSION, line no: 1250, 0.08167202572347268, 0.40836012861736337, 0.2
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,isSuper ? cf_def.subcomparator_type : cf_def.comparator_type,CONDITIONAL_EXPRESSION, line no: 1250, 0.08129032258064517, 0.4064516129032258, 0.2
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,getFormatTypeForColumn(isSuper ? cf_def.subcomparator_type : cf_def.comparator_type),METHOD_INVOCATION, line no: 1250, 0.08102893890675242, 0.40514469453376206, 0.2
 isSuper,SIMPLE_NAME, line no: 379,containsKey,SIMPLE_NAME, line no: 214, 0.08064516129032258, 0.08064516129032258, 1.0
 isSuper,SIMPLE_NAME, line no: 379,(validator == null),PARENTHESIZED_EXPRESSION, line no: 454, 0.08064516129032258, 0.08064516129032258, 1.0
 cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,containsKey,SIMPLE_NAME, line no: 214, 0.08064516129032258, 0.08064516129032258, 1.0
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,getFormatTypeForColumn(isSuper ? cf_def.subcomparator_type : cf_def.comparator_type),METHOD_INVOCATION, line no: 1250, 0.08064516129032258, 0.4032258064516129, 0.2
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,elements,SIMPLE_NAME, line no: 1065, 0.08038585209003216, 0.07717041800643087, 1.0
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"'%s' is invalid. Available: %s",STRING_LITERAL, line no: 1066, 0.08038585209003216, 0.08038585209003216, 1.0
 equals,SIMPLE_NAME, line no: 379,containsKey,SIMPLE_NAME, line no: 214, 0.08038585209003216, 0.08038585209003216, 1.0
@@ -1059,8 +1063,6 @@ comparator_type,SIMPLE_NAME, line no: 379,valueTree.getText(),METHOD_INVOCATION,
 comparator_type,SIMPLE_NAME, line no: 379,functions,SIMPLE_NAME, line no: 1042, 0.07371794871794872, 0.07051282051282051, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,"Type '",STRING_LITERAL, line no: 1043, 0.07371794871794872, 0.07371794871794872, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,"' was not found. Available: ",STRING_LITERAL, line no: 1043, 0.07371794871794872, 0.07371794871794872, 1.0
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,validator=getValidatorForValue(cfDef col.getName()),ASSIGNMENT, line no: 321, 0.07258064516129033, 0.14516129032258066, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,validator=getValidatorForValue(cfDef col.getName()),ASSIGNMENT, line no: 321, 0.07234726688102894, 0.14469453376205788, 0.5
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"Notice: defaulting to BytesType subcomparator for '%s'",STRING_LITERAL, line no: 1550, 0.0707395498392283, 0.0707395498392283, 1.0
 "Super",STRING_LITERAL, line no: 379,CliUtils.unescapeSQLString(valueTree.getText()),METHOD_INVOCATION, line no: 509, 0.0707395498392283, 0.0707395498392283, 1.0
 "Super",STRING_LITERAL, line no: 379,"Type '" + defaultType + "' was not found. Available: "+ functions,INFIX_EXPRESSION, line no: 1043, 0.0707395498392283, 0.0707395498392283, 1.0
@@ -1088,8 +1090,6 @@ comparator_type,SIMPLE_NAME, line no: 379,columnDef.getIndex_type().name(),METHO
 comparator_type,SIMPLE_NAME, line no: 379,String.format("Notice: defaulting to BytesType subcomparator for '%s'" columnFamilyDef.getName()),METHOD_INVOCATION, line no: 1550, 0.0673076923076923, 0.0673076923076923, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,"BytesType",STRING_LITERAL, line no: 1551, 0.0673076923076923, 0.0673076923076923, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,getCfDef(keyspace columnFamily).comparator_type,FIELD_ACCESS, line no: 1877, 0.0673076923076923, 0.057692307692307696, 1.0
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.getName(),METHOD_INVOCATION, line no: 1002, 0.06451612903225806, 0.06451612903225806, 1.0
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.getName(),METHOD_INVOCATION, line no: 1002, 0.06430868167202572, 0.06430868167202572, 1.0
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,getIndex_name,SIMPLE_NAME, line no: 1275, 0.06430868167202572, 0.06430868167202572, 1.0
 "Super",STRING_LITERAL, line no: 379,cfDef.getName(),METHOD_INVOCATION, line no: 1002, 0.06430868167202572, 0.06430868167202572, 1.0
 "Super",STRING_LITERAL, line no: 379,columnFamily + " truncated.",INFIX_EXPRESSION, line no: 1003, 0.06430868167202572, 0.06430868167202572, 1.0
@@ -1149,23 +1149,21 @@ comparator_type,SIMPLE_NAME, line no: 379,columnLeftSpace + "Index Name: " + col
 comparator_type,SIMPLE_NAME, line no: 379,object,SIMPLE_NAME, line no: 1473, 0.057692307692307696, 0.003205128205128205, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,columnDefinition.getValidation_class(),METHOD_INVOCATION, line no: 1598, 0.057692307692307696, 0.057692307692307696, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,getCfDef(keyspace columnFamily).subcomparator_type,FIELD_ACCESS, line no: 1884, 0.057692307692307696, 0.057692307692307696, 1.0
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,getValidatorForValue(cfDef column.getName()),METHOD_INVOCATION, line no: 332, 0.05591397849462366, 0.16774193548387098, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,getValidatorForValue(cfDef column.getName()),METHOD_INVOCATION, line no: 332, 0.05573419078242229, 0.16720257234726688, 0.3333333333333333
 isSuper,SIMPLE_NAME, line no: 379,comparator == null,INFIX_EXPRESSION, line no: 1475, 0.054838709677419356, 0.054838709677419356, 1.0
 isSuper,SIMPLE_NAME, line no: 379,ByteBufferUtil.compare(currName columnName) == 0,INFIX_EXPRESSION, line no: 1804, 0.054838709677419356, 0.054838709677419356, 1.0
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,validator=getValidatorForValue(cfDef column.getName()),ASSIGNMENT, line no: 332, 0.054838709677419356, 0.16451612903225807, 0.3333333333333333
 equals,SIMPLE_NAME, line no: 379,comparator == null,INFIX_EXPRESSION, line no: 1475, 0.05466237942122187, 0.05466237942122187, 1.0
 equals,SIMPLE_NAME, line no: 379,ByteBufferUtil.compare(currName columnName) == 0,INFIX_EXPRESSION, line no: 1804, 0.05466237942122187, 0.05466237942122187, 1.0
 "Super",STRING_LITERAL, line no: 379,"Column family " + columnFamily + " may only contain SuperColumns",INFIX_EXPRESSION, line no: 589, 0.05466237942122187, 0.05466237942122187, 1.0
 "Super",STRING_LITERAL, line no: 379,String.format("TTL '%s' is invalid  should be a positive integer." ttl),METHOD_INVOCATION, line no: 631, 0.05466237942122187, 0.05466237942122187, 1.0
 "Super",STRING_LITERAL, line no: 379,defaultType.toUpperCase(),METHOD_INVOCATION, line no: 1038, 0.05466237942122187, 0.05466237942122187, 1.0
 "Super",STRING_LITERAL, line no: 379,column.getValidation_class(),METHOD_INVOCATION, line no: 1780, 0.05466237942122187, 0.05466237942122187, 1.0
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,validator=getValidatorForValue(cfDef column.getName()),ASSIGNMENT, line no: 332, 0.05466237942122186, 0.1639871382636656, 0.3333333333333333
 comparator_type,SIMPLE_NAME, line no: 379,"Column family " + columnFamily + " may only contain SuperColumns",INFIX_EXPRESSION, line no: 589, 0.05448717948717949, 0.05448717948717949, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,String.format("TTL '%s' is invalid  should be a positive integer." ttl),METHOD_INVOCATION, line no: 631, 0.05448717948717949, 0.05448717948717949, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,defaultType.toUpperCase(),METHOD_INVOCATION, line no: 1038, 0.05448717948717949, 0.05448717948717949, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,column.getValidation_class(),METHOD_INVOCATION, line no: 1780, 0.05448717948717949, 0.05448717948717949, 1.0
 isSuper,SIMPLE_NAME, line no: 379,column.getValidation_class().equals(validationClass),METHOD_INVOCATION, line no: 1780, 0.05161290322580645, 0.05161290322580645, 1.0
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,updateColumnMetaData(cfDef columnName valueValidator.getClass().getName()),METHOD_INVOCATION, line no: 450, 0.05161290322580645, 0.15483870967741936, 0.3333333333333333
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,updateColumnMetaData(cfDef columnName valueValidator.getClass().getName()),METHOD_INVOCATION, line no: 450, 0.05144694533762058, 0.15434083601286175, 0.3333333333333333
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"Invalid limit ",STRING_LITERAL, line no: 958, 0.05144694533762058, 0.05144694533762058, 1.0
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,column,SIMPLE_NAME, line no: 1487, 0.05144694533762058, 0.003215434083601286, 1.0
 equals,SIMPLE_NAME, line no: 379,column.getValidation_class().equals(validationClass),METHOD_INVOCATION, line no: 1780, 0.05144694533762058, 0.05144694533762058, 1.0
@@ -1179,6 +1177,8 @@ comparator_type,SIMPLE_NAME, line no: 379,column,SIMPLE_NAME, line no: 1487, 0.0
 comparator_type,SIMPLE_NAME, line no: 379,columnFamilyDef.comparator_type,QUALIFIED_NAME, line no: 1500, 0.05128205128205128, 0.05128205128205128, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,getFormatTypeForColumn(getCfDef(keyspace columnFamily).comparator_type).getString(column.name),METHOD_INVOCATION, line no: 1877, 0.05128205128205128, 0.05128205128205128, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,getFormatTypeForColumn(getCfDef(keyspace columnFamily).subcomparator_type).getString(subcolumn.name),METHOD_INVOCATION, line no: 1884, 0.05128205128205128, 0.05128205128205128, 1.0
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,getValidatorForValue(cfDef col.getName()),METHOD_INVOCATION, line no: 321, 0.04946236559139784, 0.14838709677419354, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,getValidatorForValue(cfDef col.getName()),METHOD_INVOCATION, line no: 321, 0.04930332261521972, 0.14790996784565916, 0.3333333333333333
 isSuper,SIMPLE_NAME, line no: 379,keySpace == null,INFIX_EXPRESSION, line no: 1103, 0.04838709677419355, 0.04838709677419355, 1.0
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"Using default limit of 100",STRING_LITERAL, line no: 967, 0.04823151125401929, 0.04823151125401929, 1.0
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"    \"%s\"%n",STRING_LITERAL, line no: 1233, 0.04823151125401929, 0.04823151125401929, 1.0
@@ -1203,18 +1203,12 @@ comparator_type,SIMPLE_NAME, line no: 379," could not be found.",STRING_LITERAL,
 comparator_type,SIMPLE_NAME, line no: 379,indexTypeAsString,SIMPLE_NAME, line no: 1438, 0.04807692307692308, 0.003205128205128205, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,"Argument for '%s' could not be empty.",STRING_LITERAL, line no: 1721, 0.04807692307692308, 0.04807692307692308, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,validator.getClass().getName(),METHOD_INVOCATION, line no: 1732, 0.04807692307692308, 0.04807692307692308, 1.0
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,columnNameAsByteArray(CliCompiler.getColumn(columnFamilySpec 0) cfDef),METHOD_INVOCATION, line no: 274, 0.0467741935483871, 0.0935483870967742, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,columnNameAsByteArray(CliCompiler.getColumn(columnFamilySpec 0) cfDef),METHOD_INVOCATION, line no: 274, 0.04662379421221865, 0.0932475884244373, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,subColumnNameAsByteArray(metaVal cfDef),METHOD_INVOCATION, line no: 1399, 0.04516129032258064, 0.09032258064516129, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,columnNameAsByteArray(metaVal cfDef),METHOD_INVOCATION, line no: 1401, 0.04516129032258064, 0.09032258064516129, 0.5
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"Invalid row  super column  or column specification.",STRING_LITERAL, line no: 266, 0.04501607717041801, 0.03858520900321544, 1.0
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"Exception during authentication to the cassandra node: ",STRING_LITERAL, line no: 1184, 0.04501607717041801, 0.04501607717041801, 1.0
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"verify keyspace exists  and you are using correct credentials.",STRING_LITERAL, line no: 1185, 0.04501607717041801, 0.04501607717041801, 1.0
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"You are not authorized to use keyspace: ",STRING_LITERAL, line no: 1189, 0.04501607717041801, 0.04501607717041801, 1.0
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379," does not exist.",STRING_LITERAL, line no: 1193, 0.04501607717041801, 0.04501607717041801, 1.0
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"Invalid request: ",STRING_LITERAL, line no: 1288, 0.04501607717041801, 0.04501607717041801, 1.0
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,subColumnNameAsByteArray(metaVal cfDef),METHOD_INVOCATION, line no: 1399, 0.04501607717041801, 0.09003215434083602, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,columnNameAsByteArray(metaVal cfDef),METHOD_INVOCATION, line no: 1401, 0.04501607717041801, 0.09003215434083602, 0.5
 "Super",STRING_LITERAL, line no: 379,"Invalid row  super column  or column specification.",STRING_LITERAL, line no: 266, 0.04501607717041801, 0.03858520900321544, 1.0
 "Super",STRING_LITERAL, line no: 379,compareWith.toUpperCase(),METHOD_INVOCATION, line no: 348, 0.04501607717041801, 0.04501607717041801, 1.0
 "Super",STRING_LITERAL, line no: 379,"Exception during authentication to the cassandra node: ",STRING_LITERAL, line no: 1184, 0.04501607717041801, 0.04501607717041801, 1.0
@@ -1235,10 +1229,6 @@ comparator_type,SIMPLE_NAME, line no: 379,"Invalid request: ",STRING_LITERAL, li
 comparator_type,SIMPLE_NAME, line no: 379,"Keyspace " + keySpaceName + " could not be found.",INFIX_EXPRESSION, line no: 1292, 0.04487179487179487, 0.04487179487179487, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,String.format("Argument for '%s' could not be empty." functionName),METHOD_INVOCATION, line no: 1721, 0.04487179487179487, 0.04487179487179487, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,functionName.toUpperCase(),METHOD_INVOCATION, line no: 1754, 0.04487179487179487, 0.04487179487179487, 1.0
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,subColumnNameAsByteArray(CliCompiler.getColumn(columnFamilySpec 1) cfDef),METHOD_INVOCATION, line no: 282, 0.043548387096774194, 0.08709677419354839, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,updateCfDefAttributes(statement cfDef),METHOD_INVOCATION, line no: 697, 0.043548387096774194, 0.08709677419354839, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,subColumnNameAsByteArray(CliCompiler.getColumn(columnFamilySpec 1) cfDef),METHOD_INVOCATION, line no: 282, 0.04340836012861737, 0.08681672025723473, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,updateCfDefAttributes(statement cfDef),METHOD_INVOCATION, line no: 697, 0.04340836012861737, 0.08681672025723473, 0.5
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"Invalid limit clause",STRING_LITERAL, line no: 952, 0.04180064308681672, 0.04180064308681672, 1.0
 "Super",STRING_LITERAL, line no: 379,"Invalid limit clause",STRING_LITERAL, line no: 952, 0.04180064308681672, 0.04180064308681672, 1.0
 "Super",STRING_LITERAL, line no: 379,"Exception during authentication to the cassandra node: " + "verify keyspace exists  and you are using correct credentials.",INFIX_EXPRESSION, line no: 1184, 0.04180064308681672, 0.04180064308681672, 1.0
@@ -1254,7 +1244,11 @@ comparator_type,SIMPLE_NAME, line no: 379,"You are not authorized to use keyspac
 comparator_type,SIMPLE_NAME, line no: 379,keySpaceName + " does not exist.",INFIX_EXPRESSION, line no: 1193, 0.041666666666666664, 0.041666666666666664, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,"Invalid request: " + e,INFIX_EXPRESSION, line no: 1288, 0.041666666666666664, 0.041666666666666664, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,idList.getChild(idx).getText(),METHOD_INVOCATION, line no: 1322, 0.041666666666666664, 0.041666666666666664, 1.0
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,validator=getValidatorForValue(cfDef column.getName()),ASSIGNMENT, line no: 332, 0.04112903225806452, 0.16451612903225807, 0.25
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,validator=getValidatorForValue(cfDef column.getName()),ASSIGNMENT, line no: 332, 0.0409967845659164, 0.1639871382636656, 0.25
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,updateColumnMetaData(cfDef columnName valueValidator.getClass().getName()),METHOD_INVOCATION, line no: 450, 0.03870967741935484, 0.15483870967741936, 0.25
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"Value was not found",STRING_LITERAL, line no: 428, 0.03858520900321544, 0.03858520900321544, 1.0
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,updateColumnMetaData(cfDef columnName valueValidator.getClass().getName()),METHOD_INVOCATION, line no: 450, 0.03858520900321544, 0.15434083601286175, 0.25
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"No column name specified  (type 'help' or '?' for help on syntax).",STRING_LITERAL, line no: 580, 0.03858520900321544, 0.03858520900321544, 1.0
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"Not authenticated to a working keyspace.",STRING_LITERAL, line no: 1105, 0.03858520900321544, 0.03858520900321544, 1.0
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"Keyspace argument required",STRING_LITERAL, line no: 1153, 0.03858520900321544, 0.03858520900321544, 1.0
@@ -1274,6 +1268,8 @@ comparator_type,SIMPLE_NAME, line no: 379,"Keyspace argument required",STRING_LI
 comparator_type,SIMPLE_NAME, line no: 379,columnFamilyDef.name,QUALIFIED_NAME, line no: 1347, 0.038461538461538464, 0.038461538461538464, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,a.name,QUALIFIED_NAME, line no: 1923, 0.038461538461538464, 0.038461538461538464, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,b.name,QUALIFIED_NAME, line no: 1923, 0.038461538461538464, 0.038461538461538464, 1.0
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,validator=getValidatorForValue(cfDef col.getName()),ASSIGNMENT, line no: 321, 0.036290322580645164, 0.14516129032258066, 0.25
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,validator=getValidatorForValue(cfDef col.getName()),ASSIGNMENT, line no: 321, 0.03617363344051447, 0.14469453376205788, 0.25
 isSuper,SIMPLE_NAME, line no: 379,columnFamilyDef.name.equals(columnFamilyName),METHOD_INVOCATION, line no: 1347, 0.035483870967741936, 0.035483870967741936, 1.0
 isSuper,SIMPLE_NAME, line no: 379,columnMetaData.add(new ColumnDef(columnName validationClass)),METHOD_INVOCATION, line no: 1788, 0.035483870967741936, 0.035483870967741936, 1.0
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,getMessage,SIMPLE_NAME, line no: 200, 0.03536977491961415, 0.028938906752411574, 1.0
@@ -1284,6 +1280,8 @@ equals,SIMPLE_NAME, line no: 379,columnMetaData.add(new ColumnDef(columnName val
 comparator_type,SIMPLE_NAME, line no: 379,getMessage,SIMPLE_NAME, line no: 200, 0.035256410256410256, 0.028846153846153848, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,this.keySpace=keySpace,ASSIGNMENT, line no: 1119, 0.035256410256410256, 0.035256410256410256, 1.0
 isSuper,SIMPLE_NAME, line no: 379,username == null,INFIX_EXPRESSION, line no: 1126, 0.03225806451612903, 0.03225806451612903, 1.0
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,cfDef.getName(),METHOD_INVOCATION, line no: 1002, 0.03225806451612903, 0.06451612903225806, 0.5
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,cfDef.getName(),METHOD_INVOCATION, line no: 1002, 0.03215434083601286, 0.06430868167202572, 0.5
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"unknown",STRING_LITERAL, line no: 1114, 0.03215434083601286, 0.03215434083601286, 1.0
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"IndexType '",STRING_LITERAL, line no: 1455, 0.03215434083601286, 0.03215434083601286, 1.0
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"' is unsupported.",STRING_LITERAL, line no: 1455, 0.03215434083601286, 0.03215434083601286, 1.0
@@ -1299,16 +1297,16 @@ comparator_type,SIMPLE_NAME, line no: 379,keySpace.name,QUALIFIED_NAME, line no:
 comparator_type,SIMPLE_NAME, line no: 379,"unknown",STRING_LITERAL, line no: 1114, 0.03205128205128205, 0.03205128205128205, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,"IndexType '",STRING_LITERAL, line no: 1455, 0.03205128205128205, 0.03205128205128205, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,"' is unsupported.",STRING_LITERAL, line no: 1455, 0.03205128205128205, 0.03205128205128205, 1.0
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,thriftClient.truncate(cfDef.getName()),METHOD_INVOCATION, line no: 1002, 0.03064516129032258, 0.06129032258064516, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,thriftClient.truncate(cfDef.getName()),METHOD_INVOCATION, line no: 1002, 0.03054662379421222, 0.06109324758842444, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,superColumnName=columnNameAsByteArray(CliCompiler.getColumn(columnFamilySpec 0) cfDef),ASSIGNMENT, line no: 274, 0.03010752688172043, 0.09032258064516129, 0.3333333333333333
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,columnName=columnNameAsByteArray(CliCompiler.getColumn(columnFamilySpec 0) cfDef),ASSIGNMENT, line no: 276, 0.03010752688172043, 0.09032258064516129, 0.3333333333333333
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,superColumnName=columnNameAsByteArray(CliCompiler.getColumn(columnFamilySpec 0) cfDef),ASSIGNMENT, line no: 274, 0.030010718113612004, 0.09003215434083602, 0.3333333333333333
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,columnName=columnNameAsByteArray(CliCompiler.getColumn(columnFamilySpec 0) cfDef),ASSIGNMENT, line no: 276, 0.030010718113612004, 0.09003215434083602, 0.3333333333333333
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,columnDefinition.setName(subColumnNameAsByteArray(metaVal cfDef)),METHOD_INVOCATION, line no: 1399, 0.029032258064516127, 0.08709677419354839, 0.3333333333333333
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,columnDefinition.setName(columnNameAsByteArray(metaVal cfDef)),METHOD_INVOCATION, line no: 1401, 0.029032258064516127, 0.08709677419354839, 0.3333333333333333
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,columnDefinition.setName(subColumnNameAsByteArray(metaVal cfDef)),METHOD_INVOCATION, line no: 1399, 0.028938906752411578, 0.08681672025723473, 0.3333333333333333
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,columnDefinition.setName(columnNameAsByteArray(metaVal cfDef)),METHOD_INVOCATION, line no: 1401, 0.028938906752411578, 0.08681672025723473, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,columnNameAsByteArray(CliCompiler.getColumn(columnFamilySpec 0) cfDef),METHOD_INVOCATION, line no: 274, 0.03118279569892473, 0.0935483870967742, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,columnNameAsByteArray(CliCompiler.getColumn(columnFamilySpec 0) cfDef),METHOD_INVOCATION, line no: 274, 0.03108252947481243, 0.0932475884244373, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,subColumnNameAsByteArray(metaVal cfDef),METHOD_INVOCATION, line no: 1399, 0.03010752688172043, 0.09032258064516129, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,columnNameAsByteArray(metaVal cfDef),METHOD_INVOCATION, line no: 1401, 0.03010752688172043, 0.09032258064516129, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,subColumnNameAsByteArray(metaVal cfDef),METHOD_INVOCATION, line no: 1399, 0.030010718113612004, 0.09003215434083602, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,columnNameAsByteArray(metaVal cfDef),METHOD_INVOCATION, line no: 1401, 0.030010718113612004, 0.09003215434083602, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,subColumnNameAsByteArray(CliCompiler.getColumn(columnFamilySpec 1) cfDef),METHOD_INVOCATION, line no: 282, 0.029032258064516127, 0.08709677419354839, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,updateCfDefAttributes(statement cfDef),METHOD_INVOCATION, line no: 697, 0.029032258064516127, 0.08709677419354839, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,subColumnNameAsByteArray(CliCompiler.getColumn(columnFamilySpec 1) cfDef),METHOD_INVOCATION, line no: 282, 0.028938906752411578, 0.08681672025723473, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,updateCfDefAttributes(statement cfDef),METHOD_INVOCATION, line no: 697, 0.028938906752411578, 0.08681672025723473, 0.3333333333333333
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,getWhy,SIMPLE_NAME, line no: 196, 0.028938906752411574, 0.028938906752411574, 1.0
 "Super",STRING_LITERAL, line no: 379,getWhy,SIMPLE_NAME, line no: 196, 0.028938906752411574, 0.028938906752411574, 1.0
 "Super",STRING_LITERAL, line no: 379,keySpace == null ? "unknown" : keySpace,CONDITIONAL_EXPRESSION, line no: 1114, 0.028938906752411574, 0.028938906752411574, 1.0
@@ -1319,33 +1317,53 @@ comparator_type,SIMPLE_NAME, line no: 379,getWhy,SIMPLE_NAME, line no: 196, 0.02
 comparator_type,SIMPLE_NAME, line no: 379,keySpace == null ? "unknown" : keySpace,CONDITIONAL_EXPRESSION, line no: 1114, 0.028846153846153848, 0.028846153846153848, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,username == null ? "default" : username,CONDITIONAL_EXPRESSION, line no: 1126, 0.028846153846153848, 0.028846153846153848, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,"IndexType '" + indexTypeAsString + "' is unsupported.",INFIX_EXPRESSION, line no: 1455, 0.028846153846153848, 0.028846153846153848, 1.0
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,columnName=subColumnNameAsByteArray(CliCompiler.getColumn(columnFamilySpec 1) cfDef),ASSIGNMENT, line no: 282, 0.02795698924731183, 0.08387096774193549, 0.3333333333333333
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,thriftClient.system_add_column_family(updateCfDefAttributes(statement cfDef)),METHOD_INVOCATION, line no: 697, 0.02795698924731183, 0.08387096774193549, 0.3333333333333333
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,thriftClient.system_update_column_family(updateCfDefAttributes(statement cfDef)),METHOD_INVOCATION, line no: 754, 0.02795698924731183, 0.08387096774193549, 0.3333333333333333
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,columnName=subColumnNameAsByteArray(CliCompiler.getColumn(columnFamilySpec 1) cfDef),ASSIGNMENT, line no: 282, 0.027867095391211145, 0.08360128617363344, 0.3333333333333333
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,thriftClient.system_add_column_family(updateCfDefAttributes(statement cfDef)),METHOD_INVOCATION, line no: 697, 0.027867095391211145, 0.08360128617363344, 0.3333333333333333
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,thriftClient.system_update_column_family(updateCfDefAttributes(statement cfDef)),METHOD_INVOCATION, line no: 754, 0.027867095391211145, 0.08360128617363344, 0.3333333333333333
 "Super",STRING_LITERAL, line no: 379,e.getWhy(),METHOD_INVOCATION, line no: 196, 0.02572347266881029, 0.02572347266881029, 1.0
 cfDef,SIMPLE_NAME, line no: 379,columnFamily.setComparator_type(defaultType),METHOD_INVOCATION, line no: 1049, 0.02564102564102564, 0.02564102564102564, 1.0
 cfDef,SIMPLE_NAME, line no: 379,getCfDef(this.keySpace columnFamilyName),METHOD_INVOCATION, line no: 1363, 0.02564102564102564, 0.02564102564102564, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,e.getWhy(),METHOD_INVOCATION, line no: 196, 0.02564102564102564, 0.02564102564102564, 1.0
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,superColumnName=columnNameAsByteArray(CliCompiler.getColumn(columnFamilySpec 0) cfDef),ASSIGNMENT, line no: 274, 0.02258064516129032, 0.09032258064516129, 0.25
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,columnName=columnNameAsByteArray(CliCompiler.getColumn(columnFamilySpec 0) cfDef),ASSIGNMENT, line no: 276, 0.02258064516129032, 0.09032258064516129, 0.25
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,superColumnName=columnNameAsByteArray(CliCompiler.getColumn(columnFamilySpec 0) cfDef),ASSIGNMENT, line no: 274, 0.022508038585209004, 0.09003215434083602, 0.25
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,columnName=columnNameAsByteArray(CliCompiler.getColumn(columnFamilySpec 0) cfDef),ASSIGNMENT, line no: 276, 0.022508038585209004, 0.09003215434083602, 0.25
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"LIMIT should be greater than zero.",STRING_LITERAL, line no: 535, 0.022508038585209004, 0.022508038585209004, 1.0
 "Super",STRING_LITERAL, line no: 379,"LIMIT should be greater than zero.",STRING_LITERAL, line no: 535, 0.022508038585209004, 0.022508038585209004, 1.0
 "Super",STRING_LITERAL, line no: 379,this.username=username,ASSIGNMENT, line no: 1131, 0.022508038585209004, 0.022508038585209004, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,"LIMIT should be greater than zero.",STRING_LITERAL, line no: 535, 0.022435897435897436, 0.022435897435897436, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,this.username=username,ASSIGNMENT, line no: 1131, 0.022435897435897436, 0.022435897435897436, 1.0
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,sessionState.out.println(thriftClient.system_add_column_family(updateCfDefAttributes(statement cfDef))),METHOD_INVOCATION, line no: 697, 0.020161290322580645, 0.08064516129032258, 0.25
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,sessionState.out.println(thriftClient.system_update_column_family(updateCfDefAttributes(statement cfDef))),METHOD_INVOCATION, line no: 754, 0.020161290322580645, 0.08064516129032258, 0.25
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,sessionState.out.println(thriftClient.system_add_column_family(updateCfDefAttributes(statement cfDef))),METHOD_INVOCATION, line no: 697, 0.02009646302250804, 0.08038585209003216, 0.25
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,sessionState.out.println(thriftClient.system_update_column_family(updateCfDefAttributes(statement cfDef))),METHOD_INVOCATION, line no: 754, 0.02009646302250804, 0.08038585209003216, 0.25
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,columnNameAsBytes(column cfDef),METHOD_INVOCATION, line no: 1523, 0.017741935483870968, 0.035483870967741936, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,subColumnNameAsBytes(superColumn cfDef),METHOD_INVOCATION, line no: 1576, 0.017741935483870968, 0.035483870967741936, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,columnNameAsBytes(column cfDef),METHOD_INVOCATION, line no: 1523, 0.017684887459807074, 0.03536977491961415, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,subColumnNameAsBytes(superColumn cfDef),METHOD_INVOCATION, line no: 1576, 0.017684887459807074, 0.03536977491961415, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,TBaseHelper.byteBufferToByteArray(columnNameAsBytes(column cfDef)),METHOD_INVOCATION, line no: 1523, 0.016129032258064516, 0.03225806451612903, 0.5
-cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,TBaseHelper.byteBufferToByteArray(subColumnNameAsBytes(superColumn cfDef)),METHOD_INVOCATION, line no: 1576, 0.016129032258064516, 0.03225806451612903, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,TBaseHelper.byteBufferToByteArray(columnNameAsBytes(column cfDef)),METHOD_INVOCATION, line no: 1523, 0.01607717041800643, 0.03215434083601286, 0.5
-cfDef.comparator_type,QUALIFIED_NAME, line no: 379,TBaseHelper.byteBufferToByteArray(subColumnNameAsBytes(superColumn cfDef)),METHOD_INVOCATION, line no: 1576, 0.01607717041800643, 0.03215434083601286, 0.5
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,columnDefinition.setName(subColumnNameAsByteArray(metaVal cfDef)),METHOD_INVOCATION, line no: 1399, 0.021774193548387097, 0.08709677419354839, 0.25
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,columnDefinition.setName(columnNameAsByteArray(metaVal cfDef)),METHOD_INVOCATION, line no: 1401, 0.021774193548387097, 0.08709677419354839, 0.25
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,columnDefinition.setName(subColumnNameAsByteArray(metaVal cfDef)),METHOD_INVOCATION, line no: 1399, 0.021704180064308683, 0.08681672025723473, 0.25
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,columnDefinition.setName(columnNameAsByteArray(metaVal cfDef)),METHOD_INVOCATION, line no: 1401, 0.021704180064308683, 0.08681672025723473, 0.25
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,columnName=subColumnNameAsByteArray(CliCompiler.getColumn(columnFamilySpec 1) cfDef),ASSIGNMENT, line no: 282, 0.020967741935483872, 0.08387096774193549, 0.25
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,thriftClient.system_add_column_family(updateCfDefAttributes(statement cfDef)),METHOD_INVOCATION, line no: 697, 0.020967741935483872, 0.08387096774193549, 0.25
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,thriftClient.system_update_column_family(updateCfDefAttributes(statement cfDef)),METHOD_INVOCATION, line no: 754, 0.020967741935483872, 0.08387096774193549, 0.25
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,columnName=subColumnNameAsByteArray(CliCompiler.getColumn(columnFamilySpec 1) cfDef),ASSIGNMENT, line no: 282, 0.02090032154340836, 0.08360128617363344, 0.25
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,thriftClient.system_add_column_family(updateCfDefAttributes(statement cfDef)),METHOD_INVOCATION, line no: 697, 0.02090032154340836, 0.08360128617363344, 0.25
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,thriftClient.system_update_column_family(updateCfDefAttributes(statement cfDef)),METHOD_INVOCATION, line no: 754, 0.02090032154340836, 0.08360128617363344, 0.25
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,thriftClient.truncate(cfDef.getName()),METHOD_INVOCATION, line no: 1002, 0.020430107526881718, 0.06129032258064516, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,thriftClient.truncate(cfDef.getName()),METHOD_INVOCATION, line no: 1002, 0.020364415862808145, 0.06109324758842444, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,columnFamilyDef.comparator_type,QUALIFIED_NAME, line no: 1500, 0.017204301075268817, 0.05161290322580645, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,columnFamilyDef.comparator_type,QUALIFIED_NAME, line no: 1500, 0.01714898177920686, 0.05144694533762058, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,getCfDef(keyspace columnFamily).comparator_type,FIELD_ACCESS, line no: 1877, 0.016935483870967744, 0.05806451612903226, 0.25
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,getCfDef(keyspace columnFamily).comparator_type,FIELD_ACCESS, line no: 1877, 0.016881028938906754, 0.05787781350482315, 0.25
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,getFormatTypeForColumn(getCfDef(keyspace columnFamily).comparator_type),METHOD_INVOCATION, line no: 1877, 0.016129032258064516, 0.054838709677419356, 0.25
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,getFormatTypeForColumn(getCfDef(keyspace columnFamily).comparator_type),METHOD_INVOCATION, line no: 1877, 0.01607717041800643, 0.05466237942122187, 0.25
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,sessionState.out.println(thriftClient.system_add_column_family(updateCfDefAttributes(statement cfDef))),METHOD_INVOCATION, line no: 697, 0.013440860215053762, 0.08064516129032258, 0.16666666666666666
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,sessionState.out.println(thriftClient.system_update_column_family(updateCfDefAttributes(statement cfDef))),METHOD_INVOCATION, line no: 754, 0.013440860215053762, 0.08064516129032258, 0.16666666666666666
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,sessionState.out.println(thriftClient.system_add_column_family(updateCfDefAttributes(statement cfDef))),METHOD_INVOCATION, line no: 697, 0.01339764201500536, 0.08038585209003216, 0.16666666666666666
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,sessionState.out.println(thriftClient.system_update_column_family(updateCfDefAttributes(statement cfDef))),METHOD_INVOCATION, line no: 754, 0.01339764201500536, 0.08038585209003216, 0.16666666666666666
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,getFormatTypeForColumn(getCfDef(keyspace columnFamily).comparator_type).getString(ByteBuffer.wrap(column.getName())),METHOD_INVOCATION, line no: 1891, 0.012258064516129033, 0.06129032258064516, 0.2
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,getFormatTypeForColumn(getCfDef(keyspace columnFamily).comparator_type).getString(ByteBuffer.wrap(column.getName())),METHOD_INVOCATION, line no: 1891, 0.012218649517684888, 0.06109324758842444, 0.2
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,columnNameAsBytes(column cfDef),METHOD_INVOCATION, line no: 1523, 0.011827956989247311, 0.035483870967741936, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,subColumnNameAsBytes(superColumn cfDef),METHOD_INVOCATION, line no: 1576, 0.011827956989247311, 0.035483870967741936, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,columnNameAsBytes(column cfDef),METHOD_INVOCATION, line no: 1523, 0.011789924973204715, 0.03536977491961415, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,subColumnNameAsBytes(superColumn cfDef),METHOD_INVOCATION, line no: 1576, 0.011789924973204715, 0.03536977491961415, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,TBaseHelper.byteBufferToByteArray(columnNameAsBytes(column cfDef)),METHOD_INVOCATION, line no: 1523, 0.01075268817204301, 0.03225806451612903, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,TBaseHelper.byteBufferToByteArray(subColumnNameAsBytes(superColumn cfDef)),METHOD_INVOCATION, line no: 1576, 0.01075268817204301, 0.03225806451612903, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,TBaseHelper.byteBufferToByteArray(columnNameAsBytes(column cfDef)),METHOD_INVOCATION, line no: 1523, 0.010718113612004285, 0.03215434083601286, 0.3333333333333333
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,TBaseHelper.byteBufferToByteArray(subColumnNameAsBytes(superColumn cfDef)),METHOD_INVOCATION, line no: 1576, 0.010718113612004285, 0.03215434083601286, 0.3333333333333333
+cfDef.comparator_type.equals("Super"),METHOD_INVOCATION, line no: 379,getFormatTypeForColumn(getCfDef(keyspace columnFamily).comparator_type).getString(column.name),METHOD_INVOCATION, line no: 1877, 0.008602150537634409, 0.05161290322580645, 0.16666666666666666
+cfDef.comparator_type,QUALIFIED_NAME, line no: 379,getFormatTypeForColumn(getCfDef(keyspace columnFamily).comparator_type).getString(column.name),METHOD_INVOCATION, line no: 1877, 0.00857449088960343, 0.05144694533762058, 0.16666666666666666
 cfDef.comparator_type,QUALIFIED_NAME, line no: 379,"org.apache.cassandra.locator.SimpleStrategy",STRING_LITERAL, line no: 92, 0.006430868167202572, 0.006430868167202572, 1.0
 "Super",STRING_LITERAL, line no: 379,"org.apache.cassandra.locator.SimpleStrategy",STRING_LITERAL, line no: 92, 0.006430868167202572, 0.006430868167202572, 1.0
 comparator_type,SIMPLE_NAME, line no: 379,"org.apache.cassandra.locator.SimpleStrategy",STRING_LITERAL, line no: 92, 0.00641025641025641, 0.00641025641025641, 1.0

@@ -117,12 +117,8 @@ offset,SIMPLE_NAME, line no: 120,serializedSize+=fnode.value.length,ASSIGNMENT, 
 offset,SIMPLE_NAME, line no: 120,fnode.end=end,ASSIGNMENT, line no: 190, 0.8133333333333334, 0.8133333333333334, 1.0
 offset,SIMPLE_NAME, line no: 120,maxEnd,SIMPLE_NAME, line no: 471, 0.7066666666666667, 0.5866666666666667, 1.0
 offset,SIMPLE_NAME, line no: 120,node.maxEnd,QUALIFIED_NAME, line no: 471, 0.6933333333333334, 0.5733333333333334, 1.0
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value=pointer.get(offset OLongSerializer.LONG_SIZE),ASSIGNMENT, line no: 114, 0.6486486486486487, 0.972972972972973, 0.6666666666666666
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value=pointer.get(offset OShortSerializer.SHORT_SIZE),ASSIGNMENT, line no: 74, 0.6396396396396395, 0.9594594594594594, 0.6666666666666666
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value=pointer.get(offset OIntegerSerializer.INT_SIZE),ASSIGNMENT, line no: 94, 0.6396396396396395, 0.9594594594594594, 0.6666666666666666
 offset,SIMPLE_NAME, line no: 120,BYTE_SIZE,SIMPLE_NAME, line no: 29, 0.6, 0.6, 1.0
 offset,SIMPLE_NAME, line no: 120,OByteSerializer.BYTE_SIZE,QUALIFIED_NAME, line no: 29, 0.5866666666666667, 0.5866666666666667, 1.0
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset+=node.value.length,ASSIGNMENT, line no: 358, 0.5765765765765766, 0.8648648648648649, 0.6666666666666666
 offset,SIMPLE_NAME, line no: 120,offset + OByteSerializer.BYTE_SIZE,INFIX_EXPRESSION, line no: 29, 0.5733333333333334, 0.5733333333333334, 1.0
 value,SIMPLE_NAME, line no: 120,new byte[]{0},ARRAY_CREATION, line no: 36, 0.56, 0.56, 1.0
 value,SIMPLE_NAME, line no: 120,{0},ARRAY_INITIALIZER, line no: 36, 0.56, 0.56, 1.0
@@ -132,33 +128,19 @@ offset,SIMPLE_NAME, line no: 120,paths.get(0).getValue(),METHOD_INVOCATION, line
 offset,SIMPLE_NAME, line no: 120,pNode.end,QUALIFIED_NAME, line no: 256, 0.5066666666666667, 0.48, 1.0
 offset,SIMPLE_NAME, line no: 120,activeStart=pNode.end,ASSIGNMENT, line no: 257, 0.5066666666666667, 0.5066666666666667, 1.0
 offset,SIMPLE_NAME, line no: 120,current.start,QUALIFIED_NAME, line no: 560, 0.5066666666666667, 0.5066666666666667, 1.0
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,applyChanges(value offset end result),METHOD_INVOCATION, line no: 37, 0.49324324324324326, 0.5945945945945946, 0.5
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,OShortSerializer.INSTANCE.deserializeNative(value 0),METHOD_INVOCATION, line no: 80, 0.49324324324324326, 0.9864864864864865, 0.5
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,OIntegerSerializer.INSTANCE.deserializeNative(value 0),METHOD_INVOCATION, line no: 100, 0.49324324324324326, 0.9864864864864865, 0.5
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset + OLongSerializer.LONG_SIZE,INFIX_EXPRESSION, line no: 104, 0.4864864864864865, 0.972972972972973, 0.5
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value=new byte[OLongSerializer.LONG_SIZE],ASSIGNMENT, line no: 116, 0.4864864864864865, 0.972972972972973, 0.5
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value == null || value.length == 0,INFIX_EXPRESSION, line no: 130, 0.4864864864864865, 0.972972972972973, 0.5
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value == null,INFIX_EXPRESSION, line no: 130, 0.4864864864864865, 0.972972972972973, 0.5
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value.length == 0,INFIX_EXPRESSION, line no: 130, 0.4864864864864865, 0.972972972972973, 0.5
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value.length,QUALIFIED_NAME, line no: 130, 0.4864864864864865, 0.972972972972973, 0.5
 offset,SIMPLE_NAME, line no: 120,pNode.version,QUALIFIED_NAME, line no: 256, 0.48, 0.48, 1.0
 offset,SIMPLE_NAME, line no: 120,activeNode.version,QUALIFIED_NAME, line no: 256, 0.48, 0.48, 1.0
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset + OShortSerializer.SHORT_SIZE,INFIX_EXPRESSION, line no: 64, 0.4797297297297297, 0.9594594594594594, 0.5
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value=new byte[OShortSerializer.SHORT_SIZE],ASSIGNMENT, line no: 76, 0.4797297297297297, 0.9594594594594594, 0.5
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset + OIntegerSerializer.INT_SIZE,INFIX_EXPRESSION, line no: 84, 0.4797297297297297, 0.9594594594594594, 0.5
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value=new byte[OIntegerSerializer.INT_SIZE],ASSIGNMENT, line no: 96, 0.4797297297297297, 0.9594594594594594, 0.5
 offset,SIMPLE_NAME, line no: 120,value,SIMPLE_NAME, line no: 487, 0.4533333333333333, 0.013333333333333334, 1.0
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,activeNode.value,QUALIFIED_NAME, line no: 289, 0.4527027027027027, 0.9054054054054054, 0.5
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,OIntegerSerializer.INSTANCE.serializeNative(node.value.length stream offset),METHOD_INVOCATION, line no: 354, 0.4391891891891892, 0.8783783783783784, 0.5
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,System.arraycopy(node.value 0 stream offset node.value.length),METHOD_INVOCATION, line no: 357, 0.4391891891891892, 0.8783783783783784, 0.5
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset+=OIntegerSerializer.INT_SIZE,ASSIGNMENT, line no: 337, 0.43243243243243246, 0.35135135135135137, 0.5
 value,SIMPLE_NAME, line no: 120,Arrays.copyOfRange(value fnode.end - start end - start),METHOD_INVOCATION, line no: 203, 0.4266666666666667, 0.4266666666666667, 1.0
 offset,SIMPLE_NAME, line no: 120,values.length,QUALIFIED_NAME, line no: 229, 0.41333333333333333, 0.41333333333333333, 1.0
 offset,SIMPLE_NAME, line no: 120,parent.maxEnd,QUALIFIED_NAME, line no: 728, 0.41333333333333333, 0.41333333333333333, 1.0
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value=pointer.get(offset len),ASSIGNMENT, line no: 54, 0.41216216216216217, 0.8243243243243243, 0.5
 offset,SIMPLE_NAME, line no: 120,serializedSize(value.length),METHOD_INVOCATION, line no: 145, 0.4, 0.3466666666666667, 1.0
 offset,SIMPLE_NAME, line no: 120,start + values.length,INFIX_EXPRESSION, line no: 229, 0.4, 0.4, 1.0
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,applyChanges(value offset end result),METHOD_INVOCATION, line no: 37, 0.3945945945945946, 0.5945945945945946, 0.4
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value=pointer.get(offset OLongSerializer.LONG_SIZE),ASSIGNMENT, line no: 114, 0.3891891891891892, 0.972972972972973, 0.4
 offset,SIMPLE_NAME, line no: 120,serializedSize+=serializedSize(value.length),ASSIGNMENT, line no: 145, 0.38666666666666666, 0.3333333333333333, 1.0
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value=pointer.get(offset OShortSerializer.SHORT_SIZE),ASSIGNMENT, line no: 74, 0.3837837837837838, 0.9594594594594594, 0.4
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value=pointer.get(offset OIntegerSerializer.INT_SIZE),ASSIGNMENT, line no: 94, 0.3837837837837838, 0.9594594594594594, 0.4
 offset,SIMPLE_NAME, line no: 120,max,SIMPLE_NAME, line no: 681, 0.37333333333333335, 0.36, 1.0
 offset,SIMPLE_NAME, line no: 120,toStream(root offset stream),METHOD_INVOCATION, line no: 339, 0.36, 0.36, 1.0
 offset,SIMPLE_NAME, line no: 120,Math.max(node.left.maxEnd node.right.maxEnd),METHOD_INVOCATION, line no: 681, 0.36, 0.36, 1.0
@@ -166,19 +148,15 @@ offset,SIMPLE_NAME, line no: 120,node.left.maxEnd,QUALIFIED_NAME, line no: 681, 
 offset,SIMPLE_NAME, line no: 120,node.right.maxEnd,QUALIFIED_NAME, line no: 681, 0.36, 0.36, 1.0
 offset,SIMPLE_NAME, line no: 120,offset=toStream(root offset stream),ASSIGNMENT, line no: 339, 0.3466666666666667, 0.3466666666666667, 1.0
 offset,SIMPLE_NAME, line no: 120,Math.max(node.end Math.max(node.left.maxEnd node.right.maxEnd)),METHOD_INVOCATION, line no: 681, 0.3466666666666667, 0.3466666666666667, 1.0
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,pointer.getLong(offset),METHOD_INVOCATION, line no: 110, 0.3333333333333333, 1.0, 0.3333333333333333
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset+=node.value.length,ASSIGNMENT, line no: 358, 0.34594594594594597, 0.8648648648648649, 0.4
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,OLongSerializer.INSTANCE,QUALIFIED_NAME, line no: 120, 0.3333333333333333, 1.0, 0.3333333333333333
 offset,SIMPLE_NAME, line no: 120,activeStart - node.start,INFIX_EXPRESSION, line no: 386, 0.3333333333333333, 0.3333333333333333, 1.0
 offset,SIMPLE_NAME, line no: 120,node.maxEnd=Math.max(node.end Math.max(node.left.maxEnd node.right.maxEnd)),ASSIGNMENT, line no: 681, 0.3333333333333333, 0.3333333333333333, 1.0
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,pointer.getShort(offset),METHOD_INVOCATION, line no: 70, 0.3288288288288288, 0.9864864864864865, 0.3333333333333333
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,pointer.getInt(offset),METHOD_INVOCATION, line no: 90, 0.3288288288288288, 0.9864864864864865, 0.3333333333333333
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,pointer.get(offset OLongSerializer.LONG_SIZE),METHOD_INVOCATION, line no: 114, 0.3288288288288288, 0.9864864864864865, 0.3333333333333333
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,pointer.get(offset OShortSerializer.SHORT_SIZE),METHOD_INVOCATION, line no: 74, 0.32432432432432434, 0.972972972972973, 0.3333333333333333
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,pointer.get(offset OIntegerSerializer.INT_SIZE),METHOD_INVOCATION, line no: 94, 0.32432432432432434, 0.972972972972973, 0.3333333333333333
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value=pointer.get(offset len),ASSIGNMENT, line no: 54, 0.32972972972972975, 0.8243243243243243, 0.4
+OLongSerializer.INSTANCE,QUALIFIED_NAME, line no: 120,OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120, 0.3288888888888889, 0.9866666666666667, 0.3333333333333333
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value == null,INFIX_EXPRESSION, line no: 130, 0.32432432432432434, 0.972972972972973, 0.3333333333333333
 offset,SIMPLE_NAME, line no: 120,node.end - activeStart,INFIX_EXPRESSION, line no: 385, 0.32, 0.32, 1.0
 offset,SIMPLE_NAME, line no: 120,currentPath.getValue(),METHOD_INVOCATION, line no: 423, 0.32, 0.32, 1.0
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,OIntegerSerializer.INSTANCE.deserializeNative(stream offset),METHOD_INVOCATION, line no: 311, 0.3018018018018018, 0.9054054054054054, 0.3333333333333333
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset + readBytes,INFIX_EXPRESSION, line no: 315, 0.3018018018018018, 0.8783783783783784, 0.3333333333333333
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,start + value.length,INFIX_EXPRESSION, line no: 169, 0.29729729729729726, 0.8918918918918919, 0.3333333333333333
 value,SIMPLE_NAME, line no: 120,this.value=value,ASSIGNMENT, line no: 751, 0.29333333333333333, 0.29333333333333333, 1.0
 value,SIMPLE_NAME, line no: 120,this.value,FIELD_ACCESS, line no: 751, 0.29333333333333333, 0.29333333333333333, 1.0
 offset,SIMPLE_NAME, line no: 120,this.version=version,ASSIGNMENT, line no: 749, 0.29333333333333333, 0.29333333333333333, 1.0
@@ -189,41 +167,60 @@ offset,SIMPLE_NAME, line no: 120,this.end=start + value.length,ASSIGNMENT, line 
 offset,SIMPLE_NAME, line no: 120,this.end,FIELD_ACCESS, line no: 753, 0.29333333333333333, 0.29333333333333333, 1.0
 offset,SIMPLE_NAME, line no: 120,this.maxEnd=end,ASSIGNMENT, line no: 754, 0.29333333333333333, 0.29333333333333333, 1.0
 offset,SIMPLE_NAME, line no: 120,this.maxEnd,FIELD_ACCESS, line no: 754, 0.29333333333333333, 0.29333333333333333, 1.0
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,node.value.length,QUALIFIED_NAME, line no: 354, 0.2927927927927928, 0.8783783783783784, 0.3333333333333333
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,node.value,QUALIFIED_NAME, line no: 354, 0.2927927927927928, 0.8783783783783784, 0.3333333333333333
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset + OByteSerializer.BYTE_SIZE,INFIX_EXPRESSION, line no: 29, 0.2905405405405405, 0.581081081081081, 0.5
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value[0],ARRAY_ACCESS, line no: 39, 0.2905405405405405, 0.581081081081081, 0.5
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,System.arraycopy(node.value 0 stream offset node.value.length),METHOD_INVOCATION, line no: 357, 0.2927927927927928, 0.8783783783783784, 0.3333333333333333
 offset,SIMPLE_NAME, line no: 120,Math.max(node.end node.left.maxEnd),METHOD_INVOCATION, line no: 683, 0.28, 0.28, 1.0
 offset,SIMPLE_NAME, line no: 120,Math.max(node.end node.right.maxEnd),METHOD_INVOCATION, line no: 685, 0.28, 0.28, 1.0
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,fnode.value,QUALIFIED_NAME, line no: 173, 0.27927927927927926, 0.3783783783783784, 0.3333333333333333
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset + len,INFIX_EXPRESSION, line no: 43, 0.27477477477477474, 0.8243243243243243, 0.3333333333333333
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value=new byte[len],ASSIGNMENT, line no: 56, 0.27477477477477474, 0.8243243243243243, 0.3333333333333333
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,fnode.value.length,QUALIFIED_NAME, line no: 173, 0.27477477477477474, 0.3783783783783784, 0.3333333333333333
 offset,SIMPLE_NAME, line no: 120,node.maxEnd=Math.max(node.end node.left.maxEnd),ASSIGNMENT, line no: 683, 0.26666666666666666, 0.26666666666666666, 1.0
 offset,SIMPLE_NAME, line no: 120,node.maxEnd=Math.max(node.end node.right.maxEnd),ASSIGNMENT, line no: 685, 0.26666666666666666, 0.26666666666666666, 1.0
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,serializedSize=OIntegerSerializer.INSTANCE.deserializeNative(stream offset),ASSIGNMENT, line no: 311, 0.22297297297297297, 0.8918918918918919, 0.25
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,OIntegerSerializer.INSTANCE.deserializeNative(stream offset + readBytes),METHOD_INVOCATION, line no: 315, 0.2195945945945946, 0.8783783783783784, 0.25
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,pointer.get(offset len),METHOD_INVOCATION, line no: 49, 0.21283783783783783, 0.8513513513513513, 0.25
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,serializedSize-=fnode.value.length,ASSIGNMENT, line no: 173, 0.20608108108108109, 0.3783783783783784, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,OIntegerSerializer.INSTANCE.serializeNative(node.value.length stream offset),METHOD_INVOCATION, line no: 354, 0.25096525096525096, 0.8783783783783784, 0.2857142857142857
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,pointer.getLong(offset),METHOD_INVOCATION, line no: 110, 0.25, 1.0, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,pointer.getShort(offset),METHOD_INVOCATION, line no: 70, 0.24662162162162163, 0.9864864864864865, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,OShortSerializer.INSTANCE.deserializeNative(value 0),METHOD_INVOCATION, line no: 80, 0.24662162162162163, 0.9864864864864865, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,pointer.getInt(offset),METHOD_INVOCATION, line no: 90, 0.24662162162162163, 0.9864864864864865, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,OIntegerSerializer.INSTANCE.deserializeNative(value 0),METHOD_INVOCATION, line no: 100, 0.24662162162162163, 0.9864864864864865, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset + OLongSerializer.LONG_SIZE,INFIX_EXPRESSION, line no: 104, 0.24324324324324326, 0.972972972972973, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value=new byte[OLongSerializer.LONG_SIZE],ASSIGNMENT, line no: 116, 0.24324324324324326, 0.972972972972973, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value == null || value.length == 0,INFIX_EXPRESSION, line no: 130, 0.24324324324324326, 0.972972972972973, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value.length == 0,INFIX_EXPRESSION, line no: 130, 0.24324324324324326, 0.972972972972973, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value.length,QUALIFIED_NAME, line no: 130, 0.24324324324324326, 0.972972972972973, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset + OShortSerializer.SHORT_SIZE,INFIX_EXPRESSION, line no: 64, 0.23986486486486486, 0.9594594594594594, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value=new byte[OShortSerializer.SHORT_SIZE],ASSIGNMENT, line no: 76, 0.23986486486486486, 0.9594594594594594, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset + OIntegerSerializer.INT_SIZE,INFIX_EXPRESSION, line no: 84, 0.23986486486486486, 0.9594594594594594, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value=new byte[OIntegerSerializer.INT_SIZE],ASSIGNMENT, line no: 96, 0.23986486486486486, 0.9594594594594594, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,activeNode.value,QUALIFIED_NAME, line no: 289, 0.22635135135135134, 0.9054054054054054, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset + readBytes,INFIX_EXPRESSION, line no: 315, 0.22635135135135134, 0.8783783783783784, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,node.value,QUALIFIED_NAME, line no: 354, 0.2195945945945946, 0.8783783783783784, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset+=OIntegerSerializer.INT_SIZE,ASSIGNMENT, line no: 337, 0.21621621621621623, 0.35135135135135137, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,fnode.value,QUALIFIED_NAME, line no: 173, 0.20945945945945946, 0.3783783783783784, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset + len,INFIX_EXPRESSION, line no: 43, 0.20608108108108109, 0.8243243243243243, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value=new byte[len],ASSIGNMENT, line no: 56, 0.20608108108108109, 0.8243243243243243, 0.25
 OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,fnode.value=value,ASSIGNMENT, line no: 175, 0.20608108108108109, 0.3783783783783784, 0.25
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,serializedSize+=fnode.value.length,ASSIGNMENT, line no: 179, 0.20608108108108109, 0.3783783783783784, 0.25
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,serializedSize(value.length),METHOD_INVOCATION, line no: 145, 0.20270270270270271, 0.35135135135135137, 0.5
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,pointer.getByte(offset),METHOD_INVOCATION, line no: 34, 0.2027027027027027, 0.6081081081081081, 0.3333333333333333
 offset,SIMPLE_NAME, line no: 120,parent.maxEnd=node.maxEnd,ASSIGNMENT, line no: 729, 0.2, 0.2, 1.0
 offset,SIMPLE_NAME, line no: 120,other.end,QUALIFIED_NAME, line no: 758, 0.2, 0.2, 1.0
 offset,SIMPLE_NAME, line no: 120,other.start,QUALIFIED_NAME, line no: 758, 0.2, 0.2, 1.0
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,findIntervals(root offset end result),METHOD_INVOCATION, line no: 31, 0.1972972972972973, 0.5945945945945946, 0.2
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,new Node(value start RED version),CLASS_INSTANCE_CREATION, line no: 135, 0.1945945945945946, 0.972972972972973, 0.2
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,toStream(node.left offset stream),METHOD_INVOCATION, line no: 346, 0.17567567567567569, 0.8783783783783784, 0.2
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,OIntegerSerializer.INSTANCE.serializeNative(node.start stream offset),METHOD_INVOCATION, line no: 348, 0.17567567567567569, 0.8783783783783784, 0.2
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,OIntegerSerializer.INSTANCE.serializeNative(node.version stream offset),METHOD_INVOCATION, line no: 351, 0.17567567567567569, 0.8783783783783784, 0.2
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,toStream(node.right offset stream),METHOD_INVOCATION, line no: 361, 0.17567567567567569, 0.8783783783783784, 0.2
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset=toStream(node.left offset stream),ASSIGNMENT, line no: 346, 0.17297297297297298, 0.8648648648648649, 0.2
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset=toStream(node.right offset stream),ASSIGNMENT, line no: 361, 0.17297297297297298, 0.8648648648648649, 0.2
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,pointer.get(offset OLongSerializer.LONG_SIZE),METHOD_INVOCATION, line no: 114, 0.1972972972972973, 0.9864864864864865, 0.2
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,pointer.get(offset OShortSerializer.SHORT_SIZE),METHOD_INVOCATION, line no: 74, 0.1945945945945946, 0.972972972972973, 0.2
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,pointer.get(offset OIntegerSerializer.INT_SIZE),METHOD_INVOCATION, line no: 94, 0.1945945945945946, 0.972972972972973, 0.2
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,value[0],ARRAY_ACCESS, line no: 39, 0.19369369369369366, 0.581081081081081, 0.3333333333333333
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,OIntegerSerializer.INSTANCE.deserializeNative(stream offset),METHOD_INVOCATION, line no: 311, 0.1810810810810811, 0.9054054054054054, 0.2
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,start + value.length,INFIX_EXPRESSION, line no: 169, 0.1783783783783784, 0.8918918918918919, 0.2
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,node.value.length,QUALIFIED_NAME, line no: 354, 0.17567567567567569, 0.8783783783783784, 0.2
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,pointer.get(offset len),METHOD_INVOCATION, line no: 49, 0.17027027027027028, 0.8513513513513513, 0.2
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,fnode.value.length,QUALIFIED_NAME, line no: 173, 0.16486486486486487, 0.3783783783783784, 0.2
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,findIntervals(root offset end result),METHOD_INVOCATION, line no: 31, 0.1644144144144144, 0.5945945945945946, 0.16666666666666666
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,new Node(value start RED version),CLASS_INSTANCE_CREATION, line no: 135, 0.16216216216216217, 0.972972972972973, 0.16666666666666666
 offset,SIMPLE_NAME, line no: 120,node.maxEnd=node.end,ASSIGNMENT, line no: 687, 0.16, 0.16, 1.0
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,this.value,FIELD_ACCESS, line no: 751, 0.14864864864864866, 0.2972972972972973, 0.5
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,System.arraycopy(stream offset + readBytes data 0 length),METHOD_INVOCATION, line no: 325, 0.1463963963963964, 0.8783783783783784, 0.16666666666666666
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,pointer.getByte(offset),METHOD_INVOCATION, line no: 34, 0.15202702702702703, 0.6081081081081081, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,serializedSize=OIntegerSerializer.INSTANCE.deserializeNative(stream offset),ASSIGNMENT, line no: 311, 0.14864864864864863, 0.8918918918918919, 0.16666666666666666
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,OIntegerSerializer.INSTANCE.deserializeNative(stream offset + readBytes),METHOD_INVOCATION, line no: 315, 0.1463963963963964, 0.8783783783783784, 0.16666666666666666
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,toStream(node.left offset stream),METHOD_INVOCATION, line no: 346, 0.1463963963963964, 0.8783783783783784, 0.16666666666666666
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,toStream(node.right offset stream),METHOD_INVOCATION, line no: 361, 0.1463963963963964, 0.8783783783783784, 0.16666666666666666
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset + OByteSerializer.BYTE_SIZE,INFIX_EXPRESSION, line no: 29, 0.14527027027027026, 0.581081081081081, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset=toStream(node.left offset stream),ASSIGNMENT, line no: 346, 0.14414414414414414, 0.8648648648648649, 0.16666666666666666
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset=toStream(node.right offset stream),ASSIGNMENT, line no: 361, 0.14414414414414414, 0.8648648648648649, 0.16666666666666666
 OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,Arrays.copyOfRange(fnode.value end - start fnode.end - start),METHOD_INVOCATION, line no: 183, 0.13963963963963963, 0.8378378378378378, 0.16666666666666666
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,serializedSize-=fnode.value.length,ASSIGNMENT, line no: 173, 0.13738738738738737, 0.3783783783783784, 0.16666666666666666
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,serializedSize+=fnode.value.length,ASSIGNMENT, line no: 179, 0.13738738738738737, 0.3783783783783784, 0.16666666666666666
 OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset,SIMPLE_NAME, line no: 773, 0.13513513513513514, 0.013513513513513514, 1.0
 deserializeNative,SIMPLE_NAME, line no: 120,offset,SIMPLE_NAME, line no: 773, 0.13333333333333333, 0.013333333333333334, 1.0
 value,SIMPLE_NAME, line no: 120,getBinaryValue,SIMPLE_NAME, line no: 42, 0.13333333333333333, 0.013333333333333334, 1.0
@@ -231,8 +228,9 @@ offset,SIMPLE_NAME, line no: 120,content,SIMPLE_NAME, line no: 240, 0.1333333333
 offset,SIMPLE_NAME, line no: 120,3 * OIntegerSerializer.INT_SIZE,INFIX_EXPRESSION, line no: 241, 0.13333333333333333, 0.13333333333333333, 1.0
 offset,SIMPLE_NAME, line no: 120,3,NUMBER_LITERAL, line no: 241, 0.13333333333333333, 0.13333333333333333, 1.0
 offset,SIMPLE_NAME, line no: 120,path.getValue(),METHOD_INVOCATION, line no: 410, 0.13333333333333333, 0.13333333333333333, 1.0
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,serializedSize+=serializedSize(value.length),ASSIGNMENT, line no: 145, 0.13063063063063063, 0.33783783783783783, 0.3333333333333333
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,System.arraycopy(activeNode.value deltaStart >= 0 ? activeStart - activeNode.start : activeStart - activeNode.start - deltaStart values deltaStart >= 0 ? deltaStart : 0 vLength),METHOD_INVOCATION, line no: 289, 0.12934362934362933, 0.9054054054054054, 0.14285714285714285
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,System.arraycopy(stream offset + readBytes data 0 length),METHOD_INVOCATION, line no: 325, 0.12548262548262548, 0.8783783783783784, 0.14285714285714285
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,OIntegerSerializer.INSTANCE.serializeNative(node.start stream offset),METHOD_INVOCATION, line no: 348, 0.12548262548262548, 0.8783783783783784, 0.14285714285714285
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,OIntegerSerializer.INSTANCE.serializeNative(node.version stream offset),METHOD_INVOCATION, line no: 351, 0.12548262548262548, 0.8783783783783784, 0.14285714285714285
 OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,getLongValue,SIMPLE_NAME, line no: 103, 0.12162162162162163, 0.013513513513513514, 1.0
 deserializeNative,SIMPLE_NAME, line no: 120,getLongValue,SIMPLE_NAME, line no: 103, 0.12, 0.013333333333333334, 1.0
 value,SIMPLE_NAME, line no: 120,OWALChangesTree.this.getBinaryValue(pointer (int)offset len),METHOD_INVOCATION, line no: 790, 0.12, 0.12, 1.0
@@ -242,14 +240,18 @@ offset,SIMPLE_NAME, line no: 120,content + 3 * OIntegerSerializer.INT_SIZE,INFIX
 offset,SIMPLE_NAME, line no: 120,(int)offset,CAST_EXPRESSION, line no: 774, 0.12, 0.10666666666666667, 1.0
 deserializeNative,SIMPLE_NAME, line no: 120,OWALChangesTree.this.getLongValue(pointer (int)offset),METHOD_INVOCATION, line no: 786, 0.10666666666666667, 0.10666666666666667, 1.0
 offset,SIMPLE_NAME, line no: 120,OWALChangesTree.this.getIntValue(pointer (int)offset),METHOD_INVOCATION, line no: 782, 0.10666666666666667, 0.10666666666666667, 1.0
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,serializedSize(value.length),METHOD_INVOCATION, line no: 145, 0.10135135135135136, 0.35135135135135137, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,System.arraycopy(activeNode.value deltaStart >= 0 ? activeStart - activeNode.start : activeStart - activeNode.start - deltaStart values deltaStart >= 0 ? deltaStart : 0 vLength),METHOD_INVOCATION, line no: 289, 0.1006006006006006, 0.9054054054054054, 0.1111111111111111
 OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,this.value=value,ASSIGNMENT, line no: 751, 0.0990990990990991, 0.2972972972972973, 0.3333333333333333
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,OIntegerSerializer.INSTANCE.serializeNative(serializedSize stream offset),METHOD_INVOCATION, line no: 336, 0.09121621621621621, 0.36486486486486486, 0.25
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,toStream(root offset stream),METHOD_INVOCATION, line no: 339, 0.09121621621621621, 0.36486486486486486, 0.25
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset=toStream(root offset stream),ASSIGNMENT, line no: 339, 0.08783783783783784, 0.35135135135135137, 0.25
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,this.end=start + value.length,ASSIGNMENT, line no: 753, 0.07432432432432433, 0.2972972972972973, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,this.value,FIELD_ACCESS, line no: 751, 0.0990990990990991, 0.2972972972972973, 0.3333333333333333
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,serializedSize+=serializedSize(value.length),ASSIGNMENT, line no: 145, 0.07837837837837838, 0.33783783783783783, 0.2
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,toStream(root offset stream),METHOD_INVOCATION, line no: 339, 0.07297297297297298, 0.36486486486486486, 0.2
 OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,Arrays.copyOfRange(value fnode.end - start end - start),METHOD_INVOCATION, line no: 203, 0.07207207207207207, 0.43243243243243246, 0.16666666666666666
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,pointer.set(activeStart node.value activeStart - node.start vLength),METHOD_INVOCATION, line no: 386, 0.04633204633204633, 0.32432432432432434, 0.14285714285714285
-OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,add(value start version true),METHOD_INVOCATION, line no: 126, 0.033783783783783786, 0.13513513513513514, 0.25
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,offset=toStream(root offset stream),ASSIGNMENT, line no: 339, 0.07027027027027027, 0.35135135135135137, 0.2
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,OIntegerSerializer.INSTANCE.serializeNative(serializedSize stream offset),METHOD_INVOCATION, line no: 336, 0.06081081081081081, 0.36486486486486486, 0.16666666666666666
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,this.end=start + value.length,ASSIGNMENT, line no: 753, 0.04954954954954955, 0.2972972972972973, 0.16666666666666666
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,pointer.set(activeStart node.value activeStart - node.start vLength),METHOD_INVOCATION, line no: 386, 0.04054054054054054, 0.32432432432432434, 0.125
+OLongSerializer.INSTANCE.deserializeNative(value offset),METHOD_INVOCATION, line no: 120,add(value start version true),METHOD_INVOCATION, line no: 126, 0.02702702702702703, 0.13513513513513514, 0.2
 offset,SIMPLE_NAME, line no: 120,getSerializedSize,SIMPLE_NAME, line no: 306, 0.013333333333333334, 0.013333333333333334, 1.0
 offset,SIMPLE_NAME, line no: 120,fromStream,SIMPLE_NAME, line no: 310, 0.013333333333333334, 0.013333333333333334, 1.0
 OLongSerializer,SIMPLE_NAME, line no: 120,com.orientechnologies.common.serialization.types.OLongSerializer,QUALIFIED_NAME, line no: 7, 0.013157894736842105, 0.013157894736842105, 1.0

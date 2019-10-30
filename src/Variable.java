@@ -3,7 +3,7 @@ import org.eclipse.jdt.core.dom.IVariableBinding;
 
 public class Variable {
 	String name;
-	ITypeBinding type;
+	String type;
 	IVariableBinding binding;
 	int startLine;
 	int endLine;

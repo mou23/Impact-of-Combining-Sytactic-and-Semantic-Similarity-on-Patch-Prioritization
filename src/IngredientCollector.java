@@ -84,12 +84,13 @@ public class IngredientCollector extends ASTVisitor {
 		PatchGenerator patchGenerator = PatchGenerator.createPatchGenerator();
 		ModelExtractor modelExtractor = ModelExtractor.createModelExtractor();
 		
-//		System.out.println("Node " +node);
 		Node fixingIngredient = new Node();
 		fixingIngredient.node = node;
 		fixingIngredient.startLine = patchGenerator.compilationUnit.getLineNumber(node.getStartPosition());
 		fixingIngredient.endLine = patchGenerator.compilationUnit.getLineNumber(node.getStartPosition()+node.getLength());
 		fixingIngredient.type = modelExtractor.getNodeType(node);
+//		System.out.print("Node " +node);
+//		System.out.println(" "+fixingIngredient.startLine);
 		fixingIngredient.genealogy = modelExtractor.getGenealogyContext(node);
 		fixingIngredient.variableAccessed = modelExtractor.getVariableContext(node);
 		this.fixingIngredients.add(fixingIngredient);

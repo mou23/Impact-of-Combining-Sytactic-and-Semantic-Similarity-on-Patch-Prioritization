@@ -265,7 +265,14 @@ public class ModelExtractor {
 					if(binding!=null && binding.getKind()==IBinding.VARIABLE) {
 						Variable variable = new Variable();
 						variable.name = binding.getName();
-						variable.type = ((Name) child).resolveTypeBinding();
+						
+						if((((Name) child).resolveTypeBinding())!=null) {
+							variable.type = (((Name) child).resolveTypeBinding()).getQualifiedName();
+						}
+						else {
+							variable.type = "";
+						}
+						
 						Iterator<Variable> iterator = variableAccessed.iterator(); 
 						boolean match = false;
 						while(iterator.hasNext())  
@@ -277,10 +284,11 @@ public class ModelExtractor {
 							}
 						}
 						if(match == false) {
-//							System.out.println(variable.name);
+//							System.out.println(variable);
 							variableAccessed.add(variable);
 						}
 					}
+					
 				}
 			}
 		});

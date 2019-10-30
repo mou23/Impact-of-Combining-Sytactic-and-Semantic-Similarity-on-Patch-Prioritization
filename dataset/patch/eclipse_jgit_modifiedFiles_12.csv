@@ -42,18 +42,18 @@ rev,SIMPLE_NAME, line no: 512,rev=rw.parseCommit(rev),ASSIGNMENT, line no: 458, 
 rev,SIMPLE_NAME, line no: 512,rev=rw.parseAny(rev),ASSIGNMENT, line no: 512, 0.9934426229508196, 0.9934426229508196, 1.0
 rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,rev == null,INFIX_EXPRESSION, line no: 432, 0.5, 1.0, 0.5
 rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,rev instanceof RevCommit,INSTANCEOF_EXPRESSION, line no: 513, 0.5, 0.9933993399339934, 0.5
-rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,new IncorrectObjectTypeException(rev Constants.TYPE_COMMIT),CLASS_INSTANCE_CREATION, line no: 520, 0.5, 0.9933993399339934, 0.5
 rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,!(rev instanceof RevCommit),PREFIX_EXPRESSION, line no: 552, 0.5, 1.0, 0.5
 rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,(rev instanceof RevCommit),PARENTHESIZED_EXPRESSION, line no: 552, 0.5, 1.0, 0.5
 rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,rev != null,INFIX_EXPRESSION, line no: 586, 0.5, 1.0, 0.5
 rw.parseAny(rev),METHOD_INVOCATION, line no: 512,rev == null,INFIX_EXPRESSION, line no: 432, 0.5, 1.0, 0.5
 rw.parseAny(rev),METHOD_INVOCATION, line no: 512,rev instanceof RevCommit,INSTANCEOF_EXPRESSION, line no: 513, 0.5, 0.9901315789473685, 0.5
-rw.parseAny(rev),METHOD_INVOCATION, line no: 512,new IncorrectObjectTypeException(rev Constants.TYPE_COMMIT),CLASS_INSTANCE_CREATION, line no: 520, 0.5, 0.9901315789473685, 0.5
 rw.parseAny(rev),METHOD_INVOCATION, line no: 512,!(rev instanceof RevCommit),PREFIX_EXPRESSION, line no: 552, 0.5, 1.0, 0.5
 rw.parseAny(rev),METHOD_INVOCATION, line no: 512,(rev instanceof RevCommit),PARENTHESIZED_EXPRESSION, line no: 552, 0.5, 1.0, 0.5
 rw.parseAny(rev),METHOD_INVOCATION, line no: 512,rev != null,INFIX_EXPRESSION, line no: 586, 0.5, 1.0, 0.5
 rw.parseAny(rev),METHOD_INVOCATION, line no: 512,rev.copy(),METHOD_INVOCATION, line no: 699, 0.49835526315789475, 0.9967105263157895, 0.5
 rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,rev.copy(),METHOD_INVOCATION, line no: 699, 0.49834983498349833, 0.9966996699669967, 0.5
+rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,new IncorrectObjectTypeException(rev Constants.TYPE_COMMIT),CLASS_INSTANCE_CREATION, line no: 520, 0.3333333333333333, 0.9933993399339934, 0.3333333333333333
+rw.parseAny(rev),METHOD_INVOCATION, line no: 512,new IncorrectObjectTypeException(rev Constants.TYPE_COMMIT),CLASS_INSTANCE_CREATION, line no: 520, 0.3333333333333333, 0.9901315789473685, 0.3333333333333333
 rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,rw.parseTree(rev),METHOD_INVOCATION, line no: 495, 0.31683168316831684, 0.052805280528052806, 1.0
 rw.parseAny(rev),METHOD_INVOCATION, line no: 512,rw.parseTree(rev),METHOD_INVOCATION, line no: 495, 0.3157894736842105, 0.05263157894736842, 1.0
 rev,SIMPLE_NAME, line no: 512,rev=resolveReflog(rw ref time),ASSIGNMENT, line no: 666, 0.24671052631578946, 0.24671052631578946, 1.0
@@ -104,19 +104,17 @@ rw.parseAny(rev),METHOD_INVOCATION, line no: 512,rev=parseSimple(rw previousChec
 rw.parseAny(rev),METHOD_INVOCATION, line no: 512,rw.parseCommit(entry.getNewId()),METHOD_INVOCATION, line no: 788, 0.07675438596491227, 0.23026315789473684, 0.3333333333333333
 rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,(RevCommit)rev,CAST_EXPRESSION, line no: 474, 0.066006600660066, 0.10561056105610561, 0.5
 rw.parseAny(rev),METHOD_INVOCATION, line no: 512,(RevCommit)rev,CAST_EXPRESSION, line no: 474, 0.06578947368421052, 0.10526315789473684, 0.5
-rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,TreeWalk.forPath(rw.getObjectReader() new String(revChars i + 1 revChars.length - i - 1) tree),METHOD_INVOCATION, line no: 688, 0.06270627062706272, 0.31353135313531355, 0.2
 rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,resolveReflog(rw ref time),METHOD_INVOCATION, line no: 666, 0.0627062706270627, 0.2508250825082508, 0.25
 rw.parseAny(rev),METHOD_INVOCATION, line no: 512,resolveReflog(rw ref time),METHOD_INVOCATION, line no: 666, 0.0625, 0.25, 0.25
-rw.parseAny(rev),METHOD_INVOCATION, line no: 512,TreeWalk.forPath(rw.getObjectReader() new String(revChars i + 1 revChars.length - i - 1) tree),METHOD_INVOCATION, line no: 688, 0.0625, 0.3125, 0.2
 rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,rev=null,ASSIGNMENT, line no: 476, 0.054455445544554455, 0.10891089108910891, 0.5
 rw.parseAny(rev),METHOD_INVOCATION, line no: 512,rev=null,ASSIGNMENT, line no: 476, 0.054276315789473686, 0.10855263157894737, 0.5
 rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,rev instanceof RevBlob,INSTANCEOF_EXPRESSION, line no: 500, 0.052805280528052806, 0.10561056105610561, 0.5
 rw.parseAny(rev),METHOD_INVOCATION, line no: 512,rev instanceof RevBlob,INSTANCEOF_EXPRESSION, line no: 500, 0.05263157894736842, 0.10526315789473684, 0.5
+rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,TreeWalk.forPath(rw.getObjectReader() new String(revChars i + 1 revChars.length - i - 1) tree),METHOD_INVOCATION, line no: 688, 0.052255225522552254, 0.31353135313531355, 0.16666666666666666
+rw.parseAny(rev),METHOD_INVOCATION, line no: 512,TreeWalk.forPath(rw.getObjectReader() new String(revChars i + 1 revChars.length - i - 1) tree),METHOD_INVOCATION, line no: 688, 0.05208333333333333, 0.3125, 0.16666666666666666
 rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,(rev instanceof RevBlob),PARENTHESIZED_EXPRESSION, line no: 500, 0.05115511551155116, 0.10231023102310231, 0.5
-rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,new IncorrectObjectTypeException(rev Constants.TYPE_BLOB),CLASS_INSTANCE_CREATION, line no: 501, 0.05115511551155116, 0.10231023102310231, 0.5
 rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,((RevCommit)rev),PARENTHESIZED_EXPRESSION, line no: 514, 0.05115511551155116, 0.10231023102310231, 0.5
 rw.parseAny(rev),METHOD_INVOCATION, line no: 512,(rev instanceof RevBlob),PARENTHESIZED_EXPRESSION, line no: 500, 0.05098684210526316, 0.10197368421052631, 0.5
-rw.parseAny(rev),METHOD_INVOCATION, line no: 512,new IncorrectObjectTypeException(rev Constants.TYPE_BLOB),CLASS_INSTANCE_CREATION, line no: 501, 0.05098684210526316, 0.10197368421052631, 0.5
 rw.parseAny(rev),METHOD_INVOCATION, line no: 512,((RevCommit)rev),PARENTHESIZED_EXPRESSION, line no: 514, 0.05098684210526316, 0.10197368421052631, 0.5
 rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,rev=rw.parseTree(rev),ASSIGNMENT, line no: 495, 0.04950495049504951, 0.04950495049504951, 1.0
 rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,!(rev instanceof RevBlob),PREFIX_EXPRESSION, line no: 500, 0.04950495049504951, 0.09900990099009901, 0.5
@@ -141,6 +139,8 @@ rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,parseSimple(rw previousCheckout),M
 rw.parseAny(rev),METHOD_INVOCATION, line no: 512,parseSimple(rw previousCheckout),METHOD_INVOCATION, line no: 647, 0.039473684210526314, 0.11842105263157894, 0.3333333333333333
 rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,rev=commit.getParent(0),ASSIGNMENT, line no: 518, 0.0352035203520352, 0.10561056105610561, 0.3333333333333333
 rw.parseAny(rev),METHOD_INVOCATION, line no: 512,rev=commit.getParent(0),ASSIGNMENT, line no: 518, 0.03508771929824561, 0.10526315789473684, 0.3333333333333333
+rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,new IncorrectObjectTypeException(rev Constants.TYPE_BLOB),CLASS_INSTANCE_CREATION, line no: 501, 0.034103410341034104, 0.10231023102310231, 0.3333333333333333
+rw.parseAny(rev),METHOD_INVOCATION, line no: 512,new IncorrectObjectTypeException(rev Constants.TYPE_BLOB),CLASS_INSTANCE_CREATION, line no: 501, 0.03399122807017543, 0.10197368421052631, 0.3333333333333333
 rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,resolve(rw revstr),METHOD_INVOCATION, line no: 385, 0.0308030803080308, 0.0858085808580858, 0.3333333333333333
 rw.parseAny(rev),METHOD_INVOCATION, line no: 512,resolve(rw revstr),METHOD_INVOCATION, line no: 385, 0.03070175438596491, 0.08552631578947369, 0.3333333333333333
 rev=rw.parseAny(rev),ASSIGNMENT, line no: 512,rev=commit.getParent(pnum - 1),ASSIGNMENT, line no: 478, 0.027227722772277228, 0.10891089108910891, 0.25

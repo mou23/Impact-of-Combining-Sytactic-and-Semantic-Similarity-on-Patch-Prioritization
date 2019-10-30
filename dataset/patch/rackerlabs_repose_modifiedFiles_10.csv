@@ -155,12 +155,12 @@ nextWritableIndex,SIMPLE_NAME, line no: 48,nextWritableIndex=nextWritableIndex +
 nextWritableIndex,SIMPLE_NAME, line no: 48,nextWritableIndex + len < buffer.length ? nextWritableIndex + len : len - (buffer.length - nextWritableIndex),CONDITIONAL_EXPRESSION, line no: 127, 0.2956521739130435, 0.2956521739130435, 1.0
 nextWritableIndex,SIMPLE_NAME, line no: 48,nextReadableIndex=nextReadableIndex + readableLength < buffer.length ? nextReadableIndex + readableLength : readableLength - (buffer.length - nextReadableIndex),ASSIGNMENT, line no: 148, 0.2956521739130435, 0.2956521739130435, 1.0
 nextWritableIndex,SIMPLE_NAME, line no: 48,nextReadableIndex + readableLength < buffer.length ? nextReadableIndex + readableLength : readableLength - (buffer.length - nextReadableIndex),CONDITIONAL_EXPRESSION, line no: 148, 0.2956521739130435, 0.2956521739130435, 1.0
+this.nextWritableIndex=0,ASSIGNMENT, line no: 48,this.nextWritableIndex=nextWritableIndex,ASSIGNMENT, line no: 24, 0.2920353982300885, 0.2920353982300885, 1.0
+this.nextWritableIndex,FIELD_ACCESS, line no: 48,this.nextWritableIndex=nextWritableIndex,ASSIGNMENT, line no: 24, 0.2894736842105263, 0.2894736842105263, 1.0
 0,NUMBER_LITERAL, line no: 48,this.nextWritableIndex=nextWritableIndex,ASSIGNMENT, line no: 24, 0.2894736842105263, 0.2894736842105263, 1.0
 0,NUMBER_LITERAL, line no: 48,this.nextReadableIndex=nextReadableIndex,ASSIGNMENT, line no: 25, 0.2894736842105263, 0.2894736842105263, 1.0
 nextWritableIndex,SIMPLE_NAME, line no: 48,this.nextWritableIndex=nextWritableIndex,ASSIGNMENT, line no: 24, 0.28695652173913044, 0.28695652173913044, 1.0
 nextWritableIndex,SIMPLE_NAME, line no: 48,this.nextReadableIndex=nextReadableIndex,ASSIGNMENT, line no: 25, 0.28695652173913044, 0.28695652173913044, 1.0
-this.nextWritableIndex=0,ASSIGNMENT, line no: 48,nextWritableIndex + len > buffer.length,INFIX_EXPRESSION, line no: 119, 0.24778761061946902, 0.7433628318584071, 0.3333333333333333
-this.nextWritableIndex,FIELD_ACCESS, line no: 48,nextWritableIndex + len > buffer.length,INFIX_EXPRESSION, line no: 119, 0.24561403508771928, 0.7368421052631579, 0.3333333333333333
 0,NUMBER_LITERAL, line no: 48,nextReadableIndex + len,INFIX_EXPRESSION, line no: 69, 0.22807017543859648, 0.22807017543859648, 1.0
 0,NUMBER_LITERAL, line no: 48,len - (buffer.length - nextReadableIndex),INFIX_EXPRESSION, line no: 71, 0.22807017543859648, 0.22807017543859648, 1.0
 nextWritableIndex,SIMPLE_NAME, line no: 48,nextReadableIndex + len,INFIX_EXPRESSION, line no: 69, 0.22608695652173913, 0.22608695652173913, 1.0
@@ -179,40 +179,32 @@ this.nextWritableIndex,FIELD_ACCESS, line no: 48,nextWritableIndex=read,ASSIGNME
 nextWritableIndex,SIMPLE_NAME, line no: 48,nextWritableIndex < nextReadableIndex ? nextWritableIndex + (buffer.length - nextReadableIndex) : nextWritableIndex - nextReadableIndex,CONDITIONAL_EXPRESSION, line no: 87, 0.20869565217391303, 0.20869565217391303, 1.0
 nextWritableIndex,SIMPLE_NAME, line no: 48,nextWritableIndex + (buffer.length - nextReadableIndex),INFIX_EXPRESSION, line no: 87, 0.20869565217391303, 0.20869565217391303, 1.0
 nextWritableIndex,SIMPLE_NAME, line no: 48,nextWritableIndex - nextReadableIndex,INFIX_EXPRESSION, line no: 87, 0.20869565217391303, 0.20869565217391303, 1.0
+this.nextWritableIndex=0,ASSIGNMENT, line no: 48,nextWritableIndex + len > buffer.length,INFIX_EXPRESSION, line no: 119, 0.18584070796460178, 0.7433628318584071, 0.25
+this.nextWritableIndex,FIELD_ACCESS, line no: 48,nextWritableIndex + len > buffer.length,INFIX_EXPRESSION, line no: 119, 0.18421052631578946, 0.7368421052631579, 0.25
 0,NUMBER_LITERAL, line no: 48,nextWritableIndex < nextReadableIndex ? nextReadableIndex - nextWritableIndex : buffer.length - nextWritableIndex + nextReadableIndex,CONDITIONAL_EXPRESSION, line no: 96, 0.18421052631578946, 0.18421052631578946, 1.0
 0,NUMBER_LITERAL, line no: 48,nextReadableIndex - nextWritableIndex,INFIX_EXPRESSION, line no: 96, 0.18421052631578946, 0.18421052631578946, 1.0
 0,NUMBER_LITERAL, line no: 48,buffer.length - nextWritableIndex + nextReadableIndex,INFIX_EXPRESSION, line no: 96, 0.18421052631578946, 0.18421052631578946, 1.0
 nextWritableIndex,SIMPLE_NAME, line no: 48,nextWritableIndex < nextReadableIndex ? nextReadableIndex - nextWritableIndex : buffer.length - nextWritableIndex + nextReadableIndex,CONDITIONAL_EXPRESSION, line no: 96, 0.1826086956521739, 0.1826086956521739, 1.0
 nextWritableIndex,SIMPLE_NAME, line no: 48,nextReadableIndex - nextWritableIndex,INFIX_EXPRESSION, line no: 96, 0.1826086956521739, 0.1826086956521739, 1.0
 nextWritableIndex,SIMPLE_NAME, line no: 48,buffer.length - nextWritableIndex + nextReadableIndex,INFIX_EXPRESSION, line no: 96, 0.1826086956521739, 0.1826086956521739, 1.0
-this.nextWritableIndex=0,ASSIGNMENT, line no: 48,buffer.length - nextWritableIndex,INFIX_EXPRESSION, line no: 96, 0.168141592920354, 0.18584070796460178, 0.5
-this.nextWritableIndex,FIELD_ACCESS, line no: 48,buffer.length - nextWritableIndex,INFIX_EXPRESSION, line no: 96, 0.16666666666666666, 0.18421052631578946, 0.5
-this.nextWritableIndex=0,ASSIGNMENT, line no: 48,(buffer.length - nextWritableIndex),PARENTHESIZED_EXPRESSION, line no: 127, 0.15486725663716813, 0.30973451327433627, 0.5
-this.nextWritableIndex,FIELD_ACCESS, line no: 48,(buffer.length - nextWritableIndex),PARENTHESIZED_EXPRESSION, line no: 127, 0.15350877192982457, 0.30701754385964913, 0.5
 0,NUMBER_LITERAL, line no: 48,-1,PREFIX_EXPRESSION, line no: 166, 0.14912280701754385, 0.14912280701754385, 1.0
 nextWritableIndex,SIMPLE_NAME, line no: 48,-1,PREFIX_EXPRESSION, line no: 166, 0.14782608695652175, 0.14782608695652175, 1.0
-this.nextWritableIndex=0,ASSIGNMENT, line no: 48,this.nextWritableIndex=nextWritableIndex,ASSIGNMENT, line no: 24, 0.14601769911504425, 0.2920353982300885, 0.5
-this.nextWritableIndex,FIELD_ACCESS, line no: 48,this.nextWritableIndex=nextWritableIndex,ASSIGNMENT, line no: 24, 0.14473684210526316, 0.2894736842105263, 0.5
 this.nextWritableIndex=0,ASSIGNMENT, line no: 48,nextWritableIndex=0,ASSIGNMENT, line no: 55, 0.1415929203539823, 0.11504424778761062, 1.0
 this.nextWritableIndex,FIELD_ACCESS, line no: 48,nextWritableIndex=0,ASSIGNMENT, line no: 55, 0.14035087719298245, 0.11403508771929824, 1.0
 0,NUMBER_LITERAL, line no: 48,nextWritableIndex=0,ASSIGNMENT, line no: 55, 0.14035087719298245, 0.11403508771929824, 1.0
 0,NUMBER_LITERAL, line no: 48,bytesSkipped=available(),ASSIGNMENT, line no: 64, 0.14035087719298245, 0.14035087719298245, 1.0
 nextWritableIndex,SIMPLE_NAME, line no: 48,nextWritableIndex=0,ASSIGNMENT, line no: 55, 0.1391304347826087, 0.11304347826086956, 1.0
 nextWritableIndex,SIMPLE_NAME, line no: 48,bytesSkipped=available(),ASSIGNMENT, line no: 64, 0.1391304347826087, 0.1391304347826087, 1.0
+this.nextWritableIndex=0,ASSIGNMENT, line no: 48,buffer.length - nextWritableIndex,INFIX_EXPRESSION, line no: 96, 0.11209439528023599, 0.18584070796460178, 0.3333333333333333
 this.nextWritableIndex=0,ASSIGNMENT, line no: 48,nextWritableIndex=len - trimmedLength,ASSIGNMENT, line no: 124, 0.11209439528023599, 0.336283185840708, 0.3333333333333333
+this.nextWritableIndex,FIELD_ACCESS, line no: 48,buffer.length - nextWritableIndex,INFIX_EXPRESSION, line no: 96, 0.1111111111111111, 0.18421052631578946, 0.3333333333333333
 this.nextWritableIndex,FIELD_ACCESS, line no: 48,nextWritableIndex=len - trimmedLength,ASSIGNMENT, line no: 124, 0.1111111111111111, 0.3333333333333333, 0.3333333333333333
 this.nextWritableIndex=0,ASSIGNMENT, line no: 48,nextWritableIndex < nextReadableIndex,INFIX_EXPRESSION, line no: 87, 0.10619469026548672, 0.21238938053097345, 0.5
 this.nextWritableIndex=0,ASSIGNMENT, line no: 48,nextWritableIndex - nextReadableIndex,INFIX_EXPRESSION, line no: 87, 0.10619469026548672, 0.21238938053097345, 0.5
 this.nextWritableIndex,FIELD_ACCESS, line no: 48,nextWritableIndex < nextReadableIndex,INFIX_EXPRESSION, line no: 87, 0.10526315789473684, 0.21052631578947367, 0.5
 this.nextWritableIndex,FIELD_ACCESS, line no: 48,nextWritableIndex - nextReadableIndex,INFIX_EXPRESSION, line no: 87, 0.10526315789473684, 0.21052631578947367, 0.5
-this.nextWritableIndex=0,ASSIGNMENT, line no: 48,nextWritableIndex + len < buffer.length,INFIX_EXPRESSION, line no: 127, 0.10324483775811208, 0.30973451327433627, 0.3333333333333333
-this.nextWritableIndex=0,ASSIGNMENT, line no: 48,len - (buffer.length - nextWritableIndex),INFIX_EXPRESSION, line no: 127, 0.10324483775811208, 0.30973451327433627, 0.3333333333333333
-this.nextWritableIndex,FIELD_ACCESS, line no: 48,nextWritableIndex + len < buffer.length,INFIX_EXPRESSION, line no: 127, 0.1023391812865497, 0.30701754385964913, 0.3333333333333333
-this.nextWritableIndex,FIELD_ACCESS, line no: 48,len - (buffer.length - nextWritableIndex),INFIX_EXPRESSION, line no: 127, 0.1023391812865497, 0.30701754385964913, 0.3333333333333333
-this.nextWritableIndex=0,ASSIGNMENT, line no: 48,nextWritableIndex=nextWritableIndex + len < buffer.length ? nextWritableIndex + len : len - (buffer.length - nextWritableIndex),ASSIGNMENT, line no: 127, 0.10029498525073746, 0.3008849557522124, 0.3333333333333333
-this.nextWritableIndex=0,ASSIGNMENT, line no: 48,nextWritableIndex + len < buffer.length ? nextWritableIndex + len : len - (buffer.length - nextWritableIndex),CONDITIONAL_EXPRESSION, line no: 127, 0.10029498525073746, 0.3008849557522124, 0.3333333333333333
-this.nextWritableIndex,FIELD_ACCESS, line no: 48,nextWritableIndex=nextWritableIndex + len < buffer.length ? nextWritableIndex + len : len - (buffer.length - nextWritableIndex),ASSIGNMENT, line no: 127, 0.09941520467836257, 0.2982456140350877, 0.3333333333333333
-this.nextWritableIndex,FIELD_ACCESS, line no: 48,nextWritableIndex + len < buffer.length ? nextWritableIndex + len : len - (buffer.length - nextWritableIndex),CONDITIONAL_EXPRESSION, line no: 127, 0.09941520467836257, 0.2982456140350877, 0.3333333333333333
+this.nextWritableIndex=0,ASSIGNMENT, line no: 48,(buffer.length - nextWritableIndex),PARENTHESIZED_EXPRESSION, line no: 127, 0.10324483775811208, 0.30973451327433627, 0.3333333333333333
+this.nextWritableIndex,FIELD_ACCESS, line no: 48,(buffer.length - nextWritableIndex),PARENTHESIZED_EXPRESSION, line no: 127, 0.1023391812865497, 0.30701754385964913, 0.3333333333333333
 this.nextWritableIndex=0,ASSIGNMENT, line no: 48,nextReadableIndex - nextWritableIndex,INFIX_EXPRESSION, line no: 96, 0.09292035398230089, 0.18584070796460178, 0.5
 this.nextWritableIndex,FIELD_ACCESS, line no: 48,nextReadableIndex - nextWritableIndex,INFIX_EXPRESSION, line no: 96, 0.09210526315789473, 0.18421052631578946, 0.5
 0,NUMBER_LITERAL, line no: 48,len - remaining,INFIX_EXPRESSION, line no: 116, 0.08771929824561403, 0.08771929824561403, 1.0
@@ -225,12 +217,16 @@ this.nextWritableIndex,FIELD_ACCESS, line no: 48,put,SIMPLE_NAME, line no: 112, 
 nextWritableIndex,SIMPLE_NAME, line no: 48,put,SIMPLE_NAME, line no: 112, 0.0782608695652174, 0.008695652173913044, 1.0
 nextWritableIndex,SIMPLE_NAME, line no: 48,get(singleByte 0 1),METHOD_INVOCATION, line no: 169, 0.0782608695652174, 0.0782608695652174, 1.0
 nextWritableIndex,SIMPLE_NAME, line no: 48,b.length,QUALIFIED_NAME, line no: 177, 0.0782608695652174, 0.0782608695652174, 1.0
+this.nextWritableIndex=0,ASSIGNMENT, line no: 48,nextWritableIndex + len < buffer.length,INFIX_EXPRESSION, line no: 127, 0.07743362831858407, 0.30973451327433627, 0.25
+this.nextWritableIndex=0,ASSIGNMENT, line no: 48,len - (buffer.length - nextWritableIndex),INFIX_EXPRESSION, line no: 127, 0.07743362831858407, 0.30973451327433627, 0.25
+this.nextWritableIndex,FIELD_ACCESS, line no: 48,nextWritableIndex + len < buffer.length,INFIX_EXPRESSION, line no: 127, 0.07675438596491228, 0.30701754385964913, 0.25
+this.nextWritableIndex,FIELD_ACCESS, line no: 48,len - (buffer.length - nextWritableIndex),INFIX_EXPRESSION, line no: 127, 0.07675438596491228, 0.30701754385964913, 0.25
+this.nextWritableIndex=0,ASSIGNMENT, line no: 48,nextWritableIndex=nextWritableIndex + len < buffer.length ? nextWritableIndex + len : len - (buffer.length - nextWritableIndex),ASSIGNMENT, line no: 127, 0.0752212389380531, 0.3008849557522124, 0.25
+this.nextWritableIndex=0,ASSIGNMENT, line no: 48,nextWritableIndex + len < buffer.length ? nextWritableIndex + len : len - (buffer.length - nextWritableIndex),CONDITIONAL_EXPRESSION, line no: 127, 0.0752212389380531, 0.3008849557522124, 0.25
+this.nextWritableIndex,FIELD_ACCESS, line no: 48,nextWritableIndex=nextWritableIndex + len < buffer.length ? nextWritableIndex + len : len - (buffer.length - nextWritableIndex),ASSIGNMENT, line no: 127, 0.07456140350877193, 0.2982456140350877, 0.25
+this.nextWritableIndex,FIELD_ACCESS, line no: 48,nextWritableIndex + len < buffer.length ? nextWritableIndex + len : len - (buffer.length - nextWritableIndex),CONDITIONAL_EXPRESSION, line no: 127, 0.07456140350877193, 0.2982456140350877, 0.25
 this.nextWritableIndex=0,ASSIGNMENT, line no: 48,nextWritableIndex == nextReadableIndex && hasElements,INFIX_EXPRESSION, line no: 83, 0.07079646017699115, 0.21238938053097345, 0.3333333333333333
-this.nextWritableIndex=0,ASSIGNMENT, line no: 48,nextWritableIndex < nextReadableIndex ? nextWritableIndex + (buffer.length - nextReadableIndex) : nextWritableIndex - nextReadableIndex,CONDITIONAL_EXPRESSION, line no: 87, 0.07079646017699115, 0.21238938053097345, 0.3333333333333333
-this.nextWritableIndex=0,ASSIGNMENT, line no: 48,nextWritableIndex + (buffer.length - nextReadableIndex),INFIX_EXPRESSION, line no: 87, 0.07079646017699115, 0.21238938053097345, 0.3333333333333333
 this.nextWritableIndex,FIELD_ACCESS, line no: 48,nextWritableIndex == nextReadableIndex && hasElements,INFIX_EXPRESSION, line no: 83, 0.07017543859649122, 0.21052631578947367, 0.3333333333333333
-this.nextWritableIndex,FIELD_ACCESS, line no: 48,nextWritableIndex < nextReadableIndex ? nextWritableIndex + (buffer.length - nextReadableIndex) : nextWritableIndex - nextReadableIndex,CONDITIONAL_EXPRESSION, line no: 87, 0.07017543859649122, 0.21052631578947367, 0.3333333333333333
-this.nextWritableIndex,FIELD_ACCESS, line no: 48,nextWritableIndex + (buffer.length - nextReadableIndex),INFIX_EXPRESSION, line no: 87, 0.07017543859649122, 0.21052631578947367, 0.3333333333333333
 0,NUMBER_LITERAL, line no: 48,put(new byte[]{b} 0 1),METHOD_INVOCATION, line no: 161, 0.07017543859649122, 0.07017543859649122, 1.0
 0,NUMBER_LITERAL, line no: 48,get(b 0 b.length),METHOD_INVOCATION, line no: 177, 0.07017543859649122, 0.07017543859649122, 1.0
 0,NUMBER_LITERAL, line no: 48,put(b 0 b.length),METHOD_INVOCATION, line no: 182, 0.07017543859649122, 0.07017543859649122, 1.0
@@ -239,12 +235,16 @@ nextWritableIndex,SIMPLE_NAME, line no: 48,get(b 0 b.length),METHOD_INVOCATION, 
 nextWritableIndex,SIMPLE_NAME, line no: 48,put(b 0 b.length),METHOD_INVOCATION, line no: 182, 0.06956521739130435, 0.06956521739130435, 1.0
 this.nextWritableIndex=0,ASSIGNMENT, line no: 48,System.arraycopy(b off buffer nextWritableIndex trimmedLength),METHOD_INVOCATION, line no: 122, 0.0672566371681416, 0.336283185840708, 0.2
 this.nextWritableIndex,FIELD_ACCESS, line no: 48,System.arraycopy(b off buffer nextWritableIndex trimmedLength),METHOD_INVOCATION, line no: 122, 0.06666666666666667, 0.3333333333333333, 0.2
-this.nextWritableIndex=0,ASSIGNMENT, line no: 48,nextWritableIndex < nextReadableIndex ? nextReadableIndex - nextWritableIndex : buffer.length - nextWritableIndex + nextReadableIndex,CONDITIONAL_EXPRESSION, line no: 96, 0.061946902654867256, 0.18584070796460178, 0.3333333333333333
-this.nextWritableIndex=0,ASSIGNMENT, line no: 48,buffer.length - nextWritableIndex + nextReadableIndex,INFIX_EXPRESSION, line no: 96, 0.061946902654867256, 0.18584070796460178, 0.3333333333333333
-this.nextWritableIndex,FIELD_ACCESS, line no: 48,nextWritableIndex < nextReadableIndex ? nextReadableIndex - nextWritableIndex : buffer.length - nextWritableIndex + nextReadableIndex,CONDITIONAL_EXPRESSION, line no: 96, 0.06140350877192982, 0.18421052631578946, 0.3333333333333333
-this.nextWritableIndex,FIELD_ACCESS, line no: 48,buffer.length - nextWritableIndex + nextReadableIndex,INFIX_EXPRESSION, line no: 96, 0.06140350877192982, 0.18421052631578946, 0.3333333333333333
 this.nextWritableIndex=0,ASSIGNMENT, line no: 48,System.arraycopy(b off buffer nextWritableIndex len),METHOD_INVOCATION, line no: 126, 0.060176991150442484, 0.3008849557522124, 0.2
 this.nextWritableIndex,FIELD_ACCESS, line no: 48,System.arraycopy(b off buffer nextWritableIndex len),METHOD_INVOCATION, line no: 126, 0.05964912280701754, 0.2982456140350877, 0.2
+this.nextWritableIndex=0,ASSIGNMENT, line no: 48,nextWritableIndex < nextReadableIndex ? nextWritableIndex + (buffer.length - nextReadableIndex) : nextWritableIndex - nextReadableIndex,CONDITIONAL_EXPRESSION, line no: 87, 0.05309734513274336, 0.21238938053097345, 0.25
+this.nextWritableIndex=0,ASSIGNMENT, line no: 48,nextWritableIndex + (buffer.length - nextReadableIndex),INFIX_EXPRESSION, line no: 87, 0.05309734513274336, 0.21238938053097345, 0.25
+this.nextWritableIndex,FIELD_ACCESS, line no: 48,nextWritableIndex < nextReadableIndex ? nextWritableIndex + (buffer.length - nextReadableIndex) : nextWritableIndex - nextReadableIndex,CONDITIONAL_EXPRESSION, line no: 87, 0.05263157894736842, 0.21052631578947367, 0.25
+this.nextWritableIndex,FIELD_ACCESS, line no: 48,nextWritableIndex + (buffer.length - nextReadableIndex),INFIX_EXPRESSION, line no: 87, 0.05263157894736842, 0.21052631578947367, 0.25
+this.nextWritableIndex=0,ASSIGNMENT, line no: 48,nextWritableIndex < nextReadableIndex ? nextReadableIndex - nextWritableIndex : buffer.length - nextWritableIndex + nextReadableIndex,CONDITIONAL_EXPRESSION, line no: 96, 0.046460176991150445, 0.18584070796460178, 0.25
+this.nextWritableIndex=0,ASSIGNMENT, line no: 48,buffer.length - nextWritableIndex + nextReadableIndex,INFIX_EXPRESSION, line no: 96, 0.046460176991150445, 0.18584070796460178, 0.25
+this.nextWritableIndex,FIELD_ACCESS, line no: 48,nextWritableIndex < nextReadableIndex ? nextReadableIndex - nextWritableIndex : buffer.length - nextWritableIndex + nextReadableIndex,CONDITIONAL_EXPRESSION, line no: 96, 0.046052631578947366, 0.18421052631578946, 0.25
+this.nextWritableIndex,FIELD_ACCESS, line no: 48,buffer.length - nextWritableIndex + nextReadableIndex,INFIX_EXPRESSION, line no: 96, 0.046052631578947366, 0.18421052631578946, 0.25
 this,THIS_EXPRESSION, line no: 48,CyclicByteBuffer,SIMPLE_NAME, line no: 5, 0.034782608695652174, 0.008695652173913044, 1.0
 this.nextWritableIndex=0,ASSIGNMENT, line no: 48,2048,NUMBER_LITERAL, line no: 8, 0.008849557522123894, 0.008849557522123894, 1.0
 this.nextWritableIndex=0,ASSIGNMENT, line no: 48,skip,SIMPLE_NAME, line no: 60, 0.008849557522123894, 0.008849557522123894, 1.0

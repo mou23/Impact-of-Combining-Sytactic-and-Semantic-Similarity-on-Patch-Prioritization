@@ -1,6 +1,8 @@
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,this.url,FIELD_ACCESS, line no: 41, 1.0, 1.0, 1.0
 this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,contains,SIMPLE_NAME, line no: 41, 1.0, 1.0, 1.0
 this.url,FIELD_ACCESS, line no: 41,url,SIMPLE_NAME, line no: 35, 1.0, 0.015384615384615385, 1.0
 url,SIMPLE_NAME, line no: 41,this.url,FIELD_ACCESS, line no: 41, 0.9848484848484849, 0.9848484848484849, 1.0
+this.url,FIELD_ACCESS, line no: 41,this.url.contains("\\?"),METHOD_INVOCATION, line no: 41, 0.9846153846153847, 0.9846153846153847, 1.0
 this.url,FIELD_ACCESS, line no: 41,"\\?",STRING_LITERAL, line no: 41, 0.9846153846153847, 0.9846153846153847, 1.0
 contains,SIMPLE_NAME, line no: 41,this.url.contains("\\?"),METHOD_INVOCATION, line no: 41, 0.9846153846153847, 0.9846153846153847, 1.0
 "\\?",STRING_LITERAL, line no: 41,url,SIMPLE_NAME, line no: 35, 0.9846153846153847, 0.015384615384615385, 1.0
@@ -13,6 +15,8 @@ this.url,FIELD_ACCESS, line no: 41,toString,SIMPLE_NAME, line no: 47, 0.96923076
 url,SIMPLE_NAME, line no: 41,queryString.toString(),METHOD_INVOCATION, line no: 51, 0.9545454545454546, 0.9545454545454546, 1.0
 "\\?",STRING_LITERAL, line no: 41,this.url+=queryString.toString(),ASSIGNMENT, line no: 51, 0.9538461538461539, 0.9538461538461539, 1.0
 url,SIMPLE_NAME, line no: 41,this.url+=queryString.toString(),ASSIGNMENT, line no: 51, 0.9393939393939394, 0.9393939393939394, 1.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,this.url+=queryString.toString(),ASSIGNMENT, line no: 51, 0.484375, 0.96875, 0.5
+this.url,FIELD_ACCESS, line no: 41,this.url+=queryString.toString(),ASSIGNMENT, line no: 51, 0.47692307692307695, 0.9538461538461539, 0.5
 this.url,FIELD_ACCESS, line no: 41,name,SIMPLE_NAME, line no: 39, 0.4461538461538462, 0.015384615384615385, 1.0
 "\\?",STRING_LITERAL, line no: 41,name,SIMPLE_NAME, line no: 39, 0.4461538461538462, 0.015384615384615385, 1.0
 url,SIMPLE_NAME, line no: 41,name,SIMPLE_NAME, line no: 39, 0.4393939393939394, 0.015151515151515152, 1.0

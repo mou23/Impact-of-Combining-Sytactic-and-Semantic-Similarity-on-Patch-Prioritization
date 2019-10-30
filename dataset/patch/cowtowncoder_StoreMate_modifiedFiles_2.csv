@@ -193,7 +193,6 @@ new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 1
 new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,(offset + length) > _length,INFIX_EXPRESSION, line no: 154, 0.19215686274509805, 0.9607843137254902, 0.2
 new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,offset == 0 && length == _length,INFIX_EXPRESSION, line no: 158, 0.19215686274509805, 0.9607843137254902, 0.2
 new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,other._buffer,QUALIFIED_NAME, line no: 54, 0.19117647058823528, 0.1568627450980392, 0.25
-new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,_length == _buffer.length,INFIX_EXPRESSION, line no: 145, 0.18300653594771243, 0.27450980392156865, 0.6666666666666666
 new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,Arrays.copyOf(_buffer _length),METHOD_INVOCATION, line no: 148, 0.18300653594771243, 0.27450980392156865, 0.6666666666666666
 from,SIMPLE_NAME, line no: 162,++ptr1,PREFIX_EXPRESSION, line no: 94, 0.17307692307692307, 0.17307692307692307, 1.0
 from,SIMPLE_NAME, line no: 162,++ptr2,PREFIX_EXPRESSION, line no: 95, 0.17307692307692307, 0.17307692307692307, 1.0
@@ -213,14 +212,14 @@ _length,SIMPLE_NAME, line no: 162,++ptr2,PREFIX_EXPRESSION, line no: 95, 0.16981
 _length,SIMPLE_NAME, line no: 162,hasher.hash(BlockHasher32.DEFAULT_SEED _buffer _offset _length),METHOD_INVOCATION, line no: 194, 0.16981132075471697, 0.16981132075471697, 1.0
 _length,SIMPLE_NAME, line no: 162,i1++,POSTFIX_EXPRESSION, line no: 237, 0.16981132075471697, 0.16981132075471697, 1.0
 _length,SIMPLE_NAME, line no: 162,i2++,POSTFIX_EXPRESSION, line no: 237, 0.16981132075471697, 0.16981132075471697, 1.0
-new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,BlockMurmur3Hasher.instance.hash(0 _buffer _offset _length),METHOD_INVOCATION, line no: 214, 0.16666666666666666, 0.3333333333333333, 0.5
 from + _length,INFIX_EXPRESSION, line no: 162,length != _length,INFIX_EXPRESSION, line no: 67, 0.16666666666666666, 0.5, 0.3333333333333333
 from,SIMPLE_NAME, line no: 162,++ptr,PREFIX_EXPRESSION, line no: 83, 0.15384615384615385, 0.15384615384615385, 1.0
 from,SIMPLE_NAME, line no: 162,++ptr,PREFIX_EXPRESSION, line no: 83, 0.1509433962264151, 0.1509433962264151, 1.0
 _length,SIMPLE_NAME, line no: 162,++ptr,PREFIX_EXPRESSION, line no: 83, 0.1509433962264151, 0.1509433962264151, 1.0
 from + _length,INFIX_EXPRESSION, line no: 162,sb.append(_length),METHOD_INVOCATION, line no: 248, 0.14102564102564102, 0.4230769230769231, 0.3333333333333333
+new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,_length == _buffer.length,INFIX_EXPRESSION, line no: 145, 0.13725490196078433, 0.27450980392156865, 0.5
 _buffer,SIMPLE_NAME, line no: 162,buf,SIMPLE_NAME, line no: 19, 0.1346153846153846, 0.019230769230769232, 1.0
-new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,h=BlockMurmur3Hasher.instance.hash(0 _buffer _offset _length),ASSIGNMENT, line no: 214, 0.13333333333333333, 0.3333333333333333, 0.4
+new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,BlockMurmur3Hasher.instance.hash(0 _buffer _offset _length),METHOD_INVOCATION, line no: 214, 0.13333333333333333, 0.3333333333333333, 0.4
 new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,_equals(_buffer _offset other._buffer other._offset _offset + prefixLen),METHOD_INVOCATION, line no: 57, 0.12745098039215685, 0.7647058823529411, 0.16666666666666666
 new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,length != _length,INFIX_EXPRESSION, line no: 67, 0.12745098039215685, 0.5098039215686274, 0.25
 _buffer,SIMPLE_NAME, line no: 162,_buffer=buf,ASSIGNMENT, line no: 25, 0.11538461538461539, 0.11538461538461539, 1.0
@@ -239,9 +238,9 @@ _length,SIMPLE_NAME, line no: 162,_offset=offset,ASSIGNMENT, line no: 26, 0.1132
 _length,SIMPLE_NAME, line no: 162,_length=len,ASSIGNMENT, line no: 27, 0.11320754716981132, 0.11320754716981132, 1.0
 _length,SIMPLE_NAME, line no: 162,indexOf,SIMPLE_NAME, line no: 106, 0.11320754716981132, 0.018867924528301886, 1.0
 _length,SIMPLE_NAME, line no: 162,lastIndexOf,SIMPLE_NAME, line no: 121, 0.11320754716981132, 0.018867924528301886, 1.0
+new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,h=BlockMurmur3Hasher.instance.hash(0 _buffer _offset _length),ASSIGNMENT, line no: 214, 0.1111111111111111, 0.3333333333333333, 0.3333333333333333
 from + _length,INFIX_EXPRESSION, line no: 162,int i=_offset + _length,VARIABLE_DECLARATION_EXPRESSION, line no: 129, 0.11057692307692307, 0.4423076923076923, 0.25
 new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,sb.append(_length),METHOD_INVOCATION, line no: 248, 0.10784313725490197, 0.43137254901960786, 0.25
-new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,hasher.hash(BlockHasher32.DEFAULT_SEED _buffer _offset + offset length),METHOD_INVOCATION, line no: 202, 0.10364145658263305, 0.7254901960784313, 0.14285714285714285
 new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,cb.withBytes(_buffer _offset + offset length),METHOD_INVOCATION, line no: 184, 0.09803921568627451, 0.6862745098039216, 0.14285714285714285
 from,SIMPLE_NAME, line no: 162,indexOf(toMatch 0),METHOD_INVOCATION, line no: 107, 0.09615384615384616, 0.09615384615384616, 1.0
 from,SIMPLE_NAME, line no: 162,lastIndexOf(toMatch 0),METHOD_INVOCATION, line no: 122, 0.09615384615384616, 0.09615384615384616, 1.0
@@ -249,11 +248,9 @@ from,SIMPLE_NAME, line no: 162,indexOf(toMatch 0),METHOD_INVOCATION, line no: 10
 from,SIMPLE_NAME, line no: 162,lastIndexOf(toMatch 0),METHOD_INVOCATION, line no: 122, 0.09433962264150944, 0.09433962264150944, 1.0
 _length,SIMPLE_NAME, line no: 162,indexOf(toMatch 0),METHOD_INVOCATION, line no: 107, 0.09433962264150944, 0.09433962264150944, 1.0
 _length,SIMPLE_NAME, line no: 162,lastIndexOf(toMatch 0),METHOD_INVOCATION, line no: 122, 0.09433962264150944, 0.09433962264150944, 1.0
-new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,_buffer.length,QUALIFIED_NAME, line no: 145, 0.09150326797385622, 0.27450980392156865, 0.3333333333333333
+new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,hasher.hash(BlockHasher32.DEFAULT_SEED _buffer _offset + offset length),METHOD_INVOCATION, line no: 202, 0.09068627450980392, 0.7254901960784313, 0.125
 new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,int i=_offset + _length,VARIABLE_DECLARATION_EXPRESSION, line no: 129, 0.09019607843137256, 0.45098039215686275, 0.2
-from + _length,INFIX_EXPRESSION, line no: 162,_length == _buffer.length,INFIX_EXPRESSION, line no: 145, 0.08974358974358973, 0.2692307692307692, 0.3333333333333333
 from + _length,INFIX_EXPRESSION, line no: 162,Arrays.copyOf(_buffer _length),METHOD_INVOCATION, line no: 148, 0.08974358974358973, 0.2692307692307692, 0.3333333333333333
-from + _length,INFIX_EXPRESSION, line no: 162,BlockMurmur3Hasher.instance.hash(0 _buffer _offset _length),METHOD_INVOCATION, line no: 214, 0.08173076923076923, 0.3269230769230769, 0.25
 from,SIMPLE_NAME, line no: 162,buf.length,QUALIFIED_NAME, line no: 20, 0.07692307692307693, 0.07692307692307693, 1.0
 from,SIMPLE_NAME, line no: 162,h=1,ASSIGNMENT, line no: 216, 0.07692307692307693, 0.07692307692307693, 1.0
 from + _length,INFIX_EXPRESSION, line no: 162,int i=_offset + atOrAfter  end=_offset + _length,VARIABLE_DECLARATION_EXPRESSION, line no: 113, 0.07692307692307693, 0.46153846153846156, 0.16666666666666666
@@ -261,20 +258,23 @@ from,SIMPLE_NAME, line no: 162,buf.length,QUALIFIED_NAME, line no: 20, 0.0754716
 from,SIMPLE_NAME, line no: 162,h=1,ASSIGNMENT, line no: 216, 0.07547169811320754, 0.07547169811320754, 1.0
 _length,SIMPLE_NAME, line no: 162,buf.length,QUALIFIED_NAME, line no: 20, 0.07547169811320754, 0.07547169811320754, 1.0
 _length,SIMPLE_NAME, line no: 162,h=1,ASSIGNMENT, line no: 216, 0.07547169811320754, 0.07547169811320754, 1.0
-new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,hasher.hash(BlockHasher32.DEFAULT_SEED _buffer _offset _length),METHOD_INVOCATION, line no: 194, 0.07058823529411766, 0.17647058823529413, 0.4
 new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,_equals(_buffer _offset buffer offset length),METHOD_INVOCATION, line no: 73, 0.07002801120448178, 0.49019607843137253, 0.14285714285714285
+new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,_buffer.length,QUALIFIED_NAME, line no: 145, 0.06862745098039216, 0.27450980392156865, 0.25
+from + _length,INFIX_EXPRESSION, line no: 162,_length == _buffer.length,INFIX_EXPRESSION, line no: 145, 0.0673076923076923, 0.2692307692307692, 0.25
 from + _length,INFIX_EXPRESSION, line no: 162,"Invalid range (offset " + offset + "  length "+ length+ ")  for key with length of "+ _length+ " bytes",INFIX_EXPRESSION, line no: 155, 0.0673076923076923, 0.2692307692307692, 0.25
 new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,int i=_offset + atOrAfter  end=_offset + _length,VARIABLE_DECLARATION_EXPRESSION, line no: 113, 0.06722689075630252, 0.47058823529411764, 0.14285714285714285
-from + _length,INFIX_EXPRESSION, line no: 162,h=BlockMurmur3Hasher.instance.hash(0 _buffer _offset _length),ASSIGNMENT, line no: 214, 0.06538461538461539, 0.3269230769230769, 0.2
+from + _length,INFIX_EXPRESSION, line no: 162,BlockMurmur3Hasher.instance.hash(0 _buffer _offset _length),METHOD_INVOCATION, line no: 214, 0.06538461538461539, 0.3269230769230769, 0.2
 from + _length,INFIX_EXPRESSION, line no: 162,new IllegalArgumentException("Invalid range (offset " + offset + "  length "+ length+ ")  for key with length of "+ _length+ " bytes"),CLASS_INSTANCE_CREATION, line no: 155, 0.0625, 0.25, 0.25
+new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,hasher.hash(BlockHasher32.DEFAULT_SEED _buffer _offset _length),METHOD_INVOCATION, line no: 194, 0.058823529411764705, 0.17647058823529413, 0.3333333333333333
 new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,"Invalid range (offset " + offset + "  length "+ length+ ")  for key with length of "+ _length+ " bytes",INFIX_EXPRESSION, line no: 155, 0.05490196078431373, 0.27450980392156865, 0.2
 new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,cb.withBytes(_buffer _offset _length),METHOD_INVOCATION, line no: 176, 0.05490196078431373, 0.13725490196078433, 0.4
+from + _length,INFIX_EXPRESSION, line no: 162,h=BlockMurmur3Hasher.instance.hash(0 _buffer _offset _length),ASSIGNMENT, line no: 214, 0.05448717948717949, 0.3269230769230769, 0.16666666666666666
 new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,new IllegalArgumentException("Invalid range (offset " + offset + "  length "+ length+ ")  for key with length of "+ _length+ " bytes"),CLASS_INSTANCE_CREATION, line no: 155, 0.050980392156862744, 0.2549019607843137, 0.2
 from + _length,INFIX_EXPRESSION, line no: 162,_length=len,ASSIGNMENT, line no: 27, 0.038461538461538464, 0.11538461538461539, 0.3333333333333333
-from + _length,INFIX_EXPRESSION, line no: 162,hasher.hash(BlockHasher32.DEFAULT_SEED _buffer _offset _length),METHOD_INVOCATION, line no: 194, 0.03461538461538462, 0.17307692307692307, 0.2
 new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,_equals(_buffer other._buffer prefixLen),METHOD_INVOCATION, line no: 54, 0.03137254901960784, 0.1568627450980392, 0.2
 new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,_buffer=buf,ASSIGNMENT, line no: 25, 0.029411764705882353, 0.11764705882352941, 0.25
 new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,_length=len,ASSIGNMENT, line no: 27, 0.029411764705882353, 0.11764705882352941, 0.25
+from + _length,INFIX_EXPRESSION, line no: 162,hasher.hash(BlockHasher32.DEFAULT_SEED _buffer _offset _length),METHOD_INVOCATION, line no: 194, 0.028846153846153844, 0.17307692307692307, 0.16666666666666666
 new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,_equals(_buffer buffer length),METHOD_INVOCATION, line no: 71, 0.027450980392156866, 0.13725490196078433, 0.2
 from + _length,INFIX_EXPRESSION, line no: 162,cb.withBytes(_buffer _offset _length),METHOD_INVOCATION, line no: 176, 0.026923076923076925, 0.1346153846153846, 0.2
 new StorableKey(_buffer from from + _length),CLASS_INSTANCE_CREATION, line no: 162,range,SIMPLE_NAME, line no: 153, 0.0196078431372549, 0.0196078431372549, 1.0

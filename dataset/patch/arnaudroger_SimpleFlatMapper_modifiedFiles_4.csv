@@ -1,5 +1,49 @@
+property == null && !selectedParameters.isEmpty(),INFIX_EXPRESSION, line no: 31,isEmpty,SIMPLE_NAME, line no: 31, 1.0, 1.0, 1.0
+!selectedParameters.isEmpty(),PREFIX_EXPRESSION, line no: 31,selectedParameters.isEmpty(),METHOD_INVOCATION, line no: 31, 1.0, 1.0, 1.0
+!selectedParameters.isEmpty(),PREFIX_EXPRESSION, line no: 31,isEmpty,SIMPLE_NAME, line no: 31, 1.0, 1.0, 1.0
+selectedParameters.isEmpty(),METHOD_INVOCATION, line no: 31,isEmpty,SIMPLE_NAME, line no: 31, 1.0, 1.0, 1.0
 isEmpty,SIMPLE_NAME, line no: 31,selectedParameters.isEmpty(),METHOD_INVOCATION, line no: 31, 0.9848484848484849, 0.9848484848484849, 1.0
-property == null,INFIX_EXPRESSION, line no: 31,property == null && !selectedParameters.isEmpty(),INFIX_EXPRESSION, line no: 31, 0.984375, 0.984375, 1.0
+selectedParameters.isEmpty(),METHOD_INVOCATION, line no: 31,!selectedParameters.isEmpty(),PREFIX_EXPRESSION, line no: 31, 0.9846153846153847, 0.9846153846153847, 1.0
+property == null,INFIX_EXPRESSION, line no: 31,isEmpty,SIMPLE_NAME, line no: 31, 0.984375, 0.984375, 1.0
 isEmpty,SIMPLE_NAME, line no: 31,!selectedParameters.isEmpty(),PREFIX_EXPRESSION, line no: 31, 0.9696969696969697, 0.9696969696969697, 1.0
 isEmpty,SIMPLE_NAME, line no: 31,property == null && !selectedParameters.isEmpty(),INFIX_EXPRESSION, line no: 31, 0.9545454545454546, 0.9545454545454546, 1.0
+isEmpty,SIMPLE_NAME, line no: 31,property == null,INFIX_EXPRESSION, line no: 31, 0.9545454545454546, 0.9545454545454546, 1.0
+property,SIMPLE_NAME, line no: 31,PropertyMeta,SIMPLE_NAME, line no: 27, 0.9538461538461539, 0.015384615384615385, 1.0
+property,SIMPLE_NAME, line no: 31,findProperty,SIMPLE_NAME, line no: 27, 0.9538461538461539, 0.015384615384615385, 1.0
+property,SIMPLE_NAME, line no: 31,propertyFinder.findProperty(propertyNameMatcher),METHOD_INVOCATION, line no: 29, 0.9384615384615385, 0.9384615384615385, 1.0
+!selectedParameters.isEmpty(),PREFIX_EXPRESSION, line no: 31,selectedParameters.size(),METHOD_INVOCATION, line no: 32, 0.71875, 0.71875, 1.0
+selectedParameters.isEmpty(),METHOD_INVOCATION, line no: 31,selectedParameters.size(),METHOD_INVOCATION, line no: 32, 0.7076923076923077, 0.7076923076923077, 1.0
+!selectedParameters.isEmpty(),PREFIX_EXPRESSION, line no: 31,selectedParameters.size() + 1,INFIX_EXPRESSION, line no: 32, 0.703125, 0.703125, 1.0
+selectedParameters.isEmpty(),METHOD_INVOCATION, line no: 31,selectedParameters.size() + 1,INFIX_EXPRESSION, line no: 32, 0.6923076923076923, 0.6923076923076923, 1.0
+!selectedParameters.isEmpty(),PREFIX_EXPRESSION, line no: 31,getSmallestConstructorWithAtLeast(selectedParameters.size() + 1),METHOD_INVOCATION, line no: 32, 0.6875, 0.6875, 1.0
+selectedParameters.isEmpty(),METHOD_INVOCATION, line no: 31,getSmallestConstructorWithAtLeast(selectedParameters.size() + 1),METHOD_INVOCATION, line no: 32, 0.676923076923077, 0.676923076923077, 1.0
+isEmpty,SIMPLE_NAME, line no: 31,constructorDefinition != null,INFIX_EXPRESSION, line no: 34, 0.6666666666666666, 0.6666666666666666, 1.0
+property == null && !selectedParameters.isEmpty(),INFIX_EXPRESSION, line no: 31,property == null,INFIX_EXPRESSION, line no: 31, 0.5, 1.0, 0.5
+property == null && !selectedParameters.isEmpty(),INFIX_EXPRESSION, line no: 31,!selectedParameters.isEmpty(),PREFIX_EXPRESSION, line no: 31, 0.5, 1.0, 0.5
+property == null && !selectedParameters.isEmpty(),INFIX_EXPRESSION, line no: 31,selectedParameters.isEmpty(),METHOD_INVOCATION, line no: 31, 0.5, 1.0, 0.5
+property == null,INFIX_EXPRESSION, line no: 31,property == null && !selectedParameters.isEmpty(),INFIX_EXPRESSION, line no: 31, 0.4921875, 0.984375, 0.5
+!selectedParameters.isEmpty(),PREFIX_EXPRESSION, line no: 31,property == null && !selectedParameters.isEmpty(),INFIX_EXPRESSION, line no: 31, 0.4921875, 0.984375, 0.5
+selectedParameters.isEmpty(),METHOD_INVOCATION, line no: 31,property == null && !selectedParameters.isEmpty(),INFIX_EXPRESSION, line no: 31, 0.4846153846153846, 0.9692307692307692, 0.5
+property == null && !selectedParameters.isEmpty(),INFIX_EXPRESSION, line no: 31,add,SIMPLE_NAME, line no: 36, 0.47619047619047616, 0.47619047619047616, 1.0
+property == null,INFIX_EXPRESSION, line no: 31,add,SIMPLE_NAME, line no: 36, 0.46875, 0.46875, 1.0
+!selectedParameters.isEmpty(),PREFIX_EXPRESSION, line no: 31,add,SIMPLE_NAME, line no: 36, 0.46875, 0.46875, 1.0
+property,SIMPLE_NAME, line no: 31,propertyFinder.findProperty(new DefaultPropertyNameMatcher(param.getName())),METHOD_INVOCATION, line no: 37, 0.46153846153846156, 0.46153846153846156, 1.0
+selectedParameters.isEmpty(),METHOD_INVOCATION, line no: 31,add,SIMPLE_NAME, line no: 36, 0.46153846153846156, 0.46153846153846156, 1.0
+isEmpty,SIMPLE_NAME, line no: 31,add,SIMPLE_NAME, line no: 36, 0.45454545454545453, 0.45454545454545453, 1.0
 isEmpty,SIMPLE_NAME, line no: 31,selectedParameters.add(param.getName()),METHOD_INVOCATION, line no: 36, 0.4393939393939394, 0.4393939393939394, 1.0
+isEmpty,SIMPLE_NAME, line no: 31,def.getParameters().length == 1 && (selected == null || selected.getParameters().length > def.getParameters().length),INFIX_EXPRESSION, line no: 47, 0.3787878787878788, 0.3787878787878788, 1.0
+isEmpty,SIMPLE_NAME, line no: 31,def.getParameters().length == 1,INFIX_EXPRESSION, line no: 47, 0.3787878787878788, 0.3787878787878788, 1.0
+isEmpty,SIMPLE_NAME, line no: 31,(selected == null || selected.getParameters().length > def.getParameters().length),PARENTHESIZED_EXPRESSION, line no: 47, 0.3787878787878788, 0.3787878787878788, 1.0
+isEmpty,SIMPLE_NAME, line no: 31,selected == null || selected.getParameters().length > def.getParameters().length,INFIX_EXPRESSION, line no: 47, 0.3787878787878788, 0.3787878787878788, 1.0
+isEmpty,SIMPLE_NAME, line no: 31,selected == null,INFIX_EXPRESSION, line no: 47, 0.3787878787878788, 0.3787878787878788, 1.0
+isEmpty,SIMPLE_NAME, line no: 31,selected.getParameters().length > def.getParameters().length,INFIX_EXPRESSION, line no: 47, 0.3787878787878788, 0.3787878787878788, 1.0
+property == null && !selectedParameters.isEmpty(),INFIX_EXPRESSION, line no: 31,selectedParameters.size(),METHOD_INVOCATION, line no: 32, 0.36507936507936506, 0.7301587301587301, 0.5
+property == null && !selectedParameters.isEmpty(),INFIX_EXPRESSION, line no: 31,selectedParameters.size() + 1,INFIX_EXPRESSION, line no: 32, 0.35714285714285715, 0.7142857142857143, 0.5
+property == null && !selectedParameters.isEmpty(),INFIX_EXPRESSION, line no: 31,getSmallestConstructorWithAtLeast(selectedParameters.size() + 1),METHOD_INVOCATION, line no: 32, 0.3492063492063492, 0.6984126984126984, 0.5
+!selectedParameters.isEmpty(),PREFIX_EXPRESSION, line no: 31,constructorDefinition.getParameters()[selectedParameters.size()],ARRAY_ACCESS, line no: 35, 0.2265625, 0.453125, 0.5
+!selectedParameters.isEmpty(),PREFIX_EXPRESSION, line no: 31,selectedParameters.add(param.getName()),METHOD_INVOCATION, line no: 36, 0.2265625, 0.453125, 0.5
+selectedParameters.isEmpty(),METHOD_INVOCATION, line no: 31,constructorDefinition.getParameters()[selectedParameters.size()],ARRAY_ACCESS, line no: 35, 0.2230769230769231, 0.4461538461538462, 0.5
+selectedParameters.isEmpty(),METHOD_INVOCATION, line no: 31,selectedParameters.add(param.getName()),METHOD_INVOCATION, line no: 36, 0.2230769230769231, 0.4461538461538462, 0.5
+property == null && !selectedParameters.isEmpty(),INFIX_EXPRESSION, line no: 31,constructorDefinition.getParameters()[selectedParameters.size()],ARRAY_ACCESS, line no: 35, 0.15343915343915343, 0.4603174603174603, 0.3333333333333333
+property == null && !selectedParameters.isEmpty(),INFIX_EXPRESSION, line no: 31,selectedParameters.add(param.getName()),METHOD_INVOCATION, line no: 36, 0.15343915343915343, 0.4603174603174603, 0.3333333333333333
+selectedParameters,SIMPLE_NAME, line no: 31,List,SIMPLE_NAME, line no: 18, 0.015151515151515152, 0.015151515151515152, 1.0
