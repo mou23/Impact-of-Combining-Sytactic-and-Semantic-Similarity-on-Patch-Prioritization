@@ -326,10 +326,10 @@ public class ModelExtractor {
 		return ((double)((double)match/(double)(variableAccessedSource.size()+variableAccessedTarget.size()-match)));//*variableAccessedSource.size());
 	}
 	
-	public double getNormalizedLongestCommonSubsequence(String faultyNodeContext, String fixingIngredientContext) {
+	public double getNormalizedLongestCommonSubsequence(String faultyNode, String fixingIngredient) {
 //		System.out.println("faultyNodeContext "+faultyNodeContext);
 //		System.out.println("fixingIngredientContext "+fixingIngredientContext);
-		return getLongestCommonSubsequence(faultyNodeContext, fixingIngredientContext)/(double)Math.max(faultyNodeContext.length(), fixingIngredientContext.length());
+		return getLongestCommonSubsequence(faultyNode, fixingIngredient)/(double)Math.max(faultyNode.length(), fixingIngredient.length());
 	}
 	
 	private int getLongestCommonSubsequence(String faultyNode, String fixingIngredient) {
