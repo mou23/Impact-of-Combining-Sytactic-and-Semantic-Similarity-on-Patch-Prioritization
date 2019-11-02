@@ -1,0 +1,762 @@
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,fromIndex < 0,INFIX_EXPRESSION, line no: 121, 2.0, 0.4897959183673469, 1.0, 0.7333333333333333
+fromIndex,SIMPLE_NAME, line no: 411,BITS_PER_WORD,SIMPLE_NAME, line no: 46, 2.0, 0.02, 1.0, 0.07692307692307693
+fromIndex,SIMPLE_NAME, line no: 411,word,SIMPLE_NAME, line no: 60, 2.0, 0.02, 0.0, 0.2222222222222222
+fromIndex,SIMPLE_NAME, line no: 411,length,SIMPLE_NAME, line no: 104, 2.0, 0.46, 1.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,numberOfLeadingZeros,SIMPLE_NAME, line no: 417, 2.0, 1.0, 1.0, 0.15
+64,NUMBER_LITERAL, line no: 411,1,NUMBER_LITERAL, line no: 46, 2.0, 0.04, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,0,NUMBER_LITERAL, line no: 69, 2.0, 0.22, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,1,NUMBER_LITERAL, line no: 46, 1.98, 0.04, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,WORD_MASK,SIMPLE_NAME, line no: 50, 1.98, 0.02, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,0,NUMBER_LITERAL, line no: 69, 1.98, 0.22, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,get,SIMPLE_NAME, line no: 141, 1.98, 0.46, 1.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,64,NUMBER_LITERAL, line no: 374, 1.98, 0.78, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,length() - 1,INFIX_EXPRESSION, line no: 412, 1.98, 0.98, 1.0, 0.08333333333333333
+fromIndex,SIMPLE_NAME, line no: 411,length(),METHOD_INVOCATION, line no: 412, 1.98, 0.98, 1.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,BITS_PER_WORD - 1 - Integer.numberOfLeadingZeros(word),INFIX_EXPRESSION, line no: 417, 1.98, 0.98, 1.0, 0.07407407407407407
+fromIndex,SIMPLE_NAME, line no: 411,Integer.numberOfLeadingZeros(word),METHOD_INVOCATION, line no: 417, 1.98, 0.98, 1.0, 0.11764705882352941
+64,NUMBER_LITERAL, line no: 411,BITS_PER_WORD,SIMPLE_NAME, line no: 46, 1.98, 0.02, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,word,SIMPLE_NAME, line no: 60, 1.98, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,length,SIMPLE_NAME, line no: 104, 1.98, 0.44, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,fromIndex,SIMPLE_NAME, line no: 120, 1.98, 0.02, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,length() - 1,INFIX_EXPRESSION, line no: 412, 1.98, 0.98, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,length(),METHOD_INVOCATION, line no: 412, 1.98, 0.98, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,BITS_PER_WORD - 1 - Integer.numberOfLeadingZeros(word),INFIX_EXPRESSION, line no: 417, 1.98, 0.98, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,Integer.numberOfLeadingZeros(word),METHOD_INVOCATION, line no: 417, 1.98, 0.98, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,numberOfLeadingZeros,SIMPLE_NAME, line no: 417, 1.98, 0.98, 1.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,-(fromIndex + 1),PREFIX_EXPRESSION, line no: 414, 1.9795918367346939, 0.9795918367346939, 1.0, 0.6875
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,(fromIndex + 1),PARENTHESIZED_EXPRESSION, line no: 414, 1.9795918367346939, 0.9795918367346939, 1.0, 0.7333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,fromIndex + 1,INFIX_EXPRESSION, line no: 414, 1.9795918367346939, 0.9795918367346939, 1.0, 0.7333333333333333
+fromIndex,SIMPLE_NAME, line no: 411,-1,PREFIX_EXPRESSION, line no: 348, 1.96, 0.8, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,this.word.get(),METHOD_INVOCATION, line no: 350, 1.96, 0.78, 1.0, 0.2
+fromIndex,SIMPLE_NAME, line no: 411,this.word.get() & (WORD_MASK >>> -(fromIndex + 1)),INFIX_EXPRESSION, line no: 414, 1.96, 0.96, 1.0, 0.18
+fromIndex,SIMPLE_NAME, line no: 411,(WORD_MASK >>> -(fromIndex + 1)),PARENTHESIZED_EXPRESSION, line no: 414, 1.96, 0.96, 1.0, 0.28125
+fromIndex,SIMPLE_NAME, line no: 411,WORD_MASK >>> -(fromIndex + 1),INFIX_EXPRESSION, line no: 414, 1.96, 0.96, 1.0, 0.3
+fromIndex,SIMPLE_NAME, line no: 411,-(fromIndex + 1),PREFIX_EXPRESSION, line no: 414, 1.96, 0.96, 1.0, 0.5625
+fromIndex,SIMPLE_NAME, line no: 411,(fromIndex + 1),PARENTHESIZED_EXPRESSION, line no: 414, 1.96, 0.96, 1.0, 0.6
+fromIndex,SIMPLE_NAME, line no: 411,fromIndex + 1,INFIX_EXPRESSION, line no: 414, 1.96, 0.96, 1.0, 0.6923076923076923
+64,NUMBER_LITERAL, line no: 411,WORD_MASK,SIMPLE_NAME, line no: 50, 1.96, 0.02, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,get,SIMPLE_NAME, line no: 141, 1.96, 0.46, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,-1,PREFIX_EXPRESSION, line no: 348, 1.96, 0.8, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,this.word.get(),METHOD_INVOCATION, line no: 350, 1.96, 0.78, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,this.word.get() & (WORD_MASK >>> -(fromIndex + 1)),INFIX_EXPRESSION, line no: 414, 1.96, 0.96, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,(WORD_MASK >>> -(fromIndex + 1)),PARENTHESIZED_EXPRESSION, line no: 414, 1.96, 0.96, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,WORD_MASK >>> -(fromIndex + 1),INFIX_EXPRESSION, line no: 414, 1.96, 0.96, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,-(fromIndex + 1),PREFIX_EXPRESSION, line no: 414, 1.96, 0.96, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,(fromIndex + 1),PARENTHESIZED_EXPRESSION, line no: 414, 1.96, 0.96, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,fromIndex + 1,INFIX_EXPRESSION, line no: 414, 1.96, 0.96, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,~this.word.get(),PREFIX_EXPRESSION, line no: 377, 1.9, 0.76, 1.0, 0.1875
+fromIndex,SIMPLE_NAME, line no: 411,~this.word.get() & (WORD_MASK >>> -(fromIndex + 1)),INFIX_EXPRESSION, line no: 443, 1.9, 0.9, 1.0, 0.17647058823529413
+64,NUMBER_LITERAL, line no: 411,~this.word.get(),PREFIX_EXPRESSION, line no: 377, 1.9, 0.76, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,~this.word.get() & (WORD_MASK >>> -(fromIndex + 1)),INFIX_EXPRESSION, line no: 443, 1.9, 0.9, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,numberOfTrailingZeros,SIMPLE_NAME, line no: 353, 1.8199999999999998, 0.82, 1.0, 0.19047619047619047
+64,NUMBER_LITERAL, line no: 411,numberOfTrailingZeros,SIMPLE_NAME, line no: 353, 1.8199999999999998, 0.82, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,32,NUMBER_LITERAL, line no: 87, 1.8, 0.52, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,WORD_MASK << fromIndex,INFIX_EXPRESSION, line no: 163, 1.8, 0.54, 1.0, 0.4090909090909091
+fromIndex,SIMPLE_NAME, line no: 411,Integer.numberOfTrailingZeros(word),METHOD_INVOCATION, line no: 353, 1.8, 0.8, 1.0, 0.11428571428571428
+64,NUMBER_LITERAL, line no: 411,32,NUMBER_LITERAL, line no: 87, 1.8, 0.52, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,WORD_MASK << fromIndex,INFIX_EXPRESSION, line no: 163, 1.8, 0.52, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,Integer.numberOfTrailingZeros(word),METHOD_INVOCATION, line no: 353, 1.8, 0.8, 1.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,fromIndex >= 32,INFIX_EXPRESSION, line no: 347, 1.7959183673469388, 0.7959183673469388, 1.0, 0.8666666666666667
+fromIndex,SIMPLE_NAME, line no: 411,(WORD_MASK << fromIndex),PARENTHESIZED_EXPRESSION, line no: 350, 1.78, 0.78, 1.0, 0.375
+fromIndex,SIMPLE_NAME, line no: 411,6,NUMBER_LITERAL, line no: 605, 1.78, 0.78, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,(WORD_MASK << fromIndex),PARENTHESIZED_EXPRESSION, line no: 350, 1.78, 0.78, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,i,SIMPLE_NAME, line no: 110, 1.76, 0.5, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,this.word.get() & (WORD_MASK << fromIndex),INFIX_EXPRESSION, line no: 350, 1.76, 0.76, 1.0, 0.21428571428571427
+fromIndex,SIMPLE_NAME, line no: 411,numBits,SIMPLE_NAME, line no: 604, 1.76, 0.72, 1.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,6 * numBits,INFIX_EXPRESSION, line no: 605, 1.76, 0.76, 1.0, 0.09090909090909091
+fromIndex,SIMPLE_NAME, line no: 411,2,NUMBER_LITERAL, line no: 605, 1.76, 0.76, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,this.word.get() & (WORD_MASK << fromIndex),INFIX_EXPRESSION, line no: 350, 1.76, 0.76, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,6,NUMBER_LITERAL, line no: 605, 1.76, 0.76, 1.0, 0.5
+fromIndex,SIMPLE_NAME, line no: 411,~this.word.get() & (WORD_MASK << fromIndex),INFIX_EXPRESSION, line no: 377, 1.74, 0.74, 1.0, 0.20930232558139536
+fromIndex,SIMPLE_NAME, line no: 411,6 * numBits + 2,INFIX_EXPRESSION, line no: 605, 1.74, 0.74, 1.0, 0.06666666666666667
+64,NUMBER_LITERAL, line no: 411,i,SIMPLE_NAME, line no: 110, 1.74, 0.48, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,~this.word.get() & (WORD_MASK << fromIndex),INFIX_EXPRESSION, line no: 377, 1.74, 0.74, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,numBits,SIMPLE_NAME, line no: 604, 1.74, 0.7, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,6 * numBits,INFIX_EXPRESSION, line no: 605, 1.74, 0.74, 1.0, 0.09090909090909091
+64,NUMBER_LITERAL, line no: 411,2,NUMBER_LITERAL, line no: 605, 1.74, 0.74, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,nextSetBit,SIMPLE_NAME, line no: 110, 1.72, 0.5, 1.0, 0.3
+fromIndex,SIMPLE_NAME, line no: 411,nextSetBit(0),METHOD_INVOCATION, line no: 608, 1.72, 0.72, 1.0, 0.23076923076923078
+64,NUMBER_LITERAL, line no: 411,6 * numBits + 2,INFIX_EXPRESSION, line no: 605, 1.72, 0.72, 1.0, 0.06666666666666667
+64,NUMBER_LITERAL, line no: 411,nextSetBit,SIMPLE_NAME, line no: 110, 1.7, 0.48, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,nextSetBit(0),METHOD_INVOCATION, line no: 608, 1.7, 0.7, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,firstWordMask,SIMPLE_NAME, line no: 163, 1.6400000000000001, 0.52, 1.0, 0.3076923076923077
+fromIndex,SIMPLE_NAME, line no: 411,lastWordMask,SIMPLE_NAME, line no: 164, 1.6400000000000001, 0.52, 1.0, 0.16666666666666666
+fromIndex,SIMPLE_NAME, line no: 411,firstWordMask & lastWordMask,INFIX_EXPRESSION, line no: 166, 1.6400000000000001, 0.56, 1.0, 0.14285714285714285
+fromIndex,SIMPLE_NAME, line no: 411,(firstWordMask & lastWordMask),PARENTHESIZED_EXPRESSION, line no: 166, 1.62, 0.54, 1.0, 0.13333333333333333
+64,NUMBER_LITERAL, line no: 411,firstWordMask,SIMPLE_NAME, line no: 163, 1.62, 0.5, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,lastWordMask,SIMPLE_NAME, line no: 164, 1.62, 0.5, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,firstWordMask & lastWordMask,INFIX_EXPRESSION, line no: 166, 1.62, 0.54, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,toIndex,SIMPLE_NAME, line no: 120, 1.6, 0.02, 1.0, 0.6666666666666666
+fromIndex,SIMPLE_NAME, line no: 411,-toIndex,PREFIX_EXPRESSION, line no: 164, 1.6, 0.56, 1.0, 0.6666666666666666
+fromIndex,SIMPLE_NAME, line no: 411,~(firstWordMask & lastWordMask),PREFIX_EXPRESSION, line no: 276, 1.6, 0.6, 1.0, 0.12903225806451613
+64,NUMBER_LITERAL, line no: 411,(firstWordMask & lastWordMask),PARENTHESIZED_EXPRESSION, line no: 166, 1.6, 0.52, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,word.get(),METHOD_INVOCATION, line no: 141, 1.58, 0.44, 1.0, 0.3
+fromIndex,SIMPLE_NAME, line no: 411,WORD_MASK >>> -toIndex,INFIX_EXPRESSION, line no: 164, 1.58, 0.54, 1.0, 0.2727272727272727
+fromIndex,SIMPLE_NAME, line no: 411,word.get() & ~(firstWordMask & lastWordMask),INFIX_EXPRESSION, line no: 276, 1.58, 0.58, 1.0, 0.09090909090909091
+64,NUMBER_LITERAL, line no: 411,toIndex,SIMPLE_NAME, line no: 120, 1.58, 0.02, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,-toIndex,PREFIX_EXPRESSION, line no: 164, 1.58, 0.54, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,~(firstWordMask & lastWordMask),PREFIX_EXPRESSION, line no: 276, 1.58, 0.58, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,i + 1,INFIX_EXPRESSION, line no: 110, 1.56, 0.52, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,word.get() | (firstWordMask & lastWordMask),INFIX_EXPRESSION, line no: 219, 1.56, 0.56, 1.0, 0.09302325581395349
+64,NUMBER_LITERAL, line no: 411,word.get(),METHOD_INVOCATION, line no: 141, 1.56, 0.44, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,WORD_MASK >>> -toIndex,INFIX_EXPRESSION, line no: 164, 1.56, 0.52, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,word.get() & ~(firstWordMask & lastWordMask),INFIX_EXPRESSION, line no: 276, 1.56, 0.56, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,i=nextSetBit(i + 1),ASSIGNMENT, line no: 611, 1.54, 0.54, 1.0, 0.15789473684210525
+fromIndex,SIMPLE_NAME, line no: 411,nextSetBit(i + 1),METHOD_INVOCATION, line no: 611, 1.54, 0.54, 1.0, 0.17647058823529413
+64,NUMBER_LITERAL, line no: 411,i + 1,INFIX_EXPRESSION, line no: 110, 1.54, 0.5, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,word.get() | (firstWordMask & lastWordMask),INFIX_EXPRESSION, line no: 219, 1.54, 0.54, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,nbits,SIMPLE_NAME, line no: 82, 1.52, 0.02, 1.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,tmp,SIMPLE_NAME, line no: 141, 1.52, 0.44, 1.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,tmp^=(firstWordMask & lastWordMask),ASSIGNMENT, line no: 166, 1.52, 0.52, 1.0, 0.11428571428571428
+64,NUMBER_LITERAL, line no: 411,nbits,SIMPLE_NAME, line no: 82, 1.52, 0.02, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,i=nextSetBit(i + 1),ASSIGNMENT, line no: 611, 1.52, 0.52, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,nextSetBit(i + 1),METHOD_INVOCATION, line no: 611, 1.52, 0.52, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,this.size(),METHOD_INVOCATION, line no: 109, 1.5, 0.5, 1.0, 0.09090909090909091
+fromIndex,SIMPLE_NAME, line no: 411,size,SIMPLE_NAME, line no: 109, 1.5, 0.5, 1.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,int i=this.nextSetBit(0),VARIABLE_DECLARATION_EXPRESSION, line no: 110, 1.5, 0.5, 1.0, 0.125
+fromIndex,SIMPLE_NAME, line no: 411,this.nextSetBit(0),METHOD_INVOCATION, line no: 110, 1.5, 0.5, 1.0, 0.16666666666666666
+fromIndex,SIMPLE_NAME, line no: 411,i=this.nextSetBit(i + 1),ASSIGNMENT, line no: 110, 1.5, 0.5, 1.0, 0.125
+fromIndex,SIMPLE_NAME, line no: 411,this.nextSetBit(i + 1),METHOD_INVOCATION, line no: 110, 1.5, 0.5, 1.0, 0.13636363636363635
+fromIndex,SIMPLE_NAME, line no: 411,bitIndex,SIMPLE_NAME, line no: 137, 1.5, 0.02, 1.0, 0.5555555555555556
+64,NUMBER_LITERAL, line no: 411,bitIndex,SIMPLE_NAME, line no: 137, 1.5, 0.02, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,tmp,SIMPLE_NAME, line no: 141, 1.5, 0.44, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,tmp^=(firstWordMask & lastWordMask),ASSIGNMENT, line no: 166, 1.5, 0.5, 1.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,true,BOOLEAN_LITERAL, line no: 110, 1.489795918367347, 0.4897959183673469, 1.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,"fromIndex < 0: " + fromIndex,INFIX_EXPRESSION, line no: 122, 1.489795918367347, 0.4897959183673469, 1.0, 0.3793103448275862
+fromIndex,SIMPLE_NAME, line no: 411,1 << bitIndex,INFIX_EXPRESSION, line no: 142, 1.48, 0.46, 1.0, 0.38461538461538464
+64,NUMBER_LITERAL, line no: 411,this.size(),METHOD_INVOCATION, line no: 109, 1.48, 0.48, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,size,SIMPLE_NAME, line no: 109, 1.48, 0.48, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,int i=this.nextSetBit(0),VARIABLE_DECLARATION_EXPRESSION, line no: 110, 1.48, 0.48, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,this.nextSetBit(0),METHOD_INVOCATION, line no: 110, 1.48, 0.48, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,i=this.nextSetBit(i + 1),ASSIGNMENT, line no: 110, 1.48, 0.48, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,this.nextSetBit(i + 1),METHOD_INVOCATION, line no: 110, 1.48, 0.48, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,1 << bitIndex,INFIX_EXPRESSION, line no: 142, 1.48, 0.46, 1.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,(WORD_MASK >>> -(fromIndex + 1)),PARENTHESIZED_EXPRESSION, line no: 414, 1.4795918367346939, 0.9795918367346939, 0.5, 0.34375
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,WORD_MASK >>> -(fromIndex + 1),INFIX_EXPRESSION, line no: 414, 1.4795918367346939, 0.9795918367346939, 0.5, 0.36666666666666664
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,new IndexOutOfBoundsException("fromIndex < 0: " + fromIndex),CLASS_INSTANCE_CREATION, line no: 122, 1.469387755102041, 0.46938775510204084, 1.0, 0.18333333333333332
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,false,BOOLEAN_LITERAL, line no: 579, 1.469387755102041, 0.46938775510204084, 1.0, 0.13333333333333333
+fromIndex,SIMPLE_NAME, line no: 411,newLength,SIMPLE_NAME, line no: 94, 1.46, 0.02, 1.0, 0.2222222222222222
+fromIndex,SIMPLE_NAME, line no: 411,Math.min(original.length newLength),METHOD_INVOCATION, line no: 104, 1.46, 0.46, 1.0, 0.08571428571428572
+fromIndex,SIMPLE_NAME, line no: 411,min,SIMPLE_NAME, line no: 104, 1.46, 0.46, 1.0, 0.2222222222222222
+fromIndex,SIMPLE_NAME, line no: 411,original.length,QUALIFIED_NAME, line no: 104, 1.46, 0.46, 1.0, 0.2
+fromIndex,SIMPLE_NAME, line no: 411,(1 << bitIndex),PARENTHESIZED_EXPRESSION, line no: 142, 1.46, 0.44, 1.0, 0.3333333333333333
+64,NUMBER_LITERAL, line no: 411,(1 << bitIndex),PARENTHESIZED_EXPRESSION, line no: 142, 1.46, 0.44, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,~(1 << bitIndex),PREFIX_EXPRESSION, line no: 253, 1.44, 0.44, 1.0, 0.3125
+64,NUMBER_LITERAL, line no: 411,newLength,SIMPLE_NAME, line no: 94, 1.44, 0.02, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,Math.min(original.length newLength),METHOD_INVOCATION, line no: 104, 1.44, 0.44, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,min,SIMPLE_NAME, line no: 104, 1.44, 0.44, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,original.length,QUALIFIED_NAME, line no: 104, 1.44, 0.44, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,~(1 << bitIndex),PREFIX_EXPRESSION, line no: 253, 1.44, 0.44, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,tmp^=(1 << bitIndex),ASSIGNMENT, line no: 142, 1.42, 0.42, 1.0, 0.3
+fromIndex,SIMPLE_NAME, line no: 411,word.get() & ~(1 << bitIndex),INFIX_EXPRESSION, line no: 253, 1.42, 0.42, 1.0, 0.20689655172413793
+64,NUMBER_LITERAL, line no: 411,tmp^=(1 << bitIndex),ASSIGNMENT, line no: 142, 1.42, 0.42, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,word.get() & ~(1 << bitIndex),INFIX_EXPRESSION, line no: 253, 1.42, 0.42, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,word.get() | (1 << bitIndex),INFIX_EXPRESSION, line no: 181, 1.4, 0.4, 1.0, 0.21428571428571427
+fromIndex,SIMPLE_NAME, line no: 411,word.get() & (1 << bitIndex),INFIX_EXPRESSION, line no: 304, 1.4, 0.4, 1.0, 0.21428571428571427
+64,NUMBER_LITERAL, line no: 411,word.get() | (1 << bitIndex),INFIX_EXPRESSION, line no: 181, 1.4, 0.4, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,word.get() & (1 << bitIndex),INFIX_EXPRESSION, line no: 304, 1.4, 0.4, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,(word.get() & (1 << bitIndex)),PARENTHESIZED_EXPRESSION, line no: 304, 1.38, 0.38, 1.0, 0.2
+fromIndex,SIMPLE_NAME, line no: 411,h,SIMPLE_NAME, line no: 561, 1.38, 0.3, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,16,NUMBER_LITERAL, line no: 563, 1.38, 0.38, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,(word.get() & (1 << bitIndex)),PARENTHESIZED_EXPRESSION, line no: 304, 1.38, 0.38, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,h,SIMPLE_NAME, line no: 561, 1.38, 0.3, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,16,NUMBER_LITERAL, line no: 563, 1.38, 0.38, 1.0, 0.5
+fromIndex,SIMPLE_NAME, line no: 411,h >> 16,INFIX_EXPRESSION, line no: 563, 1.3599999999999999, 0.36, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,endOfRun,SIMPLE_NAME, line no: 612, 1.3599999999999999, 0.34, 1.0, 0.2222222222222222
+fromIndex,SIMPLE_NAME, line no: 411,++i,PREFIX_EXPRESSION, line no: 616, 1.3599999999999999, 0.36, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,h >> 16,INFIX_EXPRESSION, line no: 563, 1.3599999999999999, 0.36, 1.0, 0.14285714285714285
+64,NUMBER_LITERAL, line no: 411,endOfRun,SIMPLE_NAME, line no: 612, 1.3599999999999999, 0.34, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,++i,PREFIX_EXPRESSION, line no: 616, 1.3599999999999999, 0.36, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,nextClearBit,SIMPLE_NAME, line no: 367, 1.34, 0.02, 1.0, 0.25
+fromIndex,SIMPLE_NAME, line no: 411,(h >> 16),PARENTHESIZED_EXPRESSION, line no: 563, 1.34, 0.34, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,nextClearBit,SIMPLE_NAME, line no: 367, 1.34, 0.02, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,(h >> 16),PARENTHESIZED_EXPRESSION, line no: 563, 1.34, 0.34, 1.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,(h >> 16) ^ h,INFIX_EXPRESSION, line no: 563, 1.32, 0.32, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,nextClearBit(i),METHOD_INVOCATION, line no: 612, 1.32, 0.32, 1.0, 0.2
+64,NUMBER_LITERAL, line no: 411,(h >> 16) ^ h,INFIX_EXPRESSION, line no: 563, 1.32, 0.32, 1.0, 0.07692307692307693
+64,NUMBER_LITERAL, line no: 411,nextClearBit(i),METHOD_INVOCATION, line no: 612, 1.32, 0.32, 1.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,WORD_MASK << fromIndex,INFIX_EXPRESSION, line no: 163, 1.316326530612245, 0.5306122448979592, 0.5, 0.4090909090909091
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,this.word.get() & (WORD_MASK >>> -(fromIndex + 1)),INFIX_EXPRESSION, line no: 414, 1.3129251700680271, 0.9795918367346939, 0.3333333333333333, 0.22
+fromIndex,SIMPLE_NAME, line no: 411,1234,NUMBER_LITERAL, line no: 561, 1.3, 0.3, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,1234,NUMBER_LITERAL, line no: 561, 1.3, 0.3, 1.0, 0.25
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,(WORD_MASK << fromIndex),PARENTHESIZED_EXPRESSION, line no: 350, 1.2959183673469388, 0.7959183673469388, 0.5, 0.375
+fromIndex,SIMPLE_NAME, line no: 411,Integer.numberOfLeadingZeros(word.get()),METHOD_INVOCATION, line no: 464, 1.28, 0.28, 1.0, 0.125
+fromIndex,SIMPLE_NAME, line no: 411,h^=word.get(),ASSIGNMENT, line no: 562, 1.28, 0.28, 1.0, 0.23076923076923078
+64,NUMBER_LITERAL, line no: 411,Integer.numberOfLeadingZeros(word.get()),METHOD_INVOCATION, line no: 464, 1.28, 0.28, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,h^=word.get(),ASSIGNMENT, line no: 562, 1.28, 0.28, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,BITS_PER_WORD - Integer.numberOfLeadingZeros(word.get()),INFIX_EXPRESSION, line no: 464, 1.26, 0.26, 1.0, 0.08928571428571429
+64,NUMBER_LITERAL, line no: 411,BITS_PER_WORD - Integer.numberOfLeadingZeros(word.get()),INFIX_EXPRESSION, line no: 464, 1.26, 0.26, 1.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,~this.word.get() & (WORD_MASK >>> -(fromIndex + 1)),INFIX_EXPRESSION, line no: 443, 1.251700680272109, 0.9183673469387755, 0.3333333333333333, 0.21568627450980393
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,value,SIMPLE_NAME, line no: 193, 1.2448979591836735, 0.02040816326530612, 1.0, 0.06666666666666667
+fromIndex,SIMPLE_NAME, line no: 411,(BITS_PER_WORD - Integer.numberOfLeadingZeros(word.get())),PARENTHESIZED_EXPRESSION, line no: 464, 1.24, 0.24, 1.0, 0.08620689655172414
+64,NUMBER_LITERAL, line no: 411,(BITS_PER_WORD - Integer.numberOfLeadingZeros(word.get())),PARENTHESIZED_EXPRESSION, line no: 464, 1.24, 0.24, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,bitCount,SIMPLE_NAME, line no: 487, 1.2, 0.2, 1.0, 0.2222222222222222
+64,NUMBER_LITERAL, line no: 411,bitCount,SIMPLE_NAME, line no: 487, 1.2, 0.2, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,Integer.bitCount(word.get()),METHOD_INVOCATION, line no: 487, 1.18, 0.18, 1.0, 0.17857142857142858
+64,NUMBER_LITERAL, line no: 411,Integer.bitCount(word.get()),METHOD_INVOCATION, line no: 487, 1.18, 0.18, 1.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,this.word.get() & (WORD_MASK << fromIndex),INFIX_EXPRESSION, line no: 350, 1.1088435374149659, 0.7755102040816326, 0.3333333333333333, 0.21428571428571427
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,fromIndex == toIndex,INFIX_EXPRESSION, line no: 161, 1.0918367346938775, 0.5510204081632653, 0.5, 0.6
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,~this.word.get() & (WORD_MASK << fromIndex),INFIX_EXPRESSION, line no: 377, 1.0884353741496597, 0.7551020408163265, 0.3333333333333333, 0.20930232558139536
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,fromIndex=0,ASSIGNMENT, line no: 344, 1.0612244897959184, 0.061224489795918366, 1.0, 0.6666666666666666
+fromIndex,SIMPLE_NAME, line no: 411,fromIndex=0,ASSIGNMENT, line no: 344, 1.06, 0.06, 1.0, 0.8181818181818182
+64,NUMBER_LITERAL, line no: 411,fromIndex=0,ASSIGNMENT, line no: 344, 1.06, 0.06, 1.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,checkRange(fromIndex toIndex),METHOD_INVOCATION, line no: 159, 1.0510204081632653, 0.5102040816326531, 0.5, 0.3103448275862069
+fromIndex,SIMPLE_NAME, line no: 411,ADDRESS_BITS_PER_WORD,SIMPLE_NAME, line no: 45, 1.04, 0.02, 1.0, 0.047619047619047616
+64,NUMBER_LITERAL, line no: 411,ADDRESS_BITS_PER_WORD,SIMPLE_NAME, line no: 45, 1.04, 0.02, 1.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,get,SIMPLE_NAME, line no: 141, 1.0204081632653061, 0.46938775510204084, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,isEmpty,SIMPLE_NAME, line no: 474, 1.0204081632653061, 0.02040816326530612, 1.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,intersects,SIMPLE_NAME, line no: 556, 1.0204081632653061, 0.02040816326530612, 1.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,equals,SIMPLE_NAME, line no: 577, 1.0204081632653061, 0.02040816326530612, 1.0, 0.06666666666666667
+fromIndex,SIMPLE_NAME, line no: 411,5,NUMBER_LITERAL, line no: 45, 1.02, 0.02, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,1 << ADDRESS_BITS_PER_WORD,INFIX_EXPRESSION, line no: 46, 1.02, 0.02, 1.0, 0.038461538461538464
+fromIndex,SIMPLE_NAME, line no: 411,BIT_INDEX_MASK,SIMPLE_NAME, line no: 47, 1.02, 0.02, 1.0, 0.07142857142857142
+fromIndex,SIMPLE_NAME, line no: 411,BITS_PER_WORD - 1,INFIX_EXPRESSION, line no: 47, 1.02, 0.02, 1.0, 0.058823529411764705
+fromIndex,SIMPLE_NAME, line no: 411,0xffffffff,NUMBER_LITERAL, line no: 50, 1.02, 0.02, 1.0, 0.1
+fromIndex,SIMPLE_NAME, line no: 411,prevSetBit,SIMPLE_NAME, line no: 406, 1.02, 0.02, 1.0, 0.2
+fromIndex,SIMPLE_NAME, line no: 411,prevClearBit,SIMPLE_NAME, line no: 435, 1.02, 0.02, 1.0, 0.16666666666666666
+fromIndex,SIMPLE_NAME, line no: 411,capacity,SIMPLE_NAME, line no: 451, 1.02, 0.02, 1.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,cardinality,SIMPLE_NAME, line no: 486, 1.02, 0.02, 1.0, 0.18181818181818182
+fromIndex,SIMPLE_NAME, line no: 411,hashCode,SIMPLE_NAME, line no: 560, 1.02, 0.02, 1.0, 0.3333333333333333
+64,NUMBER_LITERAL, line no: 411,5,NUMBER_LITERAL, line no: 45, 1.02, 0.02, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,1 << ADDRESS_BITS_PER_WORD,INFIX_EXPRESSION, line no: 46, 1.02, 0.02, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,BIT_INDEX_MASK,SIMPLE_NAME, line no: 47, 1.02, 0.02, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,BITS_PER_WORD - 1,INFIX_EXPRESSION, line no: 47, 1.02, 0.02, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,0xffffffff,NUMBER_LITERAL, line no: 50, 1.02, 0.02, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,prevSetBit,SIMPLE_NAME, line no: 406, 1.02, 0.02, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,prevClearBit,SIMPLE_NAME, line no: 435, 1.02, 0.02, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,capacity,SIMPLE_NAME, line no: 451, 1.02, 0.02, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,cardinality,SIMPLE_NAME, line no: 486, 1.02, 0.02, 1.0, 0.0
+64,NUMBER_LITERAL, line no: 411,hashCode,SIMPLE_NAME, line no: 560, 1.02, 0.02, 1.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,BITS_PER_WORD,SIMPLE_NAME, line no: 46, 1.0, 0.02040816326530612, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,1,NUMBER_LITERAL, line no: 46, 1.0, 0.04081632653061224, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,word,SIMPLE_NAME, line no: 60, 1.0, 0.02040816326530612, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,0,NUMBER_LITERAL, line no: 69, 1.0, 0.22448979591836735, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,length,SIMPLE_NAME, line no: 104, 1.0, 0.4489795918367347, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,fromIndex,SIMPLE_NAME, line no: 120, 1.0, 0.02040816326530612, 0.0, 0.6
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,word != 0,INFIX_EXPRESSION, line no: 352, 1.0, 0.7959183673469388, 0.0, 0.3333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,Integer,SIMPLE_NAME, line no: 353, 1.0, 0.8367346938775511, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,64,NUMBER_LITERAL, line no: 374, 1.0, 0.7959183673469388, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,length() - 1,INFIX_EXPRESSION, line no: 412, 1.0, 1.0, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,length(),METHOD_INVOCATION, line no: 412, 1.0, 1.0, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,BITS_PER_WORD - 1 - Integer.numberOfLeadingZeros(word),INFIX_EXPRESSION, line no: 417, 1.0, 1.0, 0.0, 0.07407407407407407
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,Integer.numberOfLeadingZeros(word),METHOD_INVOCATION, line no: 417, 1.0, 1.0, 0.0, 0.11764705882352941
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,numberOfLeadingZeros,SIMPLE_NAME, line no: 417, 1.0, 1.0, 0.0, 0.15
+fromIndex,SIMPLE_NAME, line no: 411,Integer,SIMPLE_NAME, line no: 353, 1.0, 0.82, 0.0, 0.3333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,fromIndex > toIndex,INFIX_EXPRESSION, line no: 125, 0.9897959183673469, 0.4897959183673469, 0.5, 0.631578947368421
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,"fromIndex: " + fromIndex + " > toIndex: "+ toIndex,INFIX_EXPRESSION, line no: 126, 0.9897959183673469, 0.4897959183673469, 0.5, 0.23529411764705882
+fromIndex,SIMPLE_NAME, line no: 411,fromIndex < 0,INFIX_EXPRESSION, line no: 121, 0.98, 0.48, 0.0, 0.6923076923076923
+fromIndex,SIMPLE_NAME, line no: 411,word != 0,INFIX_EXPRESSION, line no: 352, 0.98, 0.78, 0.0, 0.2222222222222222
+fromIndex,SIMPLE_NAME, line no: 411,fromIndex >= 64,INFIX_EXPRESSION, line no: 374, 0.98, 0.76, 0.0, 0.6
+64,NUMBER_LITERAL, line no: 411,fromIndex < 0,INFIX_EXPRESSION, line no: 121, 0.98, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,word != 0,INFIX_EXPRESSION, line no: 352, 0.98, 0.78, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,Integer,SIMPLE_NAME, line no: 353, 0.98, 0.82, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,fromIndex >= 64,INFIX_EXPRESSION, line no: 374, 0.98, 0.76, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,WORD_MASK,SIMPLE_NAME, line no: 50, 0.9795918367346939, 0.02040816326530612, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,this,THIS_EXPRESSION, line no: 68, 0.9795918367346939, 0.1836734693877551, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,-1,PREFIX_EXPRESSION, line no: 348, 0.9795918367346939, 0.8163265306122449, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,this.word.get(),METHOD_INVOCATION, line no: 350, 0.9795918367346939, 0.7959183673469388, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,this.word,FIELD_ACCESS, line no: 350, 0.9795918367346939, 0.7959183673469388, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,new IndexOutOfBoundsException("fromIndex: " + fromIndex + " > toIndex: "+ toIndex),CLASS_INSTANCE_CREATION, line no: 126, 0.9693877551020409, 0.46938775510204084, 0.5, 0.14634146341463414
+fromIndex,SIMPLE_NAME, line no: 411,this,THIS_EXPRESSION, line no: 68, 0.96, 0.18, 0.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,this.word,FIELD_ACCESS, line no: 350, 0.96, 0.78, 0.0, 0.2222222222222222
+64,NUMBER_LITERAL, line no: 411,this,THIS_EXPRESSION, line no: 68, 0.96, 0.18, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,this.word,FIELD_ACCESS, line no: 350, 0.96, 0.78, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,~this.word.get(),PREFIX_EXPRESSION, line no: 377, 0.9183673469387755, 0.7755102040816326, 0.0, 0.1875
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,numberOfTrailingZeros,SIMPLE_NAME, line no: 353, 0.8367346938775511, 0.8367346938775511, 0.0, 0.19047619047619047
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,32,NUMBER_LITERAL, line no: 87, 0.8163265306122449, 0.5306122448979592, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,Integer.numberOfTrailingZeros(word),METHOD_INVOCATION, line no: 353, 0.8163265306122449, 0.8163265306122449, 0.0, 0.11428571428571428
+fromIndex,SIMPLE_NAME, line no: 411,fromIndex >= 32,INFIX_EXPRESSION, line no: 347, 0.78, 0.78, 0.0, 0.6
+64,NUMBER_LITERAL, line no: 411,fromIndex >= 32,INFIX_EXPRESSION, line no: 347, 0.78, 0.78, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,6,NUMBER_LITERAL, line no: 605, 0.7755102040816326, 0.7755102040816326, 0.0, 0.06666666666666667
+fromIndex,SIMPLE_NAME, line no: 411,i != -1,INFIX_EXPRESSION, line no: 609, 0.76, 0.76, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,i,SIMPLE_NAME, line no: 110, 0.7551020408163265, 0.4897959183673469, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,numBits,SIMPLE_NAME, line no: 604, 0.7551020408163265, 0.7142857142857143, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,6 * numBits,INFIX_EXPRESSION, line no: 605, 0.7551020408163265, 0.7551020408163265, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,2,NUMBER_LITERAL, line no: 605, 0.7551020408163265, 0.7551020408163265, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,i != -1,INFIX_EXPRESSION, line no: 609, 0.7551020408163265, 0.7551020408163265, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,set(fromIndex toIndex),METHOD_INVOCATION, line no: 237, 0.7448979591836735, 0.24489795918367346, 0.5, 0.4090909090909091
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,clear(fromIndex toIndex),METHOD_INVOCATION, line no: 239, 0.7448979591836735, 0.24489795918367346, 0.5, 0.375
+fromIndex,SIMPLE_NAME, line no: 411,toString,SIMPLE_NAME, line no: 601, 0.74, 0.02, 0.0, 0.2222222222222222
+fromIndex,SIMPLE_NAME, line no: 411,b,SIMPLE_NAME, line no: 605, 0.74, 0.72, 0.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,b.toString(),METHOD_INVOCATION, line no: 621, 0.74, 0.74, 0.0, 0.16666666666666666
+64,NUMBER_LITERAL, line no: 411,i != -1,INFIX_EXPRESSION, line no: 609, 0.74, 0.74, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,toString,SIMPLE_NAME, line no: 601, 0.7346938775510204, 0.02040816326530612, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,b,SIMPLE_NAME, line no: 605, 0.7346938775510204, 0.7142857142857143, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,6 * numBits + 2,INFIX_EXPRESSION, line no: 605, 0.7346938775510204, 0.7346938775510204, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,b.toString(),METHOD_INVOCATION, line no: 621, 0.7346938775510204, 0.7346938775510204, 0.0, 0.13333333333333333
+fromIndex,SIMPLE_NAME, line no: 411,StringBuilder,SIMPLE_NAME, line no: 605, 0.72, 0.72, 0.0, 0.3076923076923077
+fromIndex,SIMPLE_NAME, line no: 411,new StringBuilder(6 * numBits + 2),CLASS_INSTANCE_CREATION, line no: 605, 0.72, 0.72, 0.0, 0.11764705882352941
+fromIndex,SIMPLE_NAME, line no: 411,b.append('{'),METHOD_INVOCATION, line no: 606, 0.72, 0.72, 0.0, 0.15384615384615385
+fromIndex,SIMPLE_NAME, line no: 411,append,SIMPLE_NAME, line no: 606, 0.72, 0.72, 0.0, 0.2222222222222222
+fromIndex,SIMPLE_NAME, line no: 411,'{',CHARACTER_LITERAL, line no: 606, 0.72, 0.72, 0.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,b.append('}'),METHOD_INVOCATION, line no: 620, 0.72, 0.72, 0.0, 0.15384615384615385
+fromIndex,SIMPLE_NAME, line no: 411,'}',CHARACTER_LITERAL, line no: 620, 0.72, 0.72, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,toString,SIMPLE_NAME, line no: 601, 0.72, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,b,SIMPLE_NAME, line no: 605, 0.72, 0.7, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,b.toString(),METHOD_INVOCATION, line no: 621, 0.72, 0.72, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,nextSetBit,SIMPLE_NAME, line no: 110, 0.7142857142857143, 0.4897959183673469, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,StringBuilder,SIMPLE_NAME, line no: 605, 0.7142857142857143, 0.7142857142857143, 0.0, 0.26666666666666666
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,new StringBuilder(6 * numBits + 2),CLASS_INSTANCE_CREATION, line no: 605, 0.7142857142857143, 0.7142857142857143, 0.0, 0.17647058823529413
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,b.append('{'),METHOD_INVOCATION, line no: 606, 0.7142857142857143, 0.7142857142857143, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,append,SIMPLE_NAME, line no: 606, 0.7142857142857143, 0.7142857142857143, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,'{',CHARACTER_LITERAL, line no: 606, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,nextSetBit(0),METHOD_INVOCATION, line no: 608, 0.7142857142857143, 0.7142857142857143, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,b.append('}'),METHOD_INVOCATION, line no: 620, 0.7142857142857143, 0.7142857142857143, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,'}',CHARACTER_LITERAL, line no: 620, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,StringBuilder,SIMPLE_NAME, line no: 605, 0.7, 0.7, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,new StringBuilder(6 * numBits + 2),CLASS_INSTANCE_CREATION, line no: 605, 0.7, 0.7, 0.0, 0.029411764705882353
+64,NUMBER_LITERAL, line no: 411,b.append('{'),METHOD_INVOCATION, line no: 606, 0.7, 0.7, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,append,SIMPLE_NAME, line no: 606, 0.7, 0.7, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,'{',CHARACTER_LITERAL, line no: 606, 0.7, 0.7, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,b.append('}'),METHOD_INVOCATION, line no: 620, 0.7, 0.7, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,'}',CHARACTER_LITERAL, line no: 620, 0.7, 0.7, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,firstWordMask,SIMPLE_NAME, line no: 163, 0.6326530612244898, 0.5102040816326531, 0.0, 0.26666666666666666
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,lastWordMask,SIMPLE_NAME, line no: 164, 0.6326530612244898, 0.5102040816326531, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,firstWordMask & lastWordMask,INFIX_EXPRESSION, line no: 166, 0.6326530612244898, 0.5510204081632653, 0.0, 0.21428571428571427
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,(firstWordMask & lastWordMask),PARENTHESIZED_EXPRESSION, line no: 166, 0.6122448979591837, 0.5306122448979592, 0.0, 0.2
+fromIndex,SIMPLE_NAME, line no: 411,fromIndex == toIndex,INFIX_EXPRESSION, line no: 161, 0.6, 0.56, 0.0, 0.45
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,toIndex,SIMPLE_NAME, line no: 120, 0.5918367346938775, 0.02040816326530612, 0.0, 0.4
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,-toIndex,PREFIX_EXPRESSION, line no: 164, 0.5918367346938775, 0.5510204081632653, 0.0, 0.4
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,~(firstWordMask & lastWordMask),PREFIX_EXPRESSION, line no: 276, 0.5918367346938775, 0.5918367346938775, 0.0, 0.1935483870967742
+64,NUMBER_LITERAL, line no: 411,fromIndex == toIndex,INFIX_EXPRESSION, line no: 161, 0.58, 0.54, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,word.get(),METHOD_INVOCATION, line no: 141, 0.5714285714285714, 0.4489795918367347, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,WORD_MASK >>> -toIndex,INFIX_EXPRESSION, line no: 164, 0.5714285714285714, 0.5306122448979592, 0.0, 0.2727272727272727
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,word.get() & ~(firstWordMask & lastWordMask),INFIX_EXPRESSION, line no: 276, 0.5714285714285714, 0.5714285714285714, 0.0, 0.13636363636363635
+fromIndex,SIMPLE_NAME, line no: 411,i >= 0,INFIX_EXPRESSION, line no: 110, 0.56, 0.52, 0.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,set,SIMPLE_NAME, line no: 110, 0.56, 0.5, 0.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,checkRange,SIMPLE_NAME, line no: 120, 0.56, 0.02, 0.0, 0.2
+fromIndex,SIMPLE_NAME, line no: 411,checkRange(fromIndex toIndex),METHOD_INVOCATION, line no: 159, 0.56, 0.52, 0.0, 0.3103448275862069
+fromIndex,SIMPLE_NAME, line no: 411,word.set(word.get() & ~(firstWordMask & lastWordMask)),METHOD_INVOCATION, line no: 276, 0.56, 0.56, 0.0, 0.07407407407407407
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,i >= 0,INFIX_EXPRESSION, line no: 110, 0.5510204081632653, 0.5102040816326531, 0.0, 0.26666666666666666
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,i + 1,INFIX_EXPRESSION, line no: 110, 0.5510204081632653, 0.5102040816326531, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,set,SIMPLE_NAME, line no: 110, 0.5510204081632653, 0.4897959183673469, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,checkRange,SIMPLE_NAME, line no: 120, 0.5510204081632653, 0.02040816326530612, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,word.get() | (firstWordMask & lastWordMask),INFIX_EXPRESSION, line no: 219, 0.5510204081632653, 0.5510204081632653, 0.0, 0.13953488372093023
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,word.set(word.get() & ~(firstWordMask & lastWordMask)),METHOD_INVOCATION, line no: 276, 0.5510204081632653, 0.5510204081632653, 0.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,word.set(word.get() | (firstWordMask & lastWordMask)),METHOD_INVOCATION, line no: 219, 0.54, 0.54, 0.0, 0.07547169811320754
+fromIndex,SIMPLE_NAME, line no: 411,b.append(i),METHOD_INVOCATION, line no: 610, 0.54, 0.54, 0.0, 0.18181818181818182
+64,NUMBER_LITERAL, line no: 411,i >= 0,INFIX_EXPRESSION, line no: 110, 0.54, 0.5, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,set,SIMPLE_NAME, line no: 110, 0.54, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,checkRange,SIMPLE_NAME, line no: 120, 0.54, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,checkRange(fromIndex toIndex),METHOD_INVOCATION, line no: 159, 0.54, 0.5, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,word.set(word.get() & ~(firstWordMask & lastWordMask)),METHOD_INVOCATION, line no: 276, 0.54, 0.54, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,nbits,SIMPLE_NAME, line no: 82, 0.5306122448979592, 0.02040816326530612, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,word.set(word.get() | (firstWordMask & lastWordMask)),METHOD_INVOCATION, line no: 219, 0.5306122448979592, 0.5306122448979592, 0.0, 0.11320754716981132
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,b.append(i),METHOD_INVOCATION, line no: 610, 0.5306122448979592, 0.5306122448979592, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,i=nextSetBit(i + 1),ASSIGNMENT, line no: 611, 0.5306122448979592, 0.5306122448979592, 0.0, 0.2631578947368421
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,nextSetBit(i + 1),METHOD_INVOCATION, line no: 611, 0.5306122448979592, 0.5306122448979592, 0.0, 0.29411764705882354
+fromIndex,SIMPLE_NAME, line no: 411,view,SIMPLE_NAME, line no: 109, 0.52, 0.5, 0.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,word.set(tmp),METHOD_INVOCATION, line no: 143, 0.52, 0.44, 0.0, 0.23076923076923078
+64,NUMBER_LITERAL, line no: 411,word.set(word.get() | (firstWordMask & lastWordMask)),METHOD_INVOCATION, line no: 219, 0.52, 0.52, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,b.append(i),METHOD_INVOCATION, line no: 610, 0.52, 0.52, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,OneWordS32BitSet,SIMPLE_NAME, line no: 38, 0.5102040816326531, 0.02040816326530612, 0.0, 0.1875
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,environment,SIMPLE_NAME, line no: 55, 0.5102040816326531, 0.02040816326530612, 0.0, 0.26666666666666666
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,makeInt,SIMPLE_NAME, line no: 69, 0.5102040816326531, 0.22448979591836735, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,nbits < 0,INFIX_EXPRESSION, line no: 85, 0.5102040816326531, 0.5102040816326531, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,NegativeArraySizeException,SIMPLE_NAME, line no: 86, 0.5102040816326531, 0.5102040816326531, 0.0, 0.11538461538461539
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,"nbits < 0: " + nbits,INFIX_EXPRESSION, line no: 86, 0.5102040816326531, 0.5102040816326531, 0.0, 0.14285714285714285
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,"nbits < 0: ",STRING_LITERAL, line no: 86, 0.5102040816326531, 0.5102040816326531, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,nbits > 32,INFIX_EXPRESSION, line no: 87, 0.5102040816326531, 0.5102040816326531, 0.0, 0.26666666666666666
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,ArrayIndexOutOfBoundsException,SIMPLE_NAME, line no: 88, 0.5102040816326531, 0.5102040816326531, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,"nbits > 32: " + nbits,INFIX_EXPRESSION, line no: 88, 0.5102040816326531, 0.5102040816326531, 0.0, 0.18181818181818182
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,"nbits > 32: ",STRING_LITERAL, line no: 88, 0.5102040816326531, 0.5102040816326531, 0.0, 0.26666666666666666
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,view,SIMPLE_NAME, line no: 109, 0.5102040816326531, 0.4897959183673469, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,bitIndex,SIMPLE_NAME, line no: 137, 0.5102040816326531, 0.02040816326530612, 0.0, 0.3333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,tmp,SIMPLE_NAME, line no: 141, 0.5102040816326531, 0.4489795918367347, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,word.set(tmp),METHOD_INVOCATION, line no: 143, 0.5102040816326531, 0.4489795918367347, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,tmp^=(firstWordMask & lastWordMask),ASSIGNMENT, line no: 166, 0.5102040816326531, 0.5102040816326531, 0.0, 0.17142857142857143
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,obj,SIMPLE_NAME, line no: 577, 0.5102040816326531, 0.02040816326530612, 0.0, 0.06666666666666667
+fromIndex,SIMPLE_NAME, line no: 411,BitSet,SIMPLE_NAME, line no: 35, 0.5, 0.02, 0.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,OneWordS32BitSet,SIMPLE_NAME, line no: 38, 0.5, 0.02, 0.0, 0.1875
+fromIndex,SIMPLE_NAME, line no: 411,environment,SIMPLE_NAME, line no: 55, 0.5, 0.02, 0.0, 0.36363636363636365
+fromIndex,SIMPLE_NAME, line no: 411,makeInt,SIMPLE_NAME, line no: 69, 0.5, 0.22, 0.0, 0.3333333333333333
+fromIndex,SIMPLE_NAME, line no: 411,nbits < 0,INFIX_EXPRESSION, line no: 85, 0.5, 0.5, 0.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,NegativeArraySizeException,SIMPLE_NAME, line no: 86, 0.5, 0.5, 0.0, 0.11538461538461539
+fromIndex,SIMPLE_NAME, line no: 411,"nbits < 0: " + nbits,INFIX_EXPRESSION, line no: 86, 0.5, 0.5, 0.0, 0.047619047619047616
+fromIndex,SIMPLE_NAME, line no: 411,"nbits < 0: ",STRING_LITERAL, line no: 86, 0.5, 0.5, 0.0, 0.07692307692307693
+fromIndex,SIMPLE_NAME, line no: 411,nbits > 32,INFIX_EXPRESSION, line no: 87, 0.5, 0.5, 0.0, 0.1
+fromIndex,SIMPLE_NAME, line no: 411,ArrayIndexOutOfBoundsException,SIMPLE_NAME, line no: 88, 0.5, 0.5, 0.0, 0.2
+fromIndex,SIMPLE_NAME, line no: 411,"nbits > 32: " + nbits,INFIX_EXPRESSION, line no: 88, 0.5, 0.5, 0.0, 0.045454545454545456
+fromIndex,SIMPLE_NAME, line no: 411,"nbits > 32: ",STRING_LITERAL, line no: 88, 0.5, 0.5, 0.0, 0.07142857142857142
+fromIndex,SIMPLE_NAME, line no: 411,newType,SIMPLE_NAME, line no: 99, 0.5, 0.02, 0.0, 0.2222222222222222
+fromIndex,SIMPLE_NAME, line no: 411,(Object)newType == (Object)Object[].class,INFIX_EXPRESSION, line no: 100, 0.5, 0.5, 0.0, 0.04878048780487805
+fromIndex,SIMPLE_NAME, line no: 411,(Object)newType,CAST_EXPRESSION, line no: 100, 0.5, 0.5, 0.0, 0.13333333333333333
+fromIndex,SIMPLE_NAME, line no: 411,Object,SIMPLE_NAME, line no: 100, 0.5, 0.5, 0.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,(Object)Object[].class,CAST_EXPRESSION, line no: 100, 0.5, 0.5, 0.0, 0.045454545454545456
+fromIndex,SIMPLE_NAME, line no: 411,Object[].class,TYPE_LITERAL, line no: 100, 0.5, 0.5, 0.0, 0.07142857142857142
+fromIndex,SIMPLE_NAME, line no: 411,new BitSet(this.size()),CLASS_INSTANCE_CREATION, line no: 109, 0.5, 0.5, 0.0, 0.08695652173913043
+fromIndex,SIMPLE_NAME, line no: 411,view.set(i true),METHOD_INVOCATION, line no: 110, 0.5, 0.5, 0.0, 0.125
+fromIndex,SIMPLE_NAME, line no: 411,true,BOOLEAN_LITERAL, line no: 110, 0.5, 0.5, 0.0, 0.2222222222222222
+fromIndex,SIMPLE_NAME, line no: 411,obj,SIMPLE_NAME, line no: 577, 0.5, 0.02, 0.0, 0.1111111111111111
+64,NUMBER_LITERAL, line no: 411,OneWordS32BitSet,SIMPLE_NAME, line no: 38, 0.5, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,environment,SIMPLE_NAME, line no: 55, 0.5, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,makeInt,SIMPLE_NAME, line no: 69, 0.5, 0.22, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,nbits < 0,INFIX_EXPRESSION, line no: 85, 0.5, 0.5, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,NegativeArraySizeException,SIMPLE_NAME, line no: 86, 0.5, 0.5, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,"nbits < 0: " + nbits,INFIX_EXPRESSION, line no: 86, 0.5, 0.5, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,"nbits < 0: ",STRING_LITERAL, line no: 86, 0.5, 0.5, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,nbits > 32,INFIX_EXPRESSION, line no: 87, 0.5, 0.5, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,ArrayIndexOutOfBoundsException,SIMPLE_NAME, line no: 88, 0.5, 0.5, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,"nbits > 32: " + nbits,INFIX_EXPRESSION, line no: 88, 0.5, 0.5, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,"nbits > 32: ",STRING_LITERAL, line no: 88, 0.5, 0.5, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,view,SIMPLE_NAME, line no: 109, 0.5, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,word.set(tmp),METHOD_INVOCATION, line no: 143, 0.5, 0.44, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,obj,SIMPLE_NAME, line no: 577, 0.5, 0.02, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,BitSet,SIMPLE_NAME, line no: 35, 0.4897959183673469, 0.02040816326530612, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,this.environment,FIELD_ACCESS, line no: 68, 0.4897959183673469, 0.1836734693877551, 0.0, 0.25
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,this.environment.makeInt(0),METHOD_INVOCATION, line no: 69, 0.4897959183673469, 0.20408163265306123, 0.0, 0.18518518518518517
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,new NegativeArraySizeException("nbits < 0: " + nbits),CLASS_INSTANCE_CREATION, line no: 86, 0.4897959183673469, 0.4897959183673469, 0.0, 0.09433962264150944
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,new ArrayIndexOutOfBoundsException("nbits > 32: " + nbits),CLASS_INSTANCE_CREATION, line no: 88, 0.4897959183673469, 0.4897959183673469, 0.0, 0.15517241379310345
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,newType,SIMPLE_NAME, line no: 99, 0.4897959183673469, 0.02040816326530612, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,(Object)newType == (Object)Object[].class,INFIX_EXPRESSION, line no: 100, 0.4897959183673469, 0.4897959183673469, 0.0, 0.12195121951219512
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,(Object)newType,CAST_EXPRESSION, line no: 100, 0.4897959183673469, 0.4897959183673469, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,Object,SIMPLE_NAME, line no: 100, 0.4897959183673469, 0.4897959183673469, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,(Object)Object[].class,CAST_EXPRESSION, line no: 100, 0.4897959183673469, 0.4897959183673469, 0.0, 0.045454545454545456
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,Object[].class,TYPE_LITERAL, line no: 100, 0.4897959183673469, 0.4897959183673469, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,new BitSet(this.size()),CLASS_INSTANCE_CREATION, line no: 109, 0.4897959183673469, 0.4897959183673469, 0.0, 0.13043478260869565
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,this.size(),METHOD_INVOCATION, line no: 109, 0.4897959183673469, 0.4897959183673469, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,size,SIMPLE_NAME, line no: 109, 0.4897959183673469, 0.4897959183673469, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,int i=this.nextSetBit(0),VARIABLE_DECLARATION_EXPRESSION, line no: 110, 0.4897959183673469, 0.4897959183673469, 0.0, 0.125
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,this.nextSetBit(0),METHOD_INVOCATION, line no: 110, 0.4897959183673469, 0.4897959183673469, 0.0, 0.16666666666666666
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,i=this.nextSetBit(i + 1),ASSIGNMENT, line no: 110, 0.4897959183673469, 0.4897959183673469, 0.0, 0.20833333333333334
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,this.nextSetBit(i + 1),METHOD_INVOCATION, line no: 110, 0.4897959183673469, 0.4897959183673469, 0.0, 0.22727272727272727
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,view.set(i true),METHOD_INVOCATION, line no: 110, 0.4897959183673469, 0.4897959183673469, 0.0, 0.125
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,IndexOutOfBoundsException,SIMPLE_NAME, line no: 122, 0.4897959183673469, 0.4897959183673469, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,"fromIndex < 0: ",STRING_LITERAL, line no: 122, 0.4897959183673469, 0.4897959183673469, 0.0, 0.6470588235294118
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,toIndex < 0,INFIX_EXPRESSION, line no: 123, 0.4897959183673469, 0.4897959183673469, 0.0, 0.5333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,"toIndex < 0: " + toIndex,INFIX_EXPRESSION, line no: 124, 0.4897959183673469, 0.4897959183673469, 0.0, 0.32
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,"toIndex < 0: ",STRING_LITERAL, line no: 124, 0.4897959183673469, 0.4897959183673469, 0.0, 0.5333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,"fromIndex: ",STRING_LITERAL, line no: 126, 0.4897959183673469, 0.4897959183673469, 0.0, 0.6666666666666666
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411," > toIndex: ",STRING_LITERAL, line no: 126, 0.4897959183673469, 0.4897959183673469, 0.0, 0.4666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,1 << bitIndex,INFIX_EXPRESSION, line no: 142, 0.4897959183673469, 0.46938775510204084, 0.0, 0.3333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,(obj instanceof OneWordS32BitSet),PARENTHESIZED_EXPRESSION, line no: 578, 0.4897959183673469, 0.4897959183673469, 0.0, 0.12121212121212122
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,obj instanceof OneWordS32BitSet,INSTANCEOF_EXPRESSION, line no: 578, 0.4897959183673469, 0.4897959183673469, 0.0, 0.12903225806451613
+fromIndex,SIMPLE_NAME, line no: 411,this.environment,FIELD_ACCESS, line no: 68, 0.48, 0.18, 0.0, 0.25
+fromIndex,SIMPLE_NAME, line no: 411,this.environment.makeInt(0),METHOD_INVOCATION, line no: 69, 0.48, 0.2, 0.0, 0.18518518518518517
+fromIndex,SIMPLE_NAME, line no: 411,new NegativeArraySizeException("nbits < 0: " + nbits),CLASS_INSTANCE_CREATION, line no: 86, 0.48, 0.48, 0.0, 0.05660377358490566
+fromIndex,SIMPLE_NAME, line no: 411,new ArrayIndexOutOfBoundsException("nbits > 32: " + nbits),CLASS_INSTANCE_CREATION, line no: 88, 0.48, 0.48, 0.0, 0.10344827586206896
+fromIndex,SIMPLE_NAME, line no: 411,copy,SIMPLE_NAME, line no: 100, 0.48, 0.46, 0.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,((Object)newType == (Object)Object[].class),PARENTHESIZED_EXPRESSION, line no: 100, 0.48, 0.48, 0.0, 0.046511627906976744
+fromIndex,SIMPLE_NAME, line no: 411,IndexOutOfBoundsException,SIMPLE_NAME, line no: 122, 0.48, 0.48, 0.0, 0.2
+fromIndex,SIMPLE_NAME, line no: 411,"fromIndex < 0: " + fromIndex,INFIX_EXPRESSION, line no: 122, 0.48, 0.48, 0.0, 0.3103448275862069
+fromIndex,SIMPLE_NAME, line no: 411,"fromIndex < 0: ",STRING_LITERAL, line no: 122, 0.48, 0.48, 0.0, 0.5294117647058824
+fromIndex,SIMPLE_NAME, line no: 411,toIndex < 0,INFIX_EXPRESSION, line no: 123, 0.48, 0.48, 0.0, 0.5454545454545454
+fromIndex,SIMPLE_NAME, line no: 411,"toIndex < 0: " + toIndex,INFIX_EXPRESSION, line no: 124, 0.48, 0.48, 0.0, 0.24
+fromIndex,SIMPLE_NAME, line no: 411,"toIndex < 0: ",STRING_LITERAL, line no: 124, 0.48, 0.48, 0.0, 0.4
+fromIndex,SIMPLE_NAME, line no: 411,fromIndex > toIndex,INFIX_EXPRESSION, line no: 125, 0.48, 0.48, 0.0, 0.47368421052631576
+fromIndex,SIMPLE_NAME, line no: 411,"fromIndex: " + fromIndex + " > toIndex: "+ toIndex,INFIX_EXPRESSION, line no: 126, 0.48, 0.48, 0.0, 0.17647058823529413
+fromIndex,SIMPLE_NAME, line no: 411,"fromIndex: ",STRING_LITERAL, line no: 126, 0.48, 0.48, 0.0, 0.6923076923076923
+fromIndex,SIMPLE_NAME, line no: 411," > toIndex: ",STRING_LITERAL, line no: 126, 0.48, 0.48, 0.0, 0.42857142857142855
+fromIndex,SIMPLE_NAME, line no: 411,(obj instanceof OneWordS32BitSet),PARENTHESIZED_EXPRESSION, line no: 578, 0.48, 0.48, 0.0, 0.12121212121212122
+fromIndex,SIMPLE_NAME, line no: 411,obj instanceof OneWordS32BitSet,INSTANCEOF_EXPRESSION, line no: 578, 0.48, 0.48, 0.0, 0.12903225806451613
+64,NUMBER_LITERAL, line no: 411,BitSet,SIMPLE_NAME, line no: 35, 0.48, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,this.environment,FIELD_ACCESS, line no: 68, 0.48, 0.18, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,this.environment.makeInt(0),METHOD_INVOCATION, line no: 69, 0.48, 0.2, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,new NegativeArraySizeException("nbits < 0: " + nbits),CLASS_INSTANCE_CREATION, line no: 86, 0.48, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,new ArrayIndexOutOfBoundsException("nbits > 32: " + nbits),CLASS_INSTANCE_CREATION, line no: 88, 0.48, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,newType,SIMPLE_NAME, line no: 99, 0.48, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,(Object)newType == (Object)Object[].class,INFIX_EXPRESSION, line no: 100, 0.48, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,(Object)newType,CAST_EXPRESSION, line no: 100, 0.48, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,Object,SIMPLE_NAME, line no: 100, 0.48, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,(Object)Object[].class,CAST_EXPRESSION, line no: 100, 0.48, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,Object[].class,TYPE_LITERAL, line no: 100, 0.48, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,new BitSet(this.size()),CLASS_INSTANCE_CREATION, line no: 109, 0.48, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,view.set(i true),METHOD_INVOCATION, line no: 110, 0.48, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,true,BOOLEAN_LITERAL, line no: 110, 0.48, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,IndexOutOfBoundsException,SIMPLE_NAME, line no: 122, 0.48, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,"fromIndex < 0: " + fromIndex,INFIX_EXPRESSION, line no: 122, 0.48, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,"fromIndex < 0: ",STRING_LITERAL, line no: 122, 0.48, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,toIndex < 0,INFIX_EXPRESSION, line no: 123, 0.48, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,"toIndex < 0: " + toIndex,INFIX_EXPRESSION, line no: 124, 0.48, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,"toIndex < 0: ",STRING_LITERAL, line no: 124, 0.48, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,fromIndex > toIndex,INFIX_EXPRESSION, line no: 125, 0.48, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,"fromIndex: " + fromIndex + " > toIndex: "+ toIndex,INFIX_EXPRESSION, line no: 126, 0.48, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,"fromIndex: ",STRING_LITERAL, line no: 126, 0.48, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411," > toIndex: ",STRING_LITERAL, line no: 126, 0.48, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,(obj instanceof OneWordS32BitSet),PARENTHESIZED_EXPRESSION, line no: 578, 0.48, 0.48, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,obj instanceof OneWordS32BitSet,INSTANCEOF_EXPRESSION, line no: 578, 0.48, 0.48, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,this.environment=environment,ASSIGNMENT, line no: 68, 0.46938775510204084, 0.1836734693877551, 0.0, 0.17857142857142858
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,word=this.environment.makeInt(0),ASSIGNMENT, line no: 69, 0.46938775510204084, 0.1836734693877551, 0.0, 0.15625
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,copy,SIMPLE_NAME, line no: 100, 0.46938775510204084, 0.4489795918367347, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,((Object)newType == (Object)Object[].class),PARENTHESIZED_EXPRESSION, line no: 100, 0.46938775510204084, 0.46938775510204084, 0.0, 0.11627906976744186
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,new IndexOutOfBoundsException("toIndex < 0: " + toIndex),CLASS_INSTANCE_CREATION, line no: 124, 0.46938775510204084, 0.46938775510204084, 0.0, 0.16071428571428573
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,bitIndex < 0,INFIX_EXPRESSION, line no: 138, 0.46938775510204084, 0.46938775510204084, 0.0, 0.4666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,"bitIndex < 0: " + bitIndex,INFIX_EXPRESSION, line no: 139, 0.46938775510204084, 0.46938775510204084, 0.0, 0.25925925925925924
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,"bitIndex < 0: ",STRING_LITERAL, line no: 139, 0.46938775510204084, 0.46938775510204084, 0.0, 0.4375
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,(1 << bitIndex),PARENTHESIZED_EXPRESSION, line no: 142, 0.46938775510204084, 0.4489795918367347, 0.0, 0.3333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,!(obj instanceof OneWordS32BitSet),PREFIX_EXPRESSION, line no: 578, 0.46938775510204084, 0.46938775510204084, 0.0, 0.11764705882352941
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,this == obj,INFIX_EXPRESSION, line no: 580, 0.46938775510204084, 0.46938775510204084, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,word == set.word,INFIX_EXPRESSION, line no: 589, 0.46938775510204084, 0.46938775510204084, 0.0, 0.3125
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,set.word,QUALIFIED_NAME, line no: 589, 0.46938775510204084, 0.46938775510204084, 0.0, 0.13333333333333333
+fromIndex,SIMPLE_NAME, line no: 411,Array,SIMPLE_NAME, line no: 34, 0.46, 0.02, 0.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,this.environment=environment,ASSIGNMENT, line no: 68, 0.46, 0.18, 0.0, 0.17857142857142858
+fromIndex,SIMPLE_NAME, line no: 411,word=this.environment.makeInt(0),ASSIGNMENT, line no: 69, 0.46, 0.18, 0.0, 0.15625
+fromIndex,SIMPLE_NAME, line no: 411,T,SIMPLE_NAME, line no: 94, 0.46, 0.02, 0.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,original,SIMPLE_NAME, line no: 94, 0.46, 0.02, 0.0, 0.2222222222222222
+fromIndex,SIMPLE_NAME, line no: 411,((Object)newType == (Object)Object[].class) ? (T[])new Object[newLength] : (T[])Array.newInstance(newType.getComponentType() newLength),CONDITIONAL_EXPRESSION, line no: 100, 0.46, 0.46, 0.0, 0.037037037037037035
+fromIndex,SIMPLE_NAME, line no: 411,(T[])new Object[newLength],CAST_EXPRESSION, line no: 101, 0.46, 0.46, 0.0, 0.07692307692307693
+fromIndex,SIMPLE_NAME, line no: 411,new Object[newLength],ARRAY_CREATION, line no: 101, 0.46, 0.46, 0.0, 0.09523809523809523
+fromIndex,SIMPLE_NAME, line no: 411,(T[])Array.newInstance(newType.getComponentType() newLength),CAST_EXPRESSION, line no: 102, 0.46, 0.46, 0.0, 0.08333333333333333
+fromIndex,SIMPLE_NAME, line no: 411,Array.newInstance(newType.getComponentType() newLength),METHOD_INVOCATION, line no: 102, 0.46, 0.46, 0.0, 0.09090909090909091
+fromIndex,SIMPLE_NAME, line no: 411,newInstance,SIMPLE_NAME, line no: 102, 0.46, 0.46, 0.0, 0.2727272727272727
+fromIndex,SIMPLE_NAME, line no: 411,newType.getComponentType(),METHOD_INVOCATION, line no: 102, 0.46, 0.46, 0.0, 0.15384615384615385
+fromIndex,SIMPLE_NAME, line no: 411,getComponentType,SIMPLE_NAME, line no: 102, 0.46, 0.46, 0.0, 0.25
+fromIndex,SIMPLE_NAME, line no: 411,System.arraycopy(original 0 copy 0 Math.min(original.length newLength)),METHOD_INVOCATION, line no: 103, 0.46, 0.46, 0.0, 0.07042253521126761
+fromIndex,SIMPLE_NAME, line no: 411,System,SIMPLE_NAME, line no: 103, 0.46, 0.46, 0.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,arraycopy,SIMPLE_NAME, line no: 103, 0.46, 0.46, 0.0, 0.2222222222222222
+fromIndex,SIMPLE_NAME, line no: 411,Math,SIMPLE_NAME, line no: 104, 0.46, 0.46, 0.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,new IndexOutOfBoundsException("fromIndex < 0: " + fromIndex),CLASS_INSTANCE_CREATION, line no: 122, 0.46, 0.46, 0.0, 0.15
+fromIndex,SIMPLE_NAME, line no: 411,new IndexOutOfBoundsException("toIndex < 0: " + toIndex),CLASS_INSTANCE_CREATION, line no: 124, 0.46, 0.46, 0.0, 0.125
+fromIndex,SIMPLE_NAME, line no: 411,new IndexOutOfBoundsException("fromIndex: " + fromIndex + " > toIndex: "+ toIndex),CLASS_INSTANCE_CREATION, line no: 126, 0.46, 0.46, 0.0, 0.10975609756097561
+fromIndex,SIMPLE_NAME, line no: 411,bitIndex < 0,INFIX_EXPRESSION, line no: 138, 0.46, 0.46, 0.0, 0.4166666666666667
+fromIndex,SIMPLE_NAME, line no: 411,"bitIndex < 0: " + bitIndex,INFIX_EXPRESSION, line no: 139, 0.46, 0.46, 0.0, 0.18518518518518517
+fromIndex,SIMPLE_NAME, line no: 411,"bitIndex < 0: ",STRING_LITERAL, line no: 139, 0.46, 0.46, 0.0, 0.3125
+fromIndex,SIMPLE_NAME, line no: 411,!(obj instanceof OneWordS32BitSet),PREFIX_EXPRESSION, line no: 578, 0.46, 0.46, 0.0, 0.11764705882352941
+fromIndex,SIMPLE_NAME, line no: 411,false,BOOLEAN_LITERAL, line no: 579, 0.46, 0.46, 0.0, 0.2222222222222222
+fromIndex,SIMPLE_NAME, line no: 411,this == obj,INFIX_EXPRESSION, line no: 580, 0.46, 0.46, 0.0, 0.09090909090909091
+fromIndex,SIMPLE_NAME, line no: 411,word == set.word,INFIX_EXPRESSION, line no: 589, 0.46, 0.46, 0.0, 0.1875
+fromIndex,SIMPLE_NAME, line no: 411,set.word,QUALIFIED_NAME, line no: 589, 0.46, 0.46, 0.0, 0.2222222222222222
+64,NUMBER_LITERAL, line no: 411,this.environment=environment,ASSIGNMENT, line no: 68, 0.46, 0.18, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,word=this.environment.makeInt(0),ASSIGNMENT, line no: 69, 0.46, 0.18, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,copy,SIMPLE_NAME, line no: 100, 0.46, 0.44, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,((Object)newType == (Object)Object[].class),PARENTHESIZED_EXPRESSION, line no: 100, 0.46, 0.46, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,new IndexOutOfBoundsException("fromIndex < 0: " + fromIndex),CLASS_INSTANCE_CREATION, line no: 122, 0.46, 0.46, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,new IndexOutOfBoundsException("toIndex < 0: " + toIndex),CLASS_INSTANCE_CREATION, line no: 124, 0.46, 0.46, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,new IndexOutOfBoundsException("fromIndex: " + fromIndex + " > toIndex: "+ toIndex),CLASS_INSTANCE_CREATION, line no: 126, 0.46, 0.46, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,bitIndex < 0,INFIX_EXPRESSION, line no: 138, 0.46, 0.46, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,"bitIndex < 0: " + bitIndex,INFIX_EXPRESSION, line no: 139, 0.46, 0.46, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,"bitIndex < 0: ",STRING_LITERAL, line no: 139, 0.46, 0.46, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,!(obj instanceof OneWordS32BitSet),PREFIX_EXPRESSION, line no: 578, 0.46, 0.46, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,false,BOOLEAN_LITERAL, line no: 579, 0.46, 0.46, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,this == obj,INFIX_EXPRESSION, line no: 580, 0.46, 0.46, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,word == set.word,INFIX_EXPRESSION, line no: 589, 0.46, 0.46, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,set.word,QUALIFIED_NAME, line no: 589, 0.46, 0.46, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,Array,SIMPLE_NAME, line no: 34, 0.4489795918367347, 0.02040816326530612, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,T,SIMPLE_NAME, line no: 94, 0.4489795918367347, 0.02040816326530612, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,original,SIMPLE_NAME, line no: 94, 0.4489795918367347, 0.02040816326530612, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,newLength,SIMPLE_NAME, line no: 94, 0.4489795918367347, 0.02040816326530612, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,((Object)newType == (Object)Object[].class) ? (T[])new Object[newLength] : (T[])Array.newInstance(newType.getComponentType() newLength),CONDITIONAL_EXPRESSION, line no: 100, 0.4489795918367347, 0.4489795918367347, 0.0, 0.037037037037037035
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,(T[])new Object[newLength],CAST_EXPRESSION, line no: 101, 0.4489795918367347, 0.4489795918367347, 0.0, 0.11538461538461539
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,new Object[newLength],ARRAY_CREATION, line no: 101, 0.4489795918367347, 0.4489795918367347, 0.0, 0.14285714285714285
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,(T[])Array.newInstance(newType.getComponentType() newLength),CAST_EXPRESSION, line no: 102, 0.4489795918367347, 0.4489795918367347, 0.0, 0.08333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,Array.newInstance(newType.getComponentType() newLength),METHOD_INVOCATION, line no: 102, 0.4489795918367347, 0.4489795918367347, 0.0, 0.09090909090909091
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,newInstance,SIMPLE_NAME, line no: 102, 0.4489795918367347, 0.4489795918367347, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,newType.getComponentType(),METHOD_INVOCATION, line no: 102, 0.4489795918367347, 0.4489795918367347, 0.0, 0.15384615384615385
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,getComponentType,SIMPLE_NAME, line no: 102, 0.4489795918367347, 0.4489795918367347, 0.0, 0.25
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,System.arraycopy(original 0 copy 0 Math.min(original.length newLength)),METHOD_INVOCATION, line no: 103, 0.4489795918367347, 0.4489795918367347, 0.0, 0.07042253521126761
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,System,SIMPLE_NAME, line no: 103, 0.4489795918367347, 0.4489795918367347, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,arraycopy,SIMPLE_NAME, line no: 103, 0.4489795918367347, 0.4489795918367347, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,Math.min(original.length newLength),METHOD_INVOCATION, line no: 104, 0.4489795918367347, 0.4489795918367347, 0.0, 0.08571428571428572
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,Math,SIMPLE_NAME, line no: 104, 0.4489795918367347, 0.4489795918367347, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,min,SIMPLE_NAME, line no: 104, 0.4489795918367347, 0.4489795918367347, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,original.length,QUALIFIED_NAME, line no: 104, 0.4489795918367347, 0.4489795918367347, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,new IndexOutOfBoundsException("bitIndex < 0: " + bitIndex),CLASS_INSTANCE_CREATION, line no: 139, 0.4489795918367347, 0.4489795918367347, 0.0, 0.15517241379310345
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,~(1 << bitIndex),PREFIX_EXPRESSION, line no: 253, 0.4489795918367347, 0.4489795918367347, 0.0, 0.3125
+fromIndex,SIMPLE_NAME, line no: 411,new IndexOutOfBoundsException("bitIndex < 0: " + bitIndex),CLASS_INSTANCE_CREATION, line no: 139, 0.44, 0.44, 0.0, 0.1206896551724138
+64,NUMBER_LITERAL, line no: 411,Array,SIMPLE_NAME, line no: 34, 0.44, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,T,SIMPLE_NAME, line no: 94, 0.44, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,original,SIMPLE_NAME, line no: 94, 0.44, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,((Object)newType == (Object)Object[].class) ? (T[])new Object[newLength] : (T[])Array.newInstance(newType.getComponentType() newLength),CONDITIONAL_EXPRESSION, line no: 100, 0.44, 0.44, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,(T[])new Object[newLength],CAST_EXPRESSION, line no: 101, 0.44, 0.44, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,new Object[newLength],ARRAY_CREATION, line no: 101, 0.44, 0.44, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,(T[])Array.newInstance(newType.getComponentType() newLength),CAST_EXPRESSION, line no: 102, 0.44, 0.44, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,Array.newInstance(newType.getComponentType() newLength),METHOD_INVOCATION, line no: 102, 0.44, 0.44, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,newInstance,SIMPLE_NAME, line no: 102, 0.44, 0.44, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,newType.getComponentType(),METHOD_INVOCATION, line no: 102, 0.44, 0.44, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,getComponentType,SIMPLE_NAME, line no: 102, 0.44, 0.44, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,System.arraycopy(original 0 copy 0 Math.min(original.length newLength)),METHOD_INVOCATION, line no: 103, 0.44, 0.44, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,System,SIMPLE_NAME, line no: 103, 0.44, 0.44, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,arraycopy,SIMPLE_NAME, line no: 103, 0.44, 0.44, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,Math,SIMPLE_NAME, line no: 104, 0.44, 0.44, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,new IndexOutOfBoundsException("bitIndex < 0: " + bitIndex),CLASS_INSTANCE_CREATION, line no: 139, 0.44, 0.44, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,tmp^=(1 << bitIndex),ASSIGNMENT, line no: 142, 0.42857142857142855, 0.42857142857142855, 0.0, 0.3
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,word.get() & ~(1 << bitIndex),INFIX_EXPRESSION, line no: 253, 0.42857142857142855, 0.42857142857142855, 0.0, 0.20689655172413793
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,(OneWordS32BitSet)obj,CAST_EXPRESSION, line no: 583, 0.42857142857142855, 0.42857142857142855, 0.0, 0.14285714285714285
+fromIndex,SIMPLE_NAME, line no: 411,(OneWordS32BitSet)obj,CAST_EXPRESSION, line no: 583, 0.42, 0.42, 0.0, 0.14285714285714285
+64,NUMBER_LITERAL, line no: 411,(OneWordS32BitSet)obj,CAST_EXPRESSION, line no: 583, 0.42, 0.42, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,word.get() | (1 << bitIndex),INFIX_EXPRESSION, line no: 181, 0.40816326530612246, 0.40816326530612246, 0.0, 0.21428571428571427
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,word.set(word.get() & ~(1 << bitIndex)),METHOD_INVOCATION, line no: 253, 0.40816326530612246, 0.40816326530612246, 0.0, 0.1794871794871795
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,word.get() & (1 << bitIndex),INFIX_EXPRESSION, line no: 304, 0.40816326530612246, 0.40816326530612246, 0.0, 0.21428571428571427
+fromIndex,SIMPLE_NAME, line no: 411,word.set(word.get() & ~(1 << bitIndex)),METHOD_INVOCATION, line no: 253, 0.4, 0.4, 0.0, 0.1794871794871795
+64,NUMBER_LITERAL, line no: 411,word.set(word.get() & ~(1 << bitIndex)),METHOD_INVOCATION, line no: 253, 0.4, 0.4, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,word.set(word.get() | (1 << bitIndex)),METHOD_INVOCATION, line no: 181, 0.3877551020408163, 0.3877551020408163, 0.0, 0.18421052631578946
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,bitIndex < 32,INFIX_EXPRESSION, line no: 304, 0.3877551020408163, 0.3877551020408163, 0.0, 0.4666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,(word.get() & (1 << bitIndex)) != 0,INFIX_EXPRESSION, line no: 304, 0.3877551020408163, 0.3877551020408163, 0.0, 0.2571428571428571
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,(word.get() & (1 << bitIndex)),PARENTHESIZED_EXPRESSION, line no: 304, 0.3877551020408163, 0.3877551020408163, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,h,SIMPLE_NAME, line no: 561, 0.3877551020408163, 0.30612244897959184, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,16,NUMBER_LITERAL, line no: 563, 0.3877551020408163, 0.3877551020408163, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,result,SIMPLE_NAME, line no: 594, 0.3877551020408163, 0.3673469387755102, 0.0, 0.13333333333333333
+fromIndex,SIMPLE_NAME, line no: 411,word.set(word.get() | (1 << bitIndex)),METHOD_INVOCATION, line no: 181, 0.38, 0.38, 0.0, 0.18421052631578946
+fromIndex,SIMPLE_NAME, line no: 411,bitIndex < 32,INFIX_EXPRESSION, line no: 304, 0.38, 0.38, 0.0, 0.38461538461538464
+fromIndex,SIMPLE_NAME, line no: 411,(word.get() & (1 << bitIndex)) != 0,INFIX_EXPRESSION, line no: 304, 0.38, 0.38, 0.0, 0.17142857142857143
+fromIndex,SIMPLE_NAME, line no: 411,result,SIMPLE_NAME, line no: 594, 0.38, 0.36, 0.0, 0.2222222222222222
+64,NUMBER_LITERAL, line no: 411,word.set(word.get() | (1 << bitIndex)),METHOD_INVOCATION, line no: 181, 0.38, 0.38, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,bitIndex < 32,INFIX_EXPRESSION, line no: 304, 0.38, 0.38, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,(word.get() & (1 << bitIndex)) != 0,INFIX_EXPRESSION, line no: 304, 0.38, 0.38, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,result,SIMPLE_NAME, line no: 594, 0.38, 0.36, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,bitIndex < 32 && ((word.get() & (1 << bitIndex)) != 0),INFIX_EXPRESSION, line no: 304, 0.3673469387755102, 0.3673469387755102, 0.0, 0.16666666666666666
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,((word.get() & (1 << bitIndex)) != 0),PARENTHESIZED_EXPRESSION, line no: 304, 0.3673469387755102, 0.3673469387755102, 0.0, 0.24324324324324326
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,h >> 16,INFIX_EXPRESSION, line no: 563, 0.3673469387755102, 0.3673469387755102, 0.0, 0.26666666666666666
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,endOfRun,SIMPLE_NAME, line no: 612, 0.3673469387755102, 0.3469387755102041, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,++i,PREFIX_EXPRESSION, line no: 616, 0.3673469387755102, 0.3673469387755102, 0.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,bitIndex < 32 && ((word.get() & (1 << bitIndex)) != 0),INFIX_EXPRESSION, line no: 304, 0.36, 0.36, 0.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,((word.get() & (1 << bitIndex)) != 0),PARENTHESIZED_EXPRESSION, line no: 304, 0.36, 0.36, 0.0, 0.16216216216216217
+64,NUMBER_LITERAL, line no: 411,bitIndex < 32 && ((word.get() & (1 << bitIndex)) != 0),INFIX_EXPRESSION, line no: 304, 0.36, 0.36, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,((word.get() & (1 << bitIndex)) != 0),PARENTHESIZED_EXPRESSION, line no: 304, 0.36, 0.36, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,nextClearBit,SIMPLE_NAME, line no: 367, 0.3469387755102041, 0.02040816326530612, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,(h >> 16),PARENTHESIZED_EXPRESSION, line no: 563, 0.3469387755102041, 0.3469387755102041, 0.0, 0.26666666666666666
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,new OneWordS32BitSet(environment this.size()),CLASS_INSTANCE_CREATION, line no: 594, 0.3469387755102041, 0.3469387755102041, 0.0, 0.1111111111111111
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,result.word.set(word.get()),METHOD_INVOCATION, line no: 596, 0.3469387755102041, 0.3469387755102041, 0.0, 0.14814814814814814
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,result.word,QUALIFIED_NAME, line no: 596, 0.3469387755102041, 0.3469387755102041, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,++i < endOfRun,INFIX_EXPRESSION, line no: 616, 0.3469387755102041, 0.3469387755102041, 0.0, 0.13333333333333333
+fromIndex,SIMPLE_NAME, line no: 411,new OneWordS32BitSet(environment this.size()),CLASS_INSTANCE_CREATION, line no: 594, 0.34, 0.34, 0.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,result.word.set(word.get()),METHOD_INVOCATION, line no: 596, 0.34, 0.34, 0.0, 0.14814814814814814
+fromIndex,SIMPLE_NAME, line no: 411,result.word,QUALIFIED_NAME, line no: 596, 0.34, 0.34, 0.0, 0.2727272727272727
+fromIndex,SIMPLE_NAME, line no: 411,++i < endOfRun,INFIX_EXPRESSION, line no: 616, 0.34, 0.34, 0.0, 0.14285714285714285
+64,NUMBER_LITERAL, line no: 411,new OneWordS32BitSet(environment this.size()),CLASS_INSTANCE_CREATION, line no: 594, 0.34, 0.34, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,result.word.set(word.get()),METHOD_INVOCATION, line no: 596, 0.34, 0.34, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,result.word,QUALIFIED_NAME, line no: 596, 0.34, 0.34, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,++i < endOfRun,INFIX_EXPRESSION, line no: 616, 0.34, 0.34, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,(h >> 16) ^ h,INFIX_EXPRESSION, line no: 563, 0.32653061224489793, 0.32653061224489793, 0.0, 0.26666666666666666
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,nextClearBit(i),METHOD_INVOCATION, line no: 612, 0.32653061224489793, 0.32653061224489793, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,1234,NUMBER_LITERAL, line no: 561, 0.30612244897959184, 0.30612244897959184, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,Integer.numberOfLeadingZeros(word.get()),METHOD_INVOCATION, line no: 464, 0.2857142857142857, 0.2857142857142857, 0.0, 0.125
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,h^=word.get(),ASSIGNMENT, line no: 562, 0.2857142857142857, 0.2857142857142857, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,clear,SIMPLE_NAME, line no: 197, 0.2653061224489796, 0.22448979591836735, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,BITS_PER_WORD - Integer.numberOfLeadingZeros(word.get()),INFIX_EXPRESSION, line no: 464, 0.2653061224489796, 0.2653061224489796, 0.0, 0.08928571428571429
+fromIndex,SIMPLE_NAME, line no: 411,clear,SIMPLE_NAME, line no: 197, 0.26, 0.22, 0.0, 0.1111111111111111
+64,NUMBER_LITERAL, line no: 411,clear,SIMPLE_NAME, line no: 197, 0.26, 0.22, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,copyOf,SIMPLE_NAME, line no: 94, 0.24489795918367346, 0.02040816326530612, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,getClass,SIMPLE_NAME, line no: 95, 0.24489795918367346, 0.24489795918367346, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,(BITS_PER_WORD - Integer.numberOfLeadingZeros(word.get())),PARENTHESIZED_EXPRESSION, line no: 464, 0.24489795918367346, 0.24489795918367346, 0.0, 0.08620689655172414
+fromIndex,SIMPLE_NAME, line no: 411,copyOf,SIMPLE_NAME, line no: 94, 0.24, 0.02, 0.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,getClass,SIMPLE_NAME, line no: 95, 0.24, 0.24, 0.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,value,SIMPLE_NAME, line no: 193, 0.24, 0.02, 0.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,set(fromIndex toIndex),METHOD_INVOCATION, line no: 237, 0.24, 0.24, 0.0, 0.4090909090909091
+fromIndex,SIMPLE_NAME, line no: 411,clear(fromIndex toIndex),METHOD_INVOCATION, line no: 239, 0.24, 0.24, 0.0, 0.375
+64,NUMBER_LITERAL, line no: 411,copyOf,SIMPLE_NAME, line no: 94, 0.24, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,getClass,SIMPLE_NAME, line no: 95, 0.24, 0.24, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,value,SIMPLE_NAME, line no: 193, 0.24, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,set(fromIndex toIndex),METHOD_INVOCATION, line no: 237, 0.24, 0.24, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,clear(fromIndex toIndex),METHOD_INVOCATION, line no: 239, 0.24, 0.24, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,copyOf(original newLength original.getClass()),METHOD_INVOCATION, line no: 95, 0.22448979591836735, 0.22448979591836735, 0.0, 0.10869565217391304
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,original.getClass(),METHOD_INVOCATION, line no: 95, 0.22448979591836735, 0.22448979591836735, 0.0, 0.15789473684210525
+fromIndex,SIMPLE_NAME, line no: 411,copyOf(original newLength original.getClass()),METHOD_INVOCATION, line no: 95, 0.22, 0.22, 0.0, 0.10869565217391304
+fromIndex,SIMPLE_NAME, line no: 411,original.getClass(),METHOD_INVOCATION, line no: 95, 0.22, 0.22, 0.0, 0.15789473684210525
+64,NUMBER_LITERAL, line no: 411,copyOf(original newLength original.getClass()),METHOD_INVOCATION, line no: 95, 0.22, 0.22, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,original.getClass(),METHOD_INVOCATION, line no: 95, 0.22, 0.22, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,(T[])copyOf(original newLength original.getClass()),CAST_EXPRESSION, line no: 95, 0.20408163265306123, 0.20408163265306123, 0.0, 0.09803921568627451
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,set(bitIndex),METHOD_INVOCATION, line no: 195, 0.20408163265306123, 0.20408163265306123, 0.0, 0.3333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,clear(bitIndex),METHOD_INVOCATION, line no: 197, 0.20408163265306123, 0.20408163265306123, 0.0, 0.4
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,bitCount,SIMPLE_NAME, line no: 487, 0.20408163265306123, 0.20408163265306123, 0.0, 0.13333333333333333
+fromIndex,SIMPLE_NAME, line no: 411,(T[])copyOf(original newLength original.getClass()),CAST_EXPRESSION, line no: 95, 0.2, 0.2, 0.0, 0.09803921568627451
+fromIndex,SIMPLE_NAME, line no: 411,set(bitIndex),METHOD_INVOCATION, line no: 195, 0.2, 0.2, 0.0, 0.38461538461538464
+fromIndex,SIMPLE_NAME, line no: 411,clear(bitIndex),METHOD_INVOCATION, line no: 197, 0.2, 0.2, 0.0, 0.4
+64,NUMBER_LITERAL, line no: 411,(T[])copyOf(original newLength original.getClass()),CAST_EXPRESSION, line no: 95, 0.2, 0.2, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,set(bitIndex),METHOD_INVOCATION, line no: 195, 0.2, 0.2, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,clear(bitIndex),METHOD_INVOCATION, line no: 197, 0.2, 0.2, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,Integer.bitCount(word.get()),METHOD_INVOCATION, line no: 487, 0.1836734693877551, 0.1836734693877551, 0.0, 0.17857142857142858
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,word.get() == 0,INFIX_EXPRESSION, line no: 475, 0.16326530612244897, 0.16326530612244897, 0.0, 0.4
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,b.append("  ").append(i),METHOD_INVOCATION, line no: 614, 0.16326530612244897, 0.16326530612244897, 0.0, 0.125
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,b.append("  "),METHOD_INVOCATION, line no: 614, 0.16326530612244897, 0.16326530612244897, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,"  ",STRING_LITERAL, line no: 614, 0.16326530612244897, 0.16326530612244897, 0.0, 0.06666666666666667
+fromIndex,SIMPLE_NAME, line no: 411,word.get() == 0,INFIX_EXPRESSION, line no: 475, 0.16, 0.16, 0.0, 0.2
+fromIndex,SIMPLE_NAME, line no: 411,b.append("  ").append(i),METHOD_INVOCATION, line no: 614, 0.16, 0.16, 0.0, 0.125
+fromIndex,SIMPLE_NAME, line no: 411,b.append("  "),METHOD_INVOCATION, line no: 614, 0.16, 0.16, 0.0, 0.14285714285714285
+fromIndex,SIMPLE_NAME, line no: 411,"  ",STRING_LITERAL, line no: 614, 0.16, 0.16, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,word.get() == 0,INFIX_EXPRESSION, line no: 475, 0.16, 0.16, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,b.append("  ").append(i),METHOD_INVOCATION, line no: 614, 0.16, 0.16, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,b.append("  "),METHOD_INVOCATION, line no: 614, 0.16, 0.16, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,"  ",STRING_LITERAL, line no: 614, 0.16, 0.16, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,word.set(0),METHOD_INVOCATION, line no: 286, 0.10204081632653061, 0.10204081632653061, 0.0, 0.2
+fromIndex,SIMPLE_NAME, line no: 411,word.set(0),METHOD_INVOCATION, line no: 286, 0.1, 0.1, 0.0, 0.2727272727272727
+64,NUMBER_LITERAL, line no: 411,word.set(0),METHOD_INVOCATION, line no: 286, 0.1, 0.1, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,ADDRESS_BITS_PER_WORD,SIMPLE_NAME, line no: 45, 0.04081632653061224, 0.02040816326530612, 0.0, 0.047619047619047616
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,UnsupportedOperationException,SIMPLE_NAME, line no: 320, 0.04081632653061224, 0.04081632653061224, 0.0, 0.13793103448275862
+fromIndex,SIMPLE_NAME, line no: 411,UnsupportedOperationException,SIMPLE_NAME, line no: 320, 0.04, 0.04, 0.0, 0.13793103448275862
+64,NUMBER_LITERAL, line no: 411,UnsupportedOperationException,SIMPLE_NAME, line no: 320, 0.04, 0.04, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,choco,SIMPLE_NAME, line no: 28, 0.02040816326530612, 0.02040816326530612, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,kernel,SIMPLE_NAME, line no: 28, 0.02040816326530612, 0.02040816326530612, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,memory,SIMPLE_NAME, line no: 28, 0.02040816326530612, 0.02040816326530612, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,structure,SIMPLE_NAME, line no: 28, 0.02040816326530612, 0.02040816326530612, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,IEnvironment,SIMPLE_NAME, line no: 30, 0.02040816326530612, 0.02040816326530612, 0.0, 0.26666666666666666
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,IStateBitSet,SIMPLE_NAME, line no: 31, 0.02040816326530612, 0.02040816326530612, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,IStateInt,SIMPLE_NAME, line no: 32, 0.02040816326530612, 0.02040816326530612, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,java,SIMPLE_NAME, line no: 34, 0.02040816326530612, 0.02040816326530612, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,lang,SIMPLE_NAME, line no: 34, 0.02040816326530612, 0.02040816326530612, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,reflect,SIMPLE_NAME, line no: 34, 0.02040816326530612, 0.02040816326530612, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,util,SIMPLE_NAME, line no: 35, 0.02040816326530612, 0.02040816326530612, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,5,NUMBER_LITERAL, line no: 45, 0.02040816326530612, 0.02040816326530612, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,1 << ADDRESS_BITS_PER_WORD,INFIX_EXPRESSION, line no: 46, 0.02040816326530612, 0.02040816326530612, 0.0, 0.07692307692307693
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,BIT_INDEX_MASK,SIMPLE_NAME, line no: 47, 0.02040816326530612, 0.02040816326530612, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,BITS_PER_WORD - 1,INFIX_EXPRESSION, line no: 47, 0.02040816326530612, 0.02040816326530612, 0.0, 0.17647058823529413
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,0xffffffff,NUMBER_LITERAL, line no: 50, 0.02040816326530612, 0.02040816326530612, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,SuppressWarnings,SIMPLE_NAME, line no: 93, 0.02040816326530612, 0.02040816326530612, 0.0, 0.125
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,U,SIMPLE_NAME, line no: 99, 0.02040816326530612, 0.02040816326530612, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,Class,SIMPLE_NAME, line no: 99, 0.02040816326530612, 0.02040816326530612, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,copyToBitSet,SIMPLE_NAME, line no: 108, 0.02040816326530612, 0.02040816326530612, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,flip,SIMPLE_NAME, line no: 137, 0.02040816326530612, 0.02040816326530612, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,new UnsupportedOperationException(),CLASS_INSTANCE_CREATION, line no: 320, 0.02040816326530612, 0.02040816326530612, 0.0, 0.11428571428571428
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,prevSetBit,SIMPLE_NAME, line no: 406, 0.02040816326530612, 0.02040816326530612, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,prevClearBit,SIMPLE_NAME, line no: 435, 0.02040816326530612, 0.02040816326530612, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,capacity,SIMPLE_NAME, line no: 451, 0.02040816326530612, 0.02040816326530612, 0.0, 0.0
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,cardinality,SIMPLE_NAME, line no: 486, 0.02040816326530612, 0.02040816326530612, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,and,SIMPLE_NAME, line no: 499, 0.02040816326530612, 0.02040816326530612, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,setI,SIMPLE_NAME, line no: 499, 0.02040816326530612, 0.02040816326530612, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,or,SIMPLE_NAME, line no: 512, 0.02040816326530612, 0.02040816326530612, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,xor,SIMPLE_NAME, line no: 530, 0.02040816326530612, 0.02040816326530612, 0.0, 0.06666666666666667
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,andNot,SIMPLE_NAME, line no: 542, 0.02040816326530612, 0.02040816326530612, 0.0, 0.13333333333333333
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,hashCode,SIMPLE_NAME, line no: 560, 0.02040816326530612, 0.02040816326530612, 0.0, 0.2
+fromIndex >= 64,INFIX_EXPRESSION, line no: 411,String,SIMPLE_NAME, line no: 601, 0.02040816326530612, 0.02040816326530612, 0.0, 0.13333333333333333
+fromIndex,SIMPLE_NAME, line no: 411,choco,SIMPLE_NAME, line no: 28, 0.02, 0.02, 0.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,kernel,SIMPLE_NAME, line no: 28, 0.02, 0.02, 0.0, 0.3333333333333333
+fromIndex,SIMPLE_NAME, line no: 411,memory,SIMPLE_NAME, line no: 28, 0.02, 0.02, 0.0, 0.2222222222222222
+fromIndex,SIMPLE_NAME, line no: 411,structure,SIMPLE_NAME, line no: 28, 0.02, 0.02, 0.0, 0.2222222222222222
+fromIndex,SIMPLE_NAME, line no: 411,IEnvironment,SIMPLE_NAME, line no: 30, 0.02, 0.02, 0.0, 0.3333333333333333
+fromIndex,SIMPLE_NAME, line no: 411,IStateBitSet,SIMPLE_NAME, line no: 31, 0.02, 0.02, 0.0, 0.16666666666666666
+fromIndex,SIMPLE_NAME, line no: 411,IStateInt,SIMPLE_NAME, line no: 32, 0.02, 0.02, 0.0, 0.2222222222222222
+fromIndex,SIMPLE_NAME, line no: 411,java,SIMPLE_NAME, line no: 34, 0.02, 0.02, 0.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,lang,SIMPLE_NAME, line no: 34, 0.02, 0.02, 0.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,reflect,SIMPLE_NAME, line no: 34, 0.02, 0.02, 0.0, 0.2222222222222222
+fromIndex,SIMPLE_NAME, line no: 411,util,SIMPLE_NAME, line no: 35, 0.02, 0.02, 0.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,SuppressWarnings,SIMPLE_NAME, line no: 93, 0.02, 0.02, 0.0, 0.125
+fromIndex,SIMPLE_NAME, line no: 411,U,SIMPLE_NAME, line no: 99, 0.02, 0.02, 0.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,Class,SIMPLE_NAME, line no: 99, 0.02, 0.02, 0.0, 0.0
+fromIndex,SIMPLE_NAME, line no: 411,copyToBitSet,SIMPLE_NAME, line no: 108, 0.02, 0.02, 0.0, 0.16666666666666666
+fromIndex,SIMPLE_NAME, line no: 411,flip,SIMPLE_NAME, line no: 137, 0.02, 0.02, 0.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,new UnsupportedOperationException(),CLASS_INSTANCE_CREATION, line no: 320, 0.02, 0.02, 0.0, 0.11428571428571428
+fromIndex,SIMPLE_NAME, line no: 411,isEmpty,SIMPLE_NAME, line no: 474, 0.02, 0.02, 0.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,and,SIMPLE_NAME, line no: 499, 0.02, 0.02, 0.0, 0.2222222222222222
+fromIndex,SIMPLE_NAME, line no: 411,setI,SIMPLE_NAME, line no: 499, 0.02, 0.02, 0.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,or,SIMPLE_NAME, line no: 512, 0.02, 0.02, 0.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,xor,SIMPLE_NAME, line no: 530, 0.02, 0.02, 0.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,andNot,SIMPLE_NAME, line no: 542, 0.02, 0.02, 0.0, 0.2222222222222222
+fromIndex,SIMPLE_NAME, line no: 411,intersects,SIMPLE_NAME, line no: 556, 0.02, 0.02, 0.0, 0.2
+fromIndex,SIMPLE_NAME, line no: 411,equals,SIMPLE_NAME, line no: 577, 0.02, 0.02, 0.0, 0.1111111111111111
+fromIndex,SIMPLE_NAME, line no: 411,String,SIMPLE_NAME, line no: 601, 0.02, 0.02, 0.0, 0.2222222222222222
+64,NUMBER_LITERAL, line no: 411,choco,SIMPLE_NAME, line no: 28, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,kernel,SIMPLE_NAME, line no: 28, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,memory,SIMPLE_NAME, line no: 28, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,structure,SIMPLE_NAME, line no: 28, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,IEnvironment,SIMPLE_NAME, line no: 30, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,IStateBitSet,SIMPLE_NAME, line no: 31, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,IStateInt,SIMPLE_NAME, line no: 32, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,java,SIMPLE_NAME, line no: 34, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,lang,SIMPLE_NAME, line no: 34, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,reflect,SIMPLE_NAME, line no: 34, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,util,SIMPLE_NAME, line no: 35, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,SuppressWarnings,SIMPLE_NAME, line no: 93, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,U,SIMPLE_NAME, line no: 99, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,Class,SIMPLE_NAME, line no: 99, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,copyToBitSet,SIMPLE_NAME, line no: 108, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,flip,SIMPLE_NAME, line no: 137, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,new UnsupportedOperationException(),CLASS_INSTANCE_CREATION, line no: 320, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,isEmpty,SIMPLE_NAME, line no: 474, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,and,SIMPLE_NAME, line no: 499, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,setI,SIMPLE_NAME, line no: 499, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,or,SIMPLE_NAME, line no: 512, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,xor,SIMPLE_NAME, line no: 530, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,andNot,SIMPLE_NAME, line no: 542, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,intersects,SIMPLE_NAME, line no: 556, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,equals,SIMPLE_NAME, line no: 577, 0.02, 0.02, 0.0, 0.0
+64,NUMBER_LITERAL, line no: 411,String,SIMPLE_NAME, line no: 601, 0.02, 0.02, 0.0, 0.0

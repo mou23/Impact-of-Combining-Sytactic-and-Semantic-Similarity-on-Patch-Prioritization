@@ -1,0 +1,53 @@
+p=tryBuildPattern(needle),ASSIGNMENT, line no: 32,p,SIMPLE_NAME, line no: 25, 1.0, 0.05555555555555555, 1.0, 0.6125
+p=tryBuildPattern(needle),ASSIGNMENT, line no: 32,tryBuildPattern,SIMPLE_NAME, line no: 32, 1.0, 1.0, 1.0, 0.8125
+p,SIMPLE_NAME, line no: 32,tryBuildPattern,SIMPLE_NAME, line no: 32, 1.0, 1.0, 1.0, 0.7887323943661971
+tryBuildPattern(needle),METHOD_INVOCATION, line no: 32,tryBuildPattern,SIMPLE_NAME, line no: 32, 1.0, 1.0, 1.0, 0.7647058823529411
+tryBuildPattern,SIMPLE_NAME, line no: 32,Pattern,SIMPLE_NAME, line no: 18, 0.95, 0.05, 1.0, 0.8309859154929577
+tryBuildPattern,SIMPLE_NAME, line no: 32,p,SIMPLE_NAME, line no: 25, 0.95, 0.05, 1.0, 0.7605633802816901
+tryBuildPattern,SIMPLE_NAME, line no: 32,tryBuildPattern(needle),METHOD_INVOCATION, line no: 32, 0.95, 0.95, 1.0, 0.7647058823529411
+tryBuildPattern,SIMPLE_NAME, line no: 32,compile,SIMPLE_NAME, line no: 56, 0.95, 0.9, 1.0, 0.7746478873239436
+tryBuildPattern,SIMPLE_NAME, line no: 32,Pattern.compile(sb.toString() Pattern.CASE_INSENSITIVE),METHOD_INVOCATION, line no: 86, 0.95, 0.95, 1.0, 0.48717948717948717
+needle,SIMPLE_NAME, line no: 32,s,SIMPLE_NAME, line no: 36, 0.95, 0.05, 1.0, 0.8709677419354839
+needle,SIMPLE_NAME, line no: 32,"^",STRING_LITERAL, line no: 38, 0.95, 0.9, 1.0, 0.7741935483870968
+needle,SIMPLE_NAME, line no: 32,"$",STRING_LITERAL, line no: 49, 0.95, 0.9, 1.0, 0.7419354838709677
+needle,SIMPLE_NAME, line no: 32,sb.toString(),METHOD_INVOCATION, line no: 50, 0.95, 0.9, 1.0, 0.6266666666666667
+needle,SIMPLE_NAME, line no: 32,toString,SIMPLE_NAME, line no: 50, 0.95, 0.9, 1.0, 0.828125
+needle,SIMPLE_NAME, line no: 32,expanded,SIMPLE_NAME, line no: 51, 0.95, 0.9, 1.0, 0.859375
+needle,SIMPLE_NAME, line no: 32,replaceAll,SIMPLE_NAME, line no: 51, 0.95, 0.9, 1.0, 0.8333333333333334
+needle,SIMPLE_NAME, line no: 32,expanded=expanded.replaceAll("\\\\\\\\\\\\\\*" "\\\\*"),ASSIGNMENT, line no: 53, 0.95, 0.95, 1.0, 0.4909090909090909
+needle,SIMPLE_NAME, line no: 32,expanded.replaceAll("\\\\\\\\\\\\\\*" "\\\\*"),METHOD_INVOCATION, line no: 53, 0.95, 0.95, 1.0, 0.49074074074074076
+needle,SIMPLE_NAME, line no: 32,"\\\\\\\\\\\\\\*",STRING_LITERAL, line no: 53, 0.95, 0.95, 1.0, 0.631578947368421
+needle,SIMPLE_NAME, line no: 32,"\\\\*",STRING_LITERAL, line no: 53, 0.95, 0.95, 1.0, 0.7272727272727273
+p,SIMPLE_NAME, line no: 32,Pattern,SIMPLE_NAME, line no: 18, 0.9473684210526315, 0.05263157894736842, 1.0, 0.8253968253968254
+p,SIMPLE_NAME, line no: 32,p=tryBuildPattern(needle),ASSIGNMENT, line no: 32, 0.9473684210526315, 0.9473684210526315, 1.0, 0.6375
+p,SIMPLE_NAME, line no: 32,tryBuildPattern(needle),METHOD_INVOCATION, line no: 32, 0.9473684210526315, 0.9473684210526315, 1.0, 0.5882352941176471
+p,SIMPLE_NAME, line no: 32,compile,SIMPLE_NAME, line no: 56, 0.9473684210526315, 0.8947368421052632, 1.0, 0.8412698412698413
+p,SIMPLE_NAME, line no: 32,Pattern.compile(sb.toString() Pattern.CASE_INSENSITIVE),METHOD_INVOCATION, line no: 86, 0.9473684210526315, 0.9473684210526315, 1.0, 0.4017094017094017
+tryBuildPattern(needle),METHOD_INVOCATION, line no: 32,Pattern,SIMPLE_NAME, line no: 18, 0.9473684210526315, 0.05263157894736842, 1.0, 0.6235294117647059
+tryBuildPattern(needle),METHOD_INVOCATION, line no: 32,p,SIMPLE_NAME, line no: 25, 0.9473684210526315, 0.05263157894736842, 1.0, 0.5647058823529412
+tryBuildPattern(needle),METHOD_INVOCATION, line no: 32,compile,SIMPLE_NAME, line no: 56, 0.9473684210526315, 0.8947368421052632, 1.0, 0.5764705882352941
+p=tryBuildPattern(needle),ASSIGNMENT, line no: 32,Pattern,SIMPLE_NAME, line no: 18, 0.9444444444444444, 0.05555555555555555, 1.0, 0.6625
+p=tryBuildPattern(needle),ASSIGNMENT, line no: 32,compile,SIMPLE_NAME, line no: 56, 0.9444444444444444, 0.8888888888888888, 1.0, 0.625
+tryBuildPattern,SIMPLE_NAME, line no: 32,p=tryBuildPattern(needle),ASSIGNMENT, line no: 32, 0.9, 0.9, 1.0, 0.8125
+tryBuildPattern,SIMPLE_NAME, line no: 32,Pattern.compile(expanded Pattern.CASE_INSENSITIVE),METHOD_INVOCATION, line no: 56, 0.9, 0.9, 1.0, 0.5178571428571429
+needle,SIMPLE_NAME, line no: 32,String,SIMPLE_NAME, line no: 31, 0.9, 0.85, 1.0, 0.8870967741935484
+needle,SIMPLE_NAME, line no: 32,quoted,SIMPLE_NAME, line no: 50, 0.9, 0.9, 1.0, 0.8709677419354839
+needle,SIMPLE_NAME, line no: 32,quoted.replaceAll("(?<!\\\\\\\\)\\\\\\*" ".*"),METHOD_INVOCATION, line no: 51, 0.9, 0.9, 1.0, 0.46296296296296297
+needle,SIMPLE_NAME, line no: 32,"(?<!\\\\\\\\)\\\\\\*",STRING_LITERAL, line no: 51, 0.9, 0.9, 1.0, 0.5679012345679012
+needle,SIMPLE_NAME, line no: 32,".*",STRING_LITERAL, line no: 51, 0.9, 0.9, 1.0, 0.7301587301587301
+p,SIMPLE_NAME, line no: 32,Pattern.compile(expanded Pattern.CASE_INSENSITIVE),METHOD_INVOCATION, line no: 56, 0.8947368421052632, 0.8947368421052632, 1.0, 0.41964285714285715
+needle,SIMPLE_NAME, line no: 32,(String)rhs.eval(null),CAST_EXPRESSION, line no: 31, 0.8, 0.8, 1.0, 0.6097560975609756
+p=tryBuildPattern(needle),ASSIGNMENT, line no: 32,tryBuildPattern(needle),METHOD_INVOCATION, line no: 32, 0.5, 1.0, 0.5, 0.8470588235294118
+tryBuildPattern(needle),METHOD_INVOCATION, line no: 32,p=tryBuildPattern(needle),ASSIGNMENT, line no: 32, 0.47368421052631576, 0.9473684210526315, 0.5, 0.8470588235294118
+needle,SIMPLE_NAME, line no: 32,l.toString(),METHOD_INVOCATION, line no: 97, 0.45, 0.45, 1.0, 0.6351351351351351
+p=tryBuildPattern(needle),ASSIGNMENT, line no: 32,p != null,INFIX_EXPRESSION, line no: 96, 0.3611111111111111, 0.7222222222222222, 0.5, 0.625
+p=tryBuildPattern(needle),ASSIGNMENT, line no: 32,p.matcher(l.toString()).find(),METHOD_INVOCATION, line no: 97, 0.14814814814814814, 0.4444444444444444, 0.3333333333333333, 0.6195652173913043
+p=tryBuildPattern(needle),ASSIGNMENT, line no: 32,p.matcher(l.toString()),METHOD_INVOCATION, line no: 97, 0.14814814814814814, 0.4444444444444444, 0.3333333333333333, 0.6470588235294118
+needle,SIMPLE_NAME, line no: 32,"(" + lhs + " == "+ rhs+ ")",INFIX_EXPRESSION, line no: 109, 0.1, 0.1, 1.0, 0.5054945054945055
+needle,SIMPLE_NAME, line no: 32,"(",STRING_LITERAL, line no: 109, 0.1, 0.1, 1.0, 0.71875
+needle,SIMPLE_NAME, line no: 32," == ",STRING_LITERAL, line no: 109, 0.1, 0.1, 1.0, 0.6865671641791045
+needle,SIMPLE_NAME, line no: 32,")",STRING_LITERAL, line no: 109, 0.1, 0.1, 1.0, 0.71875
+p=tryBuildPattern(needle),ASSIGNMENT, line no: 32,tryBuildPattern2,SIMPLE_NAME, line no: 36, 0.05555555555555555, 0.05555555555555555, 1.0, 0.7875
+p,SIMPLE_NAME, line no: 32,tryBuildPattern2,SIMPLE_NAME, line no: 36, 0.05263157894736842, 0.05263157894736842, 1.0, 0.75
+tryBuildPattern(needle),METHOD_INVOCATION, line no: 32,tryBuildPattern2,SIMPLE_NAME, line no: 36, 0.05263157894736842, 0.05263157894736842, 1.0, 0.7411764705882353
+tryBuildPattern,SIMPLE_NAME, line no: 32,tryBuildPattern2,SIMPLE_NAME, line no: 36, 0.05, 0.05, 1.0, 0.9583333333333334

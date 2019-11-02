@@ -63,9 +63,9 @@ public class ReplaceHandler {
 				else {
 					candidatePatch.variableScore = modelExtractor.getVariableSimilarityScore(faultyNode.variableAccessed, fixingIngredient.variableAccessed);
 				}
-				candidatePatch.LCS = modelExtractor.getNormalizedLongestCommonSubsequence(faultyNode.toString(), fixingIngredient.toString());
-				candidatePatch.score = candidatePatch.genealogyScore*candidatePatch.variableScore;
-//				System.out.println(candidatePatch.genealogyScore+ " "+candidatePatch.variableScore);
+				candidatePatch.LCS = modelExtractor.getNormalizedLongestCommonSubsequence(faultyNode.node.toString(), fixingIngredient.node.toString());
+				candidatePatch.score = candidatePatch.genealogyScore+candidatePatch.variableScore;//+candidatePatch.LCS;
+//				System.out.println("LCS " +candidatePatch.LCS);
 				if(candidatePatch.score>0) {
 					this.patchListUpdater.updatePatchList(candidatePatch);
 				}

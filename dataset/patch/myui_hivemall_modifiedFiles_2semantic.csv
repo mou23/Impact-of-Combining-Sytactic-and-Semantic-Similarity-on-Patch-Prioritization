@@ -1,0 +1,40 @@
+getAvialablePort,SIMPLE_NAME, line no: 71,defaultPort,SIMPLE_NAME, line no: 34, 1.0, 1.0, 1.0, 0.8194444444444444
+getAvialablePort,SIMPLE_NAME, line no: 71,pos,SIMPLE_NAME, line no: 35, 1.0, 1.0, 1.0, 0.7361111111111112
+getAvialablePort,SIMPLE_NAME, line no: 71,endpointURI.indexOf(':'),METHOD_INVOCATION, line no: 35, 1.0, 1.0, 1.0, 0.5813953488372093
+getAvialablePort,SIMPLE_NAME, line no: 71,indexOf,SIMPLE_NAME, line no: 35, 1.0, 1.0, 1.0, 0.75
+getAvialablePort,SIMPLE_NAME, line no: 71,-1,PREFIX_EXPRESSION, line no: 36, 1.0, 1.0, 1.0, 0.625
+getAvialablePort,SIMPLE_NAME, line no: 71,1,NUMBER_LITERAL, line no: 36, 1.0, 1.0, 1.0, 0.625
+getAvialablePort,SIMPLE_NAME, line no: 71,0,NUMBER_LITERAL, line no: 40, 1.0, 1.0, 1.0, 0.625
+getAvialablePort,SIMPLE_NAME, line no: 71,pos + 1,INFIX_EXPRESSION, line no: 42, 1.0, 1.0, 1.0, 0.6388888888888888
+getAvialablePort,SIMPLE_NAME, line no: 71,port,SIMPLE_NAME, line no: 43, 1.0, 1.0, 1.0, 0.7638888888888888
+getAvialablePort,SIMPLE_NAME, line no: 71,Integer.parseInt(portStr),METHOD_INVOCATION, line no: 43, 1.0, 1.0, 1.0, 0.6091954022988506
+getAvialablePort,SIMPLE_NAME, line no: 71,parseInt,SIMPLE_NAME, line no: 43, 1.0, 1.0, 1.0, 0.7638888888888888
+getAvialablePort,SIMPLE_NAME, line no: 71,getAvailablePort,SIMPLE_NAME, line no: 60, 1.0, 1.0, 1.0, 0.9305555555555556
+getAvialablePort,SIMPLE_NAME, line no: 71,s.getLocalPort(),METHOD_INVOCATION, line no: 65, 1.0, 1.0, 1.0, 0.7051282051282052
+getAvialablePort,SIMPLE_NAME, line no: 71,getLocalPort,SIMPLE_NAME, line no: 65, 1.0, 1.0, 1.0, 0.8472222222222222
+getAvialablePort,SIMPLE_NAME, line no: 71,basePort,SIMPLE_NAME, line no: 71, 1.0, 1.0, 1.0, 0.8611111111111112
+getAvialablePort,SIMPLE_NAME, line no: 71,getAvailablePort(),METHOD_INVOCATION, line no: 73, 1.0, 1.0, 1.0, 0.7875
+getAvialablePort,SIMPLE_NAME, line no: 71,65535,NUMBER_LITERAL, line no: 75, 1.0, 1.0, 1.0, 0.6527777777777778
+getAvialablePort,SIMPLE_NAME, line no: 71,int i=basePort,VARIABLE_DECLARATION_EXPRESSION, line no: 78, 1.0, 1.0, 1.0, 0.6333333333333333
+getAvialablePort,SIMPLE_NAME, line no: 71,i,SIMPLE_NAME, line no: 78, 1.0, 1.0, 1.0, 0.7638888888888888
+getAvialablePort,SIMPLE_NAME, line no: 71,i++,POSTFIX_EXPRESSION, line no: 78, 1.0, 1.0, 1.0, 0.6805555555555556
+basePort,SIMPLE_NAME, line no: 71,defaultPort,SIMPLE_NAME, line no: 34, 1.0, 1.0, 1.0, 0.8507462686567164
+basePort,SIMPLE_NAME, line no: 71,port,SIMPLE_NAME, line no: 43, 1.0, 0.5, 1.0, 0.859375
+basePort,SIMPLE_NAME, line no: 71,pos,SIMPLE_NAME, line no: 35, 0.5, 0.5, 1.0, 0.828125
+basePort,SIMPLE_NAME, line no: 71,endpointURI.indexOf(':'),METHOD_INVOCATION, line no: 35, 0.5, 0.5, 1.0, 0.5697674418604651
+basePort,SIMPLE_NAME, line no: 71,indexOf,SIMPLE_NAME, line no: 35, 0.5, 0.5, 1.0, 0.828125
+basePort,SIMPLE_NAME, line no: 71,-1,PREFIX_EXPRESSION, line no: 36, 0.5, 0.5, 1.0, 0.703125
+basePort,SIMPLE_NAME, line no: 71,1,NUMBER_LITERAL, line no: 36, 0.5, 0.5, 1.0, 0.703125
+basePort,SIMPLE_NAME, line no: 71,0,NUMBER_LITERAL, line no: 40, 0.5, 0.5, 1.0, 0.703125
+basePort,SIMPLE_NAME, line no: 71,pos + 1,INFIX_EXPRESSION, line no: 42, 0.5, 0.5, 1.0, 0.6764705882352942
+basePort,SIMPLE_NAME, line no: 71,Integer.parseInt(portStr),METHOD_INVOCATION, line no: 43, 0.5, 0.5, 1.0, 0.5977011494252874
+basePort,SIMPLE_NAME, line no: 71,parseInt,SIMPLE_NAME, line no: 43, 0.5, 0.5, 1.0, 0.875
+basePort,SIMPLE_NAME, line no: 71,getAvailablePort,SIMPLE_NAME, line no: 60, 0.5, 0.5, 1.0, 0.8055555555555556
+basePort,SIMPLE_NAME, line no: 71,s.getLocalPort(),METHOD_INVOCATION, line no: 65, 0.5, 0.5, 1.0, 0.6666666666666666
+basePort,SIMPLE_NAME, line no: 71,getLocalPort,SIMPLE_NAME, line no: 65, 0.5, 0.5, 1.0, 0.8382352941176471
+basePort,SIMPLE_NAME, line no: 71,getAvialablePort,SIMPLE_NAME, line no: 71, 0.5, 0.5, 1.0, 0.8611111111111112
+basePort,SIMPLE_NAME, line no: 71,getAvailablePort(),METHOD_INVOCATION, line no: 73, 0.5, 0.5, 1.0, 0.675
+basePort,SIMPLE_NAME, line no: 71,65535,NUMBER_LITERAL, line no: 75, 0.5, 0.5, 1.0, 0.734375
+basePort,SIMPLE_NAME, line no: 71,int i=basePort,VARIABLE_DECLARATION_EXPRESSION, line no: 78, 0.5, 0.5, 1.0, 0.6333333333333333
+basePort,SIMPLE_NAME, line no: 71,i,SIMPLE_NAME, line no: 78, 0.5, 0.5, 1.0, 0.84375
+basePort,SIMPLE_NAME, line no: 71,i++,POSTFIX_EXPRESSION, line no: 78, 0.5, 0.5, 1.0, 0.7272727272727273

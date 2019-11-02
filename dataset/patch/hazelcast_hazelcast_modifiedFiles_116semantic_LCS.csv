@@ -1,0 +1,133 @@
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,!endpoint.isFirstConnection(),PREFIX_EXPRESSION, line no: 379, 0.9655172413793104, 0.30303030303030304, 1.0, 0.9655172413793104
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,endpoint.getConnection(),METHOD_INVOCATION, line no: 183, 0.7857142857142857, 0.696969696969697, 1.0, 0.7857142857142857
+endpoint,SIMPLE_NAME, line no: 309,getEndpoint,SIMPLE_NAME, line no: 232, 0.7272727272727273, 0.029411764705882353, 1.0, 0.7272727272727273
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,isFirstConnection,SIMPLE_NAME, line no: 309, 0.6071428571428571, 1.0, 1.0, 0.6071428571428571
+isFirstConnection,SIMPLE_NAME, line no: 309,endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309, 0.6071428571428571, 0.9705882352941176, 1.0, 0.6071428571428571
+isFirstConnection,SIMPLE_NAME, line no: 309,!endpoint.isFirstConnection(),PREFIX_EXPRESSION, line no: 379, 0.5862068965517241, 0.29411764705882354, 1.0, 0.5862068965517241
+endpoint,SIMPLE_NAME, line no: 309,ClientEndpoint,SIMPLE_NAME, line no: 77, 0.5714285714285714, 0.029411764705882353, 1.0, 0.5714285714285714
+endpoint,SIMPLE_NAME, line no: 309,removeEndpoint,SIMPLE_NAME, line no: 250, 0.5714285714285714, 0.029411764705882353, 1.0, 0.5714285714285714
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,endpoint.isAuthenticated(),METHOD_INVOCATION, line no: 442, 0.5703463203463204, 0.9393939393939394, 1.0, 0.6071428571428571
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,endpoint.getPrincipal(),METHOD_INVOCATION, line no: 343, 0.5357142857142857, 0.8181818181818182, 1.0, 0.5357142857142857
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,endpoint.getUuid().hashCode(),METHOD_INVOCATION, line no: 312, 0.5015673981191222, 0.9090909090909091, 1.0, 0.5517241379310345
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,endpoint.getUuid(),METHOD_INVOCATION, line no: 225, 0.48484848484848486, 0.45454545454545453, 1.0, 0.5
+endpoint,SIMPLE_NAME, line no: 309,getEndpoint(conn),METHOD_INVOCATION, line no: 427, 0.47058823529411764, 1.0, 1.0, 0.47058823529411764
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,endpoint.getPrincipal().getOwnerUuid(),METHOD_INVOCATION, line no: 343, 0.4473684210526316, 0.8181818181818182, 1.0, 0.4473684210526316
+isFirstConnection,SIMPLE_NAME, line no: 309,connection.isClient(),METHOD_INVOCATION, line no: 550, 0.42857142857142855, 1.0, 1.0, 0.42857142857142855
+isFirstConnection,SIMPLE_NAME, line no: 309,conn instanceof TcpIpConnection,INSTANCEOF_EXPRESSION, line no: 300, 0.3946869070208729, 0.9411764705882353, 1.0, 0.41935483870967744
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,sendClientEvent(endpoint),METHOD_INVOCATION, line no: 289, 0.38095238095238093, 0.9696969696969697, 1.0, 0.39285714285714285
+isFirstConnection,SIMPLE_NAME, line no: 309,connection instanceof TcpIpConnection,INSTANCEOF_EXPRESSION, line no: 550, 0.3783783783783784, 1.0, 1.0, 0.3783783783783784
+endpoint,SIMPLE_NAME, line no: 309,removeEndpoint(conn),METHOD_INVOCATION, line no: 535, 0.3764705882352941, 0.9411764705882353, 1.0, 0.4
+isFirstConnection,SIMPLE_NAME, line no: 309,nodeEngine.isActive(),METHOD_INVOCATION, line no: 477, 0.3333333333333333, 1.0, 1.0, 0.3333333333333333
+isFirstConnection,SIMPLE_NAME, line no: 309,isAuthenticated,SIMPLE_NAME, line no: 318, 0.3321799307958478, 0.47058823529411764, 1.0, 0.35294117647058826
+isFirstConnection,SIMPLE_NAME, line no: 309,iterator.hasNext(),METHOD_INVOCATION, line no: 341, 0.32352941176470584, 0.9705882352941176, 1.0, 0.3333333333333333
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,endpoint == null,INFIX_EXPRESSION, line no: 440, 0.32142857142857145, 0.9393939393939394, 1.0, 0.32142857142857145
+endpoint,SIMPLE_NAME, line no: 309,endpoints.get(connection),METHOD_INVOCATION, line no: 551, 0.32, 1.0, 1.0, 0.32
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,new ClientDisconnectionOperation(endpoint.getUuid()),CLASS_INSTANCE_CREATION, line no: 574, 0.31701631701631705, 0.9696969696969697, 1.0, 0.3269230769230769
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,endpoint != null,INFIX_EXPRESSION, line no: 261, 0.31168831168831174, 0.9696969696969697, 1.0, 0.32142857142857145
+isFirstConnection,SIMPLE_NAME, line no: 309,isActive,SIMPLE_NAME, line no: 477, 0.29411764705882354, 1.0, 1.0, 0.29411764705882354
+isFirstConnection,SIMPLE_NAME, line no: 309,isClient,SIMPLE_NAME, line no: 550, 0.29411764705882354, 1.0, 1.0, 0.29411764705882354
+isFirstConnection,SIMPLE_NAME, line no: 309,connection.live(),METHOD_INVOCATION, line no: 279, 0.28027681660899656, 0.5294117647058824, 1.0, 0.5294117647058824
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,"Destroying " + endpoint,INFIX_EXPRESSION, line no: 262, 0.27705627705627706, 0.9696969696969697, 1.0, 0.2857142857142857
+endpoint,SIMPLE_NAME, line no: 309,putIfAbsent,SIMPLE_NAME, line no: 244, 0.2727272727272727, 1.0, 1.0, 0.2727272727272727
+endpoint,SIMPLE_NAME, line no: 309,createEndpoint,SIMPLE_NAME, line no: 236, 0.2689075630252101, 0.029411764705882353, 1.0, 0.5714285714285714
+isFirstConnection,SIMPLE_NAME, line no: 309,securityContext != null,INFIX_EXPRESSION, line no: 501, 0.2647058823529412, 0.6764705882352942, 1.0, 0.391304347826087
+isFirstConnection,SIMPLE_NAME, line no: 309,request instanceof AuthenticationRequest,INSTANCEOF_EXPRESSION, line no: 433, 0.25882352941176473, 0.9411764705882353, 1.0, 0.275
+endpoint,SIMPLE_NAME, line no: 309,removeEndpoint(connection true),METHOD_INVOCATION, line no: 565, 0.25806451612903225, 1.0, 1.0, 0.25806451612903225
+isFirstConnection,SIMPLE_NAME, line no: 309,endpoint.isAuthenticated(),METHOD_INVOCATION, line no: 442, 0.25339366515837103, 0.9411764705882353, 1.0, 0.2692307692307692
+endpoint,SIMPLE_NAME, line no: 309,get,SIMPLE_NAME, line no: 233, 0.25, 0.17647058823529413, 1.0, 0.25
+isFirstConnection,SIMPLE_NAME, line no: 309,conn.live(),METHOD_INVOCATION, line no: 237, 0.23529411764705882, 1.0, 1.0, 0.23529411764705882
+isFirstConnection,SIMPLE_NAME, line no: 309,endpoint == null,INFIX_EXPRESSION, line no: 440, 0.23529411764705882, 0.9411764705882353, 1.0, 0.23529411764705882
+isFirstConnection,SIMPLE_NAME, line no: 309,!conn.live(),PREFIX_EXPRESSION, line no: 237, 0.22837370242214533, 0.9705882352941176, 1.0, 0.23529411764705882
+isFirstConnection,SIMPLE_NAME, line no: 309,closeImmediately,SIMPLE_NAME, line no: 254, 0.22837370242214533, 0.029411764705882353, 1.0, 0.23529411764705882
+isFirstConnection,SIMPLE_NAME, line no: 309,endpoint != null,INFIX_EXPRESSION, line no: 261, 0.22837370242214533, 0.9705882352941176, 1.0, 0.23529411764705882
+isFirstConnection,SIMPLE_NAME, line no: 309,isLoggable,SIMPLE_NAME, line no: 478, 0.22837370242214533, 0.9705882352941176, 1.0, 0.23529411764705882
+isFirstConnection,SIMPLE_NAME, line no: 309,request != null,INFIX_EXPRESSION, line no: 486, 0.22837370242214533, 0.9705882352941176, 1.0, 0.23529411764705882
+isFirstConnection,SIMPLE_NAME, line no: 309,uuid.equals(ownerUuid),METHOD_INVOCATION, line no: 344, 0.2245989304812834, 0.8235294117647058, 1.0, 0.2727272727272727
+endpoint,SIMPLE_NAME, line no: 309,endpoints.putIfAbsent(conn endpoint),METHOD_INVOCATION, line no: 244, 0.2222222222222222, 1.0, 1.0, 0.2222222222222222
+isFirstConnection,SIMPLE_NAME, line no: 309,request == null,INFIX_EXPRESSION, line no: 431, 0.22145328719723184, 0.9411764705882353, 1.0, 0.23529411764705882
+isFirstConnection,SIMPLE_NAME, line no: 309,endpoints.putIfAbsent(conn endpoint) != null,INFIX_EXPRESSION, line no: 244, 0.22058823529411764, 0.9705882352941176, 1.0, 0.22727272727272727
+endpoint,SIMPLE_NAME, line no: 309,iterator.next(),METHOD_INVOCATION, line no: 342, 0.21176470588235294, 0.7941176470588235, 1.0, 0.26666666666666666
+endpoint,SIMPLE_NAME, line no: 309,next,SIMPLE_NAME, line no: 342, 0.20588235294117646, 0.8235294117647058, 1.0, 0.25
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,isAuthenticated,SIMPLE_NAME, line no: 318, 0.2012987012987013, 0.48484848484848486, 1.0, 0.21428571428571427
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,endpoint.getSubject(),METHOD_INVOCATION, line no: 504, 0.19480519480519481, 0.36363636363636365, 1.0, 0.5357142857142857
+isFirstConnection,SIMPLE_NAME, line no: 309,request != null && endpoint != null,INFIX_EXPRESSION, line no: 486, 0.19411764705882353, 0.9705882352941176, 1.0, 0.2
+isFirstConnection,SIMPLE_NAME, line no: 309,service == null,INFIX_EXPRESSION, line no: 516, 0.19377162629757785, 0.8235294117647058, 1.0, 0.23529411764705882
+isFirstConnection,SIMPLE_NAME, line no: 309,localMemberUuid.equals(ownerUuid),METHOD_INVOCATION, line no: 558, 0.18181818181818182, 1.0, 1.0, 0.18181818181818182
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,isActive,SIMPLE_NAME, line no: 477, 0.17857142857142858, 1.0, 1.0, 0.17857142857142858
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,isClient,SIMPLE_NAME, line no: 550, 0.17857142857142858, 1.0, 1.0, 0.17857142857142858
+endpoint,SIMPLE_NAME, line no: 309,createEndpoint(conn),METHOD_INVOCATION, line no: 434, 0.17647058823529413, 0.4411764705882353, 1.0, 0.4
+endpoint,SIMPLE_NAME, line no: 309,event,SIMPLE_NAME, line no: 317, 0.1764705882352941, 0.029411764705882353, 1.0, 0.375
+isFirstConnection,SIMPLE_NAME, line no: 309,serviceName == null,INFIX_EXPRESSION, line no: 511, 0.17337461300309595, 0.8235294117647058, 1.0, 0.21052631578947367
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,closeImmediately,SIMPLE_NAME, line no: 254, 0.17316017316017318, 0.030303030303030304, 1.0, 0.17857142857142858
+isFirstConnection,SIMPLE_NAME, line no: 309,connection.isClient() && connection instanceof TcpIpConnection && nodeEngine.isActive(),INFIX_EXPRESSION, line no: 550, 0.1724137931034483, 1.0, 1.0, 0.1724137931034483
+isFirstConnection,SIMPLE_NAME, line no: 309,hasNext,SIMPLE_NAME, line no: 341, 0.171280276816609, 0.9705882352941176, 1.0, 0.17647058823529413
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,endpoints.putIfAbsent(conn endpoint),METHOD_INVOCATION, line no: 244, 0.16666666666666666, 1.0, 0.3333333333333333, 0.5
+isFirstConnection,SIMPLE_NAME, line no: 309,permission != null,INFIX_EXPRESSION, line no: 503, 0.16666666666666666, 0.5, 1.0, 0.3333333333333333
+isFirstConnection,SIMPLE_NAME, line no: 309,isFinestEnabled,SIMPLE_NAME, line no: 352, 0.1660899653979239, 0.35294117647058826, 1.0, 0.47058823529411764
+isFirstConnection,SIMPLE_NAME, line no: 309,logger.isLoggable(level),METHOD_INVOCATION, line no: 478, 0.16176470588235292, 0.9705882352941176, 1.0, 0.16666666666666666
+isFirstConnection,SIMPLE_NAME, line no: 309,member.localMember(),METHOD_INVOCATION, line no: 580, 0.14558823529411763, 0.9705882352941176, 1.0, 0.15
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,logger.info("Destroying " + endpoint),METHOD_INVOCATION, line no: 262, 0.14414414414414414, 0.9696969696969697, 0.5, 0.2972972972972973
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,isLoggable,SIMPLE_NAME, line no: 478, 0.13852813852813853, 0.9696969696969697, 1.0, 0.14285714285714285
+endpoint,SIMPLE_NAME, line no: 309,new ClientEndpoint(ClientEngineImpl.this conn clientUuid),CLASS_INSTANCE_CREATION, line no: 243, 0.13622291021671826, 0.9705882352941176, 1.0, 0.14035087719298245
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,endpoints.putIfAbsent(conn endpoint) != null,INFIX_EXPRESSION, line no: 244, 0.1322314049586777, 0.9696969696969697, 0.3333333333333333, 0.4090909090909091
+isFirstConnection,SIMPLE_NAME, line no: 309,event.getMember().localMember(),METHOD_INVOCATION, line no: 331, 0.12903225806451613, 1.0, 1.0, 0.12903225806451613
+isFirstConnection,SIMPLE_NAME, line no: 309,connectionManager.bind((TcpIpConnection)conn address null false),METHOD_INVOCATION, line no: 303, 0.12683823529411764, 0.6764705882352942, 1.0, 0.1875
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,endpoint.sendResponse(exception request.getCallId()),METHOD_INVOCATION, line no: 534, 0.12645687645687648, 0.9393939393939394, 0.3333333333333333, 0.40384615384615385
+endpoint,SIMPLE_NAME, line no: 309,endpoints.remove(connection),METHOD_INVOCATION, line no: 255, 0.12605042016806722, 0.4411764705882353, 1.0, 0.2857142857142857
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,request.setEndpoint(endpoint),METHOD_INVOCATION, line no: 492, 0.12539184952978055, 0.6060606060606061, 0.5, 0.41379310344827586
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,request != null && endpoint != null,INFIX_EXPRESSION, line no: 486, 0.12467532467532466, 0.9696969696969697, 0.5, 0.2571428571428571
+isFirstConnection,SIMPLE_NAME, line no: 309,write,SIMPLE_NAME, line no: 184, 0.12456747404844293, 0.7058823529411765, 1.0, 0.17647058823529413
+endpoint,SIMPLE_NAME, line no: 309,remove,SIMPLE_NAME, line no: 255, 0.11764705882352941, 0.47058823529411764, 1.0, 0.25
+isFirstConnection,SIMPLE_NAME, line no: 309,live,SIMPLE_NAME, line no: 237, 0.11764705882352941, 1.0, 1.0, 0.11764705882352941
+isFirstConnection,SIMPLE_NAME, line no: 309,localMember,SIMPLE_NAME, line no: 331, 0.11764705882352941, 1.0, 1.0, 0.11764705882352941
+isFirstConnection,SIMPLE_NAME, line no: 309,true,BOOLEAN_LITERAL, line no: 346, 0.11764705882352941, 0.2647058823529412, 1.0, 0.11764705882352941
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,endpoint=createEndpoint(conn),ASSIGNMENT, line no: 434, 0.11703239289446186, 0.42424242424242425, 0.5, 0.5517241379310345
+isFirstConnection,SIMPLE_NAME, line no: 309,event.isAuthenticated(),METHOD_INVOCATION, line no: 318, 0.11508951406649616, 0.4411764705882353, 1.0, 0.2608695652173913
+isFirstConnection,SIMPLE_NAME, line no: 309,deregisterListener,SIMPLE_NAME, line no: 369, 0.11437908496732027, 0.29411764705882354, 1.0, 0.3888888888888889
+endpoint,SIMPLE_NAME, line no: 309,endpoint=createEndpoint(conn),ASSIGNMENT, line no: 434, 0.11359026369168357, 0.4117647058823529, 1.0, 0.27586206896551724
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,destroyEndpoint(endpoint true),METHOD_INVOCATION, line no: 346, 0.10909090909090909, 0.2727272727272727, 1.0, 0.4
+isFirstConnection,SIMPLE_NAME, line no: 309,logger.isFinestEnabled(),METHOD_INVOCATION, line no: 352, 0.10784313725490197, 0.3235294117647059, 1.0, 0.3333333333333333
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,true,BOOLEAN_LITERAL, line no: 346, 0.10714285714285714, 0.2727272727272727, 1.0, 0.10714285714285714
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,checkPermissions(endpoint request),METHOD_INVOCATION, line no: 495, 0.10695187165775402, 0.6060606060606061, 0.5, 0.35294117647058826
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,hasNext,SIMPLE_NAME, line no: 341, 0.10389610389610389, 0.9696969696969697, 1.0, 0.10714285714285714
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,isFinestEnabled,SIMPLE_NAME, line no: 352, 0.10389610389610389, 0.36363636363636365, 1.0, 0.2857142857142857
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,uuid.equals(endpoint.getUuid()),METHOD_INVOCATION, line no: 225, 0.09579667644183773, 0.42424242424242425, 0.5, 0.45161290322580644
+isFirstConnection,SIMPLE_NAME, line no: 309,conn.write(new DataAdapter(resultData serializationService.getSerializationContext())),METHOD_INVOCATION, line no: 184, 0.09439124487004104, 0.6764705882352942, 1.0, 0.13953488372093023
+isFirstConnection,SIMPLE_NAME, line no: 309,uuid.equals(endpoint.getUuid()),METHOD_INVOCATION, line no: 225, 0.09297912713472485, 0.4117647058823529, 1.0, 0.22580645161290322
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,endpoint.destroy(),METHOD_INVOCATION, line no: 264, 0.09090909090909091, 0.18181818181818182, 1.0, 0.5
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,deregisterListener,SIMPLE_NAME, line no: 369, 0.08658008658008658, 0.30303030303030304, 1.0, 0.2857142857142857
+isFirstConnection,SIMPLE_NAME, line no: 309,bind,SIMPLE_NAME, line no: 303, 0.08304498269896195, 0.7058823529411765, 1.0, 0.11764705882352941
+isFirstConnection,SIMPLE_NAME, line no: 309,false,BOOLEAN_LITERAL, line no: 251, 0.07958477508650519, 0.11764705882352941, 1.0, 0.11764705882352941
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,write,SIMPLE_NAME, line no: 184, 0.07792207792207792, 0.7272727272727273, 1.0, 0.10714285714285714
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,equals,SIMPLE_NAME, line no: 225, 0.07142857142857142, 0.45454545454545453, 1.0, 0.07142857142857142
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,live,SIMPLE_NAME, line no: 237, 0.07142857142857142, 1.0, 1.0, 0.07142857142857142
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,localMember,SIMPLE_NAME, line no: 331, 0.07142857142857142, 1.0, 1.0, 0.07142857142857142
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,destroyEndpoint(endpoint closeImmediately),METHOD_INVOCATION, line no: 256, 0.0707070707070707, 0.42424242424242425, 0.5, 0.3333333333333333
+endpoint,SIMPLE_NAME, line no: 309,endpoints.get(conn),METHOD_INVOCATION, line no: 233, 0.06191950464396285, 0.14705882352941177, 1.0, 0.42105263157894735
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,doRemoveEndpoint(connection endpoint),METHOD_INVOCATION, line no: 559, 0.05896805896805897, 0.24242424242424243, 0.5, 0.4864864864864865
+isFirstConnection,SIMPLE_NAME, line no: 309,equals,SIMPLE_NAME, line no: 225, 0.058823529411764705, 0.4411764705882353, 1.0, 0.058823529411764705
+isFirstConnection,SIMPLE_NAME, line no: 309,send,SIMPLE_NAME, line no: 156, 0.05709342560553634, 0.2647058823529412, 1.0, 0.17647058823529413
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,bind,SIMPLE_NAME, line no: 303, 0.051948051948051945, 0.7272727272727273, 1.0, 0.07142857142857142
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,false,BOOLEAN_LITERAL, line no: 251, 0.049783549783549784, 0.12121212121212122, 1.0, 0.07142857142857142
+isFirstConnection,SIMPLE_NAME, line no: 309,endpointSet.add(endpoint),METHOD_INVOCATION, line no: 226, 0.04941176470588235, 0.20588235294117646, 1.0, 0.24
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,endpointSet.add(endpoint),METHOD_INVOCATION, line no: 226, 0.04924242424242425, 0.21212121212121213, 0.5, 0.4642857142857143
+isFirstConnection,SIMPLE_NAME, line no: 309,clients.add(endpoint),METHOD_INVOCATION, line no: 380, 0.04901960784313725, 0.20588235294117646, 1.0, 0.23809523809523808
+isFirstConnection,SIMPLE_NAME, line no: 309,operationService.send(op member.getAddress()),METHOD_INVOCATION, line no: 583, 0.04575163398692811, 0.29411764705882354, 1.0, 0.15555555555555556
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,processRequest(endpoint request),METHOD_INVOCATION, line no: 436, 0.045454545454545456, 0.24242424242424243, 0.5, 0.375
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,eventService.publishEvent(SERVICE_NAME regs endpoint endpoint.getUuid().hashCode()),METHOD_INVOCATION, line no: 312, 0.044998174516246804, 0.8787878787878788, 0.25, 0.20481927710843373
+isFirstConnection,SIMPLE_NAME, line no: 309,getOperationService().send(op target),METHOD_INVOCATION, line no: 156, 0.044515103338632754, 0.23529411764705882, 1.0, 0.1891891891891892
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,endpoint.sendResponse(e request.getCallId()),METHOD_INVOCATION, line no: 487, 0.03902662993572084, 0.30303030303030304, 0.3333333333333333, 0.38636363636363635
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,send,SIMPLE_NAME, line no: 156, 0.03571428571428571, 0.2727272727272727, 1.0, 0.10714285714285714
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,clients.add(endpoint),METHOD_INVOCATION, line no: 380, 0.034090909090909095, 0.21212121212121213, 0.5, 0.32142857142857145
+isFirstConnection,SIMPLE_NAME, line no: 309,nodeEngine.getEventService().deregisterListener(SERVICE_NAME SERVICE_NAME registrationId),METHOD_INVOCATION, line no: 369, 0.03271645736946464, 0.2647058823529412, 1.0, 0.12359550561797752
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,securityContext.checkPermission(endpoint.getSubject() permission),METHOD_INVOCATION, line no: 504, 0.03076923076923077, 0.3333333333333333, 0.3333333333333333, 0.27692307692307694
+endpoint,SIMPLE_NAME, line no: 309,removeEndpoint(connection false),METHOD_INVOCATION, line no: 251, 0.029411764705882353, 0.11764705882352941, 1.0, 0.25
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,handleAuthenticationFailure(conn endpoint request),METHOD_INVOCATION, line no: 445, 0.027272727272727268, 0.2727272727272727, 0.3333333333333333, 0.3
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,handleProcessingFailure(endpoint request e),METHOD_INVOCATION, line no: 448, 0.02137655626027719, 0.21212121212121213, 0.3333333333333333, 0.3023255813953488
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,new Runnable(){   @Override public void run(){     Iterator<ClientEndpoint> iterator=endpoints.values().iterator();     while (iterator.hasNext()) {       ClientEndpoint endpoint=iterator.next();       String ownerUuid=endpoint.getPrincipal().getOwnerUuid();       if (uuid.equals(ownerUuid)) {         iterator.remove();         destroyEndpoint(endpoint true);       }     }   } } ,CLASS_INSTANCE_CREATION, line no: 337, 0.013200063461843568, 0.9696969696969697, 0.2, 0.06806282722513089
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,removeClientListener,SIMPLE_NAME, line no: 368, 0.010822510822510824, 0.030303030303030304, 1.0, 0.35714285714285715
+isFirstConnection,SIMPLE_NAME, line no: 309,removeClientListener,SIMPLE_NAME, line no: 368, 0.008823529411764706, 0.029411764705882353, 1.0, 0.3
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,add,SIMPLE_NAME, line no: 226, 0.008658008658008658, 0.24242424242424243, 1.0, 0.03571428571428571
+isFirstConnection,SIMPLE_NAME, line no: 309,terminate,SIMPLE_NAME, line no: 398, 0.006920415224913495, 0.029411764705882353, 1.0, 0.23529411764705882
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,nodeEngine.getExecutionService().schedule(new Runnable(){   @Override public void run(){     Iterator<ClientEndpoint> iterator=endpoints.values().iterator();     while (iterator.hasNext()) {       ClientEndpoint endpoint=iterator.next();       String ownerUuid=endpoint.getPrincipal().getOwnerUuid();       if (uuid.equals(ownerUuid)) {         iterator.remove();         destroyEndpoint(endpoint true);       }     }   } } ENDPOINT_REMOVE_DELAY_MS TimeUnit.SECONDS),METHOD_INVOCATION, line no: 337, 0.006748426448640581, 0.9696969696969697, 0.125, 0.055674518201284794
+endpoint.isFirstConnection(),METHOD_INVOCATION, line no: 309,terminate,SIMPLE_NAME, line no: 398, 0.005411255411255412, 0.030303030303030304, 1.0, 0.17857142857142858

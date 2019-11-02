@@ -1,0 +1,63 @@
+value,SIMPLE_NAME, line no: 45,value1,SIMPLE_NAME, line no: 58, 0.6944444444444445, 0.03333333333333333, 1.0, 0.8333333333333334
+value,SIMPLE_NAME, line no: 45,value2,SIMPLE_NAME, line no: 58, 0.6944444444444445, 0.03333333333333333, 1.0, 0.8333333333333334
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,ObjectRecordWithStats,SIMPLE_NAME, line no: 45, 0.5833333333333334, 1.0, 1.0, 0.5833333333333334
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45, 0.5456989247311828, 0.9354838709677419, 1.0, 0.5833333333333334
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,ObjectRecord,SIMPLE_NAME, line no: 45, 0.5217391304347826, 1.0, 1.0, 0.5217391304347826
+ObjectRecord,SIMPLE_NAME, line no: 45,new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45, 0.488078541374474, 0.9354838709677419, 1.0, 0.5217391304347826
+v,SIMPLE_NAME, line no: 45,v1,SIMPLE_NAME, line no: 59, 0.4166666666666667, 0.8333333333333334, 1.0, 0.5
+v,SIMPLE_NAME, line no: 45,v2,SIMPLE_NAME, line no: 60, 0.4166666666666667, 0.8333333333333334, 1.0, 0.5
+statisticsEnabled,SIMPLE_NAME, line no: 45,isStatisticsEnabled,SIMPLE_NAME, line no: 31, 0.2776769509981851, 0.3103448275862069, 1.0, 0.8947368421052632
+statisticsEnabled,SIMPLE_NAME, line no: 45,value instanceof Data,INSTANCEOF_EXPRESSION, line no: 42, 0.25615763546798026, 0.896551724137931, 1.0, 0.2857142857142857
+statisticsEnabled,SIMPLE_NAME, line no: 45,value1 instanceof Data,INSTANCEOF_EXPRESSION, line no: 59, 0.23510971786833854, 0.8620689655172413, 1.0, 0.2727272727272727
+statisticsEnabled,SIMPLE_NAME, line no: 45,value2 instanceof Data,INSTANCEOF_EXPRESSION, line no: 60, 0.23510971786833854, 0.8620689655172413, 1.0, 0.2727272727272727
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45, 0.21951219512195122, 1.0, 0.5, 0.43902439024390244
+statisticsEnabled,SIMPLE_NAME, line no: 45,this.statisticsEnabled,FIELD_ACCESS, line no: 31, 0.21316614420062696, 0.27586206896551724, 1.0, 0.7727272727272727
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45, 0.21296296296296294, 1.0, 0.3333333333333333, 0.6388888888888888
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45, 0.21296296296296294, 1.0, 0.3333333333333333, 0.6388888888888888
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45, 0.21194280908326327, 0.9655172413793104, 0.5, 0.43902439024390244
+value,SIMPLE_NAME, line no: 45,v,SIMPLE_NAME, line no: 41, 0.2, 0.9, 1.0, 0.2
+v,SIMPLE_NAME, line no: 45,value,SIMPLE_NAME, line no: 40, 0.2, 0.03333333333333333, 1.0, 0.2
+statisticsEnabled,SIMPLE_NAME, line no: 45,config.isStatisticsEnabled(),METHOD_INVOCATION, line no: 31, 0.16748768472906403, 0.27586206896551724, 1.0, 0.6071428571428571
+value,SIMPLE_NAME, line no: 45,v1,SIMPLE_NAME, line no: 59, 0.16666666666666669, 0.8333333333333334, 1.0, 0.2
+value,SIMPLE_NAME, line no: 45,v2,SIMPLE_NAME, line no: 60, 0.16666666666666669, 0.8333333333333334, 1.0, 0.2
+value,SIMPLE_NAME, line no: 45,Object,SIMPLE_NAME, line no: 24, 0.15, 0.03333333333333333, 1.0, 0.16666666666666666
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45, 0.1402439024390244, 1.0, 0.5, 0.2804878048780488
+v,SIMPLE_NAME, line no: 45,value1,SIMPLE_NAME, line no: 58, 0.1388888888888889, 0.03333333333333333, 1.0, 0.16666666666666666
+v,SIMPLE_NAME, line no: 45,value2,SIMPLE_NAME, line no: 58, 0.1388888888888889, 0.03333333333333333, 1.0, 0.16666666666666666
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45, 0.13540790580319598, 0.9655172413793104, 0.5, 0.2804878048780488
+value,SIMPLE_NAME, line no: 45,serializationService.toObject(value1),METHOD_INVOCATION, line no: 59, 0.11261261261261263, 0.8333333333333334, 1.0, 0.13513513513513514
+value,SIMPLE_NAME, line no: 45,serializationService.toObject(value2),METHOD_INVOCATION, line no: 60, 0.11261261261261263, 0.8333333333333334, 1.0, 0.13513513513513514
+value,SIMPLE_NAME, line no: 45,toObject,SIMPLE_NAME, line no: 43, 0.10416666666666667, 0.3, 1.0, 0.125
+statisticsEnabled,SIMPLE_NAME, line no: 45,v1 == null,INFIX_EXPRESSION, line no: 61, 0.10141987829614604, 0.8620689655172413, 1.0, 0.11764705882352941
+statisticsEnabled,SIMPLE_NAME, line no: 45,v2 == null,INFIX_EXPRESSION, line no: 61, 0.10141987829614604, 0.8620689655172413, 1.0, 0.11764705882352941
+statisticsEnabled,SIMPLE_NAME, line no: 45,v1.equals(v2),METHOD_INVOCATION, line no: 70, 0.10141987829614604, 0.8620689655172413, 1.0, 0.11764705882352941
+statisticsEnabled,SIMPLE_NAME, line no: 45,equals,SIMPLE_NAME, line no: 70, 0.10141987829614604, 0.8620689655172413, 1.0, 0.11764705882352941
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,value instanceof Data,INSTANCEOF_EXPRESSION, line no: 42, 0.09961685823754789, 0.896551724137931, 0.5, 0.2222222222222222
+statisticsEnabled,SIMPLE_NAME, line no: 45,this.statisticsEnabled=config.isStatisticsEnabled(),ASSIGNMENT, line no: 31, 0.09195402298850575, 0.27586206896551724, 1.0, 0.3333333333333333
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,record.setValue(v),METHOD_INVOCATION, line no: 54, 0.07196401799100449, 0.6206896551724138, 0.3333333333333333, 0.34782608695652173
+statisticsEnabled,SIMPLE_NAME, line no: 45,v1 == null && v2 == null,INFIX_EXPRESSION, line no: 61, 0.07183908045977011, 0.8620689655172413, 1.0, 0.08333333333333333
+value,SIMPLE_NAME, line no: 45,value1 instanceof Data ? serializationService.toObject(value1) : value1,CONDITIONAL_EXPRESSION, line no: 59, 0.05868544600938968, 0.8333333333333334, 1.0, 0.07042253521126761
+value,SIMPLE_NAME, line no: 45,value2 instanceof Data ? serializationService.toObject(value2) : value2,CONDITIONAL_EXPRESSION, line no: 60, 0.05868544600938968, 0.8333333333333334, 1.0, 0.07042253521126761
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,record,SIMPLE_NAME, line no: 49, 0.04965156794425087, 0.03571428571428571, 1.0, 0.07317073170731707
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,serializationService.toObject(value),METHOD_INVOCATION, line no: 43, 0.03831417624521073, 0.27586206896551724, 0.3333333333333333, 0.4166666666666667
+value,SIMPLE_NAME, line no: 45,serializationService.toObject(value),METHOD_INVOCATION, line no: 43, 0.037037037037037035, 0.26666666666666666, 1.0, 0.1388888888888889
+value,SIMPLE_NAME, line no: 45,v=serializationService.toObject(value),ASSIGNMENT, line no: 43, 0.03508771929824561, 0.26666666666666666, 1.0, 0.13157894736842105
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,value instanceof Data,INSTANCEOF_EXPRESSION, line no: 42, 0.03397212543554007, 0.9285714285714286, 0.25, 0.14634146341463414
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,v=serializationService.toObject(value),ASSIGNMENT, line no: 43, 0.029268292682926828, 0.2857142857142857, 0.4, 0.25609756097560976
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,v=serializationService.toObject(value),ASSIGNMENT, line no: 43, 0.02722323049001815, 0.27586206896551724, 0.25, 0.39473684210526316
+v,SIMPLE_NAME, line no: 45,serializationService.toObject(value1),METHOD_INVOCATION, line no: 59, 0.022522522522522525, 0.8333333333333334, 1.0, 0.02702702702702703
+v,SIMPLE_NAME, line no: 45,serializationService.toObject(value2),METHOD_INVOCATION, line no: 60, 0.022522522522522525, 0.8333333333333334, 1.0, 0.02702702702702703
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,record.setValue(v),METHOD_INVOCATION, line no: 54, 0.021951219512195128, 0.6428571428571429, 0.2, 0.17073170731707318
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,this.statisticsEnabled=config.isStatisticsEnabled(),ASSIGNMENT, line no: 31, 0.021602787456445994, 0.2857142857142857, 0.2, 0.3780487804878049
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,v=serializationService.toObject(value),ASSIGNMENT, line no: 43, 0.019963702359346643, 0.27586206896551724, 0.25, 0.2894736842105263
+statisticsEnabled,SIMPLE_NAME, line no: 45,false,BOOLEAN_LITERAL, line no: 65, 0.018255578093306288, 0.10344827586206896, 1.0, 0.17647058823529413
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,this.statisticsEnabled,FIELD_ACCESS, line no: 31, 0.014808362369337977, 0.2857142857142857, 0.25, 0.2073170731707317
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,serializationService.toObject(value),METHOD_INVOCATION, line no: 43, 0.014634146341463414, 0.2857142857142857, 0.2, 0.25609756097560976
+statisticsEnabled,SIMPLE_NAME, line no: 45,true,BOOLEAN_LITERAL, line no: 62, 0.012170385395537525, 0.10344827586206896, 1.0, 0.11764705882352941
+v,SIMPLE_NAME, line no: 45,value1 instanceof Data ? serializationService.toObject(value1) : value1,CONDITIONAL_EXPRESSION, line no: 59, 0.011737089201877935, 0.8333333333333334, 1.0, 0.014084507042253521
+v,SIMPLE_NAME, line no: 45,value2 instanceof Data ? serializationService.toObject(value2) : value2,CONDITIONAL_EXPRESSION, line no: 60, 0.011737089201877935, 0.8333333333333334, 1.0, 0.014084507042253521
+statisticsEnabled,SIMPLE_NAME, line no: 45,isEquals,SIMPLE_NAME, line no: 58, 0.010141987829614604, 0.034482758620689655, 1.0, 0.29411764705882354
+v,SIMPLE_NAME, line no: 45,serializationService.toObject(value),METHOD_INVOCATION, line no: 43, 0.007407407407407407, 0.26666666666666666, 1.0, 0.027777777777777776
+v,SIMPLE_NAME, line no: 45,v=serializationService.toObject(value),ASSIGNMENT, line no: 43, 0.007017543859649122, 0.26666666666666666, 1.0, 0.02631578947368421
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,newRecord,SIMPLE_NAME, line no: 40, 0.0039198606271777, 0.03571428571428571, 1.0, 0.10975609756097561
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,Record,SIMPLE_NAME, line no: 40, 0.0026132404181184667, 0.03571428571428571, 1.0, 0.07317073170731707

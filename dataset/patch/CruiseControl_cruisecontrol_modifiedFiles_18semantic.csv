@@ -1,0 +1,583 @@
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,useLogger,SIMPLE_NAME, line no: 76, 1.0, 0.043478260869565216, 1.0, 0.4803921568627451
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,useDebug,SIMPLE_NAME, line no: 79, 1.0, 0.043478260869565216, 1.0, 0.49019607843137253
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,processKilled,SIMPLE_NAME, line no: 157, 1.0, 1.0, 1.0, 0.49019607843137253
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,exists,SIMPLE_NAME, line no: 164, 1.0, 0.9565217391304348, 1.0, 0.4803921568627451
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,add,SIMPLE_NAME, line no: 250, 1.0, 0.5217391304347826, 1.0, 0.5196078431372549
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,useScript,SIMPLE_NAME, line no: 281, 1.0, 0.043478260869565216, 1.0, 0.5490196078431373
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,hasNext,SIMPLE_NAME, line no: 294, 1.0, 1.0, 1.0, 0.5196078431372549
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,hasMoreTokens,SIMPLE_NAME, line no: 341, 1.0, 1.0, 1.0, 0.5
+arguments,SIMPLE_NAME, line no: 290,List,SIMPLE_NAME, line no: 77, 1.0, 0.041666666666666664, 1.0, 0.7910447761194029
+arguments,SIMPLE_NAME, line no: 290,args,SIMPLE_NAME, line no: 77, 1.0, 0.041666666666666664, 1.0, 0.835820895522388
+arguments,SIMPLE_NAME, line no: 290,properties,SIMPLE_NAME, line no: 78, 1.0, 0.041666666666666664, 1.0, 0.835820895522388
+add,SIMPLE_NAME, line no: 290,useLogger,SIMPLE_NAME, line no: 76, 1.0, 0.041666666666666664, 1.0, 0.8
+add,SIMPLE_NAME, line no: 290,useDebug,SIMPLE_NAME, line no: 79, 1.0, 0.041666666666666664, 1.0, 0.84375
+add,SIMPLE_NAME, line no: 290,timeout > 0,INFIX_EXPRESSION, line no: 137, 1.0, 1.0, 1.0, 0.6081081081081081
+add,SIMPLE_NAME, line no: 290,killer.processKilled(),METHOD_INVOCATION, line no: 157, 1.0, 1.0, 1.0, 0.5465116279069767
+add,SIMPLE_NAME, line no: 290,processKilled,SIMPLE_NAME, line no: 157, 1.0, 1.0, 1.0, 0.7464788732394366
+add,SIMPLE_NAME, line no: 290,exists,SIMPLE_NAME, line no: 164, 1.0, 0.9583333333333334, 1.0, 0.8125
+add,SIMPLE_NAME, line no: 290,useScript,SIMPLE_NAME, line no: 281, 1.0, 0.041666666666666664, 1.0, 0.8059701492537313
+add,SIMPLE_NAME, line no: 290,arguments.add("java"),METHOD_INVOCATION, line no: 292, 1.0, 1.0, 1.0, 0.6235294117647059
+add,SIMPLE_NAME, line no: 290,argsIterator.hasNext(),METHOD_INVOCATION, line no: 294, 1.0, 1.0, 1.0, 0.5930232558139535
+add,SIMPLE_NAME, line no: 290,hasNext,SIMPLE_NAME, line no: 294, 1.0, 1.0, 1.0, 0.8769230769230769
+add,SIMPLE_NAME, line no: 290,arguments.add("-classpath"),METHOD_INVOCATION, line no: 301, 1.0, 1.0, 1.0, 0.5604395604395604
+add,SIMPLE_NAME, line no: 290,arguments.add(System.getProperty("java.class.path")),METHOD_INVOCATION, line no: 302, 1.0, 1.0, 1.0, 0.4396551724137931
+add,SIMPLE_NAME, line no: 290,arguments.add("org.apache.tools.ant.Main"),METHOD_INVOCATION, line no: 303, 1.0, 1.0, 1.0, 0.4811320754716981
+add,SIMPLE_NAME, line no: 290,propertiesIterator.hasNext(),METHOD_INVOCATION, line no: 318, 1.0, 1.0, 1.0, 0.5108695652173914
+add,SIMPLE_NAME, line no: 290,antPropertiesIterator.hasNext(),METHOD_INVOCATION, line no: 327, 1.0, 1.0, 1.0, 0.5157894736842106
+add,SIMPLE_NAME, line no: 290,arguments.add("-buildfile"),METHOD_INVOCATION, line no: 337, 1.0, 1.0, 1.0, 0.5384615384615384
+add,SIMPLE_NAME, line no: 290,arguments.add(buildFile),METHOD_INVOCATION, line no: 338, 1.0, 1.0, 1.0, 0.5568181818181818
+add,SIMPLE_NAME, line no: 290,targets.hasMoreTokens(),METHOD_INVOCATION, line no: 341, 1.0, 1.0, 1.0, 0.5402298850574713
+add,SIMPLE_NAME, line no: 290,hasMoreTokens,SIMPLE_NAME, line no: 341, 1.0, 1.0, 1.0, 0.7464788732394366
+add,SIMPLE_NAME, line no: 290,!file.exists(),PREFIX_EXPRESSION, line no: 353, 1.0, 1.0, 1.0, 0.5769230769230769
+add,SIMPLE_NAME, line no: 290,file.exists(),METHOD_INVOCATION, line no: 353, 1.0, 1.0, 1.0, 0.5974025974025974
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,String,SIMPLE_NAME, line no: 68, 1.0, 0.041666666666666664, 1.0, 0.5581395348837209
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,buildFile,SIMPLE_NAME, line no: 72, 1.0, 0.041666666666666664, 1.0, 0.5581395348837209
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,target,SIMPLE_NAME, line no: 73, 1.0, 0.041666666666666664, 1.0, 0.5581395348837209
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,antScript,SIMPLE_NAME, line no: 75, 1.0, 0.041666666666666664, 1.0, 0.627906976744186
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"Build timeout timer of ",STRING_LITERAL, line no: 158, 1.0, 1.0, 1.0, 0.627906976744186
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290," seconds has expired",STRING_LITERAL, line no: 158, 1.0, 1.0, 1.0, 0.6046511627906976
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,getProperty,SIMPLE_NAME, line no: 269, 1.0, 0.375, 1.0, 0.6162790697674418
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"\"",STRING_LITERAL, line no: 290, 1.0, 1.0, 1.0, 0.6511627906976745
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"java",STRING_LITERAL, line no: 292, 1.0, 1.0, 1.0, 0.6162790697674418
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"-classpath",STRING_LITERAL, line no: 301, 1.0, 1.0, 1.0, 0.6162790697674418
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"java.class.path",STRING_LITERAL, line no: 302, 1.0, 1.0, 1.0, 0.627906976744186
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"org.apache.tools.ant.Main",STRING_LITERAL, line no: 303, 1.0, 1.0, 1.0, 0.6136363636363636
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"-buildfile",STRING_LITERAL, line no: 337, 1.0, 1.0, 1.0, 0.5697674418604651
+"\"",STRING_LITERAL, line no: 290,String,SIMPLE_NAME, line no: 68, 1.0, 0.04, 1.0, 0.7076923076923077
+"\"",STRING_LITERAL, line no: 290,buildFile,SIMPLE_NAME, line no: 72, 1.0, 0.04, 1.0, 0.7384615384615385
+"\"",STRING_LITERAL, line no: 290,target,SIMPLE_NAME, line no: 73, 1.0, 0.04, 1.0, 0.7076923076923077
+"\"",STRING_LITERAL, line no: 290,"Build timeout timer of " + timeout + " seconds has expired",INFIX_EXPRESSION, line no: 158, 1.0, 1.0, 1.0, 0.3983739837398374
+"\"",STRING_LITERAL, line no: 290,"Build timeout timer of ",STRING_LITERAL, line no: 158, 1.0, 1.0, 1.0, 0.6627906976744186
+"\"",STRING_LITERAL, line no: 290," seconds has expired",STRING_LITERAL, line no: 158, 1.0, 1.0, 1.0, 0.6867469879518072
+"\"",STRING_LITERAL, line no: 290,"java",STRING_LITERAL, line no: 292, 1.0, 1.0, 1.0, 0.9104477611940298
+"\"",STRING_LITERAL, line no: 290,"-classpath",STRING_LITERAL, line no: 301, 1.0, 1.0, 1.0, 0.8082191780821918
+"\"",STRING_LITERAL, line no: 290,"java.class.path",STRING_LITERAL, line no: 302, 1.0, 1.0, 1.0, 0.7564102564102564
+"\"",STRING_LITERAL, line no: 290,"org.apache.tools.ant.Main",STRING_LITERAL, line no: 303, 1.0, 1.0, 1.0, 0.6704545454545454
+"\"",STRING_LITERAL, line no: 290,"-buildfile",STRING_LITERAL, line no: 337, 1.0, 1.0, 1.0, 0.7808219178082192
+antScript,SIMPLE_NAME, line no: 290,String,SIMPLE_NAME, line no: 68, 1.0, 0.04, 1.0, 0.8208955223880597
+antScript,SIMPLE_NAME, line no: 290,buildFile,SIMPLE_NAME, line no: 72, 1.0, 0.04, 1.0, 0.8208955223880597
+antScript,SIMPLE_NAME, line no: 290,target,SIMPLE_NAME, line no: 73, 1.0, 0.04, 1.0, 0.8208955223880597
+antScript,SIMPLE_NAME, line no: 290,"Build timeout timer of " + timeout + " seconds has expired",INFIX_EXPRESSION, line no: 158, 1.0, 1.0, 1.0, 0.3983739837398374
+antScript,SIMPLE_NAME, line no: 290,"Build timeout timer of ",STRING_LITERAL, line no: 158, 1.0, 1.0, 1.0, 0.5697674418604651
+antScript,SIMPLE_NAME, line no: 290," seconds has expired",STRING_LITERAL, line no: 158, 1.0, 1.0, 1.0, 0.5783132530120482
+antScript,SIMPLE_NAME, line no: 290,getProperty,SIMPLE_NAME, line no: 269, 1.0, 0.36, 1.0, 0.8695652173913043
+antScript,SIMPLE_NAME, line no: 290,"java",STRING_LITERAL, line no: 292, 1.0, 1.0, 1.0, 0.7611940298507462
+antScript,SIMPLE_NAME, line no: 290,"-classpath",STRING_LITERAL, line no: 301, 1.0, 1.0, 1.0, 0.6986301369863014
+antScript,SIMPLE_NAME, line no: 290,System.getProperty("java.class.path"),METHOD_INVOCATION, line no: 302, 1.0, 1.0, 1.0, 0.5148514851485149
+antScript,SIMPLE_NAME, line no: 290,"java.class.path",STRING_LITERAL, line no: 302, 1.0, 1.0, 1.0, 0.6666666666666666
+antScript,SIMPLE_NAME, line no: 290,"org.apache.tools.ant.Main",STRING_LITERAL, line no: 303, 1.0, 1.0, 1.0, 0.5909090909090909
+antScript,SIMPLE_NAME, line no: 290,"-buildfile",STRING_LITERAL, line no: 337, 1.0, 1.0, 1.0, 0.6438356164383562
+"\"",STRING_LITERAL, line no: 290,String,SIMPLE_NAME, line no: 68, 1.0, 0.04, 1.0, 0.7076923076923077
+"\"",STRING_LITERAL, line no: 290,buildFile,SIMPLE_NAME, line no: 72, 1.0, 0.04, 1.0, 0.7384615384615385
+"\"",STRING_LITERAL, line no: 290,target,SIMPLE_NAME, line no: 73, 1.0, 0.04, 1.0, 0.7076923076923077
+"\"",STRING_LITERAL, line no: 290,"Build timeout timer of " + timeout + " seconds has expired",INFIX_EXPRESSION, line no: 158, 1.0, 1.0, 1.0, 0.3983739837398374
+"\"",STRING_LITERAL, line no: 290,"Build timeout timer of ",STRING_LITERAL, line no: 158, 1.0, 1.0, 1.0, 0.6627906976744186
+"\"",STRING_LITERAL, line no: 290," seconds has expired",STRING_LITERAL, line no: 158, 1.0, 1.0, 1.0, 0.6867469879518072
+"\"",STRING_LITERAL, line no: 290,"java",STRING_LITERAL, line no: 292, 1.0, 1.0, 1.0, 0.9104477611940298
+"\"",STRING_LITERAL, line no: 290,"-classpath",STRING_LITERAL, line no: 301, 1.0, 1.0, 1.0, 0.8082191780821918
+"\"",STRING_LITERAL, line no: 290,"java.class.path",STRING_LITERAL, line no: 302, 1.0, 1.0, 1.0, 0.7564102564102564
+"\"",STRING_LITERAL, line no: 290,"org.apache.tools.ant.Main",STRING_LITERAL, line no: 303, 1.0, 1.0, 1.0, 0.6704545454545454
+"\"",STRING_LITERAL, line no: 290,"-buildfile",STRING_LITERAL, line no: 337, 1.0, 1.0, 1.0, 0.7808219178082192
+"\"",STRING_LITERAL, line no: 290,antScript,SIMPLE_NAME, line no: 75, 0.96, 0.04, 1.0, 0.7076923076923077
+"\"",STRING_LITERAL, line no: 290,"error",STRING_LITERAL, line no: 160, 0.96, 0.96, 1.0, 0.8676470588235294
+"\"",STRING_LITERAL, line no: 290,"build timeout",STRING_LITERAL, line no: 160, 0.96, 0.96, 1.0, 0.7763157894736842
+"\"",STRING_LITERAL, line no: 290,getProperty,SIMPLE_NAME, line no: 269, 0.96, 0.36, 1.0, 0.7246376811594203
+"\"",STRING_LITERAL, line no: 290,"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290, 0.96, 0.96, 1.0, 0.6511627906976745
+"\"",STRING_LITERAL, line no: 290,System.getProperty("java.class.path"),METHOD_INVOCATION, line no: 302, 0.96, 0.96, 1.0, 0.48514851485148514
+antScript,SIMPLE_NAME, line no: 290,antWorkingDir,SIMPLE_NAME, line no: 71, 0.96, 0.04, 1.0, 0.8260869565217391
+antScript,SIMPLE_NAME, line no: 290,"Executing Command: ",STRING_LITERAL, line no: 113, 0.96, 0.96, 1.0, 0.5853658536585366
+antScript,SIMPLE_NAME, line no: 290,"error",STRING_LITERAL, line no: 160, 0.96, 0.96, 1.0, 0.7205882352941176
+antScript,SIMPLE_NAME, line no: 290,"build timeout",STRING_LITERAL, line no: 160, 0.96, 0.96, 1.0, 0.6710526315789473
+antScript,SIMPLE_NAME, line no: 290,"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290, 0.96, 0.96, 1.0, 0.6976744186046512
+antScript,SIMPLE_NAME, line no: 290,"\"",STRING_LITERAL, line no: 290, 0.96, 0.96, 1.0, 0.7761194029850746
+"\"",STRING_LITERAL, line no: 290,antScript,SIMPLE_NAME, line no: 75, 0.96, 0.04, 1.0, 0.7076923076923077
+"\"",STRING_LITERAL, line no: 290,"error",STRING_LITERAL, line no: 160, 0.96, 0.96, 1.0, 0.8676470588235294
+"\"",STRING_LITERAL, line no: 290,"build timeout",STRING_LITERAL, line no: 160, 0.96, 0.96, 1.0, 0.7763157894736842
+"\"",STRING_LITERAL, line no: 290,getProperty,SIMPLE_NAME, line no: 269, 0.96, 0.36, 1.0, 0.7246376811594203
+"\"",STRING_LITERAL, line no: 290,"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290, 0.96, 0.96, 1.0, 0.6511627906976745
+"\"",STRING_LITERAL, line no: 290,System.getProperty("java.class.path"),METHOD_INVOCATION, line no: 302, 0.96, 0.96, 1.0, 0.48514851485148514
+add,SIMPLE_NAME, line no: 290,antWorkingDir != null,INFIX_EXPRESSION, line no: 110, 0.9583333333333334, 0.9166666666666666, 1.0, 0.5714285714285714
+add,SIMPLE_NAME, line no: 290,logFile.exists(),METHOD_INVOCATION, line no: 164, 0.9583333333333334, 0.9583333333333334, 1.0, 0.575
+add,SIMPLE_NAME, line no: 290,arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290, 0.9583333333333334, 0.9583333333333334, 1.0, 0.5392156862745098
+add,SIMPLE_NAME, line no: 290,skip < 0,INFIX_EXPRESSION, line no: 359, 0.9583333333333334, 0.9583333333333334, 1.0, 0.6619718309859155
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,antWorkingDir,SIMPLE_NAME, line no: 71, 0.9583333333333334, 0.041666666666666664, 1.0, 0.5813953488372093
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"Executing Command: ",STRING_LITERAL, line no: 113, 0.9583333333333334, 0.9583333333333334, 1.0, 0.6046511627906976
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"error",STRING_LITERAL, line no: 160, 0.9583333333333334, 0.9583333333333334, 1.0, 0.5930232558139535
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"build timeout",STRING_LITERAL, line no: 160, 0.9583333333333334, 0.9583333333333334, 1.0, 0.627906976744186
+"\"",STRING_LITERAL, line no: 290,antWorkingDir,SIMPLE_NAME, line no: 71, 0.92, 0.04, 1.0, 0.6666666666666666
+"\"",STRING_LITERAL, line no: 290,tempFileName,SIMPLE_NAME, line no: 74, 0.92, 0.04, 1.0, 0.6764705882352942
+"\"",STRING_LITERAL, line no: 290,"Executing Command: ",STRING_LITERAL, line no: 113, 0.92, 0.92, 1.0, 0.6951219512195121
+"\"",STRING_LITERAL, line no: 290,"build",STRING_LITERAL, line no: 159, 0.92, 0.92, 1.0, 0.8676470588235294
+"\"",STRING_LITERAL, line no: 290,getFileContent,SIMPLE_NAME, line no: 166, 0.92, 0.52, 1.0, 0.6388888888888888
+"\"",STRING_LITERAL, line no: 290,beginning,SIMPLE_NAME, line no: 357, 0.92, 0.92, 1.0, 0.6865671641791045
+"\"",STRING_LITERAL, line no: 290,getFileContent(file),METHOD_INVOCATION, line no: 357, 0.92, 0.92, 1.0, 0.5357142857142857
+"\"",STRING_LITERAL, line no: 290,"<build",STRING_LITERAL, line no: 358, 0.92, 0.92, 1.0, 0.8260869565217391
+"\"",STRING_LITERAL, line no: 290,"UTF-8",STRING_LITERAL, line no: 364, 0.92, 0.92, 1.0, 0.8382352941176471
+"\"",STRING_LITERAL, line no: 290,"org.apache.xerces.parsers.SAXParser",STRING_LITERAL, line no: 366, 0.92, 0.92, 1.0, 0.5816326530612245
+"\"",STRING_LITERAL, line no: 290,"task",STRING_LITERAL, line no: 368, 0.92, 0.92, 1.0, 0.8507462686567164
+"\"",STRING_LITERAL, line no: 290,"message",STRING_LITERAL, line no: 369, 0.92, 0.92, 1.0, 0.8428571428571429
+antScript,SIMPLE_NAME, line no: 290,tempFileName,SIMPLE_NAME, line no: 74, 0.92, 0.04, 1.0, 0.7941176470588235
+antScript,SIMPLE_NAME, line no: 290,sb.toString(),METHOD_INVOCATION, line no: 122, 0.92, 0.92, 1.0, 0.6753246753246753
+antScript,SIMPLE_NAME, line no: 290,toString,SIMPLE_NAME, line no: 122, 0.92, 0.92, 1.0, 0.8656716417910447
+antScript,SIMPLE_NAME, line no: 290,"build",STRING_LITERAL, line no: 159, 0.92, 0.92, 1.0, 0.7205882352941176
+antScript,SIMPLE_NAME, line no: 290,getFileContent,SIMPLE_NAME, line no: 166, 0.92, 0.52, 1.0, 0.7638888888888888
+antScript,SIMPLE_NAME, line no: 290,beginning,SIMPLE_NAME, line no: 357, 0.92, 0.92, 1.0, 0.8059701492537313
+antScript,SIMPLE_NAME, line no: 290,getFileContent(file),METHOD_INVOCATION, line no: 357, 0.92, 0.92, 1.0, 0.5833333333333334
+antScript,SIMPLE_NAME, line no: 290,"<build",STRING_LITERAL, line no: 358, 0.92, 0.92, 1.0, 0.6811594202898551
+antScript,SIMPLE_NAME, line no: 290,"UTF-8",STRING_LITERAL, line no: 364, 0.92, 0.92, 1.0, 0.6764705882352942
+antScript,SIMPLE_NAME, line no: 290,"org.apache.xerces.parsers.SAXParser",STRING_LITERAL, line no: 366, 0.92, 0.92, 1.0, 0.5102040816326531
+antScript,SIMPLE_NAME, line no: 290,"task",STRING_LITERAL, line no: 368, 0.92, 0.92, 1.0, 0.7014925373134329
+antScript,SIMPLE_NAME, line no: 290,"message",STRING_LITERAL, line no: 369, 0.92, 0.92, 1.0, 0.7
+"\"",STRING_LITERAL, line no: 290,antWorkingDir,SIMPLE_NAME, line no: 71, 0.92, 0.04, 1.0, 0.6666666666666666
+"\"",STRING_LITERAL, line no: 290,tempFileName,SIMPLE_NAME, line no: 74, 0.92, 0.04, 1.0, 0.6764705882352942
+"\"",STRING_LITERAL, line no: 290,"Executing Command: ",STRING_LITERAL, line no: 113, 0.92, 0.92, 1.0, 0.6951219512195121
+"\"",STRING_LITERAL, line no: 290,"build",STRING_LITERAL, line no: 159, 0.92, 0.92, 1.0, 0.8676470588235294
+"\"",STRING_LITERAL, line no: 290,getFileContent,SIMPLE_NAME, line no: 166, 0.92, 0.52, 1.0, 0.6388888888888888
+"\"",STRING_LITERAL, line no: 290,beginning,SIMPLE_NAME, line no: 357, 0.92, 0.92, 1.0, 0.6865671641791045
+"\"",STRING_LITERAL, line no: 290,getFileContent(file),METHOD_INVOCATION, line no: 357, 0.92, 0.92, 1.0, 0.5357142857142857
+"\"",STRING_LITERAL, line no: 290,"<build",STRING_LITERAL, line no: 358, 0.92, 0.92, 1.0, 0.8260869565217391
+"\"",STRING_LITERAL, line no: 290,"UTF-8",STRING_LITERAL, line no: 364, 0.92, 0.92, 1.0, 0.8382352941176471
+"\"",STRING_LITERAL, line no: 290,"org.apache.xerces.parsers.SAXParser",STRING_LITERAL, line no: 366, 0.92, 0.92, 1.0, 0.5816326530612245
+"\"",STRING_LITERAL, line no: 290,"task",STRING_LITERAL, line no: 368, 0.92, 0.92, 1.0, 0.8507462686567164
+"\"",STRING_LITERAL, line no: 290,"message",STRING_LITERAL, line no: 369, 0.92, 0.92, 1.0, 0.8428571428571429
+add,SIMPLE_NAME, line no: 290,antScript != null,INFIX_EXPRESSION, line no: 106, 0.9166666666666666, 0.9166666666666666, 1.0, 0.6
+add,SIMPLE_NAME, line no: 290,isWindows(),METHOD_INVOCATION, line no: 107, 0.9166666666666666, 0.9166666666666666, 1.0, 0.6533333333333333
+add,SIMPLE_NAME, line no: 290,isWindows,SIMPLE_NAME, line no: 107, 0.9166666666666666, 0.9166666666666666, 1.0, 0.8208955223880597
+add,SIMPLE_NAME, line no: 290,(antWorkingDir != null),PARENTHESIZED_EXPRESSION, line no: 110, 0.9166666666666666, 0.9166666666666666, 1.0, 0.5212765957446809
+add,SIMPLE_NAME, line no: 290,i < commandLine.length,INFIX_EXPRESSION, line no: 114, 0.9166666666666666, 0.9166666666666666, 1.0, 0.5529411764705883
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,tempFileName,SIMPLE_NAME, line no: 74, 0.9166666666666666, 0.041666666666666664, 1.0, 0.5465116279069767
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,antScript != null,INFIX_EXPRESSION, line no: 106, 0.9166666666666666, 0.9166666666666666, 1.0, 0.813953488372093
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,toString,SIMPLE_NAME, line no: 122, 0.9166666666666666, 0.9166666666666666, 1.0, 0.5930232558139535
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"build",STRING_LITERAL, line no: 159, 0.9166666666666666, 0.9166666666666666, 1.0, 0.5930232558139535
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,getFileContent,SIMPLE_NAME, line no: 166, 0.9166666666666666, 0.5416666666666666, 1.0, 0.5581395348837209
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"-DXmlLogger.file=",STRING_LITERAL, line no: 314, 0.9166666666666666, 0.9166666666666666, 1.0, 0.5813953488372093
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,beginning,SIMPLE_NAME, line no: 357, 0.9166666666666666, 0.9166666666666666, 1.0, 0.5465116279069767
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"<build",STRING_LITERAL, line no: 358, 0.9166666666666666, 0.9166666666666666, 1.0, 0.5697674418604651
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"UTF-8",STRING_LITERAL, line no: 364, 0.9166666666666666, 0.9166666666666666, 1.0, 0.5581395348837209
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"org.apache.xerces.parsers.SAXParser",STRING_LITERAL, line no: 366, 0.9166666666666666, 0.9166666666666666, 1.0, 0.5306122448979592
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"task",STRING_LITERAL, line no: 368, 0.9166666666666666, 0.9166666666666666, 1.0, 0.5697674418604651
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"message",STRING_LITERAL, line no: 369, 0.9166666666666666, 0.9166666666666666, 1.0, 0.5930232558139535
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,isWindows,SIMPLE_NAME, line no: 107, 0.9130434782608695, 0.9130434782608695, 1.0, 0.49019607843137253
+"\"",STRING_LITERAL, line no: 290,sb.toString(),METHOD_INVOCATION, line no: 122, 0.88, 0.88, 1.0, 0.6103896103896104
+"\"",STRING_LITERAL, line no: 290,toString,SIMPLE_NAME, line no: 122, 0.88, 0.88, 1.0, 0.7272727272727273
+"\"",STRING_LITERAL, line no: 290,"-DXmlLogger.file=",STRING_LITERAL, line no: 314, 0.88, 0.88, 1.0, 0.7125
+antScript,SIMPLE_NAME, line no: 290,"",STRING_LITERAL, line no: 73, 0.88, 0.04, 1.0, 0.6865671641791045
+antScript,SIMPLE_NAME, line no: 290,"os.name = ",STRING_LITERAL, line no: 263, 0.88, 0.88, 1.0, 0.6712328767123288
+antScript,SIMPLE_NAME, line no: 290,"isWindows = ",STRING_LITERAL, line no: 264, 0.88, 0.88, 1.0, 0.6533333333333333
+antScript,SIMPLE_NAME, line no: 290,"-DXmlLogger.file=",STRING_LITERAL, line no: 314, 0.88, 0.88, 1.0, 0.6
+"\"",STRING_LITERAL, line no: 290,sb.toString(),METHOD_INVOCATION, line no: 122, 0.88, 0.88, 1.0, 0.6103896103896104
+"\"",STRING_LITERAL, line no: 290,toString,SIMPLE_NAME, line no: 122, 0.88, 0.88, 1.0, 0.7272727272727273
+"\"",STRING_LITERAL, line no: 290,"-DXmlLogger.file=",STRING_LITERAL, line no: 314, 0.88, 0.88, 1.0, 0.7125
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"",STRING_LITERAL, line no: 73, 0.875, 0.041666666666666664, 1.0, 0.5581395348837209
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"os.name = ",STRING_LITERAL, line no: 263, 0.875, 0.875, 1.0, 0.6162790697674418
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"isWindows = ",STRING_LITERAL, line no: 264, 0.875, 0.875, 1.0, 0.6162790697674418
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"-listener",STRING_LITERAL, line no: 312, 0.875, 0.875, 1.0, 0.6046511627906976
+"\"",STRING_LITERAL, line no: 290,"",STRING_LITERAL, line no: 73, 0.84, 0.04, 1.0, 0.8769230769230769
+"\"",STRING_LITERAL, line no: 290,"os.name = ",STRING_LITERAL, line no: 263, 0.84, 0.84, 1.0, 0.8082191780821918
+"\"",STRING_LITERAL, line no: 290,"isWindows = ",STRING_LITERAL, line no: 264, 0.84, 0.84, 1.0, 0.7866666666666666
+"\"",STRING_LITERAL, line no: 290,"-listener",STRING_LITERAL, line no: 312, 0.84, 0.84, 1.0, 0.8194444444444444
+"\"",STRING_LITERAL, line no: 290,"-DXmlLogger.file=" + tempFileName,INFIX_EXPRESSION, line no: 314, 0.84, 0.84, 1.0, 0.4948453608247423
+antScript,SIMPLE_NAME, line no: 290,osName,SIMPLE_NAME, line no: 261, 0.84, 0.8, 1.0, 0.8208955223880597
+antScript,SIMPLE_NAME, line no: 290,"Windows",STRING_LITERAL, line no: 262, 0.84, 0.84, 1.0, 0.7
+antScript,SIMPLE_NAME, line no: 290,"os.name = " + osName,INFIX_EXPRESSION, line no: 263, 0.84, 0.84, 1.0, 0.5714285714285714
+antScript,SIMPLE_NAME, line no: 290,"isWindows = " + isWindows,INFIX_EXPRESSION, line no: 264, 0.84, 0.84, 1.0, 0.550561797752809
+antScript,SIMPLE_NAME, line no: 290,"-logger",STRING_LITERAL, line no: 307, 0.84, 0.84, 1.0, 0.7
+antScript,SIMPLE_NAME, line no: 290,getLoggerClassName,SIMPLE_NAME, line no: 308, 0.84, 0.8, 1.0, 0.7368421052631579
+antScript,SIMPLE_NAME, line no: 290,"-logfile",STRING_LITERAL, line no: 309, 0.84, 0.84, 1.0, 0.6901408450704225
+antScript,SIMPLE_NAME, line no: 290,"-listener",STRING_LITERAL, line no: 312, 0.84, 0.84, 1.0, 0.6944444444444444
+antScript,SIMPLE_NAME, line no: 290,"-DXmlLogger.file=" + tempFileName,INFIX_EXPRESSION, line no: 314, 0.84, 0.84, 1.0, 0.4948453608247423
+antScript,SIMPLE_NAME, line no: 290,value,SIMPLE_NAME, line no: 320, 0.84, 0.8, 1.0, 0.8507462686567164
+"\"",STRING_LITERAL, line no: 290,"",STRING_LITERAL, line no: 73, 0.84, 0.04, 1.0, 0.8769230769230769
+"\"",STRING_LITERAL, line no: 290,"os.name = ",STRING_LITERAL, line no: 263, 0.84, 0.84, 1.0, 0.8082191780821918
+"\"",STRING_LITERAL, line no: 290,"isWindows = ",STRING_LITERAL, line no: 264, 0.84, 0.84, 1.0, 0.7866666666666666
+"\"",STRING_LITERAL, line no: 290,"-listener",STRING_LITERAL, line no: 312, 0.84, 0.84, 1.0, 0.8194444444444444
+"\"",STRING_LITERAL, line no: 290,"-DXmlLogger.file=" + tempFileName,INFIX_EXPRESSION, line no: 314, 0.84, 0.84, 1.0, 0.4948453608247423
+add,SIMPLE_NAME, line no: 290,!logFile.exists(),PREFIX_EXPRESSION, line no: 174, 0.8333333333333334, 0.8333333333333334, 1.0, 0.5555555555555556
+add,SIMPLE_NAME, line no: 290,arguments.add("-logger"),METHOD_INVOCATION, line no: 307, 0.8333333333333334, 0.8333333333333334, 1.0, 0.5795454545454546
+add,SIMPLE_NAME, line no: 290,arguments.add(getLoggerClassName()),METHOD_INVOCATION, line no: 308, 0.8333333333333334, 0.8333333333333334, 1.0, 0.5151515151515151
+add,SIMPLE_NAME, line no: 290,arguments.add("-logfile"),METHOD_INVOCATION, line no: 309, 0.8333333333333334, 0.8333333333333334, 1.0, 0.5730337078651685
+add,SIMPLE_NAME, line no: 290,arguments.add(tempFileName),METHOD_INVOCATION, line no: 310, 0.8333333333333334, 0.8333333333333334, 1.0, 0.5604395604395604
+add,SIMPLE_NAME, line no: 290,arguments.add("-listener"),METHOD_INVOCATION, line no: 312, 0.8333333333333334, 0.8333333333333334, 1.0, 0.5666666666666667
+add,SIMPLE_NAME, line no: 290,arguments.add("-DXmlLogger.file=" + tempFileName),METHOD_INVOCATION, line no: 314, 0.8333333333333334, 0.8333333333333334, 1.0, 0.4336283185840708
+add,SIMPLE_NAME, line no: 290,value != null & !value.equals(""),INFIX_EXPRESSION, line no: 321, 0.8333333333333334, 0.8333333333333334, 1.0, 0.5
+add,SIMPLE_NAME, line no: 290,value != null,INFIX_EXPRESSION, line no: 321, 0.8333333333333334, 0.8333333333333334, 1.0, 0.631578947368421
+add,SIMPLE_NAME, line no: 290,!value.equals(""),PREFIX_EXPRESSION, line no: 321, 0.8333333333333334, 0.8333333333333334, 1.0, 0.5925925925925926
+add,SIMPLE_NAME, line no: 290,value.equals(""),METHOD_INVOCATION, line no: 321, 0.8333333333333334, 0.8333333333333334, 1.0, 0.6125
+add,SIMPLE_NAME, line no: 290,equals,SIMPLE_NAME, line no: 321, 0.8333333333333334, 0.8333333333333334, 1.0, 0.859375
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,osName,SIMPLE_NAME, line no: 261, 0.8333333333333334, 0.7916666666666666, 1.0, 0.5581395348837209
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"Windows",STRING_LITERAL, line no: 262, 0.8333333333333334, 0.8333333333333334, 1.0, 0.5930232558139535
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"-logger",STRING_LITERAL, line no: 307, 0.8333333333333334, 0.8333333333333334, 1.0, 0.5930232558139535
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,getLoggerClassName,SIMPLE_NAME, line no: 308, 0.8333333333333334, 0.7916666666666666, 1.0, 0.5697674418604651
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"-logfile",STRING_LITERAL, line no: 309, 0.8333333333333334, 0.8333333333333334, 1.0, 0.5930232558139535
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,value,SIMPLE_NAME, line no: 320, 0.8333333333333334, 0.7916666666666666, 1.0, 0.5813953488372093
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,equals,SIMPLE_NAME, line no: 321, 0.8260869565217391, 0.8260869565217391, 1.0, 0.49019607843137253
+"\"",STRING_LITERAL, line no: 290,osName,SIMPLE_NAME, line no: 261, 0.8, 0.76, 1.0, 0.7384615384615385
+"\"",STRING_LITERAL, line no: 290,"Windows",STRING_LITERAL, line no: 262, 0.8, 0.8, 1.0, 0.8428571428571429
+"\"",STRING_LITERAL, line no: 290,"os.name = " + osName,INFIX_EXPRESSION, line no: 263, 0.8, 0.8, 1.0, 0.5952380952380952
+"\"",STRING_LITERAL, line no: 290,"isWindows = " + isWindows,INFIX_EXPRESSION, line no: 264, 0.8, 0.8, 1.0, 0.5617977528089888
+"\"",STRING_LITERAL, line no: 290,"-logger",STRING_LITERAL, line no: 307, 0.8, 0.8, 1.0, 0.8428571428571429
+"\"",STRING_LITERAL, line no: 290,getLoggerClassName(),METHOD_INVOCATION, line no: 308, 0.8, 0.76, 1.0, 0.5595238095238095
+"\"",STRING_LITERAL, line no: 290,getLoggerClassName,SIMPLE_NAME, line no: 308, 0.8, 0.76, 1.0, 0.631578947368421
+"\"",STRING_LITERAL, line no: 290,"-logfile",STRING_LITERAL, line no: 309, 0.8, 0.8, 1.0, 0.8309859154929577
+"\"",STRING_LITERAL, line no: 290,value,SIMPLE_NAME, line no: 320, 0.8, 0.76, 1.0, 0.7692307692307693
+antScript,SIMPLE_NAME, line no: 290,getOsName(),METHOD_INVOCATION, line no: 261, 0.8, 0.8, 1.0, 0.6533333333333333
+antScript,SIMPLE_NAME, line no: 290,getOsName,SIMPLE_NAME, line no: 261, 0.8, 0.8, 1.0, 0.8208955223880597
+antScript,SIMPLE_NAME, line no: 290,getLoggerClassName(),METHOD_INVOCATION, line no: 308, 0.8, 0.8, 1.0, 0.5952380952380952
+antScript,SIMPLE_NAME, line no: 290,key,SIMPLE_NAME, line no: 319, 0.8, 0.8, 1.0, 0.8059701492537313
+antScript,SIMPLE_NAME, line no: 290,(String)propertiesIterator.next(),CAST_EXPRESSION, line no: 319, 0.8, 0.8, 1.0, 0.5473684210526316
+antScript,SIMPLE_NAME, line no: 290,(String)buildProperties.get(key),CAST_EXPRESSION, line no: 320, 0.8, 0.8, 1.0, 0.574468085106383
+antScript,SIMPLE_NAME, line no: 290,"-D",STRING_LITERAL, line no: 322, 0.8, 0.56, 1.0, 0.7164179104477612
+antScript,SIMPLE_NAME, line no: 290,"=",STRING_LITERAL, line no: 322, 0.8, 0.56, 1.0, 0.7164179104477612
+antScript,SIMPLE_NAME, line no: 290,"Error reading : ",STRING_LITERAL, line no: 379, 0.8, 0.8, 1.0, 0.6329113924050633
+antScript,SIMPLE_NAME, line no: 290,".  Saved as : ",STRING_LITERAL, line no: 380, 0.8, 0.8, 1.0, 0.6363636363636364
+"\"",STRING_LITERAL, line no: 290,osName,SIMPLE_NAME, line no: 261, 0.8, 0.76, 1.0, 0.7384615384615385
+"\"",STRING_LITERAL, line no: 290,"Windows",STRING_LITERAL, line no: 262, 0.8, 0.8, 1.0, 0.8428571428571429
+"\"",STRING_LITERAL, line no: 290,"os.name = " + osName,INFIX_EXPRESSION, line no: 263, 0.8, 0.8, 1.0, 0.5952380952380952
+"\"",STRING_LITERAL, line no: 290,"isWindows = " + isWindows,INFIX_EXPRESSION, line no: 264, 0.8, 0.8, 1.0, 0.5617977528089888
+"\"",STRING_LITERAL, line no: 290,"-logger",STRING_LITERAL, line no: 307, 0.8, 0.8, 1.0, 0.8428571428571429
+"\"",STRING_LITERAL, line no: 290,getLoggerClassName(),METHOD_INVOCATION, line no: 308, 0.8, 0.76, 1.0, 0.5595238095238095
+"\"",STRING_LITERAL, line no: 290,getLoggerClassName,SIMPLE_NAME, line no: 308, 0.8, 0.76, 1.0, 0.631578947368421
+"\"",STRING_LITERAL, line no: 290,"-logfile",STRING_LITERAL, line no: 309, 0.8, 0.8, 1.0, 0.8309859154929577
+"\"",STRING_LITERAL, line no: 290,value,SIMPLE_NAME, line no: 320, 0.8, 0.76, 1.0, 0.7692307692307693
+add,SIMPLE_NAME, line no: 290,osName.indexOf("Windows") > -1,INFIX_EXPRESSION, line no: 262, 0.7916666666666666, 0.7916666666666666, 1.0, 0.5376344086021505
+add,SIMPLE_NAME, line no: 290,ee instanceof CruiseControlException,INSTANCEOF_EXPRESSION, line no: 374, 0.7916666666666666, 0.7916666666666666, 1.0, 0.4423076923076923
+add,SIMPLE_NAME, line no: 290,file.renameTo(saveFile),METHOD_INVOCATION, line no: 378, 0.7916666666666666, 0.7916666666666666, 1.0, 0.5402298850574713
+add,SIMPLE_NAME, line no: 290,renameTo,SIMPLE_NAME, line no: 378, 0.7916666666666666, 0.7916666666666666, 1.0, 0.803030303030303
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,getOsName,SIMPLE_NAME, line no: 261, 0.7916666666666666, 0.7916666666666666, 1.0, 0.5581395348837209
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,key,SIMPLE_NAME, line no: 319, 0.7916666666666666, 0.7916666666666666, 1.0, 0.5465116279069767
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"-D",STRING_LITERAL, line no: 322, 0.7916666666666666, 0.5833333333333334, 1.0, 0.5813953488372093
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"=",STRING_LITERAL, line no: 322, 0.7916666666666666, 0.5833333333333334, 1.0, 0.5813953488372093
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"Error reading : ",STRING_LITERAL, line no: 379, 0.7916666666666666, 0.7916666666666666, 1.0, 0.6395348837209303
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,".  Saved as : ",STRING_LITERAL, line no: 380, 0.7916666666666666, 0.7916666666666666, 1.0, 0.6395348837209303
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,renameTo,SIMPLE_NAME, line no: 378, 0.782608695652174, 0.782608695652174, 1.0, 0.49019607843137253
+"\"",STRING_LITERAL, line no: 290,getOsName(),METHOD_INVOCATION, line no: 261, 0.76, 0.76, 1.0, 0.6266666666666667
+"\"",STRING_LITERAL, line no: 290,getOsName,SIMPLE_NAME, line no: 261, 0.76, 0.76, 1.0, 0.7164179104477612
+"\"",STRING_LITERAL, line no: 290,key,SIMPLE_NAME, line no: 319, 0.76, 0.76, 1.0, 0.7384615384615385
+"\"",STRING_LITERAL, line no: 290,(String)propertiesIterator.next(),CAST_EXPRESSION, line no: 319, 0.76, 0.76, 1.0, 0.5052631578947369
+"\"",STRING_LITERAL, line no: 290,(String)buildProperties.get(key),CAST_EXPRESSION, line no: 320, 0.76, 0.76, 1.0, 0.5319148936170213
+"\"",STRING_LITERAL, line no: 290,"-D",STRING_LITERAL, line no: 322, 0.76, 0.56, 1.0, 0.9076923076923077
+"\"",STRING_LITERAL, line no: 290,"=",STRING_LITERAL, line no: 322, 0.76, 0.56, 1.0, 0.9076923076923077
+"\"",STRING_LITERAL, line no: 290,"Error reading : ",STRING_LITERAL, line no: 379, 0.76, 0.76, 1.0, 0.7468354430379747
+"\"",STRING_LITERAL, line no: 290,".  Saved as : ",STRING_LITERAL, line no: 380, 0.76, 0.76, 1.0, 0.7662337662337663
+antScript,SIMPLE_NAME, line no: 290,getAbsolutePath,SIMPLE_NAME, line no: 176, 0.76, 0.68, 1.0, 0.7397260273972602
+antScript,SIMPLE_NAME, line no: 290,"-D" + property.getName() + "="+ property.getValue(),INFIX_EXPRESSION, line no: 329, 0.76, 0.76, 1.0, 0.4608695652173913
+antScript,SIMPLE_NAME, line no: 290,property.getName(),METHOD_INVOCATION, line no: 329, 0.76, 0.76, 1.0, 0.6463414634146342
+antScript,SIMPLE_NAME, line no: 290,getName,SIMPLE_NAME, line no: 329, 0.76, 0.76, 1.0, 0.8507462686567164
+antScript,SIMPLE_NAME, line no: 290,property.getValue(),METHOD_INVOCATION, line no: 329, 0.76, 0.76, 1.0, 0.6385542168674698
+antScript,SIMPLE_NAME, line no: 290,getValue,SIMPLE_NAME, line no: 329, 0.76, 0.76, 1.0, 0.8507462686567164
+antScript,SIMPLE_NAME, line no: 290,file.getAbsolutePath(),METHOD_INVOCATION, line no: 354, 0.76, 0.4, 1.0, 0.5581395348837209
+antScript,SIMPLE_NAME, line no: 290,System.currentTimeMillis() + file.getName(),INFIX_EXPRESSION, line no: 377, 0.76, 0.76, 1.0, 0.4716981132075472
+antScript,SIMPLE_NAME, line no: 290,file.getName(),METHOD_INVOCATION, line no: 377, 0.76, 0.76, 1.0, 0.6153846153846154
+antScript,SIMPLE_NAME, line no: 290,"Error reading : " + file.getAbsolutePath() + ".  Saved as : "+ saveFile.getAbsolutePath(),INFIX_EXPRESSION, line no: 379, 0.76, 0.76, 1.0, 0.3464052287581699
+antScript,SIMPLE_NAME, line no: 290,saveFile.getAbsolutePath(),METHOD_INVOCATION, line no: 380, 0.76, 0.76, 1.0, 0.5666666666666667
+"\"",STRING_LITERAL, line no: 290,getOsName(),METHOD_INVOCATION, line no: 261, 0.76, 0.76, 1.0, 0.6266666666666667
+"\"",STRING_LITERAL, line no: 290,getOsName,SIMPLE_NAME, line no: 261, 0.76, 0.76, 1.0, 0.7164179104477612
+"\"",STRING_LITERAL, line no: 290,key,SIMPLE_NAME, line no: 319, 0.76, 0.76, 1.0, 0.7384615384615385
+"\"",STRING_LITERAL, line no: 290,(String)propertiesIterator.next(),CAST_EXPRESSION, line no: 319, 0.76, 0.76, 1.0, 0.5052631578947369
+"\"",STRING_LITERAL, line no: 290,(String)buildProperties.get(key),CAST_EXPRESSION, line no: 320, 0.76, 0.76, 1.0, 0.5319148936170213
+"\"",STRING_LITERAL, line no: 290,"-D",STRING_LITERAL, line no: 322, 0.76, 0.56, 1.0, 0.9076923076923077
+"\"",STRING_LITERAL, line no: 290,"=",STRING_LITERAL, line no: 322, 0.76, 0.56, 1.0, 0.9076923076923077
+"\"",STRING_LITERAL, line no: 290,"Error reading : ",STRING_LITERAL, line no: 379, 0.76, 0.76, 1.0, 0.7468354430379747
+"\"",STRING_LITERAL, line no: 290,".  Saved as : ",STRING_LITERAL, line no: 380, 0.76, 0.76, 1.0, 0.7662337662337663
+add,SIMPLE_NAME, line no: 290,arguments.add("-D" + property.getName() + "="+ property.getValue()),METHOD_INVOCATION, line no: 329, 0.75, 0.75, 1.0, 0.40458015267175573
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,getAbsolutePath,SIMPLE_NAME, line no: 176, 0.75, 0.7083333333333334, 1.0, 0.5465116279069767
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,getName,SIMPLE_NAME, line no: 329, 0.75, 0.75, 1.0, 0.5813953488372093
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,getValue,SIMPLE_NAME, line no: 329, 0.75, 0.75, 1.0, 0.5813953488372093
+"\"",STRING_LITERAL, line no: 290,getAbsolutePath,SIMPLE_NAME, line no: 176, 0.72, 0.68, 1.0, 0.6301369863013698
+"\"",STRING_LITERAL, line no: 290,"-D" + property.getName() + "="+ property.getValue(),INFIX_EXPRESSION, line no: 329, 0.72, 0.72, 1.0, 0.4608695652173913
+"\"",STRING_LITERAL, line no: 290,property.getName(),METHOD_INVOCATION, line no: 329, 0.72, 0.72, 1.0, 0.5975609756097561
+"\"",STRING_LITERAL, line no: 290,getName,SIMPLE_NAME, line no: 329, 0.72, 0.72, 1.0, 0.7692307692307693
+"\"",STRING_LITERAL, line no: 290,property.getValue(),METHOD_INVOCATION, line no: 329, 0.72, 0.72, 1.0, 0.5903614457831325
+"\"",STRING_LITERAL, line no: 290,getValue,SIMPLE_NAME, line no: 329, 0.72, 0.72, 1.0, 0.7575757575757576
+"\"",STRING_LITERAL, line no: 290,file.getAbsolutePath(),METHOD_INVOCATION, line no: 354, 0.72, 0.4, 1.0, 0.5232558139534884
+"\"",STRING_LITERAL, line no: 290,System.currentTimeMillis() + file.getName(),INFIX_EXPRESSION, line no: 377, 0.72, 0.72, 1.0, 0.4339622641509434
+"\"",STRING_LITERAL, line no: 290,file.getName(),METHOD_INVOCATION, line no: 377, 0.72, 0.72, 1.0, 0.5769230769230769
+"\"",STRING_LITERAL, line no: 290,"Error reading : " + file.getAbsolutePath() + ".  Saved as : "+ saveFile.getAbsolutePath(),INFIX_EXPRESSION, line no: 379, 0.72, 0.72, 1.0, 0.3333333333333333
+"\"",STRING_LITERAL, line no: 290,saveFile.getAbsolutePath(),METHOD_INVOCATION, line no: 380, 0.72, 0.72, 1.0, 0.5222222222222223
+antScript,SIMPLE_NAME, line no: 290,arg,SIMPLE_NAME, line no: 115, 0.72, 0.56, 1.0, 0.8059701492537313
+antScript,SIMPLE_NAME, line no: 290,((JVMArg)argsIterator.next()).getArg(),METHOD_INVOCATION, line no: 295, 0.72, 0.72, 1.0, 0.5294117647058824
+antScript,SIMPLE_NAME, line no: 290,getArg,SIMPLE_NAME, line no: 295, 0.72, 0.72, 1.0, 0.8656716417910447
+"\"",STRING_LITERAL, line no: 290,getAbsolutePath,SIMPLE_NAME, line no: 176, 0.72, 0.68, 1.0, 0.6301369863013698
+"\"",STRING_LITERAL, line no: 290,"-D" + property.getName() + "="+ property.getValue(),INFIX_EXPRESSION, line no: 329, 0.72, 0.72, 1.0, 0.4608695652173913
+"\"",STRING_LITERAL, line no: 290,property.getName(),METHOD_INVOCATION, line no: 329, 0.72, 0.72, 1.0, 0.5975609756097561
+"\"",STRING_LITERAL, line no: 290,getName,SIMPLE_NAME, line no: 329, 0.72, 0.72, 1.0, 0.7692307692307693
+"\"",STRING_LITERAL, line no: 290,property.getValue(),METHOD_INVOCATION, line no: 329, 0.72, 0.72, 1.0, 0.5903614457831325
+"\"",STRING_LITERAL, line no: 290,getValue,SIMPLE_NAME, line no: 329, 0.72, 0.72, 1.0, 0.7575757575757576
+"\"",STRING_LITERAL, line no: 290,file.getAbsolutePath(),METHOD_INVOCATION, line no: 354, 0.72, 0.4, 1.0, 0.5232558139534884
+"\"",STRING_LITERAL, line no: 290,System.currentTimeMillis() + file.getName(),INFIX_EXPRESSION, line no: 377, 0.72, 0.72, 1.0, 0.4339622641509434
+"\"",STRING_LITERAL, line no: 290,file.getName(),METHOD_INVOCATION, line no: 377, 0.72, 0.72, 1.0, 0.5769230769230769
+"\"",STRING_LITERAL, line no: 290,"Error reading : " + file.getAbsolutePath() + ".  Saved as : "+ saveFile.getAbsolutePath(),INFIX_EXPRESSION, line no: 379, 0.72, 0.72, 1.0, 0.3333333333333333
+"\"",STRING_LITERAL, line no: 290,saveFile.getAbsolutePath(),METHOD_INVOCATION, line no: 380, 0.72, 0.72, 1.0, 0.5222222222222223
+add,SIMPLE_NAME, line no: 290,arg != null && arg.length() > 0,INFIX_EXPRESSION, line no: 297, 0.7083333333333334, 0.7083333333333334, 1.0, 0.5319148936170213
+add,SIMPLE_NAME, line no: 290,arg != null,INFIX_EXPRESSION, line no: 297, 0.7083333333333334, 0.7083333333333334, 1.0, 0.6756756756756757
+add,SIMPLE_NAME, line no: 290,arg.length() > 0,INFIX_EXPRESSION, line no: 297, 0.7083333333333334, 0.7083333333333334, 1.0, 0.6329113924050633
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,arg,SIMPLE_NAME, line no: 115, 0.7083333333333334, 0.5416666666666666, 1.0, 0.5465116279069767
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,getArg,SIMPLE_NAME, line no: 295, 0.7083333333333334, 0.7083333333333334, 1.0, 0.5930232558139535
+"\"",STRING_LITERAL, line no: 290,arg,SIMPLE_NAME, line no: 115, 0.68, 0.52, 1.0, 0.7076923076923077
+"\"",STRING_LITERAL, line no: 290,((JVMArg)argsIterator.next()).getArg(),METHOD_INVOCATION, line no: 295, 0.68, 0.68, 1.0, 0.4803921568627451
+"\"",STRING_LITERAL, line no: 290,getArg,SIMPLE_NAME, line no: 295, 0.68, 0.68, 1.0, 0.7692307692307693
+antScript,SIMPLE_NAME, line no: 290," ",STRING_LITERAL, line no: 117, 0.68, 0.68, 1.0, 0.6865671641791045
+"\"",STRING_LITERAL, line no: 290,arg,SIMPLE_NAME, line no: 115, 0.68, 0.52, 1.0, 0.7076923076923077
+"\"",STRING_LITERAL, line no: 290,((JVMArg)argsIterator.next()).getArg(),METHOD_INVOCATION, line no: 295, 0.68, 0.68, 1.0, 0.4803921568627451
+"\"",STRING_LITERAL, line no: 290,getArg,SIMPLE_NAME, line no: 295, 0.68, 0.68, 1.0, 0.7692307692307693
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290," ",STRING_LITERAL, line no: 117, 0.6666666666666666, 0.6666666666666666, 1.0, 0.5697674418604651
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"Ant logfile [",STRING_LITERAL, line no: 175, 0.6666666666666666, 0.6666666666666666, 1.0, 0.6046511627906976
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"] cannot be found",STRING_LITERAL, line no: 177, 0.6666666666666666, 0.6666666666666666, 1.0, 0.627906976744186
+"\"",STRING_LITERAL, line no: 290," ",STRING_LITERAL, line no: 117, 0.64, 0.64, 1.0, 0.8769230769230769
+"\"",STRING_LITERAL, line no: 290,"Ant logfile [",STRING_LITERAL, line no: 175, 0.64, 0.64, 1.0, 0.75
+"\"",STRING_LITERAL, line no: 290,logFile.getAbsolutePath(),METHOD_INVOCATION, line no: 176, 0.64, 0.64, 1.0, 0.5056179775280899
+"\"",STRING_LITERAL, line no: 290,"] cannot be found",STRING_LITERAL, line no: 177, 0.64, 0.64, 1.0, 0.7125
+antScript,SIMPLE_NAME, line no: 290,"Ant logfile [",STRING_LITERAL, line no: 175, 0.64, 0.64, 1.0, 0.6447368421052632
+antScript,SIMPLE_NAME, line no: 290,logFile.getAbsolutePath(),METHOD_INVOCATION, line no: 176, 0.64, 0.64, 1.0, 0.5393258426966292
+antScript,SIMPLE_NAME, line no: 290,"] cannot be found",STRING_LITERAL, line no: 177, 0.64, 0.64, 1.0, 0.6125
+"\"",STRING_LITERAL, line no: 290," ",STRING_LITERAL, line no: 117, 0.64, 0.64, 1.0, 0.8769230769230769
+"\"",STRING_LITERAL, line no: 290,"Ant logfile [",STRING_LITERAL, line no: 175, 0.64, 0.64, 1.0, 0.75
+"\"",STRING_LITERAL, line no: 290,logFile.getAbsolutePath(),METHOD_INVOCATION, line no: 176, 0.64, 0.64, 1.0, 0.5056179775280899
+"\"",STRING_LITERAL, line no: 290,"] cannot be found",STRING_LITERAL, line no: 177, 0.64, 0.64, 1.0, 0.7125
+add,SIMPLE_NAME, line no: 290,i < 150,INFIX_EXPRESSION, line no: 388, 0.625, 0.625, 1.0, 0.6428571428571429
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,getCanonicalPath,SIMPLE_NAME, line no: 120, 0.625, 0.625, 1.0, 0.6162790697674418
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"cmd.exe",STRING_LITERAL, line no: 287, 0.625, 0.625, 1.0, 0.5930232558139535
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"/C",STRING_LITERAL, line no: 288, 0.625, 0.625, 1.0, 0.5813953488372093
+"\"",STRING_LITERAL, line no: 290,getCanonicalPath,SIMPLE_NAME, line no: 120, 0.6, 0.6, 1.0, 0.6756756756756757
+"\"",STRING_LITERAL, line no: 290,"Ant logfile [" + logFile.getAbsolutePath() + "] cannot be found",INFIX_EXPRESSION, line no: 175, 0.6, 0.6, 1.0, 0.3828125
+"\"",STRING_LITERAL, line no: 290,"cmd.exe",STRING_LITERAL, line no: 287, 0.6, 0.6, 1.0, 0.8428571428571429
+"\"",STRING_LITERAL, line no: 290,"/C",STRING_LITERAL, line no: 288, 0.6, 0.6, 1.0, 0.9076923076923077
+antScript,SIMPLE_NAME, line no: 290,getCanonicalPath,SIMPLE_NAME, line no: 120, 0.6, 0.6, 1.0, 0.8108108108108109
+antScript,SIMPLE_NAME, line no: 290,"Ant logfile [" + logFile.getAbsolutePath() + "] cannot be found",INFIX_EXPRESSION, line no: 175, 0.6, 0.6, 1.0, 0.3828125
+antScript,SIMPLE_NAME, line no: 290,"cmd.exe",STRING_LITERAL, line no: 287, 0.6, 0.6, 1.0, 0.7
+antScript,SIMPLE_NAME, line no: 290,"/C",STRING_LITERAL, line no: 288, 0.6, 0.6, 1.0, 0.7164179104477612
+"\"",STRING_LITERAL, line no: 290,getCanonicalPath,SIMPLE_NAME, line no: 120, 0.6, 0.6, 1.0, 0.6756756756756757
+"\"",STRING_LITERAL, line no: 290,"Ant logfile [" + logFile.getAbsolutePath() + "] cannot be found",INFIX_EXPRESSION, line no: 175, 0.6, 0.6, 1.0, 0.3828125
+"\"",STRING_LITERAL, line no: 290,"cmd.exe",STRING_LITERAL, line no: 287, 0.6, 0.6, 1.0, 0.8428571428571429
+"\"",STRING_LITERAL, line no: 290,"/C",STRING_LITERAL, line no: 288, 0.6, 0.6, 1.0, 0.9076923076923077
+add,SIMPLE_NAME, line no: 290,arguments.add("cmd.exe"),METHOD_INVOCATION, line no: 287, 0.5833333333333334, 0.5833333333333334, 1.0, 0.5795454545454546
+add,SIMPLE_NAME, line no: 290,arguments.add("/C"),METHOD_INVOCATION, line no: 288, 0.5833333333333334, 0.5833333333333334, 1.0, 0.6144578313253012
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"in directory ",STRING_LITERAL, line no: 120, 0.5833333333333334, 0.5833333333333334, 1.0, 0.6511627906976745
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"-debug",STRING_LITERAL, line no: 333, 0.5833333333333334, 0.5833333333333334, 1.0, 0.5581395348837209
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"-verbose",STRING_LITERAL, line no: 334, 0.5833333333333334, 0.5833333333333334, 1.0, 0.5697674418604651
+"\"",STRING_LITERAL, line no: 290,"in directory ",STRING_LITERAL, line no: 120, 0.56, 0.56, 1.0, 0.8026315789473685
+"\"",STRING_LITERAL, line no: 290,workingDir.getCanonicalPath(),METHOD_INVOCATION, line no: 120, 0.56, 0.56, 1.0, 0.5268817204301075
+"\"",STRING_LITERAL, line no: 290,"-debug",STRING_LITERAL, line no: 333, 0.56, 0.56, 1.0, 0.8260869565217391
+"\"",STRING_LITERAL, line no: 290,"-verbose",STRING_LITERAL, line no: 334, 0.56, 0.56, 1.0, 0.8028169014084507
+antScript,SIMPLE_NAME, line no: 290,commandLine[i],ARRAY_ACCESS, line no: 115, 0.56, 0.56, 1.0, 0.6438356164383562
+antScript,SIMPLE_NAME, line no: 290,"in directory ",STRING_LITERAL, line no: 120, 0.56, 0.56, 1.0, 0.6973684210526315
+antScript,SIMPLE_NAME, line no: 290,workingDir.getCanonicalPath(),METHOD_INVOCATION, line no: 120, 0.56, 0.56, 1.0, 0.5806451612903226
+antScript,SIMPLE_NAME, line no: 290,"-debug",STRING_LITERAL, line no: 333, 0.56, 0.56, 1.0, 0.6666666666666666
+antScript,SIMPLE_NAME, line no: 290,"-verbose",STRING_LITERAL, line no: 334, 0.56, 0.56, 1.0, 0.6619718309859155
+"\"",STRING_LITERAL, line no: 290,"in directory ",STRING_LITERAL, line no: 120, 0.56, 0.56, 1.0, 0.8026315789473685
+"\"",STRING_LITERAL, line no: 290,workingDir.getCanonicalPath(),METHOD_INVOCATION, line no: 120, 0.56, 0.56, 1.0, 0.5268817204301075
+"\"",STRING_LITERAL, line no: 290,"-debug",STRING_LITERAL, line no: 333, 0.56, 0.56, 1.0, 0.8260869565217391
+"\"",STRING_LITERAL, line no: 290,"-verbose",STRING_LITERAL, line no: 334, 0.56, 0.56, 1.0, 0.8028169014084507
+add,SIMPLE_NAME, line no: 290,arguments.add("-debug"),METHOD_INVOCATION, line no: 333, 0.5416666666666666, 0.5416666666666666, 1.0, 0.5632183908045977
+add,SIMPLE_NAME, line no: 290,arguments.add("-verbose"),METHOD_INVOCATION, line no: 334, 0.5416666666666666, 0.5416666666666666, 1.0, 0.550561797752809
+add,SIMPLE_NAME, line no: 290,character == -1,INFIX_EXPRESSION, line no: 390, 0.5416666666666666, 0.5416666666666666, 1.0, 0.6410256410256411
+"\"",STRING_LITERAL, line no: 290,commandLine[i],ARRAY_ACCESS, line no: 115, 0.52, 0.52, 1.0, 0.6027397260273972
+"\"",STRING_LITERAL, line no: 290,"in directory " + workingDir.getCanonicalPath(),INFIX_EXPRESSION, line no: 120, 0.52, 0.52, 1.0, 0.4727272727272727
+"\"",STRING_LITERAL, line no: 290,"-D" + key + "="+ value,INFIX_EXPRESSION, line no: 322, 0.52, 0.52, 1.0, 0.5930232558139535
+antScript,SIMPLE_NAME, line no: 290,"in directory " + workingDir.getCanonicalPath(),INFIX_EXPRESSION, line no: 120, 0.52, 0.52, 1.0, 0.4909090909090909
+antScript,SIMPLE_NAME, line no: 290,"-D" + key + "="+ value,INFIX_EXPRESSION, line no: 322, 0.52, 0.52, 1.0, 0.5581395348837209
+"\"",STRING_LITERAL, line no: 290,commandLine[i],ARRAY_ACCESS, line no: 115, 0.52, 0.52, 1.0, 0.6027397260273972
+"\"",STRING_LITERAL, line no: 290,"in directory " + workingDir.getCanonicalPath(),INFIX_EXPRESSION, line no: 120, 0.52, 0.52, 1.0, 0.4727272727272727
+"\"",STRING_LITERAL, line no: 290,"-D" + key + "="+ value,INFIX_EXPRESSION, line no: 322, 0.52, 0.52, 1.0, 0.5930232558139535
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290, 0.5, 1.0, 0.5, 0.7352941176470589
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add("java"),METHOD_INVOCATION, line no: 292, 0.5, 1.0, 0.5, 0.7843137254901961
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add("-classpath"),METHOD_INVOCATION, line no: 301, 0.5, 1.0, 0.5, 0.7843137254901961
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add(System.getProperty("java.class.path")),METHOD_INVOCATION, line no: 302, 0.5, 1.0, 0.5, 0.6982758620689655
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add("org.apache.tools.ant.Main"),METHOD_INVOCATION, line no: 303, 0.5, 1.0, 0.5, 0.7641509433962265
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add("-buildfile"),METHOD_INVOCATION, line no: 337, 0.5, 1.0, 0.5, 0.7450980392156863
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,(String[])arguments.toArray(new String[arguments.size()]),CAST_EXPRESSION, line no: 345, 0.5, 1.0, 0.5, 0.5462184873949579
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.toArray(new String[arguments.size()]),METHOD_INVOCATION, line no: 345, 0.5, 1.0, 0.5, 0.6846846846846847
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,new String[arguments.size()],ARRAY_CREATION, line no: 345, 0.5, 1.0, 0.5, 0.5882352941176471
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.size(),METHOD_INVOCATION, line no: 345, 0.5, 1.0, 0.5, 0.6862745098039216
+add,SIMPLE_NAME, line no: 290,arguments.add("-D" + key + "="+ value),METHOD_INVOCATION, line no: 322, 0.5, 0.5, 1.0, 0.5
+"\"",STRING_LITERAL, line no: 290,getFileContent(logFile),METHOD_INVOCATION, line no: 166, 0.48, 0.48, 1.0, 0.5172413793103449
+antScript,SIMPLE_NAME, line no: 290,getFileContent(logFile),METHOD_INVOCATION, line no: 166, 0.48, 0.48, 1.0, 0.5632183908045977
+"\"",STRING_LITERAL, line no: 290,getFileContent(logFile),METHOD_INVOCATION, line no: 166, 0.48, 0.48, 1.0, 0.5172413793103449
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290, 0.4791666666666667, 0.9583333333333334, 0.5, 0.7352941176470589
+add,SIMPLE_NAME, line no: 290,buildFile == null,INFIX_EXPRESSION, line no: 86, 0.4583333333333333, 0.4583333333333333, 1.0, 0.5897435897435898
+add,SIMPLE_NAME, line no: 290,target == null,INFIX_EXPRESSION, line no: 90, 0.4583333333333333, 0.4583333333333333, 1.0, 0.6666666666666666
+add,SIMPLE_NAME, line no: 290,args.add(arg),METHOD_INVOCATION, line no: 250, 0.4583333333333333, 0.4583333333333333, 1.0, 0.6883116883116883
+add,SIMPLE_NAME, line no: 290,properties.add(property),METHOD_INVOCATION, line no: 256, 0.4583333333333333, 0.4583333333333333, 1.0, 0.5795454545454546
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"Was interrupted while waiting for Ant to finish.",STRING_LITERAL, line no: 148, 0.4583333333333333, 0.4583333333333333, 1.0, 0.5045045045045045
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290," CruiseControl will continue  assuming that it completed",STRING_LITERAL, line no: 149, 0.4583333333333333, 0.4583333333333333, 1.0, 0.48739495798319327
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,nextToken,SIMPLE_NAME, line no: 342, 0.4583333333333333, 0.4583333333333333, 1.0, 0.5697674418604651
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,antScript != null,INFIX_EXPRESSION, line no: 106, 0.45652173913043476, 0.9130434782608695, 0.5, 0.5784313725490197
+"\"",STRING_LITERAL, line no: 290,"Was interrupted while waiting for Ant to finish.",STRING_LITERAL, line no: 148, 0.44, 0.44, 1.0, 0.5135135135135135
+"\"",STRING_LITERAL, line no: 290," CruiseControl will continue  assuming that it completed",STRING_LITERAL, line no: 149, 0.44, 0.44, 1.0, 0.4957983193277311
+"\"",STRING_LITERAL, line no: 290,nextToken,SIMPLE_NAME, line no: 342, 0.44, 0.44, 1.0, 0.7164179104477612
+antScript,SIMPLE_NAME, line no: 290,"Was interrupted while waiting for Ant to finish.",STRING_LITERAL, line no: 148, 0.44, 0.44, 1.0, 0.46846846846846846
+antScript,SIMPLE_NAME, line no: 290," CruiseControl will continue  assuming that it completed",STRING_LITERAL, line no: 149, 0.44, 0.44, 1.0, 0.453781512605042
+antScript,SIMPLE_NAME, line no: 290,nextToken,SIMPLE_NAME, line no: 342, 0.44, 0.44, 1.0, 0.835820895522388
+"\"",STRING_LITERAL, line no: 290,"Was interrupted while waiting for Ant to finish.",STRING_LITERAL, line no: 148, 0.44, 0.44, 1.0, 0.5135135135135135
+"\"",STRING_LITERAL, line no: 290," CruiseControl will continue  assuming that it completed",STRING_LITERAL, line no: 149, 0.44, 0.44, 1.0, 0.4957983193277311
+"\"",STRING_LITERAL, line no: 290,nextToken,SIMPLE_NAME, line no: 342, 0.44, 0.44, 1.0, 0.7164179104477612
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add(getLoggerClassName()),METHOD_INVOCATION, line no: 308, 0.43478260869565216, 0.8260869565217391, 0.5, 0.7549019607843137
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add("-listener"),METHOD_INVOCATION, line no: 312, 0.43478260869565216, 0.8695652173913043, 0.5, 0.7745098039215687
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"ant logfile ",STRING_LITERAL, line no: 354, 0.4166666666666667, 0.4166666666666667, 1.0, 0.6162790697674418
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290," does not exist.",STRING_LITERAL, line no: 354, 0.4166666666666667, 0.4166666666666667, 1.0, 0.627906976744186
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add("-logger"),METHOD_INVOCATION, line no: 307, 0.41304347826086957, 0.8260869565217391, 0.5, 0.7647058823529411
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add("-logfile"),METHOD_INVOCATION, line no: 309, 0.41304347826086957, 0.8260869565217391, 0.5, 0.7647058823529411
+"\"",STRING_LITERAL, line no: 290,"Was interrupted while waiting for Ant to finish." + " CruiseControl will continue  assuming that it completed",INFIX_EXPRESSION, line no: 148, 0.4, 0.4, 1.0, 0.28735632183908044
+"\"",STRING_LITERAL, line no: 290,targets.nextToken(),METHOD_INVOCATION, line no: 342, 0.4, 0.4, 1.0, 0.5662650602409639
+"\"",STRING_LITERAL, line no: 290,"ant logfile ",STRING_LITERAL, line no: 354, 0.4, 0.4, 1.0, 0.76
+"\"",STRING_LITERAL, line no: 290," does not exist.",STRING_LITERAL, line no: 354, 0.4, 0.4, 1.0, 0.7215189873417721
+antScript,SIMPLE_NAME, line no: 290,"Was interrupted while waiting for Ant to finish." + " CruiseControl will continue  assuming that it completed",INFIX_EXPRESSION, line no: 148, 0.4, 0.4, 1.0, 0.3045977011494253
+antScript,SIMPLE_NAME, line no: 290,targets.nextToken(),METHOD_INVOCATION, line no: 342, 0.4, 0.4, 1.0, 0.6144578313253012
+antScript,SIMPLE_NAME, line no: 290,"ant logfile ",STRING_LITERAL, line no: 354, 0.4, 0.4, 1.0, 0.6666666666666666
+antScript,SIMPLE_NAME, line no: 290," does not exist.",STRING_LITERAL, line no: 354, 0.4, 0.4, 1.0, 0.6329113924050633
+"\"",STRING_LITERAL, line no: 290,"Was interrupted while waiting for Ant to finish." + " CruiseControl will continue  assuming that it completed",INFIX_EXPRESSION, line no: 148, 0.4, 0.4, 1.0, 0.28735632183908044
+"\"",STRING_LITERAL, line no: 290,targets.nextToken(),METHOD_INVOCATION, line no: 342, 0.4, 0.4, 1.0, 0.5662650602409639
+"\"",STRING_LITERAL, line no: 290,"ant logfile ",STRING_LITERAL, line no: 354, 0.4, 0.4, 1.0, 0.76
+"\"",STRING_LITERAL, line no: 290," does not exist.",STRING_LITERAL, line no: 354, 0.4, 0.4, 1.0, 0.7215189873417721
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,delete,SIMPLE_NAME, line no: 182, 0.391304347826087, 0.391304347826087, 1.0, 0.49019607843137253
+add,SIMPLE_NAME, line no: 290,delete,SIMPLE_NAME, line no: 182, 0.375, 0.375, 1.0, 0.859375
+add,SIMPLE_NAME, line no: 290,arguments.add(arg),METHOD_INVOCATION, line no: 298, 0.375, 0.375, 1.0, 0.6463414634146342
+add,SIMPLE_NAME, line no: 290,arguments.add(targets.nextToken()),METHOD_INVOCATION, line no: 342, 0.375, 0.375, 1.0, 0.5204081632653061
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"Exception trying to close Process streams.",STRING_LITERAL, line no: 151, 0.375, 0.375, 1.0, 0.5238095238095238
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"os.name",STRING_LITERAL, line no: 269, 0.375, 0.375, 1.0, 0.6162790697674418
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"build tag not found in ",STRING_LITERAL, line no: 360, 0.375, 0.375, 1.0, 0.6511627906976745
+"\"",STRING_LITERAL, line no: 290,"Exception trying to close Process streams.",STRING_LITERAL, line no: 151, 0.36, 0.36, 1.0, 0.5428571428571428
+"\"",STRING_LITERAL, line no: 290,"os.name",STRING_LITERAL, line no: 269, 0.36, 0.36, 1.0, 0.8714285714285714
+"\"",STRING_LITERAL, line no: 290,"ant logfile " + file.getAbsolutePath() + " does not exist.",INFIX_EXPRESSION, line no: 354, 0.36, 0.36, 1.0, 0.3983739837398374
+"\"",STRING_LITERAL, line no: 290,"build tag not found in ",STRING_LITERAL, line no: 360, 0.36, 0.36, 1.0, 0.686046511627907
+antScript,SIMPLE_NAME, line no: 290,"Exception trying to close Process streams.",STRING_LITERAL, line no: 151, 0.36, 0.36, 1.0, 0.4857142857142857
+antScript,SIMPLE_NAME, line no: 290,"os.name",STRING_LITERAL, line no: 269, 0.36, 0.36, 1.0, 0.7285714285714285
+antScript,SIMPLE_NAME, line no: 290,"ant logfile " + file.getAbsolutePath() + " does not exist.",INFIX_EXPRESSION, line no: 354, 0.36, 0.36, 1.0, 0.4065040650406504
+antScript,SIMPLE_NAME, line no: 290,"build tag not found in ",STRING_LITERAL, line no: 360, 0.36, 0.36, 1.0, 0.6046511627906976
+"\"",STRING_LITERAL, line no: 290,"Exception trying to close Process streams.",STRING_LITERAL, line no: 151, 0.36, 0.36, 1.0, 0.5428571428571428
+"\"",STRING_LITERAL, line no: 290,"os.name",STRING_LITERAL, line no: 269, 0.36, 0.36, 1.0, 0.8714285714285714
+"\"",STRING_LITERAL, line no: 290,"ant logfile " + file.getAbsolutePath() + " does not exist.",INFIX_EXPRESSION, line no: 354, 0.36, 0.36, 1.0, 0.3983739837398374
+"\"",STRING_LITERAL, line no: 290,"build tag not found in ",STRING_LITERAL, line no: 360, 0.36, 0.36, 1.0, 0.686046511627907
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,killed,SIMPLE_NAME, line no: 459, 0.34782608695652173, 0.043478260869565216, 1.0, 0.49019607843137253
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add(buildFile),METHOD_INVOCATION, line no: 338, 0.3333333333333333, 1.0, 0.3333333333333333, 0.7254901960784313
+add,SIMPLE_NAME, line no: 290,logFile.delete(),METHOD_INVOCATION, line no: 182, 0.3333333333333333, 0.3333333333333333, 1.0, 0.6125
+add,SIMPLE_NAME, line no: 290,killed,SIMPLE_NAME, line no: 459, 0.3333333333333333, 0.041666666666666664, 1.0, 0.859375
+"\"",STRING_LITERAL, line no: 290,System.getProperty("os.name"),METHOD_INVOCATION, line no: 269, 0.32, 0.32, 1.0, 0.5483870967741935
+"\"",STRING_LITERAL, line no: 290,"build tag not found in " + file.getAbsolutePath(),INFIX_EXPRESSION, line no: 360, 0.32, 0.32, 1.0, 0.4424778761061947
+antScript,SIMPLE_NAME, line no: 290,System.getProperty("os.name"),METHOD_INVOCATION, line no: 269, 0.32, 0.32, 1.0, 0.5806451612903226
+antScript,SIMPLE_NAME, line no: 290,"build tag not found in " + file.getAbsolutePath(),INFIX_EXPRESSION, line no: 360, 0.32, 0.32, 1.0, 0.46017699115044247
+"\"",STRING_LITERAL, line no: 290,System.getProperty("os.name"),METHOD_INVOCATION, line no: 269, 0.32, 0.32, 1.0, 0.5483870967741935
+"\"",STRING_LITERAL, line no: 290,"build tag not found in " + file.getAbsolutePath(),INFIX_EXPRESSION, line no: 360, 0.32, 0.32, 1.0, 0.4424778761061947
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,getCommandLineArgs(buildProperties useLogger antScript != null isWindows()),METHOD_INVOCATION, line no: 104, 0.3055555555555555, 0.9166666666666666, 0.3333333333333333, 0.4244604316546763
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add("cmd.exe"),METHOD_INVOCATION, line no: 287, 0.30434782608695654, 0.6086956521739131, 0.5, 0.7647058823529411
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add("/C"),METHOD_INVOCATION, line no: 288, 0.30434782608695654, 0.6086956521739131, 0.5, 0.7549019607843137
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,true,BOOLEAN_LITERAL, line no: 471, 0.30434782608695654, 0.30434782608695654, 1.0, 0.47058823529411764
+add,SIMPLE_NAME, line no: 290,killed=true,ASSIGNMENT, line no: 471, 0.2916666666666667, 0.2916666666666667, 1.0, 0.6911764705882353
+add,SIMPLE_NAME, line no: 290,true,BOOLEAN_LITERAL, line no: 471, 0.2916666666666667, 0.2916666666666667, 1.0, 0.6818181818181818
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"Encountered an IO exception while attempting to execute Ant.",STRING_LITERAL, line no: 127, 0.2916666666666667, 0.2916666666666667, 1.0, 0.4796747967479675
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290," CruiseControl cannot continue.",STRING_LITERAL, line no: 128, 0.2916666666666667, 0.2916666666666667, 1.0, 0.6063829787234043
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add("-DXmlLogger.file=" + tempFileName),METHOD_INVOCATION, line no: 314, 0.28985507246376807, 0.8695652173913043, 0.3333333333333333, 0.7079646017699115
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add("-debug"),METHOD_INVOCATION, line no: 333, 0.2826086956521739, 0.5652173913043478, 0.5, 0.7352941176470589
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add("-verbose"),METHOD_INVOCATION, line no: 334, 0.2826086956521739, 0.5652173913043478, 0.5, 0.7450980392156863
+"\"",STRING_LITERAL, line no: 290,"Encountered an IO exception while attempting to execute Ant.",STRING_LITERAL, line no: 127, 0.28, 0.28, 1.0, 0.4796747967479675
+"\"",STRING_LITERAL, line no: 290," CruiseControl cannot continue.",STRING_LITERAL, line no: 128, 0.28, 0.28, 1.0, 0.6276595744680851
+antScript,SIMPLE_NAME, line no: 290,"Encountered an IO exception while attempting to execute Ant.",STRING_LITERAL, line no: 127, 0.28, 0.28, 1.0, 0.43902439024390244
+antScript,SIMPLE_NAME, line no: 290," CruiseControl cannot continue.",STRING_LITERAL, line no: 128, 0.28, 0.28, 1.0, 0.5638297872340425
+"\"",STRING_LITERAL, line no: 290,"Encountered an IO exception while attempting to execute Ant.",STRING_LITERAL, line no: 127, 0.28, 0.28, 1.0, 0.4796747967479675
+"\"",STRING_LITERAL, line no: 290," CruiseControl cannot continue.",STRING_LITERAL, line no: 128, 0.28, 0.28, 1.0, 0.6276595744680851
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add(tempFileName),METHOD_INVOCATION, line no: 310, 0.2753623188405797, 0.8260869565217391, 0.3333333333333333, 0.7549019607843137
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add("-D" + property.getName() + "="+ property.getValue()),METHOD_INVOCATION, line no: 329, 0.24637681159420288, 0.7391304347826086, 0.3333333333333333, 0.6870229007633588
+"\"",STRING_LITERAL, line no: 290,"Encountered an IO exception while attempting to execute Ant." + " CruiseControl cannot continue.",INFIX_EXPRESSION, line no: 127, 0.24, 0.24, 1.0, 0.3167701863354037
+antScript,SIMPLE_NAME, line no: 290,"Encountered an IO exception while attempting to execute Ant." + " CruiseControl cannot continue.",INFIX_EXPRESSION, line no: 127, 0.24, 0.24, 1.0, 0.33540372670807456
+"\"",STRING_LITERAL, line no: 290,"Encountered an IO exception while attempting to execute Ant." + " CruiseControl cannot continue.",INFIX_EXPRESSION, line no: 127, 0.24, 0.24, 1.0, 0.3167701863354037
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,getCommandLineArgs(buildProperties useLogger antScript != null isWindows()),METHOD_INVOCATION, line no: 104, 0.22826086956521738, 0.9130434782608695, 0.25, 0.5683453237410072
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,debug,SIMPLE_NAME, line no: 411, 0.21739130434782608, 0.043478260869565216, 1.0, 0.46078431372549017
+add,SIMPLE_NAME, line no: 290,debug,SIMPLE_NAME, line no: 411, 0.20833333333333334, 0.041666666666666664, 1.0, 0.8412698412698413
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,loggerClassName,SIMPLE_NAME, line no: 80, 0.20833333333333334, 0.041666666666666664, 1.0, 0.5581395348837209
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,dir,SIMPLE_NAME, line no: 197, 0.20833333333333334, 0.041666666666666664, 1.0, 0.5581395348837209
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,string,SIMPLE_NAME, line no: 419, 0.20833333333333334, 0.041666666666666664, 1.0, 0.5813953488372093
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,name,SIMPLE_NAME, line no: 436, 0.20833333333333334, 0.041666666666666664, 1.0, 0.5348837209302325
+"\"",STRING_LITERAL, line no: 290,loggerClassName,SIMPLE_NAME, line no: 80, 0.2, 0.04, 1.0, 0.676056338028169
+"\"",STRING_LITERAL, line no: 290,dir,SIMPLE_NAME, line no: 197, 0.2, 0.04, 1.0, 0.7384615384615385
+"\"",STRING_LITERAL, line no: 290,string,SIMPLE_NAME, line no: 419, 0.2, 0.04, 1.0, 0.7384615384615385
+"\"",STRING_LITERAL, line no: 290,name,SIMPLE_NAME, line no: 436, 0.2, 0.04, 1.0, 0.7076923076923077
+antScript,SIMPLE_NAME, line no: 290,loggerClassName,SIMPLE_NAME, line no: 80, 0.2, 0.04, 1.0, 0.7746478873239436
+antScript,SIMPLE_NAME, line no: 290,dir,SIMPLE_NAME, line no: 197, 0.2, 0.04, 1.0, 0.8208955223880597
+antScript,SIMPLE_NAME, line no: 290,string,SIMPLE_NAME, line no: 419, 0.2, 0.04, 1.0, 0.8507462686567164
+antScript,SIMPLE_NAME, line no: 290,name,SIMPLE_NAME, line no: 436, 0.2, 0.04, 1.0, 0.7910447761194029
+"\"",STRING_LITERAL, line no: 290,loggerClassName,SIMPLE_NAME, line no: 80, 0.2, 0.04, 1.0, 0.676056338028169
+"\"",STRING_LITERAL, line no: 290,dir,SIMPLE_NAME, line no: 197, 0.2, 0.04, 1.0, 0.7384615384615385
+"\"",STRING_LITERAL, line no: 290,string,SIMPLE_NAME, line no: 419, 0.2, 0.04, 1.0, 0.7384615384615385
+"\"",STRING_LITERAL, line no: 290,name,SIMPLE_NAME, line no: 436, 0.2, 0.04, 1.0, 0.7076923076923077
+add,SIMPLE_NAME, line no: 290,this.useLogger=useLogger,ASSIGNMENT, line no: 245, 0.16666666666666666, 0.16666666666666666, 1.0, 0.5925925925925926
+add,SIMPLE_NAME, line no: 290,this.useLogger,FIELD_ACCESS, line no: 245, 0.16666666666666666, 0.16666666666666666, 1.0, 0.6575342465753424
+add,SIMPLE_NAME, line no: 290,useDebug=debug,ASSIGNMENT, line no: 412, 0.16666666666666666, 0.16666666666666666, 1.0, 0.6901408450704225
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"'buildfile' is a required attribute on AntBuilder",STRING_LITERAL, line no: 87, 0.16666666666666666, 0.16666666666666666, 1.0, 0.5181818181818182
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"'target' is a required attribute on AntBuilder",STRING_LITERAL, line no: 91, 0.16666666666666666, 0.16666666666666666, 1.0, 0.5514018691588785
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,this.antScript=antScript,ASSIGNMENT, line no: 208, 0.16666666666666666, 0.16666666666666666, 1.0, 0.6744186046511628
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,this.antScript,FIELD_ACCESS, line no: 208, 0.16666666666666666, 0.16666666666666666, 1.0, 0.6976744186046512
+"\"",STRING_LITERAL, line no: 290,"'buildfile' is a required attribute on AntBuilder",STRING_LITERAL, line no: 87, 0.16, 0.16, 1.0, 0.5181818181818182
+"\"",STRING_LITERAL, line no: 290,"'target' is a required attribute on AntBuilder",STRING_LITERAL, line no: 91, 0.16, 0.16, 1.0, 0.5514018691588785
+"\"",STRING_LITERAL, line no: 290,antWorkingDir=dir,ASSIGNMENT, line no: 198, 0.16, 0.16, 1.0, 0.6351351351351351
+"\"",STRING_LITERAL, line no: 290,this.antScript=antScript,ASSIGNMENT, line no: 208, 0.16, 0.16, 1.0, 0.6049382716049383
+"\"",STRING_LITERAL, line no: 290,this.antScript,FIELD_ACCESS, line no: 208, 0.16, 0.16, 1.0, 0.6575342465753424
+"\"",STRING_LITERAL, line no: 290,this.tempFileName=tempFileName,ASSIGNMENT, line no: 217, 0.16, 0.16, 1.0, 0.5402298850574713
+"\"",STRING_LITERAL, line no: 290,this.tempFileName,FIELD_ACCESS, line no: 217, 0.16, 0.16, 1.0, 0.6052631578947368
+"\"",STRING_LITERAL, line no: 290,this.target=target,ASSIGNMENT, line no: 226, 0.16, 0.16, 1.0, 0.6266666666666667
+"\"",STRING_LITERAL, line no: 290,this.target,FIELD_ACCESS, line no: 226, 0.16, 0.16, 1.0, 0.6571428571428571
+"\"",STRING_LITERAL, line no: 290,this.buildFile=buildFile,ASSIGNMENT, line no: 236, 0.16, 0.16, 1.0, 0.5802469135802469
+"\"",STRING_LITERAL, line no: 290,this.buildFile,FIELD_ACCESS, line no: 236, 0.16, 0.16, 1.0, 0.6301369863013698
+"\"",STRING_LITERAL, line no: 290,loggerClassName=string,ASSIGNMENT, line no: 420, 0.16, 0.16, 1.0, 0.620253164556962
+"\"",STRING_LITERAL, line no: 290,this.arg=arg,ASSIGNMENT, line no: 427, 0.16, 0.16, 1.0, 0.6811594202898551
+"\"",STRING_LITERAL, line no: 290,this.arg,FIELD_ACCESS, line no: 427, 0.16, 0.16, 1.0, 0.6865671641791045
+"\"",STRING_LITERAL, line no: 290,this.name=name,ASSIGNMENT, line no: 440, 0.16, 0.16, 1.0, 0.6619718309859155
+"\"",STRING_LITERAL, line no: 290,this.name,FIELD_ACCESS, line no: 440, 0.16, 0.16, 1.0, 0.6764705882352942
+"\"",STRING_LITERAL, line no: 290,this.value=value,ASSIGNMENT, line no: 448, 0.16, 0.16, 1.0, 0.6164383561643836
+"\"",STRING_LITERAL, line no: 290,this.value,FIELD_ACCESS, line no: 448, 0.16, 0.16, 1.0, 0.6376811594202898
+antScript,SIMPLE_NAME, line no: 290,"'buildfile' is a required attribute on AntBuilder",STRING_LITERAL, line no: 87, 0.16, 0.16, 1.0, 0.4636363636363636
+antScript,SIMPLE_NAME, line no: 290,"'target' is a required attribute on AntBuilder",STRING_LITERAL, line no: 91, 0.16, 0.16, 1.0, 0.4953271028037383
+antScript,SIMPLE_NAME, line no: 290,antWorkingDir=dir,ASSIGNMENT, line no: 198, 0.16, 0.16, 1.0, 0.7162162162162162
+antScript,SIMPLE_NAME, line no: 290,this.antScript=antScript,ASSIGNMENT, line no: 208, 0.16, 0.16, 1.0, 0.7283950617283951
+antScript,SIMPLE_NAME, line no: 290,this.antScript,FIELD_ACCESS, line no: 208, 0.16, 0.16, 1.0, 0.8082191780821918
+antScript,SIMPLE_NAME, line no: 290,this.tempFileName=tempFileName,ASSIGNMENT, line no: 217, 0.16, 0.16, 1.0, 0.5977011494252874
+antScript,SIMPLE_NAME, line no: 290,this.tempFileName,FIELD_ACCESS, line no: 217, 0.16, 0.16, 1.0, 0.6710526315789473
+antScript,SIMPLE_NAME, line no: 290,this.target=target,ASSIGNMENT, line no: 226, 0.16, 0.16, 1.0, 0.6933333333333334
+antScript,SIMPLE_NAME, line no: 290,this.target,FIELD_ACCESS, line no: 226, 0.16, 0.16, 1.0, 0.7285714285714285
+antScript,SIMPLE_NAME, line no: 290,this.buildFile=buildFile,ASSIGNMENT, line no: 236, 0.16, 0.16, 1.0, 0.6172839506172839
+antScript,SIMPLE_NAME, line no: 290,this.buildFile,FIELD_ACCESS, line no: 236, 0.16, 0.16, 1.0, 0.684931506849315
+antScript,SIMPLE_NAME, line no: 290,loggerClassName=string,ASSIGNMENT, line no: 420, 0.16, 0.16, 1.0, 0.6835443037974683
+antScript,SIMPLE_NAME, line no: 290,this.arg=arg,ASSIGNMENT, line no: 427, 0.16, 0.16, 1.0, 0.7246376811594203
+antScript,SIMPLE_NAME, line no: 290,this.arg,FIELD_ACCESS, line no: 427, 0.16, 0.16, 1.0, 0.746268656716418
+antScript,SIMPLE_NAME, line no: 290,this.name=name,ASSIGNMENT, line no: 440, 0.16, 0.16, 1.0, 0.704225352112676
+antScript,SIMPLE_NAME, line no: 290,this.name,FIELD_ACCESS, line no: 440, 0.16, 0.16, 1.0, 0.7352941176470589
+antScript,SIMPLE_NAME, line no: 290,this.value=value,ASSIGNMENT, line no: 448, 0.16, 0.16, 1.0, 0.6575342465753424
+antScript,SIMPLE_NAME, line no: 290,this.value,FIELD_ACCESS, line no: 448, 0.16, 0.16, 1.0, 0.6956521739130435
+"\"",STRING_LITERAL, line no: 290,"'buildfile' is a required attribute on AntBuilder",STRING_LITERAL, line no: 87, 0.16, 0.16, 1.0, 0.5181818181818182
+"\"",STRING_LITERAL, line no: 290,"'target' is a required attribute on AntBuilder",STRING_LITERAL, line no: 91, 0.16, 0.16, 1.0, 0.5514018691588785
+"\"",STRING_LITERAL, line no: 290,antWorkingDir=dir,ASSIGNMENT, line no: 198, 0.16, 0.16, 1.0, 0.6351351351351351
+"\"",STRING_LITERAL, line no: 290,this.antScript=antScript,ASSIGNMENT, line no: 208, 0.16, 0.16, 1.0, 0.6049382716049383
+"\"",STRING_LITERAL, line no: 290,this.antScript,FIELD_ACCESS, line no: 208, 0.16, 0.16, 1.0, 0.6575342465753424
+"\"",STRING_LITERAL, line no: 290,this.tempFileName=tempFileName,ASSIGNMENT, line no: 217, 0.16, 0.16, 1.0, 0.5402298850574713
+"\"",STRING_LITERAL, line no: 290,this.tempFileName,FIELD_ACCESS, line no: 217, 0.16, 0.16, 1.0, 0.6052631578947368
+"\"",STRING_LITERAL, line no: 290,this.target=target,ASSIGNMENT, line no: 226, 0.16, 0.16, 1.0, 0.6266666666666667
+"\"",STRING_LITERAL, line no: 290,this.target,FIELD_ACCESS, line no: 226, 0.16, 0.16, 1.0, 0.6571428571428571
+"\"",STRING_LITERAL, line no: 290,this.buildFile=buildFile,ASSIGNMENT, line no: 236, 0.16, 0.16, 1.0, 0.5802469135802469
+"\"",STRING_LITERAL, line no: 290,this.buildFile,FIELD_ACCESS, line no: 236, 0.16, 0.16, 1.0, 0.6301369863013698
+"\"",STRING_LITERAL, line no: 290,loggerClassName=string,ASSIGNMENT, line no: 420, 0.16, 0.16, 1.0, 0.620253164556962
+"\"",STRING_LITERAL, line no: 290,this.arg=arg,ASSIGNMENT, line no: 427, 0.16, 0.16, 1.0, 0.6811594202898551
+"\"",STRING_LITERAL, line no: 290,this.arg,FIELD_ACCESS, line no: 427, 0.16, 0.16, 1.0, 0.6865671641791045
+"\"",STRING_LITERAL, line no: 290,this.name=name,ASSIGNMENT, line no: 440, 0.16, 0.16, 1.0, 0.6619718309859155
+"\"",STRING_LITERAL, line no: 290,this.name,FIELD_ACCESS, line no: 440, 0.16, 0.16, 1.0, 0.6764705882352942
+"\"",STRING_LITERAL, line no: 290,this.value=value,ASSIGNMENT, line no: 448, 0.16, 0.16, 1.0, 0.6164383561643836
+"\"",STRING_LITERAL, line no: 290,this.value,FIELD_ACCESS, line no: 448, 0.16, 0.16, 1.0, 0.6376811594202898
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add(arg),METHOD_INVOCATION, line no: 298, 0.13043478260869565, 0.391304347826087, 0.3333333333333333, 0.7745098039215687
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add("-D" + key + "="+ value),METHOD_INVOCATION, line no: 322, 0.13043478260869565, 0.5217391304347826, 0.25, 0.8333333333333334
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,arguments.add(targets.nextToken()),METHOD_INVOCATION, line no: 342, 0.13043478260869565, 0.391304347826087, 0.3333333333333333, 0.7647058823529411
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,this.antScript=antScript,ASSIGNMENT, line no: 208, 0.08695652173913043, 0.17391304347826086, 0.5, 0.6078431372549019
+arguments.add("\"" + antScript + "\""),METHOD_INVOCATION, line no: 290,this.antScript,FIELD_ACCESS, line no: 208, 0.08695652173913043, 0.17391304347826086, 0.5, 0.5980392156862745
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,DEFAULT_LOGGER,SIMPLE_NAME, line no: 68, 0.041666666666666664, 0.041666666666666664, 1.0, 0.5232558139534884
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"org.apache.tools.ant.XmlLogger",STRING_LITERAL, line no: 68, 0.041666666666666664, 0.041666666666666664, 1.0, 0.5714285714285714
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"build.xml",STRING_LITERAL, line no: 72, 0.041666666666666664, 0.041666666666666664, 1.0, 0.5930232558139535
+"\"" + antScript + "\"",INFIX_EXPRESSION, line no: 290,"log.xml",STRING_LITERAL, line no: 74, 0.041666666666666664, 0.041666666666666664, 1.0, 0.5581395348837209
+"\"",STRING_LITERAL, line no: 290,DEFAULT_LOGGER,SIMPLE_NAME, line no: 68, 0.04, 0.04, 1.0, 0.6571428571428571
+"\"",STRING_LITERAL, line no: 290,"org.apache.tools.ant.XmlLogger",STRING_LITERAL, line no: 68, 0.04, 0.04, 1.0, 0.6263736263736264
+"\"",STRING_LITERAL, line no: 290,"build.xml",STRING_LITERAL, line no: 72, 0.04, 0.04, 1.0, 0.8428571428571429
+"\"",STRING_LITERAL, line no: 290,"log.xml",STRING_LITERAL, line no: 74, 0.04, 0.04, 1.0, 0.8382352941176471
+antScript,SIMPLE_NAME, line no: 290,DEFAULT_LOGGER,SIMPLE_NAME, line no: 68, 0.04, 0.04, 1.0, 0.7428571428571429
+antScript,SIMPLE_NAME, line no: 290,"org.apache.tools.ant.XmlLogger",STRING_LITERAL, line no: 68, 0.04, 0.04, 1.0, 0.5494505494505495
+antScript,SIMPLE_NAME, line no: 290,"build.xml",STRING_LITERAL, line no: 72, 0.04, 0.04, 1.0, 0.7
+antScript,SIMPLE_NAME, line no: 290,"log.xml",STRING_LITERAL, line no: 74, 0.04, 0.04, 1.0, 0.6764705882352942
+"\"",STRING_LITERAL, line no: 290,DEFAULT_LOGGER,SIMPLE_NAME, line no: 68, 0.04, 0.04, 1.0, 0.6571428571428571
+"\"",STRING_LITERAL, line no: 290,"org.apache.tools.ant.XmlLogger",STRING_LITERAL, line no: 68, 0.04, 0.04, 1.0, 0.6263736263736264
+"\"",STRING_LITERAL, line no: 290,"build.xml",STRING_LITERAL, line no: 72, 0.04, 0.04, 1.0, 0.8428571428571429
+"\"",STRING_LITERAL, line no: 290,"log.xml",STRING_LITERAL, line no: 74, 0.04, 0.04, 1.0, 0.8382352941176471

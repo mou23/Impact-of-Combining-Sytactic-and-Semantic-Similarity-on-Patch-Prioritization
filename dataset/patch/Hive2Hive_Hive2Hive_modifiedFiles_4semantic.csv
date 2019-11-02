@@ -1,0 +1,76 @@
+parent.isShared,QUALIFIED_NAME, line no: 260,isShared,SIMPLE_NAME, line no: 26, 1.0, 0.06666666666666667, 1.0, 0.7894736842105263
+isShared,SIMPLE_NAME, line no: 260,parent.isShared,QUALIFIED_NAME, line no: 260, 0.9375, 0.9375, 1.0, 0.8157894736842105
+isShared,SIMPLE_NAME, line no: 260,false,BOOLEAN_LITERAL, line no: 26, 0.875, 0.0625, 1.0, 0.7727272727272727
+isShared,SIMPLE_NAME, line no: 260,isRoot,SIMPLE_NAME, line no: 46, 0.875, 0.0625, 1.0, 0.8484848484848485
+isShared,SIMPLE_NAME, line no: 260,obj == null,INFIX_EXPRESSION, line no: 289, 0.875, 0.875, 1.0, 0.6351351351351351
+isShared,SIMPLE_NAME, line no: 260,obj instanceof Index,INSTANCEOF_EXPRESSION, line no: 291, 0.875, 0.875, 1.0, 0.5909090909090909
+isShared,SIMPLE_NAME, line no: 260,obj instanceof PublicKey,INSTANCEOF_EXPRESSION, line no: 303, 0.875, 0.875, 1.0, 0.5543478260869565
+parent.isShared,QUALIFIED_NAME, line no: 260,false,BOOLEAN_LITERAL, line no: 26, 0.8666666666666667, 0.06666666666666667, 1.0, 0.6973684210526315
+parent.isShared,QUALIFIED_NAME, line no: 260,isRoot,SIMPLE_NAME, line no: 46, 0.8666666666666667, 0.06666666666666667, 1.0, 0.6842105263157895
+isShared,SIMPLE_NAME, line no: 260,isRoot(),METHOD_INVOCATION, line no: 108, 0.8125, 0.5625, 1.0, 0.6944444444444444
+isShared,SIMPLE_NAME, line no: 260,equals,SIMPLE_NAME, line no: 212, 0.6875, 0.625, 1.0, 0.8333333333333334
+isShared,SIMPLE_NAME, line no: 260,protectionKeys == null,INFIX_EXPRESSION, line no: 238, 0.6875, 0.6875, 1.0, 0.5764705882352941
+isShared,SIMPLE_NAME, line no: 260,getName().equals(other.getName()),METHOD_INVOCATION, line no: 301, 0.6875, 0.6875, 1.0, 0.5360824742268041
+parent.isShared,QUALIFIED_NAME, line no: 260,equals,SIMPLE_NAME, line no: 212, 0.6666666666666666, 0.6, 1.0, 0.6842105263157895
+isShared,SIMPLE_NAME, line no: 260,name != null,INFIX_EXPRESSION, line no: 90, 0.625, 0.625, 1.0, 0.6712328767123288
+isShared,SIMPLE_NAME, line no: 260,true,BOOLEAN_LITERAL, line no: 114, 0.625, 0.625, 1.0, 0.7121212121212122
+isShared,SIMPLE_NAME, line no: 260,parent != null && userPermissions.isEmpty(),INFIX_EXPRESSION, line no: 171, 0.625, 0.625, 1.0, 0.4528301886792453
+isShared,SIMPLE_NAME, line no: 260,parent != null,INFIX_EXPRESSION, line no: 171, 0.625, 0.625, 1.0, 0.6233766233766234
+isShared,SIMPLE_NAME, line no: 260,userPermissions.isEmpty(),METHOD_INVOCATION, line no: 171, 0.625, 0.625, 1.0, 0.550561797752809
+isShared,SIMPLE_NAME, line no: 260,isEmpty,SIMPLE_NAME, line no: 171, 0.625, 0.625, 1.0, 0.8181818181818182
+isShared,SIMPLE_NAME, line no: 260,permission.getUserId().equals(userId),METHOD_INVOCATION, line no: 212, 0.625, 0.625, 1.0, 0.5247524752475248
+isShared,SIMPLE_NAME, line no: 260,getFilePublicKey().equals(other.getFilePublicKey()),METHOD_INVOCATION, line no: 294, 0.625, 0.625, 1.0, 0.4608695652173913
+isShared,SIMPLE_NAME, line no: 260,getName() == null,INFIX_EXPRESSION, line no: 296, 0.625, 0.625, 1.0, 0.6375
+isShared,SIMPLE_NAME, line no: 260,getFilePublicKey().equals(publicKey),METHOD_INVOCATION, line no: 306, 0.625, 0.625, 1.0, 0.51
+parent.isShared,QUALIFIED_NAME, line no: 260,true,BOOLEAN_LITERAL, line no: 114, 0.6, 0.6, 1.0, 0.6447368421052632
+parent.isShared,QUALIFIED_NAME, line no: 260,isEmpty,SIMPLE_NAME, line no: 171, 0.6, 0.6, 1.0, 0.6578947368421053
+parent,SIMPLE_NAME, line no: 260,this,THIS_EXPRESSION, line no: 114, 0.5625, 0.5625, 1.0, 0.696969696969697
+isShared,SIMPLE_NAME, line no: 260,child.getName().equalsIgnoreCase(withoutSeparator),METHOD_INVOCATION, line no: 93, 0.5625, 0.5625, 1.0, 0.45535714285714285
+isShared,SIMPLE_NAME, line no: 260,equalsIgnoreCase,SIMPLE_NAME, line no: 93, 0.5625, 0.5625, 1.0, 0.7638888888888888
+isShared,SIMPLE_NAME, line no: 260,isSharedOrHasSharedChildren(),METHOD_INVOCATION, line no: 110, 0.5625, 0.5625, 1.0, 0.6021505376344086
+isShared,SIMPLE_NAME, line no: 260,isSharedOrHasSharedChildren,SIMPLE_NAME, line no: 110, 0.5625, 0.5625, 1.0, 0.7294117647058823
+isShared,SIMPLE_NAME, line no: 260,this.isShared=true,ASSIGNMENT, line no: 114, 0.5625, 0.5625, 1.0, 0.72
+isShared,SIMPLE_NAME, line no: 260,this.isShared,FIELD_ACCESS, line no: 114, 0.5625, 0.5625, 1.0, 0.75
+isShared,SIMPLE_NAME, line no: 260,users.addAll(parent.getCalculatedUserList()),METHOD_INVOCATION, line no: 188, 0.5625, 0.5625, 1.0, 0.4722222222222222
+isShared,SIMPLE_NAME, line no: 260,addAll,SIMPLE_NAME, line no: 188, 0.5625, 0.5625, 1.0, 0.8181818181818182
+isShared,SIMPLE_NAME, line no: 260,permission.getPermission() == PermissionType.WRITE,INFIX_EXPRESSION, line no: 213, 0.5625, 0.5625, 1.0, 0.45132743362831856
+parent.isShared,QUALIFIED_NAME, line no: 260,equalsIgnoreCase,SIMPLE_NAME, line no: 93, 0.5333333333333333, 0.5333333333333333, 1.0, 0.6973684210526315
+parent.isShared,QUALIFIED_NAME, line no: 260,isSharedOrHasSharedChildren,SIMPLE_NAME, line no: 110, 0.5333333333333333, 0.5333333333333333, 1.0, 0.7058823529411765
+parent.isShared,QUALIFIED_NAME, line no: 260,addAll,SIMPLE_NAME, line no: 188, 0.5333333333333333, 0.5333333333333333, 1.0, 0.6578947368421053
+isShared,SIMPLE_NAME, line no: 260,getChildByName(child.getName()) == null,INFIX_EXPRESSION, line no: 66, 0.5, 0.5, 1.0, 0.51
+isShared,SIMPLE_NAME, line no: 260,children.add(child),METHOD_INVOCATION, line no: 67, 0.5, 0.5, 1.0, 0.6419753086419753
+isShared,SIMPLE_NAME, line no: 260,add,SIMPLE_NAME, line no: 67, 0.5, 0.5, 1.0, 0.8484848484848485
+isShared,SIMPLE_NAME, line no: 260,!children.remove(child),PREFIX_EXPRESSION, line no: 76, 0.5, 0.5, 1.0, 0.6
+isShared,SIMPLE_NAME, line no: 260,children.remove(child),METHOD_INVOCATION, line no: 76, 0.5, 0.5, 1.0, 0.6190476190476191
+isShared,SIMPLE_NAME, line no: 260,remove,SIMPLE_NAME, line no: 76, 0.5, 0.5, 1.0, 0.8484848484848485
+isShared,SIMPLE_NAME, line no: 260,userPermission.getUserId().equalsIgnoreCase(userId),METHOD_INVOCATION, line no: 147, 0.5, 0.5, 1.0, 0.45217391304347826
+isShared,SIMPLE_NAME, line no: 260,isShared(),METHOD_INVOCATION, line no: 195, 0.5, 0.5, 1.0, 0.7297297297297297
+parent.isShared,QUALIFIED_NAME, line no: 260,add,SIMPLE_NAME, line no: 67, 0.4666666666666667, 0.4666666666666667, 1.0, 0.6842105263157895
+parent.isShared,QUALIFIED_NAME, line no: 260,remove,SIMPLE_NAME, line no: 76, 0.4666666666666667, 0.4666666666666667, 1.0, 0.6973684210526315
+isShared,SIMPLE_NAME, line no: 260,children.remove(getChildByName(child.getName())),METHOD_INVOCATION, line no: 78, 0.4375, 0.4375, 1.0, 0.4636363636363636
+isShared,SIMPLE_NAME, line no: 260,iter.hasNext(),METHOD_INVOCATION, line no: 145, 0.4375, 0.4375, 1.0, 0.6410256410256411
+isShared,SIMPLE_NAME, line no: 260,hasNext,SIMPLE_NAME, line no: 145, 0.4375, 0.4375, 1.0, 0.8333333333333334
+isShared,SIMPLE_NAME, line no: 260,other.getName() == null,INFIX_EXPRESSION, line no: 298, 0.4375, 0.4375, 1.0, 0.5813953488372093
+parent.isShared,QUALIFIED_NAME, line no: 260,hasNext,SIMPLE_NAME, line no: 145, 0.4, 0.4, 1.0, 0.6710526315789473
+isShared,SIMPLE_NAME, line no: 260,this.isShared=false,ASSIGNMENT, line no: 122, 0.375, 0.375, 1.0, 0.7368421052631579
+parent.isShared,QUALIFIED_NAME, line no: 260,parent.getCalculatedUserPermissions(),METHOD_INVOCATION, line no: 172, 0.3333333333333333, 0.6666666666666666, 0.5, 0.5742574257425742
+isShared,SIMPLE_NAME, line no: 260,users.add(permission.getUserId()),METHOD_INVOCATION, line no: 183, 0.3125, 0.3125, 1.0, 0.5257731958762887
+isShared,SIMPLE_NAME, line no: 260,getProtectionKeys() != null,INFIX_EXPRESSION, line no: 197, 0.3125, 0.3125, 1.0, 0.5222222222222223
+parent.isShared,QUALIFIED_NAME, line no: 260,parent != null,INFIX_EXPRESSION, line no: 171, 0.3, 0.6, 0.5, 0.6753246753246753
+parent.isShared,QUALIFIED_NAME, line no: 260,this.isShared=true,ASSIGNMENT, line no: 114, 0.26666666666666666, 0.5333333333333333, 0.5, 0.7368421052631579
+parent.isShared,QUALIFIED_NAME, line no: 260,this.isShared,FIELD_ACCESS, line no: 114, 0.26666666666666666, 0.5333333333333333, 0.5, 0.7631578947368421
+parent.isShared,QUALIFIED_NAME, line no: 260,parent.getCalculatedUserList(),METHOD_INVOCATION, line no: 188, 0.26666666666666666, 0.5333333333333333, 0.5, 0.5957446808510638
+isShared,SIMPLE_NAME, line no: 260,userPermissions.add(userPermission),METHOD_INVOCATION, line no: 135, 0.25, 0.25, 1.0, 0.5151515151515151
+parent.isShared,QUALIFIED_NAME, line no: 260,this.isShared=false,ASSIGNMENT, line no: 122, 0.2, 0.4, 0.5, 0.7631578947368421
+parent.isShared,QUALIFIED_NAME, line no: 260,parent.getProtectionKeys(),METHOD_INVOCATION, line no: 240, 0.2, 0.4, 0.5, 0.6555555555555556
+parent.isShared,QUALIFIED_NAME, line no: 260,parent != null && userPermissions.isEmpty(),INFIX_EXPRESSION, line no: 171, 0.19999999999999998, 0.6, 0.3333333333333333, 0.5188679245283019
+isShared,SIMPLE_NAME, line no: 260,parent == null,INFIX_EXPRESSION, line no: 47, 0.1875, 0.1875, 1.0, 0.64
+parent.isShared,QUALIFIED_NAME, line no: 260,users.addAll(parent.getCalculatedUserList()),METHOD_INVOCATION, line no: 188, 0.17777777777777776, 0.5333333333333333, 0.3333333333333333, 0.5185185185185185
+parent.isShared,QUALIFIED_NAME, line no: 260,parent == null,INFIX_EXPRESSION, line no: 47, 0.1, 0.2, 0.5, 0.6842105263157895
+parent.isShared,QUALIFIED_NAME, line no: 260,canWrite,SIMPLE_NAME, line no: 194, 0.06666666666666667, 0.06666666666666667, 1.0, 0.6842105263157895
+parent.isShared,QUALIFIED_NAME, line no: 260,getSharedFlag,SIMPLE_NAME, line no: 269, 0.06666666666666667, 0.06666666666666667, 1.0, 0.7894736842105263
+parent.isShared,QUALIFIED_NAME, line no: 260,isFolder,SIMPLE_NAME, line no: 274, 0.06666666666666667, 0.06666666666666667, 1.0, 0.6973684210526315
+parent,SIMPLE_NAME, line no: 260,FolderIndex,SIMPLE_NAME, line no: 18, 0.0625, 0.0625, 1.0, 0.8059701492537313
+isShared,SIMPLE_NAME, line no: 260,canWrite,SIMPLE_NAME, line no: 194, 0.0625, 0.0625, 1.0, 0.8333333333333334
+isShared,SIMPLE_NAME, line no: 260,getSharedFlag,SIMPLE_NAME, line no: 269, 0.0625, 0.0625, 1.0, 0.8732394366197183
+isShared,SIMPLE_NAME, line no: 260,isFolder,SIMPLE_NAME, line no: 274, 0.0625, 0.0625, 1.0, 0.8636363636363636

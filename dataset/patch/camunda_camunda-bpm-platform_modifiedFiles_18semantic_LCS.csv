@@ -1,0 +1,199 @@
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109, 0.8181818181818182, 1.0, 1.0, 0.8181818181818182
+concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109,concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109, 0.8074162679425837, 0.9868421052631579, 1.0, 0.8181818181818182
+getActivity,SIMPLE_NAME, line no: 109,targetActivity,SIMPLE_NAME, line no: 138, 0.7346938775510203, 0.012987012987012988, 1.0, 0.7857142857142857
+getActivity,SIMPLE_NAME, line no: 109,PvmActivity,SIMPLE_NAME, line no: 26, 0.7178276269185361, 0.025974025974025976, 1.0, 0.7272727272727273
+getActivity,SIMPLE_NAME, line no: 109,srcActivity,SIMPLE_NAME, line no: 138, 0.680047225501771, 0.012987012987012988, 1.0, 0.7272727272727273
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,activeConcurrentExecutionsExist,SIMPLE_NAME, line no: 48, 0.6529032258064517, 0.92, 1.0, 0.7096774193548387
+activity,SIMPLE_NAME, line no: 109,getActivity,SIMPLE_NAME, line no: 47, 0.6363636363636364, 0.9210526315789473, 1.0, 0.6363636363636364
+getActivity,SIMPLE_NAME, line no: 109,activity,SIMPLE_NAME, line no: 47, 0.628099173553719, 0.922077922077922, 1.0, 0.6363636363636364
+activity,SIMPLE_NAME, line no: 109,PvmActivity,SIMPLE_NAME, line no: 26, 0.6279904306220095, 0.02631578947368421, 1.0, 0.6363636363636364
+activity,SIMPLE_NAME, line no: 109,srcActivity,SIMPLE_NAME, line no: 138, 0.5944976076555024, 0.013157894736842105, 1.0, 0.6363636363636364
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109, 0.569620253164557, 1.0, 1.0, 0.569620253164557
+concurrentExecution,SIMPLE_NAME, line no: 109,ActivityExecution,SIMPLE_NAME, line no: 28, 0.5637119113573408, 0.02631578947368421, 1.0, 0.5789473684210527
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109, 0.5620253164556962, 0.9866666666666667, 1.0, 0.569620253164557
+concurrentExecution,SIMPLE_NAME, line no: 109,ActivityExecution,SIMPLE_NAME, line no: 28, 0.556390977443609, 0.025974025974025976, 1.0, 0.5789473684210527
+activity,SIMPLE_NAME, line no: 109,targetActivity,SIMPLE_NAME, line no: 138, 0.5338345864661654, 0.013157894736842105, 1.0, 0.5714285714285714
+concurrentExecution,SIMPLE_NAME, line no: 109,execution,SIMPLE_NAME, line no: 42, 0.47368421052631576, 0.013157894736842105, 1.0, 0.47368421052631576
+getActivity,SIMPLE_NAME, line no: 109,execution.getActivity(),METHOD_INVOCATION, line no: 47, 0.4720496894409938, 0.922077922077922, 1.0, 0.4782608695652174
+concurrentExecution,SIMPLE_NAME, line no: 109,execution,SIMPLE_NAME, line no: 42, 0.4675324675324675, 0.012987012987012988, 1.0, 0.47368421052631576
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,(ExecutionEntity)concurrentExecution,CAST_EXPRESSION, line no: 113, 0.4503703703703704, 0.8533333333333334, 1.0, 0.5277777777777778
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,((ExecutionEntity)concurrentExecution),PARENTHESIZED_EXPRESSION, line no: 113, 0.44912280701754387, 0.8533333333333334, 1.0, 0.5263157894736842
+concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109,(ExecutionEntity)concurrentExecution,CAST_EXPRESSION, line no: 113, 0.4444444444444444, 0.8421052631578947, 1.0, 0.5277777777777778
+concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109,((ExecutionEntity)concurrentExecution),PARENTHESIZED_EXPRESSION, line no: 113, 0.4432132963988919, 0.8421052631578947, 1.0, 0.5263157894736842
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,activeConcurrentExecutionsExist,SIMPLE_NAME, line no: 48, 0.42933333333333334, 0.92, 1.0, 0.4666666666666667
+concurrentExecution,SIMPLE_NAME, line no: 109,execution.getParent(),METHOD_INVOCATION, line no: 108, 0.41729323308270677, 0.9736842105263158, 1.0, 0.42857142857142855
+concurrentExecution,SIMPLE_NAME, line no: 109,execution.getParent(),METHOD_INVOCATION, line no: 108, 0.411873840445269, 0.961038961038961, 1.0, 0.42857142857142855
+isActive,SIMPLE_NAME, line no: 109,execution.isActive(),METHOD_INVOCATION, line no: 128, 0.4, 1.0, 1.0, 0.4
+concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109,((ExecutionEntity)concurrentExecution).getTransitionBeingTaken(),METHOD_INVOCATION, line no: 113, 0.3684210526315789, 0.8421052631578947, 1.0, 0.4375
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109, 0.36666666666666664, 1.0, 0.5, 0.7333333333333333
+concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109,concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109, 0.36184210526315785, 0.9868421052631579, 0.5, 0.7333333333333333
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,((ExecutionEntity)concurrentExecution).getTransitionBeingTaken(),METHOD_INVOCATION, line no: 113, 0.3466666666666667, 0.8533333333333334, 1.0, 0.40625
+concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109,targetActivity,SIMPLE_NAME, line no: 138, 0.3397129186602871, 0.013157894736842105, 1.0, 0.36363636363636365
+isActive,SIMPLE_NAME, line no: 109,isConcurrent,SIMPLE_NAME, line no: 107, 0.3333333333333333, 1.0, 1.0, 0.3333333333333333
+concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109,getActivity,SIMPLE_NAME, line no: 47, 0.3333333333333333, 0.9210526315789473, 1.0, 0.3333333333333333
+getActivity,SIMPLE_NAME, line no: 109,concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109, 0.32900432900432897, 0.987012987012987, 1.0, 0.3333333333333333
+activity,SIMPLE_NAME, line no: 109,execution.getActivity(),METHOD_INVOCATION, line no: 47, 0.3003432494279176, 0.9210526315789473, 1.0, 0.30434782608695654
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,isConcurrent,SIMPLE_NAME, line no: 107, 0.3, 1.0, 1.0, 0.3
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109, 0.296, 0.9866666666666667, 0.5, 0.6
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109, 0.296, 0.9866666666666667, 0.5, 0.6
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,activeConcurrentExecutionsExist,SIMPLE_NAME, line no: 48, 0.29079712624016424, 0.918918918918919, 1.0, 0.31645569620253167
+concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109,srcActivity,SIMPLE_NAME, line no: 138, 0.28309409888357256, 0.013157894736842105, 1.0, 0.30303030303030304
+isActive,SIMPLE_NAME, line no: 109,isLoggable,SIMPLE_NAME, line no: 50, 0.2763157894736842, 0.9210526315789473, 1.0, 0.3
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,isActive,SIMPLE_NAME, line no: 109, 0.26666666666666666, 1.0, 1.0, 0.26666666666666666
+isActive,SIMPLE_NAME, line no: 109,concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109, 0.2631578947368421, 0.9868421052631579, 1.0, 0.26666666666666666
+isActive,SIMPLE_NAME, line no: 109,false,BOOLEAN_LITERAL, line no: 112, 0.25, 0.8289473684210527, 1.0, 0.25
+concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109,PvmActivity,SIMPLE_NAME, line no: 26, 0.23923444976076555, 0.02631578947368421, 1.0, 0.24242424242424243
+isActive,SIMPLE_NAME, line no: 109,visitedActivities.add(srcActivity),METHOD_INVOCATION, line no: 141, 0.21981424148606812, 0.39473684210526316, 1.0, 0.23529411764705882
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,((ExecutionEntity)concurrentExecution).getTransitionBeingTaken(),METHOD_INVOCATION, line no: 113, 0.21895313034553543, 0.8648648648648649, 0.5, 0.5063291139240507
+getActivity,SIMPLE_NAME, line no: 109,destinationActivity,SIMPLE_NAME, line no: 158, 0.21872863978127136, 0.37662337662337664, 1.0, 0.5263157894736842
+concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109,activity,SIMPLE_NAME, line no: 47, 0.20933014354066987, 0.9210526315789473, 1.0, 0.21212121212121213
+activity,SIMPLE_NAME, line no: 109,concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109, 0.20933014354066987, 0.9868421052631579, 1.0, 0.21212121212121213
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109, 0.2088607594936709, 1.0, 0.5, 0.4177215189873418
+concurrentExecution,SIMPLE_NAME, line no: 109,getParent,SIMPLE_NAME, line no: 108, 0.20498614958448752, 0.9736842105263158, 1.0, 0.21052631578947367
+concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109,concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109, 0.20336442371752167, 0.9736842105263158, 0.5, 0.4177215189873418
+concurrentExecution,SIMPLE_NAME, line no: 109,getParent,SIMPLE_NAME, line no: 108, 0.202323991797676, 0.961038961038961, 1.0, 0.21052631578947367
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,isConcurrent,SIMPLE_NAME, line no: 107, 0.19733333333333336, 0.9866666666666667, 1.0, 0.2
+isActive,SIMPLE_NAME, line no: 109,srcActivity.equals(targetActivity),METHOD_INVOCATION, line no: 147, 0.1923374613003096, 0.9342105263157895, 1.0, 0.20588235294117646
+isActive,SIMPLE_NAME, line no: 109,reachable,SIMPLE_NAME, line no: 112, 0.19005847953216373, 0.8421052631578947, 1.0, 0.2222222222222222
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109, 0.189873417721519, 1.0, 0.5, 0.379746835443038
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,((ExecutionEntity)concurrentExecution),PARENTHESIZED_EXPRESSION, line no: 113, 0.18962962962962962, 0.8533333333333334, 0.5, 0.4444444444444444
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109, 0.18734177215189876, 0.9866666666666667, 0.5, 0.379746835443038
+isActive,SIMPLE_NAME, line no: 109,transitionList.size() > 0,INFIX_EXPRESSION, line no: 156, 0.18684210526315792, 0.9342105263157895, 1.0, 0.2
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,((ExecutionEntity)concurrentExecution).getTransitionBeingTaken(),METHOD_INVOCATION, line no: 113, 0.18666666666666668, 0.8533333333333334, 0.5, 0.4375
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,(ExecutionEntity)concurrentExecution,CAST_EXPRESSION, line no: 113, 0.18014814814814817, 0.8533333333333334, 0.5, 0.4222222222222222
+concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109,destinationActivity,SIMPLE_NAME, line no: 158, 0.17862838915470494, 0.3815789473684211, 1.0, 0.42424242424242425
+activity,SIMPLE_NAME, line no: 109,destinationActivity,SIMPLE_NAME, line no: 158, 0.17728531855955676, 0.3815789473684211, 1.0, 0.42105263157894735
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,((ExecutionEntity)concurrentExecution),PARENTHESIZED_EXPRESSION, line no: 113, 0.17516250427642832, 0.8648648648648649, 0.5, 0.4050632911392405
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,(ExecutionEntity)concurrentExecution,CAST_EXPRESSION, line no: 113, 0.16968867601778995, 0.8648648648648649, 0.5, 0.3924050632911392
+getActivity,SIMPLE_NAME, line no: 109,getDestination,SIMPLE_NAME, line no: 115, 0.16697588126159554, 0.2727272727272727, 1.0, 0.42857142857142855
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,execution.findInactiveConcurrentExecutions(activity),METHOD_INVOCATION, line no: 54, 0.16672368571102747, 0.918918918918919, 0.3333333333333333, 0.5443037974683544
+isActive,SIMPLE_NAME, line no: 109,execution.isConcurrent(),METHOD_INVOCATION, line no: 107, 0.16666666666666666, 1.0, 1.0, 0.16666666666666666
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,execution.findInactiveConcurrentExecutions(activity),METHOD_INVOCATION, line no: 54, 0.1651282051282051, 0.92, 0.3333333333333333, 0.5384615384615384
+isActive,SIMPLE_NAME, line no: 109,contains,SIMPLE_NAME, line no: 159, 0.15789473684210525, 0.42105263157894735, 1.0, 0.375
+isActive,SIMPLE_NAME, line no: 109,activeConcurrentExecutionsExist,SIMPLE_NAME, line no: 48, 0.14855687606112053, 0.9210526315789473, 1.0, 0.16129032258064516
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,isReachable(concurrentExecution.getActivity() activity new HashSet<PvmActivity>()),METHOD_INVOCATION, line no: 117, 0.14716545814106788, 0.25675675675675674, 1.0, 0.573170731707317
+isActive,SIMPLE_NAME, line no: 109,log.isLoggable(Level.FINE),METHOD_INVOCATION, line no: 50, 0.1417004048582996, 0.9210526315789473, 1.0, 0.15384615384615385
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,isConcurrent,SIMPLE_NAME, line no: 107, 0.13924050632911392, 1.0, 1.0, 0.13924050632911392
+isActive,SIMPLE_NAME, line no: 109,srcActivity.getOutgoingTransitions().size() == 0,INFIX_EXPRESSION, line no: 140, 0.1362390350877193, 0.9342105263157895, 1.0, 0.14583333333333334
+isActive,SIMPLE_NAME, line no: 109,transitionsToTake.size() > 0,INFIX_EXPRESSION, line no: 67, 0.13157894736842105, 0.9210526315789473, 1.0, 0.14285714285714285
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,isActive,SIMPLE_NAME, line no: 109, 0.13155555555555556, 0.9866666666666667, 1.0, 0.13333333333333333
+isActive,SIMPLE_NAME, line no: 109,concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109, 0.1298245614035088, 0.9736842105263158, 1.0, 0.13333333333333333
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,isReachable(concurrentExecution.getActivity() activity new HashSet<PvmActivity>()),METHOD_INVOCATION, line no: 117, 0.12975609756097561, 0.25333333333333335, 1.0, 0.5121951219512195
+isActive,SIMPLE_NAME, line no: 109,transitionList != null,INFIX_EXPRESSION, line no: 156, 0.12739234449760764, 0.9342105263157895, 1.0, 0.13636363636363635
+isActive,SIMPLE_NAME, line no: 109,pvmTransition != null,INFIX_EXPRESSION, line no: 114, 0.12218045112781954, 0.8552631578947368, 1.0, 0.14285714285714285
+isActive,SIMPLE_NAME, line no: 109,equals,SIMPLE_NAME, line no: 59, 0.11677631578947369, 0.5394736842105263, 1.0, 0.125
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,reachable,SIMPLE_NAME, line no: 112, 0.11555555555555556, 0.8533333333333334, 1.0, 0.13333333333333333
+isActive,SIMPLE_NAME, line no: 109,activeConcurrentExecutionsExist(execution),METHOD_INVOCATION, line no: 48, 0.10964912280701754, 0.9210526315789473, 1.0, 0.11904761904761904
+concurrentExecution,SIMPLE_NAME, line no: 109,parent,SIMPLE_NAME, line no: 91, 0.10803324099722993, 0.013157894736842105, 1.0, 0.21052631578947367
+isActive,SIMPLE_NAME, line no: 109,!activeConcurrentExecutionsExist(execution),PREFIX_EXPRESSION, line no: 48, 0.10709914320685435, 0.9210526315789473, 1.0, 0.11627906976744186
+concurrentExecution,SIMPLE_NAME, line no: 109,parent,SIMPLE_NAME, line no: 91, 0.10663021189336977, 0.012987012987012988, 1.0, 0.21052631578947367
+isActive,SIMPLE_NAME, line no: 109,evaluate,SIMPLE_NAME, line no: 61, 0.10526315789473684, 0.42105263157894735, 1.0, 0.25
+isActive,SIMPLE_NAME, line no: 109,subExecutions.size() == 0,INFIX_EXPRESSION, line no: 94, 0.10263157894736843, 0.5131578947368421, 1.0, 0.2
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,isActive,SIMPLE_NAME, line no: 109, 0.10126582278481013, 1.0, 1.0, 0.10126582278481013
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,contains,SIMPLE_NAME, line no: 159, 0.09955555555555556, 0.4266666666666667, 1.0, 0.23333333333333334
+isActive,SIMPLE_NAME, line no: 109,concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109, 0.09860093271152565, 0.9736842105263158, 1.0, 0.10126582278481013
+getActivity,SIMPLE_NAME, line no: 109,(PvmActivity)srcActivity.getParent(),CAST_EXPRESSION, line no: 145, 0.09740259740259741, 0.38961038961038963, 1.0, 0.25
+concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109,"an active concurrent execution found: '" + concurrentExecution.getActivity(),INFIX_EXPRESSION, line no: 122, 0.09586466165413533, 0.2236842105263158, 1.0, 0.42857142857142855
+isActive,SIMPLE_NAME, line no: 109,isReachable,SIMPLE_NAME, line no: 115, 0.09569377990430622, 0.2631578947368421, 1.0, 0.36363636363636365
+concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109,getDestination,SIMPLE_NAME, line no: 115, 0.09569377990430622, 0.27631578947368424, 1.0, 0.24242424242424243
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,equals,SIMPLE_NAME, line no: 59, 0.09333333333333334, 0.5466666666666666, 1.0, 0.1
+isActive,SIMPLE_NAME, line no: 109,srcActivity.getParent() == null,INFIX_EXPRESSION, line no: 142, 0.09210526315789473, 0.40789473684210525, 1.0, 0.22580645161290322
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,isLoggable,SIMPLE_NAME, line no: 50, 0.09200000000000001, 0.92, 1.0, 0.1
+isActive,SIMPLE_NAME, line no: 109,transitionList != null && transitionList.size() > 0,INFIX_EXPRESSION, line no: 156, 0.09158926728586171, 0.9342105263157895, 1.0, 0.09803921568627451
+isActive,SIMPLE_NAME, line no: 109,destinationActivity != null,INFIX_EXPRESSION, line no: 159, 0.09064327485380116, 0.40789473684210525, 1.0, 0.2222222222222222
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,reachable=isReachable(concurrentExecution.getActivity() activity new HashSet<PvmActivity>()),ASSIGNMENT, line no: 117, 0.0881316098707403, 0.24324324324324326, 0.6666666666666666, 0.5434782608695652
+activity,SIMPLE_NAME, line no: 109,getDestination,SIMPLE_NAME, line no: 115, 0.08458646616541353, 0.27631578947368424, 1.0, 0.21428571428571427
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,getLeaveExecutions(concurrentExecution),METHOD_INVOCATION, line no: 98, 0.08205128205128205, 0.16, 1.0, 0.5128205128205128
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,isLoggable,SIMPLE_NAME, line no: 50, 0.08177777777777778, 0.92, 1.0, 0.08888888888888889
+concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109,getLeaveExecutions(concurrentExecution),METHOD_INVOCATION, line no: 98, 0.08097165991902833, 0.15789473684210525, 1.0, 0.5128205128205128
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,"an active concurrent execution found: '" + concurrentExecution.getActivity(),INFIX_EXPRESSION, line no: 122, 0.07948051948051947, 0.22666666666666666, 1.0, 0.35064935064935066
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,"an active concurrent execution found: '" + concurrentExecution.getActivity(),INFIX_EXPRESSION, line no: 122, 0.07706123845364353, 0.22972972972972974, 0.5, 0.6708860759493671
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,reachable,SIMPLE_NAME, line no: 112, 0.07703703703703704, 0.8533333333333334, 1.0, 0.08888888888888889
+activity,SIMPLE_NAME, line no: 109,(PvmActivity)srcActivity.getParent(),CAST_EXPRESSION, line no: 145, 0.07675438596491228, 0.39473684210526316, 1.0, 0.19444444444444445
+isActive,SIMPLE_NAME, line no: 109,true,BOOLEAN_LITERAL, line no: 124, 0.0756578947368421, 0.3026315789473684, 1.0, 0.25
+getActivity,SIMPLE_NAME, line no: 109,pvmTransition.getDestination(),METHOD_INVOCATION, line no: 115, 0.07532467532467534, 0.2597402597402597, 1.0, 0.2
+getActivity,SIMPLE_NAME, line no: 109,srcActivity=(PvmActivity)srcActivity.getParent(),ASSIGNMENT, line no: 145, 0.07305194805194806, 0.38961038961038963, 1.0, 0.1875
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,reachable=isReachable(concurrentExecution.getActivity() activity new HashSet<PvmActivity>()),ASSIGNMENT, line no: 117, 0.07304347826086954, 0.24, 0.6666666666666666, 0.45652173913043476
+isActive,SIMPLE_NAME, line no: 109,condition == null,INFIX_EXPRESSION, line no: 61, 0.07198142414860681, 0.40789473684210525, 1.0, 0.17647058823529413
+isActive,SIMPLE_NAME, line no: 109,condition.evaluate(execution),METHOD_INVOCATION, line no: 61, 0.07032667876588022, 0.40789473684210525, 1.0, 0.1724137931034483
+isActive,SIMPLE_NAME, line no: 109,visitedActivities.contains(destinationActivity),METHOD_INVOCATION, line no: 159, 0.06942889137737962, 0.40789473684210525, 1.0, 0.1702127659574468
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,false,BOOLEAN_LITERAL, line no: 112, 0.06666666666666667, 0.84, 1.0, 0.06666666666666667
+isActive,SIMPLE_NAME, line no: 109,!visitedActivities.contains(destinationActivity),PREFIX_EXPRESSION, line no: 159, 0.06578947368421052, 0.39473684210526316, 1.0, 0.16666666666666666
+activity,SIMPLE_NAME, line no: 109,pvmTransition.getDestination(),METHOD_INVOCATION, line no: 115, 0.06359649122807018, 0.2631578947368421, 1.0, 0.16666666666666666
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,equals,SIMPLE_NAME, line no: 59, 0.06222222222222222, 0.5466666666666666, 1.0, 0.06666666666666667
+isActive,SIMPLE_NAME, line no: 109,srcActivity.getParent() instanceof PvmActivity,INSTANCEOF_EXPRESSION, line no: 142, 0.06006864988558353, 0.39473684210526316, 1.0, 0.15217391304347827
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,isLoggable,SIMPLE_NAME, line no: 50, 0.05815942524803285, 0.918918918918919, 1.0, 0.06329113924050633
+isActive,SIMPLE_NAME, line no: 109,(srcActivity.getParent() instanceof PvmActivity),PARENTHESIZED_EXPRESSION, line no: 142, 0.057565789473684216, 0.39473684210526316, 1.0, 0.14583333333333334
+activity,SIMPLE_NAME, line no: 109,srcActivity=(PvmActivity)srcActivity.getParent(),ASSIGNMENT, line no: 145, 0.057565789473684216, 0.39473684210526316, 1.0, 0.14583333333333334
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,evaluate,SIMPLE_NAME, line no: 61, 0.05688888888888889, 0.4266666666666667, 1.0, 0.13333333333333333
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,contains,SIMPLE_NAME, line no: 159, 0.05688888888888889, 0.4266666666666667, 1.0, 0.13333333333333333
+isActive,SIMPLE_NAME, line no: 109,!(srcActivity.getParent() instanceof PvmActivity),PREFIX_EXPRESSION, line no: 142, 0.05639097744360902, 0.39473684210526316, 1.0, 0.14285714285714285
+concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109,isReachable(concurrentExecution.getActivity() activity new HashSet<PvmActivity>()),METHOD_INVOCATION, line no: 117, 0.05030487804878049, 0.25, 0.5, 0.4024390243902439
+isActive,SIMPLE_NAME, line no: 109,outgoingTransition.getId().equals(defaultSequenceFlow),METHOD_INVOCATION, line no: 59, 0.04873294346978557, 0.5263157894736842, 1.0, 0.09259259259259259
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,"an active concurrent execution found: '" + concurrentExecution.getActivity(),INFIX_EXPRESSION, line no: 122, 0.048571428571428564, 0.22666666666666666, 0.5, 0.42857142857142855
+isActive,SIMPLE_NAME, line no: 109,condition == null || condition.evaluate(execution),INFIX_EXPRESSION, line no: 61, 0.04736842105263158, 0.39473684210526316, 1.0, 0.12
+isActive,SIMPLE_NAME, line no: 109,!outgoingTransition.getId().equals(defaultSequenceFlow),PREFIX_EXPRESSION, line no: 59, 0.04665071770334929, 0.5131578947368421, 1.0, 0.09090909090909091
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,isReachable(concurrentExecution.getActivity() activity new HashSet<PvmActivity>()),METHOD_INVOCATION, line no: 117, 0.04479674796747968, 0.25333333333333335, 0.5, 0.35365853658536583
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,reachable,SIMPLE_NAME, line no: 112, 0.04447485460143688, 0.8648648648648649, 1.0, 0.05063291139240506
+isActive,SIMPLE_NAME, line no: 109,defaultTransition != null,INFIX_EXPRESSION, line no: 73, 0.04421052631578947, 0.3684210526315789, 1.0, 0.12
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,log.fine("an active concurrent execution found: '" + concurrentExecution.getActivity()),METHOD_INVOCATION, line no: 122, 0.0439059749404577, 0.21621621621621623, 0.3333333333333333, 0.6091954022988506
+isActive,SIMPLE_NAME, line no: 109,destinationActivity != null && !visitedActivities.contains(destinationActivity),INFIX_EXPRESSION, line no: 159, 0.039973351099267154, 0.39473684210526316, 1.0, 0.10126582278481013
+concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109,log.fine("an active concurrent execution found: '" + concurrentExecution.getActivity()),METHOD_INVOCATION, line no: 122, 0.03992740471869328, 0.21052631578947367, 0.5, 0.3793103448275862
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,"inclusive gateway '" + activity.getId() + "' activates",INFIX_EXPRESSION, line no: 51, 0.03833333333333333, 0.18666666666666668, 0.5, 0.4107142857142857
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,contains,SIMPLE_NAME, line no: 159, 0.0383167978104687, 0.43243243243243246, 1.0, 0.08860759493670886
+isActive,SIMPLE_NAME, line no: 109,defaultSequenceFlow == null,INFIX_EXPRESSION, line no: 59, 0.038011695906432746, 0.5131578947368421, 1.0, 0.07407407407407407
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,evaluate,SIMPLE_NAME, line no: 61, 0.03792592592592593, 0.4266666666666667, 1.0, 0.08888888888888889
+isActive,SIMPLE_NAME, line no: 109,srcActivity.getParent() == null || !(srcActivity.getParent() instanceof PvmActivity),INFIX_EXPRESSION, line no: 142, 0.03759398496240601, 0.39473684210526316, 1.0, 0.09523809523809523
+isActive,SIMPLE_NAME, line no: 109,defaultSequenceFlow != null,INFIX_EXPRESSION, line no: 71, 0.037037037037037035, 0.5, 1.0, 0.07407407407407407
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,isReachable,SIMPLE_NAME, line no: 115, 0.035555555555555556, 0.26666666666666666, 1.0, 0.13333333333333333
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,getLeaveExecutions(concurrentExecution),METHOD_INVOCATION, line no: 98, 0.035555555555555556, 0.16, 0.5, 0.4444444444444444
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,equals,SIMPLE_NAME, line no: 59, 0.035408826548067054, 0.5540540540540541, 1.0, 0.0379746835443038
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,isReachable(pvmTransition.getDestination() activity new HashSet<PvmActivity>()),METHOD_INVOCATION, line no: 115, 0.034667578971376435, 0.25675675675675674, 0.3333333333333333, 0.4050632911392405
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,getLeaveExecutions(concurrentExecution),METHOD_INVOCATION, line no: 98, 0.03386931235032501, 0.16216216216216217, 0.5, 0.4177215189873418
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,"Inclusive gateway '" + activity.getId() + "' does not activate",INFIX_EXPRESSION, line no: 86, 0.03354166666666667, 0.18666666666666668, 0.5, 0.359375
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,"Inclusive gateway '" + activity.getId() + "' does not activate",INFIX_EXPRESSION, line no: 86, 0.03352719808416011, 0.1891891891891892, 0.5, 0.35443037974683544
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,log.fine("an active concurrent execution found: '" + concurrentExecution.getActivity()),METHOD_INVOCATION, line no: 122, 0.03310344827586207, 0.21333333333333335, 0.5, 0.3103448275862069
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,"inclusive gateway '" + activity.getId() + "' activates",INFIX_EXPRESSION, line no: 51, 0.03232979815258297, 0.1891891891891892, 0.5, 0.34177215189873417
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,true,BOOLEAN_LITERAL, line no: 124, 0.030666666666666665, 0.30666666666666664, 1.0, 0.1
+isActive,SIMPLE_NAME, line no: 109,defaultSequenceFlow == null || !outgoingTransition.getId().equals(defaultSequenceFlow),INFIX_EXPRESSION, line no: 59, 0.029834761321909428, 0.5131578947368421, 1.0, 0.05813953488372093
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,isReachable(pvmTransition.getDestination() activity new HashSet<PvmActivity>()),METHOD_INVOCATION, line no: 115, 0.028860759493670885, 0.25333333333333335, 0.3333333333333333, 0.34177215189873417
+concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109,reachable=isReachable(concurrentExecution.getActivity() activity new HashSet<PvmActivity>()),ASSIGNMENT, line no: 117, 0.028318077803203657, 0.23684210526315788, 0.3333333333333333, 0.358695652173913
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,evaluate,SIMPLE_NAME, line no: 61, 0.02736914129319193, 0.43243243243243246, 1.0, 0.06329113924050633
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,log.fine("an active concurrent execution found: '" + concurrentExecution.getActivity()),METHOD_INVOCATION, line no: 122, 0.026973180076628352, 0.21333333333333335, 0.3333333333333333, 0.3793103448275862
+isActive,SIMPLE_NAME, line no: 109,isReachable(destinationActivity targetActivity visitedActivities),METHOD_INVOCATION, line no: 160, 0.025910931174089068, 0.21052631578947367, 1.0, 0.12307692307692308
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,false,BOOLEAN_LITERAL, line no: 112, 0.02531645569620253, 0.8513513513513513, 1.0, 0.02531645569620253
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,reachable=isReachable(concurrentExecution.getActivity() activity new HashSet<PvmActivity>()),ASSIGNMENT, line no: 117, 0.025217391304347823, 0.24, 0.3333333333333333, 0.31521739130434784
+isActive,SIMPLE_NAME, line no: 109,isReachable(concurrentExecution.getActivity() activity new HashSet<PvmActivity>()),METHOD_INVOCATION, line no: 117, 0.024390243902439025, 0.25, 1.0, 0.0975609756097561
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,executionlist.addAll(getLeaveExecutions(concurrentExecution)),METHOD_INVOCATION, line no: 98, 0.024043715846994534, 0.14666666666666667, 0.5, 0.32786885245901637
+concurrentExecution.getActivity(),METHOD_INVOCATION, line no: 109,executionlist.addAll(getLeaveExecutions(concurrentExecution)),METHOD_INVOCATION, line no: 98, 0.02372735116479724, 0.14473684210526316, 0.5, 0.32786885245901637
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,isReachable,SIMPLE_NAME, line no: 115, 0.023703703703703706, 0.26666666666666666, 1.0, 0.08888888888888889
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,reachable=isReachable(pvmTransition.getDestination() activity new HashSet<PvmActivity>()),ASSIGNMENT, line no: 115, 0.02323109626480413, 0.24324324324324326, 0.25, 0.38202247191011235
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,log.fine("inclusive gateway '" + activity.getId() + "' activates"),METHOD_INVOCATION, line no: 51, 0.02276094276094276, 0.17333333333333334, 0.3333333333333333, 0.3939393939393939
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,executionlist.addAll(getLeaveExecutions(concurrentExecution)),METHOD_INVOCATION, line no: 98, 0.022579541566883337, 0.14864864864864866, 0.3333333333333333, 0.45569620253164556
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,log.fine("inclusive gateway '" + activity.getId() + "' activates"),METHOD_INVOCATION, line no: 51, 0.02223742730071844, 0.17567567567567569, 0.3333333333333333, 0.379746835443038
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,log.fine("Inclusive gateway '" + activity.getId() + "' does not activate"),METHOD_INVOCATION, line no: 86, 0.02223742730071844, 0.17567567567567569, 0.3333333333333333, 0.379746835443038
+isActive,SIMPLE_NAME, line no: 109,isReachable(pvmTransition.getDestination() activity new HashSet<PvmActivity>()),METHOD_INVOCATION, line no: 115, 0.022151898734177215, 0.25, 1.0, 0.08860759493670886
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,false,BOOLEAN_LITERAL, line no: 112, 0.02192592592592593, 0.84, 1.0, 0.022222222222222223
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,add,SIMPLE_NAME, line no: 62, 0.02074074074074074, 0.16, 1.0, 0.022222222222222223
+isActive,SIMPLE_NAME, line no: 109,reachable=isReachable(concurrentExecution.getActivity() activity new HashSet<PvmActivity>()),ASSIGNMENT, line no: 117, 0.020594965675057208, 0.23684210526315788, 1.0, 0.08695652173913043
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,true,BOOLEAN_LITERAL, line no: 124, 0.020444444444444442, 0.30666666666666664, 1.0, 0.06666666666666667
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,log.fine("Inclusive gateway '" + activity.getId() + "' does not activate"),METHOD_INVOCATION, line no: 86, 0.0203003003003003, 0.17333333333333334, 0.3333333333333333, 0.35135135135135137
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,activity.getId(),METHOD_INVOCATION, line no: 51, 0.020000000000000004, 0.2, 0.5, 0.2
+isActive,SIMPLE_NAME, line no: 109,addAll,SIMPLE_NAME, line no: 98, 0.019736842105263157, 0.15789473684210525, 1.0, 0.125
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,reachable=isReachable(pvmTransition.getDestination() activity new HashSet<PvmActivity>()),ASSIGNMENT, line no: 115, 0.01887640449438202, 0.24, 0.25, 0.3146067415730337
+isActive,SIMPLE_NAME, line no: 109,reachable=isReachable(pvmTransition.getDestination() activity new HashSet<PvmActivity>()),ASSIGNMENT, line no: 115, 0.018628030751034887, 0.23684210526315788, 1.0, 0.07865168539325842
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,isReachable,SIMPLE_NAME, line no: 115, 0.017105713308244955, 0.2702702702702703, 1.0, 0.06329113924050633
+isActive,SIMPLE_NAME, line no: 109,executionlist.add(parent),METHOD_INVOCATION, line no: 95, 0.016842105263157894, 0.10526315789473684, 1.0, 0.16
+isActive,SIMPLE_NAME, line no: 109,executionlist.addAll(getLeaveExecutions(concurrentExecution)),METHOD_INVOCATION, line no: 98, 0.016609145815358068, 0.14473684210526316, 1.0, 0.11475409836065574
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,executionlist.addAll(getLeaveExecutions(concurrentExecution)),METHOD_INVOCATION, line no: 98, 0.016029143897996354, 0.14666666666666667, 0.3333333333333333, 0.32786885245901637
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,true,BOOLEAN_LITERAL, line no: 124, 0.01573725624358536, 0.3108108108108108, 1.0, 0.05063291139240506
+isActive,SIMPLE_NAME, line no: 109,transitionsToTake.add(outgoingTransition),METHOD_INVOCATION, line no: 62, 0.0141206675224647, 0.14473684210526316, 1.0, 0.0975609756097561
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,activity.getId(),METHOD_INVOCATION, line no: 51, 0.014112213479302088, 0.20270270270270271, 0.5, 0.13924050632911392
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,add,SIMPLE_NAME, line no: 62, 0.011802942182689019, 0.16216216216216217, 1.0, 0.012658227848101266
+concurrentExecution.isActive(),METHOD_INVOCATION, line no: 109,addAll,SIMPLE_NAME, line no: 98, 0.005333333333333333, 0.16, 1.0, 0.03333333333333333
+concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,addAll,SIMPLE_NAME, line no: 98, 0.0035555555555555557, 0.16, 1.0, 0.022222222222222223
+concurrentExecution,SIMPLE_NAME, line no: 109,org.camunda.bpm.engine.impl.pvm.delegate.ActivityExecution,QUALIFIED_NAME, line no: 28, 0.0034029038112522686, 0.013157894736842105, 1.0, 0.25862068965517243
+concurrentExecution,SIMPLE_NAME, line no: 109,org.camunda.bpm.engine.impl.pvm.delegate.ActivityExecution,QUALIFIED_NAME, line no: 28, 0.00335871025526198, 0.012987012987012988, 1.0, 0.25862068965517243
+getActivity,SIMPLE_NAME, line no: 109,org.camunda.bpm.engine.impl.pvm.PvmActivity,QUALIFIED_NAME, line no: 26, 0.0030202355783751134, 0.012987012987012988, 1.0, 0.23255813953488372
+activity,SIMPLE_NAME, line no: 109,org.camunda.bpm.engine.impl.pvm.PvmActivity,QUALIFIED_NAME, line no: 26, 0.0024479804161566705, 0.013157894736842105, 1.0, 0.18604651162790697
+concurrentExecution.isActive() && concurrentExecution.getActivity() != activity,INFIX_EXPRESSION, line no: 109,addAll,SIMPLE_NAME, line no: 98, 0.0020526855969893944, 0.16216216216216217, 1.0, 0.012658227848101266

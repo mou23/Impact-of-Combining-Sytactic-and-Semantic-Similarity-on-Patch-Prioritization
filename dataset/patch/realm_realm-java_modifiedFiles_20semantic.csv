@@ -1,0 +1,45 @@
+DEBUG,SIMPLE_NAME, line no: 58,immutable,SIMPLE_NAME, line no: 54, 1.0, 1.0, 1.0, 0.8307692307692308
+true,BOOLEAN_LITERAL, line no: 58,false,BOOLEAN_LITERAL, line no: 54, 1.0, 1.0, 1.0, 0.9076923076923077
+DEBUG,SIMPLE_NAME, line no: 58,false,BOOLEAN_LITERAL, line no: 54, 0.8, 0.8, 1.0, 0.7230769230769231
+DEBUG,SIMPLE_NAME, line no: 58,true,BOOLEAN_LITERAL, line no: 58, 0.8, 0.8, 1.0, 0.765625
+true,BOOLEAN_LITERAL, line no: 58,immutable,SIMPLE_NAME, line no: 54, 0.8, 0.8, 1.0, 0.7538461538461538
+true,BOOLEAN_LITERAL, line no: 58,DEBUG,SIMPLE_NAME, line no: 58, 0.8, 0.8, 1.0, 0.765625
+DEBUG,SIMPLE_NAME, line no: 58,nativePtr == 0,INFIX_EXPRESSION, line no: 75, 0.2, 0.2, 1.0, 0.6266666666666667
+DEBUG,SIMPLE_NAME, line no: 58,this.immutable=immutable,ASSIGNMENT, line no: 86, 0.2, 0.2, 1.0, 0.6075949367088608
+DEBUG,SIMPLE_NAME, line no: 58,this.immutable,FIELD_ACCESS, line no: 86, 0.2, 0.2, 1.0, 0.676056338028169
+DEBUG,SIMPLE_NAME, line no: 58,isValid,SIMPLE_NAME, line no: 120, 0.2, 0.2, 1.0, 0.8
+DEBUG,SIMPLE_NAME, line no: 58,nativeIsValid(nativePtr),METHOD_INVOCATION, line no: 121, 0.2, 0.2, 1.0, 0.5227272727272727
+DEBUG,SIMPLE_NAME, line no: 58,nativeIsValid,SIMPLE_NAME, line no: 121, 0.2, 0.2, 1.0, 0.7323943661971831
+DEBUG,SIMPLE_NAME, line no: 58,name.length() > 63,INFIX_EXPRESSION, line no: 127, 0.2, 0.2, 1.0, 0.5555555555555556
+DEBUG,SIMPLE_NAME, line no: 58,isEmpty,SIMPLE_NAME, line no: 198, 0.2, 0.2, 1.0, 0.8461538461538461
+DEBUG,SIMPLE_NAME, line no: 58,size() == 0,INFIX_EXPRESSION, line no: 199, 0.2, 0.2, 1.0, 0.6081081081081081
+DEBUG,SIMPLE_NAME, line no: 58,i < columnCount,INFIX_EXPRESSION, line no: 253, 0.2, 0.2, 1.0, 0.6025641025641025
+DEBUG,SIMPLE_NAME, line no: 58,name.equals(getColumnName(i)),METHOD_INVOCATION, line no: 254, 0.2, 0.2, 1.0, 0.5161290322580645
+DEBUG,SIMPLE_NAME, line no: 58,equals,SIMPLE_NAME, line no: 254, 0.2, 0.2, 1.0, 0.84375
+DEBUG,SIMPLE_NAME, line no: 58,rows < 1,INFIX_EXPRESSION, line no: 316, 0.2, 0.2, 1.0, 0.6338028169014085
+DEBUG,SIMPLE_NAME, line no: 58,rowIndex > size,INFIX_EXPRESSION, line no: 335, 0.2, 0.2, 1.0, 0.6025641025641025
+DEBUG,SIMPLE_NAME, line no: 58,columns != values.length,INFIX_EXPRESSION, line no: 342, 0.2, 0.2, 1.0, 0.5172413793103449
+DEBUG,SIMPLE_NAME, line no: 58,columnIndex < columns,INFIX_EXPRESSION, line no: 349, 0.2, 0.2, 1.0, 0.5357142857142857
+DEBUG,SIMPLE_NAME, line no: 58,!colType.matchObject(value),PREFIX_EXPRESSION, line no: 353, 0.2, 0.2, 1.0, 0.5164835164835165
+DEBUG,SIMPLE_NAME, line no: 58,colType.matchObject(value),METHOD_INVOCATION, line no: 353, 0.2, 0.2, 1.0, 0.5333333333333333
+DEBUG,SIMPLE_NAME, line no: 58,matchObject,SIMPLE_NAME, line no: 353, 0.2, 0.2, 1.0, 0.782608695652174
+DEBUG,SIMPLE_NAME, line no: 58,value instanceof byte[],INSTANCEOF_EXPRESSION, line no: 385, 0.2, 0.2, 1.0, 0.5164835164835165
+DEBUG,SIMPLE_NAME, line no: 58,value instanceof ByteBuffer,INSTANCEOF_EXPRESSION, line no: 387, 0.2, 0.2, 1.0, 0.5052631578947369
+DEBUG,SIMPLE_NAME, line no: 58,value != null,INFIX_EXPRESSION, line no: 402, 0.2, 0.2, 1.0, 0.5921052631578947
+DEBUG,SIMPLE_NAME, line no: 58,i < rows,INFIX_EXPRESSION, line no: 406, 0.2, 0.2, 1.0, 0.6338028169014085
+DEBUG,SIMPLE_NAME, line no: 58,rowIndex >= size,INFIX_EXPRESSION, line no: 418, 0.2, 0.2, 1.0, 0.5949367088607594
+DEBUG,SIMPLE_NAME, line no: 58,value,SIMPLE_NAME, line no: 471, 0.2, 0.2, 1.0, 0.8253968253968254
+DEBUG,SIMPLE_NAME, line no: 58,data.isDirect(),METHOD_INVOCATION, line no: 503, 0.2, 0.2, 1.0, 0.620253164556962
+DEBUG,SIMPLE_NAME, line no: 58,isDirect,SIMPLE_NAME, line no: 503, 0.2, 0.2, 1.0, 0.8333333333333334
+DEBUG,SIMPLE_NAME, line no: 58,getBoolean,SIMPLE_NAME, line no: 543, 0.2, 0.2, 1.0, 0.8088235294117647
+DEBUG,SIMPLE_NAME, line no: 58,nativeGetBoolean(nativePtr columnIndex rowIndex),METHOD_INVOCATION, line no: 544, 0.2, 0.2, 1.0, 0.4375
+DEBUG,SIMPLE_NAME, line no: 58,nativeGetBoolean,SIMPLE_NAME, line no: 544, 0.2, 0.2, 1.0, 0.7432432432432432
+DEBUG,SIMPLE_NAME, line no: 58,data == null,INFIX_EXPRESSION, line no: 712, 0.2, 0.2, 1.0, 0.6
+DEBUG,SIMPLE_NAME, line no: 58,getColumnType(columnIndex) != ColumnType.ColumnTypeString,INFIX_EXPRESSION, line no: 765, 0.2, 0.2, 1.0, 0.39166666666666666
+DEBUG,SIMPLE_NAME, line no: 58,hasIndex,SIMPLE_NAME, line no: 772, 0.2, 0.2, 1.0, 0.7878787878787878
+DEBUG,SIMPLE_NAME, line no: 58,nativeHasIndex(nativePtr columnIndex),METHOD_INVOCATION, line no: 773, 0.2, 0.2, 1.0, 0.45544554455445546
+DEBUG,SIMPLE_NAME, line no: 58,nativeHasIndex,SIMPLE_NAME, line no: 773, 0.2, 0.2, 1.0, 0.7222222222222222
+DEBUG,SIMPLE_NAME, line no: 58,!this.hasIndex(0) || this.getColumnType(0) != ColumnType.ColumnTypeString,INFIX_EXPRESSION, line no: 972, 0.2, 0.2, 1.0, 0.33088235294117646
+DEBUG,SIMPLE_NAME, line no: 58,!this.hasIndex(0),PREFIX_EXPRESSION, line no: 972, 0.2, 0.2, 1.0, 0.5555555555555556
+DEBUG,SIMPLE_NAME, line no: 58,this.hasIndex(0),METHOD_INVOCATION, line no: 972, 0.2, 0.2, 1.0, 0.575
+DEBUG,SIMPLE_NAME, line no: 58,this.getColumnType(0) != ColumnType.ColumnTypeString,INFIX_EXPRESSION, line no: 972, 0.2, 0.2, 1.0, 0.391304347826087

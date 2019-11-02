@@ -1,0 +1,52 @@
+p.equals(field),METHOD_INVOCATION, line no: 50,recursive,SIMPLE_NAME, line no: 31, 1.0, 0.05263157894736842, 1.0, 0.6623376623376623
+p.equals(field),METHOD_INVOCATION, line no: 50,p.matchingPrefix(field),METHOD_INVOCATION, line no: 47, 1.0, 1.0, 1.0, 0.8
+p.equals(field),METHOD_INVOCATION, line no: 50,matchingPrefix,SIMPLE_NAME, line no: 47, 1.0, 1.0, 1.0, 0.6363636363636364
+p.equals(field),METHOD_INVOCATION, line no: 50,equals,SIMPLE_NAME, line no: 50, 1.0, 1.0, 1.0, 0.7272727272727273
+p.equals(field),METHOD_INVOCATION, line no: 50,p.numSegments() > field.numSegments(),INFIX_EXPRESSION, line no: 53, 1.0, 1.0, 1.0, 0.6020408163265306
+p.equals(field),METHOD_INVOCATION, line no: 50,p.prefix(field.numSegments()).matches(field),METHOD_INVOCATION, line no: 53, 1.0, 1.0, 1.0, 0.6886792452830188
+p.equals(field),METHOD_INVOCATION, line no: 50,p.prefix(field.numSegments()),METHOD_INVOCATION, line no: 53, 1.0, 1.0, 1.0, 0.7692307692307693
+p.equals(field),METHOD_INVOCATION, line no: 50,matches,SIMPLE_NAME, line no: 53, 1.0, 1.0, 1.0, 0.6493506493506493
+p,SIMPLE_NAME, line no: 50,field,SIMPLE_NAME, line no: 29, 1.0, 0.05, 1.0, 0.8524590163934426
+p,SIMPLE_NAME, line no: 50,p.prefix(field.numSegments()),METHOD_INVOCATION, line no: 53, 1.0, 1.0, 1.0, 0.5384615384615384
+p,SIMPLE_NAME, line no: 50,prefix,SIMPLE_NAME, line no: 53, 1.0, 1.0, 1.0, 0.8870967741935484
+equals,SIMPLE_NAME, line no: 50,recursive,SIMPLE_NAME, line no: 31, 1.0, 0.05, 1.0, 0.8461538461538461
+equals,SIMPLE_NAME, line no: 50,p.matchingPrefix(field),METHOD_INVOCATION, line no: 47, 1.0, 1.0, 1.0, 0.5647058823529412
+equals,SIMPLE_NAME, line no: 50,matchingPrefix,SIMPLE_NAME, line no: 47, 1.0, 1.0, 1.0, 0.7571428571428571
+equals,SIMPLE_NAME, line no: 50,recursive && p.numSegments() > field.numSegments() && p.prefix(field.numSegments()).matches(field),INFIX_EXPRESSION, line no: 53, 1.0, 1.0, 1.0, 0.32075471698113206
+equals,SIMPLE_NAME, line no: 50,recursive && p.numSegments() > field.numSegments(),INFIX_EXPRESSION, line no: 53, 1.0, 1.0, 1.0, 0.4594594594594595
+equals,SIMPLE_NAME, line no: 50,p.numSegments() > field.numSegments(),INFIX_EXPRESSION, line no: 53, 1.0, 1.0, 1.0, 0.5102040816326531
+equals,SIMPLE_NAME, line no: 50,p.prefix(field.numSegments()).matches(field),METHOD_INVOCATION, line no: 53, 1.0, 1.0, 1.0, 0.49056603773584906
+equals,SIMPLE_NAME, line no: 50,matches,SIMPLE_NAME, line no: 53, 1.0, 1.0, 1.0, 0.8888888888888888
+field,SIMPLE_NAME, line no: 50,p,SIMPLE_NAME, line no: 46, 1.0, 0.05, 1.0, 0.8524590163934426
+field,SIMPLE_NAME, line no: 50,p.prefix(field.numSegments()),METHOD_INVOCATION, line no: 53, 1.0, 1.0, 1.0, 0.5824175824175825
+field,SIMPLE_NAME, line no: 50,prefix,SIMPLE_NAME, line no: 53, 1.0, 1.0, 1.0, 0.9032258064516129
+equals,SIMPLE_NAME, line no: 50,p.equals(field),METHOD_INVOCATION, line no: 50, 0.95, 0.95, 1.0, 0.7272727272727273
+equals,SIMPLE_NAME, line no: 50,include,SIMPLE_NAME, line no: 30, 0.9, 0.05, 1.0, 0.873015873015873
+p.equals(field),METHOD_INVOCATION, line no: 50,include,SIMPLE_NAME, line no: 30, 0.8947368421052632, 0.05263157894736842, 1.0, 0.6623376623376623
+p.equals(field),METHOD_INVOCATION, line no: 50,recursive && p.numSegments() > field.numSegments() && p.prefix(field.numSegments()).matches(field),INFIX_EXPRESSION, line no: 53, 0.6666666666666666, 1.0, 0.6666666666666666, 0.3836477987421384
+p.equals(field),METHOD_INVOCATION, line no: 50,recursive && p.numSegments() > field.numSegments(),INFIX_EXPRESSION, line no: 53, 0.6666666666666666, 1.0, 0.6666666666666666, 0.5315315315315315
+p,SIMPLE_NAME, line no: 50,Path,SIMPLE_NAME, line no: 21, 0.55, 0.1, 1.0, 0.8666666666666667
+p,SIMPLE_NAME, line no: 50,ctxPath,SIMPLE_NAME, line no: 33, 0.55, 0.05, 1.0, 0.8253968253968254
+p,SIMPLE_NAME, line no: 50,field=new Path(ctxPath p.getField()),ASSIGNMENT, line no: 35, 0.55, 0.55, 1.0, 0.5384615384615384
+p,SIMPLE_NAME, line no: 50,new Path(ctxPath p.getField()),CLASS_INSTANCE_CREATION, line no: 35, 0.55, 0.55, 1.0, 0.5
+p,SIMPLE_NAME, line no: 50,p.getField(),METHOD_INVOCATION, line no: 35, 0.55, 0.55, 1.0, 0.6621621621621622
+p,SIMPLE_NAME, line no: 50,getField,SIMPLE_NAME, line no: 35, 0.55, 0.55, 1.0, 0.84375
+equals,SIMPLE_NAME, line no: 50,include=p.isInclude(),ASSIGNMENT, line no: 36, 0.55, 0.55, 1.0, 0.631578947368421
+equals,SIMPLE_NAME, line no: 50,p.isInclude(),METHOD_INVOCATION, line no: 36, 0.55, 0.55, 1.0, 0.6266666666666667
+equals,SIMPLE_NAME, line no: 50,isInclude,SIMPLE_NAME, line no: 36, 0.55, 0.55, 1.0, 0.8153846153846154
+equals,SIMPLE_NAME, line no: 50,recursive=p.isRecursive(),ASSIGNMENT, line no: 37, 0.55, 0.55, 1.0, 0.6125
+equals,SIMPLE_NAME, line no: 50,p.isRecursive(),METHOD_INVOCATION, line no: 37, 0.55, 0.55, 1.0, 0.6363636363636364
+equals,SIMPLE_NAME, line no: 50,isRecursive,SIMPLE_NAME, line no: 37, 0.55, 0.55, 1.0, 0.8208955223880597
+field,SIMPLE_NAME, line no: 50,Path,SIMPLE_NAME, line no: 21, 0.55, 0.1, 1.0, 0.8524590163934426
+field,SIMPLE_NAME, line no: 50,ctxPath,SIMPLE_NAME, line no: 33, 0.55, 0.05, 1.0, 0.8253968253968254
+field,SIMPLE_NAME, line no: 50,field=new Path(ctxPath p.getField()),ASSIGNMENT, line no: 35, 0.55, 0.55, 1.0, 0.5824175824175825
+field,SIMPLE_NAME, line no: 50,new Path(ctxPath p.getField()),CLASS_INSTANCE_CREATION, line no: 35, 0.55, 0.55, 1.0, 0.5306122448979592
+field,SIMPLE_NAME, line no: 50,p.getField(),METHOD_INVOCATION, line no: 35, 0.55, 0.55, 1.0, 0.7027027027027027
+field,SIMPLE_NAME, line no: 50,getField,SIMPLE_NAME, line no: 35, 0.55, 0.55, 1.0, 0.90625
+p.equals(field),METHOD_INVOCATION, line no: 50,isInclude,SIMPLE_NAME, line no: 36, 0.5263157894736842, 0.5263157894736842, 1.0, 0.6363636363636364
+p.equals(field),METHOD_INVOCATION, line no: 50,isRecursive,SIMPLE_NAME, line no: 37, 0.5263157894736842, 0.5263157894736842, 1.0, 0.6623376623376623
+p.equals(field),METHOD_INVOCATION, line no: 50,p.numSegments(),METHOD_INVOCATION, line no: 53, 0.5, 1.0, 0.5, 0.8571428571428571
+p.equals(field),METHOD_INVOCATION, line no: 50,field.numSegments(),METHOD_INVOCATION, line no: 53, 0.5, 1.0, 0.5, 0.8148148148148148
+p.equals(field),METHOD_INVOCATION, line no: 50,field=new Path(ctxPath p.getField()),ASSIGNMENT, line no: 35, 0.13157894736842105, 0.5263157894736842, 0.25, 0.6043956043956044
+p,SIMPLE_NAME, line no: 50,com.redhat.lightblue.util.Path,QUALIFIED_NAME, line no: 21, 0.05, 0.05, 1.0, 0.5393258426966292
+field,SIMPLE_NAME, line no: 50,com.redhat.lightblue.util.Path,QUALIFIED_NAME, line no: 21, 0.05, 0.05, 1.0, 0.5730337078651685

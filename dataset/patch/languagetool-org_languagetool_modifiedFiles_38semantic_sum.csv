@@ -1,0 +1,76 @@
+isHasRealReplacement,SIMPLE_NAME, line no: 96,hasRealReplacement,SIMPLE_NAME, line no: 35, 2.0, 1.0, 1.0, 0.85
+isHasRealReplacement,SIMPLE_NAME, line no: 96,true,BOOLEAN_LITERAL, line no: 38, 2.0, 1.0, 1.0, 0.05
+isHasRealReplacement,SIMPLE_NAME, line no: 96,false,BOOLEAN_LITERAL, line no: 42, 2.0, 1.0, 1.0, 0.15
+isHasRealReplacement,SIMPLE_NAME, line no: 96,!textWithCorrection.contains(errorMarkerStart),PREFIX_EXPRESSION, line no: 46, 2.0, 1.0, 1.0, 0.17391304347826086
+isHasRealReplacement,SIMPLE_NAME, line no: 96,textWithCorrection.contains(errorMarkerStart),METHOD_INVOCATION, line no: 46, 2.0, 1.0, 1.0, 0.17777777777777778
+isHasRealReplacement,SIMPLE_NAME, line no: 96,contains,SIMPLE_NAME, line no: 46, 2.0, 1.0, 1.0, 0.15
+isHasRealReplacement,SIMPLE_NAME, line no: 96,!textWithCorrection.contains(errorMarkerEnd),PREFIX_EXPRESSION, line no: 49, 2.0, 1.0, 1.0, 0.1590909090909091
+isHasRealReplacement,SIMPLE_NAME, line no: 96,textWithCorrection.contains(errorMarkerEnd),METHOD_INVOCATION, line no: 49, 2.0, 1.0, 1.0, 0.16279069767441862
+isHasRealReplacement,SIMPLE_NAME, line no: 96,this.hasRealReplacement=hasRealReplacement,ASSIGNMENT, line no: 57, 2.0, 1.0, 1.0, 0.4523809523809524
+isHasRealReplacement,SIMPLE_NAME, line no: 96,this.hasRealReplacement,FIELD_ACCESS, line no: 57, 2.0, 1.0, 1.0, 0.8260869565217391
+isHasRealReplacement,SIMPLE_NAME, line no: 96,org,SIMPLE_NAME, line no: 19, 1.0, 1.0, 0.0, 0.0
+isHasRealReplacement,SIMPLE_NAME, line no: 96,languagetool,SIMPLE_NAME, line no: 19, 1.0, 1.0, 0.0, 0.2
+isHasRealReplacement,SIMPLE_NAME, line no: 96,dev,SIMPLE_NAME, line no: 19, 1.0, 1.0, 0.0, 0.05
+isHasRealReplacement,SIMPLE_NAME, line no: 96,wikipedia,SIMPLE_NAME, line no: 19, 1.0, 1.0, 0.0, 0.15
+isHasRealReplacement,SIMPLE_NAME, line no: 96,rules,SIMPLE_NAME, line no: 21, 1.0, 1.0, 0.0, 0.1
+isHasRealReplacement,SIMPLE_NAME, line no: 96,RuleMatch,SIMPLE_NAME, line no: 21, 1.0, 1.0, 0.0, 0.25
+isHasRealReplacement,SIMPLE_NAME, line no: 96,RuleApplication,SIMPLE_NAME, line no: 26, 1.0, 1.0, 0.0, 0.35
+isHasRealReplacement,SIMPLE_NAME, line no: 96,CONTEXT_SIZE,SIMPLE_NAME, line no: 28, 1.0, 1.0, 0.0, 0.0
+isHasRealReplacement,SIMPLE_NAME, line no: 96,ruleMatch,SIMPLE_NAME, line no: 30, 1.0, 1.0, 0.0, 0.2
+isHasRealReplacement,SIMPLE_NAME, line no: 96,String,SIMPLE_NAME, line no: 31, 1.0, 1.0, 0.0, 0.1
+isHasRealReplacement,SIMPLE_NAME, line no: 96,text,SIMPLE_NAME, line no: 31, 1.0, 1.0, 0.0, 0.1
+isHasRealReplacement,SIMPLE_NAME, line no: 96,textWithCorrection,SIMPLE_NAME, line no: 32, 1.0, 1.0, 0.0, 0.2
+isHasRealReplacement,SIMPLE_NAME, line no: 96,errorMarkerStart,SIMPLE_NAME, line no: 33, 1.0, 1.0, 0.0, 0.25
+isHasRealReplacement,SIMPLE_NAME, line no: 96,errorMarkerEnd,SIMPLE_NAME, line no: 34, 1.0, 1.0, 0.0, 0.2
+isHasRealReplacement,SIMPLE_NAME, line no: 96,forMatchWithReplacement,SIMPLE_NAME, line no: 37, 1.0, 1.0, 0.0, 0.5217391304347826
+isHasRealReplacement,SIMPLE_NAME, line no: 96,new RuleApplication(ruleMatch text textWithCorrection errorMarkerStart errorMarkerEnd true),CLASS_INSTANCE_CREATION, line no: 38, 1.0, 1.0, 0.0, 0.12087912087912088
+isHasRealReplacement,SIMPLE_NAME, line no: 96,forMatchWithoutReplacement,SIMPLE_NAME, line no: 41, 1.0, 1.0, 0.0, 0.46153846153846156
+isHasRealReplacement,SIMPLE_NAME, line no: 96,new RuleApplication(ruleMatch text textWithCorrection errorMarkerStart errorMarkerEnd false),CLASS_INSTANCE_CREATION, line no: 42, 1.0, 1.0, 0.0, 0.11956521739130435
+isHasRealReplacement,SIMPLE_NAME, line no: 96,new IllegalArgumentException("No start error marker (" + errorMarkerEnd + ") found in text with correction"),CLASS_INSTANCE_CREATION, line no: 47, 1.0, 1.0, 0.0, 0.10185185185185185
+isHasRealReplacement,SIMPLE_NAME, line no: 96,IllegalArgumentException,SIMPLE_NAME, line no: 47, 1.0, 1.0, 0.0, 0.2916666666666667
+isHasRealReplacement,SIMPLE_NAME, line no: 96,"No start error marker (" + errorMarkerEnd + ") found in text with correction",INFIX_EXPRESSION, line no: 47, 1.0, 1.0, 0.0, 0.11538461538461539
+isHasRealReplacement,SIMPLE_NAME, line no: 96,"No start error marker (",STRING_LITERAL, line no: 47, 1.0, 1.0, 0.0, 0.2
+isHasRealReplacement,SIMPLE_NAME, line no: 96,") found in text with correction",STRING_LITERAL, line no: 47, 1.0, 1.0, 0.0, 0.15151515151515152
+isHasRealReplacement,SIMPLE_NAME, line no: 96,new IllegalArgumentException("No end error marker (" + errorMarkerEnd + ") found in text with correction"),CLASS_INSTANCE_CREATION, line no: 50, 1.0, 1.0, 0.0, 0.09433962264150944
+isHasRealReplacement,SIMPLE_NAME, line no: 96,"No end error marker (" + errorMarkerEnd + ") found in text with correction",INFIX_EXPRESSION, line no: 50, 1.0, 1.0, 0.0, 0.09210526315789473
+isHasRealReplacement,SIMPLE_NAME, line no: 96,"No end error marker (",STRING_LITERAL, line no: 50, 1.0, 1.0, 0.0, 0.17391304347826086
+isHasRealReplacement,SIMPLE_NAME, line no: 96,this.ruleMatch=ruleMatch,ASSIGNMENT, line no: 52, 1.0, 1.0, 0.0, 0.3333333333333333
+isHasRealReplacement,SIMPLE_NAME, line no: 96,this.ruleMatch,FIELD_ACCESS, line no: 52, 1.0, 1.0, 0.0, 0.3
+isHasRealReplacement,SIMPLE_NAME, line no: 96,this,THIS_EXPRESSION, line no: 52, 1.0, 1.0, 0.0, 0.1
+isHasRealReplacement,SIMPLE_NAME, line no: 96,this.text=text,ASSIGNMENT, line no: 53, 1.0, 1.0, 0.0, 0.25
+isHasRealReplacement,SIMPLE_NAME, line no: 96,this.text,FIELD_ACCESS, line no: 53, 1.0, 1.0, 0.0, 0.2
+isHasRealReplacement,SIMPLE_NAME, line no: 96,this.textWithCorrection=textWithCorrection,ASSIGNMENT, line no: 54, 1.0, 1.0, 0.0, 0.19047619047619047
+isHasRealReplacement,SIMPLE_NAME, line no: 96,this.textWithCorrection,FIELD_ACCESS, line no: 54, 1.0, 1.0, 0.0, 0.2608695652173913
+isHasRealReplacement,SIMPLE_NAME, line no: 96,this.errorMarkerStart=errorMarkerStart,ASSIGNMENT, line no: 55, 1.0, 1.0, 0.0, 0.23684210526315788
+isHasRealReplacement,SIMPLE_NAME, line no: 96,this.errorMarkerStart,FIELD_ACCESS, line no: 55, 1.0, 1.0, 0.0, 0.3333333333333333
+isHasRealReplacement,SIMPLE_NAME, line no: 96,this.errorMarkerEnd=errorMarkerEnd,ASSIGNMENT, line no: 56, 1.0, 1.0, 0.0, 0.23529411764705882
+isHasRealReplacement,SIMPLE_NAME, line no: 96,this.errorMarkerEnd,FIELD_ACCESS, line no: 56, 1.0, 1.0, 0.0, 0.3
+isHasRealReplacement,SIMPLE_NAME, line no: 96,getOriginalErrorContext,SIMPLE_NAME, line no: 60, 1.0, 1.0, 0.0, 0.21739130434782608
+isHasRealReplacement,SIMPLE_NAME, line no: 96,getContext(text),METHOD_INVOCATION, line no: 61, 1.0, 1.0, 0.0, 0.2
+isHasRealReplacement,SIMPLE_NAME, line no: 96,getContext,SIMPLE_NAME, line no: 61, 1.0, 1.0, 0.0, 0.15
+isHasRealReplacement,SIMPLE_NAME, line no: 96,getCorrectedErrorContext,SIMPLE_NAME, line no: 64, 1.0, 1.0, 0.0, 0.25
+isHasRealReplacement,SIMPLE_NAME, line no: 96,getContext(textWithCorrection),METHOD_INVOCATION, line no: 65, 1.0, 1.0, 0.0, 0.16666666666666666
+isHasRealReplacement,SIMPLE_NAME, line no: 96,errorStart,SIMPLE_NAME, line no: 69, 1.0, 1.0, 0.0, 0.15
+isHasRealReplacement,SIMPLE_NAME, line no: 96,textWithCorrection.indexOf(errorMarkerStart),METHOD_INVOCATION, line no: 69, 1.0, 1.0, 0.0, 0.13636363636363635
+isHasRealReplacement,SIMPLE_NAME, line no: 96,indexOf,SIMPLE_NAME, line no: 69, 1.0, 1.0, 0.0, 0.1
+isHasRealReplacement,SIMPLE_NAME, line no: 96,errorEnd,SIMPLE_NAME, line no: 70, 1.0, 1.0, 0.0, 0.1
+isHasRealReplacement,SIMPLE_NAME, line no: 96,textWithCorrection.indexOf(errorMarkerEnd),METHOD_INVOCATION, line no: 70, 1.0, 1.0, 0.0, 0.14285714285714285
+isHasRealReplacement,SIMPLE_NAME, line no: 96,errorContextStart,SIMPLE_NAME, line no: 71, 1.0, 1.0, 0.0, 0.2
+isHasRealReplacement,SIMPLE_NAME, line no: 96,Math.max(errorStart - CONTEXT_SIZE 0),METHOD_INVOCATION, line no: 71, 1.0, 1.0, 0.0, 0.13513513513513514
+isHasRealReplacement,SIMPLE_NAME, line no: 96,Math,SIMPLE_NAME, line no: 71, 1.0, 1.0, 0.0, 0.1
+isHasRealReplacement,SIMPLE_NAME, line no: 96,max,SIMPLE_NAME, line no: 71, 1.0, 1.0, 0.0, 0.05
+isHasRealReplacement,SIMPLE_NAME, line no: 96,errorStart - CONTEXT_SIZE,INFIX_EXPRESSION, line no: 71, 1.0, 1.0, 0.0, 0.12
+isHasRealReplacement,SIMPLE_NAME, line no: 96,0,NUMBER_LITERAL, line no: 71, 1.0, 1.0, 0.0, 0.0
+isHasRealReplacement,SIMPLE_NAME, line no: 96,errorContentEnd,SIMPLE_NAME, line no: 72, 1.0, 1.0, 0.0, 0.2
+isHasRealReplacement,SIMPLE_NAME, line no: 96,Math.min(errorEnd + CONTEXT_SIZE text.length()),METHOD_INVOCATION, line no: 72, 1.0, 1.0, 0.0, 0.14893617021276595
+isHasRealReplacement,SIMPLE_NAME, line no: 96,min,SIMPLE_NAME, line no: 72, 1.0, 1.0, 0.0, 0.1
+isHasRealReplacement,SIMPLE_NAME, line no: 96,errorEnd + CONTEXT_SIZE,INFIX_EXPRESSION, line no: 72, 1.0, 1.0, 0.0, 0.08695652173913043
+isHasRealReplacement,SIMPLE_NAME, line no: 96,text.length(),METHOD_INVOCATION, line no: 72, 1.0, 1.0, 0.0, 0.25
+isHasRealReplacement,SIMPLE_NAME, line no: 96,length,SIMPLE_NAME, line no: 72, 1.0, 1.0, 0.0, 0.2
+isHasRealReplacement,SIMPLE_NAME, line no: 96,text.substring(errorContextStart errorContentEnd),METHOD_INVOCATION, line no: 73, 1.0, 1.0, 0.0, 0.1836734693877551
+isHasRealReplacement,SIMPLE_NAME, line no: 96,substring,SIMPLE_NAME, line no: 73, 1.0, 1.0, 0.0, 0.15
+isHasRealReplacement,SIMPLE_NAME, line no: 96,getRuleMatch,SIMPLE_NAME, line no: 76, 1.0, 1.0, 0.0, 0.25
+isHasRealReplacement,SIMPLE_NAME, line no: 96,getOriginalText,SIMPLE_NAME, line no: 80, 1.0, 1.0, 0.0, 0.25
+isHasRealReplacement,SIMPLE_NAME, line no: 96,getTextWithCorrection,SIMPLE_NAME, line no: 84, 1.0, 1.0, 0.0, 0.19047619047619047
+isHasRealReplacement,SIMPLE_NAME, line no: 96,getErrorMarkerStart,SIMPLE_NAME, line no: 88, 1.0, 1.0, 0.0, 0.25
+isHasRealReplacement,SIMPLE_NAME, line no: 96,getErrorMarkerEnd,SIMPLE_NAME, line no: 92, 1.0, 1.0, 0.0, 0.2

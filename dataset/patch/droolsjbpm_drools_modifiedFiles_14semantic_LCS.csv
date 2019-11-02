@@ -1,0 +1,98 @@
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,evaluateActionQueue,SIMPLE_NAME, line no: 195, 0.48717948717948717, 1.0, 1.0, 0.48717948717948717
+evaluateActionQueue,SIMPLE_NAME, line no: 195,pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195, 0.4719551282051282, 0.96875, 1.0, 0.48717948717948717
+workingMemory,SIMPLE_NAME, line no: 195,context.workingMemory,QUALIFIED_NAME, line no: 424, 0.4449404761904762, 0.71875, 1.0, 0.6190476190476191
+evaluateActionQueue,SIMPLE_NAME, line no: 195,updateNextExpiration,SIMPLE_NAME, line no: 131, 0.4, 0.40625, 1.0, 0.4
+pctx,SIMPLE_NAME, line no: 195,pctx=null,ASSIGNMENT, line no: 467, 0.375, 0.84375, 1.0, 0.4444444444444444
+pctx,SIMPLE_NAME, line no: 195,expiresPctx,SIMPLE_NAME, line no: 189, 0.36363636363636365, 0.9375, 1.0, 0.36363636363636365
+evaluateActionQueue,SIMPLE_NAME, line no: 195,doRetractObject,SIMPLE_NAME, line no: 194, 0.3157894736842105, 1.0, 1.0, 0.3157894736842105
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,queueWorkingMemoryAction,SIMPLE_NAME, line no: 232, 0.304383788254756, 0.45161290322580644, 1.0, 0.41025641025641024
+workingMemory,SIMPLE_NAME, line no: 195,this.workingMemory,FIELD_ACCESS, line no: 391, 0.2934027777777778, 0.40625, 1.0, 0.7222222222222222
+evaluateActionQueue,SIMPLE_NAME, line no: 195,queueWorkingMemoryAction,SIMPLE_NAME, line no: 232, 0.28125, 0.4375, 1.0, 0.375
+workingMemory,SIMPLE_NAME, line no: 195,context.wm,QUALIFIED_NAME, line no: 475, 0.25961538461538464, 0.84375, 1.0, 0.3076923076923077
+pctx,SIMPLE_NAME, line no: 195,context.pctx,QUALIFIED_NAME, line no: 427, 0.23958333333333331, 0.71875, 1.0, 0.3333333333333333
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,updateNextExpiration,SIMPLE_NAME, line no: 131, 0.23076923076923078, 0.41935483870967744, 1.0, 0.23076923076923078
+evaluateActionQueue,SIMPLE_NAME, line no: 195,setJobHandle,SIMPLE_NAME, line no: 239, 0.2220394736842105, 0.84375, 1.0, 0.2631578947368421
+evaluateActionQueue,SIMPLE_NAME, line no: 195,jobctx.setJobHandle(handle),METHOD_INVOCATION, line no: 239, 0.21875, 0.84375, 1.0, 0.25925925925925924
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,pctx.getPropagationNumber(),METHOD_INVOCATION, line no: 189, 0.19851116625310172, 0.967741935483871, 0.5, 0.41025641025641024
+workingMemory,SIMPLE_NAME, line no: 195,inCtx.wm,QUALIFIED_NAME, line no: 342, 0.19471153846153846, 0.71875, 1.0, 0.23076923076923078
+evaluateActionQueue,SIMPLE_NAME, line no: 195,updateNextExpiration(handle pctx workingMemory memory this queue),METHOD_INVOCATION, line no: 131, 0.18461538461538463, 0.375, 1.0, 0.18461538461538463
+pctx,SIMPLE_NAME, line no: 195,this.pctx,FIELD_ACCESS, line no: 395, 0.18055555555555555, 0.40625, 1.0, 0.4444444444444444
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,workingMemory.getTimerService(),METHOD_INVOCATION, line no: 178, 0.1794871794871795, 1.0, 0.5, 0.358974358974359
+workingMemory,SIMPLE_NAME, line no: 195,getInternalWorkingMemory,SIMPLE_NAME, line no: 494, 0.171875, 0.34375, 1.0, 0.5
+evaluateActionQueue,SIMPLE_NAME, line no: 195,outputCtx.writeInt(handle.getId()),METHOD_INVOCATION, line no: 304, 0.16727941176470587, 0.8125, 1.0, 0.20588235294117646
+workingMemory,SIMPLE_NAME, line no: 195,this.workingMemory=workingMemory,ASSIGNMENT, line no: 391, 0.1650390625, 0.40625, 1.0, 0.40625
+pctx,SIMPLE_NAME, line no: 195,PropagationContext,SIMPLE_NAME, line no: 46, 0.15625, 0.0625, 1.0, 0.16666666666666666
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,doRetractObject,SIMPLE_NAME, line no: 194, 0.15384615384615385, 1.0, 1.0, 0.15384615384615385
+evaluateActionQueue,SIMPLE_NAME, line no: 195,ObjectTypeNode.doRetractObject(handle expiresPctx workingMemory),METHOD_INVOCATION, line no: 194, 0.1513671875, 0.96875, 1.0, 0.15625
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,updateNextExpiration(handle pctx workingMemory memory this queue),METHOD_INVOCATION, line no: 131, 0.14153846153846156, 0.3870967741935484, 0.4, 0.35384615384615387
+evaluateActionQueue,SIMPLE_NAME, line no: 195,out.writeObject(this.queue),METHOD_INVOCATION, line no: 271, 0.1388888888888889, 0.375, 1.0, 0.37037037037037035
+evaluateActionQueue,SIMPLE_NAME, line no: 195,outputCtx.writeShort(WorkingMemoryAction.WorkingMemoryBehahviourRetract),METHOD_INVOCATION, line no: 498, 0.13541666666666666, 0.8125, 1.0, 0.16666666666666666
+workingMemory,SIMPLE_NAME, line no: 195,wm,SIMPLE_NAME, line no: 342, 0.12980769230769232, 0.71875, 1.0, 0.15384615384615385
+evaluateActionQueue,SIMPLE_NAME, line no: 195,writeShort,SIMPLE_NAME, line no: 296, 0.1282894736842105, 0.8125, 1.0, 0.15789473684210525
+evaluateActionQueue,SIMPLE_NAME, line no: 195,writeInt,SIMPLE_NAME, line no: 304, 0.1282894736842105, 0.8125, 1.0, 0.15789473684210525
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,writeShort,SIMPLE_NAME, line no: 296, 0.12406947890818859, 0.8064516129032258, 1.0, 0.15384615384615385
+pctx,SIMPLE_NAME, line no: 195,this.pctx=pctx,ASSIGNMENT, line no: 395, 0.11607142857142856, 0.40625, 1.0, 0.2857142857142857
+evaluateActionQueue,SIMPLE_NAME, line no: 195,outputCtx.writeShort(PersisterEnums.BEHAVIOR_TIMER),METHOD_INVOCATION, line no: 296, 0.11151960784313726, 0.8125, 1.0, 0.13725490196078433
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,context.workingMemory,QUALIFIED_NAME, line no: 424, 0.10780259167355942, 0.7419354838709677, 0.3333333333333333, 0.4358974358974359
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,setJobHandle,SIMPLE_NAME, line no: 239, 0.1075268817204301, 0.8387096774193549, 1.0, 0.1282051282051282
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,new BehaviorJobContext(workingMemory stw memory context pctx),CLASS_INSTANCE_CREATION, line no: 234, 0.10661025912215759, 0.7741935483870968, 0.4, 0.3442622950819672
+evaluateActionQueue,SIMPLE_NAME, line no: 195,updateNextExpiration(queue.queue.peek() pctx workingMemory memory this queue),METHOD_INVOCATION, line no: 161, 0.10227272727272727, 0.65625, 1.0, 0.15584415584415584
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,ObjectTypeNode.doRetractObject(handle expiresPctx workingMemory),METHOD_INVOCATION, line no: 194, 0.1015625, 1.0, 0.25, 0.40625
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,this.workingMemory=workingMemory,ASSIGNMENT, line no: 391, 0.09677419354838711, 0.41935483870967744, 0.5, 0.46153846153846156
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,updateNextExpiration(queue.queue.peek() pctx workingMemory memory this queue),METHOD_INVOCATION, line no: 161, 0.09501466275659823, 0.6774193548387096, 0.4, 0.35064935064935066
+evaluateActionQueue,SIMPLE_NAME, line no: 195,writeObject,SIMPLE_NAME, line no: 271, 0.08552631578947367, 0.40625, 1.0, 0.21052631578947367
+evaluateActionQueue,SIMPLE_NAME, line no: 195,out.writeObject(this.expiringHandle),METHOD_INVOCATION, line no: 272, 0.08333333333333333, 0.375, 1.0, 0.2222222222222222
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,writeInt,SIMPLE_NAME, line no: 304, 0.08271298593879238, 0.8064516129032258, 1.0, 0.10256410256410256
+evaluateActionQueue,SIMPLE_NAME, line no: 195,execute,SIMPLE_NAME, line no: 422, 0.08223684210526315, 0.03125, 1.0, 0.2631578947368421
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,this.workingMemory,FIELD_ACCESS, line no: 391, 0.08064516129032259, 0.41935483870967744, 0.5, 0.38461538461538464
+evaluateActionQueue,SIMPLE_NAME, line no: 195,expireFacts,SIMPLE_NAME, line no: 174, 0.07236842105263158, 0.03125, 1.0, 0.21052631578947367
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,pctx=null,ASSIGNMENT, line no: 467, 0.06451612903225808, 0.8387096774193549, 0.5, 0.15384615384615385
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,new PropagationContextImpl(pctx.getPropagationNumber() PropagationContext.EXPIRATION null null handle),CLASS_INSTANCE_CREATION, line no: 189, 0.061142736664558286, 0.9354838709677419, 0.3333333333333333, 0.19607843137254902
+workingMemory,SIMPLE_NAME, line no: 195,((StatefulKnowledgeSessionImpl)kruntime).getInternalWorkingMemory(),METHOD_INVOCATION, line no: 494, 0.06063432835820896, 0.3125, 1.0, 0.19402985074626866
+evaluateActionQueue,SIMPLE_NAME, line no: 195,context.workingMemory.queueWorkingMemoryAction(new BehaviorExpireWMAction(context.behavior context.memory context.behaviorContext context.pctx)),METHOD_INVOCATION, line no: 424, 0.05989583333333333, 0.71875, 1.0, 0.08333333333333333
+evaluateActionQueue,SIMPLE_NAME, line no: 195,out.writeLong(this.size),METHOD_INVOCATION, line no: 90, 0.0546875, 0.21875, 1.0, 0.25
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,this.behavior.expireFacts(memory context pctx workingMemory),METHOD_INVOCATION, line no: 487, 0.053763440860215055, 0.3225806451612903, 0.4, 0.4166666666666667
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,writeObject,SIMPLE_NAME, line no: 271, 0.05376344086021505, 0.41935483870967744, 1.0, 0.1282051282051282
+evaluateActionQueue,SIMPLE_NAME, line no: 195,workingMemory.queueWorkingMemoryAction(new BehaviorExpireWMAction(stw memory context pctx)),METHOD_INVOCATION, line no: 232, 0.053571428571428575, 0.40625, 1.0, 0.13186813186813187
+evaluateActionQueue,SIMPLE_NAME, line no: 195,writeLong,SIMPLE_NAME, line no: 90, 0.05263157894736842, 0.25, 1.0, 0.21052631578947367
+evaluateActionQueue,SIMPLE_NAME, line no: 195,this.behavior.expireFacts(memory context pctx workingMemory),METHOD_INVOCATION, line no: 487, 0.05208333333333333, 0.3125, 1.0, 0.16666666666666666
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,expireFacts,SIMPLE_NAME, line no: 174, 0.045492142266335814, 0.03225806451612903, 1.0, 0.1282051282051282
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,context.workingMemory.queueWorkingMemoryAction(new BehaviorExpireWMAction(context.behavior context.memory context.behaviorContext context.pctx)),METHOD_INVOCATION, line no: 424, 0.042936081242532856, 0.7419354838709677, 0.3333333333333333, 0.1736111111111111
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,execute,SIMPLE_NAME, line no: 422, 0.04135649296939619, 0.03225806451612903, 1.0, 0.1282051282051282
+evaluateActionQueue,SIMPLE_NAME, line no: 195,execute(((StatefulKnowledgeSessionImpl)kruntime).getInternalWorkingMemory()),METHOD_INVOCATION, line no: 494, 0.04070723684210527, 0.28125, 1.0, 0.14473684210526316
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,workingMemory.queueWorkingMemoryAction(new BehaviorExpireWMAction(stw memory context pctx)),METHOD_INVOCATION, line no: 232, 0.04055299539170507, 0.41935483870967744, 0.4, 0.24175824175824176
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,context.pctx,QUALIFIED_NAME, line no: 427, 0.038047973531844505, 0.7419354838709677, 0.3333333333333333, 0.15384615384615385
+workingMemory,SIMPLE_NAME, line no: 195,InternalWorkingMemory,SIMPLE_NAME, line no: 28, 0.03571428571428571, 0.0625, 1.0, 0.5714285714285714
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,writeLong,SIMPLE_NAME, line no: 90, 0.03308519437551695, 0.25806451612903225, 1.0, 0.1282051282051282
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,this.pctx=pctx,ASSIGNMENT, line no: 395, 0.03225806451612904, 0.41935483870967744, 0.5, 0.15384615384615385
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,new BehaviorExpireWMAction(stw memory context pctx),CLASS_INSTANCE_CREATION, line no: 232, 0.02795698924731183, 0.41935483870967744, 0.2, 0.3333333333333333
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,new BehaviorExpireWMAction(context.behavior context.memory context.behaviorContext context.pctx),CLASS_INSTANCE_CREATION, line no: 424, 0.025761648745519714, 0.7419354838709677, 0.16666666666666666, 0.20833333333333334
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,this.pctx,FIELD_ACCESS, line no: 395, 0.021505376344086023, 0.41935483870967744, 0.5, 0.10256410256410256
+evaluateActionQueue,SIMPLE_NAME, line no: 195,BehaviorExpireWMAction,SIMPLE_NAME, line no: 444, 0.01278409090909091, 0.03125, 1.0, 0.4090909090909091
+evaluateActionQueue,SIMPLE_NAME, line no: 195,setQueue,SIMPLE_NAME, line no: 279, 0.011513157894736841, 0.03125, 1.0, 0.3684210526315789
+evaluateActionQueue,SIMPLE_NAME, line no: 195,setExpiringTuple,SIMPLE_NAME, line no: 287, 0.009868421052631578, 0.03125, 1.0, 0.3157894736842105
+evaluateActionQueue,SIMPLE_NAME, line no: 195,BehaviorJobContext,SIMPLE_NAME, line no: 385, 0.009868421052631578, 0.03125, 1.0, 0.3157894736842105
+workingMemory,SIMPLE_NAME, line no: 195,org.drools.core.common.InternalWorkingMemory,QUALIFIED_NAME, line no: 28, 0.008522727272727272, 0.03125, 1.0, 0.2727272727272727
+evaluateActionQueue,SIMPLE_NAME, line no: 195,readExternal,SIMPLE_NAME, line no: 79, 0.008223684210526315, 0.03125, 1.0, 0.2631578947368421
+evaluateActionQueue,SIMPLE_NAME, line no: 195,retractFact,SIMPLE_NAME, line no: 147, 0.008223684210526315, 0.03125, 1.0, 0.2631578947368421
+evaluateActionQueue,SIMPLE_NAME, line no: 195,deserialize,SIMPLE_NAME, line no: 356, 0.008223684210526315, 0.03125, 1.0, 0.2631578947368421
+evaluateActionQueue,SIMPLE_NAME, line no: 195,SlidingTimeWindowContext,SIMPLE_NAME, line no: 259, 0.0078125, 0.03125, 1.0, 0.25
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,BehaviorExpireWMAction,SIMPLE_NAME, line no: 444, 0.007444168734491315, 0.03225806451612903, 1.0, 0.23076923076923078
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,SlidingTimeWindowContext,SIMPLE_NAME, line no: 259, 0.006617038875103391, 0.03225806451612903, 1.0, 0.20512820512820512
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,setExpiringTuple,SIMPLE_NAME, line no: 287, 0.006617038875103391, 0.03225806451612903, 1.0, 0.20512820512820512
+evaluateActionQueue,SIMPLE_NAME, line no: 195,SlidingTimeWindow,SIMPLE_NAME, line no: 62, 0.006578947368421052, 0.03125, 1.0, 0.21052631578947367
+evaluateActionQueue,SIMPLE_NAME, line no: 195,writeExternal,SIMPLE_NAME, line no: 89, 0.006578947368421052, 0.03125, 1.0, 0.21052631578947367
+evaluateActionQueue,SIMPLE_NAME, line no: 195,setSize,SIMPLE_NAME, line no: 107, 0.006578947368421052, 0.03125, 1.0, 0.21052631578947367
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,SlidingTimeWindow,SIMPLE_NAME, line no: 62, 0.005789909015715467, 0.03225806451612903, 1.0, 0.1794871794871795
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,setQueue,SIMPLE_NAME, line no: 279, 0.005789909015715467, 0.03225806451612903, 1.0, 0.1794871794871795
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,BehaviorJobContext,SIMPLE_NAME, line no: 385, 0.005789909015715467, 0.03225806451612903, 1.0, 0.1794871794871795
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,readExternal,SIMPLE_NAME, line no: 79, 0.004962779156327543, 0.03225806451612903, 1.0, 0.15384615384615385
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,writeExternal,SIMPLE_NAME, line no: 89, 0.004962779156327543, 0.03225806451612903, 1.0, 0.15384615384615385
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,retractFact,SIMPLE_NAME, line no: 147, 0.004135649296939619, 0.03225806451612903, 1.0, 0.1282051282051282
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,deserialize,SIMPLE_NAME, line no: 356, 0.004135649296939619, 0.03225806451612903, 1.0, 0.1282051282051282
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,setSize,SIMPLE_NAME, line no: 107, 0.0033085194375516956, 0.03225806451612903, 1.0, 0.10256410256410256
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,write,SIMPLE_NAME, line no: 294, 0.0033085194375516956, 0.03225806451612903, 1.0, 0.10256410256410256
+evaluateActionQueue,SIMPLE_NAME, line no: 195,write,SIMPLE_NAME, line no: 294, 0.003289473684210526, 0.03125, 1.0, 0.10526315789473684
+evaluateActionQueue,SIMPLE_NAME, line no: 195,read,SIMPLE_NAME, line no: 338, 0.003289473684210526, 0.03125, 1.0, 0.10526315789473684
+pctx,SIMPLE_NAME, line no: 195,org.drools.core.spi.PropagationContext,QUALIFIED_NAME, line no: 46, 0.0024671052631578946, 0.03125, 1.0, 0.07894736842105263
+pctx.evaluateActionQueue(workingMemory),METHOD_INVOCATION, line no: 195,read,SIMPLE_NAME, line no: 338, 0.0016542597187758478, 0.03225806451612903, 1.0, 0.05128205128205128

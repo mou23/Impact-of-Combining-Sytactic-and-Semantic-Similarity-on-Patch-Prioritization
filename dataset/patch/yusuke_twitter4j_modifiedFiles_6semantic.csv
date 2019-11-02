@@ -1,0 +1,135 @@
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,debug,SIMPLE_NAME, line no: 92, 1.0, 1.0, 1.0, 0.43478260869565216
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,onStatus,SIMPLE_NAME, line no: 98, 1.0, 1.0, 1.0, 0.5043478260869565
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,onDeletionNotice,SIMPLE_NAME, line no: 100, 1.0, 1.0, 1.0, 0.4608695652173913
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,onFavorite,SIMPLE_NAME, line no: 116, 1.0, 1.0, 1.0, 0.4434782608695652
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,onUnfavorite,SIMPLE_NAME, line no: 119, 1.0, 1.0, 1.0, 0.4608695652173913
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,onRetweet,SIMPLE_NAME, line no: 123, 1.0, 1.0, 1.0, 0.4434782608695652
+onStatus,SIMPLE_NAME, line no: 98,logger.debug("received:" line),METHOD_INVOCATION, line no: 92, 1.0, 1.0, 1.0, 0.5434782608695652
+onStatus,SIMPLE_NAME, line no: 98,debug,SIMPLE_NAME, line no: 92, 1.0, 1.0, 1.0, 0.859375
+onStatus,SIMPLE_NAME, line no: 98,onDeletionNotice,SIMPLE_NAME, line no: 100, 1.0, 1.0, 1.0, 0.7567567567567568
+onStatus,SIMPLE_NAME, line no: 98,userStreamListener.onFavorite(source target targetObject),METHOD_INVOCATION, line no: 116, 1.0, 1.0, 1.0, 0.4214876033057851
+onStatus,SIMPLE_NAME, line no: 98,onFavorite,SIMPLE_NAME, line no: 116, 1.0, 1.0, 1.0, 0.8235294117647058
+onStatus,SIMPLE_NAME, line no: 98,userStreamListener.onUnfavorite(source target targetObject),METHOD_INVOCATION, line no: 119, 1.0, 1.0, 1.0, 0.43089430894308944
+onStatus,SIMPLE_NAME, line no: 98,onUnfavorite,SIMPLE_NAME, line no: 119, 1.0, 1.0, 1.0, 0.8285714285714286
+onStatus,SIMPLE_NAME, line no: 98,userStreamListener.onRetweet(source target targetObject),METHOD_INVOCATION, line no: 123, 1.0, 1.0, 1.0, 0.425
+onStatus,SIMPLE_NAME, line no: 98,onRetweet,SIMPLE_NAME, line no: 123, 1.0, 1.0, 1.0, 0.835820895522388
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,!json.isNull("sender"),PREFIX_EXPRESSION, line no: 95, 1.0, 1.0, 1.0, 0.6304347826086957
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,json.isNull("sender"),METHOD_INVOCATION, line no: 95, 1.0, 1.0, 1.0, 0.6521739130434783
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,!json.isNull("text"),PREFIX_EXPRESSION, line no: 97, 1.0, 1.0, 1.0, 0.6086956521739131
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,json.isNull("text"),METHOD_INVOCATION, line no: 97, 1.0, 1.0, 1.0, 0.6304347826086957
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,StatusJSONImpl,SIMPLE_NAME, line no: 98, 1.0, 1.0, 1.0, 0.6956521739130435
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,!json.isNull("delete"),PREFIX_EXPRESSION, line no: 99, 1.0, 1.0, 1.0, 0.6086956521739131
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,json.isNull("delete"),METHOD_INVOCATION, line no: 99, 1.0, 1.0, 1.0, 0.6304347826086957
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,new StatusDeletionNoticeImpl(json),CLASS_INSTANCE_CREATION, line no: 100, 1.0, 1.0, 1.0, 0.8173076923076923
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,!json.isNull("limit"),PREFIX_EXPRESSION, line no: 101, 1.0, 1.0, 1.0, 0.5869565217391305
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,json.isNull("limit"),METHOD_INVOCATION, line no: 101, 1.0, 1.0, 1.0, 0.6086956521739131
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,!json.isNull("friends"),PREFIX_EXPRESSION, line no: 103, 1.0, 1.0, 1.0, 0.5978260869565217
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,json.isNull("friends"),METHOD_INVOCATION, line no: 103, 1.0, 1.0, 1.0, 0.6195652173913043
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,!json.isNull("event"),PREFIX_EXPRESSION, line no: 109, 1.0, 1.0, 1.0, 0.6195652173913043
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,json.isNull("event"),METHOD_INVOCATION, line no: 109, 1.0, 1.0, 1.0, 0.6413043478260869
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,json.getString("event"),METHOD_INVOCATION, line no: 110, 1.0, 1.0, 1.0, 0.6195652173913043
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,new UserJSONImpl(json.getJSONObject("source")),CLASS_INSTANCE_CREATION, line no: 111, 1.0, 1.0, 1.0, 0.7155172413793104
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,json.getJSONObject("source"),METHOD_INVOCATION, line no: 111, 1.0, 1.0, 1.0, 0.6630434782608695
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,new UserJSONImpl(json.getJSONObject("target")),CLASS_INSTANCE_CREATION, line no: 112, 1.0, 1.0, 1.0, 0.7155172413793104
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,json.getJSONObject("target"),METHOD_INVOCATION, line no: 112, 1.0, 1.0, 1.0, 0.6413043478260869
+json,SIMPLE_NAME, line no: 98,JSONObject,SIMPLE_NAME, line no: 33, 1.0, 0.0625, 1.0, 0.803030303030303
+json,SIMPLE_NAME, line no: 98,new JSONObject(line),CLASS_INSTANCE_CREATION, line no: 94, 1.0, 1.0, 1.0, 0.5681818181818182
+json,SIMPLE_NAME, line no: 98,getJSONObject,SIMPLE_NAME, line no: 102, 1.0, 0.875, 1.0, 0.7464788732394366
+json,SIMPLE_NAME, line no: 98,json.getJSONObject("source"),METHOD_INVOCATION, line no: 111, 1.0, 1.0, 1.0, 0.5434782608695652
+json,SIMPLE_NAME, line no: 98,json.getJSONObject("target"),METHOD_INVOCATION, line no: 112, 1.0, 1.0, 1.0, 0.5434782608695652
+json,SIMPLE_NAME, line no: 98,json.getJSONObject("target_object"),METHOD_INVOCATION, line no: 115, 0.9375, 0.9375, 1.0, 0.5050505050505051
+onStatus,SIMPLE_NAME, line no: 98,onDirectMessage,SIMPLE_NAME, line no: 96, 0.9333333333333333, 0.9333333333333333, 1.0, 0.8169014084507042
+onStatus,SIMPLE_NAME, line no: 98,userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98, 0.9333333333333333, 0.9333333333333333, 1.0, 0.5043478260869565
+onStatus,SIMPLE_NAME, line no: 98,listener.onDeletionNotice(new StatusDeletionNoticeImpl(json)),METHOD_INVOCATION, line no: 100, 0.9333333333333333, 0.9333333333333333, 1.0, 0.432
+onStatus,SIMPLE_NAME, line no: 98,listener.onTrackLimitationNotice(ParseUtil.getInt("track" json.getJSONObject("limit"))),METHOD_INVOCATION, line no: 102, 0.9333333333333333, 0.9333333333333333, 1.0, 0.3443708609271523
+onStatus,SIMPLE_NAME, line no: 98,onTrackLimitationNotice,SIMPLE_NAME, line no: 102, 0.9333333333333333, 0.9333333333333333, 1.0, 0.7037037037037037
+onStatus,SIMPLE_NAME, line no: 98,userStreamListener.onFriendList(friendIds),METHOD_INVOCATION, line no: 108, 0.9333333333333333, 0.9333333333333333, 1.0, 0.5
+onStatus,SIMPLE_NAME, line no: 98,onFriendList,SIMPLE_NAME, line no: 108, 0.9333333333333333, 0.9333333333333333, 1.0, 0.8142857142857143
+onStatus,SIMPLE_NAME, line no: 98,onFollow,SIMPLE_NAME, line no: 125, 0.9333333333333333, 0.9333333333333333, 1.0, 0.8181818181818182
+onStatus,SIMPLE_NAME, line no: 98,onUnfollow,SIMPLE_NAME, line no: 127, 0.9333333333333333, 0.9333333333333333, 1.0, 0.7941176470588235
+onStatus,SIMPLE_NAME, line no: 98,onBlock,SIMPLE_NAME, line no: 129, 0.9333333333333333, 0.9333333333333333, 1.0, 0.8615384615384616
+onStatus,SIMPLE_NAME, line no: 98,onUnblock,SIMPLE_NAME, line no: 131, 0.9333333333333333, 0.9333333333333333, 1.0, 0.8059701492537313
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,new DirectMessageJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 96, 0.9333333333333333, 0.9333333333333333, 1.0, 0.8686868686868687
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,new StatusJSONImpl(json.getJSONObject("target_object")),CLASS_INSTANCE_CREATION, line no: 115, 0.9333333333333333, 0.9333333333333333, 1.0, 0.704
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,json.getJSONObject("target_object"),METHOD_INVOCATION, line no: 115, 0.9333333333333333, 0.9333333333333333, 1.0, 0.6060606060606061
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,userStreamListener.onDirectMessage(new DirectMessageJSONImpl(json)),METHOD_INVOCATION, line no: 96, 0.9285714285714286, 0.9285714285714286, 1.0, 0.813953488372093
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,onDirectMessage,SIMPLE_NAME, line no: 96, 0.9285714285714286, 0.9285714285714286, 1.0, 0.46956521739130436
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,onTrackLimitationNotice,SIMPLE_NAME, line no: 102, 0.9285714285714286, 0.9285714285714286, 1.0, 0.48695652173913045
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,onFriendList,SIMPLE_NAME, line no: 108, 0.9285714285714286, 0.9285714285714286, 1.0, 0.46956521739130436
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,onFollow,SIMPLE_NAME, line no: 125, 0.9285714285714286, 0.9285714285714286, 1.0, 0.43478260869565216
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,onUnfollow,SIMPLE_NAME, line no: 127, 0.9285714285714286, 0.9285714285714286, 1.0, 0.4434782608695652
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,onBlock,SIMPLE_NAME, line no: 129, 0.9285714285714286, 0.9285714285714286, 1.0, 0.45217391304347826
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,onUnblock,SIMPLE_NAME, line no: 131, 0.9285714285714286, 0.9285714285714286, 1.0, 0.4434782608695652
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,info,SIMPLE_NAME, line no: 135, 0.9285714285714286, 0.9285714285714286, 1.0, 0.4260869565217391
+StatusJSONImpl,SIMPLE_NAME, line no: 98,new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98, 0.8823529411764706, 0.8823529411764706, 1.0, 0.6956521739130435
+StatusJSONImpl,SIMPLE_NAME, line no: 98,new StatusJSONImpl(json.getJSONObject("target_object")),CLASS_INSTANCE_CREATION, line no: 115, 0.8823529411764706, 0.8823529411764706, 1.0, 0.48
+json,SIMPLE_NAME, line no: 98,json.getJSONObject("limit"),METHOD_INVOCATION, line no: 102, 0.875, 0.875, 1.0, 0.5494505494505495
+onStatus,SIMPLE_NAME, line no: 98,userStreamListener.onDirectMessage(new DirectMessageJSONImpl(json)),METHOD_INVOCATION, line no: 96, 0.8666666666666667, 0.8666666666666667, 1.0, 0.4186046511627907
+onStatus,SIMPLE_NAME, line no: 98,userStreamListener.onFollow(source target),METHOD_INVOCATION, line no: 125, 0.8666666666666667, 0.8666666666666667, 1.0, 0.4811320754716981
+onStatus,SIMPLE_NAME, line no: 98,userStreamListener.onUnfollow(source target),METHOD_INVOCATION, line no: 127, 0.8666666666666667, 0.8666666666666667, 1.0, 0.4722222222222222
+onStatus,SIMPLE_NAME, line no: 98,userStreamListener.onBlock(source target),METHOD_INVOCATION, line no: 129, 0.8666666666666667, 0.8666666666666667, 1.0, 0.5047619047619047
+onStatus,SIMPLE_NAME, line no: 98,userStreamListener.onUnblock(source target),METHOD_INVOCATION, line no: 131, 0.8666666666666667, 0.8666666666666667, 1.0, 0.4766355140186916
+onStatus,SIMPLE_NAME, line no: 98,info,SIMPLE_NAME, line no: 135, 0.8666666666666667, 0.8666666666666667, 1.0, 0.828125
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,ParseUtil.getInt("track" json.getJSONObject("limit")),METHOD_INVOCATION, line no: 102, 0.8666666666666667, 0.8666666666666667, 1.0, 0.5128205128205128
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,json.getJSONObject("limit"),METHOD_INVOCATION, line no: 102, 0.8666666666666667, 0.8666666666666667, 1.0, 0.6413043478260869
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,json.getJSONArray("friends"),METHOD_INVOCATION, line no: 104, 0.8666666666666667, 0.8666666666666667, 1.0, 0.6521739130434783
+onStatus,SIMPLE_NAME, line no: 98,logger.info("Received unknown event: " + line),METHOD_INVOCATION, line no: 135, 0.8, 0.8, 1.0, 0.44545454545454544
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,onException,SIMPLE_NAME, line no: 138, 0.7857142857142857, 0.7857142857142857, 1.0, 0.46956521739130436
+onStatus,SIMPLE_NAME, line no: 98,onException,SIMPLE_NAME, line no: 138, 0.7333333333333333, 0.7333333333333333, 1.0, 0.8260869565217391
+onStatus,SIMPLE_NAME, line no: 98,listener.onException(jsone),METHOD_INVOCATION, line no: 138, 0.6666666666666666, 0.6666666666666666, 1.0, 0.5714285714285714
+onStatus,SIMPLE_NAME, line no: 98,is.close(),METHOD_INVOCATION, line no: 143, 0.6666666666666666, 0.5333333333333333, 1.0, 0.6486486486486487
+onStatus,SIMPLE_NAME, line no: 98,close,SIMPLE_NAME, line no: 143, 0.6666666666666666, 0.6, 1.0, 0.84375
+onStatus,SIMPLE_NAME, line no: 98,br.close(),METHOD_INVOCATION, line no: 157, 0.6666666666666666, 0.6666666666666666, 1.0, 0.6486486486486487
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,close,SIMPLE_NAME, line no: 143, 0.6428571428571429, 0.6428571428571429, 1.0, 0.4260869565217391
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,handleNextElement,SIMPLE_NAME, line no: 70, 0.5714285714285714, 0.5714285714285714, 1.0, 0.4608695652173913
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,disconnect,SIMPLE_NAME, line no: 159, 0.5714285714285714, 0.5714285714285714, 1.0, 0.4782608695652174
+userStreamListener,SIMPLE_NAME, line no: 98,listener,SIMPLE_NAME, line no: 69, 0.5333333333333333, 0.06666666666666667, 1.0, 0.8243243243243243
+onStatus,SIMPLE_NAME, line no: 98,handleNextElement,SIMPLE_NAME, line no: 70, 0.5333333333333333, 0.5333333333333333, 1.0, 0.7534246575342466
+onStatus,SIMPLE_NAME, line no: 98,disconnect,SIMPLE_NAME, line no: 159, 0.5333333333333333, 0.5333333333333333, 1.0, 0.8382352941176471
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,!json.isNull("sender"),PREFIX_EXPRESSION, line no: 95, 0.5, 1.0, 0.5, 0.5043478260869565
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,json.isNull("sender"),METHOD_INVOCATION, line no: 95, 0.5, 1.0, 0.5, 0.6086956521739131
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,!json.isNull("text"),PREFIX_EXPRESSION, line no: 97, 0.5, 1.0, 0.5, 0.48695652173913045
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,json.isNull("text"),METHOD_INVOCATION, line no: 97, 0.5, 1.0, 0.5, 0.591304347826087
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98, 0.5, 1.0, 0.5, 0.6782608695652174
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,!json.isNull("delete"),PREFIX_EXPRESSION, line no: 99, 0.5, 1.0, 0.5, 0.48695652173913045
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,json.isNull("delete"),METHOD_INVOCATION, line no: 99, 0.5, 1.0, 0.5, 0.591304347826087
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,new StatusDeletionNoticeImpl(json),CLASS_INSTANCE_CREATION, line no: 100, 0.5, 1.0, 0.5, 0.6173913043478261
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,!json.isNull("limit"),PREFIX_EXPRESSION, line no: 101, 0.5, 1.0, 0.5, 0.46956521739130436
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,json.isNull("limit"),METHOD_INVOCATION, line no: 101, 0.5, 1.0, 0.5, 0.5739130434782609
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,!json.isNull("friends"),PREFIX_EXPRESSION, line no: 103, 0.5, 1.0, 0.5, 0.4782608695652174
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,json.isNull("friends"),METHOD_INVOCATION, line no: 103, 0.5, 1.0, 0.5, 0.5826086956521739
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,!json.isNull("event"),PREFIX_EXPRESSION, line no: 109, 0.5, 1.0, 0.5, 0.4956521739130435
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,json.isNull("event"),METHOD_INVOCATION, line no: 109, 0.5, 1.0, 0.5, 0.6
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,json.getString("event"),METHOD_INVOCATION, line no: 110, 0.5, 1.0, 0.5, 0.6
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,new UserJSONImpl(json.getJSONObject("source")),CLASS_INSTANCE_CREATION, line no: 111, 0.5, 1.0, 0.5, 0.603448275862069
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,json.getJSONObject("source"),METHOD_INVOCATION, line no: 111, 0.5, 1.0, 0.5, 0.6173913043478261
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,new UserJSONImpl(json.getJSONObject("target")),CLASS_INSTANCE_CREATION, line no: 112, 0.5, 1.0, 0.5, 0.603448275862069
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,json.getJSONObject("target"),METHOD_INVOCATION, line no: 112, 0.5, 1.0, 0.5, 0.6
+onStatus,SIMPLE_NAME, line no: 98,handleNextElement(listener listener),METHOD_INVOCATION, line no: 70, 0.4666666666666667, 0.4666666666666667, 1.0, 0.5102040816326531
+onStatus,SIMPLE_NAME, line no: 98,handleNextElement(listener nullAdapter),METHOD_INVOCATION, line no: 78, 0.4666666666666667, 0.4666666666666667, 1.0, 0.5148514851485149
+onStatus,SIMPLE_NAME, line no: 98,response.disconnect(),METHOD_INVOCATION, line no: 159, 0.4666666666666667, 0.4666666666666667, 1.0, 0.6
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98, 0.4666666666666667, 0.9333333333333333, 0.5, 0.6782608695652174
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,listener.onDeletionNotice(new StatusDeletionNoticeImpl(json)),METHOD_INVOCATION, line no: 100, 0.4666666666666667, 0.9333333333333333, 0.5, 0.568
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,new DirectMessageJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 96, 0.4642857142857143, 0.9285714285714286, 0.5, 0.6347826086956522
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,ParseUtil.getInt("track" json.getJSONObject("limit")),METHOD_INVOCATION, line no: 102, 0.4642857142857143, 0.9285714285714286, 0.5, 0.6581196581196581
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,json.getJSONObject("limit"),METHOD_INVOCATION, line no: 102, 0.4642857142857143, 0.9285714285714286, 0.5, 0.6
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,json.getJSONArray("friends"),METHOD_INVOCATION, line no: 104, 0.4642857142857143, 0.9285714285714286, 0.5, 0.6086956521739131
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,new StatusJSONImpl(json.getJSONObject("target_object")),CLASS_INSTANCE_CREATION, line no: 115, 0.4642857142857143, 0.9285714285714286, 0.5, 0.6
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,json.getJSONObject("target_object"),METHOD_INVOCATION, line no: 115, 0.4642857142857143, 0.9285714285714286, 0.5, 0.6086956521739131
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,userStreamListener.onDirectMessage(new DirectMessageJSONImpl(json)),METHOD_INVOCATION, line no: 96, 0.43333333333333335, 0.8666666666666667, 0.5, 0.5581395348837209
+new StatusJSONImpl(json),CLASS_INSTANCE_CREATION, line no: 98,listener.onTrackLimitationNotice(ParseUtil.getInt("track" json.getJSONObject("limit"))),METHOD_INVOCATION, line no: 102, 0.43333333333333335, 0.8666666666666667, 0.5, 0.41721854304635764
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,listener.onDeletionNotice(new StatusDeletionNoticeImpl(json)),METHOD_INVOCATION, line no: 100, 0.3333333333333333, 1.0, 0.3333333333333333, 0.744
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,listener.onTrackLimitationNotice(ParseUtil.getInt("track" json.getJSONObject("limit"))),METHOD_INVOCATION, line no: 102, 0.30952380952380953, 0.9285714285714286, 0.3333333333333333, 0.5562913907284768
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,userStreamListener.onFriendList(friendIds),METHOD_INVOCATION, line no: 108, 0.30952380952380953, 0.9285714285714286, 0.3333333333333333, 0.7565217391304347
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,userStreamListener.onFollow(source target),METHOD_INVOCATION, line no: 125, 0.23214285714285715, 0.9285714285714286, 0.25, 0.7391304347826086
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,userStreamListener.onUnfollow(source target),METHOD_INVOCATION, line no: 127, 0.23214285714285715, 0.9285714285714286, 0.25, 0.7391304347826086
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,userStreamListener.onBlock(source target),METHOD_INVOCATION, line no: 129, 0.23214285714285715, 0.9285714285714286, 0.25, 0.7565217391304347
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,userStreamListener.onUnblock(source target),METHOD_INVOCATION, line no: 131, 0.23214285714285715, 0.9285714285714286, 0.25, 0.7391304347826086
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,userStreamListener.onFavorite(source target targetObject),METHOD_INVOCATION, line no: 116, 0.2, 1.0, 0.2, 0.7355371900826446
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,userStreamListener.onUnfavorite(source target targetObject),METHOD_INVOCATION, line no: 119, 0.2, 1.0, 0.2, 0.7398373983739838
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,userStreamListener.onRetweet(source target targetObject),METHOD_INVOCATION, line no: 123, 0.2, 1.0, 0.2, 0.7416666666666667
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,StatusStreamImpl,SIMPLE_NAME, line no: 55, 0.07142857142857142, 0.07142857142857142, 1.0, 0.5130434782608696
+userStreamListener.onStatus(new StatusJSONImpl(json)),METHOD_INVOCATION, line no: 98,next,SIMPLE_NAME, line no: 69, 0.07142857142857142, 0.07142857142857142, 1.0, 0.4434782608695652
+userStreamListener,SIMPLE_NAME, line no: 98,UserStreamListener,SIMPLE_NAME, line no: 69, 0.06666666666666667, 0.06666666666666667, 1.0, 0.9594594594594594
+onStatus,SIMPLE_NAME, line no: 98,StatusStreamImpl,SIMPLE_NAME, line no: 55, 0.06666666666666667, 0.06666666666666667, 1.0, 0.8055555555555556
+onStatus,SIMPLE_NAME, line no: 98,next,SIMPLE_NAME, line no: 69, 0.06666666666666667, 0.06666666666666667, 1.0, 0.875

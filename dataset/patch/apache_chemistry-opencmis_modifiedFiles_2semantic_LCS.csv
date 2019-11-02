@@ -1,0 +1,179 @@
+getId,SIMPLE_NAME, line no: 352,p.getId(),METHOD_INVOCATION, line no: 378, 0.5555555555555556, 0.875, 1.0, 0.5555555555555556
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,(SecondaryType)secondaryType,CAST_EXPRESSION, line no: 355, 0.5, 1.0, 1.0, 0.5
+getId,SIMPLE_NAME, line no: 352,getKey,SIMPLE_NAME, line no: 312, 0.5, 0.4375, 1.0, 0.5
+getId,SIMPLE_NAME, line no: 352,getKind,SIMPLE_NAME, line no: 195, 0.46428571428571425, 0.8125, 1.0, 0.5714285714285714
+secondaryType,SIMPLE_NAME, line no: 352,ObjectType,SIMPLE_NAME, line no: 40, 0.46153846153846156, 0.0625, 1.0, 0.46153846153846156
+secondaryType,SIMPLE_NAME, line no: 352,objectType,SIMPLE_NAME, line no: 268, 0.46153846153846156, 0.0625, 1.0, 0.46153846153846156
+getId,SIMPLE_NAME, line no: 352,pd.getId(),METHOD_INVOCATION, line no: 270, 0.4375, 0.875, 1.0, 0.5
+getId,SIMPLE_NAME, line no: 352,objectId,SIMPLE_NAME, line no: 185, 0.40625, 0.0625, 1.0, 0.5
+getId,SIMPLE_NAME, line no: 352,getName,SIMPLE_NAME, line no: 243, 0.40178571428571425, 0.9375, 1.0, 0.42857142857142855
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,(secondaryType instanceof SecondaryType),PARENTHESIZED_EXPRESSION, line no: 349, 0.4, 1.0, 1.0, 0.4
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,secondaryType instanceof SecondaryType,INSTANCEOF_EXPRESSION, line no: 349, 0.39473684210526316, 1.0, 1.0, 0.39473684210526316
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,!(secondaryType instanceof SecondaryType),PREFIX_EXPRESSION, line no: 349, 0.3902439024390244, 1.0, 1.0, 0.3902439024390244
+getId,SIMPLE_NAME, line no: 352,getStreamId,SIMPLE_NAME, line no: 194, 0.3693181818181818, 0.8125, 1.0, 0.45454545454545453
+getId,SIMPLE_NAME, line no: 352,getTitle,SIMPLE_NAME, line no: 195, 0.3046875, 0.8125, 1.0, 0.375
+secondaryType,SIMPLE_NAME, line no: 352,getTypeDefinition,SIMPLE_NAME, line no: 258, 0.29411764705882354, 0.625, 1.0, 0.29411764705882354
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"Secondary type is used as object type: ",STRING_LITERAL, line no: 581, 0.2747967479674797, 0.8666666666666667, 1.0, 0.3170731707317073
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,expectedTypes,SIMPLE_NAME, line no: 657, 0.26666666666666666, 0.7333333333333333, 1.0, 0.3333333333333333
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,getRenditionDocumentId,SIMPLE_NAME, line no: 194, 0.2545454545454546, 0.8, 1.0, 0.3181818181818182
+getId,SIMPLE_NAME, line no: 352,message,SIMPLE_NAME, line no: 667, 0.25, 0.75, 1.0, 0.2857142857142857
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"Unknown base type! Received ",STRING_LITERAL, line no: 243, 0.24888888888888888, 0.9333333333333333, 1.0, 0.26666666666666666
+getId,SIMPLE_NAME, line no: 352,policy.getId(),METHOD_INVOCATION, line no: 175, 0.2455357142857143, 0.6875, 1.0, 0.35714285714285715
+secondaryType,SIMPLE_NAME, line no: 352,session.getTypeDefinition(secondaryTypeId.toString()),METHOD_INVOCATION, line no: 348, 0.24528301886792453, 1.0, 1.0, 0.24528301886792453
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"Unsupported base type: ",STRING_LITERAL, line no: 583, 0.2426666666666667, 0.8666666666666667, 1.0, 0.28
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,getId,SIMPLE_NAME, line no: 175, 0.23809523809523808, 0.6666666666666666, 1.0, 0.23809523809523808
+secondaryType,SIMPLE_NAME, line no: 352,type,SIMPLE_NAME, line no: 319, 0.23076923076923078, 0.0625, 1.0, 0.23076923076923078
+getId,SIMPLE_NAME, line no: 352,secondaryType.getId(),METHOD_INVOCATION, line no: 352, 0.2232142857142857, 0.9375, 1.0, 0.23809523809523808
+getId,SIMPLE_NAME, line no: 352,getMimeType,SIMPLE_NAME, line no: 195, 0.22159090909090906, 0.8125, 1.0, 0.2727272727272727
+secondaryType,SIMPLE_NAME, line no: 352,getTypeFromObjectData,SIMPLE_NAME, line no: 247, 0.20833333333333331, 0.0625, 1.0, 0.23809523809523808
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"Secondary types property contains an invalid entry: ",STRING_LITERAL, line no: 344, 0.2074074074074074, 0.8, 1.0, 0.25925925925925924
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"Secondary types property contains a type that is not a secondary type: " + secondaryType.getId(),INFIX_EXPRESSION, line no: 351, 0.2020618556701031, 0.9333333333333333, 1.0, 0.21649484536082475
+secondaryType.getId(),METHOD_INVOCATION, line no: 352," property. Expected type '",STRING_LITERAL, line no: 667, 0.2, 0.8, 1.0, 0.25
+getId,SIMPLE_NAME, line no: 352,id,SIMPLE_NAME, line no: 373, 0.2, 1.0, 1.0, 0.2
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,objectId,SIMPLE_NAME, line no: 185, 0.19047619047619047, 0.06666666666666667, 1.0, 0.23809523809523808
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,getStreamId,SIMPLE_NAME, line no: 194, 0.19047619047619047, 0.8, 1.0, 0.23809523809523808
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,getMimeType,SIMPLE_NAME, line no: 195, 0.19047619047619047, 0.8, 1.0, 0.23809523809523808
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,changeLogToken,SIMPLE_NAME, line no: 634, 0.19047619047619047, 0.06666666666666667, 1.0, 0.23809523809523808
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"' but received a '",STRING_LITERAL, line no: 668, 0.19047619047619047, 0.8, 1.0, 0.23809523809523808
+getId,SIMPLE_NAME, line no: 352,expectedTypes,SIMPLE_NAME, line no: 657, 0.1875, 0.75, 1.0, 0.23076923076923078
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"Property id mismatch: '",STRING_LITERAL, line no: 379, 0.18666666666666668, 0.9333333333333333, 1.0, 0.2
+getId,SIMPLE_NAME, line no: 352,getRenditionDocumentId,SIMPLE_NAME, line no: 194, 0.1846590909090909, 0.8125, 1.0, 0.22727272727272727
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"' is not a single value property!",STRING_LITERAL, line no: 437, 0.18285714285714286, 0.8, 1.0, 0.22857142857142856
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"Secondary types property contains a type that is not a secondary type: ",STRING_LITERAL, line no: 351, 0.17899543378995433, 0.9333333333333333, 1.0, 0.1917808219178082
+getId,SIMPLE_NAME, line no: 352,rendition.getStreamId(),METHOD_INVOCATION, line no: 194, 0.1766304347826087, 0.8125, 1.0, 0.21739130434782608
+getId,SIMPLE_NAME, line no: 352,property.getKey(),METHOD_INVOCATION, line no: 369, 0.17647058823529413, 1.0, 1.0, 0.17647058823529413
+getId,SIMPLE_NAME, line no: 352,rendition.getKind(),METHOD_INVOCATION, line no: 195, 0.17105263157894735, 0.8125, 1.0, 0.21052631578947367
+getId,SIMPLE_NAME, line no: 352,String,SIMPLE_NAME, line no: 115, 0.16666666666666666, 0.0625, 1.0, 0.16666666666666666
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,message,SIMPLE_NAME, line no: 667, 0.16507936507936508, 0.7333333333333333, 1.0, 0.19047619047619047
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"' is not a multi value property!",STRING_LITERAL, line no: 416, 0.16470588235294117, 0.8, 1.0, 0.20588235294117646
+getId,SIMPLE_NAME, line no: 352,type,SIMPLE_NAME, line no: 656, 0.1625, 0.0625, 1.0, 0.2
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"' contains null values!",STRING_LITERAL, line no: 425, 0.16000000000000003, 0.8, 1.0, 0.2
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,allSecondaryTypes.add((SecondaryType)secondaryType),METHOD_INVOCATION, line no: 355, 0.1568627450980392, 1.0, 0.5, 0.3137254901960784
+getId,SIMPLE_NAME, line no: 352,getPrincipalId,SIMPLE_NAME, line no: 143, 0.15625, 0.4375, 1.0, 0.35714285714285715
+getId,SIMPLE_NAME, line no: 352,property.getId(),METHOD_INVOCATION, line no: 612, 0.15625, 0.5, 1.0, 0.3125
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"No base type supplied!",STRING_LITERAL, line no: 241, 0.15555555555555556, 0.5333333333333333, 1.0, 0.2916666666666667
+getId,SIMPLE_NAME, line no: 352,getFileName,SIMPLE_NAME, line no: 221, 0.15340909090909088, 0.5625, 1.0, 0.2727272727272727
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,getKind,SIMPLE_NAME, line no: 195, 0.1523809523809524, 0.8, 1.0, 0.19047619047619047
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"Property '",STRING_LITERAL, line no: 286, 0.1523809523809524, 0.8, 1.0, 0.19047619047619047
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"' doesn't exist!",STRING_LITERAL, line no: 286, 0.1523809523809524, 0.8, 1.0, 0.19047619047619047
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"' is inhomogeneous!",STRING_LITERAL, line no: 431, 0.1523809523809524, 0.8, 1.0, 0.19047619047619047
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"' property.",STRING_LITERAL, line no: 668, 0.1523809523809524, 0.8, 1.0, 0.19047619047619047
+getId,SIMPLE_NAME, line no: 352,clazz.getName(),METHOD_INVOCATION, line no: 665, 0.15000000000000002, 0.75, 1.0, 0.2
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"' is not valid for this type or one of the secondary types!",STRING_LITERAL, line no: 400, 0.1442622950819672, 0.7333333333333333, 1.0, 0.19672131147540983
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,new IllegalArgumentException("Secondary types property contains a type that is not a secondary type: " + secondaryType.getId()),CLASS_INSTANCE_CREATION, line no: 350, 0.14330708661417324, 0.8666666666666667, 1.0, 0.16535433070866143
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"' doesn't match the property defintion!",STRING_LITERAL, line no: 542, 0.14308943089430895, 0.7333333333333333, 1.0, 0.1951219512195122
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,getKey,SIMPLE_NAME, line no: 312, 0.14285714285714285, 0.4, 1.0, 0.14285714285714285
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,toString,SIMPLE_NAME, line no: 333, 0.14285714285714285, 0.6666666666666666, 1.0, 0.14285714285714285
+getId,SIMPLE_NAME, line no: 352,PropertyIds.OBJECT_ID,QUALIFIED_NAME, line no: 615, 0.14285714285714285, 0.75, 1.0, 0.19047619047619047
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"Object type must set!",STRING_LITERAL, line no: 296, 0.14202898550724638, 0.4666666666666667, 1.0, 0.30434782608695654
+getId,SIMPLE_NAME, line no: 352,mimetype,SIMPLE_NAME, line no: 200, 0.140625, 0.0625, 1.0, 0.25
+getId,SIMPLE_NAME, line no: 352,"integer",STRING_LITERAL, line no: 493, 0.1388888888888889, 0.625, 1.0, 0.2222222222222222
+getId,SIMPLE_NAME, line no: 352,"Property '",STRING_LITERAL, line no: 286, 0.13541666666666666, 0.75, 1.0, 0.16666666666666666
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,getName,SIMPLE_NAME, line no: 243, 0.13333333333333333, 0.9333333333333333, 1.0, 0.14285714285714285
+secondaryType,SIMPLE_NAME, line no: 352,getTypeFromObjectData(objectData),METHOD_INVOCATION, line no: 566, 0.13257575757575757, 0.875, 1.0, 0.15151515151515152
+secondaryType,SIMPLE_NAME, line no: 352,session.getTypeDefinition(typeId.toString()),METHOD_INVOCATION, line no: 333, 0.125, 0.6875, 1.0, 0.18181818181818182
+getId,SIMPLE_NAME, line no: 352,toString,SIMPLE_NAME, line no: 333, 0.125, 0.6875, 1.0, 0.125
+getId,SIMPLE_NAME, line no: 352,"datetime",STRING_LITERAL, line no: 536, 0.125, 0.625, 1.0, 0.2
+getId,SIMPLE_NAME, line no: 352,"' property.",STRING_LITERAL, line no: 668, 0.125, 0.8125, 1.0, 0.15384615384615385
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"<java.util.GregorianCalendar  java.util.Date>",STRING_LITERAL, line no: 663, 0.12482269503546098, 0.7333333333333333, 1.0, 0.1702127659574468
+getId,SIMPLE_NAME, line no: 352,rendition.getTitle(),METHOD_INVOCATION, line no: 195, 0.121875, 0.8125, 1.0, 0.15
+getId,SIMPLE_NAME, line no: 352,typeId.toString(),METHOD_INVOCATION, line no: 333, 0.12132352941176472, 0.6875, 1.0, 0.17647058823529413
+getId,SIMPLE_NAME, line no: 352,rendition.getRenditionDocumentId(),METHOD_INVOCATION, line no: 194, 0.11948529411764706, 0.8125, 1.0, 0.14705882352941177
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"Type or type property must be set!",STRING_LITERAL, line no: 330, 0.11851851851851851, 0.5333333333333333, 1.0, 0.2222222222222222
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"Rendition must be set!",STRING_LITERAL, line no: 187, 0.11666666666666667, 0.4666666666666667, 1.0, 0.25
+getId,SIMPLE_NAME, line no: 352,changeLogToken,SIMPLE_NAME, line no: 634, 0.11607142857142856, 0.0625, 1.0, 0.14285714285714285
+getId,SIMPLE_NAME, line no: 352,secondaryTypeId.toString(),METHOD_INVOCATION, line no: 348, 0.11538461538461539, 1.0, 1.0, 0.11538461538461539
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,getTitle,SIMPLE_NAME, line no: 195, 0.11428571428571428, 0.8, 1.0, 0.14285714285714285
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,type,SIMPLE_NAME, line no: 656, 0.11428571428571428, 0.06666666666666667, 1.0, 0.14285714285714285
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"integer",STRING_LITERAL, line no: 493, 0.11428571428571427, 0.6, 1.0, 0.19047619047619047
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"datetime",STRING_LITERAL, line no: 536, 0.11428571428571427, 0.6, 1.0, 0.19047619047619047
+getId,SIMPLE_NAME, line no: 352,"Property id mismatch: '",STRING_LITERAL, line no: 379, 0.11249999999999999, 0.9375, 1.0, 0.12
+secondaryType,SIMPLE_NAME, line no: 352,type=session.getTypeDefinition(typeId.toString()),ASSIGNMENT, line no: 333, 0.11224489795918366, 0.6875, 1.0, 0.16326530612244897
+getId,SIMPLE_NAME, line no: 352,ace.getPrincipalId(),METHOD_INVOCATION, line no: 143, 0.109375, 0.4375, 1.0, 0.25
+getId,SIMPLE_NAME, line no: 352,PropertyIds.SECONDARY_OBJECT_TYPE_IDS,QUALIFIED_NAME, line no: 338, 0.10810810810810811, 1.0, 1.0, 0.10810810810810811
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"Object data is null!",STRING_LITERAL, line no: 563, 0.10606060606060606, 0.4666666666666667, 1.0, 0.22727272727272727
+getId,SIMPLE_NAME, line no: 352,rendition.getMimeType(),METHOD_INVOCATION, line no: 195, 0.10597826086956522, 0.8125, 1.0, 0.13043478260869565
+getId,SIMPLE_NAME, line no: 352,PropertyIds.OBJECT_TYPE_ID,QUALIFIED_NAME, line no: 253, 0.10576923076923078, 0.625, 1.0, 0.15384615384615385
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"<BigInteger  Byte  Short  Integer  Long>",STRING_LITERAL, line no: 659, 0.10476190476190475, 0.7333333333333333, 1.0, 0.14285714285714285
+getId,SIMPLE_NAME, line no: 352,"html",STRING_LITERAL, line no: 468, 0.10416666666666666, 0.625, 1.0, 0.16666666666666666
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"<BigDecimal  Double  Float  Byte  Short  Integer  Long>",STRING_LITERAL, line no: 661, 0.10292397660818713, 0.7333333333333333, 1.0, 0.14035087719298245
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,filename,SIMPLE_NAME, line no: 200, 0.10158730158730157, 0.06666666666666667, 1.0, 0.19047619047619047
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,mimetype,SIMPLE_NAME, line no: 200, 0.10158730158730157, 0.06666666666666667, 1.0, 0.19047619047619047
+getId,SIMPLE_NAME, line no: 352,obj.getClass().getName(),METHOD_INVOCATION, line no: 668, 0.1015625, 0.8125, 1.0, 0.125
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,String,SIMPLE_NAME, line no: 115, 0.09523809523809523, 0.06666666666666667, 1.0, 0.09523809523809523
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,getPrincipalId,SIMPLE_NAME, line no: 143, 0.09523809523809523, 0.4, 1.0, 0.23809523809523808
+getId,SIMPLE_NAME, line no: 352,"Unknown base type! Received ",STRING_LITERAL, line no: 243, 0.09375, 0.9375, 1.0, 0.1
+getId,SIMPLE_NAME, line no: 352,entry.getKey(),METHOD_INVOCATION, line no: 312, 0.09375, 0.4375, 1.0, 0.21428571428571427
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"Properties must be set!",STRING_LITERAL, line no: 304, 0.09333333333333334, 0.4666666666666667, 1.0, 0.2
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"Object type has no property defintions!",STRING_LITERAL, line no: 300, 0.0910569105691057, 0.4666666666666667, 1.0, 0.1951219512195122
+getId,SIMPLE_NAME, line no: 352," property. Expected type '",STRING_LITERAL, line no: 667, 0.08705357142857142, 0.8125, 1.0, 0.10714285714285714
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"string",STRING_LITERAL, line no: 452, 0.0857142857142857, 0.6, 1.0, 0.14285714285714285
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"decimal",STRING_LITERAL, line no: 520, 0.0857142857142857, 0.6, 1.0, 0.14285714285714285
+getId,SIMPLE_NAME, line no: 352,"' doesn't exist!",STRING_LITERAL, line no: 286, 0.08333333333333333, 0.75, 1.0, 0.1111111111111111
+getId,SIMPLE_NAME, line no: 352,OBJECT_ID,SIMPLE_NAME, line no: 615, 0.08333333333333333, 0.75, 1.0, 0.1111111111111111
+getId,SIMPLE_NAME, line no: 352,"Property '" + pd.getId() + "' doesn't exist!",INFIX_EXPRESSION, line no: 286, 0.08152173913043478, 0.75, 1.0, 0.10869565217391304
+getId,SIMPLE_NAME, line no: 352,"' but received a '",STRING_LITERAL, line no: 668, 0.08125, 0.8125, 1.0, 0.1
+getId,SIMPLE_NAME, line no: 352,"Unsupported base type: " + objectData.getBaseTypeId(),INFIX_EXPRESSION, line no: 583, 0.08101851851851852, 0.875, 1.0, 0.09259259259259259
+getId,SIMPLE_NAME, line no: 352,"Property id mismatch: '" + id + "' != '"+ p.getId()+ "'!",INFIX_EXPRESSION, line no: 379, 0.08081896551724138, 0.9375, 1.0, 0.08620689655172414
+getId,SIMPLE_NAME, line no: 352,typeDefinition.getClass().getName(),METHOD_INVOCATION, line no: 243, 0.08035714285714286, 0.9375, 1.0, 0.08571428571428572
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,SECONDARY_OBJECT_TYPE_IDS,SIMPLE_NAME, line no: 338, 0.08, 1.0, 1.0, 0.08
+getId,SIMPLE_NAME, line no: 352,"string",STRING_LITERAL, line no: 452, 0.078125, 0.625, 1.0, 0.125
+getId,SIMPLE_NAME, line no: 352,expectedTypes=clazz.getName(),ASSIGNMENT, line no: 665, 0.07758620689655173, 0.75, 1.0, 0.10344827586206896
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"' is a ",STRING_LITERAL, line no: 667, 0.0761904761904762, 0.8, 1.0, 0.09523809523809523
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,getFileName,SIMPLE_NAME, line no: 221, 0.07619047619047618, 0.5333333333333333, 1.0, 0.14285714285714285
+secondaryType,SIMPLE_NAME, line no: 352,this.session.getTypeDefinition((String)typeProperty.getFirstValue()),METHOD_INVOCATION, line no: 258, 0.07352941176470588, 0.625, 1.0, 0.11764705882352941
+getId,SIMPLE_NAME, line no: 352,"' is inhomogeneous!",STRING_LITERAL, line no: 431, 0.07142857142857142, 0.75, 1.0, 0.09523809523809523
+getId,SIMPLE_NAME, line no: 352,"<BigInteger  Byte  Short  Integer  Long>",STRING_LITERAL, line no: 659, 0.07142857142857142, 0.75, 1.0, 0.09523809523809523
+getId,SIMPLE_NAME, line no: 352,filename,SIMPLE_NAME, line no: 200, 0.0703125, 0.0625, 1.0, 0.125
+getId,SIMPLE_NAME, line no: 352,"Unsupported base type: ",STRING_LITERAL, line no: 583, 0.07, 0.875, 1.0, 0.08
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,OBJECT_ID,SIMPLE_NAME, line no: 615, 0.06984126984126983, 0.7333333333333333, 1.0, 0.09523809523809523
+getId,SIMPLE_NAME, line no: 352,"boolean",STRING_LITERAL, line no: 501, 0.06944444444444445, 0.625, 1.0, 0.1111111111111111
+getId,SIMPLE_NAME, line no: 352,"decimal",STRING_LITERAL, line no: 520, 0.06944444444444445, 0.625, 1.0, 0.1111111111111111
+getId,SIMPLE_NAME, line no: 352,objectIdList.get(0).toString(),METHOD_INVOCATION, line no: 618, 0.06666666666666667, 0.5, 1.0, 0.13333333333333333
+getId,SIMPLE_NAME, line no: 352,"' is not a single value property!",STRING_LITERAL, line no: 437, 0.06428571428571428, 0.75, 1.0, 0.08571428571428572
+getId,SIMPLE_NAME, line no: 352,"Secondary type is used as object type: ",STRING_LITERAL, line no: 581, 0.06402439024390244, 0.875, 1.0, 0.07317073170731707
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,OBJECT_TYPE_ID,SIMPLE_NAME, line no: 253, 0.06349206349206349, 0.6, 1.0, 0.09523809523809523
+getId,SIMPLE_NAME, line no: 352,contentStream.getFileName(),METHOD_INVOCATION, line no: 221, 0.0625, 0.5625, 1.0, 0.1111111111111111
+getId,SIMPLE_NAME, line no: 352,contentStream.getMimeType(),METHOD_INVOCATION, line no: 222, 0.0625, 0.5625, 1.0, 0.1111111111111111
+getId,SIMPLE_NAME, line no: 352,"No base type supplied!",STRING_LITERAL, line no: 241, 0.0625, 0.5, 1.0, 0.125
+getId,SIMPLE_NAME, line no: 352,"Secondary type is used as object type: " + objectData.getBaseTypeId(),INFIX_EXPRESSION, line no: 581, 0.0625, 0.875, 1.0, 0.07142857142857142
+getId,SIMPLE_NAME, line no: 352,"Object data is null!",STRING_LITERAL, line no: 563, 0.059659090909090905, 0.4375, 1.0, 0.13636363636363635
+getId,SIMPLE_NAME, line no: 352,v.toString(),METHOD_INVOCATION, line no: 515, 0.057291666666666664, 0.6875, 1.0, 0.08333333333333333
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"boolean",STRING_LITERAL, line no: 501, 0.057142857142857134, 0.6, 1.0, 0.09523809523809523
+getId,SIMPLE_NAME, line no: 352,"Property '" + id + "' is inhomogeneous!",INFIX_EXPRESSION, line no: 431, 0.0548780487804878, 0.75, 1.0, 0.07317073170731707
+getId,SIMPLE_NAME, line no: 352,expectedTypes="<BigInteger  Byte  Short  Integer  Long>",ASSIGNMENT, line no: 659, 0.05357142857142857, 0.75, 1.0, 0.07142857142857142
+getId,SIMPLE_NAME, line no: 352,"<BigDecimal  Double  Float  Byte  Short  Integer  Long>",STRING_LITERAL, line no: 661, 0.05263157894736842, 0.75, 1.0, 0.07017543859649122
+getId,SIMPLE_NAME, line no: 352,(String)typeProperty.getFirstValue(),CAST_EXPRESSION, line no: 258, 0.05208333333333333, 0.625, 1.0, 0.08333333333333333
+getId,SIMPLE_NAME, line no: 352,objectId=objectIdList.get(0).toString(),ASSIGNMENT, line no: 618, 0.05128205128205128, 0.5, 1.0, 0.10256410256410256
+getId,SIMPLE_NAME, line no: 352,"' doesn't match the property defintion!",STRING_LITERAL, line no: 542, 0.050304878048780484, 0.6875, 1.0, 0.07317073170731707
+getId,SIMPLE_NAME, line no: 352,"Property '" + id + "' contains null values!",INFIX_EXPRESSION, line no: 425, 0.05, 0.75, 1.0, 0.06666666666666667
+getId,SIMPLE_NAME, line no: 352,OBJECT_TYPE_ID,SIMPLE_NAME, line no: 253, 0.049107142857142856, 0.625, 1.0, 0.07142857142857142
+getId,SIMPLE_NAME, line no: 352,"<java.util.GregorianCalendar  java.util.Date>",STRING_LITERAL, line no: 663, 0.047872340425531915, 0.75, 1.0, 0.06382978723404255
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,id,SIMPLE_NAME, line no: 373, 0.047619047619047616, 1.0, 1.0, 0.047619047619047616
+getId,SIMPLE_NAME, line no: 352,"Secondary types property contains a type that is not a secondary type: " + secondaryType.getId(),INFIX_EXPRESSION, line no: 351, 0.045103092783505154, 0.875, 1.0, 0.05154639175257732
+getId,SIMPLE_NAME, line no: 352,"' is not a multi value property!",STRING_LITERAL, line no: 416, 0.044117647058823525, 0.75, 1.0, 0.058823529411764705
+getId,SIMPLE_NAME, line no: 352,expectedTypes="<BigDecimal  Double  Float  Byte  Short  Integer  Long>",ASSIGNMENT, line no: 661, 0.04225352112676056, 0.75, 1.0, 0.056338028169014086
+getId,SIMPLE_NAME, line no: 352,"Secondary types property contains an invalid entry: " + secondaryTypeId,INFIX_EXPRESSION, line no: 344, 0.041666666666666664, 0.75, 1.0, 0.05555555555555555
+getId,SIMPLE_NAME, line no: 352,"Secondary types property contains an invalid entry: ",STRING_LITERAL, line no: 344, 0.041666666666666664, 0.75, 1.0, 0.05555555555555555
+getId,SIMPLE_NAME, line no: 352,"Property '" + id + "' is not a multi value property!",INFIX_EXPRESSION, line no: 416, 0.041666666666666664, 0.75, 1.0, 0.05555555555555555
+getId,SIMPLE_NAME, line no: 352,"Unknown base type! Received " + typeDefinition.getClass().getName(),INFIX_EXPRESSION, line no: 243, 0.041360294117647065, 0.9375, 1.0, 0.04411764705882353
+getId,SIMPLE_NAME, line no: 352,"Property '" + id + "' is not a single value property!",INFIX_EXPRESSION, line no: 437, 0.04090909090909091, 0.75, 1.0, 0.05454545454545454
+getId,SIMPLE_NAME, line no: 352,SECONDARY_OBJECT_TYPE_IDS,SIMPLE_NAME, line no: 338, 0.04, 1.0, 1.0, 0.04
+getId,SIMPLE_NAME, line no: 352,"Object type must set!",STRING_LITERAL, line no: 296, 0.03804347826086957, 0.4375, 1.0, 0.08695652173913043
+getId,SIMPLE_NAME, line no: 352,expectedTypes="<java.util.GregorianCalendar  java.util.Date>",ASSIGNMENT, line no: 663, 0.036885245901639344, 0.75, 1.0, 0.04918032786885246
+getId,SIMPLE_NAME, line no: 352,"Rendition must be set!",STRING_LITERAL, line no: 187, 0.03645833333333333, 0.4375, 1.0, 0.08333333333333333
+getId,SIMPLE_NAME, line no: 352,"Secondary types property contains a type that is not a secondary type: ",STRING_LITERAL, line no: 351, 0.03595890410958904, 0.875, 1.0, 0.0410958904109589
+getId,SIMPLE_NAME, line no: 352,"Properties must be set!",STRING_LITERAL, line no: 304, 0.035, 0.4375, 1.0, 0.08
+getId,SIMPLE_NAME, line no: 352,"' is not valid for this type or one of the secondary types!",STRING_LITERAL, line no: 400, 0.03381147540983606, 0.6875, 1.0, 0.04918032786885246
+getId,SIMPLE_NAME, line no: 352,"Property '" + id + "' doesn't match the property defintion!",INFIX_EXPRESSION, line no: 542, 0.03381147540983606, 0.6875, 1.0, 0.04918032786885246
+getId,SIMPLE_NAME, line no: 352,"Object type has no property defintions!",STRING_LITERAL, line no: 300, 0.03201219512195122, 0.4375, 1.0, 0.07317073170731707
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,principal,SIMPLE_NAME, line no: 149, 0.031746031746031744, 0.06666666666666667, 1.0, 0.09523809523809523
+getId,SIMPLE_NAME, line no: 352,"' contains null values!",STRING_LITERAL, line no: 425, 0.03, 0.75, 1.0, 0.04
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"html",STRING_LITERAL, line no: 468, 0.028571428571428567, 0.6, 1.0, 0.047619047619047616
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"uri",STRING_LITERAL, line no: 476, 0.028571428571428567, 0.6, 1.0, 0.047619047619047616
+getId,SIMPLE_NAME, line no: 352,"Type or type property must be set!",STRING_LITERAL, line no: 330, 0.027777777777777776, 0.5, 1.0, 0.05555555555555555
+getId,SIMPLE_NAME, line no: 352,"Property '" + id + "' is not valid for this type or one of the secondary types!",INFIX_EXPRESSION, line no: 399, 0.02546296296296296, 0.6875, 1.0, 0.037037037037037035
+secondaryType,SIMPLE_NAME, line no: 352,convertTypeDefinition,SIMPLE_NAME, line no: 227, 0.023809523809523808, 0.0625, 1.0, 0.38095238095238093
+getId,SIMPLE_NAME, line no: 352,"Property '" + id + "' is a "+ type+ " property. Expected type '"+ expectedTypes+ "' but received a '"+ obj.getClass().getName()+ "' property.",INFIX_EXPRESSION, line no: 667, 0.017045454545454548, 0.8125, 1.0, 0.02097902097902098
+secondaryType.getId(),METHOD_INVOCATION, line no: 352,"unchecked",STRING_LITERAL, line no: 267, 0.012698412698412697, 0.06666666666666667, 1.0, 0.19047619047619047
+getId,SIMPLE_NAME, line no: 352,"unchecked",STRING_LITERAL, line no: 267, 0.011363636363636364, 0.0625, 1.0, 0.18181818181818182

@@ -1,0 +1,101 @@
+vertexToVertexData,SIMPLE_NAME, line no: 276,vertexToVertexData=null,ASSIGNMENT, line no: 98, 0.717391304347826, 0.2777777777777778, 1.0, 0.782608695652174
+this.graph,FIELD_ACCESS, line no: 276,graph,SIMPLE_NAME, line no: 68, 0.5, 0.05405405405405406, 1.0, 0.5
+graph,SIMPLE_NAME, line no: 276,this.graph,FIELD_ACCESS, line no: 276, 0.4868421052631579, 0.9736842105263158, 1.0, 0.5
+this.graph,FIELD_ACCESS, line no: 276,inverseGraph,SIMPLE_NAME, line no: 158, 0.4594594594594595, 0.918918918918919, 1.0, 0.5
+get,SIMPLE_NAME, line no: 276,next,SIMPLE_NAME, line no: 150, 0.4444444444444444, 0.6388888888888888, 1.0, 0.5
+this.graph.getEdgeTarget(edge),METHOD_INVOCATION, line no: 276,getEdgeTarget,SIMPLE_NAME, line no: 276, 0.43333333333333335, 1.0, 1.0, 0.43333333333333335
+getEdgeTarget,SIMPLE_NAME, line no: 276,this.graph.getEdgeTarget(edge),METHOD_INVOCATION, line no: 276, 0.42162162162162165, 0.972972972972973, 1.0, 0.43333333333333335
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,this.graph.getEdgeTarget(edge),METHOD_INVOCATION, line no: 276, 0.37037037037037035, 1.0, 0.6666666666666666, 0.5555555555555556
+this.graph.getEdgeTarget(edge),METHOD_INVOCATION, line no: 276,vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276, 0.360082304526749, 0.9722222222222222, 0.6666666666666666, 0.5555555555555556
+this.graph,FIELD_ACCESS, line no: 276,DirectedGraph,SIMPLE_NAME, line no: 68, 0.34303534303534305, 0.02702702702702703, 1.0, 0.38461538461538464
+getEdgeTarget,SIMPLE_NAME, line no: 276,data.vertex,QUALIFIED_NAME, line no: 264, 0.3076923076923077, 0.2972972972972973, 1.0, 0.3076923076923077
+graph,SIMPLE_NAME, line no: 276,inverseGraph,SIMPLE_NAME, line no: 158, 0.3070175438596491, 0.9210526315789473, 1.0, 0.3333333333333333
+get,SIMPLE_NAME, line no: 276,targetData,SIMPLE_NAME, line no: 275, 0.29166666666666663, 0.9722222222222222, 1.0, 0.3
+graph,SIMPLE_NAME, line no: 276,DirectedGraph,SIMPLE_NAME, line no: 68, 0.2753036437246964, 0.02631578947368421, 1.0, 0.3076923076923077
+this.graph.getEdgeTarget(edge),METHOD_INVOCATION, line no: 276,graph.getEdgeFactory(),METHOD_INVOCATION, line no: 159, 0.2675925925925926, 0.9444444444444444, 0.5, 0.5666666666666667
+get,SIMPLE_NAME, line no: 276,data,SIMPLE_NAME, line no: 150, 0.25, 0.6111111111111112, 1.0, 0.25
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,vertexToVertexData=new HashMap<V VertexData<V>>(graph.vertexSet().size()),ASSIGNMENT, line no: 230, 0.24422700587084148, 0.7428571428571429, 0.6666666666666666, 0.4931506849315068
+getEdgeTarget,SIMPLE_NAME, line no: 276,vertex,SIMPLE_NAME, line no: 236, 0.23076923076923078, 0.4864864864864865, 1.0, 0.23076923076923078
+this.graph,FIELD_ACCESS, line no: 276,graph.vertexSet(),METHOD_INVOCATION, line no: 231, 0.2305246422893482, 0.7297297297297297, 1.0, 0.29411764705882354
+this.graph,FIELD_ACCESS, line no: 276,graph.getEdgeFactory(),METHOD_INVOCATION, line no: 159, 0.20884520884520885, 0.918918918918919, 1.0, 0.22727272727272727
+get,SIMPLE_NAME, line no: 276,VertexData,SIMPLE_NAME, line no: 71, 0.2, 0.027777777777777776, 1.0, 0.2
+get,SIMPLE_NAME, line no: 276,vertexData,SIMPLE_NAME, line no: 251, 0.19444444444444445, 0.027777777777777776, 1.0, 0.2
+this.graph.getEdgeTarget(edge),METHOD_INVOCATION, line no: 276,graph.vertexSet().iterator(),METHOD_INVOCATION, line no: 233, 0.18796296296296297, 0.8055555555555556, 0.5, 0.4666666666666667
+getEdgeTarget,SIMPLE_NAME, line no: 276,iter.next(),METHOD_INVOCATION, line no: 236, 0.18711018711018712, 0.4864864864864865, 1.0, 0.38461538461538464
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,VertexData,SIMPLE_NAME, line no: 71, 0.18518518518518517, 0.02857142857142857, 1.0, 0.18518518518518517
+vertexToVertexData,SIMPLE_NAME, line no: 276,vertexToVertexData=new HashMap<V VertexData<V>>(graph.vertexSet().size()),ASSIGNMENT, line no: 230, 0.18493150684931506, 0.75, 1.0, 0.2465753424657534
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,vertexData,SIMPLE_NAME, line no: 251, 0.17989417989417988, 0.02857142857142857, 1.0, 0.18518518518518517
+this.graph.getEdgeTarget(edge),METHOD_INVOCATION, line no: 276,graph.vertexSet().size(),METHOD_INVOCATION, line no: 231, 0.175, 0.75, 0.5, 0.4666666666666667
+this.graph.getEdgeTarget(edge),METHOD_INVOCATION, line no: 276,graph.vertexSet(),METHOD_INVOCATION, line no: 231, 0.17453703703703705, 0.75, 0.5, 0.43333333333333335
+this.graph.getEdgeTarget(edge),METHOD_INVOCATION, line no: 276,new DefaultDirectedGraph<V E>(graph.getEdgeFactory()),CLASS_INSTANCE_CREATION, line no: 159, 0.1692872117400419, 0.9444444444444444, 0.5, 0.3584905660377358
+this.graph.getEdgeTarget(edge),METHOD_INVOCATION, line no: 276,this.graph,FIELD_ACCESS, line no: 276, 0.16666666666666666, 1.0, 0.5, 0.3333333333333333
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,vertexToVertexData.values().iterator(),METHOD_INVOCATION, line no: 147, 0.16296296296296295, 0.9428571428571428, 0.3333333333333333, 0.5185185185185185
+this.graph,FIELD_ACCESS, line no: 276,this.graph.getEdgeTarget(edge),METHOD_INVOCATION, line no: 276, 0.16216216216216217, 0.972972972972973, 0.5, 0.3333333333333333
+get,SIMPLE_NAME, line no: 276,iter.next(),METHOD_INVOCATION, line no: 150, 0.1616161616161616, 0.6111111111111112, 1.0, 0.18181818181818182
+get,SIMPLE_NAME, line no: 276,put,SIMPLE_NAME, line no: 237, 0.15740740740740738, 0.4722222222222222, 1.0, 0.3333333333333333
+this.graph,FIELD_ACCESS, line no: 276,graph.vertexSet().size(),METHOD_INVOCATION, line no: 231, 0.15202702702702703, 0.7297297297297297, 1.0, 0.20833333333333334
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,new DefaultDirectedGraph<V E>(graph.getEdgeFactory()),CLASS_INSTANCE_CREATION, line no: 159, 0.1455026455026455, 0.9428571428571428, 0.3333333333333333, 0.46296296296296297
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,targetData,SIMPLE_NAME, line no: 275, 0.1439153439153439, 0.9714285714285714, 1.0, 0.14814814814814814
+this.graph,FIELD_ACCESS, line no: 276,graph.vertexSet().iterator(),METHOD_INVOCATION, line no: 233, 0.13996138996138996, 0.7837837837837838, 1.0, 0.17857142857142858
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,vertexToVertexData.values(),METHOD_INVOCATION, line no: 147, 0.13386243386243385, 0.9428571428571428, 0.3333333333333333, 0.42592592592592593
+this.graph.getEdgeTarget(edge),METHOD_INVOCATION, line no: 276,vertex,SIMPLE_NAME, line no: 236, 0.13333333333333333, 0.5, 1.0, 0.13333333333333333
+this.graph,FIELD_ACCESS, line no: 276,directedGraph,SIMPLE_NAME, line no: 91, 0.12474012474012475, 0.02702702702702703, 1.0, 0.38461538461538464
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,new HashMap<V VertexData<V>>(graph.vertexSet().size()),CLASS_INSTANCE_CREATION, line no: 231, 0.12380952380952381, 0.7428571428571429, 0.3333333333333333, 0.5
+this.graph,FIELD_ACCESS, line no: 276,new DefaultDirectedGraph<V E>(graph.getEdgeFactory()),CLASS_INSTANCE_CREATION, line no: 159, 0.12136664966853647, 0.918918918918919, 1.0, 0.1320754716981132
+this.graph.getEdgeTarget(edge),METHOD_INVOCATION, line no: 276,graph.outgoingEdgesOf(data.vertex),METHOD_INVOCATION, line no: 271, 0.11764705882352941, 1.0, 0.25, 0.47058823529411764
+this.graph.getEdgeTarget(edge),METHOD_INVOCATION, line no: 276,Graphs.addGraphReversed(inverseGraph graph),METHOD_INVOCATION, line no: 160, 0.1065891472868217, 0.9166666666666666, 0.3333333333333333, 0.3488372093023256
+this.graph.getEdgeTarget(edge),METHOD_INVOCATION, line no: 276,new HashMap<V VertexData<V>>(graph.vertexSet().size()),CLASS_INSTANCE_CREATION, line no: 231, 0.10416666666666667, 0.75, 0.5, 0.2777777777777778
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,vertexToVertexData=null,ASSIGNMENT, line no: 98, 0.10158730158730157, 0.2857142857142857, 0.3333333333333333, 0.3333333333333333
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,graph.getEdgeFactory(),METHOD_INVOCATION, line no: 159, 0.09894179894179894, 0.9428571428571428, 0.3333333333333333, 0.3148148148148148
+graph,SIMPLE_NAME, line no: 276,directedGraph,SIMPLE_NAME, line no: 91, 0.09716599190283401, 0.02631578947368421, 1.0, 0.3076923076923077
+this.graph.getEdgeTarget(edge),METHOD_INVOCATION, line no: 276,graph.outgoingEdgesOf(data.vertex).iterator(),METHOD_INVOCATION, line no: 271, 0.09444444444444444, 1.0, 0.25, 0.37777777777777777
+get,SIMPLE_NAME, line no: 276,stack.pop(),METHOD_INVOCATION, line no: 258, 0.09090909090909091, 1.0, 1.0, 0.09090909090909091
+get,SIMPLE_NAME, line no: 276,stack.push(vertexData),METHOD_INVOCATION, line no: 255, 0.08838383838383838, 0.9722222222222222, 1.0, 0.09090909090909091
+this.graph,FIELD_ACCESS, line no: 276,Graphs.addGraphReversed(inverseGraph graph),METHOD_INVOCATION, line no: 160, 0.08296668761785041, 0.8918918918918919, 0.5, 0.18604651162790697
+this.graph,FIELD_ACCESS, line no: 276,new HashMap<V VertexData<V>>(graph.vertexSet().size()),CLASS_INSTANCE_CREATION, line no: 231, 0.08108108108108107, 0.7297297297297297, 1.0, 0.1111111111111111
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,graph.vertexSet().iterator(),METHOD_INVOCATION, line no: 233, 0.07901234567901234, 0.8, 0.3333333333333333, 0.2962962962962963
+getEdgeTarget,SIMPLE_NAME, line no: 276,next,SIMPLE_NAME, line no: 236, 0.079002079002079, 0.5135135135135135, 1.0, 0.15384615384615385
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,Graphs.addGraphReversed(inverseGraph graph),METHOD_INVOCATION, line no: 160, 0.07195767195767196, 0.9142857142857143, 0.25, 0.3148148148148148
+graph,SIMPLE_NAME, line no: 276,graph=directedGraph,ASSIGNMENT, line no: 97, 0.06925207756232686, 0.2631578947368421, 1.0, 0.2631578947368421
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,graph.vertexSet().size(),METHOD_INVOCATION, line no: 231, 0.06419753086419754, 0.7428571428571429, 0.3333333333333333, 0.25925925925925924
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,graph.vertexSet(),METHOD_INVOCATION, line no: 231, 0.06419753086419752, 0.7428571428571429, 0.3333333333333333, 0.24074074074074073
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,graph.outgoingEdgesOf(data.vertex).iterator(),METHOD_INVOCATION, line no: 271, 0.06296296296296297, 1.0, 0.2, 0.3148148148148148
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,this.graph,FIELD_ACCESS, line no: 276, 0.06172839506172839, 1.0, 0.3333333333333333, 0.18518518518518517
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,graph.outgoingEdgesOf(data.vertex),METHOD_INVOCATION, line no: 271, 0.05925925925925926, 1.0, 0.2, 0.2962962962962963
+this.graph,FIELD_ACCESS, line no: 276,vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276, 0.05839172505839172, 0.9459459459459459, 0.3333333333333333, 0.18518518518518517
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,data,SIMPLE_NAME, line no: 150, 0.05555555555555555, 0.6285714285714286, 1.0, 0.05555555555555555
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,get,SIMPLE_NAME, line no: 276, 0.05555555555555555, 1.0, 1.0, 0.05555555555555555
+get,SIMPLE_NAME, line no: 276,finishedData,SIMPLE_NAME, line no: 285, 0.05555555555555555, 0.3333333333333333, 1.0, 0.16666666666666666
+this.graph.getEdgeTarget(edge),METHOD_INVOCATION, line no: 276,vertexToVertexData=new HashMap<V VertexData<V>>(graph.vertexSet().size()),ASSIGNMENT, line no: 230, 0.0547945205479452, 0.75, 0.3333333333333333, 0.2191780821917808
+get,SIMPLE_NAME, line no: 276,vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276, 0.05401234567901234, 0.9722222222222222, 1.0, 0.05555555555555555
+get,SIMPLE_NAME, line no: 276,new VertexData<V>(data null true true),CLASS_INSTANCE_CREATION, line no: 267, 0.05116959064327485, 0.9722222222222222, 1.0, 0.05263157894736842
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,vertexToVertexData.put(vertex new VertexData<V>(null vertex false false)),METHOD_INVOCATION, line no: 237, 0.050097847358121325, 0.45714285714285713, 0.25, 0.4383561643835616
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,next,SIMPLE_NAME, line no: 150, 0.0492063492063492, 0.6571428571428571, 1.0, 0.05555555555555555
+this.graph,FIELD_ACCESS, line no: 276,graph.outgoingEdgesOf(data.vertex),METHOD_INVOCATION, line no: 271, 0.04769475357710652, 0.972972972972973, 0.3333333333333333, 0.14705882352941177
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,finishedData,SIMPLE_NAME, line no: 285, 0.04444444444444444, 0.34285714285714286, 1.0, 0.12962962962962962
+this.graph,FIELD_ACCESS, line no: 276,graph.outgoingEdgesOf(data.vertex).iterator(),METHOD_INVOCATION, line no: 271, 0.043243243243243246, 0.972972972972973, 0.3333333333333333, 0.13333333333333333
+this.graph,FIELD_ACCESS, line no: 276,graph=directedGraph,ASSIGNMENT, line no: 97, 0.04267425320056899, 0.2702702702702703, 0.5, 0.3157894736842105
+get,SIMPLE_NAME, line no: 276,stack.push(new VertexData<V>(data null true true)),METHOD_INVOCATION, line no: 267, 0.03888888888888889, 0.9722222222222222, 1.0, 0.04
+get,SIMPLE_NAME, line no: 276,stack.push(targetData),METHOD_INVOCATION, line no: 280, 0.03787878787878788, 0.2777777777777778, 1.0, 0.13636363636363635
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,new DirectedSubgraph<V E>(graph iter.next() null),CLASS_INSTANCE_CREATION, line no: 213, 0.037037037037037035, 0.4, 0.25, 0.37037037037037035
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,pop,SIMPLE_NAME, line no: 258, 0.037037037037037035, 1.0, 1.0, 0.037037037037037035
+this.graph.getEdgeTarget(edge),METHOD_INVOCATION, line no: 276,new DirectedSubgraph<V E>(graph iter.next() null),CLASS_INSTANCE_CREATION, line no: 213, 0.037037037037037035, 0.3888888888888889, 0.3333333333333333, 0.2857142857142857
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,push,SIMPLE_NAME, line no: 255, 0.03597883597883598, 0.9714285714285714, 1.0, 0.037037037037037035
+get,SIMPLE_NAME, line no: 276,data.finishedData,QUALIFIED_NAME, line no: 285, 0.03594771241830066, 0.3055555555555556, 1.0, 0.11764705882352941
+this.graph.getEdgeTarget(edge),METHOD_INVOCATION, line no: 276,next,SIMPLE_NAME, line no: 236, 0.03518518518518519, 0.5277777777777778, 1.0, 0.06666666666666667
+this.graph,FIELD_ACCESS, line no: 276,vertexToVertexData=new HashMap<V VertexData<V>>(graph.vertexSet().size()),ASSIGNMENT, line no: 230, 0.034987041836356904, 0.7297297297297297, 0.5, 0.0958904109589041
+this.graph,FIELD_ACCESS, line no: 276,dfsVisit(graph data null),METHOD_INVOCATION, line no: 153, 0.03405405405405406, 0.24324324324324326, 0.5, 0.28
+this.graph.getEdgeTarget(edge),METHOD_INVOCATION, line no: 276,graph=directedGraph,ASSIGNMENT, line no: 97, 0.033950617283950615, 0.2777777777777778, 0.3333333333333333, 0.36666666666666664
+this.graph.getEdgeTarget(edge),METHOD_INVOCATION, line no: 276,dfsVisit(graph data null),METHOD_INVOCATION, line no: 153, 0.03055555555555555, 0.25, 0.3333333333333333, 0.36666666666666664
+this.graph,FIELD_ACCESS, line no: 276,new DirectedSubgraph<V E>(graph iter.next() null),CLASS_INSTANCE_CREATION, line no: 213, 0.02702702702702703, 0.3783783783783784, 0.5, 0.14285714285714285
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,stronglyConnectedSubgraphs.add(new DirectedSubgraph<V E>(graph iter.next() null)),METHOD_INVOCATION, line no: 212, 0.022716049382716052, 0.4, 0.2, 0.2839506172839506
+get,SIMPLE_NAME, line no: 276,new VertexData<V>(null vertex false false),CLASS_INSTANCE_CREATION, line no: 239, 0.021164021164021163, 0.4444444444444444, 1.0, 0.047619047619047616
+this.graph.getEdgeTarget(edge),METHOD_INVOCATION, line no: 276,stronglyConnectedSubgraphs.add(new DirectedSubgraph<V E>(graph iter.next() null)),METHOD_INVOCATION, line no: 212, 0.02040466392318244, 0.3888888888888889, 0.25, 0.20987654320987653
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,put,SIMPLE_NAME, line no: 237, 0.01798941798941799, 0.4857142857142857, 1.0, 0.037037037037037035
+graph,SIMPLE_NAME, line no: 276,getGraph,SIMPLE_NAME, line no: 111, 0.01644736842105263, 0.02631578947368421, 1.0, 0.625
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,graph=directedGraph,ASSIGNMENT, line no: 97, 0.01455026455026455, 0.2857142857142857, 0.25, 0.2037037037037037
+vertexToVertexData.get(this.graph.getEdgeTarget(edge)),METHOD_INVOCATION, line no: 276,dfsVisit(graph data null),METHOD_INVOCATION, line no: 153, 0.014285714285714284, 0.2571428571428571, 0.25, 0.2222222222222222
+this.graph,FIELD_ACCESS, line no: 276,stronglyConnectedSubgraphs.add(new DirectedSubgraph<V E>(graph iter.next() null)),METHOD_INVOCATION, line no: 212, 0.014014014014014012, 0.3783783783783784, 0.3333333333333333, 0.1111111111111111
+this.graph,FIELD_ACCESS, line no: 276,getGraph,SIMPLE_NAME, line no: 111, 0.013513513513513514, 0.02702702702702703, 1.0, 0.5
+get,SIMPLE_NAME, line no: 276,vertexToVertexData.put(vertex new VertexData<V>(null vertex false false)),METHOD_INVOCATION, line no: 237, 0.0121765601217656, 0.4444444444444444, 1.0, 0.0273972602739726
+vertexToVertexData,SIMPLE_NAME, line no: 276,Map,SIMPLE_NAME, line no: 80, 0.0015432098765432098, 0.027777777777777776, 1.0, 0.05555555555555555

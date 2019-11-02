@@ -1,0 +1,1353 @@
+response,SIMPLE_NAME, line no: 73,offeredResponse,SIMPLE_NAME, line no: 117, 1.92, 0.04, 1.0, 0.5333333333333333
+response,SIMPLE_NAME, line no: 73,offeredResponse=resolveInternalResponse(offeredResponse),ASSIGNMENT, line no: 118, 1.92, 0.92, 1.0, 0.14285714285714285
+response,SIMPLE_NAME, line no: 73,resolveInternalResponse(offeredResponse),METHOD_INVOCATION, line no: 118, 1.92, 0.92, 1.0, 0.2
+response,SIMPLE_NAME, line no: 73,resolveInternalResponse,SIMPLE_NAME, line no: 118, 1.92, 0.92, 1.0, 0.34782608695652173
+response,SIMPLE_NAME, line no: 73,Object,SIMPLE_NAME, line no: 39, 1.88, 0.04, 1.0, 0.125
+response,SIMPLE_NAME, line no: 73,response=offeredResponse,ASSIGNMENT, line no: 135, 1.88, 0.88, 1.0, 0.3333333333333333
+response,SIMPLE_NAME, line no: 73,BasicInvocation.WAIT_RESPONSE,QUALIFIED_NAME, line no: 136, 1.88, 0.88, 1.0, 0.10344827586206896
+response,SIMPLE_NAME, line no: 73,WAIT_RESPONSE,SIMPLE_NAME, line no: 136, 1.88, 0.88, 1.0, 0.0
+response,SIMPLE_NAME, line no: 73,rawResponse,SIMPLE_NAME, line no: 155, 1.88, 0.04, 1.0, 0.7272727272727273
+response,SIMPLE_NAME, line no: 73,BasicInvocation.NULL_RESPONSE,QUALIFIED_NAME, line no: 165, 1.88, 0.28, 1.0, 0.10344827586206896
+response,SIMPLE_NAME, line no: 73,NULL_RESPONSE,SIMPLE_NAME, line no: 165, 1.88, 0.32, 1.0, 0.0
+response,SIMPLE_NAME, line no: 73,unresolvedResponse,SIMPLE_NAME, line no: 193, 1.88, 0.44, 1.0, 0.4444444444444444
+response,SIMPLE_NAME, line no: 73,BasicInvocation.INTERRUPTED_RESPONSE,QUALIFIED_NAME, line no: 226, 1.88, 0.6, 1.0, 0.08333333333333333
+response,SIMPLE_NAME, line no: 73,INTERRUPTED_RESPONSE,SIMPLE_NAME, line no: 226, 1.88, 0.64, 1.0, 0.0
+response,SIMPLE_NAME, line no: 73,BasicInvocation.TIMEOUT_RESPONSE,QUALIFIED_NAME, line no: 252, 1.88, 0.88, 1.0, 0.09375
+response,SIMPLE_NAME, line no: 73,TIMEOUT_RESPONSE,SIMPLE_NAME, line no: 252, 1.88, 0.88, 1.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,interrupted,SIMPLE_NAME, line no: 42, 1.875, 0.041666666666666664, 1.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,response != null && !(response instanceof BasicInvocation.InternalResponse),INFIX_EXPRESSION, line no: 122, 1.875, 0.875, 1.0, 0.21333333333333335
+response != null,INFIX_EXPRESSION, line no: 73,!(response instanceof BasicInvocation.InternalResponse),PREFIX_EXPRESSION, line no: 122, 1.875, 0.875, 1.0, 0.21818181818181817
+response != null,INFIX_EXPRESSION, line no: 73,(response instanceof BasicInvocation.InternalResponse),PARENTHESIZED_EXPRESSION, line no: 122, 1.875, 0.875, 1.0, 0.2222222222222222
+response != null,INFIX_EXPRESSION, line no: 73,response instanceof BasicInvocation.InternalResponse,INSTANCEOF_EXPRESSION, line no: 122, 1.875, 0.875, 1.0, 0.23076923076923078
+response != null,INFIX_EXPRESSION, line no: 73,longPolling,SIMPLE_NAME, line no: 206, 1.875, 0.875, 1.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,response == null,INFIX_EXPRESSION, line no: 260, 1.875, 0.875, 1.0, 0.9375
+response != null,INFIX_EXPRESSION, line no: 73,response instanceof Throwable,INSTANCEOF_EXPRESSION, line no: 322, 1.875, 0.75, 1.0, 0.3793103448275862
+response != null,INFIX_EXPRESSION, line no: 73,resultDeserialized,SIMPLE_NAME, line no: 360, 1.875, 0.875, 1.0, 0.3333333333333333
+response != null,INFIX_EXPRESSION, line no: 73,response instanceof Data,INSTANCEOF_EXPRESSION, line no: 360, 1.875, 0.875, 1.0, 0.4166666666666667
+response != null,INFIX_EXPRESSION, line no: 73,response instanceof NormalResponse,INSTANCEOF_EXPRESSION, line no: 367, 1.875, 0.875, 1.0, 0.3235294117647059
+response,SIMPLE_NAME, line no: 73,getValue,SIMPLE_NAME, line no: 161, 1.8399999999999999, 0.4, 1.0, 0.25
+response,SIMPLE_NAME, line no: 73,response=responseObj.getValue(),ASSIGNMENT, line no: 369, 1.8399999999999999, 0.84, 1.0, 0.25806451612903225
+response,SIMPLE_NAME, line no: 73,responseObj.getValue(),METHOD_INVOCATION, line no: 369, 1.8399999999999999, 0.84, 1.0, 0.36363636363636365
+response != null,INFIX_EXPRESSION, line no: 73,(NormalResponse)response,CAST_EXPRESSION, line no: 368, 1.8333333333333335, 0.8333333333333334, 1.0, 0.375
+response,SIMPLE_NAME, line no: 73,resp,SIMPLE_NAME, line no: 93, 1.76, 0.72, 1.0, 0.5
+response,SIMPLE_NAME, line no: 73,resolveApplicationResponse,SIMPLE_NAME, line no: 93, 1.76, 0.72, 1.0, 0.3076923076923077
+response,SIMPLE_NAME, line no: 73,resolveApplicationResponse(unresolvedResponse),METHOD_INVOCATION, line no: 320, 1.76, 0.76, 1.0, 0.17391304347826086
+response != null,INFIX_EXPRESSION, line no: 73,hasResponse,SIMPLE_NAME, line no: 298, 1.75, 0.7083333333333334, 1.0, 0.4375
+response != null,INFIX_EXPRESSION, line no: 73,response == null || !(response instanceof Throwable),INFIX_EXPRESSION, line no: 322, 1.75, 0.75, 1.0, 0.28846153846153844
+response != null,INFIX_EXPRESSION, line no: 73,!(response instanceof Throwable),PREFIX_EXPRESSION, line no: 322, 1.75, 0.75, 1.0, 0.34375
+response != null,INFIX_EXPRESSION, line no: 73,(response instanceof Throwable),PARENTHESIZED_EXPRESSION, line no: 322, 1.75, 0.75, 1.0, 0.3548387096774194
+response != null,INFIX_EXPRESSION, line no: 73,response instanceof ExecutionException,INSTANCEOF_EXPRESSION, line no: 326, 1.75, 0.75, 1.0, 0.2894736842105263
+response != null,INFIX_EXPRESSION, line no: 73,response instanceof TimeoutException,INSTANCEOF_EXPRESSION, line no: 330, 1.75, 0.75, 1.0, 0.3055555555555556
+response != null,INFIX_EXPRESSION, line no: 73,response instanceof InterruptedException,INSTANCEOF_EXPRESSION, line no: 334, 1.75, 0.75, 1.0, 0.3
+response != null,INFIX_EXPRESSION, line no: 73,response instanceof Error,INSTANCEOF_EXPRESSION, line no: 338, 1.75, 0.75, 1.0, 0.4
+response != null,INFIX_EXPRESSION, line no: 73,new ExecutionException((Throwable)response),CLASS_INSTANCE_CREATION, line no: 343, 1.75, 0.75, 1.0, 0.18604651162790697
+response != null,INFIX_EXPRESSION, line no: 73,(Throwable)response,CAST_EXPRESSION, line no: 343, 1.75, 0.75, 1.0, 0.42105263157894735
+response,SIMPLE_NAME, line no: 73,resolveApplicationResponse(response),METHOD_INVOCATION, line no: 93, 1.72, 0.72, 1.0, 0.2222222222222222
+response,SIMPLE_NAME, line no: 73,get,SIMPLE_NAME, line no: 171, 1.72, 0.04, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,toObject,SIMPLE_NAME, line no: 361, 1.72, 0.64, 1.0, 0.25
+response,SIMPLE_NAME, line no: 73,invocation.nodeEngine.toObject(f.get(IS_EXECUTING_CALL_TIMEOUT TimeUnit.MILLISECONDS)),METHOD_INVOCATION, line no: 421, 1.72, 0.72, 1.0, 0.03488372093023256
+response,SIMPLE_NAME, line no: 73,f.get(IS_EXECUTING_CALL_TIMEOUT TimeUnit.MILLISECONDS),METHOD_INVOCATION, line no: 421, 1.72, 0.72, 1.0, 0.037037037037037035
+response != null,INFIX_EXPRESSION, line no: 73,resolveApplicationResponse(response),METHOD_INVOCATION, line no: 93, 1.7083333333333335, 0.7083333333333334, 1.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,isFinestEnabled,SIMPLE_NAME, line no: 128, 1.7083333333333335, 0.7083333333333334, 1.0, 0.3125
+response != null,INFIX_EXPRESSION, line no: 73,true,BOOLEAN_LITERAL, line no: 232, 1.7083333333333335, 0.16666666666666666, 1.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,remote,SIMPLE_NAME, line no: 238, 1.7083333333333335, 0.7083333333333334, 1.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,equals,SIMPLE_NAME, line no: 238, 1.7083333333333335, 0.7083333333333334, 1.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,executing,SIMPLE_NAME, line no: 244, 1.7083333333333335, 0.7083333333333334, 1.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,isOperationExecuting,SIMPLE_NAME, line no: 244, 1.7083333333333335, 0.7083333333333334, 1.0, 0.3
+response != null,INFIX_EXPRESSION, line no: 73,((Throwable)response),PARENTHESIZED_EXPRESSION, line no: 385, 1.625, 0.625, 1.0, 0.38095238095238093
+response != null,INFIX_EXPRESSION, line no: 73,isDone,SIMPLE_NAME, line no: 406, 1.625, 0.041666666666666664, 1.0, 0.25
+response,SIMPLE_NAME, line no: 73,response=invocation.nodeEngine.toObject(response),ASSIGNMENT, line no: 361, 1.6, 0.6, 1.0, 0.16326530612244897
+response,SIMPLE_NAME, line no: 73,invocation.nodeEngine.toObject(response),METHOD_INVOCATION, line no: 361, 1.6, 0.6, 1.0, 0.2
+response,SIMPLE_NAME, line no: 73,getTraceIdentifier,SIMPLE_NAME, line no: 432, 1.6, 0.6, 1.0, 0.2222222222222222
+response,SIMPLE_NAME, line no: 73,operationTimeoutException,SIMPLE_NAME, line no: 246, 1.56, 0.52, 1.0, 0.2
+response,SIMPLE_NAME, line no: 73,traceable.getTraceIdentifier(),METHOD_INVOCATION, line no: 432, 1.56, 0.56, 1.0, 0.13333333333333333
+response,SIMPLE_NAME, line no: 73,newOperationTimeoutException,SIMPLE_NAME, line no: 246, 1.52, 0.52, 1.0, 0.17857142857142858
+response,SIMPLE_NAME, line no: 73,newOperationTimeoutException(pollCount * pollTimeoutMs),METHOD_INVOCATION, line no: 246, 1.48, 0.48, 1.0, 0.10909090909090909
+response != null,INFIX_EXPRESSION, line no: 73,compareAndSet,SIMPLE_NAME, line no: 221, 1.4583333333333333, 0.4583333333333333, 1.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,fixRemoteStackTrace((Throwable)response Thread.currentThread().getStackTrace()),METHOD_INVOCATION, line no: 387, 1.4583333333333333, 0.4583333333333333, 1.0, 0.11392405063291139
+response,SIMPLE_NAME, line no: 73,waitForResponse,SIMPLE_NAME, line no: 193, 1.44, 0.44, 1.0, 0.5333333333333333
+response,SIMPLE_NAME, line no: 73,resolveApplicationResponseOrThrowException,SIMPLE_NAME, line no: 194, 1.44, 0.44, 1.0, 0.19047619047619047
+response,SIMPLE_NAME, line no: 73,waitForResponse(timeout unit),METHOD_INVOCATION, line no: 193, 1.4, 0.4, 1.0, 0.27586206896551724
+response,SIMPLE_NAME, line no: 73,resolveApplicationResponseOrThrowException(unresolvedResponse),METHOD_INVOCATION, line no: 194, 1.4, 0.4, 1.0, 0.12903225806451613
+response != null,INFIX_EXPRESSION, line no: 73,response=offeredResponse,ASSIGNMENT, line no: 135, 1.375, 0.875, 0.5, 0.4166666666666667
+response != null,INFIX_EXPRESSION, line no: 73,response != null && response != BasicInvocation.WAIT_RESPONSE,INFIX_EXPRESSION, line no: 198, 1.375, 0.875, 0.5, 0.26229508196721313
+response != null,INFIX_EXPRESSION, line no: 73,response != BasicInvocation.WAIT_RESPONSE,INFIX_EXPRESSION, line no: 198, 1.375, 0.875, 0.5, 0.3170731707317073
+response != null,INFIX_EXPRESSION, line no: 73,response == BasicInvocation.WAIT_RESPONSE,INFIX_EXPRESSION, line no: 220, 1.375, 0.875, 0.5, 0.2926829268292683
+response != null,INFIX_EXPRESSION, line no: 73,pollTimeoutMs > 0 && response == null,INFIX_EXPRESSION, line no: 260, 1.375, 0.875, 0.5, 0.40540540540540543
+response,SIMPLE_NAME, line no: 73,rawResponse=((NormalResponse)rawResponse).getValue(),ASSIGNMENT, line no: 161, 1.3599999999999999, 0.36, 1.0, 0.15384615384615385
+response,SIMPLE_NAME, line no: 73,((NormalResponse)rawResponse).getValue(),METHOD_INVOCATION, line no: 161, 1.3599999999999999, 0.36, 1.0, 0.2
+response != null,INFIX_EXPRESSION, line no: 73,response=responseObj.getValue(),ASSIGNMENT, line no: 369, 1.3333333333333335, 0.8333333333333334, 0.5, 0.3548387096774194
+response,SIMPLE_NAME, line no: 73,rawResponse=BasicInvocation.NULL_RESPONSE,ASSIGNMENT, line no: 165, 1.28, 0.28, 1.0, 0.1951219512195122
+response != null,INFIX_EXPRESSION, line no: 73,currentTimeoutMs > 0 && response == null,INFIX_EXPRESSION, line no: 264, 1.25, 0.75, 0.5, 0.375
+response != null,INFIX_EXPRESSION, line no: 73,invocation.resultDeserialized && response instanceof Data,INFIX_EXPRESSION, line no: 360, 1.2083333333333333, 0.875, 0.3333333333333333, 0.17543859649122806
+response != null,INFIX_EXPRESSION, line no: 73,response != BasicInvocation.INTERRUPTED_RESPONSE,INFIX_EXPRESSION, line no: 226, 1.125, 0.625, 0.5, 0.2708333333333333
+response != null,INFIX_EXPRESSION, line no: 73,(ExecutionException)response,CAST_EXPRESSION, line no: 327, 1.125, 0.125, 1.0, 0.2857142857142857
+response != null,INFIX_EXPRESSION, line no: 73,(TimeoutException)response,CAST_EXPRESSION, line no: 331, 1.125, 0.125, 1.0, 0.3076923076923077
+response != null,INFIX_EXPRESSION, line no: 73,(InterruptedException)response,CAST_EXPRESSION, line no: 335, 1.125, 0.125, 1.0, 0.26666666666666666
+response != null,INFIX_EXPRESSION, line no: 73,(Error)response,CAST_EXPRESSION, line no: 339, 1.125, 0.125, 1.0, 0.5
+response != null,INFIX_EXPRESSION, line no: 73,sb.append("  response=").append(response),METHOD_INVOCATION, line no: 442, 1.125, 0.625, 0.5, 0.24390243902439024
+response != null,INFIX_EXPRESSION, line no: 73,cancel,SIMPLE_NAME, line no: 396, 1.0416666666666667, 0.041666666666666664, 1.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,mayInterruptIfRunning,SIMPLE_NAME, line no: 396, 1.0416666666666667, 0.041666666666666664, 1.0, 0.19047619047619047
+response != null,INFIX_EXPRESSION, line no: 73,false,BOOLEAN_LITERAL, line no: 397, 1.0416666666666667, 0.041666666666666664, 1.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,isCancelled,SIMPLE_NAME, line no: 401, 1.0416666666666667, 0.041666666666666664, 1.0, 0.3125
+response != null,INFIX_EXPRESSION, line no: 73,response,SIMPLE_NAME, line no: 47, 1.0, 0.041666666666666664, 0.0, 0.5
+response != null,INFIX_EXPRESSION, line no: 73,null,NULL_LITERAL, line no: 53, 1.0, 0.875, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,null,NULL_LITERAL, line no: 53, 0.96, 0.88, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,response != null,INFIX_EXPRESSION, line no: 73, 0.96, 0.96, 0.0, 0.5
+null,NULL_LITERAL, line no: 73,response,SIMPLE_NAME, line no: 47, 0.96, 0.04, 0.0, 0.125
+null,NULL_LITERAL, line no: 73,response != null,INFIX_EXPRESSION, line no: 73, 0.96, 0.96, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,response != BasicInvocation.INTERRUPTED_RESPONSE && interrupted,INFIX_EXPRESSION, line no: 226, 0.9583333333333333, 0.625, 0.3333333333333333, 0.2222222222222222
+response != null,INFIX_EXPRESSION, line no: 73,response=invocation.nodeEngine.toObject(response),ASSIGNMENT, line no: 361, 0.9583333333333333, 0.625, 0.3333333333333333, 0.20408163265306123
+response != null,INFIX_EXPRESSION, line no: 73,invocation.nodeEngine.toObject(response),METHOD_INVOCATION, line no: 361, 0.9583333333333333, 0.625, 0.3333333333333333, 0.2
+response,SIMPLE_NAME, line no: 73,isNotNull,SIMPLE_NAME, line no: 25, 0.92, 0.04, 0.0, 0.2222222222222222
+response,SIMPLE_NAME, line no: 73,E,SIMPLE_NAME, line no: 34, 0.92, 0.04, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,operationService,SIMPLE_NAME, line no: 44, 0.92, 0.04, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,invocation,SIMPLE_NAME, line no: 45, 0.92, 0.04, 0.0, 0.2
+response,SIMPLE_NAME, line no: 73,ExecutionCallbackNode,SIMPLE_NAME, line no: 46, 0.92, 0.04, 0.0, 0.19047619047619047
+response,SIMPLE_NAME, line no: 73,callbackHead,SIMPLE_NAME, line no: 46, 0.92, 0.04, 0.0, 0.08333333333333333
+response,SIMPLE_NAME, line no: 73,callback,SIMPLE_NAME, line no: 49, 0.92, 0.04, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,this,THIS_EXPRESSION, line no: 50, 0.92, 0.8, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,executor,SIMPLE_NAME, line no: 68, 0.92, 0.04, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,isNotNull(callback "callback"),METHOD_INVOCATION, line no: 69, 0.92, 0.92, 0.0, 0.06666666666666667
+response,SIMPLE_NAME, line no: 73,"callback",STRING_LITERAL, line no: 69, 0.92, 0.92, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,isNotNull(executor "executor"),METHOD_INVOCATION, line no: 70, 0.92, 0.92, 0.0, 0.1
+response,SIMPLE_NAME, line no: 73,"executor",STRING_LITERAL, line no: 70, 0.92, 0.92, 0.0, 0.2
+response,SIMPLE_NAME, line no: 73,callbackChain,SIMPLE_NAME, line no: 120, 0.92, 0.92, 0.0, 0.07692307692307693
+response,SIMPLE_NAME, line no: 73,operationService.deregisterInvocation(invocation),METHOD_INVOCATION, line no: 144, 0.92, 0.92, 0.0, 0.10204081632653061
+response,SIMPLE_NAME, line no: 73,deregisterInvocation,SIMPLE_NAME, line no: 144, 0.92, 0.92, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,notifyCallbacks(callbackChain),METHOD_INVOCATION, line no: 145, 0.92, 0.92, 0.0, 0.06666666666666667
+response,SIMPLE_NAME, line no: 73,notifyCallbacks,SIMPLE_NAME, line no: 145, 0.92, 0.92, 0.0, 0.13333333333333333
+null,NULL_LITERAL, line no: 73,E,SIMPLE_NAME, line no: 34, 0.92, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,operationService,SIMPLE_NAME, line no: 44, 0.92, 0.04, 0.0, 0.0625
+null,NULL_LITERAL, line no: 73,invocation,SIMPLE_NAME, line no: 45, 0.92, 0.04, 0.0, 0.1
+null,NULL_LITERAL, line no: 73,ExecutionCallbackNode,SIMPLE_NAME, line no: 46, 0.92, 0.04, 0.0, 0.14285714285714285
+null,NULL_LITERAL, line no: 73,this,THIS_EXPRESSION, line no: 50, 0.92, 0.8, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,offeredResponse,SIMPLE_NAME, line no: 117, 0.92, 0.04, 0.0, 0.06666666666666667
+null,NULL_LITERAL, line no: 73,offeredResponse=resolveInternalResponse(offeredResponse),ASSIGNMENT, line no: 118, 0.92, 0.92, 0.0, 0.05357142857142857
+null,NULL_LITERAL, line no: 73,resolveInternalResponse(offeredResponse),METHOD_INVOCATION, line no: 118, 0.92, 0.92, 0.0, 0.05
+null,NULL_LITERAL, line no: 73,resolveInternalResponse,SIMPLE_NAME, line no: 118, 0.92, 0.92, 0.0, 0.08695652173913043
+null,NULL_LITERAL, line no: 73,callbackChain,SIMPLE_NAME, line no: 120, 0.92, 0.92, 0.0, 0.15384615384615385
+null,NULL_LITERAL, line no: 73,operationService.deregisterInvocation(invocation),METHOD_INVOCATION, line no: 144, 0.92, 0.92, 0.0, 0.02040816326530612
+null,NULL_LITERAL, line no: 73,deregisterInvocation,SIMPLE_NAME, line no: 144, 0.92, 0.92, 0.0, 0.05
+null,NULL_LITERAL, line no: 73,notifyCallbacks(callbackChain),METHOD_INVOCATION, line no: 145, 0.92, 0.92, 0.0, 0.1
+null,NULL_LITERAL, line no: 73,notifyCallbacks,SIMPLE_NAME, line no: 145, 0.92, 0.92, 0.0, 0.2
+response != null,INFIX_EXPRESSION, line no: 73,isNotNull,SIMPLE_NAME, line no: 25, 0.9166666666666666, 0.041666666666666664, 0.0, 0.3125
+response != null,INFIX_EXPRESSION, line no: 73,E,SIMPLE_NAME, line no: 34, 0.9166666666666666, 0.041666666666666664, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,operationService,SIMPLE_NAME, line no: 44, 0.9166666666666666, 0.041666666666666664, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,invocation,SIMPLE_NAME, line no: 45, 0.9166666666666666, 0.041666666666666664, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,ExecutionCallbackNode,SIMPLE_NAME, line no: 46, 0.9166666666666666, 0.041666666666666664, 0.0, 0.23809523809523808
+response != null,INFIX_EXPRESSION, line no: 73,callbackHead,SIMPLE_NAME, line no: 46, 0.9166666666666666, 0.041666666666666664, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,callback,SIMPLE_NAME, line no: 49, 0.9166666666666666, 0.041666666666666664, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,this,THIS_EXPRESSION, line no: 50, 0.9166666666666666, 0.7916666666666666, 0.0, 0.0625
+response != null,INFIX_EXPRESSION, line no: 73,executor,SIMPLE_NAME, line no: 68, 0.9166666666666666, 0.041666666666666664, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,isNotNull(callback "callback"),METHOD_INVOCATION, line no: 69, 0.9166666666666666, 0.9166666666666666, 0.0, 0.16666666666666666
+response != null,INFIX_EXPRESSION, line no: 73,"callback",STRING_LITERAL, line no: 69, 0.9166666666666666, 0.9166666666666666, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,isNotNull(executor "executor"),METHOD_INVOCATION, line no: 70, 0.9166666666666666, 0.9166666666666666, 0.0, 0.16666666666666666
+response != null,INFIX_EXPRESSION, line no: 73,"executor",STRING_LITERAL, line no: 70, 0.9166666666666666, 0.9166666666666666, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,this.callbackHead=new ExecutionCallbackNode<E>(callback executor callbackHead),ASSIGNMENT, line no: 78, 0.9166666666666666, 0.9166666666666666, 0.0, 0.10256410256410256
+response != null,INFIX_EXPRESSION, line no: 73,this.callbackHead,FIELD_ACCESS, line no: 78, 0.9166666666666666, 0.9166666666666666, 0.0, 0.17647058823529413
+response != null,INFIX_EXPRESSION, line no: 73,new ExecutionCallbackNode<E>(callback executor callbackHead),CLASS_INSTANCE_CREATION, line no: 78, 0.9166666666666666, 0.9166666666666666, 0.0, 0.11666666666666667
+response != null,INFIX_EXPRESSION, line no: 73,new Runnable(){   @Override public void run(){     try {       Object resp=resolveApplicationResponse(response);       if (resp == null || !(resp instanceof Throwable)) {         callback.onResponse((E)resp);       }  else {         callback.onFailure((Throwable)resp);       }     }  catch (    Throwable cause) {       invocation.logger.severe("Failed asynchronous execution of execution callback: " + callback + "for call "+ invocation cause);     }   } } ,CLASS_INSTANCE_CREATION, line no: 89, 0.9166666666666666, 0.75, 0.16666666666666666, 0.032679738562091505
+response != null,INFIX_EXPRESSION, line no: 73,offeredResponse,SIMPLE_NAME, line no: 117, 0.9166666666666666, 0.041666666666666664, 0.0, 0.5
+response != null,INFIX_EXPRESSION, line no: 73,offeredResponse=resolveInternalResponse(offeredResponse),ASSIGNMENT, line no: 118, 0.9166666666666666, 0.9166666666666666, 0.0, 0.19642857142857142
+response != null,INFIX_EXPRESSION, line no: 73,resolveInternalResponse(offeredResponse),METHOD_INVOCATION, line no: 118, 0.9166666666666666, 0.9166666666666666, 0.0, 0.225
+response != null,INFIX_EXPRESSION, line no: 73,resolveInternalResponse,SIMPLE_NAME, line no: 118, 0.9166666666666666, 0.9166666666666666, 0.0, 0.34782608695652173
+response != null,INFIX_EXPRESSION, line no: 73,callbackChain,SIMPLE_NAME, line no: 120, 0.9166666666666666, 0.9166666666666666, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,operationService.deregisterInvocation(invocation),METHOD_INVOCATION, line no: 144, 0.9166666666666666, 0.9166666666666666, 0.0, 0.12244897959183673
+response != null,INFIX_EXPRESSION, line no: 73,deregisterInvocation,SIMPLE_NAME, line no: 144, 0.9166666666666666, 0.9166666666666666, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,notifyCallbacks(callbackChain),METHOD_INVOCATION, line no: 145, 0.9166666666666666, 0.9166666666666666, 0.0, 0.13333333333333333
+response != null,INFIX_EXPRESSION, line no: 73,notifyCallbacks,SIMPLE_NAME, line no: 145, 0.9166666666666666, 0.9166666666666666, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,executor.execute(new Runnable(){   @Override public void run(){     try {       Object resp=resolveApplicationResponse(response);       if (resp == null || !(resp instanceof Throwable)) {         callback.onResponse((E)resp);       }  else {         callback.onFailure((Throwable)resp);       }     }  catch (    Throwable cause) {       invocation.logger.severe("Failed asynchronous execution of execution callback: " + callback + "for call "+ invocation cause);     }   } } ),METHOD_INVOCATION, line no: 89, 0.8928571428571428, 0.75, 0.14285714285714285, 0.031446540880503145
+response,SIMPLE_NAME, line no: 73,Data,SIMPLE_NAME, line no: 7, 0.88, 0.04, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,Clock,SIMPLE_NAME, line no: 12, 0.88, 0.04, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,min,SIMPLE_NAME, line no: 26, 0.88, 0.04, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,interrupted,SIMPLE_NAME, line no: 42, 0.88, 0.04, 0.0, 0.2727272727272727
+response,SIMPLE_NAME, line no: 73,waiterCount,SIMPLE_NAME, line no: 43, 0.88, 0.04, 0.0, 0.2727272727272727
+response,SIMPLE_NAME, line no: 73,BasicInvocation,SIMPLE_NAME, line no: 45, 0.88, 0.04, 0.0, 0.2
+response,SIMPLE_NAME, line no: 73,callback != null,INFIX_EXPRESSION, line no: 53, 0.88, 0.88, 0.0, 0.0625
+response,SIMPLE_NAME, line no: 73,decrementTimeout,SIMPLE_NAME, line no: 59, 0.88, 0.04, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,this.callbackHead=new ExecutionCallbackNode<E>(callback executor callbackHead),ASSIGNMENT, line no: 78, 0.88, 0.88, 0.0, 0.05128205128205128
+response,SIMPLE_NAME, line no: 73,this.callbackHead,FIELD_ACCESS, line no: 78, 0.88, 0.88, 0.0, 0.11764705882352941
+response,SIMPLE_NAME, line no: 73,new ExecutionCallbackNode<E>(callback executor callbackHead),CLASS_INSTANCE_CREATION, line no: 78, 0.88, 0.88, 0.0, 0.06666666666666667
+response,SIMPLE_NAME, line no: 73,Throwable,SIMPLE_NAME, line no: 95, 0.88, 0.76, 0.0, 0.3333333333333333
+response,SIMPLE_NAME, line no: 73,e,SIMPLE_NAME, line no: 106, 0.88, 0.76, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,response != null && !(response instanceof BasicInvocation.InternalResponse),INFIX_EXPRESSION, line no: 122, 0.88, 0.88, 0.0, 0.10666666666666667
+response,SIMPLE_NAME, line no: 73,!(response instanceof BasicInvocation.InternalResponse),PREFIX_EXPRESSION, line no: 122, 0.88, 0.88, 0.0, 0.14545454545454545
+response,SIMPLE_NAME, line no: 73,(response instanceof BasicInvocation.InternalResponse),PARENTHESIZED_EXPRESSION, line no: 122, 0.88, 0.88, 0.0, 0.14814814814814814
+response,SIMPLE_NAME, line no: 73,response instanceof BasicInvocation.InternalResponse,INSTANCEOF_EXPRESSION, line no: 122, 0.88, 0.88, 0.0, 0.15384615384615385
+response,SIMPLE_NAME, line no: 73,BasicInvocation.InternalResponse,QUALIFIED_NAME, line no: 122, 0.88, 0.88, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,InternalResponse,SIMPLE_NAME, line no: 122, 0.88, 0.88, 0.0, 0.5
+response,SIMPLE_NAME, line no: 73,offeredResponse == BasicInvocation.WAIT_RESPONSE,INFIX_EXPRESSION, line no: 136, 0.88, 0.88, 0.0, 0.16666666666666666
+response,SIMPLE_NAME, line no: 73,callbackChain=callbackHead,ASSIGNMENT, line no: 139, 0.88, 0.88, 0.0, 0.07692307692307693
+response,SIMPLE_NAME, line no: 73,callbackHead=null,ASSIGNMENT, line no: 140, 0.88, 0.88, 0.0, 0.11764705882352941
+response,SIMPLE_NAME, line no: 73,notifyAll(),METHOD_INVOCATION, line no: 141, 0.88, 0.88, 0.0, 0.09090909090909091
+response,SIMPLE_NAME, line no: 73,notifyAll,SIMPLE_NAME, line no: 141, 0.88, 0.88, 0.0, 0.1111111111111111
+response,SIMPLE_NAME, line no: 73,rawResponse == null,INFIX_EXPRESSION, line no: 156, 0.88, 0.88, 0.0, 0.42105263157894735
+response,SIMPLE_NAME, line no: 73,rawResponse instanceof NormalResponse,INSTANCEOF_EXPRESSION, line no: 160, 0.88, 0.88, 0.0, 0.21621621621621623
+response,SIMPLE_NAME, line no: 73,NormalResponse,SIMPLE_NAME, line no: 160, 0.88, 0.88, 0.0, 0.5714285714285714
+response,SIMPLE_NAME, line no: 73,InterruptedException,SIMPLE_NAME, line no: 171, 0.88, 0.04, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,unit,SIMPLE_NAME, line no: 192, 0.88, 0.04, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,time,SIMPLE_NAME, line no: 197, 0.88, 0.04, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,response != null && response != BasicInvocation.WAIT_RESPONSE,INFIX_EXPRESSION, line no: 198, 0.88, 0.88, 0.0, 0.13114754098360656
+response,SIMPLE_NAME, line no: 73,response != BasicInvocation.WAIT_RESPONSE,INFIX_EXPRESSION, line no: 198, 0.88, 0.88, 0.0, 0.1951219512195122
+response,SIMPLE_NAME, line no: 73,waiterCount.incrementAndGet(),METHOD_INVOCATION, line no: 202, 0.88, 0.88, 0.0, 0.13793103448275862
+response,SIMPLE_NAME, line no: 73,incrementAndGet,SIMPLE_NAME, line no: 202, 0.88, 0.88, 0.0, 0.26666666666666666
+response,SIMPLE_NAME, line no: 73,timeoutMs,SIMPLE_NAME, line no: 204, 0.88, 0.88, 0.0, 0.3333333333333333
+response,SIMPLE_NAME, line no: 73,toTimeoutMs(time unit),METHOD_INVOCATION, line no: 204, 0.88, 0.88, 0.0, 0.18181818181818182
+response,SIMPLE_NAME, line no: 73,toTimeoutMs,SIMPLE_NAME, line no: 204, 0.88, 0.88, 0.0, 0.2727272727272727
+response,SIMPLE_NAME, line no: 73,maxCallTimeoutMs,SIMPLE_NAME, line no: 205, 0.88, 0.88, 0.0, 0.1875
+response,SIMPLE_NAME, line no: 73,getMaxCallTimeout(),METHOD_INVOCATION, line no: 205, 0.88, 0.88, 0.0, 0.10526315789473684
+response,SIMPLE_NAME, line no: 73,getMaxCallTimeout,SIMPLE_NAME, line no: 205, 0.88, 0.88, 0.0, 0.11764705882352941
+response,SIMPLE_NAME, line no: 73,longPolling,SIMPLE_NAME, line no: 206, 0.88, 0.88, 0.0, 0.18181818181818182
+response,SIMPLE_NAME, line no: 73,timeoutMs > maxCallTimeoutMs,INFIX_EXPRESSION, line no: 206, 0.88, 0.88, 0.0, 0.14285714285714285
+response,SIMPLE_NAME, line no: 73,pollCount,SIMPLE_NAME, line no: 208, 0.88, 0.88, 0.0, 0.3333333333333333
+response,SIMPLE_NAME, line no: 73,0,NUMBER_LITERAL, line no: 208, 0.88, 0.88, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,timeoutMs >= 0,INFIX_EXPRESSION, line no: 209, 0.88, 0.88, 0.0, 0.21428571428571427
+response,SIMPLE_NAME, line no: 73,pollTimeoutMs,SIMPLE_NAME, line no: 210, 0.88, 0.88, 0.0, 0.23076923076923078
+response,SIMPLE_NAME, line no: 73,min(maxCallTimeoutMs timeoutMs),METHOD_INVOCATION, line no: 210, 0.88, 0.88, 0.0, 0.12903225806451613
+response,SIMPLE_NAME, line no: 73,startMs,SIMPLE_NAME, line no: 211, 0.88, 0.88, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,Clock.currentTimeMillis(),METHOD_INVOCATION, line no: 211, 0.88, 0.88, 0.0, 0.16
+response,SIMPLE_NAME, line no: 73,currentTimeMillis,SIMPLE_NAME, line no: 211, 0.88, 0.88, 0.0, 0.23529411764705882
+response,SIMPLE_NAME, line no: 73,lastPollTime,SIMPLE_NAME, line no: 212, 0.88, 0.88, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,pollCount++,POSTFIX_EXPRESSION, line no: 213, 0.88, 0.88, 0.0, 0.2727272727272727
+response,SIMPLE_NAME, line no: 73,pollResponse(pollTimeoutMs),METHOD_INVOCATION, line no: 216, 0.88, 0.88, 0.0, 0.25925925925925924
+response,SIMPLE_NAME, line no: 73,pollResponse,SIMPLE_NAME, line no: 216, 0.88, 0.88, 0.0, 0.5833333333333334
+response,SIMPLE_NAME, line no: 73,lastPollTime=Clock.currentTimeMillis() - startMs,ASSIGNMENT, line no: 217, 0.88, 0.88, 0.0, 0.08333333333333333
+response,SIMPLE_NAME, line no: 73,Clock.currentTimeMillis() - startMs,INFIX_EXPRESSION, line no: 217, 0.88, 0.88, 0.0, 0.11428571428571428
+response,SIMPLE_NAME, line no: 73,timeoutMs=decrementTimeout(timeoutMs lastPollTime),ASSIGNMENT, line no: 218, 0.88, 0.88, 0.0, 0.1
+response,SIMPLE_NAME, line no: 73,decrementTimeout(timeoutMs lastPollTime),METHOD_INVOCATION, line no: 218, 0.88, 0.88, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,response == BasicInvocation.WAIT_RESPONSE,INFIX_EXPRESSION, line no: 220, 0.88, 0.88, 0.0, 0.1951219512195122
+response,SIMPLE_NAME, line no: 73,!interrupted && longPolling,INFIX_EXPRESSION, line no: 235, 0.88, 0.88, 0.0, 0.14814814814814814
+response,SIMPLE_NAME, line no: 73,!interrupted,PREFIX_EXPRESSION, line no: 235, 0.88, 0.88, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,pollTimeoutMs > 0 && response == null,INFIX_EXPRESSION, line no: 260, 0.88, 0.88, 0.0, 0.21621621621621623
+response,SIMPLE_NAME, line no: 73,pollTimeoutMs > 0,INFIX_EXPRESSION, line no: 260, 0.88, 0.88, 0.0, 0.17647058823529413
+response,SIMPLE_NAME, line no: 73,response == null,INFIX_EXPRESSION, line no: 260, 0.88, 0.88, 0.0, 0.5
+response,SIMPLE_NAME, line no: 73,response instanceof Throwable,INSTANCEOF_EXPRESSION, line no: 322, 0.88, 0.76, 0.0, 0.27586206896551724
+response,SIMPLE_NAME, line no: 73,unresolvedResponse == BasicInvocation.NULL_RESPONSE,INFIX_EXPRESSION, line no: 347, 0.88, 0.88, 0.0, 0.1568627450980392
+response,SIMPLE_NAME, line no: 73,unresolvedResponse == BasicInvocation.TIMEOUT_RESPONSE,INFIX_EXPRESSION, line no: 351, 0.88, 0.88, 0.0, 0.14814814814814814
+response,SIMPLE_NAME, line no: 73,unresolvedResponse == BasicInvocation.INTERRUPTED_RESPONSE,INFIX_EXPRESSION, line no: 355, 0.88, 0.88, 0.0, 0.13793103448275862
+response,SIMPLE_NAME, line no: 73,invocation.resultDeserialized && response instanceof Data,INFIX_EXPRESSION, line no: 360, 0.88, 0.88, 0.0, 0.14035087719298245
+response,SIMPLE_NAME, line no: 73,invocation.resultDeserialized,QUALIFIED_NAME, line no: 360, 0.88, 0.88, 0.0, 0.1724137931034483
+response,SIMPLE_NAME, line no: 73,resultDeserialized,SIMPLE_NAME, line no: 360, 0.88, 0.88, 0.0, 0.2777777777777778
+response,SIMPLE_NAME, line no: 73,response instanceof Data,INSTANCEOF_EXPRESSION, line no: 360, 0.88, 0.88, 0.0, 0.3333333333333333
+response,SIMPLE_NAME, line no: 73,response instanceof NormalResponse,INSTANCEOF_EXPRESSION, line no: 367, 0.88, 0.88, 0.0, 0.23529411764705882
+null,NULL_LITERAL, line no: 73,Data,SIMPLE_NAME, line no: 7, 0.88, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,Clock,SIMPLE_NAME, line no: 12, 0.88, 0.04, 0.0, 0.2
+null,NULL_LITERAL, line no: 73,isNotNull,SIMPLE_NAME, line no: 25, 0.88, 0.04, 0.0, 0.3333333333333333
+null,NULL_LITERAL, line no: 73,min,SIMPLE_NAME, line no: 26, 0.88, 0.04, 0.0, 0.25
+null,NULL_LITERAL, line no: 73,Object,SIMPLE_NAME, line no: 39, 0.88, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,interrupted,SIMPLE_NAME, line no: 42, 0.88, 0.04, 0.0, 0.18181818181818182
+null,NULL_LITERAL, line no: 73,waiterCount,SIMPLE_NAME, line no: 43, 0.88, 0.04, 0.0, 0.09090909090909091
+null,NULL_LITERAL, line no: 73,BasicInvocation,SIMPLE_NAME, line no: 45, 0.88, 0.04, 0.0, 0.06666666666666667
+null,NULL_LITERAL, line no: 73,callbackHead,SIMPLE_NAME, line no: 46, 0.88, 0.04, 0.0, 0.16666666666666666
+null,NULL_LITERAL, line no: 73,callback,SIMPLE_NAME, line no: 49, 0.88, 0.04, 0.0, 0.25
+null,NULL_LITERAL, line no: 73,callback != null,INFIX_EXPRESSION, line no: 53, 0.88, 0.88, 0.0, 0.25
+null,NULL_LITERAL, line no: 73,decrementTimeout,SIMPLE_NAME, line no: 59, 0.88, 0.04, 0.0, 0.125
+null,NULL_LITERAL, line no: 73,executor,SIMPLE_NAME, line no: 68, 0.88, 0.04, 0.0, 0.125
+null,NULL_LITERAL, line no: 73,isNotNull(callback "callback"),METHOD_INVOCATION, line no: 69, 0.88, 0.88, 0.0, 0.1
+null,NULL_LITERAL, line no: 73,"callback",STRING_LITERAL, line no: 69, 0.88, 0.88, 0.0, 0.2
+null,NULL_LITERAL, line no: 73,isNotNull(executor "executor"),METHOD_INVOCATION, line no: 70, 0.88, 0.88, 0.0, 0.1
+null,NULL_LITERAL, line no: 73,"executor",STRING_LITERAL, line no: 70, 0.88, 0.88, 0.0, 0.1
+null,NULL_LITERAL, line no: 73,this.callbackHead=new ExecutionCallbackNode<E>(callback executor callbackHead),ASSIGNMENT, line no: 78, 0.88, 0.88, 0.0, 0.05128205128205128
+null,NULL_LITERAL, line no: 73,this.callbackHead,FIELD_ACCESS, line no: 78, 0.88, 0.88, 0.0, 0.11764705882352941
+null,NULL_LITERAL, line no: 73,new ExecutionCallbackNode<E>(callback executor callbackHead),CLASS_INSTANCE_CREATION, line no: 78, 0.88, 0.88, 0.0, 0.06666666666666667
+null,NULL_LITERAL, line no: 73,Throwable,SIMPLE_NAME, line no: 95, 0.88, 0.72, 0.0, 0.1111111111111111
+null,NULL_LITERAL, line no: 73,e,SIMPLE_NAME, line no: 106, 0.88, 0.72, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,response != null && !(response instanceof BasicInvocation.InternalResponse),INFIX_EXPRESSION, line no: 122, 0.88, 0.88, 0.0, 0.05333333333333334
+null,NULL_LITERAL, line no: 73,!(response instanceof BasicInvocation.InternalResponse),PREFIX_EXPRESSION, line no: 122, 0.88, 0.88, 0.0, 0.03636363636363636
+null,NULL_LITERAL, line no: 73,(response instanceof BasicInvocation.InternalResponse),PARENTHESIZED_EXPRESSION, line no: 122, 0.88, 0.88, 0.0, 0.037037037037037035
+null,NULL_LITERAL, line no: 73,response instanceof BasicInvocation.InternalResponse,INSTANCEOF_EXPRESSION, line no: 122, 0.88, 0.88, 0.0, 0.038461538461538464
+null,NULL_LITERAL, line no: 73,BasicInvocation.InternalResponse,QUALIFIED_NAME, line no: 122, 0.88, 0.88, 0.0, 0.0625
+null,NULL_LITERAL, line no: 73,InternalResponse,SIMPLE_NAME, line no: 122, 0.88, 0.88, 0.0, 0.125
+null,NULL_LITERAL, line no: 73,response=offeredResponse,ASSIGNMENT, line no: 135, 0.88, 0.88, 0.0, 0.041666666666666664
+null,NULL_LITERAL, line no: 73,offeredResponse == BasicInvocation.WAIT_RESPONSE,INFIX_EXPRESSION, line no: 136, 0.88, 0.88, 0.0, 0.020833333333333332
+null,NULL_LITERAL, line no: 73,BasicInvocation.WAIT_RESPONSE,QUALIFIED_NAME, line no: 136, 0.88, 0.88, 0.0, 0.034482758620689655
+null,NULL_LITERAL, line no: 73,WAIT_RESPONSE,SIMPLE_NAME, line no: 136, 0.88, 0.88, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,callbackChain=callbackHead,ASSIGNMENT, line no: 139, 0.88, 0.88, 0.0, 0.11538461538461539
+null,NULL_LITERAL, line no: 73,callbackHead=null,ASSIGNMENT, line no: 140, 0.88, 0.88, 0.0, 0.23529411764705882
+null,NULL_LITERAL, line no: 73,notifyAll(),METHOD_INVOCATION, line no: 141, 0.88, 0.88, 0.0, 0.2727272727272727
+null,NULL_LITERAL, line no: 73,notifyAll,SIMPLE_NAME, line no: 141, 0.88, 0.88, 0.0, 0.3333333333333333
+null,NULL_LITERAL, line no: 73,rawResponse,SIMPLE_NAME, line no: 155, 0.88, 0.04, 0.0, 0.09090909090909091
+null,NULL_LITERAL, line no: 73,rawResponse == null,INFIX_EXPRESSION, line no: 156, 0.88, 0.88, 0.0, 0.21052631578947367
+null,NULL_LITERAL, line no: 73,rawResponse instanceof NormalResponse,INSTANCEOF_EXPRESSION, line no: 160, 0.88, 0.88, 0.0, 0.05405405405405406
+null,NULL_LITERAL, line no: 73,NormalResponse,SIMPLE_NAME, line no: 160, 0.88, 0.88, 0.0, 0.07142857142857142
+null,NULL_LITERAL, line no: 73,BasicInvocation.NULL_RESPONSE,QUALIFIED_NAME, line no: 165, 0.88, 0.28, 0.0, 0.034482758620689655
+null,NULL_LITERAL, line no: 73,NULL_RESPONSE,SIMPLE_NAME, line no: 165, 0.88, 0.32, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,InterruptedException,SIMPLE_NAME, line no: 171, 0.88, 0.04, 0.0, 0.1
+null,NULL_LITERAL, line no: 73,unit,SIMPLE_NAME, line no: 192, 0.88, 0.04, 0.0, 0.25
+null,NULL_LITERAL, line no: 73,unresolvedResponse,SIMPLE_NAME, line no: 193, 0.88, 0.44, 0.0, 0.1111111111111111
+null,NULL_LITERAL, line no: 73,time,SIMPLE_NAME, line no: 197, 0.88, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,response != null && response != BasicInvocation.WAIT_RESPONSE,INFIX_EXPRESSION, line no: 198, 0.88, 0.88, 0.0, 0.06557377049180328
+null,NULL_LITERAL, line no: 73,response != BasicInvocation.WAIT_RESPONSE,INFIX_EXPRESSION, line no: 198, 0.88, 0.88, 0.0, 0.024390243902439025
+null,NULL_LITERAL, line no: 73,waiterCount.incrementAndGet(),METHOD_INVOCATION, line no: 202, 0.88, 0.88, 0.0, 0.034482758620689655
+null,NULL_LITERAL, line no: 73,incrementAndGet,SIMPLE_NAME, line no: 202, 0.88, 0.88, 0.0, 0.06666666666666667
+null,NULL_LITERAL, line no: 73,timeoutMs,SIMPLE_NAME, line no: 204, 0.88, 0.88, 0.0, 0.1111111111111111
+null,NULL_LITERAL, line no: 73,toTimeoutMs(time unit),METHOD_INVOCATION, line no: 204, 0.88, 0.88, 0.0, 0.045454545454545456
+null,NULL_LITERAL, line no: 73,toTimeoutMs,SIMPLE_NAME, line no: 204, 0.88, 0.88, 0.0, 0.09090909090909091
+null,NULL_LITERAL, line no: 73,maxCallTimeoutMs,SIMPLE_NAME, line no: 205, 0.88, 0.88, 0.0, 0.125
+null,NULL_LITERAL, line no: 73,getMaxCallTimeout(),METHOD_INVOCATION, line no: 205, 0.88, 0.88, 0.0, 0.10526315789473684
+null,NULL_LITERAL, line no: 73,getMaxCallTimeout,SIMPLE_NAME, line no: 205, 0.88, 0.88, 0.0, 0.11764705882352941
+null,NULL_LITERAL, line no: 73,longPolling,SIMPLE_NAME, line no: 206, 0.88, 0.88, 0.0, 0.2727272727272727
+null,NULL_LITERAL, line no: 73,timeoutMs > maxCallTimeoutMs,INFIX_EXPRESSION, line no: 206, 0.88, 0.88, 0.0, 0.10714285714285714
+null,NULL_LITERAL, line no: 73,pollCount,SIMPLE_NAME, line no: 208, 0.88, 0.88, 0.0, 0.2222222222222222
+null,NULL_LITERAL, line no: 73,0,NUMBER_LITERAL, line no: 208, 0.88, 0.88, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,timeoutMs >= 0,INFIX_EXPRESSION, line no: 209, 0.88, 0.88, 0.0, 0.07142857142857142
+null,NULL_LITERAL, line no: 73,pollTimeoutMs,SIMPLE_NAME, line no: 210, 0.88, 0.88, 0.0, 0.15384615384615385
+null,NULL_LITERAL, line no: 73,min(maxCallTimeoutMs timeoutMs),METHOD_INVOCATION, line no: 210, 0.88, 0.88, 0.0, 0.0967741935483871
+null,NULL_LITERAL, line no: 73,startMs,SIMPLE_NAME, line no: 211, 0.88, 0.88, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,Clock.currentTimeMillis(),METHOD_INVOCATION, line no: 211, 0.88, 0.88, 0.0, 0.12
+null,NULL_LITERAL, line no: 73,currentTimeMillis,SIMPLE_NAME, line no: 211, 0.88, 0.88, 0.0, 0.17647058823529413
+null,NULL_LITERAL, line no: 73,lastPollTime,SIMPLE_NAME, line no: 212, 0.88, 0.88, 0.0, 0.16666666666666666
+null,NULL_LITERAL, line no: 73,pollCount++,POSTFIX_EXPRESSION, line no: 213, 0.88, 0.88, 0.0, 0.18181818181818182
+null,NULL_LITERAL, line no: 73,pollResponse(pollTimeoutMs),METHOD_INVOCATION, line no: 216, 0.88, 0.88, 0.0, 0.1111111111111111
+null,NULL_LITERAL, line no: 73,pollResponse,SIMPLE_NAME, line no: 216, 0.88, 0.88, 0.0, 0.16666666666666666
+null,NULL_LITERAL, line no: 73,lastPollTime=Clock.currentTimeMillis() - startMs,ASSIGNMENT, line no: 217, 0.88, 0.88, 0.0, 0.0625
+null,NULL_LITERAL, line no: 73,Clock.currentTimeMillis() - startMs,INFIX_EXPRESSION, line no: 217, 0.88, 0.88, 0.0, 0.08571428571428572
+null,NULL_LITERAL, line no: 73,timeoutMs=decrementTimeout(timeoutMs lastPollTime),ASSIGNMENT, line no: 218, 0.88, 0.88, 0.0, 0.08
+null,NULL_LITERAL, line no: 73,decrementTimeout(timeoutMs lastPollTime),METHOD_INVOCATION, line no: 218, 0.88, 0.88, 0.0, 0.1
+null,NULL_LITERAL, line no: 73,response == BasicInvocation.WAIT_RESPONSE,INFIX_EXPRESSION, line no: 220, 0.88, 0.88, 0.0, 0.024390243902439025
+null,NULL_LITERAL, line no: 73,BasicInvocation.INTERRUPTED_RESPONSE,QUALIFIED_NAME, line no: 226, 0.88, 0.6, 0.0, 0.027777777777777776
+null,NULL_LITERAL, line no: 73,INTERRUPTED_RESPONSE,SIMPLE_NAME, line no: 226, 0.88, 0.64, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,!interrupted && longPolling,INFIX_EXPRESSION, line no: 235, 0.88, 0.88, 0.0, 0.14814814814814814
+null,NULL_LITERAL, line no: 73,!interrupted,PREFIX_EXPRESSION, line no: 235, 0.88, 0.88, 0.0, 0.16666666666666666
+null,NULL_LITERAL, line no: 73,BasicInvocation.TIMEOUT_RESPONSE,QUALIFIED_NAME, line no: 252, 0.88, 0.88, 0.0, 0.03125
+null,NULL_LITERAL, line no: 73,TIMEOUT_RESPONSE,SIMPLE_NAME, line no: 252, 0.88, 0.88, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,pollTimeoutMs > 0 && response == null,INFIX_EXPRESSION, line no: 260, 0.88, 0.88, 0.0, 0.10810810810810811
+null,NULL_LITERAL, line no: 73,pollTimeoutMs > 0,INFIX_EXPRESSION, line no: 260, 0.88, 0.88, 0.0, 0.11764705882352941
+null,NULL_LITERAL, line no: 73,response == null,INFIX_EXPRESSION, line no: 260, 0.88, 0.88, 0.0, 0.25
+null,NULL_LITERAL, line no: 73,response instanceof Throwable,INSTANCEOF_EXPRESSION, line no: 322, 0.88, 0.72, 0.0, 0.06896551724137931
+null,NULL_LITERAL, line no: 73,unresolvedResponse == BasicInvocation.NULL_RESPONSE,INFIX_EXPRESSION, line no: 347, 0.88, 0.88, 0.0, 0.0392156862745098
+null,NULL_LITERAL, line no: 73,unresolvedResponse == BasicInvocation.TIMEOUT_RESPONSE,INFIX_EXPRESSION, line no: 351, 0.88, 0.88, 0.0, 0.037037037037037035
+null,NULL_LITERAL, line no: 73,unresolvedResponse == BasicInvocation.INTERRUPTED_RESPONSE,INFIX_EXPRESSION, line no: 355, 0.88, 0.88, 0.0, 0.034482758620689655
+null,NULL_LITERAL, line no: 73,invocation.resultDeserialized && response instanceof Data,INFIX_EXPRESSION, line no: 360, 0.88, 0.88, 0.0, 0.07017543859649122
+null,NULL_LITERAL, line no: 73,invocation.resultDeserialized,QUALIFIED_NAME, line no: 360, 0.88, 0.88, 0.0, 0.13793103448275862
+null,NULL_LITERAL, line no: 73,resultDeserialized,SIMPLE_NAME, line no: 360, 0.88, 0.88, 0.0, 0.16666666666666666
+null,NULL_LITERAL, line no: 73,response instanceof Data,INSTANCEOF_EXPRESSION, line no: 360, 0.88, 0.88, 0.0, 0.041666666666666664
+null,NULL_LITERAL, line no: 73,response instanceof NormalResponse,INSTANCEOF_EXPRESSION, line no: 367, 0.88, 0.88, 0.0, 0.058823529411764705
+response != null,INFIX_EXPRESSION, line no: 73,Data,SIMPLE_NAME, line no: 7, 0.875, 0.041666666666666664, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,Clock,SIMPLE_NAME, line no: 12, 0.875, 0.041666666666666664, 0.0, 0.0625
+response != null,INFIX_EXPRESSION, line no: 73,min,SIMPLE_NAME, line no: 26, 0.875, 0.041666666666666664, 0.0, 0.0625
+response != null,INFIX_EXPRESSION, line no: 73,Object,SIMPLE_NAME, line no: 39, 0.875, 0.041666666666666664, 0.0, 0.0625
+response != null,INFIX_EXPRESSION, line no: 73,waiterCount,SIMPLE_NAME, line no: 43, 0.875, 0.041666666666666664, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,BasicInvocation,SIMPLE_NAME, line no: 45, 0.875, 0.041666666666666664, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,callback != null,INFIX_EXPRESSION, line no: 53, 0.875, 0.875, 0.0, 0.5
+response != null,INFIX_EXPRESSION, line no: 73,decrementTimeout,SIMPLE_NAME, line no: 59, 0.875, 0.041666666666666664, 0.0, 0.3125
+response != null,INFIX_EXPRESSION, line no: 73,Throwable,SIMPLE_NAME, line no: 95, 0.875, 0.75, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,e,SIMPLE_NAME, line no: 106, 0.875, 0.75, 0.0, 0.0625
+response != null,INFIX_EXPRESSION, line no: 73,BasicInvocation.InternalResponse,QUALIFIED_NAME, line no: 122, 0.875, 0.875, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,InternalResponse,SIMPLE_NAME, line no: 122, 0.875, 0.875, 0.0, 0.5
+response != null,INFIX_EXPRESSION, line no: 73,"Future response is already set! Current response: " + response + "  Offered response: "+ offeredResponse+ "  Invocation: "+ invocation,INFIX_EXPRESSION, line no: 129, 0.875, 0.5416666666666666, 0.3333333333333333, 0.08888888888888889
+response != null,INFIX_EXPRESSION, line no: 73,offeredResponse == BasicInvocation.WAIT_RESPONSE,INFIX_EXPRESSION, line no: 136, 0.875, 0.875, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,BasicInvocation.WAIT_RESPONSE,QUALIFIED_NAME, line no: 136, 0.875, 0.875, 0.0, 0.10344827586206896
+response != null,INFIX_EXPRESSION, line no: 73,WAIT_RESPONSE,SIMPLE_NAME, line no: 136, 0.875, 0.875, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,callbackChain=callbackHead,ASSIGNMENT, line no: 139, 0.875, 0.875, 0.0, 0.15384615384615385
+response != null,INFIX_EXPRESSION, line no: 73,callbackHead=null,ASSIGNMENT, line no: 140, 0.875, 0.875, 0.0, 0.35294117647058826
+response != null,INFIX_EXPRESSION, line no: 73,notifyAll(),METHOD_INVOCATION, line no: 141, 0.875, 0.875, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,notifyAll,SIMPLE_NAME, line no: 141, 0.875, 0.875, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,rawResponse,SIMPLE_NAME, line no: 155, 0.875, 0.041666666666666664, 0.0, 0.5
+response != null,INFIX_EXPRESSION, line no: 73,rawResponse == null,INFIX_EXPRESSION, line no: 156, 0.875, 0.875, 0.0, 0.7894736842105263
+response != null,INFIX_EXPRESSION, line no: 73,rawResponse instanceof NormalResponse,INSTANCEOF_EXPRESSION, line no: 160, 0.875, 0.875, 0.0, 0.2972972972972973
+response != null,INFIX_EXPRESSION, line no: 73,NormalResponse,SIMPLE_NAME, line no: 160, 0.875, 0.875, 0.0, 0.5
+response != null,INFIX_EXPRESSION, line no: 73,BasicInvocation.NULL_RESPONSE,QUALIFIED_NAME, line no: 165, 0.875, 0.2916666666666667, 0.0, 0.10344827586206896
+response != null,INFIX_EXPRESSION, line no: 73,NULL_RESPONSE,SIMPLE_NAME, line no: 165, 0.875, 0.3333333333333333, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,InterruptedException,SIMPLE_NAME, line no: 171, 0.875, 0.041666666666666664, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,unit,SIMPLE_NAME, line no: 192, 0.875, 0.041666666666666664, 0.0, 0.0625
+response != null,INFIX_EXPRESSION, line no: 73,unresolvedResponse,SIMPLE_NAME, line no: 193, 0.875, 0.4583333333333333, 0.0, 0.4444444444444444
+response != null,INFIX_EXPRESSION, line no: 73,time,SIMPLE_NAME, line no: 197, 0.875, 0.041666666666666664, 0.0, 0.0625
+response != null,INFIX_EXPRESSION, line no: 73,waiterCount.incrementAndGet(),METHOD_INVOCATION, line no: 202, 0.875, 0.875, 0.0, 0.1724137931034483
+response != null,INFIX_EXPRESSION, line no: 73,incrementAndGet,SIMPLE_NAME, line no: 202, 0.875, 0.875, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,timeoutMs,SIMPLE_NAME, line no: 204, 0.875, 0.875, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,toTimeoutMs(time unit),METHOD_INVOCATION, line no: 204, 0.875, 0.875, 0.0, 0.22727272727272727
+response != null,INFIX_EXPRESSION, line no: 73,toTimeoutMs,SIMPLE_NAME, line no: 204, 0.875, 0.875, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,maxCallTimeoutMs,SIMPLE_NAME, line no: 205, 0.875, 0.875, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,getMaxCallTimeout(),METHOD_INVOCATION, line no: 205, 0.875, 0.875, 0.0, 0.15789473684210525
+response != null,INFIX_EXPRESSION, line no: 73,getMaxCallTimeout,SIMPLE_NAME, line no: 205, 0.875, 0.875, 0.0, 0.17647058823529413
+response != null,INFIX_EXPRESSION, line no: 73,timeoutMs > maxCallTimeoutMs,INFIX_EXPRESSION, line no: 206, 0.875, 0.875, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,pollCount,SIMPLE_NAME, line no: 208, 0.875, 0.875, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,0,NUMBER_LITERAL, line no: 208, 0.875, 0.875, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,timeoutMs >= 0,INFIX_EXPRESSION, line no: 209, 0.875, 0.875, 0.0, 0.375
+response != null,INFIX_EXPRESSION, line no: 73,pollTimeoutMs,SIMPLE_NAME, line no: 210, 0.875, 0.875, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,min(maxCallTimeoutMs timeoutMs),METHOD_INVOCATION, line no: 210, 0.875, 0.875, 0.0, 0.16129032258064516
+response != null,INFIX_EXPRESSION, line no: 73,startMs,SIMPLE_NAME, line no: 211, 0.875, 0.875, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,Clock.currentTimeMillis(),METHOD_INVOCATION, line no: 211, 0.875, 0.875, 0.0, 0.24
+response != null,INFIX_EXPRESSION, line no: 73,currentTimeMillis,SIMPLE_NAME, line no: 211, 0.875, 0.875, 0.0, 0.35294117647058826
+response != null,INFIX_EXPRESSION, line no: 73,lastPollTime,SIMPLE_NAME, line no: 212, 0.875, 0.875, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,pollCount++,POSTFIX_EXPRESSION, line no: 213, 0.875, 0.875, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,pollResponse(pollTimeoutMs),METHOD_INVOCATION, line no: 216, 0.875, 0.875, 0.0, 0.3333333333333333
+response != null,INFIX_EXPRESSION, line no: 73,pollResponse,SIMPLE_NAME, line no: 216, 0.875, 0.875, 0.0, 0.4375
+response != null,INFIX_EXPRESSION, line no: 73,lastPollTime=Clock.currentTimeMillis() - startMs,ASSIGNMENT, line no: 217, 0.875, 0.875, 0.0, 0.14583333333333334
+response != null,INFIX_EXPRESSION, line no: 73,Clock.currentTimeMillis() - startMs,INFIX_EXPRESSION, line no: 217, 0.875, 0.875, 0.0, 0.17142857142857143
+response != null,INFIX_EXPRESSION, line no: 73,timeoutMs=decrementTimeout(timeoutMs lastPollTime),ASSIGNMENT, line no: 218, 0.875, 0.875, 0.0, 0.16
+response != null,INFIX_EXPRESSION, line no: 73,decrementTimeout(timeoutMs lastPollTime),METHOD_INVOCATION, line no: 218, 0.875, 0.875, 0.0, 0.175
+response != null,INFIX_EXPRESSION, line no: 73,BasicInvocation.INTERRUPTED_RESPONSE,QUALIFIED_NAME, line no: 226, 0.875, 0.625, 0.0, 0.08333333333333333
+response != null,INFIX_EXPRESSION, line no: 73,INTERRUPTED_RESPONSE,SIMPLE_NAME, line no: 226, 0.875, 0.6666666666666666, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,!interrupted && longPolling,INFIX_EXPRESSION, line no: 235, 0.875, 0.875, 0.0, 0.2962962962962963
+response != null,INFIX_EXPRESSION, line no: 73,!interrupted,PREFIX_EXPRESSION, line no: 235, 0.875, 0.875, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,BasicInvocation.TIMEOUT_RESPONSE,QUALIFIED_NAME, line no: 252, 0.875, 0.875, 0.0, 0.09375
+response != null,INFIX_EXPRESSION, line no: 73,TIMEOUT_RESPONSE,SIMPLE_NAME, line no: 252, 0.875, 0.875, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,pollTimeoutMs > 0,INFIX_EXPRESSION, line no: 260, 0.875, 0.875, 0.0, 0.29411764705882354
+response != null,INFIX_EXPRESSION, line no: 73,unresolvedResponse == BasicInvocation.NULL_RESPONSE,INFIX_EXPRESSION, line no: 347, 0.875, 0.875, 0.0, 0.23529411764705882
+response != null,INFIX_EXPRESSION, line no: 73,unresolvedResponse == BasicInvocation.TIMEOUT_RESPONSE,INFIX_EXPRESSION, line no: 351, 0.875, 0.875, 0.0, 0.2222222222222222
+response != null,INFIX_EXPRESSION, line no: 73,unresolvedResponse == BasicInvocation.INTERRUPTED_RESPONSE,INFIX_EXPRESSION, line no: 355, 0.875, 0.875, 0.0, 0.20689655172413793
+response != null,INFIX_EXPRESSION, line no: 73,invocation.resultDeserialized,QUALIFIED_NAME, line no: 360, 0.875, 0.875, 0.0, 0.20689655172413793
+response,SIMPLE_NAME, line no: 73,currentTimeoutMs,SIMPLE_NAME, line no: 261, 0.84, 0.84, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,waitStart,SIMPLE_NAME, line no: 262, 0.84, 0.84, 0.0, 0.1111111111111111
+response,SIMPLE_NAME, line no: 73,responseObj,SIMPLE_NAME, line no: 368, 0.84, 0.84, 0.0, 0.7272727272727273
+response,SIMPLE_NAME, line no: 73,(NormalResponse)response,CAST_EXPRESSION, line no: 368, 0.84, 0.84, 0.0, 0.3333333333333333
+null,NULL_LITERAL, line no: 73,getValue,SIMPLE_NAME, line no: 161, 0.84, 0.4, 0.0, 0.125
+null,NULL_LITERAL, line no: 73,responseObj,SIMPLE_NAME, line no: 368, 0.84, 0.84, 0.0, 0.09090909090909091
+null,NULL_LITERAL, line no: 73,(NormalResponse)response,CAST_EXPRESSION, line no: 368, 0.84, 0.84, 0.0, 0.041666666666666664
+null,NULL_LITERAL, line no: 73,response=responseObj.getValue(),ASSIGNMENT, line no: 369, 0.84, 0.84, 0.0, 0.06451612903225806
+null,NULL_LITERAL, line no: 73,responseObj.getValue(),METHOD_INVOCATION, line no: 369, 0.84, 0.84, 0.0, 0.09090909090909091
+response != null,INFIX_EXPRESSION, line no: 73,getValue,SIMPLE_NAME, line no: 161, 0.8333333333333334, 0.4166666666666667, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,currentTimeoutMs,SIMPLE_NAME, line no: 261, 0.8333333333333334, 0.8333333333333334, 0.0, 0.3125
+response != null,INFIX_EXPRESSION, line no: 73,waitStart,SIMPLE_NAME, line no: 262, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0625
+response != null,INFIX_EXPRESSION, line no: 73,responseObj,SIMPLE_NAME, line no: 368, 0.8333333333333334, 0.8333333333333334, 0.0, 0.5
+response != null,INFIX_EXPRESSION, line no: 73,responseObj.getValue(),METHOD_INVOCATION, line no: 369, 0.8333333333333334, 0.8333333333333334, 0.0, 0.4090909090909091
+response,SIMPLE_NAME, line no: 73,this.invocation=invocation,ASSIGNMENT, line no: 50, 0.8, 0.8, 0.0, 0.11538461538461539
+response,SIMPLE_NAME, line no: 73,this.invocation,FIELD_ACCESS, line no: 50, 0.8, 0.8, 0.0, 0.2
+response,SIMPLE_NAME, line no: 73,this.operationService=operationService,ASSIGNMENT, line no: 51, 0.8, 0.8, 0.0, 0.15789473684210525
+response,SIMPLE_NAME, line no: 73,this.operationService,FIELD_ACCESS, line no: 51, 0.8, 0.8, 0.0, 0.23809523809523808
+response,SIMPLE_NAME, line no: 73,invocation.logger,QUALIFIED_NAME, line no: 101, 0.8, 0.4, 0.0, 0.17647058823529413
+response,SIMPLE_NAME, line no: 73,logger,SIMPLE_NAME, line no: 101, 0.8, 0.44, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,warning,SIMPLE_NAME, line no: 107, 0.8, 0.4, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,toString(),METHOD_INVOCATION, line no: 243, 0.8, 0.72, 0.0, 0.2
+response,SIMPLE_NAME, line no: 73,toString,SIMPLE_NAME, line no: 243, 0.8, 0.72, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,executing,SIMPLE_NAME, line no: 244, 0.8, 0.72, 0.0, 0.2222222222222222
+response,SIMPLE_NAME, line no: 73,Boolean,SIMPLE_NAME, line no: 412, 0.8, 0.8, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,Boolean.FALSE,QUALIFIED_NAME, line no: 412, 0.8, 0.8, 0.0, 0.15384615384615385
+response,SIMPLE_NAME, line no: 73,FALSE,SIMPLE_NAME, line no: 412, 0.8, 0.8, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,Exception,SIMPLE_NAME, line no: 422, 0.8, 0.8, 0.0, 0.4444444444444444
+response,SIMPLE_NAME, line no: 73,invocation.logger.warning("'is-executing': " + executing + " -> "+ toString()),METHOD_INVOCATION, line no: 425, 0.8, 0.8, 0.0, 0.05128205128205128
+response,SIMPLE_NAME, line no: 73,"'is-executing': " + executing + " -> "+ toString(),INFIX_EXPRESSION, line no: 425, 0.8, 0.8, 0.0, 0.058823529411764705
+response,SIMPLE_NAME, line no: 73,"'is-executing': ",STRING_LITERAL, line no: 425, 0.8, 0.8, 0.0, 0.1111111111111111
+response,SIMPLE_NAME, line no: 73," -> ",STRING_LITERAL, line no: 425, 0.8, 0.8, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,this.invocation=invocation,ASSIGNMENT, line no: 50, 0.8, 0.8, 0.0, 0.038461538461538464
+null,NULL_LITERAL, line no: 73,this.invocation,FIELD_ACCESS, line no: 50, 0.8, 0.8, 0.0, 0.06666666666666667
+null,NULL_LITERAL, line no: 73,this.operationService=operationService,ASSIGNMENT, line no: 51, 0.8, 0.8, 0.0, 0.02631578947368421
+null,NULL_LITERAL, line no: 73,this.operationService,FIELD_ACCESS, line no: 51, 0.8, 0.8, 0.0, 0.047619047619047616
+null,NULL_LITERAL, line no: 73,invocation.logger,QUALIFIED_NAME, line no: 101, 0.8, 0.4, 0.0, 0.11764705882352941
+null,NULL_LITERAL, line no: 73,logger,SIMPLE_NAME, line no: 101, 0.8, 0.44, 0.0, 0.16666666666666666
+null,NULL_LITERAL, line no: 73,warning,SIMPLE_NAME, line no: 107, 0.8, 0.4, 0.0, 0.14285714285714285
+null,NULL_LITERAL, line no: 73,toString(),METHOD_INVOCATION, line no: 243, 0.8, 0.68, 0.0, 0.1
+null,NULL_LITERAL, line no: 73,toString,SIMPLE_NAME, line no: 243, 0.8, 0.68, 0.0, 0.125
+null,NULL_LITERAL, line no: 73,executing,SIMPLE_NAME, line no: 244, 0.8, 0.68, 0.0, 0.1111111111111111
+null,NULL_LITERAL, line no: 73,currentTimeoutMs,SIMPLE_NAME, line no: 261, 0.8, 0.8, 0.0, 0.125
+null,NULL_LITERAL, line no: 73,waitStart,SIMPLE_NAME, line no: 262, 0.8, 0.8, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,Boolean,SIMPLE_NAME, line no: 412, 0.8, 0.8, 0.0, 0.14285714285714285
+null,NULL_LITERAL, line no: 73,Boolean.FALSE,QUALIFIED_NAME, line no: 412, 0.8, 0.8, 0.0, 0.07692307692307693
+null,NULL_LITERAL, line no: 73,FALSE,SIMPLE_NAME, line no: 412, 0.8, 0.8, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,Exception,SIMPLE_NAME, line no: 422, 0.8, 0.8, 0.0, 0.1111111111111111
+null,NULL_LITERAL, line no: 73,invocation.logger.warning("'is-executing': " + executing + " -> "+ toString()),METHOD_INVOCATION, line no: 425, 0.8, 0.8, 0.0, 0.02564102564102564
+null,NULL_LITERAL, line no: 73,"'is-executing': " + executing + " -> "+ toString(),INFIX_EXPRESSION, line no: 425, 0.8, 0.8, 0.0, 0.0392156862745098
+null,NULL_LITERAL, line no: 73,"'is-executing': ",STRING_LITERAL, line no: 425, 0.8, 0.8, 0.0, 0.05555555555555555
+null,NULL_LITERAL, line no: 73," -> ",STRING_LITERAL, line no: 425, 0.8, 0.8, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,this.invocation=invocation,ASSIGNMENT, line no: 50, 0.7916666666666666, 0.7916666666666666, 0.0, 0.19230769230769232
+response != null,INFIX_EXPRESSION, line no: 73,this.invocation,FIELD_ACCESS, line no: 50, 0.7916666666666666, 0.7916666666666666, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,this.operationService=operationService,ASSIGNMENT, line no: 51, 0.7916666666666666, 0.7916666666666666, 0.0, 0.18421052631578946
+response != null,INFIX_EXPRESSION, line no: 73,this.operationService,FIELD_ACCESS, line no: 51, 0.7916666666666666, 0.7916666666666666, 0.0, 0.23809523809523808
+response != null,INFIX_EXPRESSION, line no: 73,invocation.logger,QUALIFIED_NAME, line no: 101, 0.7916666666666666, 0.4166666666666667, 0.0, 0.17647058823529413
+response != null,INFIX_EXPRESSION, line no: 73,logger,SIMPLE_NAME, line no: 101, 0.7916666666666666, 0.4583333333333333, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,warning,SIMPLE_NAME, line no: 107, 0.7916666666666666, 0.4166666666666667, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,toString(),METHOD_INVOCATION, line no: 243, 0.7916666666666666, 0.7083333333333334, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,toString,SIMPLE_NAME, line no: 243, 0.7916666666666666, 0.7083333333333334, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,Boolean,SIMPLE_NAME, line no: 412, 0.7916666666666666, 0.7916666666666666, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,Boolean.FALSE,QUALIFIED_NAME, line no: 412, 0.7916666666666666, 0.7916666666666666, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,FALSE,SIMPLE_NAME, line no: 412, 0.7916666666666666, 0.7916666666666666, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,Exception,SIMPLE_NAME, line no: 422, 0.7916666666666666, 0.7916666666666666, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,invocation.logger.warning("'is-executing': " + executing + " -> "+ toString()),METHOD_INVOCATION, line no: 425, 0.7916666666666666, 0.7916666666666666, 0.0, 0.08974358974358974
+response != null,INFIX_EXPRESSION, line no: 73,"'is-executing': " + executing + " -> "+ toString(),INFIX_EXPRESSION, line no: 425, 0.7916666666666666, 0.7916666666666666, 0.0, 0.11764705882352941
+response != null,INFIX_EXPRESSION, line no: 73,"'is-executing': ",STRING_LITERAL, line no: 425, 0.7916666666666666, 0.7916666666666666, 0.0, 0.16666666666666666
+response != null,INFIX_EXPRESSION, line no: 73," -> ",STRING_LITERAL, line no: 425, 0.7916666666666666, 0.7916666666666666, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,ExecutionException,SIMPLE_NAME, line no: 15, 0.76, 0.04, 0.0, 0.2222222222222222
+response,SIMPLE_NAME, line no: 73,RejectedExecutionException,SIMPLE_NAME, line no: 18, 0.76, 0.04, 0.0, 0.15384615384615385
+response,SIMPLE_NAME, line no: 73,TimeoutException,SIMPLE_NAME, line no: 20, 0.76, 0.04, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,Override,SIMPLE_NAME, line no: 67, 0.76, 0.04, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,executor.execute(new Runnable(){   @Override public void run(){     try {       Object resp=resolveApplicationResponse(response);       if (resp == null || !(resp instanceof Throwable)) {         callback.onResponse((E)resp);       }  else {         callback.onFailure((Throwable)resp);       }     }  catch (    Throwable cause) {       invocation.logger.severe("Failed asynchronous execution of execution callback: " + callback + "for call "+ invocation cause);     }   } } ),METHOD_INVOCATION, line no: 89, 0.76, 0.76, 0.0, 0.016771488469601678
+response,SIMPLE_NAME, line no: 73,execute,SIMPLE_NAME, line no: 89, 0.76, 0.76, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,new Runnable(){   @Override public void run(){     try {       Object resp=resolveApplicationResponse(response);       if (resp == null || !(resp instanceof Throwable)) {         callback.onResponse((E)resp);       }  else {         callback.onFailure((Throwable)resp);       }     }  catch (    Throwable cause) {       invocation.logger.severe("Failed asynchronous execution of execution callback: " + callback + "for call "+ invocation cause);     }   } } ,CLASS_INSTANCE_CREATION, line no: 89, 0.76, 0.76, 0.0, 0.017429193899782137
+response,SIMPLE_NAME, line no: 73,Runnable,SIMPLE_NAME, line no: 89, 0.76, 0.76, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,@Override,MARKER_ANNOTATION, line no: 90, 0.76, 0.76, 0.0, 0.2222222222222222
+response,SIMPLE_NAME, line no: 73,run,SIMPLE_NAME, line no: 91, 0.76, 0.76, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,resp == null || !(resp instanceof Throwable),INFIX_EXPRESSION, line no: 95, 0.76, 0.76, 0.0, 0.1590909090909091
+response,SIMPLE_NAME, line no: 73,resp == null,INFIX_EXPRESSION, line no: 95, 0.76, 0.76, 0.0, 0.4166666666666667
+response,SIMPLE_NAME, line no: 73,!(resp instanceof Throwable),PREFIX_EXPRESSION, line no: 95, 0.76, 0.76, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,(resp instanceof Throwable),PARENTHESIZED_EXPRESSION, line no: 95, 0.76, 0.76, 0.0, 0.25925925925925924
+response,SIMPLE_NAME, line no: 73,resp instanceof Throwable,INSTANCEOF_EXPRESSION, line no: 95, 0.76, 0.76, 0.0, 0.28
+response,SIMPLE_NAME, line no: 73,hasResponse,SIMPLE_NAME, line no: 298, 0.76, 0.72, 0.0, 0.6363636363636364
+response,SIMPLE_NAME, line no: 73,response == null || !(response instanceof Throwable),INFIX_EXPRESSION, line no: 322, 0.76, 0.76, 0.0, 0.15384615384615385
+response,SIMPLE_NAME, line no: 73,!(response instanceof Throwable),PREFIX_EXPRESSION, line no: 322, 0.76, 0.76, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,(response instanceof Throwable),PARENTHESIZED_EXPRESSION, line no: 322, 0.76, 0.76, 0.0, 0.25806451612903225
+response,SIMPLE_NAME, line no: 73,response instanceof ExecutionException,INSTANCEOF_EXPRESSION, line no: 326, 0.76, 0.76, 0.0, 0.21052631578947367
+response,SIMPLE_NAME, line no: 73,response instanceof TimeoutException,INSTANCEOF_EXPRESSION, line no: 330, 0.76, 0.76, 0.0, 0.2222222222222222
+response,SIMPLE_NAME, line no: 73,response instanceof InterruptedException,INSTANCEOF_EXPRESSION, line no: 334, 0.76, 0.76, 0.0, 0.2
+response,SIMPLE_NAME, line no: 73,response instanceof Error,INSTANCEOF_EXPRESSION, line no: 338, 0.76, 0.76, 0.0, 0.32
+response,SIMPLE_NAME, line no: 73,Error,SIMPLE_NAME, line no: 338, 0.76, 0.76, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,new ExecutionException((Throwable)response),CLASS_INSTANCE_CREATION, line no: 343, 0.76, 0.76, 0.0, 0.18604651162790697
+response,SIMPLE_NAME, line no: 73,(Throwable)response,CAST_EXPRESSION, line no: 343, 0.76, 0.76, 0.0, 0.42105263157894735
+response,SIMPLE_NAME, line no: 73,"Asking if operation execution has been started: " + toString(),INFIX_EXPRESSION, line no: 420, 0.76, 0.76, 0.0, 0.09523809523809523
+response,SIMPLE_NAME, line no: 73,"Asking if operation execution has been started: ",STRING_LITERAL, line no: 420, 0.76, 0.76, 0.0, 0.12
+null,NULL_LITERAL, line no: 73,"Asking if operation execution has been started: " + toString(),INFIX_EXPRESSION, line no: 420, 0.76, 0.76, 0.0, 0.031746031746031744
+null,NULL_LITERAL, line no: 73,"Asking if operation execution has been started: ",STRING_LITERAL, line no: 420, 0.76, 0.76, 0.0, 0.04
+response != null,INFIX_EXPRESSION, line no: 73,ExecutionException,SIMPLE_NAME, line no: 15, 0.75, 0.041666666666666664, 0.0, 0.2777777777777778
+response != null,INFIX_EXPRESSION, line no: 73,RejectedExecutionException,SIMPLE_NAME, line no: 18, 0.75, 0.041666666666666664, 0.0, 0.19230769230769232
+response != null,INFIX_EXPRESSION, line no: 73,TimeoutException,SIMPLE_NAME, line no: 20, 0.75, 0.041666666666666664, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,Override,SIMPLE_NAME, line no: 67, 0.75, 0.041666666666666664, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,execute,SIMPLE_NAME, line no: 89, 0.75, 0.75, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,Runnable,SIMPLE_NAME, line no: 89, 0.75, 0.75, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,@Override,MARKER_ANNOTATION, line no: 90, 0.75, 0.75, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,run,SIMPLE_NAME, line no: 91, 0.75, 0.75, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,resp,SIMPLE_NAME, line no: 93, 0.75, 0.7083333333333334, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,resolveApplicationResponse,SIMPLE_NAME, line no: 93, 0.75, 0.7083333333333334, 0.0, 0.3076923076923077
+response != null,INFIX_EXPRESSION, line no: 73,resp == null || !(resp instanceof Throwable),INFIX_EXPRESSION, line no: 95, 0.75, 0.75, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,resp == null,INFIX_EXPRESSION, line no: 95, 0.75, 0.75, 0.0, 0.6875
+response != null,INFIX_EXPRESSION, line no: 73,!(resp instanceof Throwable),PREFIX_EXPRESSION, line no: 95, 0.75, 0.75, 0.0, 0.32142857142857145
+response != null,INFIX_EXPRESSION, line no: 73,(resp instanceof Throwable),PARENTHESIZED_EXPRESSION, line no: 95, 0.75, 0.75, 0.0, 0.3333333333333333
+response != null,INFIX_EXPRESSION, line no: 73,resp instanceof Throwable,INSTANCEOF_EXPRESSION, line no: 95, 0.75, 0.75, 0.0, 0.36
+response != null,INFIX_EXPRESSION, line no: 73,logger.info("Future response is already set! Current response: " + response + "  Offered response: "+ offeredResponse+ "  Invocation: "+ invocation),METHOD_INVOCATION, line no: 129, 0.75, 0.5, 0.25, 0.08108108108108109
+response != null,INFIX_EXPRESSION, line no: 73,currentTimeoutMs > 0,INFIX_EXPRESSION, line no: 264, 0.75, 0.75, 0.0, 0.3
+response != null,INFIX_EXPRESSION, line no: 73,resolveApplicationResponse(unresolvedResponse),METHOD_INVOCATION, line no: 320, 0.75, 0.75, 0.0, 0.21739130434782608
+response != null,INFIX_EXPRESSION, line no: 73,Error,SIMPLE_NAME, line no: 338, 0.75, 0.75, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,"Asking if operation execution has been started: " + toString(),INFIX_EXPRESSION, line no: 420, 0.75, 0.75, 0.0, 0.14285714285714285
+response != null,INFIX_EXPRESSION, line no: 73,"Asking if operation execution has been started: ",STRING_LITERAL, line no: 420, 0.75, 0.75, 0.0, 0.16
+response,SIMPLE_NAME, line no: 73,ILogger,SIMPLE_NAME, line no: 5, 0.72, 0.04, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,Address,SIMPLE_NAME, line no: 6, 0.72, 0.04, 0.0, 0.5
+response,SIMPLE_NAME, line no: 73,Operation,SIMPLE_NAME, line no: 10, 0.72, 0.04, 0.0, 0.3333333333333333
+response,SIMPLE_NAME, line no: 73,Future,SIMPLE_NAME, line no: 17, 0.72, 0.04, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,TimeUnit,SIMPLE_NAME, line no: 19, 0.72, 0.04, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,IS_EXECUTING_CALL_TIMEOUT,SIMPLE_NAME, line no: 37, 0.72, 0.04, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,cause,SIMPLE_NAME, line no: 100, 0.72, 0.72, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,logger.isFinestEnabled(),METHOD_INVOCATION, line no: 128, 0.72, 0.72, 0.0, 0.20833333333333334
+response,SIMPLE_NAME, line no: 73,isFinestEnabled,SIMPLE_NAME, line no: 128, 0.72, 0.72, 0.0, 0.26666666666666666
+response,SIMPLE_NAME, line no: 73,TimeUnit.MILLISECONDS,QUALIFIED_NAME, line no: 173, 0.72, 0.28, 0.0, 0.09523809523809523
+response,SIMPLE_NAME, line no: 73,MILLISECONDS,SIMPLE_NAME, line no: 173, 0.72, 0.32, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,true,BOOLEAN_LITERAL, line no: 232, 0.72, 0.16, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,target,SIMPLE_NAME, line no: 237, 0.72, 0.72, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,invocation.getTarget(),METHOD_INVOCATION, line no: 237, 0.72, 0.72, 0.0, 0.13636363636363635
+response,SIMPLE_NAME, line no: 73,getTarget,SIMPLE_NAME, line no: 237, 0.72, 0.72, 0.0, 0.2222222222222222
+response,SIMPLE_NAME, line no: 73,invocation.remote && invocation.nodeEngine.getThisAddress().equals(target),INFIX_EXPRESSION, line no: 238, 0.72, 0.72, 0.0, 0.08108108108108109
+response,SIMPLE_NAME, line no: 73,invocation.remote,QUALIFIED_NAME, line no: 238, 0.72, 0.72, 0.0, 0.23529411764705882
+response,SIMPLE_NAME, line no: 73,remote,SIMPLE_NAME, line no: 238, 0.72, 0.72, 0.0, 0.5
+response,SIMPLE_NAME, line no: 73,invocation.nodeEngine.getThisAddress().equals(target),METHOD_INVOCATION, line no: 238, 0.72, 0.72, 0.0, 0.09433962264150944
+response,SIMPLE_NAME, line no: 73,invocation.nodeEngine.getThisAddress(),METHOD_INVOCATION, line no: 238, 0.72, 0.72, 0.0, 0.10526315789473684
+response,SIMPLE_NAME, line no: 73,invocation.nodeEngine,QUALIFIED_NAME, line no: 238, 0.72, 0.72, 0.0, 0.14285714285714285
+response,SIMPLE_NAME, line no: 73,nodeEngine,SIMPLE_NAME, line no: 238, 0.72, 0.72, 0.0, 0.3
+response,SIMPLE_NAME, line no: 73,getThisAddress,SIMPLE_NAME, line no: 238, 0.72, 0.72, 0.0, 0.2857142857142857
+response,SIMPLE_NAME, line no: 73,equals,SIMPLE_NAME, line no: 238, 0.72, 0.72, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,invocation.logger.warning("No response for " + lastPollTime + " ms. "+ toString()),METHOD_INVOCATION, line no: 243, 0.72, 0.72, 0.0, 0.0975609756097561
+response,SIMPLE_NAME, line no: 73,"No response for " + lastPollTime + " ms. "+ toString(),INFIX_EXPRESSION, line no: 243, 0.72, 0.72, 0.0, 0.14545454545454545
+response,SIMPLE_NAME, line no: 73,"No response for ",STRING_LITERAL, line no: 243, 0.72, 0.72, 0.0, 0.4444444444444444
+response,SIMPLE_NAME, line no: 73," ms. ",STRING_LITERAL, line no: 243, 0.72, 0.72, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,isOperationExecuting(target),METHOD_INVOCATION, line no: 244, 0.72, 0.72, 0.0, 0.17857142857142858
+response,SIMPLE_NAME, line no: 73,isOperationExecuting,SIMPLE_NAME, line no: 244, 0.72, 0.72, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,!executing,PREFIX_EXPRESSION, line no: 245, 0.72, 0.72, 0.0, 0.2
+response,SIMPLE_NAME, line no: 73,currentTimeoutMs > 0 && response == null,INFIX_EXPRESSION, line no: 264, 0.72, 0.72, 0.0, 0.2
+response,SIMPLE_NAME, line no: 73,currentTimeoutMs > 0,INFIX_EXPRESSION, line no: 264, 0.72, 0.72, 0.0, 0.2
+response,SIMPLE_NAME, line no: 73,invocation.pendingResponse != null,INFIX_EXPRESSION, line no: 298, 0.72, 0.72, 0.0, 0.20588235294117646
+response,SIMPLE_NAME, line no: 73,invocation.pendingResponse,QUALIFIED_NAME, line no: 298, 0.72, 0.72, 0.0, 0.2692307692307692
+response,SIMPLE_NAME, line no: 73,pendingResponse,SIMPLE_NAME, line no: 298, 0.72, 0.72, 0.0, 0.4666666666666667
+response,SIMPLE_NAME, line no: 73,backupsExpected,SIMPLE_NAME, line no: 299, 0.72, 0.72, 0.0, 0.2
+response,SIMPLE_NAME, line no: 73,invocation.backupsExpected,QUALIFIED_NAME, line no: 299, 0.72, 0.72, 0.0, 0.15384615384615385
+response,SIMPLE_NAME, line no: 73,backupsCompleted,SIMPLE_NAME, line no: 300, 0.72, 0.72, 0.0, 0.1875
+response,SIMPLE_NAME, line no: 73,invocation.backupsCompleted,QUALIFIED_NAME, line no: 300, 0.72, 0.72, 0.0, 0.14814814814814814
+response,SIMPLE_NAME, line no: 73,isStillExecuting,SIMPLE_NAME, line no: 414, 0.72, 0.72, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,createCheckOperation(),METHOD_INVOCATION, line no: 414, 0.72, 0.72, 0.0, 0.22727272727272727
+response,SIMPLE_NAME, line no: 73,createCheckOperation,SIMPLE_NAME, line no: 414, 0.72, 0.72, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,inv,SIMPLE_NAME, line no: 416, 0.72, 0.72, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,new BasicTargetInvocation(invocation.nodeEngine invocation.serviceName isStillExecuting target 0 0 IS_EXECUTING_CALL_TIMEOUT null null true),CLASS_INSTANCE_CREATION, line no: 416, 0.72, 0.72, 0.0, 0.04285714285714286
+response,SIMPLE_NAME, line no: 73,BasicTargetInvocation,SIMPLE_NAME, line no: 416, 0.72, 0.72, 0.0, 0.19047619047619047
+response,SIMPLE_NAME, line no: 73,invocation.serviceName,QUALIFIED_NAME, line no: 417, 0.72, 0.72, 0.0, 0.18181818181818182
+response,SIMPLE_NAME, line no: 73,serviceName,SIMPLE_NAME, line no: 417, 0.72, 0.72, 0.0, 0.2727272727272727
+response,SIMPLE_NAME, line no: 73,f,SIMPLE_NAME, line no: 419, 0.72, 0.72, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,inv.invoke(),METHOD_INVOCATION, line no: 419, 0.72, 0.72, 0.0, 0.16666666666666666
+response,SIMPLE_NAME, line no: 73,invoke,SIMPLE_NAME, line no: 419, 0.72, 0.72, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,invocation.logger.warning("Asking if operation execution has been started: " + toString()),METHOD_INVOCATION, line no: 420, 0.72, 0.72, 0.0, 0.07777777777777778
+response,SIMPLE_NAME, line no: 73,executing=(Boolean)invocation.nodeEngine.toObject(f.get(IS_EXECUTING_CALL_TIMEOUT TimeUnit.MILLISECONDS)),ASSIGNMENT, line no: 421, 0.72, 0.72, 0.0, 0.0380952380952381
+response,SIMPLE_NAME, line no: 73,(Boolean)invocation.nodeEngine.toObject(f.get(IS_EXECUTING_CALL_TIMEOUT TimeUnit.MILLISECONDS)),CAST_EXPRESSION, line no: 421, 0.72, 0.72, 0.0, 0.042105263157894736
+null,NULL_LITERAL, line no: 73,Operation,SIMPLE_NAME, line no: 10, 0.72, 0.04, 0.0, 0.1111111111111111
+null,NULL_LITERAL, line no: 73,ExecutionException,SIMPLE_NAME, line no: 15, 0.72, 0.04, 0.0, 0.05555555555555555
+null,NULL_LITERAL, line no: 73,Future,SIMPLE_NAME, line no: 17, 0.72, 0.04, 0.0, 0.16666666666666666
+null,NULL_LITERAL, line no: 73,RejectedExecutionException,SIMPLE_NAME, line no: 18, 0.72, 0.04, 0.0, 0.038461538461538464
+null,NULL_LITERAL, line no: 73,TimeUnit,SIMPLE_NAME, line no: 19, 0.72, 0.04, 0.0, 0.125
+null,NULL_LITERAL, line no: 73,TimeoutException,SIMPLE_NAME, line no: 20, 0.72, 0.04, 0.0, 0.0625
+null,NULL_LITERAL, line no: 73,IS_EXECUTING_CALL_TIMEOUT,SIMPLE_NAME, line no: 37, 0.72, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,Override,SIMPLE_NAME, line no: 67, 0.72, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,executor.execute(new Runnable(){   @Override public void run(){     try {       Object resp=resolveApplicationResponse(response);       if (resp == null || !(resp instanceof Throwable)) {         callback.onResponse((E)resp);       }  else {         callback.onFailure((Throwable)resp);       }     }  catch (    Throwable cause) {       invocation.logger.severe("Failed asynchronous execution of execution callback: " + callback + "for call "+ invocation cause);     }   } } ),METHOD_INVOCATION, line no: 89, 0.72, 0.72, 0.0, 0.008385744234800839
+null,NULL_LITERAL, line no: 73,execute,SIMPLE_NAME, line no: 89, 0.72, 0.72, 0.0, 0.14285714285714285
+null,NULL_LITERAL, line no: 73,new Runnable(){   @Override public void run(){     try {       Object resp=resolveApplicationResponse(response);       if (resp == null || !(resp instanceof Throwable)) {         callback.onResponse((E)resp);       }  else {         callback.onFailure((Throwable)resp);       }     }  catch (    Throwable cause) {       invocation.logger.severe("Failed asynchronous execution of execution callback: " + callback + "for call "+ invocation cause);     }   } } ,CLASS_INSTANCE_CREATION, line no: 89, 0.72, 0.72, 0.0, 0.008714596949891068
+null,NULL_LITERAL, line no: 73,Runnable,SIMPLE_NAME, line no: 89, 0.72, 0.72, 0.0, 0.25
+null,NULL_LITERAL, line no: 73,@Override,MARKER_ANNOTATION, line no: 90, 0.72, 0.72, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,run,SIMPLE_NAME, line no: 91, 0.72, 0.72, 0.0, 0.25
+null,NULL_LITERAL, line no: 73,resp,SIMPLE_NAME, line no: 93, 0.72, 0.68, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,resolveApplicationResponse,SIMPLE_NAME, line no: 93, 0.72, 0.68, 0.0, 0.07692307692307693
+null,NULL_LITERAL, line no: 73,resp == null || !(resp instanceof Throwable),INFIX_EXPRESSION, line no: 95, 0.72, 0.72, 0.0, 0.09090909090909091
+null,NULL_LITERAL, line no: 73,resp == null,INFIX_EXPRESSION, line no: 95, 0.72, 0.72, 0.0, 0.3333333333333333
+null,NULL_LITERAL, line no: 73,!(resp instanceof Throwable),PREFIX_EXPRESSION, line no: 95, 0.72, 0.72, 0.0, 0.07142857142857142
+null,NULL_LITERAL, line no: 73,(resp instanceof Throwable),PARENTHESIZED_EXPRESSION, line no: 95, 0.72, 0.72, 0.0, 0.07407407407407407
+null,NULL_LITERAL, line no: 73,resp instanceof Throwable,INSTANCEOF_EXPRESSION, line no: 95, 0.72, 0.72, 0.0, 0.08
+null,NULL_LITERAL, line no: 73,get,SIMPLE_NAME, line no: 171, 0.72, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,TimeUnit.MILLISECONDS,QUALIFIED_NAME, line no: 173, 0.72, 0.28, 0.0, 0.047619047619047616
+null,NULL_LITERAL, line no: 73,MILLISECONDS,SIMPLE_NAME, line no: 173, 0.72, 0.32, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,true,BOOLEAN_LITERAL, line no: 232, 0.72, 0.16, 0.0, 0.25
+null,NULL_LITERAL, line no: 73,target,SIMPLE_NAME, line no: 237, 0.72, 0.68, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,invocation.nodeEngine,QUALIFIED_NAME, line no: 238, 0.72, 0.68, 0.0, 0.047619047619047616
+null,NULL_LITERAL, line no: 73,nodeEngine,SIMPLE_NAME, line no: 238, 0.72, 0.68, 0.0, 0.1
+null,NULL_LITERAL, line no: 73,currentTimeoutMs > 0 && response == null,INFIX_EXPRESSION, line no: 264, 0.72, 0.72, 0.0, 0.1
+null,NULL_LITERAL, line no: 73,currentTimeoutMs > 0,INFIX_EXPRESSION, line no: 264, 0.72, 0.72, 0.0, 0.1
+null,NULL_LITERAL, line no: 73,hasResponse,SIMPLE_NAME, line no: 298, 0.72, 0.68, 0.0, 0.09090909090909091
+null,NULL_LITERAL, line no: 73,resolveApplicationResponse(unresolvedResponse),METHOD_INVOCATION, line no: 320, 0.72, 0.72, 0.0, 0.06521739130434782
+null,NULL_LITERAL, line no: 73,response == null || !(response instanceof Throwable),INFIX_EXPRESSION, line no: 322, 0.72, 0.72, 0.0, 0.07692307692307693
+null,NULL_LITERAL, line no: 73,!(response instanceof Throwable),PREFIX_EXPRESSION, line no: 322, 0.72, 0.72, 0.0, 0.0625
+null,NULL_LITERAL, line no: 73,(response instanceof Throwable),PARENTHESIZED_EXPRESSION, line no: 322, 0.72, 0.72, 0.0, 0.06451612903225806
+null,NULL_LITERAL, line no: 73,response instanceof ExecutionException,INSTANCEOF_EXPRESSION, line no: 326, 0.72, 0.72, 0.0, 0.05263157894736842
+null,NULL_LITERAL, line no: 73,response instanceof TimeoutException,INSTANCEOF_EXPRESSION, line no: 330, 0.72, 0.72, 0.0, 0.05555555555555555
+null,NULL_LITERAL, line no: 73,response instanceof InterruptedException,INSTANCEOF_EXPRESSION, line no: 334, 0.72, 0.72, 0.0, 0.05
+null,NULL_LITERAL, line no: 73,response instanceof Error,INSTANCEOF_EXPRESSION, line no: 338, 0.72, 0.72, 0.0, 0.04
+null,NULL_LITERAL, line no: 73,Error,SIMPLE_NAME, line no: 338, 0.72, 0.72, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,new ExecutionException((Throwable)response),CLASS_INSTANCE_CREATION, line no: 343, 0.72, 0.72, 0.0, 0.06976744186046512
+null,NULL_LITERAL, line no: 73,(Throwable)response,CAST_EXPRESSION, line no: 343, 0.72, 0.72, 0.0, 0.05263157894736842
+null,NULL_LITERAL, line no: 73,toObject,SIMPLE_NAME, line no: 361, 0.72, 0.68, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,isStillExecuting,SIMPLE_NAME, line no: 414, 0.72, 0.72, 0.0, 0.125
+null,NULL_LITERAL, line no: 73,createCheckOperation(),METHOD_INVOCATION, line no: 414, 0.72, 0.72, 0.0, 0.045454545454545456
+null,NULL_LITERAL, line no: 73,createCheckOperation,SIMPLE_NAME, line no: 414, 0.72, 0.72, 0.0, 0.05
+null,NULL_LITERAL, line no: 73,inv,SIMPLE_NAME, line no: 416, 0.72, 0.72, 0.0, 0.25
+null,NULL_LITERAL, line no: 73,new BasicTargetInvocation(invocation.nodeEngine invocation.serviceName isStillExecuting target 0 0 IS_EXECUTING_CALL_TIMEOUT null null true),CLASS_INSTANCE_CREATION, line no: 416, 0.72, 0.72, 0.0, 0.02857142857142857
+null,NULL_LITERAL, line no: 73,BasicTargetInvocation,SIMPLE_NAME, line no: 416, 0.72, 0.72, 0.0, 0.047619047619047616
+null,NULL_LITERAL, line no: 73,invocation.serviceName,QUALIFIED_NAME, line no: 417, 0.72, 0.72, 0.0, 0.045454545454545456
+null,NULL_LITERAL, line no: 73,serviceName,SIMPLE_NAME, line no: 417, 0.72, 0.72, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,f,SIMPLE_NAME, line no: 419, 0.72, 0.72, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,inv.invoke(),METHOD_INVOCATION, line no: 419, 0.72, 0.72, 0.0, 0.08333333333333333
+null,NULL_LITERAL, line no: 73,invoke,SIMPLE_NAME, line no: 419, 0.72, 0.72, 0.0, 0.16666666666666666
+null,NULL_LITERAL, line no: 73,invocation.logger.warning("Asking if operation execution has been started: " + toString()),METHOD_INVOCATION, line no: 420, 0.72, 0.72, 0.0, 0.022222222222222223
+null,NULL_LITERAL, line no: 73,executing=(Boolean)invocation.nodeEngine.toObject(f.get(IS_EXECUTING_CALL_TIMEOUT TimeUnit.MILLISECONDS)),ASSIGNMENT, line no: 421, 0.72, 0.72, 0.0, 0.01904761904761905
+null,NULL_LITERAL, line no: 73,(Boolean)invocation.nodeEngine.toObject(f.get(IS_EXECUTING_CALL_TIMEOUT TimeUnit.MILLISECONDS)),CAST_EXPRESSION, line no: 421, 0.72, 0.72, 0.0, 0.010526315789473684
+null,NULL_LITERAL, line no: 73,invocation.nodeEngine.toObject(f.get(IS_EXECUTING_CALL_TIMEOUT TimeUnit.MILLISECONDS)),METHOD_INVOCATION, line no: 421, 0.72, 0.72, 0.0, 0.011627906976744186
+null,NULL_LITERAL, line no: 73,f.get(IS_EXECUTING_CALL_TIMEOUT TimeUnit.MILLISECONDS),METHOD_INVOCATION, line no: 421, 0.72, 0.72, 0.0, 0.018518518518518517
+response != null,INFIX_EXPRESSION, line no: 73,ILogger,SIMPLE_NAME, line no: 5, 0.7083333333333334, 0.041666666666666664, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,Address,SIMPLE_NAME, line no: 6, 0.7083333333333334, 0.041666666666666664, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,Operation,SIMPLE_NAME, line no: 10, 0.7083333333333334, 0.041666666666666664, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,Future,SIMPLE_NAME, line no: 17, 0.7083333333333334, 0.041666666666666664, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,TimeUnit,SIMPLE_NAME, line no: 19, 0.7083333333333334, 0.041666666666666664, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,IS_EXECUTING_CALL_TIMEOUT,SIMPLE_NAME, line no: 37, 0.7083333333333334, 0.041666666666666664, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,cause,SIMPLE_NAME, line no: 100, 0.7083333333333334, 0.7083333333333334, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,logger.isFinestEnabled(),METHOD_INVOCATION, line no: 128, 0.7083333333333334, 0.7083333333333334, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,get,SIMPLE_NAME, line no: 171, 0.7083333333333334, 0.041666666666666664, 0.0, 0.0625
+response != null,INFIX_EXPRESSION, line no: 73,TimeUnit.MILLISECONDS,QUALIFIED_NAME, line no: 173, 0.7083333333333334, 0.2916666666666667, 0.0, 0.09523809523809523
+response != null,INFIX_EXPRESSION, line no: 73,MILLISECONDS,SIMPLE_NAME, line no: 173, 0.7083333333333334, 0.3333333333333333, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,target,SIMPLE_NAME, line no: 237, 0.7083333333333334, 0.7083333333333334, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,invocation.getTarget(),METHOD_INVOCATION, line no: 237, 0.7083333333333334, 0.7083333333333334, 0.0, 0.13636363636363635
+response != null,INFIX_EXPRESSION, line no: 73,getTarget,SIMPLE_NAME, line no: 237, 0.7083333333333334, 0.7083333333333334, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,invocation.remote && invocation.nodeEngine.getThisAddress().equals(target),INFIX_EXPRESSION, line no: 238, 0.7083333333333334, 0.7083333333333334, 0.0, 0.12162162162162163
+response != null,INFIX_EXPRESSION, line no: 73,invocation.remote,QUALIFIED_NAME, line no: 238, 0.7083333333333334, 0.7083333333333334, 0.0, 0.23529411764705882
+response != null,INFIX_EXPRESSION, line no: 73,invocation.nodeEngine.getThisAddress().equals(target),METHOD_INVOCATION, line no: 238, 0.7083333333333334, 0.7083333333333334, 0.0, 0.1320754716981132
+response != null,INFIX_EXPRESSION, line no: 73,invocation.nodeEngine.getThisAddress(),METHOD_INVOCATION, line no: 238, 0.7083333333333334, 0.7083333333333334, 0.0, 0.10526315789473684
+response != null,INFIX_EXPRESSION, line no: 73,invocation.nodeEngine,QUALIFIED_NAME, line no: 238, 0.7083333333333334, 0.7083333333333334, 0.0, 0.19047619047619047
+response != null,INFIX_EXPRESSION, line no: 73,nodeEngine,SIMPLE_NAME, line no: 238, 0.7083333333333334, 0.7083333333333334, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,getThisAddress,SIMPLE_NAME, line no: 238, 0.7083333333333334, 0.7083333333333334, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,invocation.logger.warning("No response for " + lastPollTime + " ms. "+ toString()),METHOD_INVOCATION, line no: 243, 0.7083333333333334, 0.7083333333333334, 0.0, 0.14634146341463414
+response != null,INFIX_EXPRESSION, line no: 73,"No response for " + lastPollTime + " ms. "+ toString(),INFIX_EXPRESSION, line no: 243, 0.7083333333333334, 0.7083333333333334, 0.0, 0.21818181818181817
+response != null,INFIX_EXPRESSION, line no: 73,"No response for ",STRING_LITERAL, line no: 243, 0.7083333333333334, 0.7083333333333334, 0.0, 0.5555555555555556
+response != null,INFIX_EXPRESSION, line no: 73," ms. ",STRING_LITERAL, line no: 243, 0.7083333333333334, 0.7083333333333334, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,isOperationExecuting(target),METHOD_INVOCATION, line no: 244, 0.7083333333333334, 0.7083333333333334, 0.0, 0.21428571428571427
+response != null,INFIX_EXPRESSION, line no: 73,!executing,PREFIX_EXPRESSION, line no: 245, 0.7083333333333334, 0.7083333333333334, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,invocation.pendingResponse != null,INFIX_EXPRESSION, line no: 298, 0.7083333333333334, 0.7083333333333334, 0.0, 0.4411764705882353
+response != null,INFIX_EXPRESSION, line no: 73,invocation.pendingResponse,QUALIFIED_NAME, line no: 298, 0.7083333333333334, 0.7083333333333334, 0.0, 0.2692307692307692
+response != null,INFIX_EXPRESSION, line no: 73,pendingResponse,SIMPLE_NAME, line no: 298, 0.7083333333333334, 0.7083333333333334, 0.0, 0.4375
+response != null,INFIX_EXPRESSION, line no: 73,backupsExpected,SIMPLE_NAME, line no: 299, 0.7083333333333334, 0.7083333333333334, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,invocation.backupsExpected,QUALIFIED_NAME, line no: 299, 0.7083333333333334, 0.7083333333333334, 0.0, 0.15384615384615385
+response != null,INFIX_EXPRESSION, line no: 73,backupsCompleted,SIMPLE_NAME, line no: 300, 0.7083333333333334, 0.7083333333333334, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,invocation.backupsCompleted,QUALIFIED_NAME, line no: 300, 0.7083333333333334, 0.7083333333333334, 0.0, 0.14814814814814814
+response != null,INFIX_EXPRESSION, line no: 73,toObject,SIMPLE_NAME, line no: 361, 0.7083333333333334, 0.6666666666666666, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,isStillExecuting,SIMPLE_NAME, line no: 414, 0.7083333333333334, 0.7083333333333334, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,createCheckOperation(),METHOD_INVOCATION, line no: 414, 0.7083333333333334, 0.7083333333333334, 0.0, 0.22727272727272727
+response != null,INFIX_EXPRESSION, line no: 73,createCheckOperation,SIMPLE_NAME, line no: 414, 0.7083333333333334, 0.7083333333333334, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,inv,SIMPLE_NAME, line no: 416, 0.7083333333333334, 0.7083333333333334, 0.0, 0.0625
+response != null,INFIX_EXPRESSION, line no: 73,new BasicTargetInvocation(invocation.nodeEngine invocation.serviceName isStillExecuting target 0 0 IS_EXECUTING_CALL_TIMEOUT null null true),CLASS_INSTANCE_CREATION, line no: 416, 0.7083333333333334, 0.7083333333333334, 0.0, 0.07142857142857142
+response != null,INFIX_EXPRESSION, line no: 73,BasicTargetInvocation,SIMPLE_NAME, line no: 416, 0.7083333333333334, 0.7083333333333334, 0.0, 0.19047619047619047
+response != null,INFIX_EXPRESSION, line no: 73,invocation.serviceName,QUALIFIED_NAME, line no: 417, 0.7083333333333334, 0.7083333333333334, 0.0, 0.18181818181818182
+response != null,INFIX_EXPRESSION, line no: 73,serviceName,SIMPLE_NAME, line no: 417, 0.7083333333333334, 0.7083333333333334, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,f,SIMPLE_NAME, line no: 419, 0.7083333333333334, 0.7083333333333334, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,inv.invoke(),METHOD_INVOCATION, line no: 419, 0.7083333333333334, 0.7083333333333334, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,invoke,SIMPLE_NAME, line no: 419, 0.7083333333333334, 0.7083333333333334, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,invocation.logger.warning("Asking if operation execution has been started: " + toString()),METHOD_INVOCATION, line no: 420, 0.7083333333333334, 0.7083333333333334, 0.0, 0.1111111111111111
+response != null,INFIX_EXPRESSION, line no: 73,executing=(Boolean)invocation.nodeEngine.toObject(f.get(IS_EXECUTING_CALL_TIMEOUT TimeUnit.MILLISECONDS)),ASSIGNMENT, line no: 421, 0.7083333333333334, 0.7083333333333334, 0.0, 0.047619047619047616
+response != null,INFIX_EXPRESSION, line no: 73,(Boolean)invocation.nodeEngine.toObject(f.get(IS_EXECUTING_CALL_TIMEOUT TimeUnit.MILLISECONDS)),CAST_EXPRESSION, line no: 421, 0.7083333333333334, 0.7083333333333334, 0.0, 0.05263157894736842
+response != null,INFIX_EXPRESSION, line no: 73,invocation.nodeEngine.toObject(f.get(IS_EXECUTING_CALL_TIMEOUT TimeUnit.MILLISECONDS)),METHOD_INVOCATION, line no: 421, 0.7083333333333334, 0.7083333333333334, 0.0, 0.046511627906976744
+response != null,INFIX_EXPRESSION, line no: 73,f.get(IS_EXECUTING_CALL_TIMEOUT TimeUnit.MILLISECONDS),METHOD_INVOCATION, line no: 421, 0.7083333333333334, 0.7083333333333334, 0.0, 0.05555555555555555
+response,SIMPLE_NAME, line no: 73,adapter,SIMPLE_NAME, line no: 54, 0.68, 0.64, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,callbackHead=new ExecutionCallbackNode<E>(adapter operationService.asyncExecutor null),ASSIGNMENT, line no: 55, 0.68, 0.68, 0.0, 0.06976744186046512
+response,SIMPLE_NAME, line no: 73,new ExecutionCallbackNode<E>(adapter operationService.asyncExecutor null),CLASS_INSTANCE_CREATION, line no: 55, 0.68, 0.68, 0.0, 0.0821917808219178
+response,SIMPLE_NAME, line no: 73,operationService.asyncExecutor,QUALIFIED_NAME, line no: 55, 0.68, 0.68, 0.0, 0.16666666666666666
+response,SIMPLE_NAME, line no: 73,asyncExecutor,SIMPLE_NAME, line no: 55, 0.68, 0.68, 0.0, 0.23076923076923078
+null,NULL_LITERAL, line no: 73,ILogger,SIMPLE_NAME, line no: 5, 0.68, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,Address,SIMPLE_NAME, line no: 6, 0.68, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,resolveApplicationResponse(response),METHOD_INVOCATION, line no: 93, 0.68, 0.68, 0.0, 0.05555555555555555
+null,NULL_LITERAL, line no: 73,cause,SIMPLE_NAME, line no: 100, 0.68, 0.68, 0.0, 0.2
+null,NULL_LITERAL, line no: 73,logger.isFinestEnabled(),METHOD_INVOCATION, line no: 128, 0.68, 0.68, 0.0, 0.08333333333333333
+null,NULL_LITERAL, line no: 73,isFinestEnabled,SIMPLE_NAME, line no: 128, 0.68, 0.68, 0.0, 0.13333333333333333
+null,NULL_LITERAL, line no: 73,invocation.getTarget(),METHOD_INVOCATION, line no: 237, 0.68, 0.68, 0.0, 0.045454545454545456
+null,NULL_LITERAL, line no: 73,getTarget,SIMPLE_NAME, line no: 237, 0.68, 0.68, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,invocation.remote && invocation.nodeEngine.getThisAddress().equals(target),INFIX_EXPRESSION, line no: 238, 0.68, 0.68, 0.0, 0.04054054054054054
+null,NULL_LITERAL, line no: 73,invocation.remote,QUALIFIED_NAME, line no: 238, 0.68, 0.68, 0.0, 0.058823529411764705
+null,NULL_LITERAL, line no: 73,remote,SIMPLE_NAME, line no: 238, 0.68, 0.68, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,invocation.nodeEngine.getThisAddress().equals(target),METHOD_INVOCATION, line no: 238, 0.68, 0.68, 0.0, 0.05660377358490566
+null,NULL_LITERAL, line no: 73,invocation.nodeEngine.getThisAddress(),METHOD_INVOCATION, line no: 238, 0.68, 0.68, 0.0, 0.02631578947368421
+null,NULL_LITERAL, line no: 73,getThisAddress,SIMPLE_NAME, line no: 238, 0.68, 0.68, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,equals,SIMPLE_NAME, line no: 238, 0.68, 0.68, 0.0, 0.3333333333333333
+null,NULL_LITERAL, line no: 73,invocation.logger.warning("No response for " + lastPollTime + " ms. "+ toString()),METHOD_INVOCATION, line no: 243, 0.68, 0.68, 0.0, 0.036585365853658534
+null,NULL_LITERAL, line no: 73,"No response for " + lastPollTime + " ms. "+ toString(),INFIX_EXPRESSION, line no: 243, 0.68, 0.68, 0.0, 0.05454545454545454
+null,NULL_LITERAL, line no: 73,"No response for ",STRING_LITERAL, line no: 243, 0.68, 0.68, 0.0, 0.05555555555555555
+null,NULL_LITERAL, line no: 73," ms. ",STRING_LITERAL, line no: 243, 0.68, 0.68, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,isOperationExecuting(target),METHOD_INVOCATION, line no: 244, 0.68, 0.68, 0.0, 0.07142857142857142
+null,NULL_LITERAL, line no: 73,isOperationExecuting,SIMPLE_NAME, line no: 244, 0.68, 0.68, 0.0, 0.1
+null,NULL_LITERAL, line no: 73,!executing,PREFIX_EXPRESSION, line no: 245, 0.68, 0.68, 0.0, 0.1
+null,NULL_LITERAL, line no: 73,invocation.pendingResponse != null,INFIX_EXPRESSION, line no: 298, 0.68, 0.68, 0.0, 0.11764705882352941
+null,NULL_LITERAL, line no: 73,invocation.pendingResponse,QUALIFIED_NAME, line no: 298, 0.68, 0.68, 0.0, 0.038461538461538464
+null,NULL_LITERAL, line no: 73,pendingResponse,SIMPLE_NAME, line no: 298, 0.68, 0.68, 0.0, 0.06666666666666667
+null,NULL_LITERAL, line no: 73,backupsExpected,SIMPLE_NAME, line no: 299, 0.68, 0.68, 0.0, 0.06666666666666667
+null,NULL_LITERAL, line no: 73,invocation.backupsExpected,QUALIFIED_NAME, line no: 299, 0.68, 0.68, 0.0, 0.07692307692307693
+null,NULL_LITERAL, line no: 73,backupsCompleted,SIMPLE_NAME, line no: 300, 0.68, 0.68, 0.0, 0.125
+null,NULL_LITERAL, line no: 73,invocation.backupsCompleted,QUALIFIED_NAME, line no: 300, 0.68, 0.68, 0.0, 0.1111111111111111
+response != null,INFIX_EXPRESSION, line no: 73,adapter,SIMPLE_NAME, line no: 54, 0.6666666666666666, 0.625, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,callbackHead=new ExecutionCallbackNode<E>(adapter operationService.asyncExecutor null),ASSIGNMENT, line no: 55, 0.6666666666666666, 0.6666666666666666, 0.0, 0.11627906976744186
+response != null,INFIX_EXPRESSION, line no: 73,new ExecutionCallbackNode<E>(adapter operationService.asyncExecutor null),CLASS_INSTANCE_CREATION, line no: 55, 0.6666666666666666, 0.6666666666666666, 0.0, 0.136986301369863
+response != null,INFIX_EXPRESSION, line no: 73,operationService.asyncExecutor,QUALIFIED_NAME, line no: 55, 0.6666666666666666, 0.6666666666666666, 0.0, 0.2
+response != null,INFIX_EXPRESSION, line no: 73,asyncExecutor,SIMPLE_NAME, line no: 55, 0.6666666666666666, 0.6666666666666666, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,callbackChain != null,INFIX_EXPRESSION, line no: 149, 0.6666666666666666, 0.6666666666666666, 0.0, 0.42857142857142855
+response != null,INFIX_EXPRESSION, line no: 73,wait,SIMPLE_NAME, line no: 265, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,TraceableOperation,SIMPLE_NAME, line no: 11, 0.64, 0.04, 0.0, 0.2777777777777778
+response,SIMPLE_NAME, line no: 73,ExecutorCallbackAdapter,SIMPLE_NAME, line no: 54, 0.64, 0.64, 0.0, 0.13043478260869565
+response,SIMPLE_NAME, line no: 73,new ExecutorCallbackAdapter<E>(callback),CLASS_INSTANCE_CREATION, line no: 54, 0.64, 0.64, 0.0, 0.075
+response,SIMPLE_NAME, line no: 73,callbackChain != null,INFIX_EXPRESSION, line no: 149, 0.64, 0.64, 0.0, 0.047619047619047616
+response,SIMPLE_NAME, line no: 73,throwable,SIMPLE_NAME, line no: 186, 0.64, 0.36, 0.0, 0.3333333333333333
+response,SIMPLE_NAME, line no: 73,wait,SIMPLE_NAME, line no: 265, 0.64, 0.64, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,((Throwable)response),PARENTHESIZED_EXPRESSION, line no: 385, 0.64, 0.64, 0.0, 0.38095238095238093
+response,SIMPLE_NAME, line no: 73,isDone,SIMPLE_NAME, line no: 406, 0.64, 0.04, 0.0, 0.5
+response,SIMPLE_NAME, line no: 73,invocation.op instanceof TraceableOperation,INSTANCEOF_EXPRESSION, line no: 430, 0.64, 0.64, 0.0, 0.11627906976744186
+response,SIMPLE_NAME, line no: 73,invocation.op,QUALIFIED_NAME, line no: 430, 0.64, 0.64, 0.0, 0.15384615384615385
+response,SIMPLE_NAME, line no: 73,op,SIMPLE_NAME, line no: 430, 0.64, 0.64, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,StringBuilder,SIMPLE_NAME, line no: 440, 0.64, 0.64, 0.0, 0.23076923076923078
+response,SIMPLE_NAME, line no: 73,sb,SIMPLE_NAME, line no: 440, 0.64, 0.64, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,new StringBuilder("BasicInvocationFuture{"),CLASS_INSTANCE_CREATION, line no: 440, 0.64, 0.64, 0.0, 0.13953488372093023
+response,SIMPLE_NAME, line no: 73,"BasicInvocationFuture{",STRING_LITERAL, line no: 440, 0.64, 0.64, 0.0, 0.16666666666666666
+response,SIMPLE_NAME, line no: 73,sb.append("invocation=").append(invocation.toString()),METHOD_INVOCATION, line no: 441, 0.64, 0.64, 0.0, 0.09259259259259259
+response,SIMPLE_NAME, line no: 73,sb.append("invocation="),METHOD_INVOCATION, line no: 441, 0.64, 0.64, 0.0, 0.16666666666666666
+response,SIMPLE_NAME, line no: 73,append,SIMPLE_NAME, line no: 441, 0.64, 0.64, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,"invocation=",STRING_LITERAL, line no: 441, 0.64, 0.64, 0.0, 0.15384615384615385
+response,SIMPLE_NAME, line no: 73,invocation.toString(),METHOD_INVOCATION, line no: 441, 0.64, 0.64, 0.0, 0.09523809523809523
+response,SIMPLE_NAME, line no: 73,sb.append("  response=").append(response),METHOD_INVOCATION, line no: 442, 0.64, 0.64, 0.0, 0.1951219512195122
+response,SIMPLE_NAME, line no: 73,sb.append("  response="),METHOD_INVOCATION, line no: 442, 0.64, 0.64, 0.0, 0.3333333333333333
+response,SIMPLE_NAME, line no: 73,"  response=",STRING_LITERAL, line no: 442, 0.64, 0.64, 0.0, 0.6153846153846154
+response,SIMPLE_NAME, line no: 73,sb.append("  done=").append(isDone()),METHOD_INVOCATION, line no: 443, 0.64, 0.64, 0.0, 0.16216216216216217
+response,SIMPLE_NAME, line no: 73,sb.append("  done="),METHOD_INVOCATION, line no: 443, 0.64, 0.64, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,"  done=",STRING_LITERAL, line no: 443, 0.64, 0.64, 0.0, 0.3333333333333333
+response,SIMPLE_NAME, line no: 73,isDone(),METHOD_INVOCATION, line no: 443, 0.64, 0.64, 0.0, 0.5
+response,SIMPLE_NAME, line no: 73,sb.append('}'),METHOD_INVOCATION, line no: 444, 0.64, 0.64, 0.0, 0.21428571428571427
+response,SIMPLE_NAME, line no: 73,'}',CHARACTER_LITERAL, line no: 444, 0.64, 0.64, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,sb.toString(),METHOD_INVOCATION, line no: 445, 0.64, 0.64, 0.0, 0.23076923076923078
+null,NULL_LITERAL, line no: 73,adapter,SIMPLE_NAME, line no: 54, 0.64, 0.6, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,callbackHead=new ExecutionCallbackNode<E>(adapter operationService.asyncExecutor null),ASSIGNMENT, line no: 55, 0.64, 0.64, 0.0, 0.046511627906976744
+null,NULL_LITERAL, line no: 73,new ExecutionCallbackNode<E>(adapter operationService.asyncExecutor null),CLASS_INSTANCE_CREATION, line no: 55, 0.64, 0.64, 0.0, 0.0547945205479452
+null,NULL_LITERAL, line no: 73,operationService.asyncExecutor,QUALIFIED_NAME, line no: 55, 0.64, 0.64, 0.0, 0.06666666666666667
+null,NULL_LITERAL, line no: 73,asyncExecutor,SIMPLE_NAME, line no: 55, 0.64, 0.64, 0.0, 0.15384615384615385
+null,NULL_LITERAL, line no: 73,callbackChain != null,INFIX_EXPRESSION, line no: 149, 0.64, 0.64, 0.0, 0.19047619047619047
+null,NULL_LITERAL, line no: 73,wait,SIMPLE_NAME, line no: 265, 0.64, 0.64, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,response=invocation.nodeEngine.toObject(response),ASSIGNMENT, line no: 361, 0.64, 0.64, 0.0, 0.02040816326530612
+null,NULL_LITERAL, line no: 73,invocation.nodeEngine.toObject(response),METHOD_INVOCATION, line no: 361, 0.64, 0.64, 0.0, 0.025
+response != null,INFIX_EXPRESSION, line no: 73,TraceableOperation,SIMPLE_NAME, line no: 11, 0.625, 0.041666666666666664, 0.0, 0.2777777777777778
+response != null,INFIX_EXPRESSION, line no: 73,ExecutorCallbackAdapter,SIMPLE_NAME, line no: 54, 0.625, 0.625, 0.0, 0.17391304347826086
+response != null,INFIX_EXPRESSION, line no: 73,new ExecutorCallbackAdapter<E>(callback),CLASS_INSTANCE_CREATION, line no: 54, 0.625, 0.625, 0.0, 0.15
+response != null,INFIX_EXPRESSION, line no: 73,throwable,SIMPLE_NAME, line no: 186, 0.625, 0.375, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,wait(currentTimeoutMs),METHOD_INVOCATION, line no: 265, 0.625, 0.625, 0.0, 0.22727272727272727
+response != null,INFIX_EXPRESSION, line no: 73,currentTimeoutMs=pollTimeoutMs - (Clock.currentTimeMillis() - waitStart),ASSIGNMENT, line no: 266, 0.625, 0.625, 0.0, 0.1527777777777778
+response != null,INFIX_EXPRESSION, line no: 73,pollTimeoutMs - (Clock.currentTimeMillis() - waitStart),INFIX_EXPRESSION, line no: 266, 0.625, 0.625, 0.0, 0.14545454545454545
+response != null,INFIX_EXPRESSION, line no: 73,(Clock.currentTimeMillis() - waitStart),PARENTHESIZED_EXPRESSION, line no: 266, 0.625, 0.625, 0.0, 0.15384615384615385
+response != null,INFIX_EXPRESSION, line no: 73,Clock.currentTimeMillis() - waitStart,INFIX_EXPRESSION, line no: 266, 0.625, 0.625, 0.0, 0.16216216216216217
+response != null,INFIX_EXPRESSION, line no: 73,timeoutMs < 0,INFIX_EXPRESSION, line no: 291, 0.625, 0.625, 0.0, 0.3125
+response != null,INFIX_EXPRESSION, line no: 73,invocation.op instanceof TraceableOperation,INSTANCEOF_EXPRESSION, line no: 430, 0.625, 0.625, 0.0, 0.13953488372093023
+response != null,INFIX_EXPRESSION, line no: 73,invocation.op,QUALIFIED_NAME, line no: 430, 0.625, 0.625, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,op,SIMPLE_NAME, line no: 430, 0.625, 0.625, 0.0, 0.0625
+response != null,INFIX_EXPRESSION, line no: 73,StringBuilder,SIMPLE_NAME, line no: 440, 0.625, 0.625, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,sb,SIMPLE_NAME, line no: 440, 0.625, 0.625, 0.0, 0.0625
+response != null,INFIX_EXPRESSION, line no: 73,new StringBuilder("BasicInvocationFuture{"),CLASS_INSTANCE_CREATION, line no: 440, 0.625, 0.625, 0.0, 0.13953488372093023
+response != null,INFIX_EXPRESSION, line no: 73,"BasicInvocationFuture{",STRING_LITERAL, line no: 440, 0.625, 0.625, 0.0, 0.16666666666666666
+response != null,INFIX_EXPRESSION, line no: 73,sb.append("invocation=").append(invocation.toString()),METHOD_INVOCATION, line no: 441, 0.625, 0.625, 0.0, 0.1111111111111111
+response != null,INFIX_EXPRESSION, line no: 73,sb.append("invocation="),METHOD_INVOCATION, line no: 441, 0.625, 0.625, 0.0, 0.20833333333333334
+response != null,INFIX_EXPRESSION, line no: 73,append,SIMPLE_NAME, line no: 441, 0.625, 0.625, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,"invocation=",STRING_LITERAL, line no: 441, 0.625, 0.625, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,invocation.toString(),METHOD_INVOCATION, line no: 441, 0.625, 0.625, 0.0, 0.14285714285714285
+response != null,INFIX_EXPRESSION, line no: 73,sb.append("  response="),METHOD_INVOCATION, line no: 442, 0.625, 0.625, 0.0, 0.375
+response != null,INFIX_EXPRESSION, line no: 73,"  response=",STRING_LITERAL, line no: 442, 0.625, 0.625, 0.0, 0.5625
+response != null,INFIX_EXPRESSION, line no: 73,sb.append("  done=").append(isDone()),METHOD_INVOCATION, line no: 443, 0.625, 0.625, 0.0, 0.1891891891891892
+response != null,INFIX_EXPRESSION, line no: 73,sb.append("  done="),METHOD_INVOCATION, line no: 443, 0.625, 0.625, 0.0, 0.3
+response != null,INFIX_EXPRESSION, line no: 73,"  done=",STRING_LITERAL, line no: 443, 0.625, 0.625, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,isDone(),METHOD_INVOCATION, line no: 443, 0.625, 0.625, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,sb.append('}'),METHOD_INVOCATION, line no: 444, 0.625, 0.625, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,'}',CHARACTER_LITERAL, line no: 444, 0.625, 0.625, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,sb.toString(),METHOD_INVOCATION, line no: 445, 0.625, 0.625, 0.0, 0.1875
+response,SIMPLE_NAME, line no: 73,Long.MAX_VALUE,QUALIFIED_NAME, line no: 60, 0.6, 0.44, 0.0, 0.14285714285714285
+response,SIMPLE_NAME, line no: 73,Long,SIMPLE_NAME, line no: 60, 0.6, 0.48, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,MAX_VALUE,SIMPLE_NAME, line no: 60, 0.6, 0.48, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,response != BasicInvocation.INTERRUPTED_RESPONSE && interrupted,INFIX_EXPRESSION, line no: 226, 0.6, 0.6, 0.0, 0.12698412698412698
+response,SIMPLE_NAME, line no: 73,response != BasicInvocation.INTERRUPTED_RESPONSE,INFIX_EXPRESSION, line no: 226, 0.6, 0.6, 0.0, 0.16666666666666666
+response,SIMPLE_NAME, line no: 73,wait(currentTimeoutMs),METHOD_INVOCATION, line no: 265, 0.6, 0.6, 0.0, 0.18181818181818182
+response,SIMPLE_NAME, line no: 73,currentTimeoutMs=pollTimeoutMs - (Clock.currentTimeMillis() - waitStart),ASSIGNMENT, line no: 266, 0.6, 0.6, 0.0, 0.09722222222222222
+response,SIMPLE_NAME, line no: 73,pollTimeoutMs - (Clock.currentTimeMillis() - waitStart),INFIX_EXPRESSION, line no: 266, 0.6, 0.6, 0.0, 0.09090909090909091
+response,SIMPLE_NAME, line no: 73,(Clock.currentTimeMillis() - waitStart),PARENTHESIZED_EXPRESSION, line no: 266, 0.6, 0.6, 0.0, 0.10256410256410256
+response,SIMPLE_NAME, line no: 73,Clock.currentTimeMillis() - waitStart,INFIX_EXPRESSION, line no: 266, 0.6, 0.6, 0.0, 0.10810810810810811
+response,SIMPLE_NAME, line no: 73,callTimeout,SIMPLE_NAME, line no: 273, 0.6, 0.6, 0.0, 0.18181818181818182
+response,SIMPLE_NAME, line no: 73,invocation.callTimeout,QUALIFIED_NAME, line no: 273, 0.6, 0.6, 0.0, 0.13636363636363635
+response,SIMPLE_NAME, line no: 73,maxCallTimeout,SIMPLE_NAME, line no: 274, 0.6, 0.6, 0.0, 0.14285714285714285
+response,SIMPLE_NAME, line no: 73,callTimeout + getCallTimeoutExtension(callTimeout),INFIX_EXPRESSION, line no: 274, 0.6, 0.6, 0.0, 0.1
+response,SIMPLE_NAME, line no: 73,getCallTimeoutExtension(callTimeout),METHOD_INVOCATION, line no: 274, 0.6, 0.6, 0.0, 0.1388888888888889
+response,SIMPLE_NAME, line no: 73,getCallTimeoutExtension,SIMPLE_NAME, line no: 274, 0.6, 0.6, 0.0, 0.17391304347826086
+response,SIMPLE_NAME, line no: 73,maxCallTimeout > 0 ? maxCallTimeout : Long.MAX_VALUE,CONDITIONAL_EXPRESSION, line no: 275, 0.6, 0.6, 0.0, 0.057692307692307696
+response,SIMPLE_NAME, line no: 73,maxCallTimeout > 0,INFIX_EXPRESSION, line no: 275, 0.6, 0.6, 0.0, 0.1111111111111111
+response,SIMPLE_NAME, line no: 73,timeoutMs < 0,INFIX_EXPRESSION, line no: 291, 0.6, 0.6, 0.0, 0.23076923076923078
+response,SIMPLE_NAME, line no: 73,traceable,SIMPLE_NAME, line no: 431, 0.6, 0.6, 0.0, 0.3333333333333333
+response,SIMPLE_NAME, line no: 73,TraceableIsStillExecutingOperation,SIMPLE_NAME, line no: 432, 0.6, 0.6, 0.0, 0.17647058823529413
+null,NULL_LITERAL, line no: 73,TraceableOperation,SIMPLE_NAME, line no: 11, 0.6, 0.04, 0.0, 0.05555555555555555
+null,NULL_LITERAL, line no: 73,ExecutorCallbackAdapter,SIMPLE_NAME, line no: 54, 0.6, 0.6, 0.0, 0.13043478260869565
+null,NULL_LITERAL, line no: 73,new ExecutorCallbackAdapter<E>(callback),CLASS_INSTANCE_CREATION, line no: 54, 0.6, 0.6, 0.0, 0.1
+null,NULL_LITERAL, line no: 73,throwable,SIMPLE_NAME, line no: 186, 0.6, 0.36, 0.0, 0.1111111111111111
+null,NULL_LITERAL, line no: 73,response != BasicInvocation.INTERRUPTED_RESPONSE && interrupted,INFIX_EXPRESSION, line no: 226, 0.6, 0.6, 0.0, 0.031746031746031744
+null,NULL_LITERAL, line no: 73,response != BasicInvocation.INTERRUPTED_RESPONSE,INFIX_EXPRESSION, line no: 226, 0.6, 0.6, 0.0, 0.020833333333333332
+null,NULL_LITERAL, line no: 73,wait(currentTimeoutMs),METHOD_INVOCATION, line no: 265, 0.6, 0.6, 0.0, 0.09090909090909091
+null,NULL_LITERAL, line no: 73,currentTimeoutMs=pollTimeoutMs - (Clock.currentTimeMillis() - waitStart),ASSIGNMENT, line no: 266, 0.6, 0.6, 0.0, 0.05555555555555555
+null,NULL_LITERAL, line no: 73,pollTimeoutMs - (Clock.currentTimeMillis() - waitStart),INFIX_EXPRESSION, line no: 266, 0.6, 0.6, 0.0, 0.05454545454545454
+null,NULL_LITERAL, line no: 73,(Clock.currentTimeMillis() - waitStart),PARENTHESIZED_EXPRESSION, line no: 266, 0.6, 0.6, 0.0, 0.07692307692307693
+null,NULL_LITERAL, line no: 73,Clock.currentTimeMillis() - waitStart,INFIX_EXPRESSION, line no: 266, 0.6, 0.6, 0.0, 0.08108108108108109
+null,NULL_LITERAL, line no: 73,timeoutMs < 0,INFIX_EXPRESSION, line no: 291, 0.6, 0.6, 0.0, 0.07692307692307693
+null,NULL_LITERAL, line no: 73,((Throwable)response),PARENTHESIZED_EXPRESSION, line no: 385, 0.6, 0.6, 0.0, 0.047619047619047616
+null,NULL_LITERAL, line no: 73,isDone,SIMPLE_NAME, line no: 406, 0.6, 0.04, 0.0, 0.16666666666666666
+null,NULL_LITERAL, line no: 73,invocation.op instanceof TraceableOperation,INSTANCEOF_EXPRESSION, line no: 430, 0.6, 0.6, 0.0, 0.046511627906976744
+null,NULL_LITERAL, line no: 73,invocation.op,QUALIFIED_NAME, line no: 430, 0.6, 0.6, 0.0, 0.07692307692307693
+null,NULL_LITERAL, line no: 73,op,SIMPLE_NAME, line no: 430, 0.6, 0.6, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,StringBuilder,SIMPLE_NAME, line no: 440, 0.6, 0.6, 0.0, 0.23076923076923078
+null,NULL_LITERAL, line no: 73,sb,SIMPLE_NAME, line no: 440, 0.6, 0.6, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,new StringBuilder("BasicInvocationFuture{"),CLASS_INSTANCE_CREATION, line no: 440, 0.6, 0.6, 0.0, 0.06976744186046512
+null,NULL_LITERAL, line no: 73,"BasicInvocationFuture{",STRING_LITERAL, line no: 440, 0.6, 0.6, 0.0, 0.08333333333333333
+null,NULL_LITERAL, line no: 73,sb.append("invocation=").append(invocation.toString()),METHOD_INVOCATION, line no: 441, 0.6, 0.6, 0.0, 0.018518518518518517
+null,NULL_LITERAL, line no: 73,sb.append("invocation="),METHOD_INVOCATION, line no: 441, 0.6, 0.6, 0.0, 0.041666666666666664
+null,NULL_LITERAL, line no: 73,append,SIMPLE_NAME, line no: 441, 0.6, 0.6, 0.0, 0.16666666666666666
+null,NULL_LITERAL, line no: 73,"invocation=",STRING_LITERAL, line no: 441, 0.6, 0.6, 0.0, 0.07692307692307693
+null,NULL_LITERAL, line no: 73,invocation.toString(),METHOD_INVOCATION, line no: 441, 0.6, 0.6, 0.0, 0.047619047619047616
+null,NULL_LITERAL, line no: 73,sb.append("  response=").append(response),METHOD_INVOCATION, line no: 442, 0.6, 0.6, 0.0, 0.024390243902439025
+null,NULL_LITERAL, line no: 73,sb.append("  response="),METHOD_INVOCATION, line no: 442, 0.6, 0.6, 0.0, 0.041666666666666664
+null,NULL_LITERAL, line no: 73,"  response=",STRING_LITERAL, line no: 442, 0.6, 0.6, 0.0, 0.07692307692307693
+null,NULL_LITERAL, line no: 73,sb.append("  done=").append(isDone()),METHOD_INVOCATION, line no: 443, 0.6, 0.6, 0.0, 0.02702702702702703
+null,NULL_LITERAL, line no: 73,sb.append("  done="),METHOD_INVOCATION, line no: 443, 0.6, 0.6, 0.0, 0.05
+null,NULL_LITERAL, line no: 73,"  done=",STRING_LITERAL, line no: 443, 0.6, 0.6, 0.0, 0.1111111111111111
+null,NULL_LITERAL, line no: 73,isDone(),METHOD_INVOCATION, line no: 443, 0.6, 0.6, 0.0, 0.125
+null,NULL_LITERAL, line no: 73,sb.append('}'),METHOD_INVOCATION, line no: 444, 0.6, 0.6, 0.0, 0.07142857142857142
+null,NULL_LITERAL, line no: 73,'}',CHARACTER_LITERAL, line no: 444, 0.6, 0.6, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,sb.toString(),METHOD_INVOCATION, line no: 445, 0.6, 0.6, 0.0, 0.07692307692307693
+response != null,INFIX_EXPRESSION, line no: 73,Long.MAX_VALUE,QUALIFIED_NAME, line no: 60, 0.5833333333333334, 0.4583333333333333, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,Long,SIMPLE_NAME, line no: 60, 0.5833333333333334, 0.5, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,MAX_VALUE,SIMPLE_NAME, line no: 60, 0.5833333333333334, 0.5, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,set,SIMPLE_NAME, line no: 117, 0.5833333333333334, 0.041666666666666664, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,operationTimeoutException,SIMPLE_NAME, line no: 246, 0.5833333333333334, 0.5416666666666666, 0.0, 0.2
+response != null,INFIX_EXPRESSION, line no: 73,callTimeout,SIMPLE_NAME, line no: 273, 0.5833333333333334, 0.5833333333333334, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,invocation.callTimeout,QUALIFIED_NAME, line no: 273, 0.5833333333333334, 0.5833333333333334, 0.0, 0.18181818181818182
+response != null,INFIX_EXPRESSION, line no: 73,maxCallTimeout,SIMPLE_NAME, line no: 274, 0.5833333333333334, 0.5833333333333334, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,callTimeout + getCallTimeoutExtension(callTimeout),INFIX_EXPRESSION, line no: 274, 0.5833333333333334, 0.5833333333333334, 0.0, 0.14
+response != null,INFIX_EXPRESSION, line no: 73,getCallTimeoutExtension(callTimeout),METHOD_INVOCATION, line no: 274, 0.5833333333333334, 0.5833333333333334, 0.0, 0.19444444444444445
+response != null,INFIX_EXPRESSION, line no: 73,getCallTimeoutExtension,SIMPLE_NAME, line no: 274, 0.5833333333333334, 0.5833333333333334, 0.0, 0.21739130434782608
+response != null,INFIX_EXPRESSION, line no: 73,maxCallTimeout > 0 ? maxCallTimeout : Long.MAX_VALUE,CONDITIONAL_EXPRESSION, line no: 275, 0.5833333333333334, 0.5833333333333334, 0.0, 0.11538461538461539
+response != null,INFIX_EXPRESSION, line no: 73,maxCallTimeout > 0,INFIX_EXPRESSION, line no: 275, 0.5833333333333334, 0.5833333333333334, 0.0, 0.2222222222222222
+response != null,INFIX_EXPRESSION, line no: 73,toMillis,SIMPLE_NAME, line no: 290, 0.5833333333333334, 0.5833333333333334, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,traceable,SIMPLE_NAME, line no: 431, 0.5833333333333334, 0.5833333333333334, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,(TraceableOperation)invocation.op,CAST_EXPRESSION, line no: 431, 0.5833333333333334, 0.5833333333333334, 0.0, 0.18181818181818182
+response != null,INFIX_EXPRESSION, line no: 73,new TraceableIsStillExecutingOperation(invocation.serviceName traceable.getTraceIdentifier()),CLASS_INSTANCE_CREATION, line no: 432, 0.5833333333333334, 0.5833333333333334, 0.0, 0.0967741935483871
+response != null,INFIX_EXPRESSION, line no: 73,TraceableIsStillExecutingOperation,SIMPLE_NAME, line no: 432, 0.5833333333333334, 0.5833333333333334, 0.0, 0.17647058823529413
+response != null,INFIX_EXPRESSION, line no: 73,traceable.getTraceIdentifier(),METHOD_INVOCATION, line no: 432, 0.5833333333333334, 0.5833333333333334, 0.0, 0.13333333333333333
+response != null,INFIX_EXPRESSION, line no: 73,getTraceIdentifier,SIMPLE_NAME, line no: 432, 0.5833333333333334, 0.5833333333333334, 0.0, 0.2222222222222222
+response,SIMPLE_NAME, line no: 73,set,SIMPLE_NAME, line no: 117, 0.56, 0.04, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,toMillis,SIMPLE_NAME, line no: 290, 0.56, 0.56, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,(TraceableOperation)invocation.op,CAST_EXPRESSION, line no: 431, 0.56, 0.56, 0.0, 0.15151515151515152
+response,SIMPLE_NAME, line no: 73,new TraceableIsStillExecutingOperation(invocation.serviceName traceable.getTraceIdentifier()),CLASS_INSTANCE_CREATION, line no: 432, 0.56, 0.56, 0.0, 0.08602150537634409
+null,NULL_LITERAL, line no: 73,Long.MAX_VALUE,QUALIFIED_NAME, line no: 60, 0.56, 0.44, 0.0, 0.07142857142857142
+null,NULL_LITERAL, line no: 73,Long,SIMPLE_NAME, line no: 60, 0.56, 0.48, 0.0, 0.25
+null,NULL_LITERAL, line no: 73,MAX_VALUE,SIMPLE_NAME, line no: 60, 0.56, 0.48, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,set,SIMPLE_NAME, line no: 117, 0.56, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,operationTimeoutException,SIMPLE_NAME, line no: 246, 0.56, 0.52, 0.0, 0.08
+null,NULL_LITERAL, line no: 73,callTimeout,SIMPLE_NAME, line no: 273, 0.56, 0.56, 0.0, 0.18181818181818182
+null,NULL_LITERAL, line no: 73,invocation.callTimeout,QUALIFIED_NAME, line no: 273, 0.56, 0.56, 0.0, 0.13636363636363635
+null,NULL_LITERAL, line no: 73,maxCallTimeout,SIMPLE_NAME, line no: 274, 0.56, 0.56, 0.0, 0.14285714285714285
+null,NULL_LITERAL, line no: 73,callTimeout + getCallTimeoutExtension(callTimeout),INFIX_EXPRESSION, line no: 274, 0.56, 0.56, 0.0, 0.06
+null,NULL_LITERAL, line no: 73,getCallTimeoutExtension(callTimeout),METHOD_INVOCATION, line no: 274, 0.56, 0.56, 0.0, 0.08333333333333333
+null,NULL_LITERAL, line no: 73,getCallTimeoutExtension,SIMPLE_NAME, line no: 274, 0.56, 0.56, 0.0, 0.08695652173913043
+null,NULL_LITERAL, line no: 73,maxCallTimeout > 0 ? maxCallTimeout : Long.MAX_VALUE,CONDITIONAL_EXPRESSION, line no: 275, 0.56, 0.56, 0.0, 0.057692307692307696
+null,NULL_LITERAL, line no: 73,maxCallTimeout > 0,INFIX_EXPRESSION, line no: 275, 0.56, 0.56, 0.0, 0.1111111111111111
+null,NULL_LITERAL, line no: 73,toMillis,SIMPLE_NAME, line no: 290, 0.56, 0.56, 0.0, 0.25
+null,NULL_LITERAL, line no: 73,traceable,SIMPLE_NAME, line no: 431, 0.56, 0.56, 0.0, 0.1111111111111111
+null,NULL_LITERAL, line no: 73,(TraceableOperation)invocation.op,CAST_EXPRESSION, line no: 431, 0.56, 0.56, 0.0, 0.030303030303030304
+null,NULL_LITERAL, line no: 73,new TraceableIsStillExecutingOperation(invocation.serviceName traceable.getTraceIdentifier()),CLASS_INSTANCE_CREATION, line no: 432, 0.56, 0.56, 0.0, 0.03225806451612903
+null,NULL_LITERAL, line no: 73,TraceableIsStillExecutingOperation,SIMPLE_NAME, line no: 432, 0.56, 0.56, 0.0, 0.058823529411764705
+null,NULL_LITERAL, line no: 73,traceable.getTraceIdentifier(),METHOD_INVOCATION, line no: 432, 0.56, 0.56, 0.0, 0.03333333333333333
+null,NULL_LITERAL, line no: 73,getTraceIdentifier,SIMPLE_NAME, line no: 432, 0.56, 0.56, 0.0, 0.05555555555555555
+response != null,INFIX_EXPRESSION, line no: 73,runAsynchronous,SIMPLE_NAME, line no: 74, 0.5416666666666666, 0.4166666666666667, 0.0, 0.3125
+response != null,INFIX_EXPRESSION, line no: 73,info,SIMPLE_NAME, line no: 129, 0.5416666666666666, 0.5416666666666666, 0.0, 0.0625
+response != null,INFIX_EXPRESSION, line no: 73,"Future response is already set! Current response: ",STRING_LITERAL, line no: 129, 0.5416666666666666, 0.5416666666666666, 0.0, 0.23076923076923078
+response != null,INFIX_EXPRESSION, line no: 73,"  Offered response: ",STRING_LITERAL, line no: 130, 0.5416666666666666, 0.5416666666666666, 0.0, 0.4090909090909091
+response != null,INFIX_EXPRESSION, line no: 73,"  Invocation: ",STRING_LITERAL, line no: 130, 0.5416666666666666, 0.5416666666666666, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,next,SIMPLE_NAME, line no: 151, 0.5416666666666666, 0.5416666666666666, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,newOperationTimeoutException,SIMPLE_NAME, line no: 246, 0.5416666666666666, 0.5416666666666666, 0.0, 0.21428571428571427
+response != null,INFIX_EXPRESSION, line no: 73,pollCount * pollTimeoutMs,INFIX_EXPRESSION, line no: 246, 0.5416666666666666, 0.5416666666666666, 0.0, 0.28
+response != null,INFIX_EXPRESSION, line no: 73,set(operationTimeoutException),METHOD_INVOCATION, line no: 248, 0.5416666666666666, 0.5416666666666666, 0.0, 0.2
+response != null,INFIX_EXPRESSION, line no: 73,unit.toMillis(time),METHOD_INVOCATION, line no: 290, 0.5416666666666666, 0.5416666666666666, 0.0, 0.15789473684210525
+response,SIMPLE_NAME, line no: 73,runAsynchronous,SIMPLE_NAME, line no: 74, 0.52, 0.4, 0.0, 0.3333333333333333
+response,SIMPLE_NAME, line no: 73,info,SIMPLE_NAME, line no: 129, 0.52, 0.52, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,"Future response is already set! Current response: " + response + "  Offered response: "+ offeredResponse+ "  Invocation: "+ invocation,INFIX_EXPRESSION, line no: 129, 0.52, 0.52, 0.0, 0.05925925925925926
+response,SIMPLE_NAME, line no: 73,"Future response is already set! Current response: ",STRING_LITERAL, line no: 129, 0.52, 0.52, 0.0, 0.15384615384615385
+response,SIMPLE_NAME, line no: 73,"  Offered response: ",STRING_LITERAL, line no: 130, 0.52, 0.52, 0.0, 0.36363636363636365
+response,SIMPLE_NAME, line no: 73,"  Invocation: ",STRING_LITERAL, line no: 130, 0.52, 0.52, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,next,SIMPLE_NAME, line no: 151, 0.52, 0.52, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,pollCount * pollTimeoutMs,INFIX_EXPRESSION, line no: 246, 0.52, 0.52, 0.0, 0.16
+response,SIMPLE_NAME, line no: 73,set(operationTimeoutException),METHOD_INVOCATION, line no: 248, 0.52, 0.52, 0.0, 0.16666666666666666
+response,SIMPLE_NAME, line no: 73,unit.toMillis(time),METHOD_INVOCATION, line no: 290, 0.52, 0.52, 0.0, 0.15789473684210525
+null,NULL_LITERAL, line no: 73,runAsynchronous,SIMPLE_NAME, line no: 74, 0.52, 0.4, 0.0, 0.13333333333333333
+null,NULL_LITERAL, line no: 73,info,SIMPLE_NAME, line no: 129, 0.52, 0.52, 0.0, 0.25
+null,NULL_LITERAL, line no: 73,"Future response is already set! Current response: " + response + "  Offered response: "+ offeredResponse+ "  Invocation: "+ invocation,INFIX_EXPRESSION, line no: 129, 0.52, 0.52, 0.0, 0.014814814814814815
+null,NULL_LITERAL, line no: 73,"Future response is already set! Current response: ",STRING_LITERAL, line no: 129, 0.52, 0.52, 0.0, 0.038461538461538464
+null,NULL_LITERAL, line no: 73,"  Offered response: ",STRING_LITERAL, line no: 130, 0.52, 0.52, 0.0, 0.045454545454545456
+null,NULL_LITERAL, line no: 73,"  Invocation: ",STRING_LITERAL, line no: 130, 0.52, 0.52, 0.0, 0.0625
+null,NULL_LITERAL, line no: 73,next,SIMPLE_NAME, line no: 151, 0.52, 0.52, 0.0, 0.25
+null,NULL_LITERAL, line no: 73,newOperationTimeoutException,SIMPLE_NAME, line no: 246, 0.52, 0.52, 0.0, 0.07142857142857142
+null,NULL_LITERAL, line no: 73,pollCount * pollTimeoutMs,INFIX_EXPRESSION, line no: 246, 0.52, 0.52, 0.0, 0.12
+null,NULL_LITERAL, line no: 73,set(operationTimeoutException),METHOD_INVOCATION, line no: 248, 0.52, 0.52, 0.0, 0.06666666666666667
+null,NULL_LITERAL, line no: 73,unit.toMillis(time),METHOD_INVOCATION, line no: 290, 0.52, 0.52, 0.0, 0.15789473684210525
+response != null,INFIX_EXPRESSION, line no: 73,fixRemoteStackTrace,SIMPLE_NAME, line no: 24, 0.5, 0.041666666666666664, 0.0, 0.15789473684210525
+response != null,INFIX_EXPRESSION, line no: 73,timeout,SIMPLE_NAME, line no: 59, 0.5, 0.041666666666666664, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,severe,SIMPLE_NAME, line no: 101, 0.5, 0.4583333333333333, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,runAsynchronous(callbackChain.callback callbackChain.executor),METHOD_INVOCATION, line no: 150, 0.5, 0.5, 0.0, 0.12903225806451613
+response != null,INFIX_EXPRESSION, line no: 73,callbackChain.callback,QUALIFIED_NAME, line no: 150, 0.5, 0.5, 0.0, 0.13636363636363635
+response != null,INFIX_EXPRESSION, line no: 73,callbackChain.executor,QUALIFIED_NAME, line no: 150, 0.5, 0.5, 0.0, 0.13636363636363635
+response != null,INFIX_EXPRESSION, line no: 73,callbackChain=callbackChain.next,ASSIGNMENT, line no: 151, 0.5, 0.5, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,callbackChain.next,QUALIFIED_NAME, line no: 151, 0.5, 0.5, 0.0, 0.1111111111111111
+response != null,INFIX_EXPRESSION, line no: 73,"Unexpected timeout while processing " + this,INFIX_EXPRESSION, line no: 175, 0.5, 0.5, 0.0, 0.13333333333333333
+response != null,INFIX_EXPRESSION, line no: 73,"Unexpected timeout while processing ",STRING_LITERAL, line no: 175, 0.5, 0.5, 0.0, 0.15789473684210525
+response != null,INFIX_EXPRESSION, line no: 73,Thread,SIMPLE_NAME, line no: 227, 0.5, 0.375, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,currentThread,SIMPLE_NAME, line no: 227, 0.5, 0.375, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,newOperationTimeoutException(pollCount * pollTimeoutMs),METHOD_INVOCATION, line no: 246, 0.5, 0.5, 0.0, 0.16363636363636364
+response != null,INFIX_EXPRESSION, line no: 73,totalTimeoutMs,SIMPLE_NAME, line no: 297, 0.5, 0.041666666666666664, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,getStackTrace,SIMPLE_NAME, line no: 387, 0.5, 0.5, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,fixRemoteStackTrace,SIMPLE_NAME, line no: 24, 0.48, 0.04, 0.0, 0.15789473684210525
+response,SIMPLE_NAME, line no: 73,timeout,SIMPLE_NAME, line no: 59, 0.48, 0.04, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,severe,SIMPLE_NAME, line no: 101, 0.48, 0.44, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,logger.info("Future response is already set! Current response: " + response + "  Offered response: "+ offeredResponse+ "  Invocation: "+ invocation),METHOD_INVOCATION, line no: 129, 0.48, 0.48, 0.0, 0.05405405405405406
+response,SIMPLE_NAME, line no: 73,runAsynchronous(callbackChain.callback callbackChain.executor),METHOD_INVOCATION, line no: 150, 0.48, 0.48, 0.0, 0.0967741935483871
+response,SIMPLE_NAME, line no: 73,callbackChain.callback,QUALIFIED_NAME, line no: 150, 0.48, 0.48, 0.0, 0.045454545454545456
+response,SIMPLE_NAME, line no: 73,callbackChain.executor,QUALIFIED_NAME, line no: 150, 0.48, 0.48, 0.0, 0.09090909090909091
+response,SIMPLE_NAME, line no: 73,callbackChain=callbackChain.next,ASSIGNMENT, line no: 151, 0.48, 0.48, 0.0, 0.0625
+response,SIMPLE_NAME, line no: 73,callbackChain.next,QUALIFIED_NAME, line no: 151, 0.48, 0.48, 0.0, 0.1111111111111111
+response,SIMPLE_NAME, line no: 73,"Unexpected timeout while processing " + this,INFIX_EXPRESSION, line no: 175, 0.48, 0.48, 0.0, 0.1111111111111111
+response,SIMPLE_NAME, line no: 73,"Unexpected timeout while processing ",STRING_LITERAL, line no: 175, 0.48, 0.48, 0.0, 0.10526315789473684
+response,SIMPLE_NAME, line no: 73,Thread,SIMPLE_NAME, line no: 227, 0.48, 0.36, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,currentThread,SIMPLE_NAME, line no: 227, 0.48, 0.36, 0.0, 0.3076923076923077
+response,SIMPLE_NAME, line no: 73,totalTimeoutMs,SIMPLE_NAME, line no: 297, 0.48, 0.04, 0.0, 0.21428571428571427
+response,SIMPLE_NAME, line no: 73,getStackTrace,SIMPLE_NAME, line no: 387, 0.48, 0.48, 0.0, 0.15384615384615385
+null,NULL_LITERAL, line no: 73,fixRemoteStackTrace,SIMPLE_NAME, line no: 24, 0.48, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,timeout,SIMPLE_NAME, line no: 59, 0.48, 0.04, 0.0, 0.14285714285714285
+null,NULL_LITERAL, line no: 73,severe,SIMPLE_NAME, line no: 101, 0.48, 0.44, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,logger.info("Future response is already set! Current response: " + response + "  Offered response: "+ offeredResponse+ "  Invocation: "+ invocation),METHOD_INVOCATION, line no: 129, 0.48, 0.48, 0.0, 0.02027027027027027
+null,NULL_LITERAL, line no: 73,runAsynchronous(callbackChain.callback callbackChain.executor),METHOD_INVOCATION, line no: 150, 0.48, 0.48, 0.0, 0.06451612903225806
+null,NULL_LITERAL, line no: 73,callbackChain.callback,QUALIFIED_NAME, line no: 150, 0.48, 0.48, 0.0, 0.13636363636363635
+null,NULL_LITERAL, line no: 73,callbackChain.executor,QUALIFIED_NAME, line no: 150, 0.48, 0.48, 0.0, 0.09090909090909091
+null,NULL_LITERAL, line no: 73,callbackChain=callbackChain.next,ASSIGNMENT, line no: 151, 0.48, 0.48, 0.0, 0.09375
+null,NULL_LITERAL, line no: 73,callbackChain.next,QUALIFIED_NAME, line no: 151, 0.48, 0.48, 0.0, 0.1111111111111111
+null,NULL_LITERAL, line no: 73,"Unexpected timeout while processing " + this,INFIX_EXPRESSION, line no: 175, 0.48, 0.48, 0.0, 0.06666666666666667
+null,NULL_LITERAL, line no: 73,"Unexpected timeout while processing ",STRING_LITERAL, line no: 175, 0.48, 0.48, 0.0, 0.07894736842105263
+null,NULL_LITERAL, line no: 73,Thread,SIMPLE_NAME, line no: 227, 0.48, 0.36, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,currentThread,SIMPLE_NAME, line no: 227, 0.48, 0.36, 0.0, 0.07692307692307693
+null,NULL_LITERAL, line no: 73,newOperationTimeoutException(pollCount * pollTimeoutMs),METHOD_INVOCATION, line no: 246, 0.48, 0.48, 0.0, 0.07272727272727272
+null,NULL_LITERAL, line no: 73,totalTimeoutMs,SIMPLE_NAME, line no: 297, 0.48, 0.04, 0.0, 0.07142857142857142
+null,NULL_LITERAL, line no: 73,getStackTrace,SIMPLE_NAME, line no: 387, 0.48, 0.48, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,OperationTimeoutException,SIMPLE_NAME, line no: 4, 0.4583333333333333, 0.041666666666666664, 0.0, 0.2
+response != null,INFIX_EXPRESSION, line no: 73,RESPONSE_FIELD_UPDATER,SIMPLE_NAME, line no: 39, 0.4583333333333333, 0.041666666666666664, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,diff,SIMPLE_NAME, line no: 59, 0.4583333333333333, 0.041666666666666664, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,timeout == Long.MAX_VALUE,INFIX_EXPRESSION, line no: 60, 0.4583333333333333, 0.4583333333333333, 0.0, 0.24
+response != null,INFIX_EXPRESSION, line no: 73,"Failed asynchronous execution of execution callback: " + callback + "for call "+ invocation,INFIX_EXPRESSION, line no: 101, 0.4583333333333333, 0.4583333333333333, 0.0, 0.11956521739130435
+response != null,INFIX_EXPRESSION, line no: 73,"Failed asynchronous execution of execution callback: ",STRING_LITERAL, line no: 101, 0.4583333333333333, 0.4583333333333333, 0.0, 0.2
+response != null,INFIX_EXPRESSION, line no: 73,"for call ",STRING_LITERAL, line no: 102, 0.4583333333333333, 0.4583333333333333, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,invocation.logger.severe("Unexpected timeout while processing " + this e),METHOD_INVOCATION, line no: 175, 0.4583333333333333, 0.4583333333333333, 0.0, 0.0958904109589041
+response != null,INFIX_EXPRESSION, line no: 73,waitForResponse,SIMPLE_NAME, line no: 193, 0.4583333333333333, 0.4583333333333333, 0.0, 0.5
+response != null,INFIX_EXPRESSION, line no: 73,resolveApplicationResponseOrThrowException,SIMPLE_NAME, line no: 194, 0.4583333333333333, 0.4583333333333333, 0.0, 0.21428571428571427
+response != null,INFIX_EXPRESSION, line no: 73,Thread.currentThread(),METHOD_INVOCATION, line no: 227, 0.4583333333333333, 0.3333333333333333, 0.0, 0.18181818181818182
+response != null,INFIX_EXPRESSION, line no: 73,callTimeout > 0,INFIX_EXPRESSION, line no: 279, 0.4583333333333333, 0.4583333333333333, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,"No response for " + totalTimeoutMs + " ms."+ " Aborting invocation! "+ toString()+ " Not all backups have completed! "+ " backups-expected:"+ backupsExpected+ " backups-completed: "+ backupsCompleted,INFIX_EXPRESSION, line no: 303, 0.4583333333333333, 0.4583333333333333, 0.0, 0.075
+response != null,INFIX_EXPRESSION, line no: 73," ms.",STRING_LITERAL, line no: 303, 0.4583333333333333, 0.4583333333333333, 0.0, 0.0625
+response != null,INFIX_EXPRESSION, line no: 73," Aborting invocation! ",STRING_LITERAL, line no: 304, 0.4583333333333333, 0.4583333333333333, 0.0, 0.20833333333333334
+response != null,INFIX_EXPRESSION, line no: 73," Not all backups have completed! ",STRING_LITERAL, line no: 305, 0.4583333333333333, 0.4583333333333333, 0.0, 0.17142857142857143
+response != null,INFIX_EXPRESSION, line no: 73," backups-expected:",STRING_LITERAL, line no: 306, 0.4583333333333333, 0.4583333333333333, 0.0, 0.15
+response != null,INFIX_EXPRESSION, line no: 73," backups-completed: ",STRING_LITERAL, line no: 307, 0.4583333333333333, 0.4583333333333333, 0.0, 0.18181818181818182
+response != null,INFIX_EXPRESSION, line no: 73,"No response for " + totalTimeoutMs + " ms."+ " Aborting invocation! "+ toString()+ " No response has been received! "+ " backups-expected:"+ backupsExpected+ " backups-completed: "+ backupsCompleted,INFIX_EXPRESSION, line no: 309, 0.4583333333333333, 0.4583333333333333, 0.0, 0.07537688442211055
+response != null,INFIX_EXPRESSION, line no: 73," No response has been received! ",STRING_LITERAL, line no: 311, 0.4583333333333333, 0.4583333333333333, 0.0, 0.3235294117647059
+response != null,INFIX_EXPRESSION, line no: 73,Thread.currentThread().getStackTrace(),METHOD_INVOCATION, line no: 387, 0.4583333333333333, 0.4583333333333333, 0.0, 0.10526315789473684
+response != null,INFIX_EXPRESSION, line no: 73,this.callback=callback,ASSIGNMENT, line no: 454, 0.4583333333333333, 0.4583333333333333, 0.0, 0.18181818181818182
+response != null,INFIX_EXPRESSION, line no: 73,this.callback,FIELD_ACCESS, line no: 454, 0.4583333333333333, 0.4583333333333333, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,this.executor=executor,ASSIGNMENT, line no: 455, 0.4583333333333333, 0.4583333333333333, 0.0, 0.18181818181818182
+response != null,INFIX_EXPRESSION, line no: 73,this.executor,FIELD_ACCESS, line no: 455, 0.4583333333333333, 0.4583333333333333, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,this.next=next,ASSIGNMENT, line no: 456, 0.4583333333333333, 0.4583333333333333, 0.0, 0.3125
+response != null,INFIX_EXPRESSION, line no: 73,this.next,FIELD_ACCESS, line no: 456, 0.4583333333333333, 0.4583333333333333, 0.0, 0.1875
+response,SIMPLE_NAME, line no: 73,OperationTimeoutException,SIMPLE_NAME, line no: 4, 0.44, 0.04, 0.0, 0.2
+response,SIMPLE_NAME, line no: 73,RESPONSE_FIELD_UPDATER,SIMPLE_NAME, line no: 39, 0.44, 0.04, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,diff,SIMPLE_NAME, line no: 59, 0.44, 0.04, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,timeout == Long.MAX_VALUE,INFIX_EXPRESSION, line no: 60, 0.44, 0.44, 0.0, 0.12
+response,SIMPLE_NAME, line no: 73,"Failed asynchronous execution of execution callback: " + callback + "for call "+ invocation,INFIX_EXPRESSION, line no: 101, 0.44, 0.44, 0.0, 0.06521739130434782
+response,SIMPLE_NAME, line no: 73,"Failed asynchronous execution of execution callback: ",STRING_LITERAL, line no: 101, 0.44, 0.44, 0.0, 0.10909090909090909
+response,SIMPLE_NAME, line no: 73,"for call ",STRING_LITERAL, line no: 102, 0.44, 0.44, 0.0, 0.09090909090909091
+response,SIMPLE_NAME, line no: 73,invocation.logger.severe("Unexpected timeout while processing " + this e),METHOD_INVOCATION, line no: 175, 0.44, 0.44, 0.0, 0.0958904109589041
+response,SIMPLE_NAME, line no: 73,compareAndSet,SIMPLE_NAME, line no: 221, 0.44, 0.44, 0.0, 0.3076923076923077
+response,SIMPLE_NAME, line no: 73,Thread.currentThread(),METHOD_INVOCATION, line no: 227, 0.44, 0.32, 0.0, 0.18181818181818182
+response,SIMPLE_NAME, line no: 73,callTimeout > 0,INFIX_EXPRESSION, line no: 279, 0.44, 0.44, 0.0, 0.13333333333333333
+response,SIMPLE_NAME, line no: 73,"No response for " + totalTimeoutMs + " ms."+ " Aborting invocation! "+ toString()+ " Not all backups have completed! "+ " backups-expected:"+ backupsExpected+ " backups-completed: "+ backupsCompleted,INFIX_EXPRESSION, line no: 303, 0.44, 0.44, 0.0, 0.04
+response,SIMPLE_NAME, line no: 73," ms.",STRING_LITERAL, line no: 303, 0.44, 0.44, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73," Aborting invocation! ",STRING_LITERAL, line no: 304, 0.44, 0.44, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73," Not all backups have completed! ",STRING_LITERAL, line no: 305, 0.44, 0.44, 0.0, 0.08571428571428572
+response,SIMPLE_NAME, line no: 73," backups-expected:",STRING_LITERAL, line no: 306, 0.44, 0.44, 0.0, 0.15
+response,SIMPLE_NAME, line no: 73," backups-completed: ",STRING_LITERAL, line no: 307, 0.44, 0.44, 0.0, 0.13636363636363635
+response,SIMPLE_NAME, line no: 73,"No response for " + totalTimeoutMs + " ms."+ " Aborting invocation! "+ toString()+ " No response has been received! "+ " backups-expected:"+ backupsExpected+ " backups-completed: "+ backupsCompleted,INFIX_EXPRESSION, line no: 309, 0.44, 0.44, 0.0, 0.04020100502512563
+response,SIMPLE_NAME, line no: 73," No response has been received! ",STRING_LITERAL, line no: 311, 0.44, 0.44, 0.0, 0.23529411764705882
+response,SIMPLE_NAME, line no: 73,fixRemoteStackTrace((Throwable)response Thread.currentThread().getStackTrace()),METHOD_INVOCATION, line no: 387, 0.44, 0.44, 0.0, 0.10126582278481013
+response,SIMPLE_NAME, line no: 73,Thread.currentThread().getStackTrace(),METHOD_INVOCATION, line no: 387, 0.44, 0.44, 0.0, 0.10526315789473684
+response,SIMPLE_NAME, line no: 73,this.callback=callback,ASSIGNMENT, line no: 454, 0.44, 0.44, 0.0, 0.045454545454545456
+response,SIMPLE_NAME, line no: 73,this.callback,FIELD_ACCESS, line no: 454, 0.44, 0.44, 0.0, 0.07692307692307693
+response,SIMPLE_NAME, line no: 73,this.executor=executor,ASSIGNMENT, line no: 455, 0.44, 0.44, 0.0, 0.13636363636363635
+response,SIMPLE_NAME, line no: 73,this.executor,FIELD_ACCESS, line no: 455, 0.44, 0.44, 0.0, 0.15384615384615385
+response,SIMPLE_NAME, line no: 73,this.next=next,ASSIGNMENT, line no: 456, 0.44, 0.44, 0.0, 0.21428571428571427
+response,SIMPLE_NAME, line no: 73,this.next,FIELD_ACCESS, line no: 456, 0.44, 0.44, 0.0, 0.3333333333333333
+null,NULL_LITERAL, line no: 73,OperationTimeoutException,SIMPLE_NAME, line no: 4, 0.44, 0.04, 0.0, 0.08
+null,NULL_LITERAL, line no: 73,RESPONSE_FIELD_UPDATER,SIMPLE_NAME, line no: 39, 0.44, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,diff,SIMPLE_NAME, line no: 59, 0.44, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,timeout == Long.MAX_VALUE,INFIX_EXPRESSION, line no: 60, 0.44, 0.44, 0.0, 0.04
+null,NULL_LITERAL, line no: 73,"Failed asynchronous execution of execution callback: " + callback + "for call "+ invocation,INFIX_EXPRESSION, line no: 101, 0.44, 0.44, 0.0, 0.043478260869565216
+null,NULL_LITERAL, line no: 73,"Failed asynchronous execution of execution callback: ",STRING_LITERAL, line no: 101, 0.44, 0.44, 0.0, 0.07272727272727272
+null,NULL_LITERAL, line no: 73,"for call ",STRING_LITERAL, line no: 102, 0.44, 0.44, 0.0, 0.18181818181818182
+null,NULL_LITERAL, line no: 73,invocation.logger.severe("Unexpected timeout while processing " + this e),METHOD_INVOCATION, line no: 175, 0.44, 0.44, 0.0, 0.0410958904109589
+null,NULL_LITERAL, line no: 73,waitForResponse,SIMPLE_NAME, line no: 193, 0.44, 0.44, 0.0, 0.06666666666666667
+null,NULL_LITERAL, line no: 73,resolveApplicationResponseOrThrowException,SIMPLE_NAME, line no: 194, 0.44, 0.44, 0.0, 0.047619047619047616
+null,NULL_LITERAL, line no: 73,compareAndSet,SIMPLE_NAME, line no: 221, 0.44, 0.44, 0.0, 0.07692307692307693
+null,NULL_LITERAL, line no: 73,Thread.currentThread(),METHOD_INVOCATION, line no: 227, 0.44, 0.32, 0.0, 0.045454545454545456
+null,NULL_LITERAL, line no: 73,callTimeout > 0,INFIX_EXPRESSION, line no: 279, 0.44, 0.44, 0.0, 0.13333333333333333
+null,NULL_LITERAL, line no: 73,"No response for " + totalTimeoutMs + " ms."+ " Aborting invocation! "+ toString()+ " Not all backups have completed! "+ " backups-expected:"+ backupsExpected+ " backups-completed: "+ backupsCompleted,INFIX_EXPRESSION, line no: 303, 0.44, 0.44, 0.0, 0.02
+null,NULL_LITERAL, line no: 73," ms.",STRING_LITERAL, line no: 303, 0.44, 0.44, 0.0, 0.0
+null,NULL_LITERAL, line no: 73," Aborting invocation! ",STRING_LITERAL, line no: 304, 0.44, 0.44, 0.0, 0.041666666666666664
+null,NULL_LITERAL, line no: 73," Not all backups have completed! ",STRING_LITERAL, line no: 305, 0.44, 0.44, 0.0, 0.05714285714285714
+null,NULL_LITERAL, line no: 73," backups-expected:",STRING_LITERAL, line no: 306, 0.44, 0.44, 0.0, 0.05
+null,NULL_LITERAL, line no: 73," backups-completed: ",STRING_LITERAL, line no: 307, 0.44, 0.44, 0.0, 0.09090909090909091
+null,NULL_LITERAL, line no: 73,"No response for " + totalTimeoutMs + " ms."+ " Aborting invocation! "+ toString()+ " No response has been received! "+ " backups-expected:"+ backupsExpected+ " backups-completed: "+ backupsCompleted,INFIX_EXPRESSION, line no: 309, 0.44, 0.44, 0.0, 0.020100502512562814
+null,NULL_LITERAL, line no: 73," No response has been received! ",STRING_LITERAL, line no: 311, 0.44, 0.44, 0.0, 0.029411764705882353
+null,NULL_LITERAL, line no: 73,fixRemoteStackTrace((Throwable)response Thread.currentThread().getStackTrace()),METHOD_INVOCATION, line no: 387, 0.44, 0.44, 0.0, 0.02531645569620253
+null,NULL_LITERAL, line no: 73,Thread.currentThread().getStackTrace(),METHOD_INVOCATION, line no: 387, 0.44, 0.44, 0.0, 0.02631578947368421
+null,NULL_LITERAL, line no: 73,this.callback=callback,ASSIGNMENT, line no: 454, 0.44, 0.44, 0.0, 0.09090909090909091
+null,NULL_LITERAL, line no: 73,this.callback,FIELD_ACCESS, line no: 454, 0.44, 0.44, 0.0, 0.15384615384615385
+null,NULL_LITERAL, line no: 73,this.executor=executor,ASSIGNMENT, line no: 455, 0.44, 0.44, 0.0, 0.045454545454545456
+null,NULL_LITERAL, line no: 73,this.executor,FIELD_ACCESS, line no: 455, 0.44, 0.44, 0.0, 0.07692307692307693
+null,NULL_LITERAL, line no: 73,this.next=next,ASSIGNMENT, line no: 456, 0.44, 0.44, 0.0, 0.07142857142857142
+null,NULL_LITERAL, line no: 73,this.next,FIELD_ACCESS, line no: 456, 0.44, 0.44, 0.0, 0.1111111111111111
+response != null,INFIX_EXPRESSION, line no: 73,timeout - diff,INFIX_EXPRESSION, line no: 64, 0.4166666666666667, 0.4166666666666667, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,invocation.logger.severe("Failed asynchronous execution of execution callback: " + callback + "for call "+ invocation cause),METHOD_INVOCATION, line no: 101, 0.4166666666666667, 0.4166666666666667, 0.0, 0.0967741935483871
+response != null,INFIX_EXPRESSION, line no: 73,"Execution of callback: " + callback + " is rejected!",INFIX_EXPRESSION, line no: 107, 0.4166666666666667, 0.4166666666666667, 0.0, 0.12962962962962962
+response != null,INFIX_EXPRESSION, line no: 73,"Execution of callback: ",STRING_LITERAL, line no: 107, 0.4166666666666667, 0.4166666666666667, 0.0, 0.28
+response != null,INFIX_EXPRESSION, line no: 73," is rejected!",STRING_LITERAL, line no: 107, 0.4166666666666667, 0.4166666666666667, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,waitForResponse(timeout unit),METHOD_INVOCATION, line no: 193, 0.4166666666666667, 0.4166666666666667, 0.0, 0.3103448275862069
+response != null,INFIX_EXPRESSION, line no: 73,(E)resolveApplicationResponseOrThrowException(unresolvedResponse),CAST_EXPRESSION, line no: 194, 0.4166666666666667, 0.4166666666666667, 0.0, 0.16923076923076924
+response != null,INFIX_EXPRESSION, line no: 73,resolveApplicationResponseOrThrowException(unresolvedResponse),METHOD_INVOCATION, line no: 194, 0.4166666666666667, 0.4166666666666667, 0.0, 0.1774193548387097
+response != null,INFIX_EXPRESSION, line no: 73,RESPONSE_FIELD_UPDATER.compareAndSet(this BasicInvocation.WAIT_RESPONSE null),METHOD_INVOCATION, line no: 221, 0.4166666666666667, 0.4166666666666667, 0.0, 0.11688311688311688
+response != null,INFIX_EXPRESSION, line no: 73,new OperationTimeoutException("No response for " + totalTimeoutMs + " ms."+ " Aborting invocation! "+ toString()+ " Not all backups have completed! "+ " backups-expected:"+ backupsExpected+ " backups-completed: "+ backupsCompleted),CLASS_INSTANCE_CREATION, line no: 303, 0.4166666666666667, 0.4166666666666667, 0.0, 0.06493506493506493
+response != null,INFIX_EXPRESSION, line no: 73,new OperationTimeoutException("No response for " + totalTimeoutMs + " ms."+ " Aborting invocation! "+ toString()+ " No response has been received! "+ " backups-expected:"+ backupsExpected+ " backups-completed: "+ backupsCompleted),CLASS_INSTANCE_CREATION, line no: 309, 0.4166666666666667, 0.4166666666666667, 0.0, 0.06521739130434782
+response != null,INFIX_EXPRESSION, line no: 73,"While asking 'is-executing': " + toString(),INFIX_EXPRESSION, line no: 423, 0.4166666666666667, 0.4166666666666667, 0.0, 0.18181818181818182
+response != null,INFIX_EXPRESSION, line no: 73,"While asking 'is-executing': ",STRING_LITERAL, line no: 423, 0.4166666666666667, 0.4166666666666667, 0.0, 0.1935483870967742
+response,SIMPLE_NAME, line no: 73,timeout - diff,INFIX_EXPRESSION, line no: 64, 0.4, 0.4, 0.0, 0.14285714285714285
+response,SIMPLE_NAME, line no: 73,invocation.logger.severe("Failed asynchronous execution of execution callback: " + callback + "for call "+ invocation cause),METHOD_INVOCATION, line no: 101, 0.4, 0.4, 0.0, 0.056451612903225805
+response,SIMPLE_NAME, line no: 73,"Execution of callback: " + callback + " is rejected!",INFIX_EXPRESSION, line no: 107, 0.4, 0.4, 0.0, 0.09259259259259259
+response,SIMPLE_NAME, line no: 73,"Execution of callback: ",STRING_LITERAL, line no: 107, 0.4, 0.4, 0.0, 0.12
+response,SIMPLE_NAME, line no: 73," is rejected!",STRING_LITERAL, line no: 107, 0.4, 0.4, 0.0, 0.2
+response,SIMPLE_NAME, line no: 73,(E)resolveApplicationResponseOrThrowException(unresolvedResponse),CAST_EXPRESSION, line no: 194, 0.4, 0.4, 0.0, 0.12307692307692308
+response,SIMPLE_NAME, line no: 73,RESPONSE_FIELD_UPDATER.compareAndSet(this BasicInvocation.WAIT_RESPONSE null),METHOD_INVOCATION, line no: 221, 0.4, 0.4, 0.0, 0.06493506493506493
+response,SIMPLE_NAME, line no: 73,new OperationTimeoutException("No response for " + totalTimeoutMs + " ms."+ " Aborting invocation! "+ toString()+ " Not all backups have completed! "+ " backups-expected:"+ backupsExpected+ " backups-completed: "+ backupsCompleted),CLASS_INSTANCE_CREATION, line no: 303, 0.4, 0.4, 0.0, 0.03463203463203463
+response,SIMPLE_NAME, line no: 73,new OperationTimeoutException("No response for " + totalTimeoutMs + " ms."+ " Aborting invocation! "+ toString()+ " No response has been received! "+ " backups-expected:"+ backupsExpected+ " backups-completed: "+ backupsCompleted),CLASS_INSTANCE_CREATION, line no: 309, 0.4, 0.4, 0.0, 0.034782608695652174
+response,SIMPLE_NAME, line no: 73,"While asking 'is-executing': " + toString(),INFIX_EXPRESSION, line no: 423, 0.4, 0.4, 0.0, 0.11363636363636363
+response,SIMPLE_NAME, line no: 73,"While asking 'is-executing': ",STRING_LITERAL, line no: 423, 0.4, 0.4, 0.0, 0.16129032258064516
+null,NULL_LITERAL, line no: 73,timeout - diff,INFIX_EXPRESSION, line no: 64, 0.4, 0.4, 0.0, 0.07142857142857142
+null,NULL_LITERAL, line no: 73,invocation.logger.severe("Failed asynchronous execution of execution callback: " + callback + "for call "+ invocation cause),METHOD_INVOCATION, line no: 101, 0.4, 0.4, 0.0, 0.03225806451612903
+null,NULL_LITERAL, line no: 73,"Execution of callback: " + callback + " is rejected!",INFIX_EXPRESSION, line no: 107, 0.4, 0.4, 0.0, 0.05555555555555555
+null,NULL_LITERAL, line no: 73,"Execution of callback: ",STRING_LITERAL, line no: 107, 0.4, 0.4, 0.0, 0.12
+null,NULL_LITERAL, line no: 73," is rejected!",STRING_LITERAL, line no: 107, 0.4, 0.4, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,waitForResponse(timeout unit),METHOD_INVOCATION, line no: 193, 0.4, 0.4, 0.0, 0.06896551724137931
+null,NULL_LITERAL, line no: 73,(E)resolveApplicationResponseOrThrowException(unresolvedResponse),CAST_EXPRESSION, line no: 194, 0.4, 0.4, 0.0, 0.046153846153846156
+null,NULL_LITERAL, line no: 73,resolveApplicationResponseOrThrowException(unresolvedResponse),METHOD_INVOCATION, line no: 194, 0.4, 0.4, 0.0, 0.04838709677419355
+null,NULL_LITERAL, line no: 73,RESPONSE_FIELD_UPDATER.compareAndSet(this BasicInvocation.WAIT_RESPONSE null),METHOD_INVOCATION, line no: 221, 0.4, 0.4, 0.0, 0.05194805194805195
+null,NULL_LITERAL, line no: 73,new OperationTimeoutException("No response for " + totalTimeoutMs + " ms."+ " Aborting invocation! "+ toString()+ " Not all backups have completed! "+ " backups-expected:"+ backupsExpected+ " backups-completed: "+ backupsCompleted),CLASS_INSTANCE_CREATION, line no: 303, 0.4, 0.4, 0.0, 0.017316017316017316
+null,NULL_LITERAL, line no: 73,new OperationTimeoutException("No response for " + totalTimeoutMs + " ms."+ " Aborting invocation! "+ toString()+ " No response has been received! "+ " backups-expected:"+ backupsExpected+ " backups-completed: "+ backupsCompleted),CLASS_INSTANCE_CREATION, line no: 309, 0.4, 0.4, 0.0, 0.017391304347826087
+null,NULL_LITERAL, line no: 73,"While asking 'is-executing': " + toString(),INFIX_EXPRESSION, line no: 423, 0.4, 0.4, 0.0, 0.045454545454545456
+null,NULL_LITERAL, line no: 73,"While asking 'is-executing': ",STRING_LITERAL, line no: 423, 0.4, 0.4, 0.0, 0.06451612903225806
+response != null,INFIX_EXPRESSION, line no: 73,runAsynchronous(callback executor),METHOD_INVOCATION, line no: 74, 0.375, 0.375, 0.0, 0.20588235294117646
+response != null,INFIX_EXPRESSION, line no: 73,onResponse,SIMPLE_NAME, line no: 96, 0.375, 0.375, 0.0, 0.4375
+response != null,INFIX_EXPRESSION, line no: 73,onFailure,SIMPLE_NAME, line no: 98, 0.375, 0.375, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,invocation.logger.warning("Execution of callback: " + callback + " is rejected!" e),METHOD_INVOCATION, line no: 107, 0.375, 0.375, 0.0, 0.0963855421686747
+response != null,INFIX_EXPRESSION, line no: 73,rawResponse=((NormalResponse)rawResponse).getValue(),ASSIGNMENT, line no: 161, 0.375, 0.375, 0.0, 0.21153846153846154
+response != null,INFIX_EXPRESSION, line no: 73,((NormalResponse)rawResponse).getValue(),METHOD_INVOCATION, line no: 161, 0.375, 0.375, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,((NormalResponse)rawResponse),PARENTHESIZED_EXPRESSION, line no: 161, 0.375, 0.375, 0.0, 0.3103448275862069
+response != null,INFIX_EXPRESSION, line no: 73,(NormalResponse)rawResponse,CAST_EXPRESSION, line no: 161, 0.375, 0.375, 0.0, 0.3333333333333333
+response != null,INFIX_EXPRESSION, line no: 73,interrupt,SIMPLE_NAME, line no: 227, 0.375, 0.375, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,0L,NUMBER_LITERAL, line no: 282, 0.375, 0.375, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,invocation.logger.warning("While asking 'is-executing': " + toString() e),METHOD_INVOCATION, line no: 423, 0.375, 0.375, 0.0, 0.1232876712328767
+response != null,INFIX_EXPRESSION, line no: 73,IsStillExecutingOperation,SIMPLE_NAME, line no: 434, 0.375, 0.375, 0.0, 0.16
+response != null,INFIX_EXPRESSION, line no: 73,getCallId,SIMPLE_NAME, line no: 434, 0.375, 0.375, 0.0, 0.1875
+response,SIMPLE_NAME, line no: 73,runAsynchronous(callback executor),METHOD_INVOCATION, line no: 74, 0.36, 0.36, 0.0, 0.17647058823529413
+response,SIMPLE_NAME, line no: 73,onResponse,SIMPLE_NAME, line no: 96, 0.36, 0.36, 0.0, 0.7
+response,SIMPLE_NAME, line no: 73,onFailure,SIMPLE_NAME, line no: 98, 0.36, 0.36, 0.0, 0.3333333333333333
+response,SIMPLE_NAME, line no: 73,invocation.logger.warning("Execution of callback: " + callback + " is rejected!" e),METHOD_INVOCATION, line no: 107, 0.36, 0.36, 0.0, 0.07228915662650602
+response,SIMPLE_NAME, line no: 73,((NormalResponse)rawResponse),PARENTHESIZED_EXPRESSION, line no: 161, 0.36, 0.36, 0.0, 0.27586206896551724
+response,SIMPLE_NAME, line no: 73,(NormalResponse)rawResponse,CAST_EXPRESSION, line no: 161, 0.36, 0.36, 0.0, 0.2962962962962963
+response,SIMPLE_NAME, line no: 73,interrupt,SIMPLE_NAME, line no: 227, 0.36, 0.36, 0.0, 0.2222222222222222
+response,SIMPLE_NAME, line no: 73,0L,NUMBER_LITERAL, line no: 282, 0.36, 0.36, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,invocation.logger.warning("While asking 'is-executing': " + toString() e),METHOD_INVOCATION, line no: 423, 0.36, 0.36, 0.0, 0.0821917808219178
+response,SIMPLE_NAME, line no: 73,IsStillExecutingOperation,SIMPLE_NAME, line no: 434, 0.36, 0.36, 0.0, 0.16
+response,SIMPLE_NAME, line no: 73,getCallId,SIMPLE_NAME, line no: 434, 0.36, 0.36, 0.0, 0.1111111111111111
+null,NULL_LITERAL, line no: 73,runAsynchronous(callback executor),METHOD_INVOCATION, line no: 74, 0.36, 0.36, 0.0, 0.11764705882352941
+null,NULL_LITERAL, line no: 73,onResponse,SIMPLE_NAME, line no: 96, 0.36, 0.36, 0.0, 0.1
+null,NULL_LITERAL, line no: 73,onFailure,SIMPLE_NAME, line no: 98, 0.36, 0.36, 0.0, 0.2222222222222222
+null,NULL_LITERAL, line no: 73,invocation.logger.warning("Execution of callback: " + callback + " is rejected!" e),METHOD_INVOCATION, line no: 107, 0.36, 0.36, 0.0, 0.04819277108433735
+null,NULL_LITERAL, line no: 73,rawResponse=((NormalResponse)rawResponse).getValue(),ASSIGNMENT, line no: 161, 0.36, 0.36, 0.0, 0.057692307692307696
+null,NULL_LITERAL, line no: 73,((NormalResponse)rawResponse).getValue(),METHOD_INVOCATION, line no: 161, 0.36, 0.36, 0.0, 0.05
+null,NULL_LITERAL, line no: 73,((NormalResponse)rawResponse),PARENTHESIZED_EXPRESSION, line no: 161, 0.36, 0.36, 0.0, 0.034482758620689655
+null,NULL_LITERAL, line no: 73,(NormalResponse)rawResponse,CAST_EXPRESSION, line no: 161, 0.36, 0.36, 0.0, 0.037037037037037035
+null,NULL_LITERAL, line no: 73,interrupt,SIMPLE_NAME, line no: 227, 0.36, 0.36, 0.0, 0.2222222222222222
+null,NULL_LITERAL, line no: 73,0L,NUMBER_LITERAL, line no: 282, 0.36, 0.36, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,invocation.logger.warning("While asking 'is-executing': " + toString() e),METHOD_INVOCATION, line no: 423, 0.36, 0.36, 0.0, 0.0410958904109589
+null,NULL_LITERAL, line no: 73,IsStillExecutingOperation,SIMPLE_NAME, line no: 434, 0.36, 0.36, 0.0, 0.08
+null,NULL_LITERAL, line no: 73,getCallId,SIMPLE_NAME, line no: 434, 0.36, 0.36, 0.0, 0.2222222222222222
+response != null,INFIX_EXPRESSION, line no: 73,Math,SIMPLE_NAME, line no: 26, 0.3333333333333333, 0.041666666666666664, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,MAX_CALL_TIMEOUT_EXTENSION,SIMPLE_NAME, line no: 36, 0.3333333333333333, 0.041666666666666664, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,andThen,SIMPLE_NAME, line no: 68, 0.3333333333333333, 0.041666666666666664, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,callback.onResponse((E)resp),METHOD_INVOCATION, line no: 96, 0.3333333333333333, 0.3333333333333333, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,(E)resp,CAST_EXPRESSION, line no: 96, 0.3333333333333333, 0.3333333333333333, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,callback.onFailure((Throwable)resp),METHOD_INVOCATION, line no: 98, 0.3333333333333333, 0.3333333333333333, 0.0, 0.11428571428571428
+response != null,INFIX_EXPRESSION, line no: 73,(Throwable)resp,CAST_EXPRESSION, line no: 98, 0.3333333333333333, 0.3333333333333333, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,Thread.currentThread().interrupt(),METHOD_INVOCATION, line no: 227, 0.3333333333333333, 0.3333333333333333, 0.0, 0.17647058823529413
+response != null,INFIX_EXPRESSION, line no: 73,new IsStillExecutingOperation(invocation.op.getCallId()),CLASS_INSTANCE_CREATION, line no: 434, 0.3333333333333333, 0.3333333333333333, 0.0, 0.14285714285714285
+response != null,INFIX_EXPRESSION, line no: 73,invocation.op.getCallId(),METHOD_INVOCATION, line no: 434, 0.3333333333333333, 0.3333333333333333, 0.0, 0.2
+response,SIMPLE_NAME, line no: 73,Math,SIMPLE_NAME, line no: 26, 0.32, 0.04, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,MAX_CALL_TIMEOUT_EXTENSION,SIMPLE_NAME, line no: 36, 0.32, 0.04, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,andThen,SIMPLE_NAME, line no: 68, 0.32, 0.04, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,callback.onResponse((E)resp),METHOD_INVOCATION, line no: 96, 0.32, 0.32, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,(E)resp,CAST_EXPRESSION, line no: 96, 0.32, 0.32, 0.0, 0.5
+response,SIMPLE_NAME, line no: 73,callback.onFailure((Throwable)resp),METHOD_INVOCATION, line no: 98, 0.32, 0.32, 0.0, 0.11428571428571428
+response,SIMPLE_NAME, line no: 73,(Throwable)resp,CAST_EXPRESSION, line no: 98, 0.32, 0.32, 0.0, 0.26666666666666666
+response,SIMPLE_NAME, line no: 73,Thread.currentThread().interrupt(),METHOD_INVOCATION, line no: 227, 0.32, 0.32, 0.0, 0.11764705882352941
+response,SIMPLE_NAME, line no: 73,new IsStillExecutingOperation(invocation.op.getCallId()),CLASS_INSTANCE_CREATION, line no: 434, 0.32, 0.32, 0.0, 0.10714285714285714
+response,SIMPLE_NAME, line no: 73,invocation.op.getCallId(),METHOD_INVOCATION, line no: 434, 0.32, 0.32, 0.0, 0.12
+null,NULL_LITERAL, line no: 73,Math,SIMPLE_NAME, line no: 26, 0.32, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,MAX_CALL_TIMEOUT_EXTENSION,SIMPLE_NAME, line no: 36, 0.32, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,andThen,SIMPLE_NAME, line no: 68, 0.32, 0.04, 0.0, 0.14285714285714285
+null,NULL_LITERAL, line no: 73,callback.onResponse((E)resp),METHOD_INVOCATION, line no: 96, 0.32, 0.32, 0.0, 0.07142857142857142
+null,NULL_LITERAL, line no: 73,(E)resp,CAST_EXPRESSION, line no: 96, 0.32, 0.32, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,callback.onFailure((Throwable)resp),METHOD_INVOCATION, line no: 98, 0.32, 0.32, 0.0, 0.08571428571428572
+null,NULL_LITERAL, line no: 73,(Throwable)resp,CAST_EXPRESSION, line no: 98, 0.32, 0.32, 0.0, 0.06666666666666667
+null,NULL_LITERAL, line no: 73,Thread.currentThread().interrupt(),METHOD_INVOCATION, line no: 227, 0.32, 0.32, 0.0, 0.058823529411764705
+null,NULL_LITERAL, line no: 73,new IsStillExecutingOperation(invocation.op.getCallId()),CLASS_INSTANCE_CREATION, line no: 434, 0.32, 0.32, 0.0, 0.07142857142857142
+null,NULL_LITERAL, line no: 73,invocation.op.getCallId(),METHOD_INVOCATION, line no: 434, 0.32, 0.32, 0.0, 0.12
+response != null,INFIX_EXPRESSION, line no: 73,andThen(callback operationService.asyncExecutor),METHOD_INVOCATION, line no: 84, 0.2916666666666667, 0.2916666666666667, 0.0, 0.14583333333333334
+response != null,INFIX_EXPRESSION, line no: 73,rawResponse=BasicInvocation.NULL_RESPONSE,ASSIGNMENT, line no: 165, 0.2916666666666667, 0.2916666666666667, 0.0, 0.24390243902439024
+response != null,INFIX_EXPRESSION, line no: 73,get(Long.MAX_VALUE TimeUnit.MILLISECONDS),METHOD_INVOCATION, line no: 173, 0.2916666666666667, 0.2916666666666667, 0.0, 0.12195121951219512
+response != null,INFIX_EXPRESSION, line no: 73,Math.min(callTimeout MAX_CALL_TIMEOUT_EXTENSION),METHOD_INVOCATION, line no: 280, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0625
+response != null,INFIX_EXPRESSION, line no: 73,"Call " + invocation + " encountered a timeout",INFIX_EXPRESSION, line no: 352, 0.2916666666666667, 0.2916666666666667, 0.0, 0.14893617021276595
+response != null,INFIX_EXPRESSION, line no: 73,"Call ",STRING_LITERAL, line no: 352, 0.2916666666666667, 0.2916666666666667, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73," encountered a timeout",STRING_LITERAL, line no: 352, 0.2916666666666667, 0.2916666666666667, 0.0, 0.2916666666666667
+response != null,INFIX_EXPRESSION, line no: 73,"Call " + invocation + " was interrupted",INFIX_EXPRESSION, line no: 356, 0.2916666666666667, 0.2916666666666667, 0.0, 0.14634146341463414
+response != null,INFIX_EXPRESSION, line no: 73," was interrupted",STRING_LITERAL, line no: 356, 0.2916666666666667, 0.2916666666666667, 0.0, 0.2222222222222222
+response != null,INFIX_EXPRESSION, line no: 73,notify,SIMPLE_NAME, line no: 469, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0625
+response != null,INFIX_EXPRESSION, line no: 73,t,SIMPLE_NAME, line no: 473, 0.2916666666666667, 0.041666666666666664, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,andThen(callback operationService.asyncExecutor),METHOD_INVOCATION, line no: 84, 0.28, 0.28, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,get(Long.MAX_VALUE TimeUnit.MILLISECONDS),METHOD_INVOCATION, line no: 173, 0.28, 0.28, 0.0, 0.0975609756097561
+response,SIMPLE_NAME, line no: 73,Math.min(callTimeout MAX_CALL_TIMEOUT_EXTENSION),METHOD_INVOCATION, line no: 280, 0.28, 0.28, 0.0, 0.041666666666666664
+response,SIMPLE_NAME, line no: 73,"Call " + invocation + " encountered a timeout",INFIX_EXPRESSION, line no: 352, 0.28, 0.28, 0.0, 0.0851063829787234
+response,SIMPLE_NAME, line no: 73,"Call ",STRING_LITERAL, line no: 352, 0.28, 0.28, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73," encountered a timeout",STRING_LITERAL, line no: 352, 0.28, 0.28, 0.0, 0.16666666666666666
+response,SIMPLE_NAME, line no: 73,"Call " + invocation + " was interrupted",INFIX_EXPRESSION, line no: 356, 0.28, 0.28, 0.0, 0.0975609756097561
+response,SIMPLE_NAME, line no: 73," was interrupted",STRING_LITERAL, line no: 356, 0.28, 0.28, 0.0, 0.16666666666666666
+response,SIMPLE_NAME, line no: 73,notify,SIMPLE_NAME, line no: 469, 0.28, 0.28, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,t,SIMPLE_NAME, line no: 473, 0.28, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,andThen(callback operationService.asyncExecutor),METHOD_INVOCATION, line no: 84, 0.28, 0.28, 0.0, 0.0625
+null,NULL_LITERAL, line no: 73,rawResponse=BasicInvocation.NULL_RESPONSE,ASSIGNMENT, line no: 165, 0.28, 0.28, 0.0, 0.024390243902439025
+null,NULL_LITERAL, line no: 73,get(Long.MAX_VALUE TimeUnit.MILLISECONDS),METHOD_INVOCATION, line no: 173, 0.28, 0.28, 0.0, 0.024390243902439025
+null,NULL_LITERAL, line no: 73,Math.min(callTimeout MAX_CALL_TIMEOUT_EXTENSION),METHOD_INVOCATION, line no: 280, 0.28, 0.28, 0.0, 0.0625
+null,NULL_LITERAL, line no: 73,"Call " + invocation + " encountered a timeout",INFIX_EXPRESSION, line no: 352, 0.28, 0.28, 0.0, 0.0425531914893617
+null,NULL_LITERAL, line no: 73,"Call ",STRING_LITERAL, line no: 352, 0.28, 0.28, 0.0, 0.2857142857142857
+null,NULL_LITERAL, line no: 73," encountered a timeout",STRING_LITERAL, line no: 352, 0.28, 0.28, 0.0, 0.08333333333333333
+null,NULL_LITERAL, line no: 73,"Call " + invocation + " was interrupted",INFIX_EXPRESSION, line no: 356, 0.28, 0.28, 0.0, 0.04878048780487805
+null,NULL_LITERAL, line no: 73," was interrupted",STRING_LITERAL, line no: 356, 0.28, 0.28, 0.0, 0.1111111111111111
+null,NULL_LITERAL, line no: 73,notify,SIMPLE_NAME, line no: 469, 0.28, 0.28, 0.0, 0.16666666666666666
+null,NULL_LITERAL, line no: 73,t,SIMPLE_NAME, line no: 473, 0.28, 0.04, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,IllegalArgumentException,SIMPLE_NAME, line no: 157, 0.25, 0.25, 0.0, 0.20833333333333334
+response != null,INFIX_EXPRESSION, line no: 73,"response can't be null: " + invocation,INFIX_EXPRESSION, line no: 157, 0.25, 0.25, 0.0, 0.358974358974359
+response != null,INFIX_EXPRESSION, line no: 73,"response can't be null: ",STRING_LITERAL, line no: 157, 0.25, 0.25, 0.0, 0.5384615384615384
+response != null,INFIX_EXPRESSION, line no: 73,decrementAndGet,SIMPLE_NAME, line no: 254, 0.25, 0.25, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,new TimeoutException("Call " + invocation + " encountered a timeout"),CLASS_INSTANCE_CREATION, line no: 352, 0.25, 0.25, 0.0, 0.11594202898550725
+response != null,INFIX_EXPRESSION, line no: 73,new InterruptedException("Call " + invocation + " was interrupted"),CLASS_INSTANCE_CREATION, line no: 356, 0.25, 0.25, 0.0, 0.13432835820895522
+response != null,INFIX_EXPRESSION, line no: 73,callback.notify(response),METHOD_INVOCATION, line no: 469, 0.25, 0.25, 0.0, 0.32
+response != null,INFIX_EXPRESSION, line no: 73,callback.notify(t),METHOD_INVOCATION, line no: 474, 0.25, 0.25, 0.0, 0.1111111111111111
+response,SIMPLE_NAME, line no: 73,IllegalArgumentException,SIMPLE_NAME, line no: 157, 0.24, 0.24, 0.0, 0.20833333333333334
+response,SIMPLE_NAME, line no: 73,"response can't be null: " + invocation,INFIX_EXPRESSION, line no: 157, 0.24, 0.24, 0.0, 0.20512820512820512
+response,SIMPLE_NAME, line no: 73,"response can't be null: ",STRING_LITERAL, line no: 157, 0.24, 0.24, 0.0, 0.3076923076923077
+response,SIMPLE_NAME, line no: 73,decrementAndGet,SIMPLE_NAME, line no: 254, 0.24, 0.24, 0.0, 0.26666666666666666
+response,SIMPLE_NAME, line no: 73,new TimeoutException("Call " + invocation + " encountered a timeout"),CLASS_INSTANCE_CREATION, line no: 352, 0.24, 0.24, 0.0, 0.07246376811594203
+response,SIMPLE_NAME, line no: 73,new InterruptedException("Call " + invocation + " was interrupted"),CLASS_INSTANCE_CREATION, line no: 356, 0.24, 0.24, 0.0, 0.1044776119402985
+response,SIMPLE_NAME, line no: 73,callback.notify(response),METHOD_INVOCATION, line no: 469, 0.24, 0.24, 0.0, 0.32
+response,SIMPLE_NAME, line no: 73,callback.notify(t),METHOD_INVOCATION, line no: 474, 0.24, 0.24, 0.0, 0.05555555555555555
+null,NULL_LITERAL, line no: 73,IllegalArgumentException,SIMPLE_NAME, line no: 157, 0.24, 0.24, 0.0, 0.08333333333333333
+null,NULL_LITERAL, line no: 73,"response can't be null: " + invocation,INFIX_EXPRESSION, line no: 157, 0.24, 0.24, 0.0, 0.10256410256410256
+null,NULL_LITERAL, line no: 73,"response can't be null: ",STRING_LITERAL, line no: 157, 0.24, 0.24, 0.0, 0.15384615384615385
+null,NULL_LITERAL, line no: 73,decrementAndGet,SIMPLE_NAME, line no: 254, 0.24, 0.24, 0.0, 0.06666666666666667
+null,NULL_LITERAL, line no: 73,new TimeoutException("Call " + invocation + " encountered a timeout"),CLASS_INSTANCE_CREATION, line no: 352, 0.24, 0.24, 0.0, 0.057971014492753624
+null,NULL_LITERAL, line no: 73,new InterruptedException("Call " + invocation + " was interrupted"),CLASS_INSTANCE_CREATION, line no: 356, 0.24, 0.24, 0.0, 0.05970149253731343
+null,NULL_LITERAL, line no: 73,callback.notify(response),METHOD_INVOCATION, line no: 469, 0.24, 0.24, 0.0, 0.08
+null,NULL_LITERAL, line no: 73,callback.notify(t),METHOD_INVOCATION, line no: 474, 0.24, 0.24, 0.0, 0.1111111111111111
+response != null,INFIX_EXPRESSION, line no: 73,ExceptionUtil,SIMPLE_NAME, line no: 13, 0.20833333333333334, 0.041666666666666664, 0.0, 0.3125
+response != null,INFIX_EXPRESSION, line no: 73,new IllegalArgumentException("response can't be null: " + invocation),CLASS_INSTANCE_CREATION, line no: 157, 0.20833333333333334, 0.20833333333333334, 0.0, 0.2028985507246377
+response != null,INFIX_EXPRESSION, line no: 73,rethrow,SIMPLE_NAME, line no: 187, 0.20833333333333334, 0.20833333333333334, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,waiterCount.decrementAndGet(),METHOD_INVOCATION, line no: 254, 0.20833333333333334, 0.20833333333333334, 0.0, 0.1724137931034483
+response != null,INFIX_EXPRESSION, line no: 73,timeoutMs=0,ASSIGNMENT, line no: 292, 0.20833333333333334, 0.20833333333333334, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,ExceptionUtil,SIMPLE_NAME, line no: 13, 0.2, 0.04, 0.0, 0.3076923076923077
+response,SIMPLE_NAME, line no: 73,new IllegalArgumentException("response can't be null: " + invocation),CLASS_INSTANCE_CREATION, line no: 157, 0.2, 0.2, 0.0, 0.11594202898550725
+response,SIMPLE_NAME, line no: 73,rethrow,SIMPLE_NAME, line no: 187, 0.2, 0.2, 0.0, 0.375
+response,SIMPLE_NAME, line no: 73,waiterCount.decrementAndGet(),METHOD_INVOCATION, line no: 254, 0.2, 0.2, 0.0, 0.13793103448275862
+response,SIMPLE_NAME, line no: 73,timeoutMs=0,ASSIGNMENT, line no: 292, 0.2, 0.2, 0.0, 0.2727272727272727
+null,NULL_LITERAL, line no: 73,ExceptionUtil,SIMPLE_NAME, line no: 13, 0.2, 0.04, 0.0, 0.15384615384615385
+null,NULL_LITERAL, line no: 73,new IllegalArgumentException("response can't be null: " + invocation),CLASS_INSTANCE_CREATION, line no: 157, 0.2, 0.2, 0.0, 0.057971014492753624
+null,NULL_LITERAL, line no: 73,rethrow,SIMPLE_NAME, line no: 187, 0.2, 0.2, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,waiterCount.decrementAndGet(),METHOD_INVOCATION, line no: 254, 0.2, 0.2, 0.0, 0.034482758620689655
+null,NULL_LITERAL, line no: 73,timeoutMs=0,ASSIGNMENT, line no: 292, 0.2, 0.2, 0.0, 0.09090909090909091
+response != null,INFIX_EXPRESSION, line no: 73,ExceptionUtil.rethrow(throwable),METHOD_INVOCATION, line no: 187, 0.16666666666666666, 0.16666666666666666, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,interrupted=true,ASSIGNMENT, line no: 232, 0.16666666666666666, 0.16666666666666666, 0.0, 0.3125
+response != null,INFIX_EXPRESSION, line no: 73,waiterCount.get(),METHOD_INVOCATION, line no: 286, 0.16666666666666666, 0.16666666666666666, 0.0, 0.23529411764705882
+response,SIMPLE_NAME, line no: 73,ExceptionUtil.rethrow(throwable),METHOD_INVOCATION, line no: 187, 0.16, 0.16, 0.0, 0.15625
+response,SIMPLE_NAME, line no: 73,interrupted=true,ASSIGNMENT, line no: 232, 0.16, 0.16, 0.0, 0.1875
+response,SIMPLE_NAME, line no: 73,waiterCount.get(),METHOD_INVOCATION, line no: 286, 0.16, 0.16, 0.0, 0.23529411764705882
+null,NULL_LITERAL, line no: 73,ExceptionUtil.rethrow(throwable),METHOD_INVOCATION, line no: 187, 0.16, 0.16, 0.0, 0.09375
+null,NULL_LITERAL, line no: 73,interrupted=true,ASSIGNMENT, line no: 232, 0.16, 0.16, 0.0, 0.125
+null,NULL_LITERAL, line no: 73,waiterCount.get(),METHOD_INVOCATION, line no: 286, 0.16, 0.16, 0.0, 0.058823529411764705
+response != null,INFIX_EXPRESSION, line no: 73,get(),METHOD_INVOCATION, line no: 185, 0.125, 0.125, 0.0, 0.0625
+response,SIMPLE_NAME, line no: 73,get(),METHOD_INVOCATION, line no: 185, 0.12, 0.12, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,(ExecutionException)response,CAST_EXPRESSION, line no: 327, 0.12, 0.12, 0.0, 0.2857142857142857
+response,SIMPLE_NAME, line no: 73,(TimeoutException)response,CAST_EXPRESSION, line no: 331, 0.12, 0.12, 0.0, 0.3076923076923077
+response,SIMPLE_NAME, line no: 73,(InterruptedException)response,CAST_EXPRESSION, line no: 335, 0.12, 0.12, 0.0, 0.26666666666666666
+response,SIMPLE_NAME, line no: 73,(Error)response,CAST_EXPRESSION, line no: 339, 0.12, 0.12, 0.0, 0.5333333333333333
+null,NULL_LITERAL, line no: 73,get(),METHOD_INVOCATION, line no: 185, 0.12, 0.12, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,(ExecutionException)response,CAST_EXPRESSION, line no: 327, 0.12, 0.12, 0.0, 0.03571428571428571
+null,NULL_LITERAL, line no: 73,(TimeoutException)response,CAST_EXPRESSION, line no: 331, 0.12, 0.12, 0.0, 0.038461538461538464
+null,NULL_LITERAL, line no: 73,(InterruptedException)response,CAST_EXPRESSION, line no: 335, 0.12, 0.12, 0.0, 0.06666666666666667
+null,NULL_LITERAL, line no: 73,(Error)response,CAST_EXPRESSION, line no: 339, 0.12, 0.12, 0.0, 0.06666666666666667
+response != null,INFIX_EXPRESSION, line no: 73,AtomicInteger,SIMPLE_NAME, line no: 21, 0.08333333333333333, 0.041666666666666664, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,AtomicReferenceFieldUpdater,SIMPLE_NAME, line no: 22, 0.08333333333333333, 0.041666666666666664, 0.0, 0.18518518518518517
+response != null,INFIX_EXPRESSION, line no: 73,BasicInvocationFuture,SIMPLE_NAME, line no: 34, 0.08333333333333333, 0.041666666666666664, 0.0, 0.19047619047619047
+response != null,INFIX_EXPRESSION, line no: 73,newUpdater,SIMPLE_NAME, line no: 40, 0.08333333333333333, 0.08333333333333333, 0.0, 0.1875
+response,SIMPLE_NAME, line no: 73,AtomicInteger,SIMPLE_NAME, line no: 21, 0.08, 0.04, 0.0, 0.23076923076923078
+response,SIMPLE_NAME, line no: 73,AtomicReferenceFieldUpdater,SIMPLE_NAME, line no: 22, 0.08, 0.04, 0.0, 0.14814814814814814
+response,SIMPLE_NAME, line no: 73,BasicInvocationFuture,SIMPLE_NAME, line no: 34, 0.08, 0.04, 0.0, 0.19047619047619047
+response,SIMPLE_NAME, line no: 73,newUpdater,SIMPLE_NAME, line no: 40, 0.08, 0.08, 0.0, 0.3
+null,NULL_LITERAL, line no: 73,AtomicInteger,SIMPLE_NAME, line no: 21, 0.08, 0.04, 0.0, 0.07692307692307693
+null,NULL_LITERAL, line no: 73,AtomicReferenceFieldUpdater,SIMPLE_NAME, line no: 22, 0.08, 0.04, 0.0, 0.07407407407407407
+null,NULL_LITERAL, line no: 73,BasicInvocationFuture,SIMPLE_NAME, line no: 34, 0.08, 0.04, 0.0, 0.09523809523809523
+null,NULL_LITERAL, line no: 73,newUpdater,SIMPLE_NAME, line no: 40, 0.08, 0.08, 0.0, 0.1
+response != null,INFIX_EXPRESSION, line no: 73,com,SIMPLE_NAME, line no: 1, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0625
+response != null,INFIX_EXPRESSION, line no: 73,hazelcast,SIMPLE_NAME, line no: 1, 0.041666666666666664, 0.041666666666666664, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,spi,SIMPLE_NAME, line no: 1, 0.041666666666666664, 0.041666666666666664, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,impl,SIMPLE_NAME, line no: 1, 0.041666666666666664, 0.041666666666666664, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,core,SIMPLE_NAME, line no: 3, 0.041666666666666664, 0.041666666666666664, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,ExecutionCallback,SIMPLE_NAME, line no: 3, 0.041666666666666664, 0.041666666666666664, 0.0, 0.29411764705882354
+response != null,INFIX_EXPRESSION, line no: 73,logging,SIMPLE_NAME, line no: 5, 0.041666666666666664, 0.041666666666666664, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,nio,SIMPLE_NAME, line no: 6, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0625
+response != null,INFIX_EXPRESSION, line no: 73,serialization,SIMPLE_NAME, line no: 7, 0.041666666666666664, 0.041666666666666664, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,Callback,SIMPLE_NAME, line no: 8, 0.041666666666666664, 0.041666666666666664, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,InternalCompletableFuture,SIMPLE_NAME, line no: 9, 0.041666666666666664, 0.041666666666666664, 0.0, 0.2
+response != null,INFIX_EXPRESSION, line no: 73,util,SIMPLE_NAME, line no: 12, 0.041666666666666664, 0.041666666666666664, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,java,SIMPLE_NAME, line no: 15, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,concurrent,SIMPLE_NAME, line no: 15, 0.041666666666666664, 0.041666666666666664, 0.0, 0.25
+response != null,INFIX_EXPRESSION, line no: 73,Executor,SIMPLE_NAME, line no: 16, 0.041666666666666664, 0.041666666666666664, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,atomic,SIMPLE_NAME, line no: 21, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0625
+response != null,INFIX_EXPRESSION, line no: 73,ValidationUtil,SIMPLE_NAME, line no: 25, 0.041666666666666664, 0.041666666666666664, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,lang,SIMPLE_NAME, line no: 26, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0625
+response != null,INFIX_EXPRESSION, line no: 73,60 * 1000,INFIX_EXPRESSION, line no: 36, 0.041666666666666664, 0.041666666666666664, 0.0, 0.125
+response != null,INFIX_EXPRESSION, line no: 73,60,NUMBER_LITERAL, line no: 36, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,1000,NUMBER_LITERAL, line no: 36, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0
+response != null,INFIX_EXPRESSION, line no: 73,AtomicReferenceFieldUpdater.newUpdater(BasicInvocationFuture.class Object.class "response"),METHOD_INVOCATION, line no: 40, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0989010989010989
+response != null,INFIX_EXPRESSION, line no: 73,BasicInvocationFuture.class,TYPE_LITERAL, line no: 40, 0.041666666666666664, 0.041666666666666664, 0.0, 0.18518518518518517
+response != null,INFIX_EXPRESSION, line no: 73,Object.class,TYPE_LITERAL, line no: 40, 0.041666666666666664, 0.041666666666666664, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,"response",STRING_LITERAL, line no: 40, 0.041666666666666664, 0.041666666666666664, 0.0, 0.5
+response != null,INFIX_EXPRESSION, line no: 73,new AtomicInteger(),CLASS_INSTANCE_CREATION, line no: 43, 0.041666666666666664, 0.041666666666666664, 0.0, 0.21052631578947367
+response != null,INFIX_EXPRESSION, line no: 73,BasicOperationService,SIMPLE_NAME, line no: 44, 0.041666666666666664, 0.041666666666666664, 0.0, 0.23809523809523808
+response != null,INFIX_EXPRESSION, line no: 73,getSafely,SIMPLE_NAME, line no: 181, 0.041666666666666664, 0.041666666666666664, 0.0, 0.1875
+response != null,INFIX_EXPRESSION, line no: 73,getWaitingThreadsCount,SIMPLE_NAME, line no: 285, 0.041666666666666664, 0.041666666666666664, 0.0, 0.22727272727272727
+response != null,INFIX_EXPRESSION, line no: 73,String,SIMPLE_NAME, line no: 439, 0.041666666666666664, 0.041666666666666664, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,com,SIMPLE_NAME, line no: 1, 0.04, 0.04, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,hazelcast,SIMPLE_NAME, line no: 1, 0.04, 0.04, 0.0, 0.2222222222222222
+response,SIMPLE_NAME, line no: 73,spi,SIMPLE_NAME, line no: 1, 0.04, 0.04, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,impl,SIMPLE_NAME, line no: 1, 0.04, 0.04, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,core,SIMPLE_NAME, line no: 3, 0.04, 0.04, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,ExecutionCallback,SIMPLE_NAME, line no: 3, 0.04, 0.04, 0.0, 0.17647058823529413
+response,SIMPLE_NAME, line no: 73,logging,SIMPLE_NAME, line no: 5, 0.04, 0.04, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,nio,SIMPLE_NAME, line no: 6, 0.04, 0.04, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,serialization,SIMPLE_NAME, line no: 7, 0.04, 0.04, 0.0, 0.23076923076923078
+response,SIMPLE_NAME, line no: 73,Callback,SIMPLE_NAME, line no: 8, 0.04, 0.04, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,InternalCompletableFuture,SIMPLE_NAME, line no: 9, 0.04, 0.04, 0.0, 0.12
+response,SIMPLE_NAME, line no: 73,util,SIMPLE_NAME, line no: 12, 0.04, 0.04, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,java,SIMPLE_NAME, line no: 15, 0.04, 0.04, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,concurrent,SIMPLE_NAME, line no: 15, 0.04, 0.04, 0.0, 0.3
+response,SIMPLE_NAME, line no: 73,Executor,SIMPLE_NAME, line no: 16, 0.04, 0.04, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,atomic,SIMPLE_NAME, line no: 21, 0.04, 0.04, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,ValidationUtil,SIMPLE_NAME, line no: 25, 0.04, 0.04, 0.0, 0.14285714285714285
+response,SIMPLE_NAME, line no: 73,lang,SIMPLE_NAME, line no: 26, 0.04, 0.04, 0.0, 0.125
+response,SIMPLE_NAME, line no: 73,60 * 1000,INFIX_EXPRESSION, line no: 36, 0.04, 0.04, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,60,NUMBER_LITERAL, line no: 36, 0.04, 0.04, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,1000,NUMBER_LITERAL, line no: 36, 0.04, 0.04, 0.0, 0.0
+response,SIMPLE_NAME, line no: 73,AtomicReferenceFieldUpdater.newUpdater(BasicInvocationFuture.class Object.class "response"),METHOD_INVOCATION, line no: 40, 0.04, 0.04, 0.0, 0.08791208791208792
+response,SIMPLE_NAME, line no: 73,BasicInvocationFuture.class,TYPE_LITERAL, line no: 40, 0.04, 0.04, 0.0, 0.14814814814814814
+response,SIMPLE_NAME, line no: 73,Object.class,TYPE_LITERAL, line no: 40, 0.04, 0.04, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,"response",STRING_LITERAL, line no: 40, 0.04, 0.04, 0.0, 0.8
+response,SIMPLE_NAME, line no: 73,new AtomicInteger(),CLASS_INSTANCE_CREATION, line no: 43, 0.04, 0.04, 0.0, 0.21052631578947367
+response,SIMPLE_NAME, line no: 73,BasicOperationService,SIMPLE_NAME, line no: 44, 0.04, 0.04, 0.0, 0.23809523809523808
+response,SIMPLE_NAME, line no: 73,getSafely,SIMPLE_NAME, line no: 181, 0.04, 0.04, 0.0, 0.2222222222222222
+response,SIMPLE_NAME, line no: 73,getWaitingThreadsCount,SIMPLE_NAME, line no: 285, 0.04, 0.04, 0.0, 0.22727272727272727
+response,SIMPLE_NAME, line no: 73,cancel,SIMPLE_NAME, line no: 396, 0.04, 0.04, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,mayInterruptIfRunning,SIMPLE_NAME, line no: 396, 0.04, 0.04, 0.0, 0.14285714285714285
+response,SIMPLE_NAME, line no: 73,false,BOOLEAN_LITERAL, line no: 397, 0.04, 0.04, 0.0, 0.25
+response,SIMPLE_NAME, line no: 73,isCancelled,SIMPLE_NAME, line no: 401, 0.04, 0.04, 0.0, 0.2727272727272727
+response,SIMPLE_NAME, line no: 73,String,SIMPLE_NAME, line no: 439, 0.04, 0.04, 0.0, 0.25
+null,NULL_LITERAL, line no: 73,com,SIMPLE_NAME, line no: 1, 0.04, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,hazelcast,SIMPLE_NAME, line no: 1, 0.04, 0.04, 0.0, 0.1111111111111111
+null,NULL_LITERAL, line no: 73,spi,SIMPLE_NAME, line no: 1, 0.04, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,impl,SIMPLE_NAME, line no: 1, 0.04, 0.04, 0.0, 0.25
+null,NULL_LITERAL, line no: 73,core,SIMPLE_NAME, line no: 3, 0.04, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,ExecutionCallback,SIMPLE_NAME, line no: 3, 0.04, 0.04, 0.0, 0.17647058823529413
+null,NULL_LITERAL, line no: 73,logging,SIMPLE_NAME, line no: 5, 0.04, 0.04, 0.0, 0.14285714285714285
+null,NULL_LITERAL, line no: 73,nio,SIMPLE_NAME, line no: 6, 0.04, 0.04, 0.0, 0.25
+null,NULL_LITERAL, line no: 73,serialization,SIMPLE_NAME, line no: 7, 0.04, 0.04, 0.0, 0.07692307692307693
+null,NULL_LITERAL, line no: 73,Callback,SIMPLE_NAME, line no: 8, 0.04, 0.04, 0.0, 0.25
+null,NULL_LITERAL, line no: 73,InternalCompletableFuture,SIMPLE_NAME, line no: 9, 0.04, 0.04, 0.0, 0.12
+null,NULL_LITERAL, line no: 73,util,SIMPLE_NAME, line no: 12, 0.04, 0.04, 0.0, 0.5
+null,NULL_LITERAL, line no: 73,java,SIMPLE_NAME, line no: 15, 0.04, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,concurrent,SIMPLE_NAME, line no: 15, 0.04, 0.04, 0.0, 0.2
+null,NULL_LITERAL, line no: 73,Executor,SIMPLE_NAME, line no: 16, 0.04, 0.04, 0.0, 0.125
+null,NULL_LITERAL, line no: 73,atomic,SIMPLE_NAME, line no: 21, 0.04, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,ValidationUtil,SIMPLE_NAME, line no: 25, 0.04, 0.04, 0.0, 0.14285714285714285
+null,NULL_LITERAL, line no: 73,lang,SIMPLE_NAME, line no: 26, 0.04, 0.04, 0.0, 0.25
+null,NULL_LITERAL, line no: 73,60 * 1000,INFIX_EXPRESSION, line no: 36, 0.04, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,60,NUMBER_LITERAL, line no: 36, 0.04, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,1000,NUMBER_LITERAL, line no: 36, 0.04, 0.04, 0.0, 0.0
+null,NULL_LITERAL, line no: 73,AtomicReferenceFieldUpdater.newUpdater(BasicInvocationFuture.class Object.class "response"),METHOD_INVOCATION, line no: 40, 0.04, 0.04, 0.0, 0.04395604395604396
+null,NULL_LITERAL, line no: 73,BasicInvocationFuture.class,TYPE_LITERAL, line no: 40, 0.04, 0.04, 0.0, 0.1111111111111111
+null,NULL_LITERAL, line no: 73,Object.class,TYPE_LITERAL, line no: 40, 0.04, 0.04, 0.0, 0.08333333333333333
+null,NULL_LITERAL, line no: 73,"response",STRING_LITERAL, line no: 40, 0.04, 0.04, 0.0, 0.1
+null,NULL_LITERAL, line no: 73,new AtomicInteger(),CLASS_INSTANCE_CREATION, line no: 43, 0.04, 0.04, 0.0, 0.05263157894736842
+null,NULL_LITERAL, line no: 73,BasicOperationService,SIMPLE_NAME, line no: 44, 0.04, 0.04, 0.0, 0.047619047619047616
+null,NULL_LITERAL, line no: 73,getSafely,SIMPLE_NAME, line no: 181, 0.04, 0.04, 0.0, 0.1111111111111111
+null,NULL_LITERAL, line no: 73,getWaitingThreadsCount,SIMPLE_NAME, line no: 285, 0.04, 0.04, 0.0, 0.09090909090909091
+null,NULL_LITERAL, line no: 73,cancel,SIMPLE_NAME, line no: 396, 0.04, 0.04, 0.0, 0.3333333333333333
+null,NULL_LITERAL, line no: 73,mayInterruptIfRunning,SIMPLE_NAME, line no: 396, 0.04, 0.04, 0.0, 0.09523809523809523
+null,NULL_LITERAL, line no: 73,false,BOOLEAN_LITERAL, line no: 397, 0.04, 0.04, 0.0, 0.2
+null,NULL_LITERAL, line no: 73,isCancelled,SIMPLE_NAME, line no: 401, 0.04, 0.04, 0.0, 0.2727272727272727
+null,NULL_LITERAL, line no: 73,String,SIMPLE_NAME, line no: 439, 0.04, 0.04, 0.0, 0.16666666666666666

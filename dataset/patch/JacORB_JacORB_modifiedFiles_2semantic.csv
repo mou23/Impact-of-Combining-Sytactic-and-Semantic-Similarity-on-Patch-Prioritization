@@ -1,0 +1,1224 @@
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,println,SIMPLE_NAME, line no: 326, 1.0, 0.7142857142857143, 1.0, 0.5242718446601942
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,printImport,SIMPLE_NAME, line no: 329, 1.0, 1.0, 1.0, 0.5436893203883495
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,printClassComment,SIMPLE_NAME, line no: 331, 1.0, 1.0, 1.0, 0.5339805825242718
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,printSerialVersionUID,SIMPLE_NAME, line no: 337, 1.0, 1.0, 1.0, 0.5533980582524272
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,print,SIMPLE_NAME, line no: 631, 1.0, 1.0, 1.0, 0.49514563106796117
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,printInsertExtractMethods,SIMPLE_NAME, line no: 840, 1.0, 1.0, 1.0, 0.5436893203883495
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,printIdMethod,SIMPLE_NAME, line no: 842, 1.0, 1.0, 1.0, 0.5436893203883495
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,close,SIMPLE_NAME, line no: 1005, 1.0, 1.0, 1.0, 0.4854368932038835
+pw,SIMPLE_NAME, line no: 725,PrintWriter,SIMPLE_NAME, line no: 25, 1.0, 0.06666666666666667, 1.0, 0.835820895522388
+pw,SIMPLE_NAME, line no: 725,ps,SIMPLE_NAME, line no: 773, 1.0, 0.06666666666666667, 1.0, 0.9166666666666666
+pw,SIMPLE_NAME, line no: 725,caseWriter,SIMPLE_NAME, line no: 915, 1.0, 1.0, 1.0, 0.7941176470588235
+pw,SIMPLE_NAME, line no: 725,caseWriter=new PrintWriter(bos),ASSIGNMENT, line no: 925, 1.0, 1.0, 1.0, 0.5795454545454546
+pw,SIMPLE_NAME, line no: 725,new PrintWriter(bos),CLASS_INSTANCE_CREATION, line no: 925, 1.0, 1.0, 1.0, 0.5666666666666667
+print,SIMPLE_NAME, line no: 725,println,SIMPLE_NAME, line no: 326, 1.0, 0.7333333333333333, 1.0, 0.9076923076923077
+print,SIMPLE_NAME, line no: 725,printImport(pw),METHOD_INVOCATION, line no: 329, 1.0, 1.0, 1.0, 0.6708860759493671
+print,SIMPLE_NAME, line no: 725,printImport,SIMPLE_NAME, line no: 329, 1.0, 1.0, 1.0, 0.855072463768116
+print,SIMPLE_NAME, line no: 725,printClassComment("union" className pw),METHOD_INVOCATION, line no: 331, 1.0, 1.0, 1.0, 0.49514563106796117
+print,SIMPLE_NAME, line no: 725,printClassComment,SIMPLE_NAME, line no: 331, 1.0, 1.0, 1.0, 0.76
+print,SIMPLE_NAME, line no: 725,pw.println("\timplements org.omg.CORBA.portable.IDLEntity"),METHOD_INVOCATION, line no: 334, 1.0, 1.0, 1.0, 0.4146341463414634
+print,SIMPLE_NAME, line no: 725,pw.println("{"),METHOD_INVOCATION, line no: 335, 1.0, 1.0, 1.0, 0.6708860759493671
+print,SIMPLE_NAME, line no: 725,printSerialVersionUID(pw),METHOD_INVOCATION, line no: 337, 1.0, 1.0, 1.0, 0.5955056179775281
+print,SIMPLE_NAME, line no: 725,printSerialVersionUID,SIMPLE_NAME, line no: 337, 1.0, 1.0, 1.0, 0.7468354430379747
+print,SIMPLE_NAME, line no: 725,pw.println("\tprivate " + ts.typeName() + " discriminator;"),METHOD_INVOCATION, line no: 353, 1.0, 1.0, 1.0, 0.4274193548387097
+print,SIMPLE_NAME, line no: 725,pw.println("\tprivate " + c.element_spec.typeSpec.typeName() + " "+ c.element_spec.declarator.name()+ ";"),METHOD_INVOCATION, line no: 571, 1.0, 1.0, 1.0, 0.3176470588235294
+print,SIMPLE_NAME, line no: 725,pw.println(Environment.NL + "\tpublic " + className+ " ()"),METHOD_INVOCATION, line no: 579, 1.0, 1.0, 1.0, 0.43089430894308944
+print,SIMPLE_NAME, line no: 725,pw.println("\t{"),METHOD_INVOCATION, line no: 580, 1.0, 1.0, 1.0, 0.654320987654321
+print,SIMPLE_NAME, line no: 725,pw.println("\t}" + Environment.NL),METHOD_INVOCATION, line no: 581, 1.0, 1.0, 1.0, 0.5408163265306123
+print,SIMPLE_NAME, line no: 725,pw.println("\tpublic " + ts.typeName() + " discriminator ()"),METHOD_INVOCATION, line no: 587, 1.0, 1.0, 1.0, 0.424
+print,SIMPLE_NAME, line no: 725,pw.println("\t\treturn discriminator;"),METHOD_INVOCATION, line no: 589, 1.0, 1.0, 1.0, 0.5145631067961165
+print,SIMPLE_NAME, line no: 725,pw.println("\tpublic " + c.element_spec.typeSpec.typeName() + " "+ c.element_spec.declarator.name()+ " ()"),METHOD_INVOCATION, line no: 628, 1.0, 1.0, 1.0, 0.30994152046783624
+print,SIMPLE_NAME, line no: 725,pw.print("\t\tif (discriminator != "),METHOD_INVOCATION, line no: 631, 1.0, 1.0, 1.0, 0.504950495049505
+print,SIMPLE_NAME, line no: 725,pw.println(")" + Environment.NL + "\t\t\tthrow new org.omg.CORBA.BAD_OPERATION();"),METHOD_INVOCATION, line no: 666, 1.0, 1.0, 1.0, 0.3469387755102041
+print,SIMPLE_NAME, line no: 725,pw.println("\t\treturn " + c.element_spec.declarator.name() + ";"),METHOD_INVOCATION, line no: 667, 1.0, 1.0, 1.0, 0.4076923076923077
+print,SIMPLE_NAME, line no: 725,pw.println("\tpublic void " + c.element_spec.declarator.name() + " ("+ c.element_spec.typeSpec.typeName()+ " _x)"),METHOD_INVOCATION, line no: 672, 1.0, 1.0, 1.0, 0.30337078651685395
+print,SIMPLE_NAME, line no: 725,pw.print("\t\tdiscriminator = "),METHOD_INVOCATION, line no: 676, 1.0, 1.0, 1.0, 0.5520833333333334
+print,SIMPLE_NAME, line no: 725,pw.println("\t\t" + c.element_spec.declarator.name() + " = _x;"),METHOD_INVOCATION, line no: 686, 1.0, 1.0, 1.0, 0.3984375
+print,SIMPLE_NAME, line no: 725,pw.println("\tpublic void " + c.element_spec.declarator.name() + " ("+ ts.typeName()+ " _discriminator  "+ c.element_spec.typeSpec.typeName()+ " _x)"),METHOD_INVOCATION, line no: 691, 1.0, 1.0, 1.0, 0.2383177570093458
+print,SIMPLE_NAME, line no: 725,pw.print("\t\tif (_discriminator != "),METHOD_INVOCATION, line no: 695, 1.0, 1.0, 1.0, 0.5196078431372549
+print,SIMPLE_NAME, line no: 725,pw.println("\t\tdiscriminator = _discriminator;"),METHOD_INVOCATION, line no: 731, 1.0, 1.0, 1.0, 0.4690265486725664
+print,SIMPLE_NAME, line no: 725,pw.println("}"),METHOD_INVOCATION, line no: 769, 1.0, 1.0, 1.0, 0.6708860759493671
+print,SIMPLE_NAME, line no: 725,printClassComment("union" className ps),METHOD_INVOCATION, line no: 785, 1.0, 0.8, 1.0, 0.5339805825242718
+print,SIMPLE_NAME, line no: 725,ps.println("{"),METHOD_INVOCATION, line no: 789, 1.0, 0.8, 1.0, 0.6708860759493671
+print,SIMPLE_NAME, line no: 725,ps.println("\t{"),METHOD_INVOCATION, line no: 794, 1.0, 0.8, 1.0, 0.654320987654321
+print,SIMPLE_NAME, line no: 725,ps.println("\t}"),METHOD_INVOCATION, line no: 795, 1.0, 0.8, 1.0, 0.6790123456790124
+print,SIMPLE_NAME, line no: 725,ps.println("}"),METHOD_INVOCATION, line no: 817, 1.0, 0.8, 1.0, 0.6708860759493671
+print,SIMPLE_NAME, line no: 725,printImport(ps),METHOD_INVOCATION, line no: 832, 1.0, 1.0, 1.0, 0.6708860759493671
+print,SIMPLE_NAME, line no: 725,ps.println("\tprivate static org.omg.CORBA.TypeCode _type;"),METHOD_INVOCATION, line no: 838, 1.0, 1.0, 1.0, 0.4112903225806452
+print,SIMPLE_NAME, line no: 725,TypeSpec.printInsertExtractMethods(ps typeName()),METHOD_INVOCATION, line no: 840, 1.0, 1.0, 1.0, 0.45132743362831856
+print,SIMPLE_NAME, line no: 725,printInsertExtractMethods,SIMPLE_NAME, line no: 840, 1.0, 1.0, 1.0, 0.6867469879518072
+print,SIMPLE_NAME, line no: 725,printIdMethod(ps),METHOD_INVOCATION, line no: 842, 1.0, 1.0, 1.0, 0.654320987654321
+print,SIMPLE_NAME, line no: 725,printIdMethod,SIMPLE_NAME, line no: 842, 1.0, 1.0, 1.0, 0.8309859154929577
+print,SIMPLE_NAME, line no: 725,ps.println("\tpublic static " + className + " read (org.omg.CORBA.portable.InputStream in)"),METHOD_INVOCATION, line no: 846, 1.0, 1.0, 1.0, 0.3269230769230769
+print,SIMPLE_NAME, line no: 725,ps.println("\t\t{"),METHOD_INVOCATION, line no: 883, 1.0, 0.7333333333333333, 1.0, 0.6144578313253012
+print,SIMPLE_NAME, line no: 725,caseWriter.println(indent1 + case_str + _t.substring(0 _t.lastIndexOf('.') + 1)+ "_"+ _t.substring(_t.lastIndexOf('.') + 1)+ colon_str),METHOD_INVOCATION, line no: 954, 1.0, 1.0, 1.0, 0.2663316582914573
+print,SIMPLE_NAME, line no: 725,caseWriter.println(indent1 + "{"),METHOD_INVOCATION, line no: 967, 1.0, 1.0, 1.0, 0.5463917525773195
+print,SIMPLE_NAME, line no: 725,caseWriter.println(indent2 + t.typeName() + " "+ varname+ ";"),METHOD_INVOCATION, line no: 976, 1.0, 1.0, 1.0, 0.42063492063492064
+print,SIMPLE_NAME, line no: 725,caseWriter.println(indent2 + t.printReadStatement(varname "in")),METHOD_INVOCATION, line no: 977, 1.0, 1.0, 1.0, 0.4140625
+print,SIMPLE_NAME, line no: 725,caseWriter.print(indent2 + "result." + d.name()+ " ("),METHOD_INVOCATION, line no: 978, 1.0, 1.0, 1.0, 0.4491525423728814
+print,SIMPLE_NAME, line no: 725,caseWriter.println(varname + ");"),METHOD_INVOCATION, line no: 983, 1.0, 1.0, 1.0, 0.5204081632653061
+print,SIMPLE_NAME, line no: 725,caseWriter.println(indent1 + "}"),METHOD_INVOCATION, line no: 995, 1.0, 1.0, 1.0, 0.5463917525773195
+print,SIMPLE_NAME, line no: 725,caseWriter.close(),METHOD_INVOCATION, line no: 1005, 1.0, 1.0, 1.0, 0.6071428571428571
+print,SIMPLE_NAME, line no: 725,close,SIMPLE_NAME, line no: 1005, 1.0, 1.0, 1.0, 0.8307692307692308
+print,SIMPLE_NAME, line no: 725,ps.println("\t\t}"),METHOD_INVOCATION, line no: 1053, 1.0, 0.5333333333333333, 1.0, 0.6235294117647059
+print,SIMPLE_NAME, line no: 725,ps.println("\tpublic static void write (org.omg.CORBA.portable.OutputStream out  " + className + " s)"),METHOD_INVOCATION, line no: 1069, 1.0, 1.0, 1.0, 0.30177514792899407
+print,SIMPLE_NAME, line no: 725,caseWriter.println(indent2 + t.printWriteStatement("s." + d.name() + " ()" "out")),METHOD_INVOCATION, line no: 1158, 1.0, 1.0, 1.0, 0.3581081081081081
+print,SIMPLE_NAME, line no: 725,ps.println("\tpublic static org.omg.CORBA.TypeCode type ()"),METHOD_INVOCATION, line no: 1214, 1.0, 1.0, 1.0, 0.42063492063492064
+print,SIMPLE_NAME, line no: 725,ps.println("\t\tif (_type == null)"),METHOD_INVOCATION, line no: 1216, 1.0, 1.0, 1.0, 0.5196078431372549
+print,SIMPLE_NAME, line no: 725,ps.println("\t\t\torg.omg.CORBA.UnionMember[] members = new org.omg.CORBA.UnionMember[" + labels + "];"),METHOD_INVOCATION, line no: 1218, 1.0, 1.0, 1.0, 0.31176470588235294
+print,SIMPLE_NAME, line no: 725,ps.println("\t\t\torg.omg.CORBA.Any label_any;"),METHOD_INVOCATION, line no: 1219, 1.0, 1.0, 1.0, 0.4649122807017544
+print,SIMPLE_NAME, line no: 725,ps.println("\t\t\tlabel_any = org.omg.CORBA.ORB.init().create_any ();"),METHOD_INVOCATION, line no: 1250, 1.0, 1.0, 1.0, 0.40145985401459855
+print,SIMPLE_NAME, line no: 725,ps.print("\t\t\tlabel_any." + tocheck.printInsertExpression() + " (("),METHOD_INVOCATION, line no: 1269, 1.0, 1.0, 1.0, 0.3897058823529412
+print,SIMPLE_NAME, line no: 725,ps.print("\t\t\tlabel_any." + tocheck.printInsertExpression() + " ((short)("),METHOD_INVOCATION, line no: 1273, 1.0, 1.0, 1.0, 0.3706293706293706
+print,SIMPLE_NAME, line no: 725,ps.println(((ConstExpr)o).value() + "));"),METHOD_INVOCATION, line no: 1281, 1.0, 1.0, 1.0, 0.49074074074074076
+print,SIMPLE_NAME, line no: 725,ps.println("\t\t\t" + _t.substring(0 _t.lastIndexOf('.')) + "Helper.insert(label_any  "+ _t+ ");"),METHOD_INVOCATION, line no: 1286, 1.0, 1.0, 1.0, 0.3231707317073171
+print,SIMPLE_NAME, line no: 725,ps.print("\t\t\tmembers[" + (mi++) + "] = new org.omg.CORBA.UnionMember (\""+ d.deEscapeName()+ "\"  label_any  "),METHOD_INVOCATION, line no: 1294, 1.0, 1.0, 1.0, 0.28888888888888886
+print,SIMPLE_NAME, line no: 725,ps.println("null);"),METHOD_INVOCATION, line no: 1318, 1.0, 1.0, 1.0, 0.5930232558139535
+print,SIMPLE_NAME, line no: 725,ps.print("\t\t\t _type = org.omg.CORBA.ORB.init().create_union_tc(id() \"" + className() + "\" "),METHOD_INVOCATION, line no: 1321, 1.0, 1.0, 1.0, 0.32515337423312884
+print,SIMPLE_NAME, line no: 725,ps.println(switch_type_spec.typeSpec().getTypeCodeExpression() + "  members);"),METHOD_INVOCATION, line no: 1322, 1.0, 1.0, 1.0, 0.36551724137931035
+print,SIMPLE_NAME, line no: 725,ps.println("\t\treturn _type;"),METHOD_INVOCATION, line no: 1324, 1.0, 1.0, 1.0, 0.5463917525773195
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,pack_name,SIMPLE_NAME, line no: 56, 1.0, 0.4, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"",STRING_LITERAL, line no: 56, 1.0, 0.3333333333333333, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,name,SIMPLE_NAME, line no: 65, 1.0, 0.4, 1.0, 0.532608695652174
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,String,SIMPLE_NAME, line no: 99, 1.0, 0.06666666666666667, 1.0, 0.5217391304347826
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,typeName,SIMPLE_NAME, line no: 99, 1.0, 0.06666666666666667, 1.0, 0.5108695652173914
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,className,SIMPLE_NAME, line no: 117, 1.0, 0.06666666666666667, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,substring,SIMPLE_NAME, line no: 122, 1.0, 0.4666666666666667, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,")",STRING_LITERAL, line no: 129, 1.0, 0.4, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,printWriteStatement,SIMPLE_NAME, line no: 132, 1.0, 0.06666666666666667, 1.0, 0.5760869565217391
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,");",STRING_LITERAL, line no: 134, 1.0, 0.4666666666666667, 1.0, 0.5217391304347826
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Helper",STRING_LITERAL, line no: 144, 1.0, 0.3333333333333333, 1.0, 0.532608695652174
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,getTypeCodeExpression,SIMPLE_NAME, line no: 302, 1.0, 0.06666666666666667, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,";",STRING_LITERAL, line no: 326, 1.0, 0.7333333333333333, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"union",STRING_LITERAL, line no: 331, 1.0, 1.0, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"public",STRING_LITERAL, line no: 333, 1.0, 1.0, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," class ",STRING_LITERAL, line no: 333, 1.0, 1.0, 1.0, 0.5652173913043478
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\timplements org.omg.CORBA.portable.IDLEntity",STRING_LITERAL, line no: 334, 1.0, 1.0, 1.0, 0.5092592592592593
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"{",STRING_LITERAL, line no: 335, 1.0, 1.0, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\tprivate ",STRING_LITERAL, line no: 353, 1.0, 1.0, 1.0, 0.5978260869565217
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," discriminator;",STRING_LITERAL, line no: 353, 1.0, 1.0, 1.0, 0.6956521739130435
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,defaultStr,SIMPLE_NAME, line no: 357, 1.0, 1.0, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,value,SIMPLE_NAME, line no: 379, 1.0, 0.7333333333333333, 1.0, 0.532608695652174
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,charStr,SIMPLE_NAME, line no: 469, 1.0, 1.0, 1.0, 0.532608695652174
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," ",STRING_LITERAL, line no: 572, 1.0, 1.0, 1.0, 0.5760869565217391
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,NL,SIMPLE_NAME, line no: 579, 1.0, 1.0, 1.0, 0.5108695652173914
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\tpublic ",STRING_LITERAL, line no: 579, 1.0, 1.0, 1.0, 0.5760869565217391
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," ()",STRING_LITERAL, line no: 579, 1.0, 1.0, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t{",STRING_LITERAL, line no: 580, 1.0, 1.0, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t}",STRING_LITERAL, line no: 581, 1.0, 1.0, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," discriminator ()",STRING_LITERAL, line no: 587, 1.0, 1.0, 1.0, 0.7065217391304348
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\treturn discriminator;",STRING_LITERAL, line no: 589, 1.0, 1.0, 1.0, 0.6956521739130435
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\tif (discriminator != ",STRING_LITERAL, line no: 631, 1.0, 1.0, 1.0, 0.717391304347826
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," && discriminator != ",STRING_LITERAL, line no: 648, 1.0, 0.6666666666666666, 1.0, 0.75
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,lab,SIMPLE_NAME, line no: 658, 1.0, 0.8, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\t\tthrow new org.omg.CORBA.BAD_OPERATION();",STRING_LITERAL, line no: 666, 1.0, 1.0, 1.0, 0.47706422018348627
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\treturn ",STRING_LITERAL, line no: 667, 1.0, 1.0, 1.0, 0.5869565217391305
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\tpublic void ",STRING_LITERAL, line no: 672, 1.0, 1.0, 1.0, 0.6086956521739131
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," (",STRING_LITERAL, line no: 673, 1.0, 1.0, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," _x)",STRING_LITERAL, line no: 673, 1.0, 1.0, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\tdiscriminator = ",STRING_LITERAL, line no: 676, 1.0, 1.0, 1.0, 0.717391304347826
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\t",STRING_LITERAL, line no: 686, 1.0, 1.0, 1.0, 0.532608695652174
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," = _x;",STRING_LITERAL, line no: 686, 1.0, 1.0, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," _discriminator  ",STRING_LITERAL, line no: 692, 1.0, 1.0, 1.0, 0.7065217391304348
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\tif (_discriminator != ",STRING_LITERAL, line no: 695, 1.0, 1.0, 1.0, 0.7391304347826086
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\tdiscriminator = _discriminator;",STRING_LITERAL, line no: 731, 1.0, 1.0, 1.0, 0.673469387755102
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"}",STRING_LITERAL, line no: 769, 1.0, 1.0, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\tprivate static org.omg.CORBA.TypeCode _type;",STRING_LITERAL, line no: 838, 1.0, 1.0, 1.0, 0.5045871559633027
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\tpublic static ",STRING_LITERAL, line no: 846, 1.0, 1.0, 1.0, 0.5760869565217391
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," read (org.omg.CORBA.portable.InputStream in)",STRING_LITERAL, line no: 846, 1.0, 1.0, 1.0, 0.5185185185185185
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,indent1,SIMPLE_NAME, line no: 866, 1.0, 1.0, 1.0, 0.5217391304347826
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\t\t",STRING_LITERAL, line no: 866, 1.0, 1.0, 1.0, 0.532608695652174
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,indent2,SIMPLE_NAME, line no: 867, 1.0, 1.0, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\t\t\t",STRING_LITERAL, line no: 867, 1.0, 1.0, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,case_str,SIMPLE_NAME, line no: 874, 1.0, 1.0, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"case ",STRING_LITERAL, line no: 874, 1.0, 1.0, 1.0, 0.5760869565217391
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,colon_str,SIMPLE_NAME, line no: 875, 1.0, 1.0, 1.0, 0.5760869565217391
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,":",STRING_LITERAL, line no: 875, 1.0, 1.0, 1.0, 0.5652173913043478
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,default_str,SIMPLE_NAME, line no: 876, 1.0, 1.0, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"default:",STRING_LITERAL, line no: 876, 1.0, 1.0, 1.0, 0.5760869565217391
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\t{",STRING_LITERAL, line no: 883, 1.0, 0.6666666666666666, 1.0, 0.532608695652174
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,printReadStatement,SIMPLE_NAME, line no: 888, 1.0, 0.8666666666666667, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"in",STRING_LITERAL, line no: 888, 1.0, 0.8666666666666667, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,defaultCases,SIMPLE_NAME, line no: 918, 1.0, 1.0, 1.0, 0.532608695652174
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,_t,SIMPLE_NAME, line no: 951, 1.0, 1.0, 1.0, 0.5217391304347826
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"_",STRING_LITERAL, line no: 956, 1.0, 1.0, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,varname,SIMPLE_NAME, line no: 975, 1.0, 1.0, 1.0, 0.5652173913043478
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"_var",STRING_LITERAL, line no: 975, 1.0, 1.0, 1.0, 0.5869565217391305
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"result.",STRING_LITERAL, line no: 978, 1.0, 1.0, 1.0, 0.5652173913043478
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\t}",STRING_LITERAL, line no: 1053, 1.0, 0.5333333333333333, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\tpublic static void write (org.omg.CORBA.portable.OutputStream out  ",STRING_LITERAL, line no: 1069, 1.0, 1.0, 1.0, 0.44029850746268656
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," s)",STRING_LITERAL, line no: 1069, 1.0, 1.0, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"out",STRING_LITERAL, line no: 1082, 1.0, 0.8666666666666667, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"s.",STRING_LITERAL, line no: 1158, 1.0, 1.0, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\tpublic static org.omg.CORBA.TypeCode type ()",STRING_LITERAL, line no: 1214, 1.0, 1.0, 1.0, 0.5225225225225225
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\tif (_type == null)",STRING_LITERAL, line no: 1216, 1.0, 1.0, 1.0, 0.5978260869565217
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\t\torg.omg.CORBA.UnionMember[] members = new org.omg.CORBA.UnionMember[",STRING_LITERAL, line no: 1218, 1.0, 1.0, 1.0, 0.4244604316546763
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"];",STRING_LITERAL, line no: 1218, 1.0, 1.0, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\t\torg.omg.CORBA.Any label_any;",STRING_LITERAL, line no: 1219, 1.0, 1.0, 1.0, 0.5656565656565656
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\t\tlabel_any = org.omg.CORBA.ORB.init().create_any ();",STRING_LITERAL, line no: 1250, 1.0, 1.0, 1.0, 0.5
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\t\tlabel_any.",STRING_LITERAL, line no: 1269, 1.0, 1.0, 1.0, 0.5760869565217391
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,printInsertExpression,SIMPLE_NAME, line no: 1269, 1.0, 1.0, 1.0, 0.5652173913043478
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," ((",STRING_LITERAL, line no: 1269, 1.0, 1.0, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," ((short)(",STRING_LITERAL, line no: 1273, 1.0, 1.0, 1.0, 0.5869565217391305
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"));",STRING_LITERAL, line no: 1281, 1.0, 1.0, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Helper.insert(label_any  ",STRING_LITERAL, line no: 1287, 1.0, 1.0, 1.0, 0.6086956521739131
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\t\tmembers[",STRING_LITERAL, line no: 1296, 1.0, 1.0, 1.0, 0.5652173913043478
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"] = new org.omg.CORBA.UnionMember (\"",STRING_LITERAL, line no: 1298, 1.0, 1.0, 1.0, 0.5686274509803921
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,deEscapeName,SIMPLE_NAME, line no: 1299, 1.0, 1.0, 1.0, 0.5652173913043478
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\"  label_any  ",STRING_LITERAL, line no: 1300, 1.0, 1.0, 1.0, 0.5652173913043478
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"null);",STRING_LITERAL, line no: 1318, 1.0, 1.0, 1.0, 0.532608695652174
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\t\t _type = org.omg.CORBA.ORB.init().create_union_tc(id() \"",STRING_LITERAL, line no: 1321, 1.0, 1.0, 1.0, 0.4609375
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\" ",STRING_LITERAL, line no: 1321, 1.0, 1.0, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"  members);",STRING_LITERAL, line no: 1322, 1.0, 1.0, 1.0, 0.5760869565217391
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\treturn _type;",STRING_LITERAL, line no: 1324, 1.0, 1.0, 1.0, 0.5869565217391305
+" && discriminator != ",STRING_LITERAL, line no: 725,pack_name,SIMPLE_NAME, line no: 56, 1.0, 0.375, 1.0, 0.6071428571428571
+" && discriminator != ",STRING_LITERAL, line no: 725,"",STRING_LITERAL, line no: 56, 1.0, 0.375, 1.0, 0.7023809523809523
+" && discriminator != ",STRING_LITERAL, line no: 725,name,SIMPLE_NAME, line no: 65, 1.0, 0.375, 1.0, 0.5952380952380952
+" && discriminator != ",STRING_LITERAL, line no: 725,String,SIMPLE_NAME, line no: 99, 1.0, 0.0625, 1.0, 0.5833333333333334
+" && discriminator != ",STRING_LITERAL, line no: 725,typeName,SIMPLE_NAME, line no: 99, 1.0, 0.0625, 1.0, 0.5595238095238095
+" && discriminator != ",STRING_LITERAL, line no: 725,className,SIMPLE_NAME, line no: 117, 1.0, 0.0625, 1.0, 0.5952380952380952
+" && discriminator != ",STRING_LITERAL, line no: 725,typeName(),METHOD_INVOCATION, line no: 119, 1.0, 0.5, 1.0, 0.5476190476190477
+" && discriminator != ",STRING_LITERAL, line no: 725,substring,SIMPLE_NAME, line no: 122, 1.0, 0.4375, 1.0, 0.6190476190476191
+" && discriminator != ",STRING_LITERAL, line no: 725,")",STRING_LITERAL, line no: 129, 1.0, 0.4375, 1.0, 0.7023809523809523
+" && discriminator != ",STRING_LITERAL, line no: 725,printWriteStatement,SIMPLE_NAME, line no: 132, 1.0, 0.0625, 1.0, 0.6428571428571429
+" && discriminator != ",STRING_LITERAL, line no: 725,");",STRING_LITERAL, line no: 134, 1.0, 0.5, 1.0, 0.6785714285714286
+" && discriminator != ",STRING_LITERAL, line no: 725,"Helper",STRING_LITERAL, line no: 144, 1.0, 0.375, 1.0, 0.6904761904761905
+" && discriminator != ",STRING_LITERAL, line no: 725,ts.typeName(),METHOD_INVOCATION, line no: 275, 1.0, 0.75, 1.0, 0.6071428571428571
+" && discriminator != ",STRING_LITERAL, line no: 725,getTypeCodeExpression,SIMPLE_NAME, line no: 302, 1.0, 0.0625, 1.0, 0.6190476190476191
+" && discriminator != ",STRING_LITERAL, line no: 725,";",STRING_LITERAL, line no: 326, 1.0, 0.75, 1.0, 0.7023809523809523
+" && discriminator != ",STRING_LITERAL, line no: 725,"union",STRING_LITERAL, line no: 331, 1.0, 1.0, 1.0, 0.7023809523809523
+" && discriminator != ",STRING_LITERAL, line no: 725,"public",STRING_LITERAL, line no: 333, 1.0, 1.0, 1.0, 0.7023809523809523
+" && discriminator != ",STRING_LITERAL, line no: 725," class ",STRING_LITERAL, line no: 333, 1.0, 1.0, 1.0, 0.7261904761904762
+" && discriminator != ",STRING_LITERAL, line no: 725,"\timplements org.omg.CORBA.portable.IDLEntity",STRING_LITERAL, line no: 334, 1.0, 1.0, 1.0, 0.5833333333333334
+" && discriminator != ",STRING_LITERAL, line no: 725,"{",STRING_LITERAL, line no: 335, 1.0, 1.0, 1.0, 0.7023809523809523
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tprivate " + ts.typeName() + " discriminator;",INFIX_EXPRESSION, line no: 353, 1.0, 1.0, 1.0, 0.5855855855855856
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tprivate ",STRING_LITERAL, line no: 353, 1.0, 1.0, 1.0, 0.7619047619047619
+" && discriminator != ",STRING_LITERAL, line no: 725," discriminator;",STRING_LITERAL, line no: 353, 1.0, 1.0, 1.0, 0.8690476190476191
+" && discriminator != ",STRING_LITERAL, line no: 725,defaultStr,SIMPLE_NAME, line no: 357, 1.0, 1.0, 1.0, 0.6190476190476191
+" && discriminator != ",STRING_LITERAL, line no: 725,value,SIMPLE_NAME, line no: 379, 1.0, 0.6875, 1.0, 0.5833333333333334
+" && discriminator != ",STRING_LITERAL, line no: 725,((ConstExpr)o).value(),METHOD_INVOCATION, line no: 563, 1.0, 0.6875, 1.0, 0.5813953488372093
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tprivate " + c.element_spec.typeSpec.typeName() + " "+ c.element_spec.declarator.name()+ ";",INFIX_EXPRESSION, line no: 571, 1.0, 1.0, 1.0, 0.39490445859872614
+" && discriminator != ",STRING_LITERAL, line no: 725,c.element_spec.typeSpec.typeName(),METHOD_INVOCATION, line no: 571, 1.0, 1.0, 1.0, 0.5204081632653061
+" && discriminator != ",STRING_LITERAL, line no: 725," ",STRING_LITERAL, line no: 572, 1.0, 1.0, 1.0, 0.7380952380952381
+" && discriminator != ",STRING_LITERAL, line no: 725,c.element_spec.declarator.name(),METHOD_INVOCATION, line no: 572, 1.0, 1.0, 1.0, 0.5833333333333334
+" && discriminator != ",STRING_LITERAL, line no: 725,Environment.NL + "\tpublic " + className+ " ()",INFIX_EXPRESSION, line no: 579, 1.0, 1.0, 1.0, 0.509090909090909
+" && discriminator != ",STRING_LITERAL, line no: 725,Environment.NL,QUALIFIED_NAME, line no: 579, 1.0, 1.0, 1.0, 0.6190476190476191
+" && discriminator != ",STRING_LITERAL, line no: 725,NL,SIMPLE_NAME, line no: 579, 1.0, 1.0, 1.0, 0.5714285714285714
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tpublic ",STRING_LITERAL, line no: 579, 1.0, 1.0, 1.0, 0.7380952380952381
+" && discriminator != ",STRING_LITERAL, line no: 725," ()",STRING_LITERAL, line no: 579, 1.0, 1.0, 1.0, 0.7142857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t{",STRING_LITERAL, line no: 580, 1.0, 1.0, 1.0, 0.7142857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t}" + Environment.NL,INFIX_EXPRESSION, line no: 581, 1.0, 1.0, 1.0, 0.6588235294117647
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t}",STRING_LITERAL, line no: 581, 1.0, 1.0, 1.0, 0.7142857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tpublic " + ts.typeName() + " discriminator ()",INFIX_EXPRESSION, line no: 587, 1.0, 1.0, 1.0, 0.5892857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725," discriminator ()",STRING_LITERAL, line no: 587, 1.0, 1.0, 1.0, 0.8809523809523809
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\treturn discriminator;",STRING_LITERAL, line no: 589, 1.0, 1.0, 1.0, 0.8295454545454546
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tpublic " + c.element_spec.typeSpec.typeName() + " "+ c.element_spec.declarator.name()+ " ()",INFIX_EXPRESSION, line no: 628, 1.0, 1.0, 1.0, 0.3924050632911392
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\tif (discriminator != ",STRING_LITERAL, line no: 631, 1.0, 1.0, 1.0, 0.8522727272727273
+" && discriminator != ",STRING_LITERAL, line no: 725,")" + Environment.NL + "\t\t\tthrow new org.omg.CORBA.BAD_OPERATION();",INFIX_EXPRESSION, line no: 666, 1.0, 1.0, 1.0, 0.43283582089552236
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t\tthrow new org.omg.CORBA.BAD_OPERATION();",STRING_LITERAL, line no: 666, 1.0, 1.0, 1.0, 0.5596330275229358
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\treturn " + c.element_spec.declarator.name() + ";",INFIX_EXPRESSION, line no: 667, 1.0, 1.0, 1.0, 0.5213675213675214
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\treturn ",STRING_LITERAL, line no: 667, 1.0, 1.0, 1.0, 0.75
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tpublic void " + c.element_spec.declarator.name() + " ("+ c.element_spec.typeSpec.typeName()+ " _x)",INFIX_EXPRESSION, line no: 672, 1.0, 1.0, 1.0, 0.37575757575757573
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tpublic void ",STRING_LITERAL, line no: 672, 1.0, 1.0, 1.0, 0.7738095238095238
+" && discriminator != ",STRING_LITERAL, line no: 725," (",STRING_LITERAL, line no: 673, 1.0, 1.0, 1.0, 0.7142857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725," _x)",STRING_LITERAL, line no: 673, 1.0, 1.0, 1.0, 0.7142857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\tdiscriminator = ",STRING_LITERAL, line no: 676, 1.0, 1.0, 1.0, 0.8928571428571429
+" && discriminator != ",STRING_LITERAL, line no: 725,label[0],ARRAY_ACCESS, line no: 678, 1.0, 1.0, 1.0, 0.5595238095238095
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t" + c.element_spec.declarator.name() + " = _x;",INFIX_EXPRESSION, line no: 686, 1.0, 1.0, 1.0, 0.5217391304347826
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t",STRING_LITERAL, line no: 686, 1.0, 1.0, 1.0, 0.6904761904761905
+" && discriminator != ",STRING_LITERAL, line no: 725," = _x;",STRING_LITERAL, line no: 686, 1.0, 1.0, 1.0, 0.7142857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tpublic void " + c.element_spec.declarator.name() + " ("+ ts.typeName()+ " _discriminator  "+ c.element_spec.typeSpec.typeName()+ " _x)",INFIX_EXPRESSION, line no: 691, 1.0, 1.0, 1.0, 0.32338308457711445
+" && discriminator != ",STRING_LITERAL, line no: 725," _discriminator  ",STRING_LITERAL, line no: 692, 1.0, 1.0, 1.0, 0.8809523809523809
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\tif (_discriminator != ",STRING_LITERAL, line no: 695, 1.0, 1.0, 1.0, 0.8651685393258427
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\tdiscriminator = _discriminator;",STRING_LITERAL, line no: 731, 1.0, 1.0, 1.0, 0.7653061224489796
+" && discriminator != ",STRING_LITERAL, line no: 725,"}",STRING_LITERAL, line no: 769, 1.0, 1.0, 1.0, 0.7023809523809523
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tprivate static org.omg.CORBA.TypeCode _type;",STRING_LITERAL, line no: 838, 1.0, 1.0, 1.0, 0.5871559633027523
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tpublic static " + className + " read (org.omg.CORBA.portable.InputStream in)",INFIX_EXPRESSION, line no: 846, 1.0, 1.0, 1.0, 0.3986013986013986
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tpublic static ",STRING_LITERAL, line no: 846, 1.0, 1.0, 1.0, 0.7380952380952381
+" && discriminator != ",STRING_LITERAL, line no: 725," read (org.omg.CORBA.portable.InputStream in)",STRING_LITERAL, line no: 846, 1.0, 1.0, 1.0, 0.6018518518518519
+" && discriminator != ",STRING_LITERAL, line no: 725,indent1,SIMPLE_NAME, line no: 866, 1.0, 1.0, 1.0, 0.5833333333333334
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t\t",STRING_LITERAL, line no: 866, 1.0, 1.0, 1.0, 0.6904761904761905
+" && discriminator != ",STRING_LITERAL, line no: 725,indent2,SIMPLE_NAME, line no: 867, 1.0, 1.0, 1.0, 0.6071428571428571
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t\t\t",STRING_LITERAL, line no: 867, 1.0, 1.0, 1.0, 0.7142857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725,case_str,SIMPLE_NAME, line no: 874, 1.0, 1.0, 1.0, 0.6190476190476191
+" && discriminator != ",STRING_LITERAL, line no: 725,"case ",STRING_LITERAL, line no: 874, 1.0, 1.0, 1.0, 0.7380952380952381
+" && discriminator != ",STRING_LITERAL, line no: 725,colon_str,SIMPLE_NAME, line no: 875, 1.0, 1.0, 1.0, 0.6428571428571429
+" && discriminator != ",STRING_LITERAL, line no: 725,":",STRING_LITERAL, line no: 875, 1.0, 1.0, 1.0, 0.7261904761904762
+" && discriminator != ",STRING_LITERAL, line no: 725,default_str,SIMPLE_NAME, line no: 876, 1.0, 1.0, 1.0, 0.6190476190476191
+" && discriminator != ",STRING_LITERAL, line no: 725,"default:",STRING_LITERAL, line no: 876, 1.0, 1.0, 1.0, 0.7380952380952381
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t{",STRING_LITERAL, line no: 883, 1.0, 0.6875, 1.0, 0.6904761904761905
+" && discriminator != ",STRING_LITERAL, line no: 725,printReadStatement,SIMPLE_NAME, line no: 888, 1.0, 0.875, 1.0, 0.6071428571428571
+" && discriminator != ",STRING_LITERAL, line no: 725,"in",STRING_LITERAL, line no: 888, 1.0, 0.875, 1.0, 0.7023809523809523
+" && discriminator != ",STRING_LITERAL, line no: 725,defaultCases,SIMPLE_NAME, line no: 918, 1.0, 1.0, 1.0, 0.5833333333333334
+" && discriminator != ",STRING_LITERAL, line no: 725,_t,SIMPLE_NAME, line no: 951, 1.0, 0.9375, 1.0, 0.5833333333333334
+" && discriminator != ",STRING_LITERAL, line no: 725,"_",STRING_LITERAL, line no: 956, 1.0, 1.0, 1.0, 0.7023809523809523
+" && discriminator != ",STRING_LITERAL, line no: 725,indent1 + "{",INFIX_EXPRESSION, line no: 967, 1.0, 1.0, 1.0, 0.6428571428571429
+" && discriminator != ",STRING_LITERAL, line no: 725,varname,SIMPLE_NAME, line no: 975, 1.0, 1.0, 1.0, 0.6309523809523809
+" && discriminator != ",STRING_LITERAL, line no: 725,"_var",STRING_LITERAL, line no: 975, 1.0, 1.0, 1.0, 0.75
+" && discriminator != ",STRING_LITERAL, line no: 725,indent2 + t.typeName() + " "+ varname+ ";",INFIX_EXPRESSION, line no: 976, 1.0, 1.0, 1.0, 0.5333333333333333
+" && discriminator != ",STRING_LITERAL, line no: 725,t.typeName(),METHOD_INVOCATION, line no: 976, 1.0, 1.0, 1.0, 0.5714285714285714
+" && discriminator != ",STRING_LITERAL, line no: 725,indent2 + t.printReadStatement(varname "in"),INFIX_EXPRESSION, line no: 977, 1.0, 1.0, 1.0, 0.5327102803738317
+" && discriminator != ",STRING_LITERAL, line no: 725,t.printReadStatement(varname "in"),METHOD_INVOCATION, line no: 977, 1.0, 1.0, 1.0, 0.5510204081632653
+" && discriminator != ",STRING_LITERAL, line no: 725,indent2 + "result." + d.name()+ " (",INFIX_EXPRESSION, line no: 978, 1.0, 1.0, 1.0, 0.5757575757575758
+" && discriminator != ",STRING_LITERAL, line no: 725,"result.",STRING_LITERAL, line no: 978, 1.0, 1.0, 1.0, 0.7261904761904762
+" && discriminator != ",STRING_LITERAL, line no: 725,d.name(),METHOD_INVOCATION, line no: 978, 1.0, 1.0, 1.0, 0.5952380952380952
+" && discriminator != ",STRING_LITERAL, line no: 725,varname + ");",INFIX_EXPRESSION, line no: 983, 1.0, 1.0, 1.0, 0.6190476190476191
+" && discriminator != ",STRING_LITERAL, line no: 725,indent1 + "}",INFIX_EXPRESSION, line no: 995, 1.0, 1.0, 1.0, 0.6428571428571429
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t}",STRING_LITERAL, line no: 1053, 1.0, 0.5625, 1.0, 0.7142857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tpublic static void write (org.omg.CORBA.portable.OutputStream out  " + className + " s)",INFIX_EXPRESSION, line no: 1069, 1.0, 1.0, 1.0, 0.3782051282051282
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tpublic static void write (org.omg.CORBA.portable.OutputStream out  ",STRING_LITERAL, line no: 1069, 1.0, 1.0, 1.0, 0.5074626865671642
+" && discriminator != ",STRING_LITERAL, line no: 725," s)",STRING_LITERAL, line no: 1069, 1.0, 1.0, 1.0, 0.7023809523809523
+" && discriminator != ",STRING_LITERAL, line no: 725,"out",STRING_LITERAL, line no: 1082, 1.0, 0.875, 1.0, 0.7142857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725,defaultCases=null,ASSIGNMENT, line no: 1102, 1.0, 1.0, 1.0, 0.6071428571428571
+" && discriminator != ",STRING_LITERAL, line no: 725,indent2 + t.printWriteStatement("s." + d.name() + " ()" "out"),INFIX_EXPRESSION, line no: 1158, 1.0, 1.0, 1.0, 0.4645669291338583
+" && discriminator != ",STRING_LITERAL, line no: 725,t.printWriteStatement("s." + d.name() + " ()" "out"),METHOD_INVOCATION, line no: 1158, 1.0, 1.0, 1.0, 0.4745762711864407
+" && discriminator != ",STRING_LITERAL, line no: 725,"s." + d.name() + " ()",INFIX_EXPRESSION, line no: 1158, 1.0, 1.0, 1.0, 0.6477272727272727
+" && discriminator != ",STRING_LITERAL, line no: 725,"s.",STRING_LITERAL, line no: 1158, 1.0, 1.0, 1.0, 0.7142857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tpublic static org.omg.CORBA.TypeCode type ()",STRING_LITERAL, line no: 1214, 1.0, 1.0, 1.0, 0.6036036036036037
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\tif (_type == null)",STRING_LITERAL, line no: 1216, 1.0, 1.0, 1.0, 0.735632183908046
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t\torg.omg.CORBA.UnionMember[] members = new org.omg.CORBA.UnionMember[" + labels + "];",INFIX_EXPRESSION, line no: 1218, 1.0, 1.0, 1.0, 0.37579617834394907
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t\torg.omg.CORBA.UnionMember[] members = new org.omg.CORBA.UnionMember[",STRING_LITERAL, line no: 1218, 1.0, 1.0, 1.0, 0.48201438848920863
+" && discriminator != ",STRING_LITERAL, line no: 725,"];",STRING_LITERAL, line no: 1218, 1.0, 1.0, 1.0, 0.7023809523809523
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t\torg.omg.CORBA.Any label_any;",STRING_LITERAL, line no: 1219, 1.0, 1.0, 1.0, 0.6363636363636364
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t\tlabel_any = org.omg.CORBA.ORB.init().create_any ();",STRING_LITERAL, line no: 1250, 1.0, 1.0, 1.0, 0.5737704918032787
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t\tlabel_any." + tocheck.printInsertExpression() + " ((",INFIX_EXPRESSION, line no: 1269, 1.0, 1.0, 1.0, 0.48
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t\tlabel_any.",STRING_LITERAL, line no: 1269, 1.0, 1.0, 1.0, 0.7142857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725,tocheck.printInsertExpression(),METHOD_INVOCATION, line no: 1269, 1.0, 1.0, 1.0, 0.5463917525773195
+" && discriminator != ",STRING_LITERAL, line no: 725,printInsertExpression,SIMPLE_NAME, line no: 1269, 1.0, 1.0, 1.0, 0.6309523809523809
+" && discriminator != ",STRING_LITERAL, line no: 725," ((",STRING_LITERAL, line no: 1269, 1.0, 1.0, 1.0, 0.7142857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t\tlabel_any." + tocheck.printInsertExpression() + " ((short)(",INFIX_EXPRESSION, line no: 1273, 1.0, 1.0, 1.0, 0.45454545454545453
+" && discriminator != ",STRING_LITERAL, line no: 725," ((short)(",STRING_LITERAL, line no: 1273, 1.0, 1.0, 1.0, 0.75
+" && discriminator != ",STRING_LITERAL, line no: 725,((ConstExpr)o).value() + "));",INFIX_EXPRESSION, line no: 1281, 1.0, 1.0, 1.0, 0.5684210526315789
+" && discriminator != ",STRING_LITERAL, line no: 725,"));",STRING_LITERAL, line no: 1281, 1.0, 1.0, 1.0, 0.7023809523809523
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t\t" + _t.substring(0 _t.lastIndexOf('.')) + "Helper.insert(label_any  "+ _t+ ");",INFIX_EXPRESSION, line no: 1286, 1.0, 1.0, 1.0, 0.40397350993377484
+" && discriminator != ",STRING_LITERAL, line no: 725,_t.substring(0 _t.lastIndexOf('.')),METHOD_INVOCATION, line no: 1286, 1.0, 1.0, 1.0, 0.5247524752475248
+" && discriminator != ",STRING_LITERAL, line no: 725,"Helper.insert(label_any  ",STRING_LITERAL, line no: 1287, 1.0, 1.0, 1.0, 0.7111111111111111
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t\tmembers[" + (mi++) + "] = new org.omg.CORBA.UnionMember (\""+ d.deEscapeName()+ "\"  label_any  ",INFIX_EXPRESSION, line no: 1296, 1.0, 1.0, 1.0, 0.34911242603550297
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t\tmembers[",STRING_LITERAL, line no: 1296, 1.0, 1.0, 1.0, 0.7261904761904762
+" && discriminator != ",STRING_LITERAL, line no: 725,"] = new org.omg.CORBA.UnionMember (\"",STRING_LITERAL, line no: 1298, 1.0, 1.0, 1.0, 0.6568627450980392
+" && discriminator != ",STRING_LITERAL, line no: 725,d.deEscapeName(),METHOD_INVOCATION, line no: 1299, 1.0, 1.0, 1.0, 0.6071428571428571
+" && discriminator != ",STRING_LITERAL, line no: 725,deEscapeName,SIMPLE_NAME, line no: 1299, 1.0, 1.0, 1.0, 0.6190476190476191
+" && discriminator != ",STRING_LITERAL, line no: 725,"\"  label_any  ",STRING_LITERAL, line no: 1300, 1.0, 1.0, 1.0, 0.7142857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725,"null);",STRING_LITERAL, line no: 1318, 1.0, 1.0, 1.0, 0.6904761904761905
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t\t _type = org.omg.CORBA.ORB.init().create_union_tc(id() \"" + className() + "\" ",INFIX_EXPRESSION, line no: 1321, 1.0, 1.0, 1.0, 0.40131578947368424
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t\t _type = org.omg.CORBA.ORB.init().create_union_tc(id() \"",STRING_LITERAL, line no: 1321, 1.0, 1.0, 1.0, 0.53125
+" && discriminator != ",STRING_LITERAL, line no: 725,className(),METHOD_INVOCATION, line no: 1321, 1.0, 1.0, 1.0, 0.5833333333333334
+" && discriminator != ",STRING_LITERAL, line no: 725,"\" ",STRING_LITERAL, line no: 1321, 1.0, 1.0, 1.0, 0.7023809523809523
+" && discriminator != ",STRING_LITERAL, line no: 725,switch_type_spec.typeSpec().getTypeCodeExpression() + "  members);",INFIX_EXPRESSION, line no: 1322, 1.0, 1.0, 1.0, 0.4318181818181818
+" && discriminator != ",STRING_LITERAL, line no: 725,switch_type_spec.typeSpec().getTypeCodeExpression(),METHOD_INVOCATION, line no: 1322, 1.0, 1.0, 1.0, 0.452991452991453
+" && discriminator != ",STRING_LITERAL, line no: 725,"  members);",STRING_LITERAL, line no: 1322, 1.0, 1.0, 1.0, 0.7380952380952381
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\treturn _type;",STRING_LITERAL, line no: 1324, 1.0, 1.0, 1.0, 0.75
+lab,SIMPLE_NAME, line no: 725,pack_name,SIMPLE_NAME, line no: 56, 1.0, 0.375, 1.0, 0.8461538461538461
+lab,SIMPLE_NAME, line no: 725,"",STRING_LITERAL, line no: 56, 1.0, 0.3125, 1.0, 0.7868852459016393
+lab,SIMPLE_NAME, line no: 725,name,SIMPLE_NAME, line no: 65, 1.0, 0.4375, 1.0, 0.9016393442622951
+lab,SIMPLE_NAME, line no: 725,String,SIMPLE_NAME, line no: 99, 1.0, 0.0625, 1.0, 0.8387096774193549
+lab,SIMPLE_NAME, line no: 725,typeName,SIMPLE_NAME, line no: 99, 1.0, 0.0625, 1.0, 0.828125
+lab,SIMPLE_NAME, line no: 725,className,SIMPLE_NAME, line no: 117, 1.0, 0.0625, 1.0, 0.835820895522388
+lab,SIMPLE_NAME, line no: 725,typeName(),METHOD_INVOCATION, line no: 119, 1.0, 0.5625, 1.0, 0.6351351351351351
+lab,SIMPLE_NAME, line no: 725,substring,SIMPLE_NAME, line no: 122, 1.0, 0.5, 1.0, 0.8208955223880597
+lab,SIMPLE_NAME, line no: 725,")",STRING_LITERAL, line no: 129, 1.0, 0.375, 1.0, 0.75
+lab,SIMPLE_NAME, line no: 725,printWriteStatement,SIMPLE_NAME, line no: 132, 1.0, 0.0625, 1.0, 0.7142857142857143
+lab,SIMPLE_NAME, line no: 725,");",STRING_LITERAL, line no: 134, 1.0, 0.4375, 1.0, 0.7076923076923077
+lab,SIMPLE_NAME, line no: 725,"Helper",STRING_LITERAL, line no: 144, 1.0, 0.3125, 1.0, 0.6811594202898551
+lab,SIMPLE_NAME, line no: 725,ts.typeName(),METHOD_INVOCATION, line no: 275, 1.0, 0.8125, 1.0, 0.6623376623376623
+lab,SIMPLE_NAME, line no: 725,getTypeCodeExpression,SIMPLE_NAME, line no: 302, 1.0, 0.0625, 1.0, 0.6835443037974683
+lab,SIMPLE_NAME, line no: 725,";",STRING_LITERAL, line no: 326, 1.0, 0.6875, 1.0, 0.75
+lab,SIMPLE_NAME, line no: 725,"union",STRING_LITERAL, line no: 331, 1.0, 1.0, 1.0, 0.6764705882352942
+lab,SIMPLE_NAME, line no: 725,"public",STRING_LITERAL, line no: 333, 1.0, 1.0, 1.0, 0.6811594202898551
+lab,SIMPLE_NAME, line no: 725," class ",STRING_LITERAL, line no: 333, 1.0, 1.0, 1.0, 0.6857142857142857
+lab,SIMPLE_NAME, line no: 725,"\timplements org.omg.CORBA.portable.IDLEntity",STRING_LITERAL, line no: 334, 1.0, 1.0, 1.0, 0.4537037037037037
+lab,SIMPLE_NAME, line no: 725,"{",STRING_LITERAL, line no: 335, 1.0, 1.0, 1.0, 0.75
+lab,SIMPLE_NAME, line no: 725,"\tprivate " + ts.typeName() + " discriminator;",INFIX_EXPRESSION, line no: 353, 1.0, 1.0, 1.0, 0.43243243243243246
+lab,SIMPLE_NAME, line no: 725,"\tprivate ",STRING_LITERAL, line no: 353, 1.0, 1.0, 1.0, 0.6712328767123288
+lab,SIMPLE_NAME, line no: 725," discriminator;",STRING_LITERAL, line no: 353, 1.0, 1.0, 1.0, 0.6282051282051282
+lab,SIMPLE_NAME, line no: 725,defaultStr,SIMPLE_NAME, line no: 357, 1.0, 1.0, 1.0, 0.8088235294117647
+lab,SIMPLE_NAME, line no: 725,value,SIMPLE_NAME, line no: 379, 1.0, 0.75, 1.0, 0.873015873015873
+lab,SIMPLE_NAME, line no: 725,charStr,SIMPLE_NAME, line no: 469, 1.0, 1.0, 1.0, 0.8153846153846154
+lab,SIMPLE_NAME, line no: 725,label[i],ARRAY_ACCESS, line no: 559, 1.0, 0.4375, 1.0, 0.7313432835820896
+lab,SIMPLE_NAME, line no: 725,((ConstExpr)o).value(),METHOD_INVOCATION, line no: 563, 1.0, 0.75, 1.0, 0.5697674418604651
+lab,SIMPLE_NAME, line no: 725,((ScopedName)o).typeName(),METHOD_INVOCATION, line no: 567, 1.0, 0.8125, 1.0, 0.5444444444444444
+lab,SIMPLE_NAME, line no: 725,"\tprivate " + c.element_spec.typeSpec.typeName() + " "+ c.element_spec.declarator.name()+ ";",INFIX_EXPRESSION, line no: 571, 1.0, 1.0, 1.0, 0.3184713375796178
+lab,SIMPLE_NAME, line no: 725,c.element_spec.typeSpec.typeName(),METHOD_INVOCATION, line no: 571, 1.0, 1.0, 1.0, 0.5102040816326531
+lab,SIMPLE_NAME, line no: 725," ",STRING_LITERAL, line no: 572, 1.0, 1.0, 1.0, 0.78125
+lab,SIMPLE_NAME, line no: 725,c.element_spec.declarator.name(),METHOD_INVOCATION, line no: 572, 1.0, 1.0, 1.0, 0.5416666666666666
+lab,SIMPLE_NAME, line no: 725,Environment.NL + "\tpublic " + className+ " ()",INFIX_EXPRESSION, line no: 579, 1.0, 1.0, 1.0, 0.44545454545454544
+lab,SIMPLE_NAME, line no: 725,Environment.NL,QUALIFIED_NAME, line no: 579, 1.0, 1.0, 1.0, 0.6666666666666666
+lab,SIMPLE_NAME, line no: 725,NL,SIMPLE_NAME, line no: 579, 1.0, 1.0, 1.0, 0.8852459016393442
+lab,SIMPLE_NAME, line no: 725,"\tpublic ",STRING_LITERAL, line no: 579, 1.0, 1.0, 1.0, 0.6805555555555556
+lab,SIMPLE_NAME, line no: 725," ()",STRING_LITERAL, line no: 579, 1.0, 1.0, 1.0, 0.7272727272727273
+lab,SIMPLE_NAME, line no: 725,"\t{",STRING_LITERAL, line no: 580, 1.0, 1.0, 1.0, 0.7272727272727273
+lab,SIMPLE_NAME, line no: 725,"\t}" + Environment.NL,INFIX_EXPRESSION, line no: 581, 1.0, 1.0, 1.0, 0.5529411764705883
+lab,SIMPLE_NAME, line no: 725,"\t}",STRING_LITERAL, line no: 581, 1.0, 1.0, 1.0, 0.7272727272727273
+lab,SIMPLE_NAME, line no: 725,"\tpublic " + ts.typeName() + " discriminator ()",INFIX_EXPRESSION, line no: 587, 1.0, 1.0, 1.0, 0.4375
+lab,SIMPLE_NAME, line no: 725," discriminator ()",STRING_LITERAL, line no: 587, 1.0, 1.0, 1.0, 0.6125
+lab,SIMPLE_NAME, line no: 725,"\t\treturn discriminator;",STRING_LITERAL, line no: 589, 1.0, 1.0, 1.0, 0.5568181818181818
+lab,SIMPLE_NAME, line no: 725,"\tpublic " + c.element_spec.typeSpec.typeName() + " "+ c.element_spec.declarator.name()+ " ()",INFIX_EXPRESSION, line no: 628, 1.0, 1.0, 1.0, 0.310126582278481
+lab,SIMPLE_NAME, line no: 725,"\t\tif (discriminator != ",STRING_LITERAL, line no: 631, 1.0, 1.0, 1.0, 0.5340909090909091
+lab,SIMPLE_NAME, line no: 725,")" + Environment.NL + "\t\t\tthrow new org.omg.CORBA.BAD_OPERATION();",INFIX_EXPRESSION, line no: 666, 1.0, 1.0, 1.0, 0.3358208955223881
+lab,SIMPLE_NAME, line no: 725,"\t\t\tthrow new org.omg.CORBA.BAD_OPERATION();",STRING_LITERAL, line no: 666, 1.0, 1.0, 1.0, 0.42201834862385323
+lab,SIMPLE_NAME, line no: 725,"\t\treturn " + c.element_spec.declarator.name() + ";",INFIX_EXPRESSION, line no: 667, 1.0, 1.0, 1.0, 0.4188034188034188
+lab,SIMPLE_NAME, line no: 725,"\t\treturn ",STRING_LITERAL, line no: 667, 1.0, 1.0, 1.0, 0.6486486486486487
+lab,SIMPLE_NAME, line no: 725,"\tpublic void " + c.element_spec.declarator.name() + " ("+ c.element_spec.typeSpec.typeName()+ " _x)",INFIX_EXPRESSION, line no: 672, 1.0, 1.0, 1.0, 0.30303030303030304
+lab,SIMPLE_NAME, line no: 725,"\tpublic void ",STRING_LITERAL, line no: 672, 1.0, 1.0, 1.0, 0.6623376623376623
+lab,SIMPLE_NAME, line no: 725," (",STRING_LITERAL, line no: 673, 1.0, 1.0, 1.0, 0.7384615384615385
+lab,SIMPLE_NAME, line no: 725," _x)",STRING_LITERAL, line no: 673, 1.0, 1.0, 1.0, 0.7164179104477612
+lab,SIMPLE_NAME, line no: 725,"\t\tdiscriminator = ",STRING_LITERAL, line no: 676, 1.0, 1.0, 1.0, 0.5903614457831325
+lab,SIMPLE_NAME, line no: 725,label[0],ARRAY_ACCESS, line no: 678, 1.0, 1.0, 1.0, 0.7313432835820896
+lab,SIMPLE_NAME, line no: 725,"\t\t" + c.element_spec.declarator.name() + " = _x;",INFIX_EXPRESSION, line no: 686, 1.0, 1.0, 1.0, 0.40869565217391307
+lab,SIMPLE_NAME, line no: 725,"\t\t",STRING_LITERAL, line no: 686, 1.0, 1.0, 1.0, 0.6865671641791045
+lab,SIMPLE_NAME, line no: 725," = _x;",STRING_LITERAL, line no: 686, 1.0, 1.0, 1.0, 0.6666666666666666
+lab,SIMPLE_NAME, line no: 725,"\tpublic void " + c.element_spec.declarator.name() + " ("+ ts.typeName()+ " _discriminator  "+ c.element_spec.typeSpec.typeName()+ " _x)",INFIX_EXPRESSION, line no: 691, 1.0, 1.0, 1.0, 0.23383084577114427
+lab,SIMPLE_NAME, line no: 725," _discriminator  ",STRING_LITERAL, line no: 692, 1.0, 1.0, 1.0, 0.6125
+lab,SIMPLE_NAME, line no: 725,"\t\tif (_discriminator != ",STRING_LITERAL, line no: 695, 1.0, 1.0, 1.0, 0.550561797752809
+lab,SIMPLE_NAME, line no: 725,"\t\tdiscriminator = _discriminator;",STRING_LITERAL, line no: 731, 1.0, 1.0, 1.0, 0.5
+lab,SIMPLE_NAME, line no: 725,"}",STRING_LITERAL, line no: 769, 1.0, 1.0, 1.0, 0.75
+lab,SIMPLE_NAME, line no: 725,"\tprivate static org.omg.CORBA.TypeCode _type;",STRING_LITERAL, line no: 838, 1.0, 1.0, 1.0, 0.43119266055045874
+lab,SIMPLE_NAME, line no: 725,"\tpublic static " + className + " read (org.omg.CORBA.portable.InputStream in)",INFIX_EXPRESSION, line no: 846, 1.0, 1.0, 1.0, 0.3356643356643357
+lab,SIMPLE_NAME, line no: 725,"\tpublic static ",STRING_LITERAL, line no: 846, 1.0, 1.0, 1.0, 0.6075949367088608
+lab,SIMPLE_NAME, line no: 725," read (org.omg.CORBA.portable.InputStream in)",STRING_LITERAL, line no: 846, 1.0, 1.0, 1.0, 0.4444444444444444
+lab,SIMPLE_NAME, line no: 725,indent1,SIMPLE_NAME, line no: 866, 1.0, 1.0, 1.0, 0.8
+lab,SIMPLE_NAME, line no: 725,"\t\t\t",STRING_LITERAL, line no: 866, 1.0, 1.0, 1.0, 0.6666666666666666
+lab,SIMPLE_NAME, line no: 725,indent2,SIMPLE_NAME, line no: 867, 1.0, 1.0, 1.0, 0.8307692307692308
+lab,SIMPLE_NAME, line no: 725,"\t\t\t\t",STRING_LITERAL, line no: 867, 1.0, 1.0, 1.0, 0.676056338028169
+lab,SIMPLE_NAME, line no: 725,case_str,SIMPLE_NAME, line no: 874, 1.0, 1.0, 1.0, 0.8333333333333334
+lab,SIMPLE_NAME, line no: 725,"case ",STRING_LITERAL, line no: 874, 1.0, 1.0, 1.0, 0.7205882352941176
+lab,SIMPLE_NAME, line no: 725,colon_str,SIMPLE_NAME, line no: 875, 1.0, 1.0, 1.0, 0.8507462686567164
+lab,SIMPLE_NAME, line no: 725,":",STRING_LITERAL, line no: 875, 1.0, 1.0, 1.0, 0.78125
+lab,SIMPLE_NAME, line no: 725,default_str,SIMPLE_NAME, line no: 876, 1.0, 1.0, 1.0, 0.7971014492753623
+lab,SIMPLE_NAME, line no: 725,"default:",STRING_LITERAL, line no: 876, 1.0, 1.0, 1.0, 0.6901408450704225
+lab,SIMPLE_NAME, line no: 725,"\t\t{",STRING_LITERAL, line no: 883, 1.0, 0.6875, 1.0, 0.6764705882352942
+lab,SIMPLE_NAME, line no: 725,printReadStatement,SIMPLE_NAME, line no: 888, 1.0, 0.875, 1.0, 0.6973684210526315
+lab,SIMPLE_NAME, line no: 725,"in",STRING_LITERAL, line no: 888, 1.0, 0.875, 1.0, 0.7076923076923077
+lab,SIMPLE_NAME, line no: 725,defaultCases,SIMPLE_NAME, line no: 918, 1.0, 1.0, 1.0, 0.7714285714285715
+lab,SIMPLE_NAME, line no: 725,_t,SIMPLE_NAME, line no: 951, 1.0, 1.0, 1.0, 0.8852459016393442
+lab,SIMPLE_NAME, line no: 725,indent1 + case_str + _t.substring(0 _t.lastIndexOf('.') + 1)+ "_"+ _t.substring(_t.lastIndexOf('.') + 1)+ colon_str,INFIX_EXPRESSION, line no: 954, 1.0, 1.0, 1.0, 0.2808988764044944
+lab,SIMPLE_NAME, line no: 725,_t.substring(0 _t.lastIndexOf('.') + 1),METHOD_INVOCATION, line no: 955, 1.0, 1.0, 1.0, 0.4854368932038835
+lab,SIMPLE_NAME, line no: 725,"_",STRING_LITERAL, line no: 956, 1.0, 1.0, 1.0, 0.75
+lab,SIMPLE_NAME, line no: 725,_t.substring(_t.lastIndexOf('.') + 1),METHOD_INVOCATION, line no: 956, 1.0, 1.0, 1.0, 0.49504950495049505
+lab,SIMPLE_NAME, line no: 725,indent1 + "{",INFIX_EXPRESSION, line no: 967, 1.0, 1.0, 1.0, 0.618421052631579
+lab,SIMPLE_NAME, line no: 725,varname,SIMPLE_NAME, line no: 975, 1.0, 1.0, 1.0, 0.8769230769230769
+lab,SIMPLE_NAME, line no: 725,"_var",STRING_LITERAL, line no: 975, 1.0, 1.0, 1.0, 0.7611940298507462
+lab,SIMPLE_NAME, line no: 725,indent2 + t.typeName() + " "+ varname+ ";",INFIX_EXPRESSION, line no: 976, 1.0, 1.0, 1.0, 0.45714285714285713
+lab,SIMPLE_NAME, line no: 725,t.typeName(),METHOD_INVOCATION, line no: 976, 1.0, 1.0, 1.0, 0.6447368421052632
+lab,SIMPLE_NAME, line no: 725,indent2 + t.printReadStatement(varname "in"),INFIX_EXPRESSION, line no: 977, 1.0, 1.0, 1.0, 0.4485981308411215
+lab,SIMPLE_NAME, line no: 725,t.printReadStatement(varname "in"),METHOD_INVOCATION, line no: 977, 1.0, 1.0, 1.0, 0.5
+lab,SIMPLE_NAME, line no: 725,indent2 + "result." + d.name()+ " (",INFIX_EXPRESSION, line no: 978, 1.0, 1.0, 1.0, 0.494949494949495
+lab,SIMPLE_NAME, line no: 725,"result.",STRING_LITERAL, line no: 978, 1.0, 1.0, 1.0, 0.7
+lab,SIMPLE_NAME, line no: 725,d.name(),METHOD_INVOCATION, line no: 978, 1.0, 1.0, 1.0, 0.6805555555555556
+lab,SIMPLE_NAME, line no: 725,varname + ");",INFIX_EXPRESSION, line no: 983, 1.0, 1.0, 1.0, 0.5974025974025974
+lab,SIMPLE_NAME, line no: 725,indent1 + "}",INFIX_EXPRESSION, line no: 995, 1.0, 1.0, 1.0, 0.618421052631579
+lab,SIMPLE_NAME, line no: 725,"\t\t}",STRING_LITERAL, line no: 1053, 1.0, 0.5, 1.0, 0.6857142857142857
+lab,SIMPLE_NAME, line no: 725,"\tpublic static void write (org.omg.CORBA.portable.OutputStream out  " + className + " s)",INFIX_EXPRESSION, line no: 1069, 1.0, 1.0, 1.0, 0.3076923076923077
+lab,SIMPLE_NAME, line no: 725,"\tpublic static void write (org.omg.CORBA.portable.OutputStream out  ",STRING_LITERAL, line no: 1069, 1.0, 1.0, 1.0, 0.3656716417910448
+lab,SIMPLE_NAME, line no: 725," s)",STRING_LITERAL, line no: 1069, 1.0, 1.0, 1.0, 0.6764705882352942
+lab,SIMPLE_NAME, line no: 725,"out",STRING_LITERAL, line no: 1082, 1.0, 0.875, 1.0, 0.7058823529411765
+lab,SIMPLE_NAME, line no: 725,defaultCases=null,ASSIGNMENT, line no: 1102, 1.0, 1.0, 1.0, 0.6578947368421053
+lab,SIMPLE_NAME, line no: 725,indent2 + t.printWriteStatement("s." + d.name() + " ()" "out"),INFIX_EXPRESSION, line no: 1158, 1.0, 1.0, 1.0, 0.3779527559055118
+lab,SIMPLE_NAME, line no: 725,t.printWriteStatement("s." + d.name() + " ()" "out"),METHOD_INVOCATION, line no: 1158, 1.0, 1.0, 1.0, 0.4152542372881356
+lab,SIMPLE_NAME, line no: 725,"s." + d.name() + " ()",INFIX_EXPRESSION, line no: 1158, 1.0, 1.0, 1.0, 0.5454545454545454
+lab,SIMPLE_NAME, line no: 725,"s.",STRING_LITERAL, line no: 1158, 1.0, 1.0, 1.0, 0.7164179104477612
+lab,SIMPLE_NAME, line no: 725,"\tpublic static org.omg.CORBA.TypeCode type ()",STRING_LITERAL, line no: 1214, 1.0, 1.0, 1.0, 0.45045045045045046
+lab,SIMPLE_NAME, line no: 725,"\t\tif (_type == null)",STRING_LITERAL, line no: 1216, 1.0, 1.0, 1.0, 0.5632183908045977
+lab,SIMPLE_NAME, line no: 725,"\t\t\torg.omg.CORBA.UnionMember[] members = new org.omg.CORBA.UnionMember[" + labels + "];",INFIX_EXPRESSION, line no: 1218, 1.0, 1.0, 1.0, 0.3184713375796178
+lab,SIMPLE_NAME, line no: 725,"\t\t\torg.omg.CORBA.UnionMember[] members = new org.omg.CORBA.UnionMember[",STRING_LITERAL, line no: 1218, 1.0, 1.0, 1.0, 0.35251798561151076
+lab,SIMPLE_NAME, line no: 725,"];",STRING_LITERAL, line no: 1218, 1.0, 1.0, 1.0, 0.7164179104477612
+lab,SIMPLE_NAME, line no: 725,"\t\t\torg.omg.CORBA.Any label_any;",STRING_LITERAL, line no: 1219, 1.0, 1.0, 1.0, 0.5151515151515151
+lab,SIMPLE_NAME, line no: 725,"\t\t\tlabel_any = org.omg.CORBA.ORB.init().create_any ();",STRING_LITERAL, line no: 1250, 1.0, 1.0, 1.0, 0.4344262295081967
+lab,SIMPLE_NAME, line no: 725,"\t\t\tlabel_any." + tocheck.printInsertExpression() + " ((",INFIX_EXPRESSION, line no: 1269, 1.0, 1.0, 1.0, 0.4
+lab,SIMPLE_NAME, line no: 725,"\t\t\tlabel_any.",STRING_LITERAL, line no: 1269, 1.0, 1.0, 1.0, 0.6296296296296297
+lab,SIMPLE_NAME, line no: 725,tocheck.printInsertExpression(),METHOD_INVOCATION, line no: 1269, 1.0, 1.0, 1.0, 0.4948453608247423
+lab,SIMPLE_NAME, line no: 725,printInsertExpression,SIMPLE_NAME, line no: 1269, 1.0, 1.0, 1.0, 0.6666666666666666
+lab,SIMPLE_NAME, line no: 725," ((",STRING_LITERAL, line no: 1269, 1.0, 1.0, 1.0, 0.7058823529411765
+lab,SIMPLE_NAME, line no: 725,"\t\t\tlabel_any." + tocheck.printInsertExpression() + " ((short)(",INFIX_EXPRESSION, line no: 1273, 1.0, 1.0, 1.0, 0.3787878787878788
+lab,SIMPLE_NAME, line no: 725," ((short)(",STRING_LITERAL, line no: 1273, 1.0, 1.0, 1.0, 0.64
+lab,SIMPLE_NAME, line no: 725,((ConstExpr)o).value() + "));",INFIX_EXPRESSION, line no: 1281, 1.0, 1.0, 1.0, 0.5052631578947369
+lab,SIMPLE_NAME, line no: 725,"));",STRING_LITERAL, line no: 1281, 1.0, 1.0, 1.0, 0.7058823529411765
+lab,SIMPLE_NAME, line no: 725,"\t\t\t" + _t.substring(0 _t.lastIndexOf('.')) + "Helper.insert(label_any  "+ _t+ ");",INFIX_EXPRESSION, line no: 1286, 1.0, 1.0, 1.0, 0.33112582781456956
+lab,SIMPLE_NAME, line no: 725,_t.substring(0 _t.lastIndexOf('.')),METHOD_INVOCATION, line no: 1286, 1.0, 1.0, 1.0, 0.49504950495049505
+lab,SIMPLE_NAME, line no: 725,"Helper.insert(label_any  ",STRING_LITERAL, line no: 1287, 1.0, 1.0, 1.0, 0.5666666666666667
+lab,SIMPLE_NAME, line no: 725,"\t\t\tmembers[" + (mi++) + "] = new org.omg.CORBA.UnionMember (\""+ d.deEscapeName()+ "\"  label_any  ",INFIX_EXPRESSION, line no: 1296, 1.0, 1.0, 1.0, 0.28994082840236685
+lab,SIMPLE_NAME, line no: 725,"\t\t\tmembers[",STRING_LITERAL, line no: 1296, 1.0, 1.0, 1.0, 0.620253164556962
+lab,SIMPLE_NAME, line no: 725,"] = new org.omg.CORBA.UnionMember (\"",STRING_LITERAL, line no: 1298, 1.0, 1.0, 1.0, 0.4803921568627451
+lab,SIMPLE_NAME, line no: 725,d.deEscapeName(),METHOD_INVOCATION, line no: 1299, 1.0, 1.0, 1.0, 0.5975609756097561
+lab,SIMPLE_NAME, line no: 725,deEscapeName,SIMPLE_NAME, line no: 1299, 1.0, 1.0, 1.0, 0.7638888888888888
+lab,SIMPLE_NAME, line no: 725,"\"  label_any  ",STRING_LITERAL, line no: 1300, 1.0, 1.0, 1.0, 0.6125
+lab,SIMPLE_NAME, line no: 725,"null);",STRING_LITERAL, line no: 1318, 1.0, 1.0, 1.0, 0.6619718309859155
+lab,SIMPLE_NAME, line no: 725,"\t\t\t _type = org.omg.CORBA.ORB.init().create_union_tc(id() \"" + className() + "\" ",INFIX_EXPRESSION, line no: 1321, 1.0, 1.0, 1.0, 0.3223684210526316
+lab,SIMPLE_NAME, line no: 725,"\t\t\t _type = org.omg.CORBA.ORB.init().create_union_tc(id() \"",STRING_LITERAL, line no: 1321, 1.0, 1.0, 1.0, 0.3828125
+lab,SIMPLE_NAME, line no: 725,className(),METHOD_INVOCATION, line no: 1321, 1.0, 1.0, 1.0, 0.6493506493506493
+lab,SIMPLE_NAME, line no: 725,"\" ",STRING_LITERAL, line no: 1321, 1.0, 1.0, 1.0, 0.7058823529411765
+lab,SIMPLE_NAME, line no: 725,switch_type_spec.typeSpec().getTypeCodeExpression() + "  members);",INFIX_EXPRESSION, line no: 1322, 1.0, 1.0, 1.0, 0.36363636363636365
+lab,SIMPLE_NAME, line no: 725,switch_type_spec.typeSpec().getTypeCodeExpression(),METHOD_INVOCATION, line no: 1322, 1.0, 1.0, 1.0, 0.41025641025641024
+lab,SIMPLE_NAME, line no: 725,"  members);",STRING_LITERAL, line no: 1322, 1.0, 1.0, 1.0, 0.6447368421052632
+lab,SIMPLE_NAME, line no: 725,"\t\treturn _type;",STRING_LITERAL, line no: 1324, 1.0, 1.0, 1.0, 0.5853658536585366
+" && discriminator != ",STRING_LITERAL, line no: 725,".",STRING_LITERAL, line no: 167, 0.9375, 0.625, 1.0, 0.7023809523809523
+" && discriminator != ",STRING_LITERAL, line no: 725,full_name(),METHOD_INVOCATION, line no: 209, 0.9375, 0.4375, 1.0, 0.5833333333333334
+" && discriminator != ",STRING_LITERAL, line no: 725,full_name,SIMPLE_NAME, line no: 209, 0.9375, 0.4375, 1.0, 0.5952380952380952
+" && discriminator != ",STRING_LITERAL, line no: 725,charStr,SIMPLE_NAME, line no: 469, 0.9375, 0.9375, 1.0, 0.5952380952380952
+" && discriminator != ",STRING_LITERAL, line no: 725,label[i],ARRAY_ACCESS, line no: 559, 0.9375, 0.4375, 1.0, 0.5595238095238095
+" && discriminator != ",STRING_LITERAL, line no: 725,((ScopedName)o).typeName(),METHOD_INVOCATION, line no: 567, 0.9375, 0.75, 1.0, 0.5555555555555556
+" && discriminator != ",STRING_LITERAL, line no: 725,lab,SIMPLE_NAME, line no: 658, 0.9375, 0.75, 1.0, 0.5833333333333334
+" && discriminator != ",STRING_LITERAL, line no: 725," && discriminator != " + lab,INFIX_EXPRESSION, line no: 661, 0.9375, 0.875, 1.0, 0.75
+" && discriminator != ",STRING_LITERAL, line no: 725,indent1 + case_str + _t.substring(0 _t.lastIndexOf('.') + 1)+ "_"+ _t.substring(_t.lastIndexOf('.') + 1)+ colon_str,INFIX_EXPRESSION, line no: 954, 0.9375, 0.9375, 1.0, 0.33146067415730335
+" && discriminator != ",STRING_LITERAL, line no: 725,_t.substring(0 _t.lastIndexOf('.') + 1),METHOD_INVOCATION, line no: 955, 0.9375, 0.9375, 1.0, 0.5339805825242718
+" && discriminator != ",STRING_LITERAL, line no: 725,_t.substring(_t.lastIndexOf('.') + 1),METHOD_INVOCATION, line no: 956, 0.9375, 0.9375, 1.0, 0.5445544554455446
+" && discriminator != ",STRING_LITERAL, line no: 725,"break;",STRING_LITERAL, line no: 989, 0.9375, 0.9375, 1.0, 0.7023809523809523
+" && discriminator != ",STRING_LITERAL, line no: 725,"return result;",STRING_LITERAL, line no: 993, 0.9375, 0.9375, 1.0, 0.7261904761904762
+" && discriminator != ",STRING_LITERAL, line no: 725,"return;",STRING_LITERAL, line no: 1169, 0.9375, 0.9375, 1.0, 0.7142857142857143
+lab,SIMPLE_NAME, line no: 725,".",STRING_LITERAL, line no: 167, 0.9375, 0.625, 1.0, 0.75
+lab,SIMPLE_NAME, line no: 725,full_name(),METHOD_INVOCATION, line no: 209, 0.9375, 0.5, 1.0, 0.6666666666666666
+lab,SIMPLE_NAME, line no: 725,full_name,SIMPLE_NAME, line no: 209, 0.9375, 0.5, 1.0, 0.835820895522388
+lab,SIMPLE_NAME, line no: 725,qualifiedCaseLabel,SIMPLE_NAME, line no: 416, 0.9375, 0.9375, 1.0, 0.7236842105263158
+lab,SIMPLE_NAME, line no: 725,ts.typeName() + "." + (String)et.enumlist.v.elementAt(i),INFIX_EXPRESSION, line no: 417, 0.9375, 0.9375, 1.0, 0.40336134453781514
+lab,SIMPLE_NAME, line no: 725,(String)et.enumlist.v.elementAt(i),CAST_EXPRESSION, line no: 417, 0.9375, 0.9375, 1.0, 0.5
+lab,SIMPLE_NAME, line no: 725,charStr=(String)enumeration.nextElement(),ASSIGNMENT, line no: 481, 0.9375, 0.9375, 1.0, 0.47959183673469385
+lab,SIMPLE_NAME, line no: 725,(String)enumeration.nextElement(),CAST_EXPRESSION, line no: 481, 0.9375, 0.9375, 1.0, 0.4842105263157895
+lab,SIMPLE_NAME, line no: 725,charStr=charStr.substring(1 charStr.length() - 1),ASSIGNMENT, line no: 485, 0.9375, 0.9375, 1.0, 0.4716981132075472
+lab,SIMPLE_NAME, line no: 725,charStr.substring(1 charStr.length() - 1),METHOD_INVOCATION, line no: 485, 0.9375, 0.9375, 1.0, 0.47619047619047616
+lab,SIMPLE_NAME, line no: 725," && discriminator != ",STRING_LITERAL, line no: 648, 0.9375, 0.625, 1.0, 0.5595238095238095
+lab,SIMPLE_NAME, line no: 725," && discriminator != " + lab,INFIX_EXPRESSION, line no: 661, 0.9375, 0.875, 1.0, 0.5217391304347826
+lab,SIMPLE_NAME, line no: 725,indent1 + case_str + _t+ colon_str,INFIX_EXPRESSION, line no: 961, 0.9375, 0.9375, 1.0, 0.4742268041237113
+print,SIMPLE_NAME, line no: 725,parse,SIMPLE_NAME, line no: 188, 0.9333333333333333, 0.06666666666666667, 1.0, 0.8571428571428571
+print,SIMPLE_NAME, line no: 725,escapeName(),METHOD_INVOCATION, line no: 204, 0.9333333333333333, 0.9333333333333333, 1.0, 0.6447368421052632
+print,SIMPLE_NAME, line no: 725,escapeName,SIMPLE_NAME, line no: 204, 0.9333333333333333, 0.9333333333333333, 1.0, 0.8088235294117647
+print,SIMPLE_NAME, line no: 725,switch_type_spec.parse(),METHOD_INVOCATION, line no: 278, 0.9333333333333333, 0.9333333333333333, 1.0, 0.5681818181818182
+print,SIMPLE_NAME, line no: 725,switch_body.setTypeSpec(switch_type_spec),METHOD_INVOCATION, line no: 279, 0.9333333333333333, 0.9333333333333333, 1.0, 0.4857142857142857
+print,SIMPLE_NAME, line no: 725,setTypeSpec,SIMPLE_NAME, line no: 279, 0.9333333333333333, 0.9333333333333333, 1.0, 0.7971014492753623
+print,SIMPLE_NAME, line no: 725,switch_body.setUnion(this),METHOD_INVOCATION, line no: 280, 0.9333333333333333, 0.9333333333333333, 1.0, 0.5666666666666667
+print,SIMPLE_NAME, line no: 725,setUnion,SIMPLE_NAME, line no: 280, 0.9333333333333333, 0.9333333333333333, 1.0, 0.8484848484848485
+print,SIMPLE_NAME, line no: 725,ScopedName.addRecursionScope(typeName()),METHOD_INVOCATION, line no: 282, 0.9333333333333333, 0.9333333333333333, 1.0, 0.5096153846153846
+print,SIMPLE_NAME, line no: 725,addRecursionScope,SIMPLE_NAME, line no: 282, 0.9333333333333333, 0.9333333333333333, 1.0, 0.76
+print,SIMPLE_NAME, line no: 725,switch_body.parse(),METHOD_INVOCATION, line no: 283, 0.9333333333333333, 0.9333333333333333, 1.0, 0.6024096385542169
+print,SIMPLE_NAME, line no: 725,ScopedName.removeRecursionScope(typeName()),METHOD_INVOCATION, line no: 284, 0.9333333333333333, 0.9333333333333333, 1.0, 0.4953271028037383
+print,SIMPLE_NAME, line no: 725,removeRecursionScope,SIMPLE_NAME, line no: 284, 0.9333333333333333, 0.9333333333333333, 1.0, 0.7307692307692307
+print,SIMPLE_NAME, line no: 725,pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 661, 0.9333333333333333, 0.8666666666666667, 1.0, 0.49514563106796117
+print,SIMPLE_NAME, line no: 725,caseWriter.println(indent1 + case_str + _t+ colon_str),METHOD_INVOCATION, line no: 961, 0.9333333333333333, 0.9333333333333333, 1.0, 0.4322033898305085
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,".",STRING_LITERAL, line no: 167, 0.9333333333333333, 0.6, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,full_name,SIMPLE_NAME, line no: 209, 0.9333333333333333, 0.4666666666666667, 1.0, 0.532608695652174
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,qualifiedCaseLabel,SIMPLE_NAME, line no: 416, 0.9333333333333333, 0.9333333333333333, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"break;",STRING_LITERAL, line no: 989, 0.9333333333333333, 0.9333333333333333, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"return result;",STRING_LITERAL, line no: 993, 0.9333333333333333, 0.9333333333333333, 1.0, 0.5652173913043478
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"return;",STRING_LITERAL, line no: 1169, 0.9333333333333333, 0.9333333333333333, 1.0, 0.5543478260869565
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,parse,SIMPLE_NAME, line no: 188, 0.9285714285714286, 0.07142857142857142, 1.0, 0.47572815533980584
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,escapeName,SIMPLE_NAME, line no: 204, 0.9285714285714286, 0.9285714285714286, 1.0, 0.5048543689320388
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,setTypeSpec,SIMPLE_NAME, line no: 279, 0.9285714285714286, 0.9285714285714286, 1.0, 0.49514563106796117
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,setUnion,SIMPLE_NAME, line no: 280, 0.9285714285714286, 0.9285714285714286, 1.0, 0.49514563106796117
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,addRecursionScope,SIMPLE_NAME, line no: 282, 0.9285714285714286, 0.9285714285714286, 1.0, 0.5242718446601942
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,removeRecursionScope,SIMPLE_NAME, line no: 284, 0.9285714285714286, 0.9285714285714286, 1.0, 0.5242718446601942
+" && discriminator != ",STRING_LITERAL, line no: 725," ",STRING_LITERAL, line no: 134, 0.875, 0.5, 1.0, 0.6785714285714286
+" && discriminator != ",STRING_LITERAL, line no: 725,"org.omg.CORBA.TypeCode",STRING_LITERAL, line no: 224, 0.875, 0.875, 1.0, 0.7294117647058823
+" && discriminator != ",STRING_LITERAL, line no: 725,qualifiedCaseLabel,SIMPLE_NAME, line no: 416, 0.875, 0.875, 1.0, 0.5833333333333334
+" && discriminator != ",STRING_LITERAL, line no: 725,ts.typeName() + "." + (String)et.enumlist.v.elementAt(i),INFIX_EXPRESSION, line no: 417, 0.875, 0.875, 1.0, 0.4789915966386555
+" && discriminator != ",STRING_LITERAL, line no: 725,(String)et.enumlist.v.elementAt(i),CAST_EXPRESSION, line no: 417, 0.875, 0.875, 1.0, 0.5625
+" && discriminator != ",STRING_LITERAL, line no: 725,charStr=(String)enumeration.nextElement(),ASSIGNMENT, line no: 481, 0.875, 0.875, 1.0, 0.5306122448979592
+" && discriminator != ",STRING_LITERAL, line no: 725,(String)enumeration.nextElement(),CAST_EXPRESSION, line no: 481, 0.875, 0.875, 1.0, 0.5473684210526316
+" && discriminator != ",STRING_LITERAL, line no: 725,charStr=charStr.substring(1 charStr.length() - 1),ASSIGNMENT, line no: 485, 0.875, 0.875, 1.0, 0.5283018867924528
+" && discriminator != ",STRING_LITERAL, line no: 725,charStr.substring(1 charStr.length() - 1),METHOD_INVOCATION, line no: 485, 0.875, 0.875, 1.0, 0.5333333333333333
+" && discriminator != ",STRING_LITERAL, line no: 725,toString,SIMPLE_NAME, line no: 528, 0.875, 0.6875, 1.0, 0.6071428571428571
+" && discriminator != ",STRING_LITERAL, line no: 725,"Something went wrong in UnionType  " + "could not identify switch type " + switch_type_spec.type_spec,INFIX_EXPRESSION, line no: 539, 0.875, 0.875, 1.0, 0.3575757575757576
+" && discriminator != ",STRING_LITERAL, line no: 725,"Something went wrong in UnionType  ",STRING_LITERAL, line no: 539, 0.875, 0.875, 1.0, 0.673469387755102
+" && discriminator != ",STRING_LITERAL, line no: 725,"could not identify switch type ",STRING_LITERAL, line no: 540, 0.875, 0.875, 1.0, 0.723404255319149
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tpublic void __default ()",STRING_LITERAL, line no: 743, 0.875, 0.875, 1.0, 0.7303370786516854
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\tdiscriminator = " + defaultStr + ";",INFIX_EXPRESSION, line no: 745, 0.875, 0.875, 1.0, 0.6538461538461539
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tpublic void __default (" + ts.typeName() + " _discriminator)",INFIX_EXPRESSION, line no: 748, 0.875, 0.875, 1.0, 0.5118110236220472
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tpublic void __default (",STRING_LITERAL, line no: 748, 0.875, 0.875, 1.0, 0.7386363636363636
+" && discriminator != ",STRING_LITERAL, line no: 725," _discriminator)",STRING_LITERAL, line no: 748, 0.875, 0.875, 1.0, 0.8690476190476191
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\tif( ",STRING_LITERAL, line no: 750, 0.875, 0.875, 1.0, 0.75
+" && discriminator != ",STRING_LITERAL, line no: 725,(String)allCaseLabels.elementAt(i),CAST_EXPRESSION, line no: 753, 0.875, 0.875, 1.0, 0.5729166666666666
+" && discriminator != ",STRING_LITERAL, line no: 725," _discriminator == ",STRING_LITERAL, line no: 756, 0.875, 0.875, 1.0, 0.9285714285714286
+" && discriminator != ",STRING_LITERAL, line no: 725," || _discriminator == ",STRING_LITERAL, line no: 760, 0.875, 0.875, 1.0, 0.9058823529411765
+" && discriminator != ",STRING_LITERAL, line no: 725," )" + Environment.NL + "\t\t\tthrow new org.omg.CORBA.BAD_PARAM( \"Illegal value is used in __default method\" "+ " 34  org.omg.CORBA.CompletionStatus.COMPLETED_NO );"+ Environment.NL,INFIX_EXPRESSION, line no: 763, 0.875, 0.875, 1.0, 0.25101214574898784
+" && discriminator != ",STRING_LITERAL, line no: 725," )",STRING_LITERAL, line no: 763, 0.875, 0.875, 1.0, 0.7142857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t\tthrow new org.omg.CORBA.BAD_PARAM( \"Illegal value is used in __default method\" ",STRING_LITERAL, line no: 763, 0.875, 0.875, 1.0, 0.4533333333333333
+" && discriminator != ",STRING_LITERAL, line no: 725," 34  org.omg.CORBA.CompletionStatus.COMPLETED_NO );",STRING_LITERAL, line no: 764, 0.875, 0.875, 1.0, 0.5964912280701754
+" && discriminator != ",STRING_LITERAL, line no: 725,switch_ts_resolved.toString(),METHOD_INVOCATION, line no: 880, 0.875, 0.75, 1.0, 0.5483870967741935
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t" + switch_ts_resolved.toString() + " "+ switch_ts_resolved.printReadStatement("disc" "in"),INFIX_EXPRESSION, line no: 887, 0.875, 0.875, 1.0, 0.37735849056603776
+" && discriminator != ",STRING_LITERAL, line no: 725,switch_ts_resolved.printReadStatement("disc" "in"),METHOD_INVOCATION, line no: 888, 0.875, 0.875, 1.0, 0.4649122807017544
+" && discriminator != ",STRING_LITERAL, line no: 725,"disc",STRING_LITERAL, line no: 888, 0.875, 0.875, 1.0, 0.7261904761904762
+" && discriminator != ",STRING_LITERAL, line no: 725,indent1 + case_str + _t+ colon_str,INFIX_EXPRESSION, line no: 961, 0.875, 0.875, 1.0, 0.5567010309278351
+" && discriminator != ",STRING_LITERAL, line no: 725,indent2 + "break;",INFIX_EXPRESSION, line no: 989, 0.875, 0.875, 1.0, 0.6190476190476191
+" && discriminator != ",STRING_LITERAL, line no: 725,indent2 + "return result;",INFIX_EXPRESSION, line no: 993, 0.875, 0.875, 1.0, 0.5955056179775281
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t" + switch_type_spec.typeSpec().printWriteStatement("s.discriminator ()" "out"),INFIX_EXPRESSION, line no: 1082, 0.875, 0.875, 1.0, 0.4429530201342282
+" && discriminator != ",STRING_LITERAL, line no: 725,switch_type_spec.typeSpec().printWriteStatement("s.discriminator ()" "out"),METHOD_INVOCATION, line no: 1082, 0.875, 0.875, 1.0, 0.44680851063829785
+" && discriminator != ",STRING_LITERAL, line no: 725,"s.discriminator ()",STRING_LITERAL, line no: 1082, 0.875, 0.875, 1.0, 0.8690476190476191
+" && discriminator != ",STRING_LITERAL, line no: 725,indent2 + "return;",INFIX_EXPRESSION, line no: 1169, 0.875, 0.875, 1.0, 0.6190476190476191
+" && discriminator != ",STRING_LITERAL, line no: 725,"Compiler error: unrecognized BaseType: " + tocheck.typeName() + ":"+ tocheck+ ": "+ tocheck.typeSpec()+ ": "+ tocheck.getClass().getName(),INFIX_EXPRESSION, line no: 1277, 0.875, 0.875, 1.0, 0.29411764705882354
+" && discriminator != ",STRING_LITERAL, line no: 725,"Compiler error: unrecognized BaseType: ",STRING_LITERAL, line no: 1277, 0.875, 0.875, 1.0, 0.625
+" && discriminator != ",STRING_LITERAL, line no: 725,tocheck.typeName(),METHOD_INVOCATION, line no: 1278, 0.875, 0.875, 1.0, 0.5833333333333334
+" && discriminator != ",STRING_LITERAL, line no: 725,": ",STRING_LITERAL, line no: 1278, 0.875, 0.875, 1.0, 0.7142857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725,tocheck.getClass().getName(),METHOD_INVOCATION, line no: 1279, 0.875, 0.875, 1.0, 0.5319148936170213
+" && discriminator != ",STRING_LITERAL, line no: 725,getName,SIMPLE_NAME, line no: 1279, 0.875, 0.875, 1.0, 0.5833333333333334
+" && discriminator != ",STRING_LITERAL, line no: 725,".type() ",STRING_LITERAL, line no: 1307, 0.875, 0.875, 1.0, 0.7142857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725,path,SIMPLE_NAME, line no: 1359, 0.875, 0.875, 1.0, 0.5952380952380952
+" && discriminator != ",STRING_LITERAL, line no: 725,pack_name.replace('.' fileSeparator),METHOD_INVOCATION, line no: 1360, 0.875, 0.875, 1.0, 0.5098039215686274
+" && discriminator != ",STRING_LITERAL, line no: 725,replace,SIMPLE_NAME, line no: 1360, 0.875, 0.875, 1.0, 0.5714285714285714
+" && discriminator != ",STRING_LITERAL, line no: 725,"Unable to create ",STRING_LITERAL, line no: 1367, 0.875, 0.875, 1.0, 0.7857142857142857
+" && discriminator != ",STRING_LITERAL, line no: 725,fname,SIMPLE_NAME, line no: 1372, 0.875, 0.875, 1.0, 0.6190476190476191
+" && discriminator != ",STRING_LITERAL, line no: 725,className + ".java",INFIX_EXPRESSION, line no: 1372, 0.875, 0.875, 1.0, 0.6547619047619048
+" && discriminator != ",STRING_LITERAL, line no: 725,".java",STRING_LITERAL, line no: 1372, 0.875, 0.875, 1.0, 0.7380952380952381
+" && discriminator != ",STRING_LITERAL, line no: 725,fname=className + "Holder.java",ASSIGNMENT, line no: 1382, 0.875, 0.875, 1.0, 0.5888888888888889
+" && discriminator != ",STRING_LITERAL, line no: 725,className + "Holder.java",INFIX_EXPRESSION, line no: 1382, 0.875, 0.875, 1.0, 0.6
+" && discriminator != ",STRING_LITERAL, line no: 725,"Holder.java",STRING_LITERAL, line no: 1382, 0.875, 0.875, 1.0, 0.7380952380952381
+" && discriminator != ",STRING_LITERAL, line no: 725,fname=className + "Helper.java",ASSIGNMENT, line no: 1392, 0.875, 0.875, 1.0, 0.5777777777777777
+" && discriminator != ",STRING_LITERAL, line no: 725,className + "Helper.java",INFIX_EXPRESSION, line no: 1392, 0.875, 0.875, 1.0, 0.5888888888888889
+" && discriminator != ",STRING_LITERAL, line no: 725,"Helper.java",STRING_LITERAL, line no: 1392, 0.875, 0.875, 1.0, 0.7261904761904762
+lab,SIMPLE_NAME, line no: 725," ",STRING_LITERAL, line no: 134, 0.875, 0.4375, 1.0, 0.71875
+lab,SIMPLE_NAME, line no: 725,helperName,SIMPLE_NAME, line no: 142, 0.875, 0.0625, 1.0, 0.8235294117647058
+lab,SIMPLE_NAME, line no: 725,s,SIMPLE_NAME, line no: 162, 0.875, 0.0625, 1.0, 0.8852459016393442
+lab,SIMPLE_NAME, line no: 725,s=parser.pack_replace(s),ASSIGNMENT, line no: 164, 0.875, 0.875, 1.0, 0.5925925925925926
+lab,SIMPLE_NAME, line no: 725,"org.omg.CORBA.TypeCode",STRING_LITERAL, line no: 224, 0.875, 0.875, 1.0, 0.5647058823529412
+lab,SIMPLE_NAME, line no: 725,toString,SIMPLE_NAME, line no: 528, 0.875, 0.75, 1.0, 0.8181818181818182
+lab,SIMPLE_NAME, line no: 725,"Something went wrong in UnionType  " + "could not identify switch type " + switch_type_spec.type_spec,INFIX_EXPRESSION, line no: 539, 0.875, 0.875, 1.0, 0.2909090909090909
+lab,SIMPLE_NAME, line no: 725,"Something went wrong in UnionType  ",STRING_LITERAL, line no: 539, 0.875, 0.875, 1.0, 0.4897959183673469
+lab,SIMPLE_NAME, line no: 725,"could not identify switch type ",STRING_LITERAL, line no: 540, 0.875, 0.875, 1.0, 0.5212765957446809
+lab,SIMPLE_NAME, line no: 725,(String)unusedCaseLabels.elementAt(i),CAST_EXPRESSION, line no: 658, 0.875, 0.8125, 1.0, 0.494949494949495
+lab,SIMPLE_NAME, line no: 725,"\tpublic void __default ()",STRING_LITERAL, line no: 743, 0.875, 0.875, 1.0, 0.5617977528089888
+lab,SIMPLE_NAME, line no: 725,"\t\tdiscriminator = " + defaultStr + ";",INFIX_EXPRESSION, line no: 745, 0.875, 0.875, 1.0, 0.4807692307692308
+lab,SIMPLE_NAME, line no: 725,"\tpublic void __default (" + ts.typeName() + " _discriminator)",INFIX_EXPRESSION, line no: 748, 0.875, 0.875, 1.0, 0.3858267716535433
+lab,SIMPLE_NAME, line no: 725,"\tpublic void __default (",STRING_LITERAL, line no: 748, 0.875, 0.875, 1.0, 0.5681818181818182
+lab,SIMPLE_NAME, line no: 725," _discriminator)",STRING_LITERAL, line no: 748, 0.875, 0.875, 1.0, 0.620253164556962
+lab,SIMPLE_NAME, line no: 725,"\t\tif( ",STRING_LITERAL, line no: 750, 0.875, 0.875, 1.0, 0.704225352112676
+lab,SIMPLE_NAME, line no: 725,(String)allCaseLabels.elementAt(i),CAST_EXPRESSION, line no: 753, 0.875, 0.875, 1.0, 0.5416666666666666
+lab,SIMPLE_NAME, line no: 725," )" + Environment.NL + "\t\t\tthrow new org.omg.CORBA.BAD_PARAM( \"Illegal value is used in __default method\" "+ " 34  org.omg.CORBA.CompletionStatus.COMPLETED_NO );"+ Environment.NL,INFIX_EXPRESSION, line no: 763, 0.875, 0.875, 1.0, 0.19838056680161945
+lab,SIMPLE_NAME, line no: 725," )",STRING_LITERAL, line no: 763, 0.875, 0.875, 1.0, 0.7384615384615385
+lab,SIMPLE_NAME, line no: 725,"\t\t\tthrow new org.omg.CORBA.BAD_PARAM( \"Illegal value is used in __default method\" ",STRING_LITERAL, line no: 763, 0.875, 0.875, 1.0, 0.3333333333333333
+lab,SIMPLE_NAME, line no: 725," 34  org.omg.CORBA.CompletionStatus.COMPLETED_NO );",STRING_LITERAL, line no: 764, 0.875, 0.875, 1.0, 0.43859649122807015
+lab,SIMPLE_NAME, line no: 725,switch_ts_resolved.toString(),METHOD_INVOCATION, line no: 880, 0.875, 0.75, 1.0, 0.5053763440860215
+lab,SIMPLE_NAME, line no: 725,"\t\t" + switch_ts_resolved.toString() + " "+ switch_ts_resolved.printReadStatement("disc" "in"),INFIX_EXPRESSION, line no: 887, 0.875, 0.875, 1.0, 0.3018867924528302
+lab,SIMPLE_NAME, line no: 725,switch_ts_resolved.printReadStatement("disc" "in"),METHOD_INVOCATION, line no: 888, 0.875, 0.875, 1.0, 0.42105263157894735
+lab,SIMPLE_NAME, line no: 725,"disc",STRING_LITERAL, line no: 888, 0.875, 0.875, 1.0, 0.6865671641791045
+lab,SIMPLE_NAME, line no: 725,indent1 + case_str + ((ConstExpr)o).value()+ colon_str,INFIX_EXPRESSION, line no: 946, 0.875, 0.875, 1.0, 0.4017094017094017
+lab,SIMPLE_NAME, line no: 725,indent2 + "break;",INFIX_EXPRESSION, line no: 989, 0.875, 0.875, 1.0, 0.5679012345679012
+lab,SIMPLE_NAME, line no: 725,"break;",STRING_LITERAL, line no: 989, 0.875, 0.875, 1.0, 0.6811594202898551
+lab,SIMPLE_NAME, line no: 725,indent2 + "return result;",INFIX_EXPRESSION, line no: 993, 0.875, 0.875, 1.0, 0.5168539325842697
+lab,SIMPLE_NAME, line no: 725,"return result;",STRING_LITERAL, line no: 993, 0.875, 0.875, 1.0, 0.6103896103896104
+lab,SIMPLE_NAME, line no: 725,"\t\t" + switch_type_spec.typeSpec().printWriteStatement("s.discriminator ()" "out"),INFIX_EXPRESSION, line no: 1082, 0.875, 0.875, 1.0, 0.3221476510067114
+lab,SIMPLE_NAME, line no: 725,switch_type_spec.typeSpec().printWriteStatement("s.discriminator ()" "out"),METHOD_INVOCATION, line no: 1082, 0.875, 0.875, 1.0, 0.3475177304964539
+lab,SIMPLE_NAME, line no: 725,"s.discriminator ()",STRING_LITERAL, line no: 1082, 0.875, 0.875, 1.0, 0.5903614457831325
+lab,SIMPLE_NAME, line no: 725,indent2 + "return;",INFIX_EXPRESSION, line no: 1169, 0.875, 0.875, 1.0, 0.5357142857142857
+lab,SIMPLE_NAME, line no: 725,"return;",STRING_LITERAL, line no: 1169, 0.875, 0.875, 1.0, 0.6388888888888888
+lab,SIMPLE_NAME, line no: 725,"Compiler error: unrecognized BaseType: " + tocheck.typeName() + ":"+ tocheck+ ": "+ tocheck.typeSpec()+ ": "+ tocheck.getClass().getName(),INFIX_EXPRESSION, line no: 1277, 0.875, 0.875, 1.0, 0.24019607843137256
+lab,SIMPLE_NAME, line no: 725,"Compiler error: unrecognized BaseType: ",STRING_LITERAL, line no: 1277, 0.875, 0.875, 1.0, 0.4807692307692308
+lab,SIMPLE_NAME, line no: 725,tocheck.typeName(),METHOD_INVOCATION, line no: 1278, 0.875, 0.875, 1.0, 0.5833333333333334
+lab,SIMPLE_NAME, line no: 725,": ",STRING_LITERAL, line no: 1278, 0.875, 0.875, 1.0, 0.7164179104477612
+lab,SIMPLE_NAME, line no: 725,tocheck.getClass().getName(),METHOD_INVOCATION, line no: 1279, 0.875, 0.875, 1.0, 0.5319148936170213
+lab,SIMPLE_NAME, line no: 725,getName,SIMPLE_NAME, line no: 1279, 0.875, 0.875, 1.0, 0.8208955223880597
+lab,SIMPLE_NAME, line no: 725,t.typeSpec().helperName() + ".type() ",INFIX_EXPRESSION, line no: 1307, 0.875, 0.875, 1.0, 0.47572815533980584
+lab,SIMPLE_NAME, line no: 725,t.typeSpec().helperName(),METHOD_INVOCATION, line no: 1307, 0.875, 0.875, 1.0, 0.5494505494505495
+lab,SIMPLE_NAME, line no: 725,".type() ",STRING_LITERAL, line no: 1307, 0.875, 0.875, 1.0, 0.6575342465753424
+lab,SIMPLE_NAME, line no: 725,t.typeSpec().getTypeCodeExpression() + " ",INFIX_EXPRESSION, line no: 1310, 0.875, 0.875, 1.0, 0.4205607476635514
+lab,SIMPLE_NAME, line no: 725,t.typeSpec().getTypeCodeExpression(),METHOD_INVOCATION, line no: 1310, 0.875, 0.875, 1.0, 0.45098039215686275
+lab,SIMPLE_NAME, line no: 725,path,SIMPLE_NAME, line no: 1359, 0.875, 0.875, 1.0, 0.859375
+lab,SIMPLE_NAME, line no: 725,pack_name.replace('.' fileSeparator),METHOD_INVOCATION, line no: 1360, 0.875, 0.875, 1.0, 0.47058823529411764
+lab,SIMPLE_NAME, line no: 725,replace,SIMPLE_NAME, line no: 1360, 0.875, 0.875, 1.0, 0.8059701492537313
+lab,SIMPLE_NAME, line no: 725,"Unable to create " + path,INFIX_EXPRESSION, line no: 1367, 0.875, 0.875, 1.0, 0.5384615384615384
+lab,SIMPLE_NAME, line no: 725,"Unable to create ",STRING_LITERAL, line no: 1367, 0.875, 0.875, 1.0, 0.6097560975609756
+lab,SIMPLE_NAME, line no: 725,fname,SIMPLE_NAME, line no: 1372, 0.875, 0.875, 1.0, 0.8769230769230769
+lab,SIMPLE_NAME, line no: 725,className + ".java",INFIX_EXPRESSION, line no: 1372, 0.875, 0.875, 1.0, 0.6071428571428571
+lab,SIMPLE_NAME, line no: 725,".java",STRING_LITERAL, line no: 1372, 0.875, 0.875, 1.0, 0.7285714285714285
+lab,SIMPLE_NAME, line no: 725,fname=className + "Holder.java",ASSIGNMENT, line no: 1382, 0.875, 0.875, 1.0, 0.5555555555555556
+lab,SIMPLE_NAME, line no: 725,className + "Holder.java",INFIX_EXPRESSION, line no: 1382, 0.875, 0.875, 1.0, 0.5444444444444444
+lab,SIMPLE_NAME, line no: 725,"Holder.java",STRING_LITERAL, line no: 1382, 0.875, 0.875, 1.0, 0.6578947368421053
+lab,SIMPLE_NAME, line no: 725,fname=className + "Helper.java",ASSIGNMENT, line no: 1392, 0.875, 0.875, 1.0, 0.5555555555555556
+lab,SIMPLE_NAME, line no: 725,className + "Helper.java",INFIX_EXPRESSION, line no: 1392, 0.875, 0.875, 1.0, 0.5444444444444444
+lab,SIMPLE_NAME, line no: 725,"Helper.java",STRING_LITERAL, line no: 1392, 0.875, 0.875, 1.0, 0.6578947368421053
+print,SIMPLE_NAME, line no: 725,setPrintPhaseNames(),METHOD_INVOCATION, line no: 102, 0.8666666666666667, 0.6666666666666666, 1.0, 0.6190476190476191
+print,SIMPLE_NAME, line no: 725,setPrintPhaseNames,SIMPLE_NAME, line no: 102, 0.8666666666666667, 0.7333333333333333, 1.0, 0.7631578947368421
+print,SIMPLE_NAME, line no: 725,addImportedName(switch_type_spec.typeName()),METHOD_INVOCATION, line no: 254, 0.8666666666666667, 0.8666666666666667, 1.0, 0.5
+print,SIMPLE_NAME, line no: 725,addImportedName,SIMPLE_NAME, line no: 254, 0.8666666666666667, 0.8666666666666667, 1.0, 0.8082191780821918
+print,SIMPLE_NAME, line no: 725,addElement,SIMPLE_NAME, line no: 379, 0.8666666666666667, 0.8, 1.0, 0.8235294117647058
+print,SIMPLE_NAME, line no: 725,unusedCaseLabels.addElement(qualifiedCaseLabel),METHOD_INVOCATION, line no: 426, 0.8666666666666667, 0.8666666666666667, 1.0, 0.45045045045045046
+print,SIMPLE_NAME, line no: 725,logger.error("Something went wrong in UnionType  " + "could not identify switch type " + switch_type_spec.type_spec),METHOD_INVOCATION, line no: 539, 0.8666666666666667, 0.8666666666666667, 1.0, 0.28888888888888886
+print,SIMPLE_NAME, line no: 725,error,SIMPLE_NAME, line no: 539, 0.8666666666666667, 0.8666666666666667, 1.0, 0.873015873015873
+print,SIMPLE_NAME, line no: 725,pw.println("\tpublic void __default ()"),METHOD_INVOCATION, line no: 743, 0.8666666666666667, 0.8666666666666667, 1.0, 0.5096153846153846
+print,SIMPLE_NAME, line no: 725,pw.println("\t\tdiscriminator = " + defaultStr + ";"),METHOD_INVOCATION, line no: 745, 0.8666666666666667, 0.8666666666666667, 1.0, 0.4700854700854701
+print,SIMPLE_NAME, line no: 725,pw.println("\t}"),METHOD_INVOCATION, line no: 746, 0.8666666666666667, 0.8666666666666667, 1.0, 0.654320987654321
+print,SIMPLE_NAME, line no: 725,pw.println("\tpublic void __default (" + ts.typeName() + " _discriminator)"),METHOD_INVOCATION, line no: 748, 0.8666666666666667, 0.8666666666666667, 1.0, 0.37857142857142856
+print,SIMPLE_NAME, line no: 725,pw.print("\t\tif( "),METHOD_INVOCATION, line no: 750, 0.8666666666666667, 0.8666666666666667, 1.0, 0.6547619047619048
+print,SIMPLE_NAME, line no: 725,pw.println(" )" + Environment.NL + "\t\t\tthrow new org.omg.CORBA.BAD_PARAM( \"Illegal value is used in __default method\" "+ " 34  org.omg.CORBA.CompletionStatus.COMPLETED_NO );"+ Environment.NL),METHOD_INVOCATION, line no: 763, 0.8666666666666667, 0.8666666666666667, 1.0, 0.20384615384615384
+print,SIMPLE_NAME, line no: 725,ps.println("\t\t" + switch_ts_resolved.toString() + " "+ switch_ts_resolved.printReadStatement("disc" "in")),METHOD_INVOCATION, line no: 887, 0.8666666666666667, 0.8666666666666667, 1.0, 0.3023255813953488
+print,SIMPLE_NAME, line no: 725,caseWriter.println(indent1 + case_str + ((ConstExpr)o).value()+ colon_str),METHOD_INVOCATION, line no: 946, 0.8666666666666667, 0.8666666666666667, 1.0, 0.37681159420289856
+print,SIMPLE_NAME, line no: 725,caseWriter.println(indent2 + "break;"),METHOD_INVOCATION, line no: 989, 0.8666666666666667, 0.8666666666666667, 1.0, 0.5
+print,SIMPLE_NAME, line no: 725,caseWriter.println(indent2 + "return result;"),METHOD_INVOCATION, line no: 993, 0.8666666666666667, 0.8666666666666667, 1.0, 0.4636363636363636
+print,SIMPLE_NAME, line no: 725,ps.println("\t\t" + switch_type_spec.typeSpec().printWriteStatement("s.discriminator ()" "out")),METHOD_INVOCATION, line no: 1082, 0.8666666666666667, 0.8666666666666667, 1.0, 0.3271604938271605
+print,SIMPLE_NAME, line no: 725,caseWriter.println(indent2 + "return;"),METHOD_INVOCATION, line no: 1169, 0.8666666666666667, 0.8666666666666667, 1.0, 0.4857142857142857
+print,SIMPLE_NAME, line no: 725,ps.print(t.typeSpec().helperName() + ".type() "),METHOD_INVOCATION, line no: 1307, 0.8666666666666667, 0.8666666666666667, 1.0, 0.4649122807017544
+print,SIMPLE_NAME, line no: 725,ps.print(t.typeSpec().getTypeCodeExpression() + " "),METHOD_INVOCATION, line no: 1310, 0.8666666666666667, 0.8666666666666667, 1.0, 0.4322033898305085
+print,SIMPLE_NAME, line no: 725,switch_body.print(ps),METHOD_INVOCATION, line no: 1355, 0.8666666666666667, 0.8666666666666667, 1.0, 0.6091954022988506
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," ",STRING_LITERAL, line no: 134, 0.8666666666666667, 0.4666666666666667, 1.0, 0.5217391304347826
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,helperName,SIMPLE_NAME, line no: 142, 0.8666666666666667, 0.06666666666666667, 1.0, 0.532608695652174
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,s,SIMPLE_NAME, line no: 162, 0.8666666666666667, 0.06666666666666667, 1.0, 0.5217391304347826
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"org.omg.CORBA.TypeCode",STRING_LITERAL, line no: 224, 0.8666666666666667, 0.8666666666666667, 1.0, 0.5760869565217391
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,toString,SIMPLE_NAME, line no: 528, 0.8666666666666667, 0.7333333333333333, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Something went wrong in UnionType  ",STRING_LITERAL, line no: 539, 0.8666666666666667, 0.8666666666666667, 1.0, 0.5816326530612245
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"could not identify switch type ",STRING_LITERAL, line no: 540, 0.8666666666666667, 0.8666666666666667, 1.0, 0.6276595744680851
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\tpublic void __default ()",STRING_LITERAL, line no: 743, 0.8666666666666667, 0.8666666666666667, 1.0, 0.6086956521739131
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\tpublic void __default (",STRING_LITERAL, line no: 748, 0.8666666666666667, 0.8666666666666667, 1.0, 0.6086956521739131
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," _discriminator)",STRING_LITERAL, line no: 748, 0.8666666666666667, 0.8666666666666667, 1.0, 0.6956521739130435
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\tif( ",STRING_LITERAL, line no: 750, 0.8666666666666667, 0.8666666666666667, 1.0, 0.5869565217391305
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," _discriminator == " + lab,INFIX_EXPRESSION, line no: 756, 0.8666666666666667, 0.8666666666666667, 1.0, 0.9347826086956522
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," _discriminator == ",STRING_LITERAL, line no: 756, 0.8666666666666667, 0.8666666666666667, 1.0, 0.75
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," || _discriminator == " + lab,INFIX_EXPRESSION, line no: 760, 0.8666666666666667, 0.8666666666666667, 1.0, 0.9139784946236559
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," || _discriminator == ",STRING_LITERAL, line no: 760, 0.8666666666666667, 0.8666666666666667, 1.0, 0.7391304347826086
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," )",STRING_LITERAL, line no: 763, 0.8666666666666667, 0.8666666666666667, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\t\tthrow new org.omg.CORBA.BAD_PARAM( \"Illegal value is used in __default method\" ",STRING_LITERAL, line no: 763, 0.8666666666666667, 0.8666666666666667, 1.0, 0.3933333333333333
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," 34  org.omg.CORBA.CompletionStatus.COMPLETED_NO );",STRING_LITERAL, line no: 764, 0.8666666666666667, 0.8666666666666667, 1.0, 0.5175438596491229
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"disc",STRING_LITERAL, line no: 888, 0.8666666666666667, 0.8666666666666667, 1.0, 0.5652173913043478
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"s.discriminator ()",STRING_LITERAL, line no: 1082, 0.8666666666666667, 0.8666666666666667, 1.0, 0.6956521739130435
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Compiler error: unrecognized BaseType: ",STRING_LITERAL, line no: 1277, 0.8666666666666667, 0.8666666666666667, 1.0, 0.5384615384615384
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,": ",STRING_LITERAL, line no: 1278, 0.8666666666666667, 0.8666666666666667, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,getName,SIMPLE_NAME, line no: 1279, 0.8666666666666667, 0.8666666666666667, 1.0, 0.532608695652174
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,".type() ",STRING_LITERAL, line no: 1307, 0.8666666666666667, 0.8666666666666667, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,path,SIMPLE_NAME, line no: 1359, 0.8666666666666667, 0.8666666666666667, 1.0, 0.532608695652174
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,replace,SIMPLE_NAME, line no: 1360, 0.8666666666666667, 0.8666666666666667, 1.0, 0.5217391304347826
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Unable to create ",STRING_LITERAL, line no: 1367, 0.8666666666666667, 0.8666666666666667, 1.0, 0.6195652173913043
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,fname,SIMPLE_NAME, line no: 1372, 0.8666666666666667, 0.8666666666666667, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,".java",STRING_LITERAL, line no: 1372, 0.8666666666666667, 0.8666666666666667, 1.0, 0.5760869565217391
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Holder.java",STRING_LITERAL, line no: 1382, 0.8666666666666667, 0.8666666666666667, 1.0, 0.5760869565217391
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Helper.java",STRING_LITERAL, line no: 1392, 0.8666666666666667, 0.8666666666666667, 1.0, 0.5652173913043478
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,setPrintPhaseNames,SIMPLE_NAME, line no: 102, 0.8571428571428571, 0.7142857142857143, 1.0, 0.5242718446601942
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,addImportedName,SIMPLE_NAME, line no: 254, 0.8571428571428571, 0.8571428571428571, 1.0, 0.5339805825242718
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,addElement,SIMPLE_NAME, line no: 379, 0.8571428571428571, 0.7857142857142857, 1.0, 0.5048543689320388
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,error,SIMPLE_NAME, line no: 539, 0.8571428571428571, 0.8571428571428571, 1.0, 0.5048543689320388
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.print(" _discriminator == " + lab),METHOD_INVOCATION, line no: 756, 0.8571428571428571, 0.8571428571428571, 1.0, 0.941747572815534
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.print(" || _discriminator == " + lab),METHOD_INVOCATION, line no: 760, 0.8571428571428571, 0.8571428571428571, 1.0, 0.9230769230769231
+" && discriminator != ",STRING_LITERAL, line no: 725,"Compiler Error: trying to reassign container for ",STRING_LITERAL, line no: 91, 0.8125, 0.8125, 1.0, 0.6090909090909091
+" && discriminator != ",STRING_LITERAL, line no: 725,"Holder",STRING_LITERAL, line no: 139, 0.8125, 0.375, 1.0, 0.7023809523809523
+" && discriminator != ",STRING_LITERAL, line no: 725,helperName,SIMPLE_NAME, line no: 142, 0.8125, 0.0625, 1.0, 0.5952380952380952
+" && discriminator != ",STRING_LITERAL, line no: 725,s,SIMPLE_NAME, line no: 162, 0.8125, 0.0625, 1.0, 0.5833333333333334
+" && discriminator != ",STRING_LITERAL, line no: 725,s=parser.pack_replace(s),ASSIGNMENT, line no: 164, 0.8125, 0.8125, 1.0, 0.5833333333333334
+" && discriminator != ",STRING_LITERAL, line no: 725,"Illegal Switch Type: ",STRING_LITERAL, line no: 275, 0.8125, 0.8125, 1.0, 0.7857142857142857
+" && discriminator != ",STRING_LITERAL, line no: 725,"Too many case labels in definition of union " + full_name() + "  default cannot apply",INFIX_EXPRESSION, line no: 406, 0.8125, 0.8125, 1.0, 0.4
+" && discriminator != ",STRING_LITERAL, line no: 725,"Too many case labels in definition of union ",STRING_LITERAL, line no: 406, 0.8125, 0.8125, 1.0, 0.6261682242990654
+" && discriminator != ",STRING_LITERAL, line no: 725,"  default cannot apply",STRING_LITERAL, line no: 407, 0.8125, 0.8125, 1.0, 0.7647058823529411
+" && discriminator != ",STRING_LITERAL, line no: 725,(String)unusedCaseLabels.elementAt(i),CAST_EXPRESSION, line no: 658, 0.8125, 0.75, 1.0, 0.5353535353535354
+" && discriminator != ",STRING_LITERAL, line no: 725," _discriminator == " + lab,INFIX_EXPRESSION, line no: 756, 0.8125, 0.8125, 1.0, 0.7666666666666667
+" && discriminator != ",STRING_LITERAL, line no: 725," || _discriminator == " + lab,INFIX_EXPRESSION, line no: 760, 0.8125, 0.8125, 1.0, 0.7311827956989247
+" && discriminator != ",STRING_LITERAL, line no: 725,"\timplements org.omg.CORBA.portable.Streamable",STRING_LITERAL, line no: 788, 0.8125, 0.8125, 1.0, 0.6055045871559633
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tpublic " + className + " value;"+ Environment.NL,INFIX_EXPRESSION, line no: 791, 0.8125, 0.8125, 1.0, 0.49122807017543857
+" && discriminator != ",STRING_LITERAL, line no: 725," value;",STRING_LITERAL, line no: 791, 0.8125, 0.8125, 1.0, 0.7261904761904762
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tpublic " + className + "Holder ()",INFIX_EXPRESSION, line no: 793, 0.8125, 0.8125, 1.0, 0.57
+" && discriminator != ",STRING_LITERAL, line no: 725,"Holder ()",STRING_LITERAL, line no: 793, 0.8125, 0.8125, 1.0, 0.7380952380952381
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tpublic " + className + "Holder (final "+ className+ " initial)",INFIX_EXPRESSION, line no: 797, 0.8125, 0.8125, 1.0, 0.4573643410852713
+" && discriminator != ",STRING_LITERAL, line no: 725,"Holder (final ",STRING_LITERAL, line no: 797, 0.8125, 0.8125, 1.0, 0.7738095238095238
+" && discriminator != ",STRING_LITERAL, line no: 725," initial)",STRING_LITERAL, line no: 797, 0.8125, 0.8125, 1.0, 0.7619047619047619
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\tvalue = initial;",STRING_LITERAL, line no: 799, 0.8125, 0.8125, 1.0, 0.7738095238095238
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tpublic org.omg.CORBA.TypeCode _type ()",STRING_LITERAL, line no: 802, 0.8125, 0.8125, 1.0, 0.6407766990291263
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\treturn " + className + "Helper.type ();",INFIX_EXPRESSION, line no: 804, 0.8125, 0.8125, 1.0, 0.5
+" && discriminator != ",STRING_LITERAL, line no: 725,"Helper.type ();",STRING_LITERAL, line no: 804, 0.8125, 0.8125, 1.0, 0.7142857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tpublic void _read (final org.omg.CORBA.portable.InputStream in)",STRING_LITERAL, line no: 807, 0.8125, 0.8125, 1.0, 0.5390625
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\tvalue = " + className + "Helper.read (in);",INFIX_EXPRESSION, line no: 809, 0.8125, 0.8125, 1.0, 0.4864864864864865
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\tvalue = ",STRING_LITERAL, line no: 809, 0.8125, 0.8125, 1.0, 0.7261904761904762
+" && discriminator != ",STRING_LITERAL, line no: 725,"Helper.read (in);",STRING_LITERAL, line no: 809, 0.8125, 0.8125, 1.0, 0.7142857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725,"\tpublic void _write (final org.omg.CORBA.portable.OutputStream out)",STRING_LITERAL, line no: 812, 0.8125, 0.8125, 1.0, 0.5267175572519084
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t" + className + "Helper.write (out  value);",INFIX_EXPRESSION, line no: 814, 0.8125, 0.8125, 1.0, 0.5
+" && discriminator != ",STRING_LITERAL, line no: 725,"Helper.write (out  value);",STRING_LITERAL, line no: 814, 0.8125, 0.8125, 1.0, 0.6966292134831461
+" && discriminator != ",STRING_LITERAL, line no: 725,indent1 + case_str + ((ConstExpr)o).value()+ colon_str,INFIX_EXPRESSION, line no: 946, 0.8125, 0.8125, 1.0, 0.4700854700854701
+" && discriminator != ",STRING_LITERAL, line no: 725,"Compiler error: unrecognized label type: ",STRING_LITERAL, line no: 1291, 0.8125, 0.8125, 1.0, 0.6226415094339622
+" && discriminator != ",STRING_LITERAL, line no: 725,t.typeSpec().helperName() + ".type() ",INFIX_EXPRESSION, line no: 1307, 0.8125, 0.8125, 1.0, 0.5242718446601942
+" && discriminator != ",STRING_LITERAL, line no: 725,t.typeSpec().helperName(),METHOD_INVOCATION, line no: 1307, 0.8125, 0.8125, 1.0, 0.5494505494505495
+" && discriminator != ",STRING_LITERAL, line no: 725,t.typeSpec().getTypeCodeExpression() + " ",INFIX_EXPRESSION, line no: 1310, 0.8125, 0.8125, 1.0, 0.4953271028037383
+" && discriminator != ",STRING_LITERAL, line no: 725,t.typeSpec().getTypeCodeExpression(),METHOD_INVOCATION, line no: 1310, 0.8125, 0.8125, 1.0, 0.4803921568627451
+" && discriminator != ",STRING_LITERAL, line no: 725,"Unable to create " + path,INFIX_EXPRESSION, line no: 1367, 0.8125, 0.8125, 1.0, 0.6263736263736264
+lab,SIMPLE_NAME, line no: 725,"Compiler Error: trying to reassign container for " + name,INFIX_EXPRESSION, line no: 91, 0.8125, 0.8125, 1.0, 0.3949579831932773
+lab,SIMPLE_NAME, line no: 725,"Compiler Error: trying to reassign container for ",STRING_LITERAL, line no: 91, 0.8125, 0.8125, 1.0, 0.43636363636363634
+lab,SIMPLE_NAME, line no: 725,"Holder",STRING_LITERAL, line no: 139, 0.8125, 0.3125, 1.0, 0.6811594202898551
+lab,SIMPLE_NAME, line no: 725,switch_type_spec.typeName(),METHOD_INVOCATION, line no: 254, 0.8125, 0.8125, 1.0, 0.5604395604395604
+lab,SIMPLE_NAME, line no: 725,"Illegal Switch Type: " + ts.typeName(),INFIX_EXPRESSION, line no: 275, 0.8125, 0.8125, 1.0, 0.5
+lab,SIMPLE_NAME, line no: 725,"Illegal Switch Type: ",STRING_LITERAL, line no: 275, 0.8125, 0.8125, 1.0, 0.6190476190476191
+lab,SIMPLE_NAME, line no: 725,"Too many case labels in definition of union " + full_name() + "  default cannot apply",INFIX_EXPRESSION, line no: 406, 0.8125, 0.8125, 1.0, 0.32666666666666666
+lab,SIMPLE_NAME, line no: 725,"Too many case labels in definition of union ",STRING_LITERAL, line no: 406, 0.8125, 0.8125, 1.0, 0.45794392523364486
+lab,SIMPLE_NAME, line no: 725,"  default cannot apply",STRING_LITERAL, line no: 407, 0.8125, 0.8125, 1.0, 0.5882352941176471
+lab,SIMPLE_NAME, line no: 725,charStr=charStr.substring(1),ASSIGNMENT, line no: 491, 0.8125, 0.8125, 1.0, 0.5647058823529412
+lab,SIMPLE_NAME, line no: 725,charStr.substring(1),METHOD_INVOCATION, line no: 491, 0.8125, 0.8125, 1.0, 0.5714285714285714
+lab,SIMPLE_NAME, line no: 725," _discriminator == " + lab,INFIX_EXPRESSION, line no: 756, 0.8125, 0.8125, 1.0, 0.5777777777777777
+lab,SIMPLE_NAME, line no: 725," _discriminator == ",STRING_LITERAL, line no: 756, 0.8125, 0.8125, 1.0, 0.6219512195121951
+lab,SIMPLE_NAME, line no: 725," || _discriminator == " + lab,INFIX_EXPRESSION, line no: 760, 0.8125, 0.8125, 1.0, 0.5376344086021505
+lab,SIMPLE_NAME, line no: 725," || _discriminator == ",STRING_LITERAL, line no: 760, 0.8125, 0.8125, 1.0, 0.5764705882352941
+lab,SIMPLE_NAME, line no: 725,"\timplements org.omg.CORBA.portable.Streamable",STRING_LITERAL, line no: 788, 0.8125, 0.8125, 1.0, 0.46788990825688076
+lab,SIMPLE_NAME, line no: 725,"\tpublic " + className + " value;"+ Environment.NL,INFIX_EXPRESSION, line no: 791, 0.8125, 0.8125, 1.0, 0.4298245614035088
+lab,SIMPLE_NAME, line no: 725," value;",STRING_LITERAL, line no: 791, 0.8125, 0.8125, 1.0, 0.7
+lab,SIMPLE_NAME, line no: 725,"\tpublic " + className + "Holder ()",INFIX_EXPRESSION, line no: 793, 0.8125, 0.8125, 1.0, 0.49
+lab,SIMPLE_NAME, line no: 725,"Holder ()",STRING_LITERAL, line no: 793, 0.8125, 0.8125, 1.0, 0.6805555555555556
+lab,SIMPLE_NAME, line no: 725,"\tpublic " + className + "Holder (final "+ className+ " initial)",INFIX_EXPRESSION, line no: 797, 0.8125, 0.8125, 1.0, 0.3798449612403101
+lab,SIMPLE_NAME, line no: 725,"Holder (final ",STRING_LITERAL, line no: 797, 0.8125, 0.8125, 1.0, 0.6493506493506493
+lab,SIMPLE_NAME, line no: 725," initial)",STRING_LITERAL, line no: 797, 0.8125, 0.8125, 1.0, 0.6805555555555556
+lab,SIMPLE_NAME, line no: 725,"\t\tvalue = initial;",STRING_LITERAL, line no: 799, 0.8125, 0.8125, 1.0, 0.6024096385542169
+lab,SIMPLE_NAME, line no: 725,"\tpublic org.omg.CORBA.TypeCode _type ()",STRING_LITERAL, line no: 802, 0.8125, 0.8125, 1.0, 0.47572815533980584
+lab,SIMPLE_NAME, line no: 725,"\t\treturn " + className + "Helper.type ();",INFIX_EXPRESSION, line no: 804, 0.8125, 0.8125, 1.0, 0.4351851851851852
+lab,SIMPLE_NAME, line no: 725,"Helper.type ();",STRING_LITERAL, line no: 804, 0.8125, 0.8125, 1.0, 0.6025641025641025
+lab,SIMPLE_NAME, line no: 725,"\tpublic void _read (final org.omg.CORBA.portable.InputStream in)",STRING_LITERAL, line no: 807, 0.8125, 0.8125, 1.0, 0.3984375
+lab,SIMPLE_NAME, line no: 725,"\t\tvalue = " + className + "Helper.read (in);",INFIX_EXPRESSION, line no: 809, 0.8125, 0.8125, 1.0, 0.42342342342342343
+lab,SIMPLE_NAME, line no: 725,"\t\tvalue = ",STRING_LITERAL, line no: 809, 0.8125, 0.8125, 1.0, 0.6266666666666667
+lab,SIMPLE_NAME, line no: 725,"Helper.read (in);",STRING_LITERAL, line no: 809, 0.8125, 0.8125, 1.0, 0.6
+lab,SIMPLE_NAME, line no: 725,"\tpublic void _write (final org.omg.CORBA.portable.OutputStream out)",STRING_LITERAL, line no: 812, 0.8125, 0.8125, 1.0, 0.3893129770992366
+lab,SIMPLE_NAME, line no: 725,"\t\t" + className + "Helper.write (out  value);",INFIX_EXPRESSION, line no: 814, 0.8125, 0.8125, 1.0, 0.41964285714285715
+lab,SIMPLE_NAME, line no: 725,"Helper.write (out  value);",STRING_LITERAL, line no: 814, 0.8125, 0.8125, 1.0, 0.5393258426966292
+lab,SIMPLE_NAME, line no: 725,indent1 + default_str,INFIX_EXPRESSION, line no: 941, 0.8125, 0.8125, 1.0, 0.5476190476190477
+print,SIMPLE_NAME, line no: 725,emit_warn,SIMPLE_NAME, line no: 321, 0.8, 0.7333333333333333, 1.0, 0.835820895522388
+print,SIMPLE_NAME, line no: 725,allCaseLabels.addElement(((ConstExpr)ce).value()),METHOD_INVOCATION, line no: 379, 0.8, 0.8, 1.0, 0.4424778761061947
+print,SIMPLE_NAME, line no: 725,allCaseLabels.addElement(ScopedName.unPseudoName(((ScopedName)ce).resolvedName())),METHOD_INVOCATION, line no: 384, 0.8, 0.8, 1.0, 0.3356164383561644
+print,SIMPLE_NAME, line no: 725,lexer.emit_warn("Too many case labels in definition of union " + full_name() + "  default cannot apply" token),METHOD_INVOCATION, line no: 406, 0.8, 0.8, 1.0, 0.29310344827586204
+print,SIMPLE_NAME, line no: 725,pw.print(defaultStr),METHOD_INVOCATION, line no: 639, 0.8, 0.7333333333333333, 1.0, 0.6071428571428571
+print,SIMPLE_NAME, line no: 725,pw.print(label[i]),METHOD_INVOCATION, line no: 643, 0.8, 0.7333333333333333, 1.0, 0.6219512195121951
+print,SIMPLE_NAME, line no: 725,pw.print(" _discriminator == " + lab),METHOD_INVOCATION, line no: 756, 0.8, 0.8, 1.0, 0.5445544554455446
+print,SIMPLE_NAME, line no: 725,pw.print(" || _discriminator == " + lab),METHOD_INVOCATION, line no: 760, 0.8, 0.8, 1.0, 0.5096153846153846
+print,SIMPLE_NAME, line no: 725,ps.println("\timplements org.omg.CORBA.portable.Streamable"),METHOD_INVOCATION, line no: 788, 0.8, 0.8, 1.0, 0.4274193548387097
+print,SIMPLE_NAME, line no: 725,ps.println("\tpublic " + className + " value;"+ Environment.NL),METHOD_INVOCATION, line no: 791, 0.8, 0.8, 1.0, 0.41732283464566927
+print,SIMPLE_NAME, line no: 725,ps.println("\tpublic " + className + "Holder ()"),METHOD_INVOCATION, line no: 793, 0.8, 0.8, 1.0, 0.4690265486725664
+print,SIMPLE_NAME, line no: 725,ps.println("\tpublic " + className + "Holder (final "+ className+ " initial)"),METHOD_INVOCATION, line no: 797, 0.8, 0.8, 1.0, 0.3732394366197183
+print,SIMPLE_NAME, line no: 725,ps.println("\t\tvalue = initial;"),METHOD_INVOCATION, line no: 799, 0.8, 0.8, 1.0, 0.5408163265306123
+print,SIMPLE_NAME, line no: 725,ps.println("\tpublic org.omg.CORBA.TypeCode _type ()"),METHOD_INVOCATION, line no: 802, 0.8, 0.8, 1.0, 0.4491525423728814
+print,SIMPLE_NAME, line no: 725,ps.println("\t\treturn " + className + "Helper.type ();"),METHOD_INVOCATION, line no: 804, 0.8, 0.8, 1.0, 0.4214876033057851
+print,SIMPLE_NAME, line no: 725,ps.println("\tpublic void _read (final org.omg.CORBA.portable.InputStream in)"),METHOD_INVOCATION, line no: 807, 0.8, 0.8, 1.0, 0.3706293706293706
+print,SIMPLE_NAME, line no: 725,ps.println("\t\tvalue = " + className + "Helper.read (in);"),METHOD_INVOCATION, line no: 809, 0.8, 0.8, 1.0, 0.4112903225806452
+print,SIMPLE_NAME, line no: 725,ps.println("\tpublic void _write (final org.omg.CORBA.portable.OutputStream out)"),METHOD_INVOCATION, line no: 812, 0.8, 0.8, 1.0, 0.363013698630137
+print,SIMPLE_NAME, line no: 725,ps.println("\t\t" + className + "Helper.write (out  value);"),METHOD_INVOCATION, line no: 814, 0.8, 0.8, 1.0, 0.408
+print,SIMPLE_NAME, line no: 725,ps.println("\t\tswitch (disc)"),METHOD_INVOCATION, line no: 907, 0.8, 0.8, 1.0, 0.5578947368421052
+print,SIMPLE_NAME, line no: 725,caseWriter.println(indent1 + default_str),METHOD_INVOCATION, line no: 941, 0.8, 0.8, 1.0, 0.4857142857142857
+print,SIMPLE_NAME, line no: 725,ps.println("\t\tswitch (s.discriminator ())"),METHOD_INVOCATION, line no: 1095, 0.8, 0.8, 1.0, 0.4774774774774775
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Compiler Error: trying to reassign container for ",STRING_LITERAL, line no: 91, 0.8, 0.8, 1.0, 0.5272727272727272
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Holder",STRING_LITERAL, line no: 139, 0.8, 0.3333333333333333, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Illegal Switch Type: ",STRING_LITERAL, line no: 275, 0.8, 0.8, 1.0, 0.6195652173913043
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Too many case labels in definition of union ",STRING_LITERAL, line no: 406, 0.8, 0.8, 1.0, 0.5420560747663551
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"  default cannot apply",STRING_LITERAL, line no: 407, 0.8, 0.8, 1.0, 0.6086956521739131
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\timplements org.omg.CORBA.portable.Streamable",STRING_LITERAL, line no: 788, 0.8, 0.8, 1.0, 0.5321100917431193
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," value;",STRING_LITERAL, line no: 791, 0.8, 0.8, 1.0, 0.5652173913043478
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Holder ()",STRING_LITERAL, line no: 793, 0.8, 0.8, 1.0, 0.5760869565217391
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Holder (final ",STRING_LITERAL, line no: 797, 0.8, 0.8, 1.0, 0.6086956521739131
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," initial)",STRING_LITERAL, line no: 797, 0.8, 0.8, 1.0, 0.5978260869565217
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\tvalue = initial;",STRING_LITERAL, line no: 799, 0.8, 0.8, 1.0, 0.6086956521739131
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\tpublic org.omg.CORBA.TypeCode _type ()",STRING_LITERAL, line no: 802, 0.8, 0.8, 1.0, 0.5533980582524272
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Helper.type ();",STRING_LITERAL, line no: 804, 0.8, 0.8, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\tpublic void _read (final org.omg.CORBA.portable.InputStream in)",STRING_LITERAL, line no: 807, 0.8, 0.8, 1.0, 0.46875
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\tvalue = ",STRING_LITERAL, line no: 809, 0.8, 0.8, 1.0, 0.5652173913043478
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Helper.read (in);",STRING_LITERAL, line no: 809, 0.8, 0.8, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\tpublic void _write (final org.omg.CORBA.portable.OutputStream out)",STRING_LITERAL, line no: 812, 0.8, 0.8, 1.0, 0.4580152671755725
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Helper.write (out  value);",STRING_LITERAL, line no: 814, 0.8, 0.8, 1.0, 0.5760869565217391
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Compiler error: unrecognized label type: ",STRING_LITERAL, line no: 1291, 0.8, 0.8, 1.0, 0.5471698113207547
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,emit_warn,SIMPLE_NAME, line no: 321, 0.7857142857142857, 0.7142857142857143, 1.0, 0.5048543689320388
+" && discriminator != ",STRING_LITERAL, line no: 725,"Compiler Error: trying to reassign container for " + name,INFIX_EXPRESSION, line no: 91, 0.75, 0.75, 1.0, 0.48739495798319327
+" && discriminator != ",STRING_LITERAL, line no: 725,"Union " + full_name() + " already defined",INFIX_EXPRESSION, line no: 231, 0.75, 0.75, 1.0, 0.5283018867924528
+" && discriminator != ",STRING_LITERAL, line no: 725,"Union ",STRING_LITERAL, line no: 231, 0.75, 0.75, 1.0, 0.7380952380952381
+" && discriminator != ",STRING_LITERAL, line no: 725," already defined",STRING_LITERAL, line no: 231, 0.75, 0.75, 1.0, 0.7619047619047619
+" && discriminator != ",STRING_LITERAL, line no: 725,switch_type_spec.typeName(),METHOD_INVOCATION, line no: 254, 0.75, 0.75, 1.0, 0.5824175824175825
+" && discriminator != ",STRING_LITERAL, line no: 725,"Illegal Switch Type: " + ts.typeName(),INFIX_EXPRESSION, line no: 275, 0.75, 0.75, 1.0, 0.5588235294117647
+" && discriminator != ",STRING_LITERAL, line no: 725,"No package defined for " + className + " - illegal in JDK1.4",INFIX_EXPRESSION, line no: 322, 0.75, 0.75, 1.0, 0.48
+" && discriminator != ",STRING_LITERAL, line no: 725,"No package defined for ",STRING_LITERAL, line no: 322, 0.75, 0.75, 1.0, 0.7790697674418605
+" && discriminator != ",STRING_LITERAL, line no: 725," - illegal in JDK1.4",STRING_LITERAL, line no: 322, 0.75, 0.75, 1.0, 0.7738095238095238
+" && discriminator != ",STRING_LITERAL, line no: 725,"package " + pack_name + ";",INFIX_EXPRESSION, line no: 326, 0.75, 0.75, 1.0, 0.6263736263736264
+" && discriminator != ",STRING_LITERAL, line no: 725,"package ",STRING_LITERAL, line no: 326, 0.75, 0.75, 1.0, 0.7380952380952381
+" && discriminator != ",STRING_LITERAL, line no: 725,"Case label error: too many default labels.",STRING_LITERAL, line no: 445, 0.75, 0.75, 1.0, 0.638095238095238
+" && discriminator != ",STRING_LITERAL, line no: 725,((String)allCaseLabels.elementAt(0)),PARENTHESIZED_EXPRESSION, line no: 450, 0.75, 0.75, 1.0, 0.4953271028037383
+" && discriminator != ",STRING_LITERAL, line no: 725,(String)allCaseLabels.elementAt(0),CAST_EXPRESSION, line no: 450, 0.75, 0.75, 1.0, 0.5520833333333334
+" && discriminator != ",STRING_LITERAL, line no: 725,"true",STRING_LITERAL, line no: 450, 0.75, 0.75, 1.0, 0.7261904761904762
+" && discriminator != ",STRING_LITERAL, line no: 725,charStr=charStr.substring(1),ASSIGNMENT, line no: 491, 0.75, 0.75, 1.0, 0.5882352941176471
+" && discriminator != ",STRING_LITERAL, line no: 725,charStr.substring(1),METHOD_INVOCATION, line no: 491, 0.75, 0.75, 1.0, 0.5833333333333334
+" && discriminator != ",STRING_LITERAL, line no: 725,"(char)",STRING_LITERAL, line no: 511, 0.75, 0.75, 1.0, 0.7380952380952381
+" && discriminator != ",STRING_LITERAL, line no: 725,defaultStr + ";",INFIX_EXPRESSION, line no: 680, 0.75, 0.75, 1.0, 0.6309523809523809
+" && discriminator != ",STRING_LITERAL, line no: 725,label[0] + ";",INFIX_EXPRESSION, line no: 684, 0.75, 0.75, 1.0, 0.5952380952380952
+" && discriminator != ",STRING_LITERAL, line no: 725," && _discriminator != ",STRING_LITERAL, line no: 712, 0.75, 0.75, 1.0, 0.9647058823529412
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t" + className + " result = new "+ className+ " ();",INFIX_EXPRESSION, line no: 856, 0.75, 0.75, 1.0, 0.48739495798319327
+" && discriminator != ",STRING_LITERAL, line no: 725," result = new ",STRING_LITERAL, line no: 856, 0.75, 0.75, 1.0, 0.7738095238095238
+" && discriminator != ",STRING_LITERAL, line no: 725," ();",STRING_LITERAL, line no: 856, 0.75, 0.75, 1.0, 0.7142857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t" + switch_ts_resolved.toString() + " disc = "+ switch_ts_resolved.toString()+ ".from_int(in.read_long());",INFIX_EXPRESSION, line no: 880, 0.75, 0.75, 1.0, 0.3485714285714286
+" && discriminator != ",STRING_LITERAL, line no: 725," disc = ",STRING_LITERAL, line no: 880, 0.75, 0.75, 1.0, 0.7738095238095238
+" && discriminator != ",STRING_LITERAL, line no: 725,".from_int(in.read_long());",STRING_LITERAL, line no: 881, 0.75, 0.75, 1.0, 0.7078651685393258
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\tswitch (disc)",STRING_LITERAL, line no: 907, 0.75, 0.75, 1.0, 0.7619047619047619
+" && discriminator != ",STRING_LITERAL, line no: 725,indent1 + default_str,INFIX_EXPRESSION, line no: 941, 0.75, 0.75, 1.0, 0.6190476190476191
+" && discriminator != ",STRING_LITERAL, line no: 725,"disc ",STRING_LITERAL, line no: 981, 0.75, 0.75, 1.0, 0.7261904761904762
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\tswitch (s.discriminator ())",STRING_LITERAL, line no: 1095, 0.75, 0.75, 1.0, 0.7708333333333334
+" && discriminator != ",STRING_LITERAL, line no: 725,"Compiler error: unrecognized label type: " + tocheck.typeName(),INFIX_EXPRESSION, line no: 1291, 0.75, 0.75, 1.0, 0.4418604651162791
+lab,SIMPLE_NAME, line no: 725,"Union " + full_name() + " already defined",INFIX_EXPRESSION, line no: 231, 0.75, 0.75, 1.0, 0.46226415094339623
+lab,SIMPLE_NAME, line no: 725,"Union ",STRING_LITERAL, line no: 231, 0.75, 0.75, 1.0, 0.6956521739130435
+lab,SIMPLE_NAME, line no: 725," already defined",STRING_LITERAL, line no: 231, 0.75, 0.75, 1.0, 0.6329113924050633
+lab,SIMPLE_NAME, line no: 725,"No package defined for " + className + " - illegal in JDK1.4",INFIX_EXPRESSION, line no: 322, 0.75, 0.75, 1.0, 0.392
+lab,SIMPLE_NAME, line no: 725,"No package defined for ",STRING_LITERAL, line no: 322, 0.75, 0.75, 1.0, 0.5697674418604651
+lab,SIMPLE_NAME, line no: 725," - illegal in JDK1.4",STRING_LITERAL, line no: 322, 0.75, 0.75, 1.0, 0.6024096385542169
+lab,SIMPLE_NAME, line no: 725,((ConstExpr)ce).value(),METHOD_INVOCATION, line no: 379, 0.75, 0.75, 1.0, 0.5632183908045977
+lab,SIMPLE_NAME, line no: 725,ScopedName.unPseudoName(((ScopedName)ce).resolvedName()),METHOD_INVOCATION, line no: 385, 0.75, 0.75, 1.0, 0.4166666666666667
+lab,SIMPLE_NAME, line no: 725,unPseudoName,SIMPLE_NAME, line no: 385, 0.75, 0.75, 1.0, 0.7857142857142857
+lab,SIMPLE_NAME, line no: 725,((ScopedName)ce).resolvedName(),METHOD_INVOCATION, line no: 385, 0.75, 0.75, 1.0, 0.5263157894736842
+lab,SIMPLE_NAME, line no: 725,resolvedName,SIMPLE_NAME, line no: 385, 0.75, 0.75, 1.0, 0.8
+lab,SIMPLE_NAME, line no: 725,((String)allCaseLabels.elementAt(0)),PARENTHESIZED_EXPRESSION, line no: 450, 0.75, 0.75, 1.0, 0.4766355140186916
+lab,SIMPLE_NAME, line no: 725,(String)allCaseLabels.elementAt(0),CAST_EXPRESSION, line no: 450, 0.75, 0.75, 1.0, 0.5208333333333334
+lab,SIMPLE_NAME, line no: 725,"true",STRING_LITERAL, line no: 450, 0.75, 0.75, 1.0, 0.7164179104477612
+lab,SIMPLE_NAME, line no: 725,Integer.toString(i),METHOD_INVOCATION, line no: 528, 0.75, 0.75, 1.0, 0.5783132530120482
+lab,SIMPLE_NAME, line no: 725,label[i]=((ScopedName)o).typeName(),ASSIGNMENT, line no: 567, 0.75, 0.75, 1.0, 0.5543478260869565
+lab,SIMPLE_NAME, line no: 725,defaultStr + ";",INFIX_EXPRESSION, line no: 680, 0.75, 0.75, 1.0, 0.5822784810126582
+lab,SIMPLE_NAME, line no: 725,label[0] + ";",INFIX_EXPRESSION, line no: 684, 0.75, 0.75, 1.0, 0.6233766233766234
+lab,SIMPLE_NAME, line no: 725,"\t\t" + className + " result = new "+ className+ " ();",INFIX_EXPRESSION, line no: 856, 0.75, 0.75, 1.0, 0.4117647058823529
+lab,SIMPLE_NAME, line no: 725," result = new ",STRING_LITERAL, line no: 856, 0.75, 0.75, 1.0, 0.6363636363636364
+lab,SIMPLE_NAME, line no: 725," ();",STRING_LITERAL, line no: 856, 0.75, 0.75, 1.0, 0.7164179104477612
+lab,SIMPLE_NAME, line no: 725,"\t\t" + switch_ts_resolved.toString() + " disc = "+ switch_ts_resolved.toString()+ ".from_int(in.read_long());",INFIX_EXPRESSION, line no: 880, 0.75, 0.75, 1.0, 0.26857142857142857
+lab,SIMPLE_NAME, line no: 725," disc = ",STRING_LITERAL, line no: 880, 0.75, 0.75, 1.0, 0.647887323943662
+lab,SIMPLE_NAME, line no: 725,".from_int(in.read_long());",STRING_LITERAL, line no: 881, 0.75, 0.75, 1.0, 0.5280898876404494
+lab,SIMPLE_NAME, line no: 725,"\t\tswitch (disc)",STRING_LITERAL, line no: 907, 0.75, 0.75, 1.0, 0.6
+lab,SIMPLE_NAME, line no: 725,"\t\tswitch (s.discriminator ())",STRING_LITERAL, line no: 1095, 0.75, 0.75, 1.0, 0.5104166666666666
+lab,SIMPLE_NAME, line no: 725,"Compiler error: unrecognized label type: " + tocheck.typeName(),INFIX_EXPRESSION, line no: 1291, 0.75, 0.75, 1.0, 0.3875968992248062
+lab,SIMPLE_NAME, line no: 725,"Compiler error: unrecognized label type: ",STRING_LITERAL, line no: 1291, 0.75, 0.75, 1.0, 0.4811320754716981
+lab,SIMPLE_NAME, line no: 725,n,SIMPLE_NAME, line no: 1437, 0.75, 0.0625, 1.0, 0.8852459016393442
+pw,SIMPLE_NAME, line no: 725,printWriter,SIMPLE_NAME, line no: 1377, 0.7333333333333333, 0.7333333333333333, 1.0, 0.7746478873239436
+pw,SIMPLE_NAME, line no: 725,new PrintWriter(new java.io.FileWriter(f)),CLASS_INSTANCE_CREATION, line no: 1377, 0.7333333333333333, 0.7333333333333333, 1.0, 0.4298245614035088
+print,SIMPLE_NAME, line no: 725,printUnionClass,SIMPLE_NAME, line no: 316, 0.7333333333333333, 0.06666666666666667, 1.0, 0.7808219178082192
+print,SIMPLE_NAME, line no: 725,lexer.emit_warn("No package defined for " + className + " - illegal in JDK1.4" token),METHOD_INVOCATION, line no: 321, 0.7333333333333333, 0.7333333333333333, 1.0, 0.35570469798657717
+print,SIMPLE_NAME, line no: 725,pw.println(defaultStr + ";"),METHOD_INVOCATION, line no: 680, 0.7333333333333333, 0.7333333333333333, 1.0, 0.5543478260869565
+print,SIMPLE_NAME, line no: 725,pw.println(label[0] + ";"),METHOD_INVOCATION, line no: 684, 0.7333333333333333, 0.7333333333333333, 1.0, 0.5666666666666667
+print,SIMPLE_NAME, line no: 725,pw.print(" && _discriminator != "),METHOD_INVOCATION, line no: 712, 0.7333333333333333, 0.7333333333333333, 1.0, 0.5612244897959183
+print,SIMPLE_NAME, line no: 725,printHolderClass,SIMPLE_NAME, line no: 773, 0.7333333333333333, 0.06666666666666667, 1.0, 0.7972972972972973
+print,SIMPLE_NAME, line no: 725,printHelperClass,SIMPLE_NAME, line no: 820, 0.7333333333333333, 0.06666666666666667, 1.0, 0.7972972972972973
+print,SIMPLE_NAME, line no: 725,ps.println("\t\t" + className + " result = new "+ className+ " ();"),METHOD_INVOCATION, line no: 856, 0.7333333333333333, 0.7333333333333333, 1.0, 0.4015151515151515
+print,SIMPLE_NAME, line no: 725,ps.println("\t\t" + switch_ts_resolved.toString() + " disc = "+ switch_ts_resolved.toString()+ ".from_int(in.read_long());"),METHOD_INVOCATION, line no: 880, 0.7333333333333333, 0.7333333333333333, 1.0, 0.2712765957446808
+print,SIMPLE_NAME, line no: 725,ps.println("\t\tswitch (disc.value ())"),METHOD_INVOCATION, line no: 882, 0.7333333333333333, 0.7333333333333333, 1.0, 0.5096153846153846
+print,SIMPLE_NAME, line no: 725,caseWriter.print("disc "),METHOD_INVOCATION, line no: 981, 0.7333333333333333, 0.7333333333333333, 1.0, 0.5730337078651685
+print,SIMPLE_NAME, line no: 725,ps.print(bos.toString()),METHOD_INVOCATION, line no: 1014, 0.7333333333333333, 0.7333333333333333, 1.0, 0.5666666666666667
+print,SIMPLE_NAME, line no: 725,printUnionClass(className printWriter),METHOD_INVOCATION, line no: 1378, 0.7333333333333333, 0.7333333333333333, 1.0, 0.5096153846153846
+print,SIMPLE_NAME, line no: 725,printWriter.close(),METHOD_INVOCATION, line no: 1379, 0.7333333333333333, 0.7333333333333333, 1.0, 0.6235294117647059
+print,SIMPLE_NAME, line no: 725,printHolderClass(className printWriter),METHOD_INVOCATION, line no: 1388, 0.7333333333333333, 0.7333333333333333, 1.0, 0.4857142857142857
+print,SIMPLE_NAME, line no: 725,printHelperClass(className printWriter),METHOD_INVOCATION, line no: 1398, 0.7333333333333333, 0.7333333333333333, 1.0, 0.4857142857142857
+print,SIMPLE_NAME, line no: 725,set_name,SIMPLE_NAME, line no: 1437, 0.7333333333333333, 0.06666666666666667, 1.0, 0.8088235294117647
+print,SIMPLE_NAME, line no: 725,super.set_name(n),SUPER_METHOD_INVOCATION, line no: 1439, 0.7333333333333333, 0.7333333333333333, 1.0, 0.5617977528089888
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Union ",STRING_LITERAL, line no: 231, 0.7333333333333333, 0.7333333333333333, 1.0, 0.5760869565217391
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," already defined",STRING_LITERAL, line no: 231, 0.7333333333333333, 0.7333333333333333, 1.0, 0.5978260869565217
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"No package defined for ",STRING_LITERAL, line no: 322, 0.7333333333333333, 0.7333333333333333, 1.0, 0.6304347826086957
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," - illegal in JDK1.4",STRING_LITERAL, line no: 322, 0.7333333333333333, 0.7333333333333333, 1.0, 0.6086956521739131
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"package ",STRING_LITERAL, line no: 326, 0.7333333333333333, 0.7333333333333333, 1.0, 0.5760869565217391
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,unPseudoName,SIMPLE_NAME, line no: 385, 0.7333333333333333, 0.7333333333333333, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,resolvedName,SIMPLE_NAME, line no: 385, 0.7333333333333333, 0.7333333333333333, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Case label error: too many default labels.",STRING_LITERAL, line no: 445, 0.7333333333333333, 0.7333333333333333, 1.0, 0.580952380952381
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"true",STRING_LITERAL, line no: 450, 0.7333333333333333, 0.7333333333333333, 1.0, 0.5652173913043478
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"(char)",STRING_LITERAL, line no: 511, 0.7333333333333333, 0.7333333333333333, 1.0, 0.5760869565217391
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," && _discriminator != ",STRING_LITERAL, line no: 712, 0.7333333333333333, 0.7333333333333333, 1.0, 0.7934782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," result = new ",STRING_LITERAL, line no: 856, 0.7333333333333333, 0.7333333333333333, 1.0, 0.6086956521739131
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," ();",STRING_LITERAL, line no: 856, 0.7333333333333333, 0.7333333333333333, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," disc = ",STRING_LITERAL, line no: 880, 0.7333333333333333, 0.7333333333333333, 1.0, 0.6086956521739131
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,".from_int(in.read_long());",STRING_LITERAL, line no: 881, 0.7333333333333333, 0.7333333333333333, 1.0, 0.5869565217391305
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\tswitch (disc)",STRING_LITERAL, line no: 907, 0.7333333333333333, 0.7333333333333333, 1.0, 0.5978260869565217
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"disc ",STRING_LITERAL, line no: 981, 0.7333333333333333, 0.7333333333333333, 1.0, 0.5652173913043478
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\tswitch (s.discriminator ())",STRING_LITERAL, line no: 1095, 0.7333333333333333, 0.7333333333333333, 1.0, 0.6770833333333334
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,n,SIMPLE_NAME, line no: 1437, 0.7333333333333333, 0.06666666666666667, 1.0, 0.5217391304347826
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,printUnionClass,SIMPLE_NAME, line no: 316, 0.7142857142857143, 0.07142857142857142, 1.0, 0.5339805825242718
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,printHolderClass,SIMPLE_NAME, line no: 773, 0.7142857142857143, 0.07142857142857142, 1.0, 0.5533980582524272
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,printHelperClass,SIMPLE_NAME, line no: 820, 0.7142857142857143, 0.07142857142857142, 1.0, 0.5436893203883495
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,set_name,SIMPLE_NAME, line no: 1437, 0.7142857142857143, 0.07142857142857142, 1.0, 0.49514563106796117
+" && discriminator != ",STRING_LITERAL, line no: 725,((ConstExpr)ce).value(),METHOD_INVOCATION, line no: 379, 0.6875, 0.6875, 1.0, 0.5747126436781609
+" && discriminator != ",STRING_LITERAL, line no: 725,ScopedName.unPseudoName(((ScopedName)ce).resolvedName()),METHOD_INVOCATION, line no: 385, 0.6875, 0.6875, 1.0, 0.44166666666666665
+" && discriminator != ",STRING_LITERAL, line no: 725,unPseudoName,SIMPLE_NAME, line no: 385, 0.6875, 0.6875, 1.0, 0.5952380952380952
+" && discriminator != ",STRING_LITERAL, line no: 725,((ScopedName)ce).resolvedName(),METHOD_INVOCATION, line no: 385, 0.6875, 0.6875, 1.0, 0.5368421052631579
+" && discriminator != ",STRING_LITERAL, line no: 725,resolvedName,SIMPLE_NAME, line no: 385, 0.6875, 0.6875, 1.0, 0.5952380952380952
+" && discriminator != ",STRING_LITERAL, line no: 725,"(char)" + s,INFIX_EXPRESSION, line no: 511, 0.6875, 0.6875, 1.0, 0.6428571428571429
+" && discriminator != ",STRING_LITERAL, line no: 725,Integer.toString(i),METHOD_INVOCATION, line no: 528, 0.6875, 0.6875, 1.0, 0.6071428571428571
+" && discriminator != ",STRING_LITERAL, line no: 725,label[i]=((ScopedName)o).typeName(),ASSIGNMENT, line no: 567, 0.6875, 0.6875, 1.0, 0.5543478260869565
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\tswitch (disc.value ())",STRING_LITERAL, line no: 882, 0.6875, 0.6875, 1.0, 0.7415730337078652
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\tlong disc = s.discriminator ();",STRING_LITERAL, line no: 1091, 0.6875, 0.6875, 1.0, 0.73
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t\tlabel_any.insert_octet ((byte)0);",STRING_LITERAL, line no: 1260, 0.6875, 0.6875, 1.0, 0.625
+" && discriminator != ",STRING_LITERAL, line no: 725,anyname,SIMPLE_NAME, line no: 1413, 0.6875, 0.0625, 1.0, 0.5714285714285714
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t" + pack_name + "."+ className()+ "Helper.insert("+ anyname+ "  "+ varname+ ");",INFIX_EXPRESSION, line no: 1416, 0.6875, 0.6875, 1.0, 0.38
+" && discriminator != ",STRING_LITERAL, line no: 725,"Helper.insert(",STRING_LITERAL, line no: 1416, 0.6875, 0.6875, 1.0, 0.7261904761904762
+" && discriminator != ",STRING_LITERAL, line no: 725,"  ",STRING_LITERAL, line no: 1416, 0.6875, 0.6875, 1.0, 0.6904761904761905
+" && discriminator != ",STRING_LITERAL, line no: 725,resultname,SIMPLE_NAME, line no: 1420, 0.6875, 0.0625, 1.0, 0.6071428571428571
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t" + resultname + " = "+ className()+ "Helper.extract("+ anyname+ ");",INFIX_EXPRESSION, line no: 1424, 0.6875, 0.6875, 1.0, 0.4244604316546763
+" && discriminator != ",STRING_LITERAL, line no: 725," = ",STRING_LITERAL, line no: 1424, 0.6875, 0.6875, 1.0, 0.7380952380952381
+" && discriminator != ",STRING_LITERAL, line no: 725,"Helper.extract(",STRING_LITERAL, line no: 1424, 0.6875, 0.6875, 1.0, 0.7380952380952381
+" && discriminator != ",STRING_LITERAL, line no: 725,n,SIMPLE_NAME, line no: 1437, 0.6875, 0.0625, 1.0, 0.5833333333333334
+lab,SIMPLE_NAME, line no: 725,"package " + pack_name + ";",INFIX_EXPRESSION, line no: 326, 0.6875, 0.6875, 1.0, 0.5274725274725275
+lab,SIMPLE_NAME, line no: 725,"package ",STRING_LITERAL, line no: 326, 0.6875, 0.6875, 1.0, 0.6901408450704225
+lab,SIMPLE_NAME, line no: 725,"Case label error: too many default labels.",STRING_LITERAL, line no: 445, 0.6875, 0.6875, 1.0, 0.4857142857142857
+lab,SIMPLE_NAME, line no: 725,"(char)" + s,INFIX_EXPRESSION, line no: 511, 0.6875, 0.6875, 1.0, 0.64
+lab,SIMPLE_NAME, line no: 725,"(char)",STRING_LITERAL, line no: 511, 0.6875, 0.6875, 1.0, 0.7101449275362319
+lab,SIMPLE_NAME, line no: 725,String.valueOf(i),METHOD_INVOCATION, line no: 526, 0.6875, 0.6875, 1.0, 0.6049382716049383
+lab,SIMPLE_NAME, line no: 725,valueOf,SIMPLE_NAME, line no: 526, 0.6875, 0.6875, 1.0, 0.8461538461538461
+lab,SIMPLE_NAME, line no: 725,defaultStr=Integer.toString(i),ASSIGNMENT, line no: 528, 0.6875, 0.6875, 1.0, 0.5632183908045977
+lab,SIMPLE_NAME, line no: 725,label[i]=((ConstExpr)o).value(),ASSIGNMENT, line no: 563, 0.6875, 0.6875, 1.0, 0.5795454545454546
+lab,SIMPLE_NAME, line no: 725," && _discriminator != ",STRING_LITERAL, line no: 712, 0.6875, 0.6875, 1.0, 0.6
+lab,SIMPLE_NAME, line no: 725,"\t\tswitch (disc.value ())",STRING_LITERAL, line no: 882, 0.6875, 0.6875, 1.0, 0.550561797752809
+lab,SIMPLE_NAME, line no: 725,"disc ",STRING_LITERAL, line no: 981, 0.6875, 0.6875, 1.0, 0.6764705882352942
+lab,SIMPLE_NAME, line no: 725,bos.toString(),METHOD_INVOCATION, line no: 1010, 0.6875, 0.625, 1.0, 0.5875
+lab,SIMPLE_NAME, line no: 725,anyname,SIMPLE_NAME, line no: 1413, 0.6875, 0.0625, 1.0, 0.7910447761194029
+lab,SIMPLE_NAME, line no: 725,"\t\t" + pack_name + "."+ className()+ "Helper.insert("+ anyname+ "  "+ varname+ ");",INFIX_EXPRESSION, line no: 1416, 0.6875, 0.6875, 1.0, 0.31333333333333335
+lab,SIMPLE_NAME, line no: 725,"Helper.insert(",STRING_LITERAL, line no: 1416, 0.6875, 0.6875, 1.0, 0.5949367088607594
+lab,SIMPLE_NAME, line no: 725,"  ",STRING_LITERAL, line no: 1416, 0.6875, 0.6875, 1.0, 0.6865671641791045
+lab,SIMPLE_NAME, line no: 725,resultname,SIMPLE_NAME, line no: 1420, 0.6875, 0.0625, 1.0, 0.8
+lab,SIMPLE_NAME, line no: 725,"\t\t" + resultname + " = "+ className()+ "Helper.extract("+ anyname+ ");",INFIX_EXPRESSION, line no: 1424, 0.6875, 0.6875, 1.0, 0.35251798561151076
+lab,SIMPLE_NAME, line no: 725," = ",STRING_LITERAL, line no: 1424, 0.6875, 0.6875, 1.0, 0.7058823529411765
+lab,SIMPLE_NAME, line no: 725,"Helper.extract(",STRING_LITERAL, line no: 1424, 0.6875, 0.6875, 1.0, 0.625
+print,SIMPLE_NAME, line no: 725,TypeMap.replaceForwardDeclaration(full_name() ctspec),METHOD_INVOCATION, line no: 226, 0.6666666666666666, 0.6666666666666666, 1.0, 0.452991452991453
+print,SIMPLE_NAME, line no: 725,replaceForwardDeclaration,SIMPLE_NAME, line no: 226, 0.6666666666666666, 0.6666666666666666, 1.0, 0.6987951807228916
+print,SIMPLE_NAME, line no: 725,pw.println("package " + pack_name + ";"),METHOD_INVOCATION, line no: 326, 0.6666666666666666, 0.6666666666666666, 1.0, 0.5096153846153846
+print,SIMPLE_NAME, line no: 725,pw.print(" && discriminator != "),METHOD_INVOCATION, line no: 648, 0.6666666666666666, 0.6666666666666666, 1.0, 0.5257731958762887
+print,SIMPLE_NAME, line no: 725,ps.println("package " + pack_name + ";"),METHOD_INVOCATION, line no: 782, 0.6666666666666666, 0.6666666666666666, 1.0, 0.5288461538461539
+print,SIMPLE_NAME, line no: 725,ps.println("\t\tresult.__default (disc);"),METHOD_INVOCATION, line no: 1026, 0.6666666666666666, 0.6666666666666666, 1.0, 0.49074074074074076
+print,SIMPLE_NAME, line no: 725,ps.println("\t\treturn result;"),METHOD_INVOCATION, line no: 1027, 0.6666666666666666, 0.6666666666666666, 1.0, 0.5408163265306123
+print,SIMPLE_NAME, line no: 725,System.err.println("Case count is larger than two for a boolean expression"),METHOD_INVOCATION, line no: 1032, 0.6666666666666666, 0.6666666666666666, 1.0, 0.3732394366197183
+print,SIMPLE_NAME, line no: 725,ps.println("\t\t\telse"),METHOD_INVOCATION, line no: 1038, 0.6666666666666666, 0.6666666666666666, 1.0, 0.5666666666666667
+print,SIMPLE_NAME, line no: 725,ps.println("\t\t\t{"),METHOD_INVOCATION, line no: 1039, 0.6666666666666666, 0.6666666666666666, 1.0, 0.5862068965517241
+print,SIMPLE_NAME, line no: 725,ps.println("\t\t\t\tresult.__default (disc);"),METHOD_INVOCATION, line no: 1040, 0.6666666666666666, 0.6666666666666666, 1.0, 0.45535714285714285
+print,SIMPLE_NAME, line no: 725,ps.println("\t\t\t}"),METHOD_INVOCATION, line no: 1041, 0.6666666666666666, 0.6666666666666666, 1.0, 0.5862068965517241
+print,SIMPLE_NAME, line no: 725,ps.println("\t\tout.write_long (s.discriminator().value ());"),METHOD_INVOCATION, line no: 1076, 0.6666666666666666, 0.6666666666666666, 1.0, 0.4140625
+print,SIMPLE_NAME, line no: 725,ps.println("\t\tswitch (s.discriminator().value ())"),METHOD_INVOCATION, line no: 1077, 0.6666666666666666, 0.6666666666666666, 1.0, 0.44537815126050423
+print,SIMPLE_NAME, line no: 725,ps.println("\t\tlong disc = s.discriminator ();"),METHOD_INVOCATION, line no: 1091, 0.6666666666666666, 0.6666666666666666, 1.0, 0.4434782608695652
+print,SIMPLE_NAME, line no: 725,ps.println("\t\t\tlabel_any.insert_octet ((byte)0);"),METHOD_INVOCATION, line no: 1260, 0.6666666666666666, 0.6666666666666666, 1.0, 0.44537815126050423
+print,SIMPLE_NAME, line no: 725,switch_type_spec.print(ps),METHOD_INVOCATION, line no: 1352, 0.6666666666666666, 0.6666666666666666, 1.0, 0.5760869565217391
+print,SIMPLE_NAME, line no: 725,ps.println("\t\t" + pack_name + "."+ className()+ "Helper.insert("+ anyname+ "  "+ varname+ ");"),METHOD_INVOCATION, line no: 1416, 0.6666666666666666, 0.6666666666666666, 1.0, 0.3128834355828221
+print,SIMPLE_NAME, line no: 725,ps.println("\t\t" + resultname + " = "+ className()+ "Helper.extract("+ anyname+ ");"),METHOD_INVOCATION, line no: 1424, 0.6666666666666666, 0.6666666666666666, 1.0, 0.34868421052631576
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,valueOf,SIMPLE_NAME, line no: 526, 0.6666666666666666, 0.6666666666666666, 1.0, 0.532608695652174
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\tswitch (disc.value ())",STRING_LITERAL, line no: 882, 0.6666666666666666, 0.6666666666666666, 1.0, 0.6195652173913043
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\tlong disc = s.discriminator ();",STRING_LITERAL, line no: 1091, 0.6666666666666666, 0.6666666666666666, 1.0, 0.64
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\t\tlabel_any.insert_octet ((byte)0);",STRING_LITERAL, line no: 1260, 0.6666666666666666, 0.6666666666666666, 1.0, 0.5384615384615384
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,anyname,SIMPLE_NAME, line no: 1413, 0.6666666666666666, 0.06666666666666667, 1.0, 0.5108695652173914
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Helper.insert(",STRING_LITERAL, line no: 1416, 0.6666666666666666, 0.6666666666666666, 1.0, 0.5652173913043478
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"  ",STRING_LITERAL, line no: 1416, 0.6666666666666666, 0.6666666666666666, 1.0, 0.532608695652174
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,resultname,SIMPLE_NAME, line no: 1420, 0.6666666666666666, 0.06666666666666667, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725," = ",STRING_LITERAL, line no: 1424, 0.6666666666666666, 0.6666666666666666, 1.0, 0.5760869565217391
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Helper.extract(",STRING_LITERAL, line no: 1424, 0.6666666666666666, 0.6666666666666666, 1.0, 0.5760869565217391
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,replaceForwardDeclaration,SIMPLE_NAME, line no: 226, 0.6428571428571429, 0.6428571428571429, 1.0, 0.5533980582524272
+" && discriminator != ",STRING_LITERAL, line no: 725,defaultStr="(char)" + s,ASSIGNMENT, line no: 511, 0.625, 0.625, 1.0, 0.6309523809523809
+" && discriminator != ",STRING_LITERAL, line no: 725,String.valueOf(i),METHOD_INVOCATION, line no: 526, 0.625, 0.625, 1.0, 0.6071428571428571
+" && discriminator != ",STRING_LITERAL, line no: 725,valueOf,SIMPLE_NAME, line no: 526, 0.625, 0.625, 1.0, 0.5833333333333334
+" && discriminator != ",STRING_LITERAL, line no: 725,defaultStr=Integer.toString(i),ASSIGNMENT, line no: 528, 0.625, 0.625, 1.0, 0.6091954022988506
+" && discriminator != ",STRING_LITERAL, line no: 725,label[i]=((ConstExpr)o).value(),ASSIGNMENT, line no: 563, 0.625, 0.625, 1.0, 0.5795454545454546
+" && discriminator != ",STRING_LITERAL, line no: 725,"result",STRING_LITERAL, line no: 851, 0.625, 0.625, 1.0, 0.7261904761904762
+" && discriminator != ",STRING_LITERAL, line no: 725,case_str="if (disc == ",ASSIGNMENT, line no: 893, 0.625, 0.5625, 1.0, 0.6547619047619048
+" && discriminator != ",STRING_LITERAL, line no: 725,"if (disc == ",STRING_LITERAL, line no: 893, 0.625, 0.5625, 1.0, 0.7738095238095238
+" && discriminator != ",STRING_LITERAL, line no: 725,colon_str=")",ASSIGNMENT, line no: 894, 0.625, 0.5625, 1.0, 0.6071428571428571
+" && discriminator != ",STRING_LITERAL, line no: 725,default_str="else",ASSIGNMENT, line no: 895, 0.625, 0.5625, 1.0, 0.6309523809523809
+" && discriminator != ",STRING_LITERAL, line no: 725,"else",STRING_LITERAL, line no: 895, 0.625, 0.5625, 1.0, 0.7142857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725,"else ",STRING_LITERAL, line no: 1000, 0.625, 0.625, 1.0, 0.7023809523809523
+" && discriminator != ",STRING_LITERAL, line no: 725,bos.toString(),METHOD_INVOCATION, line no: 1010, 0.625, 0.625, 1.0, 0.5833333333333334
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\tresult.__default (disc);",STRING_LITERAL, line no: 1026, 0.625, 0.625, 1.0, 0.6881720430107527
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\treturn result;",STRING_LITERAL, line no: 1027, 0.625, 0.625, 1.0, 0.75
+" && discriminator != ",STRING_LITERAL, line no: 725,"Case count is larger than two for a boolean expression",STRING_LITERAL, line no: 1032, 0.625, 0.625, 1.0, 0.5882352941176471
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t\telse",STRING_LITERAL, line no: 1038, 0.625, 0.625, 1.0, 0.6904761904761905
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t\t{",STRING_LITERAL, line no: 1039, 0.625, 0.625, 1.0, 0.6904761904761905
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t\t\tresult.__default (disc);",STRING_LITERAL, line no: 1040, 0.625, 0.625, 1.0, 0.6391752577319587
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t\t}",STRING_LITERAL, line no: 1041, 0.625, 0.625, 1.0, 0.6904761904761905
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\tout.write_long (s.discriminator().value ());",STRING_LITERAL, line no: 1076, 0.625, 0.625, 1.0, 0.6548672566371682
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\tswitch (s.discriminator().value ())",STRING_LITERAL, line no: 1077, 0.625, 0.625, 1.0, 0.7115384615384616
+lab,SIMPLE_NAME, line no: 725,fullName,SIMPLE_NAME, line no: 119, 0.625, 0.5625, 1.0, 0.8181818181818182
+lab,SIMPLE_NAME, line no: 725,s + "." + pack_name,INFIX_EXPRESSION, line no: 167, 0.625, 0.625, 1.0, 0.5853658536585366
+lab,SIMPLE_NAME, line no: 725,defaultStr="(char)" + s,ASSIGNMENT, line no: 511, 0.625, 0.625, 1.0, 0.625
+lab,SIMPLE_NAME, line no: 725,"result",STRING_LITERAL, line no: 851, 0.625, 0.625, 1.0, 0.7101449275362319
+lab,SIMPLE_NAME, line no: 725,"\t\tresult.__default (disc);",STRING_LITERAL, line no: 1026, 0.625, 0.625, 1.0, 0.5376344086021505
+lab,SIMPLE_NAME, line no: 725,"\t\treturn result;",STRING_LITERAL, line no: 1027, 0.625, 0.625, 1.0, 0.5903614457831325
+lab,SIMPLE_NAME, line no: 725,"Case count is larger than two for a boolean expression",STRING_LITERAL, line no: 1032, 0.625, 0.625, 1.0, 0.42857142857142855
+lab,SIMPLE_NAME, line no: 725,"\t\t\telse",STRING_LITERAL, line no: 1038, 0.625, 0.625, 1.0, 0.6266666666666667
+lab,SIMPLE_NAME, line no: 725,"\t\t\t{",STRING_LITERAL, line no: 1039, 0.625, 0.625, 1.0, 0.6388888888888888
+lab,SIMPLE_NAME, line no: 725,"\t\t\t\tresult.__default (disc);",STRING_LITERAL, line no: 1040, 0.625, 0.625, 1.0, 0.4948453608247423
+lab,SIMPLE_NAME, line no: 725,"\t\t\t}",STRING_LITERAL, line no: 1041, 0.625, 0.625, 1.0, 0.6388888888888888
+lab,SIMPLE_NAME, line no: 725,"\t\tout.write_long (s.discriminator().value ());",STRING_LITERAL, line no: 1076, 0.625, 0.625, 1.0, 0.4424778761061947
+lab,SIMPLE_NAME, line no: 725,"\t\tswitch (s.discriminator().value ())",STRING_LITERAL, line no: 1077, 0.625, 0.625, 1.0, 0.47115384615384615
+lab,SIMPLE_NAME, line no: 725,"\t\tlong disc = s.discriminator ();",STRING_LITERAL, line no: 1091, 0.625, 0.625, 1.0, 0.48
+lab,SIMPLE_NAME, line no: 725,"\t\t\tlabel_any.insert_octet ((byte)0);",STRING_LITERAL, line no: 1260, 0.625, 0.625, 1.0, 0.49038461538461536
+print,SIMPLE_NAME, line no: 725,setEnclosingSymbol,SIMPLE_NAME, line no: 88, 0.6, 0.06666666666666667, 1.0, 0.7297297297297297
+print,SIMPLE_NAME, line no: 725,setPackage,SIMPLE_NAME, line no: 162, 0.6, 0.06666666666666667, 1.0, 0.8088235294117647
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,fullName,SIMPLE_NAME, line no: 119, 0.6, 0.5333333333333333, 1.0, 0.5108695652173914
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"result",STRING_LITERAL, line no: 851, 0.6, 0.6, 1.0, 0.5652173913043478
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"if (disc == ",STRING_LITERAL, line no: 893, 0.6, 0.5333333333333333, 1.0, 0.6086956521739131
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"else",STRING_LITERAL, line no: 895, 0.6, 0.5333333333333333, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"else ",STRING_LITERAL, line no: 1000, 0.6, 0.6, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\tresult.__default (disc);",STRING_LITERAL, line no: 1026, 0.6, 0.6, 1.0, 0.5913978494623656
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\treturn result;",STRING_LITERAL, line no: 1027, 0.6, 0.6, 1.0, 0.5869565217391305
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Case count is larger than two for a boolean expression",STRING_LITERAL, line no: 1032, 0.6, 0.6, 1.0, 0.5210084033613446
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\t\telse",STRING_LITERAL, line no: 1038, 0.6, 0.6, 1.0, 0.532608695652174
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\t\t{",STRING_LITERAL, line no: 1039, 0.6, 0.6, 1.0, 0.532608695652174
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\t\t\tresult.__default (disc);",STRING_LITERAL, line no: 1040, 0.6, 0.6, 1.0, 0.5463917525773195
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\t\t}",STRING_LITERAL, line no: 1041, 0.6, 0.6, 1.0, 0.532608695652174
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\tout.write_long (s.discriminator().value ());",STRING_LITERAL, line no: 1076, 0.6, 0.6, 1.0, 0.5752212389380531
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\tswitch (s.discriminator().value ())",STRING_LITERAL, line no: 1077, 0.6, 0.6, 1.0, 0.625
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,setEnclosingSymbol,SIMPLE_NAME, line no: 88, 0.5714285714285714, 0.07142857142857142, 1.0, 0.5048543689320388
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,setPackage,SIMPLE_NAME, line no: 162, 0.5714285714285714, 0.07142857142857142, 1.0, 0.49514563106796117
+" && discriminator != ",STRING_LITERAL, line no: 725,fullName,SIMPLE_NAME, line no: 119, 0.5625, 0.5, 1.0, 0.5595238095238095
+" && discriminator != ",STRING_LITERAL, line no: 725,s + "." + pack_name,INFIX_EXPRESSION, line no: 167, 0.5625, 0.5625, 1.0, 0.6428571428571429
+" && discriminator != ",STRING_LITERAL, line no: 725,"else " + case_str,INFIX_EXPRESSION, line no: 1000, 0.5625, 0.5625, 1.0, 0.6309523809523809
+" && discriminator != ",STRING_LITERAL, line no: 725,defaultCases=bos.toString(),ASSIGNMENT, line no: 1010, 0.5625, 0.5625, 1.0, 0.5813953488372093
+" && discriminator != ",STRING_LITERAL, line no: 725,"\t\t\tdefault: result.__default (disc);",STRING_LITERAL, line no: 1022, 0.5625, 0.5625, 1.0, 0.625
+lab,SIMPLE_NAME, line no: 725,pack_name=new String(s + "." + pack_name),ASSIGNMENT, line no: 167, 0.5625, 0.5625, 1.0, 0.5
+lab,SIMPLE_NAME, line no: 725,new String(s + "." + pack_name),CLASS_INSTANCE_CREATION, line no: 167, 0.5625, 0.5625, 1.0, 0.48514851485148514
+lab,SIMPLE_NAME, line no: 725,case_str="if (disc == ",ASSIGNMENT, line no: 893, 0.5625, 0.5, 1.0, 0.5875
+lab,SIMPLE_NAME, line no: 725,"if (disc == ",STRING_LITERAL, line no: 893, 0.5625, 0.5, 1.0, 0.6133333333333333
+lab,SIMPLE_NAME, line no: 725,colon_str=")",ASSIGNMENT, line no: 894, 0.5625, 0.5, 1.0, 0.6714285714285714
+lab,SIMPLE_NAME, line no: 725,default_str="else",ASSIGNMENT, line no: 895, 0.5625, 0.5, 1.0, 0.6533333333333333
+lab,SIMPLE_NAME, line no: 725,"else",STRING_LITERAL, line no: 895, 0.5625, 0.5, 1.0, 0.7313432835820896
+lab,SIMPLE_NAME, line no: 725,"else " + case_str,INFIX_EXPRESSION, line no: 1000, 0.5625, 0.5625, 1.0, 0.5662650602409639
+lab,SIMPLE_NAME, line no: 725,"else ",STRING_LITERAL, line no: 1000, 0.5625, 0.5625, 1.0, 0.6714285714285714
+lab,SIMPLE_NAME, line no: 725,defaultCases=bos.toString(),ASSIGNMENT, line no: 1010, 0.5625, 0.5625, 1.0, 0.5697674418604651
+print,SIMPLE_NAME, line no: 725,switch_body.setEnclosingSymbol(s),METHOD_INVOCATION, line no: 95, 0.5333333333333333, 0.5333333333333333, 1.0, 0.5263157894736842
+print,SIMPLE_NAME, line no: 725,switch_type_spec.setPackage(s),METHOD_INVOCATION, line no: 175, 0.5333333333333333, 0.5333333333333333, 1.0, 0.5531914893617021
+print,SIMPLE_NAME, line no: 725,switch_body.setPackage(s),METHOD_INVOCATION, line no: 179, 0.5333333333333333, 0.5333333333333333, 1.0, 0.5617977528089888
+print,SIMPLE_NAME, line no: 725,ScopedName.definePseudoScope(full_name()),METHOD_INVOCATION, line no: 209, 0.5333333333333333, 0.5333333333333333, 1.0, 0.4857142857142857
+print,SIMPLE_NAME, line no: 725,definePseudoScope,SIMPLE_NAME, line no: 209, 0.5333333333333333, 0.5333333333333333, 1.0, 0.7466666666666667
+print,SIMPLE_NAME, line no: 725,NameTable.define(full_name() IDLTypes.TYPE_UNION),METHOD_INVOCATION, line no: 211, 0.5333333333333333, 0.5333333333333333, 1.0, 0.4424778761061947
+print,SIMPLE_NAME, line no: 725,define,SIMPLE_NAME, line no: 211, 0.5333333333333333, 0.5333333333333333, 1.0, 0.875
+print,SIMPLE_NAME, line no: 725,TypeMap.typedef(full_name() ctspec),METHOD_INVOCATION, line no: 212, 0.5333333333333333, 0.5333333333333333, 1.0, 0.5151515151515151
+print,SIMPLE_NAME, line no: 725,typedef,SIMPLE_NAME, line no: 212, 0.5333333333333333, 0.5333333333333333, 1.0, 0.8461538461538461
+print,SIMPLE_NAME, line no: 725,ps.println("\t\t\tdefault: result.__default (disc);"),METHOD_INVOCATION, line no: 1022, 0.5333333333333333, 0.5333333333333333, 1.0, 0.44537815126050423
+print,SIMPLE_NAME, line no: 725,ps.print(defaultCases),METHOD_INVOCATION, line no: 1048, 0.5333333333333333, 0.5333333333333333, 1.0, 0.5795454545454546
+print,SIMPLE_NAME, line no: 725,switch_type_spec.setPackage(n),METHOD_INVOCATION, line no: 1443, 0.5333333333333333, 0.5333333333333333, 1.0, 0.5
+print,SIMPLE_NAME, line no: 725,switch_body.setPackage(n),METHOD_INVOCATION, line no: 1448, 0.5333333333333333, 0.5333333333333333, 1.0, 0.5274725274725275
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"\t\t\tdefault: result.__default (disc);",STRING_LITERAL, line no: 1022, 0.5333333333333333, 0.5333333333333333, 1.0, 0.5384615384615384
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,definePseudoScope,SIMPLE_NAME, line no: 209, 0.5, 0.5, 1.0, 0.5145631067961165
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,define,SIMPLE_NAME, line no: 211, 0.5, 0.5, 1.0, 0.49514563106796117
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,typedef,SIMPLE_NAME, line no: 212, 0.5, 0.5, 1.0, 0.4854368932038835
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,printImport(pw),METHOD_INVOCATION, line no: 329, 0.5, 1.0, 0.5, 0.6699029126213593
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\timplements org.omg.CORBA.portable.IDLEntity"),METHOD_INVOCATION, line no: 334, 0.5, 1.0, 0.5, 0.6260162601626016
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("{"),METHOD_INVOCATION, line no: 335, 0.5, 1.0, 0.5, 0.6990291262135923
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,printSerialVersionUID(pw),METHOD_INVOCATION, line no: 337, 0.5, 1.0, 0.5, 0.6796116504854369
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\t{"),METHOD_INVOCATION, line no: 580, 0.5, 1.0, 0.5, 0.7087378640776699
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\t\treturn discriminator;"),METHOD_INVOCATION, line no: 589, 0.5, 1.0, 0.5, 0.8349514563106796
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.print("\t\tif (discriminator != "),METHOD_INVOCATION, line no: 631, 0.5, 1.0, 0.5, 0.8543689320388349
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725," && discriminator != " + lab,INFIX_EXPRESSION, line no: 661, 0.5, 0.9285714285714286, 0.5, 0.7281553398058253
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.print("\t\tdiscriminator = "),METHOD_INVOCATION, line no: 676, 0.5, 1.0, 0.5, 0.8543689320388349
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.print("\t\tif (_discriminator != "),METHOD_INVOCATION, line no: 695, 0.5, 1.0, 0.5, 0.8737864077669902
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\t\tdiscriminator = _discriminator;"),METHOD_INVOCATION, line no: 731, 0.5, 1.0, 0.5, 0.7787610619469026
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("}"),METHOD_INVOCATION, line no: 769, 0.5, 1.0, 0.5, 0.6990291262135923
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,visitUnion,SIMPLE_NAME, line no: 1434, 0.5, 0.5, 1.0, 0.49514563106796117
+" && discriminator != ",STRING_LITERAL, line no: 725,Streamname,SIMPLE_NAME, line no: 127, 0.5, 0.0625, 1.0, 0.6190476190476191
+" && discriminator != ",STRING_LITERAL, line no: 725,var_name,SIMPLE_NAME, line no: 132, 0.5, 0.0625, 1.0, 0.6071428571428571
+" && discriminator != ",STRING_LITERAL, line no: 725,streamname,SIMPLE_NAME, line no: 132, 0.5, 0.0625, 1.0, 0.6309523809523809
+" && discriminator != ",STRING_LITERAL, line no: 725,typeName() + "Helper.write(" + streamname+ " "+ var_name+ ");",INFIX_EXPRESSION, line no: 134, 0.5, 0.5, 1.0, 0.456
+" && discriminator != ",STRING_LITERAL, line no: 725,"Helper.write(",STRING_LITERAL, line no: 134, 0.5, 0.5, 1.0, 0.7142857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725,pack_name=new String(s + "." + pack_name),ASSIGNMENT, line no: 167, 0.5, 0.5, 1.0, 0.5612244897959183
+" && discriminator != ",STRING_LITERAL, line no: 725,new String(s + "." + pack_name),CLASS_INSTANCE_CREATION, line no: 167, 0.5, 0.5, 1.0, 0.5643564356435643
+" && discriminator != ",STRING_LITERAL, line no: 725,defaultStr=qualifiedCaseLabel,ASSIGNMENT, line no: 424, 0.5, 0.5, 1.0, 0.6046511627906976
+" && discriminator != ",STRING_LITERAL, line no: 725,"false",STRING_LITERAL, line no: 452, 0.5, 0.5, 1.0, 0.7142857142857143
+" && discriminator != ",STRING_LITERAL, line no: 725,label[i]=null,ASSIGNMENT, line no: 559, 0.5, 0.4375, 1.0, 0.5833333333333334
+" && discriminator != ",STRING_LITERAL, line no: 725,case_str="else " + case_str,ASSIGNMENT, line no: 1000, 0.5, 0.5, 1.0, 0.6046511627906976
+" && discriminator != ",STRING_LITERAL, line no: 725,"File IO error",STRING_LITERAL, line no: 1406, 0.5, 0.5, 1.0, 0.7380952380952381
+lab,SIMPLE_NAME, line no: 725,fullName.substring(fullName.lastIndexOf('.') + 1),METHOD_INVOCATION, line no: 122, 0.5, 0.5, 1.0, 0.45132743362831856
+lab,SIMPLE_NAME, line no: 725,var_name,SIMPLE_NAME, line no: 132, 0.5, 0.0625, 1.0, 0.8333333333333334
+lab,SIMPLE_NAME, line no: 725,streamname,SIMPLE_NAME, line no: 132, 0.5, 0.0625, 1.0, 0.8088235294117647
+lab,SIMPLE_NAME, line no: 725,defaultStr=qualifiedCaseLabel,ASSIGNMENT, line no: 424, 0.5, 0.5, 1.0, 0.5930232558139535
+lab,SIMPLE_NAME, line no: 725,label[i]=null,ASSIGNMENT, line no: 559, 0.5, 0.4375, 1.0, 0.7285714285714285
+lab,SIMPLE_NAME, line no: 725,case_str="else " + case_str,ASSIGNMENT, line no: 1000, 0.5, 0.5, 1.0, 0.5581395348837209
+lab,SIMPLE_NAME, line no: 725,"\t\t\tdefault: result.__default (disc);",STRING_LITERAL, line no: 1022, 0.5, 0.5, 1.0, 0.4807692307692308
+print,SIMPLE_NAME, line no: 725,visitUnion,SIMPLE_NAME, line no: 1434, 0.4666666666666667, 0.4666666666666667, 1.0, 0.7714285714285715
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,getJavaTypeName,SIMPLE_NAME, line no: 110, 0.4666666666666667, 0.06666666666666667, 1.0, 0.5108695652173914
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,Streamname,SIMPLE_NAME, line no: 127, 0.4666666666666667, 0.06666666666666667, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,var_name,SIMPLE_NAME, line no: 132, 0.4666666666666667, 0.06666666666666667, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,streamname,SIMPLE_NAME, line no: 132, 0.4666666666666667, 0.06666666666666667, 1.0, 0.5652173913043478
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Helper.write(",STRING_LITERAL, line no: 134, 0.4666666666666667, 0.4666666666666667, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"false",STRING_LITERAL, line no: 452, 0.4666666666666667, 0.4666666666666667, 1.0, 0.5543478260869565
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 661, 0.4666666666666667, 0.8666666666666667, 0.5, 0.7281553398058253
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"File IO error",STRING_LITERAL, line no: 1406, 0.4666666666666667, 0.4666666666666667, 1.0, 0.5760869565217391
+" && discriminator != ",STRING_LITERAL, line no: 725,getJavaTypeName,SIMPLE_NAME, line no: 110, 0.4375, 0.0625, 1.0, 0.5595238095238095
+" && discriminator != ",STRING_LITERAL, line no: 725,fullName.substring(fullName.lastIndexOf('.') + 1),METHOD_INVOCATION, line no: 122, 0.4375, 0.4375, 1.0, 0.48672566371681414
+" && discriminator != ",STRING_LITERAL, line no: 725,typeName() + "Helper.read(" + Streamname+ ")",INFIX_EXPRESSION, line no: 129, 0.4375, 0.4375, 1.0, 0.5277777777777778
+" && discriminator != ",STRING_LITERAL, line no: 725,"Helper.read(",STRING_LITERAL, line no: 129, 0.4375, 0.4375, 1.0, 0.7261904761904762
+" && discriminator != ",STRING_LITERAL, line no: 725,defaultStr="false",ASSIGNMENT, line no: 452, 0.4375, 0.4375, 1.0, 0.6309523809523809
+" && discriminator != ",STRING_LITERAL, line no: 725,defaultStr="true",ASSIGNMENT, line no: 456, 0.4375, 0.4375, 1.0, 0.6309523809523809
+" && discriminator != ",STRING_LITERAL, line no: 725,indent1="\t\t",ASSIGNMENT, line no: 870, 0.4375, 0.4375, 1.0, 0.6190476190476191
+" && discriminator != ",STRING_LITERAL, line no: 725,indent2="\t\t\t",ASSIGNMENT, line no: 871, 0.4375, 0.4375, 1.0, 0.6190476190476191
+" && discriminator != ",STRING_LITERAL, line no: 725,"if (s.discriminator () ==",STRING_LITERAL, line no: 1086, 0.4375, 0.4375, 1.0, 0.8111111111111111
+" && discriminator != ",STRING_LITERAL, line no: 725,"File IO error" + i,INFIX_EXPRESSION, line no: 1406, 0.4375, 0.4375, 1.0, 0.6428571428571429
+lab,SIMPLE_NAME, line no: 725,ut.pack_name=this.pack_name,ASSIGNMENT, line no: 64, 0.4375, 0.4375, 1.0, 0.573170731707317
+lab,SIMPLE_NAME, line no: 725,ut.pack_name,QUALIFIED_NAME, line no: 64, 0.4375, 0.4375, 1.0, 0.6901408450704225
+lab,SIMPLE_NAME, line no: 725,this.pack_name,FIELD_ACCESS, line no: 64, 0.4375, 0.4375, 1.0, 0.6619718309859155
+lab,SIMPLE_NAME, line no: 725,ut.name=this.name,ASSIGNMENT, line no: 65, 0.4375, 0.4375, 1.0, 0.6805555555555556
+lab,SIMPLE_NAME, line no: 725,ut.name,QUALIFIED_NAME, line no: 65, 0.4375, 0.4375, 1.0, 0.7727272727272727
+lab,SIMPLE_NAME, line no: 725,this.name,FIELD_ACCESS, line no: 65, 0.4375, 0.4375, 1.0, 0.7424242424242424
+lab,SIMPLE_NAME, line no: 725,getJavaTypeName,SIMPLE_NAME, line no: 110, 0.4375, 0.0625, 1.0, 0.726027397260274
+lab,SIMPLE_NAME, line no: 725,Streamname,SIMPLE_NAME, line no: 127, 0.4375, 0.0625, 1.0, 0.8088235294117647
+lab,SIMPLE_NAME, line no: 725,typeName() + "Helper.write(" + streamname+ " "+ var_name+ ");",INFIX_EXPRESSION, line no: 134, 0.4375, 0.4375, 1.0, 0.376
+lab,SIMPLE_NAME, line no: 725,"Helper.write(",STRING_LITERAL, line no: 134, 0.4375, 0.4375, 1.0, 0.618421052631579
+lab,SIMPLE_NAME, line no: 725,this.getTypeCodeExpression(),METHOD_INVOCATION, line no: 313, 0.4375, 0.4375, 1.0, 0.5
+lab,SIMPLE_NAME, line no: 725,defaultStr="false",ASSIGNMENT, line no: 452, 0.4375, 0.4375, 1.0, 0.6666666666666666
+lab,SIMPLE_NAME, line no: 725,"false",STRING_LITERAL, line no: 452, 0.4375, 0.4375, 1.0, 0.7205882352941176
+lab,SIMPLE_NAME, line no: 725,defaultStr="true",ASSIGNMENT, line no: 456, 0.4375, 0.4375, 1.0, 0.6621621621621622
+lab,SIMPLE_NAME, line no: 725,"File IO error" + i,INFIX_EXPRESSION, line no: 1406, 0.4375, 0.4375, 1.0, 0.5476190476190477
+lab,SIMPLE_NAME, line no: 725,"File IO error",STRING_LITERAL, line no: 1406, 0.4375, 0.4375, 1.0, 0.6025641025641025
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,!lab.equals(defaultStr),PREFIX_EXPRESSION, line no: 659, 0.43333333333333335, 0.8666666666666667, 0.5, 0.6630434782608695
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,lab.equals(defaultStr),METHOD_INVOCATION, line no: 659, 0.43333333333333335, 0.8666666666666667, 0.5, 0.5652173913043478
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\tpublic void __default ()"),METHOD_INVOCATION, line no: 743, 0.42857142857142855, 0.8571428571428571, 0.5, 0.75
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\t}"),METHOD_INVOCATION, line no: 746, 0.42857142857142855, 0.8571428571428571, 0.5, 0.7087378640776699
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.print("\t\tif( "),METHOD_INVOCATION, line no: 750, 0.42857142857142855, 0.8571428571428571, 0.5, 0.7378640776699029
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725," _discriminator == " + lab,INFIX_EXPRESSION, line no: 756, 0.42857142857142855, 0.8571428571428571, 0.5, 0.7281553398058253
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725," || _discriminator == " + lab,INFIX_EXPRESSION, line no: 760, 0.42857142857142855, 0.8571428571428571, 0.5, 0.7184466019417476
+print,SIMPLE_NAME, line no: 725,visitor.visitUnion(this),METHOD_INVOCATION, line no: 1434, 0.4, 0.4, 1.0, 0.5555555555555556
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Helper.read(",STRING_LITERAL, line no: 129, 0.4, 0.4, 1.0, 0.5652173913043478
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,pw.print(" _discriminator == " + lab),METHOD_INVOCATION, line no: 756, 0.4, 0.8, 0.5, 0.7425742574257426
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,pw.print(" || _discriminator == " + lab),METHOD_INVOCATION, line no: 760, 0.4, 0.8, 0.5, 0.7115384615384616
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"if (s.discriminator () ==",STRING_LITERAL, line no: 1086, 0.4, 0.4, 1.0, 0.6956521739130435
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.print(" && _discriminator != "),METHOD_INVOCATION, line no: 712, 0.39285714285714285, 0.7857142857142857, 0.5, 0.9223300970873787
+" && discriminator != ",STRING_LITERAL, line no: 725,ut.pack_name=this.pack_name,ASSIGNMENT, line no: 64, 0.375, 0.375, 1.0, 0.5952380952380952
+" && discriminator != ",STRING_LITERAL, line no: 725,ut.pack_name,QUALIFIED_NAME, line no: 64, 0.375, 0.375, 1.0, 0.5714285714285714
+" && discriminator != ",STRING_LITERAL, line no: 725,this.pack_name,FIELD_ACCESS, line no: 64, 0.375, 0.375, 1.0, 0.5833333333333334
+" && discriminator != ",STRING_LITERAL, line no: 725,ut.name=this.name,ASSIGNMENT, line no: 65, 0.375, 0.375, 1.0, 0.6071428571428571
+" && discriminator != ",STRING_LITERAL, line no: 725,ut.name,QUALIFIED_NAME, line no: 65, 0.375, 0.375, 1.0, 0.5833333333333334
+" && discriminator != ",STRING_LITERAL, line no: 725,this.name,FIELD_ACCESS, line no: 65, 0.375, 0.375, 1.0, 0.5952380952380952
+" && discriminator != ",STRING_LITERAL, line no: 725,getJavaTypeName(),METHOD_INVOCATION, line no: 144, 0.375, 0.375, 1.0, 0.5476190476190477
+" && discriminator != ",STRING_LITERAL, line no: 725,"Helper.type()",STRING_LITERAL, line no: 304, 0.375, 0.375, 1.0, 0.7023809523809523
+" && discriminator != ",STRING_LITERAL, line no: 725,this.getTypeCodeExpression(),METHOD_INVOCATION, line no: 313, 0.375, 0.375, 1.0, 0.5434782608695652
+" && discriminator != ",STRING_LITERAL, line no: 725,case_str="if (s.discriminator () ==",ASSIGNMENT, line no: 1086, 0.375, 0.375, 1.0, 0.6631578947368421
+lab,SIMPLE_NAME, line no: 725,typeName() + "Helper.read(" + Streamname+ ")",INFIX_EXPRESSION, line no: 129, 0.375, 0.375, 1.0, 0.4537037037037037
+lab,SIMPLE_NAME, line no: 725,"Helper.read(",STRING_LITERAL, line no: 129, 0.375, 0.375, 1.0, 0.6666666666666666
+lab,SIMPLE_NAME, line no: 725,getJavaTypeName(),METHOD_INVOCATION, line no: 144, 0.375, 0.375, 1.0, 0.5802469135802469
+lab,SIMPLE_NAME, line no: 725,indent1="\t\t",ASSIGNMENT, line no: 870, 0.375, 0.375, 1.0, 0.676056338028169
+lab,SIMPLE_NAME, line no: 725,indent2="\t\t\t",ASSIGNMENT, line no: 871, 0.375, 0.375, 1.0, 0.6575342465753424
+lab,SIMPLE_NAME, line no: 725,case_str="if (s.discriminator () ==",ASSIGNMENT, line no: 1086, 0.375, 0.375, 1.0, 0.49473684210526314
+lab,SIMPLE_NAME, line no: 725,"if (s.discriminator () ==",STRING_LITERAL, line no: 1086, 0.375, 0.375, 1.0, 0.5222222222222223
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.print(" && discriminator != "),METHOD_INVOCATION, line no: 648, 0.35714285714285715, 0.7142857142857143, 0.5, 0.883495145631068
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,printClassComment("union" className pw),METHOD_INVOCATION, line no: 331, 0.3333333333333333, 1.0, 0.3333333333333333, 0.6990291262135923
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("public" + parser.getFinalString() + " class "+ className),METHOD_INVOCATION, line no: 333, 0.3333333333333333, 1.0, 0.3333333333333333, 0.6466165413533834
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\tprivate " + ts.typeName() + " discriminator;"),METHOD_INVOCATION, line no: 353, 0.3333333333333333, 1.0, 0.3333333333333333, 0.7016129032258065
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\t}" + Environment.NL),METHOD_INVOCATION, line no: 581, 0.3333333333333333, 1.0, 0.3333333333333333, 0.7572815533980582
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\tpublic " + ts.typeName() + " discriminator ()"),METHOD_INVOCATION, line no: 587, 0.3333333333333333, 1.0, 0.3333333333333333, 0.704
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println(")" + Environment.NL + "\t\t\tthrow new org.omg.CORBA.BAD_OPERATION();"),METHOD_INVOCATION, line no: 666, 0.3333333333333333, 1.0, 0.3333333333333333, 0.5510204081632653
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,"Helper.type()",STRING_LITERAL, line no: 304, 0.3333333333333333, 0.3333333333333333, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,getRecursiveTypeCodeExpression,SIMPLE_NAME, line no: 311, 0.3333333333333333, 0.3333333333333333, 1.0, 0.5434782608695652
+" && discriminator != ",STRING_LITERAL, line no: 725,pack_name="",ASSIGNMENT, line no: 56, 0.3125, 0.3125, 1.0, 0.6190476190476191
+" && discriminator != ",STRING_LITERAL, line no: 725,typeName() + "Holder",INFIX_EXPRESSION, line no: 139, 0.3125, 0.3125, 1.0, 0.6071428571428571
+" && discriminator != ",STRING_LITERAL, line no: 725,getJavaTypeName() + "Helper",INFIX_EXPRESSION, line no: 144, 0.3125, 0.3125, 1.0, 0.5494505494505495
+" && discriminator != ",STRING_LITERAL, line no: 725,pack_name=s,ASSIGNMENT, line no: 171, 0.3125, 0.3125, 1.0, 0.6071428571428571
+" && discriminator != ",STRING_LITERAL, line no: 725,typeName() + "Helper.type()",INFIX_EXPRESSION, line no: 304, 0.3125, 0.3125, 1.0, 0.5604395604395604
+" && discriminator != ",STRING_LITERAL, line no: 725,getRecursiveTypeCodeExpression,SIMPLE_NAME, line no: 311, 0.3125, 0.3125, 1.0, 0.5795454545454546
+lab,SIMPLE_NAME, line no: 725,pack_name="",ASSIGNMENT, line no: 56, 0.3125, 0.3125, 1.0, 0.7313432835820896
+lab,SIMPLE_NAME, line no: 725,typeName() + "Holder",INFIX_EXPRESSION, line no: 139, 0.3125, 0.3125, 1.0, 0.5476190476190477
+lab,SIMPLE_NAME, line no: 725,getJavaTypeName() + "Helper",INFIX_EXPRESSION, line no: 144, 0.3125, 0.3125, 1.0, 0.5054945054945055
+lab,SIMPLE_NAME, line no: 725,pack_name=s,ASSIGNMENT, line no: 171, 0.3125, 0.3125, 1.0, 0.7205882352941176
+lab,SIMPLE_NAME, line no: 725,typeName() + "Helper.type()",INFIX_EXPRESSION, line no: 304, 0.3125, 0.3125, 1.0, 0.5054945054945055
+lab,SIMPLE_NAME, line no: 725,"Helper.type()",STRING_LITERAL, line no: 304, 0.3125, 0.3125, 1.0, 0.618421052631579
+lab,SIMPLE_NAME, line no: 725,getRecursiveTypeCodeExpression,SIMPLE_NAME, line no: 311, 0.3125, 0.3125, 1.0, 0.5909090909090909
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,!lab.equals(defaultStr),PREFIX_EXPRESSION, line no: 659, 0.30952380952380953, 0.9285714285714286, 0.3333333333333333, 0.5339805825242718
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,lab.equals(defaultStr),METHOD_INVOCATION, line no: 659, 0.30952380952380953, 0.9285714285714286, 0.3333333333333333, 0.6504854368932039
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\t\tdiscriminator = " + defaultStr + ";"),METHOD_INVOCATION, line no: 745, 0.2857142857142857, 0.8571428571428571, 0.3333333333333333, 0.8034188034188035
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\tpublic void __default (" + ts.typeName() + " _discriminator)"),METHOD_INVOCATION, line no: 748, 0.2857142857142857, 0.8571428571428571, 0.3333333333333333, 0.6214285714285714
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println(" )" + Environment.NL + "\t\t\tthrow new org.omg.CORBA.BAD_PARAM( \"Illegal value is used in __default method\" "+ " 34  org.omg.CORBA.CompletionStatus.COMPLETED_NO );"+ Environment.NL),METHOD_INVOCATION, line no: 763, 0.2857142857142857, 0.8571428571428571, 0.3333333333333333, 0.3346153846153846
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.print(defaultStr),METHOD_INVOCATION, line no: 639, 0.26190476190476186, 0.7142857142857143, 0.3333333333333333, 0.6990291262135923
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println(defaultStr + ";"),METHOD_INVOCATION, line no: 680, 0.26190476190476186, 0.7857142857142857, 0.3333333333333333, 0.7281553398058253
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println(label[0] + ";"),METHOD_INVOCATION, line no: 684, 0.26190476190476186, 0.7857142857142857, 0.3333333333333333, 0.6990291262135923
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println(Environment.NL + "\tpublic " + className+ " ()"),METHOD_INVOCATION, line no: 579, 0.25, 1.0, 0.25, 0.6747967479674797
+" && discriminator != ",STRING_LITERAL, line no: 725,this.getRecursiveTypeCodeExpression(),METHOD_INVOCATION, line no: 311, 0.25, 0.25, 1.0, 0.5148514851485149
+lab,SIMPLE_NAME, line no: 725,this.getRecursiveTypeCodeExpression(),METHOD_INVOCATION, line no: 311, 0.25, 0.25, 1.0, 0.45544554455445546
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("package " + pack_name + ";"),METHOD_INVOCATION, line no: 326, 0.23809523809523808, 0.7142857142857143, 0.3333333333333333, 0.7596153846153846
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\t\treturn " + c.element_spec.declarator.name() + ";"),METHOD_INVOCATION, line no: 667, 0.2, 1.0, 0.2, 0.6384615384615384
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\t\t" + c.element_spec.declarator.name() + " = _x;"),METHOD_INVOCATION, line no: 686, 0.2, 1.0, 0.2, 0.6484375
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.print(label[i]),METHOD_INVOCATION, line no: 643, 0.19642857142857142, 0.7142857142857143, 0.25, 0.6893203883495146
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\tprivate " + c.element_spec.typeSpec.typeName() + " "+ c.element_spec.declarator.name()+ ";"),METHOD_INVOCATION, line no: 571, 0.16666666666666666, 1.0, 0.16666666666666666, 0.5058823529411764
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\tpublic " + c.element_spec.typeSpec.typeName() + " "+ c.element_spec.declarator.name()+ " ()"),METHOD_INVOCATION, line no: 628, 0.16666666666666666, 1.0, 0.16666666666666666, 0.49707602339181284
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\tpublic void " + c.element_spec.declarator.name() + " ("+ c.element_spec.typeSpec.typeName()+ " _x)"),METHOD_INVOCATION, line no: 672, 0.16666666666666666, 1.0, 0.16666666666666666, 0.5
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,pw.println("\tpublic void " + c.element_spec.declarator.name() + " ("+ ts.typeName()+ " _discriminator  "+ c.element_spec.typeSpec.typeName()+ " _x)"),METHOD_INVOCATION, line no: 691, 0.14285714285714285, 1.0, 0.14285714285714285, 0.4205607476635514
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,UnionType,SIMPLE_NAME, line no: 53, 0.07142857142857142, 0.07142857142857142, 1.0, 0.49514563106796117
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,setScopeData,SIMPLE_NAME, line no: 73, 0.07142857142857142, 0.07142857142857142, 1.0, 0.5145631067961165
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,set_included,SIMPLE_NAME, line no: 147, 0.07142857142857142, 0.07142857142857142, 1.0, 0.5048543689320388
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,setSwitchType,SIMPLE_NAME, line no: 152, 0.07142857142857142, 0.07142857142857142, 1.0, 0.5048543689320388
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,setSwitchBody,SIMPLE_NAME, line no: 157, 0.07142857142857142, 0.07142857142857142, 1.0, 0.5145631067961165
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,printInsertIntoAny,SIMPLE_NAME, line no: 1412, 0.07142857142857142, 0.07142857142857142, 1.0, 0.5631067961165048
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,printExtractResult,SIMPLE_NAME, line no: 1419, 0.07142857142857142, 0.07142857142857142, 1.0, 0.5339805825242718
+pw.print(" && discriminator != " + lab),METHOD_INVOCATION, line no: 725,accept,SIMPLE_NAME, line no: 1432, 0.07142857142857142, 0.07142857142857142, 1.0, 0.4854368932038835
+print,SIMPLE_NAME, line no: 725,UnionType,SIMPLE_NAME, line no: 53, 0.06666666666666667, 0.06666666666666667, 1.0, 0.8615384615384616
+print,SIMPLE_NAME, line no: 725,setScopeData,SIMPLE_NAME, line no: 73, 0.06666666666666667, 0.06666666666666667, 1.0, 0.8235294117647058
+print,SIMPLE_NAME, line no: 725,set_included,SIMPLE_NAME, line no: 147, 0.06666666666666667, 0.06666666666666667, 1.0, 0.8
+print,SIMPLE_NAME, line no: 725,setSwitchType,SIMPLE_NAME, line no: 152, 0.06666666666666667, 0.06666666666666667, 1.0, 0.7887323943661971
+print,SIMPLE_NAME, line no: 725,setSwitchBody,SIMPLE_NAME, line no: 157, 0.06666666666666667, 0.06666666666666667, 1.0, 0.7887323943661971
+print,SIMPLE_NAME, line no: 725,printInsertIntoAny,SIMPLE_NAME, line no: 1412, 0.06666666666666667, 0.06666666666666667, 1.0, 0.7564102564102564
+print,SIMPLE_NAME, line no: 725,printExtractResult,SIMPLE_NAME, line no: 1419, 0.06666666666666667, 0.06666666666666667, 1.0, 0.7307692307692307
+print,SIMPLE_NAME, line no: 725,accept,SIMPLE_NAME, line no: 1432, 0.06666666666666667, 0.06666666666666667, 1.0, 0.8484848484848485
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,printReadExpression,SIMPLE_NAME, line no: 127, 0.06666666666666667, 0.06666666666666667, 1.0, 0.5652173913043478
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,holderName,SIMPLE_NAME, line no: 137, 0.06666666666666667, 0.06666666666666667, 1.0, 0.5434782608695652
+" && discriminator != " + lab,INFIX_EXPRESSION, line no: 725,resulttype,SIMPLE_NAME, line no: 1422, 0.06666666666666667, 0.06666666666666667, 1.0, 0.532608695652174
+" && discriminator != ",STRING_LITERAL, line no: 725,printReadExpression,SIMPLE_NAME, line no: 127, 0.0625, 0.0625, 1.0, 0.6309523809523809
+" && discriminator != ",STRING_LITERAL, line no: 725,holderName,SIMPLE_NAME, line no: 137, 0.0625, 0.0625, 1.0, 0.6071428571428571
+" && discriminator != ",STRING_LITERAL, line no: 725,resulttype,SIMPLE_NAME, line no: 1422, 0.0625, 0.0625, 1.0, 0.5952380952380952
+lab,SIMPLE_NAME, line no: 725,printReadExpression,SIMPLE_NAME, line no: 127, 0.0625, 0.0625, 1.0, 0.7142857142857143
+lab,SIMPLE_NAME, line no: 725,holderName,SIMPLE_NAME, line no: 137, 0.0625, 0.0625, 1.0, 0.8235294117647058
+lab,SIMPLE_NAME, line no: 725,resulttype,SIMPLE_NAME, line no: 1422, 0.0625, 0.0625, 1.0, 0.7857142857142857

@@ -1,0 +1,11 @@
+successful,SIMPLE_NAME, line no: 91,true,BOOLEAN_LITERAL, line no: 82, 1.0, 0.5, 1.0, 0.7121212121212122
+successful,SIMPLE_NAME, line no: 91,recordStore.unlock(dataKey getCallerUuid() getThreadId()),METHOD_INVOCATION, line no: 49, 0.5, 0.5, 1.0, 0.4369747899159664
+successful,SIMPLE_NAME, line no: 91,unlock,SIMPLE_NAME, line no: 49, 0.5, 0.5, 1.0, 0.8484848484848485
+successful,SIMPLE_NAME, line no: 91,record == null || version == record.getVersion(),INFIX_EXPRESSION, line no: 51, 0.5, 0.5, 1.0, 0.46788990825688076
+successful,SIMPLE_NAME, line no: 91,record == null,INFIX_EXPRESSION, line no: 51, 0.5, 0.5, 1.0, 0.6666666666666666
+successful,SIMPLE_NAME, line no: 91,version == record.getVersion(),INFIX_EXPRESSION, line no: 51, 0.5, 0.5, 1.0, 0.5604395604395604
+successful,SIMPLE_NAME, line no: 91,successful=dataOldValue != null,ASSIGNMENT, line no: 53, 0.5, 0.5, 1.0, 0.6511627906976745
+successful,SIMPLE_NAME, line no: 91,dataOldValue != null,INFIX_EXPRESSION, line no: 53, 0.5, 0.5, 1.0, 0.6049382716049383
+successful,SIMPLE_NAME, line no: 91,false,BOOLEAN_LITERAL, line no: 65, 0.5, 0.5, 1.0, 0.7121212121212122
+successful,SIMPLE_NAME, line no: 91,shouldNotify,SIMPLE_NAME, line no: 81, 0.25, 0.25, 1.0, 0.8382352941176471
+successful,SIMPLE_NAME, line no: 91,shouldBackup,SIMPLE_NAME, line no: 90, 0.25, 0.25, 1.0, 0.8529411764705882
