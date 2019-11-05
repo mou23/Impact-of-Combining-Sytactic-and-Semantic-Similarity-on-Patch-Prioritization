@@ -63,14 +63,14 @@ public class ReplaceHandler {
 				else {
 					candidatePatch.variableScore = modelExtractor.getVariableSimilarityScore(faultyNode.variableAccessed, fixingIngredient.variableAccessed);
 				}
+				candidatePatch.tokenScore = modelExtractor.getTokenSimilarityScore(faultyNode.tokens, fixingIngredient.tokens);
 				candidatePatch.LCS = modelExtractor.getNormalizedLongestCommonSubsequence(faultyNode.node.toString(), fixingIngredient.node.toString());
-				candidatePatch.score = candidatePatch.LCS; //candidatePatch.genealogyScore+candidatePatch.variableScore+
+				candidatePatch.score = candidatePatch.genealogyScore+candidatePatch.variableScore+candidatePatch.tokenScore; //candidatePatch.genealogyScore+candidatePatch.variableScore+
 //				System.out.println("LCS " +candidatePatch.LCS);
 				if(candidatePatch.score>0) {
 					this.patchListUpdater.updatePatchList(candidatePatch);
 				}
 			}
-
 		}
 	}
 }

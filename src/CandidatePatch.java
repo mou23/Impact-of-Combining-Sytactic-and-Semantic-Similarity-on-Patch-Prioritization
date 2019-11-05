@@ -24,6 +24,6 @@ public class CandidatePatch implements Serializable, Comparable <CandidatePatch>
 		PatchGenerator patchGenerator = PatchGenerator.createPatchGenerator();
 		String modifiedFaultyNode = faultyNode.toString().replaceAll("[\\t\\n\\r,]+"," ") + "," + modelExtractor.getNodeType(faultyNode);
 		String modifiedFixingIngredient = fixingIngredient.toString().replaceAll("[\\t\\n\\r,]+"," ") + "," + modelExtractor.getNodeType(fixingIngredient);
-		return modifiedFaultyNode + ", line no: " + patchGenerator.compilationUnit.getLineNumber(faultyNode.getStartPosition()) + "," + modifiedFixingIngredient + ", line no: " + patchGenerator.compilationUnit.getLineNumber(fixingIngredient.getStartPosition()) + ", " +score + ", " + genealogyScore+", "+variableScore+", "+LCS;
+		return modifiedFaultyNode + ", line no: " + patchGenerator.compilationUnit.getLineNumber(faultyNode.getStartPosition()) + "," + modifiedFixingIngredient + ", line no: " + patchGenerator.compilationUnit.getLineNumber(fixingIngredient.getStartPosition()) + ", " +score + ", " + genealogyScore+", "+variableScore+", "+LCS+ ", "+tokenScore;
 	}
 }

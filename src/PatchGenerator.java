@@ -84,7 +84,7 @@ public class PatchGenerator {
 		parser.setResolveBindings(true);
 		parser.setBindingsRecovery(true);
 		
-		File sourcePath = new File("/home/mou/code/"+fileIdentifier);
+		File sourcePath = new File("D:/code/"+fileIdentifier);
 		File[] folders = sourcePath.listFiles();
 		
 		for(int i=0; i<folders.length; i++) {
@@ -151,10 +151,10 @@ public class PatchGenerator {
 			this.generateConcretePatch(rewriter, candidatePatchesList.get(i));
 			if(correctPatchFound==true) {
 				this.correctPatches++;
-//				System.out.println("Total Candidate Patches: " +candidatePatchesList.size());
-//				System.out.println("Correct Patch Rank: " + (i+1));
-				System.out.print(candidatePatchesList.size()+",");
-				System.out.print((i+1));
+				System.out.println("Total Candidate Patches: " +candidatePatchesList.size());
+				System.out.println("Correct Patch Rank: " + (i+1));
+//				System.out.print(candidatePatchesList.size()+",");
+//				System.out.print((i+1));
 				break;
 				//				correctPatchFound = false;
 			}
@@ -186,7 +186,7 @@ public class PatchGenerator {
 
 	void writeCandidatePatches(String fileIdentifier) {
 //		String fileNameWithOutExtension = FilenameUtils.removeExtension(this.file.getAbsolutePath());
-		File newfile = new File("dataset/patch/"+fileIdentifier.replace("/", "_")+"LCS.csv");
+		File newfile = new File("dataset/patch/"+fileIdentifier.replace("/", "_")+"semantic_token.csv");
 		try {
 			FileWriter fileWrite = new FileWriter(newfile.getAbsolutePath());
 			for(int i=0; i<this.candidatePatchesList.size(); i++) {
@@ -200,6 +200,7 @@ public class PatchGenerator {
 	}
 
 	private void init() {
+		Tokenizer.stringTokenPairList.clear();
 //		IngredientCollector.problem = false;
 		this.correctPatches = 0;
 		this.candidatePatchesList.clear();
@@ -230,152 +231,6 @@ public class PatchGenerator {
 
 		return  fileData.toString();	
 	}
-
-	//	public void generatePatchTemplate(FaultyNode faultyNode) {
-	//		ReplaceHandler replaceHandler = ReplaceHandler.createReplaceHandler();
-	//		if(faultyNode.type.equals("SIMPLE_NAME")) {
-	//			// System.out.println("SIMPLE_NAME");
-	//			SimpleName simpleName = (SimpleName) faultyNode.node;
-	//			IBinding binding = simpleName.resolveTypeBinding();
-	//			if(binding == null) {
-	//				return;
-	//			}
-	//			replaceHandler.replace(binding, faultyNode, 0.1721);
-	//		}
-	//
-	//		else if(faultyNode.type.equals("STRING_LITERAL")) {
-	//			// System.out.println("STRING_LITERAL");
-	//			StringLiteral stringLiteral = (StringLiteral) faultyNode.node;
-	//			IBinding binding = stringLiteral.resolveTypeBinding();
-	//			if(binding == null) {
-	//				return;
-	//			}
-	//			replaceHandler.replace(binding, faultyNode, 0.1310);
-	//		}
-	//
-	//		else if(faultyNode.type.equals("INFIX_EXPRESSION")) {
-	//			//			System.out.println("INFIX_EXPRESSION " + faultyNode);
-	////			DeleteHandler.deleteUnderInfixExpression(faultyNode);
-	//			InfixExpression infixExpression = (InfixExpression) faultyNode.node;
-	//			IBinding binding = infixExpression.resolveTypeBinding();
-	//			if(binding == null) {
-	//				return;
-	//			}
-	//
-	//			replaceHandler.replace(binding, faultyNode, 0.0201);
-	//		}
-	//
-	//		else if(faultyNode.type.equals("QUALIFIED_NAME")) {
-	//			// System.out.println("QUALIFIED_NAME");
-	//			QualifiedName qualifiedName = (QualifiedName) faultyNode.node;
-	//			IBinding binding = qualifiedName.resolveTypeBinding();
-	//			if(binding == null) {
-	//				return;
-	//			}
-	//
-	//			replaceHandler.replace(binding, faultyNode, 0.0197);
-	//		}
-	//
-	//		else if(faultyNode.type.equals("CONDITIONAL_EXPRESSION")) {
-	//			// System.out.println("CONDITIONAL_EXPRESSION");
-	//			ConditionalExpression conditionalExpression = (ConditionalExpression) faultyNode.node;
-	//			IBinding binding = conditionalExpression.resolveTypeBinding();
-	//			if(binding == null) {
-	//				return;
-	//			}
-	//
-	//			replaceHandler.replace(binding, faultyNode, 0.0135);
-	//		}
-	//
-	//		else if(faultyNode.type.equals("SIMPLE_TYPE")) {
-	//			// System.out.println("SIMPLE_TYPE");
-	//			SimpleType simpleType = (SimpleType) faultyNode.node;
-	//			IBinding binding = simpleType.resolveBinding();
-	//			if(binding == null) {
-	//				return;
-	//			}
-	//
-	//			replaceHandler.replace(binding, faultyNode, 0.0082);
-	//		}
-	//
-	//		else if(faultyNode.type.equals("BOOLEAN_LITERAL")) {
-	//			// System.out.println("BOOLEAN_LITERAL");
-	//			BooleanLiteral booleanLiteral = (BooleanLiteral) faultyNode.node;
-	//			IBinding binding = booleanLiteral.resolveTypeBinding();
-	//			if(binding == null) {
-	//				return;
-	//			}
-	//
-	//			replaceHandler.replace(binding, faultyNode, 0.0075);
-	//		}
-	//		//		
-	//		else if(faultyNode.type.equals("PARAMETERIZED_TYPE")) {
-	//			// System.out.println("PARAMETERIZED_TYPE");
-	//			ParameterizedType parameterizedType = (ParameterizedType) faultyNode.node;
-	//			IBinding binding = parameterizedType.resolveBinding();
-	//			if(binding == null) {
-	//				return;
-	//			}
-	//
-	//			replaceHandler.replace(binding, faultyNode, 0.0038);
-	//		}
-	//		//		
-	//		else if(faultyNode.type.equals("PRIMITIVE_TYPE")) {
-	//			// System.out.println("PRIMITIVE_TYPE");
-	//			PrimitiveType primitiveType = (PrimitiveType) faultyNode.node;
-	//			IBinding binding = primitiveType.resolveBinding();
-	//			if(binding == null) {
-	//				return;
-	//			}
-	//
-	//			replaceHandler.replace(binding, faultyNode, 0.0009);
-	//		}
-	//		//		
-	//		else if(faultyNode.type.equals("ASSIGNMENT")) {
-	//			// System.out.println("ASSIGNMENT");
-	//			Assignment assignment = (Assignment) faultyNode.node;
-	//			IBinding binding = assignment.resolveTypeBinding();
-	//			if(binding == null) {
-	//				return;
-	//			}
-	//
-	//			replaceHandler.replace(binding, faultyNode, 0.0003);
-	//		}
-	//
-	//		else if(faultyNode.type.equals("METHOD_DECLARATION")) {
-	//			// System.out.println("METHOD_DECLARATION");
-	////			InsertHandler.insertUnderMethodDeclaration(faultyNode);
-	////			DeleteHandler.deleteUnderMethodDeclaration(faultyNode, 0.0157);
-	//		}
-	//
-	//		else if(faultyNode.type.equals("METHOD_INVOCATION")) {
-	//			// System.out.println("METHOD_INVOCATION");
-	//			//			InsertHandler.insert("SIMPLE_NAME", faultyNode, 0.0313);
-	//			//
-	////			InsertHandler.insertUnderMethodInvocation(faultyNode);
-	//			//
-	//			//			InsertHandler.insert("INFIX_EXPRESSION", faultyNode, 0.0125);
-	//			//
-	//			//			InsertHandler.insert("QUALIFIED_NAME", faultyNode, 0.0075);
-	//			//
-	//			//			InsertHandler.insert("BOOLEAN_LITERAL", faultyNode, 0.0047);
-	//		}
-	//
-	//		else if(faultyNode.type.equals("IF_STATEMENT")) {
-	//			// System.out.println("IF_STATEMENT");
-	////			InsertHandler.insertUnderIfStatement(faultyNode);
-	////			DeleteHandler.deleteUnderIfStatement(faultyNode);
-	//		}
-	//
-	//		else if(faultyNode.type.equals("TRY_STATEMENT")) {
-	//			// System.out.println("TRY_STATEMENT");
-	////			InsertHandler.insertUnderTryStatement(faultyNode);
-	//		}
-	//
-	//		else if(faultyNode.type.equals("CATCH_CLAUSE")) {
-	////			DeleteHandler.deleteUnderCatchClause(faultyNode, 0.0031);
-	//		}
-	//	}
 
 
 	private void generateConcretePatch(ASTRewrite rewriter, CandidatePatch candidatePatch) {
@@ -410,9 +265,9 @@ public class PatchGenerator {
 			    	}	
 			    }
 			    if(correctPatchFound == true) {
-//			    	System.out.println("Correct Patch Generated!");//+ " Elapsed Time: " +(System.nanoTime()-startingTime));
-//			    	System.out.println(candidatePatch.faultyNode);
-//			    	System.out.println(candidatePatch.fixingIngredient);
+			    	System.out.println("Correct Patch Generated!");//+ " Elapsed Time: " +(System.nanoTime()-startingTime));
+			    	System.out.println(candidatePatch.faultyNode);
+			    	System.out.println(candidatePatch.fixingIngredient);
 			    }
 			}
 
