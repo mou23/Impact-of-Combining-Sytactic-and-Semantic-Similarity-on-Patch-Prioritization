@@ -25,7 +25,8 @@ public class MyMain {
 			if (listOfFiles[i].isFile() && listOfFiles[i].getName().contains(".java")) {
 				String file = listOfFiles[i].getAbsolutePath();
 				file = file.substring(file.indexOf(rootFolder.getName())+rootFolder.getName().length()+1);
-				System.out.println("Processing " +file);
+//				System.out.println("Processing " +file);
+				System.out.print(file+",");
 				long startingTime = System.nanoTime();
 				FaultLocalizer faultLocalizer = FaultLocalizer.createFaultLocalizer();
 				faultLocalizer.localizeFault(file);
@@ -36,7 +37,7 @@ public class MyMain {
 				identifier = identifier.substring(identifier.indexOf(rootFolder.getName())+rootFolder.getName().length()+1);
 				patchGenerator.generatePatch(listOfFiles[i], identifier, startingTime);
 				System.out.println();
-				System.out.println();
+//				System.out.println();
 				break;
 			}
 			else if (listOfFiles[i].isDirectory()) {

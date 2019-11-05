@@ -134,7 +134,7 @@ public class PatchGenerator {
 		this.writeCandidatePatches(fileIdentifier);
 ////////		////		System.out.println((long)15*60*1000000000);
 		this.correctPatchFound = false;
-		System.out.println(this.candidatePatchesList.size() +" Patches Generated");
+//		System.out.println(this.candidatePatchesList.size() +" Patches Generated");
 		for(int i=0; i<this.candidatePatchesList.size(); i++) { //candidatePatches.size()
 			//			long currentTime = System.nanoTime();
 			//			System.out.println("Patch no: "+(i+1)+ " ");
@@ -151,8 +151,10 @@ public class PatchGenerator {
 			this.generateConcretePatch(rewriter, candidatePatchesList.get(i));
 			if(correctPatchFound==true) {
 				this.correctPatches++;
-				System.out.println("Total Candidate Patches: " +candidatePatchesList.size());
-				System.out.println("Correct Patch Rank: " + (i+1));
+//				System.out.println("Total Candidate Patches: " +candidatePatchesList.size());
+//				System.out.println("Correct Patch Rank: " + (i+1));
+				System.out.print(candidatePatchesList.size()+",");
+				System.out.print((i+1));
 				break;
 				//				correctPatchFound = false;
 			}
@@ -184,7 +186,7 @@ public class PatchGenerator {
 
 	void writeCandidatePatches(String fileIdentifier) {
 //		String fileNameWithOutExtension = FilenameUtils.removeExtension(this.file.getAbsolutePath());
-		File newfile = new File("dataset/patch/"+fileIdentifier.replace("/", "_")+"semantic_sum.csv");
+		File newfile = new File("dataset/patch/"+fileIdentifier.replace("/", "_")+"LCS.csv");
 		try {
 			FileWriter fileWrite = new FileWriter(newfile.getAbsolutePath());
 			for(int i=0; i<this.candidatePatchesList.size(); i++) {
@@ -400,17 +402,17 @@ public class PatchGenerator {
 				IProblem[] problems = compilationUnit.getProblems();
 			    for(IProblem problem : problems) {
 			    	if(problem.getMessage().contains("Syntax error")) {
-			    		System.out.println("problem: " + problem.getMessage() + problem.getSourceStart());
+//			    		System.out.println("problem: " + problem.getMessage() + problem.getSourceStart());
 			    		correctPatchFound = false;
-			    		System.out.println(candidatePatch.faultyNode);
-				    	System.out.println(candidatePatch.fixingIngredient);
+//			    		System.out.println(candidatePatch.faultyNode);
+//				    	System.out.println(candidatePatch.fixingIngredient);
 				    	break;
 			    	}	
 			    }
 			    if(correctPatchFound == true) {
-			    	System.out.println("Correct Patch Generated!");//+ " Elapsed Time: " +(System.nanoTime()-startingTime));
-			    	System.out.println(candidatePatch.faultyNode);
-			    	System.out.println(candidatePatch.fixingIngredient);
+//			    	System.out.println("Correct Patch Generated!");//+ " Elapsed Time: " +(System.nanoTime()-startingTime));
+//			    	System.out.println(candidatePatch.faultyNode);
+//			    	System.out.println(candidatePatch.fixingIngredient);
 			    }
 			}
 
