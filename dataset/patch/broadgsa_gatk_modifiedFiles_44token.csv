@@ -1,0 +1,6 @@
+mismatchThreshold,SIMPLE_NAME, line no: 67,mismatchThreshold > 0.0,INFIX_EXPRESSION, line no: 164, 0.3333333333333333, 0.2, 0.0, 0.7391304347826086, 0.3333333333333333
+mismatchThreshold,SIMPLE_NAME, line no: 67,mismatchThreshold <= 1.0,INFIX_EXPRESSION, line no: 165, 0.3333333333333333, 0.2, 0.0, 0.7083333333333334, 0.3333333333333333
+mismatchThreshold,SIMPLE_NAME, line no: 67,mismatchThreshold > 0.0 && mismatchThreshold <= 1.0,INFIX_EXPRESSION, line no: 164, 0.16666666666666666, 0.2, 0.0, 0.3333333333333333, 0.16666666666666666
+mismatchThreshold,SIMPLE_NAME, line no: 67,(double)mismatchQualities / (double)totalQualities >= mismatchThreshold,INFIX_EXPRESSION, line no: 167, 0.125, 0.2, 0.0, 0.23943661971830985, 0.125
+mismatchThreshold,SIMPLE_NAME, line no: 67,mismatchThreshold > 0.0 && mismatchThreshold <= 1.0 && pileup.size() >= minReadsAtLocus,INFIX_EXPRESSION, line no: 164, 0.07692307692307693, 0.2, 0.0, 0.19540229885057472, 0.07692307692307693
+mismatchThreshold,SIMPLE_NAME, line no: 67,mismatchThreshold > 0.0 && mismatchThreshold <= 1.0 && pileup.size() >= minReadsAtLocus && (double)mismatchQualities / (double)totalQualities >= mismatchThreshold,INFIX_EXPRESSION, line no: 164, 0.058823529411764705, 0.2, 0.0, 0.10493827160493827, 0.058823529411764705

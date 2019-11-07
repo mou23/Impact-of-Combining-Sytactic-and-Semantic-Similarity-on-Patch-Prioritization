@@ -44,7 +44,7 @@ public class Tokenizer {
 //			fileWrite.write();
 //			fileWrite.close();
 //					
-			ProcessBuilder processBuilder = new ProcessBuilder("python","tokenizer.py",expression);
+			ProcessBuilder processBuilder = new ProcessBuilder("python3","tokenizer.py",expression+ " ");
 			Process process = processBuilder.start();
 
 			BufferedReader in = new BufferedReader(new InputStreamReader(process.getInputStream()));
@@ -55,6 +55,7 @@ public class Tokenizer {
 					break;
 				}
 				else {
+//					System.out.println(token);
 					if(tokens.containsKey(token)) {
 						tokens.put(token, tokens.get(token)+1);
 					}

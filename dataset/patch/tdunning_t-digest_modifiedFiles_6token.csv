@@ -1,0 +1,605 @@
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,newPage.addAt(i - pageSize / 2 x w history),METHOD_INVOCATION, line no: 781, 0.8571428571428571, 0.7, 0.8333333333333334, 0.9069767441860465, 0.8571428571428571
+pageSize / 2,INFIX_EXPRESSION, line no: 795,i < pageSize / 2,INFIX_EXPRESSION, line no: 778, 0.6, 1.0, 0.5, 0.75, 0.6
+pageSize / 2,INFIX_EXPRESSION, line no: 795,i - pageSize / 2,INFIX_EXPRESSION, line no: 781, 0.6, 0.7142857142857143, 0.5, 0.75, 0.6
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,addAt(i x w history),METHOD_INVOCATION, line no: 779, 0.5384615384615384, 0.5, 0.5, 0.5128205128205128, 0.5384615384615384
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,addAt(active x w history),METHOD_INVOCATION, line no: 798, 0.5384615384615384, 0.55, 0.5, 0.5641025641025641, 0.5384615384615384
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,page.add(x w history),METHOD_INVOCATION, line no: 599, 0.5, 0.85, 0.5, 0.5128205128205128, 0.5
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,newPage.history.addAll(history.subList(half pageSize)),METHOD_INVOCATION, line no: 832, 0.4666666666666667, 0.9, 0.2857142857142857, 0.42592592592592593, 0.4666666666666667
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,history.subList(half pageSize),METHOD_INVOCATION, line no: 832, 0.42857142857142855, 0.9, 0.14285714285714285, 0.3076923076923077, 0.42857142857142855
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,addRaw(x w base.data()),METHOD_INVOCATION, line no: 626, 0.4, 0.5, 0.3333333333333333, 0.28205128205128205, 0.4
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(i - 1).add(x w history),METHOD_INVOCATION, line no: 606, 0.3888888888888889, 1.0, 0.42857142857142855, 0.5128205128205128, 0.3888888888888889
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(data.size() - 1).add(x w history),METHOD_INVOCATION, line no: 615, 0.3888888888888889, 1.0, 0.5, 0.5476190476190477, 0.3888888888888889
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,addRaw(x w),METHOD_INVOCATION, line no: 60, 0.38461538461538464, 0.4, 0.4, 0.20512820512820512, 0.38461538461538464
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,history.add(x),METHOD_INVOCATION, line no: 137, 0.38461538461538464, 0.4, 0.4, 0.20512820512820512, 0.38461538461538464
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.add(i newPage),METHOD_INVOCATION, line no: 610, 0.3333333333333333, 0.45, 0.14285714285714285, 0.2564102564102564, 0.3333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.add(data.size() newPage),METHOD_INVOCATION, line no: 619, 0.3333333333333333, 0.55, 0.16666666666666666, 0.3333333333333333, 0.3333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,this.history.add(i history),METHOD_INVOCATION, line no: 809, 0.3333333333333333, 0.45, 0.14285714285714285, 0.38461538461538464, 0.3333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,System.arraycopy(centroids half newPage.centroids 0 pageSize - half),METHOD_INVOCATION, line no: 828, 0.3333333333333333, 1.0, 0.2857142857142857, 0.3088235294117647, 0.3333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,System.arraycopy(counts half newPage.counts 0 pageSize - half),METHOD_INVOCATION, line no: 829, 0.3333333333333333, 1.0, 0.2857142857142857, 0.3387096774193548, 0.3333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,history.subList(0 half),METHOD_INVOCATION, line no: 835, 0.3333333333333333, 0.9, 0.0, 0.20512820512820512, 0.3333333333333333
+newPage,SIMPLE_NAME, line no: 795,newPage != null,INFIX_EXPRESSION, line no: 609, 0.3333333333333333, 1.0, 0.0, 0.4666666666666667, 0.3333333333333333
+newPage,SIMPLE_NAME, line no: 795,newPage.centroids,QUALIFIED_NAME, line no: 828, 0.3333333333333333, 1.0, 0.0, 0.4117647058823529, 0.3333333333333333
+newPage,SIMPLE_NAME, line no: 795,newPage.counts,QUALIFIED_NAME, line no: 829, 0.3333333333333333, 1.0, 0.0, 0.5, 0.3333333333333333
+newPage,SIMPLE_NAME, line no: 795,newPage.history,QUALIFIED_NAME, line no: 831, 0.3333333333333333, 0.9047619047619048, 0.0, 0.4666666666666667, 0.3333333333333333
+newPage,SIMPLE_NAME, line no: 795,newPage.active,QUALIFIED_NAME, line no: 839, 0.3333333333333333, 1.0, 0.0, 0.5, 0.3333333333333333
+newPage,SIMPLE_NAME, line no: 795,newPage.totalCount,QUALIFIED_NAME, line no: 841, 0.3333333333333333, 1.0, 0.0, 0.3888888888888889, 0.3333333333333333
+pageSize / 2,INFIX_EXPRESSION, line no: 795,pageSize,SIMPLE_NAME, line no: 36, 0.3333333333333333, 0.047619047619047616, 1.0, 0.6666666666666666, 0.3333333333333333
+pageSize / 2,INFIX_EXPRESSION, line no: 795,2,NUMBER_LITERAL, line no: 249, 0.3333333333333333, 1.0, 1.0, 0.08333333333333333, 0.3333333333333333
+pageSize,SIMPLE_NAME, line no: 795,pageSize > 3,INFIX_EXPRESSION, line no: 44, 0.3333333333333333, 0.5454545454545454, 0.0, 0.6666666666666666, 0.3333333333333333
+pageSize,SIMPLE_NAME, line no: 795,this.pageSize,FIELD_ACCESS, line no: 45, 0.3333333333333333, 0.3181818181818182, 1.0, 0.6153846153846154, 0.3333333333333333
+pageSize,SIMPLE_NAME, line no: 795,active >= pageSize,INFIX_EXPRESSION, line no: 775, 0.3333333333333333, 1.0, 0.0, 0.4444444444444444, 0.3333333333333333
+pageSize,SIMPLE_NAME, line no: 795,pageSize / 2,INFIX_EXPRESSION, line no: 778, 0.3333333333333333, 1.0, 1.0, 0.6666666666666666, 0.3333333333333333
+pageSize,SIMPLE_NAME, line no: 795,active == pageSize,INFIX_EXPRESSION, line no: 825, 0.3333333333333333, 1.0, 0.0, 0.4444444444444444, 0.3333333333333333
+pageSize,SIMPLE_NAME, line no: 795,pageSize - half,INFIX_EXPRESSION, line no: 828, 0.3333333333333333, 1.0, 1.0, 0.5333333333333333, 0.3333333333333333
+2,NUMBER_LITERAL, line no: 795,pageSize / 2,INFIX_EXPRESSION, line no: 778, 0.3333333333333333, 1.0, 1.0, 0.08333333333333333, 0.3333333333333333
+x,SIMPLE_NAME, line no: 795,x - center,INFIX_EXPRESSION, line no: 119, 0.3333333333333333, 0.9523809523809523, 1.0, 0.1, 0.3333333333333333
+x,SIMPLE_NAME, line no: 795,x.page,QUALIFIED_NAME, line no: 433, 0.3333333333333333, 0.9523809523809523, 0.0, 0.16666666666666666, 0.3333333333333333
+x,SIMPLE_NAME, line no: 795,x.subPage,QUALIFIED_NAME, line no: 434, 0.3333333333333333, 0.9523809523809523, 0.0, 0.1111111111111111, 0.3333333333333333
+x,SIMPLE_NAME, line no: 795,mean - x,INFIX_EXPRESSION, line no: 505, 0.3333333333333333, 0.7619047619047619, 1.0, 0.125, 0.3333333333333333
+x,SIMPLE_NAME, line no: 795,x=mean,ASSIGNMENT, line no: 506, 0.3333333333333333, 0.7619047619047619, 1.0, 0.16666666666666666, 0.3333333333333333
+x,SIMPLE_NAME, line no: 795,x+=delta,ASSIGNMENT, line no: 553, 0.3333333333333333, 0.6190476190476191, 1.0, 0.125, 0.3333333333333333
+w,SIMPLE_NAME, line no: 795,totalWeight+=w,ASSIGNMENT, line no: 113, 0.3333333333333333, 0.9047619047619048, 0.0, 0.07142857142857142, 0.3333333333333333
+w,SIMPLE_NAME, line no: 795,totalCount+=w,ASSIGNMENT, line no: 821, 0.3333333333333333, 0.9047619047619048, 1.0, 0.07692307692307693, 0.3333333333333333
+w,SIMPLE_NAME, line no: 795,totalCount-=w,ASSIGNMENT, line no: 861, 0.3333333333333333, 0.9523809523809523, 1.0, 0.07692307692307693, 0.3333333333333333
+history,SIMPLE_NAME, line no: 795,p.history,QUALIFIED_NAME, line no: 110, 0.3333333333333333, 0.9047619047619048, 0.0, 0.7777777777777778, 0.3333333333333333
+history,SIMPLE_NAME, line no: 795,history != null,INFIX_EXPRESSION, line no: 136, 0.3333333333333333, 0.9047619047619048, 0.0, 0.4666666666666667, 0.3333333333333333
+history,SIMPLE_NAME, line no: 795,current.history,QUALIFIED_NAME, line no: 340, 0.3333333333333333, 0.9047619047619048, 0.0, 0.4666666666666667, 0.3333333333333333
+history,SIMPLE_NAME, line no: 795,this.history,FIELD_ACCESS, line no: 808, 0.3333333333333333, 0.9047619047619048, 0.0, 0.5833333333333334, 0.3333333333333333
+history,SIMPLE_NAME, line no: 795,newPage.history,QUALIFIED_NAME, line no: 831, 0.3333333333333333, 0.9047619047619048, 0.0, 0.4666666666666667, 0.3333333333333333
+history,SIMPLE_NAME, line no: 795,history=tmp,ASSIGNMENT, line no: 836, 0.3333333333333333, 0.9047619047619048, 0.0, 0.6363636363636364, 0.3333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(b.mean() - a.mean()) / 2,INFIX_EXPRESSION, line no: 249, 0.3125, 1.0, 0.0, 0.23076923076923078, 0.3125
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(next.count() - 1.0) / 2,INFIX_EXPRESSION, line no: 298, 0.3125, 1.0, 0.0, 0.23076923076923078, 0.3125
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(next2.count() - 1.0) / 2,INFIX_EXPRESSION, line no: 307, 0.3125, 0.95, 0.0, 0.23076923076923078, 0.3125
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,p.history.get(closest.subPage).add(x),METHOD_INVOCATION, line no: 111, 0.29411764705882354, 0.65, 0.1111111111111111, 0.3076923076923077, 0.29411764705882354
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,tmp.addAll(history.subList(0 half)),METHOD_INVOCATION, line no: 835, 0.29411764705882354, 0.9, 0.0, 0.358974358974359, 0.29411764705882354
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,centroid.insertData(x),METHOD_INVOCATION, line no: 342, 0.2857142857142857, 0.4, 0.16666666666666666, 0.1794871794871795, 0.2857142857142857
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,buf.putInt(pageSize),METHOD_INVOCATION, line no: 480, 0.2857142857142857, 0.85, 0.16666666666666666, 0.3076923076923077, 0.2857142857142857
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,tmp.add(x),METHOD_INVOCATION, line no: 592, 0.2857142857142857, 0.8, 0.16666666666666666, 0.1794871794871795, 0.2857142857142857
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,this.history.add(history),METHOD_INVOCATION, line no: 817, 0.2857142857142857, 0.4, 0.16666666666666666, 0.3333333333333333, 0.2857142857142857
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,history.remove(i),METHOD_INVOCATION, line no: 857, 0.2857142857142857, 0.4, 0.0, 0.20512820512820512, 0.2857142857142857
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,right=(b.mean() - a.mean()) / 2,ASSIGNMENT, line no: 263, 0.2777777777777778, 0.95, 0.0, 0.2564102564102564, 0.2777777777777778
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,total + (next.count() - 1.0) / 2,INFIX_EXPRESSION, line no: 298, 0.2777777777777778, 1.0, 0.0, 0.23076923076923078, 0.2777777777777778
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,addRaw(x w recordAllData ? tmp : null),METHOD_INVOCATION, line no: 593, 0.2777777777777778, 0.8, 0.2857142857142857, 0.28205128205128205, 0.2777777777777778
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(x - center) / weight,INFIX_EXPRESSION, line no: 119, 0.26666666666666666, 0.95, 0.14285714285714285, 0.23076923076923078, 0.26666666666666666
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,addRaw(center weight history),METHOD_INVOCATION, line no: 140, 0.26666666666666666, 0.9, 0.14285714285714285, 0.4358974358974359, 0.26666666666666666
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,new ArrayDigest(pageSize compression),CLASS_INSTANCE_CREATION, line no: 203, 0.26666666666666666, 0.9, 0.16666666666666666, 0.5128205128205128, 0.26666666666666666
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,this.iterator(0 0),METHOD_INVOCATION, line no: 208, 0.26666666666666666, 0.9, 0.0, 0.20512820512820512, 0.26666666666666666
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,pageSize=buf.getInt(),ASSIGNMENT, line no: 529, 0.26666666666666666, 0.35, 0.16666666666666666, 0.2564102564102564, 0.26666666666666666
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,new Page(pageSize recordAllData),CLASS_INSTANCE_CREATION, line no: 598, 0.26666666666666666, 0.8, 0.16666666666666666, 0.5128205128205128, 0.26666666666666666
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,total + next.count() + (next2.count() - 1.0) / 2,INFIX_EXPRESSION, line no: 307, 0.2631578947368421, 0.95, 0.0, 0.22916666666666666, 0.2631578947368421
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,newPage.history=new ArrayList<List<Double>>(),ASSIGNMENT, line no: 831, 0.2631578947368421, 0.9, 0.16666666666666666, 0.35555555555555557, 0.2631578947368421
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(x - p.centroids[closest.subPage]) / p.counts[closest.subPage],INFIX_EXPRESSION, line no: 109, 0.25, 0.9, 0.1, 0.1774193548387097, 0.25
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,p.history.get(closest.subPage),METHOD_INVOCATION, line no: 110, 0.25, 0.9, 0.0, 0.23076923076923078, 0.25
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,center + (x - center) / weight,INFIX_EXPRESSION, line no: 119, 0.25, 0.95, 0.14285714285714285, 0.28205128205128205, 0.25
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,Collections.shuffle(tmp gen),METHOD_INVOCATION, line no: 213, 0.25, 0.9, 0.0, 0.1794871794871795, 0.25
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(r + a.count() * AbstractTDigest.interpolate(x a.mean() - left a.mean() + right)) / totalWeight,INFIX_EXPRESSION, line no: 255, 0.25, 0.8, 0.1, 0.16842105263157894, 0.25
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,AbstractTDigest.interpolate(x a.mean() - left a.mean() + right),METHOD_INVOCATION, line no: 255, 0.25, 0.8, 0.125, 0.23809523809523808, 0.25
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,current.history.get(index.subPage),METHOD_INVOCATION, line no: 341, 0.25, 0.7, 0.0, 0.2564102564102564, 0.25
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,iterator(data.size() 0),METHOD_INVOCATION, line no: 373, 0.25, 0.9, 0.0, 0.2564102564102564, 0.25
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(index.page).history,FIELD_ACCESS, line no: 568, 0.25, 0.75, 0.0, 0.41025641025641024, 0.25
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,pageSize / 2,INFIX_EXPRESSION, line no: 778, 0.25, 1.0, 0.2, 0.3076923076923077, 0.25
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,newPage.history,QUALIFIED_NAME, line no: 831, 0.25, 0.9, 0.16666666666666666, 0.38461538461538464, 0.25
+newPage,SIMPLE_NAME, line no: 795,newPage.totalCount=totalCount,ASSIGNMENT, line no: 841, 0.25, 1.0, 0.0, 0.2413793103448276, 0.25
+pageSize / 2,INFIX_EXPRESSION, line no: 795,newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795, 0.25, 0.9523809523809523, 0.2, 0.3076923076923077, 0.25
+pageSize,SIMPLE_NAME, line no: 795,this.pageSize=pageSize,ASSIGNMENT, line no: 45, 0.25, 0.3181818181818182, 1.0, 0.36363636363636365, 0.25
+x,SIMPLE_NAME, line no: 795,floor(x),METHOD_INVOCATION, line no: 54, 0.25, 0.9523809523809523, 0.0, 0.125, 0.25
+x,SIMPLE_NAME, line no: 795,ceiling(x),METHOD_INVOCATION, line no: 56, 0.25, 0.38095238095238093, 0.0, 0.1, 0.25
+x,SIMPLE_NAME, line no: 795,allBefore(x),METHOD_INVOCATION, line no: 383, 0.25, 0.9523809523809523, 0.0, 0.08333333333333333, 0.25
+x,SIMPLE_NAME, line no: 795,allAfter(x),METHOD_INVOCATION, line no: 397, 0.25, 0.6666666666666666, 0.0, 0.09090909090909091, 0.25
+history,SIMPLE_NAME, line no: 795,history(closest),METHOD_INVOCATION, line no: 135, 0.25, 0.9047619047619048, 1.0, 0.4375, 0.25
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,p.centroids[closest.subPage]+=(x - p.centroids[closest.subPage]) / p.counts[closest.subPage],ASSIGNMENT, line no: 109, 0.23809523809523808, 0.9, 0.1, 0.18478260869565216, 0.23809523809523808
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,Math.abs(mean(neighbor) - x),METHOD_INVOCATION, line no: 67, 0.23529411764705882, 0.9, 0.16666666666666666, 0.28205128205128205, 0.23529411764705882
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,gen.nextDouble() < 1 / n,INFIX_EXPRESSION, line no: 93, 0.23529411764705882, 0.6, 0.0, 0.20512820512820512, 0.23529411764705882
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,center=center + (x - center) / weight,ASSIGNMENT, line no: 119, 0.23529411764705882, 0.95, 0.14285714285714285, 0.3333333333333333, 0.23529411764705882
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,reduced.add(mean(index) count(index)),METHOD_INVOCATION, line no: 215, 0.23529411764705882, 0.55, 0.0, 0.358974358974359, 0.23529411764705882
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,x < a.mean() + right,INFIX_EXPRESSION, line no: 254, 0.23529411764705882, 0.95, 0.14285714285714285, 0.20512820512820512, 0.23529411764705882
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,reverse(data.size() -1),METHOD_INVOCATION, line no: 428, 0.23529411764705882, 0.9, 0.0, 0.2564102564102564, 0.23529411764705882
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,floor(x),METHOD_INVOCATION, line no: 54, 0.23076923076923078, 0.95, 0.2, 0.07692307692307693, 0.23076923076923078
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,ceiling(x),METHOD_INVOCATION, line no: 56, 0.23076923076923078, 0.4, 0.2, 0.1282051282051282, 0.23076923076923078
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,history(closest),METHOD_INVOCATION, line no: 135, 0.23076923076923078, 0.9, 0.0, 0.20512820512820512, 0.23076923076923078
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,allBefore(x),METHOD_INVOCATION, line no: 383, 0.23076923076923078, 0.95, 0.2, 0.1282051282051282, 0.23076923076923078
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,allAfter(x),METHOD_INVOCATION, line no: 397, 0.23076923076923078, 0.7, 0.2, 0.15384615384615385, 0.23076923076923078
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,a.count() * AbstractTDigest.interpolate(x a.mean() - left a.mean() + right),INFIX_EXPRESSION, line no: 255, 0.22727272727272727, 0.8, 0.125, 0.21333333333333335, 0.22727272727272727
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,p.history.get(closest.subPage) != null,INFIX_EXPRESSION, line no: 110, 0.2222222222222222, 0.9, 0.0, 0.23076923076923078, 0.2222222222222222
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,iterator(data.size() - 1 j),METHOD_INVOCATION, line no: 370, 0.2222222222222222, 0.55, 0.0, 0.3076923076923077, 0.2222222222222222
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,rx.hasNext() && mean(z) == x,INFIX_EXPRESSION, line no: 389, 0.2222222222222222, 0.95, 0.14285714285714285, 0.23076923076923078, 0.2222222222222222
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,reverse(data.size() - 1 j - 1),METHOD_INVOCATION, line no: 425, 0.2222222222222222, 0.55, 0.0, 0.3076923076923077, 0.2222222222222222
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,ArrayDigest.this.iterator(start.page start.subPage),METHOD_INVOCATION, line no: 585, 0.2222222222222222, 0.45, 0.0, 0.3137254901960784, 0.2222222222222222
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(r + a.count() * AbstractTDigest.interpolate(x a.mean() - left a.mean() + right)),PARENTHESIZED_EXPRESSION, line no: 255, 0.21739130434782608, 0.8, 0.1111111111111111, 0.19753086419753085, 0.21739130434782608
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,r + a.count() * AbstractTDigest.interpolate(x a.mean() - left a.mean() + right),INFIX_EXPRESSION, line no: 255, 0.21739130434782608, 0.8, 0.1111111111111111, 0.20253164556962025, 0.21739130434782608
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,gen.nextDouble(),METHOD_INVOCATION, line no: 93, 0.21428571428571427, 0.65, 0.0, 0.20512820512820512, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(x - center),PARENTHESIZED_EXPRESSION, line no: 119, 0.21428571428571427, 0.95, 0.16666666666666666, 0.15384615384615385, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.size(),METHOD_INVOCATION, line no: 165, 0.21428571428571427, 1.0, 0.0, 0.1794871794871795, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,reduced.recordAllData(),METHOD_INVOCATION, line no: 205, 0.21428571428571427, 0.35, 0.0, 0.20512820512820512, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,ix.hasNext(),METHOD_INVOCATION, line no: 209, 0.21428571428571427, 0.9, 0.0, 0.15384615384615385, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,ix.next(),METHOD_INVOCATION, line no: 210, 0.21428571428571427, 0.45, 0.0, 0.1282051282051282, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,iterator(0 0),METHOD_INVOCATION, line no: 242, 0.21428571428571427, 1.0, 0.0, 0.15384615384615385, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,it.next(),METHOD_INVOCATION, line no: 243, 0.21428571428571427, 1.0, 0.0, 0.1282051282051282, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,b.mean(),METHOD_INVOCATION, line no: 249, 0.21428571428571427, 1.0, 0.0, 0.10256410256410256, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,a.mean(),METHOD_INVOCATION, line no: 249, 0.21428571428571427, 1.0, 0.0, 0.1282051282051282, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,it.hasNext(),METHOD_INVOCATION, line no: 253, 0.21428571428571427, 1.0, 0.0, 0.15384615384615385, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,a.count(),METHOD_INVOCATION, line no: 255, 0.21428571428571427, 0.8, 0.0, 0.1282051282051282, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,next.count(),METHOD_INVOCATION, line no: 298, 0.21428571428571427, 1.0, 0.0, 0.15384615384615385, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,next.mean(),METHOD_INVOCATION, line no: 303, 0.21428571428571427, 0.3, 0.0, 0.15384615384615385, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,next2.count(),METHOD_INVOCATION, line no: 307, 0.21428571428571427, 0.95, 0.0, 0.15384615384615385, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,next2.mean(),METHOD_INVOCATION, line no: 308, 0.21428571428571427, 1.0, 0.0, 0.15384615384615385, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,rx.hasNext(),METHOD_INVOCATION, line no: 384, 0.21428571428571427, 0.95, 0.0, 0.15384615384615385, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,rx.next(),METHOD_INVOCATION, line no: 387, 0.21428571428571427, 0.95, 0.0, 0.1282051282051282, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,r.hasNext(),METHOD_INVOCATION, line no: 398, 0.21428571428571427, 0.7, 0.0, 0.15384615384615385, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,r.next(),METHOD_INVOCATION, line no: 398, 0.21428571428571427, 0.7, 0.0, 0.1282051282051282, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,buf.position(),METHOD_INVOCATION, line no: 470, 0.21428571428571427, 0.8, 0.0, 0.15384615384615385, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,buf.getInt(),METHOD_INVOCATION, line no: 524, 0.21428571428571427, 1.0, 0.0, 0.1282051282051282, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,buf.getDouble(),METHOD_INVOCATION, line no: 526, 0.21428571428571427, 1.0, 0.0, 0.15384615384615385, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,buf.getFloat(),METHOD_INVOCATION, line no: 552, 0.21428571428571427, 0.7, 0.0, 0.15384615384615385, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,base.data(),METHOD_INVOCATION, line no: 626, 0.21428571428571427, 0.5, 0.0, 0.1794871794871795, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,i < pageSize / 2,INFIX_EXPRESSION, line no: 778, 0.21428571428571427, 1.0, 0.16666666666666666, 0.3076923076923077, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,i - pageSize / 2,INFIX_EXPRESSION, line no: 781, 0.21428571428571427, 0.7, 0.16666666666666666, 0.3076923076923077, 0.21428571428571427
+pageSize / 2,INFIX_EXPRESSION, line no: 795,newPage.addAt(i - pageSize / 2 x w history),METHOD_INVOCATION, line no: 781, 0.21428571428571427, 0.7142857142857143, 0.16666666666666666, 0.27906976744186046, 0.21428571428571427
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(x - p.centroids[closest.subPage]),PARENTHESIZED_EXPRESSION, line no: 109, 0.21052631578947367, 0.9, 0.1111111111111111, 0.20512820512820512, 0.21052631578947367
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,p.history != null && p.history.get(closest.subPage) != null,INFIX_EXPRESSION, line no: 110, 0.21052631578947367, 0.9, 0.0, 0.2033898305084746, 0.21052631578947367
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,x < data.get(0).centroids[0],INFIX_EXPRESSION, line no: 237, 0.21052631578947367, 0.45, 0.14285714285714285, 0.20512820512820512, 0.21052631578947367
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(nextIndex2 * next.mean() - nextIndex * next2.mean()) / (nextIndex2 - nextIndex),INFIX_EXPRESSION, line no: 308, 0.21052631578947367, 1.0, 0.0, 0.1875, 0.21052631578947367
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,quantile(previousIndex index nextIndex previousMean next.mean()),METHOD_INVOCATION, line no: 312, 0.21052631578947367, 0.95, 0.0, 0.234375, 0.21052631578947367
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,quantile(nextIndex index nextIndex2 next.mean() nextMean2),METHOD_INVOCATION, line no: 319, 0.21052631578947367, 0.9, 0.0, 0.22413793103448276, 0.21052631578947367
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,r.add(means[i] z),METHOD_INVOCATION, line no: 559, 0.21052631578947367, 0.75, 0.0, 0.23076923076923078, 0.21052631578947367
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,start=ceiling(x),ASSIGNMENT, line no: 56, 0.2, 0.35, 0.16666666666666666, 0.15384615384615385, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,mean(neighbor) - x,INFIX_EXPRESSION, line no: 67, 0.2, 0.9, 0.16666666666666666, 0.23076923076923078, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,count(neighbor) / 2.0,INFIX_EXPRESSION, line no: 87, 0.2, 0.95, 0.0, 0.23076923076923078, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,count(neighbor) + w,INFIX_EXPRESSION, line no: 91, 0.2, 0.95, 0.16666666666666666, 0.23076923076923078, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,count(closest) + w,INFIX_EXPRESSION, line no: 117, 0.2, 0.95, 0.16666666666666666, 0.1794871794871795, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,increment(closest 1),METHOD_INVOCATION, line no: 121, 0.2, 0.95, 0.0, 0.23076923076923078, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(i),METHOD_INVOCATION, line no: 162, 0.2, 0.45, 0.0, 0.1794871794871795, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(0),METHOD_INVOCATION, line no: 237, 0.2, 0.5, 0.0, 0.1794871794871795, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,next=it.next(),ASSIGNMENT, line no: 297, 0.2, 1.0, 0.0, 0.20512820512820512, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,Double.isNaN(previousMean),METHOD_INVOCATION, line no: 300, 0.2, 0.95, 0.0, 0.23076923076923078, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,!it.hasNext(),PREFIX_EXPRESSION, line no: 313, 0.2, 1.0, 0.0, 0.15384615384615385, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(next.mean() * (nextIndex2 - previousIndex) - previousMean * (nextIndex2 - nextIndex)) / (nextIndex - previousIndex),INFIX_EXPRESSION, line no: 318, 0.2, 0.9, 0.0, 0.14655172413793102, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,r.add(centroid),METHOD_INVOCATION, line no: 345, 0.2, 0.9, 0.0, 0.23076923076923078, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(i).centroids[0] >= x,INFIX_EXPRESSION, line no: 356, 0.2, 0.9, 0.125, 0.2564102564102564, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,iterator(i 0),METHOD_INVOCATION, line no: 363, 0.2, 0.9, 0.0, 0.1794871794871795, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,!rx.hasNext(),PREFIX_EXPRESSION, line no: 384, 0.2, 0.95, 0.0, 0.15384615384615385, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,mean(z) == x,INFIX_EXPRESSION, line no: 389, 0.2, 0.95, 0.16666666666666666, 0.1794871794871795, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(i).centroids[0] > x,INFIX_EXPRESSION, line no: 412, 0.2, 0.9, 0.125, 0.2564102564102564, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,ByteBuffer.allocate(bound),METHOD_INVOCATION, line no: 468, 0.2, 0.8, 0.0, 0.20512820512820512, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,buf.putInt(VERBOSE_ARRAY_DIGEST),METHOD_INVOCATION, line no: 478, 0.2, 0.85, 0.0, 0.1282051282051282, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,buf.putDouble(compression()),METHOD_INVOCATION, line no: 479, 0.2, 0.85, 0.0, 0.20512820512820512, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,buf.putInt(centroidCount),METHOD_INVOCATION, line no: 481, 0.2, 0.85, 0.0, 0.1794871794871795, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,buf.putInt(SMALL_ARRAY_DIGEST),METHOD_INVOCATION, line no: 496, 0.2, 0.9, 0.0, 0.1282051282051282, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,encode(buf n),METHOD_INVOCATION, line no: 513, 0.2, 0.6, 0.0, 0.1282051282051282, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,r.add(means[i] buf.getInt()),METHOD_INVOCATION, line no: 538, 0.2, 0.6, 0.0, 0.2564102564102564, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.add(page),METHOD_INVOCATION, line no: 602, 0.2, 0.85, 0.0, 0.28205128205128205, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(page),METHOD_INVOCATION, line no: 664, 0.2, 1.0, 0.0, 0.2564102564102564, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,System.arraycopy(centroids i centroids i + 1 active - i),METHOD_INVOCATION, line no: 806, 0.2, 0.9, 0.0, 0.21428571428571427, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,System.arraycopy(counts i counts i + 1 active - i),METHOD_INVOCATION, line no: 807, 0.2, 0.9, 0.0, 0.22, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,System.arraycopy(centroids i + 1 centroids i active - i - 1),METHOD_INVOCATION, line no: 854, 0.2, 0.9, 0.0, 0.21666666666666667, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,System.arraycopy(counts i + 1 counts i active - i - 1),METHOD_INVOCATION, line no: 855, 0.2, 0.9, 0.0, 0.2222222222222222, 0.2
+pageSize / 2,INFIX_EXPRESSION, line no: 795,pageSize > 3,INFIX_EXPRESSION, line no: 44, 0.2, 0.5714285714285714, 1.0, 0.8333333333333334, 0.2
+pageSize / 2,INFIX_EXPRESSION, line no: 795,this.pageSize,FIELD_ACCESS, line no: 45, 0.2, 0.3333333333333333, 1.0, 0.6153846153846154, 0.2
+pageSize / 2,INFIX_EXPRESSION, line no: 795,1 / n,INFIX_EXPRESSION, line no: 93, 0.2, 0.6190476190476191, 0.0, 0.25, 0.2
+pageSize / 2,INFIX_EXPRESSION, line no: 795,(b.mean() - a.mean()) / 2,INFIX_EXPRESSION, line no: 249, 0.2, 1.0, 0.0, 0.24, 0.2
+pageSize / 2,INFIX_EXPRESSION, line no: 795,(next.count() - 1.0) / 2,INFIX_EXPRESSION, line no: 298, 0.2, 1.0, 0.0, 0.20833333333333334, 0.2
+pageSize / 2,INFIX_EXPRESSION, line no: 795,(next2.count() - 1.0) / 2,INFIX_EXPRESSION, line no: 307, 0.2, 0.9523809523809523, 0.0, 0.2, 0.2
+pageSize / 2,INFIX_EXPRESSION, line no: 795,active >= pageSize,INFIX_EXPRESSION, line no: 775, 0.2, 1.0, 0.5, 0.4444444444444444, 0.2
+pageSize / 2,INFIX_EXPRESSION, line no: 795,active == pageSize,INFIX_EXPRESSION, line no: 825, 0.2, 1.0, 0.5, 0.4444444444444444, 0.2
+pageSize / 2,INFIX_EXPRESSION, line no: 795,pageSize - half,INFIX_EXPRESSION, line no: 828, 0.2, 1.0, 0.5, 0.6666666666666666, 0.2
+pageSize,SIMPLE_NAME, line no: 795,i < pageSize / 2,INFIX_EXPRESSION, line no: 778, 0.2, 1.0, 0.0, 0.5, 0.2
+pageSize,SIMPLE_NAME, line no: 795,i - pageSize / 2,INFIX_EXPRESSION, line no: 781, 0.2, 0.6818181818181818, 1.0, 0.5, 0.2
+2,NUMBER_LITERAL, line no: 795,i < pageSize / 2,INFIX_EXPRESSION, line no: 778, 0.2, 1.0, 0.0, 0.0625, 0.2
+2,NUMBER_LITERAL, line no: 795,i - pageSize / 2,INFIX_EXPRESSION, line no: 781, 0.2, 0.6818181818181818, 1.0, 0.0625, 0.2
+x,SIMPLE_NAME, line no: 795,(x - center),PARENTHESIZED_EXPRESSION, line no: 119, 0.2, 0.9523809523809523, 1.0, 0.08333333333333333, 0.2
+x,SIMPLE_NAME, line no: 795,x.subPage + delta,INFIX_EXPRESSION, line no: 434, 0.2, 0.9523809523809523, 0.0, 0.058823529411764705, 0.2
+w,SIMPLE_NAME, line no: 795,p.totalCount+=w,ASSIGNMENT, line no: 108, 0.2, 0.9047619047619048, 1.0, 0.06666666666666667, 0.2
+history,SIMPLE_NAME, line no: 795,p.history != null,INFIX_EXPRESSION, line no: 110, 0.2, 0.9047619047619048, 0.0, 0.4117647058823529, 0.2
+history,SIMPLE_NAME, line no: 795,current.history != null,INFIX_EXPRESSION, line no: 340, 0.2, 0.9047619047619048, 0.0, 0.30434782608695654, 0.2
+history,SIMPLE_NAME, line no: 795,this.history != null,INFIX_EXPRESSION, line no: 808, 0.2, 0.9047619047619048, 0.0, 0.35, 0.2
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,previousMean=(nextIndex2 * next.mean() - nextIndex * next2.mean()) / (nextIndex2 - nextIndex),ASSIGNMENT, line no: 308, 0.19047619047619047, 1.0, 0.0, 0.16129032258064516, 0.19047619047619047
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,new Centroid(current.centroids[index.subPage] current.counts[index.subPage]),CLASS_INSTANCE_CREATION, line no: 339, 0.19047619047619047, 0.9, 0.0, 0.19736842105263158, 0.19047619047619047
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(closest.page),METHOD_INVOCATION, line no: 106, 0.1875, 0.9, 0.0, 0.2564102564102564, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,increment(closest -1),METHOD_INVOCATION, line no: 121, 0.1875, 0.95, 0.0, 0.23076923076923078, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,mean(increment(closest 1)),METHOD_INVOCATION, line no: 121, 0.1875, 0.95, 0.0, 0.23076923076923078, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(i).totalCount,FIELD_ACCESS, line no: 162, 0.1875, 0.4, 0.0, 0.20512820512820512, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(limit.page),METHOD_INVOCATION, line no: 167, 0.1875, 0.6, 0.0, 0.2564102564102564, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(i).active,FIELD_ACCESS, line no: 181, 0.1875, 0.4, 0.0, 0.20512820512820512, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(index.page),METHOD_INVOCATION, line no: 194, 0.1875, 0.5, 0.0, 0.2564102564102564, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,tmp.add(ix.next()),METHOD_INVOCATION, line no: 210, 0.1875, 0.45, 0.0, 0.2564102564102564, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(0).centroids,FIELD_ACCESS, line no: 237, 0.1875, 0.45, 0.0, 0.20512820512820512, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(b.mean() - a.mean()),PARENTHESIZED_EXPRESSION, line no: 249, 0.1875, 1.0, 0.0, 0.15384615384615385, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,b.mean() - a.mean(),INFIX_EXPRESSION, line no: 249, 0.1875, 1.0, 0.0, 0.15384615384615385, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,a.mean() + right,INFIX_EXPRESSION, line no: 254, 0.1875, 0.95, 0.0, 0.20512820512820512, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,a.mean() - left,INFIX_EXPRESSION, line no: 255, 0.1875, 0.8, 0.0, 0.1794871794871795, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,r+=a.count(),ASSIGNMENT, line no: 257, 0.1875, 0.95, 0.0, 0.1282051282051282, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,b=it.next(),ASSIGNMENT, line no: 260, 0.1875, 0.95, 0.0, 0.1282051282051282, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(next.count() - 1.0),PARENTHESIZED_EXPRESSION, line no: 298, 0.1875, 1.0, 0.0, 0.20512820512820512, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,next.count() - 1.0,INFIX_EXPRESSION, line no: 298, 0.1875, 1.0, 0.0, 0.1794871794871795, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(next2.count() - 1.0),PARENTHESIZED_EXPRESSION, line no: 307, 0.1875, 0.95, 0.0, 0.20512820512820512, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,next2.count() - 1.0,INFIX_EXPRESSION, line no: 307, 0.1875, 0.95, 0.0, 0.1794871794871795, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,nextIndex2 * next.mean(),INFIX_EXPRESSION, line no: 308, 0.1875, 1.0, 0.0, 0.23076923076923078, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,nextIndex * next2.mean(),INFIX_EXPRESSION, line no: 308, 0.1875, 1.0, 0.0, 0.23076923076923078, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,total+=next.count(),ASSIGNMENT, line no: 321, 0.1875, 1.0, 0.0, 0.1794871794871795, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,previousMean=next.mean(),ASSIGNMENT, line no: 322, 0.1875, 1.0, 0.0, 0.1794871794871795, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.size() == 0,INFIX_EXPRESSION, line no: 351, 0.1875, 0.9, 0.0, 0.20512820512820512, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,i < data.size(),INFIX_EXPRESSION, line no: 355, 0.1875, 0.9, 0.0, 0.1794871794871795, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(i).centroids,FIELD_ACCESS, line no: 356, 0.1875, 0.9, 0.0, 0.23076923076923078, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.size() - 1,INFIX_EXPRESSION, line no: 367, 0.1875, 0.9, 0.0, 0.20512820512820512, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,z=rx.next(),ASSIGNMENT, line no: 391, 0.1875, 0.4, 0.0, 0.1282051282051282, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,reverse(i -1),METHOD_INVOCATION, line no: 419, 0.1875, 0.9, 0.0, 0.15384615384615385, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,new Index(i j),CLASS_INSTANCE_CREATION, line no: 445, 0.1875, 0.95, 0.0, 0.20512820512820512, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,buf.putFloat((float)delta),METHOD_INVOCATION, line no: 507, 0.1875, 0.8, 0.0, 0.20512820512820512, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,h.get(index.subPage),METHOD_INVOCATION, line no: 569, 0.1875, 0.8, 0.0, 0.23076923076923078, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,new Index(-1 -1),CLASS_INSTANCE_CREATION, line no: 633, 0.1875, 1.0, 0.0, 0.20512820512820512, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,page >= data.size(),INFIX_EXPRESSION, line no: 661, 0.1875, 1.0, 0.0, 0.2564102564102564, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,new Index(page subPage),CLASS_INSTANCE_CREATION, line no: 670, 0.1875, 0.55, 0.0, 0.3076923076923077, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(page).active,FIELD_ACCESS, line no: 718, 0.1875, 0.55, 0.0, 0.28205128205128205, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(page).centroids,FIELD_ACCESS, line no: 745, 0.1875, 0.35, 0.0, 0.3076923076923077, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(page).counts,FIELD_ACCESS, line no: 749, 0.1875, 0.35, 0.0, 0.2564102564102564, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,newPage.active=pageSize - half,ASSIGNMENT, line no: 839, 0.1875, 1.0, 0.2857142857142857, 0.5384615384615384, 0.1875
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,x < data.get(0).centroids[0] ? 0 : 1,CONDITIONAL_EXPRESSION, line no: 237, 0.18181818181818182, 0.45, 0.14285714285714285, 0.23076923076923078, 0.18181818181818182
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(sum + count(neighbor) / 2.0),PARENTHESIZED_EXPRESSION, line no: 87, 0.17647058823529413, 0.95, 0.0, 0.2564102564102564, 0.17647058823529413
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,sum + count(neighbor) / 2.0,INFIX_EXPRESSION, line no: 87, 0.17647058823529413, 0.95, 0.0, 0.23076923076923078, 0.17647058823529413
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,count(neighbor) + w <= k,INFIX_EXPRESSION, line no: 91, 0.17647058823529413, 0.95, 0.14285714285714285, 0.23076923076923078, 0.17647058823529413
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,mean(increment(closest -1)),METHOD_INVOCATION, line no: 121, 0.17647058823529413, 0.95, 0.0, 0.23076923076923078, 0.17647058823529413
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,limit.page < data.size(),INFIX_EXPRESSION, line no: 165, 0.17647058823529413, 1.0, 0.0, 0.2564102564102564, 0.17647058823529413
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(limit.page).counts,FIELD_ACCESS, line no: 167, 0.17647058823529413, 0.55, 0.0, 0.2564102564102564, 0.17647058823529413
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(index.page).centroids,FIELD_ACCESS, line no: 194, 0.17647058823529413, 0.45, 0.0, 0.3076923076923077, 0.17647058823529413
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(index.page).counts,FIELD_ACCESS, line no: 198, 0.17647058823529413, 0.45, 0.0, 0.2564102564102564, 0.17647058823529413
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(i - 1),METHOD_INVOCATION, line no: 357, 0.17647058823529413, 0.9, 0.0, 0.23076923076923078, 0.17647058823529413
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,iterator(i - 1 j),METHOD_INVOCATION, line no: 360, 0.17647058823529413, 0.45, 0.0, 0.23076923076923078, 0.17647058823529413
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(data.size() - 1),METHOD_INVOCATION, line no: 367, 0.17647058823529413, 0.9, 0.0, 0.3076923076923077, 0.17647058823529413
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,reverse(i - 1 j - 1),METHOD_INVOCATION, line no: 416, 0.17647058823529413, 0.45, 0.0, 0.20512820512820512, 0.17647058823529413
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(sum + count(neighbor) / 2.0) / totalWeight,INFIX_EXPRESSION, line no: 87, 0.16666666666666666, 0.95, 0.0, 0.2558139534883721, 0.16666666666666666
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,mean(increment(closest 1)) >= center,INFIX_EXPRESSION, line no: 121, 0.16666666666666666, 0.95, 0.0, 0.2564102564102564, 0.16666666666666666
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,r+=data.get(i).totalCount,ASSIGNMENT, line no: 162, 0.16666666666666666, 0.4, 0.0, 0.20512820512820512, 0.16666666666666666
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,r+=data.get(i).active,ASSIGNMENT, line no: 181, 0.16666666666666666, 0.4, 0.0, 0.20512820512820512, 0.16666666666666666
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(0).centroids[0],ARRAY_ACCESS, line no: 237, 0.16666666666666666, 0.45, 0.0, 0.20512820512820512, 0.16666666666666666
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,next.mean() * (nextIndex2 - previousIndex),INFIX_EXPRESSION, line no: 318, 0.16666666666666666, 0.9, 0.0, 0.2857142857142857, 0.16666666666666666
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,r.hasNext() ? r.next() : null,CONDITIONAL_EXPRESSION, line no: 398, 0.16666666666666666, 0.7, 0.0, 0.23076923076923078, 0.16666666666666666
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,j >= data.get(i).active,INFIX_EXPRESSION, line no: 436, 0.16666666666666666, 0.95, 0.0, 0.20512820512820512, 0.16666666666666666
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,j-=data.get(i).active,ASSIGNMENT, line no: 437, 0.16666666666666666, 0.45, 0.0, 0.20512820512820512, 0.16666666666666666
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,j+=data.get(i).active,ASSIGNMENT, line no: 443, 0.16666666666666666, 0.45, 0.0, 0.20512820512820512, 0.16666666666666666
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(index.page).delete(index.subPage),METHOD_INVOCATION, line no: 578, 0.16666666666666666, 0.75, 0.0, 0.3333333333333333, 0.16666666666666666
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(page).active - 1,INFIX_EXPRESSION, line no: 718, 0.16666666666666666, 0.55, 0.0, 0.3333333333333333, 0.16666666666666666
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,history=this.recordAllData ? new ArrayList<List<Double>>() : null,ASSIGNMENT, line no: 768, 0.16666666666666666, 0.6, 0.0, 0.2, 0.16666666666666666
+pageSize / 2,INFIX_EXPRESSION, line no: 795,this.pageSize=pageSize,ASSIGNMENT, line no: 45, 0.16666666666666666, 0.3333333333333333, 1.0, 0.36363636363636365, 0.16666666666666666
+pageSize / 2,INFIX_EXPRESSION, line no: 795,right=(b.mean() - a.mean()) / 2,ASSIGNMENT, line no: 263, 0.16666666666666666, 0.9523809523809523, 0.0, 0.22580645161290322, 0.16666666666666666
+pageSize / 2,INFIX_EXPRESSION, line no: 795,total + (next.count() - 1.0) / 2,INFIX_EXPRESSION, line no: 298, 0.16666666666666666, 1.0, 0.0, 0.1875, 0.16666666666666666
+pageSize,SIMPLE_NAME, line no: 795,buf.putInt(pageSize),METHOD_INVOCATION, line no: 480, 0.16666666666666666, 0.8636363636363636, 0.0, 0.4, 0.16666666666666666
+x,SIMPLE_NAME, line no: 795,start=ceiling(x),ASSIGNMENT, line no: 56, 0.16666666666666666, 0.3333333333333333, 0.0, 0.0625, 0.16666666666666666
+x,SIMPLE_NAME, line no: 795,addRaw(x w),METHOD_INVOCATION, line no: 60, 0.16666666666666666, 0.38095238095238093, 0.0, 0.09090909090909091, 0.16666666666666666
+x,SIMPLE_NAME, line no: 795,mean(neighbor) - x,INFIX_EXPRESSION, line no: 67, 0.16666666666666666, 0.9047619047619048, 1.0, 0.05555555555555555, 0.16666666666666666
+x,SIMPLE_NAME, line no: 795,history.add(x),METHOD_INVOCATION, line no: 137, 0.16666666666666666, 0.38095238095238093, 0.0, 0.07142857142857142, 0.16666666666666666
+x,SIMPLE_NAME, line no: 795,centroid.insertData(x),METHOD_INVOCATION, line no: 342, 0.16666666666666666, 0.38095238095238093, 0.0, 0.045454545454545456, 0.16666666666666666
+x,SIMPLE_NAME, line no: 795,mean(z) == x,INFIX_EXPRESSION, line no: 389, 0.16666666666666666, 0.9523809523809523, 0.0, 0.08333333333333333, 0.16666666666666666
+x,SIMPLE_NAME, line no: 795,means[i]=x,ASSIGNMENT, line no: 554, 0.16666666666666666, 0.6190476190476191, 1.0, 0.1, 0.16666666666666666
+x,SIMPLE_NAME, line no: 795,tmp.add(x),METHOD_INVOCATION, line no: 592, 0.16666666666666666, 0.8095238095238095, 0.0, 0.1, 0.16666666666666666
+x,SIMPLE_NAME, line no: 795,centroids[i] >= x,INFIX_EXPRESSION, line no: 773, 0.16666666666666666, 1.0, 0.0, 0.058823529411764705, 0.16666666666666666
+x,SIMPLE_NAME, line no: 795,centroids[i]=x,ASSIGNMENT, line no: 811, 0.16666666666666666, 0.9047619047619048, 1.0, 0.07142857142857142, 0.16666666666666666
+x,SIMPLE_NAME, line no: 795,centroids[active]=x,ASSIGNMENT, line no: 814, 0.16666666666666666, 0.7142857142857143, 1.0, 0.05263157894736842, 0.16666666666666666
+w,SIMPLE_NAME, line no: 795,addRaw(x w),METHOD_INVOCATION, line no: 60, 0.16666666666666666, 0.38095238095238093, 0.0, 0.09090909090909091, 0.16666666666666666
+w,SIMPLE_NAME, line no: 795,count(neighbor) + w,INFIX_EXPRESSION, line no: 91, 0.16666666666666666, 0.9523809523809523, 1.0, 0.05263157894736842, 0.16666666666666666
+w,SIMPLE_NAME, line no: 795,count(closest) + w,INFIX_EXPRESSION, line no: 117, 0.16666666666666666, 0.9523809523809523, 1.0, 0.05555555555555555, 0.16666666666666666
+w,SIMPLE_NAME, line no: 795,counts[i]=w,ASSIGNMENT, line no: 812, 0.16666666666666666, 0.9047619047619048, 1.0, 0.09090909090909091, 0.16666666666666666
+w,SIMPLE_NAME, line no: 795,counts[active]=w,ASSIGNMENT, line no: 815, 0.16666666666666666, 0.7142857142857143, 1.0, 0.0625, 0.16666666666666666
+history,SIMPLE_NAME, line no: 795,history.add(x),METHOD_INVOCATION, line no: 137, 0.16666666666666666, 0.38095238095238093, 0.0, 0.5, 0.16666666666666666
+history,SIMPLE_NAME, line no: 795,this.history.add(history),METHOD_INVOCATION, line no: 817, 0.16666666666666666, 0.38095238095238093, 0.0, 0.28, 0.16666666666666666
+history,SIMPLE_NAME, line no: 795,history.remove(i),METHOD_INVOCATION, line no: 857, 0.16666666666666666, 0.38095238095238093, 1.0, 0.4117647058823529, 0.16666666666666666
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,4 * totalWeight * q* (1 - q) / compression,INFIX_EXPRESSION, line no: 88, 0.15789473684210525, 0.95, 0.0, 0.21428571428571427, 0.15789473684210525
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,mean(increment(closest -1)) <= center,INFIX_EXPRESSION, line no: 121, 0.15789473684210525, 0.95, 0.0, 0.2564102564102564, 0.15789473684210525
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(nextIndex2 * next.mean() - nextIndex * next2.mean()),PARENTHESIZED_EXPRESSION, line no: 308, 0.15789473684210525, 1.0, 0.0, 0.24528301886792453, 0.15789473684210525
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,nextIndex2 * next.mean() - nextIndex * next2.mean(),INFIX_EXPRESSION, line no: 308, 0.15789473684210525, 1.0, 0.0, 0.2549019607843137, 0.15789473684210525
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(i).centroids[0],ARRAY_ACCESS, line no: 356, 0.15789473684210525, 0.9, 0.0, 0.23076923076923078, 0.15789473684210525
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,buf.putDouble(page.centroids[i]),METHOD_INVOCATION, line no: 484, 0.15789473684210525, 0.45, 0.0, 0.28205128205128205, 0.15789473684210525
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,buf.putInt(page.counts[i]),METHOD_INVOCATION, line no: 489, 0.15789473684210525, 0.45, 0.0, 0.23076923076923078, 0.15789473684210525
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,means[i]=buf.getDouble(),ASSIGNMENT, line no: 535, 0.15789473684210525, 0.4, 0.0, 0.20512820512820512, 0.15789473684210525
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(page).centroids[subPage],ARRAY_ACCESS, line no: 745, 0.15789473684210525, 0.35, 0.0, 0.3076923076923077, 0.15789473684210525
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(page).counts[subPage],ARRAY_ACCESS, line no: 749, 0.15789473684210525, 0.35, 0.0, 0.2564102564102564, 0.15789473684210525
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,this.pageSize,FIELD_ACCESS, line no: 45, 0.15384615384615385, 0.35, 0.2, 0.23076923076923078, 0.15384615384615385
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,p.history,QUALIFIED_NAME, line no: 110, 0.15384615384615385, 0.9, 0.0, 0.20512820512820512, 0.15384615384615385
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,compress(),METHOD_INVOCATION, line no: 153, 0.15384615384615385, 0.3, 0.0, 0.10256410256410256, 0.15384615384615385
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,size(),METHOD_INVOCATION, line no: 234, 0.15384615384615385, 1.0, 0.0, 0.10256410256410256, 0.15384615384615385
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,centroidCount(),METHOD_INVOCATION, line no: 283, 0.15384615384615385, 1.0, 0.0, 0.1282051282051282, 0.15384615384615385
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,current.history,QUALIFIED_NAME, line no: 340, 0.15384615384615385, 0.9, 0.0, 0.23076923076923078, 0.15384615384615385
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,x.page,QUALIFIED_NAME, line no: 433, 0.15384615384615385, 0.95, 0.0, 0.1282051282051282, 0.15384615384615385
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,x.subPage,QUALIFIED_NAME, line no: 434, 0.15384615384615385, 0.95, 0.0, 0.10256410256410256, 0.15384615384615385
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,byteSize(),METHOD_INVOCATION, line no: 467, 0.15384615384615385, 0.8, 0.0, 0.1794871794871795, 0.15384615384615385
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,compression(),METHOD_INVOCATION, line no: 479, 0.15384615384615385, 0.85, 0.0, 0.1282051282051282, 0.15384615384615385
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,computeNext(),METHOD_INVOCATION, line no: 639, 0.15384615384615385, 0.35, 0.0, 0.15384615384615385, 0.15384615384615385
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,hasNext(),METHOD_INVOCATION, line no: 646, 0.15384615384615385, 0.65, 0.0, 0.1282051282051282, 0.15384615384615385
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,split(),METHOD_INVOCATION, line no: 777, 0.15384615384615385, 1.0, 0.0, 0.10256410256410256, 0.15384615384615385
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,this.history,FIELD_ACCESS, line no: 808, 0.15384615384615385, 0.9, 0.0, 0.23076923076923078, 0.15384615384615385
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,newPage.centroids,QUALIFIED_NAME, line no: 828, 0.15384615384615385, 1.0, 0.16666666666666666, 0.28205128205128205, 0.15384615384615385
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,newPage.counts,QUALIFIED_NAME, line no: 829, 0.15384615384615385, 1.0, 0.16666666666666666, 0.2564102564102564, 0.15384615384615385
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,newPage.active,QUALIFIED_NAME, line no: 839, 0.15384615384615385, 1.0, 0.16666666666666666, 0.3076923076923077, 0.15384615384615385
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,newPage.totalCount,QUALIFIED_NAME, line no: 841, 0.15384615384615385, 1.0, 0.16666666666666666, 0.28205128205128205, 0.15384615384615385
+pageSize / 2,INFIX_EXPRESSION, line no: 795,total + next.count() + (next2.count() - 1.0) / 2,INFIX_EXPRESSION, line no: 307, 0.15384615384615385, 0.9523809523809523, 0.0, 0.14583333333333334, 0.15384615384615385
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,limit != null && limit.page < data.size(),INFIX_EXPRESSION, line no: 165, 0.15, 1.0, 0.0, 0.2682926829268293, 0.15
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(limit.page).counts[j],ARRAY_ACCESS, line no: 167, 0.15, 0.55, 0.0, 0.2564102564102564, 0.15
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(index.page).centroids[index.subPage],ARRAY_ACCESS, line no: 194, 0.15, 0.45, 0.0, 0.28888888888888886, 0.15
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data.get(index.page).counts[index.subPage],ARRAY_ACCESS, line no: 198, 0.15, 0.45, 0.0, 0.30952380952380953, 0.15
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(next.mean() * (nextIndex2 - previousIndex) - previousMean * (nextIndex2 - nextIndex)),PARENTHESIZED_EXPRESSION, line no: 318, 0.15, 0.9, 0.0, 0.18604651162790697, 0.15
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,next.mean() * (nextIndex2 - previousIndex) - previousMean * (nextIndex2 - nextIndex),INFIX_EXPRESSION, line no: 318, 0.15, 0.9, 0.0, 0.19047619047619047, 0.15
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,h == null ? null : h.get(index.subPage),CONDITIONAL_EXPRESSION, line no: 569, 0.15, 0.75, 0.0, 0.2564102564102564, 0.15
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,subPage=data.get(page).active - 1,ASSIGNMENT, line no: 718, 0.15, 0.55, 0.0, 0.38461538461538464, 0.15
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,this.pageSize=pageSize,ASSIGNMENT, line no: 45, 0.14285714285714285, 0.35, 0.2, 0.28205128205128205, 0.14285714285714285
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,inclusiveTail(start),METHOD_INVOCATION, line no: 62, 0.14285714285714285, 0.95, 0.0, 0.20512820512820512, 0.14285714285714285
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,mean(neighbor),METHOD_INVOCATION, line no: 67, 0.14285714285714285, 0.9, 0.0, 0.23076923076923078, 0.14285714285714285
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,headSum(start),METHOD_INVOCATION, line no: 79, 0.14285714285714285, 0.95, 0.0, 0.20512820512820512, 0.14285714285714285
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,count(neighbor),METHOD_INVOCATION, line no: 87, 0.14285714285714285, 0.95, 0.0, 0.23076923076923078, 0.14285714285714285
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,z == minDistance && count(neighbor) + w <= k,INFIX_EXPRESSION, line no: 91, 0.14285714285714285, 0.95, 0.1111111111111111, 0.25, 0.14285714285714285
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,count(closest),METHOD_INVOCATION, line no: 117, 0.14285714285714285, 0.95, 0.0, 0.1794871794871795, 0.14285714285714285
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,mean(closest),METHOD_INVOCATION, line no: 118, 0.14285714285714285, 0.95, 0.0, 0.1794871794871795, 0.14285714285714285
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,mean(increment(closest -1)) <= center && mean(increment(closest 1)) >= center,INFIX_EXPRESSION, line no: 121, 0.14285714285714285, 0.95, 0.0, 0.16883116883116883, 0.14285714285714285
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,delete(closest),METHOD_INVOCATION, line no: 133, 0.14285714285714285, 0.9, 0.0, 0.20512820512820512, 0.14285714285714285
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,mean(index),METHOD_INVOCATION, line no: 215, 0.14285714285714285, 0.55, 0.0, 0.1794871794871795, 0.14285714285714285
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,count(index),METHOD_INVOCATION, line no: 215, 0.14285714285714285, 0.55, 0.0, 0.1794871794871795, 0.14285714285714285
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,mean(z),METHOD_INVOCATION, line no: 389, 0.14285714285714285, 0.95, 0.0, 0.1282051282051282, 0.14285714285714285
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,i < data.size() && j >= data.get(i).active,INFIX_EXPRESSION, line no: 436, 0.14285714285714285, 0.95, 0.0, 0.23809523809523808, 0.14285714285714285
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,asSmallBytes(buf),METHOD_INVOCATION, line no: 469, 0.14285714285714285, 0.85, 0.0, 0.15384615384615385, 0.14285714285714285
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(float)delta,CAST_EXPRESSION, line no: 507, 0.14285714285714285, 0.8, 0.0, 0.10256410256410256, 0.14285714285714285
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,decode(buf),METHOD_INVOCATION, line no: 558, 0.14285714285714285, 0.7, 0.0, 0.10256410256410256, 0.14285714285714285
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,newPage.totalCount=totalCount,ASSIGNMENT, line no: 841, 0.14285714285714285, 1.0, 0.16666666666666666, 0.3076923076923077, 0.14285714285714285
+newPage,SIMPLE_NAME, line no: 795,newPage.active=pageSize - half,ASSIGNMENT, line no: 839, 0.14285714285714285, 1.0, 0.0, 0.23333333333333334, 0.14285714285714285
+pageSize,SIMPLE_NAME, line no: 795,new ArrayDigest(pageSize compression),CLASS_INSTANCE_CREATION, line no: 203, 0.14285714285714285, 0.8636363636363636, 0.0, 0.21621621621621623, 0.14285714285714285
+pageSize,SIMPLE_NAME, line no: 795,pageSize=buf.getInt(),ASSIGNMENT, line no: 529, 0.14285714285714285, 0.3181818181818182, 1.0, 0.38095238095238093, 0.14285714285714285
+pageSize,SIMPLE_NAME, line no: 795,new Page(pageSize recordAllData),CLASS_INSTANCE_CREATION, line no: 598, 0.14285714285714285, 0.7727272727272727, 0.0, 0.25, 0.14285714285714285
+pageSize,SIMPLE_NAME, line no: 795,new double[this.pageSize],ARRAY_CREATION, line no: 766, 0.14285714285714285, 0.5909090909090909, 0.0, 0.32, 0.14285714285714285
+pageSize,SIMPLE_NAME, line no: 795,new int[this.pageSize],ARRAY_CREATION, line no: 767, 0.14285714285714285, 0.5909090909090909, 0.0, 0.36363636363636365, 0.14285714285714285
+pageSize,SIMPLE_NAME, line no: 795,newPage.active=pageSize - half,ASSIGNMENT, line no: 839, 0.14285714285714285, 1.0, 1.0, 0.26666666666666666, 0.14285714285714285
+x,SIMPLE_NAME, line no: 795,(x - center) / weight,INFIX_EXPRESSION, line no: 119, 0.14285714285714285, 0.9523809523809523, 1.0, 0.047619047619047616, 0.14285714285714285
+history,SIMPLE_NAME, line no: 795,addRaw(center weight history),METHOD_INVOCATION, line no: 140, 0.14285714285714285, 0.9047619047619048, 0.0, 0.2413793103448276, 0.14285714285714285
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,r+=data.get(limit.page).counts[j],ASSIGNMENT, line no: 167, 0.13636363636363635, 0.55, 0.0, 0.2564102564102564, 0.13636363636363635
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,new IllegalArgumentException("Must have page size of 4 or more"),CLASS_INSTANCE_CREATION, line no: 48, 0.13333333333333333, 0.1, 0.0, 0.3125, 0.13333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(1 - q),PARENTHESIZED_EXPRESSION, line no: 88, 0.13333333333333333, 0.95, 0.0, 0.10256410256410256, 0.13333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,p.totalCount+=w,ASSIGNMENT, line no: 108, 0.13333333333333333, 0.9, 0.14285714285714285, 0.10256410256410256, 0.13333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,p.history != null,INFIX_EXPRESSION, line no: 110, 0.13333333333333333, 0.9, 0.0, 0.20512820512820512, 0.13333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,new UnsupportedOperationException("Default operation"),CLASS_INSTANCE_CREATION, line no: 224, 0.13333333333333333, 0.05, 0.0, 0.25925925925925924, 0.13333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,size() == 0,INFIX_EXPRESSION, line no: 234, 0.13333333333333333, 1.0, 0.0, 0.1282051282051282, 0.13333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,size() == 1,INFIX_EXPRESSION, line no: 236, 0.13333333333333333, 1.0, 0.0, 0.1282051282051282, 0.13333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,centroidCount() == 0,INFIX_EXPRESSION, line no: 283, 0.13333333333333333, 1.0, 0.0, 0.15384615384615385, 0.13333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,centroidCount() == 1,INFIX_EXPRESSION, line no: 285, 0.13333333333333333, 1.0, 0.0, 0.15384615384615385, 0.13333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(size() - 1),PARENTHESIZED_EXPRESSION, line no: 290, 0.13333333333333333, 1.0, 0.0, 0.1794871794871795, 0.13333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,size() - 1,INFIX_EXPRESSION, line no: 290, 0.13333333333333333, 1.0, 0.0, 0.1282051282051282, 0.13333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(nextIndex2 - nextIndex),PARENTHESIZED_EXPRESSION, line no: 308, 0.13333333333333333, 1.0, 0.0, 0.23076923076923078, 0.13333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(nextIndex2 - previousIndex),PARENTHESIZED_EXPRESSION, line no: 318, 0.13333333333333333, 0.9, 0.0, 0.23076923076923078, 0.13333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,(nextIndex - previousIndex),PARENTHESIZED_EXPRESSION, line no: 318, 0.13333333333333333, 0.9, 0.0, 0.23076923076923078, 0.13333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,current.history != null,INFIX_EXPRESSION, line no: 340, 0.13333333333333333, 0.9, 0.0, 0.23076923076923078, 0.13333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,x.subPage + delta,INFIX_EXPRESSION, line no: 434, 0.13333333333333333, 0.95, 0.0, 0.1794871794871795, 0.13333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,new IllegalStateException("Invalid format for serialized histogram"),CLASS_INSTANCE_CREATION, line no: 563, 0.13333333333333333, 0.1, 0.0, 0.29411764705882354, 0.13333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,next=computeNext(),ASSIGNMENT, line no: 639, 0.13333333333333333, 0.3, 0.0, 0.23076923076923078, 0.13333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,new NoSuchElementException("Can't iterate past end of data"),CLASS_INSTANCE_CREATION, line no: 651, 0.13333333333333333, 0.1, 0.0, 0.23333333333333334, 0.13333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,new NoSuchElementException("Can't reverse iterate before beginning of data"),CLASS_INSTANCE_CREATION, line no: 702, 0.13333333333333333, 0.1, 0.0, 0.19736842105263158, 0.13333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,this.history != null,INFIX_EXPRESSION, line no: 808, 0.13333333333333333, 0.9, 0.0, 0.23076923076923078, 0.13333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,this.recordAllData ? new ArrayList<List<Double>>() : null,CONDITIONAL_EXPRESSION, line no: 768, 0.13043478260869565, 0.6, 0.0, 0.22807017543859648, 0.13043478260869565
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,new Iterable<Index>(){   @Override public Iterator<Index> iterator(){     return ArrayDigest.this.iterator(start.page start.subPage);   } } ,CLASS_INSTANCE_CREATION, line no: 582, 0.12903225806451613, 0.6, 0.0, 0.15, 0.12903225806451613
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,sum+=count(neighbor),ASSIGNMENT, line no: 97, 0.125, 0.95, 0.0, 0.23076923076923078, 0.125
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,totalWeight-=count(index),ASSIGNMENT, line no: 576, 0.125, 0.75, 0.0, 0.20512820512820512, 0.125
+newPage,SIMPLE_NAME, line no: 795,data.add(i newPage),METHOD_INVOCATION, line no: 610, 0.125, 0.42857142857142855, 0.0, 0.3684210526315789, 0.125
+newPage,SIMPLE_NAME, line no: 795,data.add(data.size() newPage),METHOD_INVOCATION, line no: 619, 0.125, 0.5238095238095238, 0.0, 0.2413793103448276, 0.125
+newPage,SIMPLE_NAME, line no: 795,newPage.totalCount-=counts[i],ASSIGNMENT, line no: 845, 0.125, 0.42857142857142855, 0.0, 0.2413793103448276, 0.125
+addAt,SIMPLE_NAME, line no: 795,addAt(i x w history),METHOD_INVOCATION, line no: 779, 0.125, 0.47619047619047616, 1.0, 0.25, 0.125
+addAt,SIMPLE_NAME, line no: 795,addAt(active x w history),METHOD_INVOCATION, line no: 798, 0.125, 0.5238095238095238, 1.0, 0.2, 0.125
+pageSize / 2,INFIX_EXPRESSION, line no: 795,count(neighbor) / 2.0,INFIX_EXPRESSION, line no: 87, 0.125, 0.9523809523809523, 0.0, 0.2857142857142857, 0.125
+pageSize / 2,INFIX_EXPRESSION, line no: 795,buf.putInt(pageSize),METHOD_INVOCATION, line no: 480, 0.125, 0.8571428571428571, 0.5, 0.4, 0.125
+pageSize,SIMPLE_NAME, line no: 795,history.subList(half pageSize),METHOD_INVOCATION, line no: 832, 0.125, 0.8636363636363636, 0.0, 0.26666666666666666, 0.125
+x,SIMPLE_NAME, line no: 795,center + (x - center) / weight,INFIX_EXPRESSION, line no: 119, 0.125, 0.9523809523809523, 1.0, 0.03333333333333333, 0.125
+x,SIMPLE_NAME, line no: 795,previous.centroids[j] > x,INFIX_EXPRESSION, line no: 359, 0.125, 0.5714285714285714, 0.0, 0.04, 0.125
+x,SIMPLE_NAME, line no: 795,last.centroids[j] > x,INFIX_EXPRESSION, line no: 369, 0.125, 0.6666666666666666, 0.0, 0.047619047619047616, 0.125
+x,SIMPLE_NAME, line no: 795,addAt(i x w history),METHOD_INVOCATION, line no: 779, 0.125, 0.47619047619047616, 0.0, 0.05, 0.125
+x,SIMPLE_NAME, line no: 795,addAt(active x w history),METHOD_INVOCATION, line no: 798, 0.125, 0.5238095238095238, 0.0, 0.04, 0.125
+w,SIMPLE_NAME, line no: 795,count(neighbor) + w <= k,INFIX_EXPRESSION, line no: 91, 0.125, 0.9523809523809523, 0.0, 0.041666666666666664, 0.125
+w,SIMPLE_NAME, line no: 795,addAt(i x w history),METHOD_INVOCATION, line no: 779, 0.125, 0.47619047619047616, 0.0, 0.05, 0.125
+w,SIMPLE_NAME, line no: 795,addAt(active x w history),METHOD_INVOCATION, line no: 798, 0.125, 0.5238095238095238, 0.0, 0.04, 0.125
+history,SIMPLE_NAME, line no: 795,p.history.get(closest.subPage),METHOD_INVOCATION, line no: 110, 0.125, 0.9047619047619048, 1.0, 0.23333333333333334, 0.125
+history,SIMPLE_NAME, line no: 795,current.history.get(index.subPage),METHOD_INVOCATION, line no: 341, 0.125, 0.6666666666666666, 1.0, 0.20588235294117646, 0.125
+history,SIMPLE_NAME, line no: 795,data.get(index.page).history,FIELD_ACCESS, line no: 568, 0.125, 0.7619047619047619, 0.0, 0.25, 0.125
+history,SIMPLE_NAME, line no: 795,addAt(i x w history),METHOD_INVOCATION, line no: 779, 0.125, 0.47619047619047616, 0.0, 0.35, 0.125
+history,SIMPLE_NAME, line no: 795,addAt(active x w history),METHOD_INVOCATION, line no: 798, 0.125, 0.5238095238095238, 0.0, 0.28, 0.125
+history,SIMPLE_NAME, line no: 795,this.history.add(i history),METHOD_INVOCATION, line no: 809, 0.125, 0.42857142857142855, 0.0, 0.25925925925925924, 0.125
+history,SIMPLE_NAME, line no: 795,history.subList(half pageSize),METHOD_INVOCATION, line no: 832, 0.125, 0.9047619047619048, 0.0, 0.23333333333333334, 0.125
+history,SIMPLE_NAME, line no: 795,history.subList(0 half),METHOD_INVOCATION, line no: 835, 0.125, 0.9047619047619048, 0.0, 0.30434782608695654, 0.125
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,new ArrayList<Page>(),CLASS_INSTANCE_CREATION, line no: 38, 0.11764705882352941, 0.0, 0.0, 0.23076923076923078, 0.11764705882352941
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,new ArrayList<Index>(),CLASS_INSTANCE_CREATION, line no: 207, 0.11764705882352941, 0.9, 0.0, 0.23076923076923078, 0.11764705882352941
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,new IllegalArgumentException("q should be in [0 1]  got " + q),CLASS_INSTANCE_CREATION, line no: 280, 0.11764705882352941, 0.2, 0.0, 0.25806451612903225, 0.11764705882352941
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,q * (size() - 1),INFIX_EXPRESSION, line no: 290, 0.11764705882352941, 1.0, 0.0, 0.1794871794871795, 0.11764705882352941
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,previousMean * (nextIndex2 - nextIndex),INFIX_EXPRESSION, line no: 318, 0.11764705882352941, 0.9, 0.0, 0.28205128205128205, 0.11764705882352941
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,new ArrayList<Centroid>(),CLASS_INSTANCE_CREATION, line no: 334, 0.11764705882352941, 1.0, 0.0, 0.2564102564102564, 0.11764705882352941
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,new ArrayList<Double>(),CLASS_INSTANCE_CREATION, line no: 591, 0.11764705882352941, 0.75, 0.0, 0.2564102564102564, 0.11764705882352941
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,new double[this.pageSize],ARRAY_CREATION, line no: 766, 0.11764705882352941, 0.6, 0.2, 0.3333333333333333, 0.11764705882352941
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,new int[this.pageSize],ARRAY_CREATION, line no: 767, 0.11764705882352941, 0.6, 0.2, 0.3076923076923077, 0.11764705882352941
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,4 * totalWeight * q* (1 - q),INFIX_EXPRESSION, line no: 88, 0.1111111111111111, 0.95, 0.0, 0.1794871794871795, 0.1111111111111111
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,previous.centroids[j] > x,INFIX_EXPRESSION, line no: 359, 0.1111111111111111, 0.6, 0.125, 0.1794871794871795, 0.1111111111111111
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,last.centroids[j] > x,INFIX_EXPRESSION, line no: 369, 0.1111111111111111, 0.7, 0.125, 0.1794871794871795, 0.1111111111111111
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,new ArrayList<List<Double>>(),CLASS_INSTANCE_CREATION, line no: 768, 0.1111111111111111, 0.6, 0.0, 0.28205128205128205, 0.1111111111111111
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,newPage.totalCount-=counts[i],ASSIGNMENT, line no: 845, 0.1111111111111111, 0.45, 0.125, 0.3076923076923077, 0.1111111111111111
+pageSize / 2,INFIX_EXPRESSION, line no: 795,(x - center) / weight,INFIX_EXPRESSION, line no: 119, 0.1111111111111111, 0.9523809523809523, 0.0, 0.23809523809523808, 0.1111111111111111
+pageSize / 2,INFIX_EXPRESSION, line no: 795,new ArrayDigest(pageSize compression),CLASS_INSTANCE_CREATION, line no: 203, 0.1111111111111111, 0.8571428571428571, 0.5, 0.21621621621621623, 0.1111111111111111
+pageSize / 2,INFIX_EXPRESSION, line no: 795,pageSize=buf.getInt(),ASSIGNMENT, line no: 529, 0.1111111111111111, 0.3333333333333333, 0.5, 0.38095238095238093, 0.1111111111111111
+pageSize / 2,INFIX_EXPRESSION, line no: 795,new Page(pageSize recordAllData),CLASS_INSTANCE_CREATION, line no: 598, 0.1111111111111111, 0.7619047619047619, 0.5, 0.25, 0.1111111111111111
+pageSize / 2,INFIX_EXPRESSION, line no: 795,new double[this.pageSize],ARRAY_CREATION, line no: 766, 0.1111111111111111, 0.5714285714285714, 1.0, 0.32, 0.1111111111111111
+pageSize / 2,INFIX_EXPRESSION, line no: 795,new int[this.pageSize],ARRAY_CREATION, line no: 767, 0.1111111111111111, 0.5714285714285714, 1.0, 0.36363636363636365, 0.1111111111111111
+pageSize / 2,INFIX_EXPRESSION, line no: 795,newPage.active=pageSize - half,ASSIGNMENT, line no: 839, 0.1111111111111111, 1.0, 0.25, 0.3333333333333333, 0.1111111111111111
+pageSize,SIMPLE_NAME, line no: 795,centroids=new double[this.pageSize],ASSIGNMENT, line no: 766, 0.1111111111111111, 0.5909090909090909, 0.0, 0.22857142857142856, 0.1111111111111111
+pageSize,SIMPLE_NAME, line no: 795,counts=new int[this.pageSize],ASSIGNMENT, line no: 767, 0.1111111111111111, 0.5909090909090909, 0.0, 0.27586206896551724, 0.1111111111111111
+2,NUMBER_LITERAL, line no: 795,(b.mean() - a.mean()) / 2,INFIX_EXPRESSION, line no: 249, 0.1111111111111111, 1.0, 0.0, 0.04, 0.1111111111111111
+2,NUMBER_LITERAL, line no: 795,(next.count() - 1.0) / 2,INFIX_EXPRESSION, line no: 298, 0.1111111111111111, 1.0, 0.0, 0.041666666666666664, 0.1111111111111111
+2,NUMBER_LITERAL, line no: 795,(next2.count() - 1.0) / 2,INFIX_EXPRESSION, line no: 307, 0.1111111111111111, 0.9545454545454546, 0.0, 0.04, 0.1111111111111111
+x,SIMPLE_NAME, line no: 795,Math.abs(mean(neighbor) - x),METHOD_INVOCATION, line no: 67, 0.1111111111111111, 0.9047619047619048, 1.0, 0.03571428571428571, 0.1111111111111111
+x,SIMPLE_NAME, line no: 795,x - p.centroids[closest.subPage],INFIX_EXPRESSION, line no: 109, 0.1111111111111111, 0.9047619047619048, 1.0, 0.03125, 0.1111111111111111
+x,SIMPLE_NAME, line no: 795,center=center + (x - center) / weight,ASSIGNMENT, line no: 119, 0.1111111111111111, 0.9523809523809523, 1.0, 0.02702702702702703, 0.1111111111111111
+x,SIMPLE_NAME, line no: 795,x < a.mean() + right,INFIX_EXPRESSION, line no: 254, 0.1111111111111111, 0.9523809523809523, 0.0, 0.05, 0.1111111111111111
+x,SIMPLE_NAME, line no: 795,page.add(x w history),METHOD_INVOCATION, line no: 599, 0.1111111111111111, 0.8571428571428571, 0.0, 0.047619047619047616, 0.1111111111111111
+x,SIMPLE_NAME, line no: 795,addRaw(x w base.data()),METHOD_INVOCATION, line no: 626, 0.1111111111111111, 0.47619047619047616, 0.0, 0.043478260869565216, 0.1111111111111111
+w,SIMPLE_NAME, line no: 795,p.counts[closest.subPage]+=w,ASSIGNMENT, line no: 107, 0.1111111111111111, 0.9047619047619048, 1.0, 0.03571428571428571, 0.1111111111111111
+w,SIMPLE_NAME, line no: 795,page.add(x w history),METHOD_INVOCATION, line no: 599, 0.1111111111111111, 0.8571428571428571, 0.0, 0.047619047619047616, 0.1111111111111111
+w,SIMPLE_NAME, line no: 795,addRaw(x w base.data()),METHOD_INVOCATION, line no: 626, 0.1111111111111111, 0.47619047619047616, 0.0, 0.043478260869565216, 0.1111111111111111
+history,SIMPLE_NAME, line no: 795,page.add(x w history),METHOD_INVOCATION, line no: 599, 0.1111111111111111, 0.8571428571428571, 0.0, 0.3333333333333333, 0.1111111111111111
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,p.counts[closest.subPage]+=w,ASSIGNMENT, line no: 107, 0.10526315789473684, 0.9, 0.1111111111111111, 0.1794871794871795, 0.10526315789473684
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,x - p.centroids[closest.subPage],INFIX_EXPRESSION, line no: 109, 0.10526315789473684, 0.9, 0.1111111111111111, 0.15384615384615385, 0.10526315789473684
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,centroids=new double[this.pageSize],ASSIGNMENT, line no: 766, 0.10526315789473684, 0.6, 0.16666666666666666, 0.3333333333333333, 0.10526315789473684
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,counts=new int[this.pageSize],ASSIGNMENT, line no: 767, 0.10526315789473684, 0.6, 0.16666666666666666, 0.3076923076923077, 0.10526315789473684
+newPage,SIMPLE_NAME, line no: 795,newPage.history.addAll(history.subList(half pageSize)),METHOD_INVOCATION, line no: 832, 0.1, 0.9047619047619048, 0.0, 0.12962962962962962, 0.1
+pageSize / 2,INFIX_EXPRESSION, line no: 795,(sum + count(neighbor) / 2.0),PARENTHESIZED_EXPRESSION, line no: 87, 0.1, 0.9523809523809523, 0.0, 0.20689655172413793, 0.1
+pageSize / 2,INFIX_EXPRESSION, line no: 795,sum + count(neighbor) / 2.0,INFIX_EXPRESSION, line no: 87, 0.1, 0.9523809523809523, 0.0, 0.2222222222222222, 0.1
+pageSize / 2,INFIX_EXPRESSION, line no: 795,center + (x - center) / weight,INFIX_EXPRESSION, line no: 119, 0.1, 0.9523809523809523, 0.0, 0.16666666666666666, 0.1
+pageSize / 2,INFIX_EXPRESSION, line no: 795,history.subList(half pageSize),METHOD_INVOCATION, line no: 832, 0.1, 0.8571428571428571, 0.3333333333333333, 0.26666666666666666, 0.1
+pageSize,SIMPLE_NAME, line no: 795,newPage.history.addAll(history.subList(half pageSize)),METHOD_INVOCATION, line no: 832, 0.1, 0.8636363636363636, 0.0, 0.14814814814814814, 0.1
+x,SIMPLE_NAME, line no: 795,p.history.get(closest.subPage).add(x),METHOD_INVOCATION, line no: 111, 0.1, 0.6190476190476191, 0.0, 0.02702702702702703, 0.1
+x,SIMPLE_NAME, line no: 795,rx.hasNext() && mean(z) == x,INFIX_EXPRESSION, line no: 389, 0.1, 0.9523809523809523, 0.0, 0.03571428571428571, 0.1
+history,SIMPLE_NAME, line no: 795,p.history.get(closest.subPage) != null,INFIX_EXPRESSION, line no: 110, 0.1, 0.9047619047619048, 0.0, 0.18421052631578946, 0.1
+history,SIMPLE_NAME, line no: 795,p.history.get(closest.subPage).add(x),METHOD_INVOCATION, line no: 111, 0.1, 0.6190476190476191, 0.0, 0.1891891891891892, 0.1
+history,SIMPLE_NAME, line no: 795,newPage.history.addAll(history.subList(half pageSize)),METHOD_INVOCATION, line no: 832, 0.1, 0.9047619047619048, 0.0, 0.12962962962962962, 0.1
+history,SIMPLE_NAME, line no: 795,tmp.addAll(history.subList(0 half)),METHOD_INVOCATION, line no: 835, 0.1, 0.9047619047619048, 0.0, 0.2, 0.1
+pageSize / 2,INFIX_EXPRESSION, line no: 795,(sum + count(neighbor) / 2.0) / totalWeight,INFIX_EXPRESSION, line no: 87, 0.09090909090909091, 0.9523809523809523, 0.0, 0.13953488372093023, 0.09090909090909091
+pageSize / 2,INFIX_EXPRESSION, line no: 795,gen.nextDouble() < 1 / n,INFIX_EXPRESSION, line no: 93, 0.09090909090909091, 0.6190476190476191, 0.0, 0.25, 0.09090909090909091
+pageSize / 2,INFIX_EXPRESSION, line no: 795,center=center + (x - center) / weight,ASSIGNMENT, line no: 119, 0.09090909090909091, 0.9523809523809523, 0.0, 0.13513513513513514, 0.09090909090909091
+pageSize / 2,INFIX_EXPRESSION, line no: 795,centroids=new double[this.pageSize],ASSIGNMENT, line no: 766, 0.09090909090909091, 0.5714285714285714, 0.5, 0.22857142857142856, 0.09090909090909091
+pageSize / 2,INFIX_EXPRESSION, line no: 795,counts=new int[this.pageSize],ASSIGNMENT, line no: 767, 0.09090909090909091, 0.5714285714285714, 0.5, 0.27586206896551724, 0.09090909090909091
+2,NUMBER_LITERAL, line no: 795,right=(b.mean() - a.mean()) / 2,ASSIGNMENT, line no: 263, 0.09090909090909091, 0.9090909090909091, 0.0, 0.03225806451612903, 0.09090909090909091
+2,NUMBER_LITERAL, line no: 795,total + (next.count() - 1.0) / 2,INFIX_EXPRESSION, line no: 298, 0.09090909090909091, 1.0, 0.0, 0.03125, 0.09090909090909091
+x,SIMPLE_NAME, line no: 795,(x - p.centroids[closest.subPage]),PARENTHESIZED_EXPRESSION, line no: 109, 0.09090909090909091, 0.9047619047619048, 1.0, 0.029411764705882353, 0.09090909090909091
+x,SIMPLE_NAME, line no: 795,x < data.get(0).centroids[0],INFIX_EXPRESSION, line no: 237, 0.09090909090909091, 0.42857142857142855, 0.0, 0.03571428571428571, 0.09090909090909091
+x,SIMPLE_NAME, line no: 795,addRaw(x w recordAllData ? tmp : null),METHOD_INVOCATION, line no: 593, 0.09090909090909091, 0.8095238095238095, 0.0, 0.02631578947368421, 0.09090909090909091
+w,SIMPLE_NAME, line no: 795,addRaw(x w recordAllData ? tmp : null),METHOD_INVOCATION, line no: 593, 0.09090909090909091, 0.8095238095238095, 0.0, 0.02631578947368421, 0.09090909090909091
+history,SIMPLE_NAME, line no: 795,p.history != null && p.history.get(closest.subPage) != null,INFIX_EXPRESSION, line no: 110, 0.09090909090909091, 0.9047619047619048, 0.0, 0.11864406779661017, 0.09090909090909091
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,pageSize,SIMPLE_NAME, line no: 36, 0.08333333333333333, 0.05, 0.0, 0.20512820512820512, 0.08333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,x,SIMPLE_NAME, line no: 53, 0.08333333333333333, 0.05, 0.0, 0.02564102564102564, 0.08333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,w,SIMPLE_NAME, line no: 53, 0.08333333333333333, 0.05, 0.0, 0.02564102564102564, 0.08333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,history,SIMPLE_NAME, line no: 110, 0.08333333333333333, 0.9, 0.0, 0.1794871794871795, 0.08333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,2,NUMBER_LITERAL, line no: 249, 0.08333333333333333, 1.0, 0.0, 0.02564102564102564, 0.08333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,newPage,SIMPLE_NAME, line no: 606, 0.08333333333333333, 1.0, 0.0, 0.1794871794871795, 0.08333333333333333
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,addAt,SIMPLE_NAME, line no: 779, 0.08333333333333333, 0.55, 1.0, 0.1282051282051282, 0.08333333333333333
+newPage,SIMPLE_NAME, line no: 795,newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795, 0.08333333333333333, 0.9523809523809523, 0.0, 0.1794871794871795, 0.08333333333333333
+newPage,SIMPLE_NAME, line no: 795,System.arraycopy(centroids half newPage.centroids 0 pageSize - half),METHOD_INVOCATION, line no: 828, 0.08333333333333333, 1.0, 0.0, 0.10294117647058823, 0.08333333333333333
+newPage,SIMPLE_NAME, line no: 795,System.arraycopy(counts half newPage.counts 0 pageSize - half),METHOD_INVOCATION, line no: 829, 0.08333333333333333, 1.0, 0.0, 0.11290322580645161, 0.08333333333333333
+newPage,SIMPLE_NAME, line no: 795,newPage.history=new ArrayList<List<Double>>(),ASSIGNMENT, line no: 831, 0.08333333333333333, 0.9047619047619048, 0.0, 0.15555555555555556, 0.08333333333333333
+addAt,SIMPLE_NAME, line no: 795,newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795, 0.08333333333333333, 0.9523809523809523, 1.0, 0.1282051282051282, 0.08333333333333333
+pageSize / 2,INFIX_EXPRESSION, line no: 795,4 * totalWeight * q* (1 - q) / compression,INFIX_EXPRESSION, line no: 88, 0.08333333333333333, 0.9523809523809523, 0.0, 0.14285714285714285, 0.08333333333333333
+pageSize / 2,INFIX_EXPRESSION, line no: 795,newPage.history.addAll(history.subList(half pageSize)),METHOD_INVOCATION, line no: 832, 0.08333333333333333, 0.8571428571428571, 0.25, 0.14814814814814814, 0.08333333333333333
+pageSize,SIMPLE_NAME, line no: 795,newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795, 0.08333333333333333, 0.9090909090909091, 0.0, 0.20512820512820512, 0.08333333333333333
+pageSize,SIMPLE_NAME, line no: 795,System.arraycopy(centroids half newPage.centroids 0 pageSize - half),METHOD_INVOCATION, line no: 828, 0.08333333333333333, 1.0, 0.0, 0.11764705882352941, 0.08333333333333333
+pageSize,SIMPLE_NAME, line no: 795,System.arraycopy(counts half newPage.counts 0 pageSize - half),METHOD_INVOCATION, line no: 829, 0.08333333333333333, 1.0, 0.0, 0.12903225806451613, 0.08333333333333333
+2,NUMBER_LITERAL, line no: 795,total + next.count() + (next2.count() - 1.0) / 2,INFIX_EXPRESSION, line no: 307, 0.08333333333333333, 0.9545454545454546, 0.0, 0.020833333333333332, 0.08333333333333333
+2,NUMBER_LITERAL, line no: 795,newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795, 0.08333333333333333, 0.9090909090909091, 0.0, 0.02564102564102564, 0.08333333333333333
+x,SIMPLE_NAME, line no: 795,data.get(i).centroids[0] >= x,INFIX_EXPRESSION, line no: 356, 0.08333333333333333, 0.9047619047619048, 0.0, 0.034482758620689655, 0.08333333333333333
+x,SIMPLE_NAME, line no: 795,data.get(i).centroids[0] > x,INFIX_EXPRESSION, line no: 412, 0.08333333333333333, 0.9047619047619048, 0.0, 0.03571428571428571, 0.08333333333333333
+x,SIMPLE_NAME, line no: 795,newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795, 0.08333333333333333, 0.9523809523809523, 0.0, 0.02564102564102564, 0.08333333333333333
+w,SIMPLE_NAME, line no: 795,z == minDistance && count(neighbor) + w <= k,INFIX_EXPRESSION, line no: 91, 0.08333333333333333, 0.9523809523809523, 0.0, 0.022727272727272728, 0.08333333333333333
+w,SIMPLE_NAME, line no: 795,newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795, 0.08333333333333333, 0.9523809523809523, 0.0, 0.02564102564102564, 0.08333333333333333
+history,SIMPLE_NAME, line no: 795,newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795, 0.08333333333333333, 0.9523809523809523, 0.0, 0.1794871794871795, 0.08333333333333333
+history,SIMPLE_NAME, line no: 795,newPage.history=new ArrayList<List<Double>>(),ASSIGNMENT, line no: 831, 0.08333333333333333, 0.9047619047619048, 0.0, 0.15555555555555556, 0.08333333333333333
+pageSize / 2,INFIX_EXPRESSION, line no: 795,(nextIndex2 * next.mean() - nextIndex * next2.mean()) / (nextIndex2 - nextIndex),INFIX_EXPRESSION, line no: 308, 0.07692307692307693, 1.0, 0.0, 0.0875, 0.07692307692307693
+x,SIMPLE_NAME, line no: 795,(x - p.centroids[closest.subPage]) / p.counts[closest.subPage],INFIX_EXPRESSION, line no: 109, 0.07692307692307693, 0.9047619047619048, 1.0, 0.016129032258064516, 0.07692307692307693
+x,SIMPLE_NAME, line no: 795,AbstractTDigest.interpolate(x a.mean() - left a.mean() + right),METHOD_INVOCATION, line no: 255, 0.07692307692307693, 0.8095238095238095, 1.0, 0.015873015873015872, 0.07692307692307693
+x,SIMPLE_NAME, line no: 795,data.get(i - 1).add(x w history),METHOD_INVOCATION, line no: 606, 0.07692307692307693, 1.0, 0.0, 0.03125, 0.07692307692307693
+x,SIMPLE_NAME, line no: 795,data.get(data.size() - 1).add(x w history),METHOD_INVOCATION, line no: 615, 0.07692307692307693, 1.0, 0.0, 0.023809523809523808, 0.07692307692307693
+w,SIMPLE_NAME, line no: 795,data.get(i - 1).add(x w history),METHOD_INVOCATION, line no: 606, 0.07692307692307693, 1.0, 0.0, 0.03125, 0.07692307692307693
+w,SIMPLE_NAME, line no: 795,data.get(data.size() - 1).add(x w history),METHOD_INVOCATION, line no: 615, 0.07692307692307693, 1.0, 0.0, 0.023809523809523808, 0.07692307692307693
+history,SIMPLE_NAME, line no: 795,data.get(i - 1).add(x w history),METHOD_INVOCATION, line no: 606, 0.07692307692307693, 1.0, 0.0, 0.21875, 0.07692307692307693
+history,SIMPLE_NAME, line no: 795,data.get(data.size() - 1).add(x w history),METHOD_INVOCATION, line no: 615, 0.07692307692307693, 1.0, 0.0, 0.16666666666666666, 0.07692307692307693
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,com.tdunning,QUALIFIED_NAME, line no: 18, 0.07142857142857142, 0.0, 0.0, 0.07692307692307693, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,java.nio,QUALIFIED_NAME, line no: 20, 0.07142857142857142, 0.0, 0.0, 0.10256410256410256, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,java.util,QUALIFIED_NAME, line no: 21, 0.07142857142857142, 0.0, 0.0, 0.10256410256410256, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,pageSize > 3,INFIX_EXPRESSION, line no: 44, 0.07142857142857142, 0.55, 0.2, 0.2564102564102564, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,this.compression,FIELD_ACCESS, line no: 46, 0.07142857142857142, 0.35, 0.0, 0.15384615384615385, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,Double.MAX_VALUE,QUALIFIED_NAME, line no: 63, 0.07142857142857142, 0.95, 0.0, 0.07692307692307693, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,1 / n,INFIX_EXPRESSION, line no: 93, 0.07142857142857142, 0.6, 0.0, 0.07692307692307693, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,closest.page,QUALIFIED_NAME, line no: 106, 0.07142857142857142, 0.9, 0.0, 0.15384615384615385, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,p.counts,QUALIFIED_NAME, line no: 107, 0.07142857142857142, 0.9, 0.0, 0.07692307692307693, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,closest.subPage,QUALIFIED_NAME, line no: 107, 0.07142857142857142, 0.9, 0.0, 0.1282051282051282, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,p.totalCount,QUALIFIED_NAME, line no: 108, 0.07142857142857142, 0.9, 0.0, 0.10256410256410256, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,p.centroids,QUALIFIED_NAME, line no: 109, 0.07142857142857142, 0.9, 0.0, 0.10256410256410256, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,totalWeight+=w,ASSIGNMENT, line no: 113, 0.07142857142857142, 0.9, 0.16666666666666666, 0.15384615384615385, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,x - center,INFIX_EXPRESSION, line no: 119, 0.07142857142857142, 0.95, 0.16666666666666666, 0.10256410256410256, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,history != null,INFIX_EXPRESSION, line no: 136, 0.07142857142857142, 0.9, 0.2, 0.1794871794871795, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,limit.page,QUALIFIED_NAME, line no: 161, 0.07142857142857142, 1.0, 0.0, 0.1282051282051282, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,limit.subPage,QUALIFIED_NAME, line no: 166, 0.07142857142857142, 0.75, 0.0, 0.10256410256410256, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,index.page,QUALIFIED_NAME, line no: 194, 0.07142857142857142, 0.5, 0.0, 0.1794871794871795, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,index.subPage,QUALIFIED_NAME, line no: 194, 0.07142857142857142, 0.45, 0.0, 0.15384615384615385, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,reduced.data,QUALIFIED_NAME, line no: 218, 0.07142857142857142, 0.9, 0.0, 0.15384615384615385, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,reduced.centroidCount,QUALIFIED_NAME, line no: 219, 0.07142857142857142, 0.9, 0.0, 0.15384615384615385, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,Double.NaN,QUALIFIED_NAME, line no: 235, 0.07142857142857142, 0.2, 0.0, 0.07692307692307693, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,current.centroids,QUALIFIED_NAME, line no: 339, 0.07142857142857142, 0.9, 0.0, 0.1282051282051282, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,current.counts,QUALIFIED_NAME, line no: 339, 0.07142857142857142, 0.9, 0.0, 0.10256410256410256, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,previous.active,QUALIFIED_NAME, line no: 358, 0.07142857142857142, 0.9, 0.0, 0.15384615384615385, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,previous.centroids,QUALIFIED_NAME, line no: 359, 0.07142857142857142, 0.6, 0.0, 0.15384615384615385, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,last.active,QUALIFIED_NAME, line no: 368, 0.07142857142857142, 0.9, 0.0, 0.15384615384615385, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,last.centroids,QUALIFIED_NAME, line no: 369, 0.07142857142857142, 0.7, 0.0, 0.1282051282051282, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,page.active,QUALIFIED_NAME, line no: 483, 0.07142857142857142, 0.7, 0.0, 0.20512820512820512, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,page.centroids,QUALIFIED_NAME, line no: 484, 0.07142857142857142, 0.45, 0.0, 0.1794871794871795, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,page.counts,QUALIFIED_NAME, line no: 489, 0.07142857142857142, 0.45, 0.0, 0.15384615384615385, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,mean - x,INFIX_EXPRESSION, line no: 505, 0.07142857142857142, 0.75, 0.16666666666666666, 0.1282051282051282, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,x=mean,ASSIGNMENT, line no: 506, 0.07142857142857142, 0.75, 0.16666666666666666, 0.05128205128205128, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,x+=delta,ASSIGNMENT, line no: 553, 0.07142857142857142, 0.65, 0.16666666666666666, 0.07692307692307693, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,ArrayDigest.this,THIS_EXPRESSION, line no: 585, 0.07142857142857142, 0.45, 0.0, 0.20512820512820512, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,start.page,QUALIFIED_NAME, line no: 585, 0.07142857142857142, 0.45, 0.0, 0.15384615384615385, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,start.subPage,QUALIFIED_NAME, line no: 585, 0.07142857142857142, 0.45, 0.0, 0.1282051282051282, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,newPage != null,INFIX_EXPRESSION, line no: 609, 0.07142857142857142, 1.0, 0.2, 0.23076923076923078, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,current.active,QUALIFIED_NAME, line no: 665, 0.07142857142857142, 0.95, 0.0, 0.15384615384615385, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,this.page,FIELD_ACCESS, line no: 740, 0.07142857142857142, 0.3, 0.0, 0.1282051282051282, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,this.subPage,FIELD_ACCESS, line no: 741, 0.07142857142857142, 0.3, 0.0, 0.10256410256410256, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,this.recordAllData,FIELD_ACCESS, line no: 765, 0.07142857142857142, 0.6, 0.0, 0.15384615384615385, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,active >= pageSize,INFIX_EXPRESSION, line no: 775, 0.07142857142857142, 1.0, 0.16666666666666666, 0.2564102564102564, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,totalCount+=w,ASSIGNMENT, line no: 821, 0.07142857142857142, 0.9, 0.16666666666666666, 0.07692307692307693, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,active == pageSize,INFIX_EXPRESSION, line no: 825, 0.07142857142857142, 1.0, 0.16666666666666666, 0.2564102564102564, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,pageSize - half,INFIX_EXPRESSION, line no: 828, 0.07142857142857142, 1.0, 0.16666666666666666, 0.28205128205128205, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,history=tmp,ASSIGNMENT, line no: 836, 0.07142857142857142, 0.9, 0.0, 0.1794871794871795, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,totalCount-=w,ASSIGNMENT, line no: 861, 0.07142857142857142, 0.95, 0.16666666666666666, 0.07692307692307693, 0.07142857142857142
+newPage,SIMPLE_NAME, line no: 795,newPage.addAt(i - pageSize / 2 x w history),METHOD_INVOCATION, line no: 781, 0.07142857142857142, 0.6666666666666666, 0.0, 0.16279069767441862, 0.07142857142857142
+addAt,SIMPLE_NAME, line no: 795,newPage.addAt(i - pageSize / 2 x w history),METHOD_INVOCATION, line no: 781, 0.07142857142857142, 0.6666666666666666, 1.0, 0.11627906976744186, 0.07142857142857142
+pageSize / 2,INFIX_EXPRESSION, line no: 795,(next.mean() * (nextIndex2 - previousIndex) - previousMean * (nextIndex2 - nextIndex)) / (nextIndex - previousIndex),INFIX_EXPRESSION, line no: 318, 0.07142857142857142, 0.9047619047619048, 0.0, 0.0603448275862069, 0.07142857142857142
+pageSize / 2,INFIX_EXPRESSION, line no: 795,System.arraycopy(centroids half newPage.centroids 0 pageSize - half),METHOD_INVOCATION, line no: 828, 0.07142857142857142, 1.0, 0.25, 0.14705882352941177, 0.07142857142857142
+pageSize / 2,INFIX_EXPRESSION, line no: 795,System.arraycopy(counts half newPage.counts 0 pageSize - half),METHOD_INVOCATION, line no: 829, 0.07142857142857142, 1.0, 0.25, 0.16129032258064516, 0.07142857142857142
+pageSize,SIMPLE_NAME, line no: 795,newPage.addAt(i - pageSize / 2 x w history),METHOD_INVOCATION, line no: 781, 0.07142857142857142, 0.6818181818181818, 0.0, 0.18604651162790697, 0.07142857142857142
+2,NUMBER_LITERAL, line no: 795,newPage.addAt(i - pageSize / 2 x w history),METHOD_INVOCATION, line no: 781, 0.07142857142857142, 0.6818181818181818, 0.0, 0.023255813953488372, 0.07142857142857142
+x,SIMPLE_NAME, line no: 795,p.centroids[closest.subPage]+=(x - p.centroids[closest.subPage]) / p.counts[closest.subPage],ASSIGNMENT, line no: 109, 0.07142857142857142, 0.9047619047619048, 1.0, 0.010869565217391304, 0.07142857142857142
+x,SIMPLE_NAME, line no: 795,x < data.get(0).centroids[0] ? 0 : 1,CONDITIONAL_EXPRESSION, line no: 237, 0.07142857142857142, 0.42857142857142855, 0.0, 0.027777777777777776, 0.07142857142857142
+x,SIMPLE_NAME, line no: 795,newPage.addAt(i - pageSize / 2 x w history),METHOD_INVOCATION, line no: 781, 0.07142857142857142, 0.6666666666666666, 0.0, 0.023255813953488372, 0.07142857142857142
+w,SIMPLE_NAME, line no: 795,newPage.addAt(i - pageSize / 2 x w history),METHOD_INVOCATION, line no: 781, 0.07142857142857142, 0.6666666666666666, 0.0, 0.023255813953488372, 0.07142857142857142
+history,SIMPLE_NAME, line no: 795,newPage.addAt(i - pageSize / 2 x w history),METHOD_INVOCATION, line no: 781, 0.07142857142857142, 0.6666666666666666, 0.0, 0.16279069767441862, 0.07142857142857142
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,new Iterator<Index>(){   int page=startPage;   int subPage=startSubPage;   Index end=new Index(-1 -1);   Index next=null;   @Override public boolean hasNext(){     if (next == null) {       next=computeNext();     }     return next != end;   }   @Override public Index next(){     if (hasNext()) {       Index r=next;       next=null;       return r;     }  else {       throw new NoSuchElementException("Can't reverse iterate before beginning of data");     }   }   @Override public void remove(){     throw new UnsupportedOperationException("Default operation");   }   protected Index computeNext(){     if (page < 0) {       return end;     }  else {       if (subPage < 0) {         page--;         if (page >= 0) {           subPage=data.get(page).active - 1;         }         return computeNext();       }  else {         Index r=new Index(page subPage);         subPage--;         return r;       }     }   } } ,CLASS_INSTANCE_CREATION, line no: 680, 0.07017543859649122, 1.0, 0.0, 0.029379760609358, 0.07017543859649122
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,com.tdunning.math,QUALIFIED_NAME, line no: 18, 0.06666666666666667, 0.0, 0.0, 0.15384615384615385, 0.06666666666666667
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,java.nio.ByteBuffer,QUALIFIED_NAME, line no: 20, 0.06666666666666667, 0.0, 0.0, 0.15384615384615385, 0.06666666666666667
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,java.util.ArrayList,QUALIFIED_NAME, line no: 21, 0.06666666666666667, 0.0, 0.0, 0.1794871794871795, 0.06666666666666667
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,java.util.Collections,QUALIFIED_NAME, line no: 22, 0.06666666666666667, 0.0, 0.0, 0.1794871794871795, 0.06666666666666667
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,java.util.Iterator,QUALIFIED_NAME, line no: 23, 0.06666666666666667, 0.0, 0.0, 0.20512820512820512, 0.06666666666666667
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,java.util.List,QUALIFIED_NAME, line no: 24, 0.06666666666666667, 0.0, 0.0, 0.1794871794871795, 0.06666666666666667
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,java.util.NoSuchElementException,QUALIFIED_NAME, line no: 25, 0.06666666666666667, 0.0, 0.0, 0.20512820512820512, 0.06666666666666667
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,this.compression=compression,ASSIGNMENT, line no: 46, 0.06666666666666667, 0.35, 0.0, 0.1794871794871795, 0.06666666666666667
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,data=reduced.data,ASSIGNMENT, line no: 218, 0.06666666666666667, 0.9, 0.0, 0.15384615384615385, 0.06666666666666667
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,centroidCount=reduced.centroidCount,ASSIGNMENT, line no: 219, 0.06666666666666667, 0.9, 0.0, 0.1794871794871795, 0.06666666666666667
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,new Iterator<Index>(){   int page=startPage;   int subPage=startSubPage;   Index end=new Index(-1 -1);   Index next=null;   @Override public boolean hasNext(){     if (next == null) {       next=computeNext();     }     return next != end;   }   @Override public Index next(){     if (hasNext()) {       Index r=next;       next=null;       return r;     }  else {       throw new NoSuchElementException("Can't iterate past end of data");     }   }   @Override public void remove(){     throw new UnsupportedOperationException("Default operation");   }   protected Index computeNext(){     if (page >= data.size()) {       return end;     }  else {       Page current=data.get(page);       if (subPage >= current.active) {         subPage=0;         page++;         return computeNext();       }  else {         Index r=new Index(page subPage);         subPage++;         return r;       }     }   } } ,CLASS_INSTANCE_CREATION, line no: 630, 0.06666666666666667, 1.0, 0.0, 0.02993348115299335, 0.06666666666666667
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,this.page=page,ASSIGNMENT, line no: 740, 0.06666666666666667, 0.3, 0.0, 0.1794871794871795, 0.06666666666666667
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,this.subPage=subPage,ASSIGNMENT, line no: 741, 0.06666666666666667, 0.3, 0.0, 0.1794871794871795, 0.06666666666666667
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,this.recordAllData=recordAllData,ASSIGNMENT, line no: 765, 0.06666666666666667, 0.6, 0.0, 0.20512820512820512, 0.06666666666666667
+pageSize / 2,INFIX_EXPRESSION, line no: 795,(x - p.centroids[closest.subPage]) / p.counts[closest.subPage],INFIX_EXPRESSION, line no: 109, 0.06666666666666667, 0.9047619047619048, 0.0, 0.11290322580645161, 0.06666666666666667
+pageSize / 2,INFIX_EXPRESSION, line no: 795,previousMean=(nextIndex2 * next.mean() - nextIndex * next2.mean()) / (nextIndex2 - nextIndex),ASSIGNMENT, line no: 308, 0.06666666666666667, 1.0, 0.0, 0.08602150537634409, 0.06666666666666667
+x,SIMPLE_NAME, line no: 795,a.count() * AbstractTDigest.interpolate(x a.mean() - left a.mean() + right),INFIX_EXPRESSION, line no: 255, 0.06666666666666667, 0.8095238095238095, 1.0, 0.013333333333333334, 0.06666666666666667
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,com.tdunning.math.stats,QUALIFIED_NAME, line no: 18, 0.0625, 0.0, 0.0, 0.20512820512820512, 0.0625
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,i < limit.page,INFIX_EXPRESSION, line no: 161, 0.0625, 1.0, 0.0, 0.1282051282051282, 0.0625
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,j < limit.subPage,INFIX_EXPRESSION, line no: 166, 0.0625, 0.75, 0.0, 0.10256410256410256, 0.0625
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,j < previous.active,INFIX_EXPRESSION, line no: 358, 0.0625, 0.9, 0.0, 0.15384615384615385, 0.0625
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,j < last.active,INFIX_EXPRESSION, line no: 368, 0.0625, 0.9, 0.0, 0.15384615384615385, 0.0625
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,i < page.active,INFIX_EXPRESSION, line no: 483, 0.0625, 0.7, 0.0, 0.20512820512820512, 0.0625
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,subPage >= current.active,INFIX_EXPRESSION, line no: 665, 0.0625, 0.95, 0.0, 0.23076923076923078, 0.0625
+pageSize / 2,INFIX_EXPRESSION, line no: 795,p.centroids[closest.subPage]+=(x - p.centroids[closest.subPage]) / p.counts[closest.subPage],ASSIGNMENT, line no: 109, 0.0625, 0.9047619047619048, 0.0, 0.09782608695652174, 0.0625
+x,SIMPLE_NAME, line no: 795,(r + a.count() * AbstractTDigest.interpolate(x a.mean() - left a.mean() + right)),PARENTHESIZED_EXPRESSION, line no: 255, 0.0625, 0.8095238095238095, 1.0, 0.012345679012345678, 0.0625
+x,SIMPLE_NAME, line no: 795,r + a.count() * AbstractTDigest.interpolate(x a.mean() - left a.mean() + right),INFIX_EXPRESSION, line no: 255, 0.0625, 0.8095238095238095, 1.0, 0.012658227848101266, 0.0625
+history,SIMPLE_NAME, line no: 795,history=this.recordAllData ? new ArrayList<List<Double>>() : null,ASSIGNMENT, line no: 768, 0.0625, 0.6190476190476191, 0.0, 0.1076923076923077, 0.0625
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,previous.centroids[j],ARRAY_ACCESS, line no: 359, 0.058823529411764705, 0.6, 0.0, 0.15384615384615385, 0.058823529411764705
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,last.centroids[j],ARRAY_ACCESS, line no: 369, 0.058823529411764705, 0.7, 0.0, 0.1282051282051282, 0.058823529411764705
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,page.centroids[i],ARRAY_ACCESS, line no: 484, 0.058823529411764705, 0.45, 0.0, 0.1794871794871795, 0.058823529411764705
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,page.counts[i],ARRAY_ACCESS, line no: 489, 0.058823529411764705, 0.45, 0.0, 0.15384615384615385, 0.058823529411764705
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,means[i]=x,ASSIGNMENT, line no: 554, 0.058823529411764705, 0.65, 0.14285714285714285, 0.10256410256410256, 0.058823529411764705
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,centroids[i] >= x,INFIX_EXPRESSION, line no: 773, 0.058823529411764705, 1.0, 0.14285714285714285, 0.15384615384615385, 0.058823529411764705
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,centroids[i]=x,ASSIGNMENT, line no: 811, 0.058823529411764705, 0.9, 0.14285714285714285, 0.10256410256410256, 0.058823529411764705
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,counts[i]=w,ASSIGNMENT, line no: 812, 0.058823529411764705, 0.9, 0.14285714285714285, 0.10256410256410256, 0.058823529411764705
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,centroids[active]=x,ASSIGNMENT, line no: 814, 0.058823529411764705, 0.75, 0.14285714285714285, 0.15384615384615385, 0.058823529411764705
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,counts[active]=w,ASSIGNMENT, line no: 815, 0.058823529411764705, 0.75, 0.14285714285714285, 0.15384615384615385, 0.058823529411764705
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,p.counts[closest.subPage],ARRAY_ACCESS, line no: 107, 0.05555555555555555, 0.9, 0.0, 0.15384615384615385, 0.05555555555555555
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,p.centroids[closest.subPage],ARRAY_ACCESS, line no: 109, 0.05555555555555555, 0.9, 0.0, 0.15384615384615385, 0.05555555555555555
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,current.centroids[index.subPage],ARRAY_ACCESS, line no: 339, 0.05555555555555555, 0.9, 0.0, 0.1794871794871795, 0.05555555555555555
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,current.counts[index.subPage],ARRAY_ACCESS, line no: 339, 0.05555555555555555, 0.9, 0.0, 0.1794871794871795, 0.05555555555555555
+x,SIMPLE_NAME, line no: 795,(r + a.count() * AbstractTDigest.interpolate(x a.mean() - left a.mean() + right)) / totalWeight,INFIX_EXPRESSION, line no: 255, 0.05555555555555555, 0.8095238095238095, 1.0, 0.010526315789473684, 0.05555555555555555
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,limit != null && i < limit.page,INFIX_EXPRESSION, line no: 161, 0.05263157894736842, 1.0, 0.0, 0.15384615384615385, 0.05263157894736842
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,p.counts[closest.subPage]=weight,ASSIGNMENT, line no: 124, 0.05, 0.9, 0.0, 0.2564102564102564, 0.05
+newPage.addAt(pageSize / 2 x w history),METHOD_INVOCATION, line no: 795,p.centroids[closest.subPage]=center,ASSIGNMENT, line no: 125, 0.05, 0.9, 0.0, 0.23076923076923078, 0.05
+pageSize / 2,INFIX_EXPRESSION, line no: 795,(r + a.count() * AbstractTDigest.interpolate(x a.mean() - left a.mean() + right)) / totalWeight,INFIX_EXPRESSION, line no: 255, 0.05, 0.8095238095238095, 0.0, 0.08421052631578947, 0.05

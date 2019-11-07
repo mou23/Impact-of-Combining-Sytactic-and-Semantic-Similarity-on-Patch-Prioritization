@@ -2,7 +2,7 @@ import java.io.File;
 
 
 public class MyMain {
-	static String dirLocation = "dataset/buggy0/";
+	static String dirLocation = "dataset/buggySmall/";
 	static File rootFolder = new File(dirLocation);
 	public static void main(String[] args) {
 		File[] listOfFiles = rootFolder.listFiles();

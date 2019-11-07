@@ -1,0 +1,9 @@
+basePort,SIMPLE_NAME, line no: 71,basePort == 0,INFIX_EXPRESSION, line no: 72, 0.3333333333333333, 0.5, 0.0, 0.6153846153846154, 0.3333333333333333
+basePort,SIMPLE_NAME, line no: 71,basePort < 0,INFIX_EXPRESSION, line no: 75, 0.3333333333333333, 0.5, 0.0, 0.6666666666666666, 0.3333333333333333
+basePort,SIMPLE_NAME, line no: 71,basePort > 65535,INFIX_EXPRESSION, line no: 75, 0.3333333333333333, 0.5, 0.0, 0.5, 0.3333333333333333
+basePort,SIMPLE_NAME, line no: 71,"Illegal port number: " + basePort,INFIX_EXPRESSION, line no: 76, 0.3333333333333333, 0.5, 0.0, 0.23529411764705882, 0.3333333333333333
+basePort,SIMPLE_NAME, line no: 71,"Could not find available port greater than or equals to " + basePort,INFIX_EXPRESSION, line no: 83, 0.3333333333333333, 0.5, 0.0, 0.11594202898550725, 0.3333333333333333
+basePort,SIMPLE_NAME, line no: 71,int i=basePort,VARIABLE_DECLARATION_EXPRESSION, line no: 78, 0.25, 0.5, 1.0, 0.5714285714285714, 0.25
+basePort,SIMPLE_NAME, line no: 71,basePort < 0 || basePort > 65535,INFIX_EXPRESSION, line no: 75, 0.16666666666666666, 0.5, 0.0, 0.25, 0.16666666666666666
+basePort,SIMPLE_NAME, line no: 71,new IllegalArgumentException("Illegal port number: " + basePort),CLASS_INSTANCE_CREATION, line no: 76, 0.14285714285714285, 0.5, 0.0, 0.125, 0.14285714285714285
+basePort,SIMPLE_NAME, line no: 71,new NoSuchElementException("Could not find available port greater than or equals to " + basePort),CLASS_INSTANCE_CREATION, line no: 83, 0.14285714285714285, 0.5, 0.0, 0.08247422680412371, 0.14285714285714285
