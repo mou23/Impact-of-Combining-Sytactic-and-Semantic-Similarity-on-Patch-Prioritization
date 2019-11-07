@@ -186,7 +186,7 @@ public class PatchGenerator {
 
 	void writeCandidatePatches(String fileIdentifier) {
 //		String fileNameWithOutExtension = FilenameUtils.removeExtension(this.file.getAbsolutePath());
-		File newfile = new File("dataset/patch/"+fileIdentifier.replace("/", "_")+"token.csv");
+		File newfile = new File("dataset/patch/"+fileIdentifier.replace("/", "_")+"sem token camelcase.csv");
 		try {
 			FileWriter fileWrite = new FileWriter(newfile.getAbsolutePath());
 			for(int i=0; i<this.candidatePatchesList.size(); i++) {
