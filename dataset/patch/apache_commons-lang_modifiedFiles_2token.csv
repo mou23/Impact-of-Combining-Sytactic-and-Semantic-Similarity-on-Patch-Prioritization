@@ -1,1 +1,860 @@
-true,BOOLEAN_LITERAL, line no: 1629,subtypeFound=true,ASSIGNMENT, line no: 1139, 0.3333333333333333, 0.09375, 1.0, 0.23529411764705882, 0.3333333333333333
+true,BOOLEAN_LITERAL, line no: 1629,isTrue,SIMPLE_NAME, line no: 1492, 0.5, 0.3125, 0.0, 0.5, 0.5
+true,BOOLEAN_LITERAL, line no: 1629,subtypeFound=true,ASSIGNMENT, line no: 1139, 0.25, 0.09375, 1.0, 0.23529411764705882, 0.25
+true,BOOLEAN_LITERAL, line no: 1629,Validate.isTrue(owner == null "no owner allowed for top-level %s" raw),METHOD_INVOCATION, line no: 1492, 0.08333333333333333, 0.28125, 0.0, 0.05714285714285714, 0.08333333333333333
+true,BOOLEAN_LITERAL, line no: 1629,Validate.isTrue(mappings.containsKey(var) "missing argument mapping for %s" toString(var)),METHOD_INVOCATION, line no: 1535, 0.07142857142857142, 0.53125, 0.0, 0.044444444444444446, 0.07142857142857142
+true,BOOLEAN_LITERAL, line no: 1629,Validate.isTrue(raw.getTypeParameters().length == typeArguments.length "invalid number of type parameters specified: expected %d  got %d" raw.getTypeParameters().length typeArguments.length),METHOD_INVOCATION, line no: 1502, 0.06666666666666667, 0.8125, 0.0, 0.021052631578947368, 0.06666666666666667
+true,BOOLEAN_LITERAL, line no: 1629,Validate.isTrue(TypeUtils.isAssignable(owner raw.getEnclosingClass()) "%s is invalid owner type for parameterized %s" owner raw),METHOD_INVOCATION, line no: 1497, 0.0625, 0.5, 0.0, 0.03125, 0.0625
+true,BOOLEAN_LITERAL, line no: 1629,org.apache.commons.lang3.reflect,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0625, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,org.apache.commons.lang3,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.08333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,org.apache.commons,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,org.apache,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,org,SIMPLE_NAME, line no: 17, 0.0, 0.03125, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,apache,SIMPLE_NAME, line no: 17, 0.0, 0.03125, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,commons,SIMPLE_NAME, line no: 17, 0.0, 0.03125, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,lang3,SIMPLE_NAME, line no: 17, 0.0, 0.03125, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,reflect,SIMPLE_NAME, line no: 17, 0.0, 0.03125, 0.0, 0.2857142857142857, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,java.lang.reflect.Array,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.08695652173913043, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,java.lang.reflect,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.11764705882352941, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,java.lang,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,java,SIMPLE_NAME, line no: 19, 0.0, 0.03125, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,lang,SIMPLE_NAME, line no: 19, 0.0, 0.03125, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Array,SIMPLE_NAME, line no: 19, 0.0, 0.03125, 0.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,java.lang.reflect.GenericArrayType,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.08823529411764706, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,GenericArrayType,SIMPLE_NAME, line no: 20, 0.0, 0.03125, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,java.lang.reflect.GenericDeclaration,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.08333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,GenericDeclaration,SIMPLE_NAME, line no: 21, 0.0, 0.03125, 0.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,java.lang.reflect.ParameterizedType,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.08571428571428572, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,ParameterizedType,SIMPLE_NAME, line no: 22, 0.0, 0.03125, 0.0, 0.17647058823529413, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,java.lang.reflect.Type,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Type,SIMPLE_NAME, line no: 23, 0.0, 0.03125, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,java.lang.reflect.TypeVariable,QUALIFIED_NAME, line no: 24, 0.0, 0.0, 0.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,TypeVariable,SIMPLE_NAME, line no: 24, 0.0, 0.03125, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,java.lang.reflect.WildcardType,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,WildcardType,SIMPLE_NAME, line no: 25, 0.0, 0.03125, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,java.util.Arrays,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,java.util,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,util,SIMPLE_NAME, line no: 26, 0.0, 0.03125, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Arrays,SIMPLE_NAME, line no: 26, 0.0, 0.03125, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,java.util.Collections,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.09523809523809523, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Collections,SIMPLE_NAME, line no: 27, 0.0, 0.03125, 0.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,java.util.HashMap,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.058823529411764705, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,HashMap,SIMPLE_NAME, line no: 28, 0.0, 0.03125, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,java.util.HashSet,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.11764705882352941, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,HashSet,SIMPLE_NAME, line no: 29, 0.0, 0.03125, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,java.util.List,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.07142857142857142, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,List,SIMPLE_NAME, line no: 30, 0.0, 0.03125, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,java.util.Map,QUALIFIED_NAME, line no: 31, 0.0, 0.0, 0.0, 0.07692307692307693, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Map,SIMPLE_NAME, line no: 31, 0.0, 0.03125, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,java.util.Set,QUALIFIED_NAME, line no: 32, 0.0, 0.0, 0.0, 0.15384615384615385, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Set,SIMPLE_NAME, line no: 32, 0.0, 0.03125, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,org.apache.commons.lang3.ArrayUtils,QUALIFIED_NAME, line no: 34, 0.0, 0.0, 0.0, 0.05714285714285714, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,ArrayUtils,SIMPLE_NAME, line no: 34, 0.0, 0.03125, 0.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,org.apache.commons.lang3.ClassUtils,QUALIFIED_NAME, line no: 35, 0.0, 0.0, 0.0, 0.05714285714285714, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,ClassUtils,SIMPLE_NAME, line no: 35, 0.0, 0.03125, 0.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,org.apache.commons.lang3.ObjectUtils,QUALIFIED_NAME, line no: 36, 0.0, 0.0, 0.0, 0.05555555555555555, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,ObjectUtils,SIMPLE_NAME, line no: 36, 0.0, 0.03125, 0.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,org.apache.commons.lang3.Validate,QUALIFIED_NAME, line no: 37, 0.0, 0.0, 0.0, 0.06060606060606061, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Validate,SIMPLE_NAME, line no: 37, 0.0, 0.03125, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,org.apache.commons.lang3.builder.Builder,QUALIFIED_NAME, line no: 38, 0.0, 0.0, 0.0, 0.075, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,org.apache.commons.lang3.builder,QUALIFIED_NAME, line no: 38, 0.0, 0.0, 0.0, 0.09375, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,builder,SIMPLE_NAME, line no: 38, 0.0, 0.03125, 0.0, 0.2857142857142857, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Builder,SIMPLE_NAME, line no: 38, 0.0, 0.03125, 0.0, 0.2857142857142857, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,TypeUtils,SIMPLE_NAME, line no: 47, 0.0, 0.03125, 0.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,WildcardTypeBuilder,SIMPLE_NAME, line no: 53, 0.0, 0.03125, 0.0, 0.15789473684210525, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,upperBounds,SIMPLE_NAME, line no: 60, 0.0, 0.03125, 0.0, 0.18181818181818182, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,lowerBounds,SIMPLE_NAME, line no: 61, 0.0, 0.03125, 0.0, 0.18181818181818182, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,withUpperBounds,SIMPLE_NAME, line no: 68, 0.0, 0.03125, 0.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,bounds,SIMPLE_NAME, line no: 68, 0.0, 0.03125, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,this.upperBounds=bounds,ASSIGNMENT, line no: 69, 0.0, 0.09375, 0.0, 0.13043478260869565, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,this.upperBounds,FIELD_ACCESS, line no: 69, 0.0, 0.09375, 0.0, 0.1875, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,this,THIS_EXPRESSION, line no: 69, 0.0, 0.09375, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,withLowerBounds,SIMPLE_NAME, line no: 78, 0.0, 0.03125, 0.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,this.lowerBounds=bounds,ASSIGNMENT, line no: 79, 0.0, 0.09375, 0.0, 0.13043478260869565, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,this.lowerBounds,FIELD_ACCESS, line no: 79, 0.0, 0.09375, 0.0, 0.1875, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,@Override,MARKER_ANNOTATION, line no: 86, 0.0, 0.0, 0.0, 0.2222222222222222, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Override,SIMPLE_NAME, line no: 86, 0.0, 0.03125, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,build,SIMPLE_NAME, line no: 87, 0.0, 0.03125, 0.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new WildcardTypeImpl(upperBounds lowerBounds),CLASS_INSTANCE_CREATION, line no: 88, 0.0, 0.15625, 0.0, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,WildcardTypeImpl,SIMPLE_NAME, line no: 88, 0.0, 0.1875, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,GenericArrayTypeImpl,SIMPLE_NAME, line no: 96, 0.0, 0.03125, 0.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,componentType,SIMPLE_NAME, line no: 97, 0.0, 0.03125, 0.0, 0.15384615384615385, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,this.componentType=componentType,ASSIGNMENT, line no: 104, 0.0, 0.0625, 0.0, 0.0625, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,this.componentType,FIELD_ACCESS, line no: 104, 0.0, 0.0625, 0.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getGenericComponentType,SIMPLE_NAME, line no: 111, 0.0, 0.03125, 0.0, 0.13043478260869565, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,String,SIMPLE_NAME, line no: 119, 0.0, 0.03125, 0.0, 0.3333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toString,SIMPLE_NAME, line no: 119, 0.0, 0.03125, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,TypeUtils.toString(this),METHOD_INVOCATION, line no: 120, 0.0, 0.1875, 0.0, 0.08333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,equals,SIMPLE_NAME, line no: 127, 0.0, 0.03125, 1.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Object,SIMPLE_NAME, line no: 127, 0.0, 0.03125, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,obj,SIMPLE_NAME, line no: 127, 0.0, 0.03125, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,obj == this || obj instanceof GenericArrayType && TypeUtils.equals(this (GenericArrayType)obj),INFIX_EXPRESSION, line no: 128, 0.0, 0.40625, 1.0, 0.0425531914893617, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,obj == this,INFIX_EXPRESSION, line no: 128, 0.0, 0.40625, 1.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,obj instanceof GenericArrayType && TypeUtils.equals(this (GenericArrayType)obj),INFIX_EXPRESSION, line no: 128, 0.0, 0.40625, 1.0, 0.05063291139240506, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,obj instanceof GenericArrayType,INSTANCEOF_EXPRESSION, line no: 128, 0.0, 0.40625, 1.0, 0.0967741935483871, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,TypeUtils.equals(this (GenericArrayType)obj),METHOD_INVOCATION, line no: 128, 0.0, 0.4375, 1.0, 0.06818181818181818, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(GenericArrayType)obj,CAST_EXPRESSION, line no: 128, 0.0, 0.4375, 0.0, 0.09523809523809523, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,hashCode,SIMPLE_NAME, line no: 135, 0.0, 0.03125, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,result,SIMPLE_NAME, line no: 136, 0.0, 0.3125, 0.0, 0.3333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,67 << 4,INFIX_EXPRESSION, line no: 136, 0.0, 0.28125, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,67,NUMBER_LITERAL, line no: 136, 0.0, 0.28125, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,4,NUMBER_LITERAL, line no: 136, 0.0, 0.28125, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,result|=componentType.hashCode(),ASSIGNMENT, line no: 137, 0.0, 0.28125, 0.0, 0.09375, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,componentType.hashCode(),METHOD_INVOCATION, line no: 137, 0.0, 0.3125, 0.0, 0.08333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,ParameterizedTypeImpl,SIMPLE_NAME, line no: 146, 0.0, 0.03125, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Class,SIMPLE_NAME, line no: 147, 0.0, 0.03125, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,raw,SIMPLE_NAME, line no: 147, 0.0, 0.03125, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,useOwner,SIMPLE_NAME, line no: 148, 0.0, 0.03125, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeArguments,SIMPLE_NAME, line no: 149, 0.0, 0.03125, 0.0, 0.3076923076923077, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,this.raw=raw,ASSIGNMENT, line no: 158, 0.0, 0.1875, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,this.raw,FIELD_ACCESS, line no: 158, 0.0, 0.1875, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,this.useOwner=useOwner,ASSIGNMENT, line no: 159, 0.0, 0.1875, 0.0, 0.18181818181818182, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,this.useOwner,FIELD_ACCESS, line no: 159, 0.0, 0.1875, 0.0, 0.23076923076923078, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,this.typeArguments=typeArguments,ASSIGNMENT, line no: 160, 0.0, 0.1875, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,this.typeArguments,FIELD_ACCESS, line no: 160, 0.0, 0.1875, 0.0, 0.2222222222222222, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getRawType,SIMPLE_NAME, line no: 167, 0.0, 0.03125, 0.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getOwnerType,SIMPLE_NAME, line no: 175, 0.0, 0.03125, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getActualTypeArguments,SIMPLE_NAME, line no: 183, 0.0, 0.03125, 0.0, 0.18181818181818182, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeArguments.clone(),METHOD_INVOCATION, line no: 184, 0.0, 0.1875, 0.0, 0.19047619047619047, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,clone,SIMPLE_NAME, line no: 184, 0.0, 0.21875, 0.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,obj == this || obj instanceof ParameterizedType && TypeUtils.equals(this ((ParameterizedType)obj)),INFIX_EXPRESSION, line no: 200, 0.0, 0.40625, 1.0, 0.04081632653061224, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,obj instanceof ParameterizedType && TypeUtils.equals(this ((ParameterizedType)obj)),INFIX_EXPRESSION, line no: 200, 0.0, 0.40625, 1.0, 0.04819277108433735, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,obj instanceof ParameterizedType,INSTANCEOF_EXPRESSION, line no: 200, 0.0, 0.40625, 1.0, 0.09375, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,TypeUtils.equals(this ((ParameterizedType)obj)),METHOD_INVOCATION, line no: 200, 0.0, 0.4375, 1.0, 0.06382978723404255, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,((ParameterizedType)obj),PARENTHESIZED_EXPRESSION, line no: 200, 0.0, 0.4375, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(ParameterizedType)obj,CAST_EXPRESSION, line no: 200, 0.0, 0.4375, 0.0, 0.13636363636363635, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,@SuppressWarnings("deprecation"),, line no: 206, 0.0, 0.0, 0.0, 0.0625, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,SuppressWarnings,SIMPLE_NAME, line no: 206, 0.0, 0.03125, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"deprecation",STRING_LITERAL, line no: 206, 0.0, 0.0, 0.0, 0.15384615384615385, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,71 << 4,INFIX_EXPRESSION, line no: 209, 0.0, 0.65625, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,71,NUMBER_LITERAL, line no: 209, 0.0, 0.65625, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,result|=raw.hashCode(),ASSIGNMENT, line no: 210, 0.0, 0.65625, 0.0, 0.13636363636363635, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,raw.hashCode(),METHOD_INVOCATION, line no: 210, 0.0, 0.6875, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,result<<=4,ASSIGNMENT, line no: 211, 0.0, 0.65625, 0.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,result|=ObjectUtils.hashCode(useOwner),ASSIGNMENT, line no: 212, 0.0, 0.65625, 0.0, 0.07894736842105263, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,ObjectUtils.hashCode(useOwner),METHOD_INVOCATION, line no: 212, 0.0, 0.6875, 0.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,result<<=8,ASSIGNMENT, line no: 213, 0.0, 0.65625, 0.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,8,NUMBER_LITERAL, line no: 213, 0.0, 0.65625, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,result|=Arrays.hashCode(typeArguments),ASSIGNMENT, line no: 214, 0.0, 0.65625, 0.0, 0.10526315789473684, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Arrays.hashCode(typeArguments),METHOD_INVOCATION, line no: 214, 0.0, 0.6875, 0.0, 0.13333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,EMPTY_BOUNDS,SIMPLE_NAME, line no: 224, 0.0, 0.03125, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new Type[0],ARRAY_CREATION, line no: 224, 0.0, 0.0, 0.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,0,NUMBER_LITERAL, line no: 224, 0.0, 0.0, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,this.upperBounds=ObjectUtils.defaultIfNull(upperBounds EMPTY_BOUNDS),ASSIGNMENT, line no: 235, 0.0, 0.375, 0.0, 0.058823529411764705, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,ObjectUtils.defaultIfNull(upperBounds EMPTY_BOUNDS),METHOD_INVOCATION, line no: 235, 0.0, 0.40625, 0.0, 0.058823529411764705, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,defaultIfNull,SIMPLE_NAME, line no: 235, 0.0, 0.4375, 0.0, 0.15384615384615385, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,this.lowerBounds=ObjectUtils.defaultIfNull(lowerBounds EMPTY_BOUNDS),ASSIGNMENT, line no: 236, 0.0, 0.375, 0.0, 0.058823529411764705, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,ObjectUtils.defaultIfNull(lowerBounds EMPTY_BOUNDS),METHOD_INVOCATION, line no: 236, 0.0, 0.40625, 0.0, 0.058823529411764705, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getUpperBounds,SIMPLE_NAME, line no: 243, 0.0, 0.03125, 0.0, 0.21428571428571427, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,upperBounds.clone(),METHOD_INVOCATION, line no: 244, 0.0, 0.1875, 0.0, 0.15789473684210525, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getLowerBounds,SIMPLE_NAME, line no: 251, 0.0, 0.03125, 0.0, 0.21428571428571427, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,lowerBounds.clone(),METHOD_INVOCATION, line no: 252, 0.0, 0.1875, 0.0, 0.15789473684210525, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,obj == this || obj instanceof WildcardType && TypeUtils.equals(this (WildcardType)obj),INFIX_EXPRESSION, line no: 268, 0.0, 0.40625, 1.0, 0.046511627906976744, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,obj instanceof WildcardType && TypeUtils.equals(this (WildcardType)obj),INFIX_EXPRESSION, line no: 268, 0.0, 0.40625, 1.0, 0.056338028169014086, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,obj instanceof WildcardType,INSTANCEOF_EXPRESSION, line no: 268, 0.0, 0.40625, 1.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,TypeUtils.equals(this (WildcardType)obj),METHOD_INVOCATION, line no: 268, 0.0, 0.4375, 1.0, 0.075, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(WildcardType)obj,CAST_EXPRESSION, line no: 268, 0.0, 0.4375, 0.0, 0.11764705882352941, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,73 << 8,INFIX_EXPRESSION, line no: 276, 0.0, 0.5, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,73,NUMBER_LITERAL, line no: 276, 0.0, 0.5, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,result|=Arrays.hashCode(upperBounds),ASSIGNMENT, line no: 277, 0.0, 0.5, 0.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Arrays.hashCode(upperBounds),METHOD_INVOCATION, line no: 277, 0.0, 0.53125, 0.0, 0.10714285714285714, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,result|=Arrays.hashCode(lowerBounds),ASSIGNMENT, line no: 279, 0.0, 0.5, 0.0, 0.08333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Arrays.hashCode(lowerBounds),METHOD_INVOCATION, line no: 279, 0.0, 0.53125, 0.0, 0.07142857142857142, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,WILDCARD_ALL,SIMPLE_NAME, line no: 288, 0.0, 0.03125, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,wildcardType().withUpperBounds(Object.class).build(),METHOD_INVOCATION, line no: 288, 0.0, 0.03125, 0.0, 0.07692307692307693, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,wildcardType().withUpperBounds(Object.class),METHOD_INVOCATION, line no: 288, 0.0, 0.0625, 0.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,wildcardType(),METHOD_INVOCATION, line no: 288, 0.0, 0.09375, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,wildcardType,SIMPLE_NAME, line no: 288, 0.0, 0.125, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Object.class,TYPE_LITERAL, line no: 288, 0.0, 0.0625, 0.0, 0.08333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable,SIMPLE_NAME, line no: 311, 0.0, 0.03125, 1.0, 0.08333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,type,SIMPLE_NAME, line no: 311, 0.0, 0.03125, 0.0, 0.5, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toType,SIMPLE_NAME, line no: 311, 0.0, 0.03125, 0.0, 0.3333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(type toType null),METHOD_INVOCATION, line no: 312, 0.0, 0.21875, 1.0, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,null,NULL_LITERAL, line no: 312, 0.0, 0.21875, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVarAssigns,SIMPLE_NAME, line no: 325, 0.0, 0.03125, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toType == null || toType instanceof Class<?>,INFIX_EXPRESSION, line no: 326, 0.0, 0.875, 1.0, 0.06818181818181818, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toType == null,INFIX_EXPRESSION, line no: 326, 0.0, 0.875, 1.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toType instanceof Class<?>,INSTANCEOF_EXPRESSION, line no: 326, 0.0, 0.875, 1.0, 0.07692307692307693, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(type (Class<?>)toType),METHOD_INVOCATION, line no: 327, 0.0, 0.3125, 1.0, 0.05714285714285714, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(Class<?>)toType,CAST_EXPRESSION, line no: 327, 0.0, 0.3125, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toType instanceof ParameterizedType,INSTANCEOF_EXPRESSION, line no: 330, 0.0, 0.875, 1.0, 0.08571428571428572, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(type (ParameterizedType)toType typeVarAssigns),METHOD_INVOCATION, line no: 331, 0.0, 0.34375, 1.0, 0.05084745762711865, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(ParameterizedType)toType,CAST_EXPRESSION, line no: 331, 0.0, 0.34375, 0.0, 0.12, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toType instanceof GenericArrayType,INSTANCEOF_EXPRESSION, line no: 334, 0.0, 0.875, 1.0, 0.08823529411764706, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(type (GenericArrayType)toType typeVarAssigns),METHOD_INVOCATION, line no: 335, 0.0, 0.34375, 1.0, 0.05172413793103448, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(GenericArrayType)toType,CAST_EXPRESSION, line no: 335, 0.0, 0.34375, 0.0, 0.08333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toType instanceof WildcardType,INSTANCEOF_EXPRESSION, line no: 338, 0.0, 0.875, 1.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(type (WildcardType)toType typeVarAssigns),METHOD_INVOCATION, line no: 339, 0.0, 0.34375, 1.0, 0.05555555555555555, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(WildcardType)toType,CAST_EXPRESSION, line no: 339, 0.0, 0.34375, 0.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toType instanceof TypeVariable<?>,INSTANCEOF_EXPRESSION, line no: 342, 0.0, 0.875, 1.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(type (TypeVariable<?>)toType typeVarAssigns),METHOD_INVOCATION, line no: 343, 0.0, 0.34375, 1.0, 0.05263157894736842, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(TypeVariable<?>)toType,CAST_EXPRESSION, line no: 343, 0.0, 0.34375, 0.0, 0.08695652173913043, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new IllegalStateException("found an unhandled type: " + toType),CLASS_INSTANCE_CREATION, line no: 346, 0.0, 0.875, 0.0, 0.047619047619047616, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,IllegalStateException,SIMPLE_NAME, line no: 346, 0.0, 0.875, 0.0, 0.09523809523809523, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"found an unhandled type: " + toType,INFIX_EXPRESSION, line no: 346, 0.0, 0.875, 0.0, 0.05555555555555555, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"found an unhandled type: ",STRING_LITERAL, line no: 346, 0.0, 0.875, 0.0, 0.07407407407407407, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toClass,SIMPLE_NAME, line no: 357, 0.0, 0.03125, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,type == null,INFIX_EXPRESSION, line no: 358, 0.0, 0.96875, 1.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toClass == null || !toClass.isPrimitive(),INFIX_EXPRESSION, line no: 360, 0.0, 0.25, 1.0, 0.07317073170731707, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toClass == null,INFIX_EXPRESSION, line no: 360, 0.0, 0.25, 1.0, 0.13333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,!toClass.isPrimitive(),PREFIX_EXPRESSION, line no: 360, 0.0, 0.25, 1.0, 0.13636363636363635, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toClass.isPrimitive(),METHOD_INVOCATION, line no: 360, 0.0, 0.28125, 1.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isPrimitive,SIMPLE_NAME, line no: 360, 0.0, 0.3125, 1.0, 0.18181818181818182, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,false,BOOLEAN_LITERAL, line no: 366, 0.0, 0.15625, 1.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toClass.equals(type),METHOD_INVOCATION, line no: 370, 0.0, 0.96875, 1.0, 0.15, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,type instanceof Class<?>,INSTANCEOF_EXPRESSION, line no: 374, 0.0, 0.96875, 1.0, 0.08333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,ClassUtils.isAssignable((Class<?>)type toClass),METHOD_INVOCATION, line no: 376, 0.0, 0.34375, 1.0, 0.0425531914893617, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(Class<?>)type,CAST_EXPRESSION, line no: 376, 0.0, 0.34375, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,type instanceof ParameterizedType,INSTANCEOF_EXPRESSION, line no: 379, 0.0, 0.96875, 1.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(getRawType((ParameterizedType)type) toClass),METHOD_INVOCATION, line no: 381, 0.0, 0.375, 1.0, 0.05263157894736842, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getRawType((ParameterizedType)type),METHOD_INVOCATION, line no: 381, 0.0, 0.40625, 0.0, 0.08571428571428572, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(ParameterizedType)type,CAST_EXPRESSION, line no: 381, 0.0, 0.40625, 0.0, 0.13043478260869565, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,type instanceof TypeVariable<?>,INSTANCEOF_EXPRESSION, line no: 385, 0.0, 0.96875, 1.0, 0.0967741935483871, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,bound,SIMPLE_NAME, line no: 388, 0.0, 0.53125, 0.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,((TypeVariable<?>)type).getBounds(),METHOD_INVOCATION, line no: 388, 0.0, 0.53125, 0.0, 0.05714285714285714, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,((TypeVariable<?>)type),PARENTHESIZED_EXPRESSION, line no: 388, 0.0, 0.53125, 0.0, 0.08695652173913043, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(TypeVariable<?>)type,CAST_EXPRESSION, line no: 388, 0.0, 0.53125, 0.0, 0.09523809523809523, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getBounds,SIMPLE_NAME, line no: 388, 0.0, 0.5625, 0.0, 0.2222222222222222, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(bound toClass),METHOD_INVOCATION, line no: 389, 0.0, 0.25, 1.0, 0.037037037037037035, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,type instanceof GenericArrayType,INSTANCEOF_EXPRESSION, line no: 399, 0.0, 0.96875, 1.0, 0.09375, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toClass.equals(Object.class) || toClass.isArray() && isAssignable(((GenericArrayType)type).getGenericComponentType() toClass.getComponentType()),INFIX_EXPRESSION, line no: 400, 0.0, 0.65625, 1.0, 0.020833333333333332, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toClass.equals(Object.class),METHOD_INVOCATION, line no: 400, 0.0, 0.6875, 1.0, 0.10714285714285714, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toClass.isArray() && isAssignable(((GenericArrayType)type).getGenericComponentType() toClass.getComponentType()),INFIX_EXPRESSION, line no: 401, 0.0, 0.65625, 1.0, 0.026785714285714284, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toClass.isArray(),METHOD_INVOCATION, line no: 401, 0.0, 0.6875, 1.0, 0.11764705882352941, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isArray,SIMPLE_NAME, line no: 401, 0.0, 0.71875, 1.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(((GenericArrayType)type).getGenericComponentType() toClass.getComponentType()),METHOD_INVOCATION, line no: 402, 0.0, 0.6875, 1.0, 0.03296703296703297, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,((GenericArrayType)type).getGenericComponentType(),METHOD_INVOCATION, line no: 402, 0.0, 0.6875, 0.0, 0.06, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,((GenericArrayType)type),PARENTHESIZED_EXPRESSION, line no: 402, 0.0, 0.6875, 0.0, 0.08333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(GenericArrayType)type,CAST_EXPRESSION, line no: 402, 0.0, 0.6875, 0.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toClass.getComponentType(),METHOD_INVOCATION, line no: 402, 0.0, 0.6875, 0.0, 0.07692307692307693, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getComponentType,SIMPLE_NAME, line no: 403, 0.0, 0.71875, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,type instanceof WildcardType,INSTANCEOF_EXPRESSION, line no: 408, 0.0, 0.96875, 1.0, 0.10714285714285714, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new IllegalStateException("found an unhandled type: " + type),CLASS_INSTANCE_CREATION, line no: 412, 0.0, 0.96875, 0.0, 0.04918032786885246, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"found an unhandled type: " + type,INFIX_EXPRESSION, line no: 412, 0.0, 0.96875, 0.0, 0.058823529411764705, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toParameterizedType,SIMPLE_NAME, line no: 424, 0.0, 0.03125, 0.0, 0.15789473684210525, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toParameterizedType == null,INFIX_EXPRESSION, line no: 432, 0.0, 0.96875, 1.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toParameterizedType.equals(type),METHOD_INVOCATION, line no: 437, 0.0, 0.96875, 1.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getRawType(toParameterizedType),METHOD_INVOCATION, line no: 442, 0.0, 0.96875, 0.0, 0.0967741935483871, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,fromTypeVarAssigns,SIMPLE_NAME, line no: 445, 0.0, 0.96875, 0.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getTypeArguments(type toClass null),METHOD_INVOCATION, line no: 445, 0.0, 0.96875, 0.0, 0.11428571428571428, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getTypeArguments,SIMPLE_NAME, line no: 445, 0.0, 0.96875, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,fromTypeVarAssigns == null,INFIX_EXPRESSION, line no: 448, 0.0, 0.96875, 1.0, 0.07692307692307693, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,fromTypeVarAssigns.isEmpty(),METHOD_INVOCATION, line no: 455, 0.0, 0.96875, 1.0, 0.07142857142857142, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isEmpty,SIMPLE_NAME, line no: 455, 0.0, 0.96875, 1.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toTypeVarAssigns,SIMPLE_NAME, line no: 460, 0.0, 0.96875, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getTypeArguments(toParameterizedType toClass typeVarAssigns),METHOD_INVOCATION, line no: 460, 0.0, 0.96875, 0.0, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,var,SIMPLE_NAME, line no: 464, 0.0, 0.96875, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toTypeVarAssigns.keySet(),METHOD_INVOCATION, line no: 464, 0.0, 0.96875, 0.0, 0.12, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,keySet,SIMPLE_NAME, line no: 464, 0.0, 0.96875, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toTypeArg,SIMPLE_NAME, line no: 465, 0.0, 0.8125, 0.0, 0.2222222222222222, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,unrollVariableAssignments(var toTypeVarAssigns),METHOD_INVOCATION, line no: 465, 0.0, 0.84375, 0.0, 0.06382978723404255, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,unrollVariableAssignments,SIMPLE_NAME, line no: 465, 0.0, 0.84375, 0.0, 0.08, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,fromTypeArg,SIMPLE_NAME, line no: 466, 0.0, 0.8125, 0.0, 0.18181818181818182, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,unrollVariableAssignments(var fromTypeVarAssigns),METHOD_INVOCATION, line no: 466, 0.0, 0.84375, 0.0, 0.061224489795918366, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,fromTypeArg != null && !toTypeArg.equals(fromTypeArg) && !(toTypeArg instanceof WildcardType && isAssignable(fromTypeArg toTypeArg typeVarAssigns)),INFIX_EXPRESSION, line no: 471, 0.0, 0.8125, 1.0, 0.027210884353741496, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,fromTypeArg != null && !toTypeArg.equals(fromTypeArg),INFIX_EXPRESSION, line no: 471, 0.0, 0.8125, 1.0, 0.07547169811320754, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,fromTypeArg != null,INFIX_EXPRESSION, line no: 471, 0.0, 0.8125, 1.0, 0.10526315789473684, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,!toTypeArg.equals(fromTypeArg),PREFIX_EXPRESSION, line no: 472, 0.0, 0.8125, 1.0, 0.13333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toTypeArg.equals(fromTypeArg),METHOD_INVOCATION, line no: 472, 0.0, 0.84375, 1.0, 0.13793103448275862, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,!(toTypeArg instanceof WildcardType && isAssignable(fromTypeArg toTypeArg typeVarAssigns)),PREFIX_EXPRESSION, line no: 473, 0.0, 0.8125, 1.0, 0.03333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(toTypeArg instanceof WildcardType && isAssignable(fromTypeArg toTypeArg typeVarAssigns)),PARENTHESIZED_EXPRESSION, line no: 473, 0.0, 0.8125, 1.0, 0.033707865168539325, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toTypeArg instanceof WildcardType && isAssignable(fromTypeArg toTypeArg typeVarAssigns),INFIX_EXPRESSION, line no: 473, 0.0, 0.8125, 1.0, 0.034482758620689655, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toTypeArg instanceof WildcardType,INSTANCEOF_EXPRESSION, line no: 473, 0.0, 0.8125, 1.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(fromTypeArg toTypeArg typeVarAssigns),METHOD_INVOCATION, line no: 473, 0.0, 0.84375, 1.0, 0.06, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,result=typeVarAssigns.get(var),ASSIGNMENT, line no: 492, 0.0, 0.5625, 0.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVarAssigns.get(var),METHOD_INVOCATION, line no: 492, 0.0, 0.59375, 0.0, 0.13043478260869565, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,get,SIMPLE_NAME, line no: 492, 0.0, 0.625, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,result instanceof TypeVariable<?> && !result.equals(var),INFIX_EXPRESSION, line no: 493, 0.0, 0.5625, 1.0, 0.07142857142857142, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,result instanceof TypeVariable<?>,INSTANCEOF_EXPRESSION, line no: 493, 0.0, 0.5625, 1.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,!result.equals(var),PREFIX_EXPRESSION, line no: 493, 0.0, 0.5625, 1.0, 0.15789473684210525, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,result.equals(var),METHOD_INVOCATION, line no: 493, 0.0, 0.59375, 1.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,var=(TypeVariable<?>)result,ASSIGNMENT, line no: 494, 0.0, 0.15625, 0.0, 0.07407407407407407, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(TypeVariable<?>)result,CAST_EXPRESSION, line no: 494, 0.0, 0.15625, 0.0, 0.08695652173913043, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toGenericArrayType,SIMPLE_NAME, line no: 512, 0.0, 0.03125, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toGenericArrayType == null,INFIX_EXPRESSION, line no: 520, 0.0, 1.0, 1.0, 0.11538461538461539, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toGenericArrayType.equals(type),METHOD_INVOCATION, line no: 525, 0.0, 1.0, 1.0, 0.12903225806451613, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toComponentType,SIMPLE_NAME, line no: 529, 0.0, 1.0, 0.0, 0.13333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toGenericArrayType.getGenericComponentType(),METHOD_INVOCATION, line no: 529, 0.0, 1.0, 0.0, 0.06818181818181818, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,cls,SIMPLE_NAME, line no: 532, 0.0, 0.625, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,cls.isArray() && isAssignable(cls.getComponentType() toComponentType typeVarAssigns),INFIX_EXPRESSION, line no: 535, 0.0, 0.625, 1.0, 0.023809523809523808, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,cls.isArray(),METHOD_INVOCATION, line no: 535, 0.0, 0.65625, 1.0, 0.07692307692307693, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(cls.getComponentType() toComponentType typeVarAssigns),METHOD_INVOCATION, line no: 536, 0.0, 0.65625, 1.0, 0.029850746268656716, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,cls.getComponentType(),METHOD_INVOCATION, line no: 536, 0.0, 0.6875, 0.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(((GenericArrayType)type).getGenericComponentType() toComponentType typeVarAssigns),METHOD_INVOCATION, line no: 541, 0.0, 0.40625, 1.0, 0.031578947368421054, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getImplicitUpperBounds((WildcardType)type),METHOD_INVOCATION, line no: 547, 0.0, 0.53125, 0.0, 0.09523809523809523, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getImplicitUpperBounds,SIMPLE_NAME, line no: 547, 0.0, 0.5625, 0.0, 0.13636363636363635, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(WildcardType)type,CAST_EXPRESSION, line no: 547, 0.0, 0.53125, 0.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(bound toGenericArrayType),METHOD_INVOCATION, line no: 548, 0.0, 0.25, 1.0, 0.07894736842105263, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getImplicitBounds((TypeVariable<?>)type),METHOD_INVOCATION, line no: 559, 0.0, 0.53125, 0.0, 0.075, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getImplicitBounds,SIMPLE_NAME, line no: 559, 0.0, 0.5625, 0.0, 0.11764705882352941, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toWildcardType,SIMPLE_NAME, line no: 588, 0.0, 0.03125, 0.0, 0.21428571428571427, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toWildcardType == null,INFIX_EXPRESSION, line no: 596, 0.0, 1.0, 1.0, 0.13636363636363635, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toWildcardType.equals(type),METHOD_INVOCATION, line no: 601, 0.0, 1.0, 1.0, 0.14814814814814814, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toUpperBounds,SIMPLE_NAME, line no: 605, 0.0, 1.0, 0.0, 0.23076923076923078, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getImplicitUpperBounds(toWildcardType),METHOD_INVOCATION, line no: 605, 0.0, 1.0, 0.0, 0.10526315789473684, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toLowerBounds,SIMPLE_NAME, line no: 606, 0.0, 1.0, 0.0, 0.23076923076923078, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getImplicitLowerBounds(toWildcardType),METHOD_INVOCATION, line no: 606, 0.0, 1.0, 0.0, 0.10526315789473684, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getImplicitLowerBounds,SIMPLE_NAME, line no: 606, 0.0, 1.0, 0.0, 0.13636363636363635, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getImplicitUpperBounds(wildcardType),METHOD_INVOCATION, line no: 610, 0.0, 0.9375, 0.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getImplicitLowerBounds(wildcardType),METHOD_INVOCATION, line no: 611, 0.0, 0.9375, 0.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toBound,SIMPLE_NAME, line no: 613, 0.0, 0.9375, 0.0, 0.2857142857142857, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toBound=substituteTypeVariables(toBound typeVarAssigns),ASSIGNMENT, line no: 616, 0.0, 0.5, 0.0, 0.07272727272727272, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,substituteTypeVariables(toBound typeVarAssigns),METHOD_INVOCATION, line no: 616, 0.0, 0.53125, 0.0, 0.0851063829787234, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,substituteTypeVariables,SIMPLE_NAME, line no: 616, 0.0, 0.5625, 0.0, 0.13043478260869565, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,!isAssignable(bound toBound typeVarAssigns),PREFIX_EXPRESSION, line no: 622, 0.0, 0.25, 1.0, 0.06976744186046512, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(bound toBound typeVarAssigns),METHOD_INVOCATION, line no: 622, 0.0, 0.28125, 1.0, 0.07142857142857142, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,!isAssignable(toBound bound typeVarAssigns),PREFIX_EXPRESSION, line no: 637, 0.0, 0.25, 1.0, 0.06976744186046512, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(toBound bound typeVarAssigns),METHOD_INVOCATION, line no: 637, 0.0, 0.28125, 1.0, 0.07142857142857142, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,!isAssignable(type substituteTypeVariables(toBound typeVarAssigns) typeVarAssigns),PREFIX_EXPRESSION, line no: 648, 0.0, 0.34375, 1.0, 0.04878048780487805, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(type substituteTypeVariables(toBound typeVarAssigns) typeVarAssigns),METHOD_INVOCATION, line no: 648, 0.0, 0.375, 1.0, 0.04938271604938271, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,!isAssignable(substituteTypeVariables(toBound typeVarAssigns) type typeVarAssigns),PREFIX_EXPRESSION, line no: 657, 0.0, 0.34375, 1.0, 0.04878048780487805, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(substituteTypeVariables(toBound typeVarAssigns) type typeVarAssigns),METHOD_INVOCATION, line no: 657, 0.0, 0.375, 1.0, 0.04938271604938271, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toTypeVariable,SIMPLE_NAME, line no: 675, 0.0, 0.03125, 0.0, 0.21428571428571427, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toTypeVariable == null,INFIX_EXPRESSION, line no: 683, 0.0, 0.90625, 1.0, 0.13636363636363635, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toTypeVariable.equals(type),METHOD_INVOCATION, line no: 688, 0.0, 0.9375, 1.0, 0.14814814814814814, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(bound toTypeVariable typeVarAssigns),METHOD_INVOCATION, line no: 699, 0.0, 0.28125, 1.0, 0.061224489795918366, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,type instanceof Class<?> || type instanceof ParameterizedType || type instanceof GenericArrayType|| type instanceof WildcardType,INFIX_EXPRESSION, line no: 705, 0.0, 0.90625, 1.0, 0.0234375, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,type instanceof TypeVariable<?> && typeVarAssigns != null,INFIX_EXPRESSION, line no: 722, 0.0, 0.625, 1.0, 0.05263157894736842, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVarAssigns != null,INFIX_EXPRESSION, line no: 722, 0.0, 0.625, 1.0, 0.13636363636363635, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,replacementType,SIMPLE_NAME, line no: 723, 0.0, 0.46875, 0.0, 0.13333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVarAssigns.get(type),METHOD_INVOCATION, line no: 723, 0.0, 0.46875, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,replacementType == null,INFIX_EXPRESSION, line no: 725, 0.0, 0.4375, 1.0, 0.08695652173913043, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new IllegalArgumentException("missing assignment type for type variable " + type),CLASS_INSTANCE_CREATION, line no: 726, 0.0, 0.125, 0.0, 0.037037037037037035, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,IllegalArgumentException,SIMPLE_NAME, line no: 726, 0.0, 0.15625, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"missing assignment type for type variable " + type,INFIX_EXPRESSION, line no: 726, 0.0, 0.125, 0.0, 0.058823529411764705, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"missing assignment type for type variable ",STRING_LITERAL, line no: 726, 0.0, 0.125, 0.0, 0.06818181818181818, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getTypeArguments(type getRawType(type) null),METHOD_INVOCATION, line no: 748, 0.0, 0.28125, 0.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getRawType(type),METHOD_INVOCATION, line no: 748, 0.0, 0.3125, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,subtypeVarAssigns,SIMPLE_NAME, line no: 796, 0.0, 0.03125, 0.0, 0.11764705882352941, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getTypeArguments((Class<?>)type toClass subtypeVarAssigns),METHOD_INVOCATION, line no: 798, 0.0, 0.34375, 0.0, 0.06896551724137931, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getTypeArguments((ParameterizedType)type toClass subtypeVarAssigns),METHOD_INVOCATION, line no: 802, 0.0, 0.34375, 0.0, 0.05970149253731343, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getTypeArguments(((GenericArrayType)type).getGenericComponentType() toClass.isArray() ? toClass.getComponentType() : toClass subtypeVarAssigns),METHOD_INVOCATION, line no: 806, 0.0, 0.59375, 0.0, 0.027972027972027972, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toClass.isArray() ? toClass.getComponentType() : toClass,CONDITIONAL_EXPRESSION, line no: 806, 0.0, 0.59375, 0.0, 0.05357142857142857, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getTypeArguments(bound toClass subtypeVarAssigns),METHOD_INVOCATION, line no: 816, 0.0, 0.28125, 0.0, 0.08163265306122448, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,parameterizedType,SIMPLE_NAME, line no: 845, 0.0, 0.03125, 0.0, 0.17647058823529413, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getRawType(parameterizedType),METHOD_INVOCATION, line no: 847, 0.0, 0.9375, 0.0, 0.10344827586206896, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,!isAssignable(cls toClass),PREFIX_EXPRESSION, line no: 850, 0.0, 0.9375, 1.0, 0.038461538461538464, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(cls toClass),METHOD_INVOCATION, line no: 850, 0.0, 0.9375, 1.0, 0.04, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,ownerType,SIMPLE_NAME, line no: 854, 0.0, 0.9375, 0.0, 0.2222222222222222, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,parameterizedType.getOwnerType(),METHOD_INVOCATION, line no: 854, 0.0, 0.9375, 0.0, 0.09375, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,ownerType instanceof ParameterizedType,INSTANCEOF_EXPRESSION, line no: 857, 0.0, 0.9375, 1.0, 0.07894736842105263, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,parameterizedOwnerType,SIMPLE_NAME, line no: 859, 0.0, 0.5, 0.0, 0.13636363636363635, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(ParameterizedType)ownerType,CAST_EXPRESSION, line no: 859, 0.0, 0.46875, 0.0, 0.10714285714285714, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVarAssigns=getTypeArguments(parameterizedOwnerType getRawType(parameterizedOwnerType) subtypeVarAssigns),ASSIGNMENT, line no: 860, 0.0, 0.46875, 0.0, 0.037037037037037035, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getTypeArguments(parameterizedOwnerType getRawType(parameterizedOwnerType) subtypeVarAssigns),METHOD_INVOCATION, line no: 860, 0.0, 0.5, 0.0, 0.043010752688172046, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getRawType(parameterizedOwnerType),METHOD_INVOCATION, line no: 861, 0.0, 0.53125, 0.0, 0.08823529411764706, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVarAssigns=subtypeVarAssigns == null ? new HashMap<TypeVariable<?> Type>() : new HashMap<TypeVariable<?> Type>(subtypeVarAssigns),ASSIGNMENT, line no: 864, 0.0, 0.34375, 0.0, 0.03007518796992481, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,subtypeVarAssigns == null ? new HashMap<TypeVariable<?> Type>() : new HashMap<TypeVariable<?> Type>(subtypeVarAssigns),CONDITIONAL_EXPRESSION, line no: 864, 0.0, 0.34375, 0.0, 0.03389830508474576, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,subtypeVarAssigns == null,INFIX_EXPRESSION, line no: 864, 0.0, 0.34375, 1.0, 0.12, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new HashMap<TypeVariable<?> Type>(),CLASS_INSTANCE_CREATION, line no: 864, 0.0, 0.34375, 0.0, 0.05714285714285714, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new HashMap<TypeVariable<?> Type>(subtypeVarAssigns),CLASS_INSTANCE_CREATION, line no: 865, 0.0, 0.34375, 0.0, 0.057692307692307696, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeArgs,SIMPLE_NAME, line no: 869, 0.0, 0.9375, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,parameterizedType.getActualTypeArguments(),METHOD_INVOCATION, line no: 869, 0.0, 0.9375, 0.0, 0.09523809523809523, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeParams,SIMPLE_NAME, line no: 871, 0.0, 0.9375, 0.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,cls.getTypeParameters(),METHOD_INVOCATION, line no: 871, 0.0, 0.9375, 0.0, 0.13043478260869565, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getTypeParameters,SIMPLE_NAME, line no: 871, 0.0, 0.9375, 0.0, 0.17647058823529413, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 874, 0.0, 0.9375, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,i,SIMPLE_NAME, line no: 874, 0.0, 0.9375, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,i < typeParams.length,INFIX_EXPRESSION, line no: 874, 0.0, 0.9375, 1.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeParams.length,QUALIFIED_NAME, line no: 874, 0.0, 0.9375, 0.0, 0.17647058823529413, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,length,SIMPLE_NAME, line no: 874, 0.0, 0.9375, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,i++,POSTFIX_EXPRESSION, line no: 874, 0.0, 0.9375, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeArg,SIMPLE_NAME, line no: 875, 0.0, 0.625, 0.0, 0.2857142857142857, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeArgs[i],ARRAY_ACCESS, line no: 875, 0.0, 0.59375, 0.0, 0.18181818181818182, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVarAssigns.put(typeParams[i] typeVarAssigns.containsKey(typeArg) ? typeVarAssigns.get(typeArg) : typeArg),METHOD_INVOCATION, line no: 876, 0.0, 0.625, 0.0, 0.03669724770642202, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,put,SIMPLE_NAME, line no: 876, 0.0, 0.65625, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeParams[i],ARRAY_ACCESS, line no: 876, 0.0, 0.625, 0.0, 0.15384615384615385, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVarAssigns.containsKey(typeArg) ? typeVarAssigns.get(typeArg) : typeArg,CONDITIONAL_EXPRESSION, line no: 876, 0.0, 0.625, 0.0, 0.04, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVarAssigns.containsKey(typeArg),METHOD_INVOCATION, line no: 876, 0.0, 0.65625, 1.0, 0.08571428571428572, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,containsKey,SIMPLE_NAME, line no: 876, 0.0, 0.6875, 1.0, 0.18181818181818182, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVarAssigns.get(typeArg),METHOD_INVOCATION, line no: 876, 0.0, 0.65625, 0.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toClass.equals(cls),METHOD_INVOCATION, line no: 880, 0.0, 0.9375, 1.0, 0.10526315789473684, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getTypeArguments(getClosestParentType(cls toClass) toClass typeVarAssigns),METHOD_INVOCATION, line no: 886, 0.0, 0.9375, 0.0, 0.05405405405405406, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getClosestParentType(cls toClass),METHOD_INVOCATION, line no: 886, 0.0, 0.9375, 0.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getClosestParentType,SIMPLE_NAME, line no: 886, 0.0, 0.9375, 0.0, 0.15, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,cls.isPrimitive(),METHOD_INVOCATION, line no: 905, 0.0, 0.875, 1.0, 0.11764705882352941, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,cls=ClassUtils.primitiveToWrapper(cls),ASSIGNMENT, line no: 914, 0.0, 0.40625, 0.0, 0.07894736842105263, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,ClassUtils.primitiveToWrapper(cls),METHOD_INVOCATION, line no: 914, 0.0, 0.4375, 0.0, 0.08823529411764706, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,primitiveToWrapper,SIMPLE_NAME, line no: 914, 0.0, 0.46875, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,determineTypeArguments,SIMPLE_NAME, line no: 957, 0.0, 0.03125, 0.0, 0.18181818181818182, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,superType,SIMPLE_NAME, line no: 958, 0.0, 0.03125, 0.0, 0.2222222222222222, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Validate.notNull(cls "cls is null"),METHOD_INVOCATION, line no: 959, 0.0, 0.90625, 0.0, 0.05714285714285714, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,notNull,SIMPLE_NAME, line no: 959, 0.0, 0.90625, 0.0, 0.2857142857142857, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"cls is null",STRING_LITERAL, line no: 959, 0.0, 0.90625, 0.0, 0.07692307692307693, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Validate.notNull(superType "superType is null"),METHOD_INVOCATION, line no: 960, 0.0, 0.90625, 0.0, 0.0851063829787234, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"superType is null",STRING_LITERAL, line no: 960, 0.0, 0.90625, 0.0, 0.10526315789473684, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,superClass,SIMPLE_NAME, line no: 962, 0.0, 0.90625, 0.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getRawType(superType),METHOD_INVOCATION, line no: 962, 0.0, 0.90625, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,!isAssignable(cls superClass),PREFIX_EXPRESSION, line no: 965, 0.0, 0.90625, 1.0, 0.06896551724137931, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(cls superClass),METHOD_INVOCATION, line no: 965, 0.0, 0.90625, 1.0, 0.07142857142857142, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,cls.equals(superClass),METHOD_INVOCATION, line no: 969, 0.0, 0.90625, 1.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getTypeArguments(superType superClass null),METHOD_INVOCATION, line no: 970, 0.0, 0.25, 0.0, 0.09302325581395349, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,midType,SIMPLE_NAME, line no: 974, 0.0, 0.90625, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getClosestParentType(cls superClass),METHOD_INVOCATION, line no: 974, 0.0, 0.90625, 0.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,midType instanceof Class<?>,INSTANCEOF_EXPRESSION, line no: 977, 0.0, 0.90625, 1.0, 0.07407407407407407, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,determineTypeArguments((Class<?>)midType superType),METHOD_INVOCATION, line no: 978, 0.0, 0.3125, 0.0, 0.0784313725490196, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(Class<?>)midType,CAST_EXPRESSION, line no: 978, 0.0, 0.3125, 0.0, 0.058823529411764705, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,midParameterizedType,SIMPLE_NAME, line no: 981, 0.0, 0.90625, 0.0, 0.15, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(ParameterizedType)midType,CAST_EXPRESSION, line no: 981, 0.0, 0.90625, 0.0, 0.11538461538461539, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,midClass,SIMPLE_NAME, line no: 982, 0.0, 0.90625, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getRawType(midParameterizedType),METHOD_INVOCATION, line no: 982, 0.0, 0.90625, 0.0, 0.09375, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,determineTypeArguments(midClass superType),METHOD_INVOCATION, line no: 985, 0.0, 0.90625, 0.0, 0.09523809523809523, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,mapTypeVariablesToArguments(cls midParameterizedType typeVarAssigns),METHOD_INVOCATION, line no: 987, 0.0, 0.90625, 0.0, 0.04411764705882353, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,mapTypeVariablesToArguments,SIMPLE_NAME, line no: 987, 0.0, 0.90625, 0.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,T,SIMPLE_NAME, line no: 1000, 0.0, 0.03125, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,mapTypeVariablesToArguments(cls (ParameterizedType)ownerType typeVarAssigns),METHOD_INVOCATION, line no: 1007, 0.0, 0.28125, 0.0, 0.039473684210526314, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVars,SIMPLE_NAME, line no: 1018, 0.0, 0.84375, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getRawType(parameterizedType).getTypeParameters(),METHOD_INVOCATION, line no: 1018, 0.0, 0.84375, 0.0, 0.061224489795918366, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVarList,SIMPLE_NAME, line no: 1021, 0.0, 0.84375, 0.0, 0.18181818181818182, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Arrays.asList(cls.getTypeParameters()),METHOD_INVOCATION, line no: 1021, 0.0, 0.84375, 0.0, 0.07894736842105263, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,asList,SIMPLE_NAME, line no: 1021, 0.0, 0.84375, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,i < typeArgs.length,INFIX_EXPRESSION, line no: 1024, 0.0, 0.84375, 1.0, 0.15789473684210525, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeArgs.length,QUALIFIED_NAME, line no: 1024, 0.0, 0.84375, 0.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVar,SIMPLE_NAME, line no: 1025, 0.0, 0.75, 0.0, 0.2857142857142857, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVars[i],ARRAY_ACCESS, line no: 1025, 0.0, 0.75, 0.0, 0.18181818181818182, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVarList.contains(typeArg) && typeVarAssigns.containsKey(typeVar),INFIX_EXPRESSION, line no: 1029, 0.0, 0.75, 1.0, 0.04411764705882353, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVarList.contains(typeArg),METHOD_INVOCATION, line no: 1029, 0.0, 0.78125, 1.0, 0.10344827586206896, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,contains,SIMPLE_NAME, line no: 1029, 0.0, 0.78125, 1.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVarAssigns.containsKey(typeVar),METHOD_INVOCATION, line no: 1032, 0.0, 0.78125, 1.0, 0.08571428571428572, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVarAssigns.put((TypeVariable<?>)typeArg typeVarAssigns.get(typeVar)),METHOD_INVOCATION, line no: 1034, 0.0, 0.375, 0.0, 0.05555555555555555, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(TypeVariable<?>)typeArg,CAST_EXPRESSION, line no: 1034, 0.0, 0.375, 0.0, 0.08333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVarAssigns.get(typeVar),METHOD_INVOCATION, line no: 1034, 0.0, 0.40625, 0.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,superClass.isInterface(),METHOD_INVOCATION, line no: 1049, 0.0, 0.90625, 1.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isInterface,SIMPLE_NAME, line no: 1049, 0.0, 0.90625, 1.0, 0.2727272727272727, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,interfaceTypes,SIMPLE_NAME, line no: 1051, 0.0, 0.8125, 0.0, 0.21428571428571427, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,cls.getGenericInterfaces(),METHOD_INVOCATION, line no: 1051, 0.0, 0.84375, 0.0, 0.11538461538461539, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getGenericInterfaces,SIMPLE_NAME, line no: 1051, 0.0, 0.84375, 0.0, 0.15, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,genericInterface,SIMPLE_NAME, line no: 1053, 0.0, 0.8125, 0.0, 0.1875, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,midType instanceof ParameterizedType,INSTANCEOF_EXPRESSION, line no: 1059, 0.0, 0.75, 1.0, 0.08333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,midClass=getRawType((ParameterizedType)midType),ASSIGNMENT, line no: 1060, 0.0, 0.21875, 0.0, 0.06382978723404255, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getRawType((ParameterizedType)midType),METHOD_INVOCATION, line no: 1060, 0.0, 0.25, 0.0, 0.07894736842105263, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,midClass=(Class<?>)midType,ASSIGNMENT, line no: 1062, 0.0, 0.15625, 0.0, 0.038461538461538464, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new IllegalStateException("Unexpected generic" + " interface type found: " + midType),CLASS_INSTANCE_CREATION, line no: 1064, 0.0, 0.125, 0.0, 0.047058823529411764, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"Unexpected generic" + " interface type found: " + midType,INFIX_EXPRESSION, line no: 1064, 0.0, 0.125, 0.0, 0.06896551724137931, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"Unexpected generic",STRING_LITERAL, line no: 1064, 0.0, 0.125, 0.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629," interface type found: ",STRING_LITERAL, line no: 1065, 0.0, 0.125, 0.0, 0.12, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(midClass superClass) && isAssignable(genericInterface (Type)midClass),INFIX_EXPRESSION, line no: 1070, 0.0, 0.75, 1.0, 0.036585365853658534, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(midClass superClass),METHOD_INVOCATION, line no: 1070, 0.0, 0.78125, 1.0, 0.06060606060606061, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(genericInterface (Type)midClass),METHOD_INVOCATION, line no: 1071, 0.0, 0.78125, 1.0, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(Type)midClass,CAST_EXPRESSION, line no: 1071, 0.0, 0.78125, 0.0, 0.07142857142857142, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,genericInterface=midType,ASSIGNMENT, line no: 1072, 0.0, 0.09375, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,genericInterface != null,INFIX_EXPRESSION, line no: 1077, 0.0, 0.8125, 1.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,cls.getGenericSuperclass(),METHOD_INVOCATION, line no: 1084, 0.0, 0.9375, 0.0, 0.15384615384615385, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getGenericSuperclass,SIMPLE_NAME, line no: 1084, 0.0, 0.9375, 0.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isInstance,SIMPLE_NAME, line no: 1095, 0.0, 0.03125, 1.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,value,SIMPLE_NAME, line no: 1095, 0.0, 0.03125, 0.0, 0.4, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,value == null ? !(type instanceof Class<?>) || !((Class<?>)type).isPrimitive() : isAssignable(value.getClass() type null),CONDITIONAL_EXPRESSION, line no: 1100, 0.0, 0.6875, 1.0, 0.03305785123966942, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,value == null,INFIX_EXPRESSION, line no: 1100, 0.0, 0.6875, 1.0, 0.15384615384615385, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,!(type instanceof Class<?>) || !((Class<?>)type).isPrimitive(),INFIX_EXPRESSION, line no: 1100, 0.0, 0.6875, 1.0, 0.04838709677419355, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,!(type instanceof Class<?>),PREFIX_EXPRESSION, line no: 1100, 0.0, 0.6875, 1.0, 0.07407407407407407, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(type instanceof Class<?>),PARENTHESIZED_EXPRESSION, line no: 1100, 0.0, 0.6875, 1.0, 0.07692307692307693, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,!((Class<?>)type).isPrimitive(),PREFIX_EXPRESSION, line no: 1100, 0.0, 0.6875, 1.0, 0.0967741935483871, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,((Class<?>)type).isPrimitive(),METHOD_INVOCATION, line no: 1100, 0.0, 0.71875, 1.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,((Class<?>)type),PARENTHESIZED_EXPRESSION, line no: 1100, 0.0, 0.71875, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(value.getClass() type null),METHOD_INVOCATION, line no: 1101, 0.0, 0.71875, 1.0, 0.05, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,value.getClass(),METHOD_INVOCATION, line no: 1101, 0.0, 0.75, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getClass,SIMPLE_NAME, line no: 1101, 0.0, 0.78125, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,normalizeUpperBounds,SIMPLE_NAME, line no: 1125, 0.0, 0.03125, 0.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Validate.notNull(bounds "null value specified for bounds array"),METHOD_INVOCATION, line no: 1126, 0.0, 0.90625, 0.0, 0.046875, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"null value specified for bounds array",STRING_LITERAL, line no: 1126, 0.0, 0.90625, 0.0, 0.05128205128205128, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,bounds.length < 2,INFIX_EXPRESSION, line no: 1128, 0.0, 0.875, 1.0, 0.11764705882352941, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,bounds.length,QUALIFIED_NAME, line no: 1128, 0.0, 0.875, 0.0, 0.15384615384615385, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,2,NUMBER_LITERAL, line no: 1128, 0.0, 0.875, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,types,SIMPLE_NAME, line no: 1132, 0.0, 0.875, 0.0, 0.4, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new HashSet<Type>(bounds.length),CLASS_INSTANCE_CREATION, line no: 1132, 0.0, 0.875, 0.0, 0.09375, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,type1,SIMPLE_NAME, line no: 1134, 0.0, 0.875, 0.0, 0.4, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,subtypeFound,SIMPLE_NAME, line no: 1135, 0.0, 0.6875, 1.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,type2,SIMPLE_NAME, line no: 1137, 0.0, 0.6875, 0.0, 0.4, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,type1 != type2 && isAssignable(type2 type1 null),INFIX_EXPRESSION, line no: 1138, 0.0, 0.3125, 1.0, 0.041666666666666664, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,type1 != type2,INFIX_EXPRESSION, line no: 1138, 0.0, 0.3125, 1.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(type2 type1 null),METHOD_INVOCATION, line no: 1138, 0.0, 0.34375, 1.0, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,!subtypeFound,PREFIX_EXPRESSION, line no: 1144, 0.0, 0.65625, 1.0, 0.15384615384615385, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,types.add(type1),METHOD_INVOCATION, line no: 1145, 0.0, 0.1875, 1.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,add,SIMPLE_NAME, line no: 1145, 0.0, 0.21875, 1.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,types.toArray(new Type[types.size()]),METHOD_INVOCATION, line no: 1149, 0.0, 0.9375, 0.0, 0.08108108108108109, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toArray,SIMPLE_NAME, line no: 1149, 0.0, 0.9375, 0.0, 0.2857142857142857, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new Type[types.size()],ARRAY_CREATION, line no: 1149, 0.0, 0.9375, 0.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,types.size(),METHOD_INVOCATION, line no: 1149, 0.0, 0.9375, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,size,SIMPLE_NAME, line no: 1149, 0.0, 0.9375, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVariable,SIMPLE_NAME, line no: 1161, 0.0, 0.03125, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Validate.notNull(typeVariable "typeVariable is null"),METHOD_INVOCATION, line no: 1162, 0.0, 0.625, 0.0, 0.05660377358490566, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"typeVariable is null",STRING_LITERAL, line no: 1162, 0.0, 0.625, 0.0, 0.13636363636363635, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVariable.getBounds(),METHOD_INVOCATION, line no: 1163, 0.0, 0.625, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,bounds.length == 0 ? new Type[]{Object.class} : normalizeUpperBounds(bounds),CONDITIONAL_EXPRESSION, line no: 1165, 0.0, 0.625, 0.0, 0.039473684210526314, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,bounds.length == 0,INFIX_EXPRESSION, line no: 1165, 0.0, 0.625, 1.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new Type[]{Object.class},ARRAY_CREATION, line no: 1165, 0.0, 0.625, 0.0, 0.041666666666666664, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,{Object.class},ARRAY_INITIALIZER, line no: 1165, 0.0, 0.625, 0.0, 0.07142857142857142, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,normalizeUpperBounds(bounds),METHOD_INVOCATION, line no: 1165, 0.0, 0.65625, 0.0, 0.07142857142857142, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Validate.notNull(wildcardType "wildcardType is null"),METHOD_INVOCATION, line no: 1179, 0.0, 0.625, 0.0, 0.05660377358490566, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"wildcardType is null",STRING_LITERAL, line no: 1179, 0.0, 0.625, 0.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,wildcardType.getUpperBounds(),METHOD_INVOCATION, line no: 1180, 0.0, 0.625, 0.0, 0.10344827586206896, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,wildcardType.getLowerBounds(),METHOD_INVOCATION, line no: 1196, 0.0, 0.53125, 0.0, 0.10344827586206896, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,bounds.length == 0 ? new Type[]{null} : bounds,CONDITIONAL_EXPRESSION, line no: 1198, 0.0, 0.53125, 0.0, 0.043478260869565216, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new Type[]{null},ARRAY_CREATION, line no: 1198, 0.0, 0.53125, 0.0, 0.0625, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,{null},ARRAY_INITIALIZER, line no: 1198, 0.0, 0.53125, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typesSatisfyVariables,SIMPLE_NAME, line no: 1214, 0.0, 0.03125, 1.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Validate.notNull(typeVarAssigns "typeVarAssigns is null"),METHOD_INVOCATION, line no: 1215, 0.0, 0.875, 0.0, 0.05263157894736842, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"typeVarAssigns is null",STRING_LITERAL, line no: 1215, 0.0, 0.875, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Map.Entry,QUALIFIED_NAME, line no: 1218, 0.0, 0.875, 0.0, 0.2222222222222222, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Entry,SIMPLE_NAME, line no: 1218, 0.0, 0.875, 0.0, 0.4, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,entry,SIMPLE_NAME, line no: 1218, 0.0, 0.875, 0.0, 0.4, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVarAssigns.entrySet(),METHOD_INVOCATION, line no: 1218, 0.0, 0.875, 0.0, 0.12, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,entrySet,SIMPLE_NAME, line no: 1218, 0.0, 0.875, 0.0, 0.375, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,entry.getKey(),METHOD_INVOCATION, line no: 1219, 0.0, 0.8125, 0.0, 0.21428571428571427, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getKey,SIMPLE_NAME, line no: 1219, 0.0, 0.8125, 0.0, 0.3333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,entry.getValue(),METHOD_INVOCATION, line no: 1220, 0.0, 0.8125, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getValue,SIMPLE_NAME, line no: 1220, 0.0, 0.8125, 0.0, 0.375, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getImplicitBounds(typeVar),METHOD_INVOCATION, line no: 1222, 0.0, 0.8125, 0.0, 0.11538461538461539, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,!isAssignable(type substituteTypeVariables(bound typeVarAssigns) typeVarAssigns),PREFIX_EXPRESSION, line no: 1223, 0.0, 0.34375, 1.0, 0.05, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isAssignable(type substituteTypeVariables(bound typeVarAssigns) typeVarAssigns),METHOD_INVOCATION, line no: 1223, 0.0, 0.375, 1.0, 0.05063291139240506, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,substituteTypeVariables(bound typeVarAssigns),METHOD_INVOCATION, line no: 1223, 0.0, 0.40625, 0.0, 0.08888888888888889, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,rawType,SIMPLE_NAME, line no: 1240, 0.0, 0.5625, 0.0, 0.2857142857142857, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,parameterizedType.getRawType(),METHOD_INVOCATION, line no: 1240, 0.0, 0.5625, 0.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,!(rawType instanceof Class<?>),PREFIX_EXPRESSION, line no: 1247, 0.0, 0.53125, 1.0, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(rawType instanceof Class<?>),PARENTHESIZED_EXPRESSION, line no: 1247, 0.0, 0.53125, 1.0, 0.06896551724137931, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,rawType instanceof Class<?>,INSTANCEOF_EXPRESSION, line no: 1247, 0.0, 0.53125, 1.0, 0.07407407407407407, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new IllegalStateException("Wait... What!? Type of rawType: " + rawType),CLASS_INSTANCE_CREATION, line no: 1248, 0.0, 0.125, 0.0, 0.04225352112676056, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"Wait... What!? Type of rawType: " + rawType,INFIX_EXPRESSION, line no: 1248, 0.0, 0.125, 0.0, 0.06818181818181818, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"Wait... What!? Type of rawType: ",STRING_LITERAL, line no: 1248, 0.0, 0.125, 0.0, 0.08823529411764706, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(Class<?>)rawType,CAST_EXPRESSION, line no: 1251, 0.0, 0.5625, 0.0, 0.11764705882352941, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,assigningType,SIMPLE_NAME, line no: 1266, 0.0, 0.03125, 0.0, 0.07692307692307693, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,assigningType == null,INFIX_EXPRESSION, line no: 1278, 0.0, 0.875, 1.0, 0.047619047619047616, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,genericDeclaration,SIMPLE_NAME, line no: 1283, 0.0, 0.875, 0.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,((TypeVariable<?>)type).getGenericDeclaration(),METHOD_INVOCATION, line no: 1283, 0.0, 0.90625, 0.0, 0.06382978723404255, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getGenericDeclaration,SIMPLE_NAME, line no: 1283, 0.0, 0.90625, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,!(genericDeclaration instanceof Class<?>),PREFIX_EXPRESSION, line no: 1287, 0.0, 0.875, 1.0, 0.04878048780487805, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(genericDeclaration instanceof Class<?>),PARENTHESIZED_EXPRESSION, line no: 1287, 0.0, 0.875, 1.0, 0.05, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,genericDeclaration instanceof Class<?>,INSTANCEOF_EXPRESSION, line no: 1287, 0.0, 0.875, 1.0, 0.05263157894736842, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getTypeArguments(assigningType (Class<?>)genericDeclaration),METHOD_INVOCATION, line no: 1293, 0.0, 0.90625, 0.0, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(Class<?>)genericDeclaration,CAST_EXPRESSION, line no: 1294, 0.0, 0.90625, 0.0, 0.07142857142857142, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVarAssigns == null,INFIX_EXPRESSION, line no: 1298, 0.0, 0.875, 1.0, 0.13636363636363635, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeArgument,SIMPLE_NAME, line no: 1303, 0.0, 0.875, 0.0, 0.3333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeArgument == null,INFIX_EXPRESSION, line no: 1305, 0.0, 0.875, 1.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getRawType(typeArgument assigningType),METHOD_INVOCATION, line no: 1310, 0.0, 0.90625, 0.0, 0.10526315789473684, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,rawComponentType,SIMPLE_NAME, line no: 1315, 0.0, 0.625, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getRawType(((GenericArrayType)type).getGenericComponentType() assigningType),METHOD_INVOCATION, line no: 1315, 0.0, 0.625, 0.0, 0.039473684210526314, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Array.newInstance(rawComponentType 0).getClass(),METHOD_INVOCATION, line no: 1319, 0.0, 0.65625, 0.0, 0.0625, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Array.newInstance(rawComponentType 0),METHOD_INVOCATION, line no: 1319, 0.0, 0.6875, 0.0, 0.08108108108108109, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,newInstance,SIMPLE_NAME, line no: 1319, 0.0, 0.71875, 0.0, 0.18181818181818182, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new IllegalArgumentException("unknown type: " + type),CLASS_INSTANCE_CREATION, line no: 1327, 0.0, 0.9375, 0.0, 0.05660377358490566, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"unknown type: " + type,INFIX_EXPRESSION, line no: 1327, 0.0, 0.9375, 0.0, 0.08695652173913043, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"unknown type: ",STRING_LITERAL, line no: 1327, 0.0, 0.9375, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,isArrayType,SIMPLE_NAME, line no: 1335, 0.0, 0.03125, 1.0, 0.18181818181818182, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,type instanceof GenericArrayType || type instanceof Class<?> && ((Class<?>)type).isArray(),INFIX_EXPRESSION, line no: 1336, 0.0, 0.40625, 1.0, 0.03333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,type instanceof Class<?> && ((Class<?>)type).isArray(),INFIX_EXPRESSION, line no: 1336, 0.0, 0.40625, 1.0, 0.037037037037037035, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,((Class<?>)type).isArray(),METHOD_INVOCATION, line no: 1336, 0.0, 0.4375, 1.0, 0.07692307692307693, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getArrayComponentType,SIMPLE_NAME, line no: 1344, 0.0, 0.03125, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,clazz,SIMPLE_NAME, line no: 1346, 0.0, 0.46875, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,clazz.isArray() ? clazz.getComponentType() : null,CONDITIONAL_EXPRESSION, line no: 1347, 0.0, 0.46875, 0.0, 0.04081632653061224, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,clazz.isArray(),METHOD_INVOCATION, line no: 1347, 0.0, 0.5, 1.0, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,clazz.getComponentType(),METHOD_INVOCATION, line no: 1347, 0.0, 0.5, 0.0, 0.08333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,unrollVariables,SIMPLE_NAME, line no: 1363, 0.0, 0.03125, 0.0, 0.13333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeArguments == null,INFIX_EXPRESSION, line no: 1364, 0.0, 0.9375, 1.0, 0.19047619047619047, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeArguments=Collections.<TypeVariable<?> Type>emptyMap(),ASSIGNMENT, line no: 1365, 0.0, 0.21875, 0.0, 0.06896551724137931, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Collections.<TypeVariable<?> Type>emptyMap(),METHOD_INVOCATION, line no: 1365, 0.0, 0.25, 0.0, 0.06818181818181818, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,emptyMap,SIMPLE_NAME, line no: 1365, 0.0, 0.28125, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,containsTypeVariables(type),METHOD_INVOCATION, line no: 1367, 0.0, 0.9375, 1.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,containsTypeVariables,SIMPLE_NAME, line no: 1367, 0.0, 0.9375, 1.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,unrollVariables(typeArguments typeArguments.get(type)),METHOD_INVOCATION, line no: 1369, 0.0, 0.34375, 0.0, 0.07407407407407407, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeArguments.get(type),METHOD_INVOCATION, line no: 1369, 0.0, 0.375, 0.0, 0.17391304347826086, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,p,SIMPLE_NAME, line no: 1372, 0.0, 0.84375, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,parameterizedTypeArguments,SIMPLE_NAME, line no: 1373, 0.0, 0.84375, 0.0, 0.15384615384615385, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,p.getOwnerType() == null,INFIX_EXPRESSION, line no: 1374, 0.0, 0.84375, 1.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,p.getOwnerType(),METHOD_INVOCATION, line no: 1374, 0.0, 0.84375, 0.0, 0.1875, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,parameterizedTypeArguments=typeArguments,ASSIGNMENT, line no: 1375, 0.0, 0.09375, 0.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,parameterizedTypeArguments=new HashMap<TypeVariable<?> Type>(typeArguments),ASSIGNMENT, line no: 1377, 0.0, 0.40625, 0.0, 0.05333333333333334, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new HashMap<TypeVariable<?> Type>(typeArguments),CLASS_INSTANCE_CREATION, line no: 1377, 0.0, 0.40625, 0.0, 0.08333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,parameterizedTypeArguments.putAll(TypeUtils.getTypeArguments(p)),METHOD_INVOCATION, line no: 1378, 0.0, 0.4375, 0.0, 0.0625, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,putAll,SIMPLE_NAME, line no: 1378, 0.0, 0.46875, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,TypeUtils.getTypeArguments(p),METHOD_INVOCATION, line no: 1378, 0.0, 0.46875, 0.0, 0.13793103448275862, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,args,SIMPLE_NAME, line no: 1380, 0.0, 0.84375, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,p.getActualTypeArguments(),METHOD_INVOCATION, line no: 1380, 0.0, 0.84375, 0.0, 0.15384615384615385, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,i < args.length,INFIX_EXPRESSION, line no: 1381, 0.0, 0.84375, 1.0, 0.13333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,args.length,QUALIFIED_NAME, line no: 1381, 0.0, 0.84375, 0.0, 0.18181818181818182, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,unrolled,SIMPLE_NAME, line no: 1382, 0.0, 0.46875, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,unrollVariables(parameterizedTypeArguments args[i]),METHOD_INVOCATION, line no: 1382, 0.0, 0.46875, 0.0, 0.0784313725490196, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,args[i],ARRAY_ACCESS, line no: 1382, 0.0, 0.46875, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,unrolled != null,INFIX_EXPRESSION, line no: 1383, 0.0, 0.4375, 1.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,args[i]=unrolled,ASSIGNMENT, line no: 1384, 0.0, 0.125, 0.0, 0.1875, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,parameterizeWithOwner(p.getOwnerType() (Class<?>)p.getRawType() args),METHOD_INVOCATION, line no: 1387, 0.0, 0.875, 0.0, 0.043478260869565216, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,parameterizeWithOwner,SIMPLE_NAME, line no: 1387, 0.0, 0.875, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(Class<?>)p.getRawType(),CAST_EXPRESSION, line no: 1387, 0.0, 0.875, 0.0, 0.08333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,p.getRawType(),METHOD_INVOCATION, line no: 1387, 0.0, 0.875, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,wild,SIMPLE_NAME, line no: 1390, 0.0, 0.8125, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,wildcardType().withUpperBounds(unrollBounds(typeArguments wild.getUpperBounds())).withLowerBounds(unrollBounds(typeArguments wild.getLowerBounds())).build(),METHOD_INVOCATION, line no: 1391, 0.0, 0.84375, 0.0, 0.02564102564102564, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,wildcardType().withUpperBounds(unrollBounds(typeArguments wild.getUpperBounds())).withLowerBounds(unrollBounds(typeArguments wild.getLowerBounds())),METHOD_INVOCATION, line no: 1391, 0.0, 0.84375, 0.0, 0.02702702702702703, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,wildcardType().withUpperBounds(unrollBounds(typeArguments wild.getUpperBounds())),METHOD_INVOCATION, line no: 1391, 0.0, 0.84375, 0.0, 0.04938271604938271, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,unrollBounds(typeArguments wild.getUpperBounds()),METHOD_INVOCATION, line no: 1391, 0.0, 0.84375, 0.0, 0.08163265306122448, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,unrollBounds,SIMPLE_NAME, line no: 1391, 0.0, 0.84375, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,wild.getUpperBounds(),METHOD_INVOCATION, line no: 1391, 0.0, 0.84375, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,unrollBounds(typeArguments wild.getLowerBounds()),METHOD_INVOCATION, line no: 1392, 0.0, 0.84375, 0.0, 0.08163265306122448, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,wild.getLowerBounds(),METHOD_INVOCATION, line no: 1392, 0.0, 0.84375, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,i < result.length,INFIX_EXPRESSION, line no: 1409, 0.0, 0.6875, 1.0, 0.17647058823529413, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,result.length,QUALIFIED_NAME, line no: 1409, 0.0, 0.6875, 0.0, 0.23076923076923078, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,unrollVariables(typeArguments result[i]),METHOD_INVOCATION, line no: 1410, 0.0, 0.65625, 0.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,result[i],ARRAY_ACCESS, line no: 1410, 0.0, 0.65625, 0.0, 0.2222222222222222, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,unrolled == null,INFIX_EXPRESSION, line no: 1411, 0.0, 0.625, 1.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,result=ArrayUtils.remove(result i--),ASSIGNMENT, line no: 1412, 0.0, 0.21875, 0.0, 0.08333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,ArrayUtils.remove(result i--),METHOD_INVOCATION, line no: 1412, 0.0, 0.25, 0.0, 0.10344827586206896, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,remove,SIMPLE_NAME, line no: 1412, 0.0, 0.28125, 0.0, 0.3333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,i--,POSTFIX_EXPRESSION, line no: 1412, 0.0, 0.25, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,result[i]=unrolled,ASSIGNMENT, line no: 1414, 0.0, 0.125, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,((Class<?>)type).getTypeParameters().length > 0,INFIX_EXPRESSION, line no: 1432, 0.0, 0.3125, 1.0, 0.06382978723404255, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,((Class<?>)type).getTypeParameters().length,FIELD_ACCESS, line no: 1432, 0.0, 0.3125, 0.0, 0.06976744186046512, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,((Class<?>)type).getTypeParameters(),METHOD_INVOCATION, line no: 1432, 0.0, 0.34375, 0.0, 0.08333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,arg,SIMPLE_NAME, line no: 1435, 0.0, 0.5, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,((ParameterizedType)type).getActualTypeArguments(),METHOD_INVOCATION, line no: 1435, 0.0, 0.5, 0.0, 0.08, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,((ParameterizedType)type),PARENTHESIZED_EXPRESSION, line no: 1435, 0.0, 0.5, 0.0, 0.12, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,containsTypeVariables(arg),METHOD_INVOCATION, line no: 1436, 0.0, 0.21875, 1.0, 0.11538461538461539, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,containsTypeVariables(TypeUtils.getImplicitLowerBounds(wild)[0]) || containsTypeVariables(TypeUtils.getImplicitUpperBounds(wild)[0]),INFIX_EXPRESSION, line no: 1444, 0.0, 0.6875, 1.0, 0.030303030303030304, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,containsTypeVariables(TypeUtils.getImplicitLowerBounds(wild)[0]),METHOD_INVOCATION, line no: 1444, 0.0, 0.71875, 1.0, 0.046875, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,TypeUtils.getImplicitLowerBounds(wild)[0],ARRAY_ACCESS, line no: 1444, 0.0, 0.71875, 0.0, 0.07317073170731707, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,TypeUtils.getImplicitLowerBounds(wild),METHOD_INVOCATION, line no: 1444, 0.0, 0.75, 0.0, 0.07894736842105263, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,containsTypeVariables(TypeUtils.getImplicitUpperBounds(wild)[0]),METHOD_INVOCATION, line no: 1445, 0.0, 0.71875, 1.0, 0.046875, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,TypeUtils.getImplicitUpperBounds(wild)[0],ARRAY_ACCESS, line no: 1445, 0.0, 0.71875, 0.0, 0.07317073170731707, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,TypeUtils.getImplicitUpperBounds(wild),METHOD_INVOCATION, line no: 1445, 0.0, 0.75, 0.0, 0.07894736842105263, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,parameterize,SIMPLE_NAME, line no: 1458, 0.0, 0.03125, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,parameterizeWithOwner(null raw typeArguments),METHOD_INVOCATION, line no: 1459, 0.0, 0.21875, 0.0, 0.08888888888888889, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeArgMappings,SIMPLE_NAME, line no: 1471, 0.0, 0.03125, 0.0, 0.13333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Validate.notNull(raw "raw class is null"),METHOD_INVOCATION, line no: 1472, 0.0, 0.59375, 0.0, 0.07317073170731707, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"raw class is null",STRING_LITERAL, line no: 1472, 0.0, 0.59375, 0.0, 0.10526315789473684, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Validate.notNull(typeArgMappings "typeArgMappings is null"),METHOD_INVOCATION, line no: 1473, 0.0, 0.59375, 0.0, 0.05084745762711865, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"typeArgMappings is null",STRING_LITERAL, line no: 1473, 0.0, 0.59375, 0.0, 0.12, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,parameterizeWithOwner(null raw extractTypeArgumentsFrom(typeArgMappings raw.getTypeParameters())),METHOD_INVOCATION, line no: 1474, 0.0, 0.625, 0.0, 0.041237113402061855, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,extractTypeArgumentsFrom(typeArgMappings raw.getTypeParameters()),METHOD_INVOCATION, line no: 1474, 0.0, 0.625, 0.0, 0.06153846153846154, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,extractTypeArgumentsFrom,SIMPLE_NAME, line no: 1474, 0.0, 0.65625, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,raw.getTypeParameters(),METHOD_INVOCATION, line no: 1474, 0.0, 0.625, 0.0, 0.13043478260869565, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,owner,SIMPLE_NAME, line no: 1487, 0.0, 0.03125, 0.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,raw.getEnclosingClass() == null,INFIX_EXPRESSION, line no: 1491, 0.0, 0.8125, 1.0, 0.06451612903225806, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,raw.getEnclosingClass(),METHOD_INVOCATION, line no: 1491, 0.0, 0.8125, 0.0, 0.08695652173913043, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getEnclosingClass,SIMPLE_NAME, line no: 1491, 0.0, 0.8125, 0.0, 0.058823529411764705, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,owner == null,INFIX_EXPRESSION, line no: 1492, 0.0, 0.28125, 1.0, 0.15384615384615385, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"no owner allowed for top-level %s",STRING_LITERAL, line no: 1492, 0.0, 0.28125, 0.0, 0.05714285714285714, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,useOwner=null,ASSIGNMENT, line no: 1493, 0.0, 0.25, 0.0, 0.15384615384615385, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,useOwner=raw.getEnclosingClass(),ASSIGNMENT, line no: 1495, 0.0, 0.15625, 0.0, 0.0625, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,TypeUtils.isAssignable(owner raw.getEnclosingClass()),METHOD_INVOCATION, line no: 1497, 0.0, 0.53125, 1.0, 0.05660377358490566, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"%s is invalid owner type for parameterized %s",STRING_LITERAL, line no: 1498, 0.0, 0.5, 0.0, 0.06382978723404255, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,useOwner=owner,ASSIGNMENT, line no: 1499, 0.0, 0.46875, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Validate.noNullElements(typeArguments "null type argument at index %s"),METHOD_INVOCATION, line no: 1501, 0.0, 0.8125, 0.0, 0.056338028169014086, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,noNullElements,SIMPLE_NAME, line no: 1501, 0.0, 0.8125, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"null type argument at index %s",STRING_LITERAL, line no: 1501, 0.0, 0.8125, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,raw.getTypeParameters().length == typeArguments.length,INFIX_EXPRESSION, line no: 1502, 0.0, 0.8125, 1.0, 0.07407407407407407, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,raw.getTypeParameters().length,FIELD_ACCESS, line no: 1502, 0.0, 0.8125, 0.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeArguments.length,QUALIFIED_NAME, line no: 1502, 0.0, 0.8125, 0.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"invalid number of type parameters specified: expected %d  got %d",STRING_LITERAL, line no: 1503, 0.0, 0.8125, 0.0, 0.045454545454545456, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new ParameterizedTypeImpl(raw useOwner typeArguments),CLASS_INSTANCE_CREATION, line no: 1506, 0.0, 0.84375, 0.0, 0.07547169811320754, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,parameterizeWithOwner(owner raw extractTypeArgumentsFrom(typeArgMappings raw.getTypeParameters())),METHOD_INVOCATION, line no: 1522, 0.0, 0.65625, 0.0, 0.04081632653061224, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,mappings,SIMPLE_NAME, line no: 1531, 0.0, 0.03125, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,variables,SIMPLE_NAME, line no: 1531, 0.0, 0.03125, 0.0, 0.2222222222222222, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new Type[variables.length],ARRAY_CREATION, line no: 1532, 0.0, 0.6875, 0.0, 0.07692307692307693, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,variables.length,QUALIFIED_NAME, line no: 1532, 0.0, 0.6875, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,index,SIMPLE_NAME, line no: 1533, 0.0, 0.6875, 0.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,mappings.containsKey(var),METHOD_INVOCATION, line no: 1535, 0.0, 0.5625, 1.0, 0.08, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"missing argument mapping for %s",STRING_LITERAL, line no: 1535, 0.0, 0.53125, 0.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toString(var),METHOD_INVOCATION, line no: 1535, 0.0, 0.5625, 0.0, 0.15384615384615385, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,result[index++]=mappings.get(var),ASSIGNMENT, line no: 1536, 0.0, 0.5, 0.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,result[index++],ARRAY_ACCESS, line no: 1536, 0.0, 0.5, 0.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,index++,POSTFIX_EXPRESSION, line no: 1536, 0.0, 0.5, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,mappings.get(var),METHOD_INVOCATION, line no: 1536, 0.0, 0.53125, 0.0, 0.11764705882352941, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new WildcardTypeBuilder(),CLASS_INSTANCE_CREATION, line no: 1547, 0.0, 0.09375, 0.0, 0.12, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,genericArrayType,SIMPLE_NAME, line no: 1558, 0.0, 0.03125, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new GenericArrayTypeImpl(Validate.notNull(componentType "componentType is null")),CLASS_INSTANCE_CREATION, line no: 1559, 0.0, 0.21875, 0.0, 0.037037037037037035, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Validate.notNull(componentType "componentType is null"),METHOD_INVOCATION, line no: 1559, 0.0, 0.25, 0.0, 0.05454545454545454, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"componentType is null",STRING_LITERAL, line no: 1559, 0.0, 0.25, 0.0, 0.08695652173913043, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,t1,SIMPLE_NAME, line no: 1571, 0.0, 0.03125, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,t2,SIMPLE_NAME, line no: 1571, 0.0, 0.03125, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,ObjectUtils.equals(t1 t2),METHOD_INVOCATION, line no: 1572, 0.0, 0.90625, 1.0, 0.08, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,t1 instanceof ParameterizedType,INSTANCEOF_EXPRESSION, line no: 1575, 0.0, 0.875, 1.0, 0.0967741935483871, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,equals((ParameterizedType)t1 t2),METHOD_INVOCATION, line no: 1576, 0.0, 0.3125, 1.0, 0.09375, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(ParameterizedType)t1,CAST_EXPRESSION, line no: 1576, 0.0, 0.3125, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,t1 instanceof GenericArrayType,INSTANCEOF_EXPRESSION, line no: 1578, 0.0, 0.875, 1.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,equals((GenericArrayType)t1 t2),METHOD_INVOCATION, line no: 1579, 0.0, 0.3125, 1.0, 0.06451612903225806, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(GenericArrayType)t1,CAST_EXPRESSION, line no: 1579, 0.0, 0.3125, 0.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,t1 instanceof WildcardType,INSTANCEOF_EXPRESSION, line no: 1581, 0.0, 0.875, 1.0, 0.11538461538461539, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,equals((WildcardType)t1 t2),METHOD_INVOCATION, line no: 1582, 0.0, 0.3125, 1.0, 0.07407407407407407, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(WildcardType)t1,CAST_EXPRESSION, line no: 1582, 0.0, 0.3125, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,t,SIMPLE_NAME, line no: 1594, 0.0, 0.03125, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,t instanceof ParameterizedType,INSTANCEOF_EXPRESSION, line no: 1595, 0.0, 0.9375, 1.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,other,SIMPLE_NAME, line no: 1596, 0.0, 0.84375, 0.0, 0.4, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(ParameterizedType)t,CAST_EXPRESSION, line no: 1596, 0.0, 0.84375, 0.0, 0.15, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,equals(p.getRawType() other.getRawType()) && equals(p.getOwnerType() other.getOwnerType()),INFIX_EXPRESSION, line no: 1597, 0.0, 0.84375, 1.0, 0.044444444444444446, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,equals(p.getRawType() other.getRawType()),METHOD_INVOCATION, line no: 1597, 0.0, 0.84375, 1.0, 0.07317073170731707, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,other.getRawType(),METHOD_INVOCATION, line no: 1597, 0.0, 0.84375, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,equals(p.getOwnerType() other.getOwnerType()),METHOD_INVOCATION, line no: 1597, 0.0, 0.84375, 1.0, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,other.getOwnerType(),METHOD_INVOCATION, line no: 1597, 0.0, 0.84375, 0.0, 0.15, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,equals(p.getActualTypeArguments() other.getActualTypeArguments()),METHOD_INVOCATION, line no: 1598, 0.0, 0.375, 1.0, 0.06153846153846154, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,other.getActualTypeArguments(),METHOD_INVOCATION, line no: 1598, 0.0, 0.40625, 0.0, 0.13333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,a,SIMPLE_NAME, line no: 1611, 0.0, 0.03125, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,t instanceof GenericArrayType && equals(a.getGenericComponentType() ((GenericArrayType)t).getGenericComponentType()),INFIX_EXPRESSION, line no: 1612, 0.0, 0.5, 1.0, 0.034482758620689655, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,t instanceof GenericArrayType,INSTANCEOF_EXPRESSION, line no: 1612, 0.0, 0.5, 1.0, 0.10344827586206896, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,equals(a.getGenericComponentType() ((GenericArrayType)t).getGenericComponentType()),METHOD_INVOCATION, line no: 1613, 0.0, 0.53125, 1.0, 0.03614457831325301, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,a.getGenericComponentType(),METHOD_INVOCATION, line no: 1613, 0.0, 0.5625, 0.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,((GenericArrayType)t).getGenericComponentType(),METHOD_INVOCATION, line no: 1613, 0.0, 0.5625, 0.0, 0.06382978723404255, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,((GenericArrayType)t),PARENTHESIZED_EXPRESSION, line no: 1613, 0.0, 0.5625, 0.0, 0.09523809523809523, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(GenericArrayType)t,CAST_EXPRESSION, line no: 1613, 0.0, 0.5625, 0.0, 0.10526315789473684, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,w,SIMPLE_NAME, line no: 1623, 0.0, 0.03125, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,t instanceof WildcardType,INSTANCEOF_EXPRESSION, line no: 1624, 0.0, 0.9375, 1.0, 0.12, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(WildcardType)t,CAST_EXPRESSION, line no: 1625, 0.0, 0.78125, 0.0, 0.13333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,equals(getImplicitLowerBounds(w) getImplicitLowerBounds(other)) && equals(getImplicitUpperBounds(w) getImplicitUpperBounds(other)),INFIX_EXPRESSION, line no: 1626, 0.0, 0.8125, 1.0, 0.03076923076923077, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,equals(getImplicitLowerBounds(w) getImplicitLowerBounds(other)),METHOD_INVOCATION, line no: 1626, 0.0, 0.8125, 1.0, 0.06349206349206349, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getImplicitLowerBounds(w),METHOD_INVOCATION, line no: 1626, 0.0, 0.8125, 0.0, 0.12, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getImplicitLowerBounds(other),METHOD_INVOCATION, line no: 1626, 0.0, 0.8125, 0.0, 0.13793103448275862, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,equals(getImplicitUpperBounds(w) getImplicitUpperBounds(other)),METHOD_INVOCATION, line no: 1627, 0.0, 0.8125, 1.0, 0.06349206349206349, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getImplicitUpperBounds(w),METHOD_INVOCATION, line no: 1627, 0.0, 0.8125, 0.0, 0.12, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getImplicitUpperBounds(other),METHOD_INVOCATION, line no: 1627, 0.0, 0.8125, 0.0, 0.13793103448275862, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,t1.length == t2.length,INFIX_EXPRESSION, line no: 1640, 0.0, 0.6875, 1.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,t1.length,QUALIFIED_NAME, line no: 1640, 0.0, 0.6875, 0.0, 0.2222222222222222, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,t2.length,QUALIFIED_NAME, line no: 1640, 0.0, 0.6875, 0.0, 0.2222222222222222, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,i < t1.length,INFIX_EXPRESSION, line no: 1641, 0.0, 0.53125, 1.0, 0.15384615384615385, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,!equals(t1[i] t2[i]),PREFIX_EXPRESSION, line no: 1642, 0.0, 0.28125, 1.0, 0.05, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,equals(t1[i] t2[i]),METHOD_INVOCATION, line no: 1642, 0.0, 0.3125, 1.0, 0.05263157894736842, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,t1[i],ARRAY_ACCESS, line no: 1642, 0.0, 0.3125, 0.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,t2[i],ARRAY_ACCESS, line no: 1642, 0.0, 0.3125, 0.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Validate.notNull(type),METHOD_INVOCATION, line no: 1659, 0.0, 0.875, 0.0, 0.13636363636363635, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,classToString((Class<?>)type),METHOD_INVOCATION, line no: 1661, 0.0, 0.28125, 0.0, 0.10344827586206896, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,classToString,SIMPLE_NAME, line no: 1661, 0.0, 0.3125, 0.0, 0.15384615384615385, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,parameterizedTypeToString((ParameterizedType)type),METHOD_INVOCATION, line no: 1664, 0.0, 0.28125, 0.0, 0.06, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,parameterizedTypeToString,SIMPLE_NAME, line no: 1664, 0.0, 0.3125, 0.0, 0.12, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,wildcardTypeToString((WildcardType)type),METHOD_INVOCATION, line no: 1667, 0.0, 0.28125, 0.0, 0.075, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,wildcardTypeToString,SIMPLE_NAME, line no: 1667, 0.0, 0.3125, 0.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVariableToString((TypeVariable<?>)type),METHOD_INVOCATION, line no: 1670, 0.0, 0.28125, 0.0, 0.06976744186046512, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVariableToString,SIMPLE_NAME, line no: 1670, 0.0, 0.3125, 0.0, 0.15, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,genericArrayTypeToString((GenericArrayType)type),METHOD_INVOCATION, line no: 1673, 0.0, 0.28125, 0.0, 0.0625, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,genericArrayTypeToString,SIMPLE_NAME, line no: 1673, 0.0, 0.3125, 0.0, 0.08333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new IllegalArgumentException(ObjectUtils.identityToString(type)),CLASS_INSTANCE_CREATION, line no: 1675, 0.0, 0.875, 0.0, 0.046875, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,ObjectUtils.identityToString(type),METHOD_INVOCATION, line no: 1675, 0.0, 0.875, 0.0, 0.08823529411764706, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,identityToString,SIMPLE_NAME, line no: 1675, 0.0, 0.875, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toLongString,SIMPLE_NAME, line no: 1685, 0.0, 0.03125, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Validate.notNull(var "var is null"),METHOD_INVOCATION, line no: 1686, 0.0, 0.90625, 0.0, 0.08571428571428572, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"var is null",STRING_LITERAL, line no: 1686, 0.0, 0.90625, 0.0, 0.15384615384615385, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,StringBuilder,SIMPLE_NAME, line no: 1687, 0.0, 0.90625, 0.0, 0.3076923076923077, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf,SIMPLE_NAME, line no: 1687, 0.0, 0.90625, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new StringBuilder(),CLASS_INSTANCE_CREATION, line no: 1687, 0.0, 0.90625, 0.0, 0.21052631578947367, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,d,SIMPLE_NAME, line no: 1688, 0.0, 0.90625, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,((TypeVariable<?>)var).getGenericDeclaration(),METHOD_INVOCATION, line no: 1688, 0.0, 0.90625, 0.0, 0.06521739130434782, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,((TypeVariable<?>)var),PARENTHESIZED_EXPRESSION, line no: 1688, 0.0, 0.90625, 0.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(TypeVariable<?>)var,CAST_EXPRESSION, line no: 1688, 0.0, 0.90625, 0.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,d instanceof Class<?>,INSTANCEOF_EXPRESSION, line no: 1689, 0.0, 0.90625, 1.0, 0.09523809523809523, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,c,SIMPLE_NAME, line no: 1690, 0.0, 0.84375, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(Class<?>)d,CAST_EXPRESSION, line no: 1690, 0.0, 0.84375, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,c.getEnclosingClass() == null,INFIX_EXPRESSION, line no: 1692, 0.0, 0.6875, 1.0, 0.06896551724137931, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,c.getEnclosingClass(),METHOD_INVOCATION, line no: 1692, 0.0, 0.6875, 0.0, 0.047619047619047616, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.insert(0 c.getName()),METHOD_INVOCATION, line no: 1693, 0.0, 0.25, 0.0, 0.08, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,insert,SIMPLE_NAME, line no: 1693, 0.0, 0.28125, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,c.getName(),METHOD_INVOCATION, line no: 1693, 0.0, 0.28125, 0.0, 0.18181818181818182, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getName,SIMPLE_NAME, line no: 1693, 0.0, 0.3125, 0.0, 0.2857142857142857, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.insert(0 c.getSimpleName()).insert(0 '.'),METHOD_INVOCATION, line no: 1696, 0.0, 0.6875, 0.0, 0.044444444444444446, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.insert(0 c.getSimpleName()),METHOD_INVOCATION, line no: 1696, 0.0, 0.6875, 0.0, 0.06451612903225806, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,c.getSimpleName(),METHOD_INVOCATION, line no: 1696, 0.0, 0.6875, 0.0, 0.11764705882352941, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getSimpleName,SIMPLE_NAME, line no: 1696, 0.0, 0.71875, 0.0, 0.15384615384615385, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,'.',CHARACTER_LITERAL, line no: 1696, 0.0, 0.6875, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,c=c.getEnclosingClass(),ASSIGNMENT, line no: 1697, 0.0, 0.6875, 0.0, 0.043478260869565216, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,d instanceof Type,INSTANCEOF_EXPRESSION, line no: 1699, 0.0, 0.90625, 1.0, 0.11764705882352941, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.append(toString((Type)d)),METHOD_INVOCATION, line no: 1700, 0.0, 0.3125, 0.0, 0.10344827586206896, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,append,SIMPLE_NAME, line no: 1700, 0.0, 0.34375, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toString((Type)d),METHOD_INVOCATION, line no: 1700, 0.0, 0.34375, 0.0, 0.17647058823529413, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(Type)d,CAST_EXPRESSION, line no: 1700, 0.0, 0.34375, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.append(d),METHOD_INVOCATION, line no: 1702, 0.0, 0.1875, 0.0, 0.15384615384615385, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.append(':').append(typeVariableToString(var)).toString(),METHOD_INVOCATION, line no: 1704, 0.0, 0.9375, 0.0, 0.05, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.append(':').append(typeVariableToString(var)),METHOD_INVOCATION, line no: 1704, 0.0, 0.9375, 0.0, 0.061224489795918366, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.append(':'),METHOD_INVOCATION, line no: 1704, 0.0, 0.9375, 0.0, 0.13333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,':',CHARACTER_LITERAL, line no: 1704, 0.0, 0.9375, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,typeVariableToString(var),METHOD_INVOCATION, line no: 1704, 0.0, 0.9375, 0.0, 0.12, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Typed,SIMPLE_NAME, line no: 1715, 0.0, 0.03125, 0.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,wrap,SIMPLE_NAME, line no: 1715, 0.0, 0.03125, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new Typed<T>(){   @Override public Type getType(){     return type;   } } ,CLASS_INSTANCE_CREATION, line no: 1716, 0.0, 0.28125, 0.0, 0.05405405405405406, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,getType,SIMPLE_NAME, line no: 1718, 0.0, 0.28125, 0.0, 0.2857142857142857, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,TypeUtils.<T>wrap((Type)type),METHOD_INVOCATION, line no: 1733, 0.0, 0.3125, 0.0, 0.10344827586206896, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(Type)type,CAST_EXPRESSION, line no: 1733, 0.0, 0.3125, 0.0, 0.2, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,c.getEnclosingClass() != null,INFIX_EXPRESSION, line no: 1745, 0.0, 0.8125, 1.0, 0.06896551724137931, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.append(classToString(c.getEnclosingClass())).append('.').append(c.getSimpleName()),METHOD_INVOCATION, line no: 1746, 0.0, 0.5, 0.0, 0.03488372093023256, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.append(classToString(c.getEnclosingClass())).append('.'),METHOD_INVOCATION, line no: 1746, 0.0, 0.5, 0.0, 0.05, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.append(classToString(c.getEnclosingClass())),METHOD_INVOCATION, line no: 1746, 0.0, 0.5, 0.0, 0.0625, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,classToString(c.getEnclosingClass()),METHOD_INVOCATION, line no: 1746, 0.0, 0.5, 0.0, 0.08333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.append(c.getName()),METHOD_INVOCATION, line no: 1748, 0.0, 0.25, 0.0, 0.08695652173913043, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,c.getTypeParameters().length > 0,INFIX_EXPRESSION, line no: 1750, 0.0, 0.8125, 1.0, 0.09375, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,c.getTypeParameters().length,FIELD_ACCESS, line no: 1750, 0.0, 0.8125, 0.0, 0.10714285714285714, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,c.getTypeParameters(),METHOD_INVOCATION, line no: 1750, 0.0, 0.8125, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.append('<'),METHOD_INVOCATION, line no: 1751, 0.0, 0.4375, 0.0, 0.13333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,'<',CHARACTER_LITERAL, line no: 1751, 0.0, 0.4375, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,appendAllTo(buf "  " c.getTypeParameters()),METHOD_INVOCATION, line no: 1752, 0.0, 0.4375, 0.0, 0.06976744186046512, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,appendAllTo,SIMPLE_NAME, line no: 1752, 0.0, 0.46875, 0.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"  ",STRING_LITERAL, line no: 1752, 0.0, 0.4375, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.append('>'),METHOD_INVOCATION, line no: 1753, 0.0, 0.4375, 0.0, 0.13333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,'>',CHARACTER_LITERAL, line no: 1753, 0.0, 0.4375, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.toString(),METHOD_INVOCATION, line no: 1755, 0.0, 0.84375, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,v,SIMPLE_NAME, line no: 1764, 0.0, 0.03125, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new StringBuilder(v.getName()),CLASS_INSTANCE_CREATION, line no: 1765, 0.0, 0.8125, 0.0, 0.13333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,v.getName(),METHOD_INVOCATION, line no: 1765, 0.0, 0.8125, 0.0, 0.18181818181818182, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,v.getBounds(),METHOD_INVOCATION, line no: 1766, 0.0, 0.8125, 0.0, 0.15384615384615385, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,bounds.length > 0 && !(bounds.length == 1 && Object.class.equals(bounds[0])),INFIX_EXPRESSION, line no: 1767, 0.0, 0.8125, 1.0, 0.039473684210526314, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,bounds.length > 0,INFIX_EXPRESSION, line no: 1767, 0.0, 0.8125, 1.0, 0.11764705882352941, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,!(bounds.length == 1 && Object.class.equals(bounds[0])),PREFIX_EXPRESSION, line no: 1767, 0.0, 0.8125, 1.0, 0.03636363636363636, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(bounds.length == 1 && Object.class.equals(bounds[0])),PARENTHESIZED_EXPRESSION, line no: 1767, 0.0, 0.8125, 1.0, 0.037037037037037035, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,bounds.length == 1 && Object.class.equals(bounds[0]),INFIX_EXPRESSION, line no: 1767, 0.0, 0.8125, 1.0, 0.038461538461538464, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,bounds.length == 1,INFIX_EXPRESSION, line no: 1767, 0.0, 0.8125, 1.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,1,NUMBER_LITERAL, line no: 1767, 0.0, 0.8125, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Object.class.equals(bounds[0]),METHOD_INVOCATION, line no: 1767, 0.0, 0.8125, 1.0, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,bounds[0],ARRAY_ACCESS, line no: 1767, 0.0, 0.8125, 0.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.append(" extends "),METHOD_INVOCATION, line no: 1768, 0.0, 0.34375, 0.0, 0.08695652173913043, 0.0
+true,BOOLEAN_LITERAL, line no: 1629," extends ",STRING_LITERAL, line no: 1768, 0.0, 0.34375, 0.0, 0.18181818181818182, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,appendAllTo(buf " & " v.getBounds()),METHOD_INVOCATION, line no: 1769, 0.0, 0.34375, 0.0, 0.05555555555555555, 0.0
+true,BOOLEAN_LITERAL, line no: 1629," & ",STRING_LITERAL, line no: 1769, 0.0, 0.34375, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,useOwner == null,INFIX_EXPRESSION, line no: 1786, 0.0, 0.875, 1.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.append(raw.getName()),METHOD_INVOCATION, line no: 1787, 0.0, 0.25, 0.0, 0.08, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,raw.getName(),METHOD_INVOCATION, line no: 1787, 0.0, 0.28125, 0.0, 0.15384615384615385, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,useOwner instanceof Class<?>,INSTANCEOF_EXPRESSION, line no: 1789, 0.0, 0.78125, 1.0, 0.07142857142857142, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.append(((Class<?>)useOwner).getName()),METHOD_INVOCATION, line no: 1790, 0.0, 0.3125, 0.0, 0.047619047619047616, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,((Class<?>)useOwner).getName(),METHOD_INVOCATION, line no: 1790, 0.0, 0.34375, 0.0, 0.06666666666666667, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,((Class<?>)useOwner),PARENTHESIZED_EXPRESSION, line no: 1790, 0.0, 0.34375, 0.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,(Class<?>)useOwner,CAST_EXPRESSION, line no: 1790, 0.0, 0.34375, 0.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.append(useOwner.toString()),METHOD_INVOCATION, line no: 1792, 0.0, 0.25, 0.0, 0.06451612903225806, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,useOwner.toString(),METHOD_INVOCATION, line no: 1792, 0.0, 0.28125, 0.0, 0.10526315789473684, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.append('.').append(raw.getSimpleName()),METHOD_INVOCATION, line no: 1794, 0.0, 0.78125, 0.0, 0.046511627906976744, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.append('.'),METHOD_INVOCATION, line no: 1794, 0.0, 0.78125, 0.0, 0.13333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,raw.getSimpleName(),METHOD_INVOCATION, line no: 1794, 0.0, 0.78125, 0.0, 0.10526315789473684, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,appendAllTo(buf.append('<') "  " typeArguments).append('>'),METHOD_INVOCATION, line no: 1797, 0.0, 0.875, 0.0, 0.06779661016949153, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,appendAllTo(buf.append('<') "  " typeArguments),METHOD_INVOCATION, line no: 1797, 0.0, 0.875, 0.0, 0.0851063829787234, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,new StringBuilder().append('?'),METHOD_INVOCATION, line no: 1808, 0.0, 0.8125, 0.0, 0.12903225806451613, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,'?',CHARACTER_LITERAL, line no: 1808, 0.0, 0.8125, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,w.getLowerBounds(),METHOD_INVOCATION, line no: 1809, 0.0, 0.8125, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,w.getUpperBounds(),METHOD_INVOCATION, line no: 1810, 0.0, 0.8125, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,lowerBounds.length > 1 || lowerBounds.length == 1 && lowerBounds[0] != null,INFIX_EXPRESSION, line no: 1811, 0.0, 0.8125, 1.0, 0.05333333333333334, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,lowerBounds.length > 1,INFIX_EXPRESSION, line no: 1811, 0.0, 0.8125, 1.0, 0.13636363636363635, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,lowerBounds.length,QUALIFIED_NAME, line no: 1811, 0.0, 0.8125, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,lowerBounds.length == 1 && lowerBounds[0] != null,INFIX_EXPRESSION, line no: 1811, 0.0, 0.8125, 1.0, 0.061224489795918366, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,lowerBounds.length == 1,INFIX_EXPRESSION, line no: 1811, 0.0, 0.8125, 1.0, 0.13043478260869565, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,lowerBounds[0] != null,INFIX_EXPRESSION, line no: 1811, 0.0, 0.8125, 1.0, 0.09090909090909091, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,lowerBounds[0],ARRAY_ACCESS, line no: 1811, 0.0, 0.8125, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,appendAllTo(buf.append(" super ") " & " lowerBounds),METHOD_INVOCATION, line no: 1812, 0.0, 0.25, 0.0, 0.038461538461538464, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.append(" super "),METHOD_INVOCATION, line no: 1812, 0.0, 0.28125, 0.0, 0.09523809523809523, 0.0
+true,BOOLEAN_LITERAL, line no: 1629," super ",STRING_LITERAL, line no: 1812, 0.0, 0.28125, 0.0, 0.2222222222222222, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,upperBounds.length > 1 || upperBounds.length == 1 && !Object.class.equals(upperBounds[0]),INFIX_EXPRESSION, line no: 1813, 0.0, 0.8125, 1.0, 0.0449438202247191, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,upperBounds.length > 1,INFIX_EXPRESSION, line no: 1813, 0.0, 0.8125, 1.0, 0.13636363636363635, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,upperBounds.length,QUALIFIED_NAME, line no: 1813, 0.0, 0.8125, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,upperBounds.length == 1 && !Object.class.equals(upperBounds[0]),INFIX_EXPRESSION, line no: 1813, 0.0, 0.8125, 1.0, 0.047619047619047616, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,upperBounds.length == 1,INFIX_EXPRESSION, line no: 1813, 0.0, 0.8125, 1.0, 0.13043478260869565, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,!Object.class.equals(upperBounds[0]),PREFIX_EXPRESSION, line no: 1813, 0.0, 0.8125, 1.0, 0.08333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Object.class.equals(upperBounds[0]),METHOD_INVOCATION, line no: 1813, 0.0, 0.8125, 1.0, 0.08571428571428572, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,upperBounds[0],ARRAY_ACCESS, line no: 1813, 0.0, 0.8125, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,appendAllTo(buf.append(" extends ") " & " upperBounds),METHOD_INVOCATION, line no: 1814, 0.0, 0.25, 0.0, 0.05555555555555555, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,g,SIMPLE_NAME, line no: 1825, 0.0, 0.03125, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,String.format("%s[]" toString(g.getGenericComponentType())),METHOD_INVOCATION, line no: 1826, 0.0, 0.34375, 0.0, 0.05084745762711865, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,format,SIMPLE_NAME, line no: 1826, 0.0, 0.375, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,"%s[]",STRING_LITERAL, line no: 1826, 0.0, 0.34375, 0.0, 0.0, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toString(g.getGenericComponentType()),METHOD_INVOCATION, line no: 1826, 0.0, 0.375, 0.0, 0.08108108108108109, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,g.getGenericComponentType(),METHOD_INVOCATION, line no: 1826, 0.0, 0.40625, 0.0, 0.1111111111111111, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,sep,SIMPLE_NAME, line no: 1837, 0.0, 0.03125, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Validate.notEmpty(Validate.noNullElements(types)),METHOD_INVOCATION, line no: 1838, 0.0, 0.78125, 0.0, 0.061224489795918366, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,notEmpty,SIMPLE_NAME, line no: 1838, 0.0, 0.78125, 0.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,Validate.noNullElements(types),METHOD_INVOCATION, line no: 1838, 0.0, 0.78125, 0.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,types.length > 0,INFIX_EXPRESSION, line no: 1839, 0.0, 0.78125, 1.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,types.length,QUALIFIED_NAME, line no: 1839, 0.0, 0.78125, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.append(toString(types[0])),METHOD_INVOCATION, line no: 1840, 0.0, 0.75, 0.0, 0.1, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toString(types[0]),METHOD_INVOCATION, line no: 1840, 0.0, 0.75, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,types[0],ARRAY_ACCESS, line no: 1840, 0.0, 0.75, 0.0, 0.25, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,int i=1,VARIABLE_DECLARATION_EXPRESSION, line no: 1841, 0.0, 0.71875, 0.0, 0.14285714285714285, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,i < types.length,INFIX_EXPRESSION, line no: 1841, 0.0, 0.71875, 1.0, 0.125, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.append(sep).append(toString(types[i])),METHOD_INVOCATION, line no: 1842, 0.0, 0.375, 0.0, 0.07142857142857142, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,buf.append(sep),METHOD_INVOCATION, line no: 1842, 0.0, 0.40625, 0.0, 0.13333333333333333, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,toString(types[i]),METHOD_INVOCATION, line no: 1842, 0.0, 0.40625, 0.0, 0.16666666666666666, 0.0
+true,BOOLEAN_LITERAL, line no: 1629,types[i],ARRAY_ACCESS, line no: 1842, 0.0, 0.40625, 0.0, 0.25, 0.0

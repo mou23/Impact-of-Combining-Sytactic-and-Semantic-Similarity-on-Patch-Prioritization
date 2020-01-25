@@ -1,0 +1,624 @@
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,(int)((start + offset) % stripeSize),CAST_EXPRESSION, line no: 26, 2.9814814814814814, 0.9814814814814815, 1.0, 0.0, 1.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 26, 2.888888888888889, 1.0, 1.0, 0.0, 0.8888888888888888
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,((start + offset) % stripeSize),PARENTHESIZED_EXPRESSION, line no: 26, 2.8703703703703702, 0.9814814814814815, 1.0, 0.0, 0.8888888888888888
+(int)(start + offset),CAST_EXPRESSION, line no: 46,(start + offset),PARENTHESIZED_EXPRESSION, line no: 24, 2.8333333333333335, 0.9818181818181818, 1.0, 0.0, 0.8333333333333334
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,(int)(start + offset),CAST_EXPRESSION, line no: 46, 2.8154761904761907, 0.9821428571428571, 1.0, 0.0, 0.8333333333333334
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,(start + offset) / stripeSize,INFIX_EXPRESSION, line no: 24, 2.7, 1.0, 1.0, 0.0, 0.7
+stripeSize,SIMPLE_NAME, line no: 46,getStripeSize,SIMPLE_NAME, line no: 19, 2.6666666666666665, 1.0, 1.0, 0.0, 0.6666666666666666
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,start + offset,INFIX_EXPRESSION, line no: 24, 2.6, 0.9821428571428571, 1.0, 0.0, 0.6
+start + offset,INFIX_EXPRESSION, line no: 46,(start + offset),PARENTHESIZED_EXPRESSION, line no: 24, 2.5824561403508772, 0.9649122807017544, 1.0, 0.0, 0.6
+(int)(start + offset),CAST_EXPRESSION, line no: 46,start + offset,INFIX_EXPRESSION, line no: 24, 2.5, 0.9818181818181818, 1.0, 0.0, 0.5
+stripeSize,SIMPLE_NAME, line no: 46,size,SIMPLE_NAME, line no: 16, 2.5, 0.01818181818181818, 1.0, 0.0, 0.5
+start + offset,INFIX_EXPRESSION, line no: 46,(int)(start + offset),CAST_EXPRESSION, line no: 46, 2.4649122807017543, 0.9649122807017544, 1.0, 0.0, 0.5
+reqOffset,SIMPLE_NAME, line no: 46,stripeSize - reqOffset,INFIX_EXPRESSION, line no: 27, 2.4, 1.0, 1.0, 0.0, 0.4
+stripeSize,SIMPLE_NAME, line no: 46,stripeSize - reqOffset,INFIX_EXPRESSION, line no: 27, 2.4, 1.0, 1.0, 0.0, 0.4
+reqOffset,SIMPLE_NAME, line no: 46,osdOffset,SIMPLE_NAME, line no: 25, 2.3333333333333335, 1.0, 1.0, 0.0, 0.3333333333333333
+reqOffset,SIMPLE_NAME, line no: 46,reqSize,SIMPLE_NAME, line no: 27, 2.3333333333333335, 1.0, 1.0, 0.0, 0.3333333333333333
+start + offset,INFIX_EXPRESSION, line no: 46,offset,SIMPLE_NAME, line no: 16, 2.3333333333333335, 0.017543859649122806, 1.0, 0.0, 0.3333333333333333
+offset,SIMPLE_NAME, line no: 46,start + offset,INFIX_EXPRESSION, line no: 24, 2.3333333333333335, 0.9827586206896551, 1.0, 0.0, 0.3333333333333333
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,(int)(start + offset),CAST_EXPRESSION, line no: 46, 2.333333333333333, 1.0, 0.6666666666666666, 0.0, 0.6666666666666666
+stripeSize,SIMPLE_NAME, line no: 46,reqSize,SIMPLE_NAME, line no: 27, 2.3151515151515154, 0.9818181818181818, 1.0, 0.0, 0.3333333333333333
+(int)(start + offset),CAST_EXPRESSION, line no: 46,(int)((start + offset) % stripeSize),CAST_EXPRESSION, line no: 26, 2.315151515151515, 0.9818181818181818, 0.6666666666666666, 0.0, 0.6666666666666666
+(int)(start + offset),CAST_EXPRESSION, line no: 46,(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46, 2.315151515151515, 0.9818181818181818, 0.6666666666666666, 0.0, 0.6666666666666666
+start,SIMPLE_NAME, line no: 46,size - start,INFIX_EXPRESSION, line no: 27, 2.298850574712644, 0.9655172413793104, 1.0, 0.0, 0.3333333333333333
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 26, 2.2916666666666665, 1.0, 0.6666666666666666, 0.0, 0.625
+stripeSize,SIMPLE_NAME, line no: 46,policy.getStripeSize(),METHOD_INVOCATION, line no: 19, 2.2857142857142856, 1.0, 1.0, 0.0, 0.2857142857142857
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,(start + offset) / stripeSize,INFIX_EXPRESSION, line no: 24, 2.2738095238095237, 0.9821428571428571, 0.6666666666666666, 0.0, 0.625
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,((start + offset) % stripeSize),PARENTHESIZED_EXPRESSION, line no: 26, 2.2738095238095237, 0.9821428571428571, 0.6666666666666666, 0.0, 0.625
+stripeSize,SIMPLE_NAME, line no: 46,size - start,INFIX_EXPRESSION, line no: 27, 2.25, 1.0, 1.0, 0.0, 0.25
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,stripeSize,SIMPLE_NAME, line no: 19, 2.2222222222222223, 1.0, 1.0, 0.0, 0.2222222222222222
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,(start + offset),PARENTHESIZED_EXPRESSION, line no: 24, 2.2222222222222223, 1.0, 0.6666666666666666, 0.0, 0.5555555555555556
+(int)(start + offset),CAST_EXPRESSION, line no: 46,(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 26, 2.2222222222222223, 1.0, 0.6666666666666666, 0.0, 0.5555555555555556
+stripeSize,SIMPLE_NAME, line no: 46,policy.getStripeSize() * 1024,INFIX_EXPRESSION, line no: 19, 2.2222222222222223, 1.0, 1.0, 0.0, 0.2222222222222222
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,(int)((start + offset) % stripeSize),CAST_EXPRESSION, line no: 26, 2.204365079365079, 0.9821428571428571, 0.6666666666666666, 0.0, 0.5555555555555556
+stripeSize,SIMPLE_NAME, line no: 46,(int)((start + offset) % stripeSize),CAST_EXPRESSION, line no: 26, 2.2040404040404042, 0.9818181818181818, 1.0, 0.0, 0.2222222222222222
+stripeSize,SIMPLE_NAME, line no: 46,(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46, 2.2040404040404042, 0.9818181818181818, 1.0, 0.0, 0.2222222222222222
+(int)(start + offset),CAST_EXPRESSION, line no: 46,(start + offset) / stripeSize,INFIX_EXPRESSION, line no: 24, 2.204040404040404, 0.9818181818181818, 0.6666666666666666, 0.0, 0.5555555555555556
+(int)(start + offset),CAST_EXPRESSION, line no: 46,((start + offset) % stripeSize),PARENTHESIZED_EXPRESSION, line no: 26, 2.204040404040404, 0.9818181818181818, 0.6666666666666666, 0.0, 0.5555555555555556
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,getStripeSize,SIMPLE_NAME, line no: 19, 2.2, 1.0, 1.0, 0.0, 0.2
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,offset,SIMPLE_NAME, line no: 16, 2.2, 0.017857142857142856, 1.0, 0.0, 0.2
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46, 2.1865079365079367, 0.9642857142857143, 0.6666666666666666, 0.0, 0.5555555555555556
+offset,SIMPLE_NAME, line no: 46,(start + offset),PARENTHESIZED_EXPRESSION, line no: 24, 2.1827586206896554, 0.9655172413793104, 1.0, 0.0, 0.2
+reqOffset,SIMPLE_NAME, line no: 46,start+=reqSize,ASSIGNMENT, line no: 32, 2.1814814814814816, 0.9814814814814815, 1.0, 0.0, 0.2
+start,SIMPLE_NAME, line no: 46,start+=reqSize,ASSIGNMENT, line no: 32, 2.1810344827586206, 0.9310344827586207, 1.0, 0.0, 0.25
+reqOffset,SIMPLE_NAME, line no: 46,Math.min(size - start stripeSize - reqOffset),METHOD_INVOCATION, line no: 27, 2.1666666666666665, 1.0, 1.0, 0.0, 0.16666666666666666
+(int)(start + offset),CAST_EXPRESSION, line no: 46,start,SIMPLE_NAME, line no: 22, 2.1666666666666665, 0.9818181818181818, 1.0, 0.0, 0.16666666666666666
+stripeSize,SIMPLE_NAME, line no: 46,start+=reqSize,ASSIGNMENT, line no: 32, 2.1636363636363636, 0.9636363636363636, 1.0, 0.0, 0.2
+stripeSize,SIMPLE_NAME, line no: 46,Math.min(size - start stripeSize - reqOffset),METHOD_INVOCATION, line no: 27, 2.1484848484848484, 0.9818181818181818, 1.0, 0.0, 0.16666666666666666
+(int)(start + offset),CAST_EXPRESSION, line no: 46,reqOffset,SIMPLE_NAME, line no: 26, 2.1246753246753247, 0.9636363636363636, 1.0, 0.0, 0.14285714285714285
+reqOffset,SIMPLE_NAME, line no: 46,(int)(start + offset),CAST_EXPRESSION, line no: 46, 2.124338624338624, 0.9814814814814815, 1.0, 0.0, 0.14285714285714285
+start,SIMPLE_NAME, line no: 46,(int)(start + offset),CAST_EXPRESSION, line no: 46, 2.1149425287356323, 0.9482758620689655, 1.0, 0.0, 0.16666666666666666
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,size,SIMPLE_NAME, line no: 16, 2.111111111111111, 0.018518518518518517, 1.0, 0.0, 0.1111111111111111
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,start,SIMPLE_NAME, line no: 22, 2.111111111111111, 1.0, 1.0, 0.0, 0.1111111111111111
+offset,SIMPLE_NAME, line no: 46,(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 26, 2.1077586206896552, 0.9827586206896551, 1.0, 0.0, 0.125
+(int)(start + offset),CAST_EXPRESSION, line no: 46,osdOffset,SIMPLE_NAME, line no: 25, 2.1064935064935066, 0.9636363636363636, 1.0, 0.0, 0.14285714285714285
+reqOffset,SIMPLE_NAME, line no: 46,(int)((start + offset) % stripeSize),CAST_EXPRESSION, line no: 26, 2.1, 1.0, 1.0, 0.0, 0.1
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,reqOffset,SIMPLE_NAME, line no: 26, 2.1, 0.9814814814814815, 1.0, 0.0, 0.1
+offset,SIMPLE_NAME, line no: 46,(start + offset) / stripeSize,INFIX_EXPRESSION, line no: 24, 2.0905172413793105, 0.9655172413793104, 1.0, 0.0, 0.125
+offset,SIMPLE_NAME, line no: 46,((start + offset) % stripeSize),PARENTHESIZED_EXPRESSION, line no: 26, 2.0905172413793105, 0.9655172413793104, 1.0, 0.0, 0.125
+reqOffset,SIMPLE_NAME, line no: 46,(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46, 2.0814814814814815, 0.9814814814814815, 1.0, 0.0, 0.1
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,osdOffset,SIMPLE_NAME, line no: 25, 2.0814814814814815, 0.9814814814814815, 1.0, 0.0, 0.1
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,reqSize,SIMPLE_NAME, line no: 27, 2.0814814814814815, 0.9814814814814815, 1.0, 0.0, 0.1
+start,SIMPLE_NAME, line no: 46,(int)((start + offset) % stripeSize),CAST_EXPRESSION, line no: 26, 2.0766283524904217, 0.9655172413793104, 1.0, 0.0, 0.1111111111111111
+start,SIMPLE_NAME, line no: 46,(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46, 2.0421455938697317, 0.9310344827586207, 1.0, 0.0, 0.1111111111111111
+start,SIMPLE_NAME, line no: 46,Math.min(size - start stripeSize - reqOffset),METHOD_INVOCATION, line no: 27, 2.031609195402299, 0.9482758620689655, 1.0, 0.0, 0.08333333333333333
+start + offset,INFIX_EXPRESSION, line no: 46,(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 26, 2.0241228070175437, 0.9824561403508771, 0.6666666666666666, 0.0, 0.375
+start + offset,INFIX_EXPRESSION, line no: 46,(start + offset) / stripeSize,INFIX_EXPRESSION, line no: 24, 2.0065789473684212, 0.9649122807017544, 0.6666666666666666, 0.0, 0.375
+start + offset,INFIX_EXPRESSION, line no: 46,((start + offset) % stripeSize),PARENTHESIZED_EXPRESSION, line no: 26, 2.0065789473684212, 0.9649122807017544, 0.6666666666666666, 0.0, 0.375
+reqOffset,SIMPLE_NAME, line no: 46,size,SIMPLE_NAME, line no: 16, 2.0, 0.018518518518518517, 1.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,stripeSize,SIMPLE_NAME, line no: 19, 2.0, 1.0, 1.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,policy.getStripeSize() * 1024,INFIX_EXPRESSION, line no: 19, 2.0, 1.0, 1.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,policy.getStripeSize(),METHOD_INVOCATION, line no: 19, 2.0, 1.0, 1.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,getStripeSize,SIMPLE_NAME, line no: 19, 2.0, 1.0, 1.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,1024,NUMBER_LITERAL, line no: 19, 2.0, 1.0, 1.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,osdCount,SIMPLE_NAME, line no: 20, 2.0, 1.0, 1.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,policy.getWidth(),METHOD_INVOCATION, line no: 20, 2.0, 1.0, 1.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,getWidth,SIMPLE_NAME, line no: 20, 2.0, 1.0, 1.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,start,SIMPLE_NAME, line no: 22, 2.0, 1.0, 1.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,0,NUMBER_LITERAL, line no: 22, 2.0, 1.0, 1.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,(int)(objNumber % osdCount),CAST_EXPRESSION, line no: 25, 2.0, 1.0, 1.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,min,SIMPLE_NAME, line no: 27, 2.0, 1.0, 1.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,size - start,INFIX_EXPRESSION, line no: 27, 2.0, 1.0, 1.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,1024,NUMBER_LITERAL, line no: 19, 2.0, 1.0, 1.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,osdCount,SIMPLE_NAME, line no: 20, 2.0, 1.0, 1.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,getWidth,SIMPLE_NAME, line no: 20, 2.0, 1.0, 1.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,0,NUMBER_LITERAL, line no: 22, 2.0, 1.0, 1.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,stripeSize,SIMPLE_NAME, line no: 19, 2.0, 0.9818181818181818, 1.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,osdCount,SIMPLE_NAME, line no: 20, 2.0, 0.9818181818181818, 1.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,objNumber,SIMPLE_NAME, line no: 24, 2.0, 0.9642857142857143, 1.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,1024,NUMBER_LITERAL, line no: 19, 2.0, 1.0, 1.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,osdCount,SIMPLE_NAME, line no: 20, 2.0, 1.0, 1.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,policy.getWidth(),METHOD_INVOCATION, line no: 20, 2.0, 1.0, 1.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,getWidth,SIMPLE_NAME, line no: 20, 2.0, 1.0, 1.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,start,SIMPLE_NAME, line no: 22, 2.0, 1.0, 1.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,0,NUMBER_LITERAL, line no: 22, 2.0, 1.0, 1.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,reqOffset,SIMPLE_NAME, line no: 26, 2.0, 0.9818181818181818, 1.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,start + offset,INFIX_EXPRESSION, line no: 24, 1.9999999999999998, 1.0, 0.6666666666666666, 0.0, 0.3333333333333333
+start,SIMPLE_NAME, line no: 46,stripeSize,SIMPLE_NAME, line no: 19, 1.9827586206896552, 0.9827586206896551, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,policy.getStripeSize() * 1024,INFIX_EXPRESSION, line no: 19, 1.9827586206896552, 0.9827586206896551, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,policy.getStripeSize(),METHOD_INVOCATION, line no: 19, 1.9827586206896552, 0.9827586206896551, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,getStripeSize,SIMPLE_NAME, line no: 19, 1.9827586206896552, 0.9827586206896551, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,1024,NUMBER_LITERAL, line no: 19, 1.9827586206896552, 0.9827586206896551, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,osdCount,SIMPLE_NAME, line no: 20, 1.9827586206896552, 0.9827586206896551, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,policy.getWidth(),METHOD_INVOCATION, line no: 20, 1.9827586206896552, 0.9827586206896551, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,getWidth,SIMPLE_NAME, line no: 20, 1.9827586206896552, 0.9827586206896551, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,0,NUMBER_LITERAL, line no: 22, 1.9827586206896552, 0.9827586206896551, 1.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,objNumber,SIMPLE_NAME, line no: 24, 1.9827586206896552, 0.9482758620689655, 1.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,objNumber % osdCount,INFIX_EXPRESSION, line no: 25, 1.9827586206896552, 0.9827586206896551, 1.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,objNumber,SIMPLE_NAME, line no: 24, 1.9824561403508771, 0.9473684210526315, 1.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,size,SIMPLE_NAME, line no: 16, 1.981818181818182, 0.01818181818181818, 1.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,getStripeSize,SIMPLE_NAME, line no: 19, 1.981818181818182, 0.9818181818181818, 1.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,1024,NUMBER_LITERAL, line no: 19, 1.981818181818182, 0.9818181818181818, 1.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,getWidth,SIMPLE_NAME, line no: 20, 1.981818181818182, 0.9818181818181818, 1.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,0,NUMBER_LITERAL, line no: 22, 1.981818181818182, 0.9818181818181818, 1.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,osdOffset,SIMPLE_NAME, line no: 25, 1.981818181818182, 0.9818181818181818, 1.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,(int)(objNumber % osdCount),CAST_EXPRESSION, line no: 25, 1.981818181818182, 0.9818181818181818, 1.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,min,SIMPLE_NAME, line no: 27, 1.981818181818182, 0.9818181818181818, 1.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,(int)(start + offset),CAST_EXPRESSION, line no: 46, 1.981818181818182, 0.9818181818181818, 1.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,min,SIMPLE_NAME, line no: 27, 1.9814814814814814, 0.9814814814814815, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,size,SIMPLE_NAME, line no: 16, 1.9655172413793105, 0.017241379310344827, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,(int)(objNumber % osdCount),CAST_EXPRESSION, line no: 25, 1.9655172413793105, 0.9655172413793104, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,reqOffset,SIMPLE_NAME, line no: 26, 1.9655172413793105, 0.9482758620689655, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,stripeSize - reqOffset,INFIX_EXPRESSION, line no: 27, 1.9655172413793105, 0.9655172413793104, 1.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,(objNumber % osdCount),PARENTHESIZED_EXPRESSION, line no: 25, 1.9655172413793105, 0.9655172413793104, 1.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,(int)((start + offset) % stripeSize),CAST_EXPRESSION, line no: 26, 1.9649122807017543, 0.9649122807017544, 0.6666666666666666, 0.0, 0.3333333333333333
+(int)(start + offset),CAST_EXPRESSION, line no: 46,reqSize,SIMPLE_NAME, line no: 27, 1.9636363636363636, 0.9636363636363636, 1.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,min,SIMPLE_NAME, line no: 27, 1.9636363636363636, 0.9636363636363636, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,osdOffset,SIMPLE_NAME, line no: 25, 1.9482758620689655, 0.9482758620689655, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,reqSize,SIMPLE_NAME, line no: 27, 1.9482758620689655, 0.9482758620689655, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,min,SIMPLE_NAME, line no: 27, 1.9482758620689655, 0.9482758620689655, 1.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46, 1.9473684210526314, 0.9473684210526315, 0.6666666666666666, 0.0, 0.3333333333333333
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,Math.min(size - start stripeSize - reqOffset),METHOD_INVOCATION, line no: 27, 1.7814814814814817, 0.9814814814814815, 0.4, 0.0, 0.4
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,stripeSize - reqOffset,INFIX_EXPRESSION, line no: 27, 1.5227272727272727, 1.0, 0.25, 0.0, 0.2727272727272727
+reqOffset,SIMPLE_NAME, line no: 46,offset,SIMPLE_NAME, line no: 16, 1.5, 0.018518518518518517, 0.0, 0.0, 0.5
+start + offset,INFIX_EXPRESSION, line no: 46,start < size,INFIX_EXPRESSION, line no: 23, 1.4982456140350877, 0.9649122807017544, 0.3333333333333333, 0.0, 0.2
+start + offset,INFIX_EXPRESSION, line no: 46,size - start,INFIX_EXPRESSION, line no: 27, 1.4982456140350877, 0.9649122807017544, 0.3333333333333333, 0.0, 0.2
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,Math.min(size - start stripeSize - reqOffset),METHOD_INVOCATION, line no: 27, 1.471978021978022, 0.9642857142857143, 0.2, 0.0, 0.3076923076923077
+offset,SIMPLE_NAME, line no: 46,reqOffset,SIMPLE_NAME, line no: 26, 1.4655172413793105, 0.9482758620689655, 0.0, 0.0, 0.5
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,size - start,INFIX_EXPRESSION, line no: 27, 1.4583333333333333, 0.9821428571428571, 0.3333333333333333, 0.0, 0.14285714285714285
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,size - start,INFIX_EXPRESSION, line no: 27, 1.45, 1.0, 0.25, 0.0, 0.2
+(int)(start + offset),CAST_EXPRESSION, line no: 46,Math.min(size - start stripeSize - reqOffset),METHOD_INVOCATION, line no: 27, 1.4493506493506492, 0.9636363636363636, 0.2, 0.0, 0.2857142857142857
+offset,SIMPLE_NAME, line no: 46,osdOffset,SIMPLE_NAME, line no: 25, 1.4482758620689655, 0.9482758620689655, 0.0, 0.0, 0.5
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,viewBuffer.range(start reqSize),METHOD_INVOCATION, line no: 30, 1.4464285714285714, 0.9464285714285714, 0.25, 0.0, 0.25
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,start < size,INFIX_EXPRESSION, line no: 23, 1.4404761904761905, 0.9642857142857143, 0.3333333333333333, 0.0, 0.14285714285714285
+(int)(start + offset),CAST_EXPRESSION, line no: 46,size - start,INFIX_EXPRESSION, line no: 27, 1.4401515151515152, 0.9818181818181818, 0.3333333333333333, 0.0, 0.125
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,start < size,INFIX_EXPRESSION, line no: 23, 1.4314814814814814, 0.9814814814814815, 0.25, 0.0, 0.2
+start + offset,INFIX_EXPRESSION, line no: 46,start+=reqSize,ASSIGNMENT, line no: 32, 1.4298245614035088, 0.9298245614035088, 0.3333333333333333, 0.0, 0.16666666666666666
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,viewBuffer.range(start reqSize),METHOD_INVOCATION, line no: 30, 1.4296296296296296, 0.9629629629629629, 0.2, 0.0, 0.26666666666666666
+(int)(start + offset),CAST_EXPRESSION, line no: 46,viewBuffer.range(start reqSize),METHOD_INVOCATION, line no: 30, 1.4262237762237762, 0.9454545454545454, 0.25, 0.0, 0.23076923076923078
+(int)(start + offset),CAST_EXPRESSION, line no: 46,start < size,INFIX_EXPRESSION, line no: 23, 1.4219696969696969, 0.9636363636363636, 0.3333333333333333, 0.0, 0.125
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,start+=reqSize,ASSIGNMENT, line no: 32, 1.4047619047619047, 0.9464285714285714, 0.3333333333333333, 0.0, 0.125
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,start+=reqSize,ASSIGNMENT, line no: 32, 1.3947811447811447, 0.9629629629629629, 0.25, 0.0, 0.18181818181818182
+(int)(start + offset),CAST_EXPRESSION, line no: 46,start+=reqSize,ASSIGNMENT, line no: 32, 1.38989898989899, 0.9454545454545454, 0.3333333333333333, 0.0, 0.1111111111111111
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,new ReadOperation(objNumber osdOffset reqSize reqOffset start),CLASS_INSTANCE_CREATION, line no: 49, 1.3814192343604108, 0.9444444444444444, 0.14285714285714285, 0.0, 0.29411764705882354
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,new ReadOperation(objNumber osdOffset reqSize reqOffset start),CLASS_INSTANCE_CREATION, line no: 49, 1.3630952380952381, 0.9107142857142857, 0.16666666666666666, 0.0, 0.2857142857142857
+(int)(start + offset),CAST_EXPRESSION, line no: 46,new ReadOperation(objNumber osdOffset reqSize reqOffset start),CLASS_INSTANCE_CREATION, line no: 49, 1.3606060606060606, 0.9272727272727272, 0.16666666666666666, 0.0, 0.26666666666666666
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,policy.getStripeSize(),METHOD_INVOCATION, line no: 19, 1.3333333333333333, 1.0, 0.0, 0.0, 0.3333333333333333
+start + offset,INFIX_EXPRESSION, line no: 46,start,SIMPLE_NAME, line no: 22, 1.3333333333333333, 0.9824561403508771, 0.0, 0.0, 0.3333333333333333
+start,SIMPLE_NAME, line no: 46,start + offset,INFIX_EXPRESSION, line no: 24, 1.3333333333333333, 0.9827586206896551, 0.0, 0.0, 0.3333333333333333
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,operations.add(new ReadOperation(objNumber osdOffset reqSize reqOffset start)),METHOD_INVOCATION, line no: 49, 1.3194444444444444, 0.9444444444444444, 0.125, 0.0, 0.25
+start + offset,INFIX_EXPRESSION, line no: 46,Math.min(size - start stripeSize - reqOffset),METHOD_INVOCATION, line no: 27, 1.3012145748987853, 0.9473684210526315, 0.2, 0.0, 0.15384615384615385
+start,SIMPLE_NAME, line no: 46,start < size,INFIX_EXPRESSION, line no: 23, 1.2988505747126438, 0.9655172413793104, 0.0, 0.0, 0.3333333333333333
+(int)(start + offset),CAST_EXPRESSION, line no: 46,operations.add(new ReadOperation(objNumber osdOffset reqSize reqOffset start)),METHOD_INVOCATION, line no: 49, 1.2923520923520924, 0.9272727272727272, 0.14285714285714285, 0.0, 0.2222222222222222
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,(int)(objNumber % osdCount),CAST_EXPRESSION, line no: 25, 1.2891737891737893, 0.9814814814814815, 0.0, 0.0, 0.3076923076923077
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,operations.add(new ReadOperation(objNumber osdOffset reqSize reqOffset start)),METHOD_INVOCATION, line no: 49, 1.2888655462184875, 0.9107142857142857, 0.14285714285714285, 0.0, 0.23529411764705882
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,policy.getStripeSize() * 1024,INFIX_EXPRESSION, line no: 19, 1.2857142857142856, 1.0, 0.0, 0.0, 0.2857142857142857
+start + offset,INFIX_EXPRESSION, line no: 46,viewBuffer.range(start reqSize),METHOD_INVOCATION, line no: 30, 1.263157894736842, 0.9298245614035088, 0.25, 0.0, 0.08333333333333333
+(int)(start + offset),CAST_EXPRESSION, line no: 46,(int)(objNumber % osdCount),CAST_EXPRESSION, line no: 25, 1.2545454545454544, 0.9818181818181818, 0.0, 0.0, 0.2727272727272727
+reqOffset,SIMPLE_NAME, line no: 46,start + offset,INFIX_EXPRESSION, line no: 24, 1.25, 1.0, 0.0, 0.0, 0.25
+stripeSize,SIMPLE_NAME, line no: 46,(start + offset) / stripeSize,INFIX_EXPRESSION, line no: 24, 1.25, 1.0, 0.0, 0.0, 0.25
+stripeSize,SIMPLE_NAME, line no: 46,(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 26, 1.25, 1.0, 0.0, 0.0, 0.25
+stripeSize,SIMPLE_NAME, line no: 46,start < size,INFIX_EXPRESSION, line no: 23, 1.231818181818182, 0.9818181818181818, 0.0, 0.0, 0.25
+stripeSize,SIMPLE_NAME, line no: 46,((start + offset) % stripeSize),PARENTHESIZED_EXPRESSION, line no: 26, 1.231818181818182, 0.9818181818181818, 0.0, 0.0, 0.25
+start + offset,INFIX_EXPRESSION, line no: 46,reqOffset,SIMPLE_NAME, line no: 26, 1.2149122807017543, 0.9473684210526315, 0.0, 0.0, 0.25
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,(objNumber % osdCount),PARENTHESIZED_EXPRESSION, line no: 25, 1.2122507122507122, 0.9814814814814815, 0.0, 0.0, 0.23076923076923078
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,policy.getWidth(),METHOD_INVOCATION, line no: 20, 1.2043650793650793, 0.9821428571428571, 0.0, 0.0, 0.2222222222222222
+start + offset,INFIX_EXPRESSION, line no: 46,new ReadOperation(objNumber osdOffset reqSize reqOffset start),CLASS_INSTANCE_CREATION, line no: 49, 1.2042606516290726, 0.8947368421052632, 0.16666666666666666, 0.0, 0.14285714285714285
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,start,SIMPLE_NAME, line no: 22, 1.2, 0.9821428571428571, 0.0, 0.0, 0.2
+start + offset,INFIX_EXPRESSION, line no: 46,osdOffset,SIMPLE_NAME, line no: 25, 1.1973684210526314, 0.9473684210526315, 0.0, 0.0, 0.25
+start,SIMPLE_NAME, line no: 46,(start + offset),PARENTHESIZED_EXPRESSION, line no: 24, 1.1827586206896552, 0.9655172413793104, 0.0, 0.0, 0.2
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,policy.getStripeSize(),METHOD_INVOCATION, line no: 19, 1.1821428571428572, 0.9821428571428571, 0.0, 0.0, 0.2
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,(objNumber % osdCount),PARENTHESIZED_EXPRESSION, line no: 25, 1.1821428571428572, 0.9821428571428571, 0.0, 0.0, 0.2
+(int)(start + offset),CAST_EXPRESSION, line no: 46,policy.getWidth(),METHOD_INVOCATION, line no: 20, 1.1818181818181819, 0.9818181818181818, 0.0, 0.0, 0.2
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,new WriteOperation(objNumber osdOffset reqSize reqOffset viewBuffer),CLASS_INSTANCE_CREATION, line no: 31, 1.1734892787524367, 0.9629629629629629, 0.0, 0.0, 0.21052631578947367
+reqOffset,SIMPLE_NAME, line no: 46,(start + offset),PARENTHESIZED_EXPRESSION, line no: 24, 1.1666666666666667, 1.0, 0.0, 0.0, 0.16666666666666666
+(int)(start + offset),CAST_EXPRESSION, line no: 46,offset,SIMPLE_NAME, line no: 16, 1.1666666666666667, 0.01818181818181818, 0.0, 0.0, 0.16666666666666666
+offset,SIMPLE_NAME, line no: 46,stripeSize - reqOffset,INFIX_EXPRESSION, line no: 27, 1.1655172413793105, 0.9655172413793104, 0.0, 0.0, 0.2
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,buf.createViewBuffer(),METHOD_INVOCATION, line no: 29, 1.1642857142857144, 0.9642857142857143, 0.0, 0.0, 0.2
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,(int)(objNumber % osdCount),CAST_EXPRESSION, line no: 25, 1.1639610389610389, 0.9821428571428571, 0.0, 0.0, 0.18181818181818182
+(int)(start + offset),CAST_EXPRESSION, line no: 46,policy.getStripeSize(),METHOD_INVOCATION, line no: 19, 1.1636363636363636, 0.9818181818181818, 0.0, 0.0, 0.18181818181818182
+(int)(start + offset),CAST_EXPRESSION, line no: 46,(objNumber % osdCount),PARENTHESIZED_EXPRESSION, line no: 25, 1.1636363636363636, 0.9818181818181818, 0.0, 0.0, 0.18181818181818182
+start + offset,INFIX_EXPRESSION, line no: 46,operations.add(new ReadOperation(objNumber osdOffset reqSize reqOffset start)),METHOD_INVOCATION, line no: 49, 1.1552410437859355, 0.8947368421052632, 0.14285714285714285, 0.0, 0.11764705882352941
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,policy.getWidth(),METHOD_INVOCATION, line no: 20, 1.1538461538461537, 1.0, 0.0, 0.0, 0.15384615384615385
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,policy.getStripeSize() * 1024,INFIX_EXPRESSION, line no: 19, 1.1488095238095237, 0.9821428571428571, 0.0, 0.0, 0.16666666666666666
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,reqOffset,SIMPLE_NAME, line no: 26, 1.1488095238095237, 0.9642857142857143, 0.0, 0.0, 0.16666666666666666
+(int)(start + offset),CAST_EXPRESSION, line no: 46,buf.createViewBuffer(),METHOD_INVOCATION, line no: 29, 1.1454545454545455, 0.9636363636363636, 0.0, 0.0, 0.18181818181818182
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,operations.add(new WriteOperation(objNumber osdOffset reqSize reqOffset viewBuffer)),METHOD_INVOCATION, line no: 31, 1.1447811447811447, 0.9629629629629629, 0.0, 0.0, 0.18181818181818182
+(int)(start + offset),CAST_EXPRESSION, line no: 46,policy.getStripeSize() * 1024,INFIX_EXPRESSION, line no: 19, 1.1356643356643357, 0.9818181818181818, 0.0, 0.0, 0.15384615384615385
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,new WriteOperation(objNumber osdOffset reqSize reqOffset viewBuffer),CLASS_INSTANCE_CREATION, line no: 31, 1.1339285714285714, 0.9464285714285714, 0.0, 0.0, 0.1875
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,osdOffset,SIMPLE_NAME, line no: 25, 1.130952380952381, 0.9642857142857143, 0.0, 0.0, 0.16666666666666666
+reqOffset,SIMPLE_NAME, line no: 46,new WriteOperation(objNumber osdOffset reqSize reqOffset viewBuffer),CLASS_INSTANCE_CREATION, line no: 31, 1.1243386243386244, 0.9814814814814815, 0.0, 0.0, 0.14285714285714285
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,buf.createViewBuffer(),METHOD_INVOCATION, line no: 29, 1.1243386243386244, 0.9814814814814815, 0.0, 0.0, 0.14285714285714285
+(int)(start + offset),CAST_EXPRESSION, line no: 46,new WriteOperation(objNumber osdOffset reqSize reqOffset viewBuffer),CLASS_INSTANCE_CREATION, line no: 31, 1.1219251336898395, 0.9454545454545454, 0.0, 0.0, 0.17647058823529413
+offset,SIMPLE_NAME, line no: 46,(int)(start + offset),CAST_EXPRESSION, line no: 46, 1.1149425287356323, 0.9482758620689655, 0.0, 0.0, 0.16666666666666666
+reqOffset,SIMPLE_NAME, line no: 46,(start + offset) / stripeSize,INFIX_EXPRESSION, line no: 24, 1.1111111111111112, 1.0, 0.0, 0.0, 0.1111111111111111
+reqOffset,SIMPLE_NAME, line no: 46,((start + offset) % stripeSize),PARENTHESIZED_EXPRESSION, line no: 26, 1.1111111111111112, 1.0, 0.0, 0.0, 0.1111111111111111
+reqOffset,SIMPLE_NAME, line no: 46,(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 26, 1.1111111111111112, 1.0, 0.0, 0.0, 0.1111111111111111
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,offset,SIMPLE_NAME, line no: 16, 1.1111111111111112, 0.018518518518518517, 0.0, 0.0, 0.1111111111111111
+start + offset,INFIX_EXPRESSION, line no: 46,stripeSize - reqOffset,INFIX_EXPRESSION, line no: 27, 1.1077694235588973, 0.9649122807017544, 0.0, 0.0, 0.14285714285714285
+start,SIMPLE_NAME, line no: 46,(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 26, 1.1077586206896552, 0.9827586206896551, 0.0, 0.0, 0.125
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,operations.add(new WriteOperation(objNumber osdOffset reqSize reqOffset viewBuffer)),METHOD_INVOCATION, line no: 31, 1.1043233082706767, 0.9464285714285714, 0.0, 0.0, 0.15789473684210525
+reqOffset,SIMPLE_NAME, line no: 46,operations.add(new WriteOperation(objNumber osdOffset reqSize reqOffset viewBuffer)),METHOD_INVOCATION, line no: 31, 1.0991285403050108, 0.9814814814814815, 0.0, 0.0, 0.11764705882352941
+reqOffset,SIMPLE_NAME, line no: 46,new ReadOperation(objNumber osdOffset reqSize reqOffset start),CLASS_INSTANCE_CREATION, line no: 49, 1.0982905982905984, 0.9444444444444444, 0.0, 0.0, 0.15384615384615385
+(int)(start + offset),CAST_EXPRESSION, line no: 46,operations.add(new WriteOperation(objNumber osdOffset reqSize reqOffset viewBuffer)),METHOD_INVOCATION, line no: 31, 1.0954545454545455, 0.9454545454545454, 0.0, 0.0, 0.15
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,stripeSize - reqOffset,INFIX_EXPRESSION, line no: 27, 1.0932539682539681, 0.9821428571428571, 0.0, 0.0, 0.1111111111111111
+start,SIMPLE_NAME, line no: 46,(start + offset) / stripeSize,INFIX_EXPRESSION, line no: 24, 1.0905172413793105, 0.9655172413793104, 0.0, 0.0, 0.125
+start,SIMPLE_NAME, line no: 46,((start + offset) % stripeSize),PARENTHESIZED_EXPRESSION, line no: 26, 1.0905172413793105, 0.9655172413793104, 0.0, 0.0, 0.125
+(int)(start + offset),CAST_EXPRESSION, line no: 46,stripeSize - reqOffset,INFIX_EXPRESSION, line no: 27, 1.0818181818181818, 0.9818181818181818, 0.0, 0.0, 0.1
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,objNumber % osdCount,INFIX_EXPRESSION, line no: 25, 1.0769230769230769, 1.0, 0.0, 0.0, 0.07692307692307693
+offset,SIMPLE_NAME, line no: 46,(int)((start + offset) % stripeSize),CAST_EXPRESSION, line no: 26, 1.0766283524904214, 0.9655172413793104, 0.0, 0.0, 0.1111111111111111
+reqOffset,SIMPLE_NAME, line no: 46,viewBuffer.range(start reqSize),METHOD_INVOCATION, line no: 30, 1.0723905723905724, 0.9814814814814815, 0.0, 0.0, 0.09090909090909091
+reqOffset,SIMPLE_NAME, line no: 46,operations.add(new ReadOperation(objNumber osdOffset reqSize reqOffset start)),METHOD_INVOCATION, line no: 49, 1.0694444444444444, 0.9444444444444444, 0.0, 0.0, 0.125
+stripeSize,SIMPLE_NAME, line no: 46,viewBuffer.range(start reqSize),METHOD_INVOCATION, line no: 30, 1.0545454545454545, 0.9636363636363636, 0.0, 0.0, 0.09090909090909091
+offset,SIMPLE_NAME, line no: 46,(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46, 1.0421455938697317, 0.9310344827586207, 0.0, 0.0, 0.1111111111111111
+offset,SIMPLE_NAME, line no: 46,Math.min(size - start stripeSize - reqOffset),METHOD_INVOCATION, line no: 27, 1.0316091954022988, 0.9482758620689655, 0.0, 0.0, 0.08333333333333333
+start,SIMPLE_NAME, line no: 46,viewBuffer.range(start reqSize),METHOD_INVOCATION, line no: 30, 1.0310344827586206, 0.9310344827586207, 0.0, 0.0, 0.1
+stripeSize,SIMPLE_NAME, line no: 46,new WriteOperation(objNumber osdOffset reqSize reqOffset viewBuffer),CLASS_INSTANCE_CREATION, line no: 31, 1.0303030303030303, 0.9636363636363636, 0.0, 0.0, 0.06666666666666667
+stripeSize,SIMPLE_NAME, line no: 46,operations.add(new WriteOperation(objNumber osdOffset reqSize reqOffset viewBuffer)),METHOD_INVOCATION, line no: 31, 1.0191919191919192, 0.9636363636363636, 0.0, 0.0, 0.05555555555555555
+offset,SIMPLE_NAME, line no: 46,new WriteOperation(objNumber osdOffset reqSize reqOffset viewBuffer),CLASS_INSTANCE_CREATION, line no: 31, 1.0024630541871922, 0.9310344827586207, 0.0, 0.0, 0.07142857142857142
+reqOffset,SIMPLE_NAME, line no: 46,policy,SIMPLE_NAME, line no: 16, 1.0, 0.018518518518518517, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,buf,SIMPLE_NAME, line no: 16, 1.0, 0.018518518518518517, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,objNumber,SIMPLE_NAME, line no: 24, 1.0, 1.0, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,(objNumber % osdCount),PARENTHESIZED_EXPRESSION, line no: 25, 1.0, 1.0, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,objNumber % osdCount,INFIX_EXPRESSION, line no: 25, 1.0, 1.0, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,Math,SIMPLE_NAME, line no: 27, 1.0, 1.0, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,viewBuffer,SIMPLE_NAME, line no: 29, 1.0, 1.0, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,buf.createViewBuffer(),METHOD_INVOCATION, line no: 29, 1.0, 1.0, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,createViewBuffer,SIMPLE_NAME, line no: 29, 1.0, 1.0, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,policy,SIMPLE_NAME, line no: 16, 1.0, 0.018518518518518517, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,objNumber,SIMPLE_NAME, line no: 24, 1.0, 0.9814814814814815, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,objNumber,SIMPLE_NAME, line no: 24, 1.0, 0.9636363636363636, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,objNumber % osdCount,INFIX_EXPRESSION, line no: 25, 1.0, 1.0, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,stripeSize,SIMPLE_NAME, line no: 19, 1.0, 0.9821428571428571, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,osdCount,SIMPLE_NAME, line no: 20, 1.0, 0.9821428571428571, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,objNumber % osdCount,INFIX_EXPRESSION, line no: 25, 1.0, 1.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,offset,SIMPLE_NAME, line no: 16, 1.0, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,start,SIMPLE_NAME, line no: 22, 1.0, 0.9827586206896551, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,offset,SIMPLE_NAME, line no: 16, 1.0, 0.01818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,policy,SIMPLE_NAME, line no: 16, 1.0, 0.01818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,objNumber,SIMPLE_NAME, line no: 24, 1.0, 0.9818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,(start + offset),PARENTHESIZED_EXPRESSION, line no: 24, 1.0, 1.0, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,start + offset,INFIX_EXPRESSION, line no: 24, 1.0, 1.0, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,objNumber % osdCount,INFIX_EXPRESSION, line no: 25, 1.0, 1.0, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,new ReadOperation(objNumber osdOffset reqSize reqOffset start),CLASS_INSTANCE_CREATION, line no: 49, 0.9987012987012986, 0.9272727272727272, 0.0, 0.0, 0.07142857142857142
+start + offset,INFIX_EXPRESSION, line no: 46,new WriteOperation(objNumber osdOffset reqSize reqOffset viewBuffer),CLASS_INSTANCE_CREATION, line no: 31, 0.9923245614035088, 0.9298245614035088, 0.0, 0.0, 0.0625
+offset,SIMPLE_NAME, line no: 46,operations.add(new WriteOperation(objNumber osdOffset reqSize reqOffset viewBuffer)),METHOD_INVOCATION, line no: 31, 0.9898580121703854, 0.9310344827586207, 0.0, 0.0, 0.058823529411764705
+stripeSize,SIMPLE_NAME, line no: 46,operations.add(new ReadOperation(objNumber osdOffset reqSize reqOffset start)),METHOD_INVOCATION, line no: 49, 0.986096256684492, 0.9272727272727272, 0.0, 0.0, 0.058823529411764705
+start,SIMPLE_NAME, line no: 46,policy,SIMPLE_NAME, line no: 16, 0.9827586206896551, 0.017241379310344827, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,objNumber,SIMPLE_NAME, line no: 24, 0.9827586206896551, 0.9482758620689655, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,objNumber % osdCount,INFIX_EXPRESSION, line no: 25, 0.9827586206896551, 0.9827586206896551, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,policy,SIMPLE_NAME, line no: 16, 0.9827586206896551, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,stripeSize,SIMPLE_NAME, line no: 19, 0.9827586206896551, 0.9827586206896551, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,policy.getStripeSize() * 1024,INFIX_EXPRESSION, line no: 19, 0.9827586206896551, 0.9827586206896551, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,policy.getStripeSize(),METHOD_INVOCATION, line no: 19, 0.9827586206896551, 0.9827586206896551, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,getStripeSize,SIMPLE_NAME, line no: 19, 0.9827586206896551, 0.9827586206896551, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,1024,NUMBER_LITERAL, line no: 19, 0.9827586206896551, 0.9827586206896551, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,osdCount,SIMPLE_NAME, line no: 20, 0.9827586206896551, 0.9827586206896551, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,policy.getWidth(),METHOD_INVOCATION, line no: 20, 0.9827586206896551, 0.9827586206896551, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,getWidth,SIMPLE_NAME, line no: 20, 0.9827586206896551, 0.9827586206896551, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,0,NUMBER_LITERAL, line no: 22, 0.9827586206896551, 0.9827586206896551, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,policy,SIMPLE_NAME, line no: 16, 0.9824561403508771, 0.017543859649122806, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,stripeSize,SIMPLE_NAME, line no: 19, 0.9824561403508771, 0.9824561403508771, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,policy.getStripeSize() * 1024,INFIX_EXPRESSION, line no: 19, 0.9824561403508771, 0.9824561403508771, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,policy.getStripeSize(),METHOD_INVOCATION, line no: 19, 0.9824561403508771, 0.9824561403508771, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,getStripeSize,SIMPLE_NAME, line no: 19, 0.9824561403508771, 0.9824561403508771, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,1024,NUMBER_LITERAL, line no: 19, 0.9824561403508771, 0.9824561403508771, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,osdCount,SIMPLE_NAME, line no: 20, 0.9824561403508771, 0.9824561403508771, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,policy.getWidth(),METHOD_INVOCATION, line no: 20, 0.9824561403508771, 0.9824561403508771, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,getWidth,SIMPLE_NAME, line no: 20, 0.9824561403508771, 0.9824561403508771, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,0,NUMBER_LITERAL, line no: 22, 0.9824561403508771, 0.9824561403508771, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,objNumber % osdCount,INFIX_EXPRESSION, line no: 25, 0.9824561403508771, 0.9824561403508771, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,operations.add(new WriteOperation(objNumber osdOffset reqSize reqOffset viewBuffer)),METHOD_INVOCATION, line no: 31, 0.9824561403508771, 0.9298245614035088, 0.0, 0.0, 0.05263157894736842
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,size,SIMPLE_NAME, line no: 16, 0.9821428571428571, 0.017857142857142856, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,policy,SIMPLE_NAME, line no: 16, 0.9821428571428571, 0.017857142857142856, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,getStripeSize,SIMPLE_NAME, line no: 19, 0.9821428571428571, 0.9821428571428571, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,1024,NUMBER_LITERAL, line no: 19, 0.9821428571428571, 0.9821428571428571, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,getWidth,SIMPLE_NAME, line no: 20, 0.9821428571428571, 0.9821428571428571, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,0,NUMBER_LITERAL, line no: 22, 0.9821428571428571, 0.9821428571428571, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,policy,SIMPLE_NAME, line no: 16, 0.9818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,buf,SIMPLE_NAME, line no: 16, 0.9818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,(objNumber % osdCount),PARENTHESIZED_EXPRESSION, line no: 25, 0.9818181818181818, 0.9818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,Math,SIMPLE_NAME, line no: 27, 0.9818181818181818, 0.9818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,viewBuffer,SIMPLE_NAME, line no: 29, 0.9818181818181818, 0.9818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,buf.createViewBuffer(),METHOD_INVOCATION, line no: 29, 0.9818181818181818, 0.9818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,createViewBuffer,SIMPLE_NAME, line no: 29, 0.9818181818181818, 0.9818181818181818, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,ReusableBuffer,SIMPLE_NAME, line no: 11, 0.9814814814814815, 0.018518518518518517, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,WriteOperation,SIMPLE_NAME, line no: 17, 0.9814814814814815, 0.018518518518518517, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,operations,SIMPLE_NAME, line no: 17, 0.9814814814814815, 0.018518518518518517, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,start < size,INFIX_EXPRESSION, line no: 23, 0.9814814814814815, 0.9814814814814815, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,range,SIMPLE_NAME, line no: 30, 0.9814814814814815, 0.9814814814814815, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,add,SIMPLE_NAME, line no: 31, 0.9814814814814815, 0.9814814814814815, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,buf,SIMPLE_NAME, line no: 16, 0.9814814814814815, 0.018518518518518517, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,Math,SIMPLE_NAME, line no: 27, 0.9814814814814815, 0.9814814814814815, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,viewBuffer,SIMPLE_NAME, line no: 29, 0.9814814814814815, 0.9814814814814815, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,createViewBuffer,SIMPLE_NAME, line no: 29, 0.9814814814814815, 0.9814814814814815, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,(objNumber % osdCount),PARENTHESIZED_EXPRESSION, line no: 25, 0.9655172413793104, 0.9655172413793104, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,size,SIMPLE_NAME, line no: 16, 0.9655172413793104, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,start < size,INFIX_EXPRESSION, line no: 23, 0.9655172413793104, 0.9655172413793104, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,(int)(objNumber % osdCount),CAST_EXPRESSION, line no: 25, 0.9655172413793104, 0.9655172413793104, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,size - start,INFIX_EXPRESSION, line no: 27, 0.9655172413793104, 0.9655172413793104, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,size,SIMPLE_NAME, line no: 16, 0.9649122807017544, 0.017543859649122806, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,(int)(objNumber % osdCount),CAST_EXPRESSION, line no: 25, 0.9649122807017544, 0.9649122807017544, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,(objNumber % osdCount),PARENTHESIZED_EXPRESSION, line no: 25, 0.9649122807017544, 0.9649122807017544, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,buf,SIMPLE_NAME, line no: 16, 0.9642857142857143, 0.017857142857142856, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,reqSize,SIMPLE_NAME, line no: 27, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,Math,SIMPLE_NAME, line no: 27, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,min,SIMPLE_NAME, line no: 27, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,viewBuffer,SIMPLE_NAME, line no: 29, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,createViewBuffer,SIMPLE_NAME, line no: 29, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,buf,SIMPLE_NAME, line no: 16, 0.9636363636363636, 0.01818181818181818, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,Math,SIMPLE_NAME, line no: 27, 0.9636363636363636, 0.9636363636363636, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,viewBuffer,SIMPLE_NAME, line no: 29, 0.9636363636363636, 0.9636363636363636, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,createViewBuffer,SIMPLE_NAME, line no: 29, 0.9636363636363636, 0.9636363636363636, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,ReusableBuffer,SIMPLE_NAME, line no: 11, 0.9636363636363636, 0.01818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,WriteOperation,SIMPLE_NAME, line no: 17, 0.9636363636363636, 0.01818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,operations,SIMPLE_NAME, line no: 17, 0.9636363636363636, 0.01818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,range,SIMPLE_NAME, line no: 30, 0.9636363636363636, 0.9636363636363636, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,add,SIMPLE_NAME, line no: 31, 0.9636363636363636, 0.9636363636363636, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,ReadOperation,SIMPLE_NAME, line no: 37, 0.9629629629629629, 0.018518518518518517, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,ReusableBuffer,SIMPLE_NAME, line no: 11, 0.9629629629629629, 0.018518518518518517, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,WriteOperation,SIMPLE_NAME, line no: 17, 0.9629629629629629, 0.018518518518518517, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,operations,SIMPLE_NAME, line no: 17, 0.9629629629629629, 0.018518518518518517, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,range,SIMPLE_NAME, line no: 30, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,add,SIMPLE_NAME, line no: 31, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,new ReadOperation(objNumber osdOffset reqSize reqOffset start),CLASS_INSTANCE_CREATION, line no: 49, 0.9562334217506632, 0.8793103448275862, 0.0, 0.0, 0.07692307692307693
+offset,SIMPLE_NAME, line no: 46,new ReadOperation(objNumber osdOffset reqSize reqOffset start),CLASS_INSTANCE_CREATION, line no: 49, 0.9562334217506632, 0.8793103448275862, 0.0, 0.0, 0.07692307692307693
+start,SIMPLE_NAME, line no: 46,buf,SIMPLE_NAME, line no: 16, 0.9482758620689655, 0.017241379310344827, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,Math,SIMPLE_NAME, line no: 27, 0.9482758620689655, 0.9482758620689655, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,viewBuffer,SIMPLE_NAME, line no: 29, 0.9482758620689655, 0.9482758620689655, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,buf.createViewBuffer(),METHOD_INVOCATION, line no: 29, 0.9482758620689655, 0.9482758620689655, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,createViewBuffer,SIMPLE_NAME, line no: 29, 0.9482758620689655, 0.9482758620689655, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,buf,SIMPLE_NAME, line no: 16, 0.9482758620689655, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,reqSize,SIMPLE_NAME, line no: 27, 0.9482758620689655, 0.9482758620689655, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,Math,SIMPLE_NAME, line no: 27, 0.9482758620689655, 0.9482758620689655, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,min,SIMPLE_NAME, line no: 27, 0.9482758620689655, 0.9482758620689655, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,viewBuffer,SIMPLE_NAME, line no: 29, 0.9482758620689655, 0.9482758620689655, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,buf.createViewBuffer(),METHOD_INVOCATION, line no: 29, 0.9482758620689655, 0.9482758620689655, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,createViewBuffer,SIMPLE_NAME, line no: 29, 0.9482758620689655, 0.9482758620689655, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,buf,SIMPLE_NAME, line no: 16, 0.9473684210526315, 0.017543859649122806, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,reqSize,SIMPLE_NAME, line no: 27, 0.9473684210526315, 0.9473684210526315, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,Math,SIMPLE_NAME, line no: 27, 0.9473684210526315, 0.9473684210526315, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,min,SIMPLE_NAME, line no: 27, 0.9473684210526315, 0.9473684210526315, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,viewBuffer,SIMPLE_NAME, line no: 29, 0.9473684210526315, 0.9473684210526315, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,buf.createViewBuffer(),METHOD_INVOCATION, line no: 29, 0.9473684210526315, 0.9473684210526315, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,createViewBuffer,SIMPLE_NAME, line no: 29, 0.9473684210526315, 0.9473684210526315, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,ReusableBuffer,SIMPLE_NAME, line no: 11, 0.9464285714285714, 0.017857142857142856, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,WriteOperation,SIMPLE_NAME, line no: 17, 0.9464285714285714, 0.017857142857142856, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,operations,SIMPLE_NAME, line no: 17, 0.9464285714285714, 0.017857142857142856, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,range,SIMPLE_NAME, line no: 30, 0.9464285714285714, 0.9464285714285714, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,add,SIMPLE_NAME, line no: 31, 0.9464285714285714, 0.9464285714285714, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,ReusableBuffer,SIMPLE_NAME, line no: 11, 0.9454545454545454, 0.01818181818181818, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,WriteOperation,SIMPLE_NAME, line no: 17, 0.9454545454545454, 0.01818181818181818, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,operations,SIMPLE_NAME, line no: 17, 0.9454545454545454, 0.01818181818181818, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,range,SIMPLE_NAME, line no: 30, 0.9454545454545454, 0.9454545454545454, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,add,SIMPLE_NAME, line no: 31, 0.9454545454545454, 0.9454545454545454, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,ReadOperation,SIMPLE_NAME, line no: 37, 0.9454545454545454, 0.01818181818181818, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,ReadOperation,SIMPLE_NAME, line no: 37, 0.9444444444444444, 0.018518518518518517, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,operations.add(new ReadOperation(objNumber osdOffset reqSize reqOffset start)),METHOD_INVOCATION, line no: 49, 0.9418103448275862, 0.8793103448275862, 0.0, 0.0, 0.0625
+offset,SIMPLE_NAME, line no: 46,operations.add(new ReadOperation(objNumber osdOffset reqSize reqOffset start)),METHOD_INVOCATION, line no: 49, 0.9418103448275862, 0.8793103448275862, 0.0, 0.0, 0.0625
+start,SIMPLE_NAME, line no: 46,ReusableBuffer,SIMPLE_NAME, line no: 11, 0.9310344827586207, 0.017241379310344827, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,WriteOperation,SIMPLE_NAME, line no: 17, 0.9310344827586207, 0.017241379310344827, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,operations,SIMPLE_NAME, line no: 17, 0.9310344827586207, 0.017241379310344827, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,range,SIMPLE_NAME, line no: 30, 0.9310344827586207, 0.9310344827586207, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,operations.add(new WriteOperation(objNumber osdOffset reqSize reqOffset viewBuffer)),METHOD_INVOCATION, line no: 31, 0.9310344827586207, 0.9310344827586207, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,add,SIMPLE_NAME, line no: 31, 0.9310344827586207, 0.9310344827586207, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,new WriteOperation(objNumber osdOffset reqSize reqOffset viewBuffer),CLASS_INSTANCE_CREATION, line no: 31, 0.9310344827586207, 0.9310344827586207, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,ReusableBuffer,SIMPLE_NAME, line no: 11, 0.9310344827586207, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,WriteOperation,SIMPLE_NAME, line no: 17, 0.9310344827586207, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,operations,SIMPLE_NAME, line no: 17, 0.9310344827586207, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,viewBuffer.range(start reqSize),METHOD_INVOCATION, line no: 30, 0.9310344827586207, 0.9310344827586207, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,range,SIMPLE_NAME, line no: 30, 0.9310344827586207, 0.9310344827586207, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,add,SIMPLE_NAME, line no: 31, 0.9310344827586207, 0.9310344827586207, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,start+=reqSize,ASSIGNMENT, line no: 32, 0.9310344827586207, 0.9310344827586207, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,ReusableBuffer,SIMPLE_NAME, line no: 11, 0.9298245614035088, 0.017543859649122806, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,WriteOperation,SIMPLE_NAME, line no: 17, 0.9298245614035088, 0.017543859649122806, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,operations,SIMPLE_NAME, line no: 17, 0.9298245614035088, 0.017543859649122806, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,range,SIMPLE_NAME, line no: 30, 0.9298245614035088, 0.9298245614035088, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,add,SIMPLE_NAME, line no: 31, 0.9298245614035088, 0.9298245614035088, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,ReadOperation,SIMPLE_NAME, line no: 37, 0.9272727272727272, 0.01818181818181818, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,ReadOperation,SIMPLE_NAME, line no: 37, 0.9107142857142857, 0.017857142857142856, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,ReadOperation,SIMPLE_NAME, line no: 37, 0.896551724137931, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,ReadOperation,SIMPLE_NAME, line no: 37, 0.896551724137931, 0.017241379310344827, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,ReadOperation,SIMPLE_NAME, line no: 37, 0.8947368421052632, 0.017543859649122806, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,StripeTranslator,SIMPLE_NAME, line no: 14, 0.3515151515151515, 0.01818181818181818, 0.0, 0.0, 0.3333333333333333
+stripeSize,SIMPLE_NAME, line no: 46,StripeTranslatorRaid0,SIMPLE_NAME, line no: 14, 0.2681818181818182, 0.01818181818181818, 0.0, 0.0, 0.25
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,StripeTranslator,SIMPLE_NAME, line no: 14, 0.11851851851851852, 0.018518518518518517, 0.0, 0.0, 0.1
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,StripeTranslatorRaid0,SIMPLE_NAME, line no: 14, 0.10942760942760943, 0.018518518518518517, 0.0, 0.0, 0.09090909090909091
+reqOffset,SIMPLE_NAME, line no: 46,org,SIMPLE_NAME, line no: 7, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,xtreemfs,SIMPLE_NAME, line no: 7, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,common,SIMPLE_NAME, line no: 7, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,libxtreemfs,SIMPLE_NAME, line no: 7, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,java,SIMPLE_NAME, line no: 9, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,util,SIMPLE_NAME, line no: 9, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,Vector,SIMPLE_NAME, line no: 9, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,foundation,SIMPLE_NAME, line no: 11, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,buffer,SIMPLE_NAME, line no: 11, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,pbrpc,SIMPLE_NAME, line no: 12, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,generatedinterfaces,SIMPLE_NAME, line no: 12, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,GlobalTypes,SIMPLE_NAME, line no: 12, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,StripingPolicy,SIMPLE_NAME, line no: 12, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,StripeTranslatorRaid0,SIMPLE_NAME, line no: 14, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,StripeTranslator,SIMPLE_NAME, line no: 14, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,translateWriteRequest,SIMPLE_NAME, line no: 16, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,translateReadRequest,SIMPLE_NAME, line no: 36, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,org,SIMPLE_NAME, line no: 7, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,xtreemfs,SIMPLE_NAME, line no: 7, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,common,SIMPLE_NAME, line no: 7, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,libxtreemfs,SIMPLE_NAME, line no: 7, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,java,SIMPLE_NAME, line no: 9, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,util,SIMPLE_NAME, line no: 9, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,Vector,SIMPLE_NAME, line no: 9, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,foundation,SIMPLE_NAME, line no: 11, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,buffer,SIMPLE_NAME, line no: 11, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,pbrpc,SIMPLE_NAME, line no: 12, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,generatedinterfaces,SIMPLE_NAME, line no: 12, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,GlobalTypes,SIMPLE_NAME, line no: 12, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,StripingPolicy,SIMPLE_NAME, line no: 12, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,translateWriteRequest,SIMPLE_NAME, line no: 16, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,translateReadRequest,SIMPLE_NAME, line no: 36, 0.018518518518518517, 0.018518518518518517, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,org,SIMPLE_NAME, line no: 7, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,xtreemfs,SIMPLE_NAME, line no: 7, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,common,SIMPLE_NAME, line no: 7, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,libxtreemfs,SIMPLE_NAME, line no: 7, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,java,SIMPLE_NAME, line no: 9, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,util,SIMPLE_NAME, line no: 9, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,Vector,SIMPLE_NAME, line no: 9, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,foundation,SIMPLE_NAME, line no: 11, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,buffer,SIMPLE_NAME, line no: 11, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,pbrpc,SIMPLE_NAME, line no: 12, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,generatedinterfaces,SIMPLE_NAME, line no: 12, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,GlobalTypes,SIMPLE_NAME, line no: 12, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,StripingPolicy,SIMPLE_NAME, line no: 12, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,StripeTranslatorRaid0,SIMPLE_NAME, line no: 14, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,StripeTranslator,SIMPLE_NAME, line no: 14, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,translateWriteRequest,SIMPLE_NAME, line no: 16, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,translateReadRequest,SIMPLE_NAME, line no: 36, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,org,SIMPLE_NAME, line no: 7, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,xtreemfs,SIMPLE_NAME, line no: 7, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,common,SIMPLE_NAME, line no: 7, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,libxtreemfs,SIMPLE_NAME, line no: 7, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,java,SIMPLE_NAME, line no: 9, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,util,SIMPLE_NAME, line no: 9, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,Vector,SIMPLE_NAME, line no: 9, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,foundation,SIMPLE_NAME, line no: 11, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,buffer,SIMPLE_NAME, line no: 11, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,pbrpc,SIMPLE_NAME, line no: 12, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,generatedinterfaces,SIMPLE_NAME, line no: 12, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,GlobalTypes,SIMPLE_NAME, line no: 12, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,StripingPolicy,SIMPLE_NAME, line no: 12, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,translateWriteRequest,SIMPLE_NAME, line no: 16, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,translateReadRequest,SIMPLE_NAME, line no: 36, 0.01818181818181818, 0.01818181818181818, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,org,SIMPLE_NAME, line no: 7, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,xtreemfs,SIMPLE_NAME, line no: 7, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,common,SIMPLE_NAME, line no: 7, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,libxtreemfs,SIMPLE_NAME, line no: 7, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,java,SIMPLE_NAME, line no: 9, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,util,SIMPLE_NAME, line no: 9, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,Vector,SIMPLE_NAME, line no: 9, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,foundation,SIMPLE_NAME, line no: 11, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,buffer,SIMPLE_NAME, line no: 11, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,pbrpc,SIMPLE_NAME, line no: 12, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,generatedinterfaces,SIMPLE_NAME, line no: 12, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,GlobalTypes,SIMPLE_NAME, line no: 12, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,StripingPolicy,SIMPLE_NAME, line no: 12, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,StripeTranslatorRaid0,SIMPLE_NAME, line no: 14, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,StripeTranslator,SIMPLE_NAME, line no: 14, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,translateWriteRequest,SIMPLE_NAME, line no: 16, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,translateReadRequest,SIMPLE_NAME, line no: 36, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,org,SIMPLE_NAME, line no: 7, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,xtreemfs,SIMPLE_NAME, line no: 7, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,common,SIMPLE_NAME, line no: 7, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,libxtreemfs,SIMPLE_NAME, line no: 7, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,java,SIMPLE_NAME, line no: 9, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,util,SIMPLE_NAME, line no: 9, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,Vector,SIMPLE_NAME, line no: 9, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,foundation,SIMPLE_NAME, line no: 11, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,buffer,SIMPLE_NAME, line no: 11, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,pbrpc,SIMPLE_NAME, line no: 12, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,generatedinterfaces,SIMPLE_NAME, line no: 12, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,GlobalTypes,SIMPLE_NAME, line no: 12, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,StripingPolicy,SIMPLE_NAME, line no: 12, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,StripeTranslatorRaid0,SIMPLE_NAME, line no: 14, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,StripeTranslator,SIMPLE_NAME, line no: 14, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,translateWriteRequest,SIMPLE_NAME, line no: 16, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,translateReadRequest,SIMPLE_NAME, line no: 36, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,org,SIMPLE_NAME, line no: 7, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,xtreemfs,SIMPLE_NAME, line no: 7, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,common,SIMPLE_NAME, line no: 7, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,libxtreemfs,SIMPLE_NAME, line no: 7, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,java,SIMPLE_NAME, line no: 9, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,util,SIMPLE_NAME, line no: 9, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,Vector,SIMPLE_NAME, line no: 9, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,foundation,SIMPLE_NAME, line no: 11, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,buffer,SIMPLE_NAME, line no: 11, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,pbrpc,SIMPLE_NAME, line no: 12, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,generatedinterfaces,SIMPLE_NAME, line no: 12, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,GlobalTypes,SIMPLE_NAME, line no: 12, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,StripingPolicy,SIMPLE_NAME, line no: 12, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,StripeTranslatorRaid0,SIMPLE_NAME, line no: 14, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,StripeTranslator,SIMPLE_NAME, line no: 14, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,translateWriteRequest,SIMPLE_NAME, line no: 16, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,translateReadRequest,SIMPLE_NAME, line no: 36, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,org,SIMPLE_NAME, line no: 7, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,xtreemfs,SIMPLE_NAME, line no: 7, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,common,SIMPLE_NAME, line no: 7, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,libxtreemfs,SIMPLE_NAME, line no: 7, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,java,SIMPLE_NAME, line no: 9, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,util,SIMPLE_NAME, line no: 9, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,Vector,SIMPLE_NAME, line no: 9, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,foundation,SIMPLE_NAME, line no: 11, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,buffer,SIMPLE_NAME, line no: 11, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,pbrpc,SIMPLE_NAME, line no: 12, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,generatedinterfaces,SIMPLE_NAME, line no: 12, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,GlobalTypes,SIMPLE_NAME, line no: 12, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,StripingPolicy,SIMPLE_NAME, line no: 12, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,StripeTranslatorRaid0,SIMPLE_NAME, line no: 14, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,StripeTranslator,SIMPLE_NAME, line no: 14, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,translateWriteRequest,SIMPLE_NAME, line no: 16, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,translateReadRequest,SIMPLE_NAME, line no: 36, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,org.xtreemfs.common.libxtreemfs,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,org.xtreemfs.common,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,org.xtreemfs,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,java.util.Vector,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,java.util,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,org.xtreemfs.foundation.buffer.ReusableBuffer,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,org.xtreemfs.foundation.buffer,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,org.xtreemfs.foundation,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces.GlobalTypes.StripingPolicy,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces.GlobalTypes,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+reqOffset,SIMPLE_NAME, line no: 46,org.xtreemfs.pbrpc,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,org.xtreemfs.common.libxtreemfs,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,org.xtreemfs.common,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,org.xtreemfs,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,java.util.Vector,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,java.util,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,org.xtreemfs.foundation.buffer.ReusableBuffer,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,org.xtreemfs.foundation.buffer,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,org.xtreemfs.foundation,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces.GlobalTypes.StripingPolicy,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces.GlobalTypes,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset) % stripeSize,INFIX_EXPRESSION, line no: 46,org.xtreemfs.pbrpc,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,org.xtreemfs.common.libxtreemfs,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,org.xtreemfs.common,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,org.xtreemfs,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,java.util.Vector,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,java.util,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,org.xtreemfs.foundation.buffer.ReusableBuffer,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,org.xtreemfs.foundation.buffer,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,org.xtreemfs.foundation,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces.GlobalTypes.StripingPolicy,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces.GlobalTypes,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+(int)(start + offset),CAST_EXPRESSION, line no: 46,org.xtreemfs.pbrpc,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,org.xtreemfs.common.libxtreemfs,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,org.xtreemfs.common,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,org.xtreemfs,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,java.util.Vector,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,java.util,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,org.xtreemfs.foundation.buffer.ReusableBuffer,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,org.xtreemfs.foundation.buffer,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,org.xtreemfs.foundation,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces.GlobalTypes.StripingPolicy,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces.GlobalTypes,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+(start + offset),PARENTHESIZED_EXPRESSION, line no: 46,org.xtreemfs.pbrpc,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,org.xtreemfs.common.libxtreemfs,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,org.xtreemfs.common,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,org.xtreemfs,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,java.util.Vector,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,java.util,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,org.xtreemfs.foundation.buffer.ReusableBuffer,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,org.xtreemfs.foundation.buffer,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,org.xtreemfs.foundation,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces.GlobalTypes.StripingPolicy,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces.GlobalTypes,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+start + offset,INFIX_EXPRESSION, line no: 46,org.xtreemfs.pbrpc,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,org.xtreemfs.common.libxtreemfs,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,org.xtreemfs.common,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,org.xtreemfs,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,java.util.Vector,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,java.util,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,org.xtreemfs.foundation.buffer.ReusableBuffer,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,org.xtreemfs.foundation.buffer,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,org.xtreemfs.foundation,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces.GlobalTypes.StripingPolicy,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces.GlobalTypes,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 46,org.xtreemfs.pbrpc,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,org.xtreemfs.common.libxtreemfs,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,org.xtreemfs.common,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,org.xtreemfs,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,java.util.Vector,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,java.util,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,org.xtreemfs.foundation.buffer.ReusableBuffer,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,org.xtreemfs.foundation.buffer,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,org.xtreemfs.foundation,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces.GlobalTypes.StripingPolicy,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces.GlobalTypes,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 46,org.xtreemfs.pbrpc,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,org.xtreemfs.common.libxtreemfs,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,org.xtreemfs.common,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,org.xtreemfs,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,java.util.Vector,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,java.util,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,org.xtreemfs.foundation.buffer.ReusableBuffer,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,org.xtreemfs.foundation.buffer,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,org.xtreemfs.foundation,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces.GlobalTypes.StripingPolicy,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces.GlobalTypes,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,org.xtreemfs.pbrpc.generatedinterfaces,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+stripeSize,SIMPLE_NAME, line no: 46,org.xtreemfs.pbrpc,QUALIFIED_NAME, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0

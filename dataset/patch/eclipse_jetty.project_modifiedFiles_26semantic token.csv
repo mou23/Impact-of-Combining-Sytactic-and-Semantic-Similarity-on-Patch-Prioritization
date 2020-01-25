@@ -1,0 +1,666 @@
+close(),METHOD_INVOCATION, line no: 152,close,SIMPLE_NAME, line no: 117, 2.3333333333333335, 0.037037037037037035, 1.0, 0.0, 0.3333333333333333
+close,SIMPLE_NAME, line no: 152,close(),METHOD_INVOCATION, line no: 152, 2.297619047619048, 0.9642857142857143, 1.0, 0.0, 0.3333333333333333
+close,SIMPLE_NAME, line no: 152,_channel.close(),METHOD_INVOCATION, line no: 130, 2.0214285714285714, 0.8214285714285714, 1.0, 0.0, 0.2
+close,SIMPLE_NAME, line no: 152,header.setGetIndex(bbuf0.position()),METHOD_INVOCATION, line no: 276, 1.9285714285714286, 0.9285714285714286, 1.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,setGetIndex,SIMPLE_NAME, line no: 276, 1.9285714285714286, 0.9285714285714286, 1.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buffer.setGetIndex(bbuf1.position()),METHOD_INVOCATION, line no: 278, 1.9285714285714286, 0.9285714285714286, 1.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,setGetIndex,SIMPLE_NAME, line no: 276, 1.925925925925926, 0.9259259259259259, 1.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,shutdownOutput,SIMPLE_NAME, line no: 104, 1.7857142857142856, 0.03571428571428571, 1.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,socket.shutdownOutput(),METHOD_INVOCATION, line no: 110, 1.7857142857142856, 0.7857142857142857, 1.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,shutdownOutput,SIMPLE_NAME, line no: 104, 1.7777777777777777, 0.037037037037037035, 1.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_socket.setSoTimeout(_maxIdleTime),METHOD_INVOCATION, line no: 70, 1.75, 0.75, 1.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,setSoTimeout,SIMPLE_NAME, line no: 70, 1.75, 0.75, 1.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,setSoTimeout,SIMPLE_NAME, line no: 70, 1.7407407407407407, 0.7407407407407407, 1.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_socket.setSoTimeout(timeMs > 0 ? timeMs : 0),METHOD_INVOCATION, line no: 455, 1.6785714285714286, 0.6785714285714286, 1.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,setPutIndex,SIMPLE_NAME, line no: 156, 1.6666666666666665, 0.6666666666666666, 1.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,clear,SIMPLE_NAME, line no: 264, 1.6666666666666665, 0.6666666666666666, 1.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,setPutIndex,SIMPLE_NAME, line no: 156, 1.6428571428571428, 0.6428571428571429, 1.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,clear,SIMPLE_NAME, line no: 264, 1.6428571428571428, 0.6428571428571429, 1.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buffer.setPutIndex(bbuf.position()),METHOD_INVOCATION, line no: 156, 1.6071428571428572, 0.6071428571428571, 1.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,header.clear(),METHOD_INVOCATION, line no: 264, 1.6071428571428572, 0.6071428571428571, 1.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buffer.clear(),METHOD_INVOCATION, line no: 296, 1.5, 0.5, 1.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,trailer.clear(),METHOD_INVOCATION, line no: 301, 1.5, 0.5, 1.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_channel.close(),METHOD_INVOCATION, line no: 130, 1.4148148148148147, 0.8148148148148148, 0.0, 0.0, 0.6
+close(),METHOD_INVOCATION, line no: 152,buffer.buffer(),METHOD_INVOCATION, line no: 138, 1.4, 0.9629629629629629, 0.0, 0.0, 0.4
+close(),METHOD_INVOCATION, line no: 152,(NIOBuffer)buf0,CAST_EXPRESSION, line no: 233, 1.4, 1.0, 0.0, 0.0, 0.4
+close(),METHOD_INVOCATION, line no: 152,(NIOBuffer)buf1,CAST_EXPRESSION, line no: 235, 1.4, 1.0, 0.0, 0.0, 0.4
+close(),METHOD_INVOCATION, line no: 152,ignore,SIMPLE_NAME, line no: 127, 1.3703703703703702, 0.37037037037037035, 1.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,(NIOBuffer)buf,CAST_EXPRESSION, line no: 142, 1.362962962962963, 0.9629629629629629, 0.0, 0.0, 0.4
+close,SIMPLE_NAME, line no: 152,ignore,SIMPLE_NAME, line no: 127, 1.3571428571428572, 0.35714285714285715, 1.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,buffer.length(),METHOD_INVOCATION, line no: 201, 1.3333333333333333, 0.8888888888888888, 0.0, 0.0, 0.3333333333333333
+close(),METHOD_INVOCATION, line no: 152,buffer.array(),METHOD_INVOCATION, line no: 205, 1.3333333333333333, 1.0, 0.0, 0.0, 0.3333333333333333
+close(),METHOD_INVOCATION, line no: 152,header.buffer(),METHOD_INVOCATION, line no: 226, 1.3333333333333333, 1.0, 0.0, 0.0, 0.3333333333333333
+close(),METHOD_INVOCATION, line no: 152,header.length(),METHOD_INVOCATION, line no: 230, 1.3333333333333333, 1.0, 0.0, 0.0, 0.3333333333333333
+close(),METHOD_INVOCATION, line no: 152,flush(header),METHOD_INVOCATION, line no: 307, 1.325925925925926, 0.9259259259259259, 0.0, 0.0, 0.4
+close(),METHOD_INVOCATION, line no: 152,flush(buffer),METHOD_INVOCATION, line no: 312, 1.325925925925926, 0.9259259259259259, 0.0, 0.0, 0.4
+close(),METHOD_INVOCATION, line no: 152,flush(trailer),METHOD_INVOCATION, line no: 318, 1.325925925925926, 0.9259259259259259, 0.0, 0.0, 0.4
+close,SIMPLE_NAME, line no: 152,Log.ignore(x),METHOD_INVOCATION, line no: 127, 1.3214285714285714, 0.32142857142857145, 1.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,buffer.putIndex(),METHOD_INVOCATION, line no: 149, 1.2857142857142856, 0.9629629629629629, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,buffer.getIndex(),METHOD_INVOCATION, line no: 186, 1.2857142857142856, 0.8518518518518519, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,header.getIndex(),METHOD_INVOCATION, line no: 250, 1.2857142857142856, 1.0, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,header.putIndex(),METHOD_INVOCATION, line no: 251, 1.2857142857142856, 1.0, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,((GatheringByteChannel)_channel),PARENTHESIZED_EXPRESSION, line no: 259, 1.2857142857142856, 1.0, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,(GatheringByteChannel)_channel,CAST_EXPRESSION, line no: 259, 1.2857142857142856, 1.0, 0.0, 0.0, 0.2857142857142857
+close,SIMPLE_NAME, line no: 152,_socket.shutdownOutput(),METHOD_INVOCATION, line no: 123, 1.2857142857142856, 0.2857142857142857, 1.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,bbuf.capacity(),METHOD_INVOCATION, line no: 195, 1.2592592592592593, 0.9259259259259259, 0.0, 0.0, 0.3333333333333333
+close(),METHOD_INVOCATION, line no: 152,bbuf0.position(),METHOD_INVOCATION, line no: 276, 1.2592592592592593, 0.9259259259259259, 0.0, 0.0, 0.3333333333333333
+close(),METHOD_INVOCATION, line no: 152,bbuf1.position(),METHOD_INVOCATION, line no: 278, 1.2592592592592593, 0.9259259259259259, 0.0, 0.0, 0.3333333333333333
+close(),METHOD_INVOCATION, line no: 152,bbuf0.capacity(),METHOD_INVOCATION, line no: 282, 1.2592592592592593, 0.9259259259259259, 0.0, 0.0, 0.3333333333333333
+close(),METHOD_INVOCATION, line no: 152,bbuf1.capacity(),METHOD_INVOCATION, line no: 283, 1.2592592592592593, 0.9259259259259259, 0.0, 0.0, 0.3333333333333333
+close(),METHOD_INVOCATION, line no: 152,trailer.length(),METHOD_INVOCATION, line no: 298, 1.2592592592592593, 0.8888888888888888, 0.0, 0.0, 0.3333333333333333
+close(),METHOD_INVOCATION, line no: 152,buffer.array() != null,INFIX_EXPRESSION, line no: 205, 1.25, 1.0, 0.0, 0.0, 0.25
+close(),METHOD_INVOCATION, line no: 152,header.length() != 0,INFIX_EXPRESSION, line no: 230, 1.25, 1.0, 0.0, 0.0, 0.25
+close(),METHOD_INVOCATION, line no: 152,buffer.length() != 0,INFIX_EXPRESSION, line no: 231, 1.25, 1.0, 0.0, 0.0, 0.25
+close(),METHOD_INVOCATION, line no: 152,nbuf0.getByteBuffer(),METHOD_INVOCATION, line no: 234, 1.25, 1.0, 0.0, 0.0, 0.25
+close(),METHOD_INVOCATION, line no: 152,nbuf1.getByteBuffer(),METHOD_INVOCATION, line no: 236, 1.25, 1.0, 0.0, 0.0, 0.25
+close(),METHOD_INVOCATION, line no: 152,_channel.read(bbuf),METHOD_INVOCATION, line no: 150, 1.2486772486772486, 0.9629629629629629, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,buffer.skip(len),METHOD_INVOCATION, line no: 193, 1.2486772486772486, 0.9629629629629629, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,buffer == null ? null : buffer.buffer(),CONDITIONAL_EXPRESSION, line no: 227, 1.2222222222222223, 1.0, 0.0, 0.0, 0.2222222222222222
+close(),METHOD_INVOCATION, line no: 152,bbuf0.position(header.getIndex()),METHOD_INVOCATION, line no: 250, 1.2222222222222223, 1.0, 0.0, 0.0, 0.2222222222222222
+close(),METHOD_INVOCATION, line no: 152,bbuf0.limit(header.putIndex()),METHOD_INVOCATION, line no: 251, 1.2222222222222223, 1.0, 0.0, 0.0, 0.2222222222222222
+close(),METHOD_INVOCATION, line no: 152,bbuf1.position(buffer.getIndex()),METHOD_INVOCATION, line no: 252, 1.2222222222222223, 1.0, 0.0, 0.0, 0.2222222222222222
+close(),METHOD_INVOCATION, line no: 152,bbuf1.limit(buffer.putIndex()),METHOD_INVOCATION, line no: 253, 1.2222222222222223, 1.0, 0.0, 0.0, 0.2222222222222222
+close(),METHOD_INVOCATION, line no: 152,header.space(),METHOD_INVOCATION, line no: 293, 1.222222222222222, 0.8888888888888888, 0.0, 0.0, 0.3333333333333333
+close(),METHOD_INVOCATION, line no: 152,((SocketChannel)channel),PARENTHESIZED_EXPRESSION, line no: 48, 1.2148148148148148, 0.8148148148148148, 0.0, 0.0, 0.4
+close(),METHOD_INVOCATION, line no: 152,(SocketChannel)channel,CAST_EXPRESSION, line no: 48, 1.2148148148148148, 0.8148148148148148, 0.0, 0.0, 0.4
+close(),METHOD_INVOCATION, line no: 152,nbuf.getByteBuffer(),METHOD_INVOCATION, line no: 143, 1.2129629629629628, 0.9629629629629629, 0.0, 0.0, 0.25
+close(),METHOD_INVOCATION, line no: 152,bbuf.position(0),METHOD_INVOCATION, line no: 157, 1.2116402116402116, 0.6296296296296297, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,bbuf.limit(bbuf.capacity()),METHOD_INVOCATION, line no: 195, 1.2116402116402116, 0.9259259259259259, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,header.isImmutable(),METHOD_INVOCATION, line no: 275, 1.2116402116402116, 0.9259259259259259, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,buffer.isImmutable(),METHOD_INVOCATION, line no: 277, 1.2116402116402116, 0.9259259259259259, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,bbuf0.position(0),METHOD_INVOCATION, line no: 280, 1.2116402116402116, 0.9259259259259259, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,bbuf1.position(0),METHOD_INVOCATION, line no: 281, 1.2116402116402116, 0.9259259259259259, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,bbuf0.limit(bbuf0.capacity()),METHOD_INVOCATION, line no: 282, 1.2116402116402116, 0.9259259259259259, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,bbuf1.limit(bbuf1.capacity()),METHOD_INVOCATION, line no: 283, 1.2116402116402116, 0.9259259259259259, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,length=flush(header),ASSIGNMENT, line no: 307, 1.2116402116402116, 0.9259259259259259, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,length+=flush(buffer),ASSIGNMENT, line no: 312, 1.2116402116402116, 0.9259259259259259, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,length+=flush(trailer),ASSIGNMENT, line no: 318, 1.2116402116402116, 0.9259259259259259, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,header == null ? null : header.buffer(),CONDITIONAL_EXPRESSION, line no: 226, 1.2, 1.0, 0.0, 0.0, 0.2
+close(),METHOD_INVOCATION, line no: 152,((GatheringByteChannel)_channel).write(_gather2),METHOD_INVOCATION, line no: 259, 1.2, 1.0, 0.0, 0.0, 0.2
+close(),METHOD_INVOCATION, line no: 152,bbuf.position(buffer.putIndex()),METHOD_INVOCATION, line no: 149, 1.1851851851851851, 0.9629629629629629, 0.0, 0.0, 0.2222222222222222
+close(),METHOD_INVOCATION, line no: 152,(int)((GatheringByteChannel)_channel).write(_gather2),CAST_EXPRESSION, line no: 259, 1.1818181818181819, 1.0, 0.0, 0.0, 0.18181818181818182
+close(),METHOD_INVOCATION, line no: 152,!header.isImmutable(),PREFIX_EXPRESSION, line no: 275, 1.175925925925926, 0.9259259259259259, 0.0, 0.0, 0.25
+close(),METHOD_INVOCATION, line no: 152,!buffer.isImmutable(),PREFIX_EXPRESSION, line no: 277, 1.175925925925926, 0.9259259259259259, 0.0, 0.0, 0.25
+close(),METHOD_INVOCATION, line no: 152,buffer.length() > 0,INFIX_EXPRESSION, line no: 293, 1.175925925925926, 0.8888888888888888, 0.0, 0.0, 0.25
+close(),METHOD_INVOCATION, line no: 152,trailer.length() > 0,INFIX_EXPRESSION, line no: 298, 1.175925925925926, 0.8888888888888888, 0.0, 0.0, 0.25
+close(),METHOD_INVOCATION, line no: 152,header.length() > 0,INFIX_EXPRESSION, line no: 306, 1.175925925925926, 0.9259259259259259, 0.0, 0.0, 0.25
+close(),METHOD_INVOCATION, line no: 152,header.length() == 0,INFIX_EXPRESSION, line no: 310, 1.175925925925926, 0.9259259259259259, 0.0, 0.0, 0.25
+close(),METHOD_INVOCATION, line no: 152,buffer.length() == 0,INFIX_EXPRESSION, line no: 316, 1.175925925925926, 0.9259259259259259, 0.0, 0.0, 0.25
+close(),METHOD_INVOCATION, line no: 152,_channel.write(b),METHOD_INVOCATION, line no: 208, 1.1746031746031744, 0.8888888888888888, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,length=(int)((GatheringByteChannel)_channel).write(_gather2),ASSIGNMENT, line no: 259, 1.1538461538461537, 1.0, 0.0, 0.0, 0.15384615384615385
+close(),METHOD_INVOCATION, line no: 152,((SocketChannel)channel).socket(),METHOD_INVOCATION, line no: 48, 1.1481481481481481, 0.8148148148148148, 0.0, 0.0, 0.3333333333333333
+close(),METHOD_INVOCATION, line no: 152,len=_channel.read(bbuf),ASSIGNMENT, line no: 150, 1.1481481481481481, 0.9259259259259259, 0.0, 0.0, 0.2222222222222222
+close(),METHOD_INVOCATION, line no: 152,((RandomAccessFileBuffer)buf),PARENTHESIZED_EXPRESSION, line no: 201, 1.1388888888888888, 0.8888888888888888, 0.0, 0.0, 0.25
+close(),METHOD_INVOCATION, line no: 152,(RandomAccessFileBuffer)buf,CAST_EXPRESSION, line no: 201, 1.1388888888888888, 0.8888888888888888, 0.0, 0.0, 0.25
+close(),METHOD_INVOCATION, line no: 152,_channel.write(bbuf),METHOD_INVOCATION, line no: 188, 1.1375661375661377, 0.8518518518518519, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,_channel instanceof GatheringByteChannel && header != null && header.length() != 0,INFIX_EXPRESSION, line no: 229, 1.1333333333333333, 1.0, 0.0, 0.0, 0.13333333333333333
+close(),METHOD_INVOCATION, line no: 152,header.setGetIndex(bbuf0.position()),METHOD_INVOCATION, line no: 276, 1.125925925925926, 0.9259259259259259, 0.0, 0.0, 0.2
+close(),METHOD_INVOCATION, line no: 152,buffer.setGetIndex(bbuf1.position()),METHOD_INVOCATION, line no: 278, 1.125925925925926, 0.9259259259259259, 0.0, 0.0, 0.2
+close(),METHOD_INVOCATION, line no: 152,(header == null || header.length() == 0),PARENTHESIZED_EXPRESSION, line no: 310, 1.125925925925926, 0.9259259259259259, 0.0, 0.0, 0.2
+close(),METHOD_INVOCATION, line no: 152,header == null || header.length() == 0,INFIX_EXPRESSION, line no: 310, 1.125925925925926, 0.9259259259259259, 0.0, 0.0, 0.2
+close(),METHOD_INVOCATION, line no: 152,(buffer == null || buffer.length() == 0),PARENTHESIZED_EXPRESSION, line no: 316, 1.125925925925926, 0.9259259259259259, 0.0, 0.0, 0.2
+close(),METHOD_INVOCATION, line no: 152,buffer == null || buffer.length() == 0,INFIX_EXPRESSION, line no: 316, 1.125925925925926, 0.9259259259259259, 0.0, 0.0, 0.2
+close(),METHOD_INVOCATION, line no: 152,_channel instanceof GatheringByteChannel && header != null && header.length() != 0 && buf0 instanceof NIOBuffer,INFIX_EXPRESSION, line no: 229, 1.1176470588235294, 1.0, 0.0, 0.0, 0.11764705882352941
+close(),METHOD_INVOCATION, line no: 152,(channel instanceof SocketChannel),PARENTHESIZED_EXPRESSION, line no: 48, 1.1111111111111112, 0.7777777777777778, 0.0, 0.0, 0.3333333333333333
+close(),METHOD_INVOCATION, line no: 152,len=_channel.write(b),ASSIGNMENT, line no: 208, 1.1111111111111112, 0.8888888888888888, 0.0, 0.0, 0.2222222222222222
+close(),METHOD_INVOCATION, line no: 152,_channel instanceof GatheringByteChannel && header != null && header.length() != 0 && buf0 instanceof NIOBuffer && buffer != null && buffer.length() != 0,INFIX_EXPRESSION, line no: 229, 1.1111111111111112, 1.0, 0.0, 0.0, 0.1111111111111111
+close(),METHOD_INVOCATION, line no: 152,_channel instanceof GatheringByteChannel && header != null && header.length() != 0 && buf0 instanceof NIOBuffer && buffer != null,INFIX_EXPRESSION, line no: 229, 1.1111111111111112, 1.0, 0.0, 0.0, 0.1111111111111111
+close(),METHOD_INVOCATION, line no: 152,header.space() > buffer.length(),INFIX_EXPRESSION, line no: 293, 1.1111111111111112, 0.8888888888888888, 0.0, 0.0, 0.2222222222222222
+close(),METHOD_INVOCATION, line no: 152,header.space() > trailer.length(),INFIX_EXPRESSION, line no: 298, 1.1111111111111112, 0.8888888888888888, 0.0, 0.0, 0.2222222222222222
+close(),METHOD_INVOCATION, line no: 152,header != null && header.length() > 0,INFIX_EXPRESSION, line no: 306, 1.1077441077441077, 0.9259259259259259, 0.0, 0.0, 0.18181818181818182
+close(),METHOD_INVOCATION, line no: 152,_channel instanceof GatheringByteChannel && header != null && header.length() != 0 && buf0 instanceof NIOBuffer && buffer != null && buffer.length() != 0 && buf1 instanceof NIOBuffer,INFIX_EXPRESSION, line no: 229, 1.1052631578947367, 1.0, 0.0, 0.0, 0.10526315789473684
+close(),METHOD_INVOCATION, line no: 152,(header == null || header.length() == 0) && buffer != null,INFIX_EXPRESSION, line no: 310, 1.0797720797720798, 0.9259259259259259, 0.0, 0.0, 0.15384615384615385
+close(),METHOD_INVOCATION, line no: 152,bbuf.position(buffer.getIndex()),METHOD_INVOCATION, line no: 186, 1.074074074074074, 0.8518518518518519, 0.0, 0.0, 0.2222222222222222
+close(),METHOD_INVOCATION, line no: 152,bbuf.limit(buffer.putIndex()),METHOD_INVOCATION, line no: 187, 1.074074074074074, 0.8518518518518519, 0.0, 0.0, 0.2222222222222222
+close(),METHOD_INVOCATION, line no: 152,len=_channel.write(bbuf),ASSIGNMENT, line no: 188, 1.074074074074074, 0.8518518518518519, 0.0, 0.0, 0.2222222222222222
+close(),METHOD_INVOCATION, line no: 152,buffer != null && buffer.length() > 0,INFIX_EXPRESSION, line no: 293, 1.0707070707070707, 0.8888888888888888, 0.0, 0.0, 0.18181818181818182
+close(),METHOD_INVOCATION, line no: 152,trailer != null && trailer.length() > 0,INFIX_EXPRESSION, line no: 298, 1.0707070707070707, 0.8888888888888888, 0.0, 0.0, 0.18181818181818182
+close(),METHOD_INVOCATION, line no: 152,(header == null || header.length() == 0) && buffer != null && buffer.length() > 0,INFIX_EXPRESSION, line no: 310, 1.0687830687830688, 0.9259259259259259, 0.0, 0.0, 0.14285714285714285
+close(),METHOD_INVOCATION, line no: 152,(header == null || header.length() == 0) && (buffer == null || buffer.length() == 0) && trailer != null,INFIX_EXPRESSION, line no: 315, 1.0687830687830688, 0.9259259259259259, 0.0, 0.0, 0.14285714285714285
+close(),METHOD_INVOCATION, line no: 152,_socket.isOutputShutdown(),METHOD_INVOCATION, line no: 119, 1.0648148148148149, 0.8148148148148148, 0.0, 0.0, 0.25
+close(),METHOD_INVOCATION, line no: 152,socket.shutdownOutput(),METHOD_INVOCATION, line no: 110, 1.0634920634920635, 0.7777777777777778, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,(header == null || header.length() == 0) && (buffer == null || buffer.length() == 0) && trailer != null && trailer.length() > 0,INFIX_EXPRESSION, line no: 315, 1.0592592592592593, 0.9259259259259259, 0.0, 0.0, 0.13333333333333333
+close(),METHOD_INVOCATION, line no: 152,buffer != null && buffer.length() > 0 && header.space() > buffer.length(),INFIX_EXPRESSION, line no: 293, 1.0427350427350426, 0.8888888888888888, 0.0, 0.0, 0.15384615384615385
+close(),METHOD_INVOCATION, line no: 152,trailer != null && trailer.length() > 0 && header.space() > trailer.length(),INFIX_EXPRESSION, line no: 298, 1.0427350427350426, 0.8888888888888888, 0.0, 0.0, 0.15384615384615385
+close(),METHOD_INVOCATION, line no: 152,ChannelEndPoint,SIMPLE_NAME, line no: 35, 1.037037037037037, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,((SocketChannel)_channel),PARENTHESIZED_EXPRESSION, line no: 108, 1.037037037037037, 0.7037037037037037, 0.0, 0.0, 0.3333333333333333
+close(),METHOD_INVOCATION, line no: 152,(SocketChannel)_channel,CAST_EXPRESSION, line no: 108, 1.037037037037037, 0.7037037037037037, 0.0, 0.0, 0.3333333333333333
+close(),METHOD_INVOCATION, line no: 152,flush,SIMPLE_NAME, line no: 172, 1.037037037037037, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,setMaxIdleTime,SIMPLE_NAME, line no: 452, 1.037037037037037, 0.037037037037037035, 1.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,ChannelEndPoint,SIMPLE_NAME, line no: 35, 1.0357142857142858, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,flush,SIMPLE_NAME, line no: 172, 1.0357142857142858, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,setMaxIdleTime,SIMPLE_NAME, line no: 452, 1.0357142857142858, 0.03571428571428571, 1.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_channel.isOpen(),METHOD_INVOCATION, line no: 98, 1.0264550264550265, 0.14814814814814814, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,socket.isClosed(),METHOD_INVOCATION, line no: 109, 1.0264550264550265, 0.7407407407407407, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,ByteBuffer.wrap(buffer.array() buffer.getIndex() buffer.length()),METHOD_INVOCATION, line no: 207, 1.0185185185185186, 0.8518518518518519, 0.0, 0.0, 0.16666666666666666
+close(),METHOD_INVOCATION, line no: 152,((RandomAccessFileBuffer)buf).writeTo(_channel buffer.getIndex() buffer.length()),METHOD_INVOCATION, line no: 201, 1.0138888888888888, 0.8888888888888888, 0.0, 0.0, 0.125
+close(),METHOD_INVOCATION, line no: 152,ByteBuffer,SIMPLE_NAME, line no: 19, 1.0, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,GatheringByteChannel,SIMPLE_NAME, line no: 21, 1.0, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,Buffer,SIMPLE_NAME, line no: 25, 1.0, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_channel,SIMPLE_NAME, line no: 37, 1.0, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_gather2,SIMPLE_NAME, line no: 38, 1.0, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,this,THIS_EXPRESSION, line no: 47, 1.0, 0.7777777777777778, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,null,NULL_LITERAL, line no: 48, 1.0, 0.7777777777777778, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,!_socket.isOutputShutdown(),PREFIX_EXPRESSION, line no: 119, 1.0, 0.7777777777777778, 0.0, 0.0, 0.2222222222222222
+close(),METHOD_INVOCATION, line no: 152,buffer,SIMPLE_NAME, line no: 136, 1.0, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,buf,SIMPLE_NAME, line no: 138, 1.0, 0.9629629629629629, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,len,SIMPLE_NAME, line no: 139, 1.0, 0.9629629629629629, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,0,NUMBER_LITERAL, line no: 139, 1.0, 0.9629629629629629, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,buf instanceof NIOBuffer,INSTANCEOF_EXPRESSION, line no: 140, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,NIOBuffer,SIMPLE_NAME, line no: 140, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,getByteBuffer,SIMPLE_NAME, line no: 143, 1.0, 0.9629629629629629, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,position,SIMPLE_NAME, line no: 149, 1.0, 0.9629629629629629, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,putIndex,SIMPLE_NAME, line no: 149, 1.0, 0.9629629629629629, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,bbuf.position(),METHOD_INVOCATION, line no: 156, 1.0, 0.6666666666666666, 0.0, 0.0, 0.3333333333333333
+close(),METHOD_INVOCATION, line no: 152,getIndex,SIMPLE_NAME, line no: 186, 1.0, 0.8518518518518519, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,limit,SIMPLE_NAME, line no: 187, 1.0, 0.8518518518518519, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,write,SIMPLE_NAME, line no: 188, 1.0, 0.8518518518518519, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,buf instanceof RandomAccessFileBuffer,INSTANCEOF_EXPRESSION, line no: 199, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,RandomAccessFileBuffer,SIMPLE_NAME, line no: 199, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,length,SIMPLE_NAME, line no: 201, 1.0, 0.8888888888888888, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,array,SIMPLE_NAME, line no: 205, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,header,SIMPLE_NAME, line no: 222, 1.0, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,buf0,SIMPLE_NAME, line no: 226, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,header == null,INFIX_EXPRESSION, line no: 226, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,buf1,SIMPLE_NAME, line no: 227, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,buffer == null,INFIX_EXPRESSION, line no: 227, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_channel instanceof GatheringByteChannel && header != null,INFIX_EXPRESSION, line no: 229, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_channel instanceof GatheringByteChannel,INSTANCEOF_EXPRESSION, line no: 229, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,header != null,INFIX_EXPRESSION, line no: 230, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,buf0 instanceof NIOBuffer,INSTANCEOF_EXPRESSION, line no: 230, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,buffer != null,INFIX_EXPRESSION, line no: 231, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,buf1 instanceof NIOBuffer,INSTANCEOF_EXPRESSION, line no: 231, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,nbuf0,SIMPLE_NAME, line no: 233, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,bbuf0,SIMPLE_NAME, line no: 234, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,nbuf1,SIMPLE_NAME, line no: 235, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,bbuf1,SIMPLE_NAME, line no: 236, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_gather2[0]=bbuf0,ASSIGNMENT, line no: 255, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_gather2[0],ARRAY_ACCESS, line no: 255, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_gather2[1]=bbuf1,ASSIGNMENT, line no: 256, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_gather2[1],ARRAY_ACCESS, line no: 256, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,1,NUMBER_LITERAL, line no: 256, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,hl,SIMPLE_NAME, line no: 261, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,length > hl,INFIX_EXPRESSION, line no: 262, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,length > 0,INFIX_EXPRESSION, line no: 267, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,ByteBuffer,SIMPLE_NAME, line no: 19, 1.0, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,GatheringByteChannel,SIMPLE_NAME, line no: 21, 1.0, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,Buffer,SIMPLE_NAME, line no: 25, 1.0, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_channel,SIMPLE_NAME, line no: 37, 1.0, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_gather2,SIMPLE_NAME, line no: 38, 1.0, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,this,THIS_EXPRESSION, line no: 47, 1.0, 0.7857142857142857, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,null,NULL_LITERAL, line no: 48, 1.0, 0.7857142857142857, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buffer,SIMPLE_NAME, line no: 136, 1.0, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buf,SIMPLE_NAME, line no: 138, 1.0, 0.9642857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buffer.buffer(),METHOD_INVOCATION, line no: 138, 1.0, 0.9642857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,len,SIMPLE_NAME, line no: 139, 1.0, 0.9642857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,0,NUMBER_LITERAL, line no: 139, 1.0, 0.9642857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buf instanceof NIOBuffer,INSTANCEOF_EXPRESSION, line no: 140, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,NIOBuffer,SIMPLE_NAME, line no: 140, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,getByteBuffer,SIMPLE_NAME, line no: 143, 1.0, 0.9642857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,position,SIMPLE_NAME, line no: 149, 1.0, 0.9642857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buffer.putIndex(),METHOD_INVOCATION, line no: 149, 1.0, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,putIndex,SIMPLE_NAME, line no: 149, 1.0, 0.9642857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buffer.getIndex(),METHOD_INVOCATION, line no: 186, 1.0, 0.8571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,getIndex,SIMPLE_NAME, line no: 186, 1.0, 0.8571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,limit,SIMPLE_NAME, line no: 187, 1.0, 0.8571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,write,SIMPLE_NAME, line no: 188, 1.0, 0.8571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buf instanceof RandomAccessFileBuffer,INSTANCEOF_EXPRESSION, line no: 199, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,RandomAccessFileBuffer,SIMPLE_NAME, line no: 199, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buffer.length(),METHOD_INVOCATION, line no: 201, 1.0, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,length,SIMPLE_NAME, line no: 201, 1.0, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buffer.array() != null,INFIX_EXPRESSION, line no: 205, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buffer.array(),METHOD_INVOCATION, line no: 205, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,array,SIMPLE_NAME, line no: 205, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,header,SIMPLE_NAME, line no: 222, 1.0, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buf0,SIMPLE_NAME, line no: 226, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,header == null ? null : header.buffer(),CONDITIONAL_EXPRESSION, line no: 226, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,header == null,INFIX_EXPRESSION, line no: 226, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,header.buffer(),METHOD_INVOCATION, line no: 226, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buf1,SIMPLE_NAME, line no: 227, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buffer == null ? null : buffer.buffer(),CONDITIONAL_EXPRESSION, line no: 227, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buffer == null,INFIX_EXPRESSION, line no: 227, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_channel instanceof GatheringByteChannel && header != null && header.length() != 0 && buf0 instanceof NIOBuffer && buffer != null && buffer.length() != 0 && buf1 instanceof NIOBuffer,INFIX_EXPRESSION, line no: 229, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_channel instanceof GatheringByteChannel && header != null && header.length() != 0 && buf0 instanceof NIOBuffer && buffer != null && buffer.length() != 0,INFIX_EXPRESSION, line no: 229, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_channel instanceof GatheringByteChannel && header != null && header.length() != 0 && buf0 instanceof NIOBuffer && buffer != null,INFIX_EXPRESSION, line no: 229, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_channel instanceof GatheringByteChannel && header != null && header.length() != 0 && buf0 instanceof NIOBuffer,INFIX_EXPRESSION, line no: 229, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_channel instanceof GatheringByteChannel && header != null && header.length() != 0,INFIX_EXPRESSION, line no: 229, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_channel instanceof GatheringByteChannel && header != null,INFIX_EXPRESSION, line no: 229, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_channel instanceof GatheringByteChannel,INSTANCEOF_EXPRESSION, line no: 229, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,header != null,INFIX_EXPRESSION, line no: 230, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,header.length() != 0,INFIX_EXPRESSION, line no: 230, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,header.length(),METHOD_INVOCATION, line no: 230, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buf0 instanceof NIOBuffer,INSTANCEOF_EXPRESSION, line no: 230, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buffer != null,INFIX_EXPRESSION, line no: 231, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buffer.length() != 0,INFIX_EXPRESSION, line no: 231, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buf1 instanceof NIOBuffer,INSTANCEOF_EXPRESSION, line no: 231, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,nbuf0,SIMPLE_NAME, line no: 233, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,(NIOBuffer)buf0,CAST_EXPRESSION, line no: 233, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,bbuf0,SIMPLE_NAME, line no: 234, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,nbuf0.getByteBuffer(),METHOD_INVOCATION, line no: 234, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,nbuf1,SIMPLE_NAME, line no: 235, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,(NIOBuffer)buf1,CAST_EXPRESSION, line no: 235, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,bbuf1,SIMPLE_NAME, line no: 236, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,nbuf1.getByteBuffer(),METHOD_INVOCATION, line no: 236, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,bbuf0.position(header.getIndex()),METHOD_INVOCATION, line no: 250, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,header.getIndex(),METHOD_INVOCATION, line no: 250, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,bbuf0.limit(header.putIndex()),METHOD_INVOCATION, line no: 251, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,header.putIndex(),METHOD_INVOCATION, line no: 251, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,bbuf1.position(buffer.getIndex()),METHOD_INVOCATION, line no: 252, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,bbuf1.limit(buffer.putIndex()),METHOD_INVOCATION, line no: 253, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_gather2[0]=bbuf0,ASSIGNMENT, line no: 255, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_gather2[0],ARRAY_ACCESS, line no: 255, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_gather2[1]=bbuf1,ASSIGNMENT, line no: 256, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_gather2[1],ARRAY_ACCESS, line no: 256, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,1,NUMBER_LITERAL, line no: 256, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,length=(int)((GatheringByteChannel)_channel).write(_gather2),ASSIGNMENT, line no: 259, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,(int)((GatheringByteChannel)_channel).write(_gather2),CAST_EXPRESSION, line no: 259, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,((GatheringByteChannel)_channel).write(_gather2),METHOD_INVOCATION, line no: 259, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,((GatheringByteChannel)_channel),PARENTHESIZED_EXPRESSION, line no: 259, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,(GatheringByteChannel)_channel,CAST_EXPRESSION, line no: 259, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,hl,SIMPLE_NAME, line no: 261, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,length > hl,INFIX_EXPRESSION, line no: 262, 1.0, 1.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,length > 0,INFIX_EXPRESSION, line no: 267, 1.0, 1.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_socket.getSoTimeout(),METHOD_INVOCATION, line no: 53, 0.9907407407407407, 0.7407407407407407, 0.0, 0.0, 0.25
+close(),METHOD_INVOCATION, line no: 152,socket.isOutputShutdown(),METHOD_INVOCATION, line no: 109, 0.9907407407407407, 0.7407407407407407, 0.0, 0.0, 0.25
+close(),METHOD_INVOCATION, line no: 152,((SocketChannel)_channel).socket(),METHOD_INVOCATION, line no: 108, 0.9894179894179894, 0.7037037037037037, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,_local.getAddress(),METHOD_INVOCATION, line no: 341, 0.9894179894179894, 0.7037037037037037, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,(channel instanceof SocketChannel) ? ((SocketChannel)channel).socket() : null,CONDITIONAL_EXPRESSION, line no: 48, 0.9777777777777779, 0.7777777777777778, 0.0, 0.0, 0.2
+close,SIMPLE_NAME, line no: 152,nbuf,SIMPLE_NAME, line no: 142, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,(NIOBuffer)buf,CAST_EXPRESSION, line no: 142, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,bbuf,SIMPLE_NAME, line no: 143, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,nbuf.getByteBuffer(),METHOD_INVOCATION, line no: 143, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,read,SIMPLE_NAME, line no: 150, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,skip,SIMPLE_NAME, line no: 193, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,len=((RandomAccessFileBuffer)buf).writeTo(_channel buffer.getIndex() buffer.length()),ASSIGNMENT, line no: 201, 0.962962962962963, 0.8518518518518519, 0.0, 0.0, 0.1111111111111111
+close(),METHOD_INVOCATION, line no: 152,header.clear(),METHOD_INVOCATION, line no: 264, 0.962962962962963, 0.6296296296296297, 0.0, 0.0, 0.3333333333333333
+close(),METHOD_INVOCATION, line no: 152,_socket.getLocalSocketAddress(),METHOD_INVOCATION, line no: 51, 0.9629629629629629, 0.7407407407407407, 0.0, 0.0, 0.2222222222222222
+close(),METHOD_INVOCATION, line no: 152,_socket.getRemoteSocketAddress(),METHOD_INVOCATION, line no: 52, 0.9629629629629629, 0.7407407407407407, 0.0, 0.0, 0.2222222222222222
+close(),METHOD_INVOCATION, line no: 152,nbuf,SIMPLE_NAME, line no: 142, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,bbuf,SIMPLE_NAME, line no: 143, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,read,SIMPLE_NAME, line no: 150, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,skip,SIMPLE_NAME, line no: 193, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,!socket.isClosed(),PREFIX_EXPRESSION, line no: 109, 0.9537037037037037, 0.7037037037037037, 0.0, 0.0, 0.25
+close(),METHOD_INVOCATION, line no: 152,_socket=(channel instanceof SocketChannel) ? ((SocketChannel)channel).socket() : null,ASSIGNMENT, line no: 48, 0.9444444444444444, 0.7777777777777778, 0.0, 0.0, 0.16666666666666666
+close(),METHOD_INVOCATION, line no: 152,_socket != null && !_socket.isOutputShutdown(),INFIX_EXPRESSION, line no: 119, 0.9444444444444444, 0.7777777777777778, 0.0, 0.0, 0.16666666666666666
+close,SIMPLE_NAME, line no: 152,bbuf.position(buffer.putIndex()),METHOD_INVOCATION, line no: 149, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_channel.read(bbuf),METHOD_INVOCATION, line no: 150, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buffer.skip(len),METHOD_INVOCATION, line no: 193, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,capacity,SIMPLE_NAME, line no: 195, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,trailer,SIMPLE_NAME, line no: 222, 0.9285714285714286, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,!header.isImmutable(),PREFIX_EXPRESSION, line no: 275, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,header.isImmutable(),METHOD_INVOCATION, line no: 275, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,isImmutable,SIMPLE_NAME, line no: 275, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,bbuf0.position(),METHOD_INVOCATION, line no: 276, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,!buffer.isImmutable(),PREFIX_EXPRESSION, line no: 277, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buffer.isImmutable(),METHOD_INVOCATION, line no: 277, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,bbuf1.position(),METHOD_INVOCATION, line no: 278, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,bbuf0.position(0),METHOD_INVOCATION, line no: 280, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,bbuf1.position(0),METHOD_INVOCATION, line no: 281, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,bbuf0.limit(bbuf0.capacity()),METHOD_INVOCATION, line no: 282, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,bbuf0.capacity(),METHOD_INVOCATION, line no: 282, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,bbuf1.limit(bbuf1.capacity()),METHOD_INVOCATION, line no: 283, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,bbuf1.capacity(),METHOD_INVOCATION, line no: 283, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buffer.length() > 0,INFIX_EXPRESSION, line no: 293, 0.9285714285714286, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,trailer != null,INFIX_EXPRESSION, line no: 298, 0.9285714285714286, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,trailer.length() > 0,INFIX_EXPRESSION, line no: 298, 0.9285714285714286, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,trailer.length(),METHOD_INVOCATION, line no: 298, 0.9285714285714286, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,header != null && header.length() > 0,INFIX_EXPRESSION, line no: 306, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,header.length() > 0,INFIX_EXPRESSION, line no: 306, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,length=flush(header),ASSIGNMENT, line no: 307, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,flush(header),METHOD_INVOCATION, line no: 307, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,(header == null || header.length() == 0) && buffer != null && buffer.length() > 0,INFIX_EXPRESSION, line no: 310, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,(header == null || header.length() == 0) && buffer != null,INFIX_EXPRESSION, line no: 310, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,(header == null || header.length() == 0),PARENTHESIZED_EXPRESSION, line no: 310, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,header == null || header.length() == 0,INFIX_EXPRESSION, line no: 310, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,header.length() == 0,INFIX_EXPRESSION, line no: 310, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,length+=flush(buffer),ASSIGNMENT, line no: 312, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,flush(buffer),METHOD_INVOCATION, line no: 312, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,(header == null || header.length() == 0) && (buffer == null || buffer.length() == 0) && trailer != null && trailer.length() > 0,INFIX_EXPRESSION, line no: 315, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,(header == null || header.length() == 0) && (buffer == null || buffer.length() == 0) && trailer != null,INFIX_EXPRESSION, line no: 315, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,(buffer == null || buffer.length() == 0),PARENTHESIZED_EXPRESSION, line no: 316, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buffer == null || buffer.length() == 0,INFIX_EXPRESSION, line no: 316, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buffer.length() == 0,INFIX_EXPRESSION, line no: 316, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,length+=flush(trailer),ASSIGNMENT, line no: 318, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,flush(trailer),METHOD_INVOCATION, line no: 318, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,!socket.isOutputShutdown(),PREFIX_EXPRESSION, line no: 109, 0.9259259259259259, 0.7037037037037037, 0.0, 0.0, 0.2222222222222222
+close(),METHOD_INVOCATION, line no: 152,len < 0,INFIX_EXPRESSION, line no: 151, 0.9259259259259259, 0.9259259259259259, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,capacity,SIMPLE_NAME, line no: 195, 0.9259259259259259, 0.9259259259259259, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,trailer,SIMPLE_NAME, line no: 222, 0.9259259259259259, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,isImmutable,SIMPLE_NAME, line no: 275, 0.9259259259259259, 0.9259259259259259, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,trailer != null,INFIX_EXPRESSION, line no: 298, 0.9259259259259259, 0.8888888888888888, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_local.getAddress() == null,INFIX_EXPRESSION, line no: 341, 0.9259259259259259, 0.7037037037037037, 0.0, 0.0, 0.2222222222222222
+close(),METHOD_INVOCATION, line no: 152,_socket.setSoTimeout(_maxIdleTime),METHOD_INVOCATION, line no: 70, 0.9225589225589226, 0.7407407407407407, 0.0, 0.0, 0.18181818181818182
+close(),METHOD_INVOCATION, line no: 152,_channel.isOpen() && _channel instanceof SocketChannel,INFIX_EXPRESSION, line no: 106, 0.9225589225589226, 0.7407407407407407, 0.0, 0.0, 0.18181818181818182
+close(),METHOD_INVOCATION, line no: 152,_local.getAddress().getHostAddress(),METHOD_INVOCATION, line no: 343, 0.9166666666666666, 0.6666666666666666, 0.0, 0.0, 0.25
+close(),METHOD_INVOCATION, line no: 152,(InetSocketAddress)_socket.getLocalSocketAddress(),CAST_EXPRESSION, line no: 51, 0.9037037037037037, 0.7037037037037037, 0.0, 0.0, 0.2
+close(),METHOD_INVOCATION, line no: 152,(InetSocketAddress)_socket.getRemoteSocketAddress(),CAST_EXPRESSION, line no: 52, 0.9037037037037037, 0.7037037037037037, 0.0, 0.0, 0.2
+close(),METHOD_INVOCATION, line no: 152,_local == null || _local.getAddress() == null,INFIX_EXPRESSION, line no: 341, 0.9037037037037037, 0.7037037037037037, 0.0, 0.0, 0.2
+close(),METHOD_INVOCATION, line no: 152,_local.getAddress().isAnyLocalAddress(),METHOD_INVOCATION, line no: 341, 0.9037037037037037, 0.7037037037037037, 0.0, 0.0, 0.2
+close,SIMPLE_NAME, line no: 152,len=_channel.read(bbuf),ASSIGNMENT, line no: 150, 0.8928571428571429, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,len < 0,INFIX_EXPRESSION, line no: 151, 0.8928571428571429, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,bbuf.position(0),METHOD_INVOCATION, line no: 157, 0.8928571428571429, 0.6071428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,bbuf.limit(bbuf.capacity()),METHOD_INVOCATION, line no: 195, 0.8928571428571429, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,bbuf.capacity(),METHOD_INVOCATION, line no: 195, 0.8928571428571429, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,((RandomAccessFileBuffer)buf).writeTo(_channel buffer.getIndex() buffer.length()),METHOD_INVOCATION, line no: 201, 0.8928571428571429, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,((RandomAccessFileBuffer)buf),PARENTHESIZED_EXPRESSION, line no: 201, 0.8928571428571429, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,(RandomAccessFileBuffer)buf,CAST_EXPRESSION, line no: 201, 0.8928571428571429, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,writeTo,SIMPLE_NAME, line no: 201, 0.8928571428571429, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,b,SIMPLE_NAME, line no: 207, 0.8928571428571429, 0.8571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,len=_channel.write(b),ASSIGNMENT, line no: 208, 0.8928571428571429, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_channel.write(b),METHOD_INVOCATION, line no: 208, 0.8928571428571429, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buffer != null && buffer.length() > 0 && header.space() > buffer.length(),INFIX_EXPRESSION, line no: 293, 0.8928571428571429, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,buffer != null && buffer.length() > 0,INFIX_EXPRESSION, line no: 293, 0.8928571428571429, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,header.space() > buffer.length(),INFIX_EXPRESSION, line no: 293, 0.8928571428571429, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,header.space(),METHOD_INVOCATION, line no: 293, 0.8928571428571429, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,space,SIMPLE_NAME, line no: 293, 0.8928571428571429, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,trailer != null && trailer.length() > 0 && header.space() > trailer.length(),INFIX_EXPRESSION, line no: 298, 0.8928571428571429, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,trailer != null && trailer.length() > 0,INFIX_EXPRESSION, line no: 298, 0.8928571428571429, 0.8928571428571429, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,header.space() > trailer.length(),INFIX_EXPRESSION, line no: 298, 0.8928571428571429, 0.8928571428571429, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,len > 0,INFIX_EXPRESSION, line no: 192, 0.8888888888888888, 0.8888888888888888, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,writeTo,SIMPLE_NAME, line no: 201, 0.8888888888888888, 0.8888888888888888, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,b,SIMPLE_NAME, line no: 207, 0.8888888888888888, 0.8518518518518519, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,space,SIMPLE_NAME, line no: 293, 0.8888888888888888, 0.8888888888888888, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,!socket.isClosed() && !socket.isOutputShutdown(),INFIX_EXPRESSION, line no: 109, 0.8855218855218856, 0.7037037037037037, 0.0, 0.0, 0.18181818181818182
+close(),METHOD_INVOCATION, line no: 152,_local=(InetSocketAddress)_socket.getLocalSocketAddress(),ASSIGNMENT, line no: 51, 0.8703703703703703, 0.7037037037037037, 0.0, 0.0, 0.16666666666666666
+close(),METHOD_INVOCATION, line no: 152,_remote=(InetSocketAddress)_socket.getRemoteSocketAddress(),ASSIGNMENT, line no: 52, 0.8703703703703703, 0.7037037037037037, 0.0, 0.0, 0.16666666666666666
+close(),METHOD_INVOCATION, line no: 152,_maxIdleTime=_socket.getSoTimeout(),ASSIGNMENT, line no: 53, 0.8703703703703703, 0.7037037037037037, 0.0, 0.0, 0.16666666666666666
+close(),METHOD_INVOCATION, line no: 152,_local.getAddress().getCanonicalHostName(),METHOD_INVOCATION, line no: 356, 0.8666666666666667, 0.6666666666666666, 0.0, 0.0, 0.2
+close(),METHOD_INVOCATION, line no: 152,_local == null || _local.getAddress() == null || _local.getAddress().isAnyLocalAddress(),INFIX_EXPRESSION, line no: 341, 0.8575498575498576, 0.7037037037037037, 0.0, 0.0, 0.15384615384615385
+close,SIMPLE_NAME, line no: 152,bbuf.position(buffer.getIndex()),METHOD_INVOCATION, line no: 186, 0.8571428571428571, 0.8571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,bbuf.limit(buffer.putIndex()),METHOD_INVOCATION, line no: 187, 0.8571428571428571, 0.8571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,len=_channel.write(bbuf),ASSIGNMENT, line no: 188, 0.8571428571428571, 0.8571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_channel.write(bbuf),METHOD_INVOCATION, line no: 188, 0.8571428571428571, 0.8571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,len > 0,INFIX_EXPRESSION, line no: 192, 0.8571428571428571, 0.8571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,len=((RandomAccessFileBuffer)buf).writeTo(_channel buffer.getIndex() buffer.length()),ASSIGNMENT, line no: 201, 0.8571428571428571, 0.8571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,ByteBuffer.wrap(buffer.array() buffer.getIndex() buffer.length()),METHOD_INVOCATION, line no: 207, 0.8571428571428571, 0.8571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,wrap,SIMPLE_NAME, line no: 207, 0.8571428571428571, 0.8571428571428571, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,wrap,SIMPLE_NAME, line no: 207, 0.8518518518518519, 0.8518518518518519, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,buffer.skip(length - hl),METHOD_INVOCATION, line no: 265, 0.8518518518518519, 0.6296296296296297, 0.0, 0.0, 0.2222222222222222
+close(),METHOD_INVOCATION, line no: 152,buffer.clear(),METHOD_INVOCATION, line no: 296, 0.8518518518518519, 0.5185185185185185, 0.0, 0.0, 0.3333333333333333
+close(),METHOD_INVOCATION, line no: 152,trailer.clear(),METHOD_INVOCATION, line no: 301, 0.8518518518518519, 0.5185185185185185, 0.0, 0.0, 0.3333333333333333
+close(),METHOD_INVOCATION, line no: 152,_socket.setSoTimeout(timeMs > 0 ? timeMs : 0),METHOD_INVOCATION, line no: 455, 0.8465608465608465, 0.7037037037037037, 0.0, 0.0, 0.14285714285714285
+close(),METHOD_INVOCATION, line no: 152,buffer.setPutIndex(bbuf.position()),METHOD_INVOCATION, line no: 156, 0.8296296296296297, 0.6296296296296297, 0.0, 0.0, 0.2
+close,SIMPLE_NAME, line no: 152,SocketChannel,SIMPLE_NAME, line no: 23, 0.8214285714285714, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_socket,SIMPLE_NAME, line no: 39, 0.8214285714285714, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,channel,SIMPLE_NAME, line no: 44, 0.8214285714285714, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,((SocketChannel)channel).socket(),METHOD_INVOCATION, line no: 48, 0.8214285714285714, 0.8214285714285714, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,((SocketChannel)channel),PARENTHESIZED_EXPRESSION, line no: 48, 0.8214285714285714, 0.8214285714285714, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,(SocketChannel)channel,CAST_EXPRESSION, line no: 48, 0.8214285714285714, 0.8214285714285714, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,socket,SIMPLE_NAME, line no: 48, 0.8214285714285714, 0.8214285714285714, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_socket != null,INFIX_EXPRESSION, line no: 49, 0.8214285714285714, 0.8214285714285714, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,isOutputShutdown,SIMPLE_NAME, line no: 109, 0.8214285714285714, 0.75, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_socket.isOutputShutdown(),METHOD_INVOCATION, line no: 119, 0.8214285714285714, 0.8214285714285714, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,SocketChannel,SIMPLE_NAME, line no: 23, 0.8148148148148148, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_socket,SIMPLE_NAME, line no: 39, 0.8148148148148148, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,channel,SIMPLE_NAME, line no: 44, 0.8148148148148148, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,socket,SIMPLE_NAME, line no: 48, 0.8148148148148148, 0.8148148148148148, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_socket != null,INFIX_EXPRESSION, line no: 49, 0.8148148148148148, 0.8148148148148148, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,isOutputShutdown,SIMPLE_NAME, line no: 109, 0.8148148148148148, 0.7407407407407407, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,header.put(buffer),METHOD_INVOCATION, line no: 295, 0.8042328042328042, 0.5185185185185185, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,header.put(trailer),METHOD_INVOCATION, line no: 300, 0.8042328042328042, 0.5185185185185185, 0.0, 0.0, 0.2857142857142857
+close,SIMPLE_NAME, line no: 152,_maxIdleTime,SIMPLE_NAME, line no: 42, 0.7857142857142857, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,this._channel=channel,ASSIGNMENT, line no: 47, 0.7857142857142857, 0.7857142857142857, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,this._channel,FIELD_ACCESS, line no: 47, 0.7857142857142857, 0.7857142857142857, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_socket=(channel instanceof SocketChannel) ? ((SocketChannel)channel).socket() : null,ASSIGNMENT, line no: 48, 0.7857142857142857, 0.7857142857142857, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,(channel instanceof SocketChannel) ? ((SocketChannel)channel).socket() : null,CONDITIONAL_EXPRESSION, line no: 48, 0.7857142857142857, 0.7857142857142857, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,(channel instanceof SocketChannel),PARENTHESIZED_EXPRESSION, line no: 48, 0.7857142857142857, 0.7857142857142857, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,channel instanceof SocketChannel,INSTANCEOF_EXPRESSION, line no: 48, 0.7857142857142857, 0.7857142857142857, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,maxIdleTime,SIMPLE_NAME, line no: 61, 0.7857142857142857, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_maxIdleTime=maxIdleTime,ASSIGNMENT, line no: 64, 0.7857142857142857, 0.7857142857142857, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_socket != null && !_socket.isOutputShutdown(),INFIX_EXPRESSION, line no: 119, 0.7857142857142857, 0.7857142857142857, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,!_socket.isOutputShutdown(),PREFIX_EXPRESSION, line no: 119, 0.7857142857142857, 0.7857142857142857, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_maxIdleTime,SIMPLE_NAME, line no: 42, 0.7777777777777778, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,this._channel=channel,ASSIGNMENT, line no: 47, 0.7777777777777778, 0.7777777777777778, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,this._channel,FIELD_ACCESS, line no: 47, 0.7777777777777778, 0.7777777777777778, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,channel instanceof SocketChannel,INSTANCEOF_EXPRESSION, line no: 48, 0.7777777777777778, 0.7777777777777778, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,maxIdleTime,SIMPLE_NAME, line no: 61, 0.7777777777777778, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_maxIdleTime=maxIdleTime,ASSIGNMENT, line no: 64, 0.7777777777777778, 0.7777777777777778, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_socket.getLocalSocketAddress(),METHOD_INVOCATION, line no: 51, 0.75, 0.75, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,getLocalSocketAddress,SIMPLE_NAME, line no: 51, 0.75, 0.75, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_socket.getRemoteSocketAddress(),METHOD_INVOCATION, line no: 52, 0.75, 0.75, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,getRemoteSocketAddress,SIMPLE_NAME, line no: 52, 0.75, 0.75, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_socket.getSoTimeout(),METHOD_INVOCATION, line no: 53, 0.75, 0.75, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,getSoTimeout,SIMPLE_NAME, line no: 53, 0.75, 0.75, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,isOpen,SIMPLE_NAME, line no: 96, 0.75, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_channel.isOpen(),METHOD_INVOCATION, line no: 98, 0.75, 0.14285714285714285, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_channel.isOpen() && _channel instanceof SocketChannel,INFIX_EXPRESSION, line no: 106, 0.75, 0.75, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_channel instanceof SocketChannel,INSTANCEOF_EXPRESSION, line no: 106, 0.75, 0.75, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,socket.isClosed(),METHOD_INVOCATION, line no: 109, 0.75, 0.75, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,isClosed,SIMPLE_NAME, line no: 109, 0.75, 0.75, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,socket.isOutputShutdown(),METHOD_INVOCATION, line no: 109, 0.75, 0.75, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,getLocalSocketAddress,SIMPLE_NAME, line no: 51, 0.7407407407407407, 0.7407407407407407, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,getRemoteSocketAddress,SIMPLE_NAME, line no: 52, 0.7407407407407407, 0.7407407407407407, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,getSoTimeout,SIMPLE_NAME, line no: 53, 0.7407407407407407, 0.7407407407407407, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,isOpen,SIMPLE_NAME, line no: 96, 0.7407407407407407, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_channel instanceof SocketChannel,INSTANCEOF_EXPRESSION, line no: 106, 0.7407407407407407, 0.7407407407407407, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,isClosed,SIMPLE_NAME, line no: 109, 0.7407407407407407, 0.7407407407407407, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,timeMs,SIMPLE_NAME, line no: 452, 0.7407407407407407, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,header.skip(length),METHOD_INVOCATION, line no: 269, 0.7301587301587301, 0.4444444444444444, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,_remote.getAddress(),METHOD_INVOCATION, line no: 382, 0.7301587301587301, 0.4444444444444444, 0.0, 0.0, 0.2857142857142857
+close,SIMPLE_NAME, line no: 152,InetSocketAddress,SIMPLE_NAME, line no: 17, 0.7142857142857143, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,StringUtil,SIMPLE_NAME, line no: 27, 0.7142857142857143, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_local,SIMPLE_NAME, line no: 40, 0.7142857142857143, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_remote,SIMPLE_NAME, line no: 41, 0.7142857142857143, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_local=(InetSocketAddress)_socket.getLocalSocketAddress(),ASSIGNMENT, line no: 51, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,(InetSocketAddress)_socket.getLocalSocketAddress(),CAST_EXPRESSION, line no: 51, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_remote=(InetSocketAddress)_socket.getRemoteSocketAddress(),ASSIGNMENT, line no: 52, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,(InetSocketAddress)_socket.getRemoteSocketAddress(),CAST_EXPRESSION, line no: 52, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_maxIdleTime=_socket.getSoTimeout(),ASSIGNMENT, line no: 53, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,((SocketChannel)_channel).socket(),METHOD_INVOCATION, line no: 108, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,((SocketChannel)_channel),PARENTHESIZED_EXPRESSION, line no: 108, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,(SocketChannel)_channel,CAST_EXPRESSION, line no: 108, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,!socket.isClosed() && !socket.isOutputShutdown(),INFIX_EXPRESSION, line no: 109, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,!socket.isClosed(),PREFIX_EXPRESSION, line no: 109, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,!socket.isOutputShutdown(),PREFIX_EXPRESSION, line no: 109, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_socket == null,INFIX_EXPRESSION, line no: 339, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_local == null || _local.getAddress() == null || _local.getAddress().isAnyLocalAddress(),INFIX_EXPRESSION, line no: 341, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_local == null || _local.getAddress() == null,INFIX_EXPRESSION, line no: 341, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_local == null,INFIX_EXPRESSION, line no: 341, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_local.getAddress() == null,INFIX_EXPRESSION, line no: 341, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_local.getAddress(),METHOD_INVOCATION, line no: 341, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,getAddress,SIMPLE_NAME, line no: 341, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_local.getAddress().isAnyLocalAddress(),METHOD_INVOCATION, line no: 341, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,isAnyLocalAddress,SIMPLE_NAME, line no: 341, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,StringUtil.ALL_INTERFACES,QUALIFIED_NAME, line no: 342, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,ALL_INTERFACES,SIMPLE_NAME, line no: 342, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,timeMs,SIMPLE_NAME, line no: 452, 0.7142857142857143, 0.03571428571428571, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,InetSocketAddress,SIMPLE_NAME, line no: 17, 0.7037037037037037, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,StringUtil,SIMPLE_NAME, line no: 27, 0.7037037037037037, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_local,SIMPLE_NAME, line no: 40, 0.7037037037037037, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_remote,SIMPLE_NAME, line no: 41, 0.7037037037037037, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_socket == null,INFIX_EXPRESSION, line no: 339, 0.7037037037037037, 0.7037037037037037, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_local == null,INFIX_EXPRESSION, line no: 341, 0.7037037037037037, 0.7037037037037037, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,getAddress,SIMPLE_NAME, line no: 341, 0.7037037037037037, 0.7037037037037037, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,isAnyLocalAddress,SIMPLE_NAME, line no: 341, 0.7037037037037037, 0.7037037037037037, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,StringUtil.ALL_INTERFACES,QUALIFIED_NAME, line no: 342, 0.7037037037037037, 0.7037037037037037, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,ALL_INTERFACES,SIMPLE_NAME, line no: 342, 0.7037037037037037, 0.7037037037037037, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,timeMs > 0 ? timeMs : 0,CONDITIONAL_EXPRESSION, line no: 455, 0.7037037037037037, 0.7037037037037037, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,timeMs > 0,INFIX_EXPRESSION, line no: 455, 0.7037037037037037, 0.7037037037037037, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,Socket,SIMPLE_NAME, line no: 18, 0.6785714285714286, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_local.getAddress().getHostAddress(),METHOD_INVOCATION, line no: 343, 0.6785714285714286, 0.6785714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,getHostAddress,SIMPLE_NAME, line no: 343, 0.6785714285714286, 0.6785714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_local.getAddress().getCanonicalHostName(),METHOD_INVOCATION, line no: 356, 0.6785714285714286, 0.6785714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,getCanonicalHostName,SIMPLE_NAME, line no: 356, 0.6785714285714286, 0.6785714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,timeMs > 0 ? timeMs : 0,CONDITIONAL_EXPRESSION, line no: 455, 0.6785714285714286, 0.6785714285714286, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,timeMs > 0,INFIX_EXPRESSION, line no: 455, 0.6785714285714286, 0.6785714285714286, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,Socket,SIMPLE_NAME, line no: 18, 0.6666666666666666, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,getHostAddress,SIMPLE_NAME, line no: 343, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,getCanonicalHostName,SIMPLE_NAME, line no: 356, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_remote.getAddress().getHostAddress(),METHOD_INVOCATION, line no: 382, 0.6574074074074074, 0.4074074074074074, 0.0, 0.0, 0.25
+close(),METHOD_INVOCATION, line no: 152,_local.getPort(),METHOD_INVOCATION, line no: 369, 0.656084656084656, 0.37037037037037035, 0.0, 0.0, 0.2857142857142857
+close,SIMPLE_NAME, line no: 152,bbuf.position(),METHOD_INVOCATION, line no: 156, 0.6428571428571429, 0.6428571428571429, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,length - hl,INFIX_EXPRESSION, line no: 265, 0.6296296296296297, 0.6296296296296297, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_socket != null && timeMs != _maxIdleTime,INFIX_EXPRESSION, line no: 454, 0.6296296296296297, 0.6296296296296297, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,timeMs != _maxIdleTime,INFIX_EXPRESSION, line no: 454, 0.6296296296296297, 0.6296296296296297, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_maxIdleTime=timeMs,ASSIGNMENT, line no: 456, 0.6296296296296297, 0.6296296296296297, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,((SelectableChannel)_channel),PARENTHESIZED_EXPRESSION, line no: 80, 0.6296296296296295, 0.2962962962962963, 0.0, 0.0, 0.3333333333333333
+close(),METHOD_INVOCATION, line no: 152,(SelectableChannel)_channel,CAST_EXPRESSION, line no: 80, 0.6296296296296295, 0.2962962962962963, 0.0, 0.0, 0.3333333333333333
+close(),METHOD_INVOCATION, line no: 152,Log.ignore(x),METHOD_INVOCATION, line no: 127, 0.6190476190476191, 0.3333333333333333, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,_remote.getPort(),METHOD_INVOCATION, line no: 406, 0.6190476190476191, 0.3333333333333333, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,_remote.getAddress().getCanonicalHostName(),METHOD_INVOCATION, line no: 395, 0.6074074074074074, 0.4074074074074074, 0.0, 0.0, 0.2
+close,SIMPLE_NAME, line no: 152,buffer.skip(length - hl),METHOD_INVOCATION, line no: 265, 0.6071428571428571, 0.6071428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,length - hl,INFIX_EXPRESSION, line no: 265, 0.6071428571428571, 0.6071428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_socket != null && timeMs != _maxIdleTime,INFIX_EXPRESSION, line no: 454, 0.6071428571428571, 0.6071428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,timeMs != _maxIdleTime,INFIX_EXPRESSION, line no: 454, 0.6071428571428571, 0.6071428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_maxIdleTime=timeMs,ASSIGNMENT, line no: 456, 0.6071428571428571, 0.6071428571428571, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_socket.shutdownOutput(),METHOD_INVOCATION, line no: 123, 0.582010582010582, 0.2962962962962963, 0.0, 0.0, 0.2857142857142857
+close(),METHOD_INVOCATION, line no: 152,put,SIMPLE_NAME, line no: 295, 0.5555555555555556, 0.5555555555555556, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,(_channel instanceof SelectableChannel),PARENTHESIZED_EXPRESSION, line no: 80, 0.5449735449735449, 0.25925925925925924, 0.0, 0.0, 0.2857142857142857
+close,SIMPLE_NAME, line no: 152,put,SIMPLE_NAME, line no: 295, 0.5357142857142857, 0.5357142857142857, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,IOException,SIMPLE_NAME, line no: 16, 0.5185185185185185, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,((SelectableChannel)_channel).isBlocking(),METHOD_INVOCATION, line no: 80, 0.5185185185185185, 0.2962962962962963, 0.0, 0.0, 0.2222222222222222
+close(),METHOD_INVOCATION, line no: 152,x,SIMPLE_NAME, line no: 125, 0.5185185185185185, 0.5185185185185185, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,!(_channel instanceof SelectableChannel),PREFIX_EXPRESSION, line no: 80, 0.5092592592592593, 0.25925925925925924, 0.0, 0.0, 0.25
+close,SIMPLE_NAME, line no: 152,IOException,SIMPLE_NAME, line no: 16, 0.5, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,x,SIMPLE_NAME, line no: 125, 0.5, 0.5, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,header.put(buffer),METHOD_INVOCATION, line no: 295, 0.5, 0.5, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,header.put(trailer),METHOD_INVOCATION, line no: 300, 0.5, 0.5, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,new IOException("Not Implemented"),CLASS_INSTANCE_CREATION, line no: 163, 0.48148148148148145, 0.07407407407407407, 0.0, 0.0, 0.3333333333333333
+close(),METHOD_INVOCATION, line no: 152,_remote == null ? -1 : _remote.getPort(),CONDITIONAL_EXPRESSION, line no: 406, 0.45014245014245013, 0.2962962962962963, 0.0, 0.0, 0.15384615384615385
+close,SIMPLE_NAME, line no: 152,header.skip(length),METHOD_INVOCATION, line no: 269, 0.42857142857142855, 0.42857142857142855, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_remote.getAddress(),METHOD_INVOCATION, line no: 382, 0.42857142857142855, 0.42857142857142855, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,!(_channel instanceof SelectableChannel) || ((SelectableChannel)_channel).isBlocking(),INFIX_EXPRESSION, line no: 80, 0.42592592592592593, 0.25925925925925924, 0.0, 0.0, 0.16666666666666666
+close(),METHOD_INVOCATION, line no: 152,getPort,SIMPLE_NAME, line no: 369, 0.4074074074074074, 0.4074074074074074, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_remote == null,INFIX_EXPRESSION, line no: 380, 0.4074074074074074, 0.4074074074074074, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,getPort,SIMPLE_NAME, line no: 369, 0.39285714285714285, 0.39285714285714285, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_remote == null,INFIX_EXPRESSION, line no: 380, 0.39285714285714285, 0.39285714285714285, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_remote.getAddress().getHostAddress(),METHOD_INVOCATION, line no: 382, 0.39285714285714285, 0.39285714285714285, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_remote.getAddress().getCanonicalHostName(),METHOD_INVOCATION, line no: 395, 0.39285714285714285, 0.39285714285714285, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,Log,SIMPLE_NAME, line no: 28, 0.37037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,-1,PREFIX_EXPRESSION, line no: 368, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,Log,SIMPLE_NAME, line no: 28, 0.35714285714285715, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,-1,PREFIX_EXPRESSION, line no: 368, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_local.getPort(),METHOD_INVOCATION, line no: 369, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,SelectableChannel,SIMPLE_NAME, line no: 22, 0.3333333333333333, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,isBlocking,SIMPLE_NAME, line no: 78, 0.3333333333333333, 0.037037037037037035, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,SelectableChannel,SIMPLE_NAME, line no: 22, 0.32142857142857145, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,isBlocking,SIMPLE_NAME, line no: 78, 0.32142857142857145, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_remote.getPort(),METHOD_INVOCATION, line no: 406, 0.32142857142857145, 0.32142857142857145, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,((SelectableChannel)_channel).isBlocking(),METHOD_INVOCATION, line no: 80, 0.2857142857142857, 0.2857142857142857, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,((SelectableChannel)_channel),PARENTHESIZED_EXPRESSION, line no: 80, 0.2857142857142857, 0.2857142857142857, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,(SelectableChannel)_channel,CAST_EXPRESSION, line no: 80, 0.2857142857142857, 0.2857142857142857, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_remote == null ? -1 : _remote.getPort(),CONDITIONAL_EXPRESSION, line no: 406, 0.2857142857142857, 0.2857142857142857, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_channel instanceof SelectableChannel,INSTANCEOF_EXPRESSION, line no: 80, 0.25925925925925924, 0.25925925925925924, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,!(_channel instanceof SelectableChannel) || ((SelectableChannel)_channel).isBlocking(),INFIX_EXPRESSION, line no: 80, 0.25, 0.25, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,!(_channel instanceof SelectableChannel),PREFIX_EXPRESSION, line no: 80, 0.25, 0.25, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,(_channel instanceof SelectableChannel),PARENTHESIZED_EXPRESSION, line no: 80, 0.25, 0.25, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_channel instanceof SelectableChannel,INSTANCEOF_EXPRESSION, line no: 80, 0.25, 0.25, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_local=_remote=null,ASSIGNMENT, line no: 57, 0.2222222222222222, 0.2222222222222222, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,_remote=null,ASSIGNMENT, line no: 57, 0.2222222222222222, 0.2222222222222222, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_local=_remote=null,ASSIGNMENT, line no: 57, 0.21428571428571427, 0.21428571428571427, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,_remote=null,ASSIGNMENT, line no: 57, 0.21428571428571427, 0.21428571428571427, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,"Not Implemented",STRING_LITERAL, line no: 163, 0.14814814814814814, 0.07407407407407407, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,new IOException("Not Implemented"),CLASS_INSTANCE_CREATION, line no: 163, 0.14285714285714285, 0.07142857142857142, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,"Not Implemented",STRING_LITERAL, line no: 163, 0.14285714285714285, 0.07142857142857142, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,org,SIMPLE_NAME, line no: 14, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,eclipse,SIMPLE_NAME, line no: 14, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,jetty,SIMPLE_NAME, line no: 14, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,io,SIMPLE_NAME, line no: 14, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,nio,SIMPLE_NAME, line no: 14, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,java,SIMPLE_NAME, line no: 16, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,net,SIMPLE_NAME, line no: 17, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,channels,SIMPLE_NAME, line no: 20, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,ByteChannel,SIMPLE_NAME, line no: 20, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,EndPoint,SIMPLE_NAME, line no: 26, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,util,SIMPLE_NAME, line no: 27, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,log,SIMPLE_NAME, line no: 28, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,2,NUMBER_LITERAL, line no: 38, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,blockReadable,SIMPLE_NAME, line no: 83, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,millisecs,SIMPLE_NAME, line no: 83, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,blockWritable,SIMPLE_NAME, line no: 88, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,fill,SIMPLE_NAME, line no: 136, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,getChannel,SIMPLE_NAME, line no: 327, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,String,SIMPLE_NAME, line no: 337, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,getLocalAddr,SIMPLE_NAME, line no: 337, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,getLocalHost,SIMPLE_NAME, line no: 350, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,getLocalPort,SIMPLE_NAME, line no: 363, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,getRemoteAddr,SIMPLE_NAME, line no: 376, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,getRemoteHost,SIMPLE_NAME, line no: 389, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,getRemotePort,SIMPLE_NAME, line no: 402, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,Object,SIMPLE_NAME, line no: 413, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,getTransport,SIMPLE_NAME, line no: 413, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,isBufferingInput,SIMPLE_NAME, line no: 425, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,isBufferingOutput,SIMPLE_NAME, line no: 431, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,isBufferred,SIMPLE_NAME, line no: 437, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,getMaxIdleTime,SIMPLE_NAME, line no: 443, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,org,SIMPLE_NAME, line no: 14, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,eclipse,SIMPLE_NAME, line no: 14, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,jetty,SIMPLE_NAME, line no: 14, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,io,SIMPLE_NAME, line no: 14, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,nio,SIMPLE_NAME, line no: 14, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,java,SIMPLE_NAME, line no: 16, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,net,SIMPLE_NAME, line no: 17, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,channels,SIMPLE_NAME, line no: 20, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,ByteChannel,SIMPLE_NAME, line no: 20, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,EndPoint,SIMPLE_NAME, line no: 26, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,util,SIMPLE_NAME, line no: 27, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,log,SIMPLE_NAME, line no: 28, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,2,NUMBER_LITERAL, line no: 38, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,blockReadable,SIMPLE_NAME, line no: 83, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,millisecs,SIMPLE_NAME, line no: 83, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,blockWritable,SIMPLE_NAME, line no: 88, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,fill,SIMPLE_NAME, line no: 136, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,getChannel,SIMPLE_NAME, line no: 327, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,String,SIMPLE_NAME, line no: 337, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,getLocalAddr,SIMPLE_NAME, line no: 337, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,getLocalHost,SIMPLE_NAME, line no: 350, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,getLocalPort,SIMPLE_NAME, line no: 363, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,getRemoteAddr,SIMPLE_NAME, line no: 376, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,getRemoteHost,SIMPLE_NAME, line no: 389, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,getRemotePort,SIMPLE_NAME, line no: 402, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,Object,SIMPLE_NAME, line no: 413, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,getTransport,SIMPLE_NAME, line no: 413, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,isBufferingInput,SIMPLE_NAME, line no: 425, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,isBufferingOutput,SIMPLE_NAME, line no: 431, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,isBufferred,SIMPLE_NAME, line no: 437, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,getMaxIdleTime,SIMPLE_NAME, line no: 443, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,org.eclipse.jetty.io.nio,QUALIFIED_NAME, line no: 14, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,org.eclipse.jetty.io,QUALIFIED_NAME, line no: 14, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,org.eclipse.jetty,QUALIFIED_NAME, line no: 14, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,org.eclipse,QUALIFIED_NAME, line no: 14, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,java.io.IOException,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,java.io,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,java.net.InetSocketAddress,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,java.net,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,java.net.Socket,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,java.nio.ByteBuffer,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,java.nio,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,java.nio.channels.ByteChannel,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,java.nio.channels,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,java.nio.channels.GatheringByteChannel,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,java.nio.channels.SelectableChannel,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,java.nio.channels.SocketChannel,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,org.eclipse.jetty.io.Buffer,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,org.eclipse.jetty.io.EndPoint,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,org.eclipse.jetty.util.StringUtil,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,org.eclipse.jetty.util,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,org.eclipse.jetty.util.log.Log,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,org.eclipse.jetty.util.log,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,new ByteBuffer[2],ARRAY_CREATION, line no: 38, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,true,BOOLEAN_LITERAL, line no: 85, 0.0, 0.0, 0.0, 0.0, 0.0
+close(),METHOD_INVOCATION, line no: 152,false,BOOLEAN_LITERAL, line no: 427, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,org.eclipse.jetty.io.nio,QUALIFIED_NAME, line no: 14, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,org.eclipse.jetty.io,QUALIFIED_NAME, line no: 14, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,org.eclipse.jetty,QUALIFIED_NAME, line no: 14, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,org.eclipse,QUALIFIED_NAME, line no: 14, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,java.io.IOException,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,java.io,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,java.net.InetSocketAddress,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,java.net,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,java.net.Socket,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,java.nio.ByteBuffer,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,java.nio,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,java.nio.channels.ByteChannel,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,java.nio.channels,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,java.nio.channels.GatheringByteChannel,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,java.nio.channels.SelectableChannel,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,java.nio.channels.SocketChannel,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,org.eclipse.jetty.io.Buffer,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,org.eclipse.jetty.io.EndPoint,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,org.eclipse.jetty.util.StringUtil,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,org.eclipse.jetty.util,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,org.eclipse.jetty.util.log.Log,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,org.eclipse.jetty.util.log,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,new ByteBuffer[2],ARRAY_CREATION, line no: 38, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,true,BOOLEAN_LITERAL, line no: 85, 0.0, 0.0, 0.0, 0.0, 0.0
+close,SIMPLE_NAME, line no: 152,false,BOOLEAN_LITERAL, line no: 427, 0.0, 0.0, 0.0, 0.0, 0.0

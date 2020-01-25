@@ -1,0 +1,1125 @@
+Matcher,SIMPLE_NAME, line no: 53,matcher,SIMPLE_NAME, line no: 53, 2.982142857142857, 0.9821428571428571, 1.0, 0.0, 1.0
+matcher,SIMPLE_NAME, line no: 53,Matcher,SIMPLE_NAME, line no: 31, 2.982142857142857, 0.017857142857142856, 1.0, 0.0, 1.0
+matcher,SIMPLE_NAME, line no: 53,Matcher,SIMPLE_NAME, line no: 31, 2.9649122807017543, 0.017543859649122806, 1.0, 0.0, 1.0
+Pattern,SIMPLE_NAME, line no: 53,pattern,SIMPLE_NAME, line no: 45, 2.9310344827586206, 0.034482758620689655, 1.0, 0.0, 1.0
+originalPattern,SIMPLE_NAME, line no: 53,this.originalPattern,FIELD_ACCESS, line no: 49, 2.4298245614035086, 0.9298245614035088, 1.0, 0.0, 0.5
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,originalPattern.replaceAll("\\{([^\\}]+?)\\*\\}" "(.*)"),METHOD_INVOCATION, line no: 50, 2.3846153846153846, 1.0, 1.0, 0.0, 0.38461538461538464
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,originalPattern.replaceAll("\\{([^\\}]+?)\\*\\}" "(.*)").replaceAll("\\{([^\\}]+?)\\}" "([^/]*)"),METHOD_INVOCATION, line no: 50, 2.3333333333333335, 1.0, 1.0, 0.0, 0.3333333333333333
+originalPattern,SIMPLE_NAME, line no: 53,this.originalPattern=originalPattern,ASSIGNMENT, line no: 49, 2.329824561403509, 0.9298245614035088, 1.0, 0.0, 0.4
+originalPattern,SIMPLE_NAME, line no: 53,patternUri,SIMPLE_NAME, line no: 50, 2.3157894736842106, 0.9824561403508771, 1.0, 0.0, 0.3333333333333333
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,this.originalPattern,FIELD_ACCESS, line no: 49, 2.2797619047619047, 0.9464285714285714, 1.0, 0.0, 0.3333333333333333
+Pattern,SIMPLE_NAME, line no: 53,this.pattern,FIELD_ACCESS, line no: 57, 2.2471264367816093, 0.9137931034482759, 1.0, 0.0, 0.3333333333333333
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,this.originalPattern=originalPattern,ASSIGNMENT, line no: 49, 2.2464285714285714, 0.9464285714285714, 1.0, 0.0, 0.3
+originalPattern,SIMPLE_NAME, line no: 53,originalPattern.replaceAll("\\{([^\\}]+?)\\*\\}" "(.*)"),METHOD_INVOCATION, line no: 50, 2.1824561403508773, 0.9824561403508771, 1.0, 0.0, 0.2
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,Pattern,SIMPLE_NAME, line no: 32, 2.1666666666666665, 0.017543859649122806, 1.0, 0.0, 0.16666666666666666
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,compile,SIMPLE_NAME, line no: 53, 2.1666666666666665, 1.0, 1.0, 0.0, 0.16666666666666666
+Pattern,SIMPLE_NAME, line no: 53,Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53, 2.1494252873563218, 0.9827586206896551, 1.0, 0.0, 0.16666666666666666
+compile,SIMPLE_NAME, line no: 53,Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53, 2.1494252873563218, 0.9827586206896551, 1.0, 0.0, 0.16666666666666666
+originalPattern,SIMPLE_NAME, line no: 53,originalPattern.replaceAll("\\{([^\\}]+?)\\*\\}" "(.*)").replaceAll("\\{([^\\}]+?)\\}" "([^/]*)"),METHOD_INVOCATION, line no: 50, 2.1491228070175437, 0.9824561403508771, 1.0, 0.0, 0.16666666666666666
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,matcher,SIMPLE_NAME, line no: 53, 2.125, 0.9821428571428571, 1.0, 0.0, 0.125
+matcher,SIMPLE_NAME, line no: 53,Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53, 2.107456140350877, 0.9824561403508771, 1.0, 0.0, 0.125
+matcher,SIMPLE_NAME, line no: 53,Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53, 2.107142857142857, 0.9821428571428571, 1.0, 0.0, 0.125
+Pattern,SIMPLE_NAME, line no: 53,Pattern.compile(patternUri),METHOD_INVOCATION, line no: 57, 2.097701149425287, 0.9310344827586207, 1.0, 0.0, 0.16666666666666666
+compile,SIMPLE_NAME, line no: 53,Pattern.compile(patternUri),METHOD_INVOCATION, line no: 57, 2.097701149425287, 0.9310344827586207, 1.0, 0.0, 0.16666666666666666
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,pattern,SIMPLE_NAME, line no: 45, 2.0964912280701755, 0.03508771929824561, 1.0, 0.0, 0.16666666666666666
+Matcher,SIMPLE_NAME, line no: 53,Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53, 2.0892857142857144, 0.9642857142857143, 1.0, 0.0, 0.125
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,Matcher,SIMPLE_NAME, line no: 31, 2.0892857142857144, 0.017857142857142856, 1.0, 0.0, 0.125
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,originalPattern.replaceAll("\\.\\*" ""),METHOD_INVOCATION, line no: 61, 2.04532967032967, 0.6607142857142857, 1.0, 0.0, 0.38461538461538464
+Pattern,SIMPLE_NAME, line no: 53,this.pattern=Pattern.compile(patternUri),ASSIGNMENT, line no: 57, 2.038793103448276, 0.9137931034482759, 1.0, 0.0, 0.125
+compile,SIMPLE_NAME, line no: 53,this.pattern=Pattern.compile(patternUri),ASSIGNMENT, line no: 57, 2.038793103448276, 0.9137931034482759, 1.0, 0.0, 0.125
+Pattern,SIMPLE_NAME, line no: 53,compile,SIMPLE_NAME, line no: 53, 2.0, 1.0, 1.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,Pattern,SIMPLE_NAME, line no: 32, 2.0, 0.017241379310344827, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,"\\{([^\\}]+?)\\*\\}",STRING_LITERAL, line no: 51, 2.0, 1.0, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,"(.*)",STRING_LITERAL, line no: 51, 2.0, 1.0, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,replaceAll,SIMPLE_NAME, line no: 51, 2.0, 1.0, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,originalPattern,SIMPLE_NAME, line no: 46, 1.9827586206896552, 0.034482758620689655, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,originalPattern.replaceAll("\\{([^\\}]+?)\\*\\}" "(.*)"),METHOD_INVOCATION, line no: 50, 1.9827586206896552, 0.9827586206896551, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,replaceAll,SIMPLE_NAME, line no: 51, 1.9827586206896552, 0.9827586206896551, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,"\\{([^\\}]+?)\\}",STRING_LITERAL, line no: 52, 1.9827586206896552, 0.9827586206896551, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,"([^/]*)",STRING_LITERAL, line no: 52, 1.9827586206896552, 0.9827586206896551, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,"\\{([^\\}]+?)\\*\\}",STRING_LITERAL, line no: 51, 1.9824561403508771, 0.9824561403508771, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,"(.*)",STRING_LITERAL, line no: 51, 1.9824561403508771, 0.9824561403508771, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,"\\{([^\\}]+?)\\}",STRING_LITERAL, line no: 52, 1.9824561403508771, 0.9824561403508771, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,"([^/]*)",STRING_LITERAL, line no: 52, 1.9824561403508771, 0.9824561403508771, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,"\\{(.+?)\\}",STRING_LITERAL, line no: 53, 1.9824561403508771, 0.9824561403508771, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,originalPattern.replaceAll("\\{([^\\}]+?)\\*\\}" "(.*)").replaceAll("\\{([^\\}]+?)\\}" "([^/]*)"),METHOD_INVOCATION, line no: 50, 1.9655172413793105, 0.9655172413793104, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,String,SIMPLE_NAME, line no: 44, 1.9649122807017543, 0.017543859649122806, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,patternUri,SIMPLE_NAME, line no: 50, 1.9482758620689655, 0.9482758620689655, 1.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,pattern,SIMPLE_NAME, line no: 45, 1.9310344827586206, 0.034482758620689655, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,String,SIMPLE_NAME, line no: 44, 1.9310344827586206, 0.017241379310344827, 1.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,Pattern.compile("\\{.*?\\}"),METHOD_INVOCATION, line no: 83, 1.9252873563218391, 0.7586206896551724, 1.0, 0.0, 0.16666666666666666
+compile,SIMPLE_NAME, line no: 53,Pattern.compile("\\{.*?\\}"),METHOD_INVOCATION, line no: 83, 1.9252873563218391, 0.7586206896551724, 1.0, 0.0, 0.16666666666666666
+compile,SIMPLE_NAME, line no: 53,this.pattern,FIELD_ACCESS, line no: 57, 1.9137931034482758, 0.9137931034482759, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,this.originalPattern=originalPattern,ASSIGNMENT, line no: 49, 1.9137931034482758, 0.9137931034482759, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,this.originalPattern,FIELD_ACCESS, line no: 49, 1.9137931034482758, 0.9137931034482759, 1.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,regex.matcher(this.originalPattern),METHOD_INVOCATION, line no: 85, 1.9107142857142856, 0.7857142857142857, 1.0, 0.0, 0.125
+matcher,SIMPLE_NAME, line no: 53,regex.matcher(this.originalPattern),METHOD_INVOCATION, line no: 85, 1.8969298245614035, 0.7719298245614035, 1.0, 0.0, 0.125
+Matcher,SIMPLE_NAME, line no: 53,regex.matcher(this.originalPattern),METHOD_INVOCATION, line no: 85, 1.8928571428571428, 0.7678571428571429, 1.0, 0.0, 0.125
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,regex.matcher(this.originalPattern),METHOD_INVOCATION, line no: 85, 1.8678571428571429, 0.7678571428571429, 0.5, 0.0, 0.6
+originalPattern,SIMPLE_NAME, line no: 53,originalPattern.replaceAll("\\.\\*" ""),METHOD_INVOCATION, line no: 61, 1.8491228070175438, 0.6491228070175439, 1.0, 0.0, 0.2
+matcher,SIMPLE_NAME, line no: 53,pattern.matcher(uri),METHOD_INVOCATION, line no: 70, 1.8273809523809523, 0.14285714285714285, 1.0, 0.0, 0.16666666666666666
+matcher,SIMPLE_NAME, line no: 53,pattern.matcher(uri),METHOD_INVOCATION, line no: 70, 1.8157894736842106, 0.14035087719298245, 1.0, 0.0, 0.16666666666666666
+Matcher,SIMPLE_NAME, line no: 53,pattern.matcher(uri),METHOD_INVOCATION, line no: 70, 1.8095238095238095, 0.14285714285714285, 1.0, 0.0, 0.16666666666666666
+originalPattern,SIMPLE_NAME, line no: 53,"\\{.*?\\}",STRING_LITERAL, line no: 83, 1.7894736842105263, 0.7894736842105263, 1.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,regex,SIMPLE_NAME, line no: 31, 1.7586206896551724, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,regex,SIMPLE_NAME, line no: 31, 1.7586206896551724, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,"\\{.*?\\}",STRING_LITERAL, line no: 83, 1.7586206896551724, 0.7586206896551724, 1.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,regex,SIMPLE_NAME, line no: 31, 1.7543859649122808, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,result.toString(),METHOD_INVOCATION, line no: 64, 1.7543859649122808, 0.45614035087719296, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,toString,SIMPLE_NAME, line no: 64, 1.7543859649122808, 0.47368421052631576, 1.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53, 1.75, 1.0, 0.0, 0.0, 0.75
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53, 1.7324561403508771, 0.9824561403508771, 0.0, 0.0, 0.75
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,result.toString(),METHOD_INVOCATION, line no: 64, 1.7241379310344827, 0.4482758620689655, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,toString,SIMPLE_NAME, line no: 64, 1.7241379310344827, 0.46551724137931033, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,"",STRING_LITERAL, line no: 55, 1.6666666666666665, 0.2982456140350877, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,"\\.\\*",STRING_LITERAL, line no: 61, 1.6666666666666665, 0.6666666666666666, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,uri,SIMPLE_NAME, line no: 69, 1.6666666666666665, 0.017543859649122806, 1.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,Pattern.compile(patternUri),METHOD_INVOCATION, line no: 57, 1.6616541353383458, 0.9473684210526315, 0.0, 0.0, 0.7142857142857143
+Matcher,SIMPLE_NAME, line no: 53,m,SIMPLE_NAME, line no: 74, 1.6607142857142856, 0.6428571428571429, 1.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,m,SIMPLE_NAME, line no: 74, 1.6607142857142856, 0.6607142857142857, 1.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,m,SIMPLE_NAME, line no: 74, 1.6607142857142856, 0.6607142857142857, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,"",STRING_LITERAL, line no: 55, 1.6551724137931034, 0.29310344827586204, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,"\\.\\*",STRING_LITERAL, line no: 61, 1.6551724137931034, 0.6551724137931034, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,uri,SIMPLE_NAME, line no: 69, 1.6551724137931034, 0.017241379310344827, 1.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,m,SIMPLE_NAME, line no: 74, 1.6491228070175439, 0.6491228070175439, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,base,SIMPLE_NAME, line no: 61, 1.6491228070175439, 0.6491228070175439, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,base,SIMPLE_NAME, line no: 61, 1.6379310344827587, 0.6379310344827587, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,originalPattern.replaceAll("\\.\\*" ""),METHOD_INVOCATION, line no: 61, 1.6379310344827587, 0.6379310344827587, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,key,SIMPLE_NAME, line no: 62, 1.6140350877192984, 0.6140350877192983, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,key,SIMPLE_NAME, line no: 62, 1.603448275862069, 0.603448275862069, 1.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,Pattern.compile(patternUri),METHOD_INVOCATION, line no: 57, 1.5198412698412698, 0.9642857142857143, 0.0, 0.0, 0.5555555555555556
+Pattern,SIMPLE_NAME, line no: 53,originalPattern,SIMPLE_NAME, line no: 46, 1.5, 0.034482758620689655, 0.0, 0.0, 0.5
+originalPattern,SIMPLE_NAME, line no: 53,Pattern,SIMPLE_NAME, line no: 32, 1.5, 0.017543859649122806, 0.0, 0.0, 0.5
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,this.pattern=Pattern.compile(patternUri),ASSIGNMENT, line no: 57, 1.4853801169590644, 0.9298245614035088, 0.0, 0.0, 0.5555555555555556
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,Pattern.compile("\\{.*?\\}"),METHOD_INVOCATION, line no: 83, 1.468671679197995, 0.7543859649122807, 0.0, 0.0, 0.7142857142857143
+Pattern,SIMPLE_NAME, line no: 53,patternUri,SIMPLE_NAME, line no: 50, 1.4655172413793105, 0.9655172413793104, 0.0, 0.0, 0.5
+originalPattern,SIMPLE_NAME, line no: 53,replace,SIMPLE_NAME, line no: 55, 1.456140350877193, 0.2982456140350877, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,"{",STRING_LITERAL, line no: 64, 1.456140350877193, 0.45614035087719296, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,"}",STRING_LITERAL, line no: 64, 1.456140350877193, 0.45614035087719296, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,replace,SIMPLE_NAME, line no: 55, 1.4482758620689655, 0.29310344827586204, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,"{",STRING_LITERAL, line no: 64, 1.4482758620689655, 0.4482758620689655, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,"}",STRING_LITERAL, line no: 64, 1.4482758620689655, 0.4482758620689655, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,pattern,SIMPLE_NAME, line no: 45, 1.4473684210526314, 0.03508771929824561, 0.0, 0.0, 0.5
+originalPattern,SIMPLE_NAME, line no: 53,base.replace("{" + key + "}" result == null ? "" : result.toString()),METHOD_INVOCATION, line no: 64, 1.4385964912280702, 0.43859649122807015, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,"{" + key + "}",INFIX_EXPRESSION, line no: 64, 1.4385964912280702, 0.43859649122807015, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,base.replace("{" + key + "}" result == null ? "" : result.toString()),METHOD_INVOCATION, line no: 64, 1.4310344827586206, 0.43103448275862066, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,"{" + key + "}",INFIX_EXPRESSION, line no: 64, 1.4310344827586206, 0.43103448275862066, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,base=base.replace("{" + key + "}" result == null ? "" : result.toString()),ASSIGNMENT, line no: 64, 1.4210526315789473, 0.42105263157894735, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,base=base.replace("{" + key + "}" result == null ? "" : result.toString()),ASSIGNMENT, line no: 64, 1.4137931034482758, 0.41379310344827586, 1.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,matcher.find(),METHOD_INVOCATION, line no: 54, 1.4087301587301586, 0.9642857142857143, 0.0, 0.0, 0.4444444444444444
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,this.pattern=Pattern.compile(patternUri),ASSIGNMENT, line no: 57, 1.400974025974026, 0.9464285714285714, 0.0, 0.0, 0.45454545454545453
+originalPattern,SIMPLE_NAME, line no: 53,group,SIMPLE_NAME, line no: 55, 1.368421052631579, 0.3157894736842105, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,get,SIMPLE_NAME, line no: 63, 1.368421052631579, 0.45614035087719296, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,matcher.appendReplacement(result values[i].replaceAll("\\$" "\\\\\\$")),METHOD_INVOCATION, line no: 89, 1.3660714285714286, 0.30357142857142855, 1.0, 0.0, 0.0625
+matcher,SIMPLE_NAME, line no: 53,matcher.appendReplacement(result values[i].replaceAll("\\$" "\\\\\\$")),METHOD_INVOCATION, line no: 89, 1.3660714285714286, 0.30357142857142855, 1.0, 0.0, 0.0625
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,group,SIMPLE_NAME, line no: 55, 1.3620689655172413, 0.3103448275862069, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,get,SIMPLE_NAME, line no: 63, 1.3620689655172413, 0.4482758620689655, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,matcher.appendReplacement(result values[i].replaceAll("\\$" "\\\\\\$")),METHOD_INVOCATION, line no: 89, 1.3607456140350878, 0.2982456140350877, 1.0, 0.0, 0.0625
+originalPattern,SIMPLE_NAME, line no: 53,name,SIMPLE_NAME, line no: 77, 1.3508771929824561, 0.3508771929824561, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,parameters.get(i - 1),METHOD_INVOCATION, line no: 77, 1.3508771929824561, 0.3508771929824561, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,m.group(i),METHOD_INVOCATION, line no: 78, 1.3508771929824561, 0.3508771929824561, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,name,SIMPLE_NAME, line no: 77, 1.3448275862068966, 0.3448275862068966, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,parameters.get(i - 1),METHOD_INVOCATION, line no: 77, 1.3448275862068966, 0.3448275862068966, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,m.group(i),METHOD_INVOCATION, line no: 78, 1.3448275862068966, 0.3448275862068966, 1.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,originalPattern.replaceAll("\\{([^\\}]+?)\\*\\}" "(.*)"),METHOD_INVOCATION, line no: 50, 1.3333333333333333, 1.0, 0.0, 0.0, 0.3333333333333333
+originalPattern,SIMPLE_NAME, line no: 53,"\\$",STRING_LITERAL, line no: 89, 1.3333333333333333, 0.3333333333333333, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,"\\\\\\$",STRING_LITERAL, line no: 89, 1.3333333333333333, 0.3333333333333333, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,"\\$",STRING_LITERAL, line no: 89, 1.3275862068965516, 0.3275862068965517, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,"\\\\\\$",STRING_LITERAL, line no: 89, 1.3275862068965516, 0.3275862068965517, 1.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,Pattern.compile("\\{.*?\\}"),METHOD_INVOCATION, line no: 83, 1.3234126984126986, 0.7678571428571429, 0.0, 0.0, 0.5555555555555556
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,matcher.find(),METHOD_INVOCATION, line no: 54, 1.3223684210526314, 0.9473684210526315, 0.0, 0.0, 0.375
+Matcher,SIMPLE_NAME, line no: 53,appendReplacement,SIMPLE_NAME, line no: 89, 1.3214285714285714, 0.32142857142857145, 1.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,appendReplacement,SIMPLE_NAME, line no: 89, 1.3214285714285714, 0.32142857142857145, 1.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,appendReplacement,SIMPLE_NAME, line no: 89, 1.3214285714285714, 0.32142857142857145, 1.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,appendReplacement,SIMPLE_NAME, line no: 89, 1.3157894736842106, 0.3157894736842105, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,values[i].replaceAll("\\$" "\\\\\\$"),METHOD_INVOCATION, line no: 89, 1.3157894736842106, 0.3157894736842105, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,values[i],ARRAY_ACCESS, line no: 89, 1.3157894736842106, 0.3157894736842105, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,values[i].replaceAll("\\$" "\\\\\\$"),METHOD_INVOCATION, line no: 89, 1.3103448275862069, 0.3103448275862069, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,values[i],ARRAY_ACCESS, line no: 89, 1.3103448275862069, 0.3103448275862069, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,matcher.group(1),METHOD_INVOCATION, line no: 55, 1.2982456140350878, 0.2982456140350877, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,"*",STRING_LITERAL, line no: 55, 1.2982456140350878, 0.2982456140350877, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,matcher.group(1),METHOD_INVOCATION, line no: 55, 1.293103448275862, 0.29310344827586204, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,"*",STRING_LITERAL, line no: 55, 1.293103448275862, 0.29310344827586204, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,matcher.group(1).replace("*" ""),METHOD_INVOCATION, line no: 55, 1.280701754385965, 0.2807017543859649, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,matcher.group(1).replace("*" ""),METHOD_INVOCATION, line no: 55, 1.2758620689655173, 0.27586206896551724, 1.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,originalPattern.replaceAll("\\{([^\\}]+?)\\*\\}" "(.*)").replaceAll("\\{([^\\}]+?)\\}" "([^/]*)"),METHOD_INVOCATION, line no: 50, 1.2681704260651627, 0.9824561403508771, 0.0, 0.0, 0.2857142857142857
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,originalPattern,SIMPLE_NAME, line no: 46, 1.25, 0.03571428571428571, 0.0, 0.0, 0.25
+originalPattern,SIMPLE_NAME, line no: 53,Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53, 1.2324561403508771, 0.9824561403508771, 0.0, 0.0, 0.25
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,pattern.matcher(uri),METHOD_INVOCATION, line no: 70, 1.2162698412698414, 0.14285714285714285, 0.0, 0.0, 0.5555555555555556
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,this.pattern,FIELD_ACCESS, line no: 57, 1.2155388471177946, 0.9298245614035088, 0.0, 0.0, 0.2857142857142857
+Matcher,SIMPLE_NAME, line no: 53,java.util.regex.Matcher,QUALIFIED_NAME, line no: 31, 1.2, 0.0, 1.0, 0.0, 0.2
+matcher,SIMPLE_NAME, line no: 53,java.util.regex.Matcher,QUALIFIED_NAME, line no: 31, 1.2, 0.0, 1.0, 0.0, 0.2
+Pattern,SIMPLE_NAME, line no: 53,java.util.regex.Pattern,QUALIFIED_NAME, line no: 32, 1.2, 0.0, 1.0, 0.0, 0.2
+matcher,SIMPLE_NAME, line no: 53,java.util.regex.Matcher,QUALIFIED_NAME, line no: 31, 1.2, 0.0, 1.0, 0.0, 0.2
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,this.originalPattern,FIELD_ACCESS, line no: 49, 1.1798245614035088, 0.9298245614035088, 0.0, 0.0, 0.25
+originalPattern,SIMPLE_NAME, line no: 53,this.pattern,FIELD_ACCESS, line no: 57, 1.1798245614035088, 0.9298245614035088, 0.0, 0.0, 0.25
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,this.pattern,FIELD_ACCESS, line no: 57, 1.1686507936507935, 0.9464285714285714, 0.0, 0.0, 0.2222222222222222
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,"\\{(.+?)\\}",STRING_LITERAL, line no: 53, 1.1666666666666667, 1.0, 0.0, 0.0, 0.16666666666666666
+Pattern,SIMPLE_NAME, line no: 53,this.originalPattern,FIELD_ACCESS, line no: 49, 1.1637931034482758, 0.9137931034482759, 0.0, 0.0, 0.25
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,regex.matcher(this.originalPattern),METHOD_INVOCATION, line no: 85, 1.1543859649122807, 0.7543859649122807, 0.0, 0.0, 0.4
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,this.originalPattern=originalPattern,ASSIGNMENT, line no: 49, 1.1520467836257309, 0.9298245614035088, 0.0, 0.0, 0.2222222222222222
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53, 1.1494252873563218, 0.9827586206896551, 0.0, 0.0, 0.16666666666666666
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,pattern.matcher(uri),METHOD_INVOCATION, line no: 70, 1.1491228070175439, 0.14035087719298245, 0.0, 0.0, 0.5
+matcher,SIMPLE_NAME, line no: 53,matcher.find(),METHOD_INVOCATION, line no: 54, 1.1473684210526316, 0.9473684210526315, 0.0, 0.0, 0.2
+Matcher,SIMPLE_NAME, line no: 53,matcher.find(),METHOD_INVOCATION, line no: 54, 1.1464285714285714, 0.9464285714285714, 0.0, 0.0, 0.2
+matcher,SIMPLE_NAME, line no: 53,matcher.find(),METHOD_INVOCATION, line no: 54, 1.1464285714285714, 0.9464285714285714, 0.0, 0.0, 0.2
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,originalPattern,SIMPLE_NAME, line no: 46, 1.1428571428571428, 0.03508771929824561, 0.0, 0.0, 0.14285714285714285
+originalPattern,SIMPLE_NAME, line no: 53,Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53, 1.12531328320802, 0.9824561403508771, 0.0, 0.0, 0.14285714285714285
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,Pattern,SIMPLE_NAME, line no: 32, 1.125, 0.017857142857142856, 0.0, 0.0, 0.125
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,compile,SIMPLE_NAME, line no: 53, 1.125, 1.0, 0.0, 0.0, 0.125
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,"\\{(.+?)\\}",STRING_LITERAL, line no: 53, 1.125, 1.0, 0.0, 0.0, 0.125
+Pattern,SIMPLE_NAME, line no: 53,this.originalPattern=originalPattern,ASSIGNMENT, line no: 49, 1.113793103448276, 0.9137931034482759, 0.0, 0.0, 0.2
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,patternUri,SIMPLE_NAME, line no: 50, 1.1077694235588973, 0.9649122807017544, 0.0, 0.0, 0.14285714285714285
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,patternUri,SIMPLE_NAME, line no: 50, 1.0932539682539681, 0.9821428571428571, 0.0, 0.0, 0.1111111111111111
+Pattern,SIMPLE_NAME, line no: 53,Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53, 1.0905172413793105, 0.9655172413793104, 0.0, 0.0, 0.125
+compile,SIMPLE_NAME, line no: 53,Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53, 1.0905172413793105, 0.9655172413793104, 0.0, 0.0, 0.125
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53, 1.0905172413793105, 0.9655172413793104, 0.0, 0.0, 0.125
+originalPattern,SIMPLE_NAME, line no: 53,Pattern.compile(patternUri),METHOD_INVOCATION, line no: 57, 1.0902255639097744, 0.9473684210526315, 0.0, 0.0, 0.14285714285714285
+Pattern,SIMPLE_NAME, line no: 53,originalPattern.replaceAll("\\{([^\\}]+?)\\*\\}" "(.*)"),METHOD_INVOCATION, line no: 50, 1.0827586206896551, 0.9827586206896551, 0.0, 0.0, 0.1
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,pattern,SIMPLE_NAME, line no: 45, 1.0714285714285714, 0.03571428571428571, 0.0, 0.0, 0.125
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,result.toString(),METHOD_INVOCATION, line no: 64, 1.0701754385964912, 0.45614035087719296, 0.0, 0.0, 0.3333333333333333
+Pattern,SIMPLE_NAME, line no: 53,originalPattern.replaceAll("\\{([^\\}]+?)\\*\\}" "(.*)").replaceAll("\\{([^\\}]+?)\\}" "([^/]*)"),METHOD_INVOCATION, line no: 50, 1.0488505747126438, 0.9655172413793104, 0.0, 0.0, 0.08333333333333333
+originalPattern,SIMPLE_NAME, line no: 53,this.pattern=Pattern.compile(patternUri),ASSIGNMENT, line no: 57, 1.04093567251462, 0.9298245614035088, 0.0, 0.0, 0.1111111111111111
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,result.toString(),METHOD_INVOCATION, line no: 64, 1.0227272727272727, 0.4642857142857143, 0.0, 0.0, 0.2727272727272727
+originalPattern,SIMPLE_NAME, line no: 53,regex.matcher(this.originalPattern),METHOD_INVOCATION, line no: 85, 1.0219298245614035, 0.7719298245614035, 0.0, 0.0, 0.25
+originalPattern,SIMPLE_NAME, line no: 53,fillUri,SIMPLE_NAME, line no: 60, 1.0175438596491229, 0.017543859649122806, 1.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,apply,SIMPLE_NAME, line no: 82, 1.0175438596491229, 0.017543859649122806, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,fillUri,SIMPLE_NAME, line no: 60, 1.0172413793103448, 0.017241379310344827, 1.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,apply,SIMPLE_NAME, line no: 82, 1.0172413793103448, 0.017241379310344827, 1.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,m.matches(),METHOD_INVOCATION, line no: 75, 1.006578947368421, 0.631578947368421, 0.0, 0.0, 0.375
+Matcher,SIMPLE_NAME, line no: 53,String,SIMPLE_NAME, line no: 44, 1.0, 0.03571428571428571, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,Pattern,SIMPLE_NAME, line no: 32, 1.0, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,originalPattern,SIMPLE_NAME, line no: 46, 1.0, 0.03571428571428571, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,patternUri,SIMPLE_NAME, line no: 50, 1.0, 1.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,replaceAll,SIMPLE_NAME, line no: 51, 1.0, 1.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,compile,SIMPLE_NAME, line no: 53, 1.0, 1.0, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,replaceAll,SIMPLE_NAME, line no: 51, 1.0, 1.0, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,"\\{([^\\}]+?)\\*\\}",STRING_LITERAL, line no: 51, 1.0, 1.0, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,"(.*)",STRING_LITERAL, line no: 51, 1.0, 1.0, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,"\\{([^\\}]+?)\\}",STRING_LITERAL, line no: 52, 1.0, 1.0, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,"([^/]*)",STRING_LITERAL, line no: 52, 1.0, 1.0, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,replaceAll,SIMPLE_NAME, line no: 51, 1.0, 1.0, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,"\\{([^\\}]+?)\\*\\}",STRING_LITERAL, line no: 51, 1.0, 1.0, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,"(.*)",STRING_LITERAL, line no: 51, 1.0, 1.0, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,replaceAll,SIMPLE_NAME, line no: 51, 1.0, 1.0, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,java.util.regex.Pattern,QUALIFIED_NAME, line no: 32, 1.0, 0.0, 1.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,originalPattern,SIMPLE_NAME, line no: 46, 1.0, 0.034482758620689655, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,replaceAll,SIMPLE_NAME, line no: 51, 1.0, 1.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,Pattern,SIMPLE_NAME, line no: 32, 1.0, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,originalPattern,SIMPLE_NAME, line no: 46, 1.0, 0.03508771929824561, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,replaceAll,SIMPLE_NAME, line no: 51, 1.0, 1.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,compile,SIMPLE_NAME, line no: 53, 1.0, 1.0, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,matcher,SIMPLE_NAME, line no: 53, 1.0, 0.9824561403508771, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,compile,SIMPLE_NAME, line no: 53, 1.0, 1.0, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,"\\{([^\\}]+?)\\*\\}",STRING_LITERAL, line no: 51, 0.9827586206896551, 0.9827586206896551, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,"(.*)",STRING_LITERAL, line no: 51, 0.9827586206896551, 0.9827586206896551, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,matcher,SIMPLE_NAME, line no: 53, 0.9827586206896551, 0.9655172413793104, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,"\\{(.+?)\\}",STRING_LITERAL, line no: 53, 0.9827586206896551, 0.9827586206896551, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,originalPattern.replaceAll("\\{([^\\}]+?)\\*\\}" "(.*)"),METHOD_INVOCATION, line no: 50, 0.9827586206896551, 0.9827586206896551, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,"\\{([^\\}]+?)\\*\\}",STRING_LITERAL, line no: 51, 0.9827586206896551, 0.9827586206896551, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,"(.*)",STRING_LITERAL, line no: 51, 0.9827586206896551, 0.9827586206896551, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,matcher,SIMPLE_NAME, line no: 53, 0.9827586206896551, 0.9655172413793104, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,"\\{(.+?)\\}",STRING_LITERAL, line no: 53, 0.9827586206896551, 0.9827586206896551, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,Pattern,SIMPLE_NAME, line no: 32, 0.9827586206896551, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,compile,SIMPLE_NAME, line no: 53, 0.9827586206896551, 0.9827586206896551, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,"\\{([^\\}]+?)\\}",STRING_LITERAL, line no: 52, 0.9824561403508771, 0.9824561403508771, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,"([^/]*)",STRING_LITERAL, line no: 52, 0.9824561403508771, 0.9824561403508771, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,matcher,SIMPLE_NAME, line no: 53, 0.9824561403508771, 0.9649122807017544, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,originalPattern.replaceAll("\\.\\*" ""),METHOD_INVOCATION, line no: 61, 0.9824561403508771, 0.6491228070175439, 0.0, 0.0, 0.3333333333333333
+matcher,SIMPLE_NAME, line no: 53,patternUri,SIMPLE_NAME, line no: 50, 0.9824561403508771, 0.9824561403508771, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,originalPattern.replaceAll("\\{([^\\}]+?)\\*\\}" "(.*)").replaceAll("\\{([^\\}]+?)\\}" "([^/]*)"),METHOD_INVOCATION, line no: 50, 0.9824561403508771, 0.9824561403508771, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,originalPattern.replaceAll("\\{([^\\}]+?)\\*\\}" "(.*)"),METHOD_INVOCATION, line no: 50, 0.9824561403508771, 0.9824561403508771, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"\\{([^\\}]+?)\\*\\}",STRING_LITERAL, line no: 51, 0.9824561403508771, 0.9824561403508771, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"(.*)",STRING_LITERAL, line no: 51, 0.9824561403508771, 0.9824561403508771, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"\\{([^\\}]+?)\\}",STRING_LITERAL, line no: 52, 0.9824561403508771, 0.9824561403508771, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"([^/]*)",STRING_LITERAL, line no: 52, 0.9824561403508771, 0.9824561403508771, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53, 0.9824561403508771, 0.9824561403508771, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"\\{(.+?)\\}",STRING_LITERAL, line no: 53, 0.9824561403508771, 0.9824561403508771, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,Pattern,SIMPLE_NAME, line no: 32, 0.9821428571428571, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,originalPattern,SIMPLE_NAME, line no: 46, 0.9821428571428571, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,patternUri,SIMPLE_NAME, line no: 50, 0.9821428571428571, 0.9821428571428571, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,replaceAll,SIMPLE_NAME, line no: 51, 0.9821428571428571, 0.9821428571428571, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,compile,SIMPLE_NAME, line no: 53, 0.9821428571428571, 0.9821428571428571, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,String,SIMPLE_NAME, line no: 44, 0.9821428571428571, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,originalPattern.replaceAll("\\{([^\\}]+?)\\*\\}" "(.*)").replaceAll("\\{([^\\}]+?)\\}" "([^/]*)"),METHOD_INVOCATION, line no: 50, 0.9821428571428571, 0.9821428571428571, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,originalPattern.replaceAll("\\{([^\\}]+?)\\*\\}" "(.*)"),METHOD_INVOCATION, line no: 50, 0.9821428571428571, 0.9821428571428571, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"\\{([^\\}]+?)\\*\\}",STRING_LITERAL, line no: 51, 0.9821428571428571, 0.9821428571428571, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"(.*)",STRING_LITERAL, line no: 51, 0.9821428571428571, 0.9821428571428571, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"\\{([^\\}]+?)\\}",STRING_LITERAL, line no: 52, 0.9821428571428571, 0.9821428571428571, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"([^/]*)",STRING_LITERAL, line no: 52, 0.9821428571428571, 0.9821428571428571, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53, 0.9821428571428571, 0.9821428571428571, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"\\{(.+?)\\}",STRING_LITERAL, line no: 53, 0.9821428571428571, 0.9821428571428571, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,"\\{([^\\}]+?)\\}",STRING_LITERAL, line no: 52, 0.9655172413793104, 0.9655172413793104, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,"([^/]*)",STRING_LITERAL, line no: 52, 0.9655172413793104, 0.9655172413793104, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,patternUri,SIMPLE_NAME, line no: 50, 0.9655172413793104, 0.9655172413793104, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,originalPattern.replaceAll("\\{([^\\}]+?)\\*\\}" "(.*)").replaceAll("\\{([^\\}]+?)\\}" "([^/]*)"),METHOD_INVOCATION, line no: 50, 0.9655172413793104, 0.9655172413793104, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,"\\{([^\\}]+?)\\}",STRING_LITERAL, line no: 52, 0.9655172413793104, 0.9655172413793104, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,"([^/]*)",STRING_LITERAL, line no: 52, 0.9655172413793104, 0.9655172413793104, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,matcher,SIMPLE_NAME, line no: 53, 0.9655172413793104, 0.9482758620689655, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,String,SIMPLE_NAME, line no: 44, 0.9649122807017544, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,find,SIMPLE_NAME, line no: 54, 0.9649122807017544, 0.9649122807017544, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,Matcher,SIMPLE_NAME, line no: 31, 0.9649122807017544, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,find,SIMPLE_NAME, line no: 54, 0.9649122807017544, 0.9649122807017544, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,pattern,SIMPLE_NAME, line no: 45, 0.9642857142857143, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,originalPattern.replaceAll("\\{([^\\}]+?)\\*\\}" "(.*)").replaceAll("\\{([^\\}]+?)\\}" "([^/]*)"),METHOD_INVOCATION, line no: 50, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,originalPattern.replaceAll("\\{([^\\}]+?)\\*\\}" "(.*)"),METHOD_INVOCATION, line no: 50, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,"\\{([^\\}]+?)\\*\\}",STRING_LITERAL, line no: 51, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,"(.*)",STRING_LITERAL, line no: 51, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,"\\{([^\\}]+?)\\}",STRING_LITERAL, line no: 52, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,"([^/]*)",STRING_LITERAL, line no: 52, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,"\\{(.+?)\\}",STRING_LITERAL, line no: 53, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,find,SIMPLE_NAME, line no: 54, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,pattern,SIMPLE_NAME, line no: 45, 0.9642857142857143, 0.03571428571428571, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,find,SIMPLE_NAME, line no: 54, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,String,SIMPLE_NAME, line no: 44, 0.9642857142857143, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,find,SIMPLE_NAME, line no: 54, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,new StringBuffer(),CLASS_INSTANCE_CREATION, line no: 86, 0.9590643274853801, 0.7368421052631579, 0.0, 0.0, 0.2222222222222222
+Pattern,SIMPLE_NAME, line no: 53,Matcher,SIMPLE_NAME, line no: 31, 0.9482758620689655, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,String,SIMPLE_NAME, line no: 44, 0.9482758620689655, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,find,SIMPLE_NAME, line no: 54, 0.9482758620689655, 0.9482758620689655, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,Matcher,SIMPLE_NAME, line no: 31, 0.9482758620689655, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,String,SIMPLE_NAME, line no: 44, 0.9482758620689655, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,find,SIMPLE_NAME, line no: 54, 0.9482758620689655, 0.9482758620689655, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,m.groupCount(),METHOD_INVOCATION, line no: 76, 0.9473684210526316, 0.6140350877192983, 0.0, 0.0, 0.3333333333333333
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,Matcher,SIMPLE_NAME, line no: 31, 0.9473684210526315, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,String,SIMPLE_NAME, line no: 44, 0.9473684210526315, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,find,SIMPLE_NAME, line no: 54, 0.9473684210526315, 0.9473684210526315, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,pattern,SIMPLE_NAME, line no: 45, 0.9473684210526315, 0.03508771929824561, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,Pattern.compile(patternUri),METHOD_INVOCATION, line no: 57, 0.9473684210526315, 0.9473684210526315, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,matcher.find(),METHOD_INVOCATION, line no: 54, 0.9473684210526315, 0.9473684210526315, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,this.originalPattern=originalPattern,ASSIGNMENT, line no: 49, 0.9464285714285714, 0.9464285714285714, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,this.originalPattern,FIELD_ACCESS, line no: 49, 0.9464285714285714, 0.9464285714285714, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,this,THIS_EXPRESSION, line no: 49, 0.9464285714285714, 0.9464285714285714, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,this.pattern=Pattern.compile(patternUri),ASSIGNMENT, line no: 57, 0.9464285714285714, 0.9464285714285714, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,this.pattern,FIELD_ACCESS, line no: 57, 0.9464285714285714, 0.9464285714285714, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,Pattern.compile(patternUri),METHOD_INVOCATION, line no: 57, 0.9464285714285714, 0.9464285714285714, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,this.originalPattern=originalPattern,ASSIGNMENT, line no: 49, 0.9464285714285714, 0.9464285714285714, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,this.originalPattern,FIELD_ACCESS, line no: 49, 0.9464285714285714, 0.9464285714285714, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,this,THIS_EXPRESSION, line no: 49, 0.9464285714285714, 0.9464285714285714, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,this.pattern=Pattern.compile(patternUri),ASSIGNMENT, line no: 57, 0.9464285714285714, 0.9464285714285714, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,this.pattern,FIELD_ACCESS, line no: 57, 0.9464285714285714, 0.9464285714285714, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,Pattern.compile(patternUri),METHOD_INVOCATION, line no: 57, 0.9464285714285714, 0.9464285714285714, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,this,THIS_EXPRESSION, line no: 49, 0.9464285714285714, 0.9464285714285714, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,m.matches(),METHOD_INVOCATION, line no: 75, 0.9428571428571428, 0.6428571428571429, 0.0, 0.0, 0.3
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,new StringBuffer(),CLASS_INSTANCE_CREATION, line no: 86, 0.9318181818181819, 0.75, 0.0, 0.0, 0.18181818181818182
+Pattern,SIMPLE_NAME, line no: 53,matcher.find(),METHOD_INVOCATION, line no: 54, 0.9310344827586207, 0.9310344827586207, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,matcher.find(),METHOD_INVOCATION, line no: 54, 0.9310344827586207, 0.9310344827586207, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,Matcher,SIMPLE_NAME, line no: 31, 0.9310344827586207, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,matcher.find(),METHOD_INVOCATION, line no: 54, 0.9310344827586207, 0.9310344827586207, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,find,SIMPLE_NAME, line no: 54, 0.9310344827586207, 0.9310344827586207, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,Pattern.compile(patternUri),METHOD_INVOCATION, line no: 57, 0.9310344827586207, 0.9310344827586207, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,this,THIS_EXPRESSION, line no: 49, 0.9298245614035088, 0.9298245614035088, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,this.originalPattern=originalPattern,ASSIGNMENT, line no: 49, 0.9298245614035088, 0.9298245614035088, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,this.originalPattern,FIELD_ACCESS, line no: 49, 0.9298245614035088, 0.9298245614035088, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,this,THIS_EXPRESSION, line no: 49, 0.9298245614035088, 0.9298245614035088, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,this.pattern=Pattern.compile(patternUri),ASSIGNMENT, line no: 57, 0.9298245614035088, 0.9298245614035088, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,this.pattern,FIELD_ACCESS, line no: 57, 0.9298245614035088, 0.9298245614035088, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,this,THIS_EXPRESSION, line no: 49, 0.9298245614035088, 0.9298245614035088, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,Pattern.compile("\\{.*?\\}"),METHOD_INVOCATION, line no: 83, 0.9147869674185463, 0.7719298245614035, 0.0, 0.0, 0.14285714285714285
+Pattern,SIMPLE_NAME, line no: 53,this,THIS_EXPRESSION, line no: 49, 0.9137931034482759, 0.9137931034482759, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,this.originalPattern=originalPattern,ASSIGNMENT, line no: 49, 0.9137931034482759, 0.9137931034482759, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,this.originalPattern,FIELD_ACCESS, line no: 49, 0.9137931034482759, 0.9137931034482759, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,this,THIS_EXPRESSION, line no: 49, 0.9137931034482759, 0.9137931034482759, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,pattern,SIMPLE_NAME, line no: 45, 0.9137931034482759, 0.034482758620689655, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,this,THIS_EXPRESSION, line no: 49, 0.9137931034482759, 0.9137931034482759, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,this.pattern=Pattern.compile(patternUri),ASSIGNMENT, line no: 57, 0.9137931034482759, 0.9137931034482759, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,this.pattern,FIELD_ACCESS, line no: 57, 0.9137931034482759, 0.9137931034482759, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,m.groupCount(),METHOD_INVOCATION, line no: 76, 0.8977272727272727, 0.625, 0.0, 0.0, 0.2727272727272727
+Pattern,SIMPLE_NAME, line no: 53,regex.matcher(this.originalPattern),METHOD_INVOCATION, line no: 85, 0.8836206896551724, 0.7586206896551724, 0.0, 0.0, 0.125
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,i <= m.groupCount(),INFIX_EXPRESSION, line no: 76, 0.8692185007974481, 0.5964912280701754, 0.0, 0.0, 0.2727272727272727
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,values.length,QUALIFIED_NAME, line no: 87, 0.8442982456140351, 0.7192982456140351, 0.0, 0.0, 0.125
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,i <= m.groupCount(),INFIX_EXPRESSION, line no: 76, 0.8379120879120878, 0.6071428571428571, 0.0, 0.0, 0.23076923076923078
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,values.length,QUALIFIED_NAME, line no: 87, 0.8321428571428571, 0.7321428571428571, 0.0, 0.0, 0.1
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,i < values.length,INFIX_EXPRESSION, line no: 87, 0.8192982456140351, 0.7192982456140351, 0.0, 0.0, 0.1
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,i < values.length,INFIX_EXPRESSION, line no: 87, 0.8154761904761905, 0.7321428571428571, 0.0, 0.0, 0.08333333333333333
+Pattern,SIMPLE_NAME, line no: 53,pattern.matcher(uri),METHOD_INVOCATION, line no: 70, 0.8045977011494253, 0.13793103448275862, 0.0, 0.0, 0.16666666666666666
+matcher,SIMPLE_NAME, line no: 53,"\\{.*?\\}",STRING_LITERAL, line no: 83, 0.8035714285714286, 0.8035714285714286, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,pattern.matcher(uri),METHOD_INVOCATION, line no: 70, 0.7919799498746867, 0.14035087719298245, 0.0, 0.0, 0.14285714285714285
+matcher,SIMPLE_NAME, line no: 53,"\\{.*?\\}",STRING_LITERAL, line no: 83, 0.7894736842105263, 0.7894736842105263, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,"\\{.*?\\}",STRING_LITERAL, line no: 83, 0.7857142857142857, 0.7857142857142857, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,regex,SIMPLE_NAME, line no: 31, 0.7857142857142857, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,Pattern.compile("\\{.*?\\}"),METHOD_INVOCATION, line no: 83, 0.7857142857142857, 0.7857142857142857, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,"\\{.*?\\}",STRING_LITERAL, line no: 83, 0.7857142857142857, 0.7857142857142857, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,"\\{.*?\\}",STRING_LITERAL, line no: 83, 0.7758620689655172, 0.7758620689655172, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,"\\{.*?\\}",STRING_LITERAL, line no: 83, 0.7758620689655172, 0.7758620689655172, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,"\\{.*?\\}",STRING_LITERAL, line no: 83, 0.7719298245614035, 0.7719298245614035, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,regex,SIMPLE_NAME, line no: 31, 0.7719298245614035, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,Pattern.compile("\\{.*?\\}"),METHOD_INVOCATION, line no: 83, 0.7719298245614035, 0.7719298245614035, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,regex,SIMPLE_NAME, line no: 31, 0.7719298245614035, 0.017543859649122806, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,regex,SIMPLE_NAME, line no: 31, 0.7678571428571429, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,result,SIMPLE_NAME, line no: 63, 0.7678571428571429, 0.42857142857142855, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,result.toString(),METHOD_INVOCATION, line no: 64, 0.7678571428571429, 0.4642857142857143, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,toString,SIMPLE_NAME, line no: 64, 0.7678571428571429, 0.48214285714285715, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,Pattern.compile("\\{.*?\\}"),METHOD_INVOCATION, line no: 83, 0.7678571428571429, 0.7678571428571429, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,StringBuffer,SIMPLE_NAME, line no: 86, 0.7678571428571429, 0.7678571428571429, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,result,SIMPLE_NAME, line no: 63, 0.7678571428571429, 0.44642857142857145, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,result.toString(),METHOD_INVOCATION, line no: 64, 0.7678571428571429, 0.4642857142857143, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,toString,SIMPLE_NAME, line no: 64, 0.7678571428571429, 0.48214285714285715, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,i,SIMPLE_NAME, line no: 76, 0.7678571428571429, 0.6428571428571429, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,StringBuffer,SIMPLE_NAME, line no: 86, 0.7678571428571429, 0.75, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,new StringBuffer(),CLASS_INSTANCE_CREATION, line no: 86, 0.7678571428571429, 0.7678571428571429, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,0,NUMBER_LITERAL, line no: 87, 0.7678571428571429, 0.7678571428571429, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,regex,SIMPLE_NAME, line no: 31, 0.7678571428571429, 0.017857142857142856, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,regex.matcher(this.originalPattern),METHOD_INVOCATION, line no: 85, 0.7586206896551724, 0.7586206896551724, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,result,SIMPLE_NAME, line no: 63, 0.7543859649122807, 0.43859649122807015, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,result.toString(),METHOD_INVOCATION, line no: 64, 0.7543859649122807, 0.45614035087719296, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,toString,SIMPLE_NAME, line no: 64, 0.7543859649122807, 0.47368421052631576, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,i,SIMPLE_NAME, line no: 76, 0.7543859649122807, 0.631578947368421, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,StringBuffer,SIMPLE_NAME, line no: 86, 0.7543859649122807, 0.7368421052631579, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,new StringBuffer(),CLASS_INSTANCE_CREATION, line no: 86, 0.7543859649122807, 0.7543859649122807, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,0,NUMBER_LITERAL, line no: 87, 0.7543859649122807, 0.7543859649122807, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,result,SIMPLE_NAME, line no: 63, 0.7543859649122807, 0.43859649122807015, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,i,SIMPLE_NAME, line no: 76, 0.7543859649122807, 0.631578947368421, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,StringBuffer,SIMPLE_NAME, line no: 86, 0.7543859649122807, 0.7368421052631579, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,new StringBuffer(),CLASS_INSTANCE_CREATION, line no: 86, 0.7543859649122807, 0.7543859649122807, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,0,NUMBER_LITERAL, line no: 87, 0.7543859649122807, 0.7543859649122807, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,i,SIMPLE_NAME, line no: 76, 0.75, 0.625, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,i++,POSTFIX_EXPRESSION, line no: 76, 0.75, 0.6071428571428571, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,values,SIMPLE_NAME, line no: 82, 0.75, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,new StringBuffer(),CLASS_INSTANCE_CREATION, line no: 86, 0.75, 0.75, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 87, 0.75, 0.75, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,0,NUMBER_LITERAL, line no: 87, 0.75, 0.75, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,i < values.length,INFIX_EXPRESSION, line no: 87, 0.75, 0.75, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,values.length,QUALIFIED_NAME, line no: 87, 0.75, 0.75, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,length,SIMPLE_NAME, line no: 87, 0.75, 0.75, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,i++,POSTFIX_EXPRESSION, line no: 76, 0.75, 0.6071428571428571, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,values,SIMPLE_NAME, line no: 82, 0.75, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 87, 0.75, 0.75, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,i < values.length,INFIX_EXPRESSION, line no: 87, 0.75, 0.75, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,values.length,QUALIFIED_NAME, line no: 87, 0.75, 0.75, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,length,SIMPLE_NAME, line no: 87, 0.75, 0.75, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,result,SIMPLE_NAME, line no: 63, 0.75, 0.44642857142857145, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,toString,SIMPLE_NAME, line no: 64, 0.75, 0.48214285714285715, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,i,SIMPLE_NAME, line no: 76, 0.75, 0.6428571428571429, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,StringBuffer,SIMPLE_NAME, line no: 86, 0.75, 0.7321428571428571, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,0,NUMBER_LITERAL, line no: 87, 0.75, 0.75, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,result,SIMPLE_NAME, line no: 63, 0.7413793103448276, 0.43103448275862066, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,result.toString(),METHOD_INVOCATION, line no: 64, 0.7413793103448276, 0.4482758620689655, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,toString,SIMPLE_NAME, line no: 64, 0.7413793103448276, 0.46551724137931033, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,i,SIMPLE_NAME, line no: 76, 0.7413793103448276, 0.6206896551724138, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,StringBuffer,SIMPLE_NAME, line no: 86, 0.7413793103448276, 0.7241379310344828, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,new StringBuffer(),CLASS_INSTANCE_CREATION, line no: 86, 0.7413793103448276, 0.7413793103448276, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,0,NUMBER_LITERAL, line no: 87, 0.7413793103448276, 0.7413793103448276, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,result,SIMPLE_NAME, line no: 63, 0.7413793103448276, 0.43103448275862066, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,result.toString(),METHOD_INVOCATION, line no: 64, 0.7413793103448276, 0.4482758620689655, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,toString,SIMPLE_NAME, line no: 64, 0.7413793103448276, 0.46551724137931033, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,i,SIMPLE_NAME, line no: 76, 0.7413793103448276, 0.6206896551724138, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,StringBuffer,SIMPLE_NAME, line no: 86, 0.7413793103448276, 0.7241379310344828, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,new StringBuffer(),CLASS_INSTANCE_CREATION, line no: 86, 0.7413793103448276, 0.7413793103448276, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,0,NUMBER_LITERAL, line no: 87, 0.7413793103448276, 0.7413793103448276, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,regex,SIMPLE_NAME, line no: 31, 0.7413793103448276, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,Pattern.compile("\\{.*?\\}"),METHOD_INVOCATION, line no: 83, 0.7413793103448276, 0.7413793103448276, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,regex.matcher(this.originalPattern),METHOD_INVOCATION, line no: 85, 0.7413793103448276, 0.7413793103448276, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,originalPattern.replaceAll("\\.\\*" ""),METHOD_INVOCATION, line no: 61, 0.7379310344827587, 0.6379310344827587, 0.0, 0.0, 0.1
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,result,SIMPLE_NAME, line no: 63, 0.7368421052631579, 0.43859649122807015, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,toString,SIMPLE_NAME, line no: 64, 0.7368421052631579, 0.47368421052631576, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,i,SIMPLE_NAME, line no: 76, 0.7368421052631579, 0.631578947368421, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,StringBuffer,SIMPLE_NAME, line no: 86, 0.7368421052631579, 0.7192982456140351, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,0,NUMBER_LITERAL, line no: 87, 0.7368421052631579, 0.7368421052631579, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,i++,POSTFIX_EXPRESSION, line no: 76, 0.7368421052631579, 0.5964912280701754, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,values,SIMPLE_NAME, line no: 82, 0.7368421052631579, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 87, 0.7368421052631579, 0.7368421052631579, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,i < values.length,INFIX_EXPRESSION, line no: 87, 0.7368421052631579, 0.7368421052631579, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,values.length,QUALIFIED_NAME, line no: 87, 0.7368421052631579, 0.7368421052631579, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,length,SIMPLE_NAME, line no: 87, 0.7368421052631579, 0.7368421052631579, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,i++,POSTFIX_EXPRESSION, line no: 76, 0.7368421052631579, 0.5964912280701754, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,values,SIMPLE_NAME, line no: 82, 0.7368421052631579, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 87, 0.7368421052631579, 0.7368421052631579, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,i < values.length,INFIX_EXPRESSION, line no: 87, 0.7368421052631579, 0.7368421052631579, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,values.length,QUALIFIED_NAME, line no: 87, 0.7368421052631579, 0.7368421052631579, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,length,SIMPLE_NAME, line no: 87, 0.7368421052631579, 0.7368421052631579, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,i++,POSTFIX_EXPRESSION, line no: 76, 0.7321428571428571, 0.6071428571428571, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,values,SIMPLE_NAME, line no: 82, 0.7321428571428571, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 87, 0.7321428571428571, 0.7321428571428571, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,length,SIMPLE_NAME, line no: 87, 0.7321428571428571, 0.7321428571428571, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,i++,POSTFIX_EXPRESSION, line no: 76, 0.7241379310344828, 0.5862068965517241, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,values,SIMPLE_NAME, line no: 82, 0.7241379310344828, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 87, 0.7241379310344828, 0.7241379310344828, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,i < values.length,INFIX_EXPRESSION, line no: 87, 0.7241379310344828, 0.7241379310344828, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,values.length,QUALIFIED_NAME, line no: 87, 0.7241379310344828, 0.7241379310344828, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,length,SIMPLE_NAME, line no: 87, 0.7241379310344828, 0.7241379310344828, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,i++,POSTFIX_EXPRESSION, line no: 76, 0.7241379310344828, 0.5862068965517241, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,values,SIMPLE_NAME, line no: 82, 0.7241379310344828, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 87, 0.7241379310344828, 0.7241379310344828, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,i < values.length,INFIX_EXPRESSION, line no: 87, 0.7241379310344828, 0.7241379310344828, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,values.length,QUALIFIED_NAME, line no: 87, 0.7241379310344828, 0.7241379310344828, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,length,SIMPLE_NAME, line no: 87, 0.7241379310344828, 0.7241379310344828, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,result,SIMPLE_NAME, line no: 63, 0.7241379310344828, 0.43103448275862066, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,i,SIMPLE_NAME, line no: 76, 0.7241379310344828, 0.6206896551724138, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,StringBuffer,SIMPLE_NAME, line no: 86, 0.7241379310344828, 0.7068965517241379, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,new StringBuffer(),CLASS_INSTANCE_CREATION, line no: 86, 0.7241379310344828, 0.7241379310344828, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,0,NUMBER_LITERAL, line no: 87, 0.7241379310344828, 0.7241379310344828, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,i++,POSTFIX_EXPRESSION, line no: 76, 0.7192982456140351, 0.5964912280701754, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,values,SIMPLE_NAME, line no: 82, 0.7192982456140351, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 87, 0.7192982456140351, 0.7192982456140351, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,length,SIMPLE_NAME, line no: 87, 0.7192982456140351, 0.7192982456140351, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,i++,POSTFIX_EXPRESSION, line no: 76, 0.7068965517241379, 0.5862068965517241, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,values,SIMPLE_NAME, line no: 82, 0.7068965517241379, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 87, 0.7068965517241379, 0.7068965517241379, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,i < values.length,INFIX_EXPRESSION, line no: 87, 0.7068965517241379, 0.7068965517241379, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,values.length,QUALIFIED_NAME, line no: 87, 0.7068965517241379, 0.7068965517241379, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,length,SIMPLE_NAME, line no: 87, 0.7068965517241379, 0.7068965517241379, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,matcher.group(1),METHOD_INVOCATION, line no: 55, 0.7035714285714285, 0.30357142857142855, 0.0, 0.0, 0.4
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,new Evaluator().get(params key),METHOD_INVOCATION, line no: 63, 0.6885964912280702, 0.43859649122807015, 0.0, 0.0, 0.25
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,new Evaluator(),CLASS_INSTANCE_CREATION, line no: 63, 0.6885964912280702, 0.43859649122807015, 0.0, 0.0, 0.25
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,m.group(i),METHOD_INVOCATION, line no: 78, 0.6842105263157894, 0.3508771929824561, 0.0, 0.0, 0.3333333333333333
+matcher,SIMPLE_NAME, line no: 53,"",STRING_LITERAL, line no: 55, 0.6785714285714286, 0.30357142857142855, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"\\.\\*",STRING_LITERAL, line no: 61, 0.6785714285714286, 0.6785714285714286, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,uri,SIMPLE_NAME, line no: 69, 0.6785714285714286, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,"",STRING_LITERAL, line no: 55, 0.6785714285714286, 0.30357142857142855, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,"\\.\\*",STRING_LITERAL, line no: 61, 0.6785714285714286, 0.6785714285714286, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,uri,SIMPLE_NAME, line no: 69, 0.6785714285714286, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,"",STRING_LITERAL, line no: 55, 0.6666666666666666, 0.2982456140350877, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,"\\.\\*",STRING_LITERAL, line no: 61, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,uri,SIMPLE_NAME, line no: 69, 0.6666666666666666, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"",STRING_LITERAL, line no: 55, 0.6666666666666666, 0.2982456140350877, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"\\.\\*",STRING_LITERAL, line no: 61, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,uri,SIMPLE_NAME, line no: 69, 0.6666666666666666, 0.017543859649122806, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,"",STRING_LITERAL, line no: 55, 0.6607142857142857, 0.30357142857142855, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,"\\.\\*",STRING_LITERAL, line no: 61, 0.6607142857142857, 0.6607142857142857, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,matches,SIMPLE_NAME, line no: 69, 0.6607142857142857, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,uri,SIMPLE_NAME, line no: 69, 0.6607142857142857, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,base,SIMPLE_NAME, line no: 61, 0.6607142857142857, 0.6607142857142857, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,originalPattern.replaceAll("\\.\\*" ""),METHOD_INVOCATION, line no: 61, 0.6607142857142857, 0.6607142857142857, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,matches,SIMPLE_NAME, line no: 69, 0.6607142857142857, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,base,SIMPLE_NAME, line no: 61, 0.6607142857142857, 0.6607142857142857, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,new Evaluator().get(params key),METHOD_INVOCATION, line no: 63, 0.6607142857142857, 0.44642857142857145, 0.0, 0.0, 0.21428571428571427
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,matches,SIMPLE_NAME, line no: 69, 0.6607142857142857, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,"",STRING_LITERAL, line no: 55, 0.6551724137931034, 0.29310344827586204, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,"\\.\\*",STRING_LITERAL, line no: 61, 0.6551724137931034, 0.6551724137931034, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,uri,SIMPLE_NAME, line no: 69, 0.6551724137931034, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,"",STRING_LITERAL, line no: 55, 0.6551724137931034, 0.29310344827586204, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,"\\.\\*",STRING_LITERAL, line no: 61, 0.6551724137931034, 0.6551724137931034, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,uri,SIMPLE_NAME, line no: 69, 0.6551724137931034, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,result == null ? "" : result.toString(),CONDITIONAL_EXPRESSION, line no: 64, 0.6528822055137844, 0.43859649122807015, 0.0, 0.0, 0.21428571428571427
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,base,SIMPLE_NAME, line no: 61, 0.6491228070175439, 0.6491228070175439, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,matches,SIMPLE_NAME, line no: 69, 0.6491228070175439, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,m,SIMPLE_NAME, line no: 74, 0.6491228070175439, 0.6491228070175439, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,base,SIMPLE_NAME, line no: 61, 0.6491228070175439, 0.6491228070175439, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,originalPattern.replaceAll("\\.\\*" ""),METHOD_INVOCATION, line no: 61, 0.6491228070175439, 0.6491228070175439, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,matches,SIMPLE_NAME, line no: 69, 0.6491228070175439, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,matches,SIMPLE_NAME, line no: 69, 0.6491228070175439, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,m,SIMPLE_NAME, line no: 74, 0.6491228070175439, 0.6491228070175439, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,new Evaluator(),CLASS_INSTANCE_CREATION, line no: 63, 0.6464285714285715, 0.44642857142857145, 0.0, 0.0, 0.2
+Matcher,SIMPLE_NAME, line no: 53,base,SIMPLE_NAME, line no: 61, 0.6428571428571429, 0.6428571428571429, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,originalPattern.replaceAll("\\.\\*" ""),METHOD_INVOCATION, line no: 61, 0.6428571428571429, 0.6428571428571429, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,m.matches(),METHOD_INVOCATION, line no: 75, 0.6428571428571429, 0.6428571428571429, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,groupCount,SIMPLE_NAME, line no: 76, 0.6428571428571429, 0.6428571428571429, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,m.matches(),METHOD_INVOCATION, line no: 75, 0.6428571428571429, 0.6428571428571429, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,groupCount,SIMPLE_NAME, line no: 76, 0.6428571428571429, 0.6428571428571429, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,groupCount,SIMPLE_NAME, line no: 76, 0.6428571428571429, 0.6428571428571429, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,base,SIMPLE_NAME, line no: 61, 0.6379310344827587, 0.6379310344827587, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,matches,SIMPLE_NAME, line no: 69, 0.6379310344827587, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,m,SIMPLE_NAME, line no: 74, 0.6379310344827587, 0.6379310344827587, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,base,SIMPLE_NAME, line no: 61, 0.6379310344827587, 0.6379310344827587, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,originalPattern.replaceAll("\\.\\*" ""),METHOD_INVOCATION, line no: 61, 0.6379310344827587, 0.6379310344827587, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,matches,SIMPLE_NAME, line no: 69, 0.6379310344827587, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,pattern.matcher(uri),METHOD_INVOCATION, line no: 70, 0.6379310344827587, 0.13793103448275862, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,m,SIMPLE_NAME, line no: 74, 0.6379310344827587, 0.6379310344827587, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,matches,SIMPLE_NAME, line no: 69, 0.6379310344827587, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,pattern.matcher(uri),METHOD_INVOCATION, line no: 70, 0.6379310344827587, 0.13793103448275862, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,m,SIMPLE_NAME, line no: 74, 0.6379310344827587, 0.6379310344827587, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,result == null ? "" : result.toString(),CONDITIONAL_EXPRESSION, line no: 64, 0.6339285714285714, 0.44642857142857145, 0.0, 0.0, 0.1875
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,matcher.group(1),METHOD_INVOCATION, line no: 55, 0.631578947368421, 0.2982456140350877, 0.0, 0.0, 0.3333333333333333
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,groupCount,SIMPLE_NAME, line no: 76, 0.631578947368421, 0.631578947368421, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,m.matches(),METHOD_INVOCATION, line no: 75, 0.631578947368421, 0.631578947368421, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,groupCount,SIMPLE_NAME, line no: 76, 0.631578947368421, 0.631578947368421, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,m.matches(),METHOD_INVOCATION, line no: 75, 0.631578947368421, 0.631578947368421, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,groupCount,SIMPLE_NAME, line no: 76, 0.631578947368421, 0.631578947368421, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,m.group(i),METHOD_INVOCATION, line no: 78, 0.6298701298701299, 0.35714285714285715, 0.0, 0.0, 0.2727272727272727
+Matcher,SIMPLE_NAME, line no: 53,parameters,SIMPLE_NAME, line no: 44, 0.625, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,key,SIMPLE_NAME, line no: 62, 0.625, 0.625, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,m.groupCount(),METHOD_INVOCATION, line no: 76, 0.625, 0.625, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,parameters,SIMPLE_NAME, line no: 44, 0.625, 0.03571428571428571, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,1,NUMBER_LITERAL, line no: 55, 0.625, 0.30357142857142855, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,key,SIMPLE_NAME, line no: 62, 0.625, 0.625, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,m.groupCount(),METHOD_INVOCATION, line no: 76, 0.625, 0.625, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,parameters,SIMPLE_NAME, line no: 44, 0.625, 0.03571428571428571, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,1,NUMBER_LITERAL, line no: 55, 0.625, 0.30357142857142855, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,key,SIMPLE_NAME, line no: 62, 0.625, 0.625, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,pattern.matcher(uri).matches(),METHOD_INVOCATION, line no: 70, 0.625, 0.125, 0.0, 0.0, 0.5
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,parameters.get(i - 1),METHOD_INVOCATION, line no: 77, 0.6236044657097288, 0.3508771929824561, 0.0, 0.0, 0.2727272727272727
+Pattern,SIMPLE_NAME, line no: 53,m.matches(),METHOD_INVOCATION, line no: 75, 0.6206896551724138, 0.6206896551724138, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,groupCount,SIMPLE_NAME, line no: 76, 0.6206896551724138, 0.6206896551724138, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,m.matches(),METHOD_INVOCATION, line no: 75, 0.6206896551724138, 0.6206896551724138, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,groupCount,SIMPLE_NAME, line no: 76, 0.6206896551724138, 0.6206896551724138, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,m.matches(),METHOD_INVOCATION, line no: 75, 0.6206896551724138, 0.6206896551724138, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,groupCount,SIMPLE_NAME, line no: 76, 0.6206896551724138, 0.6206896551724138, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,parameters,SIMPLE_NAME, line no: 44, 0.6140350877192983, 0.03508771929824561, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,1,NUMBER_LITERAL, line no: 55, 0.6140350877192983, 0.2982456140350877, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,key,SIMPLE_NAME, line no: 62, 0.6140350877192983, 0.6140350877192983, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,parameters,SIMPLE_NAME, line no: 44, 0.6140350877192983, 0.03508771929824561, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,1,NUMBER_LITERAL, line no: 55, 0.6140350877192983, 0.2982456140350877, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,key,SIMPLE_NAME, line no: 62, 0.6140350877192983, 0.6140350877192983, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,m.groupCount(),METHOD_INVOCATION, line no: 76, 0.6140350877192983, 0.6140350877192983, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,parameters,SIMPLE_NAME, line no: 44, 0.6140350877192983, 0.03508771929824561, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,1,NUMBER_LITERAL, line no: 55, 0.6140350877192983, 0.2982456140350877, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,m.groupCount(),METHOD_INVOCATION, line no: 76, 0.6140350877192983, 0.6140350877192983, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,1,NUMBER_LITERAL, line no: 55, 0.6071428571428571, 0.30357142857142855, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,int i=1,VARIABLE_DECLARATION_EXPRESSION, line no: 76, 0.6071428571428571, 0.6071428571428571, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,i <= m.groupCount(),INFIX_EXPRESSION, line no: 76, 0.6071428571428571, 0.6071428571428571, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,int i=1,VARIABLE_DECLARATION_EXPRESSION, line no: 76, 0.6071428571428571, 0.6071428571428571, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,i <= m.groupCount(),INFIX_EXPRESSION, line no: 76, 0.6071428571428571, 0.6071428571428571, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,int i=1,VARIABLE_DECLARATION_EXPRESSION, line no: 76, 0.6071428571428571, 0.6071428571428571, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,parameters,SIMPLE_NAME, line no: 44, 0.603448275862069, 0.034482758620689655, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,1,NUMBER_LITERAL, line no: 55, 0.603448275862069, 0.29310344827586204, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,key,SIMPLE_NAME, line no: 62, 0.603448275862069, 0.603448275862069, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,m.groupCount(),METHOD_INVOCATION, line no: 76, 0.603448275862069, 0.603448275862069, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,parameters,SIMPLE_NAME, line no: 44, 0.603448275862069, 0.034482758620689655, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,1,NUMBER_LITERAL, line no: 55, 0.603448275862069, 0.29310344827586204, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,key,SIMPLE_NAME, line no: 62, 0.603448275862069, 0.603448275862069, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,m.groupCount(),METHOD_INVOCATION, line no: 76, 0.603448275862069, 0.603448275862069, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,parameters,SIMPLE_NAME, line no: 44, 0.603448275862069, 0.034482758620689655, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,1,NUMBER_LITERAL, line no: 55, 0.603448275862069, 0.29310344827586204, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,m.groupCount(),METHOD_INVOCATION, line no: 76, 0.603448275862069, 0.603448275862069, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,int i=1,VARIABLE_DECLARATION_EXPRESSION, line no: 76, 0.5964912280701754, 0.5964912280701754, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,int i=1,VARIABLE_DECLARATION_EXPRESSION, line no: 76, 0.5964912280701754, 0.5964912280701754, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,i <= m.groupCount(),INFIX_EXPRESSION, line no: 76, 0.5964912280701754, 0.5964912280701754, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,int i=1,VARIABLE_DECLARATION_EXPRESSION, line no: 76, 0.5964912280701754, 0.5964912280701754, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,i <= m.groupCount(),INFIX_EXPRESSION, line no: 76, 0.5964912280701754, 0.5964912280701754, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,parameters.get(i - 1),METHOD_INVOCATION, line no: 77, 0.5879120879120879, 0.35714285714285715, 0.0, 0.0, 0.23076923076923078
+Pattern,SIMPLE_NAME, line no: 53,int i=1,VARIABLE_DECLARATION_EXPRESSION, line no: 76, 0.5862068965517241, 0.5862068965517241, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,i <= m.groupCount(),INFIX_EXPRESSION, line no: 76, 0.5862068965517241, 0.5862068965517241, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,int i=1,VARIABLE_DECLARATION_EXPRESSION, line no: 76, 0.5862068965517241, 0.5862068965517241, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,i <= m.groupCount(),INFIX_EXPRESSION, line no: 76, 0.5862068965517241, 0.5862068965517241, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,int i=1,VARIABLE_DECLARATION_EXPRESSION, line no: 76, 0.5862068965517241, 0.5862068965517241, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,i <= m.groupCount(),INFIX_EXPRESSION, line no: 76, 0.5862068965517241, 0.5862068965517241, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,base.replace("{" + key + "}" result == null ? "" : result.toString()),METHOD_INVOCATION, line no: 64, 0.581453634085213, 0.43859649122807015, 0.0, 0.0, 0.14285714285714285
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,base.replace("{" + key + "}" result == null ? "" : result.toString()),METHOD_INVOCATION, line no: 64, 0.5768633540372671, 0.44642857142857145, 0.0, 0.0, 0.13043478260869565
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,matcher.group(1).replace("*" ""),METHOD_INVOCATION, line no: 55, 0.5714285714285714, 0.2857142857142857, 0.0, 0.0, 0.2857142857142857
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,pattern.matcher(uri).matches(),METHOD_INVOCATION, line no: 70, 0.567251461988304, 0.12280701754385964, 0.0, 0.0, 0.4444444444444444
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,base=base.replace("{" + key + "}" result == null ? "" : result.toString()),ASSIGNMENT, line no: 64, 0.5574162679425837, 0.42105263157894735, 0.0, 0.0, 0.13636363636363635
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,base=base.replace("{" + key + "}" result == null ? "" : result.toString()),ASSIGNMENT, line no: 64, 0.5535714285714286, 0.42857142857142855, 0.0, 0.0, 0.125
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,request.setParameter(name m.group(i)),METHOD_INVOCATION, line no: 78, 0.5476190476190476, 0.3333333333333333, 0.0, 0.0, 0.21428571428571427
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,request.setParameter(name m.group(i)),METHOD_INVOCATION, line no: 78, 0.5267857142857143, 0.3392857142857143, 0.0, 0.0, 0.1875
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,parameters.add(matcher.group(1).replace("*" "")),METHOD_INVOCATION, line no: 55, 0.5178571428571428, 0.26785714285714285, 0.0, 0.0, 0.25
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,values[i].replaceAll("\\$" "\\\\\\$"),METHOD_INVOCATION, line no: 89, 0.5157894736842106, 0.3157894736842105, 0.0, 0.0, 0.2
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,matcher.group(1).replace("*" ""),METHOD_INVOCATION, line no: 55, 0.5114709851551957, 0.2807017543859649, 0.0, 0.0, 0.23076923076923078
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,matcher.appendReplacement(result values[i].replaceAll("\\$" "\\\\\\$")),METHOD_INVOCATION, line no: 89, 0.5035714285714286, 0.30357142857142855, 0.0, 0.0, 0.2
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,values[i].replaceAll("\\$" "\\\\\\$"),METHOD_INVOCATION, line no: 89, 0.49789915966386555, 0.32142857142857145, 0.0, 0.0, 0.17647058823529413
+Matcher,SIMPLE_NAME, line no: 53,matcher.group(1),METHOD_INVOCATION, line no: 55, 0.47023809523809523, 0.30357142857142855, 0.0, 0.0, 0.16666666666666666
+matcher,SIMPLE_NAME, line no: 53,matcher.group(1),METHOD_INVOCATION, line no: 55, 0.47023809523809523, 0.30357142857142855, 0.0, 0.0, 0.16666666666666666
+matcher,SIMPLE_NAME, line no: 53,matcher.group(1),METHOD_INVOCATION, line no: 55, 0.4649122807017544, 0.2982456140350877, 0.0, 0.0, 0.16666666666666666
+Matcher,SIMPLE_NAME, line no: 53,Evaluator,SIMPLE_NAME, line no: 34, 0.4642857142857143, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,replace,SIMPLE_NAME, line no: 55, 0.4642857142857143, 0.30357142857142855, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,"{",STRING_LITERAL, line no: 64, 0.4642857142857143, 0.4642857142857143, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,"}",STRING_LITERAL, line no: 64, 0.4642857142857143, 0.4642857142857143, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,Evaluator,SIMPLE_NAME, line no: 34, 0.4642857142857143, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,replace,SIMPLE_NAME, line no: 55, 0.4642857142857143, 0.30357142857142855, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,params,SIMPLE_NAME, line no: 60, 0.4642857142857143, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,get,SIMPLE_NAME, line no: 63, 0.4642857142857143, 0.4642857142857143, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"{",STRING_LITERAL, line no: 64, 0.4642857142857143, 0.4642857142857143, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"}",STRING_LITERAL, line no: 64, 0.4642857142857143, 0.4642857142857143, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,Evaluator,SIMPLE_NAME, line no: 34, 0.4642857142857143, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,replace,SIMPLE_NAME, line no: 55, 0.4642857142857143, 0.30357142857142855, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,params,SIMPLE_NAME, line no: 60, 0.4642857142857143, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,get,SIMPLE_NAME, line no: 63, 0.4642857142857143, 0.4642857142857143, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,"{",STRING_LITERAL, line no: 64, 0.4642857142857143, 0.4642857142857143, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,"}",STRING_LITERAL, line no: 64, 0.4642857142857143, 0.4642857142857143, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,parameters.add(matcher.group(1).replace("*" "")),METHOD_INVOCATION, line no: 55, 0.4631578947368421, 0.2631578947368421, 0.0, 0.0, 0.2
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,Evaluator,SIMPLE_NAME, line no: 34, 0.45614035087719296, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,replace,SIMPLE_NAME, line no: 55, 0.45614035087719296, 0.2982456140350877, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,params,SIMPLE_NAME, line no: 60, 0.45614035087719296, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,get,SIMPLE_NAME, line no: 63, 0.45614035087719296, 0.45614035087719296, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,"{",STRING_LITERAL, line no: 64, 0.45614035087719296, 0.45614035087719296, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,"}",STRING_LITERAL, line no: 64, 0.45614035087719296, 0.45614035087719296, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,matcher.appendReplacement(result values[i].replaceAll("\\$" "\\\\\\$")),METHOD_INVOCATION, line no: 89, 0.45614035087719296, 0.2982456140350877, 0.0, 0.0, 0.15789473684210525
+matcher,SIMPLE_NAME, line no: 53,Evaluator,SIMPLE_NAME, line no: 34, 0.45614035087719296, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,replace,SIMPLE_NAME, line no: 55, 0.45614035087719296, 0.2982456140350877, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,params,SIMPLE_NAME, line no: 60, 0.45614035087719296, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,get,SIMPLE_NAME, line no: 63, 0.45614035087719296, 0.45614035087719296, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"{",STRING_LITERAL, line no: 64, 0.45614035087719296, 0.45614035087719296, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"}",STRING_LITERAL, line no: 64, 0.45614035087719296, 0.45614035087719296, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,Evaluator,SIMPLE_NAME, line no: 34, 0.45614035087719296, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,params,SIMPLE_NAME, line no: 60, 0.45614035087719296, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,Evaluator,SIMPLE_NAME, line no: 34, 0.4482758620689655, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,replace,SIMPLE_NAME, line no: 55, 0.4482758620689655, 0.29310344827586204, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,params,SIMPLE_NAME, line no: 60, 0.4482758620689655, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,get,SIMPLE_NAME, line no: 63, 0.4482758620689655, 0.4482758620689655, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,"{",STRING_LITERAL, line no: 64, 0.4482758620689655, 0.4482758620689655, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,"}",STRING_LITERAL, line no: 64, 0.4482758620689655, 0.4482758620689655, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,Evaluator,SIMPLE_NAME, line no: 34, 0.4482758620689655, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,replace,SIMPLE_NAME, line no: 55, 0.4482758620689655, 0.29310344827586204, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,params,SIMPLE_NAME, line no: 60, 0.4482758620689655, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,get,SIMPLE_NAME, line no: 63, 0.4482758620689655, 0.4482758620689655, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,"{",STRING_LITERAL, line no: 64, 0.4482758620689655, 0.4482758620689655, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,"}",STRING_LITERAL, line no: 64, 0.4482758620689655, 0.4482758620689655, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,Evaluator,SIMPLE_NAME, line no: 34, 0.4482758620689655, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,params,SIMPLE_NAME, line no: 60, 0.4482758620689655, 0.017241379310344827, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,Object,SIMPLE_NAME, line no: 60, 0.44642857142857145, 0.03571428571428571, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,params,SIMPLE_NAME, line no: 60, 0.44642857142857145, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,get,SIMPLE_NAME, line no: 63, 0.44642857142857145, 0.44642857142857145, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,base.replace("{" + key + "}" result == null ? "" : result.toString()),METHOD_INVOCATION, line no: 64, 0.44642857142857145, 0.44642857142857145, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,"{" + key + "}",INFIX_EXPRESSION, line no: 64, 0.44642857142857145, 0.44642857142857145, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,result == null ? "" : result.toString(),CONDITIONAL_EXPRESSION, line no: 64, 0.44642857142857145, 0.44642857142857145, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,result == null,INFIX_EXPRESSION, line no: 64, 0.44642857142857145, 0.44642857142857145, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,null,NULL_LITERAL, line no: 64, 0.44642857142857145, 0.44642857142857145, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,new Evaluator().get(params key),METHOD_INVOCATION, line no: 63, 0.44642857142857145, 0.44642857142857145, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,new Evaluator(),CLASS_INSTANCE_CREATION, line no: 63, 0.44642857142857145, 0.44642857142857145, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,base.replace("{" + key + "}" result == null ? "" : result.toString()),METHOD_INVOCATION, line no: 64, 0.44642857142857145, 0.44642857142857145, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"{" + key + "}",INFIX_EXPRESSION, line no: 64, 0.44642857142857145, 0.44642857142857145, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,result == null ? "" : result.toString(),CONDITIONAL_EXPRESSION, line no: 64, 0.44642857142857145, 0.44642857142857145, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,result == null,INFIX_EXPRESSION, line no: 64, 0.44642857142857145, 0.44642857142857145, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,null,NULL_LITERAL, line no: 64, 0.44642857142857145, 0.44642857142857145, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,"{" + key + "}",INFIX_EXPRESSION, line no: 64, 0.44642857142857145, 0.44642857142857145, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,result == null,INFIX_EXPRESSION, line no: 64, 0.44642857142857145, 0.44642857142857145, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,null,NULL_LITERAL, line no: 64, 0.44642857142857145, 0.44642857142857145, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,"{" + key + "}",INFIX_EXPRESSION, line no: 64, 0.43859649122807015, 0.43859649122807015, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,result == null,INFIX_EXPRESSION, line no: 64, 0.43859649122807015, 0.43859649122807015, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,null,NULL_LITERAL, line no: 64, 0.43859649122807015, 0.43859649122807015, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,new Evaluator().get(params key),METHOD_INVOCATION, line no: 63, 0.43859649122807015, 0.43859649122807015, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,new Evaluator(),CLASS_INSTANCE_CREATION, line no: 63, 0.43859649122807015, 0.43859649122807015, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,base.replace("{" + key + "}" result == null ? "" : result.toString()),METHOD_INVOCATION, line no: 64, 0.43859649122807015, 0.43859649122807015, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"{" + key + "}",INFIX_EXPRESSION, line no: 64, 0.43859649122807015, 0.43859649122807015, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,result == null ? "" : result.toString(),CONDITIONAL_EXPRESSION, line no: 64, 0.43859649122807015, 0.43859649122807015, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,result == null,INFIX_EXPRESSION, line no: 64, 0.43859649122807015, 0.43859649122807015, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,null,NULL_LITERAL, line no: 64, 0.43859649122807015, 0.43859649122807015, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,new Evaluator().get(params key),METHOD_INVOCATION, line no: 63, 0.43859649122807015, 0.43859649122807015, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,new Evaluator(),CLASS_INSTANCE_CREATION, line no: 63, 0.43859649122807015, 0.43859649122807015, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,result == null ? "" : result.toString(),CONDITIONAL_EXPRESSION, line no: 64, 0.43859649122807015, 0.43859649122807015, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,result == null,INFIX_EXPRESSION, line no: 64, 0.43859649122807015, 0.43859649122807015, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,null,NULL_LITERAL, line no: 64, 0.43859649122807015, 0.43859649122807015, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,new Evaluator().get(params key),METHOD_INVOCATION, line no: 63, 0.43103448275862066, 0.43103448275862066, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,new Evaluator(),CLASS_INSTANCE_CREATION, line no: 63, 0.43103448275862066, 0.43103448275862066, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,base.replace("{" + key + "}" result == null ? "" : result.toString()),METHOD_INVOCATION, line no: 64, 0.43103448275862066, 0.43103448275862066, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,"{" + key + "}",INFIX_EXPRESSION, line no: 64, 0.43103448275862066, 0.43103448275862066, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,result == null ? "" : result.toString(),CONDITIONAL_EXPRESSION, line no: 64, 0.43103448275862066, 0.43103448275862066, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,result == null,INFIX_EXPRESSION, line no: 64, 0.43103448275862066, 0.43103448275862066, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,null,NULL_LITERAL, line no: 64, 0.43103448275862066, 0.43103448275862066, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,new Evaluator().get(params key),METHOD_INVOCATION, line no: 63, 0.43103448275862066, 0.43103448275862066, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,new Evaluator(),CLASS_INSTANCE_CREATION, line no: 63, 0.43103448275862066, 0.43103448275862066, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,base.replace("{" + key + "}" result == null ? "" : result.toString()),METHOD_INVOCATION, line no: 64, 0.43103448275862066, 0.43103448275862066, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,"{" + key + "}",INFIX_EXPRESSION, line no: 64, 0.43103448275862066, 0.43103448275862066, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,result == null ? "" : result.toString(),CONDITIONAL_EXPRESSION, line no: 64, 0.43103448275862066, 0.43103448275862066, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,result == null,INFIX_EXPRESSION, line no: 64, 0.43103448275862066, 0.43103448275862066, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,null,NULL_LITERAL, line no: 64, 0.43103448275862066, 0.43103448275862066, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,new Evaluator().get(params key),METHOD_INVOCATION, line no: 63, 0.43103448275862066, 0.43103448275862066, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,new Evaluator(),CLASS_INSTANCE_CREATION, line no: 63, 0.43103448275862066, 0.43103448275862066, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,result == null ? "" : result.toString(),CONDITIONAL_EXPRESSION, line no: 64, 0.43103448275862066, 0.43103448275862066, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,result == null,INFIX_EXPRESSION, line no: 64, 0.43103448275862066, 0.43103448275862066, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,null,NULL_LITERAL, line no: 64, 0.43103448275862066, 0.43103448275862066, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,new Evaluator().get(params key),METHOD_INVOCATION, line no: 63, 0.42857142857142855, 0.42857142857142855, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,new Evaluator(),CLASS_INSTANCE_CREATION, line no: 63, 0.42857142857142855, 0.42857142857142855, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,base=base.replace("{" + key + "}" result == null ? "" : result.toString()),ASSIGNMENT, line no: 64, 0.42857142857142855, 0.42857142857142855, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,Object,SIMPLE_NAME, line no: 60, 0.42857142857142855, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,base=base.replace("{" + key + "}" result == null ? "" : result.toString()),ASSIGNMENT, line no: 64, 0.42857142857142855, 0.42857142857142855, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,Object,SIMPLE_NAME, line no: 60, 0.42857142857142855, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,Object,SIMPLE_NAME, line no: 60, 0.42105263157894735, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,Object,SIMPLE_NAME, line no: 60, 0.42105263157894735, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,base=base.replace("{" + key + "}" result == null ? "" : result.toString()),ASSIGNMENT, line no: 64, 0.42105263157894735, 0.42105263157894735, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,Object,SIMPLE_NAME, line no: 60, 0.42105263157894735, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,Object,SIMPLE_NAME, line no: 60, 0.41379310344827586, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,base=base.replace("{" + key + "}" result == null ? "" : result.toString()),ASSIGNMENT, line no: 64, 0.41379310344827586, 0.41379310344827586, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,Object,SIMPLE_NAME, line no: 60, 0.41379310344827586, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,base=base.replace("{" + key + "}" result == null ? "" : result.toString()),ASSIGNMENT, line no: 64, 0.41379310344827586, 0.41379310344827586, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,Object,SIMPLE_NAME, line no: 60, 0.41379310344827586, 0.017241379310344827, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,matcher.group(1).replace("*" ""),METHOD_INVOCATION, line no: 55, 0.3857142857142857, 0.2857142857142857, 0.0, 0.0, 0.1
+matcher,SIMPLE_NAME, line no: 53,matcher.group(1).replace("*" ""),METHOD_INVOCATION, line no: 55, 0.3857142857142857, 0.2857142857142857, 0.0, 0.0, 0.1
+matcher,SIMPLE_NAME, line no: 53,matcher.group(1).replace("*" ""),METHOD_INVOCATION, line no: 55, 0.3807017543859649, 0.2807017543859649, 0.0, 0.0, 0.1
+Matcher,SIMPLE_NAME, line no: 53,group,SIMPLE_NAME, line no: 55, 0.375, 0.32142857142857145, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,group,SIMPLE_NAME, line no: 55, 0.375, 0.32142857142857145, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,group,SIMPLE_NAME, line no: 55, 0.375, 0.32142857142857145, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,group,SIMPLE_NAME, line no: 55, 0.3684210526315789, 0.3157894736842105, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,group,SIMPLE_NAME, line no: 55, 0.3684210526315789, 0.3157894736842105, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,group,SIMPLE_NAME, line no: 55, 0.3620689655172414, 0.3103448275862069, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,group,SIMPLE_NAME, line no: 55, 0.3620689655172414, 0.3103448275862069, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,request,SIMPLE_NAME, line no: 73, 0.35714285714285715, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,name,SIMPLE_NAME, line no: 77, 0.35714285714285715, 0.3392857142857143, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,setParameter,SIMPLE_NAME, line no: 78, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,m.group(i),METHOD_INVOCATION, line no: 78, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,request,SIMPLE_NAME, line no: 73, 0.35714285714285715, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,name,SIMPLE_NAME, line no: 77, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,parameters.get(i - 1),METHOD_INVOCATION, line no: 77, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,i - 1,INFIX_EXPRESSION, line no: 77, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,setParameter,SIMPLE_NAME, line no: 78, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,m.group(i),METHOD_INVOCATION, line no: 78, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,request,SIMPLE_NAME, line no: 73, 0.35714285714285715, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,name,SIMPLE_NAME, line no: 77, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,i - 1,INFIX_EXPRESSION, line no: 77, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,setParameter,SIMPLE_NAME, line no: 78, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,parameters.add(matcher.group(1).replace("*" "")),METHOD_INVOCATION, line no: 55, 0.35119047619047616, 0.26785714285714285, 0.0, 0.0, 0.08333333333333333
+matcher,SIMPLE_NAME, line no: 53,parameters.add(matcher.group(1).replace("*" "")),METHOD_INVOCATION, line no: 55, 0.35119047619047616, 0.26785714285714285, 0.0, 0.0, 0.08333333333333333
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,request,SIMPLE_NAME, line no: 73, 0.3508771929824561, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,name,SIMPLE_NAME, line no: 77, 0.3508771929824561, 0.3508771929824561, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,i - 1,INFIX_EXPRESSION, line no: 77, 0.3508771929824561, 0.3508771929824561, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,setParameter,SIMPLE_NAME, line no: 78, 0.3508771929824561, 0.3508771929824561, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,request,SIMPLE_NAME, line no: 73, 0.3508771929824561, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,name,SIMPLE_NAME, line no: 77, 0.3508771929824561, 0.3508771929824561, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,parameters.get(i - 1),METHOD_INVOCATION, line no: 77, 0.3508771929824561, 0.3508771929824561, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,i - 1,INFIX_EXPRESSION, line no: 77, 0.3508771929824561, 0.3508771929824561, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,setParameter,SIMPLE_NAME, line no: 78, 0.3508771929824561, 0.3508771929824561, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,m.group(i),METHOD_INVOCATION, line no: 78, 0.3508771929824561, 0.3508771929824561, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,request,SIMPLE_NAME, line no: 73, 0.3508771929824561, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,i - 1,INFIX_EXPRESSION, line no: 77, 0.3508771929824561, 0.3508771929824561, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,setParameter,SIMPLE_NAME, line no: 78, 0.3508771929824561, 0.3508771929824561, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,parameters.add(matcher.group(1).replace("*" "")),METHOD_INVOCATION, line no: 55, 0.3464912280701754, 0.2631578947368421, 0.0, 0.0, 0.08333333333333333
+Pattern,SIMPLE_NAME, line no: 53,request,SIMPLE_NAME, line no: 73, 0.3448275862068966, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,name,SIMPLE_NAME, line no: 77, 0.3448275862068966, 0.3448275862068966, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,parameters.get(i - 1),METHOD_INVOCATION, line no: 77, 0.3448275862068966, 0.3448275862068966, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,i - 1,INFIX_EXPRESSION, line no: 77, 0.3448275862068966, 0.3448275862068966, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,setParameter,SIMPLE_NAME, line no: 78, 0.3448275862068966, 0.3448275862068966, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,m.group(i),METHOD_INVOCATION, line no: 78, 0.3448275862068966, 0.3448275862068966, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,request,SIMPLE_NAME, line no: 73, 0.3448275862068966, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,name,SIMPLE_NAME, line no: 77, 0.3448275862068966, 0.3448275862068966, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,parameters.get(i - 1),METHOD_INVOCATION, line no: 77, 0.3448275862068966, 0.3448275862068966, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,i - 1,INFIX_EXPRESSION, line no: 77, 0.3448275862068966, 0.3448275862068966, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,setParameter,SIMPLE_NAME, line no: 78, 0.3448275862068966, 0.3448275862068966, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,m.group(i),METHOD_INVOCATION, line no: 78, 0.3448275862068966, 0.3448275862068966, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,request,SIMPLE_NAME, line no: 73, 0.3448275862068966, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,i - 1,INFIX_EXPRESSION, line no: 77, 0.3448275862068966, 0.3448275862068966, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,setParameter,SIMPLE_NAME, line no: 78, 0.3448275862068966, 0.3448275862068966, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,parameters.get(i - 1),METHOD_INVOCATION, line no: 77, 0.3392857142857143, 0.3392857142857143, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,i - 1,INFIX_EXPRESSION, line no: 77, 0.3392857142857143, 0.3392857142857143, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,request.setParameter(name m.group(i)),METHOD_INVOCATION, line no: 78, 0.3392857142857143, 0.3392857142857143, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,"\\$",STRING_LITERAL, line no: 89, 0.3392857142857143, 0.3392857142857143, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,"\\\\\\$",STRING_LITERAL, line no: 89, 0.3392857142857143, 0.3392857142857143, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,request.setParameter(name m.group(i)),METHOD_INVOCATION, line no: 78, 0.3392857142857143, 0.3392857142857143, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"\\$",STRING_LITERAL, line no: 89, 0.3392857142857143, 0.3392857142857143, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"\\\\\\$",STRING_LITERAL, line no: 89, 0.3392857142857143, 0.3392857142857143, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,"\\$",STRING_LITERAL, line no: 89, 0.3392857142857143, 0.3392857142857143, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,"\\\\\\$",STRING_LITERAL, line no: 89, 0.3392857142857143, 0.3392857142857143, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,"\\$",STRING_LITERAL, line no: 89, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,"\\\\\\$",STRING_LITERAL, line no: 89, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,request.setParameter(name m.group(i)),METHOD_INVOCATION, line no: 78, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"\\$",STRING_LITERAL, line no: 89, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"\\\\\\$",STRING_LITERAL, line no: 89, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,request.setParameter(name m.group(i)),METHOD_INVOCATION, line no: 78, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,request.setParameter(name m.group(i)),METHOD_INVOCATION, line no: 78, 0.3275862068965517, 0.3275862068965517, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,"\\$",STRING_LITERAL, line no: 89, 0.3275862068965517, 0.3275862068965517, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,"\\\\\\$",STRING_LITERAL, line no: 89, 0.3275862068965517, 0.3275862068965517, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,request.setParameter(name m.group(i)),METHOD_INVOCATION, line no: 78, 0.3275862068965517, 0.3275862068965517, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,"\\$",STRING_LITERAL, line no: 89, 0.3275862068965517, 0.3275862068965517, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,"\\\\\\$",STRING_LITERAL, line no: 89, 0.3275862068965517, 0.3275862068965517, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,request.setParameter(name m.group(i)),METHOD_INVOCATION, line no: 78, 0.3275862068965517, 0.3275862068965517, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,values[i].replaceAll("\\$" "\\\\\\$"),METHOD_INVOCATION, line no: 89, 0.32142857142857145, 0.32142857142857145, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,values[i],ARRAY_ACCESS, line no: 89, 0.32142857142857145, 0.32142857142857145, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,values[i].replaceAll("\\$" "\\\\\\$"),METHOD_INVOCATION, line no: 89, 0.32142857142857145, 0.32142857142857145, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,values[i],ARRAY_ACCESS, line no: 89, 0.32142857142857145, 0.32142857142857145, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,values[i],ARRAY_ACCESS, line no: 89, 0.32142857142857145, 0.32142857142857145, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,appendReplacement,SIMPLE_NAME, line no: 89, 0.3157894736842105, 0.3157894736842105, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,values[i],ARRAY_ACCESS, line no: 89, 0.3157894736842105, 0.3157894736842105, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,values[i].replaceAll("\\$" "\\\\\\$"),METHOD_INVOCATION, line no: 89, 0.3157894736842105, 0.3157894736842105, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,values[i],ARRAY_ACCESS, line no: 89, 0.3157894736842105, 0.3157894736842105, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,appendReplacement,SIMPLE_NAME, line no: 89, 0.3157894736842105, 0.3157894736842105, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,appendReplacement,SIMPLE_NAME, line no: 89, 0.3103448275862069, 0.3103448275862069, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,values[i].replaceAll("\\$" "\\\\\\$"),METHOD_INVOCATION, line no: 89, 0.3103448275862069, 0.3103448275862069, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,values[i],ARRAY_ACCESS, line no: 89, 0.3103448275862069, 0.3103448275862069, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,appendReplacement,SIMPLE_NAME, line no: 89, 0.3103448275862069, 0.3103448275862069, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,values[i].replaceAll("\\$" "\\\\\\$"),METHOD_INVOCATION, line no: 89, 0.3103448275862069, 0.3103448275862069, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,values[i],ARRAY_ACCESS, line no: 89, 0.3103448275862069, 0.3103448275862069, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,appendReplacement,SIMPLE_NAME, line no: 89, 0.3103448275862069, 0.3103448275862069, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,"*",STRING_LITERAL, line no: 55, 0.30357142857142855, 0.30357142857142855, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"*",STRING_LITERAL, line no: 55, 0.30357142857142855, 0.30357142857142855, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,"*",STRING_LITERAL, line no: 55, 0.30357142857142855, 0.30357142857142855, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,"*",STRING_LITERAL, line no: 55, 0.2982456140350877, 0.2982456140350877, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,"*",STRING_LITERAL, line no: 55, 0.2982456140350877, 0.2982456140350877, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,matcher.appendReplacement(result values[i].replaceAll("\\$" "\\\\\\$")),METHOD_INVOCATION, line no: 89, 0.2982456140350877, 0.2982456140350877, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,matcher.group(1),METHOD_INVOCATION, line no: 55, 0.29310344827586204, 0.29310344827586204, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,"*",STRING_LITERAL, line no: 55, 0.29310344827586204, 0.29310344827586204, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,matcher.appendReplacement(result values[i].replaceAll("\\$" "\\\\\\$")),METHOD_INVOCATION, line no: 89, 0.29310344827586204, 0.29310344827586204, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,matcher.group(1),METHOD_INVOCATION, line no: 55, 0.29310344827586204, 0.29310344827586204, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,"*",STRING_LITERAL, line no: 55, 0.29310344827586204, 0.29310344827586204, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,matcher.appendReplacement(result values[i].replaceAll("\\$" "\\\\\\$")),METHOD_INVOCATION, line no: 89, 0.29310344827586204, 0.29310344827586204, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,matcher.appendReplacement(result values[i].replaceAll("\\$" "\\\\\\$")),METHOD_INVOCATION, line no: 89, 0.29310344827586204, 0.29310344827586204, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,add,SIMPLE_NAME, line no: 55, 0.2857142857142857, 0.2857142857142857, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,add,SIMPLE_NAME, line no: 55, 0.2857142857142857, 0.2857142857142857, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,add,SIMPLE_NAME, line no: 55, 0.2857142857142857, 0.2857142857142857, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,add,SIMPLE_NAME, line no: 55, 0.2807017543859649, 0.2807017543859649, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,add,SIMPLE_NAME, line no: 55, 0.2807017543859649, 0.2807017543859649, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,add,SIMPLE_NAME, line no: 55, 0.2807017543859649, 0.2807017543859649, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,add,SIMPLE_NAME, line no: 55, 0.27586206896551724, 0.27586206896551724, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,matcher.group(1).replace("*" ""),METHOD_INVOCATION, line no: 55, 0.27586206896551724, 0.27586206896551724, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,add,SIMPLE_NAME, line no: 55, 0.27586206896551724, 0.27586206896551724, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,matcher.group(1).replace("*" ""),METHOD_INVOCATION, line no: 55, 0.27586206896551724, 0.27586206896551724, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,add,SIMPLE_NAME, line no: 55, 0.27586206896551724, 0.27586206896551724, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,pattern.matcher(uri).matches(),METHOD_INVOCATION, line no: 70, 0.26785714285714285, 0.125, 0.0, 0.0, 0.14285714285714285
+matcher,SIMPLE_NAME, line no: 53,pattern.matcher(uri).matches(),METHOD_INVOCATION, line no: 70, 0.26785714285714285, 0.125, 0.0, 0.0, 0.14285714285714285
+matcher,SIMPLE_NAME, line no: 53,pattern.matcher(uri).matches(),METHOD_INVOCATION, line no: 70, 0.2656641604010025, 0.12280701754385964, 0.0, 0.0, 0.14285714285714285
+Pattern,SIMPLE_NAME, line no: 53,pattern.matcher(uri).matches(),METHOD_INVOCATION, line no: 70, 0.26354679802955666, 0.1206896551724138, 0.0, 0.0, 0.14285714285714285
+originalPattern,SIMPLE_NAME, line no: 53,parameters.add(matcher.group(1).replace("*" "")),METHOD_INVOCATION, line no: 55, 0.2631578947368421, 0.2631578947368421, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,parameters.add(matcher.group(1).replace("*" "")),METHOD_INVOCATION, line no: 55, 0.25862068965517243, 0.25862068965517243, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,parameters.add(matcher.group(1).replace("*" "")),METHOD_INVOCATION, line no: 55, 0.25862068965517243, 0.25862068965517243, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,parameters.add(matcher.group(1).replace("*" "")),METHOD_INVOCATION, line no: 55, 0.25862068965517243, 0.25862068965517243, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,pattern.matcher(uri).matches(),METHOD_INVOCATION, line no: 70, 0.24780701754385964, 0.12280701754385964, 0.0, 0.0, 0.125
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,java.util.regex.Pattern,QUALIFIED_NAME, line no: 32, 0.2222222222222222, 0.0, 0.0, 0.0, 0.2222222222222222
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,new ArrayList<String>(),CLASS_INSTANCE_CREATION, line no: 44, 0.18421052631578946, 0.017543859649122806, 0.0, 0.0, 0.16666666666666666
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,java.util.regex.Matcher,QUALIFIED_NAME, line no: 31, 0.18181818181818182, 0.0, 0.0, 0.0, 0.18181818181818182
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,java.util.regex.Pattern,QUALIFIED_NAME, line no: 32, 0.18181818181818182, 0.0, 0.0, 0.0, 0.18181818181818182
+originalPattern,SIMPLE_NAME, line no: 53,java.util.regex.Pattern,QUALIFIED_NAME, line no: 32, 0.16666666666666666, 0.0, 0.0, 0.0, 0.16666666666666666
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,new ArrayList<String>(),CLASS_INSTANCE_CREATION, line no: 44, 0.1607142857142857, 0.017857142857142856, 0.0, 0.0, 0.14285714285714285
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,br.com,QUALIFIED_NAME, line no: 27, 0.125, 0.0, 0.0, 0.0, 0.125
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,java.util,QUALIFIED_NAME, line no: 29, 0.125, 0.0, 0.0, 0.0, 0.125
+compile,SIMPLE_NAME, line no: 53,pattern.matcher(uri).matches(),METHOD_INVOCATION, line no: 70, 0.1206896551724138, 0.1206896551724138, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,pattern.matcher(uri).matches(),METHOD_INVOCATION, line no: 70, 0.1206896551724138, 0.1206896551724138, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,br.com.caelum,QUALIFIED_NAME, line no: 27, 0.1111111111111111, 0.0, 0.0, 0.0, 0.1111111111111111
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,java.util.List,QUALIFIED_NAME, line no: 30, 0.1111111111111111, 0.0, 0.0, 0.0, 0.1111111111111111
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,java.util.regex,QUALIFIED_NAME, line no: 31, 0.1111111111111111, 0.0, 0.0, 0.0, 0.1111111111111111
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,br.com,QUALIFIED_NAME, line no: 27, 0.1, 0.0, 0.0, 0.0, 0.1
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,java.util,QUALIFIED_NAME, line no: 29, 0.1, 0.0, 0.0, 0.0, 0.1
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,br.com.caelum.vraptor,QUALIFIED_NAME, line no: 27, 0.1, 0.0, 0.0, 0.0, 0.1
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,java.util.ArrayList,QUALIFIED_NAME, line no: 29, 0.1, 0.0, 0.0, 0.0, 0.1
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,java.util.regex.Matcher,QUALIFIED_NAME, line no: 31, 0.1, 0.0, 0.0, 0.0, 0.1
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,br.com.caelum,QUALIFIED_NAME, line no: 27, 0.09090909090909091, 0.0, 0.0, 0.0, 0.09090909090909091
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,java.util.List,QUALIFIED_NAME, line no: 30, 0.09090909090909091, 0.0, 0.0, 0.0, 0.09090909090909091
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,java.util.regex,QUALIFIED_NAME, line no: 31, 0.09090909090909091, 0.0, 0.0, 0.0, 0.09090909090909091
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,br.com.caelum.vraptor.http,QUALIFIED_NAME, line no: 27, 0.09090909090909091, 0.0, 0.0, 0.0, 0.09090909090909091
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,br.com.caelum.vraptor.eval,QUALIFIED_NAME, line no: 34, 0.09090909090909091, 0.0, 0.0, 0.0, 0.09090909090909091
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,br.com.caelum.vraptor,QUALIFIED_NAME, line no: 27, 0.08333333333333333, 0.0, 0.0, 0.0, 0.08333333333333333
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,java.util.ArrayList,QUALIFIED_NAME, line no: 29, 0.08333333333333333, 0.0, 0.0, 0.0, 0.08333333333333333
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,br.com.caelum.vraptor.http.route,QUALIFIED_NAME, line no: 27, 0.08333333333333333, 0.0, 0.0, 0.0, 0.08333333333333333
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,br.com.caelum.vraptor.eval.Evaluator,QUALIFIED_NAME, line no: 34, 0.08333333333333333, 0.0, 0.0, 0.0, 0.08333333333333333
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,br.com.caelum.vraptor.http,QUALIFIED_NAME, line no: 27, 0.07692307692307693, 0.0, 0.0, 0.0, 0.07692307692307693
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,br.com.caelum.vraptor.eval,QUALIFIED_NAME, line no: 34, 0.07692307692307693, 0.0, 0.0, 0.0, 0.07692307692307693
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,br.com.caelum.vraptor.http.MutableRequest,QUALIFIED_NAME, line no: 35, 0.07692307692307693, 0.0, 0.0, 0.0, 0.07692307692307693
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,br.com.caelum.vraptor.http.route,QUALIFIED_NAME, line no: 27, 0.07142857142857142, 0.0, 0.0, 0.0, 0.07142857142857142
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,br.com.caelum.vraptor.eval.Evaluator,QUALIFIED_NAME, line no: 34, 0.07142857142857142, 0.0, 0.0, 0.0, 0.07142857142857142
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,br.com.caelum.vraptor.http.MutableRequest,QUALIFIED_NAME, line no: 35, 0.06666666666666667, 0.0, 0.0, 0.0, 0.06666666666666667
+Matcher,SIMPLE_NAME, line no: 53,ArrayList,SIMPLE_NAME, line no: 29, 0.03571428571428571, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,List,SIMPLE_NAME, line no: 30, 0.03571428571428571, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,MutableRequest,SIMPLE_NAME, line no: 35, 0.03571428571428571, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,ParametersControl,SIMPLE_NAME, line no: 42, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,ArrayList,SIMPLE_NAME, line no: 29, 0.03571428571428571, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,ArrayList,SIMPLE_NAME, line no: 29, 0.03571428571428571, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,ArrayList,SIMPLE_NAME, line no: 29, 0.03508771929824561, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,ArrayList,SIMPLE_NAME, line no: 29, 0.03508771929824561, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,ArrayList,SIMPLE_NAME, line no: 29, 0.03508771929824561, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,ArrayList,SIMPLE_NAME, line no: 29, 0.034482758620689655, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,ArrayList,SIMPLE_NAME, line no: 29, 0.034482758620689655, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,ArrayList,SIMPLE_NAME, line no: 29, 0.034482758620689655, 0.017241379310344827, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,br,SIMPLE_NAME, line no: 27, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,com,SIMPLE_NAME, line no: 27, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,caelum,SIMPLE_NAME, line no: 27, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,vraptor,SIMPLE_NAME, line no: 27, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,http,SIMPLE_NAME, line no: 27, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,route,SIMPLE_NAME, line no: 27, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,java,SIMPLE_NAME, line no: 29, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,util,SIMPLE_NAME, line no: 29, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,eval,SIMPLE_NAME, line no: 34, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,DefaultParametersControl,SIMPLE_NAME, line no: 42, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,fillUri,SIMPLE_NAME, line no: 60, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,fillIntoRequest,SIMPLE_NAME, line no: 73, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,apply,SIMPLE_NAME, line no: 82, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,br,SIMPLE_NAME, line no: 27, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,com,SIMPLE_NAME, line no: 27, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,caelum,SIMPLE_NAME, line no: 27, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,vraptor,SIMPLE_NAME, line no: 27, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,http,SIMPLE_NAME, line no: 27, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,route,SIMPLE_NAME, line no: 27, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,java,SIMPLE_NAME, line no: 29, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,util,SIMPLE_NAME, line no: 29, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,List,SIMPLE_NAME, line no: 30, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,eval,SIMPLE_NAME, line no: 34, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,MutableRequest,SIMPLE_NAME, line no: 35, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,DefaultParametersControl,SIMPLE_NAME, line no: 42, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,ParametersControl,SIMPLE_NAME, line no: 42, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,new ArrayList<String>(),CLASS_INSTANCE_CREATION, line no: 44, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,fillUri,SIMPLE_NAME, line no: 60, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,fillIntoRequest,SIMPLE_NAME, line no: 73, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,apply,SIMPLE_NAME, line no: 82, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,br,SIMPLE_NAME, line no: 27, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,com,SIMPLE_NAME, line no: 27, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,caelum,SIMPLE_NAME, line no: 27, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,vraptor,SIMPLE_NAME, line no: 27, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,http,SIMPLE_NAME, line no: 27, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,route,SIMPLE_NAME, line no: 27, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,java,SIMPLE_NAME, line no: 29, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,util,SIMPLE_NAME, line no: 29, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,List,SIMPLE_NAME, line no: 30, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,eval,SIMPLE_NAME, line no: 34, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,MutableRequest,SIMPLE_NAME, line no: 35, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,DefaultParametersControl,SIMPLE_NAME, line no: 42, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,ParametersControl,SIMPLE_NAME, line no: 42, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,fillUri,SIMPLE_NAME, line no: 60, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,fillIntoRequest,SIMPLE_NAME, line no: 73, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}").matcher(originalPattern),METHOD_INVOCATION, line no: 53,apply,SIMPLE_NAME, line no: 82, 0.017857142857142856, 0.017857142857142856, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,br,SIMPLE_NAME, line no: 27, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,com,SIMPLE_NAME, line no: 27, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,caelum,SIMPLE_NAME, line no: 27, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,vraptor,SIMPLE_NAME, line no: 27, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,http,SIMPLE_NAME, line no: 27, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,route,SIMPLE_NAME, line no: 27, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,java,SIMPLE_NAME, line no: 29, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,util,SIMPLE_NAME, line no: 29, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,List,SIMPLE_NAME, line no: 30, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,eval,SIMPLE_NAME, line no: 34, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,MutableRequest,SIMPLE_NAME, line no: 35, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,DefaultParametersControl,SIMPLE_NAME, line no: 42, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,ParametersControl,SIMPLE_NAME, line no: 42, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,fillUri,SIMPLE_NAME, line no: 60, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,fillIntoRequest,SIMPLE_NAME, line no: 73, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern.compile("\\{(.+?)\\}"),METHOD_INVOCATION, line no: 53,apply,SIMPLE_NAME, line no: 82, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,br,SIMPLE_NAME, line no: 27, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,com,SIMPLE_NAME, line no: 27, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,caelum,SIMPLE_NAME, line no: 27, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,vraptor,SIMPLE_NAME, line no: 27, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,http,SIMPLE_NAME, line no: 27, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,route,SIMPLE_NAME, line no: 27, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,java,SIMPLE_NAME, line no: 29, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,util,SIMPLE_NAME, line no: 29, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,List,SIMPLE_NAME, line no: 30, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,eval,SIMPLE_NAME, line no: 34, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,MutableRequest,SIMPLE_NAME, line no: 35, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,DefaultParametersControl,SIMPLE_NAME, line no: 42, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,ParametersControl,SIMPLE_NAME, line no: 42, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,new ArrayList<String>(),CLASS_INSTANCE_CREATION, line no: 44, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,fillUri,SIMPLE_NAME, line no: 60, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,fillIntoRequest,SIMPLE_NAME, line no: 73, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,apply,SIMPLE_NAME, line no: 82, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,br,SIMPLE_NAME, line no: 27, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,com,SIMPLE_NAME, line no: 27, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,caelum,SIMPLE_NAME, line no: 27, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,vraptor,SIMPLE_NAME, line no: 27, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,http,SIMPLE_NAME, line no: 27, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,route,SIMPLE_NAME, line no: 27, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,java,SIMPLE_NAME, line no: 29, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,util,SIMPLE_NAME, line no: 29, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,List,SIMPLE_NAME, line no: 30, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,eval,SIMPLE_NAME, line no: 34, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,MutableRequest,SIMPLE_NAME, line no: 35, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,DefaultParametersControl,SIMPLE_NAME, line no: 42, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,ParametersControl,SIMPLE_NAME, line no: 42, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,new ArrayList<String>(),CLASS_INSTANCE_CREATION, line no: 44, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,fillIntoRequest,SIMPLE_NAME, line no: 73, 0.017543859649122806, 0.017543859649122806, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,br,SIMPLE_NAME, line no: 27, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,com,SIMPLE_NAME, line no: 27, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,caelum,SIMPLE_NAME, line no: 27, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,vraptor,SIMPLE_NAME, line no: 27, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,http,SIMPLE_NAME, line no: 27, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,route,SIMPLE_NAME, line no: 27, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,java,SIMPLE_NAME, line no: 29, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,util,SIMPLE_NAME, line no: 29, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,List,SIMPLE_NAME, line no: 30, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,eval,SIMPLE_NAME, line no: 34, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,MutableRequest,SIMPLE_NAME, line no: 35, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,DefaultParametersControl,SIMPLE_NAME, line no: 42, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,ParametersControl,SIMPLE_NAME, line no: 42, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,new ArrayList<String>(),CLASS_INSTANCE_CREATION, line no: 44, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,fillUri,SIMPLE_NAME, line no: 60, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,fillIntoRequest,SIMPLE_NAME, line no: 73, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,apply,SIMPLE_NAME, line no: 82, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,br,SIMPLE_NAME, line no: 27, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,com,SIMPLE_NAME, line no: 27, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,caelum,SIMPLE_NAME, line no: 27, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,vraptor,SIMPLE_NAME, line no: 27, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,http,SIMPLE_NAME, line no: 27, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,route,SIMPLE_NAME, line no: 27, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,java,SIMPLE_NAME, line no: 29, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,util,SIMPLE_NAME, line no: 29, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,List,SIMPLE_NAME, line no: 30, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,eval,SIMPLE_NAME, line no: 34, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,MutableRequest,SIMPLE_NAME, line no: 35, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,DefaultParametersControl,SIMPLE_NAME, line no: 42, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,ParametersControl,SIMPLE_NAME, line no: 42, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,new ArrayList<String>(),CLASS_INSTANCE_CREATION, line no: 44, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,fillUri,SIMPLE_NAME, line no: 60, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,fillIntoRequest,SIMPLE_NAME, line no: 73, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,apply,SIMPLE_NAME, line no: 82, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,br,SIMPLE_NAME, line no: 27, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,com,SIMPLE_NAME, line no: 27, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,caelum,SIMPLE_NAME, line no: 27, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,vraptor,SIMPLE_NAME, line no: 27, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,http,SIMPLE_NAME, line no: 27, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,route,SIMPLE_NAME, line no: 27, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,java,SIMPLE_NAME, line no: 29, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,util,SIMPLE_NAME, line no: 29, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,List,SIMPLE_NAME, line no: 30, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,eval,SIMPLE_NAME, line no: 34, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,MutableRequest,SIMPLE_NAME, line no: 35, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,DefaultParametersControl,SIMPLE_NAME, line no: 42, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,ParametersControl,SIMPLE_NAME, line no: 42, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,new ArrayList<String>(),CLASS_INSTANCE_CREATION, line no: 44, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,fillIntoRequest,SIMPLE_NAME, line no: 73, 0.017241379310344827, 0.017241379310344827, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.http.route,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.http,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,br.com.caelum,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,br.com,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,java.util.ArrayList,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,java.util,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,java.util.List,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,java.util.regex,QUALIFIED_NAME, line no: 31, 0.0, 0.0, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,java.util.regex.Pattern,QUALIFIED_NAME, line no: 32, 0.0, 0.0, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.eval.Evaluator,QUALIFIED_NAME, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.eval,QUALIFIED_NAME, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.http.MutableRequest,QUALIFIED_NAME, line no: 35, 0.0, 0.0, 0.0, 0.0, 0.0
+Matcher,SIMPLE_NAME, line no: 53,new ArrayList<String>(),CLASS_INSTANCE_CREATION, line no: 44, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.http.route,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.http,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,br.com.caelum,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,br.com,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,java.util.ArrayList,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,java.util,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,java.util.List,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,java.util.regex,QUALIFIED_NAME, line no: 31, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,java.util.regex.Pattern,QUALIFIED_NAME, line no: 32, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.eval.Evaluator,QUALIFIED_NAME, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.eval,QUALIFIED_NAME, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.http.MutableRequest,QUALIFIED_NAME, line no: 35, 0.0, 0.0, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.http.route,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.http,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,br.com.caelum,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,br.com,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,java.util.ArrayList,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,java.util,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,java.util.List,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,java.util.regex.Matcher,QUALIFIED_NAME, line no: 31, 0.0, 0.0, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,java.util.regex,QUALIFIED_NAME, line no: 31, 0.0, 0.0, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.eval.Evaluator,QUALIFIED_NAME, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.eval,QUALIFIED_NAME, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+Pattern,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.http.MutableRequest,QUALIFIED_NAME, line no: 35, 0.0, 0.0, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.http.route,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.http,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,br.com.caelum,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,br.com,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,java.util.ArrayList,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,java.util,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,java.util.List,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,java.util.regex.Matcher,QUALIFIED_NAME, line no: 31, 0.0, 0.0, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,java.util.regex,QUALIFIED_NAME, line no: 31, 0.0, 0.0, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.eval.Evaluator,QUALIFIED_NAME, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.eval,QUALIFIED_NAME, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+compile,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.http.MutableRequest,QUALIFIED_NAME, line no: 35, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,br.com.caelum.vraptor.http.route,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,br.com.caelum.vraptor.http,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,br.com.caelum.vraptor,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,br.com.caelum,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,br.com,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,java.util.ArrayList,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,java.util,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,java.util.List,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,java.util.regex.Matcher,QUALIFIED_NAME, line no: 31, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,java.util.regex,QUALIFIED_NAME, line no: 31, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,java.util.regex.Pattern,QUALIFIED_NAME, line no: 32, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,br.com.caelum.vraptor.eval.Evaluator,QUALIFIED_NAME, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,br.com.caelum.vraptor.eval,QUALIFIED_NAME, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\{(.+?)\\}",STRING_LITERAL, line no: 53,br.com.caelum.vraptor.http.MutableRequest,QUALIFIED_NAME, line no: 35, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.http.route,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.http,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,br.com.caelum,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,br.com,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,java.util.ArrayList,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,java.util,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,java.util.List,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,java.util.regex,QUALIFIED_NAME, line no: 31, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,java.util.regex.Pattern,QUALIFIED_NAME, line no: 32, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.eval.Evaluator,QUALIFIED_NAME, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.eval,QUALIFIED_NAME, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+matcher,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.http.MutableRequest,QUALIFIED_NAME, line no: 35, 0.0, 0.0, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.http.route,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.http,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,br.com.caelum,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,br.com,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,java.util.ArrayList,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,java.util,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,java.util.List,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,java.util.regex.Matcher,QUALIFIED_NAME, line no: 31, 0.0, 0.0, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,java.util.regex,QUALIFIED_NAME, line no: 31, 0.0, 0.0, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.eval.Evaluator,QUALIFIED_NAME, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.eval,QUALIFIED_NAME, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+originalPattern,SIMPLE_NAME, line no: 53,br.com.caelum.vraptor.http.MutableRequest,QUALIFIED_NAME, line no: 35, 0.0, 0.0, 0.0, 0.0, 0.0

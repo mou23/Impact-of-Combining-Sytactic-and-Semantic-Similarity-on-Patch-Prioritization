@@ -1,57 +1,360 @@
-this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,this.url+=queryString.toString(),ASSIGNMENT, line no: 51, 0.5, 0.96875, 0.5, 0.46875, 0.5
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,this.url+=queryString.toString(),ASSIGNMENT, line no: 51, 0.45454545454545453, 0.96875, 0.5, 0.46875, 0.45454545454545453
 this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,this.url,FIELD_ACCESS, line no: 41, 0.42857142857142855, 1.0, 1.0, 0.3333333333333333, 0.42857142857142855
 this.url,FIELD_ACCESS, line no: 41,this.url.contains("\\?"),METHOD_INVOCATION, line no: 41, 0.42857142857142855, 0.9846153846153847, 1.0, 0.3333333333333333, 0.42857142857142855
-this.url,FIELD_ACCESS, line no: 41,this.url+=queryString.toString(),ASSIGNMENT, line no: 51, 0.375, 0.9538461538461539, 0.5, 0.25, 0.375
-this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,value.toString(),METHOD_INVOCATION, line no: 47, 0.3333333333333333, 0.4375, 0.0, 0.3333333333333333, 0.3333333333333333
-this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,queryString.toString(),METHOD_INVOCATION, line no: 51, 0.3333333333333333, 0.984375, 0.0, 0.375, 0.3333333333333333
 this.url,FIELD_ACCESS, line no: 41,url,SIMPLE_NAME, line no: 35, 0.3333333333333333, 0.015384615384615385, 1.0, 0.375, 0.3333333333333333
 this.url,FIELD_ACCESS, line no: 41,this,THIS_EXPRESSION, line no: 41, 0.3333333333333333, 1.0, 0.0, 0.5, 0.3333333333333333
+this.url,FIELD_ACCESS, line no: 41,this.url+=queryString.toString(),ASSIGNMENT, line no: 51, 0.3333333333333333, 0.9538461538461539, 0.5, 0.25, 0.3333333333333333
 this,THIS_EXPRESSION, line no: 41,this.url,FIELD_ACCESS, line no: 41, 0.3333333333333333, 0.9848484848484849, 0.0, 0.5, 0.3333333333333333
 url,SIMPLE_NAME, line no: 41,this.url,FIELD_ACCESS, line no: 41, 0.3333333333333333, 0.9848484848484849, 1.0, 0.375, 0.3333333333333333
-this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,queryString.append("&"),METHOD_INVOCATION, line no: 42, 0.3, 0.125, 0.0, 0.375, 0.3
-this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,queryString.append("?"),METHOD_INVOCATION, line no: 44, 0.3, 0.125, 0.0, 0.4166666666666667, 0.3
-this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,queryString.append(name),METHOD_INVOCATION, line no: 47, 0.3, 0.4375, 0.0, 0.2916666666666667, 0.3
-this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,queryString.append(name).append("="),METHOD_INVOCATION, line no: 47, 0.2727272727272727, 0.421875, 0.0, 0.2777777777777778, 0.2727272727272727
-this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,new StringBuilder(),CLASS_INSTANCE_CREATION, line no: 40, 0.2222222222222222, 0.96875, 0.0, 0.25, 0.2222222222222222
-this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,(value == null) ? "" : value.toString(),CONDITIONAL_EXPRESSION, line no: 47, 0.21428571428571427, 0.421875, 0.0, 0.23076923076923078, 0.21428571428571427
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,value.toString(),METHOD_INVOCATION, line no: 47, 0.3, 0.4375, 0.0, 0.3333333333333333, 0.3
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,queryString.toString(),METHOD_INVOCATION, line no: 51, 0.3, 0.984375, 0.0, 0.375, 0.3
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,queryString.append("&"),METHOD_INVOCATION, line no: 42, 0.2727272727272727, 0.125, 0.0, 0.375, 0.2727272727272727
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,queryString.append("?"),METHOD_INVOCATION, line no: 44, 0.2727272727272727, 0.125, 0.0, 0.4166666666666667, 0.2727272727272727
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,queryString.append(name),METHOD_INVOCATION, line no: 47, 0.2727272727272727, 0.4375, 0.0, 0.2916666666666667, 0.2727272727272727
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,queryString.append(name).append("="),METHOD_INVOCATION, line no: 47, 0.25, 0.421875, 0.0, 0.2777777777777778, 0.25
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,new StringBuilder(),CLASS_INSTANCE_CREATION, line no: 40, 0.2, 0.96875, 0.0, 0.25, 0.2
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,(value == null) ? "" : value.toString(),CONDITIONAL_EXPRESSION, line no: 47, 0.2, 0.421875, 0.0, 0.23076923076923078, 0.2
 this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,(value == null),PARENTHESIZED_EXPRESSION, line no: 47, 0.2, 0.421875, 0.0, 0.125, 0.2
-this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,new RuntimeException(e),CLASS_INSTANCE_CREATION, line no: 49, 0.2, 0.09375, 0.0, 0.3333333333333333, 0.2
 this.url,FIELD_ACCESS, line no: 41,com.mashape,QUALIFIED_NAME, line no: 26, 0.2, 0.0, 0.0, 0.09090909090909091, 0.2
 this.url,FIELD_ACCESS, line no: 41,java.io,QUALIFIED_NAME, line no: 28, 0.2, 0.0, 0.0, 0.125, 0.2
 this.url,FIELD_ACCESS, line no: 41,java.net,QUALIFIED_NAME, line no: 29, 0.2, 0.0, 0.0, 0.125, 0.2
-this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,URLEncoder.encode((value == null) ? "" : value.toString() "UTF-8"),METHOD_INVOCATION, line no: 47, 0.16666666666666666, 0.421875, 0.0, 0.18181818181818182, 0.16666666666666666
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,new RuntimeException(e),CLASS_INSTANCE_CREATION, line no: 49, 0.18181818181818182, 0.09375, 0.0, 0.3333333333333333, 0.18181818181818182
 this.url,FIELD_ACCESS, line no: 41,com.mashape.unirest,QUALIFIED_NAME, line no: 26, 0.16666666666666666, 0.0, 0.0, 0.21052631578947367, 0.16666666666666666
-this.url,FIELD_ACCESS, line no: 41,java.io.UnsupportedEncodingException,QUALIFIED_NAME, line no: 28, 0.16666666666666666, 0.0, 0.0, 0.1111111111111111, 0.16666666666666666
 this.url,FIELD_ACCESS, line no: 41,java.net.URLEncoder,QUALIFIED_NAME, line no: 29, 0.16666666666666666, 0.0, 0.0, 0.15789473684210525, 0.16666666666666666
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,URLEncoder.encode((value == null) ? "" : value.toString() "UTF-8"),METHOD_INVOCATION, line no: 47, 0.15789473684210525, 0.421875, 0.0, 0.18181818181818182, 0.15789473684210525
 this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,url,SIMPLE_NAME, line no: 35, 0.14285714285714285, 0.015625, 0.0, 0.125, 0.14285714285714285
 this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,this,THIS_EXPRESSION, line no: 41, 0.14285714285714285, 1.0, 0.0, 0.16666666666666666, 0.14285714285714285
 this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,contains,SIMPLE_NAME, line no: 41, 0.14285714285714285, 1.0, 1.0, 0.3333333333333333, 0.14285714285714285
 this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,"\\?",STRING_LITERAL, line no: 41, 0.14285714285714285, 1.0, 0.0, 0.20833333333333334, 0.14285714285714285
 this.url,FIELD_ACCESS, line no: 41,com.mashape.unirest.request,QUALIFIED_NAME, line no: 26, 0.14285714285714285, 0.0, 0.0, 0.18518518518518517, 0.14285714285714285
 this.url,FIELD_ACCESS, line no: 41,com.mashape.unirest.http,QUALIFIED_NAME, line no: 31, 0.14285714285714285, 0.0, 0.0, 0.16666666666666666, 0.14285714285714285
-this.url,FIELD_ACCESS, line no: 41,value.toString(),METHOD_INVOCATION, line no: 47, 0.14285714285714285, 0.4307692307692308, 0.0, 0.125, 0.14285714285714285
-this.url,FIELD_ACCESS, line no: 41,queryString.toString(),METHOD_INVOCATION, line no: 51, 0.14285714285714285, 0.9692307692307692, 0.0, 0.18181818181818182, 0.14285714285714285
 this,THIS_EXPRESSION, line no: 41,this.url.contains("\\?"),METHOD_INVOCATION, line no: 41, 0.14285714285714285, 0.9696969696969697, 0.0, 0.16666666666666666, 0.14285714285714285
 url,SIMPLE_NAME, line no: 41,this.url.contains("\\?"),METHOD_INVOCATION, line no: 41, 0.14285714285714285, 0.9696969696969697, 0.0, 0.125, 0.14285714285714285
 contains,SIMPLE_NAME, line no: 41,this.url.contains("\\?"),METHOD_INVOCATION, line no: 41, 0.14285714285714285, 0.9846153846153847, 1.0, 0.3333333333333333, 0.14285714285714285
 "\\?",STRING_LITERAL, line no: 41,this.url.contains("\\?"),METHOD_INVOCATION, line no: 41, 0.14285714285714285, 0.9846153846153847, 0.0, 0.20833333333333334, 0.14285714285714285
-this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,queryString.append(name).append("=").append(URLEncoder.encode((value == null) ? "" : value.toString() "UTF-8")),METHOD_INVOCATION, line no: 47, 0.13636363636363635, 0.40625, 0.0, 0.13513513513513514, 0.13636363636363635
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,queryString.append(name).append("=").append(URLEncoder.encode((value == null) ? "" : value.toString() "UTF-8")),METHOD_INVOCATION, line no: 47, 0.13043478260869565, 0.40625, 0.0, 0.13513513513513514, 0.13043478260869565
+this.url,FIELD_ACCESS, line no: 41,java.io.UnsupportedEncodingException,QUALIFIED_NAME, line no: 28, 0.125, 0.0, 0.0, 0.1111111111111111, 0.125
 this.url,FIELD_ACCESS, line no: 41,com.mashape.unirest.http.HttpMethod,QUALIFIED_NAME, line no: 31, 0.125, 0.0, 0.0, 0.11428571428571428, 0.125
-this.url,FIELD_ACCESS, line no: 41,queryString.append("&"),METHOD_INVOCATION, line no: 42, 0.125, 0.12307692307692308, 0.0, 0.13043478260869565, 0.125
-this.url,FIELD_ACCESS, line no: 41,queryString.append("?"),METHOD_INVOCATION, line no: 44, 0.125, 0.12307692307692308, 0.0, 0.13043478260869565, 0.125
-this.url,FIELD_ACCESS, line no: 41,queryString.append(name),METHOD_INVOCATION, line no: 47, 0.125, 0.4307692307692308, 0.0, 0.125, 0.125
-this,THIS_EXPRESSION, line no: 41,this.url+=queryString.toString(),ASSIGNMENT, line no: 51, 0.125, 0.9393939393939394, 0.0, 0.125, 0.125
-url,SIMPLE_NAME, line no: 41,this.url+=queryString.toString(),ASSIGNMENT, line no: 51, 0.125, 0.9393939393939394, 1.0, 0.09375, 0.125
+this.url,FIELD_ACCESS, line no: 41,value.toString(),METHOD_INVOCATION, line no: 47, 0.125, 0.4307692307692308, 0.0, 0.125, 0.125
+this.url,FIELD_ACCESS, line no: 41,queryString.toString(),METHOD_INVOCATION, line no: 51, 0.125, 0.9692307692307692, 0.0, 0.18181818181818182, 0.125
 this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,com.mashape,QUALIFIED_NAME, line no: 26, 0.1111111111111111, 0.0, 0.0, 0.16666666666666666, 0.1111111111111111
 this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,java.io,QUALIFIED_NAME, line no: 28, 0.1111111111111111, 0.0, 0.0, 0.08333333333333333, 0.1111111111111111
 this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,java.net,QUALIFIED_NAME, line no: 29, 0.1111111111111111, 0.0, 0.0, 0.125, 0.1111111111111111
-this.url,FIELD_ACCESS, line no: 41,queryString.append(name).append("="),METHOD_INVOCATION, line no: 47, 0.1111111111111111, 0.4153846153846154, 0.0, 0.08333333333333333, 0.1111111111111111
+this.url,FIELD_ACCESS, line no: 41,queryString.append("&"),METHOD_INVOCATION, line no: 42, 0.1111111111111111, 0.12307692307692308, 0.0, 0.13043478260869565, 0.1111111111111111
+this.url,FIELD_ACCESS, line no: 41,queryString.append("?"),METHOD_INVOCATION, line no: 44, 0.1111111111111111, 0.12307692307692308, 0.0, 0.13043478260869565, 0.1111111111111111
+this.url,FIELD_ACCESS, line no: 41,queryString.append(name),METHOD_INVOCATION, line no: 47, 0.1111111111111111, 0.4307692307692308, 0.0, 0.125, 0.1111111111111111
+this,THIS_EXPRESSION, line no: 41,this.url+=queryString.toString(),ASSIGNMENT, line no: 51, 0.1111111111111111, 0.9393939393939394, 0.0, 0.125, 0.1111111111111111
+url,SIMPLE_NAME, line no: 41,this.url+=queryString.toString(),ASSIGNMENT, line no: 51, 0.1111111111111111, 0.9393939393939394, 1.0, 0.09375, 0.1111111111111111
 this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,com.mashape.unirest,QUALIFIED_NAME, line no: 26, 0.1, 0.0, 0.0, 0.25, 0.1
-this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,java.io.UnsupportedEncodingException,QUALIFIED_NAME, line no: 28, 0.1, 0.0, 0.0, 0.2777777777777778, 0.1
 this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,java.net.URLEncoder,QUALIFIED_NAME, line no: 29, 0.1, 0.0, 0.0, 0.16666666666666666, 0.1
+this.url,FIELD_ACCESS, line no: 41,queryString.append(name).append("="),METHOD_INVOCATION, line no: 47, 0.1, 0.4153846153846154, 0.0, 0.08333333333333333, 0.1
 this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,com.mashape.unirest.request,QUALIFIED_NAME, line no: 26, 0.09090909090909091, 0.0, 0.0, 0.2222222222222222, 0.09090909090909091
 this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,com.mashape.unirest.http,QUALIFIED_NAME, line no: 31, 0.09090909090909091, 0.0, 0.0, 0.25, 0.09090909090909091
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,java.io.UnsupportedEncodingException,QUALIFIED_NAME, line no: 28, 0.08333333333333333, 0.0, 0.0, 0.2777777777777778, 0.08333333333333333
 this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,com.mashape.unirest.http.HttpMethod,QUALIFIED_NAME, line no: 31, 0.08333333333333333, 0.0, 0.0, 0.17142857142857143, 0.08333333333333333
-this.url,FIELD_ACCESS, line no: 41,(value == null) ? "" : value.toString(),CONDITIONAL_EXPRESSION, line no: 47, 0.08333333333333333, 0.4153846153846154, 0.0, 0.05128205128205128, 0.08333333333333333
-this.url,FIELD_ACCESS, line no: 41,URLEncoder.encode((value == null) ? "" : value.toString() "UTF-8"),METHOD_INVOCATION, line no: 47, 0.0625, 0.4153846153846154, 0.0, 0.045454545454545456, 0.0625
-this.url,FIELD_ACCESS, line no: 41,queryString.append(name).append("=").append(URLEncoder.encode((value == null) ? "" : value.toString() "UTF-8")),METHOD_INVOCATION, line no: 47, 0.05, 0.4, 0.0, 0.04504504504504504, 0.05
+this.url,FIELD_ACCESS, line no: 41,(value == null) ? "" : value.toString(),CONDITIONAL_EXPRESSION, line no: 47, 0.07692307692307693, 0.4153846153846154, 0.0, 0.05128205128205128, 0.07692307692307693
+this.url,FIELD_ACCESS, line no: 41,URLEncoder.encode((value == null) ? "" : value.toString() "UTF-8"),METHOD_INVOCATION, line no: 47, 0.058823529411764705, 0.4153846153846154, 0.0, 0.045454545454545456, 0.058823529411764705
+this.url,FIELD_ACCESS, line no: 41,queryString.append(name).append("=").append(URLEncoder.encode((value == null) ? "" : value.toString() "UTF-8")),METHOD_INVOCATION, line no: 47, 0.047619047619047616, 0.4, 0.0, 0.04504504504504504, 0.047619047619047616
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,com,SIMPLE_NAME, line no: 26, 0.0, 0.015625, 0.0, 0.08333333333333333, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,mashape,SIMPLE_NAME, line no: 26, 0.0, 0.015625, 0.0, 0.08333333333333333, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,unirest,SIMPLE_NAME, line no: 26, 0.0, 0.015625, 0.0, 0.16666666666666666, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,request,SIMPLE_NAME, line no: 26, 0.0, 0.015625, 0.0, 0.08333333333333333, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,java,SIMPLE_NAME, line no: 28, 0.0, 0.015625, 0.0, 0.041666666666666664, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,io,SIMPLE_NAME, line no: 28, 0.0, 0.015625, 0.0, 0.08333333333333333, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,UnsupportedEncodingException,SIMPLE_NAME, line no: 28, 0.0, 0.015625, 0.0, 0.32142857142857145, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,net,SIMPLE_NAME, line no: 29, 0.0, 0.015625, 0.0, 0.08333333333333333, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,URLEncoder,SIMPLE_NAME, line no: 29, 0.0, 0.015625, 0.0, 0.08333333333333333, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,http,SIMPLE_NAME, line no: 31, 0.0, 0.015625, 0.0, 0.08333333333333333, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,HttpMethod,SIMPLE_NAME, line no: 31, 0.0, 0.015625, 0.0, 0.125, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,GetRequest,SIMPLE_NAME, line no: 33, 0.0, 0.015625, 0.0, 0.125, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,HttpRequest,SIMPLE_NAME, line no: 33, 0.0, 0.015625, 0.0, 0.125, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,method,SIMPLE_NAME, line no: 35, 0.0, 0.015625, 0.0, 0.125, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,String,SIMPLE_NAME, line no: 35, 0.0, 0.015625, 0.0, 0.16666666666666666, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,field,SIMPLE_NAME, line no: 39, 0.0, 0.015625, 0.0, 0.08333333333333333, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,name,SIMPLE_NAME, line no: 39, 0.0, 0.015625, 0.0, 0.08333333333333333, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,Object,SIMPLE_NAME, line no: 39, 0.0, 0.015625, 0.0, 0.08333333333333333, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,value,SIMPLE_NAME, line no: 39, 0.0, 0.015625, 0.0, 0.041666666666666664, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,StringBuilder,SIMPLE_NAME, line no: 40, 0.0, 0.96875, 0.0, 0.16666666666666666, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,queryString,SIMPLE_NAME, line no: 40, 0.0, 0.96875, 0.0, 0.20833333333333334, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,append,SIMPLE_NAME, line no: 42, 0.0, 0.140625, 0.0, 0.08333333333333333, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,"&",STRING_LITERAL, line no: 42, 0.0, 0.140625, 0.0, 0.08333333333333333, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,"?",STRING_LITERAL, line no: 44, 0.0, 0.140625, 0.0, 0.125, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,"=",STRING_LITERAL, line no: 47, 0.0, 0.4375, 0.0, 0.08333333333333333, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,encode,SIMPLE_NAME, line no: 47, 0.0, 0.4375, 0.0, 0.08333333333333333, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,value == null,INFIX_EXPRESSION, line no: 47, 0.0, 0.421875, 0.0, 0.08333333333333333, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,null,NULL_LITERAL, line no: 47, 0.0, 0.421875, 0.0, 0.08333333333333333, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,"",STRING_LITERAL, line no: 47, 0.0, 0.4375, 0.0, 0.08333333333333333, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,toString,SIMPLE_NAME, line no: 47, 0.0, 0.453125, 0.0, 0.20833333333333334, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,"UTF-8",STRING_LITERAL, line no: 47, 0.0, 0.4375, 0.0, 0.08333333333333333, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,e,SIMPLE_NAME, line no: 48, 0.0, 0.96875, 0.0, 0.0, 0.0
+this.url.contains("\\?"),METHOD_INVOCATION, line no: 41,RuntimeException,SIMPLE_NAME, line no: 49, 0.0, 0.109375, 0.0, 0.25, 0.0
+this.url,FIELD_ACCESS, line no: 41,com,SIMPLE_NAME, line no: 26, 0.0, 0.015384615384615385, 0.0, 0.0, 0.0
+this.url,FIELD_ACCESS, line no: 41,mashape,SIMPLE_NAME, line no: 26, 0.0, 0.015384615384615385, 0.0, 0.125, 0.0
+this.url,FIELD_ACCESS, line no: 41,unirest,SIMPLE_NAME, line no: 26, 0.0, 0.015384615384615385, 0.0, 0.25, 0.0
+this.url,FIELD_ACCESS, line no: 41,request,SIMPLE_NAME, line no: 26, 0.0, 0.015384615384615385, 0.0, 0.125, 0.0
+this.url,FIELD_ACCESS, line no: 41,java,SIMPLE_NAME, line no: 28, 0.0, 0.015384615384615385, 0.0, 0.0, 0.0
+this.url,FIELD_ACCESS, line no: 41,io,SIMPLE_NAME, line no: 28, 0.0, 0.015384615384615385, 0.0, 0.125, 0.0
+this.url,FIELD_ACCESS, line no: 41,UnsupportedEncodingException,SIMPLE_NAME, line no: 28, 0.0, 0.015384615384615385, 0.0, 0.10714285714285714, 0.0
+this.url,FIELD_ACCESS, line no: 41,net,SIMPLE_NAME, line no: 29, 0.0, 0.015384615384615385, 0.0, 0.125, 0.0
+this.url,FIELD_ACCESS, line no: 41,URLEncoder,SIMPLE_NAME, line no: 29, 0.0, 0.015384615384615385, 0.0, 0.1, 0.0
+this.url,FIELD_ACCESS, line no: 41,http,SIMPLE_NAME, line no: 31, 0.0, 0.015384615384615385, 0.0, 0.125, 0.0
+this.url,FIELD_ACCESS, line no: 41,HttpMethod,SIMPLE_NAME, line no: 31, 0.0, 0.015384615384615385, 0.0, 0.2, 0.0
+this.url,FIELD_ACCESS, line no: 41,GetRequest,SIMPLE_NAME, line no: 33, 0.0, 0.015384615384615385, 0.0, 0.2, 0.0
+this.url,FIELD_ACCESS, line no: 41,HttpRequest,SIMPLE_NAME, line no: 33, 0.0, 0.015384615384615385, 0.0, 0.18181818181818182, 0.0
+this.url,FIELD_ACCESS, line no: 41,method,SIMPLE_NAME, line no: 35, 0.0, 0.015384615384615385, 0.0, 0.25, 0.0
+this.url,FIELD_ACCESS, line no: 41,String,SIMPLE_NAME, line no: 35, 0.0, 0.015384615384615385, 1.0, 0.25, 0.0
+this.url,FIELD_ACCESS, line no: 41,field,SIMPLE_NAME, line no: 39, 0.0, 0.015384615384615385, 0.0, 0.25, 0.0
+this.url,FIELD_ACCESS, line no: 41,name,SIMPLE_NAME, line no: 39, 0.0, 0.015384615384615385, 1.0, 0.0, 0.0
+this.url,FIELD_ACCESS, line no: 41,Object,SIMPLE_NAME, line no: 39, 0.0, 0.015384615384615385, 0.0, 0.125, 0.0
+this.url,FIELD_ACCESS, line no: 41,value,SIMPLE_NAME, line no: 39, 0.0, 0.015384615384615385, 0.0, 0.125, 0.0
+this.url,FIELD_ACCESS, line no: 41,StringBuilder,SIMPLE_NAME, line no: 40, 0.0, 0.9538461538461539, 0.0, 0.3076923076923077, 0.0
+this.url,FIELD_ACCESS, line no: 41,queryString,SIMPLE_NAME, line no: 40, 0.0, 0.9538461538461539, 0.0, 0.18181818181818182, 0.0
+this.url,FIELD_ACCESS, line no: 41,new StringBuilder(),CLASS_INSTANCE_CREATION, line no: 40, 0.0, 0.9538461538461539, 0.0, 0.21052631578947367, 0.0
+this.url,FIELD_ACCESS, line no: 41,contains,SIMPLE_NAME, line no: 41, 0.0, 0.9846153846153847, 0.0, 0.375, 0.0
+this.url,FIELD_ACCESS, line no: 41,"\\?",STRING_LITERAL, line no: 41, 0.0, 0.9846153846153847, 1.0, 0.0, 0.0
+this.url,FIELD_ACCESS, line no: 41,append,SIMPLE_NAME, line no: 42, 0.0, 0.13846153846153847, 0.0, 0.0, 0.0
+this.url,FIELD_ACCESS, line no: 41,"&",STRING_LITERAL, line no: 42, 0.0, 0.13846153846153847, 1.0, 0.0, 0.0
+this.url,FIELD_ACCESS, line no: 41,"?",STRING_LITERAL, line no: 44, 0.0, 0.13846153846153847, 1.0, 0.0, 0.0
+this.url,FIELD_ACCESS, line no: 41,"=",STRING_LITERAL, line no: 47, 0.0, 0.4307692307692308, 1.0, 0.0, 0.0
+this.url,FIELD_ACCESS, line no: 41,encode,SIMPLE_NAME, line no: 47, 0.0, 0.4307692307692308, 1.0, 0.0, 0.0
+this.url,FIELD_ACCESS, line no: 41,(value == null),PARENTHESIZED_EXPRESSION, line no: 47, 0.0, 0.4153846153846154, 0.0, 0.13333333333333333, 0.0
+this.url,FIELD_ACCESS, line no: 41,value == null,INFIX_EXPRESSION, line no: 47, 0.0, 0.4153846153846154, 0.0, 0.15384615384615385, 0.0
+this.url,FIELD_ACCESS, line no: 41,null,NULL_LITERAL, line no: 47, 0.0, 0.4153846153846154, 0.0, 0.25, 0.0
+this.url,FIELD_ACCESS, line no: 41,"",STRING_LITERAL, line no: 47, 0.0, 0.4307692307692308, 1.0, 0.0, 0.0
+this.url,FIELD_ACCESS, line no: 41,toString,SIMPLE_NAME, line no: 47, 0.0, 0.4461538461538462, 1.0, 0.25, 0.0
+this.url,FIELD_ACCESS, line no: 41,"UTF-8",STRING_LITERAL, line no: 47, 0.0, 0.4307692307692308, 1.0, 0.0, 0.0
+this.url,FIELD_ACCESS, line no: 41,e,SIMPLE_NAME, line no: 48, 0.0, 0.9538461538461539, 0.0, 0.0, 0.0
+this.url,FIELD_ACCESS, line no: 41,new RuntimeException(e),CLASS_INSTANCE_CREATION, line no: 49, 0.0, 0.09230769230769231, 0.0, 0.08695652173913043, 0.0
+this.url,FIELD_ACCESS, line no: 41,RuntimeException,SIMPLE_NAME, line no: 49, 0.0, 0.1076923076923077, 0.0, 0.125, 0.0
+this,THIS_EXPRESSION, line no: 41,com.mashape.unirest.request,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.1111111111111111, 0.0
+this,THIS_EXPRESSION, line no: 41,com.mashape.unirest,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.15789473684210525, 0.0
+this,THIS_EXPRESSION, line no: 41,com.mashape,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.09090909090909091, 0.0
+this,THIS_EXPRESSION, line no: 41,com,SIMPLE_NAME, line no: 26, 0.0, 0.015151515151515152, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 41,mashape,SIMPLE_NAME, line no: 26, 0.0, 0.015151515151515152, 0.0, 0.14285714285714285, 0.0
+this,THIS_EXPRESSION, line no: 41,unirest,SIMPLE_NAME, line no: 26, 0.0, 0.015151515151515152, 0.0, 0.2857142857142857, 0.0
+this,THIS_EXPRESSION, line no: 41,request,SIMPLE_NAME, line no: 26, 0.0, 0.015151515151515152, 0.0, 0.14285714285714285, 0.0
+this,THIS_EXPRESSION, line no: 41,java.io.UnsupportedEncodingException,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.05555555555555555, 0.0
+this,THIS_EXPRESSION, line no: 41,java.io,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.14285714285714285, 0.0
+this,THIS_EXPRESSION, line no: 41,java,SIMPLE_NAME, line no: 28, 0.0, 0.015151515151515152, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 41,io,SIMPLE_NAME, line no: 28, 0.0, 0.015151515151515152, 0.0, 0.25, 0.0
+this,THIS_EXPRESSION, line no: 41,UnsupportedEncodingException,SIMPLE_NAME, line no: 28, 0.0, 0.015151515151515152, 0.0, 0.07142857142857142, 0.0
+this,THIS_EXPRESSION, line no: 41,java.net.URLEncoder,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.05263157894736842, 0.0
+this,THIS_EXPRESSION, line no: 41,java.net,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.125, 0.0
+this,THIS_EXPRESSION, line no: 41,net,SIMPLE_NAME, line no: 29, 0.0, 0.015151515151515152, 0.0, 0.25, 0.0
+this,THIS_EXPRESSION, line no: 41,URLEncoder,SIMPLE_NAME, line no: 29, 0.0, 0.015151515151515152, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 41,com.mashape.unirest.http.HttpMethod,QUALIFIED_NAME, line no: 31, 0.0, 0.0, 0.0, 0.08571428571428572, 0.0
+this,THIS_EXPRESSION, line no: 41,com.mashape.unirest.http,QUALIFIED_NAME, line no: 31, 0.0, 0.0, 0.0, 0.125, 0.0
+this,THIS_EXPRESSION, line no: 41,http,SIMPLE_NAME, line no: 31, 0.0, 0.015151515151515152, 0.0, 0.25, 0.0
+this,THIS_EXPRESSION, line no: 41,HttpMethod,SIMPLE_NAME, line no: 31, 0.0, 0.015151515151515152, 0.0, 0.2, 0.0
+this,THIS_EXPRESSION, line no: 41,GetRequest,SIMPLE_NAME, line no: 33, 0.0, 0.015151515151515152, 1.0, 0.2, 0.0
+this,THIS_EXPRESSION, line no: 41,HttpRequest,SIMPLE_NAME, line no: 33, 0.0, 0.015151515151515152, 0.0, 0.18181818181818182, 0.0
+this,THIS_EXPRESSION, line no: 41,method,SIMPLE_NAME, line no: 35, 0.0, 0.015151515151515152, 0.0, 0.3333333333333333, 0.0
+this,THIS_EXPRESSION, line no: 41,String,SIMPLE_NAME, line no: 35, 0.0, 0.015151515151515152, 0.0, 0.3333333333333333, 0.0
+this,THIS_EXPRESSION, line no: 41,url,SIMPLE_NAME, line no: 35, 0.0, 0.015151515151515152, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 41,field,SIMPLE_NAME, line no: 39, 0.0, 0.015151515151515152, 1.0, 0.2, 0.0
+this,THIS_EXPRESSION, line no: 41,name,SIMPLE_NAME, line no: 39, 0.0, 0.015151515151515152, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 41,Object,SIMPLE_NAME, line no: 39, 0.0, 0.015151515151515152, 0.0, 0.16666666666666666, 0.0
+this,THIS_EXPRESSION, line no: 41,value,SIMPLE_NAME, line no: 39, 0.0, 0.015151515151515152, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 41,StringBuilder,SIMPLE_NAME, line no: 40, 0.0, 0.9393939393939394, 0.0, 0.15384615384615385, 0.0
+this,THIS_EXPRESSION, line no: 41,queryString,SIMPLE_NAME, line no: 40, 0.0, 0.9393939393939394, 0.0, 0.18181818181818182, 0.0
+this,THIS_EXPRESSION, line no: 41,new StringBuilder(),CLASS_INSTANCE_CREATION, line no: 40, 0.0, 0.9393939393939394, 0.0, 0.10526315789473684, 0.0
+this,THIS_EXPRESSION, line no: 41,contains,SIMPLE_NAME, line no: 41, 0.0, 0.9696969696969697, 0.0, 0.375, 0.0
+this,THIS_EXPRESSION, line no: 41,"\\?",STRING_LITERAL, line no: 41, 0.0, 0.9696969696969697, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 41,queryString.append("&"),METHOD_INVOCATION, line no: 42, 0.0, 0.12121212121212122, 0.0, 0.08695652173913043, 0.0
+this,THIS_EXPRESSION, line no: 41,append,SIMPLE_NAME, line no: 42, 0.0, 0.13636363636363635, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 41,"&",STRING_LITERAL, line no: 42, 0.0, 0.13636363636363635, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 41,queryString.append("?"),METHOD_INVOCATION, line no: 44, 0.0, 0.12121212121212122, 0.0, 0.08695652173913043, 0.0
+this,THIS_EXPRESSION, line no: 41,"?",STRING_LITERAL, line no: 44, 0.0, 0.13636363636363635, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 41,queryString.append(name).append("=").append(URLEncoder.encode((value == null) ? "" : value.toString() "UTF-8")),METHOD_INVOCATION, line no: 47, 0.0, 0.3939393939393939, 0.0, 0.018018018018018018, 0.0
+this,THIS_EXPRESSION, line no: 41,queryString.append(name).append("="),METHOD_INVOCATION, line no: 47, 0.0, 0.4090909090909091, 0.0, 0.05555555555555555, 0.0
+this,THIS_EXPRESSION, line no: 41,queryString.append(name),METHOD_INVOCATION, line no: 47, 0.0, 0.42424242424242425, 0.0, 0.08333333333333333, 0.0
+this,THIS_EXPRESSION, line no: 41,"=",STRING_LITERAL, line no: 47, 0.0, 0.42424242424242425, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 41,URLEncoder.encode((value == null) ? "" : value.toString() "UTF-8"),METHOD_INVOCATION, line no: 47, 0.0, 0.4090909090909091, 0.0, 0.030303030303030304, 0.0
+this,THIS_EXPRESSION, line no: 41,encode,SIMPLE_NAME, line no: 47, 0.0, 0.42424242424242425, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 41,(value == null) ? "" : value.toString(),CONDITIONAL_EXPRESSION, line no: 47, 0.0, 0.4090909090909091, 0.0, 0.05128205128205128, 0.0
+this,THIS_EXPRESSION, line no: 41,(value == null),PARENTHESIZED_EXPRESSION, line no: 47, 0.0, 0.4090909090909091, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 41,value == null,INFIX_EXPRESSION, line no: 47, 0.0, 0.4090909090909091, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 41,null,NULL_LITERAL, line no: 47, 0.0, 0.4090909090909091, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 41,"",STRING_LITERAL, line no: 47, 0.0, 0.42424242424242425, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 41,value.toString(),METHOD_INVOCATION, line no: 47, 0.0, 0.42424242424242425, 0.0, 0.125, 0.0
+this,THIS_EXPRESSION, line no: 41,toString,SIMPLE_NAME, line no: 47, 0.0, 0.4393939393939394, 0.0, 0.25, 0.0
+this,THIS_EXPRESSION, line no: 41,"UTF-8",STRING_LITERAL, line no: 47, 0.0, 0.42424242424242425, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 41,e,SIMPLE_NAME, line no: 48, 0.0, 0.9393939393939394, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 41,new RuntimeException(e),CLASS_INSTANCE_CREATION, line no: 49, 0.0, 0.09090909090909091, 0.0, 0.08695652173913043, 0.0
+this,THIS_EXPRESSION, line no: 41,RuntimeException,SIMPLE_NAME, line no: 49, 0.0, 0.10606060606060606, 0.0, 0.125, 0.0
+this,THIS_EXPRESSION, line no: 41,queryString.toString(),METHOD_INVOCATION, line no: 51, 0.0, 0.9545454545454546, 0.0, 0.09090909090909091, 0.0
+url,SIMPLE_NAME, line no: 41,com.mashape.unirest.request,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.07407407407407407, 0.0
+url,SIMPLE_NAME, line no: 41,com.mashape.unirest,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.10526315789473684, 0.0
+url,SIMPLE_NAME, line no: 41,com.mashape,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,com,SIMPLE_NAME, line no: 26, 0.0, 0.015151515151515152, 0.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,mashape,SIMPLE_NAME, line no: 26, 0.0, 0.015151515151515152, 0.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,unirest,SIMPLE_NAME, line no: 26, 0.0, 0.015151515151515152, 0.0, 0.2857142857142857, 0.0
+url,SIMPLE_NAME, line no: 41,request,SIMPLE_NAME, line no: 26, 0.0, 0.015151515151515152, 0.0, 0.14285714285714285, 0.0
+url,SIMPLE_NAME, line no: 41,java.io.UnsupportedEncodingException,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.05555555555555555, 0.0
+url,SIMPLE_NAME, line no: 41,java.io,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,java,SIMPLE_NAME, line no: 28, 0.0, 0.015151515151515152, 0.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,io,SIMPLE_NAME, line no: 28, 0.0, 0.015151515151515152, 0.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,UnsupportedEncodingException,SIMPLE_NAME, line no: 28, 0.0, 0.015151515151515152, 0.0, 0.07142857142857142, 0.0
+url,SIMPLE_NAME, line no: 41,java.net.URLEncoder,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.05263157894736842, 0.0
+url,SIMPLE_NAME, line no: 41,java.net,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,net,SIMPLE_NAME, line no: 29, 0.0, 0.015151515151515152, 0.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,URLEncoder,SIMPLE_NAME, line no: 29, 0.0, 0.015151515151515152, 0.0, 0.1, 0.0
+url,SIMPLE_NAME, line no: 41,com.mashape.unirest.http.HttpMethod,QUALIFIED_NAME, line no: 31, 0.0, 0.0, 0.0, 0.05714285714285714, 0.0
+url,SIMPLE_NAME, line no: 41,com.mashape.unirest.http,QUALIFIED_NAME, line no: 31, 0.0, 0.0, 0.0, 0.08333333333333333, 0.0
+url,SIMPLE_NAME, line no: 41,http,SIMPLE_NAME, line no: 31, 0.0, 0.015151515151515152, 0.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,HttpMethod,SIMPLE_NAME, line no: 31, 0.0, 0.015151515151515152, 0.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,GetRequest,SIMPLE_NAME, line no: 33, 0.0, 0.015151515151515152, 0.0, 0.1, 0.0
+url,SIMPLE_NAME, line no: 41,HttpRequest,SIMPLE_NAME, line no: 33, 0.0, 0.015151515151515152, 0.0, 0.09090909090909091, 0.0
+url,SIMPLE_NAME, line no: 41,method,SIMPLE_NAME, line no: 35, 0.0, 0.015151515151515152, 0.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,String,SIMPLE_NAME, line no: 35, 0.0, 0.015151515151515152, 1.0, 0.16666666666666666, 0.0
+url,SIMPLE_NAME, line no: 41,field,SIMPLE_NAME, line no: 39, 0.0, 0.015151515151515152, 0.0, 0.2, 0.0
+url,SIMPLE_NAME, line no: 41,name,SIMPLE_NAME, line no: 39, 0.0, 0.015151515151515152, 1.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,Object,SIMPLE_NAME, line no: 39, 0.0, 0.015151515151515152, 0.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,value,SIMPLE_NAME, line no: 39, 0.0, 0.015151515151515152, 0.0, 0.2, 0.0
+url,SIMPLE_NAME, line no: 41,StringBuilder,SIMPLE_NAME, line no: 40, 0.0, 0.9545454545454546, 0.0, 0.15384615384615385, 0.0
+url,SIMPLE_NAME, line no: 41,queryString,SIMPLE_NAME, line no: 40, 0.0, 0.9545454545454546, 0.0, 0.18181818181818182, 0.0
+url,SIMPLE_NAME, line no: 41,new StringBuilder(),CLASS_INSTANCE_CREATION, line no: 40, 0.0, 0.9393939393939394, 0.0, 0.10526315789473684, 0.0
+url,SIMPLE_NAME, line no: 41,this,THIS_EXPRESSION, line no: 41, 0.0, 0.9848484848484849, 0.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,contains,SIMPLE_NAME, line no: 41, 0.0, 0.9848484848484849, 0.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,"\\?",STRING_LITERAL, line no: 41, 0.0, 0.9696969696969697, 1.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,queryString.append("&"),METHOD_INVOCATION, line no: 42, 0.0, 0.12121212121212122, 0.0, 0.08695652173913043, 0.0
+url,SIMPLE_NAME, line no: 41,append,SIMPLE_NAME, line no: 42, 0.0, 0.13636363636363635, 0.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,"&",STRING_LITERAL, line no: 42, 0.0, 0.13636363636363635, 1.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,queryString.append("?"),METHOD_INVOCATION, line no: 44, 0.0, 0.12121212121212122, 0.0, 0.08695652173913043, 0.0
+url,SIMPLE_NAME, line no: 41,"?",STRING_LITERAL, line no: 44, 0.0, 0.13636363636363635, 1.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,queryString.append(name).append("=").append(URLEncoder.encode((value == null) ? "" : value.toString() "UTF-8")),METHOD_INVOCATION, line no: 47, 0.0, 0.3939393939393939, 0.0, 0.02702702702702703, 0.0
+url,SIMPLE_NAME, line no: 41,queryString.append(name).append("="),METHOD_INVOCATION, line no: 47, 0.0, 0.4090909090909091, 0.0, 0.05555555555555555, 0.0
+url,SIMPLE_NAME, line no: 41,queryString.append(name),METHOD_INVOCATION, line no: 47, 0.0, 0.42424242424242425, 0.0, 0.08333333333333333, 0.0
+url,SIMPLE_NAME, line no: 41,"=",STRING_LITERAL, line no: 47, 0.0, 0.42424242424242425, 1.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,URLEncoder.encode((value == null) ? "" : value.toString() "UTF-8"),METHOD_INVOCATION, line no: 47, 0.0, 0.4090909090909091, 1.0, 0.030303030303030304, 0.0
+url,SIMPLE_NAME, line no: 41,encode,SIMPLE_NAME, line no: 47, 0.0, 0.42424242424242425, 1.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,(value == null) ? "" : value.toString(),CONDITIONAL_EXPRESSION, line no: 47, 0.0, 0.4090909090909091, 1.0, 0.05128205128205128, 0.0
+url,SIMPLE_NAME, line no: 41,(value == null),PARENTHESIZED_EXPRESSION, line no: 47, 0.0, 0.4090909090909091, 0.0, 0.13333333333333333, 0.0
+url,SIMPLE_NAME, line no: 41,value == null,INFIX_EXPRESSION, line no: 47, 0.0, 0.4090909090909091, 0.0, 0.15384615384615385, 0.0
+url,SIMPLE_NAME, line no: 41,null,NULL_LITERAL, line no: 47, 0.0, 0.4090909090909091, 0.0, 0.5, 0.0
+url,SIMPLE_NAME, line no: 41,"",STRING_LITERAL, line no: 47, 0.0, 0.42424242424242425, 1.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,value.toString(),METHOD_INVOCATION, line no: 47, 0.0, 0.42424242424242425, 1.0, 0.125, 0.0
+url,SIMPLE_NAME, line no: 41,toString,SIMPLE_NAME, line no: 47, 0.0, 0.4393939393939394, 1.0, 0.125, 0.0
+url,SIMPLE_NAME, line no: 41,"UTF-8",STRING_LITERAL, line no: 47, 0.0, 0.42424242424242425, 1.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,e,SIMPLE_NAME, line no: 48, 0.0, 0.9545454545454546, 0.0, 0.0, 0.0
+url,SIMPLE_NAME, line no: 41,new RuntimeException(e),CLASS_INSTANCE_CREATION, line no: 49, 0.0, 0.09090909090909091, 0.0, 0.043478260869565216, 0.0
+url,SIMPLE_NAME, line no: 41,RuntimeException,SIMPLE_NAME, line no: 49, 0.0, 0.10606060606060606, 0.0, 0.0625, 0.0
+url,SIMPLE_NAME, line no: 41,queryString.toString(),METHOD_INVOCATION, line no: 51, 0.0, 0.9545454545454546, 1.0, 0.09090909090909091, 0.0
+contains,SIMPLE_NAME, line no: 41,com.mashape.unirest.request,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.18518518518518517, 0.0
+contains,SIMPLE_NAME, line no: 41,com.mashape.unirest,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.2631578947368421, 0.0
+contains,SIMPLE_NAME, line no: 41,com.mashape,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.36363636363636365, 0.0
+contains,SIMPLE_NAME, line no: 41,com,SIMPLE_NAME, line no: 26, 0.0, 0.015384615384615385, 0.0, 0.25, 0.0
+contains,SIMPLE_NAME, line no: 41,mashape,SIMPLE_NAME, line no: 26, 0.0, 0.015384615384615385, 0.0, 0.25, 0.0
+contains,SIMPLE_NAME, line no: 41,unirest,SIMPLE_NAME, line no: 26, 0.0, 0.015384615384615385, 0.0, 0.375, 0.0
+contains,SIMPLE_NAME, line no: 41,request,SIMPLE_NAME, line no: 26, 0.0, 0.015384615384615385, 0.0, 0.125, 0.0
+contains,SIMPLE_NAME, line no: 41,java.io.UnsupportedEncodingException,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.16666666666666666, 0.0
+contains,SIMPLE_NAME, line no: 41,java.io,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.25, 0.0
+contains,SIMPLE_NAME, line no: 41,java,SIMPLE_NAME, line no: 28, 0.0, 0.015384615384615385, 0.0, 0.125, 0.0
+contains,SIMPLE_NAME, line no: 41,io,SIMPLE_NAME, line no: 28, 0.0, 0.015384615384615385, 0.0, 0.125, 0.0
+contains,SIMPLE_NAME, line no: 41,UnsupportedEncodingException,SIMPLE_NAME, line no: 28, 0.0, 0.015384615384615385, 0.0, 0.21428571428571427, 0.0
+contains,SIMPLE_NAME, line no: 41,java.net.URLEncoder,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.15789473684210525, 0.0
+contains,SIMPLE_NAME, line no: 41,java.net,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.25, 0.0
+contains,SIMPLE_NAME, line no: 41,net,SIMPLE_NAME, line no: 29, 0.0, 0.015384615384615385, 0.0, 0.25, 0.0
+contains,SIMPLE_NAME, line no: 41,URLEncoder,SIMPLE_NAME, line no: 29, 0.0, 0.015384615384615385, 0.0, 0.2, 0.0
+contains,SIMPLE_NAME, line no: 41,com.mashape.unirest.http.HttpMethod,QUALIFIED_NAME, line no: 31, 0.0, 0.0, 0.0, 0.14285714285714285, 0.0
+contains,SIMPLE_NAME, line no: 41,com.mashape.unirest.http,QUALIFIED_NAME, line no: 31, 0.0, 0.0, 0.0, 0.20833333333333334, 0.0
+contains,SIMPLE_NAME, line no: 41,http,SIMPLE_NAME, line no: 31, 0.0, 0.015384615384615385, 0.0, 0.125, 0.0
+contains,SIMPLE_NAME, line no: 41,HttpMethod,SIMPLE_NAME, line no: 31, 0.0, 0.015384615384615385, 0.0, 0.1, 0.0
+contains,SIMPLE_NAME, line no: 41,GetRequest,SIMPLE_NAME, line no: 33, 0.0, 0.015384615384615385, 0.0, 0.2, 0.0
+contains,SIMPLE_NAME, line no: 41,HttpRequest,SIMPLE_NAME, line no: 33, 0.0, 0.015384615384615385, 0.0, 0.18181818181818182, 0.0
+contains,SIMPLE_NAME, line no: 41,method,SIMPLE_NAME, line no: 35, 0.0, 0.015384615384615385, 0.0, 0.125, 0.0
+contains,SIMPLE_NAME, line no: 41,String,SIMPLE_NAME, line no: 35, 0.0, 0.015384615384615385, 0.0, 0.375, 0.0
+contains,SIMPLE_NAME, line no: 41,url,SIMPLE_NAME, line no: 35, 0.0, 0.015384615384615385, 0.0, 0.0, 0.0
+contains,SIMPLE_NAME, line no: 41,field,SIMPLE_NAME, line no: 39, 0.0, 0.015384615384615385, 0.0, 0.125, 0.0
+contains,SIMPLE_NAME, line no: 41,name,SIMPLE_NAME, line no: 39, 0.0, 0.015384615384615385, 0.0, 0.25, 0.0
+contains,SIMPLE_NAME, line no: 41,Object,SIMPLE_NAME, line no: 39, 0.0, 0.015384615384615385, 0.0, 0.25, 0.0
+contains,SIMPLE_NAME, line no: 41,value,SIMPLE_NAME, line no: 39, 0.0, 0.015384615384615385, 0.0, 0.125, 0.0
+contains,SIMPLE_NAME, line no: 41,StringBuilder,SIMPLE_NAME, line no: 40, 0.0, 0.9692307692307692, 0.0, 0.23076923076923078, 0.0
+contains,SIMPLE_NAME, line no: 41,queryString,SIMPLE_NAME, line no: 40, 0.0, 0.9692307692307692, 0.0, 0.2727272727272727, 0.0
+contains,SIMPLE_NAME, line no: 41,new StringBuilder(),CLASS_INSTANCE_CREATION, line no: 40, 0.0, 0.9538461538461539, 0.0, 0.21052631578947367, 0.0
+contains,SIMPLE_NAME, line no: 41,this.url,FIELD_ACCESS, line no: 41, 0.0, 0.9846153846153847, 0.0, 0.375, 0.0
+contains,SIMPLE_NAME, line no: 41,this,THIS_EXPRESSION, line no: 41, 0.0, 0.9846153846153847, 0.0, 0.375, 0.0
+contains,SIMPLE_NAME, line no: 41,"\\?",STRING_LITERAL, line no: 41, 0.0, 0.9846153846153847, 0.0, 0.0, 0.0
+contains,SIMPLE_NAME, line no: 41,queryString.append("&"),METHOD_INVOCATION, line no: 42, 0.0, 0.12307692307692308, 0.0, 0.13043478260869565, 0.0
+contains,SIMPLE_NAME, line no: 41,append,SIMPLE_NAME, line no: 42, 0.0, 0.13846153846153847, 0.0, 0.25, 0.0
+contains,SIMPLE_NAME, line no: 41,"&",STRING_LITERAL, line no: 42, 0.0, 0.13846153846153847, 0.0, 0.0, 0.0
+contains,SIMPLE_NAME, line no: 41,queryString.append("?"),METHOD_INVOCATION, line no: 44, 0.0, 0.12307692307692308, 0.0, 0.13043478260869565, 0.0
+contains,SIMPLE_NAME, line no: 41,"?",STRING_LITERAL, line no: 44, 0.0, 0.13846153846153847, 0.0, 0.0, 0.0
+contains,SIMPLE_NAME, line no: 41,queryString.append(name).append("=").append(URLEncoder.encode((value == null) ? "" : value.toString() "UTF-8")),METHOD_INVOCATION, line no: 47, 0.0, 0.4, 0.0, 0.05405405405405406, 0.0
+contains,SIMPLE_NAME, line no: 41,queryString.append(name).append("="),METHOD_INVOCATION, line no: 47, 0.0, 0.4153846153846154, 0.0, 0.08333333333333333, 0.0
+contains,SIMPLE_NAME, line no: 41,queryString.append(name),METHOD_INVOCATION, line no: 47, 0.0, 0.4307692307692308, 0.0, 0.125, 0.0
+contains,SIMPLE_NAME, line no: 41,"=",STRING_LITERAL, line no: 47, 0.0, 0.4307692307692308, 0.0, 0.0, 0.0
+contains,SIMPLE_NAME, line no: 41,URLEncoder.encode((value == null) ? "" : value.toString() "UTF-8"),METHOD_INVOCATION, line no: 47, 0.0, 0.4153846153846154, 0.0, 0.09090909090909091, 0.0
+contains,SIMPLE_NAME, line no: 41,encode,SIMPLE_NAME, line no: 47, 0.0, 0.4307692307692308, 0.0, 0.25, 0.0
+contains,SIMPLE_NAME, line no: 41,(value == null) ? "" : value.toString(),CONDITIONAL_EXPRESSION, line no: 47, 0.0, 0.4153846153846154, 0.0, 0.10256410256410256, 0.0
+contains,SIMPLE_NAME, line no: 41,(value == null),PARENTHESIZED_EXPRESSION, line no: 47, 0.0, 0.4153846153846154, 1.0, 0.13333333333333333, 0.0
+contains,SIMPLE_NAME, line no: 41,value == null,INFIX_EXPRESSION, line no: 47, 0.0, 0.4153846153846154, 1.0, 0.15384615384615385, 0.0
+contains,SIMPLE_NAME, line no: 41,null,NULL_LITERAL, line no: 47, 0.0, 0.4153846153846154, 0.0, 0.125, 0.0
+contains,SIMPLE_NAME, line no: 41,"",STRING_LITERAL, line no: 47, 0.0, 0.4307692307692308, 0.0, 0.0, 0.0
+contains,SIMPLE_NAME, line no: 41,value.toString(),METHOD_INVOCATION, line no: 47, 0.0, 0.4307692307692308, 0.0, 0.25, 0.0
+contains,SIMPLE_NAME, line no: 41,toString,SIMPLE_NAME, line no: 47, 0.0, 0.4461538461538462, 0.0, 0.5, 0.0
+contains,SIMPLE_NAME, line no: 41,"UTF-8",STRING_LITERAL, line no: 47, 0.0, 0.4307692307692308, 0.0, 0.0, 0.0
+contains,SIMPLE_NAME, line no: 41,e,SIMPLE_NAME, line no: 48, 0.0, 0.9692307692307692, 0.0, 0.0, 0.0
+contains,SIMPLE_NAME, line no: 41,new RuntimeException(e),CLASS_INSTANCE_CREATION, line no: 49, 0.0, 0.09230769230769231, 0.0, 0.17391304347826086, 0.0
+contains,SIMPLE_NAME, line no: 41,RuntimeException,SIMPLE_NAME, line no: 49, 0.0, 0.1076923076923077, 0.0, 0.25, 0.0
+contains,SIMPLE_NAME, line no: 41,this.url+=queryString.toString(),ASSIGNMENT, line no: 51, 0.0, 0.9538461538461539, 0.0, 0.125, 0.0
+contains,SIMPLE_NAME, line no: 41,queryString.toString(),METHOD_INVOCATION, line no: 51, 0.0, 0.9692307692307692, 0.0, 0.18181818181818182, 0.0
+"\\?",STRING_LITERAL, line no: 41,com.mashape.unirest.request,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,com.mashape.unirest,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,com.mashape,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,com,SIMPLE_NAME, line no: 26, 0.0, 0.015384615384615385, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,mashape,SIMPLE_NAME, line no: 26, 0.0, 0.015384615384615385, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,unirest,SIMPLE_NAME, line no: 26, 0.0, 0.015384615384615385, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,request,SIMPLE_NAME, line no: 26, 0.0, 0.015384615384615385, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,java.io.UnsupportedEncodingException,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,java.io,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,java,SIMPLE_NAME, line no: 28, 0.0, 0.015384615384615385, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,io,SIMPLE_NAME, line no: 28, 0.0, 0.015384615384615385, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,UnsupportedEncodingException,SIMPLE_NAME, line no: 28, 0.0, 0.015384615384615385, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,java.net.URLEncoder,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,java.net,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,net,SIMPLE_NAME, line no: 29, 0.0, 0.015384615384615385, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,URLEncoder,SIMPLE_NAME, line no: 29, 0.0, 0.015384615384615385, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,com.mashape.unirest.http.HttpMethod,QUALIFIED_NAME, line no: 31, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,com.mashape.unirest.http,QUALIFIED_NAME, line no: 31, 0.0, 0.0, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,http,SIMPLE_NAME, line no: 31, 0.0, 0.015384615384615385, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,HttpMethod,SIMPLE_NAME, line no: 31, 0.0, 0.015384615384615385, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,GetRequest,SIMPLE_NAME, line no: 33, 0.0, 0.015384615384615385, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,HttpRequest,SIMPLE_NAME, line no: 33, 0.0, 0.015384615384615385, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,method,SIMPLE_NAME, line no: 35, 0.0, 0.015384615384615385, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,String,SIMPLE_NAME, line no: 35, 0.0, 0.015384615384615385, 1.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,url,SIMPLE_NAME, line no: 35, 0.0, 0.015384615384615385, 1.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,field,SIMPLE_NAME, line no: 39, 0.0, 0.015384615384615385, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,name,SIMPLE_NAME, line no: 39, 0.0, 0.015384615384615385, 1.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,Object,SIMPLE_NAME, line no: 39, 0.0, 0.015384615384615385, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,value,SIMPLE_NAME, line no: 39, 0.0, 0.015384615384615385, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,StringBuilder,SIMPLE_NAME, line no: 40, 0.0, 0.9538461538461539, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,queryString,SIMPLE_NAME, line no: 40, 0.0, 0.9538461538461539, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,new StringBuilder(),CLASS_INSTANCE_CREATION, line no: 40, 0.0, 0.9538461538461539, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,this.url,FIELD_ACCESS, line no: 41, 0.0, 0.9846153846153847, 1.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,this,THIS_EXPRESSION, line no: 41, 0.0, 0.9846153846153847, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,contains,SIMPLE_NAME, line no: 41, 0.0, 0.9846153846153847, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,queryString.append("&"),METHOD_INVOCATION, line no: 42, 0.0, 0.12307692307692308, 0.0, 0.08695652173913043, 0.0
+"\\?",STRING_LITERAL, line no: 41,append,SIMPLE_NAME, line no: 42, 0.0, 0.13846153846153847, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,"&",STRING_LITERAL, line no: 42, 0.0, 0.13846153846153847, 1.0, 0.4, 0.0
+"\\?",STRING_LITERAL, line no: 41,queryString.append("?"),METHOD_INVOCATION, line no: 44, 0.0, 0.12307692307692308, 0.0, 0.13043478260869565, 0.0
+"\\?",STRING_LITERAL, line no: 41,"?",STRING_LITERAL, line no: 44, 0.0, 0.13846153846153847, 1.0, 0.6, 0.0
+"\\?",STRING_LITERAL, line no: 41,queryString.append(name).append("=").append(URLEncoder.encode((value == null) ? "" : value.toString() "UTF-8")),METHOD_INVOCATION, line no: 47, 0.0, 0.4, 0.0, 0.02702702702702703, 0.0
+"\\?",STRING_LITERAL, line no: 41,queryString.append(name).append("="),METHOD_INVOCATION, line no: 47, 0.0, 0.4153846153846154, 0.0, 0.05555555555555555, 0.0
+"\\?",STRING_LITERAL, line no: 41,queryString.append(name),METHOD_INVOCATION, line no: 47, 0.0, 0.4307692307692308, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,"=",STRING_LITERAL, line no: 47, 0.0, 0.4307692307692308, 1.0, 0.4, 0.0
+"\\?",STRING_LITERAL, line no: 41,URLEncoder.encode((value == null) ? "" : value.toString() "UTF-8"),METHOD_INVOCATION, line no: 47, 0.0, 0.4153846153846154, 1.0, 0.030303030303030304, 0.0
+"\\?",STRING_LITERAL, line no: 41,encode,SIMPLE_NAME, line no: 47, 0.0, 0.4307692307692308, 1.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,(value == null) ? "" : value.toString(),CONDITIONAL_EXPRESSION, line no: 47, 0.0, 0.4153846153846154, 1.0, 0.05128205128205128, 0.0
+"\\?",STRING_LITERAL, line no: 41,(value == null),PARENTHESIZED_EXPRESSION, line no: 47, 0.0, 0.4153846153846154, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,value == null,INFIX_EXPRESSION, line no: 47, 0.0, 0.4153846153846154, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,null,NULL_LITERAL, line no: 47, 0.0, 0.4153846153846154, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,"",STRING_LITERAL, line no: 47, 0.0, 0.4307692307692308, 1.0, 0.4, 0.0
+"\\?",STRING_LITERAL, line no: 41,value.toString(),METHOD_INVOCATION, line no: 47, 0.0, 0.4307692307692308, 1.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,toString,SIMPLE_NAME, line no: 47, 0.0, 0.4461538461538462, 1.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,"UTF-8",STRING_LITERAL, line no: 47, 0.0, 0.4307692307692308, 1.0, 0.2857142857142857, 0.0
+"\\?",STRING_LITERAL, line no: 41,e,SIMPLE_NAME, line no: 48, 0.0, 0.9538461538461539, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,new RuntimeException(e),CLASS_INSTANCE_CREATION, line no: 49, 0.0, 0.09230769230769231, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,RuntimeException,SIMPLE_NAME, line no: 49, 0.0, 0.1076923076923077, 0.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,this.url+=queryString.toString(),ASSIGNMENT, line no: 51, 0.0, 0.9538461538461539, 1.0, 0.0, 0.0
+"\\?",STRING_LITERAL, line no: 41,queryString.toString(),METHOD_INVOCATION, line no: 51, 0.0, 0.9692307692307692, 1.0, 0.0, 0.0

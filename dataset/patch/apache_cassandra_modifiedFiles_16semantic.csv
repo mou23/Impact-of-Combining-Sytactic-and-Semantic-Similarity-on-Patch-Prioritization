@@ -1,43 +1,1244 @@
-maxTimestamp,SIMPLE_NAME, line no: 275,MIN_VALUE,SIMPLE_NAME, line no: 275, 1.0, 1.0, 1.0, 0.8285714285714286
-Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,MIN_VALUE,SIMPLE_NAME, line no: 275, 1.0, 1.0, 1.0, 0.84
-MIN_VALUE,SIMPLE_NAME, line no: 275,maxTimestamp,SIMPLE_NAME, line no: 273, 0.96, 0.04, 1.0, 0.8
-MIN_VALUE,SIMPLE_NAME, line no: 275,Long.MIN_VALUE,QUALIFIED_NAME, line no: 275, 0.96, 0.96, 1.0, 0.84
-maxTimestamp,SIMPLE_NAME, line no: 275,Long.MIN_VALUE,QUALIFIED_NAME, line no: 275, 0.9583333333333334, 0.9583333333333334, 1.0, 0.72
-Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,maxTimestamp,SIMPLE_NAME, line no: 273, 0.9583333333333334, 0.041666666666666664, 1.0, 0.6933333333333334
-maxTimestamp,SIMPLE_NAME, line no: 275,max,SIMPLE_NAME, line no: 277, 0.9166666666666666, 0.9166666666666666, 1.0, 0.8428571428571429
-MIN_VALUE,SIMPLE_NAME, line no: 275,max,SIMPLE_NAME, line no: 277, 0.88, 0.88, 1.0, 0.835820895522388
-maxTimestamp,SIMPLE_NAME, line no: 275,cfComposite.getMarkedForDeleteAt(),METHOD_INVOCATION, line no: 232, 0.875, 0.875, 1.0, 0.5408163265306123
-maxTimestamp,SIMPLE_NAME, line no: 275,getMarkedForDeleteAt,SIMPLE_NAME, line no: 232, 0.875, 0.875, 1.0, 0.7307692307692307
-maxTimestamp,SIMPLE_NAME, line no: 275,getMarkedForDeleteAt(),METHOD_INVOCATION, line no: 232, 0.875, 0.875, 1.0, 0.5930232558139535
-maxTimestamp,SIMPLE_NAME, line no: 275,maxTimestamp=Math.max(maxTimestamp column.maxTimestamp()),ASSIGNMENT, line no: 277, 0.875, 0.875, 1.0, 0.543859649122807
-maxTimestamp,SIMPLE_NAME, line no: 275,Math.max(maxTimestamp column.maxTimestamp()),METHOD_INVOCATION, line no: 277, 0.875, 0.875, 1.0, 0.5740740740740741
-maxTimestamp,SIMPLE_NAME, line no: 275,column.maxTimestamp(),METHOD_INVOCATION, line no: 277, 0.875, 0.875, 1.0, 0.7294117647058823
-Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,max,SIMPLE_NAME, line no: 277, 0.875, 0.875, 1.0, 0.6933333333333334
-MIN_VALUE,SIMPLE_NAME, line no: 275,timestamp,SIMPLE_NAME, line no: 163, 0.84, 0.04, 1.0, 0.7761194029850746
-MIN_VALUE,SIMPLE_NAME, line no: 275,cfComposite.getMarkedForDeleteAt(),METHOD_INVOCATION, line no: 232, 0.84, 0.84, 1.0, 0.5102040816326531
-MIN_VALUE,SIMPLE_NAME, line no: 275,getMarkedForDeleteAt,SIMPLE_NAME, line no: 232, 0.84, 0.84, 1.0, 0.717948717948718
-MIN_VALUE,SIMPLE_NAME, line no: 275,getMarkedForDeleteAt(),METHOD_INVOCATION, line no: 232, 0.84, 0.84, 1.0, 0.5813953488372093
-MIN_VALUE,SIMPLE_NAME, line no: 275,maxTimestamp=Math.max(maxTimestamp column.maxTimestamp()),ASSIGNMENT, line no: 277, 0.84, 0.84, 1.0, 0.4473684210526316
-MIN_VALUE,SIMPLE_NAME, line no: 275,Math.max(maxTimestamp column.maxTimestamp()),METHOD_INVOCATION, line no: 277, 0.84, 0.84, 1.0, 0.4722222222222222
-MIN_VALUE,SIMPLE_NAME, line no: 275,column.maxTimestamp(),METHOD_INVOCATION, line no: 277, 0.84, 0.84, 1.0, 0.5882352941176471
-maxTimestamp,SIMPLE_NAME, line no: 275,timestamp,SIMPLE_NAME, line no: 163, 0.8333333333333334, 0.041666666666666664, 1.0, 0.8571428571428571
-Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,timestamp,SIMPLE_NAME, line no: 163, 0.8333333333333334, 0.041666666666666664, 1.0, 0.64
-Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,getMarkedForDeleteAt,SIMPLE_NAME, line no: 232, 0.8333333333333334, 0.8333333333333334, 1.0, 0.6794871794871795
-Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,value,SIMPLE_NAME, line no: 180, 0.75, 0.041666666666666664, 1.0, 0.64
-Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,currentTimeMillis,SIMPLE_NAME, line no: 183, 0.75, 0.75, 1.0, 0.6666666666666666
-MIN_VALUE,SIMPLE_NAME, line no: 275,value,SIMPLE_NAME, line no: 180, 0.72, 0.04, 1.0, 0.7761194029850746
-MIN_VALUE,SIMPLE_NAME, line no: 275,currentTimeMillis,SIMPLE_NAME, line no: 183, 0.72, 0.72, 1.0, 0.7066666666666667
-maxTimestamp,SIMPLE_NAME, line no: 275,value,SIMPLE_NAME, line no: 180, 0.7083333333333334, 0.041666666666666664, 1.0, 0.7714285714285715
-maxTimestamp,SIMPLE_NAME, line no: 275,currentTimeMillis,SIMPLE_NAME, line no: 183, 0.7083333333333334, 0.7083333333333334, 1.0, 0.76
-MIN_VALUE,SIMPLE_NAME, line no: 275,System.currentTimeMillis(),METHOD_INVOCATION, line no: 183, 0.68, 0.68, 1.0, 0.5222222222222223
-maxTimestamp,SIMPLE_NAME, line no: 275,System.currentTimeMillis(),METHOD_INVOCATION, line no: 183, 0.6666666666666666, 0.6666666666666666, 1.0, 0.5777777777777777
-maxTimestamp,SIMPLE_NAME, line no: 275,serializedSizeForSSTable,SIMPLE_NAME, line no: 349, 0.2916666666666667, 0.2916666666666667, 1.0, 0.6829268292682927
-Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,serializedSizeForSSTable,SIMPLE_NAME, line no: 349, 0.2916666666666667, 0.2916666666666667, 1.0, 0.5975609756097561
-MIN_VALUE,SIMPLE_NAME, line no: 275,serializedSizeForSSTable,SIMPLE_NAME, line no: 349, 0.28, 0.28, 1.0, 0.6341463414634146
-maxTimestamp,SIMPLE_NAME, line no: 275,serializedSizeForSSTable(),METHOD_INVOCATION, line no: 349, 0.25, 0.25, 1.0, 0.5555555555555556
-MIN_VALUE,SIMPLE_NAME, line no: 275,serializedSizeForSSTable(),METHOD_INVOCATION, line no: 349, 0.24, 0.24, 1.0, 0.5111111111111111
-maxTimestamp,SIMPLE_NAME, line no: 275,boolSize + intSize + serializedSizeForSSTable(),INFIX_EXPRESSION, line no: 347, 0.20833333333333334, 0.20833333333333334, 1.0, 0.45454545454545453
-MIN_VALUE,SIMPLE_NAME, line no: 275,boolSize + intSize + serializedSizeForSSTable(),INFIX_EXPRESSION, line no: 347, 0.2, 0.2, 1.0, 0.41818181818181815
-maxTimestamp,SIMPLE_NAME, line no: 275,serializedSize,SIMPLE_NAME, line no: 345, 0.041666666666666664, 0.041666666666666664, 1.0, 0.7916666666666666
-Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,serializedSize,SIMPLE_NAME, line no: 345, 0.041666666666666664, 0.041666666666666664, 1.0, 0.6666666666666666
-MIN_VALUE,SIMPLE_NAME, line no: 275,serializedSize,SIMPLE_NAME, line no: 345, 0.04, 0.04, 1.0, 0.75
+maxTimestamp,SIMPLE_NAME, line no: 275,MIN_VALUE,SIMPLE_NAME, line no: 275, 2.0, 1.0, 1.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,MIN_VALUE,SIMPLE_NAME, line no: 275, 2.0, 1.0, 1.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,maxTimestamp,SIMPLE_NAME, line no: 273, 1.96, 0.04, 1.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,Long.MIN_VALUE,QUALIFIED_NAME, line no: 275, 1.96, 0.96, 1.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,Long.MIN_VALUE,QUALIFIED_NAME, line no: 275, 1.9583333333333335, 0.9583333333333334, 1.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,maxTimestamp,SIMPLE_NAME, line no: 273, 1.9583333333333335, 0.041666666666666664, 1.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,max,SIMPLE_NAME, line no: 277, 1.9166666666666665, 0.9166666666666666, 1.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,max,SIMPLE_NAME, line no: 277, 1.88, 0.88, 1.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfComposite.getMarkedForDeleteAt(),METHOD_INVOCATION, line no: 232, 1.875, 0.875, 1.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,getMarkedForDeleteAt,SIMPLE_NAME, line no: 232, 1.875, 0.875, 1.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,getMarkedForDeleteAt(),METHOD_INVOCATION, line no: 232, 1.875, 0.875, 1.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,maxTimestamp=Math.max(maxTimestamp column.maxTimestamp()),ASSIGNMENT, line no: 277, 1.875, 0.875, 1.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,Math.max(maxTimestamp column.maxTimestamp()),METHOD_INVOCATION, line no: 277, 1.875, 0.875, 1.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,column.maxTimestamp(),METHOD_INVOCATION, line no: 277, 1.875, 0.875, 1.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,max,SIMPLE_NAME, line no: 277, 1.875, 0.875, 1.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,timestamp,SIMPLE_NAME, line no: 163, 1.8399999999999999, 0.04, 1.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfComposite.getMarkedForDeleteAt(),METHOD_INVOCATION, line no: 232, 1.8399999999999999, 0.84, 1.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,getMarkedForDeleteAt,SIMPLE_NAME, line no: 232, 1.8399999999999999, 0.84, 1.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,getMarkedForDeleteAt(),METHOD_INVOCATION, line no: 232, 1.8399999999999999, 0.84, 1.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,maxTimestamp=Math.max(maxTimestamp column.maxTimestamp()),ASSIGNMENT, line no: 277, 1.8399999999999999, 0.84, 1.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,Math.max(maxTimestamp column.maxTimestamp()),METHOD_INVOCATION, line no: 277, 1.8399999999999999, 0.84, 1.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,column.maxTimestamp(),METHOD_INVOCATION, line no: 277, 1.8399999999999999, 0.84, 1.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,timestamp,SIMPLE_NAME, line no: 163, 1.8333333333333335, 0.041666666666666664, 1.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,timestamp,SIMPLE_NAME, line no: 163, 1.8333333333333335, 0.041666666666666664, 1.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,getMarkedForDeleteAt,SIMPLE_NAME, line no: 232, 1.8333333333333335, 0.8333333333333334, 1.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,value,SIMPLE_NAME, line no: 163, 1.75, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,currentTimeMillis,SIMPLE_NAME, line no: 183, 1.75, 0.75, 1.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,value,SIMPLE_NAME, line no: 163, 1.72, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,currentTimeMillis,SIMPLE_NAME, line no: 183, 1.72, 0.72, 1.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,value,SIMPLE_NAME, line no: 163, 1.7083333333333335, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,currentTimeMillis,SIMPLE_NAME, line no: 183, 1.7083333333333335, 0.7083333333333334, 1.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,System.currentTimeMillis(),METHOD_INVOCATION, line no: 183, 1.6800000000000002, 0.68, 1.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,System.currentTimeMillis(),METHOD_INVOCATION, line no: 183, 1.6666666666666665, 0.6666666666666666, 1.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,serializedSizeForSSTable,SIMPLE_NAME, line no: 349, 1.2916666666666667, 0.2916666666666667, 1.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,serializedSizeForSSTable,SIMPLE_NAME, line no: 349, 1.2916666666666667, 0.2916666666666667, 1.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,serializedSizeForSSTable,SIMPLE_NAME, line no: 349, 1.28, 0.28, 1.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,serializedSizeForSSTable(),METHOD_INVOCATION, line no: 349, 1.25, 0.25, 1.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,serializedSizeForSSTable(),METHOD_INVOCATION, line no: 349, 1.24, 0.24, 1.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,boolSize + intSize + serializedSizeForSSTable(),INFIX_EXPRESSION, line no: 347, 1.2083333333333333, 0.20833333333333334, 1.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,boolSize + intSize + serializedSizeForSSTable(),INFIX_EXPRESSION, line no: 347, 1.2, 0.2, 1.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,serializedSize,SIMPLE_NAME, line no: 345, 1.0416666666666667, 0.041666666666666664, 1.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,serializedSize,SIMPLE_NAME, line no: 345, 1.0416666666666667, 0.041666666666666664, 1.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,serializedSize,SIMPLE_NAME, line no: 345, 1.04, 0.04, 1.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,Long,SIMPLE_NAME, line no: 275, 1.0, 1.0, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,Long,SIMPLE_NAME, line no: 275, 1.0, 1.0, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,MIN_VALUE,SIMPLE_NAME, line no: 275, 1.0, 1.0, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,Long,SIMPLE_NAME, line no: 275, 1.0, 1.0, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,maxTimestamp,SIMPLE_NAME, line no: 273, 0.96, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,Long.MIN_VALUE,QUALIFIED_NAME, line no: 275, 0.96, 0.96, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,column,SIMPLE_NAME, line no: 172, 0.92, 0.92, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,column,SIMPLE_NAME, line no: 172, 0.92, 0.92, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,ColumnFamily,SIMPLE_NAME, line no: 36, 0.9166666666666666, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfm,SIMPLE_NAME, line no: 40, 0.9166666666666666, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,create,SIMPLE_NAME, line no: 47, 0.9166666666666666, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,factory,SIMPLE_NAME, line no: 52, 0.9166666666666666, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,reversedInsertOrder,SIMPLE_NAME, line no: 72, 0.9166666666666666, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cf,SIMPLE_NAME, line no: 86, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,columns,SIMPLE_NAME, line no: 94, 0.9166666666666666, 0.375, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,metadata,SIMPLE_NAME, line no: 124, 0.9166666666666666, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,IColumn,SIMPLE_NAME, line no: 151, 0.9166666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,metadata(),METHOD_INVOCATION, line no: 171, 0.9166666666666666, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,column,SIMPLE_NAME, line no: 172, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfDiff,SIMPLE_NAME, line no: 231, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,ColumnFamily.create(cfm),METHOD_INVOCATION, line no: 231, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,Math,SIMPLE_NAME, line no: 277, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,StringBuilder,SIMPLE_NAME, line no: 293, 0.9166666666666666, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,sb,SIMPLE_NAME, line no: 293, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,new StringBuilder("ColumnFamily("),CLASS_INSTANCE_CREATION, line no: 293, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,"ColumnFamily(",STRING_LITERAL, line no: 293, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,column,SIMPLE_NAME, line no: 172, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,ColumnFamily,SIMPLE_NAME, line no: 36, 0.88, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfm,SIMPLE_NAME, line no: 40, 0.88, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,create,SIMPLE_NAME, line no: 47, 0.88, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,factory,SIMPLE_NAME, line no: 52, 0.88, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfName,SIMPLE_NAME, line no: 57, 0.88, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,reversedInsertOrder,SIMPLE_NAME, line no: 72, 0.88, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cf,SIMPLE_NAME, line no: 86, 0.88, 0.88, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,columns,SIMPLE_NAME, line no: 94, 0.88, 0.36, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,metadata,SIMPLE_NAME, line no: 124, 0.88, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,IColumn,SIMPLE_NAME, line no: 151, 0.88, 0.64, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,metadata(),METHOD_INVOCATION, line no: 171, 0.88, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,Column,SIMPLE_NAME, line no: 172, 0.88, 0.88, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfDiff,SIMPLE_NAME, line no: 231, 0.88, 0.88, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,ColumnFamily.create(cfm),METHOD_INVOCATION, line no: 231, 0.88, 0.88, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,Math,SIMPLE_NAME, line no: 277, 0.88, 0.88, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,max,SIMPLE_NAME, line no: 277, 0.88, 0.88, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,StringBuilder,SIMPLE_NAME, line no: 293, 0.88, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,sb,SIMPLE_NAME, line no: 293, 0.88, 0.88, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,new StringBuilder("ColumnFamily("),CLASS_INSTANCE_CREATION, line no: 293, 0.88, 0.88, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,"ColumnFamily(",STRING_LITERAL, line no: 293, 0.88, 0.88, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfm.cfName,QUALIFIED_NAME, line no: 295, 0.88, 0.88, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,ColumnFamily,SIMPLE_NAME, line no: 36, 0.88, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfm,SIMPLE_NAME, line no: 40, 0.88, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,create,SIMPLE_NAME, line no: 47, 0.88, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,factory,SIMPLE_NAME, line no: 52, 0.88, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfName,SIMPLE_NAME, line no: 57, 0.88, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,reversedInsertOrder,SIMPLE_NAME, line no: 72, 0.88, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cf,SIMPLE_NAME, line no: 86, 0.88, 0.88, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,columns,SIMPLE_NAME, line no: 94, 0.88, 0.36, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,metadata,SIMPLE_NAME, line no: 124, 0.88, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,IColumn,SIMPLE_NAME, line no: 151, 0.88, 0.64, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,metadata(),METHOD_INVOCATION, line no: 171, 0.88, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,Column,SIMPLE_NAME, line no: 172, 0.88, 0.88, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfDiff,SIMPLE_NAME, line no: 231, 0.88, 0.88, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,ColumnFamily.create(cfm),METHOD_INVOCATION, line no: 231, 0.88, 0.88, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,Math,SIMPLE_NAME, line no: 277, 0.88, 0.88, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,StringBuilder,SIMPLE_NAME, line no: 293, 0.88, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,sb,SIMPLE_NAME, line no: 293, 0.88, 0.88, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,new StringBuilder("ColumnFamily("),CLASS_INSTANCE_CREATION, line no: 293, 0.88, 0.88, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,"ColumnFamily(",STRING_LITERAL, line no: 293, 0.88, 0.88, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfm.cfName,QUALIFIED_NAME, line no: 295, 0.88, 0.88, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,CFMetaData,SIMPLE_NAME, line no: 26, 0.875, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfName,SIMPLE_NAME, line no: 57, 0.875, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,null,NULL_LITERAL, line no: 80, 0.875, 0.25, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,this,THIS_EXPRESSION, line no: 81, 0.875, 0.25, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,ColumnFamily.create(cfm factory reversedInsertOrder),METHOD_INVOCATION, line no: 86, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,getComparator,SIMPLE_NAME, line no: 100, 0.875, 0.5416666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cloneMe,SIMPLE_NAME, line no: 108, 0.875, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,id,SIMPLE_NAME, line no: 116, 0.875, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,c,SIMPLE_NAME, line no: 151, 0.875, 0.6666666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,Column,SIMPLE_NAME, line no: 172, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,name,SIMPLE_NAME, line no: 198, 0.875, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfComposite,SIMPLE_NAME, line no: 228, 0.875, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfComposite.id().equals(id()),METHOD_INVOCATION, line no: 230, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfComposite.id(),METHOD_INVOCATION, line no: 230, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,equals,SIMPLE_NAME, line no: 230, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,id(),METHOD_INVOCATION, line no: 230, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfComposite.getMarkedForDeleteAt() > getMarkedForDeleteAt(),INFIX_EXPRESSION, line no: 232, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,columnExternal,SIMPLE_NAME, line no: 240, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cName,SIMPLE_NAME, line no: 242, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,columnExternal.name(),METHOD_INVOCATION, line no: 242, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,columnInternal,SIMPLE_NAME, line no: 243, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,this.columns.getColumn(cName),METHOD_INVOCATION, line no: 243, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,this.columns,FIELD_ACCESS, line no: 243, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,getColumn,SIMPLE_NAME, line no: 243, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,!cfDiff.isEmpty() || cfDiff.isMarkedForDelete(),INFIX_EXPRESSION, line no: 258, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,!cfDiff.isEmpty(),PREFIX_EXPRESSION, line no: 258, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfDiff.isEmpty(),METHOD_INVOCATION, line no: 258, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,isEmpty,SIMPLE_NAME, line no: 258, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfDiff.isMarkedForDelete(),METHOD_INVOCATION, line no: 258, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,isMarkedForDelete,SIMPLE_NAME, line no: 258, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,toString,SIMPLE_NAME, line no: 291, 0.875, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,sb.append(cfm == null ? "<anonymous>" : cfm.cfName),METHOD_INVOCATION, line no: 295, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,append,SIMPLE_NAME, line no: 295, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfm == null ? "<anonymous>" : cfm.cfName,CONDITIONAL_EXPRESSION, line no: 295, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfm == null,INFIX_EXPRESSION, line no: 295, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,"<anonymous>",STRING_LITERAL, line no: 295, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfm.cfName,QUALIFIED_NAME, line no: 295, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,isMarkedForDelete(),METHOD_INVOCATION, line no: 297, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,sb.append(" -deleted at ").append(getMarkedForDeleteAt()).append("-"),METHOD_INVOCATION, line no: 298, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,sb.append(" -deleted at ").append(getMarkedForDeleteAt()),METHOD_INVOCATION, line no: 298, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,sb.append(" -deleted at "),METHOD_INVOCATION, line no: 298, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275," -deleted at ",STRING_LITERAL, line no: 298, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,"-",STRING_LITERAL, line no: 298, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,sb.append(" [").append(getComparator().getColumnsString(getSortedColumns())).append("])"),METHOD_INVOCATION, line no: 300, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,sb.append(" [").append(getComparator().getColumnsString(getSortedColumns())),METHOD_INVOCATION, line no: 300, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,sb.append(" ["),METHOD_INVOCATION, line no: 300, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275," [",STRING_LITERAL, line no: 300, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,getComparator().getColumnsString(getSortedColumns()),METHOD_INVOCATION, line no: 300, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,getComparator(),METHOD_INVOCATION, line no: 300, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,getColumnsString,SIMPLE_NAME, line no: 300, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,getSortedColumns(),METHOD_INVOCATION, line no: 300, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,getSortedColumns,SIMPLE_NAME, line no: 300, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,"])",STRING_LITERAL, line no: 300, 0.875, 0.875, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,sb.toString(),METHOD_INVOCATION, line no: 301, 0.875, 0.875, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,ColumnFamily,SIMPLE_NAME, line no: 36, 0.875, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfm,SIMPLE_NAME, line no: 40, 0.875, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,create,SIMPLE_NAME, line no: 47, 0.875, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,factory,SIMPLE_NAME, line no: 52, 0.875, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfName,SIMPLE_NAME, line no: 57, 0.875, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,reversedInsertOrder,SIMPLE_NAME, line no: 72, 0.875, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cf,SIMPLE_NAME, line no: 86, 0.875, 0.875, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,ColumnFamily.create(cfm factory reversedInsertOrder),METHOD_INVOCATION, line no: 86, 0.875, 0.875, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,columns,SIMPLE_NAME, line no: 94, 0.875, 0.375, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cloneMe,SIMPLE_NAME, line no: 108, 0.875, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,metadata,SIMPLE_NAME, line no: 124, 0.875, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,IColumn,SIMPLE_NAME, line no: 151, 0.875, 0.6666666666666666, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,metadata(),METHOD_INVOCATION, line no: 171, 0.875, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,Column,SIMPLE_NAME, line no: 172, 0.875, 0.875, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfDiff,SIMPLE_NAME, line no: 231, 0.875, 0.875, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,ColumnFamily.create(cfm),METHOD_INVOCATION, line no: 231, 0.875, 0.875, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,maxTimestamp=Math.max(maxTimestamp column.maxTimestamp()),ASSIGNMENT, line no: 277, 0.875, 0.875, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,Math.max(maxTimestamp column.maxTimestamp()),METHOD_INVOCATION, line no: 277, 0.875, 0.875, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,Math,SIMPLE_NAME, line no: 277, 0.875, 0.875, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,column.maxTimestamp(),METHOD_INVOCATION, line no: 277, 0.875, 0.875, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,StringBuilder,SIMPLE_NAME, line no: 293, 0.875, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,sb,SIMPLE_NAME, line no: 293, 0.875, 0.875, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,new StringBuilder("ColumnFamily("),CLASS_INSTANCE_CREATION, line no: 293, 0.875, 0.875, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,"ColumnFamily(",STRING_LITERAL, line no: 293, 0.875, 0.875, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfm.cfName,QUALIFIED_NAME, line no: 295, 0.875, 0.875, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,CFMetaData,SIMPLE_NAME, line no: 26, 0.84, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,null,NULL_LITERAL, line no: 80, 0.84, 0.24, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,this,THIS_EXPRESSION, line no: 81, 0.84, 0.24, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,ColumnFamily.create(cfm factory reversedInsertOrder),METHOD_INVOCATION, line no: 86, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,deletionInfo,SIMPLE_NAME, line no: 88, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,getComparator,SIMPLE_NAME, line no: 100, 0.84, 0.52, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cloneMe,SIMPLE_NAME, line no: 108, 0.84, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,id,SIMPLE_NAME, line no: 116, 0.84, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,c,SIMPLE_NAME, line no: 151, 0.84, 0.64, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,addColumn,SIMPLE_NAME, line no: 153, 0.84, 0.44, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,path,SIMPLE_NAME, line no: 163, 0.84, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,value,SIMPLE_NAME, line no: 163, 0.84, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,timestamp,SIMPLE_NAME, line no: 163, 0.84, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,0,NUMBER_LITERAL, line no: 165, 0.84, 0.28, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,timeToLive,SIMPLE_NAME, line no: 168, 0.84, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,path.columnName != null,INFIX_EXPRESSION, line no: 170, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,path.columnName,QUALIFIED_NAME, line no: 170, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,columnName,SIMPLE_NAME, line no: 170, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,!metadata().getDefaultValidator().isCommutative(),PREFIX_EXPRESSION, line no: 171, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,metadata().getDefaultValidator().isCommutative(),METHOD_INVOCATION, line no: 171, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,metadata().getDefaultValidator(),METHOD_INVOCATION, line no: 171, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,getDefaultValidator,SIMPLE_NAME, line no: 171, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,isCommutative,SIMPLE_NAME, line no: 171, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,timeToLive > 0,INFIX_EXPRESSION, line no: 173, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,column=new ExpiringColumn(path.columnName value timestamp timeToLive),ASSIGNMENT, line no: 174, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,new ExpiringColumn(path.columnName value timestamp timeToLive),CLASS_INSTANCE_CREATION, line no: 174, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,ExpiringColumn,SIMPLE_NAME, line no: 174, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,column=new Column(path.columnName value timestamp),ASSIGNMENT, line no: 176, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,new Column(path.columnName value timestamp),CLASS_INSTANCE_CREATION, line no: 176, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,addColumn(path.superColumnName column),METHOD_INVOCATION, line no: 177, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,path.superColumnName,QUALIFIED_NAME, line no: 177, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,superColumnName,SIMPLE_NAME, line no: 177, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,name,SIMPLE_NAME, line no: 198, 0.84, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfComposite,SIMPLE_NAME, line no: 228, 0.84, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfComposite.id().equals(id()),METHOD_INVOCATION, line no: 230, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfComposite.id(),METHOD_INVOCATION, line no: 230, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,equals,SIMPLE_NAME, line no: 230, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,id(),METHOD_INVOCATION, line no: 230, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfComposite.getMarkedForDeleteAt() > getMarkedForDeleteAt(),INFIX_EXPRESSION, line no: 232, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfComposite.getMarkedForDeleteAt(),METHOD_INVOCATION, line no: 232, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,getMarkedForDeleteAt,SIMPLE_NAME, line no: 232, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,getMarkedForDeleteAt(),METHOD_INVOCATION, line no: 232, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,columnExternal,SIMPLE_NAME, line no: 240, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cName,SIMPLE_NAME, line no: 242, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,columnExternal.name(),METHOD_INVOCATION, line no: 242, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,columnInternal,SIMPLE_NAME, line no: 243, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,this.columns.getColumn(cName),METHOD_INVOCATION, line no: 243, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,this.columns,FIELD_ACCESS, line no: 243, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,getColumn,SIMPLE_NAME, line no: 243, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,!cfDiff.isEmpty() || cfDiff.isMarkedForDelete(),INFIX_EXPRESSION, line no: 258, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,!cfDiff.isEmpty(),PREFIX_EXPRESSION, line no: 258, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfDiff.isEmpty(),METHOD_INVOCATION, line no: 258, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,isEmpty,SIMPLE_NAME, line no: 258, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfDiff.isMarkedForDelete(),METHOD_INVOCATION, line no: 258, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,isMarkedForDelete,SIMPLE_NAME, line no: 258, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,maxTimestamp=Math.max(maxTimestamp column.maxTimestamp()),ASSIGNMENT, line no: 277, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,Math.max(maxTimestamp column.maxTimestamp()),METHOD_INVOCATION, line no: 277, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,column.maxTimestamp(),METHOD_INVOCATION, line no: 277, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,toString,SIMPLE_NAME, line no: 291, 0.84, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,sb.append(cfm == null ? "<anonymous>" : cfm.cfName),METHOD_INVOCATION, line no: 295, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,append,SIMPLE_NAME, line no: 295, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfm == null ? "<anonymous>" : cfm.cfName,CONDITIONAL_EXPRESSION, line no: 295, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfm == null,INFIX_EXPRESSION, line no: 295, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,"<anonymous>",STRING_LITERAL, line no: 295, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,isMarkedForDelete(),METHOD_INVOCATION, line no: 297, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,sb.append(" -deleted at ").append(getMarkedForDeleteAt()).append("-"),METHOD_INVOCATION, line no: 298, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,sb.append(" -deleted at ").append(getMarkedForDeleteAt()),METHOD_INVOCATION, line no: 298, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,sb.append(" -deleted at "),METHOD_INVOCATION, line no: 298, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275," -deleted at ",STRING_LITERAL, line no: 298, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,"-",STRING_LITERAL, line no: 298, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,sb.append(" [").append(getComparator().getColumnsString(getSortedColumns())).append("])"),METHOD_INVOCATION, line no: 300, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,sb.append(" [").append(getComparator().getColumnsString(getSortedColumns())),METHOD_INVOCATION, line no: 300, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,sb.append(" ["),METHOD_INVOCATION, line no: 300, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275," [",STRING_LITERAL, line no: 300, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,getComparator().getColumnsString(getSortedColumns()),METHOD_INVOCATION, line no: 300, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,getComparator(),METHOD_INVOCATION, line no: 300, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,getColumnsString,SIMPLE_NAME, line no: 300, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,getSortedColumns(),METHOD_INVOCATION, line no: 300, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,getSortedColumns,SIMPLE_NAME, line no: 300, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,"])",STRING_LITERAL, line no: 300, 0.84, 0.84, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,sb.toString(),METHOD_INVOCATION, line no: 301, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,CFMetaData,SIMPLE_NAME, line no: 26, 0.84, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,null,NULL_LITERAL, line no: 80, 0.84, 0.24, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,this,THIS_EXPRESSION, line no: 81, 0.84, 0.24, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,ColumnFamily.create(cfm factory reversedInsertOrder),METHOD_INVOCATION, line no: 86, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,deletionInfo,SIMPLE_NAME, line no: 88, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,getComparator,SIMPLE_NAME, line no: 100, 0.84, 0.52, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cloneMe,SIMPLE_NAME, line no: 108, 0.84, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,id,SIMPLE_NAME, line no: 116, 0.84, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,c,SIMPLE_NAME, line no: 151, 0.84, 0.64, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,addColumn,SIMPLE_NAME, line no: 153, 0.84, 0.44, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,path,SIMPLE_NAME, line no: 163, 0.84, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,0,NUMBER_LITERAL, line no: 165, 0.84, 0.28, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,timeToLive,SIMPLE_NAME, line no: 168, 0.84, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,path.columnName != null,INFIX_EXPRESSION, line no: 170, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,path.columnName,QUALIFIED_NAME, line no: 170, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,columnName,SIMPLE_NAME, line no: 170, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,!metadata().getDefaultValidator().isCommutative(),PREFIX_EXPRESSION, line no: 171, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,metadata().getDefaultValidator().isCommutative(),METHOD_INVOCATION, line no: 171, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,metadata().getDefaultValidator(),METHOD_INVOCATION, line no: 171, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,getDefaultValidator,SIMPLE_NAME, line no: 171, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,isCommutative,SIMPLE_NAME, line no: 171, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,timeToLive > 0,INFIX_EXPRESSION, line no: 173, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,column=new ExpiringColumn(path.columnName value timestamp timeToLive),ASSIGNMENT, line no: 174, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,new ExpiringColumn(path.columnName value timestamp timeToLive),CLASS_INSTANCE_CREATION, line no: 174, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,ExpiringColumn,SIMPLE_NAME, line no: 174, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,column=new Column(path.columnName value timestamp),ASSIGNMENT, line no: 176, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,new Column(path.columnName value timestamp),CLASS_INSTANCE_CREATION, line no: 176, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,addColumn(path.superColumnName column),METHOD_INVOCATION, line no: 177, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,path.superColumnName,QUALIFIED_NAME, line no: 177, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,superColumnName,SIMPLE_NAME, line no: 177, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,name,SIMPLE_NAME, line no: 198, 0.84, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfComposite,SIMPLE_NAME, line no: 228, 0.84, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfComposite.id().equals(id()),METHOD_INVOCATION, line no: 230, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfComposite.id(),METHOD_INVOCATION, line no: 230, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,equals,SIMPLE_NAME, line no: 230, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,id(),METHOD_INVOCATION, line no: 230, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfComposite.getMarkedForDeleteAt() > getMarkedForDeleteAt(),INFIX_EXPRESSION, line no: 232, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,columnExternal,SIMPLE_NAME, line no: 240, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cName,SIMPLE_NAME, line no: 242, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,columnExternal.name(),METHOD_INVOCATION, line no: 242, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,columnInternal,SIMPLE_NAME, line no: 243, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,this.columns.getColumn(cName),METHOD_INVOCATION, line no: 243, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,this.columns,FIELD_ACCESS, line no: 243, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,getColumn,SIMPLE_NAME, line no: 243, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,!cfDiff.isEmpty() || cfDiff.isMarkedForDelete(),INFIX_EXPRESSION, line no: 258, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,!cfDiff.isEmpty(),PREFIX_EXPRESSION, line no: 258, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfDiff.isEmpty(),METHOD_INVOCATION, line no: 258, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,isEmpty,SIMPLE_NAME, line no: 258, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfDiff.isMarkedForDelete(),METHOD_INVOCATION, line no: 258, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,isMarkedForDelete,SIMPLE_NAME, line no: 258, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,toString,SIMPLE_NAME, line no: 291, 0.84, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,sb.append(cfm == null ? "<anonymous>" : cfm.cfName),METHOD_INVOCATION, line no: 295, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,append,SIMPLE_NAME, line no: 295, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfm == null ? "<anonymous>" : cfm.cfName,CONDITIONAL_EXPRESSION, line no: 295, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfm == null,INFIX_EXPRESSION, line no: 295, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,"<anonymous>",STRING_LITERAL, line no: 295, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,isMarkedForDelete(),METHOD_INVOCATION, line no: 297, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,sb.append(" -deleted at ").append(getMarkedForDeleteAt()).append("-"),METHOD_INVOCATION, line no: 298, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,sb.append(" -deleted at ").append(getMarkedForDeleteAt()),METHOD_INVOCATION, line no: 298, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,sb.append(" -deleted at "),METHOD_INVOCATION, line no: 298, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275," -deleted at ",STRING_LITERAL, line no: 298, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,"-",STRING_LITERAL, line no: 298, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,sb.append(" [").append(getComparator().getColumnsString(getSortedColumns())).append("])"),METHOD_INVOCATION, line no: 300, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,sb.append(" [").append(getComparator().getColumnsString(getSortedColumns())),METHOD_INVOCATION, line no: 300, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,sb.append(" ["),METHOD_INVOCATION, line no: 300, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275," [",STRING_LITERAL, line no: 300, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,getComparator().getColumnsString(getSortedColumns()),METHOD_INVOCATION, line no: 300, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,getComparator(),METHOD_INVOCATION, line no: 300, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,getColumnsString,SIMPLE_NAME, line no: 300, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,getSortedColumns(),METHOD_INVOCATION, line no: 300, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,getSortedColumns,SIMPLE_NAME, line no: 300, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,"])",STRING_LITERAL, line no: 300, 0.84, 0.84, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,sb.toString(),METHOD_INVOCATION, line no: 301, 0.84, 0.84, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,ByteBuffer,SIMPLE_NAME, line no: 23, 0.8333333333333334, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,FBUtilities,SIMPLE_NAME, line no: 33, 0.8333333333333334, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,deletionInfo,SIMPLE_NAME, line no: 88, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,set,SIMPLE_NAME, line no: 88, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,get,SIMPLE_NAME, line no: 88, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,new ColumnFamily(cfm columns.cloneMe()),CLASS_INSTANCE_CREATION, line no: 110, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,columns.cloneMe(),METHOD_INVOCATION, line no: 110, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,addColumn,SIMPLE_NAME, line no: 153, 0.8333333333333334, 0.4583333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,path,SIMPLE_NAME, line no: 163, 0.8333333333333334, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,0,NUMBER_LITERAL, line no: 165, 0.8333333333333334, 0.2916666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,timeToLive,SIMPLE_NAME, line no: 168, 0.8333333333333334, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,path.columnName != null,INFIX_EXPRESSION, line no: 170, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,path.columnName,QUALIFIED_NAME, line no: 170, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,columnName,SIMPLE_NAME, line no: 170, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,!metadata().getDefaultValidator().isCommutative(),PREFIX_EXPRESSION, line no: 171, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,metadata().getDefaultValidator().isCommutative(),METHOD_INVOCATION, line no: 171, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,metadata().getDefaultValidator(),METHOD_INVOCATION, line no: 171, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,getDefaultValidator,SIMPLE_NAME, line no: 171, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,isCommutative,SIMPLE_NAME, line no: 171, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,timeToLive > 0,INFIX_EXPRESSION, line no: 173, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,column=new ExpiringColumn(path.columnName value timestamp timeToLive),ASSIGNMENT, line no: 174, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,new ExpiringColumn(path.columnName value timestamp timeToLive),CLASS_INSTANCE_CREATION, line no: 174, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,ExpiringColumn,SIMPLE_NAME, line no: 174, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,column=new Column(path.columnName value timestamp),ASSIGNMENT, line no: 176, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,new Column(path.columnName value timestamp),CLASS_INSTANCE_CREATION, line no: 176, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,addColumn(path.superColumnName column),METHOD_INVOCATION, line no: 177, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,path.superColumnName,QUALIFIED_NAME, line no: 177, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,superColumnName,SIMPLE_NAME, line no: 177, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,columnInternal == null,INFIX_EXPRESSION, line no: 244, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,size,SIMPLE_NAME, line no: 263, 0.8333333333333334, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,digest,SIMPLE_NAME, line no: 304, 0.8333333333333334, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,threadLocalMD5Digest,SIMPLE_NAME, line no: 306, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,intSize,SIMPLE_NAME, line no: 348, 0.8333333333333334, 0.25, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,longSize,SIMPLE_NAME, line no: 355, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,CFMetaData,SIMPLE_NAME, line no: 26, 0.8333333333333334, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,FBUtilities,SIMPLE_NAME, line no: 33, 0.8333333333333334, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,null,NULL_LITERAL, line no: 80, 0.8333333333333334, 0.25, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,this,THIS_EXPRESSION, line no: 81, 0.8333333333333334, 0.25, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cf.deletionInfo,QUALIFIED_NAME, line no: 88, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,deletionInfo,SIMPLE_NAME, line no: 88, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,getComparator,SIMPLE_NAME, line no: 100, 0.8333333333333334, 0.5416666666666666, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,new ColumnFamily(cfm columns.cloneMe()),CLASS_INSTANCE_CREATION, line no: 110, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,columns.cloneMe(),METHOD_INVOCATION, line no: 110, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,id,SIMPLE_NAME, line no: 116, 0.8333333333333334, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,c,SIMPLE_NAME, line no: 151, 0.8333333333333334, 0.6666666666666666, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,addColumn,SIMPLE_NAME, line no: 153, 0.8333333333333334, 0.4583333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,path,SIMPLE_NAME, line no: 163, 0.8333333333333334, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,0,NUMBER_LITERAL, line no: 165, 0.8333333333333334, 0.2916666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,timeToLive,SIMPLE_NAME, line no: 168, 0.8333333333333334, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,path.columnName != null,INFIX_EXPRESSION, line no: 170, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,path.columnName,QUALIFIED_NAME, line no: 170, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,columnName,SIMPLE_NAME, line no: 170, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,!metadata().getDefaultValidator().isCommutative(),PREFIX_EXPRESSION, line no: 171, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,metadata().getDefaultValidator().isCommutative(),METHOD_INVOCATION, line no: 171, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,metadata().getDefaultValidator(),METHOD_INVOCATION, line no: 171, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,getDefaultValidator,SIMPLE_NAME, line no: 171, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,isCommutative,SIMPLE_NAME, line no: 171, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,timeToLive > 0,INFIX_EXPRESSION, line no: 173, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,column=new ExpiringColumn(path.columnName value timestamp timeToLive),ASSIGNMENT, line no: 174, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,new ExpiringColumn(path.columnName value timestamp timeToLive),CLASS_INSTANCE_CREATION, line no: 174, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,ExpiringColumn,SIMPLE_NAME, line no: 174, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,column=new Column(path.columnName value timestamp),ASSIGNMENT, line no: 176, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,new Column(path.columnName value timestamp),CLASS_INSTANCE_CREATION, line no: 176, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,addColumn(path.superColumnName column),METHOD_INVOCATION, line no: 177, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,path.superColumnName,QUALIFIED_NAME, line no: 177, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,superColumnName,SIMPLE_NAME, line no: 177, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,name,SIMPLE_NAME, line no: 198, 0.8333333333333334, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfComposite,SIMPLE_NAME, line no: 228, 0.8333333333333334, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfComposite.id().equals(id()),METHOD_INVOCATION, line no: 230, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfComposite.id(),METHOD_INVOCATION, line no: 230, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,equals,SIMPLE_NAME, line no: 230, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,id(),METHOD_INVOCATION, line no: 230, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfComposite.getMarkedForDeleteAt() > getMarkedForDeleteAt(),INFIX_EXPRESSION, line no: 232, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfComposite.getMarkedForDeleteAt(),METHOD_INVOCATION, line no: 232, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,getMarkedForDeleteAt(),METHOD_INVOCATION, line no: 232, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,columnExternal,SIMPLE_NAME, line no: 240, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cName,SIMPLE_NAME, line no: 242, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,columnExternal.name(),METHOD_INVOCATION, line no: 242, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,columnInternal,SIMPLE_NAME, line no: 243, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,this.columns.getColumn(cName),METHOD_INVOCATION, line no: 243, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,this.columns,FIELD_ACCESS, line no: 243, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,getColumn,SIMPLE_NAME, line no: 243, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,!cfDiff.isEmpty() || cfDiff.isMarkedForDelete(),INFIX_EXPRESSION, line no: 258, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,!cfDiff.isEmpty(),PREFIX_EXPRESSION, line no: 258, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfDiff.isEmpty(),METHOD_INVOCATION, line no: 258, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,isEmpty,SIMPLE_NAME, line no: 258, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfDiff.isMarkedForDelete(),METHOD_INVOCATION, line no: 258, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,isMarkedForDelete,SIMPLE_NAME, line no: 258, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,size,SIMPLE_NAME, line no: 263, 0.8333333333333334, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,toString,SIMPLE_NAME, line no: 291, 0.8333333333333334, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,sb.append(cfm == null ? "<anonymous>" : cfm.cfName),METHOD_INVOCATION, line no: 295, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,append,SIMPLE_NAME, line no: 295, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfm == null ? "<anonymous>" : cfm.cfName,CONDITIONAL_EXPRESSION, line no: 295, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfm == null,INFIX_EXPRESSION, line no: 295, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,"<anonymous>",STRING_LITERAL, line no: 295, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,isMarkedForDelete(),METHOD_INVOCATION, line no: 297, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,sb.append(" -deleted at ").append(getMarkedForDeleteAt()).append("-"),METHOD_INVOCATION, line no: 298, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,sb.append(" -deleted at ").append(getMarkedForDeleteAt()),METHOD_INVOCATION, line no: 298, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,sb.append(" -deleted at "),METHOD_INVOCATION, line no: 298, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275," -deleted at ",STRING_LITERAL, line no: 298, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,"-",STRING_LITERAL, line no: 298, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,sb.append(" [").append(getComparator().getColumnsString(getSortedColumns())).append("])"),METHOD_INVOCATION, line no: 300, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,sb.append(" [").append(getComparator().getColumnsString(getSortedColumns())),METHOD_INVOCATION, line no: 300, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,sb.append(" ["),METHOD_INVOCATION, line no: 300, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275," [",STRING_LITERAL, line no: 300, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,getComparator().getColumnsString(getSortedColumns()),METHOD_INVOCATION, line no: 300, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,getComparator(),METHOD_INVOCATION, line no: 300, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,getColumnsString,SIMPLE_NAME, line no: 300, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,getSortedColumns(),METHOD_INVOCATION, line no: 300, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,getSortedColumns,SIMPLE_NAME, line no: 300, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,"])",STRING_LITERAL, line no: 300, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,sb.toString(),METHOD_INVOCATION, line no: 301, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,digest,SIMPLE_NAME, line no: 304, 0.8333333333333334, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,threadLocalMD5Digest,SIMPLE_NAME, line no: 306, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,intSize,SIMPLE_NAME, line no: 348, 0.8333333333333334, 0.25, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,longSize,SIMPLE_NAME, line no: 355, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,ByteBuffer,SIMPLE_NAME, line no: 23, 0.8, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,FBUtilities,SIMPLE_NAME, line no: 33, 0.8, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cf.deletionInfo,QUALIFIED_NAME, line no: 88, 0.8, 0.8, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,set,SIMPLE_NAME, line no: 88, 0.8, 0.8, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,get,SIMPLE_NAME, line no: 88, 0.8, 0.8, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,new ColumnFamily(cfm columns.cloneMe()),CLASS_INSTANCE_CREATION, line no: 110, 0.8, 0.8, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,columns.cloneMe(),METHOD_INVOCATION, line no: 110, 0.8, 0.8, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,columnInternal == null,INFIX_EXPRESSION, line no: 244, 0.8, 0.8, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,size,SIMPLE_NAME, line no: 263, 0.8, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,digest,SIMPLE_NAME, line no: 304, 0.8, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,threadLocalMD5Digest,SIMPLE_NAME, line no: 306, 0.8, 0.8, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,intSize,SIMPLE_NAME, line no: 348, 0.8, 0.24, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,longSize,SIMPLE_NAME, line no: 355, 0.8, 0.8, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,ByteBuffer,SIMPLE_NAME, line no: 23, 0.8, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,FBUtilities,SIMPLE_NAME, line no: 33, 0.8, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cf.deletionInfo,QUALIFIED_NAME, line no: 88, 0.8, 0.8, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,set,SIMPLE_NAME, line no: 88, 0.8, 0.8, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,get,SIMPLE_NAME, line no: 88, 0.8, 0.8, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,new ColumnFamily(cfm columns.cloneMe()),CLASS_INSTANCE_CREATION, line no: 110, 0.8, 0.8, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,columns.cloneMe(),METHOD_INVOCATION, line no: 110, 0.8, 0.8, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,columnInternal == null,INFIX_EXPRESSION, line no: 244, 0.8, 0.8, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,size,SIMPLE_NAME, line no: 263, 0.8, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,digest,SIMPLE_NAME, line no: 304, 0.8, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,threadLocalMD5Digest,SIMPLE_NAME, line no: 306, 0.8, 0.8, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,intSize,SIMPLE_NAME, line no: 348, 0.8, 0.24, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,longSize,SIMPLE_NAME, line no: 355, 0.8, 0.8, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,MessageDigest,SIMPLE_NAME, line no: 24, 0.7916666666666666, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cf.deletionInfo.set(deletionInfo.get()),METHOD_INVOCATION, line no: 88, 0.7916666666666666, 0.7916666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cf.deletionInfo,QUALIFIED_NAME, line no: 88, 0.7916666666666666, 0.7916666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,deletionInfo.get(),METHOD_INVOCATION, line no: 88, 0.7916666666666666, 0.7916666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,superColumnName == null,INFIX_EXPRESSION, line no: 206, 0.7916666666666666, 0.7916666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,addColumn(c),METHOD_INVOCATION, line no: 216, 0.7916666666666666, 0.7916666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,FBUtilities.threadLocalMD5Digest(),METHOD_INVOCATION, line no: 306, 0.7916666666666666, 0.7916666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,intSize + longSize + intSize,INFIX_EXPRESSION, line no: 354, 0.7916666666666666, 0.7916666666666666, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,ByteBuffer,SIMPLE_NAME, line no: 23, 0.7916666666666666, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,MessageDigest,SIMPLE_NAME, line no: 24, 0.7916666666666666, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cf.deletionInfo.set(deletionInfo.get()),METHOD_INVOCATION, line no: 88, 0.7916666666666666, 0.7916666666666666, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,set,SIMPLE_NAME, line no: 88, 0.7916666666666666, 0.7916666666666666, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,deletionInfo.get(),METHOD_INVOCATION, line no: 88, 0.7916666666666666, 0.7916666666666666, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,get,SIMPLE_NAME, line no: 88, 0.7916666666666666, 0.7916666666666666, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,columnInternal == null,INFIX_EXPRESSION, line no: 244, 0.7916666666666666, 0.7916666666666666, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,FBUtilities.threadLocalMD5Digest(),METHOD_INVOCATION, line no: 306, 0.7916666666666666, 0.7916666666666666, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,intSize + longSize + intSize,INFIX_EXPRESSION, line no: 354, 0.7916666666666666, 0.7916666666666666, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,MessageDigest,SIMPLE_NAME, line no: 24, 0.76, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cf.deletionInfo.set(deletionInfo.get()),METHOD_INVOCATION, line no: 88, 0.76, 0.76, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,deletionInfo.get(),METHOD_INVOCATION, line no: 88, 0.76, 0.76, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,superColumnName == null,INFIX_EXPRESSION, line no: 206, 0.76, 0.76, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,addColumn(c),METHOD_INVOCATION, line no: 216, 0.76, 0.76, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,FBUtilities.threadLocalMD5Digest(),METHOD_INVOCATION, line no: 306, 0.76, 0.76, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,serializedSize,SIMPLE_NAME, line no: 345, 0.76, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,intSize + longSize + intSize,INFIX_EXPRESSION, line no: 354, 0.76, 0.76, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,MessageDigest,SIMPLE_NAME, line no: 24, 0.76, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cf.deletionInfo.set(deletionInfo.get()),METHOD_INVOCATION, line no: 88, 0.76, 0.76, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,deletionInfo.get(),METHOD_INVOCATION, line no: 88, 0.76, 0.76, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,superColumnName == null,INFIX_EXPRESSION, line no: 206, 0.76, 0.76, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,addColumn(c),METHOD_INVOCATION, line no: 216, 0.76, 0.76, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,FBUtilities.threadLocalMD5Digest(),METHOD_INVOCATION, line no: 306, 0.76, 0.76, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,intSize + longSize + intSize,INFIX_EXPRESSION, line no: 354, 0.76, 0.76, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,isSuper,SIMPLE_NAME, line no: 138, 0.75, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cf.isSuper(),METHOD_INVOCATION, line no: 149, 0.75, 0.75, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,updateDigest,SIMPLE_NAME, line no: 308, 0.75, 0.75, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,wrap,SIMPLE_NAME, line no: 309, 0.75, 0.75, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,column.serializedSize(),METHOD_INVOCATION, line no: 358, 0.75, 0.75, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,CounterUpdateColumn,SIMPLE_NAME, line no: 183, 0.75, 0.75, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,System,SIMPLE_NAME, line no: 183, 0.75, 0.75, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,superColumnName == null,INFIX_EXPRESSION, line no: 206, 0.75, 0.75, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,addColumn(c),METHOD_INVOCATION, line no: 216, 0.75, 0.75, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,updateDigest,SIMPLE_NAME, line no: 308, 0.75, 0.75, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,wrap,SIMPLE_NAME, line no: 309, 0.75, 0.75, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,column.serializedSize(),METHOD_INVOCATION, line no: 358, 0.75, 0.75, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,isSuper,SIMPLE_NAME, line no: 138, 0.72, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cf.isSuper(),METHOD_INVOCATION, line no: 149, 0.72, 0.72, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,CounterUpdateColumn,SIMPLE_NAME, line no: 183, 0.72, 0.72, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,System,SIMPLE_NAME, line no: 183, 0.72, 0.72, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,currentTimeMillis,SIMPLE_NAME, line no: 183, 0.72, 0.72, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,updateDigest,SIMPLE_NAME, line no: 308, 0.72, 0.72, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,wrap,SIMPLE_NAME, line no: 309, 0.72, 0.72, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,column.serializedSize(),METHOD_INVOCATION, line no: 358, 0.72, 0.72, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,isSuper,SIMPLE_NAME, line no: 138, 0.72, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cf.isSuper(),METHOD_INVOCATION, line no: 149, 0.72, 0.72, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,CounterUpdateColumn,SIMPLE_NAME, line no: 183, 0.72, 0.72, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,System,SIMPLE_NAME, line no: 183, 0.72, 0.72, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,updateDigest,SIMPLE_NAME, line no: 308, 0.72, 0.72, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,wrap,SIMPLE_NAME, line no: 309, 0.72, 0.72, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,column.serializedSize(),METHOD_INVOCATION, line no: 358, 0.72, 0.72, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,CounterUpdateColumn,SIMPLE_NAME, line no: 183, 0.7083333333333334, 0.7083333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,System,SIMPLE_NAME, line no: 183, 0.7083333333333334, 0.7083333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,diff,SIMPLE_NAME, line no: 228, 0.7083333333333334, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,columnDiff,SIMPLE_NAME, line no: 250, 0.7083333333333334, 0.7083333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cf != null,INFIX_EXPRESSION, line no: 307, 0.7083333333333334, 0.7083333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cf.updateDigest(digest),METHOD_INVOCATION, line no: 308, 0.7083333333333334, 0.7083333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,ByteBuffer.wrap(digest.digest()),METHOD_INVOCATION, line no: 309, 0.7083333333333334, 0.7083333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,digest.digest(),METHOD_INVOCATION, line no: 309, 0.7083333333333334, 0.7083333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,size+=column.serializedSize(),ASSIGNMENT, line no: 358, 0.7083333333333334, 0.7083333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,Schema,SIMPLE_NAME, line no: 27, 0.7083333333333334, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,instance,SIMPLE_NAME, line no: 49, 0.7083333333333334, 0.4583333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,getSubComparator,SIMPLE_NAME, line no: 97, 0.7083333333333334, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,isSuper,SIMPLE_NAME, line no: 138, 0.7083333333333334, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cf.isSuper(),METHOD_INVOCATION, line no: 149, 0.7083333333333334, 0.7083333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,addColumn(path.superColumnName new CounterUpdateColumn(path.columnName value System.currentTimeMillis())),METHOD_INVOCATION, line no: 183, 0.7083333333333334, 0.7083333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,new CounterUpdateColumn(path.columnName value System.currentTimeMillis()),CLASS_INSTANCE_CREATION, line no: 183, 0.7083333333333334, 0.7083333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,System.currentTimeMillis(),METHOD_INVOCATION, line no: 183, 0.7083333333333334, 0.7083333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,localDeletionTime,SIMPLE_NAME, line no: 186, 0.7083333333333334, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,DeletedColumn,SIMPLE_NAME, line no: 189, 0.7083333333333334, 0.7083333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,diff,SIMPLE_NAME, line no: 228, 0.7083333333333334, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,columnDiff,SIMPLE_NAME, line no: 250, 0.7083333333333334, 0.7083333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cf != null,INFIX_EXPRESSION, line no: 307, 0.7083333333333334, 0.7083333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cf.updateDigest(digest),METHOD_INVOCATION, line no: 308, 0.7083333333333334, 0.7083333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,ByteBuffer.wrap(digest.digest()),METHOD_INVOCATION, line no: 309, 0.7083333333333334, 0.7083333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,digest.digest(),METHOD_INVOCATION, line no: 309, 0.7083333333333334, 0.7083333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,table,SIMPLE_NAME, line no: 318, 0.7083333333333334, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,columnFamilyName,SIMPLE_NAME, line no: 318, 0.7083333333333334, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,size+=column.serializedSize(),ASSIGNMENT, line no: 358, 0.7083333333333334, 0.7083333333333334, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,Schema,SIMPLE_NAME, line no: 27, 0.68, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,instance,SIMPLE_NAME, line no: 49, 0.68, 0.44, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,getSubComparator,SIMPLE_NAME, line no: 97, 0.68, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,addColumn(path.superColumnName new CounterUpdateColumn(path.columnName value System.currentTimeMillis())),METHOD_INVOCATION, line no: 183, 0.68, 0.68, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,new CounterUpdateColumn(path.columnName value System.currentTimeMillis()),CLASS_INSTANCE_CREATION, line no: 183, 0.68, 0.68, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,System.currentTimeMillis(),METHOD_INVOCATION, line no: 183, 0.68, 0.68, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,localDeletionTime,SIMPLE_NAME, line no: 186, 0.68, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,DeletedColumn,SIMPLE_NAME, line no: 189, 0.68, 0.68, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,diff,SIMPLE_NAME, line no: 228, 0.68, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,columnDiff,SIMPLE_NAME, line no: 250, 0.68, 0.68, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cf != null,INFIX_EXPRESSION, line no: 307, 0.68, 0.68, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cf.updateDigest(digest),METHOD_INVOCATION, line no: 308, 0.68, 0.68, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,ByteBuffer.wrap(digest.digest()),METHOD_INVOCATION, line no: 309, 0.68, 0.68, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,digest.digest(),METHOD_INVOCATION, line no: 309, 0.68, 0.68, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,table,SIMPLE_NAME, line no: 318, 0.68, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,columnFamilyName,SIMPLE_NAME, line no: 318, 0.68, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,size+=column.serializedSize(),ASSIGNMENT, line no: 358, 0.68, 0.68, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,Schema,SIMPLE_NAME, line no: 27, 0.68, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,instance,SIMPLE_NAME, line no: 49, 0.68, 0.44, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,getSubComparator,SIMPLE_NAME, line no: 97, 0.68, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,addColumn(path.superColumnName new CounterUpdateColumn(path.columnName value System.currentTimeMillis())),METHOD_INVOCATION, line no: 183, 0.68, 0.68, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,new CounterUpdateColumn(path.columnName value System.currentTimeMillis()),CLASS_INSTANCE_CREATION, line no: 183, 0.68, 0.68, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,localDeletionTime,SIMPLE_NAME, line no: 186, 0.68, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,DeletedColumn,SIMPLE_NAME, line no: 189, 0.68, 0.68, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,diff,SIMPLE_NAME, line no: 228, 0.68, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,columnDiff,SIMPLE_NAME, line no: 250, 0.68, 0.68, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cf != null,INFIX_EXPRESSION, line no: 307, 0.68, 0.68, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cf.updateDigest(digest),METHOD_INVOCATION, line no: 308, 0.68, 0.68, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,ByteBuffer.wrap(digest.digest()),METHOD_INVOCATION, line no: 309, 0.68, 0.68, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,digest.digest(),METHOD_INVOCATION, line no: 309, 0.68, 0.68, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,table,SIMPLE_NAME, line no: 318, 0.68, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,columnFamilyName,SIMPLE_NAME, line no: 318, 0.68, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,size+=column.serializedSize(),ASSIGNMENT, line no: 358, 0.68, 0.68, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,Schema,SIMPLE_NAME, line no: 27, 0.6666666666666666, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,instance,SIMPLE_NAME, line no: 49, 0.6666666666666666, 0.4166666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,getSubComparator,SIMPLE_NAME, line no: 97, 0.6666666666666666, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,delete,SIMPLE_NAME, line no: 155, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,addColumn(path.superColumnName new CounterUpdateColumn(path.columnName value System.currentTimeMillis())),METHOD_INVOCATION, line no: 183, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,new CounterUpdateColumn(path.columnName value System.currentTimeMillis()),CLASS_INSTANCE_CREATION, line no: 183, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,localDeletionTime,SIMPLE_NAME, line no: 186, 0.6666666666666666, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,DeletedColumn,SIMPLE_NAME, line no: 189, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,columnInternal.diff(columnExternal),METHOD_INVOCATION, line no: 250, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,table,SIMPLE_NAME, line no: 318, 0.6666666666666666, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,columnFamilyName,SIMPLE_NAME, line no: 318, 0.6666666666666666, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,Schema.instance,QUALIFIED_NAME, line no: 49, 0.6666666666666666, 0.4166666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,delete,SIMPLE_NAME, line no: 155, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,addColumn(path.superColumnName new DeletedColumn(path.columnName localDeletionTime timestamp)),METHOD_INVOCATION, line no: 189, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,new DeletedColumn(path.columnName localDeletionTime timestamp),CLASS_INSTANCE_CREATION, line no: 189, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,columnInternal.diff(columnExternal),METHOD_INVOCATION, line no: 250, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,superColumnName == null ? Schema.instance.getComparator(table columnFamilyName) : Schema.instance.getSubComparator(table columnFamilyName),CONDITIONAL_EXPRESSION, line no: 320, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,Schema.instance.getComparator(table columnFamilyName),METHOD_INVOCATION, line no: 321, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,Schema.instance.getSubComparator(table columnFamilyName),METHOD_INVOCATION, line no: 322, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,Schema.instance,QUALIFIED_NAME, line no: 49, 0.64, 0.4, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,delete,SIMPLE_NAME, line no: 155, 0.64, 0.64, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,addColumn(path.superColumnName new DeletedColumn(path.columnName localDeletionTime timestamp)),METHOD_INVOCATION, line no: 189, 0.64, 0.64, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,new DeletedColumn(path.columnName localDeletionTime timestamp),CLASS_INSTANCE_CREATION, line no: 189, 0.64, 0.64, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,columnInternal.diff(columnExternal),METHOD_INVOCATION, line no: 250, 0.64, 0.64, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,superColumnName == null ? Schema.instance.getComparator(table columnFamilyName) : Schema.instance.getSubComparator(table columnFamilyName),CONDITIONAL_EXPRESSION, line no: 320, 0.64, 0.64, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,Schema.instance.getComparator(table columnFamilyName),METHOD_INVOCATION, line no: 321, 0.64, 0.64, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,Schema.instance.getSubComparator(table columnFamilyName),METHOD_INVOCATION, line no: 322, 0.64, 0.64, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,Schema.instance,QUALIFIED_NAME, line no: 49, 0.64, 0.4, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,delete,SIMPLE_NAME, line no: 155, 0.64, 0.64, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,addColumn(path.superColumnName new DeletedColumn(path.columnName localDeletionTime timestamp)),METHOD_INVOCATION, line no: 189, 0.64, 0.64, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,new DeletedColumn(path.columnName localDeletionTime timestamp),CLASS_INSTANCE_CREATION, line no: 189, 0.64, 0.64, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,columnInternal.diff(columnExternal),METHOD_INVOCATION, line no: 250, 0.64, 0.64, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,superColumnName == null ? Schema.instance.getComparator(table columnFamilyName) : Schema.instance.getSubComparator(table columnFamilyName),CONDITIONAL_EXPRESSION, line no: 320, 0.64, 0.64, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,Schema.instance.getComparator(table columnFamilyName),METHOD_INVOCATION, line no: 321, 0.64, 0.64, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,Schema.instance.getSubComparator(table columnFamilyName),METHOD_INVOCATION, line no: 322, 0.64, 0.64, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,Schema.instance,QUALIFIED_NAME, line no: 49, 0.625, 0.375, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,s,SIMPLE_NAME, line no: 99, 0.625, 0.625, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,getColumnSerializer,SIMPLE_NAME, line no: 99, 0.625, 0.625, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,delete(cf),METHOD_INVOCATION, line no: 155, 0.625, 0.625, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,addColumn(path.superColumnName new DeletedColumn(path.columnName localDeletionTime timestamp)),METHOD_INVOCATION, line no: 189, 0.625, 0.625, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,new DeletedColumn(path.columnName localDeletionTime timestamp),CLASS_INSTANCE_CREATION, line no: 189, 0.625, 0.625, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,superColumnName == null ? Schema.instance.getComparator(table columnFamilyName) : Schema.instance.getSubComparator(table columnFamilyName),CONDITIONAL_EXPRESSION, line no: 320, 0.625, 0.625, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,Schema.instance.getComparator(table columnFamilyName),METHOD_INVOCATION, line no: 321, 0.625, 0.625, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,Schema.instance.getSubComparator(table columnFamilyName),METHOD_INVOCATION, line no: 322, 0.625, 0.625, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,s,SIMPLE_NAME, line no: 99, 0.625, 0.625, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,getColumnSerializer,SIMPLE_NAME, line no: 99, 0.625, 0.625, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,delete(cf),METHOD_INVOCATION, line no: 155, 0.625, 0.625, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,s,SIMPLE_NAME, line no: 99, 0.6, 0.6, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,getColumnSerializer,SIMPLE_NAME, line no: 99, 0.6, 0.6, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,delete(cf),METHOD_INVOCATION, line no: 155, 0.6, 0.6, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,s,SIMPLE_NAME, line no: 99, 0.6, 0.6, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,getColumnSerializer,SIMPLE_NAME, line no: 99, 0.6, 0.6, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,delete(cf),METHOD_INVOCATION, line no: 155, 0.6, 0.6, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,IColumnSerializer,SIMPLE_NAME, line no: 31, 0.5833333333333334, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,getColumnSerializer(),METHOD_INVOCATION, line no: 99, 0.5833333333333334, 0.5833333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,columnDiff != null,INFIX_EXPRESSION, line no: 251, 0.5833333333333334, 0.5833333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,IColumnSerializer,SIMPLE_NAME, line no: 31, 0.5833333333333334, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,getColumnSerializer(),METHOD_INVOCATION, line no: 99, 0.5833333333333334, 0.5833333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,columnDiff != null,INFIX_EXPRESSION, line no: 251, 0.5833333333333334, 0.5833333333333334, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,IColumnSerializer,SIMPLE_NAME, line no: 31, 0.56, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,getColumnSerializer(),METHOD_INVOCATION, line no: 99, 0.56, 0.56, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,columnDiff != null,INFIX_EXPRESSION, line no: 251, 0.56, 0.56, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,IColumnSerializer,SIMPLE_NAME, line no: 31, 0.56, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,getColumnSerializer(),METHOD_INVOCATION, line no: 99, 0.56, 0.56, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,columnDiff != null,INFIX_EXPRESSION, line no: 251, 0.56, 0.56, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,SuperColumnSerializer,SIMPLE_NAME, line no: 100, 0.5416666666666666, 0.5416666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,SuperColumn,SIMPLE_NAME, line no: 153, 0.5416666666666666, 0.4583333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,comparator,SIMPLE_NAME, line no: 74, 0.5416666666666666, 0.5416666666666666, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,SuperColumnSerializer,SIMPLE_NAME, line no: 100, 0.5416666666666666, 0.5416666666666666, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,SuperColumn,SIMPLE_NAME, line no: 153, 0.5416666666666666, 0.4583333333333333, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,comparator,SIMPLE_NAME, line no: 74, 0.52, 0.52, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,SuperColumnSerializer,SIMPLE_NAME, line no: 100, 0.52, 0.52, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,SuperColumn,SIMPLE_NAME, line no: 153, 0.52, 0.44, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,comparator,SIMPLE_NAME, line no: 74, 0.52, 0.52, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,SuperColumnSerializer,SIMPLE_NAME, line no: 100, 0.52, 0.52, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,SuperColumn,SIMPLE_NAME, line no: 153, 0.52, 0.44, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,comparator,SIMPLE_NAME, line no: 74, 0.5, 0.5, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,(s instanceof SuperColumnSerializer) ? ((SuperColumnSerializer)s).getComparator() : null,CONDITIONAL_EXPRESSION, line no: 100, 0.5, 0.5, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,(s instanceof SuperColumnSerializer),PARENTHESIZED_EXPRESSION, line no: 100, 0.5, 0.5, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,s instanceof SuperColumnSerializer,INSTANCEOF_EXPRESSION, line no: 100, 0.5, 0.5, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,((SuperColumnSerializer)s).getComparator(),METHOD_INVOCATION, line no: 100, 0.5, 0.5, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,((SuperColumnSerializer)s),PARENTHESIZED_EXPRESSION, line no: 100, 0.5, 0.5, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,(SuperColumnSerializer)s,CAST_EXPRESSION, line no: 100, 0.5, 0.5, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,isSuper(),METHOD_INVOCATION, line no: 212, 0.5, 0.5, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,c=new SuperColumn(superColumnName getSubComparator()),ASSIGNMENT, line no: 213, 0.5, 0.5, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,new SuperColumn(superColumnName getSubComparator()),CLASS_INSTANCE_CREATION, line no: 213, 0.5, 0.5, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,getSubComparator(),METHOD_INVOCATION, line no: 213, 0.5, 0.5, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,c.addColumn(column),METHOD_INVOCATION, line no: 214, 0.5, 0.5, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfm.comparator,QUALIFIED_NAME, line no: 74, 0.5, 0.5, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,(s instanceof SuperColumnSerializer) ? ((SuperColumnSerializer)s).getComparator() : null,CONDITIONAL_EXPRESSION, line no: 100, 0.5, 0.5, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,(s instanceof SuperColumnSerializer),PARENTHESIZED_EXPRESSION, line no: 100, 0.5, 0.5, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,s instanceof SuperColumnSerializer,INSTANCEOF_EXPRESSION, line no: 100, 0.5, 0.5, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,((SuperColumnSerializer)s).getComparator(),METHOD_INVOCATION, line no: 100, 0.5, 0.5, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,((SuperColumnSerializer)s),PARENTHESIZED_EXPRESSION, line no: 100, 0.5, 0.5, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,(SuperColumnSerializer)s,CAST_EXPRESSION, line no: 100, 0.5, 0.5, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,isSuper(),METHOD_INVOCATION, line no: 212, 0.5, 0.5, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,c=new SuperColumn(superColumnName getSubComparator()),ASSIGNMENT, line no: 213, 0.5, 0.5, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,new SuperColumn(superColumnName getSubComparator()),CLASS_INSTANCE_CREATION, line no: 213, 0.5, 0.5, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,getSubComparator(),METHOD_INVOCATION, line no: 213, 0.5, 0.5, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,c.addColumn(column),METHOD_INVOCATION, line no: 214, 0.5, 0.5, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfm.comparator,QUALIFIED_NAME, line no: 74, 0.48, 0.48, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,(s instanceof SuperColumnSerializer) ? ((SuperColumnSerializer)s).getComparator() : null,CONDITIONAL_EXPRESSION, line no: 100, 0.48, 0.48, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,(s instanceof SuperColumnSerializer),PARENTHESIZED_EXPRESSION, line no: 100, 0.48, 0.48, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,s instanceof SuperColumnSerializer,INSTANCEOF_EXPRESSION, line no: 100, 0.48, 0.48, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,((SuperColumnSerializer)s).getComparator(),METHOD_INVOCATION, line no: 100, 0.48, 0.48, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,((SuperColumnSerializer)s),PARENTHESIZED_EXPRESSION, line no: 100, 0.48, 0.48, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,(SuperColumnSerializer)s,CAST_EXPRESSION, line no: 100, 0.48, 0.48, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,isSuper(),METHOD_INVOCATION, line no: 212, 0.48, 0.48, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,c=new SuperColumn(superColumnName getSubComparator()),ASSIGNMENT, line no: 213, 0.48, 0.48, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,new SuperColumn(superColumnName getSubComparator()),CLASS_INSTANCE_CREATION, line no: 213, 0.48, 0.48, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,getSubComparator(),METHOD_INVOCATION, line no: 213, 0.48, 0.48, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,c.addColumn(column),METHOD_INVOCATION, line no: 214, 0.48, 0.48, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfm.comparator,QUALIFIED_NAME, line no: 74, 0.48, 0.48, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,(s instanceof SuperColumnSerializer) ? ((SuperColumnSerializer)s).getComparator() : null,CONDITIONAL_EXPRESSION, line no: 100, 0.48, 0.48, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,(s instanceof SuperColumnSerializer),PARENTHESIZED_EXPRESSION, line no: 100, 0.48, 0.48, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,s instanceof SuperColumnSerializer,INSTANCEOF_EXPRESSION, line no: 100, 0.48, 0.48, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,((SuperColumnSerializer)s).getComparator(),METHOD_INVOCATION, line no: 100, 0.48, 0.48, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,((SuperColumnSerializer)s),PARENTHESIZED_EXPRESSION, line no: 100, 0.48, 0.48, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,(SuperColumnSerializer)s,CAST_EXPRESSION, line no: 100, 0.48, 0.48, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,isSuper(),METHOD_INVOCATION, line no: 212, 0.48, 0.48, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,c=new SuperColumn(superColumnName getSubComparator()),ASSIGNMENT, line no: 213, 0.48, 0.48, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,new SuperColumn(superColumnName getSubComparator()),CLASS_INSTANCE_CREATION, line no: 213, 0.48, 0.48, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,getSubComparator(),METHOD_INVOCATION, line no: 213, 0.48, 0.48, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,c.addColumn(column),METHOD_INVOCATION, line no: 214, 0.48, 0.48, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfId,SIMPLE_NAME, line no: 47, 0.4583333333333333, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,getCFMetaData,SIMPLE_NAME, line no: 49, 0.4583333333333333, 0.4166666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,tableName,SIMPLE_NAME, line no: 57, 0.4583333333333333, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,factory.create(cfm.comparator reversedInsertOrder),METHOD_INVOCATION, line no: 74, 0.4583333333333333, 0.4583333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfm.comparator,QUALIFIED_NAME, line no: 74, 0.4583333333333333, 0.4583333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,allocator,SIMPLE_NAME, line no: 147, 0.4583333333333333, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfId,SIMPLE_NAME, line no: 47, 0.4583333333333333, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,getCFMetaData,SIMPLE_NAME, line no: 49, 0.4583333333333333, 0.4166666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,tableName,SIMPLE_NAME, line no: 57, 0.4583333333333333, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,factory.create(cfm.comparator reversedInsertOrder),METHOD_INVOCATION, line no: 74, 0.4583333333333333, 0.4583333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,allocator,SIMPLE_NAME, line no: 147, 0.4583333333333333, 0.041666666666666664, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfId,SIMPLE_NAME, line no: 47, 0.44, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,getCFMetaData,SIMPLE_NAME, line no: 49, 0.44, 0.4, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,tableName,SIMPLE_NAME, line no: 57, 0.44, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,factory.create(cfm.comparator reversedInsertOrder),METHOD_INVOCATION, line no: 74, 0.44, 0.44, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,allocator,SIMPLE_NAME, line no: 147, 0.44, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfId,SIMPLE_NAME, line no: 47, 0.44, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,getCFMetaData,SIMPLE_NAME, line no: 49, 0.44, 0.4, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,tableName,SIMPLE_NAME, line no: 57, 0.44, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,factory.create(cfm.comparator reversedInsertOrder),METHOD_INVOCATION, line no: 74, 0.44, 0.44, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,allocator,SIMPLE_NAME, line no: 147, 0.44, 0.04, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,Schema.instance.getCFMetaData(cfId),METHOD_INVOCATION, line no: 49, 0.4166666666666667, 0.375, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,create(Schema.instance.getCFMetaData(cfId) factory),METHOD_INVOCATION, line no: 54, 0.4166666666666667, 0.4166666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,create(Schema.instance.getCFMetaData(tableName cfName)),METHOD_INVOCATION, line no: 59, 0.4166666666666667, 0.4166666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,Schema.instance.getCFMetaData(tableName cfName),METHOD_INVOCATION, line no: 59, 0.4166666666666667, 0.4166666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,new ColumnFamily(cfm factory.create(cfm.comparator reversedInsertOrder)),CLASS_INSTANCE_CREATION, line no: 74, 0.4166666666666667, 0.4166666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,columns.addColumn(((SuperColumn)c).cloneMe() allocator),METHOD_INVOCATION, line no: 153, 0.4166666666666667, 0.4166666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,((SuperColumn)c).cloneMe(),METHOD_INVOCATION, line no: 153, 0.4166666666666667, 0.4166666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,((SuperColumn)c),PARENTHESIZED_EXPRESSION, line no: 153, 0.4166666666666667, 0.4166666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,(SuperColumn)c,CAST_EXPRESSION, line no: 153, 0.4166666666666667, 0.4166666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,getLocalDeletionTime,SIMPLE_NAME, line no: 234, 0.4166666666666667, 0.4166666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,column.updateDigest(digest),METHOD_INVOCATION, line no: 315, 0.4166666666666667, 0.4166666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,HeapAllocator,SIMPLE_NAME, line no: 34, 0.4166666666666667, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,Schema.instance.getCFMetaData(cfId),METHOD_INVOCATION, line no: 49, 0.4166666666666667, 0.375, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,create(Schema.instance.getCFMetaData(cfId) factory),METHOD_INVOCATION, line no: 54, 0.4166666666666667, 0.4166666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,create(Schema.instance.getCFMetaData(tableName cfName)),METHOD_INVOCATION, line no: 59, 0.4166666666666667, 0.4166666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,Schema.instance.getCFMetaData(tableName cfName),METHOD_INVOCATION, line no: 59, 0.4166666666666667, 0.4166666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,new ColumnFamily(cfm factory.create(cfm.comparator reversedInsertOrder)),CLASS_INSTANCE_CREATION, line no: 74, 0.4166666666666667, 0.4166666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,columns.addColumn(((SuperColumn)c).cloneMe() allocator),METHOD_INVOCATION, line no: 153, 0.4166666666666667, 0.4166666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,((SuperColumn)c).cloneMe(),METHOD_INVOCATION, line no: 153, 0.4166666666666667, 0.4166666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,((SuperColumn)c),PARENTHESIZED_EXPRESSION, line no: 153, 0.4166666666666667, 0.4166666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,(SuperColumn)c,CAST_EXPRESSION, line no: 153, 0.4166666666666667, 0.4166666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,getLocalDeletionTime,SIMPLE_NAME, line no: 234, 0.4166666666666667, 0.4166666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,column.updateDigest(digest),METHOD_INVOCATION, line no: 315, 0.4166666666666667, 0.4166666666666667, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,HeapAllocator,SIMPLE_NAME, line no: 34, 0.4, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,Schema.instance.getCFMetaData(cfId),METHOD_INVOCATION, line no: 49, 0.4, 0.36, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,create(Schema.instance.getCFMetaData(cfId) factory),METHOD_INVOCATION, line no: 54, 0.4, 0.4, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,create(Schema.instance.getCFMetaData(tableName cfName)),METHOD_INVOCATION, line no: 59, 0.4, 0.4, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,Schema.instance.getCFMetaData(tableName cfName),METHOD_INVOCATION, line no: 59, 0.4, 0.4, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,new ColumnFamily(cfm factory.create(cfm.comparator reversedInsertOrder)),CLASS_INSTANCE_CREATION, line no: 74, 0.4, 0.4, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,columns.addColumn(((SuperColumn)c).cloneMe() allocator),METHOD_INVOCATION, line no: 153, 0.4, 0.4, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,((SuperColumn)c).cloneMe(),METHOD_INVOCATION, line no: 153, 0.4, 0.4, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,((SuperColumn)c),PARENTHESIZED_EXPRESSION, line no: 153, 0.4, 0.4, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,(SuperColumn)c,CAST_EXPRESSION, line no: 153, 0.4, 0.4, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,getLocalDeletionTime,SIMPLE_NAME, line no: 234, 0.4, 0.4, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,column.updateDigest(digest),METHOD_INVOCATION, line no: 315, 0.4, 0.4, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,HeapAllocator,SIMPLE_NAME, line no: 34, 0.4, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,Schema.instance.getCFMetaData(cfId),METHOD_INVOCATION, line no: 49, 0.4, 0.36, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,create(Schema.instance.getCFMetaData(cfId) factory),METHOD_INVOCATION, line no: 54, 0.4, 0.4, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,create(Schema.instance.getCFMetaData(tableName cfName)),METHOD_INVOCATION, line no: 59, 0.4, 0.4, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,Schema.instance.getCFMetaData(tableName cfName),METHOD_INVOCATION, line no: 59, 0.4, 0.4, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,new ColumnFamily(cfm factory.create(cfm.comparator reversedInsertOrder)),CLASS_INSTANCE_CREATION, line no: 74, 0.4, 0.4, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,columns.addColumn(((SuperColumn)c).cloneMe() allocator),METHOD_INVOCATION, line no: 153, 0.4, 0.4, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,((SuperColumn)c).cloneMe(),METHOD_INVOCATION, line no: 153, 0.4, 0.4, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,((SuperColumn)c),PARENTHESIZED_EXPRESSION, line no: 153, 0.4, 0.4, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,(SuperColumn)c,CAST_EXPRESSION, line no: 153, 0.4, 0.4, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,getLocalDeletionTime,SIMPLE_NAME, line no: 234, 0.4, 0.4, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,column.updateDigest(digest),METHOD_INVOCATION, line no: 315, 0.4, 0.4, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,HeapAllocator,SIMPLE_NAME, line no: 34, 0.375, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,create(Schema.instance.getCFMetaData(cfId)),METHOD_INVOCATION, line no: 49, 0.375, 0.375, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cloneMeShallow,SIMPLE_NAME, line no: 84, 0.375, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,getFactory,SIMPLE_NAME, line no: 94, 0.375, 0.375, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,isInsertReversed,SIMPLE_NAME, line no: 94, 0.375, 0.375, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,addAll,SIMPLE_NAME, line no: 159, 0.375, 0.2916666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfDiff.delete(cfComposite.getLocalDeletionTime() cfComposite.getMarkedForDeleteAt()),METHOD_INVOCATION, line no: 234, 0.375, 0.375, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfComposite.getLocalDeletionTime(),METHOD_INVOCATION, line no: 234, 0.375, 0.375, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cf1,SIMPLE_NAME, line no: 325, 0.375, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cf2,SIMPLE_NAME, line no: 325, 0.375, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,resolve,SIMPLE_NAME, line no: 332, 0.375, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,create(Schema.instance.getCFMetaData(cfId)),METHOD_INVOCATION, line no: 49, 0.375, 0.375, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cloneMeShallow,SIMPLE_NAME, line no: 84, 0.375, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,getFactory,SIMPLE_NAME, line no: 94, 0.375, 0.375, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,isInsertReversed,SIMPLE_NAME, line no: 94, 0.375, 0.375, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,addAll,SIMPLE_NAME, line no: 159, 0.375, 0.2916666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfDiff.delete(cfComposite.getLocalDeletionTime() cfComposite.getMarkedForDeleteAt()),METHOD_INVOCATION, line no: 234, 0.375, 0.375, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfComposite.getLocalDeletionTime(),METHOD_INVOCATION, line no: 234, 0.375, 0.375, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cf1,SIMPLE_NAME, line no: 325, 0.375, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cf2,SIMPLE_NAME, line no: 325, 0.375, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,resolve,SIMPLE_NAME, line no: 332, 0.375, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,HeapAllocator.instance,QUALIFIED_NAME, line no: 334, 0.375, 0.375, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,create(Schema.instance.getCFMetaData(cfId)),METHOD_INVOCATION, line no: 49, 0.36, 0.36, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cloneMeShallow,SIMPLE_NAME, line no: 84, 0.36, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,getFactory,SIMPLE_NAME, line no: 94, 0.36, 0.36, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,isInsertReversed,SIMPLE_NAME, line no: 94, 0.36, 0.36, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,addAll,SIMPLE_NAME, line no: 159, 0.36, 0.28, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfDiff.delete(cfComposite.getLocalDeletionTime() cfComposite.getMarkedForDeleteAt()),METHOD_INVOCATION, line no: 234, 0.36, 0.36, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfComposite.getLocalDeletionTime(),METHOD_INVOCATION, line no: 234, 0.36, 0.36, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cf1,SIMPLE_NAME, line no: 325, 0.36, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cf2,SIMPLE_NAME, line no: 325, 0.36, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,resolve,SIMPLE_NAME, line no: 332, 0.36, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,HeapAllocator.instance,QUALIFIED_NAME, line no: 334, 0.36, 0.36, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,create(Schema.instance.getCFMetaData(cfId)),METHOD_INVOCATION, line no: 49, 0.36, 0.36, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cloneMeShallow,SIMPLE_NAME, line no: 84, 0.36, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,getFactory,SIMPLE_NAME, line no: 94, 0.36, 0.36, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,isInsertReversed,SIMPLE_NAME, line no: 94, 0.36, 0.36, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,addAll,SIMPLE_NAME, line no: 159, 0.36, 0.28, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfDiff.delete(cfComposite.getLocalDeletionTime() cfComposite.getMarkedForDeleteAt()),METHOD_INVOCATION, line no: 234, 0.36, 0.36, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfComposite.getLocalDeletionTime(),METHOD_INVOCATION, line no: 234, 0.36, 0.36, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cf1,SIMPLE_NAME, line no: 325, 0.36, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cf2,SIMPLE_NAME, line no: 325, 0.36, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,resolve,SIMPLE_NAME, line no: 332, 0.36, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,HeapAllocator.instance,QUALIFIED_NAME, line no: 334, 0.36, 0.36, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,ThreadSafeSortedColumns,SIMPLE_NAME, line no: 64, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cloneMeShallow(columns.getFactory() columns.isInsertReversed()),METHOD_INVOCATION, line no: 94, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,columns.getFactory(),METHOD_INVOCATION, line no: 94, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,columns.isInsertReversed(),METHOD_INVOCATION, line no: 94, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,getType,SIMPLE_NAME, line no: 103, 0.3333333333333333, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,addAll(cf allocator),METHOD_INVOCATION, line no: 159, 0.3333333333333333, 0.25, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,addColumn(null new DeletedColumn(name localDeletionTime timestamp)),METHOD_INVOCATION, line no: 200, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,new DeletedColumn(name localDeletionTime timestamp),CLASS_INSTANCE_CREATION, line no: 200, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,column.size(),METHOD_INVOCATION, line no: 268, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cf1.diff(cf2),METHOD_INVOCATION, line no: 329, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,resolve(cf HeapAllocator.instance),METHOD_INVOCATION, line no: 334, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,HeapAllocator.instance,QUALIFIED_NAME, line no: 334, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,validateFields,SIMPLE_NAME, line no: 372, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,ThreadSafeSortedColumns,SIMPLE_NAME, line no: 64, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cloneMeShallow(columns.getFactory() columns.isInsertReversed()),METHOD_INVOCATION, line no: 94, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,columns.getFactory(),METHOD_INVOCATION, line no: 94, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,columns.isInsertReversed(),METHOD_INVOCATION, line no: 94, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,ColumnFamilyType,SIMPLE_NAME, line no: 103, 0.3333333333333333, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,getType,SIMPLE_NAME, line no: 103, 0.3333333333333333, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,Super,SIMPLE_NAME, line no: 140, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,addAll(cf allocator),METHOD_INVOCATION, line no: 159, 0.3333333333333333, 0.25, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,addColumn(null new DeletedColumn(name localDeletionTime timestamp)),METHOD_INVOCATION, line no: 200, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,new DeletedColumn(name localDeletionTime timestamp),CLASS_INSTANCE_CREATION, line no: 200, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,column.size(),METHOD_INVOCATION, line no: 268, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cf1.diff(cf2),METHOD_INVOCATION, line no: 329, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,resolve(cf HeapAllocator.instance),METHOD_INVOCATION, line no: 334, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,validateFields,SIMPLE_NAME, line no: 372, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,ThreadSafeSortedColumns,SIMPLE_NAME, line no: 64, 0.32, 0.32, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cloneMeShallow(columns.getFactory() columns.isInsertReversed()),METHOD_INVOCATION, line no: 94, 0.32, 0.32, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,columns.getFactory(),METHOD_INVOCATION, line no: 94, 0.32, 0.32, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,columns.isInsertReversed(),METHOD_INVOCATION, line no: 94, 0.32, 0.32, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,ColumnFamilyType,SIMPLE_NAME, line no: 103, 0.32, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,getType,SIMPLE_NAME, line no: 103, 0.32, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,Super,SIMPLE_NAME, line no: 140, 0.32, 0.32, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,addAll(cf allocator),METHOD_INVOCATION, line no: 159, 0.32, 0.24, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,addColumn(null new DeletedColumn(name localDeletionTime timestamp)),METHOD_INVOCATION, line no: 200, 0.32, 0.32, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,new DeletedColumn(name localDeletionTime timestamp),CLASS_INSTANCE_CREATION, line no: 200, 0.32, 0.32, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,column.size(),METHOD_INVOCATION, line no: 268, 0.32, 0.32, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cf1.diff(cf2),METHOD_INVOCATION, line no: 329, 0.32, 0.32, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,resolve(cf HeapAllocator.instance),METHOD_INVOCATION, line no: 334, 0.32, 0.32, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,validateFields,SIMPLE_NAME, line no: 372, 0.32, 0.32, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,ThreadSafeSortedColumns,SIMPLE_NAME, line no: 64, 0.32, 0.32, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cloneMeShallow(columns.getFactory() columns.isInsertReversed()),METHOD_INVOCATION, line no: 94, 0.32, 0.32, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,columns.getFactory(),METHOD_INVOCATION, line no: 94, 0.32, 0.32, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,columns.isInsertReversed(),METHOD_INVOCATION, line no: 94, 0.32, 0.32, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,ColumnFamilyType,SIMPLE_NAME, line no: 103, 0.32, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,getType,SIMPLE_NAME, line no: 103, 0.32, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,Super,SIMPLE_NAME, line no: 140, 0.32, 0.32, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,addAll(cf allocator),METHOD_INVOCATION, line no: 159, 0.32, 0.24, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,addColumn(null new DeletedColumn(name localDeletionTime timestamp)),METHOD_INVOCATION, line no: 200, 0.32, 0.32, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,new DeletedColumn(name localDeletionTime timestamp),CLASS_INSTANCE_CREATION, line no: 200, 0.32, 0.32, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,column.size(),METHOD_INVOCATION, line no: 268, 0.32, 0.32, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cf1.diff(cf2),METHOD_INVOCATION, line no: 329, 0.32, 0.32, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,resolve(cf HeapAllocator.instance),METHOD_INVOCATION, line no: 334, 0.32, 0.32, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,validateFields,SIMPLE_NAME, line no: 372, 0.32, 0.32, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,create(cfm ThreadSafeSortedColumns.factory()),METHOD_INVOCATION, line no: 64, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,ThreadSafeSortedColumns.factory(),METHOD_INVOCATION, line no: 64, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,map,SIMPLE_NAME, line no: 77, 0.2916666666666667, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,ColumnFamilyType,SIMPLE_NAME, line no: 103, 0.2916666666666667, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,getType(),METHOD_INVOCATION, line no: 140, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,Super,SIMPLE_NAME, line no: 140, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,addColumn(path value timestamp 0),METHOD_INVOCATION, line no: 165, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfDiff.addColumn(columnExternal),METHOD_INVOCATION, line no: 246, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfDiff.addColumn(columnDiff),METHOD_INVOCATION, line no: 253, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,size+=column.size(),ASSIGNMENT, line no: 268, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cf1 == null,INFIX_EXPRESSION, line no: 327, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cf == null,INFIX_EXPRESSION, line no: 340, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,column.validateFields(metadata),METHOD_INVOCATION, line no: 372, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,create(cfm ThreadSafeSortedColumns.factory()),METHOD_INVOCATION, line no: 64, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,ThreadSafeSortedColumns.factory(),METHOD_INVOCATION, line no: 64, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,map,SIMPLE_NAME, line no: 77, 0.2916666666666667, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,getType(),METHOD_INVOCATION, line no: 140, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,ColumnFamilyType.Super,QUALIFIED_NAME, line no: 140, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,addColumn(path value timestamp 0),METHOD_INVOCATION, line no: 165, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfDiff.addColumn(columnExternal),METHOD_INVOCATION, line no: 246, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfDiff.addColumn(columnDiff),METHOD_INVOCATION, line no: 253, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,size+=column.size(),ASSIGNMENT, line no: 268, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cf1 == null,INFIX_EXPRESSION, line no: 327, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cf == null,INFIX_EXPRESSION, line no: 340, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,column.validateFields(metadata),METHOD_INVOCATION, line no: 372, 0.2916666666666667, 0.2916666666666667, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,create(cfm ThreadSafeSortedColumns.factory()),METHOD_INVOCATION, line no: 64, 0.28, 0.28, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,ThreadSafeSortedColumns.factory(),METHOD_INVOCATION, line no: 64, 0.28, 0.28, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,map,SIMPLE_NAME, line no: 77, 0.28, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,getType(),METHOD_INVOCATION, line no: 140, 0.28, 0.28, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,ColumnFamilyType.Super,QUALIFIED_NAME, line no: 140, 0.28, 0.28, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,addColumn(path value timestamp 0),METHOD_INVOCATION, line no: 165, 0.28, 0.28, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfDiff.addColumn(columnExternal),METHOD_INVOCATION, line no: 246, 0.28, 0.28, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfDiff.addColumn(columnDiff),METHOD_INVOCATION, line no: 253, 0.28, 0.28, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,size+=column.size(),ASSIGNMENT, line no: 268, 0.28, 0.28, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cf1 == null,INFIX_EXPRESSION, line no: 327, 0.28, 0.28, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cf == null,INFIX_EXPRESSION, line no: 340, 0.28, 0.28, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,serializedSizeForSSTable,SIMPLE_NAME, line no: 349, 0.28, 0.28, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,column.validateFields(metadata),METHOD_INVOCATION, line no: 372, 0.28, 0.28, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,create(cfm ThreadSafeSortedColumns.factory()),METHOD_INVOCATION, line no: 64, 0.28, 0.28, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,ThreadSafeSortedColumns.factory(),METHOD_INVOCATION, line no: 64, 0.28, 0.28, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,map,SIMPLE_NAME, line no: 77, 0.28, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,getType(),METHOD_INVOCATION, line no: 140, 0.28, 0.28, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,ColumnFamilyType.Super,QUALIFIED_NAME, line no: 140, 0.28, 0.28, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,addColumn(path value timestamp 0),METHOD_INVOCATION, line no: 165, 0.28, 0.28, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfDiff.addColumn(columnExternal),METHOD_INVOCATION, line no: 246, 0.28, 0.28, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfDiff.addColumn(columnDiff),METHOD_INVOCATION, line no: 253, 0.28, 0.28, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,size+=column.size(),ASSIGNMENT, line no: 268, 0.28, 0.28, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cf1 == null,INFIX_EXPRESSION, line no: 327, 0.28, 0.28, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cf == null,INFIX_EXPRESSION, line no: 340, 0.28, 0.28, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,column.validateFields(metadata),METHOD_INVOCATION, line no: 372, 0.28, 0.28, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,create(cfm factory false),METHOD_INVOCATION, line no: 69, 0.25, 0.25, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,false,BOOLEAN_LITERAL, line no: 69, 0.25, 0.25, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfm != null,INFIX_EXPRESSION, line no: 80, 0.25, 0.25, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,this.cfm=cfm,ASSIGNMENT, line no: 81, 0.25, 0.25, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,this.cfm,FIELD_ACCESS, line no: 81, 0.25, 0.25, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,getType() == ColumnFamilyType.Super,INFIX_EXPRESSION, line no: 140, 0.25, 0.25, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,ColumnFamilyType.Super,QUALIFIED_NAME, line no: 140, 0.25, 0.25, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,clear,SIMPLE_NAME, line no: 219, 0.25, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,boolSize,SIMPLE_NAME, line no: 347, 0.25, 0.25, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,create(cfm factory false),METHOD_INVOCATION, line no: 69, 0.25, 0.25, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,false,BOOLEAN_LITERAL, line no: 69, 0.25, 0.25, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfm != null,INFIX_EXPRESSION, line no: 80, 0.25, 0.25, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,this.cfm=cfm,ASSIGNMENT, line no: 81, 0.25, 0.25, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,this.cfm,FIELD_ACCESS, line no: 81, 0.25, 0.25, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfType,SIMPLE_NAME, line no: 105, 0.25, 0.25, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,getType() == ColumnFamilyType.Super,INFIX_EXPRESSION, line no: 140, 0.25, 0.25, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,clear,SIMPLE_NAME, line no: 219, 0.25, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,boolSize,SIMPLE_NAME, line no: 347, 0.25, 0.25, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,serializedSizeForSSTable(),METHOD_INVOCATION, line no: 349, 0.25, 0.25, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,create(cfm factory false),METHOD_INVOCATION, line no: 69, 0.24, 0.24, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,false,BOOLEAN_LITERAL, line no: 69, 0.24, 0.24, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfm != null,INFIX_EXPRESSION, line no: 80, 0.24, 0.24, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,this.cfm=cfm,ASSIGNMENT, line no: 81, 0.24, 0.24, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,this.cfm,FIELD_ACCESS, line no: 81, 0.24, 0.24, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfType,SIMPLE_NAME, line no: 105, 0.24, 0.24, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,getType() == ColumnFamilyType.Super,INFIX_EXPRESSION, line no: 140, 0.24, 0.24, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,clear,SIMPLE_NAME, line no: 219, 0.24, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,boolSize,SIMPLE_NAME, line no: 347, 0.24, 0.24, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,serializedSizeForSSTable(),METHOD_INVOCATION, line no: 349, 0.24, 0.24, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,create(cfm factory false),METHOD_INVOCATION, line no: 69, 0.24, 0.24, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,false,BOOLEAN_LITERAL, line no: 69, 0.24, 0.24, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfm != null,INFIX_EXPRESSION, line no: 80, 0.24, 0.24, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,this.cfm=cfm,ASSIGNMENT, line no: 81, 0.24, 0.24, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,this.cfm,FIELD_ACCESS, line no: 81, 0.24, 0.24, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfType,SIMPLE_NAME, line no: 105, 0.24, 0.24, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,getType() == ColumnFamilyType.Super,INFIX_EXPRESSION, line no: 140, 0.24, 0.24, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,clear,SIMPLE_NAME, line no: 219, 0.24, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,boolSize,SIMPLE_NAME, line no: 347, 0.24, 0.24, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfType,SIMPLE_NAME, line no: 105, 0.20833333333333334, 0.20833333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfm.getColumnSerializer(),METHOD_INVOCATION, line no: 135, 0.20833333333333334, 0.20833333333333334, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,columns.clear(),METHOD_INVOCATION, line no: 221, 0.20833333333333334, 0.20833333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfm.cfType,QUALIFIED_NAME, line no: 105, 0.20833333333333334, 0.20833333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfm.cfId,QUALIFIED_NAME, line no: 118, 0.20833333333333334, 0.20833333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cfm.getColumnSerializer(),METHOD_INVOCATION, line no: 135, 0.20833333333333334, 0.20833333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,columns.clear(),METHOD_INVOCATION, line no: 221, 0.20833333333333334, 0.20833333333333334, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,boolSize + intSize + serializedSizeForSSTable(),INFIX_EXPRESSION, line no: 347, 0.20833333333333334, 0.20833333333333334, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfm.cfType,QUALIFIED_NAME, line no: 105, 0.2, 0.2, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfm.cfId,QUALIFIED_NAME, line no: 118, 0.2, 0.2, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cfm.getColumnSerializer(),METHOD_INVOCATION, line no: 135, 0.2, 0.2, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,columns.clear(),METHOD_INVOCATION, line no: 221, 0.2, 0.2, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,boolSize + intSize + serializedSizeForSSTable(),INFIX_EXPRESSION, line no: 347, 0.2, 0.2, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfm.cfType,QUALIFIED_NAME, line no: 105, 0.2, 0.2, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfm.cfId,QUALIFIED_NAME, line no: 118, 0.2, 0.2, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cfm.getColumnSerializer(),METHOD_INVOCATION, line no: 135, 0.2, 0.2, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,columns.clear(),METHOD_INVOCATION, line no: 221, 0.2, 0.2, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfm.cfType,QUALIFIED_NAME, line no: 105, 0.16666666666666666, 0.16666666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cfm.cfId,QUALIFIED_NAME, line no: 118, 0.16666666666666666, 0.16666666666666666, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,c=column,ASSIGNMENT, line no: 208, 0.16666666666666666, 0.16666666666666666, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,c=column,ASSIGNMENT, line no: 208, 0.16666666666666666, 0.16666666666666666, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,c=column,ASSIGNMENT, line no: 208, 0.16, 0.16, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,c=column,ASSIGNMENT, line no: 208, 0.16, 0.16, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,serializer,SIMPLE_NAME, line no: 39, 0.125, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,org,SIMPLE_NAME, line no: 19, 0.125, 0.125, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,apache,SIMPLE_NAME, line no: 19, 0.125, 0.125, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,cassandra,SIMPLE_NAME, line no: 19, 0.125, 0.125, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,db,SIMPLE_NAME, line no: 19, 0.125, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,java,SIMPLE_NAME, line no: 23, 0.125, 0.125, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,nio,SIMPLE_NAME, line no: 23, 0.125, 0.125, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,security,SIMPLE_NAME, line no: 24, 0.125, 0.125, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,config,SIMPLE_NAME, line no: 26, 0.125, 0.125, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,filter,SIMPLE_NAME, line no: 28, 0.125, 0.125, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,marshal,SIMPLE_NAME, line no: 29, 0.125, 0.125, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,io,SIMPLE_NAME, line no: 31, 0.125, 0.125, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,utils,SIMPLE_NAME, line no: 32, 0.125, 0.125, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,serializer,SIMPLE_NAME, line no: 39, 0.125, 0.08333333333333333, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,org,SIMPLE_NAME, line no: 19, 0.12, 0.12, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,apache,SIMPLE_NAME, line no: 19, 0.12, 0.12, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,cassandra,SIMPLE_NAME, line no: 19, 0.12, 0.12, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,db,SIMPLE_NAME, line no: 19, 0.12, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,java,SIMPLE_NAME, line no: 23, 0.12, 0.12, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,nio,SIMPLE_NAME, line no: 23, 0.12, 0.12, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,security,SIMPLE_NAME, line no: 24, 0.12, 0.12, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,config,SIMPLE_NAME, line no: 26, 0.12, 0.12, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,filter,SIMPLE_NAME, line no: 28, 0.12, 0.12, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,marshal,SIMPLE_NAME, line no: 29, 0.12, 0.12, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,io,SIMPLE_NAME, line no: 31, 0.12, 0.12, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,utils,SIMPLE_NAME, line no: 32, 0.12, 0.12, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,serializer,SIMPLE_NAME, line no: 39, 0.12, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,org,SIMPLE_NAME, line no: 19, 0.12, 0.12, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,apache,SIMPLE_NAME, line no: 19, 0.12, 0.12, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,cassandra,SIMPLE_NAME, line no: 19, 0.12, 0.12, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,db,SIMPLE_NAME, line no: 19, 0.12, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,java,SIMPLE_NAME, line no: 23, 0.12, 0.12, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,nio,SIMPLE_NAME, line no: 23, 0.12, 0.12, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,security,SIMPLE_NAME, line no: 24, 0.12, 0.12, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,config,SIMPLE_NAME, line no: 26, 0.12, 0.12, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,filter,SIMPLE_NAME, line no: 28, 0.12, 0.12, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,marshal,SIMPLE_NAME, line no: 29, 0.12, 0.12, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,io,SIMPLE_NAME, line no: 31, 0.12, 0.12, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,utils,SIMPLE_NAME, line no: 32, 0.12, 0.12, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,serializer,SIMPLE_NAME, line no: 39, 0.12, 0.08, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,org,SIMPLE_NAME, line no: 19, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,apache,SIMPLE_NAME, line no: 19, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,cassandra,SIMPLE_NAME, line no: 19, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,db,SIMPLE_NAME, line no: 19, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,DBConstants,SIMPLE_NAME, line no: 21, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,java,SIMPLE_NAME, line no: 23, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,nio,SIMPLE_NAME, line no: 23, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,security,SIMPLE_NAME, line no: 24, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,config,SIMPLE_NAME, line no: 26, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,filter,SIMPLE_NAME, line no: 28, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,QueryPath,SIMPLE_NAME, line no: 28, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,marshal,SIMPLE_NAME, line no: 29, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,AbstractType,SIMPLE_NAME, line no: 29, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,MarshalException,SIMPLE_NAME, line no: 30, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,io,SIMPLE_NAME, line no: 31, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,utils,SIMPLE_NAME, line no: 32, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,Allocator,SIMPLE_NAME, line no: 32, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,ColumnFamilySerializer,SIMPLE_NAME, line no: 39, 0.08333333333333333, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,ISortedColumns,SIMPLE_NAME, line no: 52, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,Factory,SIMPLE_NAME, line no: 52, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,RuntimeException,SIMPLE_NAME, line no: 283, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,org.apache.cassandra.db,QUALIFIED_NAME, line no: 19, 0.08333333333333333, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,org.apache.cassandra,QUALIFIED_NAME, line no: 19, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,org.apache,QUALIFIED_NAME, line no: 19, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,DBConstants,SIMPLE_NAME, line no: 21, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,java.nio,QUALIFIED_NAME, line no: 23, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,java.security,QUALIFIED_NAME, line no: 24, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,org.apache.cassandra.config,QUALIFIED_NAME, line no: 26, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,org.apache.cassandra.db.filter,QUALIFIED_NAME, line no: 28, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,QueryPath,SIMPLE_NAME, line no: 28, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,org.apache.cassandra.db.marshal,QUALIFIED_NAME, line no: 29, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,AbstractType,SIMPLE_NAME, line no: 29, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,MarshalException,SIMPLE_NAME, line no: 30, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,org.apache.cassandra.io,QUALIFIED_NAME, line no: 31, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,org.apache.cassandra.utils,QUALIFIED_NAME, line no: 32, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,Allocator,SIMPLE_NAME, line no: 32, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,ColumnFamilySerializer,SIMPLE_NAME, line no: 39, 0.08333333333333333, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,ISortedColumns,SIMPLE_NAME, line no: 52, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,Factory,SIMPLE_NAME, line no: 52, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,RuntimeException,SIMPLE_NAME, line no: 283, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,org.apache.cassandra.db,QUALIFIED_NAME, line no: 19, 0.08, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,org.apache.cassandra,QUALIFIED_NAME, line no: 19, 0.08, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,org.apache,QUALIFIED_NAME, line no: 19, 0.08, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,DBConstants,SIMPLE_NAME, line no: 21, 0.08, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,java.nio,QUALIFIED_NAME, line no: 23, 0.08, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,java.security,QUALIFIED_NAME, line no: 24, 0.08, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,org.apache.cassandra.config,QUALIFIED_NAME, line no: 26, 0.08, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,org.apache.cassandra.db.filter,QUALIFIED_NAME, line no: 28, 0.08, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,QueryPath,SIMPLE_NAME, line no: 28, 0.08, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,org.apache.cassandra.db.marshal,QUALIFIED_NAME, line no: 29, 0.08, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,AbstractType,SIMPLE_NAME, line no: 29, 0.08, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,MarshalException,SIMPLE_NAME, line no: 30, 0.08, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,org.apache.cassandra.io,QUALIFIED_NAME, line no: 31, 0.08, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,org.apache.cassandra.utils,QUALIFIED_NAME, line no: 32, 0.08, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,Allocator,SIMPLE_NAME, line no: 32, 0.08, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,ColumnFamilySerializer,SIMPLE_NAME, line no: 39, 0.08, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,ISortedColumns,SIMPLE_NAME, line no: 52, 0.08, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,Factory,SIMPLE_NAME, line no: 52, 0.08, 0.08, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,RuntimeException,SIMPLE_NAME, line no: 283, 0.08, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,org.apache.cassandra.db,QUALIFIED_NAME, line no: 19, 0.08, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,org.apache.cassandra,QUALIFIED_NAME, line no: 19, 0.08, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,org.apache,QUALIFIED_NAME, line no: 19, 0.08, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,DBConstants,SIMPLE_NAME, line no: 21, 0.08, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,java.nio,QUALIFIED_NAME, line no: 23, 0.08, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,java.security,QUALIFIED_NAME, line no: 24, 0.08, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,org.apache.cassandra.config,QUALIFIED_NAME, line no: 26, 0.08, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,org.apache.cassandra.db.filter,QUALIFIED_NAME, line no: 28, 0.08, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,QueryPath,SIMPLE_NAME, line no: 28, 0.08, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,org.apache.cassandra.db.marshal,QUALIFIED_NAME, line no: 29, 0.08, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,AbstractType,SIMPLE_NAME, line no: 29, 0.08, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,MarshalException,SIMPLE_NAME, line no: 30, 0.08, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,org.apache.cassandra.io,QUALIFIED_NAME, line no: 31, 0.08, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,org.apache.cassandra.utils,QUALIFIED_NAME, line no: 32, 0.08, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,Allocator,SIMPLE_NAME, line no: 32, 0.08, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,ColumnFamilySerializer,SIMPLE_NAME, line no: 39, 0.08, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,ISortedColumns,SIMPLE_NAME, line no: 52, 0.08, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,Factory,SIMPLE_NAME, line no: 52, 0.08, 0.08, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,RuntimeException,SIMPLE_NAME, line no: 283, 0.08, 0.08, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,org.apache.cassandra.db,QUALIFIED_NAME, line no: 19, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,org.apache.cassandra,QUALIFIED_NAME, line no: 19, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,org.apache,QUALIFIED_NAME, line no: 19, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,org.apache.cassandra.db.DBConstants,QUALIFIED_NAME, line no: 21, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,java.nio.ByteBuffer,QUALIFIED_NAME, line no: 23, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,java.nio,QUALIFIED_NAME, line no: 23, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,java.security.MessageDigest,QUALIFIED_NAME, line no: 24, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,java.security,QUALIFIED_NAME, line no: 24, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,org.apache.cassandra.config.CFMetaData,QUALIFIED_NAME, line no: 26, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,org.apache.cassandra.config,QUALIFIED_NAME, line no: 26, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,org.apache.cassandra.config.Schema,QUALIFIED_NAME, line no: 27, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,org.apache.cassandra.db.filter.QueryPath,QUALIFIED_NAME, line no: 28, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,org.apache.cassandra.db.filter,QUALIFIED_NAME, line no: 28, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,org.apache.cassandra.db.marshal.AbstractType,QUALIFIED_NAME, line no: 29, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,org.apache.cassandra.db.marshal,QUALIFIED_NAME, line no: 29, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,org.apache.cassandra.db.marshal.MarshalException,QUALIFIED_NAME, line no: 30, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,org.apache.cassandra.io.IColumnSerializer,QUALIFIED_NAME, line no: 31, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,org.apache.cassandra.io,QUALIFIED_NAME, line no: 31, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,org.apache.cassandra.utils.Allocator,QUALIFIED_NAME, line no: 32, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,org.apache.cassandra.utils,QUALIFIED_NAME, line no: 32, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,org.apache.cassandra.utils.FBUtilities,QUALIFIED_NAME, line no: 33, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,org.apache.cassandra.utils.HeapAllocator,QUALIFIED_NAME, line no: 34, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,AbstractColumnContainer,SIMPLE_NAME, line no: 36, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,new ColumnFamilySerializer(),CLASS_INSTANCE_CREATION, line no: 39, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,Integer,SIMPLE_NAME, line no: 47, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,ISortedColumns.Factory,QUALIFIED_NAME, line no: 52, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,String,SIMPLE_NAME, line no: 57, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,addAllWithSCCopy,SIMPLE_NAME, line no: 147, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,addCounter,SIMPLE_NAME, line no: 180, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,addTombstone,SIMPLE_NAME, line no: 186, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,hashCode,SIMPLE_NAME, line no: 281, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,new RuntimeException("Not implemented."),CLASS_INSTANCE_CREATION, line no: 283, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,"Not implemented.",STRING_LITERAL, line no: 283, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,Object,SIMPLE_NAME, line no: 286, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,o,SIMPLE_NAME, line no: 286, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,getComparatorFor,SIMPLE_NAME, line no: 318, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+maxTimestamp,SIMPLE_NAME, line no: 275,validateColumnFields,SIMPLE_NAME, line no: 367, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,org.apache.cassandra.db.DBConstants,QUALIFIED_NAME, line no: 21, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,java.nio.ByteBuffer,QUALIFIED_NAME, line no: 23, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,java.security.MessageDigest,QUALIFIED_NAME, line no: 24, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,org.apache.cassandra.config.CFMetaData,QUALIFIED_NAME, line no: 26, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,org.apache.cassandra.config.Schema,QUALIFIED_NAME, line no: 27, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,org.apache.cassandra.db.filter.QueryPath,QUALIFIED_NAME, line no: 28, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,org.apache.cassandra.db.marshal.AbstractType,QUALIFIED_NAME, line no: 29, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,org.apache.cassandra.db.marshal.MarshalException,QUALIFIED_NAME, line no: 30, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,org.apache.cassandra.io.IColumnSerializer,QUALIFIED_NAME, line no: 31, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,org.apache.cassandra.utils.Allocator,QUALIFIED_NAME, line no: 32, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,org.apache.cassandra.utils.FBUtilities,QUALIFIED_NAME, line no: 33, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,org.apache.cassandra.utils.HeapAllocator,QUALIFIED_NAME, line no: 34, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,AbstractColumnContainer,SIMPLE_NAME, line no: 36, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,new ColumnFamilySerializer(),CLASS_INSTANCE_CREATION, line no: 39, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,Integer,SIMPLE_NAME, line no: 47, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,ISortedColumns.Factory,QUALIFIED_NAME, line no: 52, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,String,SIMPLE_NAME, line no: 57, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,addAllWithSCCopy,SIMPLE_NAME, line no: 147, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,addCounter,SIMPLE_NAME, line no: 180, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,addTombstone,SIMPLE_NAME, line no: 186, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,hashCode,SIMPLE_NAME, line no: 281, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,new RuntimeException("Not implemented."),CLASS_INSTANCE_CREATION, line no: 283, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,"Not implemented.",STRING_LITERAL, line no: 283, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,Object,SIMPLE_NAME, line no: 286, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,o,SIMPLE_NAME, line no: 286, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,getComparatorFor,SIMPLE_NAME, line no: 318, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long.MIN_VALUE,QUALIFIED_NAME, line no: 275,validateColumnFields,SIMPLE_NAME, line no: 367, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,org.apache.cassandra.db.DBConstants,QUALIFIED_NAME, line no: 21, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,java.nio.ByteBuffer,QUALIFIED_NAME, line no: 23, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,java.security.MessageDigest,QUALIFIED_NAME, line no: 24, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,org.apache.cassandra.config.CFMetaData,QUALIFIED_NAME, line no: 26, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,org.apache.cassandra.config.Schema,QUALIFIED_NAME, line no: 27, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,org.apache.cassandra.db.filter.QueryPath,QUALIFIED_NAME, line no: 28, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,org.apache.cassandra.db.marshal.AbstractType,QUALIFIED_NAME, line no: 29, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,org.apache.cassandra.db.marshal.MarshalException,QUALIFIED_NAME, line no: 30, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,org.apache.cassandra.io.IColumnSerializer,QUALIFIED_NAME, line no: 31, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,org.apache.cassandra.utils.Allocator,QUALIFIED_NAME, line no: 32, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,org.apache.cassandra.utils.FBUtilities,QUALIFIED_NAME, line no: 33, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,org.apache.cassandra.utils.HeapAllocator,QUALIFIED_NAME, line no: 34, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,AbstractColumnContainer,SIMPLE_NAME, line no: 36, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,new ColumnFamilySerializer(),CLASS_INSTANCE_CREATION, line no: 39, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,Integer,SIMPLE_NAME, line no: 47, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,ISortedColumns.Factory,QUALIFIED_NAME, line no: 52, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,String,SIMPLE_NAME, line no: 57, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,addAllWithSCCopy,SIMPLE_NAME, line no: 147, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,addCounter,SIMPLE_NAME, line no: 180, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,addTombstone,SIMPLE_NAME, line no: 186, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,hashCode,SIMPLE_NAME, line no: 281, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,new RuntimeException("Not implemented."),CLASS_INSTANCE_CREATION, line no: 283, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,"Not implemented.",STRING_LITERAL, line no: 283, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,Object,SIMPLE_NAME, line no: 286, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,o,SIMPLE_NAME, line no: 286, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,getComparatorFor,SIMPLE_NAME, line no: 318, 0.04, 0.04, 0.0, 0.0, 0.0
+Long,SIMPLE_NAME, line no: 275,validateColumnFields,SIMPLE_NAME, line no: 367, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,org.apache.cassandra.db.DBConstants,QUALIFIED_NAME, line no: 21, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,java.nio.ByteBuffer,QUALIFIED_NAME, line no: 23, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,java.security.MessageDigest,QUALIFIED_NAME, line no: 24, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,org.apache.cassandra.config.CFMetaData,QUALIFIED_NAME, line no: 26, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,org.apache.cassandra.config.Schema,QUALIFIED_NAME, line no: 27, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,org.apache.cassandra.db.filter.QueryPath,QUALIFIED_NAME, line no: 28, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,org.apache.cassandra.db.marshal.AbstractType,QUALIFIED_NAME, line no: 29, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,org.apache.cassandra.db.marshal.MarshalException,QUALIFIED_NAME, line no: 30, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,org.apache.cassandra.io.IColumnSerializer,QUALIFIED_NAME, line no: 31, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,org.apache.cassandra.utils.Allocator,QUALIFIED_NAME, line no: 32, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,org.apache.cassandra.utils.FBUtilities,QUALIFIED_NAME, line no: 33, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,org.apache.cassandra.utils.HeapAllocator,QUALIFIED_NAME, line no: 34, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,AbstractColumnContainer,SIMPLE_NAME, line no: 36, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,new ColumnFamilySerializer(),CLASS_INSTANCE_CREATION, line no: 39, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,Integer,SIMPLE_NAME, line no: 47, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,ISortedColumns.Factory,QUALIFIED_NAME, line no: 52, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,String,SIMPLE_NAME, line no: 57, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,addAllWithSCCopy,SIMPLE_NAME, line no: 147, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,addCounter,SIMPLE_NAME, line no: 180, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,addTombstone,SIMPLE_NAME, line no: 186, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,hashCode,SIMPLE_NAME, line no: 281, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,new RuntimeException("Not implemented."),CLASS_INSTANCE_CREATION, line no: 283, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,"Not implemented.",STRING_LITERAL, line no: 283, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,Object,SIMPLE_NAME, line no: 286, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,o,SIMPLE_NAME, line no: 286, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,getComparatorFor,SIMPLE_NAME, line no: 318, 0.04, 0.04, 0.0, 0.0, 0.0
+MIN_VALUE,SIMPLE_NAME, line no: 275,validateColumnFields,SIMPLE_NAME, line no: 367, 0.04, 0.04, 0.0, 0.0, 0.0

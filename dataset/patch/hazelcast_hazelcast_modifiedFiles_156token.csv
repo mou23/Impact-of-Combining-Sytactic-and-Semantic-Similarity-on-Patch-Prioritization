@@ -1,16 +1,579 @@
+oldValue,SIMPLE_NAME, line no: 70,value,SIMPLE_NAME, line no: 33, 0.5, 0.05263157894736842, 1.0, 0.5, 0.5
+value,SIMPLE_NAME, line no: 70,getValue,SIMPLE_NAME, line no: 55, 0.5, 0.02631578947368421, 1.0, 0.5, 0.5
+value,SIMPLE_NAME, line no: 70,setValue,SIMPLE_NAME, line no: 68, 0.5, 0.02631578947368421, 1.0, 0.5, 0.5
+value,SIMPLE_NAME, line no: 70,oldValue,SIMPLE_NAME, line no: 70, 0.5, 1.0, 1.0, 0.5, 0.5
+oldValue,SIMPLE_NAME, line no: 70,getValue,SIMPLE_NAME, line no: 55, 0.3333333333333333, 0.02631578947368421, 1.0, 0.625, 0.3333333333333333
+oldValue,SIMPLE_NAME, line no: 70,setValue,SIMPLE_NAME, line no: 68, 0.3333333333333333, 0.02631578947368421, 1.0, 0.625, 0.3333333333333333
 value,SIMPLE_NAME, line no: 70,this.value,FIELD_ACCESS, line no: 44, 0.3333333333333333, 0.7105263157894737, 1.0, 0.5, 0.3333333333333333
 value,SIMPLE_NAME, line no: 70,value != null,INFIX_EXPRESSION, line no: 138, 0.3333333333333333, 0.5263157894736842, 0.0, 0.38461538461538464, 0.3333333333333333
 value,SIMPLE_NAME, line no: 70,that.value,QUALIFIED_NAME, line no: 138, 0.3333333333333333, 0.5263157894736842, 0.0, 0.5, 0.3333333333333333
+oldValue,SIMPLE_NAME, line no: 70,this.value,FIELD_ACCESS, line no: 44, 0.25, 0.7105263157894737, 1.0, 0.4, 0.25
+oldValue,SIMPLE_NAME, line no: 70,value != null,INFIX_EXPRESSION, line no: 138, 0.25, 0.5263157894736842, 0.0, 0.3076923076923077, 0.25
+oldValue,SIMPLE_NAME, line no: 70,that.value,QUALIFIED_NAME, line no: 138, 0.25, 0.5263157894736842, 0.0, 0.4, 0.25
 value,SIMPLE_NAME, line no: 70,this.value=value,ASSIGNMENT, line no: 44, 0.25, 0.7105263157894737, 1.0, 0.3125, 0.25
+oldValue,SIMPLE_NAME, line no: 70,this.value=value,ASSIGNMENT, line no: 44, 0.2, 0.7105263157894737, 1.0, 0.3125, 0.2
 value,SIMPLE_NAME, line no: 70,that.value != null,INFIX_EXPRESSION, line no: 138, 0.2, 0.5263157894736842, 0.0, 0.2777777777777778, 0.2
-value,SIMPLE_NAME, line no: 70,value.hashCode(),METHOD_INVOCATION, line no: 146, 0.2, 0.7105263157894737, 0.0, 0.3125, 0.2
-value,SIMPLE_NAME, line no: 70,out.writeObject(value),METHOD_INVOCATION, line no: 112, 0.16666666666666666, 0.5789473684210527, 0.0, 0.22727272727272727, 0.16666666666666666
+oldValue,SIMPLE_NAME, line no: 70,that.value != null,INFIX_EXPRESSION, line no: 138, 0.16666666666666666, 0.5263157894736842, 0.0, 0.2222222222222222, 0.16666666666666666
 value,SIMPLE_NAME, line no: 70,value.equals(that.value),METHOD_INVOCATION, line no: 138, 0.16666666666666666, 0.5263157894736842, 0.0, 0.20833333333333334, 0.16666666666666666
-value,SIMPLE_NAME, line no: 70,value=in.readObject(),ASSIGNMENT, line no: 121, 0.14285714285714285, 0.6842105263157895, 1.0, 0.23809523809523808, 0.14285714285714285
+value,SIMPLE_NAME, line no: 70,value.hashCode(),METHOD_INVOCATION, line no: 146, 0.16666666666666666, 0.7105263157894737, 0.0, 0.3125, 0.16666666666666666
+oldValue,SIMPLE_NAME, line no: 70,value.equals(that.value),METHOD_INVOCATION, line no: 138, 0.14285714285714285, 0.5263157894736842, 0.0, 0.20833333333333334, 0.14285714285714285
+oldValue,SIMPLE_NAME, line no: 70,value.hashCode(),METHOD_INVOCATION, line no: 146, 0.14285714285714285, 0.7105263157894737, 0.0, 0.25, 0.14285714285714285
+value,SIMPLE_NAME, line no: 70,out.writeObject(value),METHOD_INVOCATION, line no: 112, 0.14285714285714285, 0.5789473684210527, 0.0, 0.22727272727272727, 0.14285714285714285
 value,SIMPLE_NAME, line no: 70,!value.equals(that.value),PREFIX_EXPRESSION, line no: 138, 0.14285714285714285, 0.5263157894736842, 0.0, 0.2, 0.14285714285714285
 value,SIMPLE_NAME, line no: 70,sb.append("  value=").append(value),METHOD_INVOCATION, line no: 156, 0.14285714285714285, 0.631578947368421, 0.0, 0.14285714285714285, 0.14285714285714285
-value,SIMPLE_NAME, line no: 70,(value != null ? value.hashCode() : 0),PARENTHESIZED_EXPRESSION, line no: 146, 0.1, 0.7105263157894737, 0.0, 0.13157894736842105, 0.1
-value,SIMPLE_NAME, line no: 70,value != null ? value.hashCode() : 0,CONDITIONAL_EXPRESSION, line no: 146, 0.1, 0.7105263157894737, 0.0, 0.1388888888888889, 0.1
+oldValue,SIMPLE_NAME, line no: 70,out.writeObject(value),METHOD_INVOCATION, line no: 112, 0.125, 0.5789473684210527, 0.0, 0.22727272727272727, 0.125
+oldValue,SIMPLE_NAME, line no: 70,!value.equals(that.value),PREFIX_EXPRESSION, line no: 138, 0.125, 0.5263157894736842, 0.0, 0.2, 0.125
+oldValue,SIMPLE_NAME, line no: 70,sb.append("  value=").append(value),METHOD_INVOCATION, line no: 156, 0.125, 0.631578947368421, 0.0, 0.17142857142857143, 0.125
+value,SIMPLE_NAME, line no: 70,value=in.readObject(),ASSIGNMENT, line no: 121, 0.125, 0.6842105263157895, 1.0, 0.23809523809523808, 0.125
+oldValue,SIMPLE_NAME, line no: 70,value=in.readObject(),ASSIGNMENT, line no: 121, 0.1111111111111111, 0.6842105263157895, 1.0, 0.19047619047619047, 0.1111111111111111
 value,SIMPLE_NAME, line no: 70,value != null ? !value.equals(that.value) : that.value != null,CONDITIONAL_EXPRESSION, line no: 138, 0.09090909090909091, 0.5263157894736842, 0.0, 0.08064516129032258, 0.09090909090909091
-value,SIMPLE_NAME, line no: 70,31 * result + (value != null ? value.hashCode() : 0),INFIX_EXPRESSION, line no: 146, 0.07142857142857142, 0.7105263157894737, 0.0, 0.09615384615384616, 0.07142857142857142
-value,SIMPLE_NAME, line no: 70,result=31 * result + (value != null ? value.hashCode() : 0),ASSIGNMENT, line no: 146, 0.06666666666666667, 0.7105263157894737, 0.0, 0.0847457627118644, 0.06666666666666667
+value,SIMPLE_NAME, line no: 70,(value != null ? value.hashCode() : 0),PARENTHESIZED_EXPRESSION, line no: 146, 0.09090909090909091, 0.7105263157894737, 0.0, 0.13157894736842105, 0.09090909090909091
+value,SIMPLE_NAME, line no: 70,value != null ? value.hashCode() : 0,CONDITIONAL_EXPRESSION, line no: 146, 0.09090909090909091, 0.7105263157894737, 0.0, 0.1388888888888889, 0.09090909090909091
+oldValue,SIMPLE_NAME, line no: 70,value != null ? !value.equals(that.value) : that.value != null,CONDITIONAL_EXPRESSION, line no: 138, 0.08333333333333333, 0.5263157894736842, 0.0, 0.08064516129032258, 0.08333333333333333
+oldValue,SIMPLE_NAME, line no: 70,(value != null ? value.hashCode() : 0),PARENTHESIZED_EXPRESSION, line no: 146, 0.08333333333333333, 0.7105263157894737, 0.0, 0.13157894736842105, 0.08333333333333333
+oldValue,SIMPLE_NAME, line no: 70,value != null ? value.hashCode() : 0,CONDITIONAL_EXPRESSION, line no: 146, 0.08333333333333333, 0.7105263157894737, 0.0, 0.1388888888888889, 0.08333333333333333
+value,SIMPLE_NAME, line no: 70,31 * result + (value != null ? value.hashCode() : 0),INFIX_EXPRESSION, line no: 146, 0.06666666666666667, 0.7105263157894737, 0.0, 0.09615384615384616, 0.06666666666666667
+oldValue,SIMPLE_NAME, line no: 70,31 * result + (value != null ? value.hashCode() : 0),INFIX_EXPRESSION, line no: 146, 0.0625, 0.7105263157894737, 0.0, 0.09615384615384616, 0.0625
+value,SIMPLE_NAME, line no: 70,result=31 * result + (value != null ? value.hashCode() : 0),ASSIGNMENT, line no: 146, 0.0625, 0.7105263157894737, 0.0, 0.0847457627118644, 0.0625
+oldValue,SIMPLE_NAME, line no: 70,result=31 * result + (value != null ? value.hashCode() : 0),ASSIGNMENT, line no: 146, 0.058823529411764705, 0.7105263157894737, 0.0, 0.0847457627118644, 0.058823529411764705
+V,SIMPLE_NAME, line no: 70,com.hazelcast.replicatedmap.record,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,com.hazelcast.replicatedmap,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,com.hazelcast,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,com,SIMPLE_NAME, line no: 17, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,hazelcast,SIMPLE_NAME, line no: 17, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,replicatedmap,SIMPLE_NAME, line no: 17, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,record,SIMPLE_NAME, line no: 17, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,com.hazelcast.nio.ObjectDataInput,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,com.hazelcast.nio,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,nio,SIMPLE_NAME, line no: 19, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,ObjectDataInput,SIMPLE_NAME, line no: 19, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,com.hazelcast.nio.ObjectDataOutput,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,ObjectDataOutput,SIMPLE_NAME, line no: 20, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,com.hazelcast.nio.serialization.IdentifiedDataSerializable,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,com.hazelcast.nio.serialization,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,serialization,SIMPLE_NAME, line no: 21, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,IdentifiedDataSerializable,SIMPLE_NAME, line no: 21, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,com.hazelcast.replicatedmap.operation.ReplicatedMapDataSerializerHook,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,com.hazelcast.replicatedmap.operation,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,operation,SIMPLE_NAME, line no: 22, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,ReplicatedMapDataSerializerHook,SIMPLE_NAME, line no: 22, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,java.io.IOException,QUALIFIED_NAME, line no: 24, 0.0, 0.0, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,java.io,QUALIFIED_NAME, line no: 24, 0.0, 0.0, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,java,SIMPLE_NAME, line no: 24, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,io,SIMPLE_NAME, line no: 24, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,IOException,SIMPLE_NAME, line no: 24, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,java.util.concurrent.atomic.AtomicLong,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,java.util.concurrent.atomic,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,java.util.concurrent,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,java.util,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,util,SIMPLE_NAME, line no: 25, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,concurrent,SIMPLE_NAME, line no: 25, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,atomic,SIMPLE_NAME, line no: 25, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,AtomicLong,SIMPLE_NAME, line no: 25, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,ReplicatedRecord,SIMPLE_NAME, line no: 27, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,K,SIMPLE_NAME, line no: 27, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,hits,SIMPLE_NAME, line no: 29, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,new AtomicLong(),CLASS_INSTANCE_CREATION, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,lastAccessTime,SIMPLE_NAME, line no: 30, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,key,SIMPLE_NAME, line no: 32, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,value,SIMPLE_NAME, line no: 33, 0.0, 0.02631578947368421, 1.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,Vector,SIMPLE_NAME, line no: 34, 0.0, 0.05263157894736842, 0.0, 0.16666666666666666, 0.0
+V,SIMPLE_NAME, line no: 70,vector,SIMPLE_NAME, line no: 34, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,latestUpdateHash,SIMPLE_NAME, line no: 35, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,0,NUMBER_LITERAL, line no: 35, 0.0, 0.0, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,ttlMillis,SIMPLE_NAME, line no: 36, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,updateTime,SIMPLE_NAME, line no: 37, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,System.currentTimeMillis(),METHOD_INVOCATION, line no: 37, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,System,SIMPLE_NAME, line no: 37, 0.0, 0.05263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,currentTimeMillis,SIMPLE_NAME, line no: 37, 0.0, 0.05263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,hash,SIMPLE_NAME, line no: 42, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,this.key=key,ASSIGNMENT, line no: 43, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,this.key,FIELD_ACCESS, line no: 43, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,this,THIS_EXPRESSION, line no: 43, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,this.value=value,ASSIGNMENT, line no: 44, 0.0, 0.7105263157894737, 1.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,this.value,FIELD_ACCESS, line no: 44, 0.0, 0.7105263157894737, 1.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,this.vector=vector,ASSIGNMENT, line no: 45, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,this.vector,FIELD_ACCESS, line no: 45, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,this.latestUpdateHash=hash,ASSIGNMENT, line no: 46, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,this.latestUpdateHash,FIELD_ACCESS, line no: 46, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,this.ttlMillis=ttlMillis,ASSIGNMENT, line no: 47, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,this.ttlMillis,FIELD_ACCESS, line no: 47, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,getKey,SIMPLE_NAME, line no: 50, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,access(),METHOD_INVOCATION, line no: 51, 0.0, 0.18421052631578946, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,access,SIMPLE_NAME, line no: 51, 0.0, 0.21052631578947367, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,getValue,SIMPLE_NAME, line no: 55, 0.0, 0.02631578947368421, 1.0, 0.125, 0.0
+V,SIMPLE_NAME, line no: 70,getVector,SIMPLE_NAME, line no: 60, 0.0, 0.02631578947368421, 0.0, 0.1111111111111111, 0.0
+V,SIMPLE_NAME, line no: 70,getTtlMillis,SIMPLE_NAME, line no: 64, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,setValue,SIMPLE_NAME, line no: 68, 0.0, 0.02631578947368421, 1.0, 0.125, 0.0
+V,SIMPLE_NAME, line no: 70,oldValue,SIMPLE_NAME, line no: 70, 0.0, 0.9736842105263158, 1.0, 0.125, 0.0
+V,SIMPLE_NAME, line no: 70,this.updateTime=System.currentTimeMillis(),ASSIGNMENT, line no: 73, 0.0, 0.9210526315789473, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,this.updateTime,FIELD_ACCESS, line no: 73, 0.0, 0.9210526315789473, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,getUpdateTime,SIMPLE_NAME, line no: 78, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,getLatestUpdateHash,SIMPLE_NAME, line no: 82, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,getHits,SIMPLE_NAME, line no: 86, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,hits.get(),METHOD_INVOCATION, line no: 87, 0.0, 0.13157894736842105, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,get,SIMPLE_NAME, line no: 87, 0.0, 0.15789473684210525, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,getLastAccessTime,SIMPLE_NAME, line no: 90, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,lastAccessTime.get(),METHOD_INVOCATION, line no: 91, 0.0, 0.13157894736842105, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,hits.incrementAndGet(),METHOD_INVOCATION, line no: 95, 0.0, 0.2894736842105263, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,incrementAndGet,SIMPLE_NAME, line no: 95, 0.0, 0.3157894736842105, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,lastAccessTime.set(System.currentTimeMillis()),METHOD_INVOCATION, line no: 96, 0.0, 0.2894736842105263, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,set,SIMPLE_NAME, line no: 96, 0.0, 0.3157894736842105, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,@Override,MARKER_ANNOTATION, line no: 99, 0.0, 0.0, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,Override,SIMPLE_NAME, line no: 99, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,getFactoryId,SIMPLE_NAME, line no: 100, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,ReplicatedMapDataSerializerHook.F_ID,QUALIFIED_NAME, line no: 101, 0.0, 0.07894736842105263, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,F_ID,SIMPLE_NAME, line no: 101, 0.0, 0.10526315789473684, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,getId,SIMPLE_NAME, line no: 105, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,ReplicatedMapDataSerializerHook.RECORD,QUALIFIED_NAME, line no: 106, 0.0, 0.07894736842105263, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,RECORD,SIMPLE_NAME, line no: 106, 0.0, 0.10526315789473684, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,writeData,SIMPLE_NAME, line no: 110, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,out,SIMPLE_NAME, line no: 110, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,out.writeObject(key),METHOD_INVOCATION, line no: 111, 0.0, 0.5789473684210527, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,writeObject,SIMPLE_NAME, line no: 111, 0.0, 0.5789473684210527, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,out.writeObject(value),METHOD_INVOCATION, line no: 112, 0.0, 0.5789473684210527, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,vector.writeData(out),METHOD_INVOCATION, line no: 113, 0.0, 0.5789473684210527, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,out.writeInt(latestUpdateHash),METHOD_INVOCATION, line no: 114, 0.0, 0.5789473684210527, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,writeInt,SIMPLE_NAME, line no: 114, 0.0, 0.5789473684210527, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,out.writeLong(ttlMillis),METHOD_INVOCATION, line no: 115, 0.0, 0.5789473684210527, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,writeLong,SIMPLE_NAME, line no: 115, 0.0, 0.5789473684210527, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,readData,SIMPLE_NAME, line no: 119, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,in,SIMPLE_NAME, line no: 119, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,key=in.readObject(),ASSIGNMENT, line no: 120, 0.0, 0.6842105263157895, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,in.readObject(),METHOD_INVOCATION, line no: 120, 0.0, 0.6842105263157895, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,readObject,SIMPLE_NAME, line no: 120, 0.0, 0.6842105263157895, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,value=in.readObject(),ASSIGNMENT, line no: 121, 0.0, 0.6842105263157895, 1.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,vector=new Vector(),ASSIGNMENT, line no: 122, 0.0, 0.6842105263157895, 0.0, 0.05263157894736842, 0.0
+V,SIMPLE_NAME, line no: 70,new Vector(),CLASS_INSTANCE_CREATION, line no: 122, 0.0, 0.6842105263157895, 0.0, 0.08333333333333333, 0.0
+V,SIMPLE_NAME, line no: 70,vector.readData(in),METHOD_INVOCATION, line no: 123, 0.0, 0.6842105263157895, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,latestUpdateHash=in.readInt(),ASSIGNMENT, line no: 124, 0.0, 0.6842105263157895, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,in.readInt(),METHOD_INVOCATION, line no: 124, 0.0, 0.6842105263157895, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,readInt,SIMPLE_NAME, line no: 124, 0.0, 0.6842105263157895, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,ttlMillis=in.readLong(),ASSIGNMENT, line no: 125, 0.0, 0.6842105263157895, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,in.readLong(),METHOD_INVOCATION, line no: 125, 0.0, 0.6842105263157895, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,readLong,SIMPLE_NAME, line no: 125, 0.0, 0.6842105263157895, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,equals,SIMPLE_NAME, line no: 129, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,Object,SIMPLE_NAME, line no: 129, 0.0, 0.05263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,o,SIMPLE_NAME, line no: 129, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,this == o,INFIX_EXPRESSION, line no: 130, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,true,BOOLEAN_LITERAL, line no: 130, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,o == null || getClass() != o.getClass(),INFIX_EXPRESSION, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,o == null,INFIX_EXPRESSION, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,null,NULL_LITERAL, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,getClass() != o.getClass(),INFIX_EXPRESSION, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,getClass(),METHOD_INVOCATION, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,getClass,SIMPLE_NAME, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,o.getClass(),METHOD_INVOCATION, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,false,BOOLEAN_LITERAL, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,that,SIMPLE_NAME, line no: 133, 0.0, 0.5526315789473685, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,(ReplicatedRecord)o,CAST_EXPRESSION, line no: 133, 0.0, 0.5526315789473685, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,latestUpdateHash != that.latestUpdateHash,INFIX_EXPRESSION, line no: 135, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,that.latestUpdateHash,QUALIFIED_NAME, line no: 135, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,ttlMillis != that.ttlMillis,INFIX_EXPRESSION, line no: 136, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,that.ttlMillis,QUALIFIED_NAME, line no: 136, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,key != null ? !key.equals(that.key) : that.key != null,CONDITIONAL_EXPRESSION, line no: 137, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,key != null,INFIX_EXPRESSION, line no: 137, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,!key.equals(that.key),PREFIX_EXPRESSION, line no: 137, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,key.equals(that.key),METHOD_INVOCATION, line no: 137, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,that.key,QUALIFIED_NAME, line no: 137, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,that.key != null,INFIX_EXPRESSION, line no: 137, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,value != null ? !value.equals(that.value) : that.value != null,CONDITIONAL_EXPRESSION, line no: 138, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,value != null,INFIX_EXPRESSION, line no: 138, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,!value.equals(that.value),PREFIX_EXPRESSION, line no: 138, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,value.equals(that.value),METHOD_INVOCATION, line no: 138, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,that.value,QUALIFIED_NAME, line no: 138, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,that.value != null,INFIX_EXPRESSION, line no: 138, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,hashCode,SIMPLE_NAME, line no: 144, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,result,SIMPLE_NAME, line no: 145, 0.0, 0.6842105263157895, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,key != null ? key.hashCode() : 0,CONDITIONAL_EXPRESSION, line no: 145, 0.0, 0.6842105263157895, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,key.hashCode(),METHOD_INVOCATION, line no: 145, 0.0, 0.6842105263157895, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,result=31 * result + (value != null ? value.hashCode() : 0),ASSIGNMENT, line no: 146, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,31 * result + (value != null ? value.hashCode() : 0),INFIX_EXPRESSION, line no: 146, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,31 * result,INFIX_EXPRESSION, line no: 146, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,31,NUMBER_LITERAL, line no: 146, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,(value != null ? value.hashCode() : 0),PARENTHESIZED_EXPRESSION, line no: 146, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,value != null ? value.hashCode() : 0,CONDITIONAL_EXPRESSION, line no: 146, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,value.hashCode(),METHOD_INVOCATION, line no: 146, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,result=31 * result + latestUpdateHash,ASSIGNMENT, line no: 147, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,31 * result + latestUpdateHash,INFIX_EXPRESSION, line no: 147, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,result=31 * result + (int)(ttlMillis ^ (ttlMillis >>> 32)),ASSIGNMENT, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,31 * result + (int)(ttlMillis ^ (ttlMillis >>> 32)),INFIX_EXPRESSION, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,(int)(ttlMillis ^ (ttlMillis >>> 32)),CAST_EXPRESSION, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,(ttlMillis ^ (ttlMillis >>> 32)),PARENTHESIZED_EXPRESSION, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,ttlMillis ^ (ttlMillis >>> 32),INFIX_EXPRESSION, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,(ttlMillis >>> 32),PARENTHESIZED_EXPRESSION, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,ttlMillis >>> 32,INFIX_EXPRESSION, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,32,NUMBER_LITERAL, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,String,SIMPLE_NAME, line no: 153, 0.0, 0.05263157894736842, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,toString,SIMPLE_NAME, line no: 153, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,StringBuilder,SIMPLE_NAME, line no: 154, 0.0, 0.6842105263157895, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,sb,SIMPLE_NAME, line no: 154, 0.0, 0.6578947368421053, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,new StringBuilder("ReplicatedRecord{"),CLASS_INSTANCE_CREATION, line no: 154, 0.0, 0.6578947368421053, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,"ReplicatedRecord{",STRING_LITERAL, line no: 154, 0.0, 0.6578947368421053, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,sb.append("key=").append(key),METHOD_INVOCATION, line no: 155, 0.0, 0.631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,sb.append("key="),METHOD_INVOCATION, line no: 155, 0.0, 0.631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,append,SIMPLE_NAME, line no: 155, 0.0, 0.631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,"key=",STRING_LITERAL, line no: 155, 0.0, 0.631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,sb.append("  value=").append(value),METHOD_INVOCATION, line no: 156, 0.0, 0.631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,sb.append("  value="),METHOD_INVOCATION, line no: 156, 0.0, 0.631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,"  value=",STRING_LITERAL, line no: 156, 0.0, 0.631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,sb.append("  vector=").append(vector),METHOD_INVOCATION, line no: 157, 0.0, 0.631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,sb.append("  vector="),METHOD_INVOCATION, line no: 157, 0.0, 0.631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,"  vector=",STRING_LITERAL, line no: 157, 0.0, 0.631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,sb.append("  latestUpdateHash=").append(latestUpdateHash),METHOD_INVOCATION, line no: 158, 0.0, 0.631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,sb.append("  latestUpdateHash="),METHOD_INVOCATION, line no: 158, 0.0, 0.631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,"  latestUpdateHash=",STRING_LITERAL, line no: 158, 0.0, 0.631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,sb.append("  ttlMillis=").append(ttlMillis),METHOD_INVOCATION, line no: 159, 0.0, 0.631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,sb.append("  ttlMillis="),METHOD_INVOCATION, line no: 159, 0.0, 0.631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,"  ttlMillis=",STRING_LITERAL, line no: 159, 0.0, 0.631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,sb.append('}'),METHOD_INVOCATION, line no: 160, 0.0, 0.631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,'}',CHARACTER_LITERAL, line no: 160, 0.0, 0.631578947368421, 0.0, 0.0, 0.0
+V,SIMPLE_NAME, line no: 70,sb.toString(),METHOD_INVOCATION, line no: 161, 0.0, 0.631578947368421, 0.0, 0.0, 0.0
+oldValue,SIMPLE_NAME, line no: 70,com.hazelcast.replicatedmap.record,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.14705882352941177, 0.0
+oldValue,SIMPLE_NAME, line no: 70,com.hazelcast.replicatedmap,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.18518518518518517, 0.0
+oldValue,SIMPLE_NAME, line no: 70,com.hazelcast,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.23076923076923078, 0.0
+oldValue,SIMPLE_NAME, line no: 70,com,SIMPLE_NAME, line no: 17, 0.0, 0.02631578947368421, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,hazelcast,SIMPLE_NAME, line no: 17, 0.0, 0.02631578947368421, 0.0, 0.2222222222222222, 0.0
+oldValue,SIMPLE_NAME, line no: 70,replicatedmap,SIMPLE_NAME, line no: 17, 0.0, 0.02631578947368421, 0.0, 0.23076923076923078, 0.0
+oldValue,SIMPLE_NAME, line no: 70,record,SIMPLE_NAME, line no: 17, 0.0, 0.02631578947368421, 0.0, 0.25, 0.0
+oldValue,SIMPLE_NAME, line no: 70,com.hazelcast.nio.ObjectDataInput,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.12121212121212122, 0.0
+oldValue,SIMPLE_NAME, line no: 70,com.hazelcast.nio,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.17647058823529413, 0.0
+oldValue,SIMPLE_NAME, line no: 70,nio,SIMPLE_NAME, line no: 19, 0.0, 0.02631578947368421, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,ObjectDataInput,SIMPLE_NAME, line no: 19, 0.0, 0.02631578947368421, 0.0, 0.13333333333333333, 0.0
+oldValue,SIMPLE_NAME, line no: 70,com.hazelcast.nio.ObjectDataOutput,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.11764705882352941, 0.0
+oldValue,SIMPLE_NAME, line no: 70,ObjectDataOutput,SIMPLE_NAME, line no: 20, 0.0, 0.02631578947368421, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,com.hazelcast.nio.serialization.IdentifiedDataSerializable,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.10344827586206896, 0.0
+oldValue,SIMPLE_NAME, line no: 70,com.hazelcast.nio.serialization,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.12903225806451613, 0.0
+oldValue,SIMPLE_NAME, line no: 70,serialization,SIMPLE_NAME, line no: 21, 0.0, 0.02631578947368421, 0.0, 0.15384615384615385, 0.0
+oldValue,SIMPLE_NAME, line no: 70,IdentifiedDataSerializable,SIMPLE_NAME, line no: 21, 0.0, 0.02631578947368421, 0.0, 0.15384615384615385, 0.0
+oldValue,SIMPLE_NAME, line no: 70,com.hazelcast.replicatedmap.operation.ReplicatedMapDataSerializerHook,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.08695652173913043, 0.0
+oldValue,SIMPLE_NAME, line no: 70,com.hazelcast.replicatedmap.operation,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.13513513513513514, 0.0
+oldValue,SIMPLE_NAME, line no: 70,operation,SIMPLE_NAME, line no: 22, 0.0, 0.02631578947368421, 0.0, 0.2222222222222222, 0.0
+oldValue,SIMPLE_NAME, line no: 70,ReplicatedMapDataSerializerHook,SIMPLE_NAME, line no: 22, 0.0, 0.02631578947368421, 0.0, 0.16129032258064516, 0.0
+oldValue,SIMPLE_NAME, line no: 70,java.io.IOException,QUALIFIED_NAME, line no: 24, 0.0, 0.0, 0.0, 0.10526315789473684, 0.0
+oldValue,SIMPLE_NAME, line no: 70,java.io,QUALIFIED_NAME, line no: 24, 0.0, 0.0, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,java,SIMPLE_NAME, line no: 24, 0.0, 0.02631578947368421, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,io,SIMPLE_NAME, line no: 24, 0.0, 0.02631578947368421, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,IOException,SIMPLE_NAME, line no: 24, 0.0, 0.02631578947368421, 0.0, 0.09090909090909091, 0.0
+oldValue,SIMPLE_NAME, line no: 70,java.util.concurrent.atomic.AtomicLong,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.10526315789473684, 0.0
+oldValue,SIMPLE_NAME, line no: 70,java.util.concurrent.atomic,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.14814814814814814, 0.0
+oldValue,SIMPLE_NAME, line no: 70,java.util.concurrent,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.2, 0.0
+oldValue,SIMPLE_NAME, line no: 70,java.util,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.2222222222222222, 0.0
+oldValue,SIMPLE_NAME, line no: 70,util,SIMPLE_NAME, line no: 25, 0.0, 0.02631578947368421, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,concurrent,SIMPLE_NAME, line no: 25, 0.0, 0.02631578947368421, 0.0, 0.3, 0.0
+oldValue,SIMPLE_NAME, line no: 70,atomic,SIMPLE_NAME, line no: 25, 0.0, 0.02631578947368421, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,AtomicLong,SIMPLE_NAME, line no: 25, 0.0, 0.02631578947368421, 0.0, 0.1, 0.0
+oldValue,SIMPLE_NAME, line no: 70,ReplicatedRecord,SIMPLE_NAME, line no: 27, 0.0, 0.02631578947368421, 0.0, 0.1875, 0.0
+oldValue,SIMPLE_NAME, line no: 70,K,SIMPLE_NAME, line no: 27, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+oldValue,SIMPLE_NAME, line no: 70,V,SIMPLE_NAME, line no: 27, 0.0, 0.02631578947368421, 1.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,hits,SIMPLE_NAME, line no: 29, 0.0, 0.05263157894736842, 0.0, 0.0, 0.0
+oldValue,SIMPLE_NAME, line no: 70,new AtomicLong(),CLASS_INSTANCE_CREATION, line no: 29, 0.0, 0.02631578947368421, 0.0, 0.0625, 0.0
+oldValue,SIMPLE_NAME, line no: 70,lastAccessTime,SIMPLE_NAME, line no: 30, 0.0, 0.05263157894736842, 0.0, 0.21428571428571427, 0.0
+oldValue,SIMPLE_NAME, line no: 70,key,SIMPLE_NAME, line no: 32, 0.0, 0.05263157894736842, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,Vector,SIMPLE_NAME, line no: 34, 0.0, 0.02631578947368421, 0.0, 0.25, 0.0
+oldValue,SIMPLE_NAME, line no: 70,vector,SIMPLE_NAME, line no: 34, 0.0, 0.05263157894736842, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,latestUpdateHash,SIMPLE_NAME, line no: 35, 0.0, 0.05263157894736842, 0.0, 0.25, 0.0
+oldValue,SIMPLE_NAME, line no: 70,0,NUMBER_LITERAL, line no: 35, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+oldValue,SIMPLE_NAME, line no: 70,ttlMillis,SIMPLE_NAME, line no: 36, 0.0, 0.05263157894736842, 0.0, 0.2222222222222222, 0.0
+oldValue,SIMPLE_NAME, line no: 70,updateTime,SIMPLE_NAME, line no: 37, 0.0, 0.05263157894736842, 0.0, 0.3, 0.0
+oldValue,SIMPLE_NAME, line no: 70,System.currentTimeMillis(),METHOD_INVOCATION, line no: 37, 0.0, 0.05263157894736842, 0.0, 0.07692307692307693, 0.0
+oldValue,SIMPLE_NAME, line no: 70,System,SIMPLE_NAME, line no: 37, 0.0, 0.07894736842105263, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,currentTimeMillis,SIMPLE_NAME, line no: 37, 0.0, 0.07894736842105263, 0.0, 0.11764705882352941, 0.0
+oldValue,SIMPLE_NAME, line no: 70,hash,SIMPLE_NAME, line no: 42, 0.0, 0.02631578947368421, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,this.key=key,ASSIGNMENT, line no: 43, 0.0, 0.7105263157894737, 0.0, 0.08333333333333333, 0.0
+oldValue,SIMPLE_NAME, line no: 70,this.key,FIELD_ACCESS, line no: 43, 0.0, 0.7105263157894737, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,this,THIS_EXPRESSION, line no: 43, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+oldValue,SIMPLE_NAME, line no: 70,this.vector=vector,ASSIGNMENT, line no: 45, 0.0, 0.7105263157894737, 0.0, 0.1111111111111111, 0.0
+oldValue,SIMPLE_NAME, line no: 70,this.vector,FIELD_ACCESS, line no: 45, 0.0, 0.7105263157894737, 0.0, 0.09090909090909091, 0.0
+oldValue,SIMPLE_NAME, line no: 70,this.latestUpdateHash=hash,ASSIGNMENT, line no: 46, 0.0, 0.7105263157894737, 0.0, 0.15384615384615385, 0.0
+oldValue,SIMPLE_NAME, line no: 70,this.latestUpdateHash,FIELD_ACCESS, line no: 46, 0.0, 0.7105263157894737, 0.0, 0.19047619047619047, 0.0
+oldValue,SIMPLE_NAME, line no: 70,this.ttlMillis=ttlMillis,ASSIGNMENT, line no: 47, 0.0, 0.7105263157894737, 0.0, 0.08333333333333333, 0.0
+oldValue,SIMPLE_NAME, line no: 70,this.ttlMillis,FIELD_ACCESS, line no: 47, 0.0, 0.7105263157894737, 0.0, 0.14285714285714285, 0.0
+oldValue,SIMPLE_NAME, line no: 70,getKey,SIMPLE_NAME, line no: 50, 0.0, 0.02631578947368421, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,access(),METHOD_INVOCATION, line no: 51, 0.0, 0.18421052631578946, 0.0, 0.25, 0.0
+oldValue,SIMPLE_NAME, line no: 70,access,SIMPLE_NAME, line no: 51, 0.0, 0.21052631578947367, 0.0, 0.25, 0.0
+oldValue,SIMPLE_NAME, line no: 70,getVector,SIMPLE_NAME, line no: 60, 0.0, 0.02631578947368421, 0.0, 0.2222222222222222, 0.0
+oldValue,SIMPLE_NAME, line no: 70,getTtlMillis,SIMPLE_NAME, line no: 64, 0.0, 0.02631578947368421, 0.0, 0.16666666666666666, 0.0
+oldValue,SIMPLE_NAME, line no: 70,this.updateTime=System.currentTimeMillis(),ASSIGNMENT, line no: 73, 0.0, 0.9210526315789473, 0.0, 0.09523809523809523, 0.0
+oldValue,SIMPLE_NAME, line no: 70,this.updateTime,FIELD_ACCESS, line no: 73, 0.0, 0.9210526315789473, 0.0, 0.2, 0.0
+oldValue,SIMPLE_NAME, line no: 70,getUpdateTime,SIMPLE_NAME, line no: 78, 0.0, 0.02631578947368421, 0.0, 0.23076923076923078, 0.0
+oldValue,SIMPLE_NAME, line no: 70,getLatestUpdateHash,SIMPLE_NAME, line no: 82, 0.0, 0.02631578947368421, 0.0, 0.15789473684210525, 0.0
+oldValue,SIMPLE_NAME, line no: 70,getHits,SIMPLE_NAME, line no: 86, 0.0, 0.02631578947368421, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,hits.get(),METHOD_INVOCATION, line no: 87, 0.0, 0.13157894736842105, 0.0, 0.1, 0.0
+oldValue,SIMPLE_NAME, line no: 70,get,SIMPLE_NAME, line no: 87, 0.0, 0.15789473684210525, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,getLastAccessTime,SIMPLE_NAME, line no: 90, 0.0, 0.02631578947368421, 0.0, 0.11764705882352941, 0.0
+oldValue,SIMPLE_NAME, line no: 70,lastAccessTime.get(),METHOD_INVOCATION, line no: 91, 0.0, 0.13157894736842105, 0.0, 0.15, 0.0
+oldValue,SIMPLE_NAME, line no: 70,hits.incrementAndGet(),METHOD_INVOCATION, line no: 95, 0.0, 0.2894736842105263, 0.0, 0.09090909090909091, 0.0
+oldValue,SIMPLE_NAME, line no: 70,incrementAndGet,SIMPLE_NAME, line no: 95, 0.0, 0.3157894736842105, 0.0, 0.13333333333333333, 0.0
+oldValue,SIMPLE_NAME, line no: 70,lastAccessTime.set(System.currentTimeMillis()),METHOD_INVOCATION, line no: 96, 0.0, 0.2894736842105263, 0.0, 0.08695652173913043, 0.0
+oldValue,SIMPLE_NAME, line no: 70,set,SIMPLE_NAME, line no: 96, 0.0, 0.3157894736842105, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,@Override,MARKER_ANNOTATION, line no: 99, 0.0, 0.0, 0.0, 0.2222222222222222, 0.0
+oldValue,SIMPLE_NAME, line no: 70,Override,SIMPLE_NAME, line no: 99, 0.0, 0.02631578947368421, 0.0, 0.25, 0.0
+oldValue,SIMPLE_NAME, line no: 70,getFactoryId,SIMPLE_NAME, line no: 100, 0.0, 0.02631578947368421, 0.0, 0.16666666666666666, 0.0
+oldValue,SIMPLE_NAME, line no: 70,ReplicatedMapDataSerializerHook.F_ID,QUALIFIED_NAME, line no: 101, 0.0, 0.07894736842105263, 0.0, 0.1388888888888889, 0.0
+oldValue,SIMPLE_NAME, line no: 70,F_ID,SIMPLE_NAME, line no: 101, 0.0, 0.10526315789473684, 0.0, 0.0, 0.0
+oldValue,SIMPLE_NAME, line no: 70,getId,SIMPLE_NAME, line no: 105, 0.0, 0.02631578947368421, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,ReplicatedMapDataSerializerHook.RECORD,QUALIFIED_NAME, line no: 106, 0.0, 0.07894736842105263, 0.0, 0.13157894736842105, 0.0
+oldValue,SIMPLE_NAME, line no: 70,RECORD,SIMPLE_NAME, line no: 106, 0.0, 0.10526315789473684, 0.0, 0.0, 0.0
+oldValue,SIMPLE_NAME, line no: 70,writeData,SIMPLE_NAME, line no: 110, 0.0, 0.02631578947368421, 0.0, 0.1111111111111111, 0.0
+oldValue,SIMPLE_NAME, line no: 70,out,SIMPLE_NAME, line no: 110, 0.0, 0.02631578947368421, 0.0, 0.25, 0.0
+oldValue,SIMPLE_NAME, line no: 70,out.writeObject(key),METHOD_INVOCATION, line no: 111, 0.0, 0.5789473684210527, 0.0, 0.15, 0.0
+oldValue,SIMPLE_NAME, line no: 70,writeObject,SIMPLE_NAME, line no: 111, 0.0, 0.5789473684210527, 0.0, 0.09090909090909091, 0.0
+oldValue,SIMPLE_NAME, line no: 70,vector.writeData(out),METHOD_INVOCATION, line no: 113, 0.0, 0.5789473684210527, 0.0, 0.14285714285714285, 0.0
+oldValue,SIMPLE_NAME, line no: 70,out.writeInt(latestUpdateHash),METHOD_INVOCATION, line no: 114, 0.0, 0.5789473684210527, 0.0, 0.16666666666666666, 0.0
+oldValue,SIMPLE_NAME, line no: 70,writeInt,SIMPLE_NAME, line no: 114, 0.0, 0.5789473684210527, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,out.writeLong(ttlMillis),METHOD_INVOCATION, line no: 115, 0.0, 0.5789473684210527, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,writeLong,SIMPLE_NAME, line no: 115, 0.0, 0.5789473684210527, 0.0, 0.1111111111111111, 0.0
+oldValue,SIMPLE_NAME, line no: 70,readData,SIMPLE_NAME, line no: 119, 0.0, 0.02631578947368421, 0.0, 0.25, 0.0
+oldValue,SIMPLE_NAME, line no: 70,in,SIMPLE_NAME, line no: 119, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+oldValue,SIMPLE_NAME, line no: 70,key=in.readObject(),ASSIGNMENT, line no: 120, 0.0, 0.6842105263157895, 0.0, 0.10526315789473684, 0.0
+oldValue,SIMPLE_NAME, line no: 70,in.readObject(),METHOD_INVOCATION, line no: 120, 0.0, 0.6842105263157895, 0.0, 0.13333333333333333, 0.0
+oldValue,SIMPLE_NAME, line no: 70,readObject,SIMPLE_NAME, line no: 120, 0.0, 0.6842105263157895, 0.0, 0.2, 0.0
+oldValue,SIMPLE_NAME, line no: 70,vector=new Vector(),ASSIGNMENT, line no: 122, 0.0, 0.6842105263157895, 0.0, 0.15789473684210525, 0.0
+oldValue,SIMPLE_NAME, line no: 70,new Vector(),CLASS_INSTANCE_CREATION, line no: 122, 0.0, 0.6842105263157895, 0.0, 0.16666666666666666, 0.0
+oldValue,SIMPLE_NAME, line no: 70,vector.readData(in),METHOD_INVOCATION, line no: 123, 0.0, 0.6842105263157895, 0.0, 0.15789473684210525, 0.0
+oldValue,SIMPLE_NAME, line no: 70,latestUpdateHash=in.readInt(),ASSIGNMENT, line no: 124, 0.0, 0.6842105263157895, 0.0, 0.13793103448275862, 0.0
+oldValue,SIMPLE_NAME, line no: 70,in.readInt(),METHOD_INVOCATION, line no: 124, 0.0, 0.6842105263157895, 0.0, 0.08333333333333333, 0.0
+oldValue,SIMPLE_NAME, line no: 70,readInt,SIMPLE_NAME, line no: 124, 0.0, 0.6842105263157895, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,ttlMillis=in.readLong(),ASSIGNMENT, line no: 125, 0.0, 0.6842105263157895, 0.0, 0.13043478260869565, 0.0
+oldValue,SIMPLE_NAME, line no: 70,in.readLong(),METHOD_INVOCATION, line no: 125, 0.0, 0.6842105263157895, 0.0, 0.07692307692307693, 0.0
+oldValue,SIMPLE_NAME, line no: 70,readLong,SIMPLE_NAME, line no: 125, 0.0, 0.6842105263157895, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,equals,SIMPLE_NAME, line no: 129, 0.0, 0.02631578947368421, 0.0, 0.25, 0.0
+oldValue,SIMPLE_NAME, line no: 70,Object,SIMPLE_NAME, line no: 129, 0.0, 0.02631578947368421, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,o,SIMPLE_NAME, line no: 129, 0.0, 0.02631578947368421, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,this == o,INFIX_EXPRESSION, line no: 130, 0.0, 0.5263157894736842, 0.0, 0.1111111111111111, 0.0
+oldValue,SIMPLE_NAME, line no: 70,true,BOOLEAN_LITERAL, line no: 130, 0.0, 0.5263157894736842, 0.0, 0.25, 0.0
+oldValue,SIMPLE_NAME, line no: 70,o == null || getClass() != o.getClass(),INFIX_EXPRESSION, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.10256410256410256, 0.0
+oldValue,SIMPLE_NAME, line no: 70,o == null,INFIX_EXPRESSION, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.3333333333333333, 0.0
+oldValue,SIMPLE_NAME, line no: 70,null,NULL_LITERAL, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.25, 0.0
+oldValue,SIMPLE_NAME, line no: 70,getClass() != o.getClass(),INFIX_EXPRESSION, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.11538461538461539, 0.0
+oldValue,SIMPLE_NAME, line no: 70,getClass(),METHOD_INVOCATION, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.2, 0.0
+oldValue,SIMPLE_NAME, line no: 70,getClass,SIMPLE_NAME, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.25, 0.0
+oldValue,SIMPLE_NAME, line no: 70,o.getClass(),METHOD_INVOCATION, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.25, 0.0
+oldValue,SIMPLE_NAME, line no: 70,false,BOOLEAN_LITERAL, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.375, 0.0
+oldValue,SIMPLE_NAME, line no: 70,that,SIMPLE_NAME, line no: 133, 0.0, 0.5789473684210527, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,(ReplicatedRecord)o,CAST_EXPRESSION, line no: 133, 0.0, 0.5789473684210527, 0.0, 0.15789473684210525, 0.0
+oldValue,SIMPLE_NAME, line no: 70,latestUpdateHash != that.latestUpdateHash,INFIX_EXPRESSION, line no: 135, 0.0, 0.5263157894736842, 0.0, 0.12195121951219512, 0.0
+oldValue,SIMPLE_NAME, line no: 70,that.latestUpdateHash,QUALIFIED_NAME, line no: 135, 0.0, 0.5263157894736842, 0.0, 0.19047619047619047, 0.0
+oldValue,SIMPLE_NAME, line no: 70,ttlMillis != that.ttlMillis,INFIX_EXPRESSION, line no: 136, 0.0, 0.5263157894736842, 0.0, 0.1111111111111111, 0.0
+oldValue,SIMPLE_NAME, line no: 70,that.ttlMillis,QUALIFIED_NAME, line no: 136, 0.0, 0.5263157894736842, 0.0, 0.14285714285714285, 0.0
+oldValue,SIMPLE_NAME, line no: 70,key != null ? !key.equals(that.key) : that.key != null,CONDITIONAL_EXPRESSION, line no: 137, 0.0, 0.5263157894736842, 0.0, 0.07407407407407407, 0.0
+oldValue,SIMPLE_NAME, line no: 70,key != null,INFIX_EXPRESSION, line no: 137, 0.0, 0.5263157894736842, 0.0, 0.18181818181818182, 0.0
+oldValue,SIMPLE_NAME, line no: 70,!key.equals(that.key),PREFIX_EXPRESSION, line no: 137, 0.0, 0.5263157894736842, 0.0, 0.14285714285714285, 0.0
+oldValue,SIMPLE_NAME, line no: 70,key.equals(that.key),METHOD_INVOCATION, line no: 137, 0.0, 0.5263157894736842, 0.0, 0.15, 0.0
+oldValue,SIMPLE_NAME, line no: 70,that.key,QUALIFIED_NAME, line no: 137, 0.0, 0.5263157894736842, 0.0, 0.25, 0.0
+oldValue,SIMPLE_NAME, line no: 70,that.key != null,INFIX_EXPRESSION, line no: 137, 0.0, 0.5263157894736842, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,hashCode,SIMPLE_NAME, line no: 144, 0.0, 0.02631578947368421, 0.0, 0.375, 0.0
+oldValue,SIMPLE_NAME, line no: 70,result,SIMPLE_NAME, line no: 145, 0.0, 0.7105263157894737, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,key != null ? key.hashCode() : 0,CONDITIONAL_EXPRESSION, line no: 145, 0.0, 0.7105263157894737, 0.0, 0.09375, 0.0
+oldValue,SIMPLE_NAME, line no: 70,key.hashCode(),METHOD_INVOCATION, line no: 145, 0.0, 0.7105263157894737, 0.0, 0.21428571428571427, 0.0
+oldValue,SIMPLE_NAME, line no: 70,31 * result,INFIX_EXPRESSION, line no: 146, 0.0, 0.7105263157894737, 0.0, 0.09090909090909091, 0.0
+oldValue,SIMPLE_NAME, line no: 70,31,NUMBER_LITERAL, line no: 146, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+oldValue,SIMPLE_NAME, line no: 70,result=31 * result + latestUpdateHash,ASSIGNMENT, line no: 147, 0.0, 0.7105263157894737, 0.0, 0.10810810810810811, 0.0
+oldValue,SIMPLE_NAME, line no: 70,31 * result + latestUpdateHash,INFIX_EXPRESSION, line no: 147, 0.0, 0.7105263157894737, 0.0, 0.13333333333333333, 0.0
+oldValue,SIMPLE_NAME, line no: 70,result=31 * result + (int)(ttlMillis ^ (ttlMillis >>> 32)),ASSIGNMENT, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.034482758620689655, 0.0
+oldValue,SIMPLE_NAME, line no: 70,31 * result + (int)(ttlMillis ^ (ttlMillis >>> 32)),INFIX_EXPRESSION, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.0392156862745098, 0.0
+oldValue,SIMPLE_NAME, line no: 70,(int)(ttlMillis ^ (ttlMillis >>> 32)),CAST_EXPRESSION, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.05405405405405406, 0.0
+oldValue,SIMPLE_NAME, line no: 70,(ttlMillis ^ (ttlMillis >>> 32)),PARENTHESIZED_EXPRESSION, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.0625, 0.0
+oldValue,SIMPLE_NAME, line no: 70,ttlMillis ^ (ttlMillis >>> 32),INFIX_EXPRESSION, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.06666666666666667, 0.0
+oldValue,SIMPLE_NAME, line no: 70,(ttlMillis >>> 32),PARENTHESIZED_EXPRESSION, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.1111111111111111, 0.0
+oldValue,SIMPLE_NAME, line no: 70,ttlMillis >>> 32,INFIX_EXPRESSION, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,32,NUMBER_LITERAL, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+oldValue,SIMPLE_NAME, line no: 70,String,SIMPLE_NAME, line no: 153, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+oldValue,SIMPLE_NAME, line no: 70,toString,SIMPLE_NAME, line no: 153, 0.0, 0.02631578947368421, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,StringBuilder,SIMPLE_NAME, line no: 154, 0.0, 0.6578947368421053, 0.0, 0.23076923076923078, 0.0
+oldValue,SIMPLE_NAME, line no: 70,sb,SIMPLE_NAME, line no: 154, 0.0, 0.6842105263157895, 0.0, 0.0, 0.0
+oldValue,SIMPLE_NAME, line no: 70,new StringBuilder("ReplicatedRecord{"),CLASS_INSTANCE_CREATION, line no: 154, 0.0, 0.6842105263157895, 0.0, 0.10526315789473684, 0.0
+oldValue,SIMPLE_NAME, line no: 70,"ReplicatedRecord{",STRING_LITERAL, line no: 154, 0.0, 0.6842105263157895, 0.0, 0.15789473684210525, 0.0
+oldValue,SIMPLE_NAME, line no: 70,sb.append("key=").append(key),METHOD_INVOCATION, line no: 155, 0.0, 0.631578947368421, 0.0, 0.10344827586206896, 0.0
+oldValue,SIMPLE_NAME, line no: 70,sb.append("key="),METHOD_INVOCATION, line no: 155, 0.0, 0.631578947368421, 0.0, 0.11764705882352941, 0.0
+oldValue,SIMPLE_NAME, line no: 70,append,SIMPLE_NAME, line no: 155, 0.0, 0.631578947368421, 0.0, 0.25, 0.0
+oldValue,SIMPLE_NAME, line no: 70,"key=",STRING_LITERAL, line no: 155, 0.0, 0.631578947368421, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,sb.append("  value="),METHOD_INVOCATION, line no: 156, 0.0, 0.631578947368421, 0.0, 0.23809523809523808, 0.0
+oldValue,SIMPLE_NAME, line no: 70,"  value=",STRING_LITERAL, line no: 156, 0.0, 0.631578947368421, 0.0, 0.4, 0.0
+oldValue,SIMPLE_NAME, line no: 70,sb.append("  vector=").append(vector),METHOD_INVOCATION, line no: 157, 0.0, 0.631578947368421, 0.0, 0.08108108108108109, 0.0
+oldValue,SIMPLE_NAME, line no: 70,sb.append("  vector="),METHOD_INVOCATION, line no: 157, 0.0, 0.631578947368421, 0.0, 0.09090909090909091, 0.0
+oldValue,SIMPLE_NAME, line no: 70,"  vector=",STRING_LITERAL, line no: 157, 0.0, 0.631578947368421, 0.0, 0.09090909090909091, 0.0
+oldValue,SIMPLE_NAME, line no: 70,sb.append("  latestUpdateHash=").append(latestUpdateHash),METHOD_INVOCATION, line no: 158, 0.0, 0.631578947368421, 0.0, 0.08771929824561403, 0.0
+oldValue,SIMPLE_NAME, line no: 70,sb.append("  latestUpdateHash="),METHOD_INVOCATION, line no: 158, 0.0, 0.631578947368421, 0.0, 0.125, 0.0
+oldValue,SIMPLE_NAME, line no: 70,"  latestUpdateHash=",STRING_LITERAL, line no: 158, 0.0, 0.631578947368421, 0.0, 0.19047619047619047, 0.0
+oldValue,SIMPLE_NAME, line no: 70,sb.append("  ttlMillis=").append(ttlMillis),METHOD_INVOCATION, line no: 159, 0.0, 0.631578947368421, 0.0, 0.06976744186046512, 0.0
+oldValue,SIMPLE_NAME, line no: 70,sb.append("  ttlMillis="),METHOD_INVOCATION, line no: 159, 0.0, 0.631578947368421, 0.0, 0.08, 0.0
+oldValue,SIMPLE_NAME, line no: 70,"  ttlMillis=",STRING_LITERAL, line no: 159, 0.0, 0.631578947368421, 0.0, 0.14285714285714285, 0.0
+oldValue,SIMPLE_NAME, line no: 70,sb.append('}'),METHOD_INVOCATION, line no: 160, 0.0, 0.631578947368421, 0.0, 0.14285714285714285, 0.0
+oldValue,SIMPLE_NAME, line no: 70,'}',CHARACTER_LITERAL, line no: 160, 0.0, 0.631578947368421, 0.0, 0.0, 0.0
+oldValue,SIMPLE_NAME, line no: 70,sb.toString(),METHOD_INVOCATION, line no: 161, 0.0, 0.631578947368421, 0.0, 0.07692307692307693, 0.0
+value,SIMPLE_NAME, line no: 70,com.hazelcast.replicatedmap.record,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.08823529411764706, 0.0
+value,SIMPLE_NAME, line no: 70,com.hazelcast.replicatedmap,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.1111111111111111, 0.0
+value,SIMPLE_NAME, line no: 70,com.hazelcast,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.15384615384615385, 0.0
+value,SIMPLE_NAME, line no: 70,com,SIMPLE_NAME, line no: 17, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 70,hazelcast,SIMPLE_NAME, line no: 17, 0.0, 0.02631578947368421, 0.0, 0.2222222222222222, 0.0
+value,SIMPLE_NAME, line no: 70,replicatedmap,SIMPLE_NAME, line no: 17, 0.0, 0.02631578947368421, 0.0, 0.15384615384615385, 0.0
+value,SIMPLE_NAME, line no: 70,record,SIMPLE_NAME, line no: 17, 0.0, 0.02631578947368421, 0.0, 0.16666666666666666, 0.0
+value,SIMPLE_NAME, line no: 70,com.hazelcast.nio.ObjectDataInput,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.09090909090909091, 0.0
+value,SIMPLE_NAME, line no: 70,com.hazelcast.nio,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.11764705882352941, 0.0
+value,SIMPLE_NAME, line no: 70,nio,SIMPLE_NAME, line no: 19, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 70,ObjectDataInput,SIMPLE_NAME, line no: 19, 0.0, 0.02631578947368421, 0.0, 0.13333333333333333, 0.0
+value,SIMPLE_NAME, line no: 70,com.hazelcast.nio.ObjectDataOutput,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.08823529411764706, 0.0
+value,SIMPLE_NAME, line no: 70,ObjectDataOutput,SIMPLE_NAME, line no: 20, 0.0, 0.02631578947368421, 0.0, 0.125, 0.0
+value,SIMPLE_NAME, line no: 70,com.hazelcast.nio.serialization.IdentifiedDataSerializable,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.05172413793103448, 0.0
+value,SIMPLE_NAME, line no: 70,com.hazelcast.nio.serialization,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0967741935483871, 0.0
+value,SIMPLE_NAME, line no: 70,serialization,SIMPLE_NAME, line no: 21, 0.0, 0.02631578947368421, 0.0, 0.15384615384615385, 0.0
+value,SIMPLE_NAME, line no: 70,IdentifiedDataSerializable,SIMPLE_NAME, line no: 21, 0.0, 0.02631578947368421, 0.0, 0.11538461538461539, 0.0
+value,SIMPLE_NAME, line no: 70,com.hazelcast.replicatedmap.operation.ReplicatedMapDataSerializerHook,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.043478260869565216, 0.0
+value,SIMPLE_NAME, line no: 70,com.hazelcast.replicatedmap.operation,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.08108108108108109, 0.0
+value,SIMPLE_NAME, line no: 70,operation,SIMPLE_NAME, line no: 22, 0.0, 0.02631578947368421, 0.0, 0.1111111111111111, 0.0
+value,SIMPLE_NAME, line no: 70,ReplicatedMapDataSerializerHook,SIMPLE_NAME, line no: 22, 0.0, 0.02631578947368421, 0.0, 0.0967741935483871, 0.0
+value,SIMPLE_NAME, line no: 70,java.io.IOException,QUALIFIED_NAME, line no: 24, 0.0, 0.0, 0.0, 0.15789473684210525, 0.0
+value,SIMPLE_NAME, line no: 70,java.io,QUALIFIED_NAME, line no: 24, 0.0, 0.0, 0.0, 0.2857142857142857, 0.0
+value,SIMPLE_NAME, line no: 70,java,SIMPLE_NAME, line no: 24, 0.0, 0.02631578947368421, 0.0, 0.4, 0.0
+value,SIMPLE_NAME, line no: 70,io,SIMPLE_NAME, line no: 24, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 70,IOException,SIMPLE_NAME, line no: 24, 0.0, 0.02631578947368421, 0.0, 0.09090909090909091, 0.0
+value,SIMPLE_NAME, line no: 70,java.util.concurrent.atomic.AtomicLong,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.13157894736842105, 0.0
+value,SIMPLE_NAME, line no: 70,java.util.concurrent.atomic,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.18518518518518517, 0.0
+value,SIMPLE_NAME, line no: 70,java.util.concurrent,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.25, 0.0
+value,SIMPLE_NAME, line no: 70,java.util,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.3333333333333333, 0.0
+value,SIMPLE_NAME, line no: 70,util,SIMPLE_NAME, line no: 25, 0.0, 0.02631578947368421, 0.0, 0.2, 0.0
+value,SIMPLE_NAME, line no: 70,concurrent,SIMPLE_NAME, line no: 25, 0.0, 0.02631578947368421, 0.0, 0.2, 0.0
+value,SIMPLE_NAME, line no: 70,atomic,SIMPLE_NAME, line no: 25, 0.0, 0.02631578947368421, 0.0, 0.16666666666666666, 0.0
+value,SIMPLE_NAME, line no: 70,AtomicLong,SIMPLE_NAME, line no: 25, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 70,ReplicatedRecord,SIMPLE_NAME, line no: 27, 0.0, 0.02631578947368421, 0.0, 0.125, 0.0
+value,SIMPLE_NAME, line no: 70,K,SIMPLE_NAME, line no: 27, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 70,V,SIMPLE_NAME, line no: 27, 0.0, 0.02631578947368421, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 70,hits,SIMPLE_NAME, line no: 29, 0.0, 0.05263157894736842, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 70,new AtomicLong(),CLASS_INSTANCE_CREATION, line no: 29, 0.0, 0.02631578947368421, 0.0, 0.0625, 0.0
+value,SIMPLE_NAME, line no: 70,lastAccessTime,SIMPLE_NAME, line no: 30, 0.0, 0.05263157894736842, 0.0, 0.14285714285714285, 0.0
+value,SIMPLE_NAME, line no: 70,key,SIMPLE_NAME, line no: 32, 0.0, 0.05263157894736842, 0.0, 0.2, 0.0
+value,SIMPLE_NAME, line no: 70,Vector,SIMPLE_NAME, line no: 34, 0.0, 0.02631578947368421, 0.0, 0.16666666666666666, 0.0
+value,SIMPLE_NAME, line no: 70,vector,SIMPLE_NAME, line no: 34, 0.0, 0.05263157894736842, 0.0, 0.3333333333333333, 0.0
+value,SIMPLE_NAME, line no: 70,latestUpdateHash,SIMPLE_NAME, line no: 35, 0.0, 0.05263157894736842, 0.0, 0.125, 0.0
+value,SIMPLE_NAME, line no: 70,0,NUMBER_LITERAL, line no: 35, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 70,ttlMillis,SIMPLE_NAME, line no: 36, 0.0, 0.05263157894736842, 0.0, 0.1111111111111111, 0.0
+value,SIMPLE_NAME, line no: 70,updateTime,SIMPLE_NAME, line no: 37, 0.0, 0.05263157894736842, 0.0, 0.2, 0.0
+value,SIMPLE_NAME, line no: 70,System.currentTimeMillis(),METHOD_INVOCATION, line no: 37, 0.0, 0.05263157894736842, 0.0, 0.07692307692307693, 0.0
+value,SIMPLE_NAME, line no: 70,System,SIMPLE_NAME, line no: 37, 0.0, 0.07894736842105263, 0.0, 0.16666666666666666, 0.0
+value,SIMPLE_NAME, line no: 70,currentTimeMillis,SIMPLE_NAME, line no: 37, 0.0, 0.07894736842105263, 0.0, 0.11764705882352941, 0.0
+value,SIMPLE_NAME, line no: 70,hash,SIMPLE_NAME, line no: 42, 0.0, 0.02631578947368421, 0.0, 0.2, 0.0
+value,SIMPLE_NAME, line no: 70,this.key=key,ASSIGNMENT, line no: 43, 0.0, 0.7105263157894737, 0.0, 0.08333333333333333, 0.0
+value,SIMPLE_NAME, line no: 70,this.key,FIELD_ACCESS, line no: 43, 0.0, 0.7105263157894737, 0.0, 0.125, 0.0
+value,SIMPLE_NAME, line no: 70,this,THIS_EXPRESSION, line no: 43, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 70,this.vector=vector,ASSIGNMENT, line no: 45, 0.0, 0.7105263157894737, 0.0, 0.1111111111111111, 0.0
+value,SIMPLE_NAME, line no: 70,this.vector,FIELD_ACCESS, line no: 45, 0.0, 0.7105263157894737, 0.0, 0.18181818181818182, 0.0
+value,SIMPLE_NAME, line no: 70,this.latestUpdateHash=hash,ASSIGNMENT, line no: 46, 0.0, 0.7105263157894737, 0.0, 0.07692307692307693, 0.0
+value,SIMPLE_NAME, line no: 70,this.latestUpdateHash,FIELD_ACCESS, line no: 46, 0.0, 0.7105263157894737, 0.0, 0.09523809523809523, 0.0
+value,SIMPLE_NAME, line no: 70,this.ttlMillis=ttlMillis,ASSIGNMENT, line no: 47, 0.0, 0.7105263157894737, 0.0, 0.041666666666666664, 0.0
+value,SIMPLE_NAME, line no: 70,this.ttlMillis,FIELD_ACCESS, line no: 47, 0.0, 0.7105263157894737, 0.0, 0.07142857142857142, 0.0
+value,SIMPLE_NAME, line no: 70,getKey,SIMPLE_NAME, line no: 50, 0.0, 0.02631578947368421, 0.0, 0.16666666666666666, 0.0
+value,SIMPLE_NAME, line no: 70,access(),METHOD_INVOCATION, line no: 51, 0.0, 0.18421052631578946, 0.0, 0.25, 0.0
+value,SIMPLE_NAME, line no: 70,access,SIMPLE_NAME, line no: 51, 0.0, 0.21052631578947367, 0.0, 0.3333333333333333, 0.0
+value,SIMPLE_NAME, line no: 70,getVector,SIMPLE_NAME, line no: 60, 0.0, 0.02631578947368421, 0.0, 0.1111111111111111, 0.0
+value,SIMPLE_NAME, line no: 70,getTtlMillis,SIMPLE_NAME, line no: 64, 0.0, 0.02631578947368421, 0.0, 0.08333333333333333, 0.0
+value,SIMPLE_NAME, line no: 70,this.updateTime=System.currentTimeMillis(),ASSIGNMENT, line no: 73, 0.0, 0.9210526315789473, 0.0, 0.07142857142857142, 0.0
+value,SIMPLE_NAME, line no: 70,this.updateTime,FIELD_ACCESS, line no: 73, 0.0, 0.9210526315789473, 0.0, 0.13333333333333333, 0.0
+value,SIMPLE_NAME, line no: 70,getUpdateTime,SIMPLE_NAME, line no: 78, 0.0, 0.02631578947368421, 0.0, 0.15384615384615385, 0.0
+value,SIMPLE_NAME, line no: 70,getLatestUpdateHash,SIMPLE_NAME, line no: 82, 0.0, 0.02631578947368421, 0.0, 0.10526315789473684, 0.0
+value,SIMPLE_NAME, line no: 70,getHits,SIMPLE_NAME, line no: 86, 0.0, 0.02631578947368421, 0.0, 0.14285714285714285, 0.0
+value,SIMPLE_NAME, line no: 70,hits.get(),METHOD_INVOCATION, line no: 87, 0.0, 0.13157894736842105, 0.0, 0.1, 0.0
+value,SIMPLE_NAME, line no: 70,get,SIMPLE_NAME, line no: 87, 0.0, 0.15789473684210525, 0.0, 0.2, 0.0
+value,SIMPLE_NAME, line no: 70,getLastAccessTime,SIMPLE_NAME, line no: 90, 0.0, 0.02631578947368421, 0.0, 0.11764705882352941, 0.0
+value,SIMPLE_NAME, line no: 70,lastAccessTime.get(),METHOD_INVOCATION, line no: 91, 0.0, 0.13157894736842105, 0.0, 0.1, 0.0
+value,SIMPLE_NAME, line no: 70,hits.incrementAndGet(),METHOD_INVOCATION, line no: 95, 0.0, 0.2894736842105263, 0.0, 0.045454545454545456, 0.0
+value,SIMPLE_NAME, line no: 70,incrementAndGet,SIMPLE_NAME, line no: 95, 0.0, 0.3157894736842105, 0.0, 0.06666666666666667, 0.0
+value,SIMPLE_NAME, line no: 70,lastAccessTime.set(System.currentTimeMillis()),METHOD_INVOCATION, line no: 96, 0.0, 0.2894736842105263, 0.0, 0.06521739130434782, 0.0
+value,SIMPLE_NAME, line no: 70,set,SIMPLE_NAME, line no: 96, 0.0, 0.3157894736842105, 0.0, 0.2, 0.0
+value,SIMPLE_NAME, line no: 70,@Override,MARKER_ANNOTATION, line no: 99, 0.0, 0.0, 0.0, 0.2222222222222222, 0.0
+value,SIMPLE_NAME, line no: 70,Override,SIMPLE_NAME, line no: 99, 0.0, 0.02631578947368421, 0.0, 0.25, 0.0
+value,SIMPLE_NAME, line no: 70,getFactoryId,SIMPLE_NAME, line no: 100, 0.0, 0.02631578947368421, 0.0, 0.08333333333333333, 0.0
+value,SIMPLE_NAME, line no: 70,ReplicatedMapDataSerializerHook.F_ID,QUALIFIED_NAME, line no: 101, 0.0, 0.07894736842105263, 0.0, 0.08333333333333333, 0.0
+value,SIMPLE_NAME, line no: 70,F_ID,SIMPLE_NAME, line no: 101, 0.0, 0.10526315789473684, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 70,getId,SIMPLE_NAME, line no: 105, 0.0, 0.02631578947368421, 0.0, 0.2, 0.0
+value,SIMPLE_NAME, line no: 70,ReplicatedMapDataSerializerHook.RECORD,QUALIFIED_NAME, line no: 106, 0.0, 0.07894736842105263, 0.0, 0.07894736842105263, 0.0
+value,SIMPLE_NAME, line no: 70,RECORD,SIMPLE_NAME, line no: 106, 0.0, 0.10526315789473684, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 70,writeData,SIMPLE_NAME, line no: 110, 0.0, 0.02631578947368421, 0.0, 0.1111111111111111, 0.0
+value,SIMPLE_NAME, line no: 70,out,SIMPLE_NAME, line no: 110, 0.0, 0.02631578947368421, 0.0, 0.2, 0.0
+value,SIMPLE_NAME, line no: 70,out.writeObject(key),METHOD_INVOCATION, line no: 111, 0.0, 0.5789473684210527, 0.0, 0.1, 0.0
+value,SIMPLE_NAME, line no: 70,writeObject,SIMPLE_NAME, line no: 111, 0.0, 0.5789473684210527, 0.0, 0.09090909090909091, 0.0
+value,SIMPLE_NAME, line no: 70,vector.writeData(out),METHOD_INVOCATION, line no: 113, 0.0, 0.5789473684210527, 0.0, 0.14285714285714285, 0.0
+value,SIMPLE_NAME, line no: 70,out.writeInt(latestUpdateHash),METHOD_INVOCATION, line no: 114, 0.0, 0.5789473684210527, 0.0, 0.06666666666666667, 0.0
+value,SIMPLE_NAME, line no: 70,writeInt,SIMPLE_NAME, line no: 114, 0.0, 0.5789473684210527, 0.0, 0.125, 0.0
+value,SIMPLE_NAME, line no: 70,out.writeLong(ttlMillis),METHOD_INVOCATION, line no: 115, 0.0, 0.5789473684210527, 0.0, 0.08333333333333333, 0.0
+value,SIMPLE_NAME, line no: 70,writeLong,SIMPLE_NAME, line no: 115, 0.0, 0.5789473684210527, 0.0, 0.1111111111111111, 0.0
+value,SIMPLE_NAME, line no: 70,readData,SIMPLE_NAME, line no: 119, 0.0, 0.02631578947368421, 0.0, 0.125, 0.0
+value,SIMPLE_NAME, line no: 70,in,SIMPLE_NAME, line no: 119, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 70,key=in.readObject(),ASSIGNMENT, line no: 120, 0.0, 0.6842105263157895, 0.0, 0.10526315789473684, 0.0
+value,SIMPLE_NAME, line no: 70,in.readObject(),METHOD_INVOCATION, line no: 120, 0.0, 0.6842105263157895, 0.0, 0.13333333333333333, 0.0
+value,SIMPLE_NAME, line no: 70,readObject,SIMPLE_NAME, line no: 120, 0.0, 0.6842105263157895, 0.0, 0.2, 0.0
+value,SIMPLE_NAME, line no: 70,vector=new Vector(),ASSIGNMENT, line no: 122, 0.0, 0.6842105263157895, 0.0, 0.10526315789473684, 0.0
+value,SIMPLE_NAME, line no: 70,new Vector(),CLASS_INSTANCE_CREATION, line no: 122, 0.0, 0.6842105263157895, 0.0, 0.08333333333333333, 0.0
+value,SIMPLE_NAME, line no: 70,vector.readData(in),METHOD_INVOCATION, line no: 123, 0.0, 0.6842105263157895, 0.0, 0.10526315789473684, 0.0
+value,SIMPLE_NAME, line no: 70,latestUpdateHash=in.readInt(),ASSIGNMENT, line no: 124, 0.0, 0.6842105263157895, 0.0, 0.06896551724137931, 0.0
+value,SIMPLE_NAME, line no: 70,in.readInt(),METHOD_INVOCATION, line no: 124, 0.0, 0.6842105263157895, 0.0, 0.08333333333333333, 0.0
+value,SIMPLE_NAME, line no: 70,readInt,SIMPLE_NAME, line no: 124, 0.0, 0.6842105263157895, 0.0, 0.14285714285714285, 0.0
+value,SIMPLE_NAME, line no: 70,ttlMillis=in.readLong(),ASSIGNMENT, line no: 125, 0.0, 0.6842105263157895, 0.0, 0.08695652173913043, 0.0
+value,SIMPLE_NAME, line no: 70,in.readLong(),METHOD_INVOCATION, line no: 125, 0.0, 0.6842105263157895, 0.0, 0.07692307692307693, 0.0
+value,SIMPLE_NAME, line no: 70,readLong,SIMPLE_NAME, line no: 125, 0.0, 0.6842105263157895, 0.0, 0.125, 0.0
+value,SIMPLE_NAME, line no: 70,equals,SIMPLE_NAME, line no: 129, 0.0, 0.02631578947368421, 0.0, 0.3333333333333333, 0.0
+value,SIMPLE_NAME, line no: 70,Object,SIMPLE_NAME, line no: 129, 0.0, 0.02631578947368421, 0.0, 0.16666666666666666, 0.0
+value,SIMPLE_NAME, line no: 70,o,SIMPLE_NAME, line no: 129, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 70,this == o,INFIX_EXPRESSION, line no: 130, 0.0, 0.5263157894736842, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 70,true,BOOLEAN_LITERAL, line no: 130, 0.0, 0.5263157894736842, 0.0, 0.4, 0.0
+value,SIMPLE_NAME, line no: 70,o == null || getClass() != o.getClass(),INFIX_EXPRESSION, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.05128205128205128, 0.0
+value,SIMPLE_NAME, line no: 70,o == null,INFIX_EXPRESSION, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.1111111111111111, 0.0
+value,SIMPLE_NAME, line no: 70,null,NULL_LITERAL, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.2, 0.0
+value,SIMPLE_NAME, line no: 70,getClass() != o.getClass(),INFIX_EXPRESSION, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.07692307692307693, 0.0
+value,SIMPLE_NAME, line no: 70,getClass(),METHOD_INVOCATION, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.1, 0.0
+value,SIMPLE_NAME, line no: 70,getClass,SIMPLE_NAME, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.125, 0.0
+value,SIMPLE_NAME, line no: 70,o.getClass(),METHOD_INVOCATION, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.08333333333333333, 0.0
+value,SIMPLE_NAME, line no: 70,false,BOOLEAN_LITERAL, line no: 131, 0.0, 0.5263157894736842, 0.0, 0.6, 0.0
+value,SIMPLE_NAME, line no: 70,that,SIMPLE_NAME, line no: 133, 0.0, 0.5789473684210527, 0.0, 0.2, 0.0
+value,SIMPLE_NAME, line no: 70,(ReplicatedRecord)o,CAST_EXPRESSION, line no: 133, 0.0, 0.5789473684210527, 0.0, 0.10526315789473684, 0.0
+value,SIMPLE_NAME, line no: 70,latestUpdateHash != that.latestUpdateHash,INFIX_EXPRESSION, line no: 135, 0.0, 0.5263157894736842, 0.0, 0.07317073170731707, 0.0
+value,SIMPLE_NAME, line no: 70,that.latestUpdateHash,QUALIFIED_NAME, line no: 135, 0.0, 0.5263157894736842, 0.0, 0.14285714285714285, 0.0
+value,SIMPLE_NAME, line no: 70,ttlMillis != that.ttlMillis,INFIX_EXPRESSION, line no: 136, 0.0, 0.5263157894736842, 0.0, 0.07407407407407407, 0.0
+value,SIMPLE_NAME, line no: 70,that.ttlMillis,QUALIFIED_NAME, line no: 136, 0.0, 0.5263157894736842, 0.0, 0.14285714285714285, 0.0
+value,SIMPLE_NAME, line no: 70,key != null ? !key.equals(that.key) : that.key != null,CONDITIONAL_EXPRESSION, line no: 137, 0.0, 0.5263157894736842, 0.0, 0.05555555555555555, 0.0
+value,SIMPLE_NAME, line no: 70,key != null,INFIX_EXPRESSION, line no: 137, 0.0, 0.5263157894736842, 0.0, 0.09090909090909091, 0.0
+value,SIMPLE_NAME, line no: 70,!key.equals(that.key),PREFIX_EXPRESSION, line no: 137, 0.0, 0.5263157894736842, 0.0, 0.14285714285714285, 0.0
+value,SIMPLE_NAME, line no: 70,key.equals(that.key),METHOD_INVOCATION, line no: 137, 0.0, 0.5263157894736842, 0.0, 0.15, 0.0
+value,SIMPLE_NAME, line no: 70,that.key,QUALIFIED_NAME, line no: 137, 0.0, 0.5263157894736842, 0.0, 0.25, 0.0
+value,SIMPLE_NAME, line no: 70,that.key != null,INFIX_EXPRESSION, line no: 137, 0.0, 0.5263157894736842, 0.0, 0.125, 0.0
+value,SIMPLE_NAME, line no: 70,hashCode,SIMPLE_NAME, line no: 144, 0.0, 0.02631578947368421, 0.0, 0.25, 0.0
+value,SIMPLE_NAME, line no: 70,result,SIMPLE_NAME, line no: 145, 0.0, 0.7105263157894737, 0.0, 0.16666666666666666, 0.0
+value,SIMPLE_NAME, line no: 70,key != null ? key.hashCode() : 0,CONDITIONAL_EXPRESSION, line no: 145, 0.0, 0.7105263157894737, 0.0, 0.0625, 0.0
+value,SIMPLE_NAME, line no: 70,key.hashCode(),METHOD_INVOCATION, line no: 145, 0.0, 0.7105263157894737, 0.0, 0.14285714285714285, 0.0
+value,SIMPLE_NAME, line no: 70,31 * result,INFIX_EXPRESSION, line no: 146, 0.0, 0.7105263157894737, 0.0, 0.09090909090909091, 0.0
+value,SIMPLE_NAME, line no: 70,31,NUMBER_LITERAL, line no: 146, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 70,result=31 * result + latestUpdateHash,ASSIGNMENT, line no: 147, 0.0, 0.7105263157894737, 0.0, 0.08108108108108109, 0.0
+value,SIMPLE_NAME, line no: 70,31 * result + latestUpdateHash,INFIX_EXPRESSION, line no: 147, 0.0, 0.7105263157894737, 0.0, 0.06666666666666667, 0.0
+value,SIMPLE_NAME, line no: 70,result=31 * result + (int)(ttlMillis ^ (ttlMillis >>> 32)),ASSIGNMENT, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.034482758620689655, 0.0
+value,SIMPLE_NAME, line no: 70,31 * result + (int)(ttlMillis ^ (ttlMillis >>> 32)),INFIX_EXPRESSION, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.0196078431372549, 0.0
+value,SIMPLE_NAME, line no: 70,(int)(ttlMillis ^ (ttlMillis >>> 32)),CAST_EXPRESSION, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.02702702702702703, 0.0
+value,SIMPLE_NAME, line no: 70,(ttlMillis ^ (ttlMillis >>> 32)),PARENTHESIZED_EXPRESSION, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.03125, 0.0
+value,SIMPLE_NAME, line no: 70,ttlMillis ^ (ttlMillis >>> 32),INFIX_EXPRESSION, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.03333333333333333, 0.0
+value,SIMPLE_NAME, line no: 70,(ttlMillis >>> 32),PARENTHESIZED_EXPRESSION, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.05555555555555555, 0.0
+value,SIMPLE_NAME, line no: 70,ttlMillis >>> 32,INFIX_EXPRESSION, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.0625, 0.0
+value,SIMPLE_NAME, line no: 70,32,NUMBER_LITERAL, line no: 148, 0.0, 0.7105263157894737, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 70,String,SIMPLE_NAME, line no: 153, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 70,toString,SIMPLE_NAME, line no: 153, 0.0, 0.02631578947368421, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 70,StringBuilder,SIMPLE_NAME, line no: 154, 0.0, 0.6578947368421053, 0.0, 0.15384615384615385, 0.0
+value,SIMPLE_NAME, line no: 70,sb,SIMPLE_NAME, line no: 154, 0.0, 0.6842105263157895, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 70,new StringBuilder("ReplicatedRecord{"),CLASS_INSTANCE_CREATION, line no: 154, 0.0, 0.6842105263157895, 0.0, 0.05263157894736842, 0.0
+value,SIMPLE_NAME, line no: 70,"ReplicatedRecord{",STRING_LITERAL, line no: 154, 0.0, 0.6842105263157895, 0.0, 0.10526315789473684, 0.0
+value,SIMPLE_NAME, line no: 70,sb.append("key=").append(key),METHOD_INVOCATION, line no: 155, 0.0, 0.631578947368421, 0.0, 0.06896551724137931, 0.0
+value,SIMPLE_NAME, line no: 70,sb.append("key="),METHOD_INVOCATION, line no: 155, 0.0, 0.631578947368421, 0.0, 0.11764705882352941, 0.0
+value,SIMPLE_NAME, line no: 70,append,SIMPLE_NAME, line no: 155, 0.0, 0.631578947368421, 0.0, 0.3333333333333333, 0.0
+value,SIMPLE_NAME, line no: 70,"key=",STRING_LITERAL, line no: 155, 0.0, 0.631578947368421, 0.0, 0.16666666666666666, 0.0
+value,SIMPLE_NAME, line no: 70,sb.append("  value="),METHOD_INVOCATION, line no: 156, 0.0, 0.631578947368421, 0.0, 0.23809523809523808, 0.0
+value,SIMPLE_NAME, line no: 70,"  value=",STRING_LITERAL, line no: 156, 0.0, 0.631578947368421, 0.0, 0.5, 0.0
+value,SIMPLE_NAME, line no: 70,sb.append("  vector=").append(vector),METHOD_INVOCATION, line no: 157, 0.0, 0.631578947368421, 0.0, 0.08108108108108109, 0.0
+value,SIMPLE_NAME, line no: 70,sb.append("  vector="),METHOD_INVOCATION, line no: 157, 0.0, 0.631578947368421, 0.0, 0.09090909090909091, 0.0
+value,SIMPLE_NAME, line no: 70,"  vector=",STRING_LITERAL, line no: 157, 0.0, 0.631578947368421, 0.0, 0.18181818181818182, 0.0
+value,SIMPLE_NAME, line no: 70,sb.append("  latestUpdateHash=").append(latestUpdateHash),METHOD_INVOCATION, line no: 158, 0.0, 0.631578947368421, 0.0, 0.05263157894736842, 0.0
+value,SIMPLE_NAME, line no: 70,sb.append("  latestUpdateHash="),METHOD_INVOCATION, line no: 158, 0.0, 0.631578947368421, 0.0, 0.09375, 0.0
+value,SIMPLE_NAME, line no: 70,"  latestUpdateHash=",STRING_LITERAL, line no: 158, 0.0, 0.631578947368421, 0.0, 0.09523809523809523, 0.0
+value,SIMPLE_NAME, line no: 70,sb.append("  ttlMillis=").append(ttlMillis),METHOD_INVOCATION, line no: 159, 0.0, 0.631578947368421, 0.0, 0.06976744186046512, 0.0
+value,SIMPLE_NAME, line no: 70,sb.append("  ttlMillis="),METHOD_INVOCATION, line no: 159, 0.0, 0.631578947368421, 0.0, 0.08, 0.0
+value,SIMPLE_NAME, line no: 70,"  ttlMillis=",STRING_LITERAL, line no: 159, 0.0, 0.631578947368421, 0.0, 0.07142857142857142, 0.0
+value,SIMPLE_NAME, line no: 70,sb.append('}'),METHOD_INVOCATION, line no: 160, 0.0, 0.631578947368421, 0.0, 0.14285714285714285, 0.0
+value,SIMPLE_NAME, line no: 70,'}',CHARACTER_LITERAL, line no: 160, 0.0, 0.631578947368421, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 70,sb.toString(),METHOD_INVOCATION, line no: 161, 0.0, 0.631578947368421, 0.0, 0.0, 0.0

@@ -1,29 +1,264 @@
-out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,putInt,SIMPLE_NAME, line no: 39, 1.0, 1.0, 1.0, 0.5263157894736842
-out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,putFloat,SIMPLE_NAME, line no: 40, 1.0, 1.0, 1.0, 0.6105263157894737
-putFloat,SIMPLE_NAME, line no: 40,putInt,SIMPLE_NAME, line no: 39, 1.0, 1.0, 1.0, 0.875
-message.getTokens(),METHOD_INVOCATION, line no: 40,getTokens,SIMPLE_NAME, line no: 40, 1.0, 1.0, 1.0, 0.7283950617283951
-getTokens,SIMPLE_NAME, line no: 40,INT_LENGTH,SIMPLE_NAME, line no: 39, 0.9375, 0.9375, 1.0, 0.803030303030303
-getTokens,SIMPLE_NAME, line no: 40,message.getTokens(),METHOD_INVOCATION, line no: 40, 0.9375, 0.9375, 1.0, 0.7283950617283951
-putFloat,SIMPLE_NAME, line no: 40,out.putInt(INT_LENGTH),METHOD_INVOCATION, line no: 39, 0.9333333333333333, 0.9333333333333333, 1.0, 0.5952380952380952
-putFloat,SIMPLE_NAME, line no: 40,out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40, 0.9333333333333333, 0.9333333333333333, 1.0, 0.6105263157894737
-message.getTokens(),METHOD_INVOCATION, line no: 40,INT_LENGTH,SIMPLE_NAME, line no: 39, 0.9333333333333333, 0.9333333333333333, 1.0, 0.5802469135802469
-out,SIMPLE_NAME, line no: 40,in,SIMPLE_NAME, line no: 44, 0.8, 0.06666666666666667, 1.0, 0.9152542372881356
-getTokens,SIMPLE_NAME, line no: 40,in.getInt(),METHOD_INVOCATION, line no: 47, 0.75, 0.75, 1.0, 0.7123287671232876
-getTokens,SIMPLE_NAME, line no: 40,getInt,SIMPLE_NAME, line no: 47, 0.75, 0.75, 1.0, 0.8923076923076924
-getTokens,SIMPLE_NAME, line no: 40,in.remaining(),METHOD_INVOCATION, line no: 48, 0.75, 0.75, 1.0, 0.6578947368421053
-getTokens,SIMPLE_NAME, line no: 40,remaining,SIMPLE_NAME, line no: 48, 0.75, 0.75, 1.0, 0.8615384615384616
-message.getTokens(),METHOD_INVOCATION, line no: 40,getInt,SIMPLE_NAME, line no: 47, 0.7333333333333333, 0.7333333333333333, 1.0, 0.6419753086419753
-message.getTokens(),METHOD_INVOCATION, line no: 40,remaining,SIMPLE_NAME, line no: 48, 0.7333333333333333, 0.7333333333333333, 1.0, 0.6296296296296297
-message,SIMPLE_NAME, line no: 40,ConsumerFlowTokenMessage,SIMPLE_NAME, line no: 11, 0.6875, 0.0625, 1.0, 0.7375
-message,SIMPLE_NAME, line no: 40,new ConsumerFlowTokenMessage(in.getInt()),CLASS_INSTANCE_CREATION, line no: 53, 0.6875, 0.6875, 1.0, 0.48623853211009177
-getTokens,SIMPLE_NAME, line no: 40,bodyLength,SIMPLE_NAME, line no: 47, 0.6875, 0.6875, 1.0, 0.8636363636363636
-message.getTokens(),METHOD_INVOCATION, line no: 40,bodyLength,SIMPLE_NAME, line no: 47, 0.6666666666666666, 0.6666666666666666, 1.0, 0.6296296296296297
-out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,message.getTokens(),METHOD_INVOCATION, line no: 40, 0.5, 1.0, 0.5, 0.8526315789473684
-message.getTokens(),METHOD_INVOCATION, line no: 40,out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40, 0.4666666666666667, 0.9333333333333333, 0.5, 0.8526315789473684
-out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,out.putInt(INT_LENGTH),METHOD_INVOCATION, line no: 39, 0.3333333333333333, 1.0, 0.3333333333333333, 0.7263157894736842
-out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,ConsumerFlowTokenMessageCodec,SIMPLE_NAME, line no: 27, 0.07142857142857142, 0.07142857142857142, 1.0, 0.6210526315789474
-out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,encodeBody,SIMPLE_NAME, line no: 37, 0.07142857142857142, 0.07142857142857142, 1.0, 0.5157894736842106
-out,SIMPLE_NAME, line no: 40,RemotingBuffer,SIMPLE_NAME, line no: 37, 0.06666666666666667, 0.06666666666666667, 1.0, 0.7714285714285715
-putFloat,SIMPLE_NAME, line no: 40,ConsumerFlowTokenMessageCodec,SIMPLE_NAME, line no: 27, 0.06666666666666667, 0.06666666666666667, 1.0, 0.6705882352941176
-putFloat,SIMPLE_NAME, line no: 40,encodeBody,SIMPLE_NAME, line no: 37, 0.06666666666666667, 0.06666666666666667, 1.0, 0.803030303030303
-message,SIMPLE_NAME, line no: 40,decodeBody,SIMPLE_NAME, line no: 44, 0.0625, 0.0625, 1.0, 0.8484848484848485
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,putInt,SIMPLE_NAME, line no: 39, 2.0, 1.0, 1.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,putFloat,SIMPLE_NAME, line no: 40, 2.0, 1.0, 1.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,putInt,SIMPLE_NAME, line no: 39, 2.0, 1.0, 1.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,getTokens,SIMPLE_NAME, line no: 40, 2.0, 1.0, 1.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,INT_LENGTH,SIMPLE_NAME, line no: 39, 1.9375, 0.9375, 1.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,message.getTokens(),METHOD_INVOCATION, line no: 40, 1.9375, 0.9375, 1.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,out.putInt(INT_LENGTH),METHOD_INVOCATION, line no: 39, 1.9333333333333333, 0.9333333333333333, 1.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40, 1.9333333333333333, 0.9333333333333333, 1.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,INT_LENGTH,SIMPLE_NAME, line no: 39, 1.9333333333333333, 0.9333333333333333, 1.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,in,SIMPLE_NAME, line no: 44, 1.8, 0.06666666666666667, 1.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,in.getInt(),METHOD_INVOCATION, line no: 47, 1.75, 0.75, 1.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,getInt,SIMPLE_NAME, line no: 47, 1.75, 0.75, 1.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,in.remaining(),METHOD_INVOCATION, line no: 48, 1.75, 0.75, 1.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,remaining,SIMPLE_NAME, line no: 48, 1.75, 0.75, 1.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,getInt,SIMPLE_NAME, line no: 47, 1.7333333333333334, 0.7333333333333333, 1.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,remaining,SIMPLE_NAME, line no: 48, 1.7333333333333334, 0.7333333333333333, 1.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,ConsumerFlowTokenMessage,SIMPLE_NAME, line no: 11, 1.6875, 0.0625, 1.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,new ConsumerFlowTokenMessage(in.getInt()),CLASS_INSTANCE_CREATION, line no: 53, 1.6875, 0.6875, 1.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,bodyLength,SIMPLE_NAME, line no: 47, 1.6875, 0.6875, 1.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,bodyLength,SIMPLE_NAME, line no: 47, 1.6666666666666665, 0.6666666666666666, 1.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,message.getTokens(),METHOD_INVOCATION, line no: 40, 1.5, 1.0, 0.5, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40, 1.4333333333333333, 0.9333333333333333, 0.5, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,out.putInt(INT_LENGTH),METHOD_INVOCATION, line no: 39, 1.3333333333333333, 1.0, 0.3333333333333333, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,ConsumerFlowTokenMessageCodec,SIMPLE_NAME, line no: 17, 1.0714285714285714, 0.07142857142857142, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,encodeBody,SIMPLE_NAME, line no: 37, 1.0714285714285714, 0.07142857142857142, 1.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,RemotingBuffer,SIMPLE_NAME, line no: 37, 1.0666666666666667, 0.06666666666666667, 1.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,ConsumerFlowTokenMessageCodec,SIMPLE_NAME, line no: 17, 1.0666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,encodeBody,SIMPLE_NAME, line no: 37, 1.0666666666666667, 0.06666666666666667, 1.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,decodeBody,SIMPLE_NAME, line no: 44, 1.0625, 0.0625, 1.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,message,SIMPLE_NAME, line no: 37, 1.0, 0.07142857142857142, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,out,SIMPLE_NAME, line no: 37, 1.0, 0.07142857142857142, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,INT_LENGTH,SIMPLE_NAME, line no: 39, 1.0, 1.0, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,getTokens,SIMPLE_NAME, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,message,SIMPLE_NAME, line no: 37, 1.0, 0.06666666666666667, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,putInt,SIMPLE_NAME, line no: 39, 1.0, 1.0, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,INT_LENGTH,SIMPLE_NAME, line no: 39, 1.0, 1.0, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,putFloat,SIMPLE_NAME, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,getTokens,SIMPLE_NAME, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,message,SIMPLE_NAME, line no: 37, 1.0, 0.06666666666666667, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,out,SIMPLE_NAME, line no: 37, 1.0, 0.06666666666666667, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,INT_LENGTH,SIMPLE_NAME, line no: 39, 1.0, 1.0, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,getTokens,SIMPLE_NAME, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,message,SIMPLE_NAME, line no: 37, 1.0, 0.06666666666666667, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting.wireformat.ConsumerFlowTokenMessage,QUALIFIED_NAME, line no: 11, 1.0, 0.0, 1.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,getTokens,SIMPLE_NAME, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,message,SIMPLE_NAME, line no: 37, 1.0, 0.0625, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,out,SIMPLE_NAME, line no: 37, 0.9375, 0.0625, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,putInt,SIMPLE_NAME, line no: 39, 0.9375, 0.9375, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,INT_LENGTH,SIMPLE_NAME, line no: 39, 0.9375, 0.9375, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,putFloat,SIMPLE_NAME, line no: 40, 0.9375, 0.9375, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,message.getTokens(),METHOD_INVOCATION, line no: 40, 0.9375, 0.9375, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,out,SIMPLE_NAME, line no: 37, 0.9375, 0.0625, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,putInt,SIMPLE_NAME, line no: 39, 0.9375, 0.9375, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,putFloat,SIMPLE_NAME, line no: 40, 0.9375, 0.9375, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,out.putInt(INT_LENGTH),METHOD_INVOCATION, line no: 39, 0.9333333333333333, 0.9333333333333333, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40, 0.9333333333333333, 0.9333333333333333, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,message.getTokens(),METHOD_INVOCATION, line no: 40, 0.9333333333333333, 0.9333333333333333, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,message.getTokens(),METHOD_INVOCATION, line no: 40, 0.9333333333333333, 0.9333333333333333, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,out,SIMPLE_NAME, line no: 37, 0.9333333333333333, 0.06666666666666667, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,out.putInt(INT_LENGTH),METHOD_INVOCATION, line no: 39, 0.9333333333333333, 0.9333333333333333, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,putInt,SIMPLE_NAME, line no: 39, 0.9333333333333333, 0.9333333333333333, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,putFloat,SIMPLE_NAME, line no: 40, 0.9333333333333333, 0.9333333333333333, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,out.putInt(INT_LENGTH),METHOD_INVOCATION, line no: 39, 0.875, 0.875, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40, 0.875, 0.875, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,out.putInt(INT_LENGTH),METHOD_INVOCATION, line no: 39, 0.875, 0.875, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40, 0.875, 0.875, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,in.getInt(),METHOD_INVOCATION, line no: 47, 0.8, 0.8, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,getInt,SIMPLE_NAME, line no: 47, 0.8, 0.8, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,in.remaining(),METHOD_INVOCATION, line no: 48, 0.8, 0.8, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,remaining,SIMPLE_NAME, line no: 48, 0.8, 0.8, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,in,SIMPLE_NAME, line no: 44, 0.8, 0.06666666666666667, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,in.getInt(),METHOD_INVOCATION, line no: 47, 0.8, 0.8, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,getInt,SIMPLE_NAME, line no: 47, 0.8, 0.8, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,in.remaining(),METHOD_INVOCATION, line no: 48, 0.8, 0.8, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,remaining,SIMPLE_NAME, line no: 48, 0.8, 0.8, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,in,SIMPLE_NAME, line no: 44, 0.7857142857142857, 0.07142857142857142, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,in.getInt(),METHOD_INVOCATION, line no: 47, 0.7857142857142857, 0.7857142857142857, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,getInt,SIMPLE_NAME, line no: 47, 0.7857142857142857, 0.7857142857142857, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,in.remaining(),METHOD_INVOCATION, line no: 48, 0.7857142857142857, 0.7857142857142857, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,remaining,SIMPLE_NAME, line no: 48, 0.7857142857142857, 0.7857142857142857, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,in,SIMPLE_NAME, line no: 44, 0.75, 0.0625, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,in.getInt(),METHOD_INVOCATION, line no: 47, 0.75, 0.75, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,getInt,SIMPLE_NAME, line no: 47, 0.75, 0.75, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,in.remaining(),METHOD_INVOCATION, line no: 48, 0.75, 0.75, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,remaining,SIMPLE_NAME, line no: 48, 0.75, 0.75, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,in,SIMPLE_NAME, line no: 44, 0.75, 0.0625, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,ConsumerFlowTokenMessage,SIMPLE_NAME, line no: 11, 0.7333333333333333, 0.06666666666666667, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,bodyLength,SIMPLE_NAME, line no: 47, 0.7333333333333333, 0.7333333333333333, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,in.remaining() < bodyLength,INFIX_EXPRESSION, line no: 48, 0.7333333333333333, 0.7333333333333333, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,new ConsumerFlowTokenMessage(in.getInt()),CLASS_INSTANCE_CREATION, line no: 53, 0.7333333333333333, 0.7333333333333333, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,ConsumerFlowTokenMessage,SIMPLE_NAME, line no: 11, 0.7333333333333333, 0.06666666666666667, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,bodyLength,SIMPLE_NAME, line no: 47, 0.7333333333333333, 0.7333333333333333, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,in.remaining() < bodyLength,INFIX_EXPRESSION, line no: 48, 0.7333333333333333, 0.7333333333333333, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,new ConsumerFlowTokenMessage(in.getInt()),CLASS_INSTANCE_CREATION, line no: 53, 0.7333333333333333, 0.7333333333333333, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,in,SIMPLE_NAME, line no: 44, 0.7333333333333333, 0.06666666666666667, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,in.getInt(),METHOD_INVOCATION, line no: 47, 0.7333333333333333, 0.7333333333333333, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,in.remaining(),METHOD_INVOCATION, line no: 48, 0.7333333333333333, 0.7333333333333333, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,ConsumerFlowTokenMessage,SIMPLE_NAME, line no: 11, 0.7142857142857143, 0.07142857142857142, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,bodyLength,SIMPLE_NAME, line no: 47, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,in.remaining() < bodyLength,INFIX_EXPRESSION, line no: 48, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,new ConsumerFlowTokenMessage(in.getInt()),CLASS_INSTANCE_CREATION, line no: 53, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,bodyLength,SIMPLE_NAME, line no: 47, 0.6875, 0.6875, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,in.remaining() < bodyLength,INFIX_EXPRESSION, line no: 48, 0.6875, 0.6875, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,ConsumerFlowTokenMessage,SIMPLE_NAME, line no: 11, 0.6875, 0.0625, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,in.remaining() < bodyLength,INFIX_EXPRESSION, line no: 48, 0.6875, 0.6875, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,new ConsumerFlowTokenMessage(in.getInt()),CLASS_INSTANCE_CREATION, line no: 53, 0.6875, 0.6875, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,ConsumerFlowTokenMessage,SIMPLE_NAME, line no: 11, 0.6666666666666666, 0.06666666666666667, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,in.remaining() < bodyLength,INFIX_EXPRESSION, line no: 48, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,new ConsumerFlowTokenMessage(in.getInt()),CLASS_INSTANCE_CREATION, line no: 53, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,CONS_FLOWTOKEN,SIMPLE_NAME, line no: 9, 0.14285714285714285, 0.07142857142857142, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,CONS_FLOWTOKEN,SIMPLE_NAME, line no: 9, 0.13333333333333333, 0.06666666666666667, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,CONS_FLOWTOKEN,SIMPLE_NAME, line no: 9, 0.13333333333333333, 0.06666666666666667, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,CONS_FLOWTOKEN,SIMPLE_NAME, line no: 9, 0.13333333333333333, 0.06666666666666667, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,CONS_FLOWTOKEN,SIMPLE_NAME, line no: 9, 0.125, 0.0625, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,CONS_FLOWTOKEN,SIMPLE_NAME, line no: 9, 0.125, 0.0625, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,org,SIMPLE_NAME, line no: 7, 0.07142857142857142, 0.07142857142857142, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,jboss,SIMPLE_NAME, line no: 7, 0.07142857142857142, 0.07142857142857142, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,messaging,SIMPLE_NAME, line no: 7, 0.07142857142857142, 0.07142857142857142, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,core,SIMPLE_NAME, line no: 7, 0.07142857142857142, 0.07142857142857142, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,remoting,SIMPLE_NAME, line no: 7, 0.07142857142857142, 0.07142857142857142, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,codec,SIMPLE_NAME, line no: 7, 0.07142857142857142, 0.07142857142857142, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,wireformat,SIMPLE_NAME, line no: 9, 0.07142857142857142, 0.07142857142857142, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,PacketType,SIMPLE_NAME, line no: 9, 0.07142857142857142, 0.07142857142857142, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,AbstractPacketCodec,SIMPLE_NAME, line no: 17, 0.07142857142857142, 0.07142857142857142, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,Override,SIMPLE_NAME, line no: 36, 0.07142857142857142, 0.07142857142857142, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,RemotingBuffer,SIMPLE_NAME, line no: 37, 0.07142857142857142, 0.07142857142857142, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,Exception,SIMPLE_NAME, line no: 37, 0.07142857142857142, 0.07142857142857142, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,decodeBody,SIMPLE_NAME, line no: 44, 0.07142857142857142, 0.07142857142857142, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,org,SIMPLE_NAME, line no: 7, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,jboss,SIMPLE_NAME, line no: 7, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,messaging,SIMPLE_NAME, line no: 7, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,core,SIMPLE_NAME, line no: 7, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,remoting,SIMPLE_NAME, line no: 7, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,codec,SIMPLE_NAME, line no: 7, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,wireformat,SIMPLE_NAME, line no: 9, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,PacketType,SIMPLE_NAME, line no: 9, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,ConsumerFlowTokenMessageCodec,SIMPLE_NAME, line no: 17, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,AbstractPacketCodec,SIMPLE_NAME, line no: 17, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,Override,SIMPLE_NAME, line no: 36, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,encodeBody,SIMPLE_NAME, line no: 37, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,Exception,SIMPLE_NAME, line no: 37, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,decodeBody,SIMPLE_NAME, line no: 44, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,org,SIMPLE_NAME, line no: 7, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,jboss,SIMPLE_NAME, line no: 7, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,messaging,SIMPLE_NAME, line no: 7, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,core,SIMPLE_NAME, line no: 7, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,remoting,SIMPLE_NAME, line no: 7, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,codec,SIMPLE_NAME, line no: 7, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,wireformat,SIMPLE_NAME, line no: 9, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,PacketType,SIMPLE_NAME, line no: 9, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,AbstractPacketCodec,SIMPLE_NAME, line no: 17, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,Override,SIMPLE_NAME, line no: 36, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,RemotingBuffer,SIMPLE_NAME, line no: 37, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,Exception,SIMPLE_NAME, line no: 37, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,decodeBody,SIMPLE_NAME, line no: 44, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,org,SIMPLE_NAME, line no: 7, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,jboss,SIMPLE_NAME, line no: 7, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,messaging,SIMPLE_NAME, line no: 7, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,core,SIMPLE_NAME, line no: 7, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,remoting,SIMPLE_NAME, line no: 7, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,codec,SIMPLE_NAME, line no: 7, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,wireformat,SIMPLE_NAME, line no: 9, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,PacketType,SIMPLE_NAME, line no: 9, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,ConsumerFlowTokenMessageCodec,SIMPLE_NAME, line no: 17, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,AbstractPacketCodec,SIMPLE_NAME, line no: 17, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,Override,SIMPLE_NAME, line no: 36, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,encodeBody,SIMPLE_NAME, line no: 37, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,RemotingBuffer,SIMPLE_NAME, line no: 37, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,Exception,SIMPLE_NAME, line no: 37, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,decodeBody,SIMPLE_NAME, line no: 44, 0.06666666666666667, 0.06666666666666667, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,org,SIMPLE_NAME, line no: 7, 0.0625, 0.0625, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,jboss,SIMPLE_NAME, line no: 7, 0.0625, 0.0625, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,messaging,SIMPLE_NAME, line no: 7, 0.0625, 0.0625, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,core,SIMPLE_NAME, line no: 7, 0.0625, 0.0625, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,remoting,SIMPLE_NAME, line no: 7, 0.0625, 0.0625, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,codec,SIMPLE_NAME, line no: 7, 0.0625, 0.0625, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,wireformat,SIMPLE_NAME, line no: 9, 0.0625, 0.0625, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,PacketType,SIMPLE_NAME, line no: 9, 0.0625, 0.0625, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,ConsumerFlowTokenMessageCodec,SIMPLE_NAME, line no: 17, 0.0625, 0.0625, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,AbstractPacketCodec,SIMPLE_NAME, line no: 17, 0.0625, 0.0625, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,Override,SIMPLE_NAME, line no: 36, 0.0625, 0.0625, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,encodeBody,SIMPLE_NAME, line no: 37, 0.0625, 0.0625, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,RemotingBuffer,SIMPLE_NAME, line no: 37, 0.0625, 0.0625, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,Exception,SIMPLE_NAME, line no: 37, 0.0625, 0.0625, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,org,SIMPLE_NAME, line no: 7, 0.0625, 0.0625, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,jboss,SIMPLE_NAME, line no: 7, 0.0625, 0.0625, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,messaging,SIMPLE_NAME, line no: 7, 0.0625, 0.0625, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,core,SIMPLE_NAME, line no: 7, 0.0625, 0.0625, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,remoting,SIMPLE_NAME, line no: 7, 0.0625, 0.0625, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,codec,SIMPLE_NAME, line no: 7, 0.0625, 0.0625, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,wireformat,SIMPLE_NAME, line no: 9, 0.0625, 0.0625, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,PacketType,SIMPLE_NAME, line no: 9, 0.0625, 0.0625, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,ConsumerFlowTokenMessageCodec,SIMPLE_NAME, line no: 17, 0.0625, 0.0625, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,AbstractPacketCodec,SIMPLE_NAME, line no: 17, 0.0625, 0.0625, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,Override,SIMPLE_NAME, line no: 36, 0.0625, 0.0625, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,encodeBody,SIMPLE_NAME, line no: 37, 0.0625, 0.0625, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,RemotingBuffer,SIMPLE_NAME, line no: 37, 0.0625, 0.0625, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,Exception,SIMPLE_NAME, line no: 37, 0.0625, 0.0625, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,decodeBody,SIMPLE_NAME, line no: 44, 0.0625, 0.0625, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,org.jboss.messaging.core.remoting.codec,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,org.jboss.messaging.core.remoting,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,org.jboss.messaging.core,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,org.jboss.messaging,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,org.jboss,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,org.jboss.messaging.core.remoting.wireformat.PacketType.CONS_FLOWTOKEN,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,org.jboss.messaging.core.remoting.wireformat.PacketType,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,org.jboss.messaging.core.remoting.wireformat,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,org.jboss.messaging.core.remoting.wireformat.ConsumerFlowTokenMessage,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,@Override,MARKER_ANNOTATION, line no: 36, 0.0, 0.0, 0.0, 0.0, 0.0
+out.putFloat(message.getTokens()),METHOD_INVOCATION, line no: 40,null,NULL_LITERAL, line no: 50, 0.0, 0.0, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting.codec,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,org.jboss.messaging.core,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,org.jboss.messaging,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,org.jboss,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting.wireformat.PacketType.CONS_FLOWTOKEN,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting.wireformat.PacketType,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting.wireformat,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting.wireformat.ConsumerFlowTokenMessage,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,@Override,MARKER_ANNOTATION, line no: 36, 0.0, 0.0, 0.0, 0.0, 0.0
+out,SIMPLE_NAME, line no: 40,null,NULL_LITERAL, line no: 50, 0.0, 0.0, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting.codec,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,org.jboss.messaging.core,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,org.jboss.messaging,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,org.jboss,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting.wireformat.PacketType.CONS_FLOWTOKEN,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting.wireformat.PacketType,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting.wireformat,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting.wireformat.ConsumerFlowTokenMessage,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,@Override,MARKER_ANNOTATION, line no: 36, 0.0, 0.0, 0.0, 0.0, 0.0
+putFloat,SIMPLE_NAME, line no: 40,null,NULL_LITERAL, line no: 50, 0.0, 0.0, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,org.jboss.messaging.core.remoting.codec,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,org.jboss.messaging.core.remoting,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,org.jboss.messaging.core,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,org.jboss.messaging,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,org.jboss,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,org.jboss.messaging.core.remoting.wireformat.PacketType.CONS_FLOWTOKEN,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,org.jboss.messaging.core.remoting.wireformat.PacketType,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,org.jboss.messaging.core.remoting.wireformat,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,org.jboss.messaging.core.remoting.wireformat.ConsumerFlowTokenMessage,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,@Override,MARKER_ANNOTATION, line no: 36, 0.0, 0.0, 0.0, 0.0, 0.0
+message.getTokens(),METHOD_INVOCATION, line no: 40,null,NULL_LITERAL, line no: 50, 0.0, 0.0, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting.codec,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,org.jboss.messaging.core,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,org.jboss.messaging,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,org.jboss,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting.wireformat.PacketType.CONS_FLOWTOKEN,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting.wireformat.PacketType,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting.wireformat,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,@Override,MARKER_ANNOTATION, line no: 36, 0.0, 0.0, 0.0, 0.0, 0.0
+message,SIMPLE_NAME, line no: 40,null,NULL_LITERAL, line no: 50, 0.0, 0.0, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting.codec,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,org.jboss.messaging.core,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,org.jboss.messaging,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,org.jboss,QUALIFIED_NAME, line no: 7, 0.0, 0.0, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting.wireformat.PacketType.CONS_FLOWTOKEN,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting.wireformat.PacketType,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting.wireformat,QUALIFIED_NAME, line no: 9, 0.0, 0.0, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,org.jboss.messaging.core.remoting.wireformat.ConsumerFlowTokenMessage,QUALIFIED_NAME, line no: 11, 0.0, 0.0, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,@Override,MARKER_ANNOTATION, line no: 36, 0.0, 0.0, 0.0, 0.0, 0.0
+getTokens,SIMPLE_NAME, line no: 40,null,NULL_LITERAL, line no: 50, 0.0, 0.0, 0.0, 0.0, 0.0

@@ -1,25 +1,553 @@
-Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,hash,SIMPLE_NAME, line no: 88, 1.0, 1.0, 1.0, 0.4954128440366973
-getInvolvedNodes(),METHOD_INVOCATION, line no: 88,getInvolvedNodes,SIMPLE_NAME, line no: 88, 1.0, 1.0, 1.0, 0.825
-isContinuous(),METHOD_INVOCATION, line no: 88,isContinuous,SIMPLE_NAME, line no: 65, 1.0, 0.9090909090909091, 1.0, 0.7631578947368421
-isContinuous(),METHOD_INVOCATION, line no: 88,equals,SIMPLE_NAME, line no: 74, 1.0, 0.09090909090909091, 1.0, 0.631578947368421
-isContinuous,SIMPLE_NAME, line no: 88,isContinuous(),METHOD_INVOCATION, line no: 65, 1.0, 0.9166666666666666, 1.0, 0.7631578947368421
-isContinuous,SIMPLE_NAME, line no: 88,equals,SIMPLE_NAME, line no: 74, 1.0, 0.08333333333333333, 1.0, 0.7941176470588235
-isContinuous,SIMPLE_NAME, line no: 88,this == o,INFIX_EXPRESSION, line no: 75, 1.0, 1.0, 1.0, 0.6857142857142857
-isContinuous,SIMPLE_NAME, line no: 88,o == null || getClass() != o.getClass(),INFIX_EXPRESSION, line no: 78, 1.0, 1.0, 1.0, 0.52
-isContinuous,SIMPLE_NAME, line no: 88,o == null,INFIX_EXPRESSION, line no: 78, 1.0, 1.0, 1.0, 0.7142857142857143
-isContinuous,SIMPLE_NAME, line no: 88,getClass() != o.getClass(),INFIX_EXPRESSION, line no: 78, 1.0, 1.0, 1.0, 0.5862068965517241
-isContinuous,SIMPLE_NAME, line no: 88,getInvolvedVMs().equals(that.getInvolvedVMs()) && isContinuous() == that.isContinuous(),INFIX_EXPRESSION, line no: 83, 1.0, 1.0, 1.0, 0.39864864864864863
-isContinuous,SIMPLE_NAME, line no: 88,getInvolvedVMs().equals(that.getInvolvedVMs()),METHOD_INVOCATION, line no: 83, 1.0, 1.0, 1.0, 0.49074074074074076
-isContinuous,SIMPLE_NAME, line no: 88,isContinuous() == that.isContinuous(),INFIX_EXPRESSION, line no: 83, 1.0, 1.0, 1.0, 0.6020408163265306
-isContinuous,SIMPLE_NAME, line no: 88,that.isContinuous(),METHOD_INVOCATION, line no: 83, 1.0, 1.0, 1.0, 0.7407407407407407
-getInvolvedNodes,SIMPLE_NAME, line no: 88,getInvolvedNodes(),METHOD_INVOCATION, line no: 88, 0.9166666666666666, 0.9166666666666666, 1.0, 0.825
-isContinuous,SIMPLE_NAME, line no: 88,!isContinuous(),PREFIX_EXPRESSION, line no: 65, 0.9166666666666666, 0.9166666666666666, 1.0, 0.7402597402597403
-hash,SIMPLE_NAME, line no: 88,Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88, 0.9090909090909091, 0.9090909090909091, 1.0, 0.4954128440366973
-isContinuous,SIMPLE_NAME, line no: 88,continuous,SIMPLE_NAME, line no: 58, 0.5, 0.08333333333333333, 1.0, 0.9264705882352942
-isContinuous(),METHOD_INVOCATION, line no: 88,continuous,SIMPLE_NAME, line no: 58, 0.45454545454545453, 0.09090909090909091, 1.0, 0.75
-isContinuous(),METHOD_INVOCATION, line no: 88,true,BOOLEAN_LITERAL, line no: 49, 0.18181818181818182, 0.09090909090909091, 1.0, 0.618421052631579
-isContinuous(),METHOD_INVOCATION, line no: 88,false,BOOLEAN_LITERAL, line no: 79, 0.18181818181818182, 0.18181818181818182, 1.0, 0.6052631578947368
-isContinuous,SIMPLE_NAME, line no: 88,true,BOOLEAN_LITERAL, line no: 49, 0.16666666666666666, 0.08333333333333333, 1.0, 0.6911764705882353
-isContinuous,SIMPLE_NAME, line no: 88,false,BOOLEAN_LITERAL, line no: 79, 0.16666666666666666, 0.16666666666666666, 1.0, 0.6764705882352942
-Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,hashCode,SIMPLE_NAME, line no: 87, 0.1, 0.1, 1.0, 0.5045871559633027
-hash,SIMPLE_NAME, line no: 88,hashCode,SIMPLE_NAME, line no: 87, 0.09090909090909091, 0.09090909090909091, 1.0, 0.90625
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,hash,SIMPLE_NAME, line no: 88, 2.0, 1.0, 1.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,getInvolvedNodes,SIMPLE_NAME, line no: 88, 2.0, 1.0, 1.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,isContinuous,SIMPLE_NAME, line no: 65, 2.0, 0.9090909090909091, 1.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,equals,SIMPLE_NAME, line no: 74, 2.0, 0.09090909090909091, 1.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,isContinuous(),METHOD_INVOCATION, line no: 65, 2.0, 0.9166666666666666, 1.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,equals,SIMPLE_NAME, line no: 74, 2.0, 0.08333333333333333, 1.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,this == o,INFIX_EXPRESSION, line no: 75, 2.0, 1.0, 1.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,o == null || getClass() != o.getClass(),INFIX_EXPRESSION, line no: 78, 2.0, 1.0, 1.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,o == null,INFIX_EXPRESSION, line no: 78, 2.0, 1.0, 1.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,getClass() != o.getClass(),INFIX_EXPRESSION, line no: 78, 2.0, 1.0, 1.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,getInvolvedVMs().equals(that.getInvolvedVMs()) && isContinuous() == that.isContinuous(),INFIX_EXPRESSION, line no: 83, 2.0, 1.0, 1.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,getInvolvedVMs().equals(that.getInvolvedVMs()),METHOD_INVOCATION, line no: 83, 2.0, 1.0, 1.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,isContinuous() == that.isContinuous(),INFIX_EXPRESSION, line no: 83, 2.0, 1.0, 1.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,that.isContinuous(),METHOD_INVOCATION, line no: 83, 2.0, 1.0, 1.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,getInvolvedNodes(),METHOD_INVOCATION, line no: 88, 1.9166666666666665, 0.9166666666666666, 1.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,!isContinuous(),PREFIX_EXPRESSION, line no: 65, 1.9166666666666665, 0.9166666666666666, 1.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88, 1.9090909090909092, 0.9090909090909091, 1.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,continuous,SIMPLE_NAME, line no: 58, 1.5, 0.08333333333333333, 1.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,continuous,SIMPLE_NAME, line no: 58, 1.4545454545454546, 0.09090909090909091, 1.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,true,BOOLEAN_LITERAL, line no: 49, 1.1818181818181819, 0.09090909090909091, 1.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,false,BOOLEAN_LITERAL, line no: 79, 1.1818181818181819, 0.18181818181818182, 1.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,true,BOOLEAN_LITERAL, line no: 49, 1.1666666666666667, 0.08333333333333333, 1.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,false,BOOLEAN_LITERAL, line no: 79, 1.1666666666666667, 0.16666666666666666, 1.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,hashCode,SIMPLE_NAME, line no: 87, 1.1, 0.1, 1.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,hashCode,SIMPLE_NAME, line no: 87, 1.0909090909090908, 0.09090909090909091, 1.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,Objects,SIMPLE_NAME, line no: 26, 1.0, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,Spread,SIMPLE_NAME, line no: 41, 1.0, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,toString,SIMPLE_NAME, line no: 63, 1.0, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,b,SIMPLE_NAME, line no: 64, 1.0, 0.9, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,append,SIMPLE_NAME, line no: 64, 1.0, 0.9, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,getInvolvedVMs(),METHOD_INVOCATION, line no: 64, 1.0, 0.9, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,getInvolvedVMs,SIMPLE_NAME, line no: 64, 1.0, 0.9, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,isContinuous(),METHOD_INVOCATION, line no: 65, 1.0, 0.9, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,isContinuous,SIMPLE_NAME, line no: 65, 1.0, 0.9, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,b.append(')').toString(),METHOD_INVOCATION, line no: 70, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,b.append(')'),METHOD_INVOCATION, line no: 70, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,')',CHARACTER_LITERAL, line no: 70, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,equals,SIMPLE_NAME, line no: 74, 1.0, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,o,SIMPLE_NAME, line no: 74, 1.0, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,this == o,INFIX_EXPRESSION, line no: 75, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,this,THIS_EXPRESSION, line no: 75, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,o == null || getClass() != o.getClass(),INFIX_EXPRESSION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,o == null,INFIX_EXPRESSION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,null,NULL_LITERAL, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,getClass() != o.getClass(),INFIX_EXPRESSION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,getClass(),METHOD_INVOCATION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,getClass,SIMPLE_NAME, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,o.getClass(),METHOD_INVOCATION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,that,SIMPLE_NAME, line no: 82, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,(Spread)o,CAST_EXPRESSION, line no: 82, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,getInvolvedVMs().equals(that.getInvolvedVMs()) && isContinuous() == that.isContinuous(),INFIX_EXPRESSION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,getInvolvedVMs().equals(that.getInvolvedVMs()),METHOD_INVOCATION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,that.getInvolvedVMs(),METHOD_INVOCATION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,isContinuous() == that.isContinuous(),INFIX_EXPRESSION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,that.isContinuous(),METHOD_INVOCATION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,getInvolvedNodes(),METHOD_INVOCATION, line no: 88, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,getInvolvedNodes,SIMPLE_NAME, line no: 88, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,java.util.Objects,QUALIFIED_NAME, line no: 26, 1.0, 0.0, 1.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,Spread,SIMPLE_NAME, line no: 41, 1.0, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,toString,SIMPLE_NAME, line no: 63, 1.0, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,b,SIMPLE_NAME, line no: 64, 1.0, 0.9090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,append,SIMPLE_NAME, line no: 64, 1.0, 0.9090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,getInvolvedVMs(),METHOD_INVOCATION, line no: 64, 1.0, 0.9090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,getInvolvedVMs,SIMPLE_NAME, line no: 64, 1.0, 0.9090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,isContinuous(),METHOD_INVOCATION, line no: 65, 1.0, 0.9090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,isContinuous,SIMPLE_NAME, line no: 65, 1.0, 0.9090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,b.append(')').toString(),METHOD_INVOCATION, line no: 70, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,b.append(')'),METHOD_INVOCATION, line no: 70, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,')',CHARACTER_LITERAL, line no: 70, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,equals,SIMPLE_NAME, line no: 74, 1.0, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,o,SIMPLE_NAME, line no: 74, 1.0, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,this == o,INFIX_EXPRESSION, line no: 75, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,this,THIS_EXPRESSION, line no: 75, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,o == null || getClass() != o.getClass(),INFIX_EXPRESSION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,o == null,INFIX_EXPRESSION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,null,NULL_LITERAL, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,getClass() != o.getClass(),INFIX_EXPRESSION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,getClass(),METHOD_INVOCATION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,getClass,SIMPLE_NAME, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,o.getClass(),METHOD_INVOCATION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,that,SIMPLE_NAME, line no: 82, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,(Spread)o,CAST_EXPRESSION, line no: 82, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,getInvolvedVMs().equals(that.getInvolvedVMs()) && isContinuous() == that.isContinuous(),INFIX_EXPRESSION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,getInvolvedVMs().equals(that.getInvolvedVMs()),METHOD_INVOCATION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,that.getInvolvedVMs(),METHOD_INVOCATION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,isContinuous() == that.isContinuous(),INFIX_EXPRESSION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,that.isContinuous(),METHOD_INVOCATION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,hash,SIMPLE_NAME, line no: 88, 1.0, 1.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,getInvolvedNodes,SIMPLE_NAME, line no: 88, 1.0, 1.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,Objects,SIMPLE_NAME, line no: 26, 1.0, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,Spread,SIMPLE_NAME, line no: 41, 1.0, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,toString,SIMPLE_NAME, line no: 63, 1.0, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,b,SIMPLE_NAME, line no: 64, 1.0, 0.9090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,append,SIMPLE_NAME, line no: 64, 1.0, 0.9090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,getInvolvedVMs(),METHOD_INVOCATION, line no: 64, 1.0, 0.9090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,getInvolvedVMs,SIMPLE_NAME, line no: 64, 1.0, 0.9090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,isContinuous(),METHOD_INVOCATION, line no: 65, 1.0, 0.9090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,isContinuous,SIMPLE_NAME, line no: 65, 1.0, 0.9090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,b.append(')').toString(),METHOD_INVOCATION, line no: 70, 1.0, 1.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,b.append(')'),METHOD_INVOCATION, line no: 70, 1.0, 1.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,')',CHARACTER_LITERAL, line no: 70, 1.0, 1.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,equals,SIMPLE_NAME, line no: 74, 1.0, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,o,SIMPLE_NAME, line no: 74, 1.0, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,this == o,INFIX_EXPRESSION, line no: 75, 1.0, 1.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,this,THIS_EXPRESSION, line no: 75, 1.0, 1.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,o == null || getClass() != o.getClass(),INFIX_EXPRESSION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,o == null,INFIX_EXPRESSION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,null,NULL_LITERAL, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,getClass() != o.getClass(),INFIX_EXPRESSION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,getClass(),METHOD_INVOCATION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,getClass,SIMPLE_NAME, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,o.getClass(),METHOD_INVOCATION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,that,SIMPLE_NAME, line no: 82, 1.0, 1.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,(Spread)o,CAST_EXPRESSION, line no: 82, 1.0, 1.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,getInvolvedVMs().equals(that.getInvolvedVMs()) && isContinuous() == that.isContinuous(),INFIX_EXPRESSION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,getInvolvedVMs().equals(that.getInvolvedVMs()),METHOD_INVOCATION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,that.getInvolvedVMs(),METHOD_INVOCATION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,isContinuous() == that.isContinuous(),INFIX_EXPRESSION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,that.isContinuous(),METHOD_INVOCATION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,getInvolvedNodes,SIMPLE_NAME, line no: 88, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,Spread,SIMPLE_NAME, line no: 41, 1.0, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,toString,SIMPLE_NAME, line no: 63, 1.0, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,b,SIMPLE_NAME, line no: 64, 1.0, 0.9090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,append,SIMPLE_NAME, line no: 64, 1.0, 0.9090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,getInvolvedVMs(),METHOD_INVOCATION, line no: 64, 1.0, 0.9090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,getInvolvedVMs,SIMPLE_NAME, line no: 64, 1.0, 0.9090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,isContinuous(),METHOD_INVOCATION, line no: 65, 1.0, 0.9090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,isContinuous,SIMPLE_NAME, line no: 65, 1.0, 0.9090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,b.append(')').toString(),METHOD_INVOCATION, line no: 70, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,b.append(')'),METHOD_INVOCATION, line no: 70, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,')',CHARACTER_LITERAL, line no: 70, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,equals,SIMPLE_NAME, line no: 74, 1.0, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,o,SIMPLE_NAME, line no: 74, 1.0, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,this == o,INFIX_EXPRESSION, line no: 75, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,this,THIS_EXPRESSION, line no: 75, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,o == null || getClass() != o.getClass(),INFIX_EXPRESSION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,o == null,INFIX_EXPRESSION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,null,NULL_LITERAL, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,getClass() != o.getClass(),INFIX_EXPRESSION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,getClass(),METHOD_INVOCATION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,getClass,SIMPLE_NAME, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,o.getClass(),METHOD_INVOCATION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,that,SIMPLE_NAME, line no: 82, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,(Spread)o,CAST_EXPRESSION, line no: 82, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,getInvolvedVMs().equals(that.getInvolvedVMs()) && isContinuous() == that.isContinuous(),INFIX_EXPRESSION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,getInvolvedVMs().equals(that.getInvolvedVMs()),METHOD_INVOCATION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,that.getInvolvedVMs(),METHOD_INVOCATION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,isContinuous() == that.isContinuous(),INFIX_EXPRESSION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,that.isContinuous(),METHOD_INVOCATION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,Spread,SIMPLE_NAME, line no: 41, 1.0, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,toString,SIMPLE_NAME, line no: 63, 1.0, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,b,SIMPLE_NAME, line no: 64, 1.0, 0.9166666666666666, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,append,SIMPLE_NAME, line no: 64, 1.0, 0.9166666666666666, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,getInvolvedVMs(),METHOD_INVOCATION, line no: 64, 1.0, 0.9166666666666666, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,getInvolvedVMs,SIMPLE_NAME, line no: 64, 1.0, 0.9166666666666666, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,isContinuous(),METHOD_INVOCATION, line no: 65, 1.0, 0.9166666666666666, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,isContinuous,SIMPLE_NAME, line no: 65, 1.0, 0.9166666666666666, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,b.append(')').toString(),METHOD_INVOCATION, line no: 70, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,b.append(')'),METHOD_INVOCATION, line no: 70, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,')',CHARACTER_LITERAL, line no: 70, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,equals,SIMPLE_NAME, line no: 74, 1.0, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,o,SIMPLE_NAME, line no: 74, 1.0, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,this == o,INFIX_EXPRESSION, line no: 75, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,this,THIS_EXPRESSION, line no: 75, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,o == null || getClass() != o.getClass(),INFIX_EXPRESSION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,o == null,INFIX_EXPRESSION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,null,NULL_LITERAL, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,getClass() != o.getClass(),INFIX_EXPRESSION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,getClass(),METHOD_INVOCATION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,getClass,SIMPLE_NAME, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,o.getClass(),METHOD_INVOCATION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,that,SIMPLE_NAME, line no: 82, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,(Spread)o,CAST_EXPRESSION, line no: 82, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,getInvolvedVMs().equals(that.getInvolvedVMs()) && isContinuous() == that.isContinuous(),INFIX_EXPRESSION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,getInvolvedVMs().equals(that.getInvolvedVMs()),METHOD_INVOCATION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,that.getInvolvedVMs(),METHOD_INVOCATION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,isContinuous() == that.isContinuous(),INFIX_EXPRESSION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,that.isContinuous(),METHOD_INVOCATION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,Spread,SIMPLE_NAME, line no: 41, 1.0, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,toString,SIMPLE_NAME, line no: 63, 1.0, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,b,SIMPLE_NAME, line no: 64, 1.0, 0.9090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,append,SIMPLE_NAME, line no: 64, 1.0, 0.9090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,getInvolvedVMs(),METHOD_INVOCATION, line no: 64, 1.0, 0.9090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,getInvolvedVMs,SIMPLE_NAME, line no: 64, 1.0, 0.9090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,b.append(')').toString(),METHOD_INVOCATION, line no: 70, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,b.append(')'),METHOD_INVOCATION, line no: 70, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,')',CHARACTER_LITERAL, line no: 70, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,o,SIMPLE_NAME, line no: 74, 1.0, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,this == o,INFIX_EXPRESSION, line no: 75, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,this,THIS_EXPRESSION, line no: 75, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,o == null || getClass() != o.getClass(),INFIX_EXPRESSION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,o == null,INFIX_EXPRESSION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,null,NULL_LITERAL, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,getClass() != o.getClass(),INFIX_EXPRESSION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,getClass(),METHOD_INVOCATION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,getClass,SIMPLE_NAME, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,o.getClass(),METHOD_INVOCATION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,that,SIMPLE_NAME, line no: 82, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,(Spread)o,CAST_EXPRESSION, line no: 82, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,getInvolvedVMs().equals(that.getInvolvedVMs()) && isContinuous() == that.isContinuous(),INFIX_EXPRESSION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,getInvolvedVMs().equals(that.getInvolvedVMs()),METHOD_INVOCATION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,that.getInvolvedVMs(),METHOD_INVOCATION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,isContinuous() == that.isContinuous(),INFIX_EXPRESSION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,that.isContinuous(),METHOD_INVOCATION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,getInvolvedNodes(),METHOD_INVOCATION, line no: 88, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,getInvolvedNodes,SIMPLE_NAME, line no: 88, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,Spread,SIMPLE_NAME, line no: 41, 1.0, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,toString,SIMPLE_NAME, line no: 63, 1.0, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,b,SIMPLE_NAME, line no: 64, 1.0, 0.9166666666666666, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,append,SIMPLE_NAME, line no: 64, 1.0, 0.9166666666666666, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,getInvolvedVMs(),METHOD_INVOCATION, line no: 64, 1.0, 0.9166666666666666, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,getInvolvedVMs,SIMPLE_NAME, line no: 64, 1.0, 0.9166666666666666, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,b.append(')').toString(),METHOD_INVOCATION, line no: 70, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,b.append(')'),METHOD_INVOCATION, line no: 70, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,')',CHARACTER_LITERAL, line no: 70, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,o,SIMPLE_NAME, line no: 74, 1.0, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,this,THIS_EXPRESSION, line no: 75, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,null,NULL_LITERAL, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,getClass(),METHOD_INVOCATION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,getClass,SIMPLE_NAME, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,o.getClass(),METHOD_INVOCATION, line no: 78, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,that,SIMPLE_NAME, line no: 82, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,(Spread)o,CAST_EXPRESSION, line no: 82, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,that.getInvolvedVMs(),METHOD_INVOCATION, line no: 83, 1.0, 1.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,getInvolvedNodes,SIMPLE_NAME, line no: 88, 1.0, 1.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,Objects,SIMPLE_NAME, line no: 26, 0.9166666666666666, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,StringBuilder,SIMPLE_NAME, line no: 64, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,new StringBuilder("spread(vms=").append(getInvolvedVMs()),METHOD_INVOCATION, line no: 64, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,new StringBuilder("spread(vms="),CLASS_INSTANCE_CREATION, line no: 64, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,"spread(vms=",STRING_LITERAL, line no: 64, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,!isContinuous(),PREFIX_EXPRESSION, line no: 65, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,hash,SIMPLE_NAME, line no: 88, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,Objects,SIMPLE_NAME, line no: 26, 0.9166666666666666, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,StringBuilder,SIMPLE_NAME, line no: 64, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,new StringBuilder("spread(vms=").append(getInvolvedVMs()),METHOD_INVOCATION, line no: 64, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,new StringBuilder("spread(vms="),CLASS_INSTANCE_CREATION, line no: 64, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,"spread(vms=",STRING_LITERAL, line no: 64, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,hash,SIMPLE_NAME, line no: 88, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,getInvolvedNodes(),METHOD_INVOCATION, line no: 88, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,StringBuilder,SIMPLE_NAME, line no: 64, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,new StringBuilder("spread(vms=").append(getInvolvedVMs()),METHOD_INVOCATION, line no: 64, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,new StringBuilder("spread(vms="),CLASS_INSTANCE_CREATION, line no: 64, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,"spread(vms=",STRING_LITERAL, line no: 64, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,!isContinuous(),PREFIX_EXPRESSION, line no: 65, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,getInvolvedNodes(),METHOD_INVOCATION, line no: 88, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,StringBuilder,SIMPLE_NAME, line no: 64, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,new StringBuilder("spread(vms=").append(getInvolvedVMs()),METHOD_INVOCATION, line no: 64, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,new StringBuilder("spread(vms="),CLASS_INSTANCE_CREATION, line no: 64, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,"spread(vms=",STRING_LITERAL, line no: 64, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,!isContinuous(),PREFIX_EXPRESSION, line no: 65, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,getInvolvedNodes(),METHOD_INVOCATION, line no: 88, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,Objects,SIMPLE_NAME, line no: 26, 0.9090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,StringBuilder,SIMPLE_NAME, line no: 64, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,new StringBuilder("spread(vms=").append(getInvolvedVMs()),METHOD_INVOCATION, line no: 64, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,new StringBuilder("spread(vms="),CLASS_INSTANCE_CREATION, line no: 64, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,"spread(vms=",STRING_LITERAL, line no: 64, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,!isContinuous(),PREFIX_EXPRESSION, line no: 65, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,hash,SIMPLE_NAME, line no: 88, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,Objects,SIMPLE_NAME, line no: 26, 0.9090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,StringBuilder,SIMPLE_NAME, line no: 64, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,new StringBuilder("spread(vms=").append(getInvolvedVMs()),METHOD_INVOCATION, line no: 64, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,new StringBuilder("spread(vms="),CLASS_INSTANCE_CREATION, line no: 64, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,"spread(vms=",STRING_LITERAL, line no: 64, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,!isContinuous(),PREFIX_EXPRESSION, line no: 65, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,hash,SIMPLE_NAME, line no: 88, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,StringBuilder,SIMPLE_NAME, line no: 64, 0.9, 0.9, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,new StringBuilder("spread(vms=").append(getInvolvedVMs()),METHOD_INVOCATION, line no: 64, 0.9, 0.9, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,new StringBuilder("spread(vms="),CLASS_INSTANCE_CREATION, line no: 64, 0.9, 0.9, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,"spread(vms=",STRING_LITERAL, line no: 64, 0.9, 0.9, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,!isContinuous(),PREFIX_EXPRESSION, line no: 65, 0.9, 0.9, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,Node,SIMPLE_NAME, line no: 20, 0.6363636363636364, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,Collections,SIMPLE_NAME, line no: 25, 0.6363636363636364, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,Collections.<Node>emptySet(),METHOD_INVOCATION, line no: 59, 0.6363636363636364, 0.6363636363636364, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,emptySet,SIMPLE_NAME, line no: 59, 0.6363636363636364, 0.6363636363636364, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,Node,SIMPLE_NAME, line no: 20, 0.6363636363636364, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,Collections,SIMPLE_NAME, line no: 25, 0.6363636363636364, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,Collections.<Node>emptySet(),METHOD_INVOCATION, line no: 59, 0.6363636363636364, 0.6363636363636364, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,emptySet,SIMPLE_NAME, line no: 59, 0.6363636363636364, 0.6363636363636364, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,Node,SIMPLE_NAME, line no: 20, 0.6, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,Collections,SIMPLE_NAME, line no: 25, 0.6, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,Collections.<Node>emptySet(),METHOD_INVOCATION, line no: 59, 0.6, 0.6, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,emptySet,SIMPLE_NAME, line no: 59, 0.6, 0.6, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,Node,SIMPLE_NAME, line no: 20, 0.5833333333333334, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,Collections,SIMPLE_NAME, line no: 25, 0.5833333333333334, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,Collections.<Node>emptySet(),METHOD_INVOCATION, line no: 59, 0.5833333333333334, 0.5833333333333334, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,emptySet,SIMPLE_NAME, line no: 59, 0.5833333333333334, 0.5833333333333334, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,Node,SIMPLE_NAME, line no: 20, 0.5833333333333334, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,Collections,SIMPLE_NAME, line no: 25, 0.5833333333333334, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,Collections.<Node>emptySet(),METHOD_INVOCATION, line no: 59, 0.5833333333333334, 0.5833333333333334, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,emptySet,SIMPLE_NAME, line no: 59, 0.5833333333333334, 0.5833333333333334, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,vms,SIMPLE_NAME, line no: 48, 0.5454545454545454, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,continuous,SIMPLE_NAME, line no: 58, 0.5454545454545454, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,vms,SIMPLE_NAME, line no: 48, 0.5454545454545454, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,continuous,SIMPLE_NAME, line no: 58, 0.5454545454545454, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,Node,SIMPLE_NAME, line no: 20, 0.5454545454545454, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,Collections,SIMPLE_NAME, line no: 25, 0.5454545454545454, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,Collections.<Node>emptySet(),METHOD_INVOCATION, line no: 59, 0.5454545454545454, 0.5454545454545454, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,emptySet,SIMPLE_NAME, line no: 59, 0.5454545454545454, 0.5454545454545454, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,Node,SIMPLE_NAME, line no: 20, 0.5454545454545454, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,Collections,SIMPLE_NAME, line no: 25, 0.5454545454545454, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,Collections.<Node>emptySet(),METHOD_INVOCATION, line no: 59, 0.5454545454545454, 0.5454545454545454, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,emptySet,SIMPLE_NAME, line no: 59, 0.5454545454545454, 0.5454545454545454, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,vms,SIMPLE_NAME, line no: 48, 0.5, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,continuous,SIMPLE_NAME, line no: 58, 0.5, 0.1, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,vms,SIMPLE_NAME, line no: 48, 0.5, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,continuous,SIMPLE_NAME, line no: 58, 0.5, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,vms,SIMPLE_NAME, line no: 48, 0.5, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,vms,SIMPLE_NAME, line no: 48, 0.45454545454545453, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,continuous,SIMPLE_NAME, line no: 58, 0.45454545454545453, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,vms,SIMPLE_NAME, line no: 48, 0.45454545454545453, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,SpreadChecker,SIMPLE_NAME, line no: 23, 0.4, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,b.append("  discrete"),METHOD_INVOCATION, line no: 66, 0.4, 0.4, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,"  discrete",STRING_LITERAL, line no: 66, 0.4, 0.4, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,b.append("  continuous"),METHOD_INVOCATION, line no: 68, 0.4, 0.4, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,"  continuous",STRING_LITERAL, line no: 68, 0.4, 0.4, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,SpreadChecker,SIMPLE_NAME, line no: 23, 0.36363636363636365, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,b.append("  discrete"),METHOD_INVOCATION, line no: 66, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,"  discrete",STRING_LITERAL, line no: 66, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,b.append("  continuous"),METHOD_INVOCATION, line no: 68, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,"  continuous",STRING_LITERAL, line no: 68, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,SpreadChecker,SIMPLE_NAME, line no: 23, 0.36363636363636365, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,b.append("  discrete"),METHOD_INVOCATION, line no: 66, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,"  discrete",STRING_LITERAL, line no: 66, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,b.append("  continuous"),METHOD_INVOCATION, line no: 68, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,"  continuous",STRING_LITERAL, line no: 68, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,SpreadChecker,SIMPLE_NAME, line no: 23, 0.36363636363636365, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,b.append("  discrete"),METHOD_INVOCATION, line no: 66, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,"  discrete",STRING_LITERAL, line no: 66, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,b.append("  continuous"),METHOD_INVOCATION, line no: 68, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,"  continuous",STRING_LITERAL, line no: 68, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,SpreadChecker,SIMPLE_NAME, line no: 23, 0.36363636363636365, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,b.append("  discrete"),METHOD_INVOCATION, line no: 66, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,"  discrete",STRING_LITERAL, line no: 66, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,b.append("  continuous"),METHOD_INVOCATION, line no: 68, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,"  continuous",STRING_LITERAL, line no: 68, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,SpreadChecker,SIMPLE_NAME, line no: 23, 0.3333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,b.append("  discrete"),METHOD_INVOCATION, line no: 66, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,"  discrete",STRING_LITERAL, line no: 66, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,b.append("  continuous"),METHOD_INVOCATION, line no: 68, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,"  continuous",STRING_LITERAL, line no: 68, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,SpreadChecker,SIMPLE_NAME, line no: 23, 0.3333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,b.append("  discrete"),METHOD_INVOCATION, line no: 66, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,"  discrete",STRING_LITERAL, line no: 66, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,b.append("  continuous"),METHOD_INVOCATION, line no: 68, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,"  continuous",STRING_LITERAL, line no: 68, 0.3333333333333333, 0.3333333333333333, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,new SpreadChecker(this),CLASS_INSTANCE_CREATION, line no: 93, 0.3, 0.3, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,new SpreadChecker(this),CLASS_INSTANCE_CREATION, line no: 93, 0.2727272727272727, 0.2727272727272727, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,new SpreadChecker(this),CLASS_INSTANCE_CREATION, line no: 93, 0.2727272727272727, 0.2727272727272727, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,new SpreadChecker(this),CLASS_INSTANCE_CREATION, line no: 93, 0.2727272727272727, 0.2727272727272727, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,new SpreadChecker(this),CLASS_INSTANCE_CREATION, line no: 93, 0.2727272727272727, 0.2727272727272727, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,new SpreadChecker(this),CLASS_INSTANCE_CREATION, line no: 93, 0.25, 0.25, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,new SpreadChecker(this),CLASS_INSTANCE_CREATION, line no: 93, 0.25, 0.25, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,true,BOOLEAN_LITERAL, line no: 49, 0.2, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,false,BOOLEAN_LITERAL, line no: 79, 0.2, 0.2, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,true,BOOLEAN_LITERAL, line no: 49, 0.18181818181818182, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,false,BOOLEAN_LITERAL, line no: 79, 0.18181818181818182, 0.18181818181818182, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,true,BOOLEAN_LITERAL, line no: 49, 0.18181818181818182, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,false,BOOLEAN_LITERAL, line no: 79, 0.18181818181818182, 0.18181818181818182, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,true,BOOLEAN_LITERAL, line no: 49, 0.18181818181818182, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,false,BOOLEAN_LITERAL, line no: 79, 0.18181818181818182, 0.18181818181818182, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,true,BOOLEAN_LITERAL, line no: 49, 0.16666666666666666, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,false,BOOLEAN_LITERAL, line no: 79, 0.16666666666666666, 0.16666666666666666, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,btrplace,SIMPLE_NAME, line no: 18, 0.1, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,model,SIMPLE_NAME, line no: 18, 0.1, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,constraint,SIMPLE_NAME, line no: 18, 0.1, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,VM,SIMPLE_NAME, line no: 21, 0.1, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,checker,SIMPLE_NAME, line no: 22, 0.1, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,SatConstraintChecker,SIMPLE_NAME, line no: 22, 0.1, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,java,SIMPLE_NAME, line no: 25, 0.1, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,util,SIMPLE_NAME, line no: 25, 0.1, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,Set,SIMPLE_NAME, line no: 27, 0.1, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,SatConstraint,SIMPLE_NAME, line no: 41, 0.1, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,Override,SIMPLE_NAME, line no: 62, 0.1, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,String,SIMPLE_NAME, line no: 63, 0.1, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,Object,SIMPLE_NAME, line no: 74, 0.1, 0.1, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,getChecker,SIMPLE_NAME, line no: 92, 0.1, 0.1, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,btrplace,SIMPLE_NAME, line no: 18, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,model,SIMPLE_NAME, line no: 18, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,constraint,SIMPLE_NAME, line no: 18, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,VM,SIMPLE_NAME, line no: 21, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,checker,SIMPLE_NAME, line no: 22, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,SatConstraintChecker,SIMPLE_NAME, line no: 22, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,java,SIMPLE_NAME, line no: 25, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,util,SIMPLE_NAME, line no: 25, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,Set,SIMPLE_NAME, line no: 27, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,SatConstraint,SIMPLE_NAME, line no: 41, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,Override,SIMPLE_NAME, line no: 62, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,String,SIMPLE_NAME, line no: 63, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,Object,SIMPLE_NAME, line no: 74, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,hashCode,SIMPLE_NAME, line no: 87, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,getChecker,SIMPLE_NAME, line no: 92, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,btrplace,SIMPLE_NAME, line no: 18, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,model,SIMPLE_NAME, line no: 18, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,constraint,SIMPLE_NAME, line no: 18, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,VM,SIMPLE_NAME, line no: 21, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,checker,SIMPLE_NAME, line no: 22, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,SatConstraintChecker,SIMPLE_NAME, line no: 22, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,java,SIMPLE_NAME, line no: 25, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,util,SIMPLE_NAME, line no: 25, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,Set,SIMPLE_NAME, line no: 27, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,SatConstraint,SIMPLE_NAME, line no: 41, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,Override,SIMPLE_NAME, line no: 62, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,String,SIMPLE_NAME, line no: 63, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,Object,SIMPLE_NAME, line no: 74, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,getChecker,SIMPLE_NAME, line no: 92, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,btrplace,SIMPLE_NAME, line no: 18, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,model,SIMPLE_NAME, line no: 18, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,constraint,SIMPLE_NAME, line no: 18, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,VM,SIMPLE_NAME, line no: 21, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,checker,SIMPLE_NAME, line no: 22, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,SatConstraintChecker,SIMPLE_NAME, line no: 22, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,java,SIMPLE_NAME, line no: 25, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,util,SIMPLE_NAME, line no: 25, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,Set,SIMPLE_NAME, line no: 27, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,SatConstraint,SIMPLE_NAME, line no: 41, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,Override,SIMPLE_NAME, line no: 62, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,String,SIMPLE_NAME, line no: 63, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,Object,SIMPLE_NAME, line no: 74, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,hashCode,SIMPLE_NAME, line no: 87, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,getChecker,SIMPLE_NAME, line no: 92, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,btrplace,SIMPLE_NAME, line no: 18, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,model,SIMPLE_NAME, line no: 18, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,constraint,SIMPLE_NAME, line no: 18, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,VM,SIMPLE_NAME, line no: 21, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,checker,SIMPLE_NAME, line no: 22, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,SatConstraintChecker,SIMPLE_NAME, line no: 22, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,java,SIMPLE_NAME, line no: 25, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,util,SIMPLE_NAME, line no: 25, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,Set,SIMPLE_NAME, line no: 27, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,SatConstraint,SIMPLE_NAME, line no: 41, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,Override,SIMPLE_NAME, line no: 62, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,String,SIMPLE_NAME, line no: 63, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,Object,SIMPLE_NAME, line no: 74, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,hashCode,SIMPLE_NAME, line no: 87, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,getChecker,SIMPLE_NAME, line no: 92, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,btrplace,SIMPLE_NAME, line no: 18, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,model,SIMPLE_NAME, line no: 18, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,constraint,SIMPLE_NAME, line no: 18, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,VM,SIMPLE_NAME, line no: 21, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,checker,SIMPLE_NAME, line no: 22, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,SatConstraintChecker,SIMPLE_NAME, line no: 22, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,java,SIMPLE_NAME, line no: 25, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,util,SIMPLE_NAME, line no: 25, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,Set,SIMPLE_NAME, line no: 27, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,SatConstraint,SIMPLE_NAME, line no: 41, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,Override,SIMPLE_NAME, line no: 62, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,String,SIMPLE_NAME, line no: 63, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,Object,SIMPLE_NAME, line no: 74, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,hashCode,SIMPLE_NAME, line no: 87, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,getChecker,SIMPLE_NAME, line no: 92, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,btrplace,SIMPLE_NAME, line no: 18, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,model,SIMPLE_NAME, line no: 18, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,constraint,SIMPLE_NAME, line no: 18, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,VM,SIMPLE_NAME, line no: 21, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,checker,SIMPLE_NAME, line no: 22, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,SatConstraintChecker,SIMPLE_NAME, line no: 22, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,java,SIMPLE_NAME, line no: 25, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,util,SIMPLE_NAME, line no: 25, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,Set,SIMPLE_NAME, line no: 27, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,SatConstraint,SIMPLE_NAME, line no: 41, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,Override,SIMPLE_NAME, line no: 62, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,String,SIMPLE_NAME, line no: 63, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,Object,SIMPLE_NAME, line no: 74, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,hashCode,SIMPLE_NAME, line no: 87, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,getChecker,SIMPLE_NAME, line no: 92, 0.08333333333333333, 0.08333333333333333, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,btrplace.model.constraint,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,btrplace.model,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,btrplace.model.Node,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,btrplace.model.VM,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,btrplace.model.constraint.checker.SatConstraintChecker,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,btrplace.model.constraint.checker,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,btrplace.model.constraint.checker.SpreadChecker,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,java.util.Collections,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,java.util,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,java.util.Objects,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,java.util.Set,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+Objects.hash(getInvolvedNodes() isContinuous()),METHOD_INVOCATION, line no: 88,@Override,MARKER_ANNOTATION, line no: 62, 0.0, 0.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,btrplace.model.constraint,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,btrplace.model,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,btrplace.model.Node,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,btrplace.model.VM,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,btrplace.model.constraint.checker.SatConstraintChecker,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,btrplace.model.constraint.checker,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,btrplace.model.constraint.checker.SpreadChecker,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,java.util.Collections,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,java.util,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,java.util.Set,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+Objects,SIMPLE_NAME, line no: 88,@Override,MARKER_ANNOTATION, line no: 62, 0.0, 0.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,btrplace.model.constraint,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,btrplace.model,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,btrplace.model.Node,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,btrplace.model.VM,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,btrplace.model.constraint.checker.SatConstraintChecker,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,btrplace.model.constraint.checker,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,btrplace.model.constraint.checker.SpreadChecker,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,java.util.Collections,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,java.util,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,java.util.Objects,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,java.util.Set,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+hash,SIMPLE_NAME, line no: 88,@Override,MARKER_ANNOTATION, line no: 62, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,btrplace.model.constraint,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,btrplace.model,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,btrplace.model.Node,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,btrplace.model.VM,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,btrplace.model.constraint.checker.SatConstraintChecker,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,btrplace.model.constraint.checker,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,btrplace.model.constraint.checker.SpreadChecker,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,java.util.Collections,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,java.util,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,java.util.Objects,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,java.util.Set,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes(),METHOD_INVOCATION, line no: 88,@Override,MARKER_ANNOTATION, line no: 62, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,btrplace.model.constraint,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,btrplace.model,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,btrplace.model.Node,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,btrplace.model.VM,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,btrplace.model.constraint.checker.SatConstraintChecker,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,btrplace.model.constraint.checker,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,btrplace.model.constraint.checker.SpreadChecker,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,java.util.Collections,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,java.util,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,java.util.Objects,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,java.util.Set,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+getInvolvedNodes,SIMPLE_NAME, line no: 88,@Override,MARKER_ANNOTATION, line no: 62, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,btrplace.model.constraint,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,btrplace.model,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,btrplace.model.Node,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,btrplace.model.VM,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,btrplace.model.constraint.checker.SatConstraintChecker,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,btrplace.model.constraint.checker,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,btrplace.model.constraint.checker.SpreadChecker,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,java.util.Collections,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,java.util,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,java.util.Objects,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,java.util.Set,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous(),METHOD_INVOCATION, line no: 88,@Override,MARKER_ANNOTATION, line no: 62, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,btrplace.model.constraint,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,btrplace.model,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,btrplace.model.Node,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,btrplace.model.VM,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,btrplace.model.constraint.checker.SatConstraintChecker,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,btrplace.model.constraint.checker,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,btrplace.model.constraint.checker.SpreadChecker,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,java.util.Collections,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,java.util,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,java.util.Objects,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,java.util.Set,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+isContinuous,SIMPLE_NAME, line no: 88,@Override,MARKER_ANNOTATION, line no: 62, 0.0, 0.0, 0.0, 0.0, 0.0

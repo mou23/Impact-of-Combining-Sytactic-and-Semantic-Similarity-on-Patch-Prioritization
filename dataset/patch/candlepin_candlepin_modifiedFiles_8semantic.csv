@@ -1,105 +1,848 @@
-!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,isEmpty,SIMPLE_NAME, line no: 135, 1.0, 0.35, 1.0, 0.40298507462686567
-!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,isEmpty,SIMPLE_NAME, line no: 135, 1.0, 0.3333333333333333, 1.0, 0.5346534653465347
-!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142, 1.0, 1.0, 1.0, 0.8712871287128713
-partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,isEmpty,SIMPLE_NAME, line no: 135, 1.0, 0.3181818181818182, 1.0, 0.55
-nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,isEmpty,SIMPLE_NAME, line no: 135, 1.0, 0.3333333333333333, 1.0, 0.5851063829787234
-isEmpty,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142, 0.9565217391304348, 0.9565217391304348, 1.0, 0.59
-partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142, 0.9545454545454546, 0.9545454545454546, 1.0, 0.8712871287128713
-isEmpty,SIMPLE_NAME, line no: 142,isCompliant,SIMPLE_NAME, line no: 134, 0.9545454545454546, 0.045454545454545456, 1.0, 0.8840579710144928
-isEmpty,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142, 0.9545454545454546, 0.9545454545454546, 1.0, 0.59
-isEmpty,SIMPLE_NAME, line no: 142,nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142, 0.9545454545454546, 0.9545454545454546, 1.0, 0.6276595744680851
-nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,isCompliant,SIMPLE_NAME, line no: 134, 0.9523809523809523, 0.047619047619047616, 1.0, 0.6276595744680851
-!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,isCompliant,SIMPLE_NAME, line no: 134, 0.95, 0.05, 1.0, 0.44776119402985076
-isEmpty,SIMPLE_NAME, line no: 142,isCompliant,SIMPLE_NAME, line no: 134, 0.9130434782608695, 0.043478260869565216, 1.0, 0.8840579710144928
-isEmpty,SIMPLE_NAME, line no: 142,!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142, 0.9130434782608695, 0.9130434782608695, 1.0, 0.5742574257425742
-isEmpty,SIMPLE_NAME, line no: 142,nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142, 0.9130434782608695, 0.9130434782608695, 1.0, 0.6276595744680851
-partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,isCompliant,SIMPLE_NAME, line no: 134, 0.9090909090909091, 0.045454545454545456, 1.0, 0.6
-isEmpty,SIMPLE_NAME, line no: 142,isCompliant(),METHOD_INVOCATION, line no: 139, 0.9090909090909091, 0.9090909090909091, 1.0, 0.6883116883116883
-isEmpty,SIMPLE_NAME, line no: 142,!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142, 0.9090909090909091, 0.9090909090909091, 1.0, 0.43283582089552236
-isEmpty,SIMPLE_NAME, line no: 142,!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142, 0.9090909090909091, 0.9090909090909091, 1.0, 0.5742574257425742
-!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,isCompliant,SIMPLE_NAME, line no: 134, 0.9047619047619048, 0.047619047619047616, 1.0, 0.5841584158415841
-isEmpty,SIMPLE_NAME, line no: 142,isCompliant(),METHOD_INVOCATION, line no: 139, 0.8695652173913043, 0.8695652173913043, 1.0, 0.6883116883116883
-isEmpty,SIMPLE_NAME, line no: 142,!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142, 0.8695652173913043, 0.8695652173913043, 1.0, 0.43283582089552236
-partiallyCompliantProducts,SIMPLE_NAME, line no: 142,compliantProducts,SIMPLE_NAME, line no: 39, 0.7391304347826086, 0.043478260869565216, 1.0, 0.8095238095238095
-partiallyCompliantProducts,SIMPLE_NAME, line no: 142,partialStacks,SIMPLE_NAME, line no: 41, 0.7391304347826086, 0.043478260869565216, 1.0, 0.7619047619047619
-isEmpty,SIMPLE_NAME, line no: 142,!partiallyCompliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 96, 0.7391304347826086, 0.7391304347826086, 1.0, 0.44642857142857145
-isEmpty,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 96, 0.7391304347826086, 0.7391304347826086, 1.0, 0.4594594594594595
-isEmpty,SIMPLE_NAME, line no: 142,containsKey,SIMPLE_NAME, line no: 96, 0.7391304347826086, 0.7391304347826086, 1.0, 0.8208955223880597
-isEmpty,SIMPLE_NAME, line no: 142,!compliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 103, 0.7391304347826086, 0.7391304347826086, 1.0, 0.4857142857142857
-isEmpty,SIMPLE_NAME, line no: 142,compliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 103, 0.7391304347826086, 0.7391304347826086, 1.0, 0.5
-isEmpty,SIMPLE_NAME, line no: 142,!partialStacks.containsKey(stackId),PREFIX_EXPRESSION, line no: 120, 0.7391304347826086, 0.7391304347826086, 1.0, 0.5353535353535354
-isEmpty,SIMPLE_NAME, line no: 142,partialStacks.containsKey(stackId),METHOD_INVOCATION, line no: 120, 0.7391304347826086, 0.7391304347826086, 1.0, 0.5510204081632653
-partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,containsKey,SIMPLE_NAME, line no: 96, 0.7272727272727273, 0.7272727272727273, 1.0, 0.52
-isEmpty,SIMPLE_NAME, line no: 142,!partiallyCompliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 96, 0.7272727272727273, 0.7272727272727273, 1.0, 0.44642857142857145
-isEmpty,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 96, 0.7272727272727273, 0.7272727272727273, 1.0, 0.4594594594594595
-isEmpty,SIMPLE_NAME, line no: 142,containsKey,SIMPLE_NAME, line no: 96, 0.7272727272727273, 0.7272727272727273, 1.0, 0.8208955223880597
-isEmpty,SIMPLE_NAME, line no: 142,!compliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 103, 0.7272727272727273, 0.7272727272727273, 1.0, 0.4857142857142857
-isEmpty,SIMPLE_NAME, line no: 142,compliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 103, 0.7272727272727273, 0.7272727272727273, 1.0, 0.5
-isEmpty,SIMPLE_NAME, line no: 142,!partialStacks.containsKey(stackId),PREFIX_EXPRESSION, line no: 120, 0.7272727272727273, 0.7272727272727273, 1.0, 0.5353535353535354
-isEmpty,SIMPLE_NAME, line no: 142,partialStacks.containsKey(stackId),METHOD_INVOCATION, line no: 120, 0.7272727272727273, 0.7272727272727273, 1.0, 0.5510204081632653
-!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,containsKey,SIMPLE_NAME, line no: 96, 0.7142857142857143, 0.7142857142857143, 1.0, 0.504950495049505
-nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,containsKey,SIMPLE_NAME, line no: 96, 0.7142857142857143, 0.7142857142857143, 1.0, 0.5531914893617021
-!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,containsKey,SIMPLE_NAME, line no: 96, 0.7, 0.7, 1.0, 0.3880597014925373
-isEmpty,SIMPLE_NAME, line no: 142,add,SIMPLE_NAME, line no: 81, 0.6818181818181818, 0.2727272727272727, 1.0, 0.8307692307692308
-isEmpty,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 99, 0.6818181818181818, 0.6818181818181818, 1.0, 0.4166666666666667
-isEmpty,SIMPLE_NAME, line no: 142,compliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 106, 0.6818181818181818, 0.6818181818181818, 1.0, 0.46017699115044247
-isEmpty,SIMPLE_NAME, line no: 142,partialStacks.get(stackId).add(entitlement),METHOD_INVOCATION, line no: 123, 0.6818181818181818, 0.6818181818181818, 1.0, 0.5046728971962616
-nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,add,SIMPLE_NAME, line no: 81, 0.6666666666666666, 0.2857142857142857, 1.0, 0.5319148936170213
-isEmpty,SIMPLE_NAME, line no: 142,add,SIMPLE_NAME, line no: 81, 0.6521739130434783, 0.2608695652173913, 1.0, 0.8307692307692308
-isEmpty,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 99, 0.6521739130434783, 0.6521739130434783, 1.0, 0.4166666666666667
-isEmpty,SIMPLE_NAME, line no: 142,compliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 106, 0.6521739130434783, 0.6521739130434783, 1.0, 0.46017699115044247
-isEmpty,SIMPLE_NAME, line no: 142,partialStacks.get(stackId).add(entitlement),METHOD_INVOCATION, line no: 123, 0.6521739130434783, 0.6521739130434783, 1.0, 0.5046728971962616
-!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,add,SIMPLE_NAME, line no: 81, 0.65, 0.3, 1.0, 0.373134328358209
-partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,add,SIMPLE_NAME, line no: 81, 0.6363636363636364, 0.2727272727272727, 1.0, 0.5
-!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,add,SIMPLE_NAME, line no: 81, 0.6190476190476191, 0.2857142857142857, 1.0, 0.48514851485148514
-!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142, 0.5, 1.0, 0.5, 0.7313432835820896
-!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142, 0.5, 1.0, 0.5, 0.6567164179104478
-!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142, 0.5, 1.0, 0.5, 0.6119402985074627
-!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142, 0.47619047619047616, 0.9523809523809523, 0.5, 0.7313432835820896
-nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142, 0.47619047619047616, 0.9523809523809523, 0.5, 0.6119402985074627
-partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142, 0.45454545454545453, 0.9090909090909091, 0.5, 0.6567164179104478
-nonCompliantProducts,SIMPLE_NAME, line no: 142,this.nonCompliantProducts=new HashSet<String>(),ASSIGNMENT, line no: 45, 0.4090909090909091, 0.4090909090909091, 1.0, 0.6666666666666666
-nonCompliantProducts,SIMPLE_NAME, line no: 142,this.nonCompliantProducts,FIELD_ACCESS, line no: 45, 0.4090909090909091, 0.4090909090909091, 1.0, 0.8292682926829268
-partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this.compliantProducts=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 46, 0.391304347826087, 0.391304347826087, 1.0, 0.5689655172413793
-partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this.compliantProducts,FIELD_ACCESS, line no: 46, 0.391304347826087, 0.391304347826087, 1.0, 0.7857142857142857
-partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this.partiallyCompliantProducts=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 47, 0.391304347826087, 0.391304347826087, 1.0, 0.592
-partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this.partiallyCompliantProducts,FIELD_ACCESS, line no: 47, 0.391304347826087, 0.391304347826087, 1.0, 0.8409090909090909
-partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this.partialStacks=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 48, 0.391304347826087, 0.391304347826087, 1.0, 0.5357142857142857
-partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this.partialStacks,FIELD_ACCESS, line no: 48, 0.391304347826087, 0.391304347826087, 1.0, 0.6904761904761905
-!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,this.partiallyCompliantProducts=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 47, 0.38095238095238093, 0.38095238095238093, 1.0, 0.632
-!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,this.partiallyCompliantProducts,FIELD_ACCESS, line no: 47, 0.38095238095238093, 0.38095238095238093, 1.0, 0.7425742574257426
-nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.nonCompliantProducts=new HashSet<String>(),ASSIGNMENT, line no: 45, 0.38095238095238093, 0.38095238095238093, 1.0, 0.696078431372549
-nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.nonCompliantProducts,FIELD_ACCESS, line no: 45, 0.38095238095238093, 0.38095238095238093, 1.0, 0.7127659574468085
-partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.partiallyCompliantProducts=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 47, 0.36363636363636365, 0.36363636363636365, 1.0, 0.632
-partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.partiallyCompliantProducts,FIELD_ACCESS, line no: 47, 0.36363636363636365, 0.36363636363636365, 1.0, 0.73
-partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,!partiallyCompliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 96, 0.36363636363636365, 0.7272727272727273, 0.5, 0.6964285714285714
-partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partiallyCompliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 96, 0.36363636363636365, 0.7272727272727273, 0.5, 0.8108108108108109
-!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,!partiallyCompliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 96, 0.35714285714285715, 0.7142857142857143, 0.5, 0.8125
-!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,partiallyCompliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 96, 0.35714285714285715, 0.7142857142857143, 0.5, 0.7027027027027027
-partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partiallyCompliantProducts.get(productId),METHOD_INVOCATION, line no: 99, 0.3181818181818182, 0.6363636363636364, 0.5, 0.8543689320388349
-!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,partiallyCompliantProducts.get(productId),METHOD_INVOCATION, line no: 99, 0.30952380952380953, 0.6190476190476191, 0.5, 0.7378640776699029
-isEmpty,SIMPLE_NAME, line no: 142,reasons.isEmpty(),METHOD_INVOCATION, line no: 135, 0.2727272727272727, 0.2727272727272727, 1.0, 0.6790123456790124
-isEmpty,SIMPLE_NAME, line no: 142,reasons.isEmpty(),METHOD_INVOCATION, line no: 135, 0.2608695652173913, 0.2608695652173913, 1.0, 0.6790123456790124
-!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,!partiallyCompliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 96, 0.2333333333333333, 0.7, 0.3333333333333333, 0.7089552238805971
-!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,partiallyCompliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 96, 0.2333333333333333, 0.7, 0.3333333333333333, 0.6343283582089553
-isEmpty,SIMPLE_NAME, line no: 142,this.nonCompliantProducts.add(productId),METHOD_INVOCATION, line no: 81, 0.22727272727272727, 0.22727272727272727, 1.0, 0.5196078431372549
-isEmpty,SIMPLE_NAME, line no: 142,this.nonCompliantProducts.add(productId),METHOD_INVOCATION, line no: 81, 0.21739130434782608, 0.21739130434782608, 1.0, 0.5196078431372549
-!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,partiallyCompliantProducts.get(productId),METHOD_INVOCATION, line no: 99, 0.21666666666666667, 0.65, 0.3333333333333333, 0.6194029850746269
-partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partiallyCompliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 99, 0.2121212121212121, 0.6363636363636364, 0.3333333333333333, 0.7416666666666667
-!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,partiallyCompliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 99, 0.20634920634920634, 0.6190476190476191, 0.3333333333333333, 0.6416666666666667
-!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,this.nonCompliantProducts=new HashSet<String>(),ASSIGNMENT, line no: 45, 0.2, 0.4, 0.5, 0.5597014925373134
-!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,this.nonCompliantProducts,FIELD_ACCESS, line no: 45, 0.2, 0.4, 0.5, 0.5447761194029851
-!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,this.partiallyCompliantProducts=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 47, 0.2, 0.4, 0.5, 0.6343283582089553
-!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,this.partiallyCompliantProducts,FIELD_ACCESS, line no: 47, 0.2, 0.4, 0.5, 0.5597014925373134
-!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,partiallyCompliantProducts.put(productId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 97, 0.19047619047619047, 0.38095238095238093, 0.5, 0.6076923076923076
-partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partiallyCompliantProducts.put(productId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 97, 0.18181818181818182, 0.36363636363636365, 0.5, 0.7
-!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,partiallyCompliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 99, 0.1625, 0.65, 0.25, 0.6492537313432836
-!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,partiallyCompliantProducts.put(productId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 97, 0.13333333333333333, 0.4, 0.3333333333333333, 0.664179104477612
-nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.nonCompliantProducts.add(productId),METHOD_INVOCATION, line no: 81, 0.11904761904761904, 0.23809523809523808, 0.5, 0.8235294117647058
-!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,this.nonCompliantProducts.add(productId),METHOD_INVOCATION, line no: 81, 0.08333333333333333, 0.25, 0.3333333333333333, 0.5746268656716418
-nonCompliantProducts,SIMPLE_NAME, line no: 142,Set,SIMPLE_NAME, line no: 38, 0.045454545454545456, 0.045454545454545456, 1.0, 0.6794871794871795
-nonCompliantProducts,SIMPLE_NAME, line no: 142,getNonCompliantProducts,SIMPLE_NAME, line no: 76, 0.045454545454545456, 0.045454545454545456, 1.0, 0.8987341772151899
-partiallyCompliantProducts,SIMPLE_NAME, line no: 142,Map,SIMPLE_NAME, line no: 39, 0.043478260869565216, 0.043478260869565216, 1.0, 0.6428571428571429
-partiallyCompliantProducts,SIMPLE_NAME, line no: 142,getCompliantProducts,SIMPLE_NAME, line no: 60, 0.043478260869565216, 0.043478260869565216, 1.0, 0.8333333333333334
-partiallyCompliantProducts,SIMPLE_NAME, line no: 142,getPartiallyCompliantProducts,SIMPLE_NAME, line no: 91, 0.043478260869565216, 0.043478260869565216, 1.0, 0.9294117647058824
-partiallyCompliantProducts,SIMPLE_NAME, line no: 142,getPartialStacks,SIMPLE_NAME, line no: 115, 0.043478260869565216, 0.043478260869565216, 1.0, 0.75
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,isEmpty,SIMPLE_NAME, line no: 135, 2.0, 0.35, 1.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,isEmpty,SIMPLE_NAME, line no: 135, 2.0, 0.3333333333333333, 1.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142, 2.0, 1.0, 1.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,isEmpty,SIMPLE_NAME, line no: 135, 2.0, 0.3181818181818182, 1.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,isEmpty,SIMPLE_NAME, line no: 135, 2.0, 0.3333333333333333, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142, 1.9565217391304348, 0.9565217391304348, 1.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142, 1.9545454545454546, 0.9545454545454546, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,isCompliant,SIMPLE_NAME, line no: 134, 1.9545454545454546, 0.045454545454545456, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142, 1.9545454545454546, 0.9545454545454546, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142, 1.9545454545454546, 0.9545454545454546, 1.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,isCompliant,SIMPLE_NAME, line no: 134, 1.9523809523809523, 0.047619047619047616, 1.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,isCompliant,SIMPLE_NAME, line no: 134, 1.95, 0.05, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,isCompliant,SIMPLE_NAME, line no: 134, 1.9130434782608696, 0.043478260869565216, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142, 1.9130434782608696, 0.9130434782608695, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142, 1.9130434782608696, 0.9130434782608695, 1.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,isCompliant,SIMPLE_NAME, line no: 134, 1.9090909090909092, 0.045454545454545456, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,isCompliant(),METHOD_INVOCATION, line no: 139, 1.9090909090909092, 0.9090909090909091, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142, 1.9090909090909092, 0.9090909090909091, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142, 1.9090909090909092, 0.9090909090909091, 1.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,isCompliant,SIMPLE_NAME, line no: 134, 1.9047619047619047, 0.047619047619047616, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,isCompliant(),METHOD_INVOCATION, line no: 139, 1.8695652173913042, 0.8695652173913043, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142, 1.8695652173913042, 0.8695652173913043, 1.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,compliantProducts,SIMPLE_NAME, line no: 39, 1.7391304347826086, 0.043478260869565216, 1.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,partialStacks,SIMPLE_NAME, line no: 41, 1.7391304347826086, 0.043478260869565216, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,!partiallyCompliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 96, 1.7391304347826086, 0.7391304347826086, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 96, 1.7391304347826086, 0.7391304347826086, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,containsKey,SIMPLE_NAME, line no: 96, 1.7391304347826086, 0.7391304347826086, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,!compliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 103, 1.7391304347826086, 0.7391304347826086, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,compliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 103, 1.7391304347826086, 0.7391304347826086, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,!partialStacks.containsKey(stackId),PREFIX_EXPRESSION, line no: 120, 1.7391304347826086, 0.7391304347826086, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,partialStacks.containsKey(stackId),METHOD_INVOCATION, line no: 120, 1.7391304347826086, 0.7391304347826086, 1.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,containsKey,SIMPLE_NAME, line no: 96, 1.7272727272727273, 0.7272727272727273, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,!partiallyCompliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 96, 1.7272727272727273, 0.7272727272727273, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 96, 1.7272727272727273, 0.7272727272727273, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,containsKey,SIMPLE_NAME, line no: 96, 1.7272727272727273, 0.7272727272727273, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,!compliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 103, 1.7272727272727273, 0.7272727272727273, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,compliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 103, 1.7272727272727273, 0.7272727272727273, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,!partialStacks.containsKey(stackId),PREFIX_EXPRESSION, line no: 120, 1.7272727272727273, 0.7272727272727273, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,partialStacks.containsKey(stackId),METHOD_INVOCATION, line no: 120, 1.7272727272727273, 0.7272727272727273, 1.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,containsKey,SIMPLE_NAME, line no: 96, 1.7142857142857144, 0.7142857142857143, 1.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,containsKey,SIMPLE_NAME, line no: 96, 1.7142857142857144, 0.7142857142857143, 1.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,containsKey,SIMPLE_NAME, line no: 96, 1.7, 0.7, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,add,SIMPLE_NAME, line no: 81, 1.6818181818181817, 0.2727272727272727, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 99, 1.6818181818181817, 0.6818181818181818, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,compliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 106, 1.6818181818181817, 0.6818181818181818, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,partialStacks.get(stackId).add(entitlement),METHOD_INVOCATION, line no: 123, 1.6818181818181817, 0.6818181818181818, 1.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,add,SIMPLE_NAME, line no: 81, 1.6666666666666665, 0.2857142857142857, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,add,SIMPLE_NAME, line no: 81, 1.6521739130434783, 0.2608695652173913, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 99, 1.6521739130434783, 0.6521739130434783, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,compliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 106, 1.6521739130434783, 0.6521739130434783, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,partialStacks.get(stackId).add(entitlement),METHOD_INVOCATION, line no: 123, 1.6521739130434783, 0.6521739130434783, 1.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,add,SIMPLE_NAME, line no: 81, 1.65, 0.3, 1.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,add,SIMPLE_NAME, line no: 81, 1.6363636363636362, 0.2727272727272727, 1.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,add,SIMPLE_NAME, line no: 81, 1.619047619047619, 0.2857142857142857, 1.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142, 1.5, 1.0, 0.5, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142, 1.5, 1.0, 0.5, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142, 1.5, 1.0, 0.5, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142, 1.4523809523809523, 0.9523809523809523, 0.5, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142, 1.4523809523809523, 0.9523809523809523, 0.5, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142, 1.4090909090909092, 0.9090909090909091, 0.5, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,this.nonCompliantProducts=new HashSet<String>(),ASSIGNMENT, line no: 45, 1.4090909090909092, 0.4090909090909091, 1.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,this.nonCompliantProducts,FIELD_ACCESS, line no: 45, 1.4090909090909092, 0.4090909090909091, 1.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this.compliantProducts=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 46, 1.391304347826087, 0.391304347826087, 1.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this.compliantProducts,FIELD_ACCESS, line no: 46, 1.391304347826087, 0.391304347826087, 1.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this.partiallyCompliantProducts=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 47, 1.391304347826087, 0.391304347826087, 1.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this.partiallyCompliantProducts,FIELD_ACCESS, line no: 47, 1.391304347826087, 0.391304347826087, 1.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this.partialStacks=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 48, 1.391304347826087, 0.391304347826087, 1.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this.partialStacks,FIELD_ACCESS, line no: 48, 1.391304347826087, 0.391304347826087, 1.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,this.partiallyCompliantProducts=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 47, 1.380952380952381, 0.38095238095238093, 1.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,this.partiallyCompliantProducts,FIELD_ACCESS, line no: 47, 1.380952380952381, 0.38095238095238093, 1.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.nonCompliantProducts=new HashSet<String>(),ASSIGNMENT, line no: 45, 1.380952380952381, 0.38095238095238093, 1.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.nonCompliantProducts,FIELD_ACCESS, line no: 45, 1.380952380952381, 0.38095238095238093, 1.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.partiallyCompliantProducts=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 47, 1.3636363636363638, 0.36363636363636365, 1.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.partiallyCompliantProducts,FIELD_ACCESS, line no: 47, 1.3636363636363638, 0.36363636363636365, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,reasons.isEmpty(),METHOD_INVOCATION, line no: 135, 1.2727272727272727, 0.2727272727272727, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,reasons.isEmpty(),METHOD_INVOCATION, line no: 135, 1.2608695652173914, 0.2608695652173913, 1.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,!partiallyCompliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 96, 1.2272727272727273, 0.7272727272727273, 0.5, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partiallyCompliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 96, 1.2272727272727273, 0.7272727272727273, 0.5, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.nonCompliantProducts.add(productId),METHOD_INVOCATION, line no: 81, 1.2272727272727273, 0.22727272727272727, 1.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.nonCompliantProducts.add(productId),METHOD_INVOCATION, line no: 81, 1.2173913043478262, 0.21739130434782608, 1.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,!partiallyCompliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 96, 1.2142857142857144, 0.7142857142857143, 0.5, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,partiallyCompliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 96, 1.2142857142857144, 0.7142857142857143, 0.5, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partiallyCompliantProducts.get(productId),METHOD_INVOCATION, line no: 99, 1.1363636363636362, 0.6363636363636364, 0.5, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,partiallyCompliantProducts.get(productId),METHOD_INVOCATION, line no: 99, 1.119047619047619, 0.6190476190476191, 0.5, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,Set,SIMPLE_NAME, line no: 21, 1.0454545454545454, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,getNonCompliantProducts,SIMPLE_NAME, line no: 76, 1.0454545454545454, 0.045454545454545456, 1.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,Map,SIMPLE_NAME, line no: 20, 1.0434782608695652, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,getCompliantProducts,SIMPLE_NAME, line no: 60, 1.0434782608695652, 0.043478260869565216, 1.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,getPartiallyCompliantProducts,SIMPLE_NAME, line no: 91, 1.0434782608695652, 0.043478260869565216, 1.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,getPartialStacks,SIMPLE_NAME, line no: 115, 1.0434782608695652, 0.043478260869565216, 1.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,!partiallyCompliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 96, 1.0333333333333332, 0.7, 0.3333333333333333, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,partiallyCompliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 96, 1.0333333333333332, 0.7, 0.3333333333333333, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,nonCompliantProducts,SIMPLE_NAME, line no: 38, 1.0, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,partiallyCompliantProducts,SIMPLE_NAME, line no: 40, 1.0, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,partiallyCompliantProducts,SIMPLE_NAME, line no: 40, 1.0, 0.047619047619047616, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partiallyCompliantProducts,SIMPLE_NAME, line no: 40, 1.0, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,isEmpty,SIMPLE_NAME, line no: 135, 1.0, 0.30434782608695654, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,partiallyCompliantProducts,SIMPLE_NAME, line no: 40, 1.0, 0.043478260869565216, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,nonCompliantProducts,SIMPLE_NAME, line no: 38, 1.0, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partiallyCompliantProducts,SIMPLE_NAME, line no: 40, 1.0, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142, 1.0, 1.0, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,partiallyCompliantProducts,SIMPLE_NAME, line no: 40, 1.0, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,isEmpty,SIMPLE_NAME, line no: 135, 1.0, 0.3181818181818182, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,nonCompliantProducts,SIMPLE_NAME, line no: 38, 1.0, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,partiallyCompliantProducts,SIMPLE_NAME, line no: 40, 1.0, 0.045454545454545456, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,partiallyCompliantProducts.get(productId),METHOD_INVOCATION, line no: 99, 0.9833333333333334, 0.65, 0.3333333333333333, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partiallyCompliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 99, 0.9696969696969697, 0.6363636363636364, 0.3333333333333333, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,nonCompliantProducts,SIMPLE_NAME, line no: 38, 0.9565217391304348, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142, 0.9565217391304348, 0.9565217391304348, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,nonCompliantProducts,SIMPLE_NAME, line no: 38, 0.9565217391304348, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,nonCompliantProducts,SIMPLE_NAME, line no: 38, 0.9545454545454546, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142, 0.9545454545454546, 0.9545454545454546, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,isCompliant,SIMPLE_NAME, line no: 134, 0.9545454545454546, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142, 0.9545454545454546, 0.9545454545454546, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142, 0.9545454545454546, 0.9545454545454546, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,nonCompliantProducts,SIMPLE_NAME, line no: 38, 0.9523809523809523, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,partiallyCompliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 99, 0.9523809523809523, 0.6190476190476191, 0.3333333333333333, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142, 0.9523809523809523, 0.9523809523809523, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,isCompliant(),METHOD_INVOCATION, line no: 139, 0.9523809523809523, 0.9523809523809523, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142, 0.9523809523809523, 0.9523809523809523, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,isCompliant(),METHOD_INVOCATION, line no: 139, 0.95, 0.95, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,isCompliant,SIMPLE_NAME, line no: 134, 0.9130434782608695, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142, 0.9130434782608695, 0.9130434782608695, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142, 0.9130434782608695, 0.9130434782608695, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,isCompliant(),METHOD_INVOCATION, line no: 139, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,isCompliant(),METHOD_INVOCATION, line no: 139, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142, 0.9090909090909091, 0.9090909090909091, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,isCompliant(),METHOD_INVOCATION, line no: 139, 0.9047619047619048, 0.9047619047619048, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,RED,SIMPLE_NAME, line no: 34, 0.9, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,this.nonCompliantProducts=new HashSet<String>(),ASSIGNMENT, line no: 45, 0.9, 0.4, 0.5, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,this.nonCompliantProducts,FIELD_ACCESS, line no: 45, 0.9, 0.4, 0.5, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,this.partiallyCompliantProducts=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 47, 0.9, 0.4, 0.5, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,this.partiallyCompliantProducts,FIELD_ACCESS, line no: 47, 0.9, 0.4, 0.5, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,partiallyCompliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 99, 0.9, 0.65, 0.25, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,partiallyCompliantProducts.put(productId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 97, 0.8809523809523809, 0.38095238095238093, 0.5, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,isCompliant(),METHOD_INVOCATION, line no: 139, 0.8695652173913043, 0.8695652173913043, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142, 0.8695652173913043, 0.8695652173913043, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partiallyCompliantProducts.put(productId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 97, 0.8636363636363636, 0.36363636363636365, 0.5, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,RED,SIMPLE_NAME, line no: 34, 0.8636363636363636, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,RED,SIMPLE_NAME, line no: 34, 0.8636363636363636, 0.045454545454545456, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,RED,SIMPLE_NAME, line no: 34, 0.8571428571428571, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,RED,SIMPLE_NAME, line no: 34, 0.8571428571428571, 0.047619047619047616, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,RED,SIMPLE_NAME, line no: 34, 0.8260869565217391, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,RED,SIMPLE_NAME, line no: 34, 0.8260869565217391, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,RED,SIMPLE_NAME, line no: 34, 0.8181818181818182, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,productId,SIMPLE_NAME, line no: 80, 0.7391304347826086, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,!partiallyCompliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 96, 0.7391304347826086, 0.7391304347826086, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 96, 0.7391304347826086, 0.7391304347826086, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,containsKey,SIMPLE_NAME, line no: 96, 0.7391304347826086, 0.7391304347826086, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,!compliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 103, 0.7391304347826086, 0.7391304347826086, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,compliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 103, 0.7391304347826086, 0.7391304347826086, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,stackId,SIMPLE_NAME, line no: 119, 0.7391304347826086, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,!partialStacks.containsKey(stackId),PREFIX_EXPRESSION, line no: 120, 0.7391304347826086, 0.7391304347826086, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,partialStacks.containsKey(stackId),METHOD_INVOCATION, line no: 120, 0.7391304347826086, 0.7391304347826086, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,compliantProducts,SIMPLE_NAME, line no: 39, 0.7391304347826086, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,partialStacks,SIMPLE_NAME, line no: 41, 0.7391304347826086, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,productId,SIMPLE_NAME, line no: 80, 0.7391304347826086, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,stackId,SIMPLE_NAME, line no: 119, 0.7391304347826086, 0.043478260869565216, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.nonCompliantProducts.add(productId),METHOD_INVOCATION, line no: 81, 0.7380952380952381, 0.23809523809523808, 0.5, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,partiallyCompliantProducts.put(productId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 97, 0.7333333333333334, 0.4, 0.3333333333333333, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,compliantProducts,SIMPLE_NAME, line no: 39, 0.7272727272727273, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partialStacks,SIMPLE_NAME, line no: 41, 0.7272727272727273, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,productId,SIMPLE_NAME, line no: 80, 0.7272727272727273, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,!compliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 103, 0.7272727272727273, 0.7272727272727273, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,compliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 103, 0.7272727272727273, 0.7272727272727273, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,stackId,SIMPLE_NAME, line no: 119, 0.7272727272727273, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,!partialStacks.containsKey(stackId),PREFIX_EXPRESSION, line no: 120, 0.7272727272727273, 0.7272727272727273, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partialStacks.containsKey(stackId),METHOD_INVOCATION, line no: 120, 0.7272727272727273, 0.7272727272727273, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,compliantProducts,SIMPLE_NAME, line no: 39, 0.7272727272727273, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,partialStacks,SIMPLE_NAME, line no: 41, 0.7272727272727273, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,productId,SIMPLE_NAME, line no: 80, 0.7272727272727273, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,!partiallyCompliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 96, 0.7272727272727273, 0.7272727272727273, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 96, 0.7272727272727273, 0.7272727272727273, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,containsKey,SIMPLE_NAME, line no: 96, 0.7272727272727273, 0.7272727272727273, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,!compliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 103, 0.7272727272727273, 0.7272727272727273, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,compliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 103, 0.7272727272727273, 0.7272727272727273, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,stackId,SIMPLE_NAME, line no: 119, 0.7272727272727273, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,!partialStacks.containsKey(stackId),PREFIX_EXPRESSION, line no: 120, 0.7272727272727273, 0.7272727272727273, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,partialStacks.containsKey(stackId),METHOD_INVOCATION, line no: 120, 0.7272727272727273, 0.7272727272727273, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,compliantProducts,SIMPLE_NAME, line no: 39, 0.7272727272727273, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,partialStacks,SIMPLE_NAME, line no: 41, 0.7272727272727273, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,productId,SIMPLE_NAME, line no: 80, 0.7272727272727273, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,stackId,SIMPLE_NAME, line no: 119, 0.7272727272727273, 0.045454545454545456, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,compliantProducts,SIMPLE_NAME, line no: 39, 0.7142857142857143, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,partialStacks,SIMPLE_NAME, line no: 41, 0.7142857142857143, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,productId,SIMPLE_NAME, line no: 80, 0.7142857142857143, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,!compliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 103, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,compliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 103, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,stackId,SIMPLE_NAME, line no: 119, 0.7142857142857143, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,!partialStacks.containsKey(stackId),PREFIX_EXPRESSION, line no: 120, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,partialStacks.containsKey(stackId),METHOD_INVOCATION, line no: 120, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,compliantProducts,SIMPLE_NAME, line no: 39, 0.7142857142857143, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partialStacks,SIMPLE_NAME, line no: 41, 0.7142857142857143, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,productId,SIMPLE_NAME, line no: 80, 0.7142857142857143, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,!partiallyCompliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 96, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partiallyCompliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 96, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,!compliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 103, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,compliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 103, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,stackId,SIMPLE_NAME, line no: 119, 0.7142857142857143, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,!partialStacks.containsKey(stackId),PREFIX_EXPRESSION, line no: 120, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partialStacks.containsKey(stackId),METHOD_INVOCATION, line no: 120, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,compliantProducts,SIMPLE_NAME, line no: 39, 0.7, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,partialStacks,SIMPLE_NAME, line no: 41, 0.7, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,productId,SIMPLE_NAME, line no: 80, 0.7, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,!compliantProducts.containsKey(productId),PREFIX_EXPRESSION, line no: 103, 0.7, 0.7, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,compliantProducts.containsKey(productId),METHOD_INVOCATION, line no: 103, 0.7, 0.7, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,stackId,SIMPLE_NAME, line no: 119, 0.7, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,!partialStacks.containsKey(stackId),PREFIX_EXPRESSION, line no: 120, 0.7, 0.7, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,partialStacks.containsKey(stackId),METHOD_INVOCATION, line no: 120, 0.7, 0.7, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,add,SIMPLE_NAME, line no: 81, 0.6818181818181818, 0.2727272727272727, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,entitlement,SIMPLE_NAME, line no: 95, 0.6818181818181818, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 99, 0.6818181818181818, 0.6818181818181818, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.get(productId),METHOD_INVOCATION, line no: 99, 0.6818181818181818, 0.6818181818181818, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,get,SIMPLE_NAME, line no: 99, 0.6818181818181818, 0.6818181818181818, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,compliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 106, 0.6818181818181818, 0.6818181818181818, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,compliantProducts.get(productId),METHOD_INVOCATION, line no: 106, 0.6818181818181818, 0.6818181818181818, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,partialStacks.get(stackId).add(entitlement),METHOD_INVOCATION, line no: 123, 0.6818181818181818, 0.6818181818181818, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,partialStacks.get(stackId),METHOD_INVOCATION, line no: 123, 0.6818181818181818, 0.6818181818181818, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,entitlement,SIMPLE_NAME, line no: 95, 0.6818181818181818, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.get(productId),METHOD_INVOCATION, line no: 99, 0.6818181818181818, 0.6818181818181818, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,get,SIMPLE_NAME, line no: 99, 0.6818181818181818, 0.6818181818181818, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,compliantProducts.get(productId),METHOD_INVOCATION, line no: 106, 0.6818181818181818, 0.6818181818181818, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,partialStacks.get(stackId),METHOD_INVOCATION, line no: 123, 0.6818181818181818, 0.6818181818181818, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,entitlement,SIMPLE_NAME, line no: 95, 0.6666666666666666, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partiallyCompliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 99, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partiallyCompliantProducts.get(productId),METHOD_INVOCATION, line no: 99, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,get,SIMPLE_NAME, line no: 99, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,compliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 106, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,compliantProducts.get(productId),METHOD_INVOCATION, line no: 106, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partialStacks.get(stackId).add(entitlement),METHOD_INVOCATION, line no: 123, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partialStacks.get(stackId),METHOD_INVOCATION, line no: 123, 0.6666666666666666, 0.6666666666666666, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,add,SIMPLE_NAME, line no: 81, 0.6521739130434783, 0.2608695652173913, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,entitlement,SIMPLE_NAME, line no: 95, 0.6521739130434783, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 99, 0.6521739130434783, 0.6521739130434783, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.get(productId),METHOD_INVOCATION, line no: 99, 0.6521739130434783, 0.6521739130434783, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,get,SIMPLE_NAME, line no: 99, 0.6521739130434783, 0.6521739130434783, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,compliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 106, 0.6521739130434783, 0.6521739130434783, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,compliantProducts.get(productId),METHOD_INVOCATION, line no: 106, 0.6521739130434783, 0.6521739130434783, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,partialStacks.get(stackId).add(entitlement),METHOD_INVOCATION, line no: 123, 0.6521739130434783, 0.6521739130434783, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,partialStacks.get(stackId),METHOD_INVOCATION, line no: 123, 0.6521739130434783, 0.6521739130434783, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,entitlement,SIMPLE_NAME, line no: 95, 0.6521739130434783, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.get(productId),METHOD_INVOCATION, line no: 99, 0.6521739130434783, 0.6521739130434783, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,get,SIMPLE_NAME, line no: 99, 0.6521739130434783, 0.6521739130434783, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,compliantProducts.get(productId),METHOD_INVOCATION, line no: 106, 0.6521739130434783, 0.6521739130434783, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,partialStacks.get(stackId),METHOD_INVOCATION, line no: 123, 0.6521739130434783, 0.6521739130434783, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,entitlement,SIMPLE_NAME, line no: 95, 0.65, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,get,SIMPLE_NAME, line no: 99, 0.65, 0.65, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,compliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 106, 0.65, 0.65, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,compliantProducts.get(productId),METHOD_INVOCATION, line no: 106, 0.65, 0.65, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,partialStacks.get(stackId).add(entitlement),METHOD_INVOCATION, line no: 123, 0.65, 0.65, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,partialStacks.get(stackId),METHOD_INVOCATION, line no: 123, 0.65, 0.65, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,entitlement,SIMPLE_NAME, line no: 95, 0.6363636363636364, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,get,SIMPLE_NAME, line no: 99, 0.6363636363636364, 0.6363636363636364, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,compliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 106, 0.6363636363636364, 0.6363636363636364, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,compliantProducts.get(productId),METHOD_INVOCATION, line no: 106, 0.6363636363636364, 0.6363636363636364, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partialStacks.get(stackId).add(entitlement),METHOD_INVOCATION, line no: 123, 0.6363636363636364, 0.6363636363636364, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partialStacks.get(stackId),METHOD_INVOCATION, line no: 123, 0.6363636363636364, 0.6363636363636364, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,entitlement,SIMPLE_NAME, line no: 95, 0.6190476190476191, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,get,SIMPLE_NAME, line no: 99, 0.6190476190476191, 0.6190476190476191, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,compliantProducts.get(productId).add(entitlement),METHOD_INVOCATION, line no: 106, 0.6190476190476191, 0.6190476190476191, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,compliantProducts.get(productId),METHOD_INVOCATION, line no: 106, 0.6190476190476191, 0.6190476190476191, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,partialStacks.get(stackId).add(entitlement),METHOD_INVOCATION, line no: 123, 0.6190476190476191, 0.6190476190476191, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,partialStacks.get(stackId),METHOD_INVOCATION, line no: 123, 0.6190476190476191, 0.6190476190476191, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,this.nonCompliantProducts.add(productId),METHOD_INVOCATION, line no: 81, 0.5833333333333333, 0.25, 0.3333333333333333, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,HashSet,SIMPLE_NAME, line no: 19, 0.45, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,Entitlement,SIMPLE_NAME, line no: 23, 0.45, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,put,SIMPLE_NAME, line no: 97, 0.45, 0.45, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,HashSet,SIMPLE_NAME, line no: 19, 0.42857142857142855, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,Entitlement,SIMPLE_NAME, line no: 23, 0.42857142857142855, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,put,SIMPLE_NAME, line no: 97, 0.42857142857142855, 0.42857142857142855, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,HashSet,SIMPLE_NAME, line no: 19, 0.42857142857142855, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,Entitlement,SIMPLE_NAME, line no: 23, 0.42857142857142855, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,put,SIMPLE_NAME, line no: 97, 0.42857142857142855, 0.42857142857142855, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,HashSet,SIMPLE_NAME, line no: 19, 0.4090909090909091, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,Entitlement,SIMPLE_NAME, line no: 23, 0.4090909090909091, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,put,SIMPLE_NAME, line no: 97, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,HashMap,SIMPLE_NAME, line no: 18, 0.4090909090909091, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,HashSet,SIMPLE_NAME, line no: 19, 0.4090909090909091, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,Entitlement,SIMPLE_NAME, line no: 23, 0.4090909090909091, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,String,SIMPLE_NAME, line no: 32, 0.4090909090909091, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,ComplianceReason,SIMPLE_NAME, line no: 42, 0.4090909090909091, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,reasons,SIMPLE_NAME, line no: 42, 0.4090909090909091, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,this,THIS_EXPRESSION, line no: 45, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,new HashSet<String>(),CLASS_INSTANCE_CREATION, line no: 45, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,this.compliantProducts=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 46, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,this.compliantProducts,FIELD_ACCESS, line no: 46, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,new HashMap<String Set<Entitlement>>(),CLASS_INSTANCE_CREATION, line no: 46, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,this.partiallyCompliantProducts=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 47, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,this.partiallyCompliantProducts,FIELD_ACCESS, line no: 47, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,this.partialStacks=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 48, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,this.partialStacks,FIELD_ACCESS, line no: 48, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,this.reasons=new HashSet<ComplianceReason>(),ASSIGNMENT, line no: 49, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,this.reasons,FIELD_ACCESS, line no: 49, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,new HashSet<ComplianceReason>(),CLASS_INSTANCE_CREATION, line no: 49, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,put,SIMPLE_NAME, line no: 97, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,HashMap,SIMPLE_NAME, line no: 18, 0.4090909090909091, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,HashSet,SIMPLE_NAME, line no: 19, 0.4090909090909091, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,Set,SIMPLE_NAME, line no: 21, 0.4090909090909091, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,Entitlement,SIMPLE_NAME, line no: 23, 0.4090909090909091, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,String,SIMPLE_NAME, line no: 32, 0.4090909090909091, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,ComplianceReason,SIMPLE_NAME, line no: 42, 0.4090909090909091, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,reasons,SIMPLE_NAME, line no: 42, 0.4090909090909091, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.nonCompliantProducts=new HashSet<String>(),ASSIGNMENT, line no: 45, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.nonCompliantProducts,FIELD_ACCESS, line no: 45, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this,THIS_EXPRESSION, line no: 45, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,new HashSet<String>(),CLASS_INSTANCE_CREATION, line no: 45, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.compliantProducts=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 46, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.compliantProducts,FIELD_ACCESS, line no: 46, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,new HashMap<String Set<Entitlement>>(),CLASS_INSTANCE_CREATION, line no: 46, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.partiallyCompliantProducts=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 47, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.partiallyCompliantProducts,FIELD_ACCESS, line no: 47, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.partialStacks=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 48, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.partialStacks,FIELD_ACCESS, line no: 48, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.reasons=new HashSet<ComplianceReason>(),ASSIGNMENT, line no: 49, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.reasons,FIELD_ACCESS, line no: 49, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,new HashSet<ComplianceReason>(),CLASS_INSTANCE_CREATION, line no: 49, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,put,SIMPLE_NAME, line no: 97, 0.4090909090909091, 0.4090909090909091, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,HashMap,SIMPLE_NAME, line no: 18, 0.4, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,Set,SIMPLE_NAME, line no: 21, 0.4, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,String,SIMPLE_NAME, line no: 32, 0.4, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,ComplianceReason,SIMPLE_NAME, line no: 42, 0.4, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,reasons,SIMPLE_NAME, line no: 42, 0.4, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,this,THIS_EXPRESSION, line no: 45, 0.4, 0.4, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,new HashSet<String>(),CLASS_INSTANCE_CREATION, line no: 45, 0.4, 0.4, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,this.compliantProducts=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 46, 0.4, 0.4, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,this.compliantProducts,FIELD_ACCESS, line no: 46, 0.4, 0.4, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,new HashMap<String Set<Entitlement>>(),CLASS_INSTANCE_CREATION, line no: 46, 0.4, 0.4, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,this.partialStacks=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 48, 0.4, 0.4, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,this.partialStacks,FIELD_ACCESS, line no: 48, 0.4, 0.4, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,this.reasons=new HashSet<ComplianceReason>(),ASSIGNMENT, line no: 49, 0.4, 0.4, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,this.reasons,FIELD_ACCESS, line no: 49, 0.4, 0.4, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,new HashSet<ComplianceReason>(),CLASS_INSTANCE_CREATION, line no: 49, 0.4, 0.4, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,new HashSet<Entitlement>(),CLASS_INSTANCE_CREATION, line no: 97, 0.4, 0.4, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,compliantProducts.put(productId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 104, 0.4, 0.4, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,partialStacks.put(stackId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 121, 0.4, 0.4, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,HashMap,SIMPLE_NAME, line no: 18, 0.391304347826087, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,HashSet,SIMPLE_NAME, line no: 19, 0.391304347826087, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,Set,SIMPLE_NAME, line no: 21, 0.391304347826087, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,Entitlement,SIMPLE_NAME, line no: 23, 0.391304347826087, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,String,SIMPLE_NAME, line no: 32, 0.391304347826087, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,ComplianceReason,SIMPLE_NAME, line no: 42, 0.391304347826087, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,reasons,SIMPLE_NAME, line no: 42, 0.391304347826087, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this.nonCompliantProducts=new HashSet<String>(),ASSIGNMENT, line no: 45, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this.nonCompliantProducts,FIELD_ACCESS, line no: 45, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this,THIS_EXPRESSION, line no: 45, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,new HashSet<String>(),CLASS_INSTANCE_CREATION, line no: 45, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,new HashMap<String Set<Entitlement>>(),CLASS_INSTANCE_CREATION, line no: 46, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this.reasons=new HashSet<ComplianceReason>(),ASSIGNMENT, line no: 49, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this.reasons,FIELD_ACCESS, line no: 49, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,new HashSet<ComplianceReason>(),CLASS_INSTANCE_CREATION, line no: 49, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,put,SIMPLE_NAME, line no: 97, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,HashMap,SIMPLE_NAME, line no: 18, 0.391304347826087, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,HashSet,SIMPLE_NAME, line no: 19, 0.391304347826087, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,Set,SIMPLE_NAME, line no: 21, 0.391304347826087, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,Entitlement,SIMPLE_NAME, line no: 23, 0.391304347826087, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,String,SIMPLE_NAME, line no: 32, 0.391304347826087, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,ComplianceReason,SIMPLE_NAME, line no: 42, 0.391304347826087, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,reasons,SIMPLE_NAME, line no: 42, 0.391304347826087, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.nonCompliantProducts=new HashSet<String>(),ASSIGNMENT, line no: 45, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.nonCompliantProducts,FIELD_ACCESS, line no: 45, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this,THIS_EXPRESSION, line no: 45, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,new HashSet<String>(),CLASS_INSTANCE_CREATION, line no: 45, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.compliantProducts=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 46, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.compliantProducts,FIELD_ACCESS, line no: 46, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,new HashMap<String Set<Entitlement>>(),CLASS_INSTANCE_CREATION, line no: 46, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.partiallyCompliantProducts=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 47, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.partiallyCompliantProducts,FIELD_ACCESS, line no: 47, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.partialStacks=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 48, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.partialStacks,FIELD_ACCESS, line no: 48, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.reasons=new HashSet<ComplianceReason>(),ASSIGNMENT, line no: 49, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.reasons,FIELD_ACCESS, line no: 49, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,new HashSet<ComplianceReason>(),CLASS_INSTANCE_CREATION, line no: 49, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,put,SIMPLE_NAME, line no: 97, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,HashMap,SIMPLE_NAME, line no: 18, 0.38095238095238093, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,Set,SIMPLE_NAME, line no: 21, 0.38095238095238093, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,String,SIMPLE_NAME, line no: 32, 0.38095238095238093, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,ComplianceReason,SIMPLE_NAME, line no: 42, 0.38095238095238093, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,reasons,SIMPLE_NAME, line no: 42, 0.38095238095238093, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,this.nonCompliantProducts=new HashSet<String>(),ASSIGNMENT, line no: 45, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,this.nonCompliantProducts,FIELD_ACCESS, line no: 45, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,this,THIS_EXPRESSION, line no: 45, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,new HashSet<String>(),CLASS_INSTANCE_CREATION, line no: 45, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,this.compliantProducts=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 46, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,this.compliantProducts,FIELD_ACCESS, line no: 46, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,new HashMap<String Set<Entitlement>>(),CLASS_INSTANCE_CREATION, line no: 46, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,this.partialStacks=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 48, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,this.partialStacks,FIELD_ACCESS, line no: 48, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,this.reasons=new HashSet<ComplianceReason>(),ASSIGNMENT, line no: 49, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,this.reasons,FIELD_ACCESS, line no: 49, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,new HashSet<ComplianceReason>(),CLASS_INSTANCE_CREATION, line no: 49, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,new HashSet<Entitlement>(),CLASS_INSTANCE_CREATION, line no: 97, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,compliantProducts.put(productId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 104, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,partialStacks.put(stackId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 121, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,HashMap,SIMPLE_NAME, line no: 18, 0.38095238095238093, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,Set,SIMPLE_NAME, line no: 21, 0.38095238095238093, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,String,SIMPLE_NAME, line no: 32, 0.38095238095238093, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,ComplianceReason,SIMPLE_NAME, line no: 42, 0.38095238095238093, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,reasons,SIMPLE_NAME, line no: 42, 0.38095238095238093, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this,THIS_EXPRESSION, line no: 45, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,new HashSet<String>(),CLASS_INSTANCE_CREATION, line no: 45, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.compliantProducts=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 46, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.compliantProducts,FIELD_ACCESS, line no: 46, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,new HashMap<String Set<Entitlement>>(),CLASS_INSTANCE_CREATION, line no: 46, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.partiallyCompliantProducts=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 47, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.partiallyCompliantProducts,FIELD_ACCESS, line no: 47, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.partialStacks=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 48, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.partialStacks,FIELD_ACCESS, line no: 48, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.reasons=new HashSet<ComplianceReason>(),ASSIGNMENT, line no: 49, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.reasons,FIELD_ACCESS, line no: 49, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,new HashSet<ComplianceReason>(),CLASS_INSTANCE_CREATION, line no: 49, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partiallyCompliantProducts.put(productId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 97, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,new HashSet<Entitlement>(),CLASS_INSTANCE_CREATION, line no: 97, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,compliantProducts.put(productId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 104, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partialStacks.put(stackId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 121, 0.38095238095238093, 0.38095238095238093, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,HashMap,SIMPLE_NAME, line no: 18, 0.36363636363636365, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,Set,SIMPLE_NAME, line no: 21, 0.36363636363636365, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,String,SIMPLE_NAME, line no: 32, 0.36363636363636365, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,ComplianceReason,SIMPLE_NAME, line no: 42, 0.36363636363636365, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,reasons,SIMPLE_NAME, line no: 42, 0.36363636363636365, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.nonCompliantProducts=new HashSet<String>(),ASSIGNMENT, line no: 45, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.nonCompliantProducts,FIELD_ACCESS, line no: 45, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this,THIS_EXPRESSION, line no: 45, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,new HashSet<String>(),CLASS_INSTANCE_CREATION, line no: 45, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.compliantProducts=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 46, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.compliantProducts,FIELD_ACCESS, line no: 46, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,new HashMap<String Set<Entitlement>>(),CLASS_INSTANCE_CREATION, line no: 46, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.partialStacks=new HashMap<String Set<Entitlement>>(),ASSIGNMENT, line no: 48, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.partialStacks,FIELD_ACCESS, line no: 48, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.reasons=new HashSet<ComplianceReason>(),ASSIGNMENT, line no: 49, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.reasons,FIELD_ACCESS, line no: 49, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,new HashSet<ComplianceReason>(),CLASS_INSTANCE_CREATION, line no: 49, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,new HashSet<Entitlement>(),CLASS_INSTANCE_CREATION, line no: 97, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,compliantProducts.put(productId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 104, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,partialStacks.put(stackId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 121, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.put(productId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 97, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,new HashSet<Entitlement>(),CLASS_INSTANCE_CREATION, line no: 97, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,compliantProducts.put(productId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 104, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,partialStacks.put(stackId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 121, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.put(productId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 97, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,new HashSet<Entitlement>(),CLASS_INSTANCE_CREATION, line no: 97, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,compliantProducts.put(productId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 104, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,partialStacks.put(stackId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 121, 0.36363636363636365, 0.36363636363636365, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.put(productId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 97, 0.34782608695652173, 0.34782608695652173, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,new HashSet<Entitlement>(),CLASS_INSTANCE_CREATION, line no: 97, 0.34782608695652173, 0.34782608695652173, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,compliantProducts.put(productId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 104, 0.34782608695652173, 0.34782608695652173, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,partialStacks.put(stackId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 121, 0.34782608695652173, 0.34782608695652173, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,partiallyCompliantProducts.put(productId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 97, 0.34782608695652173, 0.34782608695652173, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,new HashSet<Entitlement>(),CLASS_INSTANCE_CREATION, line no: 97, 0.34782608695652173, 0.34782608695652173, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,compliantProducts.put(productId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 104, 0.34782608695652173, 0.34782608695652173, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,partialStacks.put(stackId new HashSet<Entitlement>()),METHOD_INVOCATION, line no: 121, 0.34782608695652173, 0.34782608695652173, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,reasons.isEmpty(),METHOD_INVOCATION, line no: 135, 0.3, 0.3, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,reasons.isEmpty(),METHOD_INVOCATION, line no: 135, 0.2857142857142857, 0.2857142857142857, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,reasons.isEmpty(),METHOD_INVOCATION, line no: 135, 0.2857142857142857, 0.2857142857142857, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,reasons.isEmpty(),METHOD_INVOCATION, line no: 135, 0.2727272727272727, 0.2727272727272727, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,reasons.isEmpty(),METHOD_INVOCATION, line no: 135, 0.2727272727272727, 0.2727272727272727, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,reasons.isEmpty(),METHOD_INVOCATION, line no: 135, 0.2608695652173913, 0.2608695652173913, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,GREEN,SIMPLE_NAME, line no: 32, 0.25, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,YELLOW,SIMPLE_NAME, line no: 33, 0.25, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,GREEN,SIMPLE_NAME, line no: 32, 0.23809523809523808, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,YELLOW,SIMPLE_NAME, line no: 33, 0.23809523809523808, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,this.nonCompliantProducts.add(productId),METHOD_INVOCATION, line no: 81, 0.23809523809523808, 0.23809523809523808, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,GREEN,SIMPLE_NAME, line no: 32, 0.23809523809523808, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,YELLOW,SIMPLE_NAME, line no: 33, 0.23809523809523808, 0.047619047619047616, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,GREEN,SIMPLE_NAME, line no: 32, 0.22727272727272727, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,YELLOW,SIMPLE_NAME, line no: 33, 0.22727272727272727, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.nonCompliantProducts.add(productId),METHOD_INVOCATION, line no: 81, 0.22727272727272727, 0.22727272727272727, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,GREEN,SIMPLE_NAME, line no: 32, 0.22727272727272727, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,YELLOW,SIMPLE_NAME, line no: 33, 0.22727272727272727, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,this.nonCompliantProducts.add(productId),METHOD_INVOCATION, line no: 81, 0.22727272727272727, 0.22727272727272727, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,GREEN,SIMPLE_NAME, line no: 32, 0.22727272727272727, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,YELLOW,SIMPLE_NAME, line no: 33, 0.22727272727272727, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,GREEN,SIMPLE_NAME, line no: 32, 0.21739130434782608, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,YELLOW,SIMPLE_NAME, line no: 33, 0.21739130434782608, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this.nonCompliantProducts.add(productId),METHOD_INVOCATION, line no: 81, 0.21739130434782608, 0.21739130434782608, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,GREEN,SIMPLE_NAME, line no: 32, 0.21739130434782608, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,YELLOW,SIMPLE_NAME, line no: 33, 0.21739130434782608, 0.043478260869565216, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,date,SIMPLE_NAME, line no: 36, 0.2, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,compliantUntil,SIMPLE_NAME, line no: 37, 0.2, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,date,SIMPLE_NAME, line no: 36, 0.19047619047619047, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,compliantUntil,SIMPLE_NAME, line no: 37, 0.19047619047619047, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,date,SIMPLE_NAME, line no: 36, 0.19047619047619047, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,compliantUntil,SIMPLE_NAME, line no: 37, 0.19047619047619047, 0.047619047619047616, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,date,SIMPLE_NAME, line no: 36, 0.18181818181818182, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,compliantUntil,SIMPLE_NAME, line no: 37, 0.18181818181818182, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,date,SIMPLE_NAME, line no: 36, 0.18181818181818182, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,compliantUntil,SIMPLE_NAME, line no: 37, 0.18181818181818182, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,date,SIMPLE_NAME, line no: 36, 0.18181818181818182, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,compliantUntil,SIMPLE_NAME, line no: 37, 0.18181818181818182, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,date,SIMPLE_NAME, line no: 36, 0.17391304347826086, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,compliantUntil,SIMPLE_NAME, line no: 37, 0.17391304347826086, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,date,SIMPLE_NAME, line no: 36, 0.17391304347826086, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,compliantUntil,SIMPLE_NAME, line no: 37, 0.17391304347826086, 0.043478260869565216, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,this.compliantUntil,FIELD_ACCESS, line no: 127, 0.15, 0.15, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,this.compliantUntil,FIELD_ACCESS, line no: 127, 0.14285714285714285, 0.14285714285714285, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.compliantUntil,FIELD_ACCESS, line no: 127, 0.14285714285714285, 0.14285714285714285, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.compliantUntil,FIELD_ACCESS, line no: 127, 0.13636363636363635, 0.13636363636363635, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,this.compliantUntil,FIELD_ACCESS, line no: 127, 0.13636363636363635, 0.13636363636363635, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.compliantUntil,FIELD_ACCESS, line no: 127, 0.13636363636363635, 0.13636363636363635, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this.compliantUntil,FIELD_ACCESS, line no: 127, 0.13043478260869565, 0.13043478260869565, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.compliantUntil,FIELD_ACCESS, line no: 127, 0.13043478260869565, 0.13043478260869565, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,this.date=date,ASSIGNMENT, line no: 54, 0.1, 0.1, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,this.date,FIELD_ACCESS, line no: 54, 0.1, 0.1, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,this.compliantUntil=date,ASSIGNMENT, line no: 131, 0.1, 0.1, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,this.reasons=reasons,ASSIGNMENT, line no: 153, 0.1, 0.1, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,this.date=date,ASSIGNMENT, line no: 54, 0.09523809523809523, 0.09523809523809523, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,this.date,FIELD_ACCESS, line no: 54, 0.09523809523809523, 0.09523809523809523, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,this.compliantUntil=date,ASSIGNMENT, line no: 131, 0.09523809523809523, 0.09523809523809523, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,this.reasons=reasons,ASSIGNMENT, line no: 153, 0.09523809523809523, 0.09523809523809523, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.date=date,ASSIGNMENT, line no: 54, 0.09523809523809523, 0.09523809523809523, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.date,FIELD_ACCESS, line no: 54, 0.09523809523809523, 0.09523809523809523, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.compliantUntil=date,ASSIGNMENT, line no: 131, 0.09523809523809523, 0.09523809523809523, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.reasons=reasons,ASSIGNMENT, line no: 153, 0.09523809523809523, 0.09523809523809523, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.date=date,ASSIGNMENT, line no: 54, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.date,FIELD_ACCESS, line no: 54, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.compliantUntil=date,ASSIGNMENT, line no: 131, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,this.reasons=reasons,ASSIGNMENT, line no: 153, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,this.date=date,ASSIGNMENT, line no: 54, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,this.date,FIELD_ACCESS, line no: 54, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,this.compliantUntil=date,ASSIGNMENT, line no: 131, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,this.reasons=reasons,ASSIGNMENT, line no: 153, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.date=date,ASSIGNMENT, line no: 54, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.date,FIELD_ACCESS, line no: 54, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.compliantUntil=date,ASSIGNMENT, line no: 131, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.reasons=reasons,ASSIGNMENT, line no: 153, 0.09090909090909091, 0.09090909090909091, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this.date=date,ASSIGNMENT, line no: 54, 0.08695652173913043, 0.08695652173913043, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this.date,FIELD_ACCESS, line no: 54, 0.08695652173913043, 0.08695652173913043, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this.compliantUntil=date,ASSIGNMENT, line no: 131, 0.08695652173913043, 0.08695652173913043, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,this.reasons=reasons,ASSIGNMENT, line no: 153, 0.08695652173913043, 0.08695652173913043, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.date=date,ASSIGNMENT, line no: 54, 0.08695652173913043, 0.08695652173913043, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.date,FIELD_ACCESS, line no: 54, 0.08695652173913043, 0.08695652173913043, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.compliantUntil=date,ASSIGNMENT, line no: 131, 0.08695652173913043, 0.08695652173913043, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,this.reasons=reasons,ASSIGNMENT, line no: 153, 0.08695652173913043, 0.08695652173913043, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,org,SIMPLE_NAME, line no: 15, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,candlepin,SIMPLE_NAME, line no: 15, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,policy,SIMPLE_NAME, line no: 15, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,js,SIMPLE_NAME, line no: 15, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,compliance,SIMPLE_NAME, line no: 15, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,java,SIMPLE_NAME, line no: 17, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,util,SIMPLE_NAME, line no: 17, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,Date,SIMPLE_NAME, line no: 17, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,Map,SIMPLE_NAME, line no: 20, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,model,SIMPLE_NAME, line no: 23, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,ComplianceStatus,SIMPLE_NAME, line no: 31, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,getCompliantProducts,SIMPLE_NAME, line no: 60, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,getDate,SIMPLE_NAME, line no: 68, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,getNonCompliantProducts,SIMPLE_NAME, line no: 76, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,addNonCompliantProduct,SIMPLE_NAME, line no: 80, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,getPartiallyCompliantProducts,SIMPLE_NAME, line no: 91, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,addPartiallyCompliantProduct,SIMPLE_NAME, line no: 95, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,addCompliantProduct,SIMPLE_NAME, line no: 102, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,getPartialStacks,SIMPLE_NAME, line no: 115, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,addPartialStack,SIMPLE_NAME, line no: 119, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,getCompliantUntil,SIMPLE_NAME, line no: 126, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,setCompliantUntil,SIMPLE_NAME, line no: 130, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,getStatus,SIMPLE_NAME, line no: 138, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,getReasons,SIMPLE_NAME, line no: 148, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,setReasons,SIMPLE_NAME, line no: 152, 0.05, 0.05, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,org,SIMPLE_NAME, line no: 15, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,candlepin,SIMPLE_NAME, line no: 15, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,policy,SIMPLE_NAME, line no: 15, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,js,SIMPLE_NAME, line no: 15, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,compliance,SIMPLE_NAME, line no: 15, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,java,SIMPLE_NAME, line no: 17, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,util,SIMPLE_NAME, line no: 17, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,Date,SIMPLE_NAME, line no: 17, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,Map,SIMPLE_NAME, line no: 20, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,model,SIMPLE_NAME, line no: 23, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,ComplianceStatus,SIMPLE_NAME, line no: 31, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,getCompliantProducts,SIMPLE_NAME, line no: 60, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,getDate,SIMPLE_NAME, line no: 68, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,getNonCompliantProducts,SIMPLE_NAME, line no: 76, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,addNonCompliantProduct,SIMPLE_NAME, line no: 80, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,getPartiallyCompliantProducts,SIMPLE_NAME, line no: 91, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,addPartiallyCompliantProduct,SIMPLE_NAME, line no: 95, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,addCompliantProduct,SIMPLE_NAME, line no: 102, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,getPartialStacks,SIMPLE_NAME, line no: 115, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,addPartialStack,SIMPLE_NAME, line no: 119, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,getCompliantUntil,SIMPLE_NAME, line no: 126, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,setCompliantUntil,SIMPLE_NAME, line no: 130, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,getStatus,SIMPLE_NAME, line no: 138, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,getReasons,SIMPLE_NAME, line no: 148, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,setReasons,SIMPLE_NAME, line no: 152, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,org,SIMPLE_NAME, line no: 15, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,candlepin,SIMPLE_NAME, line no: 15, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,policy,SIMPLE_NAME, line no: 15, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,js,SIMPLE_NAME, line no: 15, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,compliance,SIMPLE_NAME, line no: 15, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,java,SIMPLE_NAME, line no: 17, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,util,SIMPLE_NAME, line no: 17, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,Date,SIMPLE_NAME, line no: 17, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,Map,SIMPLE_NAME, line no: 20, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,model,SIMPLE_NAME, line no: 23, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,ComplianceStatus,SIMPLE_NAME, line no: 31, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,getCompliantProducts,SIMPLE_NAME, line no: 60, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,getDate,SIMPLE_NAME, line no: 68, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,getNonCompliantProducts,SIMPLE_NAME, line no: 76, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,addNonCompliantProduct,SIMPLE_NAME, line no: 80, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,getPartiallyCompliantProducts,SIMPLE_NAME, line no: 91, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,addPartiallyCompliantProduct,SIMPLE_NAME, line no: 95, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,addCompliantProduct,SIMPLE_NAME, line no: 102, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,getPartialStacks,SIMPLE_NAME, line no: 115, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,addPartialStack,SIMPLE_NAME, line no: 119, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,getCompliantUntil,SIMPLE_NAME, line no: 126, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,setCompliantUntil,SIMPLE_NAME, line no: 130, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,getStatus,SIMPLE_NAME, line no: 138, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,getReasons,SIMPLE_NAME, line no: 148, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,setReasons,SIMPLE_NAME, line no: 152, 0.047619047619047616, 0.047619047619047616, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,org,SIMPLE_NAME, line no: 15, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,candlepin,SIMPLE_NAME, line no: 15, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,policy,SIMPLE_NAME, line no: 15, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,js,SIMPLE_NAME, line no: 15, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,compliance,SIMPLE_NAME, line no: 15, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,java,SIMPLE_NAME, line no: 17, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,util,SIMPLE_NAME, line no: 17, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,Date,SIMPLE_NAME, line no: 17, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,Map,SIMPLE_NAME, line no: 20, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,model,SIMPLE_NAME, line no: 23, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,ComplianceStatus,SIMPLE_NAME, line no: 31, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,getCompliantProducts,SIMPLE_NAME, line no: 60, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,getDate,SIMPLE_NAME, line no: 68, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,getNonCompliantProducts,SIMPLE_NAME, line no: 76, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,addNonCompliantProduct,SIMPLE_NAME, line no: 80, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,getPartiallyCompliantProducts,SIMPLE_NAME, line no: 91, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,addPartiallyCompliantProduct,SIMPLE_NAME, line no: 95, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,addCompliantProduct,SIMPLE_NAME, line no: 102, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,getPartialStacks,SIMPLE_NAME, line no: 115, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,addPartialStack,SIMPLE_NAME, line no: 119, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,getCompliantUntil,SIMPLE_NAME, line no: 126, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,setCompliantUntil,SIMPLE_NAME, line no: 130, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,getStatus,SIMPLE_NAME, line no: 138, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,getReasons,SIMPLE_NAME, line no: 148, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,setReasons,SIMPLE_NAME, line no: 152, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,org,SIMPLE_NAME, line no: 15, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,candlepin,SIMPLE_NAME, line no: 15, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,policy,SIMPLE_NAME, line no: 15, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,js,SIMPLE_NAME, line no: 15, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,compliance,SIMPLE_NAME, line no: 15, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,java,SIMPLE_NAME, line no: 17, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,util,SIMPLE_NAME, line no: 17, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,Date,SIMPLE_NAME, line no: 17, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,Map,SIMPLE_NAME, line no: 20, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,model,SIMPLE_NAME, line no: 23, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,ComplianceStatus,SIMPLE_NAME, line no: 31, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,getCompliantProducts,SIMPLE_NAME, line no: 60, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,getDate,SIMPLE_NAME, line no: 68, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,addNonCompliantProduct,SIMPLE_NAME, line no: 80, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,getPartiallyCompliantProducts,SIMPLE_NAME, line no: 91, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,addPartiallyCompliantProduct,SIMPLE_NAME, line no: 95, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,addCompliantProduct,SIMPLE_NAME, line no: 102, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,getPartialStacks,SIMPLE_NAME, line no: 115, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,addPartialStack,SIMPLE_NAME, line no: 119, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,getCompliantUntil,SIMPLE_NAME, line no: 126, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,setCompliantUntil,SIMPLE_NAME, line no: 130, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,getStatus,SIMPLE_NAME, line no: 138, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,getReasons,SIMPLE_NAME, line no: 148, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,setReasons,SIMPLE_NAME, line no: 152, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,org,SIMPLE_NAME, line no: 15, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,candlepin,SIMPLE_NAME, line no: 15, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,policy,SIMPLE_NAME, line no: 15, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,js,SIMPLE_NAME, line no: 15, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,compliance,SIMPLE_NAME, line no: 15, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,java,SIMPLE_NAME, line no: 17, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,util,SIMPLE_NAME, line no: 17, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,Date,SIMPLE_NAME, line no: 17, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,Map,SIMPLE_NAME, line no: 20, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,model,SIMPLE_NAME, line no: 23, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,ComplianceStatus,SIMPLE_NAME, line no: 31, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,getCompliantProducts,SIMPLE_NAME, line no: 60, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,getDate,SIMPLE_NAME, line no: 68, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,getNonCompliantProducts,SIMPLE_NAME, line no: 76, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,addNonCompliantProduct,SIMPLE_NAME, line no: 80, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,getPartiallyCompliantProducts,SIMPLE_NAME, line no: 91, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,addPartiallyCompliantProduct,SIMPLE_NAME, line no: 95, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,addCompliantProduct,SIMPLE_NAME, line no: 102, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,getPartialStacks,SIMPLE_NAME, line no: 115, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,addPartialStack,SIMPLE_NAME, line no: 119, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,getCompliantUntil,SIMPLE_NAME, line no: 126, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,setCompliantUntil,SIMPLE_NAME, line no: 130, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,getStatus,SIMPLE_NAME, line no: 138, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,getReasons,SIMPLE_NAME, line no: 148, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,setReasons,SIMPLE_NAME, line no: 152, 0.045454545454545456, 0.045454545454545456, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,org,SIMPLE_NAME, line no: 15, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,candlepin,SIMPLE_NAME, line no: 15, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,policy,SIMPLE_NAME, line no: 15, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,js,SIMPLE_NAME, line no: 15, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,compliance,SIMPLE_NAME, line no: 15, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,java,SIMPLE_NAME, line no: 17, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,util,SIMPLE_NAME, line no: 17, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,Date,SIMPLE_NAME, line no: 17, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,model,SIMPLE_NAME, line no: 23, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,ComplianceStatus,SIMPLE_NAME, line no: 31, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,getDate,SIMPLE_NAME, line no: 68, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,getNonCompliantProducts,SIMPLE_NAME, line no: 76, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,addNonCompliantProduct,SIMPLE_NAME, line no: 80, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,addPartiallyCompliantProduct,SIMPLE_NAME, line no: 95, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,addCompliantProduct,SIMPLE_NAME, line no: 102, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,addPartialStack,SIMPLE_NAME, line no: 119, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,getCompliantUntil,SIMPLE_NAME, line no: 126, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,setCompliantUntil,SIMPLE_NAME, line no: 130, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,getStatus,SIMPLE_NAME, line no: 138, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,getReasons,SIMPLE_NAME, line no: 148, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,setReasons,SIMPLE_NAME, line no: 152, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,org,SIMPLE_NAME, line no: 15, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,candlepin,SIMPLE_NAME, line no: 15, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,policy,SIMPLE_NAME, line no: 15, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,js,SIMPLE_NAME, line no: 15, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,compliance,SIMPLE_NAME, line no: 15, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,java,SIMPLE_NAME, line no: 17, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,util,SIMPLE_NAME, line no: 17, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,Date,SIMPLE_NAME, line no: 17, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,Map,SIMPLE_NAME, line no: 20, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,model,SIMPLE_NAME, line no: 23, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,ComplianceStatus,SIMPLE_NAME, line no: 31, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,getCompliantProducts,SIMPLE_NAME, line no: 60, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,getDate,SIMPLE_NAME, line no: 68, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,getNonCompliantProducts,SIMPLE_NAME, line no: 76, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,addNonCompliantProduct,SIMPLE_NAME, line no: 80, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,getPartiallyCompliantProducts,SIMPLE_NAME, line no: 91, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,addPartiallyCompliantProduct,SIMPLE_NAME, line no: 95, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,addCompliantProduct,SIMPLE_NAME, line no: 102, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,getPartialStacks,SIMPLE_NAME, line no: 115, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,addPartialStack,SIMPLE_NAME, line no: 119, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,getCompliantUntil,SIMPLE_NAME, line no: 126, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,setCompliantUntil,SIMPLE_NAME, line no: 130, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,getStatus,SIMPLE_NAME, line no: 138, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,getReasons,SIMPLE_NAME, line no: 148, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,setReasons,SIMPLE_NAME, line no: 152, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,org.candlepin.policy.js.compliance,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,org.candlepin.policy.js,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,org.candlepin.policy,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,org.candlepin,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,java.util.Date,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,java.util,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,java.util.HashMap,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,java.util.HashSet,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,java.util.Map,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,java.util.Set,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,org.candlepin.model.Entitlement,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,org.candlepin.model,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,"valid",STRING_LITERAL, line no: 32, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,"partial",STRING_LITERAL, line no: 33, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty() && nonCompliantProducts.isEmpty(),INFIX_EXPRESSION, line no: 142,"invalid",STRING_LITERAL, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,org.candlepin.policy.js.compliance,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,org.candlepin.policy.js,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,org.candlepin.policy,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,org.candlepin,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,java.util.Date,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,java.util,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,java.util.HashMap,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,java.util.HashSet,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,java.util.Map,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,java.util.Set,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,org.candlepin.model.Entitlement,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,org.candlepin.model,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,"valid",STRING_LITERAL, line no: 32, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,"partial",STRING_LITERAL, line no: 33, 0.0, 0.0, 0.0, 0.0, 0.0
+!partiallyCompliantProducts.isEmpty(),PREFIX_EXPRESSION, line no: 142,"invalid",STRING_LITERAL, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,org.candlepin.policy.js.compliance,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,org.candlepin.policy.js,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,org.candlepin.policy,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,org.candlepin,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,java.util.Date,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,java.util,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,java.util.HashMap,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,java.util.HashSet,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,java.util.Map,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,java.util.Set,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,org.candlepin.model.Entitlement,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,org.candlepin.model,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,"valid",STRING_LITERAL, line no: 32, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,"partial",STRING_LITERAL, line no: 33, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,"invalid",STRING_LITERAL, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,org.candlepin.policy.js.compliance,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,org.candlepin.policy.js,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,org.candlepin.policy,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,org.candlepin,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,java.util.Date,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,java.util,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,java.util.HashMap,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,java.util.HashSet,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,java.util.Map,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,java.util.Set,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,org.candlepin.model.Entitlement,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,org.candlepin.model,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,"valid",STRING_LITERAL, line no: 32, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,"partial",STRING_LITERAL, line no: 33, 0.0, 0.0, 0.0, 0.0, 0.0
+partiallyCompliantProducts,SIMPLE_NAME, line no: 142,"invalid",STRING_LITERAL, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,org.candlepin.policy.js.compliance,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,org.candlepin.policy.js,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,org.candlepin.policy,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,org.candlepin,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,java.util.Date,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,java.util,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,java.util.HashMap,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,java.util.HashSet,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,java.util.Map,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,java.util.Set,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,org.candlepin.model.Entitlement,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,org.candlepin.model,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,"valid",STRING_LITERAL, line no: 32, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,"partial",STRING_LITERAL, line no: 33, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,"invalid",STRING_LITERAL, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,org.candlepin.policy.js.compliance,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,org.candlepin.policy.js,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,org.candlepin.policy,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,org.candlepin,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,java.util.Date,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,java.util,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,java.util.HashMap,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,java.util.HashSet,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,java.util.Map,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,java.util.Set,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,org.candlepin.model.Entitlement,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,org.candlepin.model,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,"valid",STRING_LITERAL, line no: 32, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,"partial",STRING_LITERAL, line no: 33, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts.isEmpty(),METHOD_INVOCATION, line no: 142,"invalid",STRING_LITERAL, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,org.candlepin.policy.js.compliance,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,org.candlepin.policy.js,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,org.candlepin.policy,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,org.candlepin,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,java.util.Date,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,java.util,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,java.util.HashMap,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,java.util.HashSet,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,java.util.Map,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,java.util.Set,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,org.candlepin.model.Entitlement,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,org.candlepin.model,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,"valid",STRING_LITERAL, line no: 32, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,"partial",STRING_LITERAL, line no: 33, 0.0, 0.0, 0.0, 0.0, 0.0
+nonCompliantProducts,SIMPLE_NAME, line no: 142,"invalid",STRING_LITERAL, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,org.candlepin.policy.js.compliance,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,org.candlepin.policy.js,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,org.candlepin.policy,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,org.candlepin,QUALIFIED_NAME, line no: 15, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,java.util.Date,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,java.util,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,java.util.HashMap,QUALIFIED_NAME, line no: 18, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,java.util.HashSet,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,java.util.Map,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,java.util.Set,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,org.candlepin.model.Entitlement,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,org.candlepin.model,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,"valid",STRING_LITERAL, line no: 32, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,"partial",STRING_LITERAL, line no: 33, 0.0, 0.0, 0.0, 0.0, 0.0
+isEmpty,SIMPLE_NAME, line no: 142,"invalid",STRING_LITERAL, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0

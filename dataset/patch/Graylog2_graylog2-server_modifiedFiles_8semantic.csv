@@ -1,46 +1,854 @@
-compressMe,SIMPLE_NAME, line no: 50,ByteArrayInputStream,SIMPLE_NAME, line no: 23, 1.0, 0.02, 1.0, 0.7236842105263158
-new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,ByteArrayInputStream,SIMPLE_NAME, line no: 23, 1.0, 0.02, 1.0, 0.6055045871559633
-new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,what.getBytes(),METHOD_INVOCATION, line no: 50, 1.0, 1.0, 1.0, 0.6330275229357798
-what.getBytes(),METHOD_INVOCATION, line no: 50,getBytes,SIMPLE_NAME, line no: 35, 1.0, 0.6274509803921569, 1.0, 0.7272727272727273
-getBytes,SIMPLE_NAME, line no: 50,what.getBytes(),METHOD_INVOCATION, line no: 50, 0.9807692307692307, 0.9807692307692307, 1.0, 0.7532467532467533
-what.getBytes(),METHOD_INVOCATION, line no: 50,new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50, 0.9803921568627451, 0.9803921568627451, 1.0, 0.6330275229357798
-ByteArrayInputStream,SIMPLE_NAME, line no: 50,compressMe,SIMPLE_NAME, line no: 50, 0.98, 0.98, 1.0, 0.7763157894736842
-compressMe,SIMPLE_NAME, line no: 50,new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50, 0.98, 0.98, 1.0, 0.4954128440366973
-new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,compressMe,SIMPLE_NAME, line no: 50, 0.98, 0.98, 1.0, 0.4954128440366973
-ByteArrayInputStream,SIMPLE_NAME, line no: 50,compressMe,SIMPLE_NAME, line no: 50, 0.9615384615384616, 0.9615384615384616, 1.0, 0.7763157894736842
-ByteArrayInputStream,SIMPLE_NAME, line no: 50,new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50, 0.9615384615384616, 0.9615384615384616, 1.0, 0.6422018348623854
-ByteArrayInputStream,SIMPLE_NAME, line no: 50,new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50, 0.96, 0.96, 1.0, 0.6422018348623854
-getBytes,SIMPLE_NAME, line no: 50,toByteArray,SIMPLE_NAME, line no: 58, 0.9423076923076923, 0.9423076923076923, 1.0, 0.8805970149253731
-what.getBytes(),METHOD_INVOCATION, line no: 50,toByteArray,SIMPLE_NAME, line no: 58, 0.9411764705882353, 0.9411764705882353, 1.0, 0.6883116883116883
-getBytes,SIMPLE_NAME, line no: 50,compressedMessage.toByteArray(),METHOD_INVOCATION, line no: 58, 0.9230769230769231, 0.9230769230769231, 1.0, 0.5913978494623656
-getBytes,SIMPLE_NAME, line no: 50,data,SIMPLE_NAME, line no: 61, 0.8269230769230769, 0.019230769230769232, 1.0, 0.828125
-getBytes,SIMPLE_NAME, line no: 50,chunkData,SIMPLE_NAME, line no: 66, 0.8269230769230769, 0.8269230769230769, 1.0, 0.8153846153846154
-getBytes,SIMPLE_NAME, line no: 50,new byte[GELFMessageChunk.HEADER_TOTAL_LENGTH + data.length],ARRAY_CREATION, line no: 66, 0.8269230769230769, 0.8269230769230769, 1.0, 0.40336134453781514
-what.getBytes(),METHOD_INVOCATION, line no: 50,data,SIMPLE_NAME, line no: 61, 0.8235294117647058, 0.0196078431372549, 1.0, 0.6233766233766234
-what.getBytes(),METHOD_INVOCATION, line no: 50,chunkData,SIMPLE_NAME, line no: 66, 0.8235294117647058, 0.8235294117647058, 1.0, 0.6363636363636364
-what,SIMPLE_NAME, line no: 50,id,SIMPLE_NAME, line no: 61, 0.8076923076923077, 0.019230769230769232, 1.0, 0.8666666666666667
-getBytes,SIMPLE_NAME, line no: 50,id.getBytes(),METHOD_INVOCATION, line no: 62, 0.8076923076923077, 0.8076923076923077, 1.0, 0.72
-new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,what.getBytes("UTF-8"),METHOD_INVOCATION, line no: 35, 0.62, 0.62, 1.0, 0.6146788990825688
-what.getBytes(),METHOD_INVOCATION, line no: 50,input,SIMPLE_NAME, line no: 35, 0.6078431372549019, 0.6078431372549019, 1.0, 0.6363636363636364
-what.getBytes(),METHOD_INVOCATION, line no: 50,what.getBytes("UTF-8"),METHOD_INVOCATION, line no: 35, 0.6078431372549019, 0.6078431372549019, 1.0, 0.8928571428571429
-what.getBytes(),METHOD_INVOCATION, line no: 50,output,SIMPLE_NAME, line no: 38, 0.6078431372549019, 0.6078431372549019, 1.0, 0.6233766233766234
-what,SIMPLE_NAME, line no: 50,"UTF-8",STRING_LITERAL, line no: 35, 0.5961538461538461, 0.5961538461538461, 1.0, 0.7272727272727273
-getBytes,SIMPLE_NAME, line no: 50,input,SIMPLE_NAME, line no: 35, 0.5961538461538461, 0.5961538461538461, 1.0, 0.859375
-getBytes,SIMPLE_NAME, line no: 50,what.getBytes("UTF-8"),METHOD_INVOCATION, line no: 35, 0.5961538461538461, 0.5961538461538461, 1.0, 0.6666666666666666
-getBytes,SIMPLE_NAME, line no: 50,output,SIMPLE_NAME, line no: 38, 0.5961538461538461, 0.5961538461538461, 1.0, 0.84375
-getBytes,SIMPLE_NAME, line no: 50,new byte[4096],ARRAY_CREATION, line no: 38, 0.5769230769230769, 0.5769230769230769, 1.0, 0.6438356164383562
-what,SIMPLE_NAME, line no: 50,arg,SIMPLE_NAME, line no: 85, 0.25, 0.019230769230769232, 1.0, 0.9166666666666666
-getBytes,SIMPLE_NAME, line no: 50,arg.getBytes("UTF-8"),METHOD_INVOCATION, line no: 86, 0.23076923076923078, 0.23076923076923078, 1.0, 0.6506024096385542
-what,SIMPLE_NAME, line no: 50,String,SIMPLE_NAME, line no: 34, 0.21153846153846154, 0.019230769230769232, 1.0, 0.8548387096774194
-what,SIMPLE_NAME, line no: 50,format,SIMPLE_NAME, line no: 86, 0.21153846153846154, 0.21153846153846154, 1.0, 0.8709677419354839
-what,SIMPLE_NAME, line no: 50,String.format("%x" new BigInteger(arg.getBytes("UTF-8"))),METHOD_INVOCATION, line no: 86, 0.19230769230769232, 0.19230769230769232, 1.0, 0.4117647058823529
-what,SIMPLE_NAME, line no: 50,"%x",STRING_LITERAL, line no: 86, 0.19230769230769232, 0.19230769230769232, 1.0, 0.7301587301587301
-what,SIMPLE_NAME, line no: 50,"IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: " + id.getBytes().length,INFIX_EXPRESSION, line no: 63, 0.15384615384615385, 0.15384615384615385, 1.0, 0.27325581395348836
-what,SIMPLE_NAME, line no: 50,"IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: ",STRING_LITERAL, line no: 63, 0.15384615384615385, 0.15384615384615385, 1.0, 0.3197278911564626
-what.getBytes(),METHOD_INVOCATION, line no: 50,zlibCompress,SIMPLE_NAME, line no: 34, 0.0196078431372549, 0.0196078431372549, 1.0, 0.6233766233766234
-what.getBytes(),METHOD_INVOCATION, line no: 50,gzipCompress,SIMPLE_NAME, line no: 48, 0.0196078431372549, 0.0196078431372549, 1.0, 0.6363636363636364
-what.getBytes(),METHOD_INVOCATION, line no: 50,buildGELFMessageChunk,SIMPLE_NAME, line no: 61, 0.0196078431372549, 0.0196078431372549, 1.0, 0.6363636363636364
-what,SIMPLE_NAME, line no: 50,toHex,SIMPLE_NAME, line no: 85, 0.019230769230769232, 0.019230769230769232, 1.0, 0.9016393442622951
-getBytes,SIMPLE_NAME, line no: 50,zlibCompress,SIMPLE_NAME, line no: 34, 0.019230769230769232, 0.019230769230769232, 1.0, 0.7941176470588235
-getBytes,SIMPLE_NAME, line no: 50,gzipCompress,SIMPLE_NAME, line no: 48, 0.019230769230769232, 0.019230769230769232, 1.0, 0.8088235294117647
-getBytes,SIMPLE_NAME, line no: 50,buildGELFMessageChunk,SIMPLE_NAME, line no: 61, 0.019230769230769232, 0.019230769230769232, 1.0, 0.7012987012987013
+compressMe,SIMPLE_NAME, line no: 50,ByteArrayInputStream,SIMPLE_NAME, line no: 23, 2.0, 0.02, 1.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,ByteArrayInputStream,SIMPLE_NAME, line no: 23, 2.0, 0.02, 1.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,what.getBytes(),METHOD_INVOCATION, line no: 50, 2.0, 1.0, 1.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,getBytes,SIMPLE_NAME, line no: 35, 2.0, 0.6274509803921569, 1.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,what.getBytes(),METHOD_INVOCATION, line no: 50, 1.9807692307692308, 0.9807692307692307, 1.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50, 1.9803921568627452, 0.9803921568627451, 1.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,compressMe,SIMPLE_NAME, line no: 50, 1.98, 0.98, 1.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50, 1.98, 0.98, 1.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,compressMe,SIMPLE_NAME, line no: 50, 1.98, 0.98, 1.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,compressMe,SIMPLE_NAME, line no: 50, 1.9615384615384617, 0.9615384615384616, 1.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50, 1.9615384615384617, 0.9615384615384616, 1.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50, 1.96, 0.96, 1.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,toByteArray,SIMPLE_NAME, line no: 58, 1.9423076923076923, 0.9423076923076923, 1.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,toByteArray,SIMPLE_NAME, line no: 58, 1.9411764705882353, 0.9411764705882353, 1.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,compressedMessage.toByteArray(),METHOD_INVOCATION, line no: 58, 1.9230769230769231, 0.9230769230769231, 1.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,data,SIMPLE_NAME, line no: 61, 1.8269230769230769, 0.019230769230769232, 1.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,chunkData,SIMPLE_NAME, line no: 66, 1.8269230769230769, 0.8269230769230769, 1.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,new byte[GELFMessageChunk.HEADER_TOTAL_LENGTH + data.length],ARRAY_CREATION, line no: 66, 1.8269230769230769, 0.8269230769230769, 1.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,data,SIMPLE_NAME, line no: 61, 1.8235294117647058, 0.0196078431372549, 1.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,chunkData,SIMPLE_NAME, line no: 66, 1.8235294117647058, 0.8235294117647058, 1.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,id,SIMPLE_NAME, line no: 61, 1.8076923076923077, 0.019230769230769232, 1.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,id.getBytes(),METHOD_INVOCATION, line no: 62, 1.8076923076923077, 0.8076923076923077, 1.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,what.getBytes("UTF-8"),METHOD_INVOCATION, line no: 35, 1.62, 0.62, 1.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,input,SIMPLE_NAME, line no: 35, 1.607843137254902, 0.6078431372549019, 1.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,what.getBytes("UTF-8"),METHOD_INVOCATION, line no: 35, 1.607843137254902, 0.6078431372549019, 1.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,output,SIMPLE_NAME, line no: 38, 1.607843137254902, 0.6078431372549019, 1.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,"UTF-8",STRING_LITERAL, line no: 35, 1.5961538461538463, 0.5961538461538461, 1.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,input,SIMPLE_NAME, line no: 35, 1.5961538461538463, 0.5961538461538461, 1.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,what.getBytes("UTF-8"),METHOD_INVOCATION, line no: 35, 1.5961538461538463, 0.5961538461538461, 1.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,output,SIMPLE_NAME, line no: 38, 1.5961538461538463, 0.5961538461538461, 1.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,new byte[4096],ARRAY_CREATION, line no: 38, 1.5769230769230769, 0.5769230769230769, 1.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,arg,SIMPLE_NAME, line no: 85, 1.25, 0.019230769230769232, 1.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,arg.getBytes("UTF-8"),METHOD_INVOCATION, line no: 86, 1.2307692307692308, 0.23076923076923078, 1.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,String,SIMPLE_NAME, line no: 34, 1.2115384615384615, 0.019230769230769232, 1.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,format,SIMPLE_NAME, line no: 86, 1.2115384615384615, 0.21153846153846154, 1.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,String.format("%x" new BigInteger(arg.getBytes("UTF-8"))),METHOD_INVOCATION, line no: 86, 1.1923076923076923, 0.19230769230769232, 1.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,"%x",STRING_LITERAL, line no: 86, 1.1923076923076923, 0.19230769230769232, 1.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,"IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: " + id.getBytes().length,INFIX_EXPRESSION, line no: 63, 1.1538461538461537, 0.15384615384615385, 1.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,"IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: ",STRING_LITERAL, line no: 63, 1.1538461538461537, 0.15384615384615385, 1.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,zlibCompress,SIMPLE_NAME, line no: 34, 1.0196078431372548, 0.0196078431372549, 1.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,gzipCompress,SIMPLE_NAME, line no: 48, 1.0196078431372548, 0.0196078431372549, 1.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,buildGELFMessageChunk,SIMPLE_NAME, line no: 61, 1.0196078431372548, 0.0196078431372549, 1.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,toHex,SIMPLE_NAME, line no: 85, 1.0192307692307692, 0.019230769230769232, 1.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,zlibCompress,SIMPLE_NAME, line no: 34, 1.0192307692307692, 0.019230769230769232, 1.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,gzipCompress,SIMPLE_NAME, line no: 48, 1.0192307692307692, 0.019230769230769232, 1.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,buildGELFMessageChunk,SIMPLE_NAME, line no: 61, 1.0192307692307692, 0.019230769230769232, 1.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java.io.ByteArrayInputStream,QUALIFIED_NAME, line no: 23, 1.0, 0.0, 1.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,ByteArrayOutputStream,SIMPLE_NAME, line no: 24, 1.0, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,GZIPOutputStream,SIMPLE_NAME, line no: 29, 1.0, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,java.io.ByteArrayInputStream,QUALIFIED_NAME, line no: 23, 1.0, 0.0, 1.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,ByteArrayOutputStream,SIMPLE_NAME, line no: 24, 1.0, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,GZIPOutputStream,SIMPLE_NAME, line no: 29, 1.0, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,what,SIMPLE_NAME, line no: 34, 1.0, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,getBytes,SIMPLE_NAME, line no: 35, 1.0, 0.64, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,compressedMessage,SIMPLE_NAME, line no: 51, 1.0, 1.0, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,out,SIMPLE_NAME, line no: 52, 1.0, 1.0, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,ByteArrayOutputStream,SIMPLE_NAME, line no: 24, 1.0, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,GZIPOutputStream,SIMPLE_NAME, line no: 29, 1.0, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,what,SIMPLE_NAME, line no: 34, 1.0, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,getBytes,SIMPLE_NAME, line no: 35, 1.0, 0.64, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,compressedMessage,SIMPLE_NAME, line no: 51, 1.0, 0.98, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,new ByteArrayOutputStream(),CLASS_INSTANCE_CREATION, line no: 51, 1.0, 1.0, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,new GZIPOutputStream(compressedMessage),CLASS_INSTANCE_CREATION, line no: 52, 1.0, 1.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java.io.ByteArrayInputStream,QUALIFIED_NAME, line no: 23, 1.0, 0.0, 1.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,ByteArrayOutputStream,SIMPLE_NAME, line no: 24, 1.0, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,GZIPOutputStream,SIMPLE_NAME, line no: 29, 1.0, 0.019230769230769232, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,what,SIMPLE_NAME, line no: 34, 1.0, 0.0196078431372549, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,getBytes,SIMPLE_NAME, line no: 35, 1.0, 0.6153846153846154, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,what,SIMPLE_NAME, line no: 34, 1.0, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,what,SIMPLE_NAME, line no: 34, 0.9807692307692307, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,getBytes,SIMPLE_NAME, line no: 35, 0.9807692307692307, 0.6153846153846154, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,compressedMessage,SIMPLE_NAME, line no: 51, 0.9807692307692307, 0.9615384615384616, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,ByteArrayInputStream,SIMPLE_NAME, line no: 23, 0.9807692307692307, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,ByteArrayOutputStream,SIMPLE_NAME, line no: 24, 0.9807692307692307, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,GZIPOutputStream,SIMPLE_NAME, line no: 29, 0.9807692307692307, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,what.getBytes(),METHOD_INVOCATION, line no: 50, 0.9807692307692307, 0.9807692307692307, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,compressedMessage,SIMPLE_NAME, line no: 51, 0.9807692307692307, 0.9615384615384616, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,ByteArrayInputStream,SIMPLE_NAME, line no: 23, 0.9807692307692307, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,ByteArrayOutputStream,SIMPLE_NAME, line no: 24, 0.9807692307692307, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,GZIPOutputStream,SIMPLE_NAME, line no: 29, 0.9807692307692307, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,compressedMessage,SIMPLE_NAME, line no: 51, 0.9807692307692307, 0.9615384615384616, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,ByteArrayInputStream,SIMPLE_NAME, line no: 23, 0.9803921568627451, 0.0196078431372549, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,ByteArrayOutputStream,SIMPLE_NAME, line no: 24, 0.9803921568627451, 0.0196078431372549, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,GZIPOutputStream,SIMPLE_NAME, line no: 29, 0.9803921568627451, 0.0196078431372549, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,compressedMessage,SIMPLE_NAME, line no: 51, 0.9803921568627451, 0.9607843137254902, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,new ByteArrayOutputStream(),CLASS_INSTANCE_CREATION, line no: 51, 0.9803921568627451, 0.9803921568627451, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,new GZIPOutputStream(compressedMessage),CLASS_INSTANCE_CREATION, line no: 52, 0.9803921568627451, 0.9803921568627451, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,what,SIMPLE_NAME, line no: 34, 0.98, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,getBytes,SIMPLE_NAME, line no: 35, 0.98, 0.62, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,compressedMessage,SIMPLE_NAME, line no: 51, 0.98, 0.98, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,out,SIMPLE_NAME, line no: 52, 0.98, 0.98, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,what.getBytes(),METHOD_INVOCATION, line no: 50, 0.98, 0.98, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,new ByteArrayOutputStream(),CLASS_INSTANCE_CREATION, line no: 51, 0.98, 0.98, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,new GZIPOutputStream(compressedMessage),CLASS_INSTANCE_CREATION, line no: 52, 0.98, 0.98, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,c,SIMPLE_NAME, line no: 53, 0.98, 0.98, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,read,SIMPLE_NAME, line no: 53, 0.98, 0.98, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,out,SIMPLE_NAME, line no: 52, 0.98, 0.98, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,what.getBytes(),METHOD_INVOCATION, line no: 50, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,new ByteArrayOutputStream(),CLASS_INSTANCE_CREATION, line no: 51, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,out,SIMPLE_NAME, line no: 52, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,new GZIPOutputStream(compressedMessage),CLASS_INSTANCE_CREATION, line no: 52, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,compressMe,SIMPLE_NAME, line no: 50, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,new ByteArrayOutputStream(),CLASS_INSTANCE_CREATION, line no: 51, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,out,SIMPLE_NAME, line no: 52, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,new GZIPOutputStream(compressedMessage),CLASS_INSTANCE_CREATION, line no: 52, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,read,SIMPLE_NAME, line no: 53, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,compressMe,SIMPLE_NAME, line no: 50, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,new ByteArrayOutputStream(),CLASS_INSTANCE_CREATION, line no: 51, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,out,SIMPLE_NAME, line no: 52, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,new GZIPOutputStream(compressedMessage),CLASS_INSTANCE_CREATION, line no: 52, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,read,SIMPLE_NAME, line no: 53, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,compressMe,SIMPLE_NAME, line no: 50, 0.9607843137254902, 0.9607843137254902, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,out,SIMPLE_NAME, line no: 52, 0.9607843137254902, 0.9607843137254902, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,compressMe.read(),METHOD_INVOCATION, line no: 53, 0.9607843137254902, 0.9607843137254902, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,read,SIMPLE_NAME, line no: 53, 0.9607843137254902, 0.9607843137254902, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,what.getBytes(),METHOD_INVOCATION, line no: 50, 0.96, 0.96, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,new ByteArrayOutputStream(),CLASS_INSTANCE_CREATION, line no: 51, 0.96, 0.96, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,new GZIPOutputStream(compressedMessage),CLASS_INSTANCE_CREATION, line no: 52, 0.96, 0.96, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,c,SIMPLE_NAME, line no: 53, 0.96, 0.96, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,read,SIMPLE_NAME, line no: 53, 0.96, 0.96, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,close,SIMPLE_NAME, line no: 56, 0.96, 0.96, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,toByteArray,SIMPLE_NAME, line no: 58, 0.96, 0.96, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,compressMe.read(),METHOD_INVOCATION, line no: 53, 0.96, 0.96, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,close,SIMPLE_NAME, line no: 56, 0.96, 0.96, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,toByteArray,SIMPLE_NAME, line no: 58, 0.96, 0.96, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,c,SIMPLE_NAME, line no: 53, 0.96, 0.96, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,compressMe.read(),METHOD_INVOCATION, line no: 53, 0.96, 0.96, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,read,SIMPLE_NAME, line no: 53, 0.96, 0.96, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,c,SIMPLE_NAME, line no: 53, 0.9423076923076923, 0.9423076923076923, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,read,SIMPLE_NAME, line no: 53, 0.9423076923076923, 0.9423076923076923, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,c,SIMPLE_NAME, line no: 53, 0.9423076923076923, 0.9423076923076923, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,compressMe.read(),METHOD_INVOCATION, line no: 53, 0.9423076923076923, 0.9423076923076923, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,close,SIMPLE_NAME, line no: 56, 0.9423076923076923, 0.9423076923076923, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,toByteArray,SIMPLE_NAME, line no: 58, 0.9423076923076923, 0.9423076923076923, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,c,SIMPLE_NAME, line no: 53, 0.9423076923076923, 0.9423076923076923, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,compressMe.read(),METHOD_INVOCATION, line no: 53, 0.9423076923076923, 0.9423076923076923, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,close,SIMPLE_NAME, line no: 56, 0.9423076923076923, 0.9423076923076923, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,c,SIMPLE_NAME, line no: 53, 0.9411764705882353, 0.9411764705882353, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,out.close(),METHOD_INVOCATION, line no: 56, 0.9411764705882353, 0.9411764705882353, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,close,SIMPLE_NAME, line no: 56, 0.9411764705882353, 0.9411764705882353, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,compressedMessage.toByteArray(),METHOD_INVOCATION, line no: 58, 0.9411764705882353, 0.9411764705882353, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,int c=compressMe.read(),VARIABLE_DECLARATION_EXPRESSION, line no: 53, 0.94, 0.94, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,compressMe.read(),METHOD_INVOCATION, line no: 53, 0.94, 0.94, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,c != -1,INFIX_EXPRESSION, line no: 53, 0.94, 0.94, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,-1,PREFIX_EXPRESSION, line no: 53, 0.94, 0.94, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,1,NUMBER_LITERAL, line no: 53, 0.94, 0.94, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,c=compressMe.read(),ASSIGNMENT, line no: 53, 0.94, 0.94, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,out.close(),METHOD_INVOCATION, line no: 56, 0.94, 0.94, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,compressedMessage.toByteArray(),METHOD_INVOCATION, line no: 58, 0.94, 0.94, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,int c=compressMe.read(),VARIABLE_DECLARATION_EXPRESSION, line no: 53, 0.94, 0.94, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,c != -1,INFIX_EXPRESSION, line no: 53, 0.94, 0.94, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,-1,PREFIX_EXPRESSION, line no: 53, 0.94, 0.94, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,1,NUMBER_LITERAL, line no: 53, 0.94, 0.94, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,c=compressMe.read(),ASSIGNMENT, line no: 53, 0.94, 0.94, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,out.close(),METHOD_INVOCATION, line no: 56, 0.94, 0.94, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,compressedMessage.toByteArray(),METHOD_INVOCATION, line no: 58, 0.94, 0.94, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,int c=compressMe.read(),VARIABLE_DECLARATION_EXPRESSION, line no: 53, 0.94, 0.94, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,c != -1,INFIX_EXPRESSION, line no: 53, 0.94, 0.94, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,-1,PREFIX_EXPRESSION, line no: 53, 0.94, 0.94, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,1,NUMBER_LITERAL, line no: 53, 0.94, 0.94, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,c=compressMe.read(),ASSIGNMENT, line no: 53, 0.94, 0.94, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,out.close(),METHOD_INVOCATION, line no: 56, 0.94, 0.94, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,close,SIMPLE_NAME, line no: 56, 0.94, 0.94, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,compressedMessage.toByteArray(),METHOD_INVOCATION, line no: 58, 0.94, 0.94, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,toByteArray,SIMPLE_NAME, line no: 58, 0.94, 0.94, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,compressMe.read(),METHOD_INVOCATION, line no: 53, 0.9230769230769231, 0.9230769230769231, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,close,SIMPLE_NAME, line no: 56, 0.9230769230769231, 0.9230769230769231, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,toByteArray,SIMPLE_NAME, line no: 58, 0.9230769230769231, 0.9230769230769231, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,out.close(),METHOD_INVOCATION, line no: 56, 0.9230769230769231, 0.9230769230769231, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,compressedMessage.toByteArray(),METHOD_INVOCATION, line no: 58, 0.9230769230769231, 0.9230769230769231, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,out.close(),METHOD_INVOCATION, line no: 56, 0.9230769230769231, 0.9230769230769231, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,int c=compressMe.read(),VARIABLE_DECLARATION_EXPRESSION, line no: 53, 0.9215686274509803, 0.9215686274509803, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,c != -1,INFIX_EXPRESSION, line no: 53, 0.9215686274509803, 0.9215686274509803, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,-1,PREFIX_EXPRESSION, line no: 53, 0.9215686274509803, 0.9215686274509803, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,1,NUMBER_LITERAL, line no: 53, 0.9215686274509803, 0.9215686274509803, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,c=compressMe.read(),ASSIGNMENT, line no: 53, 0.9215686274509803, 0.9215686274509803, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,int c=compressMe.read(),VARIABLE_DECLARATION_EXPRESSION, line no: 53, 0.9038461538461539, 0.9038461538461539, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,c != -1,INFIX_EXPRESSION, line no: 53, 0.9038461538461539, 0.9038461538461539, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,-1,PREFIX_EXPRESSION, line no: 53, 0.9038461538461539, 0.9038461538461539, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,1,NUMBER_LITERAL, line no: 53, 0.9038461538461539, 0.9038461538461539, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,c=compressMe.read(),ASSIGNMENT, line no: 53, 0.9038461538461539, 0.9038461538461539, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,out.close(),METHOD_INVOCATION, line no: 56, 0.9038461538461539, 0.9038461538461539, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,compressedMessage.toByteArray(),METHOD_INVOCATION, line no: 58, 0.9038461538461539, 0.9038461538461539, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,int c=compressMe.read(),VARIABLE_DECLARATION_EXPRESSION, line no: 53, 0.9038461538461539, 0.9038461538461539, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,c != -1,INFIX_EXPRESSION, line no: 53, 0.9038461538461539, 0.9038461538461539, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,-1,PREFIX_EXPRESSION, line no: 53, 0.9038461538461539, 0.9038461538461539, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,1,NUMBER_LITERAL, line no: 53, 0.9038461538461539, 0.9038461538461539, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,c=compressMe.read(),ASSIGNMENT, line no: 53, 0.9038461538461539, 0.9038461538461539, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,int c=compressMe.read(),VARIABLE_DECLARATION_EXPRESSION, line no: 53, 0.9038461538461539, 0.9038461538461539, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,c != -1,INFIX_EXPRESSION, line no: 53, 0.9038461538461539, 0.9038461538461539, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,-1,PREFIX_EXPRESSION, line no: 53, 0.9038461538461539, 0.9038461538461539, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,1,NUMBER_LITERAL, line no: 53, 0.9038461538461539, 0.9038461538461539, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,c=compressMe.read(),ASSIGNMENT, line no: 53, 0.9038461538461539, 0.9038461538461539, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,GELFMessageChunk,SIMPLE_NAME, line no: 30, 0.86, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,data,SIMPLE_NAME, line no: 61, 0.86, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,length,SIMPLE_NAME, line no: 62, 0.86, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,chunkData,SIMPLE_NAME, line no: 66, 0.86, 0.86, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,new byte[GELFMessageChunk.HEADER_TOTAL_LENGTH + data.length],ARRAY_CREATION, line no: 66, 0.86, 0.86, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,GELFMessageChunk.HEADER_TOTAL_LENGTH + data.length,INFIX_EXPRESSION, line no: 66, 0.86, 0.86, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,GELFMessageChunk.HEADER_TOTAL_LENGTH,QUALIFIED_NAME, line no: 66, 0.86, 0.86, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,HEADER_TOTAL_LENGTH,SIMPLE_NAME, line no: 66, 0.86, 0.86, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,data.length,QUALIFIED_NAME, line no: 66, 0.86, 0.86, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,GELFMessageChunk,SIMPLE_NAME, line no: 30, 0.84, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,data,SIMPLE_NAME, line no: 61, 0.84, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,length,SIMPLE_NAME, line no: 62, 0.84, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,chunkData,SIMPLE_NAME, line no: 66, 0.84, 0.84, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,new byte[GELFMessageChunk.HEADER_TOTAL_LENGTH + data.length],ARRAY_CREATION, line no: 66, 0.84, 0.84, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,GELFMessageChunk.HEADER_TOTAL_LENGTH + data.length,INFIX_EXPRESSION, line no: 66, 0.84, 0.84, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,GELFMessageChunk.HEADER_TOTAL_LENGTH,QUALIFIED_NAME, line no: 66, 0.84, 0.84, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,HEADER_TOTAL_LENGTH,SIMPLE_NAME, line no: 66, 0.84, 0.84, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,data.length,QUALIFIED_NAME, line no: 66, 0.84, 0.84, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,GELFMessageChunk,SIMPLE_NAME, line no: 30, 0.84, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,data,SIMPLE_NAME, line no: 61, 0.84, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,length,SIMPLE_NAME, line no: 62, 0.84, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,chunkData,SIMPLE_NAME, line no: 66, 0.84, 0.84, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,new byte[GELFMessageChunk.HEADER_TOTAL_LENGTH + data.length],ARRAY_CREATION, line no: 66, 0.84, 0.84, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,GELFMessageChunk.HEADER_TOTAL_LENGTH + data.length,INFIX_EXPRESSION, line no: 66, 0.84, 0.84, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,GELFMessageChunk.HEADER_TOTAL_LENGTH,QUALIFIED_NAME, line no: 66, 0.84, 0.84, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,HEADER_TOTAL_LENGTH,SIMPLE_NAME, line no: 66, 0.84, 0.84, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,data.length,QUALIFIED_NAME, line no: 66, 0.84, 0.84, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,GELFMessageChunk,SIMPLE_NAME, line no: 30, 0.8269230769230769, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,data,SIMPLE_NAME, line no: 61, 0.8269230769230769, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,length,SIMPLE_NAME, line no: 62, 0.8269230769230769, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,chunkData,SIMPLE_NAME, line no: 66, 0.8269230769230769, 0.8269230769230769, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,new byte[GELFMessageChunk.HEADER_TOTAL_LENGTH + data.length],ARRAY_CREATION, line no: 66, 0.8269230769230769, 0.8269230769230769, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,GELFMessageChunk.HEADER_TOTAL_LENGTH + data.length,INFIX_EXPRESSION, line no: 66, 0.8269230769230769, 0.8269230769230769, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,GELFMessageChunk.HEADER_TOTAL_LENGTH,QUALIFIED_NAME, line no: 66, 0.8269230769230769, 0.8269230769230769, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,HEADER_TOTAL_LENGTH,SIMPLE_NAME, line no: 66, 0.8269230769230769, 0.8269230769230769, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,data.length,QUALIFIED_NAME, line no: 66, 0.8269230769230769, 0.8269230769230769, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,GELFMessageChunk,SIMPLE_NAME, line no: 30, 0.8269230769230769, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,data,SIMPLE_NAME, line no: 61, 0.8269230769230769, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,length,SIMPLE_NAME, line no: 62, 0.8269230769230769, 0.7884615384615384, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,chunkData,SIMPLE_NAME, line no: 66, 0.8269230769230769, 0.8269230769230769, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,new byte[GELFMessageChunk.HEADER_TOTAL_LENGTH + data.length],ARRAY_CREATION, line no: 66, 0.8269230769230769, 0.8269230769230769, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,GELFMessageChunk.HEADER_TOTAL_LENGTH + data.length,INFIX_EXPRESSION, line no: 66, 0.8269230769230769, 0.8269230769230769, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,GELFMessageChunk.HEADER_TOTAL_LENGTH,QUALIFIED_NAME, line no: 66, 0.8269230769230769, 0.8269230769230769, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,HEADER_TOTAL_LENGTH,SIMPLE_NAME, line no: 66, 0.8269230769230769, 0.8269230769230769, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,data.length,QUALIFIED_NAME, line no: 66, 0.8269230769230769, 0.8269230769230769, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,GELFMessageChunk,SIMPLE_NAME, line no: 30, 0.8269230769230769, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,length,SIMPLE_NAME, line no: 62, 0.8269230769230769, 0.7884615384615384, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,GELFMessageChunk.HEADER_TOTAL_LENGTH + data.length,INFIX_EXPRESSION, line no: 66, 0.8269230769230769, 0.8269230769230769, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,GELFMessageChunk.HEADER_TOTAL_LENGTH,QUALIFIED_NAME, line no: 66, 0.8269230769230769, 0.8269230769230769, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,HEADER_TOTAL_LENGTH,SIMPLE_NAME, line no: 66, 0.8269230769230769, 0.8269230769230769, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,data.length,QUALIFIED_NAME, line no: 66, 0.8269230769230769, 0.8269230769230769, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,GELFMessageChunk,SIMPLE_NAME, line no: 30, 0.8235294117647058, 0.0196078431372549, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,length,SIMPLE_NAME, line no: 62, 0.8235294117647058, 0.7843137254901961, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,new byte[GELFMessageChunk.HEADER_TOTAL_LENGTH + data.length],ARRAY_CREATION, line no: 66, 0.8235294117647058, 0.8235294117647058, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,GELFMessageChunk.HEADER_TOTAL_LENGTH + data.length,INFIX_EXPRESSION, line no: 66, 0.8235294117647058, 0.8235294117647058, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,GELFMessageChunk.HEADER_TOTAL_LENGTH,QUALIFIED_NAME, line no: 66, 0.8235294117647058, 0.8235294117647058, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,HEADER_TOTAL_LENGTH,SIMPLE_NAME, line no: 66, 0.8235294117647058, 0.8235294117647058, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,data.length,QUALIFIED_NAME, line no: 66, 0.8235294117647058, 0.8235294117647058, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,id,SIMPLE_NAME, line no: 61, 0.82, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,seqNum,SIMPLE_NAME, line no: 61, 0.82, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,seqCnt,SIMPLE_NAME, line no: 61, 0.82, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,id.getBytes().length != 8,INFIX_EXPRESSION, line no: 62, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,id.getBytes().length,FIELD_ACCESS, line no: 62, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,id.getBytes(),METHOD_INVOCATION, line no: 62, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,8,NUMBER_LITERAL, line no: 62, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,chunkData[0]=(byte)0x1e,ASSIGNMENT, line no: 67, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,chunkData[0],ARRAY_ACCESS, line no: 67, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,0,NUMBER_LITERAL, line no: 67, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,(byte)0x1e,CAST_EXPRESSION, line no: 67, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,0x1e,NUMBER_LITERAL, line no: 67, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,chunkData[1]=(byte)0x0f,ASSIGNMENT, line no: 68, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,chunkData[1],ARRAY_ACCESS, line no: 68, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,(byte)0x0f,CAST_EXPRESSION, line no: 68, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,0x0f,NUMBER_LITERAL, line no: 68, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,System.arraycopy(id.getBytes() 0 chunkData 2 id.getBytes().length),METHOD_INVOCATION, line no: 71, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,System,SIMPLE_NAME, line no: 71, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,arraycopy,SIMPLE_NAME, line no: 71, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,2,NUMBER_LITERAL, line no: 71, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,chunkData[10]=(byte)seqNum,ASSIGNMENT, line no: 74, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,chunkData[10],ARRAY_ACCESS, line no: 74, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,10,NUMBER_LITERAL, line no: 74, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,(byte)seqNum,CAST_EXPRESSION, line no: 74, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,chunkData[11]=(byte)seqCnt,ASSIGNMENT, line no: 77, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,chunkData[11],ARRAY_ACCESS, line no: 77, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,11,NUMBER_LITERAL, line no: 77, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,(byte)seqCnt,CAST_EXPRESSION, line no: 77, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,System.arraycopy(data 0 chunkData 12 data.length),METHOD_INVOCATION, line no: 80, 0.82, 0.82, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,12,NUMBER_LITERAL, line no: 80, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,id,SIMPLE_NAME, line no: 61, 0.82, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,seqNum,SIMPLE_NAME, line no: 61, 0.82, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,seqCnt,SIMPLE_NAME, line no: 61, 0.82, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,id.getBytes().length != 8,INFIX_EXPRESSION, line no: 62, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,id.getBytes().length,FIELD_ACCESS, line no: 62, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,id.getBytes(),METHOD_INVOCATION, line no: 62, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,8,NUMBER_LITERAL, line no: 62, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,chunkData[0]=(byte)0x1e,ASSIGNMENT, line no: 67, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,chunkData[0],ARRAY_ACCESS, line no: 67, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,0,NUMBER_LITERAL, line no: 67, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,(byte)0x1e,CAST_EXPRESSION, line no: 67, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,0x1e,NUMBER_LITERAL, line no: 67, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,chunkData[1]=(byte)0x0f,ASSIGNMENT, line no: 68, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,chunkData[1],ARRAY_ACCESS, line no: 68, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,(byte)0x0f,CAST_EXPRESSION, line no: 68, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,0x0f,NUMBER_LITERAL, line no: 68, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,System.arraycopy(id.getBytes() 0 chunkData 2 id.getBytes().length),METHOD_INVOCATION, line no: 71, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,System,SIMPLE_NAME, line no: 71, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,arraycopy,SIMPLE_NAME, line no: 71, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,2,NUMBER_LITERAL, line no: 71, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,chunkData[10]=(byte)seqNum,ASSIGNMENT, line no: 74, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,chunkData[10],ARRAY_ACCESS, line no: 74, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,10,NUMBER_LITERAL, line no: 74, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,(byte)seqNum,CAST_EXPRESSION, line no: 74, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,chunkData[11]=(byte)seqCnt,ASSIGNMENT, line no: 77, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,chunkData[11],ARRAY_ACCESS, line no: 77, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,11,NUMBER_LITERAL, line no: 77, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,(byte)seqCnt,CAST_EXPRESSION, line no: 77, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,System.arraycopy(data 0 chunkData 12 data.length),METHOD_INVOCATION, line no: 80, 0.82, 0.82, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,12,NUMBER_LITERAL, line no: 80, 0.82, 0.82, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,id.getBytes().length,FIELD_ACCESS, line no: 62, 0.8076923076923077, 0.7884615384615384, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,id.getBytes(),METHOD_INVOCATION, line no: 62, 0.8076923076923077, 0.8076923076923077, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,0,NUMBER_LITERAL, line no: 67, 0.8076923076923077, 0.7884615384615384, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,System.arraycopy(id.getBytes() 0 chunkData 2 id.getBytes().length),METHOD_INVOCATION, line no: 71, 0.8076923076923077, 0.8076923076923077, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,System,SIMPLE_NAME, line no: 71, 0.8076923076923077, 0.8076923076923077, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,arraycopy,SIMPLE_NAME, line no: 71, 0.8076923076923077, 0.8076923076923077, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,2,NUMBER_LITERAL, line no: 71, 0.8076923076923077, 0.8076923076923077, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,System.arraycopy(data 0 chunkData 12 data.length),METHOD_INVOCATION, line no: 80, 0.8076923076923077, 0.8076923076923077, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,12,NUMBER_LITERAL, line no: 80, 0.8076923076923077, 0.8076923076923077, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,id,SIMPLE_NAME, line no: 61, 0.8076923076923077, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,id.getBytes().length,FIELD_ACCESS, line no: 62, 0.8076923076923077, 0.7884615384615384, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,0,NUMBER_LITERAL, line no: 67, 0.8076923076923077, 0.7884615384615384, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,System.arraycopy(id.getBytes() 0 chunkData 2 id.getBytes().length),METHOD_INVOCATION, line no: 71, 0.8076923076923077, 0.8076923076923077, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,System,SIMPLE_NAME, line no: 71, 0.8076923076923077, 0.8076923076923077, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,arraycopy,SIMPLE_NAME, line no: 71, 0.8076923076923077, 0.8076923076923077, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,2,NUMBER_LITERAL, line no: 71, 0.8076923076923077, 0.8076923076923077, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,System.arraycopy(data 0 chunkData 12 data.length),METHOD_INVOCATION, line no: 80, 0.8076923076923077, 0.8076923076923077, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,12,NUMBER_LITERAL, line no: 80, 0.8076923076923077, 0.8076923076923077, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,id,SIMPLE_NAME, line no: 61, 0.803921568627451, 0.0196078431372549, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,id.getBytes().length,FIELD_ACCESS, line no: 62, 0.803921568627451, 0.7843137254901961, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,id.getBytes(),METHOD_INVOCATION, line no: 62, 0.803921568627451, 0.803921568627451, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,0,NUMBER_LITERAL, line no: 67, 0.803921568627451, 0.7843137254901961, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,System.arraycopy(id.getBytes() 0 chunkData 2 id.getBytes().length),METHOD_INVOCATION, line no: 71, 0.803921568627451, 0.803921568627451, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,System,SIMPLE_NAME, line no: 71, 0.803921568627451, 0.803921568627451, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,arraycopy,SIMPLE_NAME, line no: 71, 0.803921568627451, 0.803921568627451, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,2,NUMBER_LITERAL, line no: 71, 0.803921568627451, 0.803921568627451, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,System.arraycopy(data 0 chunkData 12 data.length),METHOD_INVOCATION, line no: 80, 0.803921568627451, 0.803921568627451, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,12,NUMBER_LITERAL, line no: 80, 0.803921568627451, 0.803921568627451, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,id,SIMPLE_NAME, line no: 61, 0.8, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,seqNum,SIMPLE_NAME, line no: 61, 0.8, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,seqCnt,SIMPLE_NAME, line no: 61, 0.8, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,id.getBytes().length != 8,INFIX_EXPRESSION, line no: 62, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,id.getBytes().length,FIELD_ACCESS, line no: 62, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,id.getBytes(),METHOD_INVOCATION, line no: 62, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,8,NUMBER_LITERAL, line no: 62, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,chunkData[0]=(byte)0x1e,ASSIGNMENT, line no: 67, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,chunkData[0],ARRAY_ACCESS, line no: 67, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,0,NUMBER_LITERAL, line no: 67, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,(byte)0x1e,CAST_EXPRESSION, line no: 67, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,0x1e,NUMBER_LITERAL, line no: 67, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,chunkData[1]=(byte)0x0f,ASSIGNMENT, line no: 68, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,chunkData[1],ARRAY_ACCESS, line no: 68, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,(byte)0x0f,CAST_EXPRESSION, line no: 68, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,0x0f,NUMBER_LITERAL, line no: 68, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,System.arraycopy(id.getBytes() 0 chunkData 2 id.getBytes().length),METHOD_INVOCATION, line no: 71, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,System,SIMPLE_NAME, line no: 71, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,arraycopy,SIMPLE_NAME, line no: 71, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,2,NUMBER_LITERAL, line no: 71, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,chunkData[10]=(byte)seqNum,ASSIGNMENT, line no: 74, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,chunkData[10],ARRAY_ACCESS, line no: 74, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,10,NUMBER_LITERAL, line no: 74, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,(byte)seqNum,CAST_EXPRESSION, line no: 74, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,chunkData[11]=(byte)seqCnt,ASSIGNMENT, line no: 77, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,chunkData[11],ARRAY_ACCESS, line no: 77, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,11,NUMBER_LITERAL, line no: 77, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,(byte)seqCnt,CAST_EXPRESSION, line no: 77, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,System.arraycopy(data 0 chunkData 12 data.length),METHOD_INVOCATION, line no: 80, 0.8, 0.8, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,12,NUMBER_LITERAL, line no: 80, 0.8, 0.8, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,id,SIMPLE_NAME, line no: 61, 0.7884615384615384, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,seqNum,SIMPLE_NAME, line no: 61, 0.7884615384615384, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,seqCnt,SIMPLE_NAME, line no: 61, 0.7884615384615384, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,id.getBytes().length != 8,INFIX_EXPRESSION, line no: 62, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,id.getBytes().length,FIELD_ACCESS, line no: 62, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,id.getBytes(),METHOD_INVOCATION, line no: 62, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,8,NUMBER_LITERAL, line no: 62, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,chunkData[0]=(byte)0x1e,ASSIGNMENT, line no: 67, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,chunkData[0],ARRAY_ACCESS, line no: 67, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,0,NUMBER_LITERAL, line no: 67, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,(byte)0x1e,CAST_EXPRESSION, line no: 67, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,0x1e,NUMBER_LITERAL, line no: 67, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,chunkData[1]=(byte)0x0f,ASSIGNMENT, line no: 68, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,chunkData[1],ARRAY_ACCESS, line no: 68, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,(byte)0x0f,CAST_EXPRESSION, line no: 68, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,0x0f,NUMBER_LITERAL, line no: 68, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,System.arraycopy(id.getBytes() 0 chunkData 2 id.getBytes().length),METHOD_INVOCATION, line no: 71, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,System,SIMPLE_NAME, line no: 71, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,arraycopy,SIMPLE_NAME, line no: 71, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,2,NUMBER_LITERAL, line no: 71, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,chunkData[10]=(byte)seqNum,ASSIGNMENT, line no: 74, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,chunkData[10],ARRAY_ACCESS, line no: 74, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,10,NUMBER_LITERAL, line no: 74, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,(byte)seqNum,CAST_EXPRESSION, line no: 74, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,chunkData[11]=(byte)seqCnt,ASSIGNMENT, line no: 77, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,chunkData[11],ARRAY_ACCESS, line no: 77, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,11,NUMBER_LITERAL, line no: 77, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,(byte)seqCnt,CAST_EXPRESSION, line no: 77, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,System.arraycopy(data 0 chunkData 12 data.length),METHOD_INVOCATION, line no: 80, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,12,NUMBER_LITERAL, line no: 80, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,seqNum,SIMPLE_NAME, line no: 61, 0.7884615384615384, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,seqCnt,SIMPLE_NAME, line no: 61, 0.7884615384615384, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,id.getBytes().length != 8,INFIX_EXPRESSION, line no: 62, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,8,NUMBER_LITERAL, line no: 62, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,chunkData[0]=(byte)0x1e,ASSIGNMENT, line no: 67, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,chunkData[0],ARRAY_ACCESS, line no: 67, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,(byte)0x1e,CAST_EXPRESSION, line no: 67, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,0x1e,NUMBER_LITERAL, line no: 67, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,chunkData[1]=(byte)0x0f,ASSIGNMENT, line no: 68, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,chunkData[1],ARRAY_ACCESS, line no: 68, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,(byte)0x0f,CAST_EXPRESSION, line no: 68, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,0x0f,NUMBER_LITERAL, line no: 68, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,chunkData[10]=(byte)seqNum,ASSIGNMENT, line no: 74, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,chunkData[10],ARRAY_ACCESS, line no: 74, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,10,NUMBER_LITERAL, line no: 74, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,(byte)seqNum,CAST_EXPRESSION, line no: 74, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,chunkData[11]=(byte)seqCnt,ASSIGNMENT, line no: 77, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,chunkData[11],ARRAY_ACCESS, line no: 77, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,11,NUMBER_LITERAL, line no: 77, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,(byte)seqCnt,CAST_EXPRESSION, line no: 77, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,seqNum,SIMPLE_NAME, line no: 61, 0.7884615384615384, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,seqCnt,SIMPLE_NAME, line no: 61, 0.7884615384615384, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,id.getBytes().length != 8,INFIX_EXPRESSION, line no: 62, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,8,NUMBER_LITERAL, line no: 62, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,chunkData[0]=(byte)0x1e,ASSIGNMENT, line no: 67, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,chunkData[0],ARRAY_ACCESS, line no: 67, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,(byte)0x1e,CAST_EXPRESSION, line no: 67, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,0x1e,NUMBER_LITERAL, line no: 67, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,chunkData[1]=(byte)0x0f,ASSIGNMENT, line no: 68, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,chunkData[1],ARRAY_ACCESS, line no: 68, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,(byte)0x0f,CAST_EXPRESSION, line no: 68, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,0x0f,NUMBER_LITERAL, line no: 68, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,chunkData[10]=(byte)seqNum,ASSIGNMENT, line no: 74, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,chunkData[10],ARRAY_ACCESS, line no: 74, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,10,NUMBER_LITERAL, line no: 74, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,(byte)seqNum,CAST_EXPRESSION, line no: 74, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,chunkData[11]=(byte)seqCnt,ASSIGNMENT, line no: 77, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,chunkData[11],ARRAY_ACCESS, line no: 77, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,11,NUMBER_LITERAL, line no: 77, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,(byte)seqCnt,CAST_EXPRESSION, line no: 77, 0.7884615384615384, 0.7884615384615384, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,seqNum,SIMPLE_NAME, line no: 61, 0.7843137254901961, 0.0196078431372549, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,seqCnt,SIMPLE_NAME, line no: 61, 0.7843137254901961, 0.0196078431372549, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,id.getBytes().length != 8,INFIX_EXPRESSION, line no: 62, 0.7843137254901961, 0.7843137254901961, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,8,NUMBER_LITERAL, line no: 62, 0.7843137254901961, 0.7843137254901961, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,chunkData[0]=(byte)0x1e,ASSIGNMENT, line no: 67, 0.7843137254901961, 0.7843137254901961, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,chunkData[0],ARRAY_ACCESS, line no: 67, 0.7843137254901961, 0.7843137254901961, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,(byte)0x1e,CAST_EXPRESSION, line no: 67, 0.7843137254901961, 0.7843137254901961, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,0x1e,NUMBER_LITERAL, line no: 67, 0.7843137254901961, 0.7843137254901961, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,chunkData[1]=(byte)0x0f,ASSIGNMENT, line no: 68, 0.7843137254901961, 0.7843137254901961, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,chunkData[1],ARRAY_ACCESS, line no: 68, 0.7843137254901961, 0.7843137254901961, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,(byte)0x0f,CAST_EXPRESSION, line no: 68, 0.7843137254901961, 0.7843137254901961, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,0x0f,NUMBER_LITERAL, line no: 68, 0.7843137254901961, 0.7843137254901961, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,chunkData[10]=(byte)seqNum,ASSIGNMENT, line no: 74, 0.7843137254901961, 0.7843137254901961, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,chunkData[10],ARRAY_ACCESS, line no: 74, 0.7843137254901961, 0.7843137254901961, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,10,NUMBER_LITERAL, line no: 74, 0.7843137254901961, 0.7843137254901961, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,(byte)seqNum,CAST_EXPRESSION, line no: 74, 0.7843137254901961, 0.7843137254901961, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,chunkData[11]=(byte)seqCnt,ASSIGNMENT, line no: 77, 0.7843137254901961, 0.7843137254901961, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,chunkData[11],ARRAY_ACCESS, line no: 77, 0.7843137254901961, 0.7843137254901961, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,11,NUMBER_LITERAL, line no: 77, 0.7843137254901961, 0.7843137254901961, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,(byte)seqCnt,CAST_EXPRESSION, line no: 77, 0.7843137254901961, 0.7843137254901961, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,Deflater,SIMPLE_NAME, line no: 28, 0.64, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,Deflater,SIMPLE_NAME, line no: 28, 0.64, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,Deflater,SIMPLE_NAME, line no: 28, 0.64, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,Deflater,SIMPLE_NAME, line no: 28, 0.6346153846153846, 0.019230769230769232, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,Deflater,SIMPLE_NAME, line no: 28, 0.6274509803921569, 0.0196078431372549, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,input,SIMPLE_NAME, line no: 35, 0.62, 0.62, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,what.getBytes("UTF-8"),METHOD_INVOCATION, line no: 35, 0.62, 0.62, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,"UTF-8",STRING_LITERAL, line no: 35, 0.62, 0.62, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,output,SIMPLE_NAME, line no: 38, 0.62, 0.62, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,compresser,SIMPLE_NAME, line no: 39, 0.62, 0.62, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,new Deflater(),CLASS_INSTANCE_CREATION, line no: 39, 0.62, 0.62, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,input,SIMPLE_NAME, line no: 35, 0.62, 0.62, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,"UTF-8",STRING_LITERAL, line no: 35, 0.62, 0.62, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,output,SIMPLE_NAME, line no: 38, 0.62, 0.62, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,compresser,SIMPLE_NAME, line no: 39, 0.62, 0.62, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,new Deflater(),CLASS_INSTANCE_CREATION, line no: 39, 0.62, 0.62, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,Deflater,SIMPLE_NAME, line no: 28, 0.6153846153846154, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,Deflater,SIMPLE_NAME, line no: 28, 0.6153846153846154, 0.019230769230769232, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,"UTF-8",STRING_LITERAL, line no: 35, 0.6078431372549019, 0.6078431372549019, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,compresser,SIMPLE_NAME, line no: 39, 0.6078431372549019, 0.6078431372549019, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,new Deflater(),CLASS_INSTANCE_CREATION, line no: 39, 0.6078431372549019, 0.6078431372549019, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,input,SIMPLE_NAME, line no: 35, 0.6, 0.6, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,what.getBytes("UTF-8"),METHOD_INVOCATION, line no: 35, 0.6, 0.6, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,"UTF-8",STRING_LITERAL, line no: 35, 0.6, 0.6, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,output,SIMPLE_NAME, line no: 38, 0.6, 0.6, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,compresser,SIMPLE_NAME, line no: 39, 0.6, 0.6, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,new Deflater(),CLASS_INSTANCE_CREATION, line no: 39, 0.6, 0.6, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,setInput,SIMPLE_NAME, line no: 40, 0.6, 0.6, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,finish,SIMPLE_NAME, line no: 41, 0.6, 0.6, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,deflate,SIMPLE_NAME, line no: 42, 0.6, 0.6, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,new byte[4096],ARRAY_CREATION, line no: 38, 0.6, 0.6, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,4096,NUMBER_LITERAL, line no: 38, 0.6, 0.6, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,setInput,SIMPLE_NAME, line no: 40, 0.6, 0.6, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,finish,SIMPLE_NAME, line no: 41, 0.6, 0.6, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,deflate,SIMPLE_NAME, line no: 42, 0.6, 0.6, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,new byte[4096],ARRAY_CREATION, line no: 38, 0.6, 0.6, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,4096,NUMBER_LITERAL, line no: 38, 0.6, 0.6, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,setInput,SIMPLE_NAME, line no: 40, 0.6, 0.6, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,finish,SIMPLE_NAME, line no: 41, 0.6, 0.6, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,deflate,SIMPLE_NAME, line no: 42, 0.6, 0.6, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,input,SIMPLE_NAME, line no: 35, 0.5961538461538461, 0.5961538461538461, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,what.getBytes("UTF-8"),METHOD_INVOCATION, line no: 35, 0.5961538461538461, 0.5961538461538461, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,"UTF-8",STRING_LITERAL, line no: 35, 0.5961538461538461, 0.5961538461538461, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,output,SIMPLE_NAME, line no: 38, 0.5961538461538461, 0.5961538461538461, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,compresser,SIMPLE_NAME, line no: 39, 0.5961538461538461, 0.5961538461538461, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,new Deflater(),CLASS_INSTANCE_CREATION, line no: 39, 0.5961538461538461, 0.5961538461538461, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,input,SIMPLE_NAME, line no: 35, 0.5961538461538461, 0.5961538461538461, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,what.getBytes("UTF-8"),METHOD_INVOCATION, line no: 35, 0.5961538461538461, 0.5961538461538461, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,output,SIMPLE_NAME, line no: 38, 0.5961538461538461, 0.5961538461538461, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,compresser,SIMPLE_NAME, line no: 39, 0.5961538461538461, 0.5961538461538461, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,new Deflater(),CLASS_INSTANCE_CREATION, line no: 39, 0.5961538461538461, 0.5961538461538461, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,"UTF-8",STRING_LITERAL, line no: 35, 0.5961538461538461, 0.5961538461538461, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,compresser,SIMPLE_NAME, line no: 39, 0.5961538461538461, 0.5961538461538461, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,new Deflater(),CLASS_INSTANCE_CREATION, line no: 39, 0.5961538461538461, 0.5961538461538461, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,new byte[4096],ARRAY_CREATION, line no: 38, 0.5882352941176471, 0.5882352941176471, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,4096,NUMBER_LITERAL, line no: 38, 0.5882352941176471, 0.5882352941176471, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,setInput,SIMPLE_NAME, line no: 40, 0.5882352941176471, 0.5882352941176471, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,finish,SIMPLE_NAME, line no: 41, 0.5882352941176471, 0.5882352941176471, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,deflate,SIMPLE_NAME, line no: 42, 0.5882352941176471, 0.5882352941176471, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,new byte[4096],ARRAY_CREATION, line no: 38, 0.58, 0.58, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,4096,NUMBER_LITERAL, line no: 38, 0.58, 0.58, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,compresser.setInput(input),METHOD_INVOCATION, line no: 40, 0.58, 0.58, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,compresser.finish(),METHOD_INVOCATION, line no: 41, 0.58, 0.58, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,compresser.deflate(output),METHOD_INVOCATION, line no: 42, 0.58, 0.58, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,compresser.setInput(input),METHOD_INVOCATION, line no: 40, 0.58, 0.58, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,compresser.finish(),METHOD_INVOCATION, line no: 41, 0.58, 0.58, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,compresser.deflate(output),METHOD_INVOCATION, line no: 42, 0.58, 0.58, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,compresser.setInput(input),METHOD_INVOCATION, line no: 40, 0.58, 0.58, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,compresser.finish(),METHOD_INVOCATION, line no: 41, 0.58, 0.58, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,compresser.deflate(output),METHOD_INVOCATION, line no: 42, 0.58, 0.58, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,new byte[4096],ARRAY_CREATION, line no: 38, 0.5769230769230769, 0.5769230769230769, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,4096,NUMBER_LITERAL, line no: 38, 0.5769230769230769, 0.5769230769230769, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,setInput,SIMPLE_NAME, line no: 40, 0.5769230769230769, 0.5769230769230769, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,finish,SIMPLE_NAME, line no: 41, 0.5769230769230769, 0.5769230769230769, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,deflate,SIMPLE_NAME, line no: 42, 0.5769230769230769, 0.5769230769230769, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,new byte[4096],ARRAY_CREATION, line no: 38, 0.5769230769230769, 0.5769230769230769, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,4096,NUMBER_LITERAL, line no: 38, 0.5769230769230769, 0.5769230769230769, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,setInput,SIMPLE_NAME, line no: 40, 0.5769230769230769, 0.5769230769230769, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,finish,SIMPLE_NAME, line no: 41, 0.5769230769230769, 0.5769230769230769, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,deflate,SIMPLE_NAME, line no: 42, 0.5769230769230769, 0.5769230769230769, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,4096,NUMBER_LITERAL, line no: 38, 0.5769230769230769, 0.5769230769230769, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,setInput,SIMPLE_NAME, line no: 40, 0.5769230769230769, 0.5769230769230769, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,finish,SIMPLE_NAME, line no: 41, 0.5769230769230769, 0.5769230769230769, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,deflate,SIMPLE_NAME, line no: 42, 0.5769230769230769, 0.5769230769230769, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,compresser.setInput(input),METHOD_INVOCATION, line no: 40, 0.5686274509803921, 0.5686274509803921, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,compresser.finish(),METHOD_INVOCATION, line no: 41, 0.5686274509803921, 0.5686274509803921, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,compresser.deflate(output),METHOD_INVOCATION, line no: 42, 0.5686274509803921, 0.5686274509803921, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,compresser.setInput(input),METHOD_INVOCATION, line no: 40, 0.5576923076923077, 0.5576923076923077, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,compresser.finish(),METHOD_INVOCATION, line no: 41, 0.5576923076923077, 0.5576923076923077, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,compresser.deflate(output),METHOD_INVOCATION, line no: 42, 0.5576923076923077, 0.5576923076923077, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,compresser.setInput(input),METHOD_INVOCATION, line no: 40, 0.5576923076923077, 0.5576923076923077, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,compresser.finish(),METHOD_INVOCATION, line no: 41, 0.5576923076923077, 0.5576923076923077, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,compresser.deflate(output),METHOD_INVOCATION, line no: 42, 0.5576923076923077, 0.5576923076923077, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,compresser.setInput(input),METHOD_INVOCATION, line no: 40, 0.5576923076923077, 0.5576923076923077, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,compresser.finish(),METHOD_INVOCATION, line no: 41, 0.5576923076923077, 0.5576923076923077, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,compresser.deflate(output),METHOD_INVOCATION, line no: 42, 0.5576923076923077, 0.5576923076923077, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,BigInteger,SIMPLE_NAME, line no: 27, 0.26, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,arg,SIMPLE_NAME, line no: 85, 0.26, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,arg,SIMPLE_NAME, line no: 85, 0.26, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,arg,SIMPLE_NAME, line no: 85, 0.26, 0.02, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,arg,SIMPLE_NAME, line no: 85, 0.2549019607843137, 0.0196078431372549, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,BigInteger,SIMPLE_NAME, line no: 27, 0.25, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,arg,SIMPLE_NAME, line no: 85, 0.25, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,arg,SIMPLE_NAME, line no: 85, 0.25, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,arg.getBytes("UTF-8"),METHOD_INVOCATION, line no: 86, 0.24, 0.24, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,BigInteger,SIMPLE_NAME, line no: 27, 0.24, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,arg.getBytes("UTF-8"),METHOD_INVOCATION, line no: 86, 0.24, 0.24, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,BigInteger,SIMPLE_NAME, line no: 27, 0.24, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,arg.getBytes("UTF-8"),METHOD_INVOCATION, line no: 86, 0.24, 0.24, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,BigInteger,SIMPLE_NAME, line no: 27, 0.23529411764705882, 0.0196078431372549, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,arg.getBytes("UTF-8"),METHOD_INVOCATION, line no: 86, 0.23529411764705882, 0.23529411764705882, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,arg.getBytes("UTF-8"),METHOD_INVOCATION, line no: 86, 0.23076923076923078, 0.23076923076923078, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,BigInteger,SIMPLE_NAME, line no: 27, 0.23076923076923078, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,arg.getBytes("UTF-8"),METHOD_INVOCATION, line no: 86, 0.23076923076923078, 0.23076923076923078, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,BigInteger,SIMPLE_NAME, line no: 27, 0.23076923076923078, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,String,SIMPLE_NAME, line no: 34, 0.22, 0.04, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,format,SIMPLE_NAME, line no: 86, 0.22, 0.22, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,new BigInteger(arg.getBytes("UTF-8")),CLASS_INSTANCE_CREATION, line no: 86, 0.22, 0.22, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,String,SIMPLE_NAME, line no: 34, 0.22, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,format,SIMPLE_NAME, line no: 86, 0.22, 0.22, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,new BigInteger(arg.getBytes("UTF-8")),CLASS_INSTANCE_CREATION, line no: 86, 0.22, 0.22, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,String,SIMPLE_NAME, line no: 34, 0.22, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,format,SIMPLE_NAME, line no: 86, 0.22, 0.22, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,new BigInteger(arg.getBytes("UTF-8")),CLASS_INSTANCE_CREATION, line no: 86, 0.22, 0.22, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,String,SIMPLE_NAME, line no: 34, 0.21568627450980393, 0.0196078431372549, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,format,SIMPLE_NAME, line no: 86, 0.21568627450980393, 0.21568627450980393, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,new BigInteger(arg.getBytes("UTF-8")),CLASS_INSTANCE_CREATION, line no: 86, 0.21568627450980393, 0.21568627450980393, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,String,SIMPLE_NAME, line no: 34, 0.21153846153846154, 0.038461538461538464, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,format,SIMPLE_NAME, line no: 86, 0.21153846153846154, 0.21153846153846154, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,new BigInteger(arg.getBytes("UTF-8")),CLASS_INSTANCE_CREATION, line no: 86, 0.21153846153846154, 0.21153846153846154, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,new BigInteger(arg.getBytes("UTF-8")),CLASS_INSTANCE_CREATION, line no: 86, 0.21153846153846154, 0.21153846153846154, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,String,SIMPLE_NAME, line no: 34, 0.21153846153846154, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,format,SIMPLE_NAME, line no: 86, 0.21153846153846154, 0.21153846153846154, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,new BigInteger(arg.getBytes("UTF-8")),CLASS_INSTANCE_CREATION, line no: 86, 0.21153846153846154, 0.21153846153846154, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,Exception,SIMPLE_NAME, line no: 61, 0.2, 0.04, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,String.format("%x" new BigInteger(arg.getBytes("UTF-8"))),METHOD_INVOCATION, line no: 86, 0.2, 0.2, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,"%x",STRING_LITERAL, line no: 86, 0.2, 0.2, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,String.format("%x" new BigInteger(arg.getBytes("UTF-8"))),METHOD_INVOCATION, line no: 86, 0.2, 0.2, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,"%x",STRING_LITERAL, line no: 86, 0.2, 0.2, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,String.format("%x" new BigInteger(arg.getBytes("UTF-8"))),METHOD_INVOCATION, line no: 86, 0.2, 0.2, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,"%x",STRING_LITERAL, line no: 86, 0.2, 0.2, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,String.format("%x" new BigInteger(arg.getBytes("UTF-8"))),METHOD_INVOCATION, line no: 86, 0.19607843137254902, 0.19607843137254902, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,"%x",STRING_LITERAL, line no: 86, 0.19607843137254902, 0.19607843137254902, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,Exception,SIMPLE_NAME, line no: 61, 0.19230769230769232, 0.038461538461538464, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,String.format("%x" new BigInteger(arg.getBytes("UTF-8"))),METHOD_INVOCATION, line no: 86, 0.19230769230769232, 0.19230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,"%x",STRING_LITERAL, line no: 86, 0.19230769230769232, 0.19230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,String.format("%x" new BigInteger(arg.getBytes("UTF-8"))),METHOD_INVOCATION, line no: 86, 0.19230769230769232, 0.19230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,"%x",STRING_LITERAL, line no: 86, 0.19230769230769232, 0.19230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,write,SIMPLE_NAME, line no: 54, 0.18, 0.18, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,write,SIMPLE_NAME, line no: 54, 0.18, 0.18, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,Exception,SIMPLE_NAME, line no: 61, 0.18, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,write,SIMPLE_NAME, line no: 54, 0.18, 0.18, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,Exception,SIMPLE_NAME, line no: 61, 0.18, 0.02, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,write,SIMPLE_NAME, line no: 54, 0.17647058823529413, 0.17647058823529413, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,Exception,SIMPLE_NAME, line no: 61, 0.17647058823529413, 0.0196078431372549, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,write,SIMPLE_NAME, line no: 54, 0.17307692307692307, 0.17307692307692307, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,write,SIMPLE_NAME, line no: 54, 0.17307692307692307, 0.17307692307692307, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,Exception,SIMPLE_NAME, line no: 61, 0.17307692307692307, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,write,SIMPLE_NAME, line no: 54, 0.17307692307692307, 0.17307692307692307, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,Exception,SIMPLE_NAME, line no: 61, 0.17307692307692307, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,out.write(c),METHOD_INVOCATION, line no: 54, 0.16, 0.16, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,new Exception("IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: " + id.getBytes().length),CLASS_INSTANCE_CREATION, line no: 63, 0.16, 0.16, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,"IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: " + id.getBytes().length,INFIX_EXPRESSION, line no: 63, 0.16, 0.16, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,"IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: ",STRING_LITERAL, line no: 63, 0.16, 0.16, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,out.write(c),METHOD_INVOCATION, line no: 54, 0.16, 0.16, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,new Exception("IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: " + id.getBytes().length),CLASS_INSTANCE_CREATION, line no: 63, 0.16, 0.16, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,"IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: " + id.getBytes().length,INFIX_EXPRESSION, line no: 63, 0.16, 0.16, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,"IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: ",STRING_LITERAL, line no: 63, 0.16, 0.16, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,out.write(c),METHOD_INVOCATION, line no: 54, 0.16, 0.16, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,new Exception("IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: " + id.getBytes().length),CLASS_INSTANCE_CREATION, line no: 63, 0.16, 0.16, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,"IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: " + id.getBytes().length,INFIX_EXPRESSION, line no: 63, 0.16, 0.16, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,"IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: ",STRING_LITERAL, line no: 63, 0.16, 0.16, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,out.write(c),METHOD_INVOCATION, line no: 54, 0.1568627450980392, 0.1568627450980392, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,new Exception("IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: " + id.getBytes().length),CLASS_INSTANCE_CREATION, line no: 63, 0.1568627450980392, 0.1568627450980392, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,"IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: " + id.getBytes().length,INFIX_EXPRESSION, line no: 63, 0.1568627450980392, 0.1568627450980392, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,"IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: ",STRING_LITERAL, line no: 63, 0.1568627450980392, 0.1568627450980392, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,out.write(c),METHOD_INVOCATION, line no: 54, 0.15384615384615385, 0.15384615384615385, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,new Exception("IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: " + id.getBytes().length),CLASS_INSTANCE_CREATION, line no: 63, 0.15384615384615385, 0.15384615384615385, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,"IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: " + id.getBytes().length,INFIX_EXPRESSION, line no: 63, 0.15384615384615385, 0.15384615384615385, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,"IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: ",STRING_LITERAL, line no: 63, 0.15384615384615385, 0.15384615384615385, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,out.write(c),METHOD_INVOCATION, line no: 54, 0.15384615384615385, 0.15384615384615385, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,new Exception("IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: " + id.getBytes().length),CLASS_INSTANCE_CREATION, line no: 63, 0.15384615384615385, 0.15384615384615385, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,out.write(c),METHOD_INVOCATION, line no: 54, 0.15384615384615385, 0.15384615384615385, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,new Exception("IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: " + id.getBytes().length),CLASS_INSTANCE_CREATION, line no: 63, 0.15384615384615385, 0.15384615384615385, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,"IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: " + id.getBytes().length,INFIX_EXPRESSION, line no: 63, 0.15384615384615385, 0.15384615384615385, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,"IN TEST HELPER!!! YOU WROTE WRONG YOUR TESTS! - id must consist of 8 byte. length is: ",STRING_LITERAL, line no: 63, 0.15384615384615385, 0.15384615384615385, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,IOException,SIMPLE_NAME, line no: 25, 0.04, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,UnsupportedEncodingException,SIMPLE_NAME, line no: 26, 0.04, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,IOException,SIMPLE_NAME, line no: 25, 0.038461538461538464, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,UnsupportedEncodingException,SIMPLE_NAME, line no: 26, 0.038461538461538464, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,org,SIMPLE_NAME, line no: 21, 0.02, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,graylog2,SIMPLE_NAME, line no: 21, 0.02, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java,SIMPLE_NAME, line no: 23, 0.02, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,io,SIMPLE_NAME, line no: 23, 0.02, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,math,SIMPLE_NAME, line no: 27, 0.02, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,util,SIMPLE_NAME, line no: 28, 0.02, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,zip,SIMPLE_NAME, line no: 28, 0.02, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,inputs,SIMPLE_NAME, line no: 30, 0.02, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,gelf,SIMPLE_NAME, line no: 30, 0.02, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,TestHelper,SIMPLE_NAME, line no: 32, 0.02, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,zlibCompress,SIMPLE_NAME, line no: 34, 0.02, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,gzipCompress,SIMPLE_NAME, line no: 48, 0.02, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,buildGELFMessageChunk,SIMPLE_NAME, line no: 61, 0.02, 0.02, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,toHex,SIMPLE_NAME, line no: 85, 0.02, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,org,SIMPLE_NAME, line no: 21, 0.02, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,graylog2,SIMPLE_NAME, line no: 21, 0.02, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,java,SIMPLE_NAME, line no: 23, 0.02, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,io,SIMPLE_NAME, line no: 23, 0.02, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,IOException,SIMPLE_NAME, line no: 25, 0.02, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,UnsupportedEncodingException,SIMPLE_NAME, line no: 26, 0.02, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,math,SIMPLE_NAME, line no: 27, 0.02, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,util,SIMPLE_NAME, line no: 28, 0.02, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,zip,SIMPLE_NAME, line no: 28, 0.02, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,inputs,SIMPLE_NAME, line no: 30, 0.02, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,gelf,SIMPLE_NAME, line no: 30, 0.02, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,TestHelper,SIMPLE_NAME, line no: 32, 0.02, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,zlibCompress,SIMPLE_NAME, line no: 34, 0.02, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,gzipCompress,SIMPLE_NAME, line no: 48, 0.02, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,buildGELFMessageChunk,SIMPLE_NAME, line no: 61, 0.02, 0.02, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,toHex,SIMPLE_NAME, line no: 85, 0.02, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,org,SIMPLE_NAME, line no: 21, 0.02, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,graylog2,SIMPLE_NAME, line no: 21, 0.02, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,java,SIMPLE_NAME, line no: 23, 0.02, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,io,SIMPLE_NAME, line no: 23, 0.02, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,IOException,SIMPLE_NAME, line no: 25, 0.02, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,UnsupportedEncodingException,SIMPLE_NAME, line no: 26, 0.02, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,math,SIMPLE_NAME, line no: 27, 0.02, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,util,SIMPLE_NAME, line no: 28, 0.02, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,zip,SIMPLE_NAME, line no: 28, 0.02, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,inputs,SIMPLE_NAME, line no: 30, 0.02, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,gelf,SIMPLE_NAME, line no: 30, 0.02, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,TestHelper,SIMPLE_NAME, line no: 32, 0.02, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,zlibCompress,SIMPLE_NAME, line no: 34, 0.02, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,gzipCompress,SIMPLE_NAME, line no: 48, 0.02, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,buildGELFMessageChunk,SIMPLE_NAME, line no: 61, 0.02, 0.02, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,toHex,SIMPLE_NAME, line no: 85, 0.02, 0.02, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,org,SIMPLE_NAME, line no: 21, 0.0196078431372549, 0.0196078431372549, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,graylog2,SIMPLE_NAME, line no: 21, 0.0196078431372549, 0.0196078431372549, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,java,SIMPLE_NAME, line no: 23, 0.0196078431372549, 0.0196078431372549, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,io,SIMPLE_NAME, line no: 23, 0.0196078431372549, 0.0196078431372549, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,IOException,SIMPLE_NAME, line no: 25, 0.0196078431372549, 0.0196078431372549, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,UnsupportedEncodingException,SIMPLE_NAME, line no: 26, 0.0196078431372549, 0.0196078431372549, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,math,SIMPLE_NAME, line no: 27, 0.0196078431372549, 0.0196078431372549, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,util,SIMPLE_NAME, line no: 28, 0.0196078431372549, 0.0196078431372549, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,zip,SIMPLE_NAME, line no: 28, 0.0196078431372549, 0.0196078431372549, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,inputs,SIMPLE_NAME, line no: 30, 0.0196078431372549, 0.0196078431372549, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,gelf,SIMPLE_NAME, line no: 30, 0.0196078431372549, 0.0196078431372549, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,TestHelper,SIMPLE_NAME, line no: 32, 0.0196078431372549, 0.0196078431372549, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,toHex,SIMPLE_NAME, line no: 85, 0.0196078431372549, 0.0196078431372549, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,org,SIMPLE_NAME, line no: 21, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,graylog2,SIMPLE_NAME, line no: 21, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java,SIMPLE_NAME, line no: 23, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,io,SIMPLE_NAME, line no: 23, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,math,SIMPLE_NAME, line no: 27, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,util,SIMPLE_NAME, line no: 28, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,zip,SIMPLE_NAME, line no: 28, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,inputs,SIMPLE_NAME, line no: 30, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,gelf,SIMPLE_NAME, line no: 30, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,TestHelper,SIMPLE_NAME, line no: 32, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,zlibCompress,SIMPLE_NAME, line no: 34, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,gzipCompress,SIMPLE_NAME, line no: 48, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,buildGELFMessageChunk,SIMPLE_NAME, line no: 61, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,toHex,SIMPLE_NAME, line no: 85, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,org,SIMPLE_NAME, line no: 21, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,graylog2,SIMPLE_NAME, line no: 21, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,java,SIMPLE_NAME, line no: 23, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,io,SIMPLE_NAME, line no: 23, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,IOException,SIMPLE_NAME, line no: 25, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,UnsupportedEncodingException,SIMPLE_NAME, line no: 26, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,math,SIMPLE_NAME, line no: 27, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,util,SIMPLE_NAME, line no: 28, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,zip,SIMPLE_NAME, line no: 28, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,inputs,SIMPLE_NAME, line no: 30, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,gelf,SIMPLE_NAME, line no: 30, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,TestHelper,SIMPLE_NAME, line no: 32, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,zlibCompress,SIMPLE_NAME, line no: 34, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,gzipCompress,SIMPLE_NAME, line no: 48, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,buildGELFMessageChunk,SIMPLE_NAME, line no: 61, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,org,SIMPLE_NAME, line no: 21, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,graylog2,SIMPLE_NAME, line no: 21, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,java,SIMPLE_NAME, line no: 23, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,io,SIMPLE_NAME, line no: 23, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,IOException,SIMPLE_NAME, line no: 25, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,UnsupportedEncodingException,SIMPLE_NAME, line no: 26, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,math,SIMPLE_NAME, line no: 27, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,util,SIMPLE_NAME, line no: 28, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,zip,SIMPLE_NAME, line no: 28, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,inputs,SIMPLE_NAME, line no: 30, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,gelf,SIMPLE_NAME, line no: 30, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,TestHelper,SIMPLE_NAME, line no: 32, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,toHex,SIMPLE_NAME, line no: 85, 0.019230769230769232, 0.019230769230769232, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,org.graylog2,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java.io,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java.io.ByteArrayOutputStream,QUALIFIED_NAME, line no: 24, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java.io.IOException,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java.io.UnsupportedEncodingException,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java.math.BigInteger,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java.math,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java.util.zip.Deflater,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java.util.zip,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java.util,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java.util.zip.GZIPOutputStream,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,org.graylog2.inputs.gelf.GELFMessageChunk,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,org.graylog2.inputs.gelf,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,org.graylog2.inputs,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,org.graylog2,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,java.io,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,java.io.ByteArrayOutputStream,QUALIFIED_NAME, line no: 24, 0.0, 0.0, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,java.io.IOException,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,java.io.UnsupportedEncodingException,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,java.math.BigInteger,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,java.math,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,java.util.zip.Deflater,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,java.util.zip,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,java.util,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,java.util.zip.GZIPOutputStream,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,org.graylog2.inputs.gelf.GELFMessageChunk,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,org.graylog2.inputs.gelf,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+compressMe,SIMPLE_NAME, line no: 50,org.graylog2.inputs,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,org.graylog2,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,java.io.ByteArrayInputStream,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,java.io,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,java.io.ByteArrayOutputStream,QUALIFIED_NAME, line no: 24, 0.0, 0.0, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,java.io.IOException,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,java.io.UnsupportedEncodingException,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,java.math.BigInteger,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,java.math,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,java.util.zip.Deflater,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,java.util.zip,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,java.util,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,java.util.zip.GZIPOutputStream,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,org.graylog2.inputs.gelf.GELFMessageChunk,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,org.graylog2.inputs.gelf,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+new ByteArrayInputStream(what.getBytes()),CLASS_INSTANCE_CREATION, line no: 50,org.graylog2.inputs,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,org.graylog2,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java.io,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java.io.ByteArrayOutputStream,QUALIFIED_NAME, line no: 24, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java.io.IOException,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java.io.UnsupportedEncodingException,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java.math.BigInteger,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java.math,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java.util.zip.Deflater,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java.util.zip,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java.util,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,java.util.zip.GZIPOutputStream,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,org.graylog2.inputs.gelf.GELFMessageChunk,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,org.graylog2.inputs.gelf,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+ByteArrayInputStream,SIMPLE_NAME, line no: 50,org.graylog2.inputs,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,org.graylog2,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,java.io.ByteArrayInputStream,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,java.io,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,java.io.ByteArrayOutputStream,QUALIFIED_NAME, line no: 24, 0.0, 0.0, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,java.io.IOException,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,java.io.UnsupportedEncodingException,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,java.math.BigInteger,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,java.math,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,java.util.zip.Deflater,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,java.util.zip,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,java.util,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,java.util.zip.GZIPOutputStream,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,org.graylog2.inputs.gelf.GELFMessageChunk,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,org.graylog2.inputs.gelf,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+what.getBytes(),METHOD_INVOCATION, line no: 50,org.graylog2.inputs,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,org.graylog2,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,java.io.ByteArrayInputStream,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,java.io,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,java.io.ByteArrayOutputStream,QUALIFIED_NAME, line no: 24, 0.0, 0.0, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,java.io.IOException,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,java.io.UnsupportedEncodingException,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,java.math.BigInteger,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,java.math,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,java.util.zip.Deflater,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,java.util.zip,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,java.util,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,java.util.zip.GZIPOutputStream,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,org.graylog2.inputs.gelf.GELFMessageChunk,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,org.graylog2.inputs.gelf,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+what,SIMPLE_NAME, line no: 50,org.graylog2.inputs,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,org.graylog2,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,java.io.ByteArrayInputStream,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,java.io,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,java.io.ByteArrayOutputStream,QUALIFIED_NAME, line no: 24, 0.0, 0.0, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,java.io.IOException,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,java.io.UnsupportedEncodingException,QUALIFIED_NAME, line no: 26, 0.0, 0.0, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,java.math.BigInteger,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,java.math,QUALIFIED_NAME, line no: 27, 0.0, 0.0, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,java.util.zip.Deflater,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,java.util.zip,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,java.util,QUALIFIED_NAME, line no: 28, 0.0, 0.0, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,java.util.zip.GZIPOutputStream,QUALIFIED_NAME, line no: 29, 0.0, 0.0, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,org.graylog2.inputs.gelf.GELFMessageChunk,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,org.graylog2.inputs.gelf,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0
+getBytes,SIMPLE_NAME, line no: 50,org.graylog2.inputs,QUALIFIED_NAME, line no: 30, 0.0, 0.0, 0.0, 0.0, 0.0

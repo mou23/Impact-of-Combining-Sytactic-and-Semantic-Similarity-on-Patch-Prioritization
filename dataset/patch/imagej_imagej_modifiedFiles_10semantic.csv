@@ -1,44 +1,175 @@
-value+=65536 + value,ASSIGNMENT, line no: 37,value,SIMPLE_NAME, line no: 15, 1.0, 0.8695652173913043, 1.0, 0.68
-value+=65536 + value,ASSIGNMENT, line no: 37,value=65536 + value,ASSIGNMENT, line no: 18, 1.0, 1.0, 1.0, 0.9333333333333333
-value+=65536 + value,ASSIGNMENT, line no: 37,65536 + value,INFIX_EXPRESSION, line no: 18, 1.0, 1.0, 1.0, 0.7733333333333333
-value+=65536 + value,ASSIGNMENT, line no: 37,65536,NUMBER_LITERAL, line no: 18, 1.0, 1.0, 1.0, 0.6666666666666666
-65536 + value,INFIX_EXPRESSION, line no: 37,value,SIMPLE_NAME, line no: 15, 1.0, 0.8333333333333334, 1.0, 0.6756756756756757
-65536 + value,INFIX_EXPRESSION, line no: 37,65536,NUMBER_LITERAL, line no: 18, 1.0, 1.0, 1.0, 0.6756756756756757
-65536,NUMBER_LITERAL, line no: 37,value,SIMPLE_NAME, line no: 15, 0.96, 0.8, 1.0, 0.703125
-65536,NUMBER_LITERAL, line no: 37,65536 + value,INFIX_EXPRESSION, line no: 18, 0.96, 0.96, 1.0, 0.6756756756756757
-value,SIMPLE_NAME, line no: 37,65536 + value,INFIX_EXPRESSION, line no: 18, 0.96, 0.96, 1.0, 0.6756756756756757
-value,SIMPLE_NAME, line no: 37,65536,NUMBER_LITERAL, line no: 18, 0.96, 0.96, 1.0, 0.703125
-value,SIMPLE_NAME, line no: 37,value=65536 + value,ASSIGNMENT, line no: 18, 0.9583333333333334, 0.9583333333333334, 1.0, 0.6891891891891891
-value,SIMPLE_NAME, line no: 37,65536 + value,INFIX_EXPRESSION, line no: 18, 0.9583333333333334, 0.9583333333333334, 1.0, 0.6756756756756757
-value,SIMPLE_NAME, line no: 37,65536,NUMBER_LITERAL, line no: 18, 0.9583333333333334, 0.9583333333333334, 1.0, 0.703125
-value,SIMPLE_NAME, line no: 37,value+=65536 + value,ASSIGNMENT, line no: 37, 0.9583333333333334, 0.9583333333333334, 1.0, 0.7333333333333333
-65536 + value,INFIX_EXPRESSION, line no: 37,value=65536 + value,ASSIGNMENT, line no: 18, 0.9583333333333334, 0.9583333333333334, 1.0, 0.7837837837837838
-65536 + value,INFIX_EXPRESSION, line no: 37,value+=65536 + value,ASSIGNMENT, line no: 37, 0.9583333333333334, 0.9583333333333334, 1.0, 0.8266666666666667
-65536,NUMBER_LITERAL, line no: 37,(int)index,CAST_EXPRESSION, line no: 15, 0.92, 0.8, 1.0, 0.6285714285714286
-65536,NUMBER_LITERAL, line no: 37,0,NUMBER_LITERAL, line no: 17, 0.92, 0.92, 1.0, 0.890625
-65536,NUMBER_LITERAL, line no: 37,value=65536 + value,ASSIGNMENT, line no: 18, 0.92, 0.92, 1.0, 0.6756756756756757
-65536,NUMBER_LITERAL, line no: 37,0xffff,NUMBER_LITERAL, line no: 27, 0.92, 0.92, 1.0, 0.8769230769230769
-65536,NUMBER_LITERAL, line no: 37,((int)value & 0xffff),PARENTHESIZED_EXPRESSION, line no: 28, 0.92, 0.92, 1.0, 0.5111111111111111
-65536,NUMBER_LITERAL, line no: 37,(int)value & 0xffff,INFIX_EXPRESSION, line no: 28, 0.92, 0.92, 1.0, 0.5625
-65536,NUMBER_LITERAL, line no: 37,(int)value,CAST_EXPRESSION, line no: 28, 0.92, 0.92, 1.0, 0.6285714285714286
-65536,NUMBER_LITERAL, line no: 37,value+=65536 + value,ASSIGNMENT, line no: 37, 0.92, 0.92, 1.0, 0.72
-value,SIMPLE_NAME, line no: 37,value=65536 + value,ASSIGNMENT, line no: 18, 0.92, 0.92, 1.0, 0.6891891891891891
-value,SIMPLE_NAME, line no: 37,value+=65536 + value,ASSIGNMENT, line no: 37, 0.92, 0.92, 1.0, 0.7333333333333333
-65536 + value,INFIX_EXPRESSION, line no: 37,value < 0,INFIX_EXPRESSION, line no: 17, 0.9166666666666666, 0.9166666666666666, 1.0, 0.8648648648648649
-65536 + value,INFIX_EXPRESSION, line no: 37,0,NUMBER_LITERAL, line no: 17, 0.9166666666666666, 0.9166666666666666, 1.0, 0.6351351351351351
-65536 + value,INFIX_EXPRESSION, line no: 37,0xffff,NUMBER_LITERAL, line no: 27, 0.9166666666666666, 0.9166666666666666, 1.0, 0.6351351351351351
-value+=65536 + value,ASSIGNMENT, line no: 37,value < 0,INFIX_EXPRESSION, line no: 17, 0.9130434782608695, 0.9130434782608695, 1.0, 0.72
-value+=65536 + value,ASSIGNMENT, line no: 37,0,NUMBER_LITERAL, line no: 17, 0.9130434782608695, 0.9130434782608695, 1.0, 0.6266666666666667
-value+=65536 + value,ASSIGNMENT, line no: 37,0xffff,NUMBER_LITERAL, line no: 27, 0.9130434782608695, 0.9130434782608695, 1.0, 0.6266666666666667
-value,SIMPLE_NAME, line no: 37,(int)index,CAST_EXPRESSION, line no: 15, 0.88, 0.8, 1.0, 0.6571428571428571
-value,SIMPLE_NAME, line no: 37,0,NUMBER_LITERAL, line no: 17, 0.88, 0.88, 1.0, 0.7704918032786885
-value,SIMPLE_NAME, line no: 37,0xffff,NUMBER_LITERAL, line no: 27, 0.88, 0.88, 1.0, 0.7230769230769231
-value,SIMPLE_NAME, line no: 37,((int)value & 0xffff),PARENTHESIZED_EXPRESSION, line no: 28, 0.88, 0.88, 1.0, 0.5666666666666667
-value,SIMPLE_NAME, line no: 37,(int)value & 0xffff,INFIX_EXPRESSION, line no: 28, 0.88, 0.88, 1.0, 0.625
-value,SIMPLE_NAME, line no: 37,(int)value,CAST_EXPRESSION, line no: 28, 0.88, 0.88, 1.0, 0.7142857142857143
-value,SIMPLE_NAME, line no: 37,(int)index,CAST_EXPRESSION, line no: 15, 0.875, 0.8333333333333334, 1.0, 0.6571428571428571
-value,SIMPLE_NAME, line no: 37,0,NUMBER_LITERAL, line no: 17, 0.875, 0.875, 1.0, 0.7704918032786885
-value,SIMPLE_NAME, line no: 37,0xffff,NUMBER_LITERAL, line no: 27, 0.875, 0.875, 1.0, 0.7230769230769231
-value,SIMPLE_NAME, line no: 37,((int)value & 0xffff),PARENTHESIZED_EXPRESSION, line no: 28, 0.875, 0.875, 1.0, 0.5666666666666667
-value,SIMPLE_NAME, line no: 37,(int)value & 0xffff,INFIX_EXPRESSION, line no: 28, 0.875, 0.875, 1.0, 0.625
-value,SIMPLE_NAME, line no: 37,(int)value,CAST_EXPRESSION, line no: 28, 0.875, 0.875, 1.0, 0.7142857142857143
+value+=65536 + value,ASSIGNMENT, line no: 37,value,SIMPLE_NAME, line no: 15, 2.0, 0.8695652173913043, 1.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,value=65536 + value,ASSIGNMENT, line no: 18, 2.0, 1.0, 1.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,65536 + value,INFIX_EXPRESSION, line no: 18, 2.0, 1.0, 1.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,65536,NUMBER_LITERAL, line no: 18, 2.0, 1.0, 1.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,value,SIMPLE_NAME, line no: 15, 2.0, 0.8333333333333334, 1.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,65536,NUMBER_LITERAL, line no: 18, 2.0, 1.0, 1.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,value,SIMPLE_NAME, line no: 15, 1.96, 0.8, 1.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,65536 + value,INFIX_EXPRESSION, line no: 18, 1.96, 0.96, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,65536 + value,INFIX_EXPRESSION, line no: 18, 1.96, 0.96, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,65536,NUMBER_LITERAL, line no: 18, 1.96, 0.96, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,value=65536 + value,ASSIGNMENT, line no: 18, 1.9583333333333335, 0.9583333333333334, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,65536 + value,INFIX_EXPRESSION, line no: 18, 1.9583333333333335, 0.9583333333333334, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,65536,NUMBER_LITERAL, line no: 18, 1.9583333333333335, 0.9583333333333334, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,value+=65536 + value,ASSIGNMENT, line no: 37, 1.9583333333333335, 0.9583333333333334, 1.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,value=65536 + value,ASSIGNMENT, line no: 18, 1.9583333333333335, 0.9583333333333334, 1.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,value+=65536 + value,ASSIGNMENT, line no: 37, 1.9583333333333335, 0.9583333333333334, 1.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,(int)index,CAST_EXPRESSION, line no: 15, 1.92, 0.8, 1.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,0,NUMBER_LITERAL, line no: 17, 1.92, 0.92, 1.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,value=65536 + value,ASSIGNMENT, line no: 18, 1.92, 0.92, 1.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,0xffff,NUMBER_LITERAL, line no: 27, 1.92, 0.92, 1.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,((int)value & 0xffff),PARENTHESIZED_EXPRESSION, line no: 28, 1.92, 0.92, 1.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,(int)value & 0xffff,INFIX_EXPRESSION, line no: 28, 1.92, 0.92, 1.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,(int)value,CAST_EXPRESSION, line no: 28, 1.92, 0.92, 1.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,value+=65536 + value,ASSIGNMENT, line no: 37, 1.92, 0.92, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,value=65536 + value,ASSIGNMENT, line no: 18, 1.92, 0.92, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,value+=65536 + value,ASSIGNMENT, line no: 37, 1.92, 0.92, 1.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,value < 0,INFIX_EXPRESSION, line no: 17, 1.9166666666666665, 0.9166666666666666, 1.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,0,NUMBER_LITERAL, line no: 17, 1.9166666666666665, 0.9166666666666666, 1.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,0xffff,NUMBER_LITERAL, line no: 27, 1.9166666666666665, 0.9166666666666666, 1.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,value < 0,INFIX_EXPRESSION, line no: 17, 1.9130434782608696, 0.9130434782608695, 1.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,0,NUMBER_LITERAL, line no: 17, 1.9130434782608696, 0.9130434782608695, 1.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,0xffff,NUMBER_LITERAL, line no: 27, 1.9130434782608696, 0.9130434782608695, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,(int)index,CAST_EXPRESSION, line no: 15, 1.88, 0.8, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,0,NUMBER_LITERAL, line no: 17, 1.88, 0.88, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,0xffff,NUMBER_LITERAL, line no: 27, 1.88, 0.88, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,((int)value & 0xffff),PARENTHESIZED_EXPRESSION, line no: 28, 1.88, 0.88, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,(int)value & 0xffff,INFIX_EXPRESSION, line no: 28, 1.88, 0.88, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,(int)value,CAST_EXPRESSION, line no: 28, 1.88, 0.88, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,(int)index,CAST_EXPRESSION, line no: 15, 1.875, 0.8333333333333334, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,0,NUMBER_LITERAL, line no: 17, 1.875, 0.875, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,0xffff,NUMBER_LITERAL, line no: 27, 1.875, 0.875, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,((int)value & 0xffff),PARENTHESIZED_EXPRESSION, line no: 28, 1.875, 0.875, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,(int)value & 0xffff,INFIX_EXPRESSION, line no: 28, 1.875, 0.875, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,(int)value,CAST_EXPRESSION, line no: 28, 1.875, 0.875, 1.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,shorts,SIMPLE_NAME, line no: 5, 0.92, 0.04, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,this.shorts,FIELD_ACCESS, line no: 9, 0.92, 0.36, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,this,THIS_EXPRESSION, line no: 9, 0.92, 0.36, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,index,SIMPLE_NAME, line no: 13, 0.92, 0.04, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,this.shorts[(int)index],ARRAY_ACCESS, line no: 15, 0.92, 0.8, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,value < 0,INFIX_EXPRESSION, line no: 17, 0.92, 0.88, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,value=0,ASSIGNMENT, line no: 26, 0.92, 0.92, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,value > 0xffff,INFIX_EXPRESSION, line no: 27, 0.92, 0.92, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,value=0xffff,ASSIGNMENT, line no: 27, 0.92, 0.92, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,this.shorts[(int)index]=(short)((int)value & 0xffff),ASSIGNMENT, line no: 28, 0.92, 0.92, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,(short)((int)value & 0xffff),CAST_EXPRESSION, line no: 28, 0.92, 0.92, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,shorts,SIMPLE_NAME, line no: 5, 0.92, 0.04, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,index,SIMPLE_NAME, line no: 13, 0.92, 0.04, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,shorts,SIMPLE_NAME, line no: 5, 0.9166666666666666, 0.041666666666666664, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,index,SIMPLE_NAME, line no: 13, 0.9166666666666666, 0.041666666666666664, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,shorts,SIMPLE_NAME, line no: 5, 0.9166666666666666, 0.041666666666666664, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,this.shorts,FIELD_ACCESS, line no: 9, 0.9166666666666666, 0.375, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,this,THIS_EXPRESSION, line no: 9, 0.9166666666666666, 0.375, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,index,SIMPLE_NAME, line no: 13, 0.9166666666666666, 0.041666666666666664, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,this.shorts[(int)index],ARRAY_ACCESS, line no: 15, 0.9166666666666666, 0.8333333333333334, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,(int)index,CAST_EXPRESSION, line no: 15, 0.9166666666666666, 0.8333333333333334, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,value=0,ASSIGNMENT, line no: 26, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,value > 0xffff,INFIX_EXPRESSION, line no: 27, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,value=0xffff,ASSIGNMENT, line no: 27, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,this.shorts[(int)index]=(short)((int)value & 0xffff),ASSIGNMENT, line no: 28, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,(short)((int)value & 0xffff),CAST_EXPRESSION, line no: 28, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,((int)value & 0xffff),PARENTHESIZED_EXPRESSION, line no: 28, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,(int)value & 0xffff,INFIX_EXPRESSION, line no: 28, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,(int)value,CAST_EXPRESSION, line no: 28, 0.9166666666666666, 0.9166666666666666, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,shorts,SIMPLE_NAME, line no: 5, 0.9130434782608695, 0.043478260869565216, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,this.shorts,FIELD_ACCESS, line no: 9, 0.9130434782608695, 0.391304347826087, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,this,THIS_EXPRESSION, line no: 9, 0.9130434782608695, 0.391304347826087, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,index,SIMPLE_NAME, line no: 13, 0.9130434782608695, 0.043478260869565216, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,this.shorts[(int)index],ARRAY_ACCESS, line no: 15, 0.9130434782608695, 0.8695652173913043, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,(int)index,CAST_EXPRESSION, line no: 15, 0.9130434782608695, 0.8695652173913043, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,value=0,ASSIGNMENT, line no: 26, 0.9130434782608695, 0.9130434782608695, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,value > 0xffff,INFIX_EXPRESSION, line no: 27, 0.9130434782608695, 0.9130434782608695, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,value=0xffff,ASSIGNMENT, line no: 27, 0.9130434782608695, 0.9130434782608695, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,this.shorts[(int)index]=(short)((int)value & 0xffff),ASSIGNMENT, line no: 28, 0.9130434782608695, 0.9130434782608695, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,(short)((int)value & 0xffff),CAST_EXPRESSION, line no: 28, 0.9130434782608695, 0.9130434782608695, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,((int)value & 0xffff),PARENTHESIZED_EXPRESSION, line no: 28, 0.9130434782608695, 0.9130434782608695, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,(int)value & 0xffff,INFIX_EXPRESSION, line no: 28, 0.9130434782608695, 0.9130434782608695, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,(int)value,CAST_EXPRESSION, line no: 28, 0.9130434782608695, 0.9130434782608695, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,this.shorts,FIELD_ACCESS, line no: 9, 0.88, 0.36, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,this,THIS_EXPRESSION, line no: 9, 0.88, 0.36, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,this.shorts[(int)index],ARRAY_ACCESS, line no: 15, 0.88, 0.8, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,value < 0,INFIX_EXPRESSION, line no: 17, 0.88, 0.88, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,value=0,ASSIGNMENT, line no: 26, 0.88, 0.88, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,value > 0xffff,INFIX_EXPRESSION, line no: 27, 0.88, 0.88, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,value=0xffff,ASSIGNMENT, line no: 27, 0.88, 0.88, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,this.shorts[(int)index]=(short)((int)value & 0xffff),ASSIGNMENT, line no: 28, 0.88, 0.88, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,(short)((int)value & 0xffff),CAST_EXPRESSION, line no: 28, 0.88, 0.88, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,this.shorts,FIELD_ACCESS, line no: 9, 0.875, 0.375, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,this,THIS_EXPRESSION, line no: 9, 0.875, 0.375, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,this.shorts[(int)index],ARRAY_ACCESS, line no: 15, 0.875, 0.8333333333333334, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,value < 0,INFIX_EXPRESSION, line no: 17, 0.875, 0.875, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,value=0,ASSIGNMENT, line no: 26, 0.875, 0.875, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,value > 0xffff,INFIX_EXPRESSION, line no: 27, 0.875, 0.875, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,value=0xffff,ASSIGNMENT, line no: 27, 0.875, 0.875, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,this.shorts[(int)index]=(short)((int)value & 0xffff),ASSIGNMENT, line no: 28, 0.875, 0.875, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,(short)((int)value & 0xffff),CAST_EXPRESSION, line no: 28, 0.875, 0.875, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,data,SIMPLE_NAME, line no: 1, 0.43478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,data,SIMPLE_NAME, line no: 1, 0.4166666666666667, 0.041666666666666664, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,data,SIMPLE_NAME, line no: 1, 0.4166666666666667, 0.041666666666666664, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,data,SIMPLE_NAME, line no: 1, 0.4, 0.04, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,data,SIMPLE_NAME, line no: 1, 0.4, 0.04, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,this.shorts=(short[])data,ASSIGNMENT, line no: 9, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,(short[])data,CAST_EXPRESSION, line no: 9, 0.391304347826087, 0.391304347826087, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,this.shorts=(short[])data,ASSIGNMENT, line no: 9, 0.375, 0.375, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,(short[])data,CAST_EXPRESSION, line no: 9, 0.375, 0.375, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,this.shorts=(short[])data,ASSIGNMENT, line no: 9, 0.375, 0.375, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,(short[])data,CAST_EXPRESSION, line no: 9, 0.375, 0.375, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,this.shorts=(short[])data,ASSIGNMENT, line no: 9, 0.36, 0.36, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,(short[])data,CAST_EXPRESSION, line no: 9, 0.36, 0.36, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,this.shorts=(short[])data,ASSIGNMENT, line no: 9, 0.36, 0.36, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,(short[])data,CAST_EXPRESSION, line no: 9, 0.36, 0.36, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,imagej,SIMPLE_NAME, line no: 1, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,UnsignedShortArrayAccessor,SIMPLE_NAME, line no: 3, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,DataAccessor,SIMPLE_NAME, line no: 3, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,Object,SIMPLE_NAME, line no: 7, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,Override,SIMPLE_NAME, line no: 12, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,getReal,SIMPLE_NAME, line no: 13, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,setReal,SIMPLE_NAME, line no: 24, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,getIntegral,SIMPLE_NAME, line no: 32, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,setIntegral,SIMPLE_NAME, line no: 43, 0.043478260869565216, 0.043478260869565216, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,imagej,SIMPLE_NAME, line no: 1, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,UnsignedShortArrayAccessor,SIMPLE_NAME, line no: 3, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,DataAccessor,SIMPLE_NAME, line no: 3, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,Object,SIMPLE_NAME, line no: 7, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,Override,SIMPLE_NAME, line no: 12, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,getReal,SIMPLE_NAME, line no: 13, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,setReal,SIMPLE_NAME, line no: 24, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,getIntegral,SIMPLE_NAME, line no: 32, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,setIntegral,SIMPLE_NAME, line no: 43, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,imagej,SIMPLE_NAME, line no: 1, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,UnsignedShortArrayAccessor,SIMPLE_NAME, line no: 3, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,DataAccessor,SIMPLE_NAME, line no: 3, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,Object,SIMPLE_NAME, line no: 7, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,Override,SIMPLE_NAME, line no: 12, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,getReal,SIMPLE_NAME, line no: 13, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,setReal,SIMPLE_NAME, line no: 24, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,getIntegral,SIMPLE_NAME, line no: 32, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,setIntegral,SIMPLE_NAME, line no: 43, 0.041666666666666664, 0.041666666666666664, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,imagej,SIMPLE_NAME, line no: 1, 0.04, 0.04, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,UnsignedShortArrayAccessor,SIMPLE_NAME, line no: 3, 0.04, 0.04, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,DataAccessor,SIMPLE_NAME, line no: 3, 0.04, 0.04, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,Object,SIMPLE_NAME, line no: 7, 0.04, 0.04, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,Override,SIMPLE_NAME, line no: 12, 0.04, 0.04, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,getReal,SIMPLE_NAME, line no: 13, 0.04, 0.04, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,setReal,SIMPLE_NAME, line no: 24, 0.04, 0.04, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,getIntegral,SIMPLE_NAME, line no: 32, 0.04, 0.04, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,setIntegral,SIMPLE_NAME, line no: 43, 0.04, 0.04, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,imagej,SIMPLE_NAME, line no: 1, 0.04, 0.04, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,UnsignedShortArrayAccessor,SIMPLE_NAME, line no: 3, 0.04, 0.04, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,DataAccessor,SIMPLE_NAME, line no: 3, 0.04, 0.04, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,Object,SIMPLE_NAME, line no: 7, 0.04, 0.04, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,Override,SIMPLE_NAME, line no: 12, 0.04, 0.04, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,getReal,SIMPLE_NAME, line no: 13, 0.04, 0.04, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,setReal,SIMPLE_NAME, line no: 24, 0.04, 0.04, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,getIntegral,SIMPLE_NAME, line no: 32, 0.04, 0.04, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,setIntegral,SIMPLE_NAME, line no: 43, 0.04, 0.04, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,imagej.data,QUALIFIED_NAME, line no: 1, 0.0, 0.0, 0.0, 0.0, 0.0
+value+=65536 + value,ASSIGNMENT, line no: 37,@Override,MARKER_ANNOTATION, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,imagej.data,QUALIFIED_NAME, line no: 1, 0.0, 0.0, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,@Override,MARKER_ANNOTATION, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,imagej.data,QUALIFIED_NAME, line no: 1, 0.0, 0.0, 0.0, 0.0, 0.0
+65536 + value,INFIX_EXPRESSION, line no: 37,@Override,MARKER_ANNOTATION, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,imagej.data,QUALIFIED_NAME, line no: 1, 0.0, 0.0, 0.0, 0.0, 0.0
+65536,NUMBER_LITERAL, line no: 37,@Override,MARKER_ANNOTATION, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,imagej.data,QUALIFIED_NAME, line no: 1, 0.0, 0.0, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 37,@Override,MARKER_ANNOTATION, line no: 12, 0.0, 0.0, 0.0, 0.0, 0.0

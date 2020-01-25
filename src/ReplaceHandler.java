@@ -25,8 +25,8 @@ public class ReplaceHandler {
 
 			if(!faultyNode.node.toString().equals(fixingIngredient.node.toString())) {
 				//				if(this.compatibilityChecker.checkCompatibility(faultyNode.node, fixingIngredient, "replace")==true) {
-//									System.out.println("FAULT "+ faultyNode.node.toString() + " line:"+faultyNode.startLine);
-//									System.out.println("FIX " + fixingIngredient.node.toString()+ " line:"+fixingIngredient.startLine);
+									System.out.println("FAULT "+ faultyNode.node.toString() + " line:"+faultyNode.startLine);
+									System.out.println("FIX " + fixingIngredient.node.toString()+ " line:"+fixingIngredient.startLine);
 				CandidatePatch candidatePatch = new CandidatePatch();
 				candidatePatch.faultyNode = faultyNode.node;
 				candidatePatch.fixingIngredient = fixingIngredient.node;
@@ -64,12 +64,13 @@ public class ReplaceHandler {
 					candidatePatch.variableScore = modelExtractor.getVariableSimilarityScore(faultyNode.variableAccessed, fixingIngredient.variableAccessed);
 				}
 				candidatePatch.tokenScore = modelExtractor.getTokenSimilarityScore(faultyNode.tokens, fixingIngredient.tokens);
-				candidatePatch.LCS = modelExtractor.getNormalizedLongestCommonSubsequence(faultyNode.node.toString(), fixingIngredient.node.toString());
+				System.out.println("SCORE "+candidatePatch.variableScore);
+//				candidatePatch.LCS = modelExtractor.getNormalizedLongestCommonSubsequence(faultyNode.node.toString(), fixingIngredient.node.toString());
 				candidatePatch.score = candidatePatch.genealogyScore+candidatePatch.variableScore+candidatePatch.tokenScore; //
 //				System.out.println(candidatePatch.genealogyScore+" "+candidatePatch.variableScore+" "+candidatePatch.tokenScore);
-				if(candidatePatch.score>0) {
-					this.patchListUpdater.updatePatchList(candidatePatch);
-				}
+				//if(candidatePatch.score>0) {
+				this.patchListUpdater.updatePatchList(candidatePatch);
+				//}
 			}
 		}
 	}

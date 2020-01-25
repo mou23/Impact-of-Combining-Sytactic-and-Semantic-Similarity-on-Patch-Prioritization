@@ -1,0 +1,825 @@
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,builder.append(src offset start - offset),METHOD_INVOCATION, line no: 50, 2.870629370629371, 0.9615384615384616, 1.0, 0.0, 0.9090909090909091
+start - 1,INFIX_EXPRESSION, line no: 42,start > -1,INFIX_EXPRESSION, line no: 39, 2.75, 1.0, 1.0, 0.0, 0.75
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42, 2.646153846153846, 1.0, 0.8, 0.0, 0.8461538461538461
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42, 2.6076923076923078, 0.9615384615384616, 0.8, 0.0, 0.8461538461538461
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,builder.append(src offset start - offset),METHOD_INVOCATION, line no: 50, 2.5292307692307694, 0.96, 0.8, 0.0, 0.7692307692307693
+builder,SIMPLE_NAME, line no: 42,StringBuilder,SIMPLE_NAME, line no: 34, 2.5, 1.0, 1.0, 0.0, 0.5
+1,NUMBER_LITERAL, line no: 42,-1,PREFIX_EXPRESSION, line no: 39, 2.5, 1.0, 1.0, 0.0, 0.5
+start - 1,INFIX_EXPRESSION, line no: 42,start,SIMPLE_NAME, line no: 38, 2.3333333333333335, 1.0, 1.0, 0.0, 0.3333333333333333
+start - 1,INFIX_EXPRESSION, line no: 42,1,NUMBER_LITERAL, line no: 39, 2.3333333333333335, 1.0, 1.0, 0.0, 0.3333333333333333
+start,SIMPLE_NAME, line no: 42,start - 1,INFIX_EXPRESSION, line no: 40, 2.3333333333333335, 1.0, 1.0, 0.0, 0.3333333333333333
+1,NUMBER_LITERAL, line no: 42,start - 1,INFIX_EXPRESSION, line no: 40, 2.3333333333333335, 1.0, 1.0, 0.0, 0.3333333333333333
+openToken,SIMPLE_NAME, line no: 42,closeToken,SIMPLE_NAME, line no: 24, 2.3333333333333335, 0.038461538461538464, 1.0, 0.0, 0.3333333333333333
+start,SIMPLE_NAME, line no: 42,start - offset,INFIX_EXPRESSION, line no: 50, 2.297619047619048, 0.9642857142857143, 1.0, 0.0, 0.3333333333333333
+offset,SIMPLE_NAME, line no: 42,start - offset,INFIX_EXPRESSION, line no: 50, 2.2962962962962963, 0.9629629629629629, 1.0, 0.0, 0.3333333333333333
+offset,SIMPLE_NAME, line no: 42,end - offset,INFIX_EXPRESSION, line no: 52, 2.2962962962962963, 0.9629629629629629, 1.0, 0.0, 0.3333333333333333
+openToken,SIMPLE_NAME, line no: 42,handleToken,SIMPLE_NAME, line no: 53, 2.294871794871795, 0.9615384615384616, 1.0, 0.0, 0.3333333333333333
+builder,SIMPLE_NAME, line no: 42,new StringBuilder(),CLASS_INSTANCE_CREATION, line no: 34, 2.2, 1.0, 1.0, 0.0, 0.2
+start - 1,INFIX_EXPRESSION, line no: 42,start > 0,INFIX_EXPRESSION, line no: 40, 2.2, 1.0, 1.0, 0.0, 0.2
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,builder.append(src offset src.length - offset),METHOD_INVOCATION, line no: 47, 2.1192307692307693, 0.7692307692307693, 0.6, 0.0, 0.75
+offset,SIMPLE_NAME, line no: 42,text.indexOf(openToken offset),METHOD_INVOCATION, line no: 38, 2.1, 1.0, 1.0, 0.0, 0.1
+start,SIMPLE_NAME, line no: 42,text.indexOf(closeToken start),METHOD_INVOCATION, line no: 45, 2.1, 1.0, 1.0, 0.0, 0.1
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,builder,SIMPLE_NAME, line no: 34, 2.090909090909091, 1.0, 1.0, 0.0, 0.09090909090909091
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,append,SIMPLE_NAME, line no: 42, 2.090909090909091, 1.0, 1.0, 0.0, 0.09090909090909091
+start,SIMPLE_NAME, line no: 42,start + openToken.length(),INFIX_EXPRESSION, line no: 43, 2.0892857142857144, 0.8928571428571429, 1.0, 0.0, 0.125
+openToken,SIMPLE_NAME, line no: 42,handler.handleToken(content),METHOD_INVOCATION, line no: 53, 2.0865384615384617, 0.9615384615384616, 1.0, 0.0, 0.125
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,StringBuilder,SIMPLE_NAME, line no: 34, 2.0833333333333335, 1.0, 1.0, 0.0, 0.08333333333333333
+offset,SIMPLE_NAME, line no: 42,start=text.indexOf(openToken offset),ASSIGNMENT, line no: 57, 2.0833333333333335, 1.0, 1.0, 0.0, 0.08333333333333333
+start,SIMPLE_NAME, line no: 42,start=text.indexOf(openToken offset),ASSIGNMENT, line no: 57, 2.0833333333333335, 1.0, 1.0, 0.0, 0.08333333333333333
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,builder,SIMPLE_NAME, line no: 34, 2.076923076923077, 1.0, 1.0, 0.0, 0.07692307692307693
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,append,SIMPLE_NAME, line no: 42, 2.076923076923077, 1.0, 1.0, 0.0, 0.07692307692307693
+builder,SIMPLE_NAME, line no: 42,builder.append(handler.handleToken(content)),METHOD_INVOCATION, line no: 53, 2.074074074074074, 0.9629629629629629, 1.0, 0.0, 0.1111111111111111
+append,SIMPLE_NAME, line no: 42,builder.append(handler.handleToken(content)),METHOD_INVOCATION, line no: 53, 2.074074074074074, 0.9629629629629629, 1.0, 0.0, 0.1111111111111111
+append,SIMPLE_NAME, line no: 42,builder.append(handler.handleToken(content)),METHOD_INVOCATION, line no: 53, 2.072649572649573, 0.9615384615384616, 1.0, 0.0, 0.1111111111111111
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,StringBuilder,SIMPLE_NAME, line no: 34, 2.0714285714285716, 1.0, 1.0, 0.0, 0.07142857142857142
+start,SIMPLE_NAME, line no: 42,offset=start + openToken.length(),ASSIGNMENT, line no: 43, 2.0642857142857145, 0.8571428571428571, 1.0, 0.0, 0.1
+builder,SIMPLE_NAME, line no: 42,builder.append(src offset start - offset),METHOD_INVOCATION, line no: 50, 2.062962962962963, 0.9629629629629629, 1.0, 0.0, 0.1
+append,SIMPLE_NAME, line no: 42,builder.append(src offset start - offset),METHOD_INVOCATION, line no: 50, 2.062962962962963, 0.9629629629629629, 1.0, 0.0, 0.1
+offset,SIMPLE_NAME, line no: 42,offset=start + openToken.length(),ASSIGNMENT, line no: 43, 2.062962962962963, 0.8888888888888888, 1.0, 0.0, 0.1
+offset,SIMPLE_NAME, line no: 42,offset=end + closeToken.length(),ASSIGNMENT, line no: 54, 2.062962962962963, 0.9629629629629629, 1.0, 0.0, 0.1
+append,SIMPLE_NAME, line no: 42,builder.append(src offset start - offset),METHOD_INVOCATION, line no: 50, 2.0615384615384618, 0.9615384615384616, 1.0, 0.0, 0.1
+builder,SIMPLE_NAME, line no: 42,builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42, 2.0538720538720536, 0.9629629629629629, 1.0, 0.0, 0.09090909090909091
+append,SIMPLE_NAME, line no: 42,builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42, 2.0538720538720536, 0.9629629629629629, 1.0, 0.0, 0.09090909090909091
+append,SIMPLE_NAME, line no: 42,builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42, 2.0524475524475525, 0.9615384615384616, 1.0, 0.0, 0.09090909090909091
+append,SIMPLE_NAME, line no: 42,builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42, 2.0384615384615388, 0.9615384615384616, 1.0, 0.0, 0.07692307692307693
+builder,SIMPLE_NAME, line no: 42,builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42, 2.002849002849003, 0.9259259259259259, 1.0, 0.0, 0.07692307692307693
+append,SIMPLE_NAME, line no: 42,builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42, 2.002849002849003, 0.9259259259259259, 1.0, 0.0, 0.07692307692307693
+builder,SIMPLE_NAME, line no: 42,append,SIMPLE_NAME, line no: 42, 2.0, 1.0, 1.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,StringBuilder,SIMPLE_NAME, line no: 34, 2.0, 1.0, 1.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,builder,SIMPLE_NAME, line no: 34, 2.0, 1.0, 1.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,new StringBuilder(),CLASS_INSTANCE_CREATION, line no: 34, 2.0, 1.0, 1.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,text.toCharArray(),METHOD_INVOCATION, line no: 36, 2.0, 1.0, 1.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,toCharArray,SIMPLE_NAME, line no: 36, 2.0, 1.0, 1.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,text.length(),METHOD_INVOCATION, line no: 35, 2.0, 1.0, 1.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,length,SIMPLE_NAME, line no: 35, 2.0, 1.0, 1.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,0,NUMBER_LITERAL, line no: 35, 2.0, 1.0, 1.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,start,SIMPLE_NAME, line no: 38, 2.0, 1.0, 1.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,indexOf,SIMPLE_NAME, line no: 38, 2.0, 1.0, 1.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,-1,PREFIX_EXPRESSION, line no: 39, 2.0, 1.0, 1.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,1,NUMBER_LITERAL, line no: 39, 2.0, 1.0, 1.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,start - 1,INFIX_EXPRESSION, line no: 40, 2.0, 1.0, 1.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,end,SIMPLE_NAME, line no: 45, 2.0, 1.0, 1.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,text.indexOf(closeToken start),METHOD_INVOCATION, line no: 45, 2.0, 1.0, 1.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,src.length,QUALIFIED_NAME, line no: 47, 2.0, 0.7777777777777778, 1.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,length,SIMPLE_NAME, line no: 35, 2.0, 1.0, 1.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,0,NUMBER_LITERAL, line no: 35, 2.0, 1.0, 1.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,offset,SIMPLE_NAME, line no: 37, 2.0, 1.0, 1.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,indexOf,SIMPLE_NAME, line no: 38, 2.0, 1.0, 1.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,src[start - 1],ARRAY_ACCESS, line no: 40, 2.0, 1.0, 0.5, 0.0, 0.5
+start - 1,INFIX_EXPRESSION, line no: 42,end,SIMPLE_NAME, line no: 45, 2.0, 1.0, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,text.length(),METHOD_INVOCATION, line no: 35, 2.0, 1.0, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,length,SIMPLE_NAME, line no: 35, 2.0, 1.0, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,0,NUMBER_LITERAL, line no: 35, 2.0, 1.0, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,offset,SIMPLE_NAME, line no: 37, 2.0, 1.0, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,text.indexOf(openToken offset),METHOD_INVOCATION, line no: 38, 2.0, 1.0, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,indexOf,SIMPLE_NAME, line no: 38, 2.0, 1.0, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,-1,PREFIX_EXPRESSION, line no: 39, 2.0, 1.0, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,1,NUMBER_LITERAL, line no: 39, 2.0, 1.0, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,end,SIMPLE_NAME, line no: 45, 2.0, 1.0, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,src.length,QUALIFIED_NAME, line no: 47, 2.0, 0.75, 1.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,text.length(),METHOD_INVOCATION, line no: 35, 2.0, 1.0, 1.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,length,SIMPLE_NAME, line no: 35, 2.0, 1.0, 1.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,0,NUMBER_LITERAL, line no: 35, 2.0, 1.0, 1.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,offset,SIMPLE_NAME, line no: 37, 2.0, 1.0, 1.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,start,SIMPLE_NAME, line no: 38, 2.0, 1.0, 1.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,text.indexOf(openToken offset),METHOD_INVOCATION, line no: 38, 2.0, 1.0, 1.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,indexOf,SIMPLE_NAME, line no: 38, 2.0, 1.0, 1.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,src.length,QUALIFIED_NAME, line no: 47, 2.0, 0.75, 1.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,start=text.indexOf(openToken offset),ASSIGNMENT, line no: 57, 2.0, 1.0, 1.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,StringBuilder,SIMPLE_NAME, line no: 34, 2.0, 1.0, 1.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,builder,SIMPLE_NAME, line no: 34, 2.0, 1.0, 1.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,new StringBuilder(),CLASS_INSTANCE_CREATION, line no: 34, 2.0, 1.0, 1.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,text,SIMPLE_NAME, line no: 33, 2.0, 0.038461538461538464, 1.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,builder.toString(),METHOD_INVOCATION, line no: 63, 2.0, 1.0, 1.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,toString,SIMPLE_NAME, line no: 63, 2.0, 1.0, 1.0, 0.0, 0.0
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,offset=start + openToken.length(),ASSIGNMENT, line no: 43, 1.9975, 0.96, 0.6, 0.0, 0.4375
+offset,SIMPLE_NAME, line no: 42,src.length - offset,INFIX_EXPRESSION, line no: 47, 1.9777777777777776, 0.7777777777777778, 1.0, 0.0, 0.2
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,start=text.indexOf(openToken offset),ASSIGNMENT, line no: 57, 1.9705882352941178, 1.0, 0.5, 0.0, 0.47058823529411764
+start,SIMPLE_NAME, line no: 42,openToken.length(),METHOD_INVOCATION, line no: 43, 1.9642857142857144, 0.9285714285714286, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,end - offset,INFIX_EXPRESSION, line no: 52, 1.9642857142857144, 0.9642857142857143, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,offset=end + closeToken.length(),ASSIGNMENT, line no: 54, 1.9642857142857144, 0.9642857142857143, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,end + closeToken.length(),INFIX_EXPRESSION, line no: 54, 1.9642857142857144, 0.9642857142857143, 1.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,closeToken.length(),METHOD_INVOCATION, line no: 54, 1.9642857142857144, 0.9642857142857143, 1.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,end,SIMPLE_NAME, line no: 45, 1.9642857142857144, 0.9642857142857143, 1.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,text.indexOf(closeToken start),METHOD_INVOCATION, line no: 45, 1.9642857142857144, 0.9642857142857143, 1.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,start + openToken.length(),INFIX_EXPRESSION, line no: 43, 1.9629629629629628, 0.8888888888888888, 1.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,openToken.length(),METHOD_INVOCATION, line no: 43, 1.9629629629629628, 0.9259259259259259, 1.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,end + closeToken.length(),INFIX_EXPRESSION, line no: 54, 1.9629629629629628, 0.9629629629629629, 1.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,closeToken.length(),METHOD_INVOCATION, line no: 54, 1.9629629629629628, 0.9629629629629629, 1.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,start - offset,INFIX_EXPRESSION, line no: 50, 1.9629629629629628, 0.9629629629629629, 0.5, 0.0, 0.5
+openToken,SIMPLE_NAME, line no: 42,String,SIMPLE_NAME, line no: 23, 1.9615384615384617, 0.038461538461538464, 1.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,content,SIMPLE_NAME, line no: 52, 1.9615384615384617, 0.9615384615384616, 1.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,new String(src offset end - offset),CLASS_INSTANCE_CREATION, line no: 52, 1.9615384615384617, 0.9615384615384616, 1.0, 0.0, 0.0
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,builder.append(src offset src.length - offset),METHOD_INVOCATION, line no: 47, 1.942857142857143, 0.8, 0.5, 0.0, 0.6428571428571429
+1,NUMBER_LITERAL, line no: 42,offset=start + openToken.length(),ASSIGNMENT, line no: 43, 1.9285714285714286, 0.8571428571428571, 1.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,start + openToken.length(),INFIX_EXPRESSION, line no: 43, 1.9285714285714286, 0.8928571428571429, 1.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,openToken.length(),METHOD_INVOCATION, line no: 43, 1.9285714285714286, 0.9285714285714286, 1.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,start - offset,INFIX_EXPRESSION, line no: 50, 1.9285714285714286, 0.9285714285714286, 1.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,end - offset,INFIX_EXPRESSION, line no: 52, 1.9285714285714286, 0.9285714285714286, 1.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,offset=end + closeToken.length(),ASSIGNMENT, line no: 54, 1.9285714285714286, 0.9285714285714286, 1.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,end + closeToken.length(),INFIX_EXPRESSION, line no: 54, 1.9285714285714286, 0.9285714285714286, 1.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,closeToken.length(),METHOD_INVOCATION, line no: 54, 1.9285714285714286, 0.9285714285714286, 1.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,offset=src.length,ASSIGNMENT, line no: 48, 1.9037037037037037, 0.7037037037037037, 1.0, 0.0, 0.2
+openToken,SIMPLE_NAME, line no: 42,this.openToken,FIELD_ACCESS, line no: 28, 1.8846153846153846, 0.38461538461538464, 1.0, 0.0, 0.5
+start - 1,INFIX_EXPRESSION, line no: 42,src[start - 1] == '\\',INFIX_EXPRESSION, line no: 40, 1.875, 1.0, 0.5, 0.0, 0.375
+append,SIMPLE_NAME, line no: 42,builder.append(src offset src.length - offset),METHOD_INVOCATION, line no: 47, 1.8692307692307693, 0.7692307692307693, 1.0, 0.0, 0.1
+builder,SIMPLE_NAME, line no: 42,builder.append(src offset src.length - offset),METHOD_INVOCATION, line no: 47, 1.8407407407407408, 0.7407407407407407, 1.0, 0.0, 0.1
+append,SIMPLE_NAME, line no: 42,builder.append(src offset src.length - offset),METHOD_INVOCATION, line no: 47, 1.8407407407407408, 0.7407407407407407, 1.0, 0.0, 0.1
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,src[start - 1],ARRAY_ACCESS, line no: 40, 1.8076923076923077, 1.0, 0.5, 0.0, 0.3076923076923077
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,new String(src offset end - offset),CLASS_INSTANCE_CREATION, line no: 52, 1.7901098901098902, 0.9615384615384616, 0.4, 0.0, 0.42857142857142855
+openToken,SIMPLE_NAME, line no: 42,this.openToken=openToken,ASSIGNMENT, line no: 28, 1.7846153846153845, 0.38461538461538464, 1.0, 0.0, 0.4
+start - 1,INFIX_EXPRESSION, line no: 42,start > 0 && src[start - 1] == '\\',INFIX_EXPRESSION, line no: 40, 1.7727272727272727, 1.0, 0.5, 0.0, 0.2727272727272727
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,text.indexOf(openToken offset),METHOD_INVOCATION, line no: 38, 1.7708333333333333, 1.0, 0.3333333333333333, 0.0, 0.4375
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,src[start - 1] == '\\',INFIX_EXPRESSION, line no: 40, 1.7666666666666666, 1.0, 0.5, 0.0, 0.26666666666666666
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,start + openToken.length(),INFIX_EXPRESSION, line no: 43, 1.7599999999999998, 0.96, 0.4, 0.0, 0.4
+start,SIMPLE_NAME, line no: 42,src.length - offset,INFIX_EXPRESSION, line no: 47, 1.75, 0.75, 1.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,src.length - offset,INFIX_EXPRESSION, line no: 47, 1.75, 0.75, 1.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,start - offset,INFIX_EXPRESSION, line no: 50, 1.7342657342657344, 0.9615384615384616, 0.5, 0.0, 0.2727272727272727
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,start > 0 && src[start - 1] == '\\',INFIX_EXPRESSION, line no: 40, 1.7222222222222223, 1.0, 0.5, 0.0, 0.2222222222222222
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,start=text.indexOf(openToken offset),ASSIGNMENT, line no: 57, 1.6862745098039216, 1.0, 0.3333333333333333, 0.0, 0.35294117647058826
+start,SIMPLE_NAME, line no: 42,offset=src.length,ASSIGNMENT, line no: 48, 1.6785714285714286, 0.6785714285714286, 1.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,offset=src.length,ASSIGNMENT, line no: 48, 1.6785714285714286, 0.6785714285714286, 1.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,offset=start + openToken.length(),ASSIGNMENT, line no: 43, 1.6740384615384616, 0.9230769230769231, 0.4, 0.0, 0.3125
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,new String(src offset end - offset),CLASS_INSTANCE_CREATION, line no: 52, 1.6683333333333332, 0.96, 0.3333333333333333, 0.0, 0.375
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,src[start - 1],ARRAY_ACCESS, line no: 40, 1.6666666666666665, 1.0, 0.4, 0.0, 0.26666666666666666
+start - 1,INFIX_EXPRESSION, line no: 42,-1,PREFIX_EXPRESSION, line no: 39, 1.6666666666666665, 1.0, 0.0, 0.0, 0.6666666666666666
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,src[start - 1] == '\\',INFIX_EXPRESSION, line no: 40, 1.6352941176470588, 1.0, 0.4, 0.0, 0.23529411764705882
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,offset < src.length,INFIX_EXPRESSION, line no: 59, 1.6307692307692307, 1.0, 0.4, 0.0, 0.23076923076923078
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,start > 0 && src[start - 1] == '\\',INFIX_EXPRESSION, line no: 40, 1.5999999999999999, 1.0, 0.4, 0.0, 0.2
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,start - offset,INFIX_EXPRESSION, line no: 50, 1.5907692307692307, 0.96, 0.4, 0.0, 0.23076923076923078
+openToken,SIMPLE_NAME, line no: 42,this.closeToken,FIELD_ACCESS, line no: 29, 1.5846153846153845, 0.38461538461538464, 1.0, 0.0, 0.2
+start - 1,INFIX_EXPRESSION, line no: 42,start + openToken.length(),INFIX_EXPRESSION, line no: 43, 1.5629629629629629, 0.9259259259259259, 0.5, 0.0, 0.1
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,builder.toString(),METHOD_INVOCATION, line no: 63, 1.5576923076923077, 1.0, 0.25, 0.0, 0.3076923076923077
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,openToken.length(),METHOD_INVOCATION, line no: 43, 1.5571428571428572, 1.0, 0.2, 0.0, 0.35714285714285715
+openToken,SIMPLE_NAME, line no: 42,this.closeToken=closeToken,ASSIGNMENT, line no: 29, 1.5512820512820513, 0.38461538461538464, 1.0, 0.0, 0.16666666666666666
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,src.length - offset,INFIX_EXPRESSION, line no: 47, 1.541025641025641, 0.8076923076923077, 0.4, 0.0, 0.3333333333333333
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,offset < src.length,INFIX_EXPRESSION, line no: 59, 1.5333333333333332, 1.0, 0.3333333333333333, 0.0, 0.2
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,start - 1,INFIX_EXPRESSION, line no: 40, 1.5227272727272727, 1.0, 0.25, 0.0, 0.2727272727272727
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,start > -1,INFIX_EXPRESSION, line no: 39, 1.5, 1.0, 0.25, 0.0, 0.25
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,text.indexOf(closeToken start),METHOD_INVOCATION, line no: 45, 1.495798319327731, 1.0, 0.14285714285714285, 0.0, 0.35294117647058826
+start - 1,INFIX_EXPRESSION, line no: 42,builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42, 1.4856902356902355, 0.9629629629629629, 0.25, 0.0, 0.2727272727272727
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,text.indexOf(openToken offset),METHOD_INVOCATION, line no: 38, 1.4791666666666667, 1.0, 0.16666666666666666, 0.0, 0.3125
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,text.indexOf(closeToken start),METHOD_INVOCATION, line no: 45, 1.4791666666666667, 1.0, 0.16666666666666666, 0.0, 0.3125
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,builder.append(handler.handleToken(content)),METHOD_INVOCATION, line no: 53, 1.4778571428571428, 0.96, 0.14285714285714285, 0.0, 0.375
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,builder.toString(),METHOD_INVOCATION, line no: 63, 1.4666666666666666, 1.0, 0.2, 0.0, 0.26666666666666666
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,builder.append(handler.handleToken(content)),METHOD_INVOCATION, line no: 53, 1.4615384615384615, 0.9615384615384616, 0.16666666666666666, 0.0, 0.3333333333333333
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,src.length - offset,INFIX_EXPRESSION, line no: 47, 1.459047619047619, 0.84, 0.3333333333333333, 0.0, 0.2857142857142857
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,start - 1,INFIX_EXPRESSION, line no: 40, 1.4307692307692308, 1.0, 0.2, 0.0, 0.23076923076923078
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,start + openToken.length(),INFIX_EXPRESSION, line no: 43, 1.4282051282051282, 0.9230769230769231, 0.2, 0.0, 0.26666666666666666
+start - 1,INFIX_EXPRESSION, line no: 42,text.indexOf(closeToken start),METHOD_INVOCATION, line no: 45, 1.4166666666666665, 1.0, 0.3333333333333333, 0.0, 0.08333333333333333
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,start > -1,INFIX_EXPRESSION, line no: 39, 1.4142857142857141, 1.0, 0.2, 0.0, 0.21428571428571427
+start - 1,INFIX_EXPRESSION, line no: 42,end == -1,INFIX_EXPRESSION, line no: 46, 1.4, 1.0, 0.0, 0.0, 0.4
+start - 1,INFIX_EXPRESSION, line no: 42,builder.append(src offset start - offset),METHOD_INVOCATION, line no: 50, 1.3947811447811447, 0.9629629629629629, 0.25, 0.0, 0.18181818181818182
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,offset=end + closeToken.length(),ASSIGNMENT, line no: 54, 1.3806349206349204, 0.96, 0.14285714285714285, 0.0, 0.2777777777777778
+start - 1,INFIX_EXPRESSION, line no: 42,offset=start + openToken.length(),ASSIGNMENT, line no: 43, 1.3796296296296295, 0.8888888888888888, 0.3333333333333333, 0.0, 0.08333333333333333
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,src.length,QUALIFIED_NAME, line no: 47, 1.3666666666666667, 0.8076923076923077, 0.2, 0.0, 0.16666666666666666
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,offset=end + closeToken.length(),ASSIGNMENT, line no: 54, 1.363499245852187, 0.9615384615384616, 0.16666666666666666, 0.0, 0.23529411764705882
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,offset=src.length,ASSIGNMENT, line no: 48, 1.3615384615384616, 0.7307692307692307, 0.4, 0.0, 0.23076923076923078
+start - 1,INFIX_EXPRESSION, line no: 42,builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42, 1.3566951566951568, 0.9259259259259259, 0.2, 0.0, 0.23076923076923078
+src,SIMPLE_NAME, line no: 42,src.length,QUALIFIED_NAME, line no: 47, 1.3333333333333333, 0.7777777777777778, 0.0, 0.0, 0.3333333333333333
+start,SIMPLE_NAME, line no: 42,start > 0,INFIX_EXPRESSION, line no: 40, 1.3333333333333333, 1.0, 0.0, 0.0, 0.3333333333333333
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,end - offset,INFIX_EXPRESSION, line no: 52, 1.3282051282051284, 0.9615384615384616, 0.2, 0.0, 0.16666666666666666
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,start > 0,INFIX_EXPRESSION, line no: 40, 1.3269230769230769, 1.0, 0.25, 0.0, 0.07692307692307693
+start - 1,INFIX_EXPRESSION, line no: 42,start=text.indexOf(openToken offset),ASSIGNMENT, line no: 57, 1.3214285714285714, 1.0, 0.25, 0.0, 0.07142857142857142
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,src.length,QUALIFIED_NAME, line no: 47, 1.3095238095238095, 0.84, 0.16666666666666666, 0.0, 0.14285714285714285
+openToken,SIMPLE_NAME, line no: 42,openToken.length(),METHOD_INVOCATION, line no: 43, 1.294871794871795, 0.9615384615384616, 0.0, 0.0, 0.3333333333333333
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,offset=src.length,ASSIGNMENT, line no: 48, 1.2933333333333332, 0.76, 0.3333333333333333, 0.0, 0.2
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,end - offset,INFIX_EXPRESSION, line no: 52, 1.2695238095238095, 0.96, 0.16666666666666666, 0.0, 0.14285714285714285
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,start > 0,INFIX_EXPRESSION, line no: 40, 1.2666666666666666, 1.0, 0.2, 0.0, 0.06666666666666667
+start,SIMPLE_NAME, line no: 42,start > -1,INFIX_EXPRESSION, line no: 39, 1.25, 1.0, 0.0, 0.0, 0.25
+1,NUMBER_LITERAL, line no: 42,start > -1,INFIX_EXPRESSION, line no: 39, 1.25, 1.0, 0.0, 0.0, 0.25
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,new StringBuilder(),CLASS_INSTANCE_CREATION, line no: 34, 1.2307692307692308, 1.0, 0.0, 0.0, 0.23076923076923078
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,text.length(),METHOD_INVOCATION, line no: 35, 1.2307692307692308, 1.0, 0.0, 0.0, 0.23076923076923078
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,closeToken.length(),METHOD_INVOCATION, line no: 54, 1.2266666666666666, 0.96, 0.0, 0.0, 0.26666666666666666
+1,NUMBER_LITERAL, line no: 42,end == -1,INFIX_EXPRESSION, line no: 46, 1.2142857142857144, 0.9642857142857143, 0.0, 0.0, 0.25
+openToken,SIMPLE_NAME, line no: 42,start + openToken.length(),INFIX_EXPRESSION, line no: 43, 1.2115384615384617, 0.9230769230769231, 0.0, 0.0, 0.25
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,handler.handleToken(content),METHOD_INVOCATION, line no: 53, 1.21, 0.96, 0.0, 0.0, 0.25
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,new StringBuilder(),CLASS_INSTANCE_CREATION, line no: 34, 1.2, 1.0, 0.0, 0.0, 0.2
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,text.length(),METHOD_INVOCATION, line no: 35, 1.2, 1.0, 0.0, 0.0, 0.2
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,text.length() > 0,INFIX_EXPRESSION, line no: 35, 1.2, 1.0, 0.0, 0.0, 0.2
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,text.toCharArray(),METHOD_INVOCATION, line no: 36, 1.2, 1.0, 0.0, 0.0, 0.2
+src,SIMPLE_NAME, line no: 42,offset < src.length,INFIX_EXPRESSION, line no: 59, 1.2, 1.0, 0.0, 0.0, 0.2
+offset,SIMPLE_NAME, line no: 42,offset < src.length,INFIX_EXPRESSION, line no: 59, 1.2, 1.0, 0.0, 0.0, 0.2
+openToken,SIMPLE_NAME, line no: 42,text.indexOf(openToken offset),METHOD_INVOCATION, line no: 38, 1.2, 1.0, 0.0, 0.0, 0.2
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,end + closeToken.length(),INFIX_EXPRESSION, line no: 54, 1.1952941176470588, 0.96, 0.0, 0.0, 0.23529411764705882
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,-1,PREFIX_EXPRESSION, line no: 39, 1.1818181818181819, 1.0, 0.0, 0.0, 0.18181818181818182
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,text.length() > 0,INFIX_EXPRESSION, line no: 35, 1.1764705882352942, 1.0, 0.0, 0.0, 0.17647058823529413
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,text.toCharArray(),METHOD_INVOCATION, line no: 36, 1.1764705882352942, 1.0, 0.0, 0.0, 0.17647058823529413
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,openToken.length(),METHOD_INVOCATION, line no: 43, 1.1758241758241759, 0.9615384615384616, 0.0, 0.0, 0.21428571428571427
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,closeToken.length(),METHOD_INVOCATION, line no: 54, 1.1758241758241759, 0.9615384615384616, 0.0, 0.0, 0.21428571428571427
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,text != null && text.length() > 0,INFIX_EXPRESSION, line no: 35, 1.1666666666666667, 1.0, 0.0, 0.0, 0.16666666666666666
+builder,SIMPLE_NAME, line no: 42,builder.toString(),METHOD_INVOCATION, line no: 63, 1.1666666666666667, 1.0, 0.0, 0.0, 0.16666666666666666
+src,SIMPLE_NAME, line no: 42,src[start - 1],ARRAY_ACCESS, line no: 40, 1.1666666666666667, 1.0, 0.0, 0.0, 0.16666666666666666
+start,SIMPLE_NAME, line no: 42,src[start - 1],ARRAY_ACCESS, line no: 40, 1.1666666666666667, 1.0, 0.0, 0.0, 0.16666666666666666
+1,NUMBER_LITERAL, line no: 42,src[start - 1],ARRAY_ACCESS, line no: 40, 1.1666666666666667, 1.0, 0.0, 0.0, 0.16666666666666666
+openToken,SIMPLE_NAME, line no: 42,start=text.indexOf(openToken offset),ASSIGNMENT, line no: 57, 1.1666666666666667, 1.0, 0.0, 0.0, 0.16666666666666666
+start - 1,INFIX_EXPRESSION, line no: 42,end - offset,INFIX_EXPRESSION, line no: 52, 1.162962962962963, 0.9629629629629629, 0.0, 0.0, 0.2
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,handler.handleToken(content),METHOD_INVOCATION, line no: 53, 1.1615384615384616, 0.9615384615384616, 0.0, 0.0, 0.2
+openToken,SIMPLE_NAME, line no: 42,offset=start + openToken.length(),ASSIGNMENT, line no: 43, 1.1615384615384616, 0.9230769230769231, 0.0, 0.0, 0.2
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,openToken,SIMPLE_NAME, line no: 23, 1.1538461538461537, 0.04, 0.0, 0.0, 0.15384615384615385
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,-1,PREFIX_EXPRESSION, line no: 39, 1.1538461538461537, 1.0, 0.0, 0.0, 0.15384615384615385
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,end == -1,INFIX_EXPRESSION, line no: 46, 1.1538461538461537, 1.0, 0.0, 0.0, 0.15384615384615385
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,text != null && text.length() > 0,INFIX_EXPRESSION, line no: 35, 1.15, 1.0, 0.0, 0.0, 0.15
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,end + closeToken.length(),INFIX_EXPRESSION, line no: 54, 1.1490384615384617, 0.9615384615384616, 0.0, 0.0, 0.1875
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,end == -1,INFIX_EXPRESSION, line no: 46, 1.1333333333333333, 1.0, 0.0, 0.0, 0.13333333333333333
+src,SIMPLE_NAME, line no: 42,src[start - 1] == '\\',INFIX_EXPRESSION, line no: 40, 1.125, 1.0, 0.0, 0.0, 0.125
+start,SIMPLE_NAME, line no: 42,src[start - 1] == '\\',INFIX_EXPRESSION, line no: 40, 1.125, 1.0, 0.0, 0.0, 0.125
+1,NUMBER_LITERAL, line no: 42,src[start - 1] == '\\',INFIX_EXPRESSION, line no: 40, 1.125, 1.0, 0.0, 0.0, 0.125
+openToken,SIMPLE_NAME, line no: 42,builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42, 1.1153846153846154, 0.9615384615384616, 0.0, 0.0, 0.15384615384615385
+openToken,SIMPLE_NAME, line no: 42,closeToken.length(),METHOD_INVOCATION, line no: 54, 1.1043956043956045, 0.9615384615384616, 0.0, 0.0, 0.14285714285714285
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,src,SIMPLE_NAME, line no: 36, 1.0909090909090908, 1.0, 0.0, 0.0, 0.09090909090909091
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,offset,SIMPLE_NAME, line no: 37, 1.0909090909090908, 1.0, 0.0, 0.0, 0.09090909090909091
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,start,SIMPLE_NAME, line no: 38, 1.0909090909090908, 1.0, 0.0, 0.0, 0.09090909090909091
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,1,NUMBER_LITERAL, line no: 39, 1.0909090909090908, 1.0, 0.0, 0.0, 0.09090909090909091
+src,SIMPLE_NAME, line no: 42,start > 0 && src[start - 1] == '\\',INFIX_EXPRESSION, line no: 40, 1.0909090909090908, 1.0, 0.0, 0.0, 0.09090909090909091
+start,SIMPLE_NAME, line no: 42,start > 0 && src[start - 1] == '\\',INFIX_EXPRESSION, line no: 40, 1.0909090909090908, 1.0, 0.0, 0.0, 0.09090909090909091
+1,NUMBER_LITERAL, line no: 42,start > 0 && src[start - 1] == '\\',INFIX_EXPRESSION, line no: 40, 1.0909090909090908, 1.0, 0.0, 0.0, 0.09090909090909091
+openToken,SIMPLE_NAME, line no: 42,text.indexOf(closeToken start),METHOD_INVOCATION, line no: 45, 1.0909090909090908, 1.0, 0.0, 0.0, 0.09090909090909091
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,src,SIMPLE_NAME, line no: 36, 1.0769230769230769, 1.0, 0.0, 0.0, 0.07692307692307693
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,offset,SIMPLE_NAME, line no: 37, 1.0769230769230769, 1.0, 0.0, 0.0, 0.07692307692307693
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,start,SIMPLE_NAME, line no: 38, 1.0769230769230769, 1.0, 0.0, 0.0, 0.07692307692307693
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,1,NUMBER_LITERAL, line no: 39, 1.0769230769230769, 1.0, 0.0, 0.0, 0.07692307692307693
+src,SIMPLE_NAME, line no: 42,new String(src offset end - offset),CLASS_INSTANCE_CREATION, line no: 52, 1.074074074074074, 0.9629629629629629, 0.0, 0.0, 0.1111111111111111
+offset,SIMPLE_NAME, line no: 42,new String(src offset end - offset),CLASS_INSTANCE_CREATION, line no: 52, 1.074074074074074, 0.9629629629629629, 0.0, 0.0, 0.1111111111111111
+openToken,SIMPLE_NAME, line no: 42,end + closeToken.length(),INFIX_EXPRESSION, line no: 54, 1.0726495726495726, 0.9615384615384616, 0.0, 0.0, 0.1111111111111111
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,closeToken,SIMPLE_NAME, line no: 24, 1.0714285714285714, 0.04, 0.0, 0.0, 0.07142857142857142
+start,SIMPLE_NAME, line no: 42,builder.append(src offset start - offset),METHOD_INVOCATION, line no: 50, 1.0642857142857143, 0.9642857142857143, 0.0, 0.0, 0.1
+src,SIMPLE_NAME, line no: 42,builder.append(src offset start - offset),METHOD_INVOCATION, line no: 50, 1.0629629629629629, 0.9629629629629629, 0.0, 0.0, 0.1
+offset,SIMPLE_NAME, line no: 42,builder.append(src offset start - offset),METHOD_INVOCATION, line no: 50, 1.0629629629629629, 0.9629629629629629, 0.0, 0.0, 0.1
+openToken,SIMPLE_NAME, line no: 42,builder.append(handler.handleToken(content)),METHOD_INVOCATION, line no: 53, 1.0615384615384615, 0.9615384615384616, 0.0, 0.0, 0.1
+src,SIMPLE_NAME, line no: 42,builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42, 1.0538720538720538, 0.9629629629629629, 0.0, 0.0, 0.09090909090909091
+offset,SIMPLE_NAME, line no: 42,builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42, 1.0538720538720538, 0.9629629629629629, 0.0, 0.0, 0.09090909090909091
+start - 1,INFIX_EXPRESSION, line no: 42,new String(src offset end - offset),CLASS_INSTANCE_CREATION, line no: 52, 1.0538720538720538, 0.9629629629629629, 0.0, 0.0, 0.09090909090909091
+openToken,SIMPLE_NAME, line no: 42,offset=end + closeToken.length(),ASSIGNMENT, line no: 54, 1.0524475524475525, 0.9615384615384616, 0.0, 0.0, 0.09090909090909091
+openToken,SIMPLE_NAME, line no: 42,parse,SIMPLE_NAME, line no: 33, 1.0384615384615385, 0.038461538461538464, 1.0, 0.0, 0.0
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,handleToken,SIMPLE_NAME, line no: 53, 1.0314285714285714, 0.96, 0.0, 0.0, 0.07142857142857142
+start,SIMPLE_NAME, line no: 42,builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42, 1.0194805194805194, 0.9285714285714286, 0.0, 0.0, 0.09090909090909091
+1,NUMBER_LITERAL, line no: 42,builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42, 1.0194805194805194, 0.9285714285714286, 0.0, 0.0, 0.09090909090909091
+src,SIMPLE_NAME, line no: 42,builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42, 1.002849002849003, 0.9259259259259259, 0.0, 0.0, 0.07692307692307693
+offset,SIMPLE_NAME, line no: 42,builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42, 1.002849002849003, 0.9259259259259259, 0.0, 0.0, 0.07692307692307693
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,text,SIMPLE_NAME, line no: 33, 1.0, 0.04, 0.0, 0.0, 0.0
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,text != null,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,null,NULL_LITERAL, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,length,SIMPLE_NAME, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,0,NUMBER_LITERAL, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,toCharArray,SIMPLE_NAME, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,indexOf,SIMPLE_NAME, line no: 38, 1.0, 1.0, 0.0, 0.0, 0.0
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,'\\',CHARACTER_LITERAL, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,end,SIMPLE_NAME, line no: 45, 1.0, 1.0, 0.0, 0.0, 0.0
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,toString,SIMPLE_NAME, line no: 63, 1.0, 1.0, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,openToken,SIMPLE_NAME, line no: 23, 1.0, 0.038461538461538464, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,closeToken,SIMPLE_NAME, line no: 24, 1.0, 0.038461538461538464, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,text,SIMPLE_NAME, line no: 33, 1.0, 0.038461538461538464, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,text != null,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,null,NULL_LITERAL, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,length,SIMPLE_NAME, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,0,NUMBER_LITERAL, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,toCharArray,SIMPLE_NAME, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,indexOf,SIMPLE_NAME, line no: 38, 1.0, 1.0, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,'\\',CHARACTER_LITERAL, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,end,SIMPLE_NAME, line no: 45, 1.0, 1.0, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,toString,SIMPLE_NAME, line no: 63, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,openToken,SIMPLE_NAME, line no: 23, 1.0, 0.037037037037037035, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,closeToken,SIMPLE_NAME, line no: 24, 1.0, 0.037037037037037035, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,text,SIMPLE_NAME, line no: 33, 1.0, 0.037037037037037035, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,text != null && text.length() > 0,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,text != null,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,null,NULL_LITERAL, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,text.length() > 0,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,text.length(),METHOD_INVOCATION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,length,SIMPLE_NAME, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,0,NUMBER_LITERAL, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,src,SIMPLE_NAME, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,text.toCharArray(),METHOD_INVOCATION, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,toCharArray,SIMPLE_NAME, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,offset,SIMPLE_NAME, line no: 37, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,start,SIMPLE_NAME, line no: 38, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,text.indexOf(openToken offset),METHOD_INVOCATION, line no: 38, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,indexOf,SIMPLE_NAME, line no: 38, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,start > -1,INFIX_EXPRESSION, line no: 39, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,-1,PREFIX_EXPRESSION, line no: 39, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,1,NUMBER_LITERAL, line no: 39, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,start > 0 && src[start - 1] == '\\',INFIX_EXPRESSION, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,start > 0,INFIX_EXPRESSION, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,src[start - 1] == '\\',INFIX_EXPRESSION, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,src[start - 1],ARRAY_ACCESS, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,start - 1,INFIX_EXPRESSION, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,'\\',CHARACTER_LITERAL, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,end,SIMPLE_NAME, line no: 45, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,text.indexOf(closeToken start),METHOD_INVOCATION, line no: 45, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,end == -1,INFIX_EXPRESSION, line no: 46, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,src.length,QUALIFIED_NAME, line no: 47, 1.0, 0.7777777777777778, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,start=text.indexOf(openToken offset),ASSIGNMENT, line no: 57, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,offset < src.length,INFIX_EXPRESSION, line no: 59, 1.0, 1.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,toString,SIMPLE_NAME, line no: 63, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,openToken,SIMPLE_NAME, line no: 23, 1.0, 0.037037037037037035, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,closeToken,SIMPLE_NAME, line no: 24, 1.0, 0.037037037037037035, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,text,SIMPLE_NAME, line no: 33, 1.0, 0.037037037037037035, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,text != null && text.length() > 0,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,text != null,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,null,NULL_LITERAL, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,text.length() > 0,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,text.length(),METHOD_INVOCATION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,length,SIMPLE_NAME, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,0,NUMBER_LITERAL, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,src,SIMPLE_NAME, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,text.toCharArray(),METHOD_INVOCATION, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,toCharArray,SIMPLE_NAME, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,offset,SIMPLE_NAME, line no: 37, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,start,SIMPLE_NAME, line no: 38, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,text.indexOf(openToken offset),METHOD_INVOCATION, line no: 38, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,indexOf,SIMPLE_NAME, line no: 38, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,start > -1,INFIX_EXPRESSION, line no: 39, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,-1,PREFIX_EXPRESSION, line no: 39, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,1,NUMBER_LITERAL, line no: 39, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,start > 0 && src[start - 1] == '\\',INFIX_EXPRESSION, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,start > 0,INFIX_EXPRESSION, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,src[start - 1] == '\\',INFIX_EXPRESSION, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,src[start - 1],ARRAY_ACCESS, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,start - 1,INFIX_EXPRESSION, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,'\\',CHARACTER_LITERAL, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,end,SIMPLE_NAME, line no: 45, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,text.indexOf(closeToken start),METHOD_INVOCATION, line no: 45, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,end == -1,INFIX_EXPRESSION, line no: 46, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,src.length,QUALIFIED_NAME, line no: 47, 1.0, 0.7777777777777778, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,start=text.indexOf(openToken offset),ASSIGNMENT, line no: 57, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,offset < src.length,INFIX_EXPRESSION, line no: 59, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,builder.toString(),METHOD_INVOCATION, line no: 63, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,toString,SIMPLE_NAME, line no: 63, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,openToken,SIMPLE_NAME, line no: 23, 1.0, 0.037037037037037035, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,closeToken,SIMPLE_NAME, line no: 24, 1.0, 0.037037037037037035, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,text,SIMPLE_NAME, line no: 33, 1.0, 0.037037037037037035, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,StringBuilder,SIMPLE_NAME, line no: 34, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,builder,SIMPLE_NAME, line no: 34, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,new StringBuilder(),CLASS_INSTANCE_CREATION, line no: 34, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,text != null && text.length() > 0,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,text != null,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,null,NULL_LITERAL, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,text.length() > 0,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,text.length(),METHOD_INVOCATION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,length,SIMPLE_NAME, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,0,NUMBER_LITERAL, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,offset,SIMPLE_NAME, line no: 37, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,start,SIMPLE_NAME, line no: 38, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,text.indexOf(openToken offset),METHOD_INVOCATION, line no: 38, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,indexOf,SIMPLE_NAME, line no: 38, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,start > -1,INFIX_EXPRESSION, line no: 39, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,-1,PREFIX_EXPRESSION, line no: 39, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,1,NUMBER_LITERAL, line no: 39, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,start > 0,INFIX_EXPRESSION, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,start - 1,INFIX_EXPRESSION, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,'\\',CHARACTER_LITERAL, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,append,SIMPLE_NAME, line no: 42, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,end,SIMPLE_NAME, line no: 45, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,text.indexOf(closeToken start),METHOD_INVOCATION, line no: 45, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,end == -1,INFIX_EXPRESSION, line no: 46, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,start=text.indexOf(openToken offset),ASSIGNMENT, line no: 57, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,builder.toString(),METHOD_INVOCATION, line no: 63, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,toString,SIMPLE_NAME, line no: 63, 1.0, 1.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,openToken,SIMPLE_NAME, line no: 23, 1.0, 0.037037037037037035, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,closeToken,SIMPLE_NAME, line no: 24, 1.0, 0.037037037037037035, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,text,SIMPLE_NAME, line no: 33, 1.0, 0.037037037037037035, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,StringBuilder,SIMPLE_NAME, line no: 34, 1.0, 1.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,builder,SIMPLE_NAME, line no: 34, 1.0, 1.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,new StringBuilder(),CLASS_INSTANCE_CREATION, line no: 34, 1.0, 1.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,text != null && text.length() > 0,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,text != null,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,null,NULL_LITERAL, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,text.length() > 0,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,src,SIMPLE_NAME, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,text.toCharArray(),METHOD_INVOCATION, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,toCharArray,SIMPLE_NAME, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,start > -1,INFIX_EXPRESSION, line no: 39, 1.0, 1.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,start > 0 && src[start - 1] == '\\',INFIX_EXPRESSION, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,start > 0,INFIX_EXPRESSION, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,src[start - 1] == '\\',INFIX_EXPRESSION, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,src[start - 1],ARRAY_ACCESS, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,'\\',CHARACTER_LITERAL, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,append,SIMPLE_NAME, line no: 42, 1.0, 1.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,end == -1,INFIX_EXPRESSION, line no: 46, 1.0, 1.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,builder.toString(),METHOD_INVOCATION, line no: 63, 1.0, 1.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,toString,SIMPLE_NAME, line no: 63, 1.0, 1.0, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,openToken,SIMPLE_NAME, line no: 23, 1.0, 0.037037037037037035, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,closeToken,SIMPLE_NAME, line no: 24, 1.0, 0.037037037037037035, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,text,SIMPLE_NAME, line no: 33, 1.0, 0.037037037037037035, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,StringBuilder,SIMPLE_NAME, line no: 34, 1.0, 1.0, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,builder,SIMPLE_NAME, line no: 34, 1.0, 1.0, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,new StringBuilder(),CLASS_INSTANCE_CREATION, line no: 34, 1.0, 1.0, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,text != null && text.length() > 0,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,text != null,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,null,NULL_LITERAL, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,text.length() > 0,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,text.length(),METHOD_INVOCATION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,src,SIMPLE_NAME, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,text.toCharArray(),METHOD_INVOCATION, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,toCharArray,SIMPLE_NAME, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,text.indexOf(openToken offset),METHOD_INVOCATION, line no: 38, 1.0, 1.0, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,'\\',CHARACTER_LITERAL, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,src.length,QUALIFIED_NAME, line no: 47, 1.0, 0.7777777777777778, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,offset < src.length,INFIX_EXPRESSION, line no: 59, 1.0, 1.0, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,builder.toString(),METHOD_INVOCATION, line no: 63, 1.0, 1.0, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,toString,SIMPLE_NAME, line no: 63, 1.0, 1.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,openToken,SIMPLE_NAME, line no: 23, 1.0, 0.03571428571428571, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,closeToken,SIMPLE_NAME, line no: 24, 1.0, 0.03571428571428571, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,text,SIMPLE_NAME, line no: 33, 1.0, 0.03571428571428571, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,StringBuilder,SIMPLE_NAME, line no: 34, 1.0, 1.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,builder,SIMPLE_NAME, line no: 34, 1.0, 1.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,new StringBuilder(),CLASS_INSTANCE_CREATION, line no: 34, 1.0, 1.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,text != null && text.length() > 0,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,text != null,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,null,NULL_LITERAL, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,text.length() > 0,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,src,SIMPLE_NAME, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,text.toCharArray(),METHOD_INVOCATION, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,toCharArray,SIMPLE_NAME, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,'\\',CHARACTER_LITERAL, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,end == -1,INFIX_EXPRESSION, line no: 46, 1.0, 1.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,offset < src.length,INFIX_EXPRESSION, line no: 59, 1.0, 1.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,builder.toString(),METHOD_INVOCATION, line no: 63, 1.0, 1.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,toString,SIMPLE_NAME, line no: 63, 1.0, 1.0, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,openToken,SIMPLE_NAME, line no: 23, 1.0, 0.03571428571428571, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,text,SIMPLE_NAME, line no: 33, 1.0, 0.03571428571428571, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,StringBuilder,SIMPLE_NAME, line no: 34, 1.0, 1.0, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,builder,SIMPLE_NAME, line no: 34, 1.0, 1.0, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,new StringBuilder(),CLASS_INSTANCE_CREATION, line no: 34, 1.0, 1.0, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,text != null && text.length() > 0,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,text != null,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,null,NULL_LITERAL, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,text.length() > 0,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,src,SIMPLE_NAME, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,text.toCharArray(),METHOD_INVOCATION, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,toCharArray,SIMPLE_NAME, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,start > 0,INFIX_EXPRESSION, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,'\\',CHARACTER_LITERAL, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,offset < src.length,INFIX_EXPRESSION, line no: 59, 1.0, 1.0, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,builder.toString(),METHOD_INVOCATION, line no: 63, 1.0, 1.0, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,toString,SIMPLE_NAME, line no: 63, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,openToken,SIMPLE_NAME, line no: 23, 1.0, 0.038461538461538464, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,closeToken,SIMPLE_NAME, line no: 24, 1.0, 0.038461538461538464, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,text,SIMPLE_NAME, line no: 33, 1.0, 0.038461538461538464, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,text != null && text.length() > 0,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,text != null,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,null,NULL_LITERAL, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,text.length() > 0,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,text.length(),METHOD_INVOCATION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,length,SIMPLE_NAME, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,0,NUMBER_LITERAL, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,src,SIMPLE_NAME, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,text.toCharArray(),METHOD_INVOCATION, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,toCharArray,SIMPLE_NAME, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,offset,SIMPLE_NAME, line no: 37, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,start,SIMPLE_NAME, line no: 38, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,text.indexOf(openToken offset),METHOD_INVOCATION, line no: 38, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,indexOf,SIMPLE_NAME, line no: 38, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,start > -1,INFIX_EXPRESSION, line no: 39, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,-1,PREFIX_EXPRESSION, line no: 39, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,1,NUMBER_LITERAL, line no: 39, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,start > 0 && src[start - 1] == '\\',INFIX_EXPRESSION, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,start > 0,INFIX_EXPRESSION, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,src[start - 1] == '\\',INFIX_EXPRESSION, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,src[start - 1],ARRAY_ACCESS, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,start - 1,INFIX_EXPRESSION, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,'\\',CHARACTER_LITERAL, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,end,SIMPLE_NAME, line no: 45, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,text.indexOf(closeToken start),METHOD_INVOCATION, line no: 45, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,end == -1,INFIX_EXPRESSION, line no: 46, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,src.length,QUALIFIED_NAME, line no: 47, 1.0, 0.8076923076923077, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,start=text.indexOf(openToken offset),ASSIGNMENT, line no: 57, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,offset < src.length,INFIX_EXPRESSION, line no: 59, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,builder.toString(),METHOD_INVOCATION, line no: 63, 1.0, 1.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,toString,SIMPLE_NAME, line no: 63, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,StringBuilder,SIMPLE_NAME, line no: 34, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,builder,SIMPLE_NAME, line no: 34, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,new StringBuilder(),CLASS_INSTANCE_CREATION, line no: 34, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,text != null && text.length() > 0,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,text != null,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,null,NULL_LITERAL, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,text.length() > 0,INFIX_EXPRESSION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,text.length(),METHOD_INVOCATION, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,length,SIMPLE_NAME, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,0,NUMBER_LITERAL, line no: 35, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,src,SIMPLE_NAME, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,text.toCharArray(),METHOD_INVOCATION, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,toCharArray,SIMPLE_NAME, line no: 36, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,offset,SIMPLE_NAME, line no: 37, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,start,SIMPLE_NAME, line no: 38, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,indexOf,SIMPLE_NAME, line no: 38, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,start > -1,INFIX_EXPRESSION, line no: 39, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,-1,PREFIX_EXPRESSION, line no: 39, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,1,NUMBER_LITERAL, line no: 39, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,start > 0 && src[start - 1] == '\\',INFIX_EXPRESSION, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,start > 0,INFIX_EXPRESSION, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,src[start - 1] == '\\',INFIX_EXPRESSION, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,src[start - 1],ARRAY_ACCESS, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,start - 1,INFIX_EXPRESSION, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,'\\',CHARACTER_LITERAL, line no: 40, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,append,SIMPLE_NAME, line no: 42, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,end,SIMPLE_NAME, line no: 45, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,end == -1,INFIX_EXPRESSION, line no: 46, 1.0, 1.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,src.length,QUALIFIED_NAME, line no: 47, 1.0, 0.8076923076923077, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,offset < src.length,INFIX_EXPRESSION, line no: 59, 1.0, 1.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,src.length - offset,INFIX_EXPRESSION, line no: 47, 0.9777777777777779, 0.7777777777777778, 0.0, 0.0, 0.2
+start,SIMPLE_NAME, line no: 42,builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42, 0.9697802197802199, 0.8928571428571429, 0.0, 0.0, 0.07692307692307693
+1,NUMBER_LITERAL, line no: 42,builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42, 0.9697802197802199, 0.8928571428571429, 0.0, 0.0, 0.07692307692307693
+start,SIMPLE_NAME, line no: 42,String,SIMPLE_NAME, line no: 23, 0.9642857142857143, 0.03571428571428571, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,handler,SIMPLE_NAME, line no: 25, 0.9642857142857143, 0.03571428571428571, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,append,SIMPLE_NAME, line no: 42, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,content,SIMPLE_NAME, line no: 52, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,new String(src offset end - offset),CLASS_INSTANCE_CREATION, line no: 52, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,builder.append(handler.handleToken(content)),METHOD_INVOCATION, line no: 53, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,handler.handleToken(content),METHOD_INVOCATION, line no: 53, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,handleToken,SIMPLE_NAME, line no: 53, 0.9642857142857143, 0.9642857142857143, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,closeToken,SIMPLE_NAME, line no: 24, 0.9642857142857143, 0.03571428571428571, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,String,SIMPLE_NAME, line no: 23, 0.9629629629629629, 0.037037037037037035, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,handler,SIMPLE_NAME, line no: 25, 0.9629629629629629, 0.037037037037037035, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,offset=start + openToken.length(),ASSIGNMENT, line no: 43, 0.9629629629629629, 0.8888888888888888, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,start + openToken.length(),INFIX_EXPRESSION, line no: 43, 0.9629629629629629, 0.8888888888888888, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,openToken.length(),METHOD_INVOCATION, line no: 43, 0.9629629629629629, 0.9259259259259259, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,start - offset,INFIX_EXPRESSION, line no: 50, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,content,SIMPLE_NAME, line no: 52, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,new String(src offset end - offset),CLASS_INSTANCE_CREATION, line no: 52, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,end - offset,INFIX_EXPRESSION, line no: 52, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,handler.handleToken(content),METHOD_INVOCATION, line no: 53, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,handleToken,SIMPLE_NAME, line no: 53, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,offset=end + closeToken.length(),ASSIGNMENT, line no: 54, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,end + closeToken.length(),INFIX_EXPRESSION, line no: 54, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,closeToken.length(),METHOD_INVOCATION, line no: 54, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,String,SIMPLE_NAME, line no: 23, 0.9629629629629629, 0.037037037037037035, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,handler,SIMPLE_NAME, line no: 25, 0.9629629629629629, 0.037037037037037035, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,offset=start + openToken.length(),ASSIGNMENT, line no: 43, 0.9629629629629629, 0.8888888888888888, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,start + openToken.length(),INFIX_EXPRESSION, line no: 43, 0.9629629629629629, 0.8888888888888888, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,openToken.length(),METHOD_INVOCATION, line no: 43, 0.9629629629629629, 0.9259259259259259, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,start - offset,INFIX_EXPRESSION, line no: 50, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,content,SIMPLE_NAME, line no: 52, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,new String(src offset end - offset),CLASS_INSTANCE_CREATION, line no: 52, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,end - offset,INFIX_EXPRESSION, line no: 52, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,handler.handleToken(content),METHOD_INVOCATION, line no: 53, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,handleToken,SIMPLE_NAME, line no: 53, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,offset=end + closeToken.length(),ASSIGNMENT, line no: 54, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,end + closeToken.length(),INFIX_EXPRESSION, line no: 54, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,closeToken.length(),METHOD_INVOCATION, line no: 54, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,String,SIMPLE_NAME, line no: 23, 0.9629629629629629, 0.037037037037037035, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,handler,SIMPLE_NAME, line no: 25, 0.9629629629629629, 0.037037037037037035, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,offset=start + openToken.length(),ASSIGNMENT, line no: 43, 0.9629629629629629, 0.8888888888888888, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,start + openToken.length(),INFIX_EXPRESSION, line no: 43, 0.9629629629629629, 0.8888888888888888, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,openToken.length(),METHOD_INVOCATION, line no: 43, 0.9629629629629629, 0.9259259259259259, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,start - offset,INFIX_EXPRESSION, line no: 50, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,content,SIMPLE_NAME, line no: 52, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,end - offset,INFIX_EXPRESSION, line no: 52, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,builder.append(handler.handleToken(content)),METHOD_INVOCATION, line no: 53, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,handler.handleToken(content),METHOD_INVOCATION, line no: 53, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,handleToken,SIMPLE_NAME, line no: 53, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,offset=end + closeToken.length(),ASSIGNMENT, line no: 54, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,end + closeToken.length(),INFIX_EXPRESSION, line no: 54, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,closeToken.length(),METHOD_INVOCATION, line no: 54, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,String,SIMPLE_NAME, line no: 23, 0.9629629629629629, 0.037037037037037035, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,handler,SIMPLE_NAME, line no: 25, 0.9629629629629629, 0.037037037037037035, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,content,SIMPLE_NAME, line no: 52, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,builder.append(handler.handleToken(content)),METHOD_INVOCATION, line no: 53, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,handler.handleToken(content),METHOD_INVOCATION, line no: 53, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,handleToken,SIMPLE_NAME, line no: 53, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,String,SIMPLE_NAME, line no: 23, 0.9629629629629629, 0.037037037037037035, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,handler,SIMPLE_NAME, line no: 25, 0.9629629629629629, 0.037037037037037035, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,append,SIMPLE_NAME, line no: 42, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,openToken.length(),METHOD_INVOCATION, line no: 43, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,content,SIMPLE_NAME, line no: 52, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,builder.append(handler.handleToken(content)),METHOD_INVOCATION, line no: 53, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,handler.handleToken(content),METHOD_INVOCATION, line no: 53, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,handleToken,SIMPLE_NAME, line no: 53, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,offset=end + closeToken.length(),ASSIGNMENT, line no: 54, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,end + closeToken.length(),INFIX_EXPRESSION, line no: 54, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,closeToken.length(),METHOD_INVOCATION, line no: 54, 0.9629629629629629, 0.9629629629629629, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,String,SIMPLE_NAME, line no: 23, 0.9615384615384616, 0.038461538461538464, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,handler,SIMPLE_NAME, line no: 25, 0.9615384615384616, 0.038461538461538464, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,content,SIMPLE_NAME, line no: 52, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,handleToken,SIMPLE_NAME, line no: 53, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,String,SIMPLE_NAME, line no: 23, 0.9615384615384616, 0.038461538461538464, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,handler,SIMPLE_NAME, line no: 25, 0.9615384615384616, 0.038461538461538464, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,offset=start + openToken.length(),ASSIGNMENT, line no: 43, 0.9615384615384616, 0.9230769230769231, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,start + openToken.length(),INFIX_EXPRESSION, line no: 43, 0.9615384615384616, 0.9230769230769231, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,openToken.length(),METHOD_INVOCATION, line no: 43, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,start - offset,INFIX_EXPRESSION, line no: 50, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,content,SIMPLE_NAME, line no: 52, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,new String(src offset end - offset),CLASS_INSTANCE_CREATION, line no: 52, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,end - offset,INFIX_EXPRESSION, line no: 52, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,handler.handleToken(content),METHOD_INVOCATION, line no: 53, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,handleToken,SIMPLE_NAME, line no: 53, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,offset=end + closeToken.length(),ASSIGNMENT, line no: 54, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,end + closeToken.length(),INFIX_EXPRESSION, line no: 54, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,closeToken.length(),METHOD_INVOCATION, line no: 54, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,handler,SIMPLE_NAME, line no: 25, 0.9615384615384616, 0.038461538461538464, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,builder.append(src offset start - offset),METHOD_INVOCATION, line no: 50, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,start - offset,INFIX_EXPRESSION, line no: 50, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,end - offset,INFIX_EXPRESSION, line no: 52, 0.9615384615384616, 0.9615384615384616, 0.0, 0.0, 0.0
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,String,SIMPLE_NAME, line no: 23, 0.96, 0.04, 0.0, 0.0, 0.0
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,handler,SIMPLE_NAME, line no: 25, 0.96, 0.04, 0.0, 0.0, 0.0
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,content,SIMPLE_NAME, line no: 52, 0.96, 0.96, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,String,SIMPLE_NAME, line no: 23, 0.9285714285714286, 0.03571428571428571, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,handler,SIMPLE_NAME, line no: 25, 0.9285714285714286, 0.03571428571428571, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,append,SIMPLE_NAME, line no: 42, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,builder.append(src offset start - offset),METHOD_INVOCATION, line no: 50, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,content,SIMPLE_NAME, line no: 52, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,new String(src offset end - offset),CLASS_INSTANCE_CREATION, line no: 52, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,builder.append(handler.handleToken(content)),METHOD_INVOCATION, line no: 53, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,handler.handleToken(content),METHOD_INVOCATION, line no: 53, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,handleToken,SIMPLE_NAME, line no: 53, 0.9285714285714286, 0.9285714285714286, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,src.length - offset,INFIX_EXPRESSION, line no: 47, 0.9206349206349207, 0.7777777777777778, 0.0, 0.0, 0.14285714285714285
+src,SIMPLE_NAME, line no: 42,offset=src.length,ASSIGNMENT, line no: 48, 0.9037037037037037, 0.7037037037037037, 0.0, 0.0, 0.2
+src,SIMPLE_NAME, line no: 42,builder.append(src offset src.length - offset),METHOD_INVOCATION, line no: 47, 0.8407407407407407, 0.7407407407407407, 0.0, 0.0, 0.1
+offset,SIMPLE_NAME, line no: 42,builder.append(src offset src.length - offset),METHOD_INVOCATION, line no: 47, 0.8407407407407407, 0.7407407407407407, 0.0, 0.0, 0.1
+start - 1,INFIX_EXPRESSION, line no: 42,builder.append(src offset src.length - offset),METHOD_INVOCATION, line no: 47, 0.8240740740740741, 0.7407407407407407, 0.0, 0.0, 0.08333333333333333
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,this.openToken,FIELD_ACCESS, line no: 28, 0.8142857142857144, 0.4, 0.2, 0.0, 0.21428571428571427
+append,SIMPLE_NAME, line no: 42,src.length - offset,INFIX_EXPRESSION, line no: 47, 0.8076923076923077, 0.8076923076923077, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,src.length - offset,INFIX_EXPRESSION, line no: 47, 0.8076923076923077, 0.8076923076923077, 0.0, 0.0, 0.0
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,this.openToken=openToken,ASSIGNMENT, line no: 28, 0.8, 0.4, 0.2, 0.0, 0.2
+builder,SIMPLE_NAME, line no: 42,src.length - offset,INFIX_EXPRESSION, line no: 47, 0.7777777777777778, 0.7777777777777778, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,src.length - offset,INFIX_EXPRESSION, line no: 47, 0.7777777777777778, 0.7777777777777778, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,builder.append(src offset src.length - offset),METHOD_INVOCATION, line no: 47, 0.7692307692307693, 0.7692307692307693, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,offset=src.length,ASSIGNMENT, line no: 48, 0.7307692307692307, 0.7307692307692307, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,offset=src.length,ASSIGNMENT, line no: 48, 0.7307692307692307, 0.7307692307692307, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,builder.append(src offset src.length - offset),METHOD_INVOCATION, line no: 47, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,builder.append(src offset src.length - offset),METHOD_INVOCATION, line no: 47, 0.7142857142857143, 0.7142857142857143, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,offset=src.length,ASSIGNMENT, line no: 48, 0.7037037037037037, 0.7037037037037037, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,offset=src.length,ASSIGNMENT, line no: 48, 0.7037037037037037, 0.7037037037037037, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,offset=src.length,ASSIGNMENT, line no: 48, 0.7037037037037037, 0.7037037037037037, 0.0, 0.0, 0.0
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,this.closeToken,FIELD_ACCESS, line no: 29, 0.5333333333333333, 0.4, 0.0, 0.0, 0.13333333333333333
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,this.closeToken=closeToken,ASSIGNMENT, line no: 29, 0.525, 0.4, 0.0, 0.0, 0.125
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,this.handler,FIELD_ACCESS, line no: 30, 0.4666666666666667, 0.4, 0.0, 0.0, 0.06666666666666667
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,this.handler=handler,ASSIGNMENT, line no: 30, 0.4625, 0.4, 0.0, 0.0, 0.0625
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,this.handler,FIELD_ACCESS, line no: 30, 0.46153846153846156, 0.38461538461538464, 0.0, 0.0, 0.07692307692307693
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,this.openToken,FIELD_ACCESS, line no: 28, 0.4560439560439561, 0.38461538461538464, 0.0, 0.0, 0.07142857142857142
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,this.closeToken,FIELD_ACCESS, line no: 29, 0.4560439560439561, 0.38461538461538464, 0.0, 0.0, 0.07142857142857142
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,this.handler=handler,ASSIGNMENT, line no: 30, 0.4560439560439561, 0.38461538461538464, 0.0, 0.0, 0.07142857142857142
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,this.openToken=openToken,ASSIGNMENT, line no: 28, 0.4512820512820513, 0.38461538461538464, 0.0, 0.0, 0.06666666666666667
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,this.closeToken=closeToken,ASSIGNMENT, line no: 29, 0.4512820512820513, 0.38461538461538464, 0.0, 0.0, 0.06666666666666667
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,this,THIS_EXPRESSION, line no: 28, 0.4, 0.4, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,this,THIS_EXPRESSION, line no: 28, 0.38461538461538464, 0.38461538461538464, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,this.openToken=openToken,ASSIGNMENT, line no: 28, 0.38461538461538464, 0.38461538461538464, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,this.openToken,FIELD_ACCESS, line no: 28, 0.38461538461538464, 0.38461538461538464, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,this,THIS_EXPRESSION, line no: 28, 0.38461538461538464, 0.38461538461538464, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,this.closeToken=closeToken,ASSIGNMENT, line no: 29, 0.38461538461538464, 0.38461538461538464, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,this.closeToken,FIELD_ACCESS, line no: 29, 0.38461538461538464, 0.38461538461538464, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,this.handler=handler,ASSIGNMENT, line no: 30, 0.38461538461538464, 0.38461538461538464, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,this.handler,FIELD_ACCESS, line no: 30, 0.38461538461538464, 0.38461538461538464, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,this,THIS_EXPRESSION, line no: 28, 0.38461538461538464, 0.38461538461538464, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,this.handler=handler,ASSIGNMENT, line no: 30, 0.38461538461538464, 0.38461538461538464, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,this.handler,FIELD_ACCESS, line no: 30, 0.38461538461538464, 0.38461538461538464, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,TokenHandler,SIMPLE_NAME, line no: 25, 0.3717948717948718, 0.038461538461538464, 0.0, 0.0, 0.3333333333333333
+builder,SIMPLE_NAME, line no: 42,this.openToken=openToken,ASSIGNMENT, line no: 28, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,this.openToken,FIELD_ACCESS, line no: 28, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,this,THIS_EXPRESSION, line no: 28, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,this.closeToken=closeToken,ASSIGNMENT, line no: 29, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,this.closeToken,FIELD_ACCESS, line no: 29, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,this.handler=handler,ASSIGNMENT, line no: 30, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,this.handler,FIELD_ACCESS, line no: 30, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,this.openToken=openToken,ASSIGNMENT, line no: 28, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,this.openToken,FIELD_ACCESS, line no: 28, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,this,THIS_EXPRESSION, line no: 28, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,this.closeToken=closeToken,ASSIGNMENT, line no: 29, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,this.closeToken,FIELD_ACCESS, line no: 29, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,this.handler=handler,ASSIGNMENT, line no: 30, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,this.handler,FIELD_ACCESS, line no: 30, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,this.openToken=openToken,ASSIGNMENT, line no: 28, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,this.openToken,FIELD_ACCESS, line no: 28, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,this,THIS_EXPRESSION, line no: 28, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,this.closeToken=closeToken,ASSIGNMENT, line no: 29, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,this.closeToken,FIELD_ACCESS, line no: 29, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,this.handler=handler,ASSIGNMENT, line no: 30, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,this.handler,FIELD_ACCESS, line no: 30, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,this.openToken=openToken,ASSIGNMENT, line no: 28, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,this.openToken,FIELD_ACCESS, line no: 28, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,this,THIS_EXPRESSION, line no: 28, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,this.closeToken=closeToken,ASSIGNMENT, line no: 29, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,this.closeToken,FIELD_ACCESS, line no: 29, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,this.handler=handler,ASSIGNMENT, line no: 30, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,this.handler,FIELD_ACCESS, line no: 30, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,this.openToken=openToken,ASSIGNMENT, line no: 28, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,this.openToken,FIELD_ACCESS, line no: 28, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,this,THIS_EXPRESSION, line no: 28, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,this.closeToken=closeToken,ASSIGNMENT, line no: 29, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,this.closeToken,FIELD_ACCESS, line no: 29, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,this.handler=handler,ASSIGNMENT, line no: 30, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,this.handler,FIELD_ACCESS, line no: 30, 0.37037037037037035, 0.37037037037037035, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,this.openToken=openToken,ASSIGNMENT, line no: 28, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,this.openToken,FIELD_ACCESS, line no: 28, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,this,THIS_EXPRESSION, line no: 28, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,this.closeToken=closeToken,ASSIGNMENT, line no: 29, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,this.closeToken,FIELD_ACCESS, line no: 29, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,this.handler=handler,ASSIGNMENT, line no: 30, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,this.handler,FIELD_ACCESS, line no: 30, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,this.openToken=openToken,ASSIGNMENT, line no: 28, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,this.openToken,FIELD_ACCESS, line no: 28, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,this,THIS_EXPRESSION, line no: 28, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,this.closeToken=closeToken,ASSIGNMENT, line no: 29, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,this.closeToken,FIELD_ACCESS, line no: 29, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,this.handler=handler,ASSIGNMENT, line no: 30, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,this.handler,FIELD_ACCESS, line no: 30, 0.35714285714285715, 0.35714285714285715, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,GenericTokenParser,SIMPLE_NAME, line no: 21, 0.28846153846153844, 0.038461538461538464, 0.0, 0.0, 0.25
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,TokenHandler,SIMPLE_NAME, line no: 25, 0.11142857142857143, 0.04, 0.0, 0.0, 0.07142857142857142
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,GenericTokenParser,SIMPLE_NAME, line no: 21, 0.10666666666666666, 0.04, 0.0, 0.0, 0.06666666666666667
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,org.apache,QUALIFIED_NAME, line no: 16, 0.07692307692307693, 0.0, 0.0, 0.0, 0.07692307692307693
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,org.apache.ibatis,QUALIFIED_NAME, line no: 16, 0.07142857142857142, 0.0, 0.0, 0.0, 0.07142857142857142
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,org.apache,QUALIFIED_NAME, line no: 16, 0.06666666666666667, 0.0, 0.0, 0.0, 0.06666666666666667
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,org.apache.ibatis.parsing,QUALIFIED_NAME, line no: 16, 0.06666666666666667, 0.0, 0.0, 0.0, 0.06666666666666667
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,org.apache.ibatis,QUALIFIED_NAME, line no: 16, 0.0625, 0.0, 0.0, 0.0, 0.0625
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,org.apache.ibatis.parsing,QUALIFIED_NAME, line no: 16, 0.058823529411764705, 0.0, 0.0, 0.0, 0.058823529411764705
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,org,SIMPLE_NAME, line no: 16, 0.04, 0.04, 0.0, 0.0, 0.0
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,apache,SIMPLE_NAME, line no: 16, 0.04, 0.04, 0.0, 0.0, 0.0
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,ibatis,SIMPLE_NAME, line no: 16, 0.04, 0.04, 0.0, 0.0, 0.0
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,parsing,SIMPLE_NAME, line no: 16, 0.04, 0.04, 0.0, 0.0, 0.0
+builder.append(src offset start - 1).append(openToken),METHOD_INVOCATION, line no: 42,parse,SIMPLE_NAME, line no: 33, 0.04, 0.04, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,org,SIMPLE_NAME, line no: 16, 0.038461538461538464, 0.038461538461538464, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,apache,SIMPLE_NAME, line no: 16, 0.038461538461538464, 0.038461538461538464, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,ibatis,SIMPLE_NAME, line no: 16, 0.038461538461538464, 0.038461538461538464, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,parsing,SIMPLE_NAME, line no: 16, 0.038461538461538464, 0.038461538461538464, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,GenericTokenParser,SIMPLE_NAME, line no: 21, 0.038461538461538464, 0.038461538461538464, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,TokenHandler,SIMPLE_NAME, line no: 25, 0.038461538461538464, 0.038461538461538464, 0.0, 0.0, 0.0
+builder.append(src offset start - 1),METHOD_INVOCATION, line no: 42,parse,SIMPLE_NAME, line no: 33, 0.038461538461538464, 0.038461538461538464, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,org,SIMPLE_NAME, line no: 16, 0.038461538461538464, 0.038461538461538464, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,apache,SIMPLE_NAME, line no: 16, 0.038461538461538464, 0.038461538461538464, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,ibatis,SIMPLE_NAME, line no: 16, 0.038461538461538464, 0.038461538461538464, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,parsing,SIMPLE_NAME, line no: 16, 0.038461538461538464, 0.038461538461538464, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,GenericTokenParser,SIMPLE_NAME, line no: 21, 0.038461538461538464, 0.038461538461538464, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,TokenHandler,SIMPLE_NAME, line no: 25, 0.038461538461538464, 0.038461538461538464, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,parse,SIMPLE_NAME, line no: 33, 0.038461538461538464, 0.038461538461538464, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,org,SIMPLE_NAME, line no: 16, 0.038461538461538464, 0.038461538461538464, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,apache,SIMPLE_NAME, line no: 16, 0.038461538461538464, 0.038461538461538464, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,ibatis,SIMPLE_NAME, line no: 16, 0.038461538461538464, 0.038461538461538464, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,parsing,SIMPLE_NAME, line no: 16, 0.038461538461538464, 0.038461538461538464, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,org,SIMPLE_NAME, line no: 16, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,apache,SIMPLE_NAME, line no: 16, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,ibatis,SIMPLE_NAME, line no: 16, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,parsing,SIMPLE_NAME, line no: 16, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,GenericTokenParser,SIMPLE_NAME, line no: 21, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,TokenHandler,SIMPLE_NAME, line no: 25, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,parse,SIMPLE_NAME, line no: 33, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,org,SIMPLE_NAME, line no: 16, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,apache,SIMPLE_NAME, line no: 16, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,ibatis,SIMPLE_NAME, line no: 16, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,parsing,SIMPLE_NAME, line no: 16, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,GenericTokenParser,SIMPLE_NAME, line no: 21, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,TokenHandler,SIMPLE_NAME, line no: 25, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,parse,SIMPLE_NAME, line no: 33, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,org,SIMPLE_NAME, line no: 16, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,apache,SIMPLE_NAME, line no: 16, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,ibatis,SIMPLE_NAME, line no: 16, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,parsing,SIMPLE_NAME, line no: 16, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,GenericTokenParser,SIMPLE_NAME, line no: 21, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,TokenHandler,SIMPLE_NAME, line no: 25, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,parse,SIMPLE_NAME, line no: 33, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,org,SIMPLE_NAME, line no: 16, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,apache,SIMPLE_NAME, line no: 16, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,ibatis,SIMPLE_NAME, line no: 16, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,parsing,SIMPLE_NAME, line no: 16, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,GenericTokenParser,SIMPLE_NAME, line no: 21, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,TokenHandler,SIMPLE_NAME, line no: 25, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,parse,SIMPLE_NAME, line no: 33, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,org,SIMPLE_NAME, line no: 16, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,apache,SIMPLE_NAME, line no: 16, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,ibatis,SIMPLE_NAME, line no: 16, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,parsing,SIMPLE_NAME, line no: 16, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,GenericTokenParser,SIMPLE_NAME, line no: 21, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,TokenHandler,SIMPLE_NAME, line no: 25, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,parse,SIMPLE_NAME, line no: 33, 0.037037037037037035, 0.037037037037037035, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,org,SIMPLE_NAME, line no: 16, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,apache,SIMPLE_NAME, line no: 16, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,ibatis,SIMPLE_NAME, line no: 16, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,parsing,SIMPLE_NAME, line no: 16, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,GenericTokenParser,SIMPLE_NAME, line no: 21, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,TokenHandler,SIMPLE_NAME, line no: 25, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,parse,SIMPLE_NAME, line no: 33, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,org,SIMPLE_NAME, line no: 16, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,apache,SIMPLE_NAME, line no: 16, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,ibatis,SIMPLE_NAME, line no: 16, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,parsing,SIMPLE_NAME, line no: 16, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,GenericTokenParser,SIMPLE_NAME, line no: 21, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,TokenHandler,SIMPLE_NAME, line no: 25, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,parse,SIMPLE_NAME, line no: 33, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,org.apache.ibatis.parsing,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,org.apache.ibatis,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+builder,SIMPLE_NAME, line no: 42,org.apache,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,org.apache.ibatis.parsing,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,org.apache.ibatis,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,org.apache,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,org.apache.ibatis.parsing,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,org.apache.ibatis,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+src,SIMPLE_NAME, line no: 42,org.apache,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,org.apache.ibatis.parsing,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,org.apache.ibatis,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+offset,SIMPLE_NAME, line no: 42,org.apache,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,org.apache.ibatis.parsing,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,org.apache.ibatis,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+start - 1,INFIX_EXPRESSION, line no: 42,org.apache,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,org.apache.ibatis.parsing,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,org.apache.ibatis,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+start,SIMPLE_NAME, line no: 42,org.apache,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,org.apache.ibatis.parsing,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,org.apache.ibatis,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+1,NUMBER_LITERAL, line no: 42,org.apache,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,org.apache.ibatis.parsing,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,org.apache.ibatis,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+append,SIMPLE_NAME, line no: 42,org.apache,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,org.apache.ibatis.parsing,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,org.apache.ibatis,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0
+openToken,SIMPLE_NAME, line no: 42,org.apache,QUALIFIED_NAME, line no: 16, 0.0, 0.0, 0.0, 0.0, 0.0

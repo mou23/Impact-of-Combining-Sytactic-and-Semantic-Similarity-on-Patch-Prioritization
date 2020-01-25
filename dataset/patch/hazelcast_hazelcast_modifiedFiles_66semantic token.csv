@@ -1,0 +1,720 @@
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,ObjectRecordWithStats,SIMPLE_NAME, line no: 45, 2.4, 1.0, 1.0, 0.0, 0.4
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45, 2.335483870967742, 0.9354838709677419, 1.0, 0.0, 0.4
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,ObjectRecord,SIMPLE_NAME, line no: 45, 2.25, 1.0, 1.0, 0.0, 0.25
+ObjectRecord,SIMPLE_NAME, line no: 45,new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45, 2.185483870967742, 0.9354838709677419, 1.0, 0.0, 0.25
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45, 2.1666666666666665, 1.0, 0.5, 0.0, 0.6666666666666666
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45, 2.132183908045977, 0.9655172413793104, 0.5, 0.0, 0.6666666666666666
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45, 2.033333333333333, 1.0, 0.5, 0.0, 0.5333333333333333
+value,SIMPLE_NAME, line no: 45,v,SIMPLE_NAME, line no: 41, 2.0, 0.9, 1.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,value,SIMPLE_NAME, line no: 40, 2.0, 0.03333333333333333, 1.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45, 1.9988505747126437, 0.9655172413793104, 0.5, 0.0, 0.5333333333333333
+statisticsEnabled,SIMPLE_NAME, line no: 45,isStatisticsEnabled,SIMPLE_NAME, line no: 31, 1.9770114942528734, 0.3103448275862069, 1.0, 0.0, 0.6666666666666666
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45, 1.9696969696969697, 1.0, 0.3333333333333333, 0.0, 0.6363636363636364
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45, 1.9696969696969697, 1.0, 0.3333333333333333, 0.0, 0.6363636363636364
+key,SIMPLE_NAME, line no: 45,Data,SIMPLE_NAME, line no: 21, 1.9, 0.03333333333333333, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,Object,SIMPLE_NAME, line no: 24, 1.9, 0.03333333333333333, 1.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,Data,SIMPLE_NAME, line no: 21, 1.9, 0.03333333333333333, 1.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,Object,SIMPLE_NAME, line no: 24, 1.9, 0.03333333333333333, 1.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,value instanceof Data,INSTANCEOF_EXPRESSION, line no: 42, 1.896551724137931, 0.896551724137931, 1.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,value1 instanceof Data,INSTANCEOF_EXPRESSION, line no: 59, 1.8620689655172413, 0.8620689655172413, 1.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,value2 instanceof Data,INSTANCEOF_EXPRESSION, line no: 60, 1.8620689655172413, 0.8620689655172413, 1.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,v1 == null && v2 == null,INFIX_EXPRESSION, line no: 61, 1.8620689655172413, 0.8620689655172413, 1.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,v1 == null,INFIX_EXPRESSION, line no: 61, 1.8620689655172413, 0.8620689655172413, 1.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,v2 == null,INFIX_EXPRESSION, line no: 61, 1.8620689655172413, 0.8620689655172413, 1.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,v1.equals(v2),METHOD_INVOCATION, line no: 70, 1.8620689655172413, 0.8620689655172413, 1.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,equals,SIMPLE_NAME, line no: 70, 1.8620689655172413, 0.8620689655172413, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,toObject,SIMPLE_NAME, line no: 43, 1.8333333333333335, 0.3, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,value1,SIMPLE_NAME, line no: 58, 1.8333333333333335, 0.03333333333333333, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,value2,SIMPLE_NAME, line no: 58, 1.8333333333333335, 0.03333333333333333, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,v1,SIMPLE_NAME, line no: 59, 1.8333333333333335, 0.8333333333333334, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,value1 instanceof Data ? serializationService.toObject(value1) : value1,CONDITIONAL_EXPRESSION, line no: 59, 1.8333333333333335, 0.8333333333333334, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,serializationService.toObject(value1),METHOD_INVOCATION, line no: 59, 1.8333333333333335, 0.8333333333333334, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,v2,SIMPLE_NAME, line no: 60, 1.8333333333333335, 0.8333333333333334, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,value2 instanceof Data ? serializationService.toObject(value2) : value2,CONDITIONAL_EXPRESSION, line no: 60, 1.8333333333333335, 0.8333333333333334, 1.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,serializationService.toObject(value2),METHOD_INVOCATION, line no: 60, 1.8333333333333335, 0.8333333333333334, 1.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,toObject,SIMPLE_NAME, line no: 43, 1.8333333333333335, 0.3, 1.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,value1,SIMPLE_NAME, line no: 58, 1.8333333333333335, 0.03333333333333333, 1.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,value2,SIMPLE_NAME, line no: 58, 1.8333333333333335, 0.03333333333333333, 1.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,v1,SIMPLE_NAME, line no: 59, 1.8333333333333335, 0.8333333333333334, 1.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,value1 instanceof Data ? serializationService.toObject(value1) : value1,CONDITIONAL_EXPRESSION, line no: 59, 1.8333333333333335, 0.8333333333333334, 1.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,serializationService.toObject(value1),METHOD_INVOCATION, line no: 59, 1.8333333333333335, 0.8333333333333334, 1.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,v2,SIMPLE_NAME, line no: 60, 1.8333333333333335, 0.8333333333333334, 1.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,value2 instanceof Data ? serializationService.toObject(value2) : value2,CONDITIONAL_EXPRESSION, line no: 60, 1.8333333333333335, 0.8333333333333334, 1.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,serializationService.toObject(value2),METHOD_INVOCATION, line no: 60, 1.8333333333333335, 0.8333333333333334, 1.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,this.statisticsEnabled,FIELD_ACCESS, line no: 31, 1.7758620689655173, 0.27586206896551724, 1.0, 0.0, 0.5
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,record,SIMPLE_NAME, line no: 17, 1.7452380952380953, 0.03571428571428571, 0.0, 0.0, 0.06666666666666667
+statisticsEnabled,SIMPLE_NAME, line no: 45,config.isStatisticsEnabled(),METHOD_INVOCATION, line no: 31, 1.561576354679803, 0.27586206896551724, 1.0, 0.0, 0.2857142857142857
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,ObjectRecord,SIMPLE_NAME, line no: 45, 1.5, 1.0, 0.0, 0.0, 0.5
+ObjectRecord,SIMPLE_NAME, line no: 45,ObjectRecordWithStats,SIMPLE_NAME, line no: 45, 1.5, 1.0, 0.0, 0.0, 0.5
+statisticsEnabled,SIMPLE_NAME, line no: 45,this.statisticsEnabled=config.isStatisticsEnabled(),ASSIGNMENT, line no: 31, 1.4980842911877397, 0.27586206896551724, 1.0, 0.0, 0.2222222222222222
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,value instanceof Data,INSTANCEOF_EXPRESSION, line no: 42, 1.4798850574712643, 0.896551724137931, 0.5, 0.0, 0.08333333333333333
+ObjectRecord,SIMPLE_NAME, line no: 45,Object,SIMPLE_NAME, line no: 24, 1.403225806451613, 0.06451612903225806, 0.0, 0.0, 0.5
+value,SIMPLE_NAME, line no: 45,serializationService.toObject(value),METHOD_INVOCATION, line no: 43, 1.3916666666666666, 0.26666666666666666, 1.0, 0.0, 0.125
+value,SIMPLE_NAME, line no: 45,v=serializationService.toObject(value),ASSIGNMENT, line no: 43, 1.3666666666666667, 0.26666666666666666, 1.0, 0.0, 0.1
+v,SIMPLE_NAME, line no: 45,v=serializationService.toObject(value),ASSIGNMENT, line no: 43, 1.3666666666666667, 0.26666666666666666, 1.0, 0.0, 0.1
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,record.setValue(v),METHOD_INVOCATION, line no: 54, 1.317659352142111, 0.6206896551724138, 0.3333333333333333, 0.0, 0.36363636363636365
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,ObjectRecordWithStats,SIMPLE_NAME, line no: 45, 1.2666666666666666, 1.0, 0.0, 0.0, 0.26666666666666666
+v,SIMPLE_NAME, line no: 45,serializationService.toObject(value),METHOD_INVOCATION, line no: 43, 1.2666666666666666, 0.26666666666666666, 1.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,value instanceof Data,INSTANCEOF_EXPRESSION, line no: 42, 1.2373949579831933, 0.9285714285714286, 0.25, 0.0, 0.058823529411764705
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,ObjectRecord,SIMPLE_NAME, line no: 45, 1.2, 1.0, 0.0, 0.0, 0.2
+value,SIMPLE_NAME, line no: 45,value instanceof Data,INSTANCEOF_EXPRESSION, line no: 42, 1.2, 0.8666666666666667, 0.0, 0.0, 0.3333333333333333
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,ObjectRecordWithStats,SIMPLE_NAME, line no: 45, 1.2, 1.0, 0.0, 0.0, 0.2
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45, 1.1698924731182796, 0.9032258064516129, 0.0, 0.0, 0.26666666666666666
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,newRecord,SIMPLE_NAME, line no: 40, 1.1690476190476191, 0.03571428571428571, 1.0, 0.0, 0.13333333333333333
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,Object,SIMPLE_NAME, line no: 24, 1.153225806451613, 0.06451612903225806, 0.0, 0.0, 0.25
+ObjectRecord,SIMPLE_NAME, line no: 45,toObject,SIMPLE_NAME, line no: 43, 1.139784946236559, 0.2903225806451613, 0.0, 0.0, 0.3333333333333333
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,record.setValue(v),METHOD_INVOCATION, line no: 54, 1.1369747899159666, 0.6428571428571429, 0.2, 0.0, 0.29411764705882354
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45, 1.135483870967742, 0.9354838709677419, 0.0, 0.0, 0.2
+ObjectRecord,SIMPLE_NAME, line no: 45,new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45, 1.135483870967742, 0.9354838709677419, 0.0, 0.0, 0.2
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,statisticsEnabled,SIMPLE_NAME, line no: 27, 1.1333333333333333, 0.03571428571428571, 0.0, 0.0, 0.13333333333333333
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,ObjectRecord,SIMPLE_NAME, line no: 45, 1.1333333333333333, 1.0, 0.0, 0.0, 0.13333333333333333
+value,SIMPLE_NAME, line no: 45,setValue,SIMPLE_NAME, line no: 49, 1.1333333333333333, 0.03333333333333333, 0.0, 0.0, 0.5
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,key,SIMPLE_NAME, line no: 40, 1.125, 0.034482758620689655, 0.0, 0.0, 0.125
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,v,SIMPLE_NAME, line no: 41, 1.125, 0.896551724137931, 0.0, 0.0, 0.125
+ObjectRecord,SIMPLE_NAME, line no: 45,record,SIMPLE_NAME, line no: 17, 1.1129032258064515, 0.03225806451612903, 0.0, 0.0, 0.5
+statisticsEnabled,SIMPLE_NAME, line no: 45,true,BOOLEAN_LITERAL, line no: 62, 1.103448275862069, 0.10344827586206896, 1.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,false,BOOLEAN_LITERAL, line no: 65, 1.103448275862069, 0.10344827586206896, 1.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,Record,SIMPLE_NAME, line no: 40, 1.1023809523809525, 0.03571428571428571, 1.0, 0.0, 0.06666666666666667
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,key,SIMPLE_NAME, line no: 40, 1.1, 0.034482758620689655, 0.0, 0.0, 0.1
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,value,SIMPLE_NAME, line no: 40, 1.1, 0.034482758620689655, 0.0, 0.0, 0.1
+statisticsEnabled,SIMPLE_NAME, line no: 45,statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45, 1.0988505747126438, 0.9655172413793104, 0.0, 0.0, 0.13333333333333333
+key,SIMPLE_NAME, line no: 45,new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45, 1.0916666666666668, 0.9666666666666667, 0.0, 0.0, 0.125
+key,SIMPLE_NAME, line no: 45,new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45, 1.0916666666666668, 0.9666666666666667, 0.0, 0.0, 0.125
+v,SIMPLE_NAME, line no: 45,new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45, 1.0916666666666668, 0.9666666666666667, 0.0, 0.0, 0.125
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,value1 instanceof Data ? serializationService.toObject(value1) : value1,CONDITIONAL_EXPRESSION, line no: 59, 1.0844155844155843, 0.8571428571428571, 0.0, 0.0, 0.22727272727272727
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,value2 instanceof Data ? serializationService.toObject(value2) : value2,CONDITIONAL_EXPRESSION, line no: 60, 1.0844155844155843, 0.8571428571428571, 0.0, 0.0, 0.22727272727272727
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,key,SIMPLE_NAME, line no: 40, 1.0666666666666667, 0.03571428571428571, 0.0, 0.0, 0.06666666666666667
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,value,SIMPLE_NAME, line no: 40, 1.0666666666666667, 0.03571428571428571, 0.0, 0.0, 0.06666666666666667
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,v,SIMPLE_NAME, line no: 41, 1.0666666666666667, 0.9285714285714286, 0.0, 0.0, 0.06666666666666667
+key,SIMPLE_NAME, line no: 45,new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45, 1.0666666666666667, 0.9666666666666667, 0.0, 0.0, 0.1
+value,SIMPLE_NAME, line no: 45,new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45, 1.0666666666666667, 0.9666666666666667, 0.0, 0.0, 0.1
+key,SIMPLE_NAME, line no: 45,new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45, 1.0666666666666667, 0.9666666666666667, 0.0, 0.0, 0.1
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,serializationService.toObject(value1),METHOD_INVOCATION, line no: 59, 1.0583554376657824, 0.8275862068965517, 0.0, 0.0, 0.23076923076923078
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,serializationService.toObject(value2),METHOD_INVOCATION, line no: 60, 1.0583554376657824, 0.8275862068965517, 0.0, 0.0, 0.23076923076923078
+ObjectRecord,SIMPLE_NAME, line no: 45,statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45, 1.0365591397849463, 0.9032258064516129, 0.0, 0.0, 0.13333333333333333
+statisticsEnabled,SIMPLE_NAME, line no: 45,isEquals,SIMPLE_NAME, line no: 58, 1.0344827586206897, 0.034482758620689655, 1.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,serializationService.toObject(value1),METHOD_INVOCATION, line no: 59, 1.0275862068965518, 0.8275862068965517, 0.0, 0.0, 0.2
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,serializationService.toObject(value2),METHOD_INVOCATION, line no: 60, 1.0275862068965518, 0.8275862068965517, 0.0, 0.0, 0.2
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,Object,SIMPLE_NAME, line no: 24, 1.021551724137931, 0.034482758620689655, 0.0, 0.0, 0.125
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,serializationService.toObject(value1),METHOD_INVOCATION, line no: 59, 1.0071428571428571, 0.8571428571428571, 0.0, 0.0, 0.15
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,serializationService.toObject(value2),METHOD_INVOCATION, line no: 60, 1.0071428571428571, 0.8571428571428571, 0.0, 0.0, 0.15
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,toObject,SIMPLE_NAME, line no: 43, 1.0064516129032257, 0.2903225806451613, 0.0, 0.0, 0.2
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,value1 instanceof Data ? serializationService.toObject(value1) : value1,CONDITIONAL_EXPRESSION, line no: 59, 1.0040567951318458, 0.8275862068965517, 0.0, 0.0, 0.17647058823529413
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,value2 instanceof Data ? serializationService.toObject(value2) : value2,CONDITIONAL_EXPRESSION, line no: 60, 1.0040567951318458, 0.8275862068965517, 0.0, 0.0, 0.17647058823529413
+statisticsEnabled,SIMPLE_NAME, line no: 45,key,SIMPLE_NAME, line no: 40, 1.0, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,value,SIMPLE_NAME, line no: 40, 1.0, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,v,SIMPLE_NAME, line no: 41, 1.0, 0.9310344827586207, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,ObjectRecordWithStats,SIMPLE_NAME, line no: 45, 1.0, 1.0, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,ObjectRecord,SIMPLE_NAME, line no: 45, 1.0, 1.0, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,v,SIMPLE_NAME, line no: 41, 1.0, 0.896551724137931, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,com.hazelcast.nio.serialization.Data,QUALIFIED_NAME, line no: 21, 1.0, 0.0, 1.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,value,SIMPLE_NAME, line no: 40, 1.0, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,v,SIMPLE_NAME, line no: 41, 1.0, 0.9, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45, 1.0, 0.9333333333333333, 0.0, 0.0, 0.06666666666666667
+key,SIMPLE_NAME, line no: 45,ObjectRecordWithStats,SIMPLE_NAME, line no: 45, 1.0, 1.0, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,ObjectRecord,SIMPLE_NAME, line no: 45, 1.0, 1.0, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,key,SIMPLE_NAME, line no: 40, 1.0, 0.03333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45, 1.0, 0.9333333333333333, 0.0, 0.0, 0.06666666666666667
+value,SIMPLE_NAME, line no: 45,ObjectRecordWithStats,SIMPLE_NAME, line no: 45, 1.0, 1.0, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,ObjectRecord,SIMPLE_NAME, line no: 45, 1.0, 1.0, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,value,SIMPLE_NAME, line no: 40, 1.0, 0.034482758620689655, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,com.hazelcast.nio.serialization.Data,QUALIFIED_NAME, line no: 21, 1.0, 0.0, 1.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,value,SIMPLE_NAME, line no: 40, 1.0, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,v,SIMPLE_NAME, line no: 41, 1.0, 0.9, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45, 1.0, 0.9333333333333333, 0.0, 0.0, 0.06666666666666667
+key,SIMPLE_NAME, line no: 45,ObjectRecordWithStats,SIMPLE_NAME, line no: 45, 1.0, 1.0, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,ObjectRecord,SIMPLE_NAME, line no: 45, 1.0, 1.0, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,key,SIMPLE_NAME, line no: 40, 1.0, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45, 1.0, 0.9333333333333333, 0.0, 0.0, 0.06666666666666667
+v,SIMPLE_NAME, line no: 45,ObjectRecordWithStats,SIMPLE_NAME, line no: 45, 1.0, 1.0, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,ObjectRecord,SIMPLE_NAME, line no: 45, 1.0, 1.0, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,Object,SIMPLE_NAME, line no: 24, 0.996551724137931, 0.034482758620689655, 0.0, 0.0, 0.1
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,Object,SIMPLE_NAME, line no: 24, 0.9952380952380953, 0.03571428571428571, 0.0, 0.0, 0.06666666666666667
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,v1.equals(v2),METHOD_INVOCATION, line no: 70, 0.9942528735632183, 0.8275862068965517, 0.0, 0.0, 0.16666666666666666
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,value1 instanceof Data ? serializationService.toObject(value1) : value1,CONDITIONAL_EXPRESSION, line no: 59, 0.9854809437386569, 0.8275862068965517, 0.0, 0.0, 0.15789473684210525
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,value2 instanceof Data ? serializationService.toObject(value2) : value2,CONDITIONAL_EXPRESSION, line no: 60, 0.9854809437386569, 0.8275862068965517, 0.0, 0.0, 0.15789473684210525
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,v1.equals(v2),METHOD_INVOCATION, line no: 70, 0.9704433497536946, 0.8275862068965517, 0.0, 0.0, 0.14285714285714285
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,key,SIMPLE_NAME, line no: 40, 0.967741935483871, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,value,SIMPLE_NAME, line no: 40, 0.967741935483871, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,v,SIMPLE_NAME, line no: 41, 0.967741935483871, 0.8709677419354839, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,key,SIMPLE_NAME, line no: 40, 0.967741935483871, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,value,SIMPLE_NAME, line no: 40, 0.967741935483871, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,v,SIMPLE_NAME, line no: 41, 0.967741935483871, 0.8709677419354839, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,statisticsEnabled,SIMPLE_NAME, line no: 27, 0.9666666666666667, 0.03333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,statisticsEnabled,SIMPLE_NAME, line no: 27, 0.9666666666666667, 0.03333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45, 0.9666666666666667, 0.9666666666666667, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,statisticsEnabled,SIMPLE_NAME, line no: 27, 0.9666666666666667, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,statisticsEnabled,SIMPLE_NAME, line no: 27, 0.9666666666666667, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45, 0.9666666666666667, 0.9666666666666667, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45, 0.9655172413793104, 0.9655172413793104, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45, 0.9655172413793104, 0.9655172413793104, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,statisticsEnabled,SIMPLE_NAME, line no: 27, 0.9655172413793104, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,statisticsEnabled,SIMPLE_NAME, line no: 27, 0.9655172413793104, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,v1.equals(v2),METHOD_INVOCATION, line no: 70, 0.9624060150375939, 0.8571428571428571, 0.0, 0.0, 0.10526315789473684
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,toObject,SIMPLE_NAME, line no: 43, 0.9386973180076628, 0.3103448275862069, 0.0, 0.0, 0.1111111111111111
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,v=serializationService.toObject(value),ASSIGNMENT, line no: 43, 0.9357142857142857, 0.2857142857142857, 0.4, 0.0, 0.25
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,statisticsEnabled,SIMPLE_NAME, line no: 27, 0.9354838709677419, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,statisticsEnabled,SIMPLE_NAME, line no: 27, 0.9354838709677419, 0.03225806451612903, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,Data,SIMPLE_NAME, line no: 21, 0.9310344827586207, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,Object,SIMPLE_NAME, line no: 24, 0.9310344827586207, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,Data,SIMPLE_NAME, line no: 21, 0.9285714285714286, 0.03571428571428571, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,record.setValue(v),METHOD_INVOCATION, line no: 54, 0.9283819628647215, 0.6206896551724138, 0.0, 0.0, 0.3076923076923077
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,toObject,SIMPLE_NAME, line no: 43, 0.9196428571428571, 0.32142857142857145, 0.0, 0.0, 0.0625
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,toObject,SIMPLE_NAME, line no: 43, 0.9184952978056427, 0.3103448275862069, 0.0, 0.0, 0.09090909090909091
+ObjectRecord,SIMPLE_NAME, line no: 45,serializationService.toObject(value1),METHOD_INVOCATION, line no: 59, 0.9175627240143369, 0.8064516129032258, 0.0, 0.0, 0.1111111111111111
+ObjectRecord,SIMPLE_NAME, line no: 45,serializationService.toObject(value2),METHOD_INVOCATION, line no: 60, 0.9175627240143369, 0.8064516129032258, 0.0, 0.0, 0.1111111111111111
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,Data,SIMPLE_NAME, line no: 21, 0.9032258064516129, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,Data,SIMPLE_NAME, line no: 21, 0.9032258064516129, 0.03225806451612903, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,Object,SIMPLE_NAME, line no: 24, 0.9, 0.03333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,Data,SIMPLE_NAME, line no: 21, 0.9, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,Object,SIMPLE_NAME, line no: 24, 0.9, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,Data,SIMPLE_NAME, line no: 21, 0.9, 0.03333333333333333, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,serializationService.toObject(value1),METHOD_INVOCATION, line no: 59, 0.8973607038123167, 0.8064516129032258, 0.0, 0.0, 0.09090909090909091
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,serializationService.toObject(value2),METHOD_INVOCATION, line no: 60, 0.8973607038123167, 0.8064516129032258, 0.0, 0.0, 0.09090909090909091
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,Data,SIMPLE_NAME, line no: 21, 0.896551724137931, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,Data,SIMPLE_NAME, line no: 21, 0.896551724137931, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,value instanceof Data,INSTANCEOF_EXPRESSION, line no: 42, 0.896551724137931, 0.896551724137931, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,serializationService.toObject(value),METHOD_INVOCATION, line no: 43, 0.8949096880131363, 0.27586206896551724, 0.3333333333333333, 0.0, 0.2857142857142857
+ObjectRecord,SIMPLE_NAME, line no: 45,value1 instanceof Data ? serializationService.toObject(value1) : value1,CONDITIONAL_EXPRESSION, line no: 59, 0.8833746898263026, 0.8064516129032258, 0.0, 0.0, 0.07692307692307693
+ObjectRecord,SIMPLE_NAME, line no: 45,value2 instanceof Data ? serializationService.toObject(value2) : value2,CONDITIONAL_EXPRESSION, line no: 60, 0.8833746898263026, 0.8064516129032258, 0.0, 0.0, 0.07692307692307693
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,value1 instanceof Data ? serializationService.toObject(value1) : value1,CONDITIONAL_EXPRESSION, line no: 59, 0.8731182795698924, 0.8064516129032258, 0.0, 0.0, 0.06666666666666667
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,value2 instanceof Data ? serializationService.toObject(value2) : value2,CONDITIONAL_EXPRESSION, line no: 60, 0.8731182795698924, 0.8064516129032258, 0.0, 0.0, 0.06666666666666667
+key,SIMPLE_NAME, line no: 45,value instanceof Data,INSTANCEOF_EXPRESSION, line no: 42, 0.8666666666666667, 0.8666666666666667, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,value instanceof Data,INSTANCEOF_EXPRESSION, line no: 42, 0.8666666666666667, 0.8666666666666667, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,value instanceof Data,INSTANCEOF_EXPRESSION, line no: 42, 0.8666666666666667, 0.8666666666666667, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,record,SIMPLE_NAME, line no: 17, 0.8629032258064516, 0.03225806451612903, 0.0, 0.0, 0.25
+statisticsEnabled,SIMPLE_NAME, line no: 45,serializationService,SIMPLE_NAME, line no: 26, 0.8620689655172413, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,toObject,SIMPLE_NAME, line no: 43, 0.8620689655172413, 0.3103448275862069, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,value1,SIMPLE_NAME, line no: 58, 0.8620689655172413, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,value2,SIMPLE_NAME, line no: 58, 0.8620689655172413, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,v1,SIMPLE_NAME, line no: 59, 0.8620689655172413, 0.8620689655172413, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,value1 instanceof Data ? serializationService.toObject(value1) : value1,CONDITIONAL_EXPRESSION, line no: 59, 0.8620689655172413, 0.8620689655172413, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,serializationService.toObject(value1),METHOD_INVOCATION, line no: 59, 0.8620689655172413, 0.8620689655172413, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,v2,SIMPLE_NAME, line no: 60, 0.8620689655172413, 0.8620689655172413, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,value2 instanceof Data ? serializationService.toObject(value2) : value2,CONDITIONAL_EXPRESSION, line no: 60, 0.8620689655172413, 0.8620689655172413, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,serializationService.toObject(value2),METHOD_INVOCATION, line no: 60, 0.8620689655172413, 0.8620689655172413, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,null,NULL_LITERAL, line no: 61, 0.8620689655172413, 0.8620689655172413, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,serializationService,SIMPLE_NAME, line no: 26, 0.8571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,value1,SIMPLE_NAME, line no: 58, 0.8571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,value2,SIMPLE_NAME, line no: 58, 0.8571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,v1,SIMPLE_NAME, line no: 59, 0.8571428571428571, 0.8571428571428571, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,value1 instanceof Data,INSTANCEOF_EXPRESSION, line no: 59, 0.8571428571428571, 0.8571428571428571, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,v2,SIMPLE_NAME, line no: 60, 0.8571428571428571, 0.8571428571428571, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,value2 instanceof Data,INSTANCEOF_EXPRESSION, line no: 60, 0.8571428571428571, 0.8571428571428571, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,v1 == null && v2 == null,INFIX_EXPRESSION, line no: 61, 0.8571428571428571, 0.8571428571428571, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,v1 == null,INFIX_EXPRESSION, line no: 61, 0.8571428571428571, 0.8571428571428571, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,null,NULL_LITERAL, line no: 61, 0.8571428571428571, 0.8571428571428571, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,v2 == null,INFIX_EXPRESSION, line no: 61, 0.8571428571428571, 0.8571428571428571, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,equals,SIMPLE_NAME, line no: 70, 0.8571428571428571, 0.8571428571428571, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,value instanceof Data,INSTANCEOF_EXPRESSION, line no: 42, 0.8387096774193549, 0.8387096774193549, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,value instanceof Data,INSTANCEOF_EXPRESSION, line no: 42, 0.8387096774193549, 0.8387096774193549, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,serializationService,SIMPLE_NAME, line no: 26, 0.8333333333333334, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,toObject,SIMPLE_NAME, line no: 43, 0.8333333333333334, 0.3, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,value1,SIMPLE_NAME, line no: 58, 0.8333333333333334, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,value2,SIMPLE_NAME, line no: 58, 0.8333333333333334, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,v1,SIMPLE_NAME, line no: 59, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,value1 instanceof Data ? serializationService.toObject(value1) : value1,CONDITIONAL_EXPRESSION, line no: 59, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,value1 instanceof Data,INSTANCEOF_EXPRESSION, line no: 59, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,serializationService.toObject(value1),METHOD_INVOCATION, line no: 59, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,v2,SIMPLE_NAME, line no: 60, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,value2 instanceof Data ? serializationService.toObject(value2) : value2,CONDITIONAL_EXPRESSION, line no: 60, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,value2 instanceof Data,INSTANCEOF_EXPRESSION, line no: 60, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,serializationService.toObject(value2),METHOD_INVOCATION, line no: 60, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,v1 == null && v2 == null,INFIX_EXPRESSION, line no: 61, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,v1 == null,INFIX_EXPRESSION, line no: 61, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,null,NULL_LITERAL, line no: 61, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,v2 == null,INFIX_EXPRESSION, line no: 61, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,v1.equals(v2),METHOD_INVOCATION, line no: 70, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,equals,SIMPLE_NAME, line no: 70, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,serializationService,SIMPLE_NAME, line no: 26, 0.8333333333333334, 0.03333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,value1 instanceof Data,INSTANCEOF_EXPRESSION, line no: 59, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,value2 instanceof Data,INSTANCEOF_EXPRESSION, line no: 60, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,v1 == null && v2 == null,INFIX_EXPRESSION, line no: 61, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,v1 == null,INFIX_EXPRESSION, line no: 61, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,null,NULL_LITERAL, line no: 61, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,v2 == null,INFIX_EXPRESSION, line no: 61, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,v1.equals(v2),METHOD_INVOCATION, line no: 70, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,equals,SIMPLE_NAME, line no: 70, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,serializationService,SIMPLE_NAME, line no: 26, 0.8333333333333334, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,toObject,SIMPLE_NAME, line no: 43, 0.8333333333333334, 0.3, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,value1,SIMPLE_NAME, line no: 58, 0.8333333333333334, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,value2,SIMPLE_NAME, line no: 58, 0.8333333333333334, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,v1,SIMPLE_NAME, line no: 59, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,value1 instanceof Data ? serializationService.toObject(value1) : value1,CONDITIONAL_EXPRESSION, line no: 59, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,value1 instanceof Data,INSTANCEOF_EXPRESSION, line no: 59, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,serializationService.toObject(value1),METHOD_INVOCATION, line no: 59, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,v2,SIMPLE_NAME, line no: 60, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,value2 instanceof Data ? serializationService.toObject(value2) : value2,CONDITIONAL_EXPRESSION, line no: 60, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,value2 instanceof Data,INSTANCEOF_EXPRESSION, line no: 60, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,serializationService.toObject(value2),METHOD_INVOCATION, line no: 60, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,v1 == null && v2 == null,INFIX_EXPRESSION, line no: 61, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,v1 == null,INFIX_EXPRESSION, line no: 61, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,null,NULL_LITERAL, line no: 61, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,v2 == null,INFIX_EXPRESSION, line no: 61, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,v1.equals(v2),METHOD_INVOCATION, line no: 70, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,equals,SIMPLE_NAME, line no: 70, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,serializationService,SIMPLE_NAME, line no: 26, 0.8333333333333334, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,value1 instanceof Data,INSTANCEOF_EXPRESSION, line no: 59, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,value2 instanceof Data,INSTANCEOF_EXPRESSION, line no: 60, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,v1 == null && v2 == null,INFIX_EXPRESSION, line no: 61, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,v1 == null,INFIX_EXPRESSION, line no: 61, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,null,NULL_LITERAL, line no: 61, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,v2 == null,INFIX_EXPRESSION, line no: 61, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,v1.equals(v2),METHOD_INVOCATION, line no: 70, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,equals,SIMPLE_NAME, line no: 70, 0.8333333333333334, 0.8333333333333334, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,serializationService,SIMPLE_NAME, line no: 26, 0.8275862068965517, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,value1,SIMPLE_NAME, line no: 58, 0.8275862068965517, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,value2,SIMPLE_NAME, line no: 58, 0.8275862068965517, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,v1,SIMPLE_NAME, line no: 59, 0.8275862068965517, 0.8275862068965517, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,value1 instanceof Data,INSTANCEOF_EXPRESSION, line no: 59, 0.8275862068965517, 0.8275862068965517, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,v2,SIMPLE_NAME, line no: 60, 0.8275862068965517, 0.8275862068965517, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,value2 instanceof Data,INSTANCEOF_EXPRESSION, line no: 60, 0.8275862068965517, 0.8275862068965517, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,v1 == null && v2 == null,INFIX_EXPRESSION, line no: 61, 0.8275862068965517, 0.8275862068965517, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,v1 == null,INFIX_EXPRESSION, line no: 61, 0.8275862068965517, 0.8275862068965517, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,null,NULL_LITERAL, line no: 61, 0.8275862068965517, 0.8275862068965517, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,v2 == null,INFIX_EXPRESSION, line no: 61, 0.8275862068965517, 0.8275862068965517, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,equals,SIMPLE_NAME, line no: 70, 0.8275862068965517, 0.8275862068965517, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,serializationService,SIMPLE_NAME, line no: 26, 0.8275862068965517, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,value1,SIMPLE_NAME, line no: 58, 0.8275862068965517, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,value2,SIMPLE_NAME, line no: 58, 0.8275862068965517, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,v1,SIMPLE_NAME, line no: 59, 0.8275862068965517, 0.8275862068965517, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,value1 instanceof Data,INSTANCEOF_EXPRESSION, line no: 59, 0.8275862068965517, 0.8275862068965517, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,v2,SIMPLE_NAME, line no: 60, 0.8275862068965517, 0.8275862068965517, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,value2 instanceof Data,INSTANCEOF_EXPRESSION, line no: 60, 0.8275862068965517, 0.8275862068965517, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,v1 == null && v2 == null,INFIX_EXPRESSION, line no: 61, 0.8275862068965517, 0.8275862068965517, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,v1 == null,INFIX_EXPRESSION, line no: 61, 0.8275862068965517, 0.8275862068965517, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,null,NULL_LITERAL, line no: 61, 0.8275862068965517, 0.8275862068965517, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,v2 == null,INFIX_EXPRESSION, line no: 61, 0.8275862068965517, 0.8275862068965517, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,equals,SIMPLE_NAME, line no: 70, 0.8275862068965517, 0.8275862068965517, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,v=serializationService.toObject(value),ASSIGNMENT, line no: 43, 0.8115763546798029, 0.27586206896551724, 0.25, 0.0, 0.2857142857142857
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,serializationService,SIMPLE_NAME, line no: 26, 0.8064516129032258, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,value1,SIMPLE_NAME, line no: 58, 0.8064516129032258, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,value2,SIMPLE_NAME, line no: 58, 0.8064516129032258, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,v1,SIMPLE_NAME, line no: 59, 0.8064516129032258, 0.8064516129032258, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,value1 instanceof Data,INSTANCEOF_EXPRESSION, line no: 59, 0.8064516129032258, 0.8064516129032258, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,v2,SIMPLE_NAME, line no: 60, 0.8064516129032258, 0.8064516129032258, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,value2 instanceof Data,INSTANCEOF_EXPRESSION, line no: 60, 0.8064516129032258, 0.8064516129032258, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,v1 == null && v2 == null,INFIX_EXPRESSION, line no: 61, 0.8064516129032258, 0.8064516129032258, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,v1 == null,INFIX_EXPRESSION, line no: 61, 0.8064516129032258, 0.8064516129032258, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,null,NULL_LITERAL, line no: 61, 0.8064516129032258, 0.8064516129032258, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,v2 == null,INFIX_EXPRESSION, line no: 61, 0.8064516129032258, 0.8064516129032258, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,v1.equals(v2),METHOD_INVOCATION, line no: 70, 0.8064516129032258, 0.8064516129032258, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,equals,SIMPLE_NAME, line no: 70, 0.8064516129032258, 0.8064516129032258, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,serializationService,SIMPLE_NAME, line no: 26, 0.8064516129032258, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,value1,SIMPLE_NAME, line no: 58, 0.8064516129032258, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,value2,SIMPLE_NAME, line no: 58, 0.8064516129032258, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,v1,SIMPLE_NAME, line no: 59, 0.8064516129032258, 0.8064516129032258, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,value1 instanceof Data,INSTANCEOF_EXPRESSION, line no: 59, 0.8064516129032258, 0.8064516129032258, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,v2,SIMPLE_NAME, line no: 60, 0.8064516129032258, 0.8064516129032258, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,value2 instanceof Data,INSTANCEOF_EXPRESSION, line no: 60, 0.8064516129032258, 0.8064516129032258, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,v1 == null && v2 == null,INFIX_EXPRESSION, line no: 61, 0.8064516129032258, 0.8064516129032258, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,v1 == null,INFIX_EXPRESSION, line no: 61, 0.8064516129032258, 0.8064516129032258, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,null,NULL_LITERAL, line no: 61, 0.8064516129032258, 0.8064516129032258, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,v2 == null,INFIX_EXPRESSION, line no: 61, 0.8064516129032258, 0.8064516129032258, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,v1.equals(v2),METHOD_INVOCATION, line no: 70, 0.8064516129032258, 0.8064516129032258, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,equals,SIMPLE_NAME, line no: 70, 0.8064516129032258, 0.8064516129032258, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,record,SIMPLE_NAME, line no: 17, 0.7801724137931034, 0.034482758620689655, 0.0, 0.0, 0.125
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,v=serializationService.toObject(value),ASSIGNMENT, line no: 43, 0.7758620689655172, 0.27586206896551724, 0.25, 0.0, 0.25
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,record,SIMPLE_NAME, line no: 17, 0.7551724137931034, 0.034482758620689655, 0.0, 0.0, 0.1
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,setValue,SIMPLE_NAME, line no: 49, 0.7460815047021944, 0.034482758620689655, 0.0, 0.0, 0.09090909090909091
+value,SIMPLE_NAME, line no: 45,record.setValue(v),METHOD_INVOCATION, line no: 54, 0.7428571428571429, 0.6, 0.0, 0.0, 0.14285714285714285
+v,SIMPLE_NAME, line no: 45,record.setValue(v),METHOD_INVOCATION, line no: 54, 0.7428571428571429, 0.6, 0.0, 0.0, 0.14285714285714285
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,setValue,SIMPLE_NAME, line no: 49, 0.7410714285714286, 0.03571428571428571, 0.0, 0.0, 0.0625
+ObjectRecord,SIMPLE_NAME, line no: 45,record.setValue(v),METHOD_INVOCATION, line no: 54, 0.7056451612903226, 0.5806451612903226, 0.0, 0.0, 0.125
+ObjectRecord,SIMPLE_NAME, line no: 45,ObjectRecordFactory,SIMPLE_NAME, line no: 24, 0.6989247311827956, 0.03225806451612903, 0.0, 0.0, 0.6666666666666666
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,serializationService.toObject(value),METHOD_INVOCATION, line no: 43, 0.6962406015037594, 0.2857142857142857, 0.2, 0.0, 0.21052631578947367
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,this.statisticsEnabled=config.isStatisticsEnabled(),ASSIGNMENT, line no: 31, 0.6857142857142857, 0.2857142857142857, 0.2, 0.0, 0.2
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,record.setValue(v),METHOD_INVOCATION, line no: 54, 0.6806451612903226, 0.5806451612903226, 0.0, 0.0, 0.1
+ObjectRecord,SIMPLE_NAME, line no: 45,OBJECT,SIMPLE_NAME, line no: 36, 0.6612903225806451, 0.16129032258064516, 0.0, 0.0, 0.5
+statisticsEnabled,SIMPLE_NAME, line no: 45,record,SIMPLE_NAME, line no: 17, 0.6551724137931034, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,setValue,SIMPLE_NAME, line no: 49, 0.6551724137931034, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,setValue,SIMPLE_NAME, line no: 49, 0.6551724137931034, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,this.statisticsEnabled,FIELD_ACCESS, line no: 31, 0.6533613445378151, 0.2857142857142857, 0.25, 0.0, 0.11764705882352941
+key,SIMPLE_NAME, line no: 45,record,SIMPLE_NAME, line no: 17, 0.6333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,setValue,SIMPLE_NAME, line no: 49, 0.6333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,record,SIMPLE_NAME, line no: 17, 0.6333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,record,SIMPLE_NAME, line no: 17, 0.6333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,setValue,SIMPLE_NAME, line no: 49, 0.6333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,record,SIMPLE_NAME, line no: 17, 0.6333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,setValue,SIMPLE_NAME, line no: 49, 0.6333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,record.setValue(v),METHOD_INVOCATION, line no: 54, 0.6206896551724138, 0.6206896551724138, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,setValue,SIMPLE_NAME, line no: 49, 0.6129032258064516, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,setValue,SIMPLE_NAME, line no: 49, 0.6129032258064516, 0.03225806451612903, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,record.setValue(v),METHOD_INVOCATION, line no: 54, 0.6, 0.6, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,record.setValue(v),METHOD_INVOCATION, line no: 54, 0.6, 0.6, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,Record,SIMPLE_NAME, line no: 40, 0.564516129032258, 0.06451612903225806, 0.0, 0.0, 0.5
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,config.isStatisticsEnabled(),METHOD_INVOCATION, line no: 31, 0.5079365079365079, 0.2857142857142857, 0.0, 0.0, 0.2222222222222222
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,serializationService.toObject(value),METHOD_INVOCATION, line no: 43, 0.506631299734748, 0.27586206896551724, 0.0, 0.0, 0.23076923076923078
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,isStatisticsEnabled,SIMPLE_NAME, line no: 31, 0.44642857142857145, 0.32142857142857145, 0.0, 0.0, 0.125
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,ObjectRecordFactory,SIMPLE_NAME, line no: 24, 0.432258064516129, 0.03225806451612903, 0.0, 0.0, 0.4
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,config.isStatisticsEnabled(),METHOD_INVOCATION, line no: 31, 0.4297082228116711, 0.27586206896551724, 0.0, 0.0, 0.15384615384615385
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,OBJECT,SIMPLE_NAME, line no: 36, 0.41129032258064513, 0.16129032258064516, 0.0, 0.0, 0.25
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,config.isStatisticsEnabled(),METHOD_INVOCATION, line no: 31, 0.40919540229885054, 0.27586206896551724, 0.0, 0.0, 0.13333333333333333
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,this.statisticsEnabled=config.isStatisticsEnabled(),ASSIGNMENT, line no: 31, 0.40919540229885054, 0.27586206896551724, 0.0, 0.0, 0.13333333333333333
+ObjectRecord,SIMPLE_NAME, line no: 45,RecordFactory,SIMPLE_NAME, line no: 24, 0.3978494623655914, 0.06451612903225806, 0.0, 0.0, 0.3333333333333333
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,this.statisticsEnabled=config.isStatisticsEnabled(),ASSIGNMENT, line no: 31, 0.3935091277890467, 0.27586206896551724, 0.0, 0.0, 0.11764705882352941
+ObjectRecord,SIMPLE_NAME, line no: 45,serializationService.toObject(value),METHOD_INVOCATION, line no: 43, 0.36917562724014336, 0.25806451612903225, 0.0, 0.0, 0.1111111111111111
+ObjectRecord,SIMPLE_NAME, line no: 45,newRecord,SIMPLE_NAME, line no: 40, 0.3655913978494624, 0.03225806451612903, 0.0, 0.0, 0.3333333333333333
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,serializationService.toObject(value),METHOD_INVOCATION, line no: 43, 0.3489736070381232, 0.25806451612903225, 0.0, 0.0, 0.09090909090909091
+ObjectRecord,SIMPLE_NAME, line no: 45,v=serializationService.toObject(value),ASSIGNMENT, line no: 43, 0.3489736070381232, 0.25806451612903225, 0.0, 0.0, 0.09090909090909091
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,v=serializationService.toObject(value),ASSIGNMENT, line no: 43, 0.3349875930521092, 0.25806451612903225, 0.0, 0.0, 0.07692307692307693
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,config,SIMPLE_NAME, line no: 19, 0.32142857142857145, 0.03571428571428571, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,Record,SIMPLE_NAME, line no: 40, 0.31451612903225806, 0.06451612903225806, 0.0, 0.0, 0.25
+statisticsEnabled,SIMPLE_NAME, line no: 45,config,SIMPLE_NAME, line no: 19, 0.3103448275862069, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,config,SIMPLE_NAME, line no: 19, 0.3103448275862069, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,isStatisticsEnabled,SIMPLE_NAME, line no: 31, 0.3103448275862069, 0.3103448275862069, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,config,SIMPLE_NAME, line no: 19, 0.3103448275862069, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,isStatisticsEnabled,SIMPLE_NAME, line no: 31, 0.3103448275862069, 0.3103448275862069, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,config,SIMPLE_NAME, line no: 19, 0.3, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,isStatisticsEnabled,SIMPLE_NAME, line no: 31, 0.3, 0.3, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,config,SIMPLE_NAME, line no: 19, 0.3, 0.03333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,isStatisticsEnabled,SIMPLE_NAME, line no: 31, 0.3, 0.3, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,config,SIMPLE_NAME, line no: 19, 0.3, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,isStatisticsEnabled,SIMPLE_NAME, line no: 31, 0.3, 0.3, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,config,SIMPLE_NAME, line no: 19, 0.3, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,isStatisticsEnabled,SIMPLE_NAME, line no: 31, 0.3, 0.3, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,OBJECT,SIMPLE_NAME, line no: 36, 0.2974137931034483, 0.1724137931034483, 0.0, 0.0, 0.125
+ObjectRecord,SIMPLE_NAME, line no: 45,InMemoryFormat.OBJECT,QUALIFIED_NAME, line no: 36, 0.29569892473118276, 0.12903225806451613, 0.0, 0.0, 0.16666666666666666
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,config,SIMPLE_NAME, line no: 19, 0.2903225806451613, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,isStatisticsEnabled,SIMPLE_NAME, line no: 31, 0.2903225806451613, 0.2903225806451613, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,config,SIMPLE_NAME, line no: 19, 0.2903225806451613, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,isStatisticsEnabled,SIMPLE_NAME, line no: 31, 0.2903225806451613, 0.2903225806451613, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,this.serializationService=serializationService,ASSIGNMENT, line no: 30, 0.2857142857142857, 0.2857142857142857, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,this.serializationService,FIELD_ACCESS, line no: 30, 0.2857142857142857, 0.2857142857142857, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,this,THIS_EXPRESSION, line no: 30, 0.2857142857142857, 0.2857142857142857, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,newRecord,SIMPLE_NAME, line no: 40, 0.28448275862068967, 0.034482758620689655, 0.0, 0.0, 0.25
+statisticsEnabled,SIMPLE_NAME, line no: 45,this.serializationService=serializationService,ASSIGNMENT, line no: 30, 0.27586206896551724, 0.27586206896551724, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,this.serializationService,FIELD_ACCESS, line no: 30, 0.27586206896551724, 0.27586206896551724, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,this,THIS_EXPRESSION, line no: 30, 0.27586206896551724, 0.27586206896551724, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,v=serializationService.toObject(value),ASSIGNMENT, line no: 43, 0.27586206896551724, 0.27586206896551724, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,serializationService.toObject(value),METHOD_INVOCATION, line no: 43, 0.27586206896551724, 0.27586206896551724, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,this.serializationService=serializationService,ASSIGNMENT, line no: 30, 0.27586206896551724, 0.27586206896551724, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,this.serializationService,FIELD_ACCESS, line no: 30, 0.27586206896551724, 0.27586206896551724, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,this,THIS_EXPRESSION, line no: 30, 0.27586206896551724, 0.27586206896551724, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,this.statisticsEnabled,FIELD_ACCESS, line no: 31, 0.27586206896551724, 0.27586206896551724, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,this.serializationService=serializationService,ASSIGNMENT, line no: 30, 0.27586206896551724, 0.27586206896551724, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,this.serializationService,FIELD_ACCESS, line no: 30, 0.27586206896551724, 0.27586206896551724, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,this,THIS_EXPRESSION, line no: 30, 0.27586206896551724, 0.27586206896551724, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,this.statisticsEnabled,FIELD_ACCESS, line no: 31, 0.27586206896551724, 0.27586206896551724, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,OBJECT,SIMPLE_NAME, line no: 36, 0.27241379310344827, 0.1724137931034483, 0.0, 0.0, 0.1
+key,SIMPLE_NAME, line no: 45,this.serializationService=serializationService,ASSIGNMENT, line no: 30, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,this.serializationService,FIELD_ACCESS, line no: 30, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,this,THIS_EXPRESSION, line no: 30, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,this.statisticsEnabled=config.isStatisticsEnabled(),ASSIGNMENT, line no: 31, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,this.statisticsEnabled,FIELD_ACCESS, line no: 31, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,config.isStatisticsEnabled(),METHOD_INVOCATION, line no: 31, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,v=serializationService.toObject(value),ASSIGNMENT, line no: 43, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,serializationService.toObject(value),METHOD_INVOCATION, line no: 43, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,this.serializationService=serializationService,ASSIGNMENT, line no: 30, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,this.serializationService,FIELD_ACCESS, line no: 30, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,this,THIS_EXPRESSION, line no: 30, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,this.statisticsEnabled=config.isStatisticsEnabled(),ASSIGNMENT, line no: 31, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,this.statisticsEnabled,FIELD_ACCESS, line no: 31, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,config.isStatisticsEnabled(),METHOD_INVOCATION, line no: 31, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,this.serializationService=serializationService,ASSIGNMENT, line no: 30, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,this.serializationService,FIELD_ACCESS, line no: 30, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,this,THIS_EXPRESSION, line no: 30, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,this.statisticsEnabled=config.isStatisticsEnabled(),ASSIGNMENT, line no: 31, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,this.statisticsEnabled,FIELD_ACCESS, line no: 31, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,config.isStatisticsEnabled(),METHOD_INVOCATION, line no: 31, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,v=serializationService.toObject(value),ASSIGNMENT, line no: 43, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,serializationService.toObject(value),METHOD_INVOCATION, line no: 43, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,this.serializationService=serializationService,ASSIGNMENT, line no: 30, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,this.serializationService,FIELD_ACCESS, line no: 30, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,this,THIS_EXPRESSION, line no: 30, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,this.statisticsEnabled=config.isStatisticsEnabled(),ASSIGNMENT, line no: 31, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,this.statisticsEnabled,FIELD_ACCESS, line no: 31, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,config.isStatisticsEnabled(),METHOD_INVOCATION, line no: 31, 0.26666666666666666, 0.26666666666666666, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,RecordFactory,SIMPLE_NAME, line no: 24, 0.2645161290322581, 0.06451612903225806, 0.0, 0.0, 0.2
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,this.serializationService=serializationService,ASSIGNMENT, line no: 30, 0.25806451612903225, 0.25806451612903225, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,this.serializationService,FIELD_ACCESS, line no: 30, 0.25806451612903225, 0.25806451612903225, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,this,THIS_EXPRESSION, line no: 30, 0.25806451612903225, 0.25806451612903225, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,this.statisticsEnabled=config.isStatisticsEnabled(),ASSIGNMENT, line no: 31, 0.25806451612903225, 0.25806451612903225, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,this.statisticsEnabled,FIELD_ACCESS, line no: 31, 0.25806451612903225, 0.25806451612903225, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,config.isStatisticsEnabled(),METHOD_INVOCATION, line no: 31, 0.25806451612903225, 0.25806451612903225, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,this.serializationService=serializationService,ASSIGNMENT, line no: 30, 0.25806451612903225, 0.25806451612903225, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,this.serializationService,FIELD_ACCESS, line no: 30, 0.25806451612903225, 0.25806451612903225, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,this,THIS_EXPRESSION, line no: 30, 0.25806451612903225, 0.25806451612903225, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,this.statisticsEnabled=config.isStatisticsEnabled(),ASSIGNMENT, line no: 31, 0.25806451612903225, 0.25806451612903225, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,this.statisticsEnabled,FIELD_ACCESS, line no: 31, 0.25806451612903225, 0.25806451612903225, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,config.isStatisticsEnabled(),METHOD_INVOCATION, line no: 31, 0.25806451612903225, 0.25806451612903225, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,ObjectRecordFactory,SIMPLE_NAME, line no: 24, 0.2567049808429119, 0.034482758620689655, 0.0, 0.0, 0.2222222222222222
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,InMemoryFormat.OBJECT,QUALIFIED_NAME, line no: 36, 0.2540322580645161, 0.12903225806451613, 0.0, 0.0, 0.125
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,OBJECT,SIMPLE_NAME, line no: 36, 0.24523809523809526, 0.17857142857142858, 0.0, 0.0, 0.06666666666666667
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,newRecord,SIMPLE_NAME, line no: 40, 0.23448275862068968, 0.034482758620689655, 0.0, 0.0, 0.2
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,newRecord,SIMPLE_NAME, line no: 40, 0.23225806451612904, 0.03225806451612903, 0.0, 0.0, 0.2
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,InMemoryFormat.OBJECT,QUALIFIED_NAME, line no: 36, 0.22126436781609193, 0.13793103448275862, 0.0, 0.0, 0.08333333333333333
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,ObjectRecordFactory,SIMPLE_NAME, line no: 24, 0.2163009404388715, 0.034482758620689655, 0.0, 0.0, 0.18181818181818182
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,InMemoryFormat.OBJECT,QUALIFIED_NAME, line no: 36, 0.20935960591133004, 0.13793103448275862, 0.0, 0.0, 0.07142857142857142
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,InMemoryFormat.OBJECT,QUALIFIED_NAME, line no: 36, 0.19548872180451127, 0.14285714285714285, 0.0, 0.0, 0.05263157894736842
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,InMemoryFormat,SIMPLE_NAME, line no: 19, 0.17857142857142858, 0.03571428571428571, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,InMemoryFormat,SIMPLE_NAME, line no: 19, 0.1724137931034483, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,OBJECT,SIMPLE_NAME, line no: 36, 0.1724137931034483, 0.1724137931034483, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,InMemoryFormat,SIMPLE_NAME, line no: 19, 0.1724137931034483, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,InMemoryFormat,SIMPLE_NAME, line no: 19, 0.1724137931034483, 0.034482758620689655, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,InMemoryFormat,SIMPLE_NAME, line no: 19, 0.16666666666666666, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,OBJECT,SIMPLE_NAME, line no: 36, 0.16666666666666666, 0.16666666666666666, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,InMemoryFormat,SIMPLE_NAME, line no: 19, 0.16666666666666666, 0.03333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,OBJECT,SIMPLE_NAME, line no: 36, 0.16666666666666666, 0.16666666666666666, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,com.hazelcast.map.record,QUALIFIED_NAME, line no: 17, 0.16666666666666666, 0.0, 0.0, 0.0, 0.16666666666666666
+key,SIMPLE_NAME, line no: 45,InMemoryFormat,SIMPLE_NAME, line no: 19, 0.16666666666666666, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,OBJECT,SIMPLE_NAME, line no: 36, 0.16666666666666666, 0.16666666666666666, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,InMemoryFormat,SIMPLE_NAME, line no: 19, 0.16666666666666666, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,OBJECT,SIMPLE_NAME, line no: 36, 0.16666666666666666, 0.16666666666666666, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,InMemoryFormat,SIMPLE_NAME, line no: 19, 0.16129032258064516, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,InMemoryFormat,SIMPLE_NAME, line no: 19, 0.16129032258064516, 0.03225806451612903, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,ObjectRecordFactory,SIMPLE_NAME, line no: 24, 0.1607142857142857, 0.03571428571428571, 0.0, 0.0, 0.125
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,Record,SIMPLE_NAME, line no: 40, 0.15948275862068967, 0.034482758620689655, 0.0, 0.0, 0.125
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,RecordFactory,SIMPLE_NAME, line no: 24, 0.14559386973180077, 0.034482758620689655, 0.0, 0.0, 0.1111111111111111
+statisticsEnabled,SIMPLE_NAME, line no: 45,InMemoryFormat.OBJECT,QUALIFIED_NAME, line no: 36, 0.13793103448275862, 0.13793103448275862, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,Record,SIMPLE_NAME, line no: 40, 0.13448275862068965, 0.034482758620689655, 0.0, 0.0, 0.1
+key,SIMPLE_NAME, line no: 45,InMemoryFormat.OBJECT,QUALIFIED_NAME, line no: 36, 0.13333333333333333, 0.13333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,InMemoryFormat.OBJECT,QUALIFIED_NAME, line no: 36, 0.13333333333333333, 0.13333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,InMemoryFormat.OBJECT,QUALIFIED_NAME, line no: 36, 0.13333333333333333, 0.13333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,InMemoryFormat.OBJECT,QUALIFIED_NAME, line no: 36, 0.13333333333333333, 0.13333333333333333, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,RecordFactory,SIMPLE_NAME, line no: 24, 0.12539184952978055, 0.034482758620689655, 0.0, 0.0, 0.09090909090909091
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,com.hazelcast.map.record,QUALIFIED_NAME, line no: 17, 0.125, 0.0, 0.0, 0.0, 0.125
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,true,BOOLEAN_LITERAL, line no: 62, 0.10714285714285714, 0.10714285714285714, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,false,BOOLEAN_LITERAL, line no: 65, 0.10714285714285714, 0.10714285714285714, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,true,BOOLEAN_LITERAL, line no: 62, 0.10344827586206896, 0.10344827586206896, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,false,BOOLEAN_LITERAL, line no: 65, 0.10344827586206896, 0.10344827586206896, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,true,BOOLEAN_LITERAL, line no: 62, 0.10344827586206896, 0.10344827586206896, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,false,BOOLEAN_LITERAL, line no: 65, 0.10344827586206896, 0.10344827586206896, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,true,BOOLEAN_LITERAL, line no: 62, 0.1, 0.1, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,false,BOOLEAN_LITERAL, line no: 65, 0.1, 0.1, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,true,BOOLEAN_LITERAL, line no: 62, 0.1, 0.1, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,false,BOOLEAN_LITERAL, line no: 65, 0.1, 0.1, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,true,BOOLEAN_LITERAL, line no: 62, 0.1, 0.1, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,false,BOOLEAN_LITERAL, line no: 65, 0.1, 0.1, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,true,BOOLEAN_LITERAL, line no: 62, 0.1, 0.1, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,false,BOOLEAN_LITERAL, line no: 65, 0.1, 0.1, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,RecordFactory,SIMPLE_NAME, line no: 24, 0.09821428571428571, 0.03571428571428571, 0.0, 0.0, 0.0625
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,true,BOOLEAN_LITERAL, line no: 62, 0.0967741935483871, 0.0967741935483871, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,false,BOOLEAN_LITERAL, line no: 65, 0.0967741935483871, 0.0967741935483871, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,true,BOOLEAN_LITERAL, line no: 62, 0.0967741935483871, 0.0967741935483871, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,false,BOOLEAN_LITERAL, line no: 65, 0.0967741935483871, 0.0967741935483871, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,com.hazelcast.map.record,QUALIFIED_NAME, line no: 17, 0.08333333333333333, 0.0, 0.0, 0.0, 0.08333333333333333
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,com.hazelcast.map.record,QUALIFIED_NAME, line no: 17, 0.07142857142857142, 0.0, 0.0, 0.0, 0.07142857142857142
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,MapConfig,SIMPLE_NAME, line no: 20, 0.06451612903225806, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,SerializationService,SIMPLE_NAME, line no: 22, 0.06451612903225806, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,MapConfig,SIMPLE_NAME, line no: 20, 0.06451612903225806, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,SerializationService,SIMPLE_NAME, line no: 22, 0.06451612903225806, 0.03225806451612903, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,com.hazelcast.map.record,QUALIFIED_NAME, line no: 17, 0.05263157894736842, 0.0, 0.0, 0.0, 0.05263157894736842
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,com,SIMPLE_NAME, line no: 17, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,hazelcast,SIMPLE_NAME, line no: 17, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,map,SIMPLE_NAME, line no: 17, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,MapConfig,SIMPLE_NAME, line no: 20, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,nio,SIMPLE_NAME, line no: 21, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,serialization,SIMPLE_NAME, line no: 21, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,SerializationService,SIMPLE_NAME, line no: 22, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,Override,SIMPLE_NAME, line no: 34, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,getStorageFormat,SIMPLE_NAME, line no: 35, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,isEquals,SIMPLE_NAME, line no: 58, 0.03571428571428571, 0.03571428571428571, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,com,SIMPLE_NAME, line no: 17, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,hazelcast,SIMPLE_NAME, line no: 17, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,map,SIMPLE_NAME, line no: 17, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,MapConfig,SIMPLE_NAME, line no: 20, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,nio,SIMPLE_NAME, line no: 21, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,serialization,SIMPLE_NAME, line no: 21, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,SerializationService,SIMPLE_NAME, line no: 22, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,ObjectRecordFactory,SIMPLE_NAME, line no: 24, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,RecordFactory,SIMPLE_NAME, line no: 24, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,Override,SIMPLE_NAME, line no: 34, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,getStorageFormat,SIMPLE_NAME, line no: 35, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,Record,SIMPLE_NAME, line no: 40, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,newRecord,SIMPLE_NAME, line no: 40, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,com,SIMPLE_NAME, line no: 17, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,hazelcast,SIMPLE_NAME, line no: 17, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,map,SIMPLE_NAME, line no: 17, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,MapConfig,SIMPLE_NAME, line no: 20, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,nio,SIMPLE_NAME, line no: 21, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,serialization,SIMPLE_NAME, line no: 21, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,SerializationService,SIMPLE_NAME, line no: 22, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,Override,SIMPLE_NAME, line no: 34, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,getStorageFormat,SIMPLE_NAME, line no: 35, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,isEquals,SIMPLE_NAME, line no: 58, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,com,SIMPLE_NAME, line no: 17, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,hazelcast,SIMPLE_NAME, line no: 17, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,map,SIMPLE_NAME, line no: 17, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,MapConfig,SIMPLE_NAME, line no: 20, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,nio,SIMPLE_NAME, line no: 21, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,serialization,SIMPLE_NAME, line no: 21, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,SerializationService,SIMPLE_NAME, line no: 22, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,Override,SIMPLE_NAME, line no: 34, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,getStorageFormat,SIMPLE_NAME, line no: 35, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,isEquals,SIMPLE_NAME, line no: 58, 0.034482758620689655, 0.034482758620689655, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,com,SIMPLE_NAME, line no: 17, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,hazelcast,SIMPLE_NAME, line no: 17, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,map,SIMPLE_NAME, line no: 17, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,MapConfig,SIMPLE_NAME, line no: 20, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,nio,SIMPLE_NAME, line no: 21, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,serialization,SIMPLE_NAME, line no: 21, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,SerializationService,SIMPLE_NAME, line no: 22, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,ObjectRecordFactory,SIMPLE_NAME, line no: 24, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,RecordFactory,SIMPLE_NAME, line no: 24, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,Override,SIMPLE_NAME, line no: 34, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,getStorageFormat,SIMPLE_NAME, line no: 35, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,Record,SIMPLE_NAME, line no: 40, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,newRecord,SIMPLE_NAME, line no: 40, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,isEquals,SIMPLE_NAME, line no: 58, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,com,SIMPLE_NAME, line no: 17, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,hazelcast,SIMPLE_NAME, line no: 17, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,map,SIMPLE_NAME, line no: 17, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,MapConfig,SIMPLE_NAME, line no: 20, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,nio,SIMPLE_NAME, line no: 21, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,serialization,SIMPLE_NAME, line no: 21, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,SerializationService,SIMPLE_NAME, line no: 22, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,ObjectRecordFactory,SIMPLE_NAME, line no: 24, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,RecordFactory,SIMPLE_NAME, line no: 24, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,Override,SIMPLE_NAME, line no: 34, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,getStorageFormat,SIMPLE_NAME, line no: 35, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,Record,SIMPLE_NAME, line no: 40, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,newRecord,SIMPLE_NAME, line no: 40, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,isEquals,SIMPLE_NAME, line no: 58, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,com,SIMPLE_NAME, line no: 17, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,hazelcast,SIMPLE_NAME, line no: 17, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,map,SIMPLE_NAME, line no: 17, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,MapConfig,SIMPLE_NAME, line no: 20, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,nio,SIMPLE_NAME, line no: 21, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,serialization,SIMPLE_NAME, line no: 21, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,SerializationService,SIMPLE_NAME, line no: 22, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,ObjectRecordFactory,SIMPLE_NAME, line no: 24, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,RecordFactory,SIMPLE_NAME, line no: 24, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,Override,SIMPLE_NAME, line no: 34, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,getStorageFormat,SIMPLE_NAME, line no: 35, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,Record,SIMPLE_NAME, line no: 40, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,newRecord,SIMPLE_NAME, line no: 40, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,isEquals,SIMPLE_NAME, line no: 58, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,com,SIMPLE_NAME, line no: 17, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,hazelcast,SIMPLE_NAME, line no: 17, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,map,SIMPLE_NAME, line no: 17, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,MapConfig,SIMPLE_NAME, line no: 20, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,nio,SIMPLE_NAME, line no: 21, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,serialization,SIMPLE_NAME, line no: 21, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,SerializationService,SIMPLE_NAME, line no: 22, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,ObjectRecordFactory,SIMPLE_NAME, line no: 24, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,RecordFactory,SIMPLE_NAME, line no: 24, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,Override,SIMPLE_NAME, line no: 34, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,getStorageFormat,SIMPLE_NAME, line no: 35, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,Record,SIMPLE_NAME, line no: 40, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,newRecord,SIMPLE_NAME, line no: 40, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,isEquals,SIMPLE_NAME, line no: 58, 0.03333333333333333, 0.03333333333333333, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,com,SIMPLE_NAME, line no: 17, 0.03225806451612903, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,hazelcast,SIMPLE_NAME, line no: 17, 0.03225806451612903, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,map,SIMPLE_NAME, line no: 17, 0.03225806451612903, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,nio,SIMPLE_NAME, line no: 21, 0.03225806451612903, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,serialization,SIMPLE_NAME, line no: 21, 0.03225806451612903, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,Override,SIMPLE_NAME, line no: 34, 0.03225806451612903, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,getStorageFormat,SIMPLE_NAME, line no: 35, 0.03225806451612903, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,isEquals,SIMPLE_NAME, line no: 58, 0.03225806451612903, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,com,SIMPLE_NAME, line no: 17, 0.03225806451612903, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,hazelcast,SIMPLE_NAME, line no: 17, 0.03225806451612903, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,map,SIMPLE_NAME, line no: 17, 0.03225806451612903, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,nio,SIMPLE_NAME, line no: 21, 0.03225806451612903, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,serialization,SIMPLE_NAME, line no: 21, 0.03225806451612903, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,Override,SIMPLE_NAME, line no: 34, 0.03225806451612903, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,getStorageFormat,SIMPLE_NAME, line no: 35, 0.03225806451612903, 0.03225806451612903, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,isEquals,SIMPLE_NAME, line no: 58, 0.03225806451612903, 0.03225806451612903, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,com.hazelcast.map,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,com.hazelcast,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,com.hazelcast.config.InMemoryFormat,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,com.hazelcast.config,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,com.hazelcast.config.MapConfig,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,com.hazelcast.nio.serialization.Data,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,com.hazelcast.nio.serialization,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,com.hazelcast.nio,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,com.hazelcast.nio.serialization.SerializationService,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+statisticsEnabled ? new ObjectRecordWithStats(key value) : new ObjectRecord(key v),CONDITIONAL_EXPRESSION, line no: 45,@Override,MARKER_ANNOTATION, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,com.hazelcast.map.record,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,com.hazelcast.map,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,com.hazelcast,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,com.hazelcast.config.InMemoryFormat,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,com.hazelcast.config,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,com.hazelcast.config.MapConfig,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,com.hazelcast.nio.serialization.Data,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,com.hazelcast.nio.serialization,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,com.hazelcast.nio,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,com.hazelcast.nio.serialization.SerializationService,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+statisticsEnabled,SIMPLE_NAME, line no: 45,@Override,MARKER_ANNOTATION, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,com.hazelcast.map,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,com.hazelcast,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,com.hazelcast.config.InMemoryFormat,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,com.hazelcast.config,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,com.hazelcast.config.MapConfig,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,com.hazelcast.nio.serialization.Data,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,com.hazelcast.nio.serialization,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,com.hazelcast.nio,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,com.hazelcast.nio.serialization.SerializationService,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+new ObjectRecordWithStats(key value),CLASS_INSTANCE_CREATION, line no: 45,@Override,MARKER_ANNOTATION, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,com.hazelcast.map,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,com.hazelcast,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,com.hazelcast.config.InMemoryFormat,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,com.hazelcast.config,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,com.hazelcast.config.MapConfig,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,com.hazelcast.nio.serialization.Data,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,com.hazelcast.nio.serialization,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,com.hazelcast.nio,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,com.hazelcast.nio.serialization.SerializationService,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+ObjectRecordWithStats,SIMPLE_NAME, line no: 45,@Override,MARKER_ANNOTATION, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,com.hazelcast.map.record,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,com.hazelcast.map,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,com.hazelcast,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,com.hazelcast.config.InMemoryFormat,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,com.hazelcast.config,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,com.hazelcast.config.MapConfig,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,com.hazelcast.nio.serialization,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,com.hazelcast.nio,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,com.hazelcast.nio.serialization.SerializationService,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,@Override,MARKER_ANNOTATION, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,com.hazelcast.map.record,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,com.hazelcast.map,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,com.hazelcast,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,com.hazelcast.config.InMemoryFormat,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,com.hazelcast.config,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,com.hazelcast.config.MapConfig,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,com.hazelcast.nio.serialization.Data,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,com.hazelcast.nio.serialization,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,com.hazelcast.nio,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,com.hazelcast.nio.serialization.SerializationService,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+value,SIMPLE_NAME, line no: 45,@Override,MARKER_ANNOTATION, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,com.hazelcast.map,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,com.hazelcast,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,com.hazelcast.config.InMemoryFormat,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,com.hazelcast.config,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,com.hazelcast.config.MapConfig,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,com.hazelcast.nio.serialization.Data,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,com.hazelcast.nio.serialization,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,com.hazelcast.nio,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,com.hazelcast.nio.serialization.SerializationService,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+new ObjectRecord(key v),CLASS_INSTANCE_CREATION, line no: 45,@Override,MARKER_ANNOTATION, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,com.hazelcast.map,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,com.hazelcast,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,com.hazelcast.config.InMemoryFormat,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,com.hazelcast.config,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,com.hazelcast.config.MapConfig,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,com.hazelcast.nio.serialization.Data,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,com.hazelcast.nio.serialization,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,com.hazelcast.nio,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,com.hazelcast.nio.serialization.SerializationService,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+ObjectRecord,SIMPLE_NAME, line no: 45,@Override,MARKER_ANNOTATION, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,com.hazelcast.map.record,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,com.hazelcast.map,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,com.hazelcast,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,com.hazelcast.config.InMemoryFormat,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,com.hazelcast.config,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,com.hazelcast.config.MapConfig,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,com.hazelcast.nio.serialization,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,com.hazelcast.nio,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,com.hazelcast.nio.serialization.SerializationService,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+key,SIMPLE_NAME, line no: 45,@Override,MARKER_ANNOTATION, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,com.hazelcast.map.record,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,com.hazelcast.map,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,com.hazelcast,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,com.hazelcast.config.InMemoryFormat,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,com.hazelcast.config,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,com.hazelcast.config.MapConfig,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,com.hazelcast.nio.serialization.Data,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,com.hazelcast.nio.serialization,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,com.hazelcast.nio,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,com.hazelcast.nio.serialization.SerializationService,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+v,SIMPLE_NAME, line no: 45,@Override,MARKER_ANNOTATION, line no: 34, 0.0, 0.0, 0.0, 0.0, 0.0

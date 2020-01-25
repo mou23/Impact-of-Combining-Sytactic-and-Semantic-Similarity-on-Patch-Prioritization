@@ -314,7 +314,7 @@ public class ModelExtractor {
 			{
 				Variable variableSource = iteratorSource.next();
 				if(variableSource.name.equals(variableTarget.name) && variableSource.type.equals(variableTarget.type)) {
-//					System.out.println("VAR " +variableSource.name);
+					System.out.println("VAR " +variableSource.name);
 					match++;
 					break;
 				}

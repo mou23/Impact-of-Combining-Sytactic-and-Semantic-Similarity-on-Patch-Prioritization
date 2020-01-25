@@ -1,19 +1,1028 @@
-maze2,SIMPLE_NAME, line no: 217,toCharArray,SIMPLE_NAME, line no: 186, 1.0, 0.015625, 1.0, 0.7971014492753623
-maze2,SIMPLE_NAME, line no: 217,maze1,SIMPLE_NAME, line no: 216, 1.0, 1.0, 1.0, 0.9523809523809523
-this.toCharArray(),METHOD_INVOCATION, line no: 217,toCharArray,SIMPLE_NAME, line no: 186, 1.0, 0.015625, 1.0, 0.7195121951219512
-toCharArray,SIMPLE_NAME, line no: 217,maze1,SIMPLE_NAME, line no: 216, 0.9846153846153847, 0.9846153846153847, 1.0, 0.8260869565217391
-toCharArray,SIMPLE_NAME, line no: 217,this.toCharArray(),METHOD_INVOCATION, line no: 216, 0.9846153846153847, 0.9846153846153847, 1.0, 0.7439024390243902
-toCharArray,SIMPLE_NAME, line no: 217,maze2,SIMPLE_NAME, line no: 217, 0.9846153846153847, 0.9846153846153847, 1.0, 0.855072463768116
-maze2,SIMPLE_NAME, line no: 217,this.toCharArray(),METHOD_INVOCATION, line no: 216, 0.984375, 0.984375, 1.0, 0.6219512195121951
-this.toCharArray(),METHOD_INVOCATION, line no: 217,maze1,SIMPLE_NAME, line no: 216, 0.984375, 0.984375, 1.0, 0.6219512195121951
-this.toCharArray(),METHOD_INVOCATION, line no: 217,maze2,SIMPLE_NAME, line no: 217, 0.984375, 0.984375, 1.0, 0.6463414634146342
-this,THIS_EXPRESSION, line no: 217,StringMaze,SIMPLE_NAME, line no: 27, 0.8, 0.015384615384615385, 1.0, 0.7727272727272727
-maze2,SIMPLE_NAME, line no: 217,chars,SIMPLE_NAME, line no: 187, 0.75, 0.75, 1.0, 0.9047619047619048
-this.toCharArray(),METHOD_INVOCATION, line no: 217,chars,SIMPLE_NAME, line no: 187, 0.75, 0.75, 1.0, 0.6463414634146342
-toCharArray,SIMPLE_NAME, line no: 217,chars,SIMPLE_NAME, line no: 187, 0.7384615384615385, 0.7384615384615385, 1.0, 0.855072463768116
-maze2,SIMPLE_NAME, line no: 217,new char[this.rows][this.columns],ARRAY_CREATION, line no: 187, 0.734375, 0.734375, 1.0, 0.5106382978723404
-toCharArray,SIMPLE_NAME, line no: 217,new char[this.rows][this.columns],ARRAY_CREATION, line no: 187, 0.7230769230769231, 0.7230769230769231, 1.0, 0.5425531914893617
-maze2,SIMPLE_NAME, line no: 217,toCharArray(),METHOD_INVOCATION, line no: 197, 0.546875, 0.546875, 1.0, 0.6623376623376623
-toCharArray,SIMPLE_NAME, line no: 217,toCharArray(),METHOD_INVOCATION, line no: 197, 0.5384615384615384, 0.5384615384615384, 1.0, 0.7922077922077922
-this,THIS_EXPRESSION, line no: 217,random,SIMPLE_NAME, line no: 96, 0.015384615384615385, 0.015384615384615385, 1.0, 0.6818181818181818
-this,THIS_EXPRESSION, line no: 217,to,SIMPLE_NAME, line no: 215, 0.015384615384615385, 0.015384615384615385, 1.0, 0.7575757575757576
+maze2,SIMPLE_NAME, line no: 217,toCharArray,SIMPLE_NAME, line no: 186, 2.0, 0.015625, 1.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze1,SIMPLE_NAME, line no: 216, 2.0, 1.0, 1.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,toCharArray,SIMPLE_NAME, line no: 186, 2.0, 0.015625, 1.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze1,SIMPLE_NAME, line no: 216, 1.9846153846153847, 0.9846153846153847, 1.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.toCharArray(),METHOD_INVOCATION, line no: 216, 1.9846153846153847, 0.9846153846153847, 1.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze2,SIMPLE_NAME, line no: 217, 1.9846153846153847, 0.9846153846153847, 1.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.toCharArray(),METHOD_INVOCATION, line no: 216, 1.984375, 0.984375, 1.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze1,SIMPLE_NAME, line no: 216, 1.984375, 0.984375, 1.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze2,SIMPLE_NAME, line no: 217, 1.984375, 0.984375, 1.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,StringMaze,SIMPLE_NAME, line no: 27, 1.8, 0.015384615384615385, 1.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,chars,SIMPLE_NAME, line no: 187, 1.75, 0.75, 1.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,chars,SIMPLE_NAME, line no: 187, 1.75, 0.75, 1.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,chars,SIMPLE_NAME, line no: 187, 1.7384615384615385, 0.7384615384615385, 1.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,new char[this.rows][this.columns],ARRAY_CREATION, line no: 187, 1.734375, 0.734375, 1.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,new char[this.rows][this.columns],ARRAY_CREATION, line no: 187, 1.7230769230769232, 0.7230769230769231, 1.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,toCharArray(),METHOD_INVOCATION, line no: 197, 1.546875, 0.546875, 1.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,toCharArray(),METHOD_INVOCATION, line no: 197, 1.5384615384615383, 0.5384615384615384, 1.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,random,SIMPLE_NAME, line no: 96, 1.0153846153846153, 0.015384615384615385, 1.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,to,SIMPLE_NAME, line no: 215, 1.0153846153846153, 0.015384615384615385, 1.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,Point,SIMPLE_NAME, line no: 19, 1.0, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,HashSet,SIMPLE_NAME, line no: 22, 1.0, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,differentLocations,SIMPLE_NAME, line no: 218, 1.0, 1.0, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this,THIS_EXPRESSION, line no: 43, 1.0, 0.109375, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,toCharArray,SIMPLE_NAME, line no: 186, 0.9846153846153847, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.toCharArray(),METHOD_INVOCATION, line no: 216, 0.9846153846153847, 0.9846153846153847, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,Point,SIMPLE_NAME, line no: 19, 0.9846153846153847, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,HashSet,SIMPLE_NAME, line no: 22, 0.9846153846153847, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this,THIS_EXPRESSION, line no: 43, 0.9846153846153847, 0.1076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,differentLocations,SIMPLE_NAME, line no: 218, 0.9846153846153847, 0.9846153846153847, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,Set,SIMPLE_NAME, line no: 25, 0.984375, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this,THIS_EXPRESSION, line no: 43, 0.984375, 0.109375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,row,SIMPLE_NAME, line no: 66, 0.984375, 0.9375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,new HashSet<Point>(),CLASS_INSTANCE_CREATION, line no: 168, 0.984375, 0.8125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,Point,SIMPLE_NAME, line no: 19, 0.984375, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,HashSet,SIMPLE_NAME, line no: 22, 0.984375, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,new HashSet<Point>(),CLASS_INSTANCE_CREATION, line no: 168, 0.984375, 0.796875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,differentLocations,SIMPLE_NAME, line no: 218, 0.984375, 0.984375, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,Point,SIMPLE_NAME, line no: 19, 0.9692307692307692, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,HashSet,SIMPLE_NAME, line no: 22, 0.9692307692307692, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,new HashSet<Point>(),CLASS_INSTANCE_CREATION, line no: 168, 0.9692307692307692, 0.7846153846153846, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze1,SIMPLE_NAME, line no: 216, 0.9692307692307692, 0.9692307692307692, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze2,SIMPLE_NAME, line no: 217, 0.9692307692307692, 0.9692307692307692, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,differentLocations,SIMPLE_NAME, line no: 218, 0.9692307692307692, 0.9692307692307692, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,Set,SIMPLE_NAME, line no: 25, 0.9692307692307692, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,row,SIMPLE_NAME, line no: 66, 0.9692307692307692, 0.9384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,new HashSet<Point>(),CLASS_INSTANCE_CREATION, line no: 168, 0.9692307692307692, 0.8, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,rows,SIMPLE_NAME, line no: 32, 0.96875, 0.03125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,0,NUMBER_LITERAL, line no: 54, 0.96875, 0.359375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,Set,SIMPLE_NAME, line no: 25, 0.96875, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,0,NUMBER_LITERAL, line no: 54, 0.96875, 0.359375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,row,SIMPLE_NAME, line no: 66, 0.96875, 0.9375, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,Set,SIMPLE_NAME, line no: 25, 0.9538461538461539, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,0,NUMBER_LITERAL, line no: 54, 0.9538461538461539, 0.36923076923076925, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,row,SIMPLE_NAME, line no: 66, 0.9538461538461539, 0.9230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,rows,SIMPLE_NAME, line no: 32, 0.9538461538461539, 0.03076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,0,NUMBER_LITERAL, line no: 54, 0.9538461538461539, 0.35384615384615387, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.rows,FIELD_ACCESS, line no: 53, 0.953125, 0.328125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,int row=0,VARIABLE_DECLARATION_EXPRESSION, line no: 66, 0.953125, 0.921875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,row < this.rows,INFIX_EXPRESSION, line no: 66, 0.953125, 0.9375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,row++,POSTFIX_EXPRESSION, line no: 66, 0.953125, 0.921875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,rows,SIMPLE_NAME, line no: 32, 0.953125, 0.03125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this.rows,FIELD_ACCESS, line no: 53, 0.953125, 0.328125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,int row=0,VARIABLE_DECLARATION_EXPRESSION, line no: 66, 0.953125, 0.921875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,row < this.rows,INFIX_EXPRESSION, line no: 66, 0.953125, 0.9375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,row++,POSTFIX_EXPRESSION, line no: 66, 0.953125, 0.921875, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,rows,SIMPLE_NAME, line no: 32, 0.9384615384615385, 0.03076923076923077, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.rows,FIELD_ACCESS, line no: 53, 0.9384615384615385, 0.3384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,int row=0,VARIABLE_DECLARATION_EXPRESSION, line no: 66, 0.9384615384615385, 0.9076923076923077, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,row < this.rows,INFIX_EXPRESSION, line no: 66, 0.9384615384615385, 0.9230769230769231, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,row++,POSTFIX_EXPRESSION, line no: 66, 0.9384615384615385, 0.9076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.rows,FIELD_ACCESS, line no: 53, 0.9384615384615385, 0.3230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,int row=0,VARIABLE_DECLARATION_EXPRESSION, line no: 66, 0.9384615384615385, 0.9230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,row < this.rows,INFIX_EXPRESSION, line no: 66, 0.9384615384615385, 0.9384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,row++,POSTFIX_EXPRESSION, line no: 66, 0.9384615384615385, 0.9230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze,SIMPLE_NAME, line no: 17, 0.9230769230769231, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,columns,SIMPLE_NAME, line no: 33, 0.9230769230769231, 0.03076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,length,SIMPLE_NAME, line no: 53, 0.9230769230769231, 0.3384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.columns,FIELD_ACCESS, line no: 54, 0.9230769230769231, 0.3230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze2D,SIMPLE_NAME, line no: 59, 0.9230769230769231, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.rows=maze2D.length,ASSIGNMENT, line no: 61, 0.9230769230769231, 0.9230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze2D.length,QUALIFIED_NAME, line no: 61, 0.9230769230769231, 0.9230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.columns=maze2D[0].length(),ASSIGNMENT, line no: 62, 0.9230769230769231, 0.9230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze2D[0].length(),METHOD_INVOCATION, line no: 62, 0.9230769230769231, 0.9230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze2D[0],ARRAY_ACCESS, line no: 62, 0.9230769230769231, 0.9230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze=new byte[rows][columns],ASSIGNMENT, line no: 64, 0.9230769230769231, 0.9230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,new byte[rows][columns],ARRAY_CREATION, line no: 64, 0.9230769230769231, 0.9230769230769231, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze,SIMPLE_NAME, line no: 17, 0.921875, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,columns,SIMPLE_NAME, line no: 33, 0.921875, 0.03125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,length,SIMPLE_NAME, line no: 53, 0.921875, 0.34375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.columns,FIELD_ACCESS, line no: 54, 0.921875, 0.328125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze2D,SIMPLE_NAME, line no: 59, 0.921875, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.rows=maze2D.length,ASSIGNMENT, line no: 61, 0.921875, 0.921875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze2D.length,QUALIFIED_NAME, line no: 61, 0.921875, 0.921875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.columns=maze2D[0].length(),ASSIGNMENT, line no: 62, 0.921875, 0.921875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze2D[0].length(),METHOD_INVOCATION, line no: 62, 0.921875, 0.921875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze2D[0],ARRAY_ACCESS, line no: 62, 0.921875, 0.921875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze=new byte[rows][columns],ASSIGNMENT, line no: 64, 0.921875, 0.921875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,new byte[rows][columns],ARRAY_CREATION, line no: 64, 0.921875, 0.921875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze,SIMPLE_NAME, line no: 17, 0.921875, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,columns,SIMPLE_NAME, line no: 33, 0.921875, 0.03125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,length,SIMPLE_NAME, line no: 53, 0.921875, 0.34375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this.columns,FIELD_ACCESS, line no: 54, 0.921875, 0.328125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze2D,SIMPLE_NAME, line no: 59, 0.921875, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this.rows=maze2D.length,ASSIGNMENT, line no: 61, 0.921875, 0.921875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze2D.length,QUALIFIED_NAME, line no: 61, 0.921875, 0.921875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this.columns=maze2D[0].length(),ASSIGNMENT, line no: 62, 0.921875, 0.921875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze2D[0].length(),METHOD_INVOCATION, line no: 62, 0.921875, 0.921875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze2D[0],ARRAY_ACCESS, line no: 62, 0.921875, 0.921875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze=new byte[rows][columns],ASSIGNMENT, line no: 64, 0.921875, 0.921875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,new byte[rows][columns],ARRAY_CREATION, line no: 64, 0.921875, 0.921875, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze,SIMPLE_NAME, line no: 17, 0.9076923076923077, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,columns,SIMPLE_NAME, line no: 33, 0.9076923076923077, 0.03076923076923077, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,length,SIMPLE_NAME, line no: 53, 0.9076923076923077, 0.35384615384615387, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.columns,FIELD_ACCESS, line no: 54, 0.9076923076923077, 0.3384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze2D,SIMPLE_NAME, line no: 59, 0.9076923076923077, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.rows=maze2D.length,ASSIGNMENT, line no: 61, 0.9076923076923077, 0.9076923076923077, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze2D.length,QUALIFIED_NAME, line no: 61, 0.9076923076923077, 0.9076923076923077, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.columns=maze2D[0].length(),ASSIGNMENT, line no: 62, 0.9076923076923077, 0.9076923076923077, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze2D[0].length(),METHOD_INVOCATION, line no: 62, 0.9076923076923077, 0.9076923076923077, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze2D[0],ARRAY_ACCESS, line no: 62, 0.9076923076923077, 0.9076923076923077, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze=new byte[rows][columns],ASSIGNMENT, line no: 64, 0.9076923076923077, 0.9076923076923077, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,new byte[rows][columns],ARRAY_CREATION, line no: 64, 0.9076923076923077, 0.9076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,Random,SIMPLE_NAME, line no: 24, 0.8461538461538461, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,size,SIMPLE_NAME, line no: 96, 0.8461538461538461, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,new byte[size][size],ARRAY_CREATION, line no: 97, 0.8461538461538461, 0.8461538461538461, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,r,SIMPLE_NAME, line no: 98, 0.8461538461538461, 0.8461538461538461, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,new Random(System.nanoTime()),CLASS_INSTANCE_CREATION, line no: 98, 0.8461538461538461, 0.8461538461538461, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,System.nanoTime(),METHOD_INVOCATION, line no: 98, 0.8461538461538461, 0.8461538461538461, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,System,SIMPLE_NAME, line no: 98, 0.8461538461538461, 0.8461538461538461, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,nanoTime,SIMPLE_NAME, line no: 98, 0.8461538461538461, 0.8461538461538461, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,Random,SIMPLE_NAME, line no: 24, 0.84375, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,size,SIMPLE_NAME, line no: 96, 0.84375, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,new byte[size][size],ARRAY_CREATION, line no: 97, 0.84375, 0.84375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,r,SIMPLE_NAME, line no: 98, 0.84375, 0.84375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,new Random(System.nanoTime()),CLASS_INSTANCE_CREATION, line no: 98, 0.84375, 0.84375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,System.nanoTime(),METHOD_INVOCATION, line no: 98, 0.84375, 0.84375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,System,SIMPLE_NAME, line no: 98, 0.84375, 0.84375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,nanoTime,SIMPLE_NAME, line no: 98, 0.84375, 0.84375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,Random,SIMPLE_NAME, line no: 24, 0.84375, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,size,SIMPLE_NAME, line no: 96, 0.84375, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,new byte[size][size],ARRAY_CREATION, line no: 97, 0.84375, 0.84375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,r,SIMPLE_NAME, line no: 98, 0.84375, 0.84375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,new Random(System.nanoTime()),CLASS_INSTANCE_CREATION, line no: 98, 0.84375, 0.84375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,System.nanoTime(),METHOD_INVOCATION, line no: 98, 0.84375, 0.84375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,System,SIMPLE_NAME, line no: 98, 0.84375, 0.84375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,nanoTime,SIMPLE_NAME, line no: 98, 0.84375, 0.84375, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,Random,SIMPLE_NAME, line no: 24, 0.8307692307692308, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,size,SIMPLE_NAME, line no: 96, 0.8307692307692308, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,new byte[size][size],ARRAY_CREATION, line no: 97, 0.8307692307692308, 0.8307692307692308, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,r,SIMPLE_NAME, line no: 98, 0.8307692307692308, 0.8307692307692308, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,new Random(System.nanoTime()),CLASS_INSTANCE_CREATION, line no: 98, 0.8307692307692308, 0.8307692307692308, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,System.nanoTime(),METHOD_INVOCATION, line no: 98, 0.8307692307692308, 0.8307692307692308, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,System,SIMPLE_NAME, line no: 98, 0.8307692307692308, 0.8307692307692308, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,nanoTime,SIMPLE_NAME, line no: 98, 0.8307692307692308, 0.8307692307692308, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,column,SIMPLE_NAME, line no: 67, 0.8307692307692308, 0.8307692307692308, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,column,SIMPLE_NAME, line no: 67, 0.828125, 0.828125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,column,SIMPLE_NAME, line no: 67, 0.828125, 0.828125, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,column,SIMPLE_NAME, line no: 67, 0.8153846153846154, 0.8153846153846154, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,StringMaze,SIMPLE_NAME, line no: 27, 0.8153846153846154, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,int column=0,VARIABLE_DECLARATION_EXPRESSION, line no: 67, 0.8153846153846154, 0.8153846153846154, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,column < this.columns,INFIX_EXPRESSION, line no: 67, 0.8153846153846154, 0.8153846153846154, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,column++,POSTFIX_EXPRESSION, line no: 67, 0.8153846153846154, 0.8153846153846154, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,row < size,INFIX_EXPRESSION, line no: 99, 0.8153846153846154, 0.8153846153846154, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,new StringMaze(maze new Point(0 0) new Point(size - 1 size - 1)),CLASS_INSTANCE_CREATION, line no: 104, 0.8153846153846154, 0.8153846153846154, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,new Point(0 0),CLASS_INSTANCE_CREATION, line no: 104, 0.8153846153846154, 0.8153846153846154, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,new Point(size - 1 size - 1),CLASS_INSTANCE_CREATION, line no: 104, 0.8153846153846154, 0.8153846153846154, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,size - 1,INFIX_EXPRESSION, line no: 104, 0.8153846153846154, 0.8153846153846154, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,1,NUMBER_LITERAL, line no: 104, 0.8153846153846154, 0.8153846153846154, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,StringMaze,SIMPLE_NAME, line no: 27, 0.8125, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,int column=0,VARIABLE_DECLARATION_EXPRESSION, line no: 67, 0.8125, 0.8125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,column < this.columns,INFIX_EXPRESSION, line no: 67, 0.8125, 0.8125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,column++,POSTFIX_EXPRESSION, line no: 67, 0.8125, 0.8125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,row < size,INFIX_EXPRESSION, line no: 99, 0.8125, 0.8125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,new StringMaze(maze new Point(0 0) new Point(size - 1 size - 1)),CLASS_INSTANCE_CREATION, line no: 104, 0.8125, 0.8125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,new Point(0 0),CLASS_INSTANCE_CREATION, line no: 104, 0.8125, 0.8125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,new Point(size - 1 size - 1),CLASS_INSTANCE_CREATION, line no: 104, 0.8125, 0.8125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,size - 1,INFIX_EXPRESSION, line no: 104, 0.8125, 0.8125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,1,NUMBER_LITERAL, line no: 104, 0.8125, 0.8125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,validMoves,SIMPLE_NAME, line no: 168, 0.8125, 0.8125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,StringMaze,SIMPLE_NAME, line no: 27, 0.8125, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,int column=0,VARIABLE_DECLARATION_EXPRESSION, line no: 67, 0.8125, 0.8125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,column < this.columns,INFIX_EXPRESSION, line no: 67, 0.8125, 0.8125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,column++,POSTFIX_EXPRESSION, line no: 67, 0.8125, 0.8125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,row < size,INFIX_EXPRESSION, line no: 99, 0.8125, 0.8125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,new StringMaze(maze new Point(0 0) new Point(size - 1 size - 1)),CLASS_INSTANCE_CREATION, line no: 104, 0.8125, 0.8125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,new Point(0 0),CLASS_INSTANCE_CREATION, line no: 104, 0.8125, 0.8125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,new Point(size - 1 size - 1),CLASS_INSTANCE_CREATION, line no: 104, 0.8125, 0.8125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,size - 1,INFIX_EXPRESSION, line no: 104, 0.8125, 0.8125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,1,NUMBER_LITERAL, line no: 104, 0.8125, 0.8125, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,int column=0,VARIABLE_DECLARATION_EXPRESSION, line no: 67, 0.8, 0.8, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,column < this.columns,INFIX_EXPRESSION, line no: 67, 0.8, 0.8, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,column++,POSTFIX_EXPRESSION, line no: 67, 0.8, 0.8, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,row < size,INFIX_EXPRESSION, line no: 99, 0.8, 0.8, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,new StringMaze(maze new Point(0 0) new Point(size - 1 size - 1)),CLASS_INSTANCE_CREATION, line no: 104, 0.8, 0.8, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,new Point(0 0),CLASS_INSTANCE_CREATION, line no: 104, 0.8, 0.8, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,new Point(size - 1 size - 1),CLASS_INSTANCE_CREATION, line no: 104, 0.8, 0.8, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,size - 1,INFIX_EXPRESSION, line no: 104, 0.8, 0.8, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,1,NUMBER_LITERAL, line no: 104, 0.8, 0.8, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,validMoves,SIMPLE_NAME, line no: 168, 0.8, 0.8, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,Collection,SIMPLE_NAME, line no: 21, 0.796875, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,-1,PREFIX_EXPRESSION, line no: 170, 0.796875, 0.796875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,validMoves,SIMPLE_NAME, line no: 168, 0.796875, 0.796875, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,validMoves,SIMPLE_NAME, line no: 168, 0.7846153846153846, 0.7846153846153846, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,Collection,SIMPLE_NAME, line no: 21, 0.7846153846153846, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,loc,SIMPLE_NAME, line no: 159, 0.7846153846153846, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,-1,PREFIX_EXPRESSION, line no: 170, 0.7846153846153846, 0.7846153846153846, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,validMoves.remove(loc),METHOD_INVOCATION, line no: 181, 0.7846153846153846, 0.7846153846153846, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,remove,SIMPLE_NAME, line no: 181, 0.7846153846153846, 0.7846153846153846, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,loc,SIMPLE_NAME, line no: 159, 0.78125, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,int row=-1,VARIABLE_DECLARATION_EXPRESSION, line no: 170, 0.78125, 0.78125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,row <= 1,INFIX_EXPRESSION, line no: 170, 0.78125, 0.78125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,validMoves.remove(loc),METHOD_INVOCATION, line no: 181, 0.78125, 0.78125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,remove,SIMPLE_NAME, line no: 181, 0.78125, 0.78125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,Collection,SIMPLE_NAME, line no: 21, 0.78125, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,loc,SIMPLE_NAME, line no: 159, 0.78125, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,-1,PREFIX_EXPRESSION, line no: 170, 0.78125, 0.78125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,validMoves.remove(loc),METHOD_INVOCATION, line no: 181, 0.78125, 0.78125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,remove,SIMPLE_NAME, line no: 181, 0.78125, 0.78125, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,Collection,SIMPLE_NAME, line no: 21, 0.7692307692307693, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,loc,SIMPLE_NAME, line no: 159, 0.7692307692307693, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,-1,PREFIX_EXPRESSION, line no: 170, 0.7692307692307693, 0.7692307692307693, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,validMoves.remove(loc),METHOD_INVOCATION, line no: 181, 0.7692307692307693, 0.7692307692307693, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,remove,SIMPLE_NAME, line no: 181, 0.7692307692307693, 0.7692307692307693, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,int row=-1,VARIABLE_DECLARATION_EXPRESSION, line no: 170, 0.7692307692307693, 0.7692307692307693, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,row <= 1,INFIX_EXPRESSION, line no: 170, 0.7692307692307693, 0.7692307692307693, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,int row=-1,VARIABLE_DECLARATION_EXPRESSION, line no: 170, 0.765625, 0.765625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,row <= 1,INFIX_EXPRESSION, line no: 170, 0.765625, 0.765625, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,int row=-1,VARIABLE_DECLARATION_EXPRESSION, line no: 170, 0.7538461538461538, 0.7538461538461538, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,row <= 1,INFIX_EXPRESSION, line no: 170, 0.7538461538461538, 0.7538461538461538, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,chars,SIMPLE_NAME, line no: 187, 0.7384615384615385, 0.7384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,x,SIMPLE_NAME, line no: 69, 0.7384615384615385, 0.7384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,y,SIMPLE_NAME, line no: 70, 0.7384615384615385, 0.7384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,charPoint,SIMPLE_NAME, line no: 71, 0.7384615384615385, 0.7384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze2D[row].charAt(column),METHOD_INVOCATION, line no: 71, 0.7384615384615385, 0.7384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze2D[row],ARRAY_ACCESS, line no: 71, 0.7384615384615385, 0.7384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,charAt,SIMPLE_NAME, line no: 71, 0.7384615384615385, 0.7384615384615385, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,x,SIMPLE_NAME, line no: 69, 0.734375, 0.734375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,y,SIMPLE_NAME, line no: 70, 0.734375, 0.734375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,charPoint,SIMPLE_NAME, line no: 71, 0.734375, 0.734375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze2D[row].charAt(column),METHOD_INVOCATION, line no: 71, 0.734375, 0.734375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze2D[row],ARRAY_ACCESS, line no: 71, 0.734375, 0.734375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,charAt,SIMPLE_NAME, line no: 71, 0.734375, 0.734375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,x,SIMPLE_NAME, line no: 69, 0.734375, 0.734375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,y,SIMPLE_NAME, line no: 70, 0.734375, 0.734375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,charPoint,SIMPLE_NAME, line no: 71, 0.734375, 0.734375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze2D[row].charAt(column),METHOD_INVOCATION, line no: 71, 0.734375, 0.734375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze2D[row],ARRAY_ACCESS, line no: 71, 0.734375, 0.734375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,charAt,SIMPLE_NAME, line no: 71, 0.734375, 0.734375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,new char[this.rows][this.columns],ARRAY_CREATION, line no: 187, 0.734375, 0.734375, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,x,SIMPLE_NAME, line no: 69, 0.7230769230769231, 0.7230769230769231, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,y,SIMPLE_NAME, line no: 70, 0.7230769230769231, 0.7230769230769231, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,charPoint,SIMPLE_NAME, line no: 71, 0.7230769230769231, 0.7230769230769231, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze2D[row].charAt(column),METHOD_INVOCATION, line no: 71, 0.7230769230769231, 0.7230769230769231, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze2D[row],ARRAY_ACCESS, line no: 71, 0.7230769230769231, 0.7230769230769231, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,charAt,SIMPLE_NAME, line no: 71, 0.7230769230769231, 0.7230769230769231, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,new char[this.rows][this.columns],ARRAY_CREATION, line no: 187, 0.7230769230769231, 0.7230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,initialLoc,SIMPLE_NAME, line no: 30, 0.7076923076923077, 0.03076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,goalLoc,SIMPLE_NAME, line no: 31, 0.7076923076923077, 0.03076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,Symbols,SIMPLE_NAME, line no: 35, 0.7076923076923077, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,OCCUPIED,SIMPLE_NAME, line no: 36, 0.7076923076923077, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,EMPTY,SIMPLE_NAME, line no: 37, 0.7076923076923077, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,' ',CHARACTER_LITERAL, line no: 37, 0.7076923076923077, 0.0, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,START,SIMPLE_NAME, line no: 38, 0.7076923076923077, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,'@',CHARACTER_LITERAL, line no: 38, 0.7076923076923077, 0.0, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,GOAL,SIMPLE_NAME, line no: 39, 0.7076923076923077, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,'O',CHARACTER_LITERAL, line no: 39, 0.7076923076923077, 0.0, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,value,SIMPLE_NAME, line no: 46, 0.7076923076923077, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze[row][column]=Symbols.EMPTY.value(),ASSIGNMENT, line no: 75, 0.7076923076923077, 0.7076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze[row][column],ARRAY_ACCESS, line no: 75, 0.7076923076923077, 0.7076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze[row],ARRAY_ACCESS, line no: 75, 0.7076923076923077, 0.7076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,Symbols.EMPTY.value(),METHOD_INVOCATION, line no: 75, 0.7076923076923077, 0.7076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,Symbols.EMPTY,QUALIFIED_NAME, line no: 75, 0.7076923076923077, 0.7076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze[row][column]=Symbols.START.value(),ASSIGNMENT, line no: 78, 0.7076923076923077, 0.7076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,Symbols.START.value(),METHOD_INVOCATION, line no: 78, 0.7076923076923077, 0.7076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,Symbols.START,QUALIFIED_NAME, line no: 78, 0.7076923076923077, 0.7076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,initialLoc=new Point(x y),ASSIGNMENT, line no: 79, 0.7076923076923077, 0.7076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,new Point(x y),CLASS_INSTANCE_CREATION, line no: 79, 0.7076923076923077, 0.7076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze[row][column]=Symbols.GOAL.value(),ASSIGNMENT, line no: 82, 0.7076923076923077, 0.7076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,Symbols.GOAL.value(),METHOD_INVOCATION, line no: 82, 0.7076923076923077, 0.7076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,Symbols.GOAL,QUALIFIED_NAME, line no: 82, 0.7076923076923077, 0.7076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,goalLoc=new Point(x y),ASSIGNMENT, line no: 83, 0.7076923076923077, 0.7076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze[row][column]=Symbols.OCCUPIED.value(),ASSIGNMENT, line no: 86, 0.7076923076923077, 0.7076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,Symbols.OCCUPIED.value(),METHOD_INVOCATION, line no: 86, 0.7076923076923077, 0.7076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,Symbols.OCCUPIED,QUALIFIED_NAME, line no: 86, 0.7076923076923077, 0.7076923076923077, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,initialLoc,SIMPLE_NAME, line no: 30, 0.703125, 0.03125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,goalLoc,SIMPLE_NAME, line no: 31, 0.703125, 0.03125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,Symbols,SIMPLE_NAME, line no: 35, 0.703125, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,OCCUPIED,SIMPLE_NAME, line no: 36, 0.703125, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,EMPTY,SIMPLE_NAME, line no: 37, 0.703125, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,' ',CHARACTER_LITERAL, line no: 37, 0.703125, 0.0, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,START,SIMPLE_NAME, line no: 38, 0.703125, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,'@',CHARACTER_LITERAL, line no: 38, 0.703125, 0.0, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,GOAL,SIMPLE_NAME, line no: 39, 0.703125, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,'O',CHARACTER_LITERAL, line no: 39, 0.703125, 0.0, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,value,SIMPLE_NAME, line no: 46, 0.703125, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze[row][column]=Symbols.EMPTY.value(),ASSIGNMENT, line no: 75, 0.703125, 0.703125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze[row][column],ARRAY_ACCESS, line no: 75, 0.703125, 0.703125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze[row],ARRAY_ACCESS, line no: 75, 0.703125, 0.703125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,Symbols.EMPTY.value(),METHOD_INVOCATION, line no: 75, 0.703125, 0.703125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,Symbols.EMPTY,QUALIFIED_NAME, line no: 75, 0.703125, 0.703125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze[row][column]=Symbols.START.value(),ASSIGNMENT, line no: 78, 0.703125, 0.703125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,Symbols.START.value(),METHOD_INVOCATION, line no: 78, 0.703125, 0.703125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,Symbols.START,QUALIFIED_NAME, line no: 78, 0.703125, 0.703125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,initialLoc=new Point(x y),ASSIGNMENT, line no: 79, 0.703125, 0.703125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,new Point(x y),CLASS_INSTANCE_CREATION, line no: 79, 0.703125, 0.703125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze[row][column]=Symbols.GOAL.value(),ASSIGNMENT, line no: 82, 0.703125, 0.703125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,Symbols.GOAL.value(),METHOD_INVOCATION, line no: 82, 0.703125, 0.703125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,Symbols.GOAL,QUALIFIED_NAME, line no: 82, 0.703125, 0.703125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,goalLoc=new Point(x y),ASSIGNMENT, line no: 83, 0.703125, 0.703125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze[row][column]=Symbols.OCCUPIED.value(),ASSIGNMENT, line no: 86, 0.703125, 0.703125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,Symbols.OCCUPIED.value(),METHOD_INVOCATION, line no: 86, 0.703125, 0.703125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,Symbols.OCCUPIED,QUALIFIED_NAME, line no: 86, 0.703125, 0.703125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,initialLoc,SIMPLE_NAME, line no: 30, 0.703125, 0.03125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,goalLoc,SIMPLE_NAME, line no: 31, 0.703125, 0.03125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,Symbols,SIMPLE_NAME, line no: 35, 0.703125, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,OCCUPIED,SIMPLE_NAME, line no: 36, 0.703125, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,EMPTY,SIMPLE_NAME, line no: 37, 0.703125, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,' ',CHARACTER_LITERAL, line no: 37, 0.703125, 0.0, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,START,SIMPLE_NAME, line no: 38, 0.703125, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,'@',CHARACTER_LITERAL, line no: 38, 0.703125, 0.0, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,GOAL,SIMPLE_NAME, line no: 39, 0.703125, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,'O',CHARACTER_LITERAL, line no: 39, 0.703125, 0.0, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,value,SIMPLE_NAME, line no: 46, 0.703125, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze[row][column]=Symbols.EMPTY.value(),ASSIGNMENT, line no: 75, 0.703125, 0.703125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze[row][column],ARRAY_ACCESS, line no: 75, 0.703125, 0.703125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze[row],ARRAY_ACCESS, line no: 75, 0.703125, 0.703125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,Symbols.EMPTY.value(),METHOD_INVOCATION, line no: 75, 0.703125, 0.703125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,Symbols.EMPTY,QUALIFIED_NAME, line no: 75, 0.703125, 0.703125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze[row][column]=Symbols.START.value(),ASSIGNMENT, line no: 78, 0.703125, 0.703125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,Symbols.START.value(),METHOD_INVOCATION, line no: 78, 0.703125, 0.703125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,Symbols.START,QUALIFIED_NAME, line no: 78, 0.703125, 0.703125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,initialLoc=new Point(x y),ASSIGNMENT, line no: 79, 0.703125, 0.703125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,new Point(x y),CLASS_INSTANCE_CREATION, line no: 79, 0.703125, 0.703125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze[row][column]=Symbols.GOAL.value(),ASSIGNMENT, line no: 82, 0.703125, 0.703125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,Symbols.GOAL.value(),METHOD_INVOCATION, line no: 82, 0.703125, 0.703125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,Symbols.GOAL,QUALIFIED_NAME, line no: 82, 0.703125, 0.703125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,goalLoc=new Point(x y),ASSIGNMENT, line no: 83, 0.703125, 0.703125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze[row][column]=Symbols.OCCUPIED.value(),ASSIGNMENT, line no: 86, 0.703125, 0.703125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,Symbols.OCCUPIED.value(),METHOD_INVOCATION, line no: 86, 0.703125, 0.703125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,Symbols.OCCUPIED,QUALIFIED_NAME, line no: 86, 0.703125, 0.703125, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,initialLoc,SIMPLE_NAME, line no: 30, 0.6923076923076923, 0.03076923076923077, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,goalLoc,SIMPLE_NAME, line no: 31, 0.6923076923076923, 0.03076923076923077, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,Symbols,SIMPLE_NAME, line no: 35, 0.6923076923076923, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,OCCUPIED,SIMPLE_NAME, line no: 36, 0.6923076923076923, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,EMPTY,SIMPLE_NAME, line no: 37, 0.6923076923076923, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,' ',CHARACTER_LITERAL, line no: 37, 0.6923076923076923, 0.0, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,START,SIMPLE_NAME, line no: 38, 0.6923076923076923, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,'@',CHARACTER_LITERAL, line no: 38, 0.6923076923076923, 0.0, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,GOAL,SIMPLE_NAME, line no: 39, 0.6923076923076923, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,'O',CHARACTER_LITERAL, line no: 39, 0.6923076923076923, 0.0, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,value,SIMPLE_NAME, line no: 46, 0.6923076923076923, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze[row][column]=Symbols.EMPTY.value(),ASSIGNMENT, line no: 75, 0.6923076923076923, 0.6923076923076923, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze[row][column],ARRAY_ACCESS, line no: 75, 0.6923076923076923, 0.6923076923076923, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze[row],ARRAY_ACCESS, line no: 75, 0.6923076923076923, 0.6923076923076923, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,Symbols.EMPTY.value(),METHOD_INVOCATION, line no: 75, 0.6923076923076923, 0.6923076923076923, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,Symbols.EMPTY,QUALIFIED_NAME, line no: 75, 0.6923076923076923, 0.6923076923076923, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze[row][column]=Symbols.START.value(),ASSIGNMENT, line no: 78, 0.6923076923076923, 0.6923076923076923, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,Symbols.START.value(),METHOD_INVOCATION, line no: 78, 0.6923076923076923, 0.6923076923076923, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,Symbols.START,QUALIFIED_NAME, line no: 78, 0.6923076923076923, 0.6923076923076923, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,initialLoc=new Point(x y),ASSIGNMENT, line no: 79, 0.6923076923076923, 0.6923076923076923, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,new Point(x y),CLASS_INSTANCE_CREATION, line no: 79, 0.6923076923076923, 0.6923076923076923, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze[row][column]=Symbols.GOAL.value(),ASSIGNMENT, line no: 82, 0.6923076923076923, 0.6923076923076923, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,Symbols.GOAL.value(),METHOD_INVOCATION, line no: 82, 0.6923076923076923, 0.6923076923076923, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,Symbols.GOAL,QUALIFIED_NAME, line no: 82, 0.6923076923076923, 0.6923076923076923, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,goalLoc=new Point(x y),ASSIGNMENT, line no: 83, 0.6923076923076923, 0.6923076923076923, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze[row][column]=Symbols.OCCUPIED.value(),ASSIGNMENT, line no: 86, 0.6923076923076923, 0.6923076923076923, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,Symbols.OCCUPIED.value(),METHOD_INVOCATION, line no: 86, 0.6923076923076923, 0.6923076923076923, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,Symbols.OCCUPIED,QUALIFIED_NAME, line no: 86, 0.6923076923076923, 0.6923076923076923, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,ArrayList,SIMPLE_NAME, line no: 20, 0.65625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,points,SIMPLE_NAME, line no: 108, 0.65625, 0.65625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,ArrayList,SIMPLE_NAME, line no: 20, 0.65625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,points,SIMPLE_NAME, line no: 108, 0.65625, 0.65625, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,ArrayList,SIMPLE_NAME, line no: 20, 0.6461538461538462, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,points,SIMPLE_NAME, line no: 108, 0.6461538461538462, 0.6461538461538462, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,ArrayList,SIMPLE_NAME, line no: 20, 0.6461538461538462, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,points,SIMPLE_NAME, line no: 108, 0.6461538461538462, 0.6461538461538462, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,List,SIMPLE_NAME, line no: 23, 0.640625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,new ArrayList<Point>(),CLASS_INSTANCE_CREATION, line no: 108, 0.640625, 0.640625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,List,SIMPLE_NAME, line no: 23, 0.640625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,new ArrayList<Point>(),CLASS_INSTANCE_CREATION, line no: 108, 0.640625, 0.640625, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,List,SIMPLE_NAME, line no: 23, 0.6307692307692307, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,new ArrayList<Point>(),CLASS_INSTANCE_CREATION, line no: 108, 0.6307692307692307, 0.6307692307692307, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,List,SIMPLE_NAME, line no: 23, 0.6307692307692307, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,new ArrayList<Point>(),CLASS_INSTANCE_CREATION, line no: 108, 0.6307692307692307, 0.6307692307692307, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,int column=-1,VARIABLE_DECLARATION_EXPRESSION, line no: 171, 0.59375, 0.59375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,int column=-1,VARIABLE_DECLARATION_EXPRESSION, line no: 171, 0.59375, 0.59375, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,int column=-1,VARIABLE_DECLARATION_EXPRESSION, line no: 171, 0.5846153846153846, 0.5846153846153846, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,int column=-1,VARIABLE_DECLARATION_EXPRESSION, line no: 171, 0.5846153846153846, 0.5846153846153846, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,column <= 1,INFIX_EXPRESSION, line no: 171, 0.578125, 0.578125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,column <= 1,INFIX_EXPRESSION, line no: 171, 0.578125, 0.578125, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,column <= 1,INFIX_EXPRESSION, line no: 171, 0.5692307692307692, 0.5692307692307692, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,column <= 1,INFIX_EXPRESSION, line no: 171, 0.5692307692307692, 0.5692307692307692, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,i,SIMPLE_NAME, line no: 199, 0.5625, 0.5625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,toStringArray,SIMPLE_NAME, line no: 141, 0.5625, 0.5625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,i,SIMPLE_NAME, line no: 199, 0.5625, 0.5625, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,toStringArray,SIMPLE_NAME, line no: 141, 0.5538461538461539, 0.5538461538461539, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,i,SIMPLE_NAME, line no: 199, 0.5538461538461539, 0.5538461538461539, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,toStringArray,SIMPLE_NAME, line no: 141, 0.5538461538461539, 0.5538461538461539, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,i,SIMPLE_NAME, line no: 199, 0.5538461538461539, 0.5538461538461539, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,String,SIMPLE_NAME, line no: 59, 0.546875, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,copyMaze,SIMPLE_NAME, line no: 141, 0.546875, 0.546875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,toStringArray,SIMPLE_NAME, line no: 141, 0.546875, 0.546875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,str,SIMPLE_NAME, line no: 198, 0.546875, 0.546875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,String,SIMPLE_NAME, line no: 59, 0.546875, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,copyMaze,SIMPLE_NAME, line no: 141, 0.546875, 0.546875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,toStringArray(),METHOD_INVOCATION, line no: 141, 0.546875, 0.546875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,toCharArray(),METHOD_INVOCATION, line no: 197, 0.546875, 0.546875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,str,SIMPLE_NAME, line no: 198, 0.546875, 0.546875, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,String,SIMPLE_NAME, line no: 59, 0.5384615384615384, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,copyMaze,SIMPLE_NAME, line no: 141, 0.5384615384615384, 0.5384615384615384, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,toStringArray(),METHOD_INVOCATION, line no: 141, 0.5384615384615384, 0.5384615384615384, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,toCharArray(),METHOD_INVOCATION, line no: 197, 0.5384615384615384, 0.5384615384615384, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,str,SIMPLE_NAME, line no: 198, 0.5384615384615384, 0.5384615384615384, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,String,SIMPLE_NAME, line no: 59, 0.5384615384615384, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,copyMaze,SIMPLE_NAME, line no: 141, 0.5384615384615384, 0.5384615384615384, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,toStringArray(),METHOD_INVOCATION, line no: 141, 0.5384615384615384, 0.5384615384615384, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,str,SIMPLE_NAME, line no: 198, 0.5384615384615384, 0.5384615384615384, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,toStringArray(),METHOD_INVOCATION, line no: 141, 0.53125, 0.53125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,new String[chars.length],ARRAY_CREATION, line no: 198, 0.53125, 0.53125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,chars.length,QUALIFIED_NAME, line no: 198, 0.53125, 0.53125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 199, 0.53125, 0.53125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,i < chars.length,INFIX_EXPRESSION, line no: 199, 0.53125, 0.53125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,i++,POSTFIX_EXPRESSION, line no: 199, 0.53125, 0.53125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,new String[chars.length],ARRAY_CREATION, line no: 198, 0.53125, 0.53125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,chars.length,QUALIFIED_NAME, line no: 198, 0.53125, 0.53125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 199, 0.53125, 0.53125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,i < chars.length,INFIX_EXPRESSION, line no: 199, 0.53125, 0.53125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,i++,POSTFIX_EXPRESSION, line no: 199, 0.53125, 0.53125, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,new String[chars.length],ARRAY_CREATION, line no: 198, 0.5230769230769231, 0.5230769230769231, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,chars.length,QUALIFIED_NAME, line no: 198, 0.5230769230769231, 0.5230769230769231, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 199, 0.5230769230769231, 0.5230769230769231, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,i < chars.length,INFIX_EXPRESSION, line no: 199, 0.5230769230769231, 0.5230769230769231, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,i++,POSTFIX_EXPRESSION, line no: 199, 0.5230769230769231, 0.5230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,new String[chars.length],ARRAY_CREATION, line no: 198, 0.5230769230769231, 0.5230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,chars.length,QUALIFIED_NAME, line no: 198, 0.5230769230769231, 0.5230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,int i=0,VARIABLE_DECLARATION_EXPRESSION, line no: 199, 0.5230769230769231, 0.5230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,i < chars.length,INFIX_EXPRESSION, line no: 199, 0.5230769230769231, 0.5230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,i++,POSTFIX_EXPRESSION, line no: 199, 0.5230769230769231, 0.5230769230769231, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,p,SIMPLE_NAME, line no: 92, 0.515625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,path,SIMPLE_NAME, line no: 140, 0.515625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,p,SIMPLE_NAME, line no: 92, 0.515625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,path,SIMPLE_NAME, line no: 140, 0.515625, 0.015625, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,p,SIMPLE_NAME, line no: 92, 0.5076923076923077, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,path,SIMPLE_NAME, line no: 140, 0.5076923076923077, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,p,SIMPLE_NAME, line no: 92, 0.5076923076923077, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,path,SIMPLE_NAME, line no: 140, 0.5076923076923077, 0.015384615384615385, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,column < size,INFIX_EXPRESSION, line no: 100, 0.484375, 0.484375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,ArrayIndexOutOfBoundsException,SIMPLE_NAME, line no: 162, 0.484375, 0.109375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,ex,SIMPLE_NAME, line no: 162, 0.484375, 0.109375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,output,SIMPLE_NAME, line no: 207, 0.484375, 0.484375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,stringArray,SIMPLE_NAME, line no: 208, 0.484375, 0.484375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,column < size,INFIX_EXPRESSION, line no: 100, 0.484375, 0.484375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,ArrayIndexOutOfBoundsException,SIMPLE_NAME, line no: 162, 0.484375, 0.109375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,ex,SIMPLE_NAME, line no: 162, 0.484375, 0.109375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,output,SIMPLE_NAME, line no: 207, 0.484375, 0.484375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,stringArray,SIMPLE_NAME, line no: 208, 0.484375, 0.484375, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,column < size,INFIX_EXPRESSION, line no: 100, 0.47692307692307695, 0.47692307692307695, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,ArrayIndexOutOfBoundsException,SIMPLE_NAME, line no: 162, 0.47692307692307695, 0.1076923076923077, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,ex,SIMPLE_NAME, line no: 162, 0.47692307692307695, 0.1076923076923077, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,output,SIMPLE_NAME, line no: 207, 0.47692307692307695, 0.47692307692307695, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,stringArray,SIMPLE_NAME, line no: 208, 0.47692307692307695, 0.47692307692307695, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,column < size,INFIX_EXPRESSION, line no: 100, 0.47692307692307695, 0.47692307692307695, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,ArrayIndexOutOfBoundsException,SIMPLE_NAME, line no: 162, 0.47692307692307695, 0.1076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,ex,SIMPLE_NAME, line no: 162, 0.47692307692307695, 0.1076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,output,SIMPLE_NAME, line no: 207, 0.47692307692307695, 0.47692307692307695, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,stringArray,SIMPLE_NAME, line no: 208, 0.47692307692307695, 0.47692307692307695, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze.length,QUALIFIED_NAME, line no: 53, 0.46875, 0.328125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,isFree,SIMPLE_NAME, line no: 92, 0.46875, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,"",STRING_LITERAL, line no: 207, 0.46875, 0.46875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,i < maze.length,INFIX_EXPRESSION, line no: 209, 0.46875, 0.46875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze.length,QUALIFIED_NAME, line no: 53, 0.46875, 0.328125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,isFree,SIMPLE_NAME, line no: 92, 0.46875, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,"",STRING_LITERAL, line no: 207, 0.46875, 0.46875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,i < maze.length,INFIX_EXPRESSION, line no: 209, 0.46875, 0.46875, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze.length,QUALIFIED_NAME, line no: 53, 0.46153846153846156, 0.3384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,isFree,SIMPLE_NAME, line no: 92, 0.46153846153846156, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,"",STRING_LITERAL, line no: 207, 0.46153846153846156, 0.46153846153846156, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,i < maze.length,INFIX_EXPRESSION, line no: 209, 0.46153846153846156, 0.46153846153846156, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze.length,QUALIFIED_NAME, line no: 53, 0.46153846153846156, 0.3230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,isFree,SIMPLE_NAME, line no: 92, 0.46153846153846156, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,"",STRING_LITERAL, line no: 207, 0.46153846153846156, 0.46153846153846156, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,i < maze.length,INFIX_EXPRESSION, line no: 209, 0.46153846153846156, 0.46153846153846156, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,isFree(new Point(loc.x + column loc.y + row)),METHOD_INVOCATION, line no: 173, 0.453125, 0.453125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,new Point(loc.x + column loc.y + row),CLASS_INSTANCE_CREATION, line no: 173, 0.453125, 0.453125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,loc.x + column,INFIX_EXPRESSION, line no: 173, 0.453125, 0.453125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,loc.x,QUALIFIED_NAME, line no: 173, 0.453125, 0.453125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,loc.y + row,INFIX_EXPRESSION, line no: 173, 0.453125, 0.453125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,loc.y,QUALIFIED_NAME, line no: 173, 0.453125, 0.453125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,isFree(new Point(loc.x + column loc.y + row)),METHOD_INVOCATION, line no: 173, 0.453125, 0.453125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,new Point(loc.x + column loc.y + row),CLASS_INSTANCE_CREATION, line no: 173, 0.453125, 0.453125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,loc.x + column,INFIX_EXPRESSION, line no: 173, 0.453125, 0.453125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,loc.x,QUALIFIED_NAME, line no: 173, 0.453125, 0.453125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,loc.y + row,INFIX_EXPRESSION, line no: 173, 0.453125, 0.453125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,loc.y,QUALIFIED_NAME, line no: 173, 0.453125, 0.453125, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,isFree(new Point(loc.x + column loc.y + row)),METHOD_INVOCATION, line no: 173, 0.4461538461538462, 0.4461538461538462, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,new Point(loc.x + column loc.y + row),CLASS_INSTANCE_CREATION, line no: 173, 0.4461538461538462, 0.4461538461538462, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,loc.x + column,INFIX_EXPRESSION, line no: 173, 0.4461538461538462, 0.4461538461538462, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,loc.x,QUALIFIED_NAME, line no: 173, 0.4461538461538462, 0.4461538461538462, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,loc.y + row,INFIX_EXPRESSION, line no: 173, 0.4461538461538462, 0.4461538461538462, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,loc.y,QUALIFIED_NAME, line no: 173, 0.4461538461538462, 0.4461538461538462, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,isFree(new Point(loc.x + column loc.y + row)),METHOD_INVOCATION, line no: 173, 0.4461538461538462, 0.4461538461538462, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,new Point(loc.x + column loc.y + row),CLASS_INSTANCE_CREATION, line no: 173, 0.4461538461538462, 0.4461538461538462, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,loc.x + column,INFIX_EXPRESSION, line no: 173, 0.4461538461538462, 0.4461538461538462, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,loc.x,QUALIFIED_NAME, line no: 173, 0.4461538461538462, 0.4461538461538462, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,loc.y + row,INFIX_EXPRESSION, line no: 173, 0.4461538461538462, 0.4461538461538462, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,loc.y,QUALIFIED_NAME, line no: 173, 0.4461538461538462, 0.4461538461538462, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,nextDouble,SIMPLE_NAME, line no: 101, 0.40625, 0.40625, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,nextDouble,SIMPLE_NAME, line no: 101, 0.4, 0.4, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,nextDouble,SIMPLE_NAME, line no: 101, 0.4, 0.4, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,spaceProb,SIMPLE_NAME, line no: 96, 0.390625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,nextDouble,SIMPLE_NAME, line no: 101, 0.390625, 0.390625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,1.0d,NUMBER_LITERAL, line no: 101, 0.390625, 0.390625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,spaceProb,SIMPLE_NAME, line no: 96, 0.390625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,r.nextDouble(),METHOD_INVOCATION, line no: 101, 0.390625, 0.390625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,1.0d,NUMBER_LITERAL, line no: 101, 0.390625, 0.390625, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,spaceProb,SIMPLE_NAME, line no: 96, 0.38461538461538464, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,r.nextDouble(),METHOD_INVOCATION, line no: 101, 0.38461538461538464, 0.38461538461538464, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,1.0d,NUMBER_LITERAL, line no: 101, 0.38461538461538464, 0.38461538461538464, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,spaceProb,SIMPLE_NAME, line no: 96, 0.38461538461538464, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,r.nextDouble(),METHOD_INVOCATION, line no: 101, 0.38461538461538464, 0.38461538461538464, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,1.0d,NUMBER_LITERAL, line no: 101, 0.38461538461538464, 0.38461538461538464, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,p.y,QUALIFIED_NAME, line no: 93, 0.375, 0.28125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,p.x,QUALIFIED_NAME, line no: 93, 0.375, 0.265625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,r.nextDouble() > (1.0d - spaceProb),INFIX_EXPRESSION, line no: 101, 0.375, 0.375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,r.nextDouble(),METHOD_INVOCATION, line no: 101, 0.375, 0.375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,(1.0d - spaceProb),PARENTHESIZED_EXPRESSION, line no: 101, 0.375, 0.375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,1.0d - spaceProb,INFIX_EXPRESSION, line no: 101, 0.375, 0.375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,validLocation,SIMPLE_NAME, line no: 145, 0.375, 0.375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,p.y,QUALIFIED_NAME, line no: 93, 0.375, 0.28125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,p.x,QUALIFIED_NAME, line no: 93, 0.375, 0.265625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,r.nextDouble() > (1.0d - spaceProb),INFIX_EXPRESSION, line no: 101, 0.375, 0.375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,(1.0d - spaceProb),PARENTHESIZED_EXPRESSION, line no: 101, 0.375, 0.375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,1.0d - spaceProb,INFIX_EXPRESSION, line no: 101, 0.375, 0.375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,validLocation,SIMPLE_NAME, line no: 145, 0.375, 0.375, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,p.y,QUALIFIED_NAME, line no: 93, 0.36923076923076925, 0.27692307692307694, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,p.x,QUALIFIED_NAME, line no: 93, 0.36923076923076925, 0.26153846153846155, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,r.nextDouble() > (1.0d - spaceProb),INFIX_EXPRESSION, line no: 101, 0.36923076923076925, 0.36923076923076925, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,(1.0d - spaceProb),PARENTHESIZED_EXPRESSION, line no: 101, 0.36923076923076925, 0.36923076923076925, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,1.0d - spaceProb,INFIX_EXPRESSION, line no: 101, 0.36923076923076925, 0.36923076923076925, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,validLocation,SIMPLE_NAME, line no: 145, 0.36923076923076925, 0.36923076923076925, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,p.y,QUALIFIED_NAME, line no: 93, 0.36923076923076925, 0.27692307692307694, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,p.x,QUALIFIED_NAME, line no: 93, 0.36923076923076925, 0.26153846153846155, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,r.nextDouble() > (1.0d - spaceProb),INFIX_EXPRESSION, line no: 101, 0.36923076923076925, 0.36923076923076925, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,(1.0d - spaceProb),PARENTHESIZED_EXPRESSION, line no: 101, 0.36923076923076925, 0.36923076923076925, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,1.0d - spaceProb,INFIX_EXPRESSION, line no: 101, 0.36923076923076925, 0.36923076923076925, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,validLocation,SIMPLE_NAME, line no: 145, 0.36923076923076925, 0.36923076923076925, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze[row][column]=(r.nextDouble() > (1.0d - spaceProb)) ? Symbols.EMPTY.value() : Symbols.OCCUPIED.value(),ASSIGNMENT, line no: 101, 0.359375, 0.359375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,(r.nextDouble() > (1.0d - spaceProb)) ? Symbols.EMPTY.value() : Symbols.OCCUPIED.value(),CONDITIONAL_EXPRESSION, line no: 101, 0.359375, 0.359375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,(r.nextDouble() > (1.0d - spaceProb)),PARENTHESIZED_EXPRESSION, line no: 101, 0.359375, 0.359375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,validLocation(p),METHOD_INVOCATION, line no: 145, 0.359375, 0.359375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze1[row][column] != maze2[row][column],INFIX_EXPRESSION, line no: 221, 0.359375, 0.359375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze1[row][column],ARRAY_ACCESS, line no: 221, 0.359375, 0.359375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze1[row],ARRAY_ACCESS, line no: 221, 0.359375, 0.359375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze2[row][column],ARRAY_ACCESS, line no: 221, 0.359375, 0.359375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze2[row],ARRAY_ACCESS, line no: 221, 0.359375, 0.359375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze[row][column]=(r.nextDouble() > (1.0d - spaceProb)) ? Symbols.EMPTY.value() : Symbols.OCCUPIED.value(),ASSIGNMENT, line no: 101, 0.359375, 0.359375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,(r.nextDouble() > (1.0d - spaceProb)) ? Symbols.EMPTY.value() : Symbols.OCCUPIED.value(),CONDITIONAL_EXPRESSION, line no: 101, 0.359375, 0.359375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,(r.nextDouble() > (1.0d - spaceProb)),PARENTHESIZED_EXPRESSION, line no: 101, 0.359375, 0.359375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,validLocation(p),METHOD_INVOCATION, line no: 145, 0.359375, 0.359375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze1[row][column] != maze2[row][column],INFIX_EXPRESSION, line no: 221, 0.359375, 0.359375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze1[row][column],ARRAY_ACCESS, line no: 221, 0.359375, 0.359375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze1[row],ARRAY_ACCESS, line no: 221, 0.359375, 0.359375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze2[row][column],ARRAY_ACCESS, line no: 221, 0.359375, 0.359375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze2[row],ARRAY_ACCESS, line no: 221, 0.359375, 0.359375, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,initial,SIMPLE_NAME, line no: 51, 0.35384615384615387, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,goal,SIMPLE_NAME, line no: 51, 0.35384615384615387, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze[0],ARRAY_ACCESS, line no: 54, 0.35384615384615387, 0.35384615384615387, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze[row][column]=(r.nextDouble() > (1.0d - spaceProb)) ? Symbols.EMPTY.value() : Symbols.OCCUPIED.value(),ASSIGNMENT, line no: 101, 0.35384615384615387, 0.35384615384615387, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,(r.nextDouble() > (1.0d - spaceProb)) ? Symbols.EMPTY.value() : Symbols.OCCUPIED.value(),CONDITIONAL_EXPRESSION, line no: 101, 0.35384615384615387, 0.35384615384615387, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,(r.nextDouble() > (1.0d - spaceProb)),PARENTHESIZED_EXPRESSION, line no: 101, 0.35384615384615387, 0.35384615384615387, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,validLocation(p),METHOD_INVOCATION, line no: 145, 0.35384615384615387, 0.35384615384615387, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze1[row][column] != maze2[row][column],INFIX_EXPRESSION, line no: 221, 0.35384615384615387, 0.35384615384615387, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze1[row][column],ARRAY_ACCESS, line no: 221, 0.35384615384615387, 0.35384615384615387, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze1[row],ARRAY_ACCESS, line no: 221, 0.35384615384615387, 0.35384615384615387, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze2[row][column],ARRAY_ACCESS, line no: 221, 0.35384615384615387, 0.35384615384615387, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze2[row],ARRAY_ACCESS, line no: 221, 0.35384615384615387, 0.35384615384615387, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze[row][column]=(r.nextDouble() > (1.0d - spaceProb)) ? Symbols.EMPTY.value() : Symbols.OCCUPIED.value(),ASSIGNMENT, line no: 101, 0.35384615384615387, 0.35384615384615387, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,(r.nextDouble() > (1.0d - spaceProb)) ? Symbols.EMPTY.value() : Symbols.OCCUPIED.value(),CONDITIONAL_EXPRESSION, line no: 101, 0.35384615384615387, 0.35384615384615387, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,(r.nextDouble() > (1.0d - spaceProb)),PARENTHESIZED_EXPRESSION, line no: 101, 0.35384615384615387, 0.35384615384615387, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,validLocation(p),METHOD_INVOCATION, line no: 145, 0.35384615384615387, 0.35384615384615387, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze1[row][column] != maze2[row][column],INFIX_EXPRESSION, line no: 221, 0.35384615384615387, 0.35384615384615387, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze1[row][column],ARRAY_ACCESS, line no: 221, 0.35384615384615387, 0.35384615384615387, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze1[row],ARRAY_ACCESS, line no: 221, 0.35384615384615387, 0.35384615384615387, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze2[row][column],ARRAY_ACCESS, line no: 221, 0.35384615384615387, 0.35384615384615387, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze2[row],ARRAY_ACCESS, line no: 221, 0.35384615384615387, 0.35384615384615387, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,initial,SIMPLE_NAME, line no: 51, 0.34375, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,goal,SIMPLE_NAME, line no: 51, 0.34375, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.maze,FIELD_ACCESS, line no: 52, 0.34375, 0.328125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze[0],ARRAY_ACCESS, line no: 54, 0.34375, 0.34375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,s,SIMPLE_NAME, line no: 242, 0.34375, 0.34375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,initial,SIMPLE_NAME, line no: 51, 0.34375, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,goal,SIMPLE_NAME, line no: 51, 0.34375, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this.maze,FIELD_ACCESS, line no: 52, 0.34375, 0.328125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze[0],ARRAY_ACCESS, line no: 54, 0.34375, 0.34375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,s,SIMPLE_NAME, line no: 242, 0.34375, 0.34375, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.maze=maze,ASSIGNMENT, line no: 52, 0.3384615384615385, 0.3384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.maze,FIELD_ACCESS, line no: 52, 0.3384615384615385, 0.3384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.rows=maze.length,ASSIGNMENT, line no: 53, 0.3384615384615385, 0.3384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.columns=maze[0].length,ASSIGNMENT, line no: 54, 0.3384615384615385, 0.3384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,maze[0].length,FIELD_ACCESS, line no: 54, 0.3384615384615385, 0.3384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.initialLoc=initial,ASSIGNMENT, line no: 55, 0.3384615384615385, 0.3384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.initialLoc,FIELD_ACCESS, line no: 55, 0.3384615384615385, 0.3384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.goalLoc=goal,ASSIGNMENT, line no: 56, 0.3384615384615385, 0.3384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.goalLoc,FIELD_ACCESS, line no: 56, 0.3384615384615385, 0.3384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,s,SIMPLE_NAME, line no: 242, 0.3384615384615385, 0.3384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,initial,SIMPLE_NAME, line no: 51, 0.3384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,goal,SIMPLE_NAME, line no: 51, 0.3384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.maze,FIELD_ACCESS, line no: 52, 0.3384615384615385, 0.3230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze[0],ARRAY_ACCESS, line no: 54, 0.3384615384615385, 0.3384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,s,SIMPLE_NAME, line no: 242, 0.3384615384615385, 0.3384615384615385, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,symbol,SIMPLE_NAME, line no: 40, 0.328125, 0.03125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.maze=maze,ASSIGNMENT, line no: 52, 0.328125, 0.328125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.rows=maze.length,ASSIGNMENT, line no: 53, 0.328125, 0.328125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.columns=maze[0].length,ASSIGNMENT, line no: 54, 0.328125, 0.328125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,maze[0].length,FIELD_ACCESS, line no: 54, 0.328125, 0.328125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.initialLoc=initial,ASSIGNMENT, line no: 55, 0.328125, 0.328125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.initialLoc,FIELD_ACCESS, line no: 55, 0.328125, 0.328125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.goalLoc=goal,ASSIGNMENT, line no: 56, 0.328125, 0.328125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.goalLoc,FIELD_ACCESS, line no: 56, 0.328125, 0.328125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.maze[row],ARRAY_ACCESS, line no: 120, 0.328125, 0.328125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,values,SIMPLE_NAME, line no: 190, 0.328125, 0.328125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,symbol,SIMPLE_NAME, line no: 40, 0.328125, 0.03125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this.maze=maze,ASSIGNMENT, line no: 52, 0.328125, 0.328125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this.rows=maze.length,ASSIGNMENT, line no: 53, 0.328125, 0.328125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this.columns=maze[0].length,ASSIGNMENT, line no: 54, 0.328125, 0.328125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,maze[0].length,FIELD_ACCESS, line no: 54, 0.328125, 0.328125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this.initialLoc=initial,ASSIGNMENT, line no: 55, 0.328125, 0.328125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this.initialLoc,FIELD_ACCESS, line no: 55, 0.328125, 0.328125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this.goalLoc=goal,ASSIGNMENT, line no: 56, 0.328125, 0.328125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this.goalLoc,FIELD_ACCESS, line no: 56, 0.328125, 0.328125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this.maze[row],ARRAY_ACCESS, line no: 120, 0.328125, 0.328125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,getMazePath,SIMPLE_NAME, line no: 140, 0.328125, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,values,SIMPLE_NAME, line no: 190, 0.328125, 0.328125, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,symbol,SIMPLE_NAME, line no: 40, 0.3230769230769231, 0.03076923076923077, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.maze[row],ARRAY_ACCESS, line no: 120, 0.3230769230769231, 0.3230769230769231, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,getMazePath,SIMPLE_NAME, line no: 140, 0.3230769230769231, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,values,SIMPLE_NAME, line no: 190, 0.3230769230769231, 0.3230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,symbol,SIMPLE_NAME, line no: 40, 0.3230769230769231, 0.03076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.maze=maze,ASSIGNMENT, line no: 52, 0.3230769230769231, 0.3230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.rows=maze.length,ASSIGNMENT, line no: 53, 0.3230769230769231, 0.3230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.columns=maze[0].length,ASSIGNMENT, line no: 54, 0.3230769230769231, 0.3230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,maze[0].length,FIELD_ACCESS, line no: 54, 0.3230769230769231, 0.3230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.initialLoc=initial,ASSIGNMENT, line no: 55, 0.3230769230769231, 0.3230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.initialLoc,FIELD_ACCESS, line no: 55, 0.3230769230769231, 0.3230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.goalLoc=goal,ASSIGNMENT, line no: 56, 0.3230769230769231, 0.3230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.goalLoc,FIELD_ACCESS, line no: 56, 0.3230769230769231, 0.3230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.maze[row],ARRAY_ACCESS, line no: 120, 0.3230769230769231, 0.3230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,getMazePath,SIMPLE_NAME, line no: 140, 0.3230769230769231, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,values,SIMPLE_NAME, line no: 190, 0.3230769230769231, 0.3230769230769231, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.maze[row][column],ARRAY_ACCESS, line no: 120, 0.3125, 0.3125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,symbol.value(),METHOD_INVOCATION, line no: 120, 0.3125, 0.3125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,getMazePath,SIMPLE_NAME, line no: 140, 0.3125, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,line,SIMPLE_NAME, line no: 153, 0.3125, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,StringBuilder,SIMPLE_NAME, line no: 154, 0.3125, 0.28125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,Symbols.values(),METHOD_INVOCATION, line no: 190, 0.3125, 0.3125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this.maze[row][column],ARRAY_ACCESS, line no: 120, 0.3125, 0.3125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,symbol.value(),METHOD_INVOCATION, line no: 120, 0.3125, 0.3125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,line,SIMPLE_NAME, line no: 153, 0.3125, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,StringBuilder,SIMPLE_NAME, line no: 154, 0.3125, 0.28125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,Symbols.values(),METHOD_INVOCATION, line no: 190, 0.3125, 0.3125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this.getMazePath(points),METHOD_INVOCATION, line no: 243, 0.3125, 0.3125, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.maze[row][column],ARRAY_ACCESS, line no: 120, 0.3076923076923077, 0.3076923076923077, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,symbol.value(),METHOD_INVOCATION, line no: 120, 0.3076923076923077, 0.3076923076923077, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,line,SIMPLE_NAME, line no: 153, 0.3076923076923077, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,StringBuilder,SIMPLE_NAME, line no: 154, 0.3076923076923077, 0.27692307692307694, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,Symbols.values(),METHOD_INVOCATION, line no: 190, 0.3076923076923077, 0.3076923076923077, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.getMazePath(points),METHOD_INVOCATION, line no: 243, 0.3076923076923077, 0.3076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.maze[row][column],ARRAY_ACCESS, line no: 120, 0.3076923076923077, 0.3076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,symbol.value(),METHOD_INVOCATION, line no: 120, 0.3076923076923077, 0.3076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,line,SIMPLE_NAME, line no: 153, 0.3076923076923077, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,StringBuilder,SIMPLE_NAME, line no: 154, 0.3076923076923077, 0.27692307692307694, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,Symbols.values(),METHOD_INVOCATION, line no: 190, 0.3076923076923077, 0.3076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.getMazePath(points),METHOD_INVOCATION, line no: 243, 0.3076923076923077, 0.3076923076923077, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,add,SIMPLE_NAME, line no: 111, 0.296875, 0.1875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.maze[row][column]=symbol.value(),ASSIGNMENT, line no: 120, 0.296875, 0.296875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,l,SIMPLE_NAME, line no: 154, 0.296875, 0.296875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,new StringBuilder(line),CLASS_INSTANCE_CREATION, line no: 154, 0.296875, 0.296875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,Symbols.values()[maze[row][column]].symbol,FIELD_ACCESS, line no: 190, 0.296875, 0.296875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,Symbols.values()[maze[row][column]],ARRAY_ACCESS, line no: 190, 0.296875, 0.296875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.getMazePath(points),METHOD_INVOCATION, line no: 243, 0.296875, 0.296875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,add,SIMPLE_NAME, line no: 111, 0.296875, 0.1875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this.maze[row][column]=symbol.value(),ASSIGNMENT, line no: 120, 0.296875, 0.296875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,l,SIMPLE_NAME, line no: 154, 0.296875, 0.296875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,new StringBuilder(line),CLASS_INSTANCE_CREATION, line no: 154, 0.296875, 0.296875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,Symbols.values()[maze[row][column]].symbol,FIELD_ACCESS, line no: 190, 0.296875, 0.296875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,Symbols.values()[maze[row][column]],ARRAY_ACCESS, line no: 190, 0.296875, 0.296875, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,add,SIMPLE_NAME, line no: 111, 0.2923076923076923, 0.18461538461538463, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.maze[row][column]=symbol.value(),ASSIGNMENT, line no: 120, 0.2923076923076923, 0.2923076923076923, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,l,SIMPLE_NAME, line no: 154, 0.2923076923076923, 0.2923076923076923, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,new StringBuilder(line),CLASS_INSTANCE_CREATION, line no: 154, 0.2923076923076923, 0.2923076923076923, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,Symbols.values()[maze[row][column]].symbol,FIELD_ACCESS, line no: 190, 0.2923076923076923, 0.2923076923076923, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,Symbols.values()[maze[row][column]],ARRAY_ACCESS, line no: 190, 0.2923076923076923, 0.2923076923076923, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,add,SIMPLE_NAME, line no: 111, 0.2923076923076923, 0.18461538461538463, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.maze[row][column]=symbol.value(),ASSIGNMENT, line no: 120, 0.2923076923076923, 0.2923076923076923, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,l,SIMPLE_NAME, line no: 154, 0.2923076923076923, 0.2923076923076923, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,new StringBuilder(line),CLASS_INSTANCE_CREATION, line no: 154, 0.2923076923076923, 0.2923076923076923, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,Symbols.values()[maze[row][column]].symbol,FIELD_ACCESS, line no: 190, 0.2923076923076923, 0.2923076923076923, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,Symbols.values()[maze[row][column]],ARRAY_ACCESS, line no: 190, 0.2923076923076923, 0.2923076923076923, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.maze[p.y],ARRAY_ACCESS, line no: 93, 0.28125, 0.28125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,position,SIMPLE_NAME, line no: 153, 0.28125, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,c,SIMPLE_NAME, line no: 153, 0.28125, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,setCharAt,SIMPLE_NAME, line no: 155, 0.28125, 0.28125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,toString,SIMPLE_NAME, line no: 156, 0.28125, 0.28125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,validMoves.add(new Point(loc.x + column loc.y + row)),METHOD_INVOCATION, line no: 174, 0.28125, 0.28125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,chars[row][column]=Symbols.values()[maze[row][column]].symbol,ASSIGNMENT, line no: 190, 0.28125, 0.28125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,chars[row][column],ARRAY_ACCESS, line no: 190, 0.28125, 0.28125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,chars[row],ARRAY_ACCESS, line no: 190, 0.28125, 0.28125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this.maze[p.y],ARRAY_ACCESS, line no: 93, 0.28125, 0.28125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,position,SIMPLE_NAME, line no: 153, 0.28125, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,c,SIMPLE_NAME, line no: 153, 0.28125, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,setCharAt,SIMPLE_NAME, line no: 155, 0.28125, 0.28125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,toString,SIMPLE_NAME, line no: 156, 0.28125, 0.28125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,validMoves.add(new Point(loc.x + column loc.y + row)),METHOD_INVOCATION, line no: 174, 0.28125, 0.28125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,chars[row][column]=Symbols.values()[maze[row][column]].symbol,ASSIGNMENT, line no: 190, 0.28125, 0.28125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,chars[row][column],ARRAY_ACCESS, line no: 190, 0.28125, 0.28125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,chars[row],ARRAY_ACCESS, line no: 190, 0.28125, 0.28125, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.maze[p.y],ARRAY_ACCESS, line no: 93, 0.27692307692307694, 0.27692307692307694, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,position,SIMPLE_NAME, line no: 153, 0.27692307692307694, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,c,SIMPLE_NAME, line no: 153, 0.27692307692307694, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,setCharAt,SIMPLE_NAME, line no: 155, 0.27692307692307694, 0.27692307692307694, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,toString,SIMPLE_NAME, line no: 156, 0.27692307692307694, 0.27692307692307694, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,validMoves.add(new Point(loc.x + column loc.y + row)),METHOD_INVOCATION, line no: 174, 0.27692307692307694, 0.27692307692307694, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,chars[row][column]=Symbols.values()[maze[row][column]].symbol,ASSIGNMENT, line no: 190, 0.27692307692307694, 0.27692307692307694, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,chars[row][column],ARRAY_ACCESS, line no: 190, 0.27692307692307694, 0.27692307692307694, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,chars[row],ARRAY_ACCESS, line no: 190, 0.27692307692307694, 0.27692307692307694, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.maze[p.y],ARRAY_ACCESS, line no: 93, 0.27692307692307694, 0.27692307692307694, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,position,SIMPLE_NAME, line no: 153, 0.27692307692307694, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,c,SIMPLE_NAME, line no: 153, 0.27692307692307694, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,setCharAt,SIMPLE_NAME, line no: 155, 0.27692307692307694, 0.27692307692307694, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,toString,SIMPLE_NAME, line no: 156, 0.27692307692307694, 0.27692307692307694, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,validMoves.add(new Point(loc.x + column loc.y + row)),METHOD_INVOCATION, line no: 174, 0.27692307692307694, 0.27692307692307694, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,chars[row][column]=Symbols.values()[maze[row][column]].symbol,ASSIGNMENT, line no: 190, 0.27692307692307694, 0.27692307692307694, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,chars[row][column],ARRAY_ACCESS, line no: 190, 0.27692307692307694, 0.27692307692307694, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,chars[row],ARRAY_ACCESS, line no: 190, 0.27692307692307694, 0.27692307692307694, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.maze[p.y][p.x],ARRAY_ACCESS, line no: 93, 0.265625, 0.265625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,l.setCharAt(position c),METHOD_INVOCATION, line no: 155, 0.265625, 0.265625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,l.toString(),METHOD_INVOCATION, line no: 156, 0.265625, 0.265625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this.maze[p.y][p.x],ARRAY_ACCESS, line no: 93, 0.265625, 0.265625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,l.setCharAt(position c),METHOD_INVOCATION, line no: 155, 0.265625, 0.265625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,l.toString(),METHOD_INVOCATION, line no: 156, 0.265625, 0.265625, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.maze[p.y][p.x],ARRAY_ACCESS, line no: 93, 0.26153846153846155, 0.26153846153846155, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,l.setCharAt(position c),METHOD_INVOCATION, line no: 155, 0.26153846153846155, 0.26153846153846155, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,l.toString(),METHOD_INVOCATION, line no: 156, 0.26153846153846155, 0.26153846153846155, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.maze[p.y][p.x],ARRAY_ACCESS, line no: 93, 0.26153846153846155, 0.26153846153846155, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,l.setCharAt(position c),METHOD_INVOCATION, line no: 155, 0.26153846153846155, 0.26153846153846155, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,l.toString(),METHOD_INVOCATION, line no: 156, 0.26153846153846155, 0.26153846153846155, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.maze[p.y][p.x] > Symbols.OCCUPIED.value(),INFIX_EXPRESSION, line no: 93, 0.25, 0.25, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this.maze[p.y][p.x] > Symbols.OCCUPIED.value(),INFIX_EXPRESSION, line no: 93, 0.25, 0.25, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.maze[p.y][p.x] > Symbols.OCCUPIED.value(),INFIX_EXPRESSION, line no: 93, 0.24615384615384617, 0.24615384615384617, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.maze[p.y][p.x] > Symbols.OCCUPIED.value(),INFIX_EXPRESSION, line no: 93, 0.24615384615384617, 0.24615384615384617, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,new Point(column row),CLASS_INSTANCE_CREATION, line no: 111, 0.203125, 0.1875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,copyMaze[row],ARRAY_ACCESS, line no: 146, 0.203125, 0.1875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,replaceChar,SIMPLE_NAME, line no: 146, 0.203125, 0.203125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,copyValueOf,SIMPLE_NAME, line no: 200, 0.203125, 0.203125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,chars[i],ARRAY_ACCESS, line no: 200, 0.203125, 0.203125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,new Point(column row),CLASS_INSTANCE_CREATION, line no: 111, 0.203125, 0.1875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,copyMaze[row],ARRAY_ACCESS, line no: 146, 0.203125, 0.1875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,replaceChar,SIMPLE_NAME, line no: 146, 0.203125, 0.203125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,copyValueOf,SIMPLE_NAME, line no: 200, 0.203125, 0.203125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,chars[i],ARRAY_ACCESS, line no: 200, 0.203125, 0.203125, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,new Point(column row),CLASS_INSTANCE_CREATION, line no: 111, 0.2, 0.18461538461538463, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,copyMaze[row],ARRAY_ACCESS, line no: 146, 0.2, 0.18461538461538463, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,replaceChar,SIMPLE_NAME, line no: 146, 0.2, 0.2, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,copyValueOf,SIMPLE_NAME, line no: 200, 0.2, 0.2, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,chars[i],ARRAY_ACCESS, line no: 200, 0.2, 0.2, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,new Point(column row),CLASS_INSTANCE_CREATION, line no: 111, 0.2, 0.18461538461538463, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,copyMaze[row],ARRAY_ACCESS, line no: 146, 0.2, 0.18461538461538463, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,replaceChar,SIMPLE_NAME, line no: 146, 0.2, 0.2, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,copyValueOf,SIMPLE_NAME, line no: 200, 0.2, 0.2, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,chars[i],ARRAY_ACCESS, line no: 200, 0.2, 0.2, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,replaceChar(copyMaze[row] column '.'),METHOD_INVOCATION, line no: 146, 0.1875, 0.1875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,'.',CHARACTER_LITERAL, line no: 146, 0.1875, 0.1875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,str[i],ARRAY_ACCESS, line no: 200, 0.1875, 0.1875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,String.copyValueOf(chars[i]),METHOD_INVOCATION, line no: 200, 0.1875, 0.1875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,differentLocations.add(new Point(column row)),METHOD_INVOCATION, line no: 222, 0.1875, 0.1875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,replaceChar(copyMaze[row] column '.'),METHOD_INVOCATION, line no: 146, 0.1875, 0.1875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,'.',CHARACTER_LITERAL, line no: 146, 0.1875, 0.1875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,str[i],ARRAY_ACCESS, line no: 200, 0.1875, 0.1875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,String.copyValueOf(chars[i]),METHOD_INVOCATION, line no: 200, 0.1875, 0.1875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,differentLocations.add(new Point(column row)),METHOD_INVOCATION, line no: 222, 0.1875, 0.1875, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,replaceChar(copyMaze[row] column '.'),METHOD_INVOCATION, line no: 146, 0.18461538461538463, 0.18461538461538463, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,'.',CHARACTER_LITERAL, line no: 146, 0.18461538461538463, 0.18461538461538463, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,str[i],ARRAY_ACCESS, line no: 200, 0.18461538461538463, 0.18461538461538463, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,String.copyValueOf(chars[i]),METHOD_INVOCATION, line no: 200, 0.18461538461538463, 0.18461538461538463, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,differentLocations.add(new Point(column row)),METHOD_INVOCATION, line no: 222, 0.18461538461538463, 0.18461538461538463, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,replaceChar(copyMaze[row] column '.'),METHOD_INVOCATION, line no: 146, 0.18461538461538463, 0.18461538461538463, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,'.',CHARACTER_LITERAL, line no: 146, 0.18461538461538463, 0.18461538461538463, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,str[i],ARRAY_ACCESS, line no: 200, 0.18461538461538463, 0.18461538461538463, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,String.copyValueOf(chars[i]),METHOD_INVOCATION, line no: 200, 0.18461538461538463, 0.18461538461538463, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,differentLocations.add(new Point(column row)),METHOD_INVOCATION, line no: 222, 0.18461538461538463, 0.18461538461538463, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,points.add(new Point(column row)),METHOD_INVOCATION, line no: 111, 0.171875, 0.171875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,copyMaze[row]=replaceChar(copyMaze[row] column '.'),ASSIGNMENT, line no: 146, 0.171875, 0.171875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,str[i]=String.copyValueOf(chars[i]),ASSIGNMENT, line no: 200, 0.171875, 0.171875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,format,SIMPLE_NAME, line no: 210, 0.171875, 0.171875, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,stringArray[i],ARRAY_ACCESS, line no: 210, 0.171875, 0.171875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,points.add(new Point(column row)),METHOD_INVOCATION, line no: 111, 0.171875, 0.171875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,copyMaze[row]=replaceChar(copyMaze[row] column '.'),ASSIGNMENT, line no: 146, 0.171875, 0.171875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,str[i]=String.copyValueOf(chars[i]),ASSIGNMENT, line no: 200, 0.171875, 0.171875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,format,SIMPLE_NAME, line no: 210, 0.171875, 0.171875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,stringArray[i],ARRAY_ACCESS, line no: 210, 0.171875, 0.171875, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,concat,SIMPLE_NAME, line no: 244, 0.171875, 0.171875, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,points.add(new Point(column row)),METHOD_INVOCATION, line no: 111, 0.16923076923076924, 0.16923076923076924, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,copyMaze[row]=replaceChar(copyMaze[row] column '.'),ASSIGNMENT, line no: 146, 0.16923076923076924, 0.16923076923076924, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,str[i]=String.copyValueOf(chars[i]),ASSIGNMENT, line no: 200, 0.16923076923076924, 0.16923076923076924, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,format,SIMPLE_NAME, line no: 210, 0.16923076923076924, 0.16923076923076924, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,stringArray[i],ARRAY_ACCESS, line no: 210, 0.16923076923076924, 0.16923076923076924, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,concat,SIMPLE_NAME, line no: 244, 0.16923076923076924, 0.16923076923076924, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,points.add(new Point(column row)),METHOD_INVOCATION, line no: 111, 0.16923076923076924, 0.16923076923076924, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,copyMaze[row]=replaceChar(copyMaze[row] column '.'),ASSIGNMENT, line no: 146, 0.16923076923076924, 0.16923076923076924, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,str[i]=String.copyValueOf(chars[i]),ASSIGNMENT, line no: 200, 0.16923076923076924, 0.16923076923076924, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,format,SIMPLE_NAME, line no: 210, 0.16923076923076924, 0.16923076923076924, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,stringArray[i],ARRAY_ACCESS, line no: 210, 0.16923076923076924, 0.16923076923076924, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,concat,SIMPLE_NAME, line no: 244, 0.16923076923076924, 0.16923076923076924, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,String.format("%s%n" stringArray[i]),METHOD_INVOCATION, line no: 210, 0.15625, 0.15625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,"%s%n",STRING_LITERAL, line no: 210, 0.15625, 0.15625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,concat,SIMPLE_NAME, line no: 244, 0.15625, 0.15625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,String.format("%s%n" stringArray[i]),METHOD_INVOCATION, line no: 210, 0.15625, 0.15625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,"%s%n",STRING_LITERAL, line no: 210, 0.15625, 0.15625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,s.concat(line),METHOD_INVOCATION, line no: 244, 0.15625, 0.15625, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,String.format("%s%n" stringArray[i]),METHOD_INVOCATION, line no: 210, 0.15384615384615385, 0.15384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,"%s%n",STRING_LITERAL, line no: 210, 0.15384615384615385, 0.15384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,s.concat(line),METHOD_INVOCATION, line no: 244, 0.15384615384615385, 0.15384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,String.format("%s%n" stringArray[i]),METHOD_INVOCATION, line no: 210, 0.15384615384615385, 0.15384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,"%s%n",STRING_LITERAL, line no: 210, 0.15384615384615385, 0.15384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,s.concat(line),METHOD_INVOCATION, line no: 244, 0.15384615384615385, 0.15384615384615385, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,output+=String.format("%s%n" stringArray[i]),ASSIGNMENT, line no: 210, 0.140625, 0.140625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,s.concat(line).concat("\n"),METHOD_INVOCATION, line no: 244, 0.140625, 0.140625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,s.concat(line),METHOD_INVOCATION, line no: 244, 0.140625, 0.140625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,"\n",STRING_LITERAL, line no: 244, 0.140625, 0.140625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,output+=String.format("%s%n" stringArray[i]),ASSIGNMENT, line no: 210, 0.140625, 0.140625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,s.concat(line).concat("\n"),METHOD_INVOCATION, line no: 244, 0.140625, 0.140625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,"\n",STRING_LITERAL, line no: 244, 0.140625, 0.140625, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,output+=String.format("%s%n" stringArray[i]),ASSIGNMENT, line no: 210, 0.13846153846153847, 0.13846153846153847, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,s.concat(line).concat("\n"),METHOD_INVOCATION, line no: 244, 0.13846153846153847, 0.13846153846153847, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,"\n",STRING_LITERAL, line no: 244, 0.13846153846153847, 0.13846153846153847, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,output+=String.format("%s%n" stringArray[i]),ASSIGNMENT, line no: 210, 0.13846153846153847, 0.13846153846153847, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,s.concat(line).concat("\n"),METHOD_INVOCATION, line no: 244, 0.13846153846153847, 0.13846153846153847, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,"\n",STRING_LITERAL, line no: 244, 0.13846153846153847, 0.13846153846153847, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,updateLocation,SIMPLE_NAME, line no: 117, 0.125, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,s=s.concat(line).concat("\n"),ASSIGNMENT, line no: 244, 0.125, 0.125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,updateLocation,SIMPLE_NAME, line no: 117, 0.125, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,s=s.concat(line).concat("\n"),ASSIGNMENT, line no: 244, 0.125, 0.125, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,updateLocation,SIMPLE_NAME, line no: 117, 0.12307692307692308, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,s=s.concat(line).concat("\n"),ASSIGNMENT, line no: 244, 0.12307692307692308, 0.12307692307692308, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,updateLocation,SIMPLE_NAME, line no: 117, 0.12307692307692308, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,s=s.concat(line).concat("\n"),ASSIGNMENT, line no: 244, 0.12307692307692308, 0.12307692307692308, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,updateLocation(p Symbols.OCCUPIED),METHOD_INVOCATION, line no: 124, 0.109375, 0.109375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,updateLocation(p Symbols.EMPTY),METHOD_INVOCATION, line no: 128, 0.109375, 0.109375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,updateLocation(p Symbols.OCCUPIED),METHOD_INVOCATION, line no: 124, 0.109375, 0.109375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,updateLocation(p Symbols.EMPTY),METHOD_INVOCATION, line no: 128, 0.109375, 0.109375, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,updateLocation(p Symbols.OCCUPIED),METHOD_INVOCATION, line no: 124, 0.1076923076923077, 0.1076923076923077, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,updateLocation(p Symbols.EMPTY),METHOD_INVOCATION, line no: 128, 0.1076923076923077, 0.1076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,updateLocation(p Symbols.OCCUPIED),METHOD_INVOCATION, line no: 124, 0.1076923076923077, 0.1076923076923077, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,updateLocation(p Symbols.EMPTY),METHOD_INVOCATION, line no: 128, 0.1076923076923077, 0.1076923076923077, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.symbol,FIELD_ACCESS, line no: 43, 0.09375, 0.09375, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,ordinal,SIMPLE_NAME, line no: 47, 0.09375, 0.09375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this.symbol,FIELD_ACCESS, line no: 43, 0.09375, 0.09375, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,ordinal,SIMPLE_NAME, line no: 47, 0.09375, 0.09375, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.symbol,FIELD_ACCESS, line no: 43, 0.09230769230769231, 0.09230769230769231, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,ordinal,SIMPLE_NAME, line no: 47, 0.09230769230769231, 0.09230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.symbol,FIELD_ACCESS, line no: 43, 0.09230769230769231, 0.09230769230769231, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,ordinal,SIMPLE_NAME, line no: 47, 0.09230769230769231, 0.09230769230769231, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.symbol=symbol,ASSIGNMENT, line no: 43, 0.078125, 0.078125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,this.ordinal(),METHOD_INVOCATION, line no: 47, 0.078125, 0.078125, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,isFree(loc),METHOD_INVOCATION, line no: 161, 0.078125, 0.078125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this.symbol=symbol,ASSIGNMENT, line no: 43, 0.078125, 0.078125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,this.ordinal(),METHOD_INVOCATION, line no: 47, 0.078125, 0.078125, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,isFree(loc),METHOD_INVOCATION, line no: 161, 0.078125, 0.078125, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.symbol=symbol,ASSIGNMENT, line no: 43, 0.07692307692307693, 0.07692307692307693, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,this.ordinal(),METHOD_INVOCATION, line no: 47, 0.07692307692307693, 0.07692307692307693, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,isFree(loc),METHOD_INVOCATION, line no: 161, 0.07692307692307693, 0.07692307692307693, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.symbol=symbol,ASSIGNMENT, line no: 43, 0.07692307692307693, 0.07692307692307693, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,this.ordinal(),METHOD_INVOCATION, line no: 47, 0.07692307692307693, 0.07692307692307693, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,isFree(loc),METHOD_INVOCATION, line no: 161, 0.07692307692307693, 0.07692307692307693, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,(byte)this.ordinal(),CAST_EXPRESSION, line no: 47, 0.0625, 0.0625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,(byte)this.ordinal(),CAST_EXPRESSION, line no: 47, 0.0625, 0.0625, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,(byte)this.ordinal(),CAST_EXPRESSION, line no: 47, 0.06153846153846154, 0.06153846153846154, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,(byte)this.ordinal(),CAST_EXPRESSION, line no: 47, 0.06153846153846154, 0.06153846153846154, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,es,SIMPLE_NAME, line no: 17, 0.015625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,usc,SIMPLE_NAME, line no: 17, 0.015625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,citius,SIMPLE_NAME, line no: 17, 0.015625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,lab,SIMPLE_NAME, line no: 17, 0.015625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,hipster,SIMPLE_NAME, line no: 17, 0.015625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,util,SIMPLE_NAME, line no: 17, 0.015625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,java,SIMPLE_NAME, line no: 19, 0.015625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,awt,SIMPLE_NAME, line no: 19, 0.015625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,random,SIMPLE_NAME, line no: 96, 0.015625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,getMazePoints,SIMPLE_NAME, line no: 107, 0.015625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,putObstacle,SIMPLE_NAME, line no: 123, 0.015625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,removeObstacle,SIMPLE_NAME, line no: 127, 0.015625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,false,BOOLEAN_LITERAL, line no: 163, 0.015625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,validLocationsFrom,SIMPLE_NAME, line no: 167, 0.015625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,Override,SIMPLE_NAME, line no: 205, 0.015625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,diff,SIMPLE_NAME, line no: 215, 0.015625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,to,SIMPLE_NAME, line no: 215, 0.015625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,getMaze,SIMPLE_NAME, line no: 229, 0.015625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,getInitialLoc,SIMPLE_NAME, line no: 233, 0.015625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,getGoalLoc,SIMPLE_NAME, line no: 237, 0.015625, 0.015625, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,getMazeForPath,SIMPLE_NAME, line no: 241, 0.015625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,es,SIMPLE_NAME, line no: 17, 0.015625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,usc,SIMPLE_NAME, line no: 17, 0.015625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,citius,SIMPLE_NAME, line no: 17, 0.015625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,lab,SIMPLE_NAME, line no: 17, 0.015625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,hipster,SIMPLE_NAME, line no: 17, 0.015625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,util,SIMPLE_NAME, line no: 17, 0.015625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,java,SIMPLE_NAME, line no: 19, 0.015625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,awt,SIMPLE_NAME, line no: 19, 0.015625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,random,SIMPLE_NAME, line no: 96, 0.015625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,getMazePoints,SIMPLE_NAME, line no: 107, 0.015625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,putObstacle,SIMPLE_NAME, line no: 123, 0.015625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,removeObstacle,SIMPLE_NAME, line no: 127, 0.015625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,false,BOOLEAN_LITERAL, line no: 163, 0.015625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,validLocationsFrom,SIMPLE_NAME, line no: 167, 0.015625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,Override,SIMPLE_NAME, line no: 205, 0.015625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,diff,SIMPLE_NAME, line no: 215, 0.015625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,to,SIMPLE_NAME, line no: 215, 0.015625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,getMaze,SIMPLE_NAME, line no: 229, 0.015625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,getInitialLoc,SIMPLE_NAME, line no: 233, 0.015625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,getGoalLoc,SIMPLE_NAME, line no: 237, 0.015625, 0.015625, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,getMazeForPath,SIMPLE_NAME, line no: 241, 0.015625, 0.015625, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,es,SIMPLE_NAME, line no: 17, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,usc,SIMPLE_NAME, line no: 17, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,citius,SIMPLE_NAME, line no: 17, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,lab,SIMPLE_NAME, line no: 17, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,hipster,SIMPLE_NAME, line no: 17, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,util,SIMPLE_NAME, line no: 17, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,java,SIMPLE_NAME, line no: 19, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,awt,SIMPLE_NAME, line no: 19, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,getMazePoints,SIMPLE_NAME, line no: 107, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,putObstacle,SIMPLE_NAME, line no: 123, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,removeObstacle,SIMPLE_NAME, line no: 127, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,false,BOOLEAN_LITERAL, line no: 163, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,validLocationsFrom,SIMPLE_NAME, line no: 167, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,Override,SIMPLE_NAME, line no: 205, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,diff,SIMPLE_NAME, line no: 215, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,getMaze,SIMPLE_NAME, line no: 229, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,getInitialLoc,SIMPLE_NAME, line no: 233, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,getGoalLoc,SIMPLE_NAME, line no: 237, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,getMazeForPath,SIMPLE_NAME, line no: 241, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,es,SIMPLE_NAME, line no: 17, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,usc,SIMPLE_NAME, line no: 17, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,citius,SIMPLE_NAME, line no: 17, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,lab,SIMPLE_NAME, line no: 17, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,hipster,SIMPLE_NAME, line no: 17, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,util,SIMPLE_NAME, line no: 17, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,java,SIMPLE_NAME, line no: 19, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,awt,SIMPLE_NAME, line no: 19, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,random,SIMPLE_NAME, line no: 96, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,getMazePoints,SIMPLE_NAME, line no: 107, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,putObstacle,SIMPLE_NAME, line no: 123, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,removeObstacle,SIMPLE_NAME, line no: 127, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,false,BOOLEAN_LITERAL, line no: 163, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,validLocationsFrom,SIMPLE_NAME, line no: 167, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,Override,SIMPLE_NAME, line no: 205, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,diff,SIMPLE_NAME, line no: 215, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,to,SIMPLE_NAME, line no: 215, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,getMaze,SIMPLE_NAME, line no: 229, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,getInitialLoc,SIMPLE_NAME, line no: 233, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,getGoalLoc,SIMPLE_NAME, line no: 237, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,getMazeForPath,SIMPLE_NAME, line no: 241, 0.015384615384615385, 0.015384615384615385, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,es.usc.citius.lab.hipster.util.maze,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,es.usc.citius.lab.hipster.util,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,es.usc.citius.lab.hipster,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,es.usc.citius.lab,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,es.usc.citius,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,es.usc,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,java.awt.Point,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,java.awt,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,java.util.ArrayList,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,java.util,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,java.util.Collection,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,java.util.HashSet,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,java.util.List,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,java.util.Random,QUALIFIED_NAME, line no: 24, 0.0, 0.0, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,java.util.Set,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,'X',CHARACTER_LITERAL, line no: 36, 0.0, 0.0, 0.0, 0.0, 0.0
+maze2,SIMPLE_NAME, line no: 217,@Override,MARKER_ANNOTATION, line no: 205, 0.0, 0.0, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,es.usc.citius.lab.hipster.util.maze,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,es.usc.citius.lab.hipster.util,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,es.usc.citius.lab.hipster,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,es.usc.citius.lab,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,es.usc.citius,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,es.usc,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,java.awt.Point,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,java.awt,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,java.util.ArrayList,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,java.util,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,java.util.Collection,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,java.util.HashSet,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,java.util.List,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,java.util.Random,QUALIFIED_NAME, line no: 24, 0.0, 0.0, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,java.util.Set,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,'X',CHARACTER_LITERAL, line no: 36, 0.0, 0.0, 0.0, 0.0, 0.0
+this.toCharArray(),METHOD_INVOCATION, line no: 217,@Override,MARKER_ANNOTATION, line no: 205, 0.0, 0.0, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,es.usc.citius.lab.hipster.util.maze,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,es.usc.citius.lab.hipster.util,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,es.usc.citius.lab.hipster,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,es.usc.citius.lab,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,es.usc.citius,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,es.usc,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,java.awt.Point,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,java.awt,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,java.util.ArrayList,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,java.util,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,java.util.Collection,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,java.util.HashSet,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,java.util.List,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,java.util.Random,QUALIFIED_NAME, line no: 24, 0.0, 0.0, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,java.util.Set,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,'X',CHARACTER_LITERAL, line no: 36, 0.0, 0.0, 0.0, 0.0, 0.0
+this,THIS_EXPRESSION, line no: 217,@Override,MARKER_ANNOTATION, line no: 205, 0.0, 0.0, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,es.usc.citius.lab.hipster.util.maze,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,es.usc.citius.lab.hipster.util,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,es.usc.citius.lab.hipster,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,es.usc.citius.lab,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,es.usc.citius,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,es.usc,QUALIFIED_NAME, line no: 17, 0.0, 0.0, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,java.awt.Point,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,java.awt,QUALIFIED_NAME, line no: 19, 0.0, 0.0, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,java.util.ArrayList,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,java.util,QUALIFIED_NAME, line no: 20, 0.0, 0.0, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,java.util.Collection,QUALIFIED_NAME, line no: 21, 0.0, 0.0, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,java.util.HashSet,QUALIFIED_NAME, line no: 22, 0.0, 0.0, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,java.util.List,QUALIFIED_NAME, line no: 23, 0.0, 0.0, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,java.util.Random,QUALIFIED_NAME, line no: 24, 0.0, 0.0, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,java.util.Set,QUALIFIED_NAME, line no: 25, 0.0, 0.0, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,'X',CHARACTER_LITERAL, line no: 36, 0.0, 0.0, 0.0, 0.0, 0.0
+toCharArray,SIMPLE_NAME, line no: 217,@Override,MARKER_ANNOTATION, line no: 205, 0.0, 0.0, 0.0, 0.0, 0.0
